@@ -26,12 +26,6 @@ class LiteDatabase
         }
     }
 
-    private function track($type)
-    {
-        global $tracking;
-        $tracking->update($type);
-    }
-
     public function sql($sql)
     {
         if (!$this->connection) {
