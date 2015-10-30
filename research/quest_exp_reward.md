@@ -9,3 +9,5 @@ The `base` value can be found in the quest itself, offset: `reward_exp_bonus` [h
 The `paramgrow` value is found in the ParamGrow file! offset: `exp_mod` [https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/ParamGrow/param_grow_csv_xivdb.txt#L4](found here)
 
 The `level` is the level of the quest, offset `class_level` [https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt#L10](found here)
+
+I am unsure how the values `50` and `5` matter so much. The `50` was `45` before the expansion **HeavenSward**.
