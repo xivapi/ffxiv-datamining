@@ -1,5 +1,6 @@
 Achievements link to a "pre-requisite type" that defines it as completeed. The list of Types are:
 
+```
 1 kill stuff
 2 achievement
 3 class
@@ -20,6 +21,6 @@ Achievements link to a "pre-requisite type" that defines it as completeed. The l
 18 frontline
 19 frontline
 20 aether attune
-
+```
 
 An "is_or" relates to if the achievement requires multiple quests to be completed or just 1 out of a set.
