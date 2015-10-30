@@ -9,6 +9,8 @@ If you want to help with mapping data, click **Download ZIP** to download the re
 - Built by: https://www.reddit.com/user/Ioncannon
 - Download: http://ffxivexplorer.fragmenterworks.com/
 
+This is one of the best applications to just get stuck in with and get going somewhere. It is very well polished, has an excellent 3D model viewer.
+
 ## Saint Coinach
 - Managed by: Clorifex
 - GitHub: https://github.com/ufx/SaintCoinach
