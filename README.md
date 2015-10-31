@@ -12,7 +12,9 @@ If you want to help with mapping data, click **Download ZIP** to download the re
 This is one of the best applications to just get stuck in with and get going somewhere. It is very well polished, has an excellent 3D model viewer.
 
 ## Saint Coinach
-- Managed by: Clorifex
+- Written by Rogueadyn
+- GitHub: https://github.com/Rogueadyn/SaintCoinach
+- Updates by Clorifex
 - GitHub: https://github.com/ufx/SaintCoinach
 
 # APIs
