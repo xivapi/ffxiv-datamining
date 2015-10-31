@@ -19,9 +19,16 @@ Equation: ` fate offset 22 * paramgrow offset 8 + paramgrow offset 8 = exp`
 ---
 
 
+
 # Where it has not worked
 
-It hasn't worked when your character level is not the same as the fate level, so likely there is some manipulation of the equation for the level difference. This hasn't seem to be the case when level is higher, only lower.
+**Eye in the Sky, level 50 fate, level 50 char. 32400 (+50% exp..) - 21600 without bonus**
+- Eye in the Sky - fate id: 787, offset 22 = 54
+- paramgrow (id 50), offset 8 = 300
+
+Equation: `54 * 300 + 300 = 16500`
+
+---
 
 Baa Baa Black Sheep: id = 463
 
