@@ -1,0 +1,49 @@
+# SqPack Index Files
+
+Big thanks to: http://ffxivexplorer.fragmenterworks.com/research.php
+
+---
+
+#### INDEX FILE RESEARCH #### By Ioncannon
+
+Current research on SqPack Index files
+
+===SQPACK HEADER=== (0x400 in size)
+0x000: Signature        Int32; "SqPack", followed by 0's (12 bytes)
+0x00c: Header Length    Int32;  
+0x010: ~~Unknown~~             Int32; Unknown but repeated in other header
+0x014: SqPack Type      Int32; Type 0: SQDB, Type 1: Data, Type 2: Index
+0x018: ~~Unknown~~             A lot of 0s, but 0xFFFF at 0x20
+0x3c0: SHA-1 of Header    20B; SHA-1 of bytes 0x000-0x3BF, starts 64bytes before end of header
+~~~~~~~~Padding~~~~~~~~~       Padding of 0's till [Header Length]
+
+===SEGMENT HEADER=== (starts after SQPACK HEADER)
+0x000: Header Length    Int32;
+
+Each Segment follows this (starting right after header length):
+0x000: Unknown/Num Dats Int32; For segment 2 it's the number of dats for this archive (dat0, dat1, etc), for others unknown.
+0x004: Segment Offset   Int32; Offset to the segment
+0x008: Segment Size     Int32; How large a segment is
+0x00c: SHA-1 of Segment   20B; Hash of the segment... [Segment Offset] to [Segment Offset] + [Segment Size]
+
+Notes: 
+-Segment 1 is usually files, Segment 2/3 is unknown, Segment 4 is folders.
+-Segments may not exist, but their position is still treated as if they did (benchmark has no segment 3 but you still need to skip it's bytes).
+-Each segment is followed by a padding of 0x28 0's, except the first one, which has 4 extra 0s.
+
+===FILE SEGMENTS=== (each one is at each folder's [Files Offset], in segment 1) (Each is 16 bytes padded)
+0x000: File ID1 Hash    Int32; Hash to the file name
+0x004: File ID2 Hash    Int32; Hash to the file path
+0x008: File Data Offset Int32; Multiply by 0x08, points to compressed data in .dat file
+0x00b: Padding                 Padded to a total segment entry size of 16 bytes.
+
+===FOLDER SEGMENTS=== (seen in segment 3, points to files in segment 1) (Each is 16 bytes padded)
+0x000: FOLDER ID Hash   Int32; Hash to the folder name
+0x004: Files Offset     Int32; Offset to file list in segment 1.
+0x008: Total Files Size Int32; Total size of all file segments for this folder. To find # files, divide by 0x10 (16).
+0x00b: Padding                 Padded to a total segment entry size of 16 bytes.
+
+NOTES:
+
+-Check the final byte of the offset. If Offset & 0x000F == 2, then the offset is pointing to dat1 rather dat0. Also remember 
+to subtract the 0x2 out. Theoretically, 0x4 would mean dat2 but unknown as of now. 
