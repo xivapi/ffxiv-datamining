@@ -1,5 +1,12 @@
 # XIV-Datamining
-This repository is to serve as a place to share data mining information related to Final Fantasy XIV.
+This repository is to serve as a place to share data mining information related to Final Fantasy XIV. All findings and knowledge that each member discovers will be provided here for all in the FFXIV Community to read, learn and use.
+
+Huge thinks to the Team Members:
+- [Ioncannon](https://www.reddit.com/user/Ioncannon) from [FFXIV Explorer](http://ffxivexplorer.fragmenterworks.com)
+- [Clorifex](https://www.reddit.com/user/Clorifex) from [GarlandTools](http://www.garlandtools.org/db/)
+- [Hezkezl](https://www.reddit.com/user/Hezkezl) for being awesome
+
+--
 
 ## Helping out
 If you want to help with mapping data, click **Download ZIP** to download the repository (about 45mb), there are a lot of CSV files. You can open these and begin to match columns. It is a bit tedious and I hope to make a tool that will make the whole process simplier!
