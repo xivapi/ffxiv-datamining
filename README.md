@@ -1,7 +1,7 @@
 # XIV-Datamining
 This repository is to serve as a place to share data mining information related to Final Fantasy XIV. All findings and knowledge that each member discovers will be provided here for all in the FFXIV Community to read, learn and use.
 
-Huge thinks to the Team Members:
+Huge thanks to the community team members involved:
 - [Ioncannon](https://www.reddit.com/user/Ioncannon) from [FFXIV Explorer](http://ffxivexplorer.fragmenterworks.com)
 - [Clorifex](https://www.reddit.com/user/Clorifex) from [GarlandTools](http://www.garlandtools.org/db/)
 - [Hezkezl](https://www.reddit.com/user/Hezkezl) for being awesome
