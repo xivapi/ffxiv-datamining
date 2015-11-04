@@ -20,6 +20,49 @@ HQ values are just the difference, the "additional number", if an item is Accura
 
 An example can be found at offsets: [34, 50, 75 = value, param, hq](https://github.com/viion/XIV-Datamining/blob/master/offsets/Items/items_csv_xivdb_unverified.txt#L15-L17)
 
+# Max meld values
+
+```csharp
+class ItemLevel {
+    public int GetMaximum(BaseParam baseParam) {
+        const int Offset = -1;
+        return baseParam.Key == 0 ? 0 : Convert.ToInt32(this[Offset + baseParam.Key]);
+    }
+}
+
+class BaseParam {
+    public int GetMaximum(EquipSlotCategory category) {
+        const int Offset = 2;
+        return category.Key == 0 ? 0 : Convert.ToInt32(this[Offset + category.Key]);
+    }
+
+    public int GetModifier(int role) {
+        const int Offset = 24;
+        const int Maximum = 12;
+        if (role < 0 || role > Maximum)
+            return 0;
+        return Convert.ToInt32(this[Offset + role]);
+    }
+}
+
+class Equipment {
+    public int GetMaximumParamValue(BaseParam baseParam)
+        // Base value for the param based on the item's level
+        var maxBase = ItemLevel.GetMaximum(baseParam);
+        // Factor, in percent, for the param when applied to the item's equip slot
+        var slotFactor = baseParam.GetMaximum(EquipSlotCategory);
+        // Factor, in percent, for the param when used for the item's role
+        var roleModifier = baseParam.GetModifier(BaseParamModifier);
+    
+        // Rounding appears to use AwayFromZero.  Tested with:
+        // Velveteen Work Gloves (#3601) for gathering (34.5 -> 35)
+        // Gryphonskin Ring (#4526) for wind resistance (4.5 -> 5)
+        // Fingerless Goatskin Gloves of Gathering (#3578) for GP (2.5 -> 3)
+        return (int)Math.Round(maxBase * slotFactor * roleModifier / 10000.0, MidpointRounding.AwayFromZero);
+    }
+}
+```
+
 # Overall Item Level
 
 This one is really for gearset applications. 
