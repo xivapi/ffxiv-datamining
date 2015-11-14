@@ -10,7 +10,7 @@ The `paramgrow` value is found in the ParamGrow file! offset: `exp_mod` [https:/
 
 The `level` is the level of the quest, offset `class_level_1` (main class) [https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt#L10](found here)
 
-If a quest is a bove 50, it has an additional 10k exp per 100th base param.
+If a quest is a bove 50, it has an additional 10k exp per 100th base value.
 
 So after the question, you would do:
 
