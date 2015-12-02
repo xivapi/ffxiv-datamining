@@ -25,7 +25,7 @@ private double ToMapCoordinate(double val) {
 
 *Code samples in PHP*
 
-You can translate the `levels.exd` values to Long/Lat using the `x`, `y` and **scale** would be the maps ` [size_factor](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L679)`
+You can translate the `levels.exd` values to Long/Lat using the `x`, `y` and **scale** would be the maps [size_factor](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L679)
 
 ```
 function mapsRadiansToDegrees($rad)
