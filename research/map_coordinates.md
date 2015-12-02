@@ -27,7 +27,7 @@ private double ToMapCoordinate(double val) {
 
 You can translate the `levels.exd` values to Long/Lat using the `x`, `y` and **scale** would be the maps [size_factor](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L679)
 
-```
+```php
 function mapsRadiansToDegrees($rad)
 {
     return $rad / (pi() / 180);
@@ -54,7 +54,7 @@ function mapsTranslateXYZtoLatLong($x, $y, $scale = 100)
 
 To translate a `levels.exd` position to an in-game X/Y:
 
-```
+```php
 function mapsTranslateXYZToGame($x, $y, $scale, $tilescale = 50)
 {
     $map = 2048 / ($scale / 100);
@@ -73,7 +73,7 @@ function mapsTranslateXYZToGame($x, $y, $scale, $tilescale = 50)
 
 And finally, to translate an in game X/Y to a `levels.exd` position which can then be converted to a 2D or Long/Lat:
 
-```
+```php
 function mapsTranslateGameToXYZ($x, $y)
 {
 	$x = ($x*50)-25-1024;
