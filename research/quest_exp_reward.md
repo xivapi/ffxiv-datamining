@@ -1,21 +1,25 @@
 Quest experience points are generated using a small equation. Why this is done I am not sure as the values always seem static.
 
 ```js
-(base * paramgrow * (45 + 5 * level)) / 100;
+(exp_factor * quest_exp_modifier * (45 + 5 * class_level_1)) / 100;
 ```
 
-The `base` value can be found in the quest itself, offset: `reward_exp_bonus` [found here](https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt)
+The `exp_factor` value can be found in the **Quest** itself, offset: [found here](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L756)
 
-The `paramgrow` value is found in the ParamGrow file! offset: `exp_mod` [found here](https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/ParamGrow/param_grow_csv_xivdb.txt)
+The `quest_exp_modifier` value is found in the **ParamGrow** file! offset: `quest_exp_modifier` [found here](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L725)
 
-The `level` is the level of the quest, offset `class_level_1` (main class) [found here](https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt)
+The `class_level_1` is the level of the quest, found in the **Quest** itself, offset `class_level_1` (main class) [found here](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L737)
 
-If a quest is a bove 50, it has an additional 10k exp per 100th base value.
+If a quest is a bove 50, it has an additional 10k exp per 100th exp_factor value.
+
+If the `exp_factor` is 100, you ad 10,000 exp, if its 200, you add 20,000. etc.
 
 So after the question, you would do:
 
 ```js
-exp + (base / 100) * 10000;
+exp = (exp_factor * quest_exp_modifier * (45 + 5 * class_level_1)) / 100;
+
+exp + (exp_factor / 100) * 10000;
 ```
 
 Not fully confirmed this, but it has worked for a few 50+ quests I tested against.
