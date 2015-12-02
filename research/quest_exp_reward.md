@@ -4,11 +4,11 @@ Quest experience points are generated using a small equation. Why this is done I
 (base * paramgrow * (45 + 5 * level)) / 100;
 ```
 
-The `base` value can be found in the quest itself, offset: `reward_exp_bonus` [https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt](found here)
+The `base` value can be found in the quest itself, offset: `reward_exp_bonus` [found here](https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt)
 
-The `paramgrow` value is found in the ParamGrow file! offset: `exp_mod` [https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/ParamGrow/param_grow_csv_xivdb.txt](found here)
+The `paramgrow` value is found in the ParamGrow file! offset: `exp_mod` [found here](https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/ParamGrow/param_grow_csv_xivdb.txt)
 
-The `level` is the level of the quest, offset `class_level_1` (main class) [https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt#L10](found here)
+The `level` is the level of the quest, offset `class_level_1` (main class) [found here](https://github.com/viion/XIV-Datamining/blob/master/exd-xivdb-offsets/Quest/quest_csv_xivdb.txt)
 
 If a quest is a bove 50, it has an additional 10k exp per 100th base value.
 
