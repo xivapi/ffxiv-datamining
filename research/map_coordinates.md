@@ -74,10 +74,12 @@ function mapsTranslateXYZToGame($x, $y, $scale, $tilescale = 50)
 And finally, to translate an in game X/Y to a `levels.exd` position which can then be converted to a 2D or Long/Lat:
 
 ```php
-function mapsTranslateGameToXYZ($x, $y)
+function mapsTranslateGameToXYZ($x, $y, $scale)
 {
-	$x = ($x*50)-25-1024;
-	$y = ($y*50)-25-1024;
+	$scale = $scale / 100;
+	
+	$x = ($x*50)-25-(1024 / $scale);
+	$y = ($y*50)-25-(1024 / $scale);
 	
 	return [
 	    'x' => $x,
