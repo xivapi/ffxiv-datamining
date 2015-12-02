@@ -9,7 +9,11 @@ Huge thanks to the community team members involved:
 --
 
 ## Helping out
-If you want to help with mapping data, click **Download ZIP** to download the repository (about 45mb), there are a lot of CSV files. You can open these and begin to match columns. It is a bit tedious and I hope to make a tool that will make the whole process simplier!
+To help out, first you need a tool. They're all listed below. FFXIV Explorer can list data information through its application SaintCoinach has Godbert which can also do the same. Each tool provides a viewer for the EXD information as well as the index offsets in the header column.
+
+If you find a match between data, just throw up an Issue and we can sort it from there :D
+
+---
 
 ## Data Mining Tools
 ### FFXIV Explorer
@@ -40,6 +44,5 @@ This tool is highly expiremental, built in Python, it is broken in some areas.
 
 ---
 
-
 ### APIs
-The XIVDB website has an API here: http://v2.xivdb.com/api
+The XIVDB website has an API here: http://xivdb.com/api
