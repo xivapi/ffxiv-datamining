@@ -24,3 +24,15 @@ There is a `classes.dex` file which can be decompiled. https://github.com/pxb198
 # Viewing the data
 
 You can use a tool such as SQLLiteBrowser to view the data, but it will not output the SQLite file correctly. I've included some PHP code which can be used to connect to the SQLite file and you can then do normal SQL queries on the file.
+
+# Rooted Android Way
+
+If you have a rooted android phone, you can bypass a lot of the struggle of getting the APK online. Sometimes when SE only update the database file, they do not update the APK as it is not required, so a rooted phone is usually the easiest way to get the latest SQLite file.
+
+Libra **sqlite** file lives in the folder: `/data/data/com.square_enix.libra_eorzeaE/databases/app_data.sqlite`
+
+The app itself can be found: `/data/app/com.square_enix.libra_eorzeaE-1.apk`
+
+ES Explorer has the ability to view this folder quite easily by enabling root access.
+
+Sometimes you cannot send/share files directly from this folder, so copy it to your SD Card or out of a rooted folder (as some apps like gmail or dropbox don't have rooted access), once copied out you can upload to dropbox to access it or email it to yourself or however else you prefer to share files!
