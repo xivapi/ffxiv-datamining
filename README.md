@@ -45,4 +45,4 @@ This tool is highly expiremental, built in Python, it is broken in some areas.
 ---
 
 ### APIs
-The XIVDB website has an API here: http://xivdb.com/api
+The XIVDB website has an API here: https://github.com/viion/XIVDB-API
