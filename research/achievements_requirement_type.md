@@ -36,6 +36,8 @@ switch (achievement.type) {
 		return null;
 }
  ```
+ 
+---
 
 Achievements link to a "pre-requisite type" that defines it as completeed. The list of Types are:
 
