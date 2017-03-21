@@ -18,3 +18,21 @@ $path = $extended
   : '0'. $icon[1] . $icon[2] .'000';
 ```
 
+The result would be:
+
+- `26039`
+- Is less than 5? **yes**
+- Folder: `0 24 000` (the 0 we prepended)
+- Filename: `026039`
+- Result: ![Icon!](https://secure.xivdb.com/img/game/026000/026039.png)
+
+# XIVDB Icons
+
+It's possible to obtain icons based on their in-game ID, for example:
+
+- Word of the Magnate Replica = `16923`
+- Take first number for folder: `1`
+- Path: `/img/game_local/ 1 / 16923 .jpg`
+- Result: ![Icon!](https://secure.xivdb.com/img/game_local/1/16923.jpg)
+
+The XIVDB icons are not always available, when a new patch comes out it is difficult to get the latest icons.
