@@ -22,11 +22,13 @@ The result would be:
 
 - `26039`
 - Is less than 5? **yes**
-- Folder: `0 24 000` (the 0 we prepended)
+- Folder: `0 26 000` (the 0 we prepended)
 - Filename: `026039`
 - Result: ![Icon!](https://secure.xivdb.com/img/game/026000/026039.png)
 
 # XIVDB Icons
+
+> Items only.
 
 It's possible to obtain icons based on their in-game ID, for example:
 
