@@ -24,7 +24,9 @@ The result would be:
 - Is less than 5? **yes**
 - Folder: `0 26 000` (the 0 we prepended)
 - Filename: `026039`
-- Result: ![Icon!](https://secure.xivdb.com/img/game/026000/026039.png)
+- Result: /026000/026039.png ![Icon!](https://secure.xivdb.com/img/game/026000/026039.png)
+
+XIVDB Icons can be obtained via: `https://secure.xivdb.com/img/game/{id path}`
 
 # XIVDB Icons
 
