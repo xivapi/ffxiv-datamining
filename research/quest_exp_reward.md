@@ -1,7 +1,17 @@
 Quest experience points are generated using a small equation. Why this is done I am not sure as the values always seem static.
 
+### Note:
+
+For Quests level 50 or above, an additional formula is done, findings:
+
+https://docs.google.com/spreadsheets/d/15h13UbfqhxkD9BoQJkLvR66fnZRq6Wn6YxEMRXO9VE4/edit#gid=0
+
 ```js
+// pre level 50
 (exp_factor * quest_exp_modifier * (45 + 5 * class_level_1)) / 100;
+
+// If quest is 50 or above
+(exp_factor * quest_exp_modifier * (45 + 5 * class_level_1)) / 100 + (additive * (base / 100))
 ```
 
 - The `exp_factor` value can be found in the **Quest** itself, offset: [found here](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L756)
