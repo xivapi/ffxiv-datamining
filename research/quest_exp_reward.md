@@ -1,5 +1,25 @@
 Quest experience points are generated using a small equation. Why this is done I am not sure as the values always seem static.
 
+### New findings as of 27 September 2017:
+
+```
+(BASE is also known as EXP_FACTOR in godbert)
+
+
+LEVEL 1-49 use "Core Formula"
+	BASE * PARAMGROW * (45 + (5 * LEVEL)) / 100
+
+LEVEL 50-51 use "Core Formula" + "Secondary Formula with a 800 modifier  and a starting EXP of 800"
+	CORE + ((800 * (BASE / 100)) + ((LEVEL-52) * (800 * (BASE/100))))
+
+LEVEL 52-59 use "Core Formula" + "Secondary Formula with a 2000 modifier  and a starting EXP of 2000"
+	CORE + ((2000 * (BASE / 100)) + ((LEVEL-52) * (2000 * (BASE/100))))
+
+LEVEL 60-69 use "Core Formula" + "Secondary Formula with a 2000 modifier and a starting EXP of 37125"
+	CORE + ((37125 * (BASE / 100)) + ((LEVEL-60) * (3375 * (BASE/100))))
+```
+
+
 ### Note:
 
 For Quests level 50 or above, an additional formula is done, findings:
