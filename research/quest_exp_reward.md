@@ -17,6 +17,7 @@ LEVEL 52-59 use "Core Formula" + "Secondary Formula with a 2000 modifier  and a 
 
 LEVEL 60-69 use "Core Formula" + "Secondary Formula with a 2000 modifier and a starting EXP of 37125"
 	CORE + ((37125 * (BASE / 100)) + ((LEVEL-60) * (3375 * (BASE/100))))
+	exp = (A * B * (45 + (5 * C)) / 100) + ((37125 * (A/100)) + ((C-60) * (3375 * (A/100))))
 ```
 
 
