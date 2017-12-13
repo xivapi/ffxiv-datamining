@@ -8,7 +8,7 @@ Huge thanks to the community team members involved:
 - [Clorifex](https://www.reddit.com/user/Clorifex) from [GarlandTools](http://www.garlandtools.org/db/)
 - [Hezkezl](https://www.reddit.com/user/Hezkezl) for being awesome
 
----
+	
 
 ## Helping out
 
@@ -35,7 +35,11 @@ If you find a connection between files or an identification of data, throw up an
 
 A great tool showing really impressive results, it will allow you to view and export a lot of data. The source is all open for your luxery.
 
+	
+
 ---
+
+	
 
 ### APIs
 The XIVDB website has an API here: https://github.com/xivdb/api
