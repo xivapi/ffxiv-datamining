@@ -38,7 +38,7 @@ A great tool showing really impressive results, it will allow you to view and ex
 ---
 
 
-## Other cool projects
+**Other cool projects**
 
 - REST API for FFXIV via XIVDB: https://github.com/xivdb/api
 - (PHP) Lodestone Parser: https://github.com/viion/lodestone-php
