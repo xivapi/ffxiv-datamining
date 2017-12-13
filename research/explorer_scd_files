@@ -1,0 +1,157 @@
+#### SCD FILE RESEARCH #### By Ioncannon
+
+!Some information was based on VGMStream!
+
+Current research on SCD music/sound files. Sorry it's a mess.
+
+Structure (based on 0c0000.win32.index):
+
+===SEDB SSCF HEADER===
+0x00 Signature         Int64; SEDBSSCF
+0x08 Version           Int32; For FFXIV should be 3;
+0x0C ~~Unknown~~       Short; Seems to be always 0x0400
+0x0E Header Size~~     Short; Points to the address where the next header is (also size of this header). Seems to be always 0x30.
+0x10 File Size         Int32; Total File size
+~~~~~~~~Padding~~~~~~~~       Padded to fill 48 bytes (0x2F
+
+===OFFSETS HEADER===
+0x00 Size of Offset Table 0             Short;
+0x02 Size of Sound Entry Offset Table   Short; This is also the number of sounds in this file.
+0x04 Size of Offset Table 2             Short;
+0x06 ~~Unknown~~                        Short; In one file: 0x0001, in another 0x270F 
+0x08 Offset Table 0 Offset              Int32;
+0x0C Sound Entry Offset Table Offset    Int32;
+0x10 Offset to Offset Table 2           Int32; 
+0x14 ~~Unknown/Null~~~                  Int32;
+0x18 Offset To ???				        Int32; 
+  
+--Table 0: 4 * [Size of Table 1]
+--Table 1: 4 * [Size of Table 2]
+--Table 2: 4 * [Size of Table 3] ;Offsets to Sound Entries
+--Table 3: 4 * [Size of Table 1] 
+
+--Data 1 [Pointed from Table 3]
+--Data 2 [Pointed from Table 0]
+--Data 3 [Pointed from Table 1]
+  2027296
+---------------MUSIC IS HERE----------------------------
+  
+===SOUND ENTRY HEADER=== (32 byte header)
+0x00 Music File Length Int32; 
+0x04 Num Channels      Int32; 0x01: Mono, 0x02: Stereo, FFXIV is usually 0x02 channels
+0x08 Frequency         Int32; FFXIV is usually 44100HZ (AC440000)
+0x0C Data Type         Int32; 0x0C: MS-ADPCM, 0x06: OGG. FFXIV seems to use OGG for music, MS-ADPCM for sound.
+0x10 Loop Start        Int32; In Bytes. Calculation: (filesize/amount of samples)*sample
+0x14 Loop End          Int32; Ditto, if you wanted to loop a whole song, set this to the file's size.
+0x18 First Frame Pos   Int32; First OggS after (possibly, not always) encrypted header.
+0x1C Aux Chunk Count   Short; Number of Aux Chunks
+
+===AUX CHUNKS===
+-----MARK----
+0x00 ID                Int32; ASCII MARK Id
+0x04 Chunk Size        Int32; Size of this chunk, from start to end.
+0x08 Mark Table        ;Chunk Size / 4 entries.
+
+===IF MS-ADPCM===
+WAVEFORMATEX           See: http://msdn.microsoft.com/en-us/library/windows/desktop/dd390970%28v=vs.85%29.aspx
+ADPCMCOEFSET           Int32; * 7
+
+===IF OGG SEEK TABLE HEADER=== (32 bytes)
+0x00 Encode Type		   Short; Seems to tell what encoding is being used. 02,20 is XOR. 03,20 is Heavensward one.
+0x02 Encode Byte            Byte; If encoding is 02,20, XOR the header with this byte
+0x04 
+0x08 
+0x0c 
+0x10 Size of Seek Table    Int32; How many seek table entries there are.	
+0x14 Vorbis Header Size    Int32; Size of the Ogg Vorbis header (for decoding purpose).
+0x18 
+~~~~~~~~~Padding~~~~~~~~       Padded to fill 32bytes 	
+
+===SEEK TABLE=== (Size is 4 * [Num Seek Table])
+0x00 Seek Entry        Int32; An offset from the Vorbis header to some Ogg page. 
+
+===VORBIS HEADER== (Size is [Vorbis Header Size])
+-A standard Ogg Vorbis header. Check the encode byte in the seek table header to see if this header is encoded. If it is,
+XOR all header bytes with the encode byte.
+-Many songs have a LOOPSTART and LOOPEND comment tag defining where music should begin and end after the first loop.
+
+===DATA===
+Ogg Vorbis data is here
+
+--------------Duplicate Header-----------------------------
+It seems that the first header is 3 chunks in size, each 0x120 bytes long. It's the Vorbis
+Indentification, Comment, and Setup headers. This is repeated after. 
+
+-------------Heavensward Encoding--------------------------
+Square Enix had encrypted the Heavensward music using a strange algorithm. Before decoding, you need the XOR table which can be found in the .exe if you search for:
+
+3A 32 32 32 03 7E 12 F7 B2 E2 A2 67 32 32 22 32
+
+The XOR table is 0xFF byte long.
+
+Example code to decode (note dataLength is [Music File Length] in the entry header):
+
+private void xorDecodeFromTable(byte[] dataFile, int dataLength) {
+	int byte1 = dataLength & 0xFF & 0x7F;
+	int byte2 = byte1 & 0x3F;
+	for (int i = 0; i < dataFile.length; i++)
+	{			
+		int xorByte = XORTABLE[(byte2 + i) & 0xFF];
+		xorByte &= 0xFF;
+		xorByte ^= (dataFile[i]&0xFF);
+		xorByte ^= byte1;
+		dataFile[i] = (byte) xorByte;
+	}
+} 
+
+--------------To Inject OGG-------------------------------
+
+-Change total file size
+-Change single file size
+-Change First Frame Position value
+-Change Header length value
+-Add data to end
+
+--------------Putting MS-ADPCM into WAV--------------------
+-Write "RIFF"
+-Write 36 + [Size of first frame to end of file]
+-Write "WAVE"
+-Write "fmt "
+-Write 0x10
+-Write wave header
+-Write "data"
+-Write [Size of first frame to end of file]
+-Write data from [Size of first frame to end of file]
+ 
+--------------Ogg Vorbis format info for understanding the encrypted header-----------------
+
+===OGG PAGE===
+0x00 Signature        Int32;  Value is OggS 
+0x04 Version          Byte;   Seems to be 0x00 for FFXIV
+0x05 Type             Byte;   Type of header: 0x01: Continuation, 0x02: Beginning, 0x03: End
+0x06 Granule Position Int64;
+0x0E Serial Number    Int32;  Seems to be 0x00 for FFXIV
+0x12 Sequence Number  Int32;
+0x16 Checksum         Int32;
+0x1E Num Page Segs    Byte;   Seems to be 0x01 for FFXIV
+0x1F Segment table    Byte;   Each segment is a byte long, * 0x1E's value. However, FFXIV's music only has 1 segment it seems, thus 1 byte size.
+ 
+===VORBIS PAGE===
+0x00 Header Type      Byte;   Type of vorbis header: 0x01: ID Header, 0x03: Comment Header, 0x05: Setup Header. If has leading 0, audio header.
+0x01 Signature        6Bytes; VORBIS
+ 
+--If ID Header--
+1 [vorbis_version] = read 32 bits as unsigned integer
+2 [audio_channels] = read 8 bit integer as unsigned
+3 [audio_sample_rate] = read 32 bits as unsigned integer
+4 [bitrate_maximum] = read 32 bits as signed integer
+5 [bitrate_nominal] = read 32 bits as signed integer
+6 [bitrate_minimum] = read 32 bits as signed integer
+7 [blocksize_0] = 2 exponent (read 4 bits as unsigned integer)
+8 [blocksize_1] = 2 exponent (read 4 bits as unsigned integer)
+9 [framing_flag] = read one bit
+
+--If Comment Header---
+1 [vendor length] = read an unsigned integer of 32 bits
+2 [vendor string] = size of vendor length; Seems to be always �Xiph.Org libVorbis I 20040717� with a varying year.
+3 [fields] = read an unsigned integer of 32 bits; FFXIV only uses the LoopStart and LoopEnd fields
