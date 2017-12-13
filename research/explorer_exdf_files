@@ -1,0 +1,70 @@
+#### EXDF RESEARCH #### By Ioncannon
+
+Current research on EXDF files
+
+!!!NOTE: FILE IS IN BIG ENDIAN FORM!!!
+
+===HEADER=== (Header is 32 bytes, padded with 0s)
+0x000: Signature                Int32; "EXDF"
+0x004: Version              	Short; Seems to be always 0x0002
+0x006: Unknown              	Short;
+0x008: Offset Table Size    	Int32; Size of the offset table (below) 
+0x00C: Data Section Size    	Int32; Size of the string data section
+0x00F: Padding                   	 ;Up to 0x1F
+
+===OFFSET TABLE=== (starts 0x1F(32) bytes from 0x00)
+0x000: Index                	Int32; These continue on from page to page, not starting at 0 in every file.
+0x004: Offset               	Int32; Points to a string segment in the data section  
+
+===DATA SECTION=== (starts after [Offset Table] or [Offset Table Size] * 0x08 + 0x1F) THIS IS MOST LIKELY DEFINED IN EXH file.
+0x000: Size of chunk        	Int32; Starting after this header
+0x004: Unknown              	Short;
+0x006: Data Chunk
+	   String Chunk              	 ;After Data Chunk, look in EXH for size of data chunk to skip
+	
+~~~~~DEFINED IN EXH FILE~~~~~~~~~~~~
+
+------Data Types-----
+
+>=0x19: bitflags *
+
+0xb: 4 ints packed in 64 bits
+0x9: float
+0x7: uint
+0x6: int
+0x5: ushort
+0x4: short
+0x3: ubyte
+0x2: byte
+0x1: bool
+0x0: string
+
+*If greater or equal to 0x19, subtract datatype by 0x19. This value is the position of the bit in the data
+at the given offset. If bit == 1, true else false.
+
+------Variables------
+
+Special variables can be within strings. The follow the format:
+
+0x00: Start Marker, always 0x02
+0x01: Type
+0x02: Size of payload including End Marker
+0x03: Payload
+0x--: End marker, always 0x03
+
+Known Types:
+
+0x13: Color Change
+0x20: Value Amount?
+0x27: Name Start, (0x01 0x01 0x01 0x01)
+0x27: Name End, (0xCF 0x01 0x01 0x01)
+0x28: Icon?
+0x2E: Autotranslate
+
+
+Examples:
+
+<Player First Name>: 02 2C 0D FF 07 02 29 03 EB 02 03 FF 02 20 02 03 (File 0x67A9C0A, 0x1A79)
+<Player Last Name>:  02 2C 0D FF 07 02 29 03 EB 02 03 FF 02 20 03 03
+<HQ ICON> 02 28 0A FF 06 41 64 64 6F 6E 0A 01 03
+<Gil Amount> 02 20 03 E8 03 03 
