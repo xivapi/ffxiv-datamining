@@ -8,6 +8,17 @@ Huge thanks to the community team members involved:
 - [Clorifex](https://www.reddit.com/user/Clorifex) from [GarlandTools](http://www.garlandtools.org/db/)
 - [Hezkezl](https://www.reddit.com/user/Hezkezl) for being awesome
 
+## Updating CSV files:
+
+- Download and open **SaintCoinach.cmd**
+- Run: `rawexd`
+- Copy all the contents in the folder: `<date>/rawexd/**` to the `/csv` folder
+- Push a PR
+
+The idea is to maintain an easy diffing view of what has changed during a patch
+
+It would also be very useful to keep a history of `ex.json` files from SaintCoinach for each patch as the Korean and Chinese versions are on different patches than the Official live client.
+
 
 ## Helping out
 
