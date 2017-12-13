@@ -15,7 +15,7 @@ Huge thanks to the community team members involved:
 Getting started in datamining is quite easy. If you enjoy digging around CSV database files then you've come to the right place! The best place to start would be:
 
 - Download this repository and start looking at the files in the `/csv` folder
-- Download **Saint Coinach** and use either the `SaintCoinach.Cmd` to rip data, images, maps etc or `Godbert` to view data.
+- Download **SaintCoinach** and use either the `SaintCoinach.Cmd` or `Godbert` tools.
 	- Saint provides releases: https://github.com/ufx/SaintCoinach/releases
 
 If you find a connection between files or an identification of data, throw up an issue on the repository and it will be sorted :)
