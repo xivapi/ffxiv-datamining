@@ -1,0 +1,75 @@
+#### DAT FILE RESEARCH #### By Ioncannon
+
+Current research on SqPack Dat files
+
+Last Updated: 12/14/2014
+
+===SQPACK HEADER=== (0x400 in size)
+0x000: Signature        Int32; "SqPack", followed by 0's (12 bytes)
+0x00c: Header Length    Int32;  
+0x010: ~~Unknown~~      Int32; Unknown but repeated in other header
+0x014: SqPack Type      Int32; Type 0: SQDB, Type 1: Data, Type 2: Index
+0x018: ~~Unknown~~             A lot of 0s, but 0xFFFF at 0x20
+0x3c0: SHA-1 of Header  20B;   SHA-1 of bytes 0x000-0x3BF, starts 64bytes before end of header
+~~~~~~~~Padding~~~~~~~~~       Padding of 0's till [Header Length]
+
+===DATA HEADER=== (0x400 in size)
+0x000: Header Length    Int32;
+0x004: NULL
+0x008: ~~Unknown~~      Int32; Static Value of 0x10
+0x00c: Data Size        Int32; From end of this header (usually 0x800) to EOF. Divided by 0x08.
+0x010: Spanned DAT      Int32; 0x01 = .dat0, 0x02 = .dat1 or .dat2, etc
+0x014: NULL             Int32;
+0x018: Max File Size    Int32; Always 0x77359400 or 2GB. Interestingly if a file is > 2GB, a dat1 is formed. In 13 dat, is 20MB?
+0x01c: NULL             Int32;
+0x020: SHA1 of Data     20B;   From end of this header (usually 0x800) to EOF
+0x3c0: SHA1 of Header   20B;   Starts 64bytes before end of header
+~~~~~~~~~~Padding~~~~~~~       Padding of 0's till [Header Length]
+
+-----DATA IS BELOW THIS LINE------ !!!Use Index to find entries!!!
+
+~~~~~~~~~~~~~~
+
+===DATA ENTRY HEADER=== (Minimum size is 0x80) 
+0x000: Header Length     Int32; 
+0x004: Content Type      Int32; 0x01 - Empty Placeholder, 0x02 - Binary, 0x03 - Model, 0x04 - Texture
+0x008: Uncompressed Size Int32;
+0x00c: ~~Unknown~~       Int32;
+0x010: Block Buffer Size Int32; Buffer size need to read largest block
+0x014: Num Blocks        Int32;  
+
+===TYPE-2 BLOCK TABLE=== (Size of Num blocks)
+0x000: Offset                  Int32; From end of this header (Check [File Entry Offset] + [Header Length])
+0x004: Block Size              Short; Total Block Size, from beginning of header to end of padding.
+0x006: Decompressed Data Size  Short;
+
+===TYPE-3 BLOCK TABLE=== (Size of Num blocks)
+
+0x000: Unknown					           Int32; Always 0x05000001
+0x004: Frame Uncompressed Chunk	        44 Bytes; Each Block Follows Pattern: 5 Ints, 12b of NULL, 3 Ints. Size when uncompressed, but rounded
+0x030: Frame Size Chunk			        44 Bytes; Size of each frame (can be more than 1 data block).
+0x05C: Frame Offset Chunk		        44 Bytes; Offset to start of frame. 
+0x088: Block Size Indexes				   Short; Indexes into the next table below???
+0x0D0: Block Size Table			Num Blocks*Short; Size of each data block below
+			
+===TYPE-4 BLOCK TABLE=== (Size of Num blocks)
+0x000: Frame Offset				Int32; Starting block for this frame.
+0x004: Frame Size				Int32; This is the total size of the whole frame.
+0x008: Unknown				    Int32;
+0x00C: Frame Blocksize Offset  	Int32; Offset starting from the end of the block table, to the first size.
+0x010: Frame Blocksize Count	Int32; How many blocks this frame contains.
+0x000: Frame Block Size         Short; The size of the block in this frame. 
+
+~~~~~~~~~~~~~~
+
+~~~EXTRACTED FILE HEADER MAY BE HERE, PREPEND TO EXTRACT FILE~~~
+
+-----Zlib compressed data starts here------- !!!Used Block table to find each block!!!
+
+===BLOCK HEADER===
+0x000: Header Size         Int32; Seems to be always 0x10bytes
+0x004: NULL                Int32;
+0x008: Compressed Length   Int32; If this is 32000, IT'S NOT COMPRESSED. Use decompressed length to read the data in and just append
+0x00c: Decompressed Length Int32; Will be max 16kb.
+
+0x010: Compressed Data          ; Size will be [Compressed Length]

@@ -1,0 +1,46 @@
+#### EXHF RESEARCH #### By Ioncannon
+
+Updated: 7/14/2015
+
+Current research on EXHF files
+
+!!!NOTE: FILE IS IN BIG ENDIAN FORM!!!
+
+===EXHF Header===
+0x000 Signature    			Int32; EXHF
+0x004 Version	  			Short; Always 0x03
+0x006 Size of Dataset Chunk Short; How large the data set chunk will be. 
+0x008 Number of Datasets    Short; Size of Dataset Definition table; 
+0x00A Number of Pages       Short; The size of the Page table below.
+0x00C Number of Lang Codes 	Short; Size of the language table at the end of the file.
+0x00E Unknown   	   		Short;
+0x010 Unknown           	Int32; Always 0x010000.
+0x014 Number of entries		Int32; How many total entries are in this file (spanning multiple EXDFs)
+0x018 Padding                    ; Padded to 0x1F
+
+===Dataset Definition Table=== (Size of Number of Datasets) 
+0x000 Data Type				Short; Most likely the data type. 2 - Byte, 3 - Byte, 4 - Short, 19 - String
+0x002 Data Offset			Short; Where in the data chunk this byte is (offset is after 01 and the chunk size variables).
+
+===Page Table=== (Size of Number of Pages) 
+0x000 Page Entry            Int32; Page Entry Name. See Items Page entry names.
+0x004 Page Entry Size       Int32; Number of entries in a page. For example Item_0.exd has 500 entries... 0x1F4, with item_500.exd being the next file.  
+
+===Languge Table==== (Size of Number of Lang Codes)
+
+0x000 Language Code			Short;
+
+The language codes are:
+
+0x0 - n/a (No language)
+0x1 - ja (Japanese)
+0x2 - en (English)
+0x3 - de (German)
+0x4 - fr (French)
+0x5 - chs (Chinese - Singapore)
+0x6 - cht (Chinese - Traditional)
+0x7 - ko (Korean)
+
+-----------------------NOTES---------------------
+  
+-The items.exd files span multiple pages. Start at items_0, then items__500, then items__1000, etc.
