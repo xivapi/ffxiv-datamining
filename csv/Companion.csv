@@ -2,282 +2,298 @@
 #,Singular,,Plural,,,,,,,,,,,,Behavior,,,,,,,,,,,,Icon,,,,Cost,HP,,Skill{Angle},Skill{Cost},,,MinionRace
 int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,uint16,byte,byte,byte,byte,byte,CompanionMove,byte,byte,uint16,bit&01,bit&02,bit&04,bit&08,bit&10,uint16,bit&20,bit&40,Image,uint16,bit&80,byte,byte,uint16,byte,uint16,byte,byte,uint16,MinionRace
 0,"",0,"",0,0,1,0,0,0,100,0,0,0,0,0,0,8,0,False,False,False,False,False,0,False,True,0,0,False,0,10,100,0,0,20,0,0,0
-1,"cherry bomb",0,"cherry bombs",0,0,0,0,0,427,100,30,0,0,0,2,0,8,1,True,False,True,False,False,0,False,True,4503,3,True,0,10,390,5,360,30,1,600,2
-2,"mammet #001",0,"mammets #001",0,0,0,0,1,419,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4501,200,True,0,10,410,37,0,20,1,620,3
+1,"cherry bomb",0,"cherry bombs",0,0,0,0,0,427,100,30,0,0,0,2,0,8,1,True,False,True,False,False,0,False,True,4503,1001,True,0,10,390,5,360,30,1,600,2
+2,"mammet #001",0,"mammets #001",0,0,0,0,1,419,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4501,10001,True,0,10,410,37,0,20,1,620,3
 3,"wayward hatchling",0,"wayward hatchlings",0,0,0,0,0,423,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4502,1,True,0,15,410,23,30,20,1,601,1
-4,"Cait Sith doll",0,"Cait Sith dolls",0,0,0,1,0,430,100,30,0,0,0,1,0,8,201,False,True,False,False,False,0,False,True,4504,201,True,0,20,400,25,360,20,1,625,3
-5,"baby behemoth",0,"baby behemoths",0,0,0,0,0,428,100,30,0,0,0,2,0,8,5,True,False,True,False,True,0,False,True,4505,5,True,90,15,430,1,30,20,1,601,2
-6,"mammet #003L",0,"mammets #003L",0,0,1,0,1,420,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4506,200,True,0,10,365,14,30,20,1,607,3
-7,"mammet #003G",0,"mammets #003G",0,0,1,0,1,421,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4507,200,True,0,10,280,25,360,20,1,625,3
-8,"mammet #003U",0,"mammets #003U",0,0,1,0,1,422,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4508,200,True,0,10,420,13,120,20,1,631,3
-9,"storm hatchling",0,"storm hatchlings",0,0,1,0,0,424,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4509,1,True,0,10,315,19,30,30,1,601,1
-10,"serpent hatchling",0,"serpent hatchlings",0,0,1,0,0,425,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4510,1,True,0,10,350,30,360,20,1,623,1
-11,"flame hatchling",0,"flame hatchlings",0,0,1,0,0,426,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4511,1,True,0,10,320,26,120,20,1,622,1
-12,"morbol seedling",0,"morbol seedlings",0,0,1,0,0,429,100,30,0,0,0,2,0,8,6,True,False,True,False,False,0,False,True,4512,6,True,0,30,560,20,120,20,1,602,2
-13,"tiny rat",0,"tiny rats",0,0,1,0,0,431,100,30,0,0,0,2,0,8,7,True,False,False,False,True,0,False,True,4513,7,True,0,10,400,14,120,20,1,622,1
-14,"baby bun",0,"baby buns",0,0,1,0,0,432,100,30,0,0,0,2,0,8,8,True,False,False,True,False,0,False,True,4514,8,True,0,10,395,4,120,20,1,602,2
-15,"chigoe larva",0,"chigoe larvae",0,0,1,0,0,433,100,30,0,0,0,2,0,8,9,True,False,True,True,False,0,False,True,4515,9,True,130,10,420,9,0,20,1,620,1
-16,"bluebird",0,"bluebirds",0,0,1,0,0,434,80,30,0,0,0,2,3,8,10,True,False,True,False,True,0,False,True,4516,10,True,100,15,460,1,120,20,1,605,1
-17,"wide-eyed fawn",0,"wide-eyed fawns",0,0,1,0,0,435,100,20,10,0,30,2,0,8,11,True,False,False,False,True,0,False,True,4517,11,True,0,15,400,22,360,20,2,632,1
-18,"infant imp",0,"infant imps",0,1,1,0,0,436,100,20,10,0,0,2,0,8,12,True,False,False,False,True,0,False,True,4518,29,True,0,20,380,1,120,20,2,608,2
-19,"coeurl kitten",0,"coeurl kittens",0,0,1,0,0,437,85,10,10,0,0,2,0,8,13,True,False,True,False,True,35,True,True,4552,13,True,0,10,365,1,30,30,3,603,1
-20,"black coeurl",0,"black coeurls",0,0,1,0,0,438,75,10,10,0,0,2,0,8,13,True,False,True,False,True,35,True,True,4614,13,True,0,15,380,31,0,30,3,620,1
-21,"wind-up gentleman",0,"wind-up gentlemen",0,0,1,0,0,882,100,10,0,0,0,1,0,8,268,False,True,False,False,False,0,False,True,4615,462,True,0,30,400,16,360,60,2,630,3
-22,"gravel golem",0,"gravel golems",0,0,1,0,0,440,100,20,10,0,0,1,0,8,202,False,True,False,True,False,0,False,True,4519,202,True,0,20,480,10,0,20,2,620,2
-23,"wind-up tonberry",0,"wind-up tonberries",0,0,1,0,0,441,100,30,0,0,0,1,0,8,203,False,True,False,True,False,0,True,True,4553,203,True,0,20,470,16,360,60,1,630,2
-24,"tiny tortoise",0,"tiny tortoises",0,0,1,0,0,442,100,10,10,0,0,2,0,8,18,True,False,False,False,True,0,False,True,4520,18,True,0,20,480,14,120,20,2,622,2
-25,"baby raptor",0,"baby raptors",0,0,1,0,0,443,100,20,20,0,0,2,0,8,19,True,False,False,False,True,0,False,True,4521,11,True,0,10,400,21,0,20,2,620,2
-26,"baby bat",0,"baby bats",0,0,1,0,0,444,100,30,0,0,0,2,0,8,20,True,False,False,False,False,0,False,True,4522,20,True,0,10,420,20,120,20,1,631,2
-27,"tiny bulb",0,"tiny bulbs",0,0,1,0,0,445,100,30,0,0,0,2,0,8,21,True,False,False,False,False,0,False,True,4523,21,True,0,25,480,35,360,25,1,634,2
-28,"dust bunny",0,"dust bunnies",0,0,1,0,0,446,100,10,10,0,30,2,0,8,22,True,False,False,True,False,0,False,True,4524,22,True,0,10,340,1,120,20,2,609,1
-29,"wind-up dullahan",0,"wind-up dullahans",0,0,1,0,0,447,100,30,0,0,0,1,0,8,204,False,True,True,False,False,0,False,True,4525,204,True,0,20,445,35,360,30,1,634,2
-30,"gigantpole",0,"gigantpoles",0,0,1,0,0,448,100,30,0,0,0,2,0,8,24,True,False,False,False,False,0,False,True,4526,24,True,0,20,495,13,30,20,1,607,2
-31,"pudgy puk",0,"pudgy puks",0,0,1,0,0,449,100,20,10,0,0,2,0,8,25,True,False,False,False,True,0,False,True,4527,25,True,0,15,460,23,30,20,2,606,2
-32,"buffalo calf",0,"buffalo calves",0,0,1,0,0,450,100,30,0,0,0,2,0,8,26,True,False,True,False,True,0,False,True,4528,26,True,0,10,440,9,0,20,1,620,2
-33,"cactuar cutting",0,"cactuar cuttings",0,0,1,0,0,451,100,20,0,0,20,2,0,3,27,True,False,True,False,False,0,False,True,4529,27,True,0,10,380,17,0,30,1,620,2
-34,"smallshell",0,"smallshells",0,0,1,0,0,452,100,30,0,0,0,2,0,8,28,True,False,True,False,False,0,False,True,4530,28,True,0,10,420,28,120,20,1,605,2
-35,"wolf pup",0,"wolf pups",0,0,1,0,0,453,100,10,10,0,0,2,0,8,29,True,False,True,True,True,19,True,True,4550,12,True,0,15,385,11,360,20,3,617,1
-36,"beady eye",0,"beady eyes",0,0,1,0,0,454,100,30,0,0,0,2,0,8,30,True,False,False,True,True,0,False,True,4531,30,True,0,10,440,1,30,20,1,613,2
-37,"fledgling dodo",0,"fledgling dodos",0,0,1,0,0,455,100,20,10,0,30,2,0,8,31,True,False,False,False,True,0,False,True,4532,31,True,0,25,500,39,0,20,2,620,2
-38,"coblyn larva",0,"coblyn larvae",0,0,1,0,0,456,100,20,10,0,0,2,0,8,32,True,False,False,False,False,0,False,True,4533,32,True,0,15,400,12,360,20,2,626,2
-39,"wind-up aldgoat",0,"wind-up aldgoats",0,0,1,0,0,457,85,30,0,0,0,1,0,8,205,False,True,True,False,False,0,False,True,4534,205,True,0,10,340,29,360,20,1,623,1
-40,"fledgling apkallu",0,"fledgling apkallus",0,0,1,0,0,458,100,20,10,0,0,2,0,8,34,True,False,True,False,True,0,False,True,4535,34,True,0,30,510,41,0,20,2,620,1
-41,"goobbue sproutling",0,"goobbue sproutlings",0,0,1,0,0,459,100,10,0,0,0,2,0,8,35,True,False,False,False,False,0,False,True,4536,35,True,0,20,410,37,0,20,1,620,2
-42,"bite-sized pudding",0,"bite-sized puddings",0,0,1,0,0,460,100,30,0,0,0,2,0,8,36,True,False,False,True,False,0,False,True,4537,36,True,0,10,400,21,0,20,1,620,2
-43,"model vanguard",0,"model vanguards",0,0,1,0,0,461,100,30,0,0,0,1,0,8,221,False,True,False,True,False,0,False,True,4538,221,True,0,10,340,25,360,20,1,625,2
-44,"demon brick",0,"demon bricks",0,0,1,0,0,462,100,10,5,0,30,2,0,8,38,True,False,False,True,False,0,False,True,4539,38,True,0,15,390,38,120,20,2,609,2
-45,"mini mole",0,"mini moles",0,0,1,0,0,463,100,20,10,0,0,2,0,8,39,True,False,False,False,True,0,False,True,4540,39,True,0,25,430,9,0,20,2,620,1
-46,"tender lamb",0,"tender lambs",0,0,1,0,0,464,100,30,0,0,0,2,0,10,40,True,False,True,False,True,0,False,True,4541,70,True,0,20,680,10,0,20,1,620,1
-47,"slime puddle",0,"slime puddles",0,0,1,0,0,465,100,30,0,0,0,2,0,8,41,True,False,False,True,False,0,False,True,4551,41,True,0,10,430,23,30,20,1,606,2
-48,"kidragora",0,"kidragoras",0,0,1,0,0,466,90,10,10,30,0,2,0,8,42,True,False,True,False,True,0,False,True,4542,42,True,0,15,360,1,120,20,2,609,1
-49,"wind-up goblin",0,"wind-up goblins",0,0,1,0,0,467,100,10,5,0,0,1,0,8,207,False,True,False,True,False,0,False,True,4543,208,True,0,15,435,26,120,20,2,622,3
-50,"wind-up sylph",0,"wind-up sylphs",0,0,1,0,0,468,100,30,0,0,0,1,0,8,208,False,True,True,False,False,0,False,True,4549,209,True,0,15,490,13,30,20,1,621,3
-51,"wind-up cursor",0,"wind-up cursors",0,0,1,0,0,469,100,20,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4544,220,True,0,15,400,14,30,20,2,621,4
-52,"wind-up airship",0,"wind-up airships",0,0,1,0,0,470,100,30,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4545,222,True,0,25,465,11,360,20,2,617,4
-53,"wind-up Qiqirn",0,"wind-up Qiqirn",0,0,1,0,0,471,90,30,0,0,0,1,0,8,206,False,True,True,False,False,0,False,True,4546,207,True,0,15,380,44,0,30,1,620,3
-54,"black chocobo chick",0,"black chocobo chicks",0,0,1,1,0,505,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4548,1,True,0,25,450,35,360,25,1,634,1
-55,"wind-up Dalamud",0,"wind-up Dalamuds",0,0,1,0,0,472,100,30,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4547,353,True,0,20,520,17,0,30,1,620,4
-56,"minute mindflayer",0,"minute mindflayers",0,0,1,0,0,578,100,30,0,0,0,2,0,8,49,True,False,False,False,True,0,False,True,4561,49,True,0,25,455,13,120,20,2,616,2
-57,"tight-beaked parrot",0,"tight-beaked parrots",0,0,1,0,0,579,55,30,0,0,0,2,3,8,50,True,False,True,False,True,0,False,True,4562,50,True,0,10,365,40,0,30,1,631,1
-58,"wind-up Amalj'aa",0,"wind-up Amalj'aa",0,0,1,0,0,580,100,30,0,0,0,1,0,8,213,False,True,False,True,False,0,False,True,4554,210,True,0,10,465,12,360,20,2,626,3
-59,"wind-up Ixal",0,"wind-up Ixal",0,0,1,0,0,581,100,30,0,30,0,1,0,8,214,False,True,False,True,False,0,False,True,4574,211,True,0,10,390,10,0,20,1,620,3
-60,"wind-up kobold",0,"wind-up kobolds",0,0,1,0,0,699,100,30,0,0,0,1,0,8,215,False,True,False,True,False,0,False,True,4563,212,True,0,10,440,13,120,20,1,622,3
-61,"wind-up Sahagin",0,"wind-up Sahagin",0,0,1,0,0,700,100,30,0,0,0,1,0,8,216,False,True,False,True,False,0,False,True,4564,213,True,0,15,435,28,120,20,1,605,3
-62,"wind-up brickman",0,"wind-up brickmen",0,0,1,0,0,577,100,30,0,0,0,2,0,8,51,True,False,False,False,True,0,False,True,4555,51,True,0,10,410,10,0,20,1,620,2
-63,"wind-up Shantotto",0,"wind-up Shantottos",0,0,1,1,0,527,100,20,0,0,0,1,0,8,218,False,True,False,False,False,0,False,True,4556,311,True,0,25,525,9,0,20,1,620,3
-64,"wind-up Edvya",0,"wind-up Edvyas",0,0,1,1,0,584,100,30,0,0,0,1,0,8,219,False,True,False,False,False,0,False,True,4557,219,True,0,15,360,23,120,30,1,622,3
-65,"wind-up sun",0,"wind-up suns",0,0,1,0,0,585,100,0,0,0,0,3,8,8,0,False,False,False,False,False,0,False,False,4565,500,True,0,15,440,10,0,20,1,620,4
-66,"plush cushion",0,"plush cushions",0,0,1,0,0,586,100,30,0,0,0,3,0,8,0,False,False,False,False,False,0,False,False,4566,501,True,80,10,390,30,360,20,1,623,4
-67,"Minion of Light",0,"Minions of Light",0,0,1,0,0,0,100,0,0,0,0,1,0,8,0,False,True,False,False,False,0,False,True,4558,223,False,0,10,100,0,0,20,1,0,3
-68,"Minion of Light",0,"Minions of Light",0,0,1,0,0,587,100,10,0,70,0,1,0,8,223,False,True,False,False,False,0,False,True,4650,223,True,0,10,430,13,30,20,1,604,3
-69,"Minion of Light",0,"Minions of Light",0,0,1,0,0,623,100,10,0,70,0,1,0,8,223,False,True,False,False,False,0,False,True,4651,223,True,0,10,420,27,360,30,1,615,3
-70,"Minion of Light",0,"Minions of Light",0,0,1,0,0,624,100,10,0,70,0,1,0,8,223,False,True,False,False,False,0,False,True,4652,223,True,0,10,395,23,120,30,1,610,3
-71,"wind-up leader",0,"wind-up leaders",0,0,1,0,0,0,100,0,0,0,0,1,0,8,0,False,True,False,False,False,0,False,True,4559,224,False,0,20,100,0,0,20,1,0,3
-72,"wind-up Merlwyb",0,"wind-up Merlwybs",0,0,1,1,0,626,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4654,224,True,0,20,470,43,0,20,1,620,3
-73,"wind-up Kan-E",0,"wind-up Kan-Es",0,0,1,1,0,627,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4653,224,True,0,20,430,29,360,30,1,623,3
-74,"wind-up Raubahn",0,"wind-up Raubahns",0,0,1,0,0,625,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4655,224,True,0,20,470,19,120,30,1,609,3
-75,"princely hatchling",0,"princely hatchlings",0,0,1,0,0,634,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4560,1,True,0,10,365,14,30,20,1,621,1
-76,"wind-up Odin",0,"wind-up Odins",0,0,1,0,0,683,90,5,10,0,0,2,0,8,230,False,True,False,True,False,0,False,True,4568,230,True,80,30,500,1,120,20,2,605,2
-77,"wind-up Warrior of Light",0,"wind-up Warriors of Light",0,0,1,0,0,684,80,10,0,0,0,1,0,8,239,False,True,False,True,False,0,False,True,4567,301,True,0,15,380,1,30,20,1,604,3
-78,"wind-up Bahamut",0,"wind-up Bahamuts",0,0,1,0,0,685,100,10,0,0,0,2,0,8,0,True,False,False,False,False,118,False,True,4569,353,True,0,25,410,1,120,20,3,636,2
-79,"wind-up moogle",0,"wind-up moogles",0,0,1,0,0,688,100,10,0,0,0,1,4,8,233,False,True,False,False,False,0,False,True,4572,206,True,0,20,470,1,120,20,1,614,3
-80,"baby opo-opo",0,"baby opo-opos",0,0,1,0,0,686,60,30,0,0,0,2,1,8,52,True,False,True,False,False,0,False,True,4570,52,True,0,10,420,23,120,30,1,605,1
-81,"magic broom",0,"magic brooms",0,0,1,0,0,687,100,10,0,0,80,2,0,5,0,False,False,False,False,False,0,False,True,4571,350,True,0,25,420,30,360,20,1,623,4
-82,"wind-up succubus",0,"wind-up succubi",0,0,1,1,0,748,80,10,0,0,0,1,2,8,231,False,True,False,True,False,0,False,True,4575,230,True,0,10,340,11,360,30,1,617,2
-83,"zu hatchling",0,"zu hatchlings",0,0,1,0,0,682,100,30,0,0,0,2,0,8,54,True,False,False,False,True,0,False,True,4573,54,True,0,10,450,9,0,20,1,620,2
-84,"wind-up Nanamo",0,"wind-up Nanamos",0,0,1,1,0,751,80,10,0,0,0,1,1,8,266,False,True,True,False,False,0,False,True,4599,460,True,0,20,490,15,0,20,1,620,3
-85,"wind-up Gilgamesh",0,"wind-up Gilgameshes",0,0,1,0,0,756,100,10,0,0,0,1,0,8,68,False,True,False,True,False,0,False,True,4576,233,True,0,25,485,5,360,30,2,600,3
-86,"Onion Prince",0,"Onion Princes",0,1,1,0,0,742,100,10,20,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4577,42,True,0,15,440,31,0,30,1,620,1
-87,"Eggplant Knight",0,"Eggplant Knights",0,1,1,0,0,743,100,15,10,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4578,42,True,0,15,415,12,360,20,1,626,1
-88,"Garlic Jester",0,"Garlic Jesters",0,0,1,0,0,744,100,15,10,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4579,42,True,0,15,435,11,360,20,1,617,1
-89,"Tomato King",0,"Tomato Kings",0,0,1,0,1,745,100,10,10,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4580,42,True,0,20,355,9,0,20,1,620,1
-90,"Mandragora Queen",0,"Mandragora Queens",0,0,1,1,0,746,100,25,5,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4581,42,True,0,30,560,27,360,30,1,615,1
-91,"wind-up Y'shtola",0,"wind-up Y'shtolas",0,0,1,1,0,750,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4600,451,True,0,25,435,12,360,20,1,618,3
-92,"wind-up onion knight",0,"wind-up onion knights",0,0,1,0,0,749,100,10,0,0,0,1,0,8,240,False,True,False,True,False,0,False,True,4582,303,True,90,15,430,21,0,20,1,620,3
-93,"treasure box",0,"treasure boxes",0,0,1,0,0,747,100,5,10,0,0,2,0,8,56,True,False,True,False,False,0,False,True,4583,56,True,0,15,390,8,30,20,1,621,2
-94,"tiny tapir",0,"tiny tapirs",0,0,1,0,0,754,80,30,0,0,0,2,0,8,57,True,False,True,False,True,0,False,True,4584,57,True,0,10,390,23,120,30,1,631,1
-95,"Nana bear",0,"Nana bears",0,0,1,0,0,752,100,20,0,0,0,1,0,8,238,False,True,False,True,False,0,False,True,4585,238,True,0,10,380,1,30,20,1,604,1
-96,"miniature minecart",0,"miniature minecarts",0,0,1,0,0,753,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4586,350,True,0,15,415,25,360,20,1,625,4
-97,"nutkin",0,"nutkins",0,0,1,0,0,755,100,10,0,0,30,2,1,8,59,True,False,True,False,True,0,False,True,4587,59,True,0,30,450,36,360,30,1,634,1
-98,"wind-up Minfilia",0,"wind-up Minfiliae",0,0,1,1,0,797,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4588,450,True,0,20,400,1,30,20,1,604,3
-99,"wind-up Thancred",0,"wind-up Thancreds",0,0,1,0,0,796,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4589,452,True,0,20,450,35,360,30,1,634,3
-100,"model magitek bit",0,"model magitek bits",0,0,1,0,0,1016,100,10,0,0,0,2,0,8,0,False,False,False,False,False,0,True,True,4616,221,True,0,30,455,1,30,20,1,612,2
-101,"puff of darkness",0,"puffs of darkness",0,0,1,0,0,1017,80,10,0,0,0,1,2,8,232,False,True,False,True,False,0,False,True,4617,230,True,0,30,540,4,30,20,2,612,2
-102,"naughty nanka",0,"naughty nankas",0,0,1,0,0,808,100,30,0,0,0,2,0,8,60,True,False,True,False,False,0,False,True,4590,60,True,0,15,415,11,360,20,1,617,2
-103,"panda cub",0,"panda cubs",0,0,1,0,0,816,100,20,0,0,0,1,0,8,241,False,True,True,False,False,0,False,True,4591,238,True,0,15,450,35,360,30,1,634,1
-104,"wind-up Ultros",0,"wind-up Ultroses",0,0,1,0,0,799,100,30,0,0,0,1,0,8,237,False,True,True,True,False,0,False,True,4604,234,True,0,20,395,18,360,30,1,624,2
-105,"Hoary the Snowman",0,"Hoary the Snowmen",0,0,1,0,1,803,100,20,0,0,0,1,0,8,220,False,True,False,True,False,0,False,True,4605,219,True,0,15,420,44,0,30,1,620,3
-106,"heavy hatchling",0,"heavy hatchlings",0,0,1,0,0,800,100,1,0,0,0,1,0,8,0,False,False,False,False,True,0,False,True,4606,1,True,90,15,360,42,0,20,1,620,1
-107,"wind-up Yda",0,"wind-up Ydas",0,0,1,1,0,878,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4601,453,True,0,25,460,1,30,20,1,606,3
-108,"wind-up Papalymo",0,"wind-up Papalymos",0,0,1,0,0,879,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4602,454,True,0,20,420,20,120,20,1,633,3
-109,"wind-up Urianger",0,"wind-up Uriangers",0,0,1,0,0,880,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4603,455,True,0,20,435,1,120,20,1,616,3
-110,"fat cat",0,"fat catz",0,0,1,0,0,802,100,10,0,0,0,1,0,8,61,True,False,False,False,True,0,False,True,4607,63,True,0,10,380,12,360,20,2,626,1
-111,"Littlefoot",0,"Littlefeet",0,0,1,0,1,801,100,10,0,0,0,2,0,8,62,True,False,True,False,True,0,False,True,4608,64,True,0,15,410,1,30,20,1,611,2
-112,"mummy's little mummy",0,"mummy's little mummies",0,0,1,0,1,798,100,5,10,0,0,2,0,8,63,True,False,False,True,False,0,False,True,4609,65,True,0,15,475,23,30,20,2,613,2
-113,"model Enterprise",0,"model Enterprises",0,0,1,1,0,887,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4597,222,True,0,20,460,1,120,20,2,629,4
-114,"wind-up delivery moogle",0,"wind-up delivery moogles",0,0,1,0,0,809,100,5,10,0,0,1,4,8,233,False,True,False,False,False,0,False,True,4598,206,True,0,20,370,14,120,20,1,614,3
-115,"assassin fry",0,"assassin fries",0,1,1,0,0,807,100,10,5,0,0,2,5,8,64,True,False,False,True,True,0,False,True,4610,66,True,0,10,425,2,30,20,2,603,1
-116,"demon box",0,"demon boxes",0,0,1,0,0,805,100,10,10,0,0,2,0,8,65,True,False,False,True,False,0,False,True,4613,67,True,0,30,530,37,0,20,2,620,1
-117,"water imp",0,"water imps",0,0,1,0,0,886,60,10,0,0,0,2,0,8,66,True,False,False,False,True,0,False,True,4611,69,True,0,20,430,13,120,20,1,605,1
-118,"wind-up Louisoix",0,"wind-up Louisoixs",0,0,1,0,0,881,100,10,0,0,0,1,0,8,267,False,True,False,True,False,78,False,True,4612,461,True,0,15,410,27,360,30,2,615,3
-119,"Midgardsormr",0,"Midgardsormrs",0,0,1,0,1,883,100,10,0,0,0,2,2,8,0,False,False,False,False,True,0,False,True,4618,2,True,0,25,435,33,0,20,1,620,1
+4,"Cait Sith doll",0,"Cait Sith dolls",0,0,0,1,0,430,100,30,0,0,0,1,0,8,201,False,True,False,False,False,0,False,True,4504,10006,True,0,20,400,25,360,20,1,625,3
+5,"baby behemoth",0,"baby behemoths",0,0,0,0,0,428,100,30,0,0,0,2,0,8,5,True,False,True,False,True,0,False,True,4505,1002,True,90,15,430,1,30,20,1,601,2
+6,"mammet #003L",0,"mammets #003L",0,0,1,0,1,420,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4506,10002,True,0,10,365,14,30,20,1,607,3
+7,"mammet #003G",0,"mammets #003G",0,0,1,0,1,421,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4507,10003,True,0,10,280,25,360,20,1,625,3
+8,"mammet #003U",0,"mammets #003U",0,0,1,0,1,422,100,30,0,0,0,1,0,8,200,False,True,False,False,False,0,False,True,4508,10004,True,0,10,420,13,120,20,1,631,3
+9,"storm hatchling",0,"storm hatchlings",0,0,1,0,0,424,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4509,2,True,0,10,315,19,30,30,1,601,1
+10,"serpent hatchling",0,"serpent hatchlings",0,0,1,0,0,425,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4510,3,True,0,10,350,30,360,20,1,623,1
+11,"flame hatchling",0,"flame hatchlings",0,0,1,0,0,426,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4511,4,True,0,10,320,26,120,20,1,622,1
+12,"morbol seedling",0,"morbol seedlings",0,0,1,0,0,429,100,30,0,0,0,2,0,8,6,True,False,True,False,False,0,False,True,4512,1003,True,0,30,560,20,120,20,1,602,2
+13,"tiny rat",0,"tiny rats",0,0,1,0,0,431,100,30,0,0,0,2,0,8,7,True,False,False,False,True,0,False,True,4513,1004,True,0,10,400,14,120,20,1,622,1
+14,"baby bun",0,"baby buns",0,0,1,0,0,432,100,30,0,0,0,2,0,8,8,True,False,False,True,False,0,False,True,4514,1005,True,0,10,395,4,120,20,1,602,2
+15,"chigoe larva",0,"chigoe larvae",0,0,1,0,0,433,100,30,0,0,0,2,0,8,9,True,False,True,True,False,0,False,True,4515,1006,True,130,10,420,9,0,20,1,620,1
+16,"bluebird",0,"bluebirds",0,0,1,0,0,434,80,30,0,0,0,2,3,8,10,True,False,True,False,True,0,False,True,4516,5001,True,100,15,460,1,120,20,1,605,1
+17,"wide-eyed fawn",0,"wide-eyed fawns",0,0,1,0,0,435,100,20,10,0,30,2,0,8,11,True,False,False,False,True,0,False,True,4517,1007,True,0,15,400,22,360,20,2,632,1
+18,"infant imp",0,"infant imps",0,1,1,0,0,436,100,20,10,0,0,2,0,8,12,True,False,False,False,True,0,False,True,4518,1008,True,0,20,380,1,120,20,2,608,2
+19,"coeurl kitten",0,"coeurl kittens",0,0,1,0,0,437,85,10,10,0,0,2,0,8,13,True,False,True,False,True,35,True,True,4552,1009,True,0,10,365,1,30,30,3,603,1
+20,"black coeurl",0,"black coeurls",0,0,1,0,0,438,75,10,10,0,0,2,0,8,13,True,False,True,False,True,35,True,True,4614,1010,True,0,15,380,31,0,30,3,620,1
+21,"wind-up gentleman",0,"wind-up gentlemen",0,0,1,0,0,882,100,10,0,0,0,1,0,8,268,False,True,False,False,False,0,False,True,4615,9014,True,0,30,400,16,360,60,2,630,3
+22,"gravel golem",0,"gravel golems",0,0,1,0,0,440,100,20,10,0,0,1,0,8,202,False,True,False,True,False,0,False,True,4519,1011,True,0,20,480,10,0,20,2,620,2
+23,"wind-up tonberry",0,"wind-up tonberries",0,0,1,0,0,441,100,30,0,0,0,1,0,8,203,False,True,False,True,False,0,True,True,4553,1012,True,0,20,470,16,360,60,1,630,2
+24,"tiny tortoise",0,"tiny tortoises",0,0,1,0,0,442,100,10,10,0,0,2,0,8,18,True,False,False,False,True,0,False,True,4520,1013,True,0,20,480,14,120,20,2,622,2
+25,"baby raptor",0,"baby raptors",0,0,1,0,0,443,100,20,20,0,0,2,0,8,19,True,False,False,False,True,0,False,True,4521,1014,True,0,10,400,21,0,20,2,620,2
+26,"baby bat",0,"baby bats",0,0,1,0,0,444,100,30,0,0,0,2,0,8,20,True,False,False,False,False,0,False,True,4522,1015,True,0,10,420,20,120,20,1,631,2
+27,"tiny bulb",0,"tiny bulbs",0,0,1,0,0,445,100,30,0,0,0,2,0,8,21,True,False,False,False,False,0,False,True,4523,1016,True,0,25,480,35,360,25,1,634,2
+28,"dust bunny",0,"dust bunnies",0,0,1,0,0,446,100,10,10,0,30,2,0,8,22,True,False,False,True,False,0,False,True,4524,1017,True,0,10,340,1,120,20,2,609,1
+29,"wind-up dullahan",0,"wind-up dullahans",0,0,1,0,0,447,100,30,0,0,0,1,0,8,204,False,True,True,False,False,0,False,True,4525,1018,True,0,20,445,35,360,30,1,634,2
+30,"gigantpole",0,"gigantpoles",0,0,1,0,0,448,100,30,0,0,0,2,0,8,24,True,False,False,False,False,0,False,True,4526,1019,True,0,20,495,13,30,20,1,607,2
+31,"pudgy puk",0,"pudgy puks",0,0,1,0,0,449,100,20,10,0,0,2,0,8,25,True,False,False,False,True,0,False,True,4527,1020,True,0,15,460,23,30,20,2,606,2
+32,"buffalo calf",0,"buffalo calves",0,0,1,0,0,450,100,30,0,0,0,2,0,8,26,True,False,True,False,True,0,False,True,4528,1021,True,0,10,440,9,0,20,1,620,2
+33,"cactuar cutting",0,"cactuar cuttings",0,0,1,0,0,451,100,20,0,0,20,2,0,3,27,True,False,True,False,False,0,False,True,4529,1022,True,0,10,380,17,0,30,1,620,2
+34,"smallshell",0,"smallshells",0,0,1,0,0,452,100,30,0,0,0,2,0,8,28,True,False,True,False,False,0,False,True,4530,1023,True,0,10,420,28,120,20,1,605,2
+35,"wolf pup",0,"wolf pups",0,0,1,0,0,453,100,10,10,0,0,2,0,8,29,True,False,True,True,True,19,True,True,4550,1024,True,0,15,385,11,360,20,3,617,1
+36,"beady eye",0,"beady eyes",0,0,1,0,0,454,100,30,0,0,0,2,0,8,30,True,False,False,True,True,0,False,True,4531,1024,True,0,10,440,1,30,20,1,613,2
+37,"fledgling dodo",0,"fledgling dodos",0,0,1,0,0,455,100,20,10,0,30,2,0,8,31,True,False,False,False,True,0,False,True,4532,1025,True,0,25,500,39,0,20,2,620,2
+38,"coblyn larva",0,"coblyn larvae",0,0,1,0,0,456,100,20,10,0,0,2,0,8,32,True,False,False,False,False,0,False,True,4533,1026,True,0,15,400,12,360,20,2,626,2
+39,"wind-up aldgoat",0,"wind-up aldgoats",0,0,1,0,0,457,85,30,0,0,0,1,0,8,205,False,True,True,False,False,0,False,True,4534,1027,True,0,10,340,29,360,20,1,623,1
+40,"fledgling apkallu",0,"fledgling apkallus",0,0,1,0,0,458,100,20,10,0,0,2,0,8,34,True,False,True,False,True,0,False,True,4535,1028,True,0,30,510,41,0,20,2,620,1
+41,"goobbue sproutling",0,"goobbue sproutlings",0,0,1,0,0,459,100,10,0,0,0,2,0,8,35,True,False,False,False,False,0,False,True,4536,1029,True,0,20,410,37,0,20,1,620,2
+42,"bite-sized pudding",0,"bite-sized puddings",0,0,1,0,0,460,100,30,0,0,0,2,0,8,36,True,False,False,True,False,0,False,True,4537,1030,True,0,10,400,21,0,20,1,620,2
+43,"model vanguard",0,"model vanguards",0,0,1,0,0,461,100,30,0,0,0,1,0,8,221,False,True,False,True,False,0,False,True,4538,11003,True,0,10,340,25,360,20,1,625,2
+44,"demon brick",0,"demon bricks",0,0,1,0,0,462,100,10,5,0,30,2,0,8,38,True,False,False,True,False,0,False,True,4539,1031,True,0,15,390,38,120,20,2,609,2
+45,"mini mole",0,"mini moles",0,0,1,0,0,463,100,20,10,0,0,2,0,8,39,True,False,False,False,True,0,False,True,4540,1032,True,0,25,430,9,0,20,2,620,1
+46,"tender lamb",0,"tender lambs",0,0,1,0,0,464,100,30,0,0,0,2,0,10,40,True,False,True,False,True,0,False,True,4541,1033,True,0,20,680,10,0,20,1,620,1
+47,"slime puddle",0,"slime puddles",0,0,1,0,0,465,100,30,0,0,0,2,0,8,41,True,False,False,True,False,0,False,True,4551,1034,True,0,10,430,23,30,20,1,606,2
+48,"kidragora",0,"kidragoras",0,0,1,0,0,466,90,10,10,30,0,2,0,8,42,True,False,True,False,True,0,False,True,4542,1025,True,0,15,360,1,120,20,2,609,1
+49,"wind-up goblin",0,"wind-up goblins",0,0,1,0,0,467,100,10,5,0,0,1,0,8,207,False,True,False,True,False,0,False,True,4543,7001,True,0,15,435,26,120,20,2,622,3
+50,"wind-up sylph",0,"wind-up sylphs",0,0,1,0,0,468,100,30,0,0,0,1,0,8,208,False,True,True,False,False,0,False,True,4549,7002,True,0,15,490,13,30,20,1,621,3
+51,"wind-up cursor",0,"wind-up cursors",0,0,1,0,0,469,100,20,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4544,11008,True,0,15,400,14,30,20,2,621,4
+52,"wind-up airship",0,"wind-up airships",0,0,1,0,0,470,100,30,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4545,11001,True,0,25,465,11,360,20,2,617,4
+53,"wind-up Qiqirn",0,"wind-up Qiqirn",0,0,1,0,0,471,90,30,0,0,0,1,0,8,206,False,True,True,False,False,0,False,True,4546,6001,True,0,15,380,44,0,30,1,620,3
+54,"black chocobo chick",0,"black chocobo chicks",0,0,1,1,0,505,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4548,5,True,0,25,450,35,360,25,1,634,1
+55,"wind-up Dalamud",0,"wind-up Dalamuds",0,0,1,0,0,472,100,30,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4547,11004,True,0,20,520,17,0,30,1,620,4
+56,"minute mindflayer",0,"minute mindflayers",0,0,1,0,0,578,100,30,0,0,0,2,0,8,49,True,False,False,False,True,0,False,True,4561,1035,True,0,25,455,13,120,20,2,616,2
+57,"tight-beaked parrot",0,"tight-beaked parrots",0,0,1,0,0,579,55,30,0,0,0,2,3,8,50,True,False,True,False,True,0,False,True,4562,1036,True,0,10,365,40,0,30,1,631,1
+58,"wind-up Amalj'aa",0,"wind-up Amalj'aa",0,0,1,0,0,580,100,30,0,0,0,1,0,8,213,False,True,False,True,False,0,False,True,4554,7003,True,0,10,465,12,360,20,2,626,3
+59,"wind-up Ixal",0,"wind-up Ixal",0,0,1,0,0,581,100,30,0,30,0,1,0,8,214,False,True,False,True,False,0,False,True,4574,7005,True,0,10,390,10,0,20,1,620,3
+60,"wind-up kobold",0,"wind-up kobolds",0,0,1,0,0,699,100,30,0,0,0,1,0,8,215,False,True,False,True,False,0,False,True,4563,7006,True,0,10,440,13,120,20,1,622,3
+61,"wind-up Sahagin",0,"wind-up Sahagin",0,0,1,0,0,700,100,30,0,0,0,1,0,8,216,False,True,False,True,False,0,False,True,4564,7007,True,0,15,435,28,120,20,1,605,3
+62,"wind-up brickman",0,"wind-up brickmen",0,0,1,0,0,577,100,30,0,0,0,2,0,8,51,True,False,False,False,True,0,False,True,4555,13001,True,0,10,410,10,0,20,1,620,2
+63,"wind-up Shantotto",0,"wind-up Shantottos",0,0,1,1,0,527,100,20,0,0,0,1,0,8,218,False,True,False,False,False,0,False,True,4556,12012,True,0,25,525,9,0,20,1,620,3
+64,"wind-up Edvya",0,"wind-up Edvyas",0,0,1,1,0,584,100,30,0,0,0,1,0,8,219,False,True,False,False,False,0,False,True,4557,10007,True,0,15,360,23,120,30,1,622,3
+65,"wind-up sun",0,"wind-up suns",0,0,1,0,0,585,100,0,0,0,0,3,8,8,0,False,False,False,False,False,0,False,False,4565,11009,True,0,15,440,10,0,20,1,620,4
+66,"plush cushion",0,"plush cushions",0,0,1,0,0,586,100,30,0,0,0,3,0,8,0,False,False,False,False,False,0,False,False,4566,11010,True,80,10,390,30,360,20,1,623,4
+67,"Minion of Light",0,"Minions of Light",0,0,1,0,0,0,100,0,0,0,0,1,0,8,0,False,True,False,False,False,0,False,True,4558,12001,False,0,10,100,0,0,20,1,0,3
+68,"Minion of Light",0,"Minions of Light",0,0,1,0,0,587,100,10,0,70,0,1,0,8,223,False,True,False,False,False,0,False,True,4650,12001,True,0,10,430,13,30,20,1,604,3
+69,"Minion of Light",0,"Minions of Light",0,0,1,0,0,623,100,10,0,70,0,1,0,8,223,False,True,False,False,False,0,False,True,4651,12001,True,0,10,420,27,360,30,1,615,3
+70,"Minion of Light",0,"Minions of Light",0,0,1,0,0,624,100,10,0,70,0,1,0,8,223,False,True,False,False,False,0,False,True,4652,12001,True,0,10,395,23,120,30,1,610,3
+71,"wind-up leader",0,"wind-up leaders",0,0,1,0,0,0,100,0,0,0,0,1,0,8,0,False,True,False,False,False,0,False,True,4559,9015,False,0,20,100,0,0,20,1,0,3
+72,"wind-up Merlwyb",0,"wind-up Merlwybs",0,0,1,1,0,626,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4654,9016,True,0,20,470,43,0,20,1,620,3
+73,"wind-up Kan-E",0,"wind-up Kan-Es",0,0,1,1,0,627,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4653,9017,True,0,20,430,29,360,30,1,623,3
+74,"wind-up Raubahn",0,"wind-up Raubahns",0,0,1,0,0,625,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4655,9018,True,0,20,470,19,120,30,1,609,3
+75,"princely hatchling",0,"princely hatchlings",0,0,1,0,0,634,100,30,0,30,0,2,0,8,3,True,False,True,False,True,0,False,True,4560,6,True,0,10,365,14,30,20,1,621,1
+76,"wind-up Odin",0,"wind-up Odins",0,0,1,0,0,683,90,5,10,0,0,2,0,8,230,False,True,False,True,False,0,False,True,4568,8007,True,80,30,500,1,120,20,2,605,2
+77,"wind-up Warrior of Light",0,"wind-up Warriors of Light",0,0,1,0,0,684,80,10,0,0,0,1,0,8,239,False,True,False,True,False,0,False,True,4567,12002,True,0,15,380,1,30,20,1,604,3
+78,"wind-up Bahamut",0,"wind-up Bahamuts",0,0,1,0,0,685,100,10,0,0,0,2,0,8,0,True,False,False,False,False,118,False,True,4569,2002,True,0,25,410,1,120,20,3,636,2
+79,"wind-up moogle",0,"wind-up moogles",0,0,1,0,0,688,100,10,0,0,0,1,4,8,233,False,True,False,False,False,0,False,True,4572,10,True,0,20,470,1,120,20,1,614,3
+80,"baby opo-opo",0,"baby opo-opos",0,0,1,0,0,686,60,30,0,0,0,2,1,8,52,True,False,True,False,False,0,False,True,4570,1037,True,0,10,420,23,120,30,1,605,1
+81,"magic broom",0,"magic brooms",0,0,1,0,0,687,100,10,0,0,80,2,0,5,0,False,False,False,False,False,0,False,True,4571,11011,True,0,25,420,30,360,20,1,623,4
+82,"wind-up succubus",0,"wind-up succubi",0,0,1,1,0,748,80,10,0,0,0,1,2,8,231,False,True,False,True,False,0,False,True,4575,1038,True,0,10,340,11,360,30,1,617,2
+83,"zu hatchling",0,"zu hatchlings",0,0,1,0,0,682,100,30,0,0,0,2,0,8,54,True,False,False,False,True,0,False,True,4573,1039,True,0,10,450,9,0,20,1,620,2
+84,"wind-up Nanamo",0,"wind-up Nanamos",0,0,1,1,0,751,80,10,0,0,0,1,1,8,266,False,True,True,False,False,0,False,True,4599,9019,True,0,20,490,15,0,20,1,620,3
+85,"wind-up Gilgamesh",0,"wind-up Gilgameshes",0,0,1,0,0,756,100,10,0,0,0,1,0,8,68,False,True,False,True,False,0,False,True,4576,9033,True,0,25,485,5,360,30,2,600,3
+86,"Onion Prince",0,"Onion Princes",0,1,1,0,0,742,100,10,20,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4577,1025,True,0,15,440,31,0,30,1,620,1
+87,"Eggplant Knight",0,"Eggplant Knights",0,1,1,0,0,743,100,15,10,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4578,1025,True,0,15,415,12,360,20,1,626,1
+88,"Garlic Jester",0,"Garlic Jesters",0,0,1,0,0,744,100,15,10,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4579,1025,True,0,15,435,11,360,20,1,617,1
+89,"Tomato King",0,"Tomato Kings",0,0,1,0,1,745,100,10,10,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4580,1025,True,0,20,355,9,0,20,1,620,1
+90,"Mandragora Queen",0,"Mandragora Queens",0,0,1,1,0,746,100,25,5,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4581,1025,True,0,30,560,27,360,30,1,615,1
+91,"wind-up Y'shtola",0,"wind-up Y'shtolas",0,0,1,1,0,750,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4600,9001,True,0,25,435,12,360,20,1,618,3
+92,"wind-up onion knight",0,"wind-up onion knights",0,0,1,0,0,749,100,10,0,0,0,1,0,8,240,False,True,False,True,False,0,False,True,4582,12004,True,90,15,430,21,0,20,1,620,3
+93,"treasure box",0,"treasure boxes",0,0,1,0,0,747,100,5,10,0,0,2,0,8,56,True,False,True,False,False,0,False,True,4583,1040,True,0,15,390,8,30,20,1,621,2
+94,"tiny tapir",0,"tiny tapirs",0,0,1,0,0,754,80,30,0,0,0,2,0,8,57,True,False,True,False,True,0,False,True,4584,3001,True,0,10,390,23,120,30,1,631,1
+95,"Nana bear",0,"Nana bears",0,0,1,0,0,752,100,20,0,0,0,1,0,8,238,False,True,False,True,False,0,False,True,4585,3002,True,0,10,380,1,30,20,1,604,1
+96,"miniature minecart",0,"miniature minecarts",0,0,1,0,0,753,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4586,11012,True,0,15,415,25,360,20,1,625,4
+97,"nutkin",0,"nutkins",0,0,1,0,0,755,100,10,0,0,30,2,1,8,59,True,False,True,False,True,0,False,True,4587,3003,True,0,30,450,36,360,30,1,634,1
+98,"wind-up Minfilia",0,"wind-up Minfiliae",0,0,1,1,0,797,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4588,9002,True,0,20,400,1,30,20,1,604,3
+99,"wind-up Thancred",0,"wind-up Thancreds",0,0,1,0,0,796,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4589,9003,True,0,20,450,35,360,30,1,634,3
+100,"model magitek bit",0,"model magitek bits",0,0,1,0,0,1016,100,10,0,0,0,2,0,8,0,False,False,False,False,False,0,True,True,4616,11005,True,0,30,455,1,30,20,1,612,2
+101,"puff of darkness",0,"puffs of darkness",0,0,1,0,0,1017,80,10,0,0,0,1,2,8,232,False,True,False,True,False,0,False,True,4617,2008,True,0,30,540,4,30,20,2,612,2
+102,"naughty nanka",0,"naughty nankas",0,0,1,0,0,808,100,30,0,0,0,2,0,8,60,True,False,True,False,False,0,False,True,4590,1041,True,0,15,415,11,360,20,1,617,2
+103,"panda cub",0,"panda cubs",0,0,1,0,0,816,100,20,0,0,0,1,0,8,241,False,True,True,False,False,0,False,True,4591,3004,True,0,15,450,35,360,30,1,634,1
+104,"wind-up Ultros",0,"wind-up Ultroses",0,0,1,0,0,799,100,30,0,0,0,1,0,8,237,False,True,True,True,False,0,False,True,4604,9034,True,0,20,395,18,360,30,1,624,2
+105,"Hoary the Snowman",0,"Hoary the Snowmen",0,0,1,0,1,803,100,20,0,0,0,1,0,8,220,False,True,False,True,False,0,False,True,4605,11014,True,0,15,420,44,0,30,1,620,3
+106,"heavy hatchling",0,"heavy hatchlings",0,0,1,0,0,800,100,1,0,0,0,1,0,8,0,False,False,False,False,True,0,False,True,4606,7,True,90,15,360,42,0,20,1,620,1
+107,"wind-up Yda",0,"wind-up Ydas",0,0,1,1,0,878,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4601,9004,True,0,25,460,1,30,20,1,606,3
+108,"wind-up Papalymo",0,"wind-up Papalymos",0,0,1,0,0,879,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4602,9005,True,0,20,420,20,120,20,1,633,3
+109,"wind-up Urianger",0,"wind-up Uriangers",0,0,1,0,0,880,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4603,9006,True,0,20,435,1,120,20,1,616,3
+110,"fat cat",0,"fat catz",0,0,1,0,0,802,100,10,0,0,0,1,0,8,61,True,False,False,False,True,0,False,True,4607,3005,True,0,10,380,12,360,20,2,626,1
+111,"Littlefoot",0,"Littlefeet",0,0,1,0,1,801,100,10,0,0,0,2,0,8,62,True,False,True,False,True,0,False,True,4608,1042,True,0,15,410,1,30,20,1,611,2
+112,"mummy's little mummy",0,"mummy's little mummies",0,0,1,0,1,798,100,5,10,0,0,2,0,8,63,True,False,False,True,False,0,False,True,4609,1043,True,0,15,475,23,30,20,2,613,2
+113,"model Enterprise",0,"model Enterprises",0,0,1,1,0,887,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4597,11002,True,0,20,460,1,120,20,2,629,4
+114,"wind-up delivery moogle",0,"wind-up delivery moogles",0,0,1,0,0,809,100,5,10,0,0,1,4,8,233,False,True,False,False,False,0,False,True,4598,11,True,0,20,370,14,120,20,1,614,3
+115,"assassin fry",0,"assassin fry",0,1,1,0,0,807,100,10,5,0,0,2,5,8,64,True,False,False,True,True,0,False,True,4610,4002,True,0,10,425,2,30,20,2,603,1
+116,"demon box",0,"demon boxes",0,0,1,0,0,805,100,10,10,0,0,2,0,8,65,True,False,False,True,False,0,False,True,4613,11015,True,0,30,530,37,0,20,2,620,1
+117,"water imp",0,"water imps",0,0,1,0,0,886,60,10,0,0,0,2,0,8,66,True,False,False,False,True,0,False,True,4611,12901,True,0,20,430,13,120,20,1,605,1
+118,"wind-up Louisoix",0,"wind-up Louisoixs",0,0,1,0,0,881,100,10,0,0,0,1,0,8,267,False,True,False,True,False,78,False,True,4612,9007,True,0,15,410,27,360,30,2,615,3
+119,"Midgardsormr",0,"Midgardsormrs",0,0,1,0,1,883,100,10,0,0,0,2,2,8,0,False,False,False,False,True,0,False,True,4618,9036,True,0,25,435,33,0,20,1,620,1
 120,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-121,"Doman magpie",0,"Doman magpies",0,0,1,0,0,1337,80,30,0,0,0,2,0,8,10,True,False,True,False,True,0,False,True,4656,10,True,0,15,310,10,0,20,1,620,1
-122,"Enkidu",0,"Enkidu",0,0,1,0,1,888,100,10,0,0,0,2,0,8,68,True,False,False,False,False,0,False,True,4621,68,True,0,20,480,28,120,20,1,605,1
-123,"wind-up Violet",0,"wind-up Violets",0,0,1,1,0,901,100,30,0,0,0,1,0,8,208,False,True,False,True,False,0,False,True,4593,209,True,0,15,480,22,360,20,1,632,3
-124,"wind-up founder",0,"wind-up founders",0,0,1,0,0,902,100,30,0,0,0,1,0,8,213,False,True,False,True,False,0,False,True,4592,210,True,0,15,440,10,0,20,1,620,3
-125,"wind-up Dezul Qualan",0,"wind-up Dezul Qualan",0,0,1,0,0,903,100,30,0,30,0,1,0,8,214,False,True,False,True,False,0,False,True,4594,211,True,0,15,460,31,0,30,1,620,3
-126,"wind-up kobolder",0,"wind-up kobolders",0,0,1,0,0,582,100,30,0,0,0,1,0,8,215,False,True,False,True,False,0,False,True,4595,212,True,0,10,440,5,360,30,1,600,3
-127,"wind-up Sea Devil",0,"wind-up Sea Devils",0,0,1,0,0,583,100,30,0,0,0,1,0,8,216,False,True,False,True,False,0,False,True,4596,213,True,0,25,500,9,0,20,1,620,3
-128,"chocobo chick courier",0,"chocobo chick couriers",0,0,1,1,0,990,100,10,0,0,0,2,0,8,3,True,False,True,False,True,0,False,True,4624,1,True,0,20,405,35,360,30,1,634,1
-129,"wind-up Kain",0,"wind-up Kains",0,0,1,0,0,989,80,10,0,0,0,1,0,8,242,False,True,False,True,False,0,True,True,4625,304,True,0,30,440,46,0,20,1,620,3
-130,"wind-up Alphinaud",0,"wind-up Alphinauds",0,0,1,0,0,884,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4619,456,True,0,10,420,4,120,20,1,633,3
-131,"wind-up Alisaie",0,"wind-up Alisaies",0,0,1,1,0,885,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4620,457,True,0,15,460,1,120,20,2,616,3
-132,"wind-up Tataru",0,"wind-up Tatarus",0,0,1,1,0,892,100,5,5,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4626,458,True,0,10,440,12,360,20,2,626,3
-133,"wind-up Cid",0,"wind-up Cids",0,0,1,0,0,891,100,10,5,0,0,1,0,8,263,False,True,False,True,False,0,False,True,4627,459,True,0,30,500,35,360,20,2,634,3
-134,"unicolt",0,"unicolts",0,0,1,1,0,890,100,10,0,0,0,2,0,8,43,True,False,True,False,True,0,False,True,4628,71,True,0,10,415,18,360,30,1,624,1
-135,"wind-up Gundu warrior",0,"wind-up Gundu warriors",0,0,1,0,0,889,100,10,0,0,0,1,0,8,87,False,True,True,False,False,0,False,True,4657,214,True,0,10,420,9,0,20,1,620,3
-136,"atrophied Atomos",0,"atrophied Atomoses",0,1,1,0,0,894,100,10,0,0,0,2,0,8,69,True,False,False,False,False,0,False,True,4629,72,True,0,25,460,22,360,20,1,632,2
-137,"owlet",0,"owlets",0,1,1,0,0,893,100,0,0,0,0,2,2,8,70,True,False,False,False,True,0,False,True,4630,73,True,0,25,540,43,0,20,1,620,1
-138,"ugly duckling",0,"ugly ducklings",0,1,1,0,0,899,90,20,0,0,0,2,0,8,71,True,False,True,False,True,0,False,True,4631,74,True,0,20,480,1,30,20,1,601,1
-139,"gaelikitten",0,"gaelikittens",0,0,1,0,0,988,100,10,5,0,0,2,2,8,72,True,False,False,False,True,0,False,True,4632,75,True,0,15,490,6,30,30,2,606,1
-140,"clockwork barrow",0,"clockwork barrow",0,0,1,1,0,896,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4633,351,True,0,10,395,12,360,20,1,626,4
-141,"lesser panda",0,"lesser pandas",0,0,1,0,0,895,70,10,0,0,0,2,1,8,73,True,False,False,False,True,0,False,True,4634,76,True,0,25,405,34,0,30,1,620,1
-142,"page 63",0,"page 63s",0,0,1,0,0,900,100,10,0,0,0,2,0,8,74,True,False,False,False,False,0,False,True,4635,77,True,0,10,415,1,120,20,1,605,2
-143,"iron dwarf",0,"iron dwarves",0,1,1,0,0,898,100,10,0,0,0,1,0,8,243,False,True,False,True,False,0,False,True,4636,235,True,0,10,360,9,0,20,1,620,2
-144,"griffin hatchling",0,"griffin hatchlings",0,0,1,1,0,897,90,10,5,0,0,2,0,8,75,True,False,False,False,True,0,False,True,4637,79,True,0,15,310,22,360,20,2,632,2
-145,"wind-up Iceheart",0,"wind-up Icehearts",0,0,1,1,0,1165,100,5,10,0,0,1,0,8,269,False,True,False,True,False,0,False,True,4638,463,True,0,25,400,19,30,30,2,611,3
-146,"Gestahl",0,"Gestahls",0,0,1,0,1,1166,100,1,10,0,0,2,0,8,76,True,False,True,False,True,0,True,True,4639,80,True,0,10,320,21,0,20,1,620,1
-147,"steam-powered gobwalker G-VII",0,"steam-powered gobwalkers G-VII",0,0,1,1,0,1164,100,10,0,0,0,2,0,8,0,False,False,False,False,False,0,False,True,4640,235,True,0,15,330,32,0,30,1,620,4
-148,"behemoth heir",0,"behemoth heirs",0,0,1,0,0,1162,100,10,0,0,0,2,0,8,5,True,False,True,False,True,0,False,True,4641,5,True,90,15,400,9,0,20,1,620,2
-149,"accompaniment node",0,"accompaniment nodes",0,1,1,0,0,1163,100,3,8,0,0,2,0,8,77,True,False,False,True,False,0,False,True,4642,81,True,0,30,630,6,360,30,1,600,4
-150,"wind-up Yugiri",0,"wind-up Yugiris",0,0,1,1,0,1167,100,10,0,0,0,1,0,8,271,False,True,False,True,False,0,False,True,4643,464,True,0,15,335,11,360,20,1,617,3
-151,"Peridot Carbuncle",0,"Peridot Carbuncles",0,0,1,1,0,1168,80,10,0,0,0,1,0,8,245,False,True,False,True,False,0,False,True,4644,352,True,0,20,430,38,120,20,1,609,1
-152,"Heliodor Carbuncle",0,"Heliodor Carbuncles",0,0,1,1,0,1068,80,10,0,0,0,1,0,8,245,False,True,False,True,False,0,False,True,4645,352,True,0,15,610,10,0,20,1,620,1
+121,"Doman magpie",0,"Doman magpies",0,0,1,0,0,1337,80,30,0,0,0,2,0,8,10,True,False,True,False,True,0,False,True,4656,5002,True,0,15,310,10,0,20,1,620,1
+122,"Enkidu",0,"Enkidu",0,0,1,0,1,888,100,10,0,0,0,2,0,8,68,True,False,False,False,False,0,False,True,4621,9035,True,0,20,480,28,120,20,1,605,1
+123,"wind-up Violet",0,"wind-up Violets",0,0,1,1,0,901,100,30,0,0,0,1,0,8,208,False,True,False,True,False,0,False,True,4593,7002,True,0,15,480,22,360,20,1,632,3
+124,"wind-up founder",0,"wind-up founders",0,0,1,0,0,902,100,30,0,0,0,1,0,8,213,False,True,False,True,False,0,False,True,4592,7003,True,0,15,440,10,0,20,1,620,3
+125,"wind-up Dezul Qualan",0,"wind-up Dezul Qualan",0,0,1,0,0,903,100,30,0,30,0,1,0,8,214,False,True,False,True,False,0,False,True,4594,7004,True,0,15,460,31,0,30,1,620,3
+126,"wind-up kobolder",0,"wind-up kobolders",0,0,1,0,0,582,100,30,0,0,0,1,0,8,215,False,True,False,True,False,0,False,True,4595,7006,True,0,10,440,5,360,30,1,600,3
+127,"wind-up Sea Devil",0,"wind-up Sea Devils",0,0,1,0,0,583,100,30,0,0,0,1,0,8,216,False,True,False,True,False,0,False,True,4596,7007,True,0,25,500,9,0,20,1,620,3
+128,"chocobo chick courier",0,"chocobo chick couriers",0,0,1,1,0,990,100,10,0,0,0,2,0,8,3,True,False,True,False,True,0,False,True,4624,5,True,0,20,405,35,360,30,1,634,1
+129,"wind-up Kain",0,"wind-up Kains",0,0,1,0,0,989,80,10,0,0,0,1,0,8,242,False,True,False,True,False,0,True,True,4625,12005,True,0,30,440,46,0,20,1,620,3
+130,"wind-up Alphinaud",0,"wind-up Alphinauds",0,0,1,0,0,884,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4619,9008,True,0,10,420,4,120,20,1,633,3
+131,"wind-up Alisaie",0,"wind-up Alisaies",0,0,1,1,0,885,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4620,9009,True,0,15,460,1,120,20,2,616,3
+132,"wind-up Tataru",0,"wind-up Tatarus",0,0,1,1,0,892,100,5,5,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4626,9010,True,0,10,440,12,360,20,2,626,3
+133,"wind-up Cid",0,"wind-up Cids",0,0,1,0,0,891,100,10,5,0,0,1,0,8,263,False,True,False,True,False,0,False,True,4627,9011,True,0,30,500,35,360,20,2,634,3
+134,"unicolt",0,"unicolts",0,0,1,1,0,890,100,10,0,0,0,2,0,8,43,True,False,True,False,True,0,False,True,4628,3006,True,0,10,415,18,360,30,1,624,1
+135,"wind-up Gundu warrior",0,"wind-up Gundu warriors",0,0,1,0,0,889,100,10,0,0,0,1,0,8,87,False,True,True,False,False,0,False,True,4657,7010,True,0,10,420,9,0,20,1,620,3
+136,"atrophied Atomos",0,"atrophied Atomoses",0,1,1,0,0,894,100,10,0,0,0,2,0,8,69,True,False,False,False,False,0,False,True,4629,1044,True,0,25,460,22,360,20,1,632,2
+137,"owlet",0,"owlets",0,1,1,0,0,893,100,0,0,0,0,2,2,8,70,True,False,False,False,True,0,False,True,4630,5003,True,0,25,540,43,0,20,1,620,1
+138,"ugly duckling",0,"ugly ducklings",0,1,1,0,0,899,90,20,0,0,0,2,0,8,71,True,False,True,False,True,0,False,True,4631,5004,True,0,20,480,1,30,20,1,601,1
+139,"gaelikitten",0,"gaelikittens",0,0,1,0,0,988,100,10,5,0,0,2,2,8,72,True,False,False,False,True,0,False,True,4632,1045,True,0,15,490,6,30,30,2,606,1
+140,"clockwork barrow",0,"clockwork barrow",0,0,1,1,0,896,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4633,11013,True,0,10,395,12,360,20,1,626,4
+141,"lesser panda",0,"lesser pandas",0,0,1,0,0,895,70,10,0,0,0,2,1,8,73,True,False,False,False,True,0,False,True,4634,3007,True,0,25,405,34,0,30,1,620,1
+142,"page 63",0,"page 63s",0,0,1,0,0,900,100,10,0,0,0,2,0,8,74,True,False,False,False,False,0,False,True,4635,1046,True,0,10,415,1,120,20,1,605,2
+143,"iron dwarf",0,"iron dwarves",0,1,1,0,0,898,100,10,0,0,0,1,0,8,243,False,True,False,True,False,0,False,True,4636,1047,True,0,10,360,9,0,20,1,620,2
+144,"griffin hatchling",0,"griffin hatchlings",0,0,1,1,0,897,90,10,5,0,0,2,0,8,75,True,False,False,False,True,0,False,True,4637,1048,True,0,15,310,22,360,20,2,632,2
+145,"wind-up Iceheart",0,"wind-up Icehearts",0,0,1,1,0,1165,100,5,10,0,0,1,0,8,269,False,True,False,True,False,0,False,True,4638,9020,True,0,25,400,19,30,30,2,611,3
+146,"Gestahl",0,"Gestahls",0,0,1,0,1,1166,100,1,10,0,0,2,0,8,76,True,False,True,False,True,0,True,True,4639,3008,True,0,10,320,21,0,20,1,620,1
+147,"steam-powered gobwalker G-VII",0,"steam-powered gobwalkers G-VII",0,0,1,1,0,1164,100,10,0,0,0,2,0,8,0,False,False,False,False,False,0,False,True,4640,2004,True,0,15,330,32,0,30,1,620,4
+148,"behemoth heir",0,"behemoth heirs",0,0,1,0,0,1162,100,10,0,0,0,2,0,8,5,True,False,True,False,True,0,False,True,4641,1002,True,90,15,400,9,0,20,1,620,2
+149,"accompaniment node",0,"accompaniment nodes",0,1,1,0,0,1163,100,3,8,0,0,2,0,8,77,True,False,False,True,False,0,False,True,4642,11006,True,0,30,630,6,360,30,1,600,4
+150,"wind-up Yugiri",0,"wind-up Yugiris",0,0,1,1,0,1167,100,10,0,0,0,1,0,8,271,False,True,False,True,False,0,False,True,4643,9021,True,0,15,335,11,360,20,1,617,3
+151,"Peridot Carbuncle",0,"Peridot Carbuncles",0,0,1,1,0,1168,80,10,0,0,0,1,0,8,245,False,True,False,True,False,0,False,True,4644,10010,True,0,20,430,38,120,20,1,609,1
+152,"Heliodor Carbuncle",0,"Heliodor Carbuncles",0,0,1,1,0,1068,80,10,0,0,0,1,0,8,245,False,True,False,True,False,0,False,True,4645,10011,True,0,15,610,10,0,20,1,620,1
 153,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-154,"gold rush minecart",0,"gold rush minecarts",0,0,1,0,0,1212,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4647,350,True,0,15,445,39,0,20,1,620,4
-155,"set of Primogs",0,"sets of Primogs",0,0,1,0,0,991,50,30,0,0,0,1,4,8,233,False,True,False,False,False,0,False,True,4623,206,True,0,15,460,11,360,20,1,617,3
-156,"wind-up Gnath",0,"wind-up Gnath",0,0,1,0,0,1169,100,10,0,0,0,1,0,8,277,False,True,False,True,False,0,False,True,4670,215,True,0,20,480,12,360,20,1,626,3
-157,"paissa brat",0,"paissa brats",0,0,1,0,0,1170,100,10,0,0,0,2,0,8,273,True,False,False,True,False,0,False,True,4658,82,True,0,25,620,46,0,20,1,620,2
-158,"wind-up Illuminatus",0,"wind-up Illuminati",0,0,1,0,0,1171,90,10,0,0,0,1,0,8,207,False,True,False,True,False,0,False,True,4659,208,True,0,10,390,18,360,30,1,624,3
-159,"Pumpkin Butler",0,"Pumpkin Butlers",0,0,1,0,0,1172,100,10,0,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4648,42,True,0,15,420,13,30,20,1,613,1
-160,"wind-up Echidna",0,"wind-up Echidnas",0,0,1,0,0,1322,100,10,0,0,0,1,0,8,275,False,True,False,True,False,0,False,True,4660,230,True,0,20,410,45,0,60,1,620,2
-161,"wind-up Relm",0,"wind-up Relms",0,0,1,0,0,1176,100,10,0,0,0,1,0,8,276,False,True,False,True,False,0,False,True,4661,306,True,0,10,415,10,0,20,1,620,3
-162,"hunting hawk",0,"hunting hawks",0,0,1,0,0,1173,100,10,0,0,0,2,2,8,78,True,False,False,False,False,0,False,True,4662,84,True,0,20,520,13,30,20,1,604,1
-163,"shalloweye",0,"shalloweyes",0,0,1,0,0,1174,100,10,0,0,0,2,1,8,79,True,False,False,False,False,0,False,True,4663,85,True,0,15,420,19,30,30,1,613,2
-164,"penguin prince",0,"penguin princes",0,0,1,0,0,1175,100,10,0,0,0,2,0,8,80,True,False,False,False,False,0,False,True,4664,86,True,130,10,415,36,360,30,1,634,1
-165,"clockwork Twintania",0,"clockwork Twintanias",0,0,1,0,0,1319,100,10,0,0,0,1,0,8,81,False,True,False,True,False,0,False,True,4665,353,True,0,25,380,12,360,20,1,618,2
-166,"korpokkur kid",0,"korpokkur kids",0,0,1,0,0,1320,100,10,0,0,0,2,0,8,82,True,False,False,False,False,0,False,True,4666,88,True,0,15,440,20,120,20,1,605,1
-167,"wind-up Firion",0,"wind-up Firions",0,0,1,0,0,1321,100,10,0,0,0,1,0,8,239,False,True,False,True,False,0,False,True,4649,302,True,0,25,600,4,120,20,1,605,3
-168,"wind-up Ifrit",0,"wind-up Ifrits",0,0,1,0,0,1318,100,10,0,0,0,1,0,8,83,False,True,False,False,False,0,False,True,4667,400,True,0,20,380,1,120,20,1,610,2
-169,"wind-up Garuda",0,"wind-up Garudas",0,0,1,1,0,1330,90,10,0,0,0,1,2,8,83,False,True,False,True,False,0,False,True,4672,401,True,0,20,495,26,360,20,1,619,2
-170,"wind-up Titan",0,"wind-up Titans",0,0,1,0,0,1331,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4673,402,True,0,15,380,19,30,30,1,613,2
-171,"wind-up Leviathan",0,"wind-up Leviathans",0,0,1,0,0,1332,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4674,403,True,0,30,455,32,0,40,1,620,2
-172,"wind-up Zundu warrior",0,"wind-up Zundu warriors",0,0,1,0,0,1423,100,10,0,0,0,1,0,8,87,False,True,False,True,False,0,False,True,4669,214,True,0,25,630,11,360,20,1,617,3
-173,"wind-up Haurchefant",0,"wind-up Haurchefants",0,0,1,0,0,1334,100,10,2,0,0,1,0,8,272,False,True,False,True,False,0,False,True,4668,465,True,0,30,530,10,0,20,1,620,3
-174,"wind-up Nero tol Scaeva",0,"wind-up Nero tol Scaevas",0,0,1,0,0,1335,100,10,0,0,0,1,0,8,278,False,True,False,True,False,0,False,True,4675,466,True,0,20,420,49,0,30,1,620,3
-175,"wind-up Vath",0,"wind-up Vath",0,0,1,0,0,1343,100,10,0,0,0,1,0,8,277,False,True,False,True,False,0,False,True,4671,215,True,0,15,430,17,0,20,1,620,3
-176,"faustlet",0,"faustlets",0,0,1,0,0,1458,100,10,0,0,0,1,0,8,236,False,True,False,True,False,0,False,True,4676,236,True,0,30,390,1,30,60,1,604,2
-177,"dress-up Y'shtola",0,"dress-up Y'shtolas",0,0,1,0,0,1333,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4696,451,True,0,25,480,22,360,20,1,632,3
-178,"Calca",0,"Calcas",0,0,1,1,1,1461,100,0,10,0,0,1,4,8,270,False,True,False,True,False,0,False,True,4677,237,True,0,10,370,51,360,20,2,618,2
-179,"Brina",0,"Brinas",0,0,1,1,1,1462,100,0,10,0,0,1,4,8,270,False,True,False,True,False,0,False,True,4678,237,True,0,15,410,50,360,20,2,617,2
-180,"morpho",0,"morphos",0,0,1,0,0,1459,80,20,0,0,0,2,3,8,304,False,False,False,False,False,0,False,True,4679,89,True,0,20,470,20,120,30,1,602,1
-181,"Poro Roggo",0,"Poro Roggos",0,0,1,0,1,1466,100,10,0,0,0,2,0,8,305,True,False,True,False,True,0,False,True,4680,90,True,0,20,420,38,30,20,1,640,1
-182,"spoony bard",0,"spoony bards",0,0,1,0,0,1484,100,10,0,0,0,1,0,8,306,False,True,False,True,False,0,False,True,4681,304,True,0,15,400,12,360,20,1,619,3
-183,"Fenrir pup",0,"Fenrir pups",0,0,1,0,0,1467,100,10,0,0,0,2,0,8,307,True,False,True,False,True,0,False,True,4682,91,True,0,15,380,11,360,20,1,617,2
-184,"wind-up dragonet",0,"wind-up dragonets",0,0,1,0,0,1463,100,10,0,0,0,1,2,8,308,False,True,False,True,True,0,False,True,4697,216,True,0,30,510,1,30,20,1,601,1
-185,"wind-up Ramuh",0,"wind-up Ramuhs",0,0,1,0,0,1544,90,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4698,404,True,0,25,515,1,30,30,1,603,2
-186,"wind-up Shiva",0,"wind-up Shivas",0,0,1,0,0,1545,90,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4699,405,True,0,10,420,19,30,30,1,611,2
-187,"Piggy",0,"Piggies",0,0,1,0,1,1465,100,2,0,0,30,2,0,8,311,True,False,False,True,True,0,False,True,4700,69,True,0,10,375,29,360,20,1,623,1
-188,"magic bucket",0,"magic buckets",0,0,1,0,0,1464,100,5,1,0,0,1,0,8,0,False,False,False,True,False,0,False,True,4701,351,True,0,15,530,18,360,30,1,624,4
-189,"calamari",0,"calamari",0,0,1,0,0,1469,100,10,0,0,0,2,0,8,313,True,False,False,True,False,0,False,True,4702,93,True,0,25,480,38,30,20,1,640,2
-190,"baby brachiosaur",0,"baby brachiosaurs",0,0,1,0,0,1470,100,10,0,0,0,1,0,8,314,False,True,False,True,False,0,False,True,4703,241,True,0,30,490,23,30,20,1,613,3
-191,"wind-up cheerleader",0,"wind-up cheerleaders",0,0,1,0,0,1468,100,0,10,0,0,2,6,8,315,False,True,False,True,False,0,True,True,4704,240,True,0,15,440,11,360,20,1,617,3
-192,"wind-up Krile",0,"wind-up Kriles",0,0,1,0,0,1336,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4705,467,True,0,10,390,12,360,20,1,626,3
-193,"wind-up Aymeric",0,"wind-up Aymerics",0,0,1,0,0,1547,100,10,0,0,0,1,0,8,317,False,True,False,True,False,0,False,True,4706,468,True,0,30,465,34,0,30,1,620,3
-194,"pegasus colt",0,"pegasus colts",0,0,1,0,0,1650,100,10,0,0,0,2,0,8,318,True,False,True,False,True,0,False,True,4713,99,True,0,25,500,18,360,30,1,624,1
-195,"wind-up Calofisteri",0,"wind-up Calofisteris",0,0,1,0,0,1546,100,10,0,0,0,1,0,8,319,False,True,True,False,False,0,False,True,4707,230,True,0,25,440,10,0,20,1,620,2
-196,"wind-up sasquatch",0,"wind-up sasquatches",0,0,1,0,0,1386,100,10,0,0,0,1,0,8,320,False,True,False,True,False,0,False,True,4708,241,True,0,15,420,37,0,20,1,620,2
-197,"dwarf rabbit",0,"dwarf rabbits",0,0,1,0,0,1387,100,10,0,0,0,2,0,8,321,True,False,True,False,True,0,False,True,4709,95,True,0,20,450,36,360,30,1,634,1
-198,"hecteye",0,"hecteyes",0,0,1,0,0,1385,100,10,0,0,0,2,0,8,322,True,False,True,False,True,0,False,True,4710,96,True,0,10,450,19,120,30,1,608,2
+154,"gold rush minecart",0,"gold rush minecarts",0,0,1,0,0,1212,100,10,0,0,0,1,0,8,0,False,False,False,False,False,0,False,True,4647,11012,True,0,15,445,39,0,20,1,620,4
+155,"set of Primogs",0,"sets of Primogs",0,0,1,0,0,991,50,30,0,0,0,1,4,8,233,False,True,False,False,False,0,False,True,4623,12,True,0,15,460,11,360,20,1,617,3
+156,"wind-up Gnath",0,"wind-up Gnath",0,0,1,0,0,1169,100,10,0,0,0,1,0,8,277,False,True,False,True,False,0,False,True,4670,7009,True,0,20,480,12,360,20,1,626,3
+157,"paissa brat",0,"paissa brats",0,0,1,0,0,1170,100,10,0,0,0,2,0,8,273,True,False,False,True,False,0,False,True,4658,1049,True,0,25,620,46,0,20,1,620,2
+158,"wind-up Illuminatus",0,"wind-up Illuminati",0,0,1,0,0,1171,90,10,0,0,0,1,0,8,207,False,True,False,True,False,0,False,True,4659,7001,True,0,10,390,18,360,30,1,624,3
+159,"Pumpkin Butler",0,"Pumpkin Butlers",0,0,1,0,0,1172,100,10,0,0,0,2,0,8,42,True,False,True,False,True,0,False,True,4648,1025,True,0,15,420,13,30,20,1,613,1
+160,"wind-up Echidna",0,"wind-up Echidnas",0,0,1,0,0,1322,100,10,0,0,0,1,0,8,275,False,True,False,True,False,0,False,True,4660,2009,True,0,20,410,45,0,60,1,620,2
+161,"wind-up Relm",0,"wind-up Relms",0,0,1,0,0,1176,100,10,0,0,0,1,0,8,276,False,True,False,True,False,0,False,True,4661,12008,True,0,10,415,10,0,20,1,620,3
+162,"hunting hawk",0,"hunting hawks",0,0,1,0,0,1173,100,10,0,0,0,2,2,8,78,True,False,False,False,False,0,False,True,4662,5005,True,0,20,520,13,30,20,1,604,1
+163,"shalloweye",0,"shalloweyes",0,0,1,0,0,1174,100,10,0,0,0,2,1,8,79,True,False,False,False,False,0,False,True,4663,1050,True,0,15,420,19,30,30,1,613,2
+164,"penguin prince",0,"penguin princes",0,0,1,0,0,1175,100,10,0,0,0,2,0,8,80,True,False,False,False,False,0,False,True,4664,5006,True,130,10,415,36,360,30,1,634,1
+165,"clockwork Twintania",0,"clockwork Twintanias",0,0,1,0,0,1319,100,10,0,0,0,1,0,8,81,False,True,False,True,False,0,False,True,4665,2001,True,0,25,380,12,360,20,1,618,2
+166,"korpokkur kid",0,"korpokkur kids",0,0,1,0,0,1320,100,10,0,0,0,2,0,8,82,True,False,False,False,False,0,False,True,4666,1051,True,0,15,440,20,120,20,1,605,1
+167,"wind-up Firion",0,"wind-up Firions",0,0,1,0,0,1321,100,10,0,0,0,1,0,8,239,False,True,False,True,False,0,False,True,4649,12003,True,0,25,600,4,120,20,1,605,3
+168,"wind-up Ifrit",0,"wind-up Ifrits",0,0,1,0,0,1318,100,10,0,0,0,1,0,8,83,False,True,False,False,False,0,False,True,4667,8001,True,0,20,380,1,120,20,1,610,2
+169,"wind-up Garuda",0,"wind-up Garudas",0,0,1,1,0,1330,90,10,0,0,0,1,2,8,83,False,True,False,True,False,0,False,True,4672,8002,True,0,20,495,26,360,20,1,619,2
+170,"wind-up Titan",0,"wind-up Titans",0,0,1,0,0,1331,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4673,8003,True,0,15,380,19,30,30,1,613,2
+171,"wind-up Leviathan",0,"wind-up Leviathans",0,0,1,0,0,1332,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4674,8004,True,0,30,455,32,0,40,1,620,2
+172,"wind-up Zundu warrior",0,"wind-up Zundu warriors",0,0,1,0,0,1423,100,10,0,0,0,1,0,8,87,False,True,False,True,False,0,False,True,4669,7010,True,0,25,630,11,360,20,1,617,3
+173,"wind-up Haurchefant",0,"wind-up Haurchefants",0,0,1,0,0,1334,100,10,2,0,0,1,0,8,272,False,True,False,True,False,0,False,True,4668,9022,True,0,30,530,10,0,20,1,620,3
+174,"wind-up Nero tol Scaeva",0,"wind-up Nero tol Scaevas",0,0,1,0,0,1335,100,10,0,0,0,1,0,8,278,False,True,False,True,False,0,False,True,4675,9023,True,0,20,420,49,0,30,1,620,3
+175,"wind-up Vath",0,"wind-up Vath",0,0,1,0,0,1343,100,10,0,0,0,1,0,8,277,False,True,False,True,False,0,False,True,4671,7008,True,0,15,430,17,0,20,1,620,3
+176,"faustlet",0,"faustlets",0,0,1,0,0,1458,100,10,0,0,0,1,0,8,236,False,True,False,True,False,0,False,True,4676,2003,True,0,30,390,1,30,60,1,604,2
+177,"dress-up Y'shtola",0,"dress-up Y'shtolas",0,0,1,0,0,1333,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4696,9001,True,0,25,480,22,360,20,1,632,3
+178,"Calca",0,"Calcas",0,0,1,1,1,1461,100,0,10,0,0,1,4,8,270,False,True,False,True,False,0,False,True,4677,1052,True,0,10,370,51,360,20,2,618,2
+179,"Brina",0,"Brinas",0,0,1,1,1,1462,100,0,10,0,0,1,4,8,270,False,True,False,True,False,0,False,True,4678,1053,True,0,15,410,50,360,20,2,617,2
+180,"morpho",0,"morphos",0,0,1,0,0,1459,80,20,0,0,0,2,3,8,304,False,False,False,False,False,0,False,True,4679,1054,True,0,20,470,20,120,30,1,602,1
+181,"Poro Roggo",0,"Poro Roggos",0,0,1,0,1,1466,100,10,0,0,0,2,0,8,305,True,False,True,False,True,0,False,True,4680,1055,True,0,20,420,38,30,20,1,640,1
+182,"spoony bard",0,"spoony bards",0,0,1,0,0,1484,100,10,0,0,0,1,0,8,306,False,True,False,True,False,0,False,True,4681,12006,True,0,15,400,12,360,20,1,619,3
+183,"Fenrir pup",0,"Fenrir pups",0,0,1,0,0,1467,100,10,0,0,0,2,0,8,307,True,False,True,False,True,0,False,True,4682,1056,True,0,15,380,11,360,20,1,617,2
+184,"wind-up dragonet",0,"wind-up dragonets",0,0,1,0,0,1463,100,10,0,0,0,1,2,8,308,False,True,False,True,True,0,False,True,4697,7011,True,0,30,510,1,30,20,1,601,1
+185,"wind-up Ramuh",0,"wind-up Ramuhs",0,0,1,0,0,1544,90,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4698,8005,True,0,25,515,1,30,30,1,603,2
+186,"wind-up Shiva",0,"wind-up Shivas",0,0,1,0,0,1545,90,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4699,8006,True,0,10,420,19,30,30,1,611,2
+187,"Piggy",0,"Piggies",0,0,1,0,1,1465,100,2,0,0,30,2,0,8,311,True,False,False,True,True,0,False,True,4700,12902,True,0,10,375,29,360,20,1,623,1
+188,"magic bucket",0,"magic buckets",0,0,1,0,0,1464,100,5,1,0,0,1,0,8,0,False,False,False,True,False,0,False,True,4701,11016,True,0,15,530,18,360,30,1,624,4
+189,"calamari",0,"calamari",0,0,1,0,0,1469,100,10,0,0,0,2,0,8,313,True,False,False,True,False,0,False,True,4702,1057,True,0,25,480,38,30,20,1,640,2
+190,"baby brachiosaur",0,"baby brachiosaurs",0,0,1,0,0,1470,100,10,0,0,0,1,0,8,314,False,True,False,True,False,0,False,True,4703,1058,True,0,30,490,23,30,20,1,613,3
+191,"wind-up cheerleader",0,"wind-up cheerleaders",0,0,1,0,0,1468,100,0,10,0,0,2,6,8,315,False,True,False,True,False,0,True,True,4704,10013,True,0,15,440,11,360,20,1,617,3
+192,"wind-up Krile",0,"wind-up Kriles",0,0,1,0,0,1336,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4705,9012,True,0,10,390,12,360,20,1,626,3
+193,"wind-up Aymeric",0,"wind-up Aymerics",0,0,1,0,0,1547,100,10,0,0,0,1,0,8,317,False,True,False,True,False,0,False,True,4706,9024,True,0,30,465,34,0,30,1,620,3
+194,"pegasus colt",0,"pegasus colts",0,0,1,0,0,1650,100,10,0,0,0,2,0,8,318,True,False,True,False,True,0,False,True,4713,1059,True,0,25,500,18,360,30,1,624,1
+195,"wind-up Calofisteri",0,"wind-up Calofisteris",0,0,1,0,0,1546,100,10,0,0,0,1,0,8,319,False,True,True,False,False,0,False,True,4707,2010,True,0,25,440,10,0,20,1,620,2
+196,"wind-up sasquatch",0,"wind-up sasquatches",0,0,1,0,0,1386,100,10,0,0,0,1,0,8,320,False,True,False,True,False,0,False,True,4708,1060,True,0,15,420,37,0,20,1,620,2
+197,"dwarf rabbit",0,"dwarf rabbits",0,0,1,0,0,1387,100,10,0,0,0,2,0,8,321,True,False,True,False,True,0,False,True,4709,3009,True,0,20,450,36,360,30,1,634,1
+198,"hecteye",0,"hecteyes",0,0,1,0,0,1385,100,10,0,0,0,2,0,8,322,True,False,True,False,True,0,False,True,4710,1061,True,0,10,450,19,120,30,1,608,2
 199,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-200,"Jibanyan",0,"Jibanyans",0,0,1,0,1,1390,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4684,701,False,0,25,620,1,30,20,1,606,2
-201,"Komasan",0,"Komasans",0,0,1,0,1,1391,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4686,702,False,0,20,520,35,360,20,1,634,2
-202,"Whisper",0,"Whispers",0,0,1,0,1,1392,100,10,0,0,0,2,0,8,324,True,False,False,True,False,0,False,True,4692,704,False,0,15,420,14,30,20,1,621,2
-203,"Blizzaria",0,"Blizzarias",0,0,1,0,1,1393,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4694,712,False,90,10,360,11,360,30,1,617,2
-204,"Kyubi",0,"Kyubis",0,0,1,0,1,1394,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4691,710,False,0,25,630,1,120,20,1,610,2
-205,"Komajiro",0,"Komajiros",0,0,1,0,1,1395,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4687,707,False,0,15,510,20,120,20,1,633,2
-206,"Manjimutt",0,"Manjimutts",0,0,1,0,1,1396,100,10,0,0,0,2,0,8,324,True,False,False,True,True,0,False,True,4695,713,False,0,15,530,1,120,20,1,627,2
-207,"Noko",0,"Nokos",0,0,1,0,1,1397,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4688,708,False,0,20,650,27,360,30,1,615,2
-208,"Venoct",0,"Venocts",0,0,1,0,1,1398,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4690,709,False,0,30,630,1,120,20,1,605,2
-209,"Shogunyan",0,"Shogunyans",0,0,1,0,1,1399,100,10,0,0,0,2,0,8,324,True,False,False,True,True,0,False,True,4683,705,False,0,20,650,4,30,20,1,604,2
-210,"Hovernyan",0,"Hovernyans",0,0,1,0,1,1400,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4685,706,False,0,10,365,1,30,30,1,606,2
-211,"Robonyan F-type",0,"Robonyan F-types",0,0,1,0,1,1401,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4693,711,False,0,10,400,5,360,30,1,600,2
-212,"USApyon",0,"USApyons",0,1,1,0,1,1402,100,10,0,0,0,2,0,8,324,True,False,False,True,True,0,False,True,4689,703,False,0,15,550,1,30,20,1,612,2
+200,"Jibanyan",0,"Jibanyans",0,0,1,0,1,1390,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4684,13003,False,0,25,620,1,30,20,1,606,2
+201,"Komasan",0,"Komasans",0,0,1,0,1,1391,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4686,13004,False,0,20,520,35,360,20,1,634,2
+202,"Whisper",0,"Whispers",0,0,1,0,1,1392,100,10,0,0,0,2,0,8,324,True,False,False,True,False,0,False,True,4692,13005,False,0,15,420,14,30,20,1,621,2
+203,"Blizzaria",0,"Blizzarias",0,0,1,0,1,1393,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4694,13006,False,90,10,360,11,360,30,1,617,2
+204,"Kyubi",0,"Kyubis",0,0,1,0,1,1394,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4691,13007,False,0,25,630,1,120,20,1,610,2
+205,"Komajiro",0,"Komajiros",0,0,1,0,1,1395,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4687,13008,False,0,15,510,20,120,20,1,633,2
+206,"Manjimutt",0,"Manjimutts",0,0,1,0,1,1396,100,10,0,0,0,2,0,8,324,True,False,False,True,True,0,False,True,4695,13009,False,0,15,530,1,120,20,1,627,2
+207,"Noko",0,"Nokos",0,0,1,0,1,1397,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4688,13010,False,0,20,650,27,360,30,1,615,2
+208,"Venoct",0,"Venocts",0,0,1,0,1,1398,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4690,13011,False,0,30,630,1,120,20,1,605,2
+209,"Shogunyan",0,"Shogunyans",0,0,1,0,1,1399,100,10,0,0,0,2,0,8,324,True,False,False,True,True,0,False,True,4683,13012,False,0,20,650,4,30,20,1,604,2
+210,"Hovernyan",0,"Hovernyans",0,0,1,0,1,1400,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4685,13013,False,0,10,365,1,30,30,1,606,2
+211,"Robonyan F-type",0,"Robonyan F-types",0,0,1,0,1,1401,100,10,0,0,0,2,0,8,324,True,False,True,False,True,0,False,True,4693,13014,False,0,10,400,5,360,30,1,600,2
+212,"USApyon",0,"USApyons",0,1,1,0,1,1402,100,10,0,0,0,2,0,8,324,True,False,False,True,True,0,False,True,4689,13015,False,0,15,550,1,30,20,1,612,2
 213,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-214,"Namingway",0,"Namingways",0,0,1,0,1,1614,100,0,10,0,0,2,0,8,325,True,False,False,False,True,0,False,True,4714,304,True,0,20,450,29,360,20,1,623,3
-215,"toy Alexander",0,"toy Alexanders",0,0,1,0,0,1618,100,10,0,0,0,2,0,8,326,False,False,False,False,False,0,False,True,4715,235,True,0,25,600,12,360,20,1,626,2
-216,"shaggy shoat",0,"shaggy shoats",0,0,1,0,0,1615,100,10,0,0,0,2,0,8,327,True,False,False,False,True,0,False,True,4716,97,True,0,30,450,11,360,20,1,617,1
-217,"dress-up Thancred",0,"dress-up Thancreds",0,0,1,0,0,1616,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4717,452,True,0,15,420,19,120,30,1,608,3
-218,"dress-up Alisaie",0,"dress-up Alisaies",0,0,1,0,0,1617,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4718,457,True,0,10,390,9,0,20,1,620,3
-219,"wind-up Edda",0,"wind-up Eddas",0,0,1,0,0,1626,100,10,0,0,0,1,0,8,330,False,True,False,False,False,0,False,True,4719,469,True,0,25,420,14,30,20,1,604,2
-220,"wind-up Yuna",0,"wind-up Yunas",0,0,1,0,0,1611,100,10,0,0,0,1,0,8,331,False,True,False,True,False,0,False,True,4720,310,True,0,30,500,27,360,30,1,615,3
-221,"wind-up Rikku",0,"wind-up Rikkus",0,0,1,0,0,1612,100,10,0,0,0,1,0,8,331,False,True,False,True,False,0,False,True,4721,310,True,0,15,420,35,360,25,1,634,3
-222,"wind-up Lulu",0,"wind-up Lulus",0,0,1,0,0,1613,100,10,0,0,0,1,0,8,331,False,True,False,True,False,0,False,True,4722,310,True,0,20,430,1,120,20,1,616,3
+214,"Namingway",0,"Namingways",0,0,1,0,1,1614,100,0,10,0,0,2,0,8,325,True,False,False,False,True,0,False,True,4714,12006,True,0,20,450,29,360,20,1,623,3
+215,"toy Alexander",0,"toy Alexanders",0,0,1,0,0,1618,100,10,0,0,0,2,0,8,326,False,False,False,False,False,0,False,True,4715,2005,True,0,25,600,12,360,20,1,626,2
+216,"shaggy shoat",0,"shaggy shoats",0,0,1,0,0,1615,100,10,0,0,0,2,0,8,327,True,False,False,False,True,0,False,True,4716,1062,True,0,30,450,11,360,20,1,617,1
+217,"dress-up Thancred",0,"dress-up Thancreds",0,0,1,0,0,1616,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4717,9003,True,0,15,420,19,120,30,1,608,3
+218,"dress-up Alisaie",0,"dress-up Alisaies",0,0,1,0,0,1617,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4718,9009,True,0,10,390,9,0,20,1,620,3
+219,"wind-up Edda",0,"wind-up Eddas",0,0,1,0,0,1626,100,10,0,0,0,1,0,8,330,False,True,False,False,False,0,False,True,4719,9025,True,0,25,420,14,30,20,1,604,2
+220,"wind-up Yuna",0,"wind-up Yunas",0,0,1,0,0,1611,100,10,0,0,0,1,0,8,331,False,True,False,True,False,0,False,True,4720,12009,True,0,30,500,27,360,30,1,615,3
+221,"wind-up Rikku",0,"wind-up Rikkus",0,0,1,0,0,1612,100,10,0,0,0,1,0,8,331,False,True,False,True,False,0,False,True,4721,12010,True,0,15,420,35,360,25,1,634,3
+222,"wind-up Lulu",0,"wind-up Lulus",0,0,1,0,0,1613,100,10,0,0,0,1,0,8,331,False,True,False,True,False,0,False,True,4722,12011,True,0,20,430,1,120,20,1,616,3
 223,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-224,"wind-up Moenbryda",0,"wind-up Moenbrydas",0,0,1,0,0,1651,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4724,455,True,0,10,400,32,0,30,1,620,3
-225,"Continental eye",0,"Continental eyes",0,0,1,0,0,1769,100,30,0,0,0,2,0,8,30,True,False,False,True,True,0,False,True,4725,30,True,0,15,430,28,120,20,1,605,2
-226,"bullpup",0,"bullpups",0,0,1,0,0,1690,100,30,0,0,0,2,0,8,88,True,False,True,False,True,0,False,True,4726,98,True,0,10,420,22,360,20,1,632,1
-227,"angel of mercy",0,"angels of mercy",0,1,1,0,0,1691,100,30,0,0,0,1,0,8,335,False,True,True,False,False,0,False,True,4727,219,True,0,15,450,39,0,20,1,620,3
-228,"wind-up Estinien",0,"wind-up Estiniens",0,0,1,0,0,1693,100,30,0,0,0,1,0,8,336,False,True,False,True,False,233,True,True,4728,470,True,0,10,380,40,0,30,1,631,3
-229,"wind-up Hraesvelgr",0,"wind-up Hraesvelgrs",0,0,1,0,0,1694,100,30,0,0,0,1,0,8,269,False,True,True,False,False,0,False,True,4729,471,True,0,25,500,29,360,20,1,623,2
-230,"Gigi",0,"Gigis",0,0,1,0,1,1695,100,30,0,0,0,1,0,8,268,False,True,False,True,False,0,False,True,4730,200,True,0,20,445,31,0,30,1,620,3
-231,"anima",0,"animas",0,1,1,0,0,1697,100,30,0,0,0,2,0,8,338,True,False,True,False,True,0,False,True,4731,99,True,0,25,480,11,360,20,1,618,3
-232,"wind-up Scathach",0,"wind-up Scathachs",0,0,1,0,0,1782,100,30,0,0,0,1,0,8,339,False,True,False,True,False,0,False,True,4732,230,True,0,10,420,38,120,20,2,609,2
-233,"wind-up Nidhogg",0,"wind-up Nidhoggs",0,0,1,0,0,1783,100,30,0,0,0,1,0,8,340,False,True,False,True,False,228,False,True,4733,471,True,0,30,450,1,120,20,1,616,2
-234,"hellpup",0,"hellpups",0,0,1,0,0,1791,100,30,0,0,0,2,0,8,89,True,False,True,False,True,0,False,True,4734,100,True,0,15,420,43,0,20,1,620,1
-235,"wind-up Ohl Deeh",0,"wind-up Ohl Deehs",0,0,1,0,0,1856,100,10,0,0,0,1,2,8,308,False,True,False,True,True,0,False,True,4736,216,True,0,20,450,35,360,30,1,634,1
-236,"wind-up moon",0,"wind-up moons",0,0,1,0,0,1855,100,0,0,0,0,3,8,8,0,False,False,False,False,False,0,False,False,4737,500,True,0,30,500,11,360,20,1,617,4
-237,"castaway chocobo chick",0,"castaway chocobo chicks",0,0,1,0,0,1696,100,30,0,0,0,2,0,8,3,True,False,True,False,True,0,False,True,4738,1,True,0,25,580,4,30,20,1,604,1
-238,"wind-up Bartz",0,"wind-up Bartzes",0,0,1,0,0,1692,100,30,0,0,0,2,0,8,279,False,True,False,True,False,0,False,True,4739,305,True,0,30,450,5,360,30,2,619,3
-239,"wind-up red mage",0,"wind-up red mages",0,0,1,0,0,1698,100,30,0,0,0,1,0,8,223,False,True,False,True,False,0,False,True,4740,301,True,0,20,445,18,360,30,1,624,3
-240,"faepup",0,"faepups",0,0,1,0,0,1859,100,30,0,0,0,2,0,8,89,True,False,True,False,True,0,False,True,4735,100,True,0,20,440,34,0,30,1,620,1
-241,"odder otter",0,"odder otters",0,1,1,0,0,1786,100,30,0,0,0,2,0,8,280,True,False,True,False,True,0,False,True,4741,101,True,0,20,500,23,120,30,1,631,1
-242,"fox kit",0,"fox kits",0,0,1,0,0,1784,100,10,0,0,0,2,0,8,281,True,False,True,False,True,0,False,True,4742,102,True,0,25,500,27,360,30,2,615,1
-243,"Tora-jiro",0,"Tora-jiros",0,0,1,0,1,1785,100,10,0,0,0,2,0,8,13,True,False,True,False,True,0,False,True,4743,103,True,90,20,440,19,120,30,1,608,1
-244,"tiny tatsunoko",0,"tiny tatsunoko",0,0,1,0,0,1787,100,10,0,0,0,2,0,8,282,True,False,True,False,True,0,False,True,4744,104,True,0,10,300,49,0,30,1,620,1
-245,"bombfish",0,"bombfish",0,0,1,0,0,1790,100,10,0,0,0,2,0,8,284,True,False,True,False,False,0,False,True,4745,105,True,90,10,470,12,360,20,1,626,2
-246,"Bom Boko",0,"Bom Bokos",0,0,1,0,1,1788,100,10,0,0,0,2,0,8,281,True,False,True,False,True,0,False,True,4746,106,True,0,20,450,10,0,20,2,620,1
-247,"road sparrow",0,"road sparrows",0,0,1,0,0,1789,100,10,0,0,0,2,3,8,285,True,False,True,False,True,0,False,True,4747,107,True,0,10,450,14,30,20,1,607,1
-248,"wind-up Lyse",0,"wind-up Lyses",0,0,1,0,0,1824,100,10,10,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4748,453,True,0,25,500,1,30,20,1,606,3
-249,"dress-up Yugiri",0,"dress-up Yugiris",0,0,1,1,0,1825,100,10,0,0,0,1,0,8,271,False,True,False,True,False,0,False,True,4749,464,True,0,30,310,20,120,20,1,631,3
-250,"wind-up Gosetsu",0,"wind-up Gosetsus",0,0,1,0,0,1826,100,10,0,0,0,1,0,8,286,False,True,False,True,False,0,False,True,4750,473,True,0,15,320,4,30,20,2,604,3
-251,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-252,"mock-up Grynewaht",0,"mock-up Grynewahts",0,0,1,0,0,1828,100,10,10,0,0,1,0,8,289,False,True,False,True,False,0,False,True,4752,475,True,0,30,590,38,30,20,1,604,2
-253,"wind-up Namazu",0,"wind-up Namazu",0,0,1,0,0,1830,100,10,0,0,0,2,0,8,290,False,True,True,False,False,0,False,True,4753,246,True,0,25,510,28,120,20,1,605,3
-254,"Ivon Coeurlfist doll",0,"Ivon Coeurlfist dolls",0,1,1,0,0,1831,100,10,0,0,0,2,0,8,291,False,True,True,False,False,0,False,True,4754,247,True,0,20,390,42,0,20,1,620,2
-255,"wind-up chimera",0,"wind-up chimeras",0,0,1,0,0,1832,100,10,0,0,0,1,0,8,292,False,True,False,True,False,0,False,True,4755,242,False,0,25,510,26,120,20,1,622,2
-256,"wind-up meateater",0,"wind-up meateaters",0,0,1,0,0,1833,100,10,0,0,0,1,0,8,206,False,True,False,True,False,0,False,True,4756,207,True,0,25,480,37,0,20,1,620,3
-257,"magitek avenger F1",0,"magitek avengers F1",0,0,1,0,0,1834,100,10,0,0,0,1,0,8,320,False,True,False,True,False,0,False,True,4757,245,True,0,15,360,15,0,20,1,620,3
-258,"Ghido",0,"Ghidos",0,0,1,0,1,1895,100,10,0,0,0,2,0,8,293,True,False,True,False,True,259,False,True,4758,108,True,0,10,330,43,0,20,1,620,1
-259,"wind-up Exdeath",0,"wind-up Exdeaths",0,0,1,0,0,1896,100,10,0,0,0,1,0,8,294,False,True,False,True,False,258,False,True,4759,231,True,0,25,440,41,0,20,1,620,2
-260,"wind-up Khloe",0,"wind-up Khloes",0,0,1,1,0,1897,100,10,0,0,0,1,0,8,295,False,True,False,True,False,0,False,True,4760,476,True,0,15,520,25,360,20,1,625,3
-261,"wind-up Susano",0,"wind-up Susanos",0,0,1,0,0,1898,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4761,421,True,0,20,400,38,30,20,1,640,2
-262,"wind-up Lakshmi",0,"wind-up Lakshmis",0,0,1,1,0,1899,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4762,422,True,0,10,320,27,360,30,1,615,2
-263,"wind-up Bismarck",0,"wind-up Bismarcks",0,0,1,0,0,1968,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4763,406,True,0,15,550,34,0,30,1,620,2
-264,"wind-up Hien",0,"wind-up Hiens",0,0,1,0,0,1978,100,10,0,0,0,1,0,8,296,False,True,False,True,False,0,False,True,4764,477,False,0,25,520,11,360,30,2,617,3
-265,"wind-up Ravana",0,"wind-up Ravanas",0,0,1,0,0,1979,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4765,407,False,0,25,550,38,120,30,2,605,2
-266,"wind-up Kojin",0,"wind-up Kojin",0,0,1,0,0,1980,100,10,0,0,0,1,0,8,209,False,True,False,True,False,0,False,True,4766,217,False,0,15,430,27,360,30,1,615,3
-267,"mameshiba",0,"mameshiba",0,0,1,0,0,1981,100,10,0,0,0,2,0,8,341,True,False,True,False,True,0,False,True,4767,109,False,0,20,500,4,30,20,1,601,1
-268,"Tengu doll",0,"Tengu dolls",0,0,1,0,0,1982,100,10,0,0,0,2,0,8,342,True,False,True,False,True,0,False,True,4768,248,False,0,15,400,19,120,30,1,616,1
-269,"wind-up Matanga",0,"wind-up Matangas",0,0,1,0,0,1983,100,10,0,0,0,2,0,8,343,True,False,True,False,True,0,False,True,4769,218,False,0,25,600,1,30,20,1,606,2
+224,"wind-up Moenbryda",0,"wind-up Moenbrydas",0,0,1,0,0,1651,100,10,0,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4724,9013,True,0,10,400,32,0,30,1,620,3
+225,"Continental eye",0,"Continental eyes",0,0,1,0,0,1769,100,30,0,0,0,2,0,8,30,True,False,False,True,True,0,False,True,4725,1024,True,0,15,430,28,120,20,1,605,2
+226,"bullpup",0,"bullpups",0,0,1,0,0,1690,100,30,0,0,0,2,0,8,88,True,False,True,False,True,0,False,True,4726,1063,True,0,10,420,22,360,20,1,632,1
+227,"angel of mercy",0,"angels of mercy",0,1,1,0,0,1691,100,30,0,0,0,1,0,8,335,False,True,True,False,False,0,False,True,4727,10014,True,0,15,450,39,0,20,1,620,3
+228,"wind-up Estinien",0,"wind-up Estiniens",0,0,1,0,0,1693,100,30,0,0,0,1,0,8,336,False,True,False,True,False,233,True,True,4728,9026,True,0,10,380,40,0,30,1,631,3
+229,"wind-up Hraesvelgr",0,"wind-up Hraesvelgrs",0,0,1,0,0,1694,100,30,0,0,0,1,0,8,269,False,True,True,False,False,0,False,True,4729,9037,True,0,25,500,29,360,20,1,623,2
+230,"Gigi",0,"Gigis",0,0,1,0,1,1695,100,30,0,0,0,1,0,8,268,False,True,False,True,False,0,False,True,4730,10005,True,0,20,445,31,0,30,1,620,3
+231,"anima",0,"animas",0,1,1,0,0,1697,100,30,0,0,0,2,0,8,338,True,False,True,False,True,0,False,True,4731,10015,True,0,25,480,11,360,20,1,618,3
+232,"wind-up Scathach",0,"wind-up Scathachs",0,0,1,0,0,1782,100,30,0,0,0,1,0,8,339,False,True,False,True,False,0,False,True,4732,2011,True,0,10,420,38,120,20,2,609,2
+233,"wind-up Nidhogg",0,"wind-up Nidhoggs",0,0,1,0,0,1783,100,30,0,0,0,1,0,8,340,False,True,False,True,False,228,False,True,4733,9038,True,0,30,450,1,120,20,1,616,2
+234,"hellpup",0,"hellpups",0,0,1,0,0,1791,100,30,0,0,0,2,0,8,89,True,False,True,False,True,0,False,True,4734,1064,True,0,15,420,43,0,20,1,620,1
+235,"wind-up Ohl Deeh",0,"wind-up Ohl Deehs",0,0,1,0,0,1856,100,10,0,0,0,1,2,8,308,False,True,False,True,True,0,False,True,4736,7012,True,0,20,450,35,360,30,1,634,1
+236,"wind-up moon",0,"wind-up moons",0,0,1,0,0,1855,100,0,0,0,0,3,8,8,0,False,False,False,False,False,0,False,False,4737,11009,True,0,30,500,11,360,20,1,617,4
+237,"castaway chocobo chick",0,"castaway chocobo chicks",0,0,1,0,0,1696,100,30,0,0,0,2,0,8,3,True,False,True,False,True,0,False,True,4738,9,True,0,25,580,4,30,20,1,604,1
+238,"wind-up Bartz",0,"wind-up Bartzes",0,0,1,0,0,1692,100,30,0,0,0,2,0,8,279,False,True,False,True,False,0,False,True,4739,12007,True,0,30,450,5,360,30,2,619,3
+239,"wind-up red mage",0,"wind-up red mages",0,0,1,0,0,1698,100,30,0,0,0,1,0,8,223,False,True,False,True,False,0,False,True,4740,12001,True,0,20,445,18,360,30,1,624,3
+240,"faepup",0,"faepups",0,0,1,0,0,1859,100,30,0,0,0,2,0,8,89,True,False,True,False,True,0,False,True,4735,1065,True,0,20,440,34,0,30,1,620,1
+241,"odder otter",0,"odder otters",0,1,1,0,0,1786,100,30,0,0,0,2,0,8,280,True,False,True,False,True,0,False,True,4741,4003,True,0,20,500,23,120,30,1,631,1
+242,"fox kit",0,"fox kits",0,0,1,0,0,1784,100,10,0,0,0,2,0,8,281,True,False,True,False,True,0,False,True,4742,3010,True,0,25,500,27,360,30,2,615,1
+243,"Tora-jiro",0,"Tora-jiros",0,0,1,0,1,1785,100,10,0,0,0,2,0,8,13,True,False,True,False,True,0,False,True,4743,3011,True,90,20,440,19,120,30,1,608,1
+244,"tiny tatsunoko",0,"tiny tatsunoko",0,0,1,0,0,1787,100,10,0,0,0,2,0,8,282,True,False,True,False,True,0,False,True,4744,1066,True,0,10,300,49,0,30,1,620,1
+245,"bombfish",0,"bombfish",0,0,1,0,0,1790,100,10,0,0,0,2,0,8,284,True,False,True,False,False,0,False,True,4745,1067,True,90,10,470,12,360,20,1,626,2
+246,"Bom Boko",0,"Bom Bokos",0,0,1,0,1,1788,100,10,0,0,0,2,0,8,281,True,False,True,False,True,0,False,True,4746,3012,True,0,20,450,10,0,20,2,620,1
+247,"road sparrow",0,"road sparrows",0,0,1,0,0,1789,100,10,0,0,0,2,3,8,285,True,False,True,False,True,0,False,True,4747,5007,True,0,10,450,14,30,20,1,607,1
+248,"wind-up Lyse",0,"wind-up Lyses",0,0,1,0,0,1824,100,10,10,0,0,1,0,8,262,False,True,False,True,False,0,False,True,4748,9004,True,0,25,500,1,30,20,1,606,3
+249,"dress-up Yugiri",0,"dress-up Yugiris",0,0,1,1,0,1825,100,10,0,0,0,1,0,8,271,False,True,False,True,False,0,False,True,4749,9021,True,0,30,310,20,120,20,1,631,3
+250,"wind-up Gosetsu",0,"wind-up Gosetsus",0,0,1,0,0,1826,100,10,0,0,0,1,0,8,286,False,True,False,True,False,0,False,True,4750,9027,True,0,15,320,4,30,20,2,604,3
+251,"wind-up Yotsuyu",0,"wind-up Yotsuyus",0,0,1,0,0,1827,100,10,0,0,0,1,0,8,287,False,True,False,True,False,0,False,True,4751,9028,False,0,10,290,35,360,30,1,634,3
+252,"mock-up Grynewaht",0,"mock-up Grynewahts",0,0,1,0,0,1828,100,10,10,0,0,1,0,8,289,False,True,False,True,False,0,False,True,4752,9032,True,0,30,590,38,30,20,1,604,2
+253,"wind-up Namazu",0,"wind-up Namazu",0,0,1,0,0,1830,100,10,0,0,0,2,0,8,290,False,True,True,False,False,0,False,True,4753,6002,True,0,25,510,28,120,20,1,605,3
+254,"Ivon Coeurlfist doll",0,"Ivon Coeurlfist dolls",0,1,1,0,0,1831,100,10,0,0,0,2,0,8,291,False,True,True,False,False,0,False,True,4754,1068,True,0,20,390,42,0,20,1,620,2
+255,"wind-up chimera",0,"wind-up chimeras",0,0,1,0,0,1832,100,10,0,0,0,1,0,8,292,False,True,False,True,False,0,False,True,4755,10016,True,0,25,510,26,120,20,1,622,2
+256,"wind-up meateater",0,"wind-up meateaters",0,0,1,0,0,1833,100,10,0,0,0,1,0,8,206,False,True,False,True,False,0,False,True,4756,6001,True,0,25,480,37,0,20,1,620,3
+257,"magitek avenger F1",0,"magitek avengers F1",0,0,1,0,0,1834,100,10,0,0,0,1,0,8,320,False,True,False,True,False,0,False,True,4757,11007,True,0,15,360,15,0,20,1,620,3
+258,"Ghido",0,"Ghidos",0,0,1,0,1,1895,100,10,0,0,0,2,0,8,293,True,False,True,False,True,259,False,True,4758,4004,True,0,10,330,43,0,20,1,620,1
+259,"wind-up Exdeath",0,"wind-up Exdeaths",0,0,1,0,0,1896,100,10,0,0,0,1,0,8,294,False,True,False,True,False,258,False,True,4759,2006,True,0,25,440,41,0,20,1,620,2
+260,"wind-up Khloe",0,"wind-up Khloes",0,0,1,1,0,1897,100,10,0,0,0,1,0,8,295,False,True,False,True,False,0,False,True,4760,9029,True,0,15,520,25,360,20,1,625,3
+261,"wind-up Susano",0,"wind-up Susanos",0,0,1,0,0,1898,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4761,8010,True,0,20,400,38,30,20,1,640,2
+262,"wind-up Lakshmi",0,"wind-up Lakshmis",0,0,1,1,0,1899,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4762,8011,True,0,10,320,27,360,30,1,615,2
+263,"wind-up Bismarck",0,"wind-up Bismarcks",0,0,1,0,0,1968,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4763,8008,True,0,15,550,34,0,30,1,620,2
+264,"wind-up Hien",0,"wind-up Hiens",0,0,1,0,0,1978,100,10,0,0,0,1,0,8,296,False,True,False,True,False,0,False,True,4764,9030,True,0,25,520,11,360,30,2,617,3
+265,"wind-up Ravana",0,"wind-up Ravanas",0,0,1,0,0,1979,100,10,0,0,0,1,0,8,83,False,True,False,True,False,0,False,True,4765,8009,True,0,25,550,38,120,30,2,605,2
+266,"wind-up Kojin",0,"wind-up Kojin",0,0,1,0,0,1980,100,10,0,0,0,1,0,8,209,False,True,False,True,False,0,False,True,4766,7013,True,0,15,430,27,360,30,1,615,3
+267,"mameshiba",0,"mameshiba",0,0,1,0,0,1981,100,10,0,0,0,2,0,8,341,True,False,True,False,True,0,False,True,4767,3013,True,0,20,500,4,30,20,1,601,1
+268,"tengu doll",0,"tengu dolls",0,0,1,0,0,1982,100,10,0,0,0,2,0,8,342,True,False,True,False,True,0,False,True,4768,10017,True,0,15,400,19,120,30,1,616,1
+269,"wind-up Matanga",0,"wind-up Matangas",0,0,1,0,0,1983,100,10,0,0,0,2,0,8,343,True,False,True,False,True,0,False,True,4769,1069,True,0,25,600,1,30,20,1,606,2
 270,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-271,"koala joey",0,"koala joeys",0,0,1,0,0,2066,100,10,0,0,0,2,9,8,346,True,False,True,False,True,0,False,True,4771,110,False,0,25,600,29,360,20,1,623,1
-272,"salt & pepper seal",0,"salt & pepper seals",0,0,1,0,0,2067,100,10,0,0,0,2,0,8,347,True,False,True,False,True,0,False,True,4772,111,False,0,20,480,26,30,30,1,621,1
-273,"axolotl eft",0,"axolotl efts",0,1,1,0,0,2068,100,10,0,0,0,2,0,8,347,True,False,True,False,True,0,False,True,4773,112,False,0,10,300,42,0,30,1,620,1
-274,"wind-up Ixion",0,"wind-up Ixions",0,0,1,0,0,2069,100,10,0,0,0,1,0,8,349,False,True,False,True,False,0,False,True,4774,249,False,0,30,560,20,360,40,1,637,2
-275,"wind-up Shinryu",0,"wind-up Shinryu",0,0,1,0,0,2124,100,10,0,0,0,1,10,8,350,False,True,False,False,False,0,False,True,4775,408,False,0,30,480,45,0,60,2,620,2
-276,"dress-up Raubahn",0,"dress-up Raubahns",0,0,1,0,0,2120,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4776,224,False,0,20,400,38,30,20,2,604,3
-277,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-278,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
-279,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+271,"koala joey",0,"koala joeys",0,0,1,0,0,2066,100,10,0,0,0,2,9,8,346,True,False,True,False,True,0,False,True,4771,3014,True,0,25,600,29,360,20,1,623,1
+272,"salt & pepper seal",0,"salt & pepper seals",0,0,1,0,0,2067,100,10,0,0,0,2,0,8,347,True,False,True,False,True,0,False,True,4772,4005,True,0,20,480,26,30,30,1,621,1
+273,"axolotl eft",0,"axolotl efts",0,1,1,0,0,2068,100,10,0,0,0,2,0,8,347,True,False,True,False,True,0,False,True,4773,4006,True,0,10,300,42,0,30,1,620,1
+274,"wind-up Ixion",0,"wind-up Ixions",0,0,1,0,0,2069,100,10,0,0,0,1,0,8,349,False,True,False,True,False,0,False,True,4774,1070,True,0,30,560,20,360,40,1,637,2
+275,"wind-up Shinryu",0,"wind-up Shinryu",0,0,1,0,0,2124,100,10,0,0,0,1,10,8,350,False,True,False,False,False,0,False,True,4775,8012,True,0,30,480,45,0,60,2,620,2
+276,"dress-up Raubahn",0,"dress-up Raubahns",0,0,1,0,0,2120,100,10,0,0,0,1,0,8,224,False,True,False,True,False,0,False,True,4776,9018,True,0,20,400,38,30,20,2,604,3
+277,"wind-up Ananta",0,"wind-up Anantas",0,0,1,1,0,2232,100,10,0,0,0,1,0,8,351,False,True,True,False,True,0,False,True,4777,7014,False,0,20,450,27,360,60,1,615,3
+278,"private moai",0,"private moais",0,0,1,0,0,2140,100,10,0,0,0,1,0,8,352,False,True,False,True,True,0,False,True,4778,11018,False,0,20,450,12,360,20,1,626,4
+279,"white whittret",0,"white whittrets",0,0,1,0,0,2141,100,10,0,0,0,2,1,8,353,True,False,False,True,False,0,False,True,4779,3015,False,0,15,440,1,120,20,1,605,1
+280,"motley egg",0,"motley eggs",0,0,1,0,0,2142,100,10,0,0,0,1,0,8,354,False,True,False,True,False,0,False,True,4780,10018,False,0,10,350,29,360,20,2,623,3
+281,"wind-up Kefka",0,"wind-up Kefkas",0,0,1,0,0,2143,100,10,0,0,0,1,0,8,355,False,True,False,True,True,0,False,True,4781,2007,False,0,30,600,43,0,20,2,620,2
+282,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+283,"aurelia polyp",0,"aurelia polyps",0,1,1,0,0,2155,100,10,0,0,0,2,0,8,357,True,False,False,True,False,0,False,True,4783,4007,False,0,15,510,20,120,20,1,633,1
+284,"Byakko cub",0,"Byakko cubs",0,0,1,0,0,2156,100,5,10,0,0,2,0,8,83,False,True,True,False,True,0,False,True,4784,8013,False,0,20,500,38,120,20,2,609,2
+285,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+286,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+287,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+288,"komainu",0,"komainu",0,0,1,0,0,2170,100,5,5,0,0,1,0,8,359,False,True,False,True,True,288,False,True,4788,3016,False,0,20,460,37,0,20,1,620,3
+289,"the Gold Whisker",0,"Gold Whiskers",0,0,1,0,1,2221,100,10,0,0,0,2,0,8,290,False,True,True,False,False,0,False,True,4789,6002,False,0,30,560,25,360,20,1,625,3
+290,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+291,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+292,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+293,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+294,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0
+295,"",0,"",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,0,False,False,0,0,False,0,0,0,0,0,0,0,0,0

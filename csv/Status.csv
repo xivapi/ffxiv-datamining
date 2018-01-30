@@ -51,7 +51,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 47,"Stealth","Cannot be detected by enemies. Movement speed is reduced.",16001,0,1,16,0,False,False,False,False,False,False,False,True,True,2,True,0,False,0,False,True,0,0,False
 48,"Well Fed","Enjoying the benefits of a full belly.",16202,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 49,"Medicated","Performance is being enhanced by a medicinal item.",16203,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-50,"Sprint","Movement speed is increased.",10101,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+50,"Sprint","Movement speed is increased.",10101,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,6,False
 51,"Strength Down","Strength is reduced.",15080,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
 52,"Vitality Down","Vitality is reduced.",15082,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
 53,"Physical Damage Up","Physical damage dealt is increased.",15050,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,False,0,False,False,0,0,False
@@ -87,7 +87,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 83,"Foresight","Defense is increased.",10252,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 84,"Bloodbath","Physical attacks generate HP equal to a portion of damage dealt.",13913,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 85,"Maim","Damage dealt is increased.",10262,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-86,"Berserk","Attack power is enhanced.",10253,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+86,"Berserk","All attacks are both critical and direct hits.",10253,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 87,"Thrill of Battle","Maximum HP is increased.",10254,0,1,16,0,False,False,False,False,False,False,False,False,False,5,True,0,False,0,False,False,0,0,False
 88,"Holmgang","Unable to move until effect fades.",10255,0,2,17,0,True,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 89,"Vengeance","Inflicting a portion of sustained damage back to its source.",10256,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,False,0,False,False,0,0,False
@@ -549,13 +549,13 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 545,"Companion Enmity Up II","Companion enmity is increased.",14035,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
 546,"Enervation","Damage dealt is reduced and damage taken is increased.",15040,0,2,17,0,False,False,False,False,False,False,False,False,False,50,True,0,False,0,False,False,0,0,False
 547,"Facility Access: Production","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-548,"Facility Access: Finishing","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level, while maximum CP is reduced.",16109,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-549,"Facility Access: Detailing","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level, while maximum CP is reduced.",16110,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-550,"Facility Access: Production II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16111,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-551,"Facility Access: Specialization","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level, while use of additional actions is prohibited.",16112,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,11,False
-552,"Facility Access: Specialization II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level, while use of additional actions is prohibited.",16113,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,11,False
-553,"Facility Access: Detailing II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level, while maximum CP is reduced.",16114,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-554,"Facility Access: Finishing II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level, while maximum CP is reduced.",16115,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+548,"Facility Access: Finishing","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+549,"Facility Access: Detailing","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+550,"Facility Access: Production II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+551,"Facility Access: Specialization","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+552,"Facility Access: Specialization II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+553,"Facility Access: Detailing II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+554,"Facility Access: Finishing II","Making use of local crafting facilities to synthesize special items. Recipe level is lowered to current level.",16108,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 555,"Repelling Spray","Countering any physical attacks.",15036,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,False,0,False,False,0,0,False
 556,"Repelling Spray","Countering any magic attacks.",15542,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,False,0,False,False,0,0,False
 557,"Repelling Spray","Countering any physical attacks.",15036,0,1,16,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,0,False
@@ -914,19 +914,19 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 910,"Doom","Certain death when counter reaches zero.",15503,0,2,9,0,False,False,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
 911,"Thin Ice","Having trouble maintaining a solid foothold upon ice-covered ground.",15615,0,2,17,0,False,False,False,False,False,False,False,True,True,100,True,0,False,0,False,False,0,0,False
 912,"Vulnerability Down","Damage taken is reduced.",15021,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,False,0,False,False,0,0,False
-913,"Balance Drawn","The <Color(-154)>Balance</Color> card is drawn.",13229,0,1,19,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-914,"Bole Drawn","The <Color(-154)>Bole</Color> card is drawn.",13230,0,1,20,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-915,"Arrow Drawn","The <Color(-154)>Arrow</Color> card is drawn.",13231,0,1,21,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-916,"Spear Drawn","The <Color(-154)>Spear</Color> card is drawn.",13232,0,1,22,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-917,"Ewer Drawn","The <Color(-154)>Ewer</Color> card is drawn.",13233,0,1,23,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-918,"Spire Drawn","The <Color(-154)>Spire</Color> card is drawn.",13234,0,1,24,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+913,"Balance Drawn","The <Color(-154)>Balance</Color> card is drawn.",13229,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+914,"Bole Drawn","The <Color(-154)>Bole</Color> card is drawn.",13230,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+915,"Arrow Drawn","The <Color(-154)>Arrow</Color> card is drawn.",13231,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+916,"Spear Drawn","The <Color(-154)>Spear</Color> card is drawn.",13232,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+917,"Ewer Drawn","The <Color(-154)>Ewer</Color> card is drawn.",13233,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+918,"Spire Drawn","The <Color(-154)>Spire</Color> card is drawn.",13234,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 919,"Heightened Visibility","Able to see and attack concealed targets.",15676,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
-920,"Balance Held","The <Color(-154)>Balance</Color> card is drawn and held in your spread.",13235,0,1,19,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-921,"Bole Held","The <Color(-154)>Bole</Color> card is drawn and held in your spread.",13236,0,1,20,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-922,"Arrow Held","The <Color(-154)>Arrow</Color> card is drawn and held in your spread.",13237,0,1,21,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-923,"Spear Held","The <Color(-154)>Spear</Color> card is drawn and held in your spread.",13238,0,1,22,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-924,"Ewer Held","The <Color(-154)>Ewer</Color> card is drawn and held in your spread.",13239,0,1,23,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-925,"Spire Held","The <Color(-154)>Spire</Color> card is drawn and held in your spread.",13240,0,1,24,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+920,"Balance Held","The <Color(-154)>Balance</Color> card is drawn and held in your spread.",13235,0,1,0,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+921,"Bole Held","The <Color(-154)>Bole</Color> card is drawn and held in your spread.",13236,0,1,0,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+922,"Arrow Held","The <Color(-154)>Arrow</Color> card is drawn and held in your spread.",13237,0,1,0,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+923,"Spear Held","The <Color(-154)>Spear</Color> card is drawn and held in your spread.",13238,0,1,0,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+924,"Ewer Held","The <Color(-154)>Ewer</Color> card is drawn and held in your spread.",13239,0,1,0,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+925,"Spire Held","The <Color(-154)>Spire</Color> card is drawn and held in your spread.",13240,0,1,0,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
 926,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",15013,0,2,2,3,True,False,True,False,False,False,True,False,False,100,True,0,False,0,False,False,0,3,False
 927,"Nectar","Your entire body is covered in sweet-smelling nectar.",15583,0,2,17,0,False,False,False,False,False,False,False,False,False,200,True,1,False,0,False,False,0,0,False
 928,"Black Menace","The beast is overtaken with madness.",15503,0,1,0,0,False,False,False,False,False,False,False,False,True,0,True,0,False,0,False,False,0,0,False
@@ -1141,7 +1141,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1137,"Fire Resistance Down II","Fire resistance is significantly reduced.",15595,0,2,17,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,0,False
 1138,"Magic Vulnerability Up","Magic damage taken is increased.",15057,0,2,17,0,False,False,False,False,False,False,False,False,False,50,True,0,False,0,False,False,0,0,False
 1139,"Physical Damage Up","Physical damage dealt is increased.",15519,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,False,0,False,False,0,0,False
-1140,"Raise","Teetering on the brink of consciousness.",10406,0,1,16,0,False,False,False,False,False,False,False,True,False,100,True,0,False,0,False,False,0,0,False
+1140,"Raise","Teetering on the brink of consciousness.",10406,0,1,16,0,False,False,False,False,False,False,False,True,False,100,True,0,True,0,False,False,0,0,False
 1141,"Heavy","Movement speed is reduced.",15002,0,2,4,0,False,False,False,False,False,False,False,False,False,100,True,1,False,0,False,False,0,0,False
 1142,"Aetherial Surge","Releasing excess aether.",15746,0,2,17,0,False,False,False,False,False,False,False,True,False,200,True,0,False,0,False,False,0,0,False
 1143,"Infinite Fire","Marked with fire.",15758,0,2,17,0,False,False,False,False,False,False,False,True,False,250,True,0,False,0,False,False,0,0,False
@@ -1178,7 +1178,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1174,"Intervention","Damage taken is reduced.",12511,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1175,"Passage of Arms","An area of land has been granted protection, reducing damage taken for all who enter.",12512,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,4,True,0,False,False,0,27,False
 1176,"Arms Up","Damage taken is reduced.",12513,0,1,16,0,False,False,False,False,False,False,False,False,True,0,True,0,False,0,False,False,0,0,False
-1177,"Inner Release","All <Color(-154)>Stun</Color>, <Color(-154)>Sleep</Color>, <Color(-154)>Bind</Color>, <Color(-154)>Heavy</Color>, and most knockback and draw-in effects are nullified.",12556,0,1,16,29,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1177,"Inner Release","<Color(-34022)>Beast Gauge</Color> consumption is reduced to 0. All attacks are both critical and direct hits. All <Color(-154)>Stun</Color>, <Color(-154)>Sleep</Color>, <Color(-154)>Bind</Color>, <Color(-154)>Heavy</Color>, and most knockback and draw-in effects are nullified.",12556,0,1,16,29,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1178,"Blackest Night","An all-encompassing darkness is nullifying damage.",13118,0,1,16,0,False,False,False,False,False,False,False,False,False,60,True,0,False,0,False,False,0,12,False
 1179,"Riddle of Earth","Contemplating the riddle of earth. Any damage taken triggers <Color(-154)>Earth's Reply</Color>.",12527,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,25,False
 1180,"Earth's Reply","Damage taken is reduced.",12531,0,1,27,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
@@ -1221,7 +1221,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1217,"Thin Air","Spells consume no MP.",12631,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,6,False,0,False,False,0,19,False
 1218,"Divine Benison","A holy blessing from the gods is nullifying damage.",12632,0,1,16,0,False,False,False,False,False,False,False,False,False,60,True,0,False,0,False,False,0,12,False
 1219,"Confession","Sins are confessed. Ready for <Color(-34022)>Plenary Indulgence</Color>.",18901,3,1,26,0,False,False,False,False,False,False,False,False,False,60,True,0,False,0,False,False,0,28,False
-1220,"Excogitation","HP will be restored automatically upon falling below a certain level.",12808,0,1,16,0,False,False,False,False,False,False,False,False,False,60,True,0,False,0,False,False,0,25,False
+1220,"Excogitation","HP will be restored automatically upon falling below a certain level or expiration of effect duration.",12808,0,1,16,0,False,False,False,False,False,False,False,False,False,60,True,0,False,0,False,False,0,25,False
 1221,"Chain Stratagem","Rate at which critical hits are taken is increased.",12809,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
 1222,"Fey Union","Allowing regeneration of HP over time.",12810,0,1,16,0,False,True,True,False,False,False,False,True,True,100,True,0,True,0,False,False,0,0,False
 1223,"Fey Union","Regenerating HP over time.",12811,0,1,16,0,False,False,False,False,False,False,False,True,True,100,True,0,True,0,False,False,0,0,False
@@ -1343,13 +1343,13 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1339,"The Bole","Damage taken is reduced.",13205,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1340,"The Ewer","Restoring MP over time.",13208,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1341,"The Spire","Restoring TP over time.",13209,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1342,"Bolt","Movement speed is increased.",14828,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1343,"Stun","Unable to execute actions.",15004,0,2,3,2,True,False,True,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
-1344,"Heavy","Movement speed is reduced.",15002,0,2,4,6,False,False,False,False,False,False,True,False,False,200,True,1,False,0,False,False,0,0,False
-1345,"Bind","Unable to move.",15003,0,2,12,5,False,True,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
-1346,"Slow","Weaponskill and spell cast time and recast time are increased.",15009,0,2,13,0,False,False,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
-1347,"Silence","A stifling magic is preventing casts.",15005,0,2,7,0,False,False,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,22,False
-1348,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",15013,0,2,2,3,True,False,True,False,False,False,True,False,False,200,True,0,False,0,False,False,0,3,False
+1342,"Bolt","Movement speed is increased.",14828,0,1,0,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,6,False
+1343,"Stun","Unable to execute actions.",15004,0,2,17,44,True,False,True,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
+1344,"Heavy","Movement speed is reduced.",15002,0,2,17,47,False,False,False,False,False,False,True,False,False,200,True,1,False,0,False,False,0,0,False
+1345,"Bind","Unable to move.",15003,0,2,17,48,False,True,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
+1346,"Slow","Weaponskill and spell cast time and recast time are increased.",15009,0,2,17,0,False,False,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,0,False
+1347,"Silence","A stifling magic is preventing casts.",15005,0,2,17,45,False,False,False,False,False,False,True,False,False,200,True,0,False,0,False,False,0,22,False
+1348,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",15013,0,2,17,46,True,False,True,False,False,False,True,False,False,200,True,0,False,0,False,False,0,3,False
 1349,"Stun Resistance","Immune to stun effects.",14829,0,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 1350,"Heavy Resistance","Immune to heavy effects.",14830,0,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 1351,"Bind Resistance","Immune to bind effects.",14831,0,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
@@ -1372,7 +1372,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1368,"Requiescat","Magic damage dealt and HP restoration via healing magic are increased.",12514,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1369,"Requiescat","Magic damage dealt and HP restoration via healing magic are increased. Spells consume no MP.",12514,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,6,False,0,False,False,0,19,False
 1370,"Rage of Halone","Damage dealt and HP recovery via healing magic are reduced.",14836,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1371,"Butcher's Block","Damage taken is increased. Not affected by <Color(-154)>Adrenaline Rush<Color(-154)>.",14837,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1371,"Butcher's Block","Damage taken is increased. Not affected by <Color(-154)>Adrenaline Rush</Color>.",14837,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1372,"Power Slash","HP recovery via healing magic is reduced.",14838,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1373,"Immaterialized","Not yet fully materialized to a complete form.",15798,0,2,17,0,False,False,False,False,False,False,False,True,True,100,True,0,False,0,False,True,0,0,False
 1374,"Target Right","Focusing attack on target to the right.",15800,0,2,17,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,0,False
@@ -1390,12 +1390,12 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1386,"Sludge","Sustaining earth damage over time.",18881,16,2,17,0,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
 1387,"Altered States","Action area of effect has been altered.",10404,0,1,0,0,False,False,False,False,False,False,False,False,False,50,True,0,False,0,False,False,0,14,False
 1388,"Ashen","Covered in Stygian ash.",15804,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1389,"Seduced","Enthralled by an irresistible force and unable to act of your own volition.",15552,0,2,17,17,False,True,True,True,False,True,False,True,False,100,True,11,False,0,False,False,0,0,True
+1389,"Seduced","Enthralled by an irresistible force and unable to act of your own volition.",15552,0,2,17,17,False,True,True,True,False,True,False,True,False,100,True,11,False,0,False,False,0,0,False
 1390,"Levitation","Floating several ilms off the ground, defying the universal laws of gravity.",15037,0,1,16,0,False,False,False,False,False,False,False,True,True,1,True,12,True,0,False,False,0,0,False
 1391,"Fetters","Unable to execute actions.",15545,0,2,17,0,True,False,True,True,False,False,False,True,True,100,True,4,False,0,False,False,0,0,False
 1392,"Shining Moonstone","Empowered by the light of the moonstone, increasing damage dealt while reducing damage taken.",15803,0,1,16,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,0,False
 1393,"Dualcast","The next spell will be cast immediately.",13406,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1394,"Limp","Your mount has been lamed by an attack. Movement speed is reduced.",14839,0,2,4,6,False,False,False,False,False,False,True,False,False,200,True,1,False,0,False,False,0,0,False
+1394,"Limp","Your mount has been lamed by an attack. Movement speed is reduced.",14839,0,2,17,47,False,False,False,False,False,False,True,False,False,200,True,1,False,0,False,False,0,0,False
 1395,"Shield Oath","Damage dealt and taken are reduced.",12506,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
 1396,"Defiance","Maximum HP and HP recovery via healing magic is increased, while damage dealt is reduced.",12551,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
 1397,"Grit","Damage dealt and taken are reduced.",13108,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
@@ -1407,10 +1407,10 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1403,"Lightspeed","Spell casting time and MP cost are reduced by 100% and 50% respectively.",13220,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1404,"Divine Benison","A holy blessing from the gods is nullifying damage.",12632,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,12,False
 1405,"Disabled","Damage dealt is reduced.",13222,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1406,"Chain Stratagem","Damage taken is increased. Not affected by <Color(-154)>Adrenaline Rush<Color(-154)>.",12809,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1406,"Chain Stratagem","Damage taken is increased. Not affected by <Color(-154)>Adrenaline Rush</Color>.",12809,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1407,"Barrage","Striking multiple times per weaponskill.",10356,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1408,"Vulnerability Up","Damage taken is increased. Not affected by <Color(-154)>Adrenaline Rush<Color(-154)>.",15020,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1409,"Infirmity","HP recovery via healing magic is reduced.",15531,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1408,"Cometeor","Damage taken is increased. Not affected by <Color(-154)>Adrenaline Rush</Color>.",14843,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1409,"Terminal Velocity","HP recovery via healing magic is reduced.",14844,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1410,"Chanchala","Lakshmi's divine nature vacillates unsteadily.",15805,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,False,0,False,False,0,0,False
 1411,"The Road to 60","Experience earned while below level 60 is dramatically increased.",16227,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1412,"Vulnerability Up","Damage taken is increased.",17101,16,2,17,0,False,False,False,False,False,False,False,False,False,50,True,0,False,0,False,False,0,0,False
@@ -1419,9 +1419,9 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1415,"Protect","Damage taken is reduced.",10405,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1416,"Grounded","Bound to current elevation.",15806,0,2,17,0,False,False,False,False,False,False,False,False,False,200,True,25,False,0,False,False,0,24,False
 1417,"Stone Curse","Turned into stone. Taking damage results in instant death.",15586,0,2,6,1,True,False,True,False,False,True,False,False,False,100,True,0,False,0,False,False,0,21,False
-1418,"Abandonment","Will suffer <Color(-154)>Fear</Color> when straying too far from party members.",15649,0,2,17,40,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
+1418,"Abandonment","Will suffer <Color(-154)>Fear</Color> when straying too far from party members.",15649,0,2,17,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 1419,"The Worm's Curse","HP regeneration is nullified and damage is taken slowly over time. Attacking, however, will periodically restore HP.",15815,0,2,17,0,False,False,False,False,False,False,False,True,True,200,True,0,False,0,False,False,0,29,False
-1420,"Mounted","Mounted in warmachina. HP regeneration is nullified.",15821,0,1,16,0,False,False,True,False,True,False,False,True,True,200,True,2,True,0,False,False,0,9,False
+1420,"Mounted","Mounted in warmachina. HP regeneration is nullified. Damage taken from ranged and magic attacks is reduced.",15821,0,1,16,0,False,False,True,False,True,False,False,True,True,200,True,2,True,0,False,False,0,9,False
 1421,"Craven","Courage is fully tapped, increasing damage taken.",15810,0,2,17,0,False,False,True,True,True,False,False,False,False,100,True,2,False,0,False,False,0,9,False
 1422,"Temporary Misdirection","Overcome with temporary insanity. Can only move in the direction indicated.",15809,0,2,17,43,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 1423,"Transfiguration","Spiritual and corporeal forms are drastically altered.",15811,0,2,17,0,False,False,False,True,True,False,False,False,False,100,True,2,False,0,False,False,0,9,False
@@ -1444,7 +1444,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1440,"Offensive Tactics","Damage dealt is increased.",19121,5,1,16,0,False,False,False,True,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
 1441,"Defensive Tactics","Maximum HP is increased while damage taken is reduced.",19141,5,1,16,0,False,False,False,True,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
 1442,"Balanced Tactics","Maximum HP and damage dealt are increased.",19161,5,1,16,0,False,False,False,True,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-1443,"Clockwork","When the gears run down, functionality will cease.",15825,0,2,0,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,0,False
+1443,"Clockwork","When the gears run down, functionality will cease. HP restored by healing magic and damage taken from ranged and magic attacks are reduced.",15825,0,2,0,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,0,False
 1444,"Magitek Field","Impervious to all damage.",15824,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,12,False
 1445,"The Deceiver","Wearing the face of the god of lies.",15812,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,False,0,False,False,0,0,False
 1446,"The Upholder","Wearing the face of the god of truth.",15813,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,False,0,False,False,0,0,False
@@ -1457,7 +1457,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1453,"Right Eye","Damage dealt is increased.",12581,0,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,True,0,False,False,0,0,False
 1454,"Left Eye","Damage dealt is increased.",12582,0,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,True,0,False,False,0,0,False
 1455,"Flamethrower","Emitting a gout of searing flames in a cone, dealing damage over time.",13017,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,4,True,0,False,False,0,27,False
-1456,"Thrill of War","Maximum HP is increased.",14803,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1456,"Thrill of War","Refreshing HP of party members within range while draining own MP.",14803,0,1,16,0,False,False,False,False,False,False,False,False,True,0,True,0,True,0,False,False,0,0,False
 1457,"Shake It Off","A highly effective defensive maneuver is nullifying damage.",12557,0,1,16,0,False,False,False,False,False,False,False,False,False,60,True,0,False,0,False,False,0,12,False
 1458,"Flamethrower Flames","Taking damage over time.",19081,5,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1459,"Transfiguration","Spiritual and corporeal forms are drastically altered.",15811,0,2,17,0,False,False,False,True,True,False,False,False,False,100,True,2,False,0,False,False,0,9,False
@@ -1466,39 +1466,69 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1462,"Out of the Action","Unable to execute actions.",15045,0,2,17,0,False,False,False,False,False,False,False,True,True,100,True,19,False,0,False,False,0,24,False
 1463,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1464,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1465,"Soaring","Overcome with the battle high, increasing damage dealt and healing magic potency while reducing damage taken.",19181,10,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1465,"Soaring","Overcome with the battle high, increasing damage dealt and healing magic potency.",19181,10,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1466,"Stab Wound","Wounds dealt by a piercing weapon are bleeding, causing damage over time.",15522,0,2,17,0,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
-1467,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1468,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1469,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1470,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1471,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1472,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1473,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1474,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1475,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1476,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1477,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1478,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1479,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1480,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1481,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1482,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1483,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1484,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1485,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1486,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1487,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1488,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1489,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1490,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1491,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1492,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1493,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1494,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1467,"Yellow Paint","Carrying a pot of yellow paint.",15829,0,1,16,56,False,False,False,False,False,False,False,True,True,150,True,0,True,0,False,False,0,0,False
+1468,"Blue Paint","Carrying a pot of light blue paint.",15828,0,1,16,55,False,False,False,False,False,False,False,True,True,150,True,0,True,0,False,False,0,0,False
+1469,"Black Paint","Carrying a pot of black paint.",15830,0,1,16,57,False,False,False,False,False,False,False,True,True,150,True,0,True,0,False,False,0,0,False
+1470,"Red Paint","Carrying a pot of red paint.",15827,0,1,16,54,False,False,False,False,False,False,False,True,True,150,True,0,True,0,False,False,0,0,False
+1471,"Last Kiss","Cursed by a kiss. Unaspected damage dealt to all nearby allies when effect ends.",15842,0,2,17,0,False,False,False,False,False,False,False,False,False,200,True,0,True,0,False,False,0,0,False
+1472,"Apathetic","Unable to use HP restoration abilities while both MP and TP slowly drain. Not that you care.",15843,0,2,17,0,False,False,False,False,False,False,False,True,True,100,True,0,True,0,False,False,0,30,False
+1473,"Cemented","Cement is slowly covering your body. Petrification sets in when effect ends.",0,0,2,17,0,False,False,False,False,False,False,False,False,False,100,True,0,True,0,False,False,0,0,False
+1474,"Filthy","Earthen residue is causing damage over time.",15527,0,2,17,0,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
+1475,"Aether Rot","Infected with an unknown pathogen. Pathogen is released when effect ends.",15538,0,2,17,58,False,False,False,False,False,False,False,False,False,200,True,0,True,0,False,False,0,0,False
+1476,"Aether Rot Immunity","Unable to be an Aether Rot carrier.",15539,0,2,17,59,False,False,False,False,False,False,False,False,False,200,True,0,True,0,False,False,0,0,False
+1477,"Fetters","Unable to execute actions.",15545,0,2,17,0,True,False,True,True,False,False,False,True,False,100,True,0,False,0,False,False,0,0,False
+1478,"Connectivity","The Phantom Train is slowly leeching your life essence. Damage taken is also increased.",19201,10,2,17,0,False,False,False,False,False,False,False,True,True,100,True,0,False,0,False,False,0,0,False
+1479,"Falling","Absence of terra firma causing an inability to execute certain actions.",15831,0,2,17,49,False,False,True,False,False,False,False,True,False,100,True,0,False,0,False,False,0,0,False
+1480,"Unrelenting Anguish","Continuously launching Aratama from your body.",15833,0,1,16,51,False,False,False,False,False,False,False,True,False,200,True,0,False,0,False,False,0,0,False
+1481,"Ominous Wind","Touched by an ominous wind. Coming in contact with another cursed by the selfsame wind causes the omen to spread.",15834,0,2,17,50,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
+1482,"Mana Charge","Charging mana for a forthcoming spell.",15845,0,1,16,0,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
+1483,"Fire III Charged","Mana sufficient to cast Fire III or equivalent.",15846,0,1,16,0,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
+1484,"Blizzard III Charged","Mana sufficient to cast Blizzard III or equivalent.",15847,0,1,16,0,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
+1485,"Thunder III Charged","Mana sufficient to cast Thunder III or equivalent.",15848,0,1,16,0,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
+1486,"Jester's Antics","Effect radius and characteristics for Fire III, Water III, and Lightning III are severely altered.",15849,0,1,16,52,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
+1487,"Jester's Antics","Effect radius and characteristics for Fire III, Water III, and Lightning III are severely altered.",15850,0,1,16,53,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
+1488,"Incurable","All HP restoration is nullified.",15851,0,2,17,0,False,False,False,False,False,False,False,False,False,200,True,0,False,0,False,False,0,30,False
+1489,"Ultros Simulation","The Ultros simulation program is loaded.",15837,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+1490,"Air Force Simulation","The Air Force simulation program is loaded.",15838,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+1491,"Dadaluma Simulation","The Dadaluma simulation program is loaded.",15839,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+1492,"Bibliotaph Simulation","The Bibliotaph simulation program is loaded.",15840,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+1493,"Virus","A virus is loaded.",15841,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+1494,"Face in the Crowd","Participating in a live performance.",15853,0,1,16,0,False,False,True,False,True,False,False,False,False,100,True,2,False,0,False,False,0,9,False
 1495,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1496,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1497,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1498,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1499,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1500,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1498,"Shocked","Experiencing periodic immobility while bleeding HP over time.",15852,0,2,28,0,False,False,False,False,False,False,False,False,False,100,True,0,True,0,False,False,0,0,False
+1499,"Heavy Medal","The weight of medals collected is hampering faculty to fend off attacks. The higher the stack, the more damage taken.",18681,0,2,17,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1500,"Heavy Medal","The weight of medals collected is hampering faculty to fend off attacks. The higher the stack, the more damage taken.",18682,0,2,17,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1501,"Heavy Medal","The weight of medals collected is hampering faculty to fend off attacks. The higher the stack, the more damage taken.",18683,0,2,17,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1502,"Heavy Medal","The weight of medals collected is hampering faculty to fend off attacks. The higher the stack, the more damage taken.",18684,0,2,17,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1503,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19221,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1504,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19222,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1505,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19223,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1506,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19224,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
+1507,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1508,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1509,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1510,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",15013,0,2,2,3,True,False,True,False,False,False,False,False,False,100,True,0,False,0,False,False,0,3,False
+1511,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1512,"Knockback Penalty","Unable to use knockback and draw-in effects.",16704,0,2,17,0,False,False,False,False,False,False,False,True,True,50,True,0,False,0,False,False,0,0,False
+1513,"Stun","Unable to execute actions.",15004,0,2,17,0,False,False,True,True,False,False,False,True,False,100,True,4,False,0,False,False,2,0,False
+1514,"スリル・オブ・ウォー：効果","連続してＨＰが回復している状態。",14842,0,1,16,0,False,False,False,False,False,False,False,False,True,0,True,0,True,0,False,False,0,0,False
+1515,"Hover","Floating above ground.",15683,0,1,16,0,False,False,False,False,False,False,False,True,True,1,True,12,True,0,False,False,0,0,False
+1516,"Cemented","Cement is slowly covering your body. Petrification sets in when effect ends.",0,0,2,17,0,False,False,False,False,False,False,False,False,False,100,True,0,True,0,False,False,0,0,False
+1517,"Fire Resistance Up","Fire resistance is increased.",15028,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1518,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1519,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1520,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1521,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1522,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1523,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1524,"Blind","Encroaching darkness is lowering accuracy.",15012,0,2,10,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
+1525,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1526,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1527,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1528,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1529,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1530,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
