@@ -30,7 +30,8 @@ int32,LogKind,uint16,byte,bit&01,str
 26,57,1,0,False,"Message deleted."
 27,57,1,0,False,"<If(GreaterThan(IntegerParameter(2),1))><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/> are<Else/><Clickable(<SheetEn(Item,2,IntegerParameter(1),1,1)/>)/> is</If> taken from the message."
 28,57,1,0,False,"<Format(IntegerParameter(1),FF022C)/> gil taken from message."
-29,60,9,0,False,"You have reached the maximum capacity for messages with attachments.You will not receive any new deliveries until you claim your items."
+29,60,9,0,False,"You have reached the maximum capacity for messages with attachments.
+You will not receive any new deliveries until you claim your items."
 30,60,8,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(3)))><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>you</If><Else/><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>ObjectParameter(3)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(3)))>are<Else/>is</If> unable to trade at this time."
 31,60,8,0,False,"That item cannot be traded."
 32,57,1,0,False,"Trade request sent to <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>."
@@ -403,7 +404,8 @@ int32,LogKind,uint16,byte,bit&01,str
 399,57,33,1,False,"You are no longer selling items in the <Sheet(Town,IntegerParameter(1),0)/> markets."
 400,60,8,0,False,"This function is not available on the free trial."
 401,60,9,0,False,"That function cannot be performed with characters on the free trial."
-402,57,1,0,False,"You cannot earn any more gil while on the free trial.Excess gil will be discarded."
+402,57,1,0,False,"You cannot earn any more gil while on the free trial.
+Excess gil will be discarded."
 403,57,32,0,False,"Individual prices have been adjusted so the final total will not exceed the gil limit."
 404,60,9,0,False,"Unable to use another <SheetEn(Item,3,IntegerParameter(1),1,1)/> until you have finished re-editing your retainer."
 405,57,33,0,False,"You can now re-edit your retainer's appearance and personality. Remove all her gear and speak with a retainer vocate."
@@ -411,7 +413,9 @@ int32,LogKind,uint16,byte,bit&01,str
 407,60,9,0,False,"No more than one space can be used in a name."
 408,60,9,0,False,"ハングルかアルファベットのどちらか片方のみを使用してください。"
 409,57,1,0,False,"You've played more than you should. It's time you got some vitamin D."
-410,57,33,0,False,"You can now accept the next class/job quest.These quests offer opportunities not only to earngil, items, and gear, but also new class/job-specific actions."
+410,57,33,0,False,"You can now accept the next class/job quest.
+These quests offer opportunities not only to earn
+gil, items, and gear, but also new class/job-specific actions."
 411,57,33,0,False,"Screen resolution does not meet current setting requirements. UI scaling has been readjusted."
 412,57,33,0,False,"Idling camera paused."
 413,57,33,0,False,"Idling camera unpaused."
@@ -556,7 +560,8 @@ int32,LogKind,uint16,byte,bit&01,str
 552,64,1,0,False,"You learn <Highlight>StringParameter(1)</Highlight>."
 553,64,1,0,False,"You acquire <Sheet(Trait,IntegerParameter(1),0)/>."
 554,64,33,0,False,"You gain <Value>IntegerParameter(2)</Value> attribute <If(Equal(IntegerParameter(2),1))>point<Else/>points</If>."
-555,58,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>call<Else/>calls</If> for help!   <Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> more <If(Equal(IntegerParameter(2),1))>enemy joins<Else/>enemies join</If> the battle."
+555,58,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>call<Else/>calls</If> for help!
+   <Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> more <If(Equal(IntegerParameter(2),1))>enemy joins<Else/>enemies join</If> the battle."
 556,58,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>Your<Else/><If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>'s</If>)/> life will end in <Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>second<Else/>seconds</If>."
 557,58,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>defeat<Else/>defeats</If> <If(Equal(ObjectParameter(1),ObjectParameter(3)))><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>you</If><Else/><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>ObjectParameter(3)</If></If>."
 558,58,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>are<Else/>is</If> defeated by <If(Equal(ObjectParameter(1),ObjectParameter(3)))><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>you</If><Else/><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>ObjectParameter(3)</If></If>."
@@ -656,7 +661,8 @@ int32,LogKind,uint16,byte,bit&01,str
 652,60,8,0,False,"Unable to use. The machine is not loaded."
 653,60,8,0,False,"Unauthorized to summon mount."
 654,60,8,0,False,"Mount unavailable in this location."
-655,60,8,0,False,"To dismount, you must selectthe command from your pet hotbar."
+655,60,8,0,False,"To dismount, you must select
+the command from your pet hotbar."
 656,60,256,0,False,"Unable to use action outside of PvP."
 657,62,1,0,False,"You obtain <Value>IntegerParameter(1)</Value><If(Equal(IntegerParameter(2),0))><Else/>(+<Value>IntegerParameter(2)</Value>%)</If> Wolf Mark<If(Equal(IntegerParameter(1),1))><Else/>s</If>."
 658,60,9,0,False,"You cannot receive any more Wolf Marks."
@@ -814,7 +820,8 @@ int32,LogKind,uint16,byte,bit&01,str
 810,0,0,0,False,""
 811,57,32,0,False,"Changes saved."
 812,57,32,0,False,"Changes lost."
-813,60,8,0,False,"Target cycling is disabled.Target filter settings can be adjusted in Character Configuration."
+813,60,8,0,False,"Target cycling is disabled.
+Target filter settings can be adjusted in Character Configuration."
 814,57,33,0,False,"Cross hotbar switched to PvP settings."
 815,57,33,0,False,"Cross hotbar switched to PvE settings."
 816,60,8,0,False,"Unable to perform in this location."
@@ -902,8 +909,10 @@ int32,LogKind,uint16,byte,bit&01,str
 898,60,9,0,False,"Companions must be dismissed before participating in duty."
 899,60,9,0,False,"Only a party leader may register for duty."
 900,60,9,0,False,"You do not meet the requirements for this duty."
-901,60,9,0,False,"A problem has occurred with the Duty Finder server.Please try again in a few moments."
-902,60,9,0,False,"A party member has withdrawn from the duty.Finding new member."
+901,60,9,0,False,"A problem has occurred with the Duty Finder server.
+Please try again in a few moments."
+902,60,9,0,False,"A party member has withdrawn from the duty.
+Finding new member."
 903,60,9,0,False,"Unable to register. You do not meet one or more of the requirements."
 904,60,9,0,False,"The duty has ended. Finding new members."
 905,60,9,0,False,"Unable to register. Your role does not match."
@@ -1025,7 +1034,9 @@ int32,LogKind,uint16,byte,bit&01,str
 1021,60,9,0,False,"Unable to execute action. That character is no longer present."
 1022,0,0,0,False,""
 1023,0,0,0,False,""
-1024,57,9,0,False,"It's almost time for an Eorzean re-up.Months remaining: <Value>IntegerParameter(1)</Value>Hours remaining: <Value>IntegerParameter(2)</Value>"
+1024,57,9,0,False,"It's almost time for an Eorzean re-up.
+Months remaining: <Value>IntegerParameter(1)</Value>
+Hours remaining: <Value>IntegerParameter(2)</Value>"
 1025,60,8,0,False,"Retrieving items from inventory. Please wait."
 1026,0,0,0,False,""
 1027,0,0,0,False,""
@@ -1128,7 +1139,8 @@ int32,LogKind,uint16,byte,bit&01,str
 1124,67,17,0,False,"You can sense something swimming below, but are uncertain of how to go about catching it."
 1125,67,17,0,False,"You can sense something swimming below, but are uncertain where."
 1126,67,17,0,False,"You do not sense any fish here."
-1127,67,17,0,False,"Nothing bites. The bait you are using may not be suited to this location."
+1127,67,17,0,False,"Nothing bites. 
+The bait you are using may not be suited to this location."
 1128,60,8,0,False,"Unable to use that action at this time."
 1129,67,9,0,False,"Nothing bites."
 1130,67,17,0,False,"You have discovered the fishing location, <SheetEn(PlaceName,2,IntegerParameter(1),2,1)/>."
@@ -1177,7 +1189,8 @@ int32,LogKind,uint16,byte,bit&01,str
 1173,66,1,0,False,"   Material status is excellent."
 1174,66,1,0,False,"   <Value>IntegerParameter(1)</Value> CP recovered."
 1175,66,1,0,False,"   You lose the effect of <Sheet(Status,IntegerParameter(1),0)/>."
-1176,66,1,0,False,"You gain the effect of <Sheet(Status,IntegerParameter(1),0)/>   Control increases by <Value>IntegerParameter(2)</Value>."
+1176,66,1,0,False,"You gain the effect of <Sheet(Status,IntegerParameter(1),0)/>
+   Control increases by <Value>IntegerParameter(2)</Value>."
 1177,66,16,0,False,"Your synthesis fails!"
 1178,66,17,0,False,"Proof of completion recorded in crafting log!"
 1179,66,1,0,False,"The materials no longer hold a specific aspect."
@@ -1248,7 +1261,10 @@ int32,LogKind,uint16,byte,bit&01,str
 1244,60,8,0,False,"That item is not suited to your current class or job."
 1245,57,32,0,False,"The treasure coffer is empty."
 1246,60,8,0,False,"This treasure coffer belongs to another player."
-1247,60,8,0,False,"Select Need to make a high-priority roll.Select Greed to make a low-priority roll.Any Need roll will beat any Greed roll.Select Pass to waive your roll."
+1247,60,8,0,False,"Select Need to make a high-priority roll.
+Select Greed to make a low-priority roll.
+Any Need roll will beat any Greed roll.
+Select Pass to waive your roll."
 1248,57,32,0,False,"First obtain <SheetEn(Item,2,IntegerParameter(1),1,1)/> to examine it."
 1249,60,8,0,False,"Too far away."
 1250,60,8,0,False,"You cannot roll on that item."
@@ -1351,7 +1367,8 @@ int32,LogKind,uint16,byte,bit&01,str
 1347,60,9,0,False,"Already registered as your free destination."
 1348,60,9,0,False,"You must be using a security token to register a free destination."
 1349,57,9,0,False,"You are not logged in with a security token. Teleporting will incur a gil fee."
-1350,57,1,0,False,"You are now in the instanced area <Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(1),5)/>,0)/> <If(GreaterThan(IntegerParameter(2),0))><If(GreaterThan(IntegerParameter(2),9))>A<Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case><Case(7)></Case><Case(8)></Case><Case(9)></Case></Switch></If><Else/>0</If>.Current instance can be confirmed at any time using the /instance text command."
+1350,57,1,0,False,"You are now in the instanced area <Sheet(PlaceName,<Sheet(TerritoryType,IntegerParameter(1),5)/>,0)/> <If(GreaterThan(IntegerParameter(2),0))><If(GreaterThan(IntegerParameter(2),9))>A<Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case><Case(7)></Case><Case(8)></Case><Case(9)></Case></Switch></If><Else/>0</If>.
+Current instance can be confirmed at any time using the /instance text command."
 1351,57,1,0,False,"You are currently not in an instanced area."
 1352,57,33,0,False,"Aetheryte registered as a free destination."
 1353,0,0,0,False,""
@@ -1378,7 +1395,8 @@ int32,LogKind,uint16,byte,bit&01,str
 1374,60,9,0,False,"You were unable to abandon the levequest."
 1375,60,9,0,False,"Levequests in progress cannot be abandoned."
 1376,60,9,0,False,"Levequest difficulty cannot be raised."
-1377,60,9,0,False,"The discrepancy between your current level and the levequest's recommended level is too great.Continue and you will suffer an experience point penalty."
+1377,60,9,0,False,"The discrepancy between your current level and the levequest's recommended level is too great.
+Continue and you will suffer an experience point penalty."
 1378,57,33,0,False,"Changing classes after initiating a levequest will result in an experience point penalty."
 1379,60,129,0,False,"中毒制限中のため新たにギルドリーヴを受注したり、報酬を受け取る事ができません。"
 1380,60,9,0,False,"“<Sheet(Leve,IntegerParameter(1),0)/>” can only be initiated <If(<Sheet(PlaceName,IntegerParameter(2),1)/>)><Switch(<Sheet(PlaceName,IntegerParameter(2),1)/>)><Case(1)>in </Case><Case(2)>on </Case></Switch><Else/>at </If><SheetEn(PlaceName,2,IntegerParameter(2),2,1)/>."
@@ -1531,7 +1549,8 @@ int32,LogKind,uint16,byte,bit&01,str
 1527,60,9,0,False,"You must complete <Sheet(InstanceContent,IntegerParameter(3),3)/> before challenging <Sheet(InstanceContent,IntegerParameter(2),3)/>."
 1528,60,9,0,False,"One or more party members are not eligible for <Sheet(InstanceContent,IntegerParameter(2),3)/>. You must wait before reattempting the duty."
 1529,60,9,0,False,"Unable to challenge <If(Equal(IntegerParameter(2),0))>this quest battle<Else/><Sheet(InstanceContent,IntegerParameter(2),3)/></If> due to heavy server load."
-1530,57,33,0,False,"The guildhest will end soon.Speak with the battlewarden immediately, or risk losing your reward."
+1530,57,33,0,False,"The guildhest will end soon.
+Speak with the battlewarden immediately, or risk losing your reward."
 1531,57,1,0,False,"<Clickable(<Highlight>ObjectParameter(56)</Highlight>)/> has begun."
 1532,57,33,0,False,"<Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If> remaining to complete <Highlight>ObjectParameter(56)</Highlight>."
 1533,57,1,0,False,"Time expired. <Clickable(<Highlight>ObjectParameter(56)</Highlight>)/> has ended."
@@ -1610,8 +1629,10 @@ int32,LogKind,uint16,byte,bit&01,str
 1606,62,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>obtain<Else/>obtains</If> <SheetEn(Item,1,IntegerParameter(2),1,1)/>."
 1607,62,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>obtain<Else/>obtains</If> <If(Equal(IntegerParameter(3),1))><SheetEn(Item,1,IntegerParameter(2),1,1)/><Else/><Value>IntegerParameter(3)</Value> <SheetEn(Item,3,IntegerParameter(2),IntegerParameter(3),1)/></If>."
 1608,60,8,0,False,"You were unable to abandon the quest."
-1609,57,33,0,False,"You cannot continue this quest until the following conditions are met:  <Highlight>StringParameter(1)</Highlight>"
-1610,57,33,0,False,"You cannot complete this quest until the following conditions are met:  <Highlight>StringParameter(1)</Highlight>"
+1609,57,33,0,False,"You cannot continue this quest until the following conditions are met:
+  <Highlight>StringParameter(1)</Highlight>"
+1610,57,33,0,False,"You cannot complete this quest until the following conditions are met:
+  <Highlight>StringParameter(1)</Highlight>"
 1611,60,129,0,False,"You cannot accept any more quests. Perhaps it is time for a break."
 1612,60,129,0,False,"You cannot complete any more quests. Perhaps it is time for a break."
 1613,60,9,0,False,"You cannot spawn any more targets."
@@ -1998,9 +2019,12 @@ int32,LogKind,uint16,byte,bit&01,str
 1994,60,9,0,False,"Unable to play. An unexpected error has occurred."
 1995,57,1025,0,False,"Duty record conditions met. Commence the <Color(-154)>record ready check</Color> to begin recording."
 1996,57,33,0,False,"Duty record data cache limit exceeded. Unpausing recorder."
-1997,60,9,0,False,"Unable to allocate sufficient drive space (70MB) to save recorded duty.<If(Equal(PlayerParameter(0),99))>Ending record. Canceling record.</If>"
-1998,60,9,0,False,"Unable to save data.Exiting recorder."
-1999,60,9,0,False,"Unable to save any more duty records.Exiting recorder."
+1997,60,9,0,False,"Unable to allocate sufficient drive space (70MB) to save recorded duty.
+<If(Equal(PlayerParameter(0),99))>Ending record. Canceling record.</If>"
+1998,60,9,0,False,"Unable to save data.
+Exiting recorder."
+1999,60,9,0,False,"Unable to save any more duty records.
+Exiting recorder."
 2000,0,0,0,False,""
 2001,57,32,0,False,"FATE discovered nearby!"
 2002,57,33,0,False,"A cultist rosary appears on the dais."
@@ -2071,7 +2095,8 @@ int32,LogKind,uint16,byte,bit&01,str
 2067,57,33,0,False,"A spriggan is attacking the blasting cap!"
 2068,57,33,0,False,"The door is locked tight."
 2069,57,33,0,False,"<Clickable(<SheetEn(BNpcName,2,IntegerParameter(1),1,1)/>)/> drops <SheetEn(EventItem,1,IntegerParameter(2),1,1)/>."
-2070,60,9,0,False,"You are <Value>IntegerParameter(1)</Value> or more levels above the recommended level for this FATE.To join, use the level sync function located in the duty list."
+2070,60,9,0,False,"You are <Value>IntegerParameter(1)</Value> or more levels above the recommended level for this FATE.
+To join, use the level sync function located in the duty list."
 2071,62,1,0,True,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>obtain<Else/>obtains</If> <SheetEn(Item,1,IntegerParameter(1),1,1)/>."
 2072,62,1,0,True,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>obtain<Else/>obtains</If> <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/>."
 2073,60,33,0,False,"Unable to obtain item. You are too far above the recommended level for this FATE."
@@ -2163,7 +2188,8 @@ int32,LogKind,uint16,byte,bit&01,str
 2159,57,33,0,False,"You do not have any explosives..."
 2160,57,33,0,False,"An imperial identification key is required to operate Garlean devices."
 2161,57,33,0,False,"You are not authorized to operate this suit of magitek armor."
-2162,57,65,0,False,"One or more party members are new to this duty.A bonus will be awarded for swift completion of objectives."
+2162,57,65,0,False,"One or more party members are new to this duty.
+A bonus will be awarded for swift completion of objectives."
 2163,62,1,0,False,"A bonus of <Format(IntegerParameter(1),FF022C)/> experience points and <Format(IntegerParameter(2),FF022C)/> gil has been awarded for swift first-time completion of duty objectives."
 2164,62,33,0,False,"You obtain <Value>IntegerParameter(1)</Value> <SheetEn(Item,3,IntegerParameter(2),IntegerParameter(1),1)/>."
 2165,62,33,0,False,"You obtain <Value>IntegerParameter(1)</Value> <SheetEn(Item,3,IntegerParameter(2),IntegerParameter(1),1)/>."
@@ -2575,10 +2601,12 @@ int32,LogKind,uint16,byte,bit&01,str
 2571,57,33,0,False,"The lighthouse door opens."
 2572,57,33,0,False,"Port 3526 is now open."
 2573,57,33,0,False,"Port 3524 is now open."
-2574,57,65,0,False,"You attune with the aetherial turbulence.Aether currents in the Diadem are unstable and likely to change, making attunement necessary each time you visit the area."
+2574,57,65,0,False,"You attune with the aetherial turbulence.
+Aether currents in the Diadem are unstable and likely to change, making attunement necessary each time you visit the area."
 2575,57,33,0,False,"Attuning with the aetherial turbulence allows you to better understand the area's movement of the winds!"
 2576,57,33,0,False,"You have already attuned with this current."
-2577,57,65,0,False,"You attune with the aetherial turbulence.Mounted flight is now temporarily available in the area!"
+2577,57,65,0,False,"You attune with the aetherial turbulence.
+Mounted flight is now temporarily available in the area!"
 2578,57,33,0,False,"The pure white crystal remains dim."
 2579,57,33,0,False,"The pure white crystal emits a warm glow."
 2580,57,33,0,False,"The pure black crystal remains cloudy."
@@ -2772,7 +2800,8 @@ int32,LogKind,uint16,byte,bit&01,str
 2768,57,1,0,False,"Duty duration extended 15 minutes (Earth time)."
 2769,57,33,0,False,"The Beastking Buer strains at his magicked bonds as the arcane portal flares."
 2770,57,33,0,False,"Disciples of War or Magic under level 60, or Disciples of the Land or Hand cannot participate in emergency missions."
-2771,57,65,0,False,"Emergency mission commenced!A temporary home point has been set upon the Missing Gem."
+2771,57,65,0,False,"Emergency mission commenced!
+A temporary home point has been set upon the Missing Gem."
 2772,57,33,0,False,"<Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If> remaining until emergency mission completion."
 2773,57,1,0,False,"Mission time expired. Emergency mission ended."
 2774,57,1,0,False,"Emergency mission ended."
@@ -3417,18 +3446,24 @@ int32,LogKind,uint16,byte,bit&01,str
 3413,57,33,0,False,"You change <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>'s authorization level."
 3414,57,33,0,False,"You are now sharing an estate with <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>."
 3415,60,9,0,False,"<Clickable(<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)/> is resting in your shared estate's chocobo stables."
-3416,69,33,0,False,"Your free company estate was deemed abandoned and claimed by the housing authorities for demolition and resale.Some of the items remaining in the estate at the time of demolition have been placed in the care of the area's resident caretakers."
-3417,57,33,0,False,"Your private estate was deemed abandoned and claimed by the housing authorities for demolition and resale.Some of the items remaining in the estate at the time of demolition have been placed in the care of the area's resident caretakers."
+3416,69,33,0,False,"Your free company estate was deemed abandoned and claimed by the housing authorities for demolition and resale.
+Some of the items remaining in the estate at the time of demolition have been placed in the care of the area's resident caretakers."
+3417,57,33,0,False,"Your private estate was deemed abandoned and claimed by the housing authorities for demolition and resale.
+Some of the items remaining in the estate at the time of demolition have been placed in the care of the area's resident caretakers."
 3418,60,9,0,False,"You are not authorized to claim abandoned estate possessions."
 3419,57,33,0,False,"The estate is no longer regarded as abandoned. Auto-demolition canceled."
 3420,60,9,0,False,"To purchase a new plot of land, you must first claim all items held for you by the area's resident caretakers."
 3421,60,9,0,False,"To purchase a new plot of land, you must first claim all items held for you by the area's resident caretakers."
 3422,60,9,0,False,"Unable to unshare estate. The member's chocobo is still stabled."
-3423,69,33,0,False,"You did not reclaim your free company estate's possessions from the resident caretaker within the time allotted.The items have been discarded."
-3424,57,33,0,False,"You did not reclaim your private estate's possessions from the resident caretaker within the time allotted.The items have been discarded."
-3425,57,33,0,False,"You did not reclaim your private chamber's possessions from the resident caretaker within the time allotted.The items have been discarded."
+3423,69,33,0,False,"You did not reclaim your free company estate's possessions from the resident caretaker within the time allotted.
+The items have been discarded."
+3424,57,33,0,False,"You did not reclaim your private estate's possessions from the resident caretaker within the time allotted.
+The items have been discarded."
+3425,57,33,0,False,"You did not reclaim your private chamber's possessions from the resident caretaker within the time allotted.
+The items have been discarded."
 3426,60,9,0,False,"Unable to share estate. That character has been deleted."
-3427,57,33,0,False,"You have either been released from your free company or the company estate has been demolished.The items held in your private chambers can be reclaimed by speaking with a resident caretaker."
+3427,57,33,0,False,"You have either been released from your free company or the company estate has been demolished.
+The items held in your private chambers can be reclaimed by speaking with a resident caretaker."
 3428,57,33,0,False,"You have either been released from your free company or the company estate has been demolished."
 3429,60,8,0,False,"You have already added this song to your orchestrion list."
 3430,57,33,0,False,"<Clickable(<SheetEn(Item,2,IntegerParameter(1),1,1)/>)/> is added to your orchestrion list."
@@ -3550,7 +3585,9 @@ int32,LogKind,uint16,byte,bit&01,str
 3546,60,9,0,False,"Unable to use another <SheetEn(Item,3,IntegerParameter(1),1,1)/>."
 3547,60,9,0,False,"To gather an item as a collectable, its rarity rating must be 1 or higher."
 3548,67,17,0,False,"A GP consumption bonus of <Value>IntegerParameter(1)</Value> has been granted for the next collectable action!"
-3549,67,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>use<Else/>uses</If> <Sheet(Action,IntegerParameter(1),0)/>.Item rarity increases by <Value>IntegerParameter(2)</Value>.Item wear increases by <Value>IntegerParameter(4)</Value>."
+3549,67,1,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>use<Else/>uses</If> <Sheet(Action,IntegerParameter(1),0)/>.
+Item rarity increases by <Value>IntegerParameter(2)</Value>.
+Item wear increases by <Value>IntegerParameter(4)</Value>."
 3550,60,9,0,False,"This item cannot be gathered as a collectable."
 3551,0,0,0,False,""
 3552,67,17,0,False,"Item wear is beyond its maximum. Collectable gathering rate is capped."
@@ -3581,8 +3618,10 @@ int32,LogKind,uint16,byte,bit&01,str
 3577,67,1,0,False,"You spear <If(Equal(IntegerParameter(4),1))><SheetEn(Item,1,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(4)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(4),1)/></If> measuring <Value>IntegerParameter(2)</Value>.<Value>IntegerParameter(3)</Value> ilms!"
 3578,57,1,0,False,"<Switch(IntegerParameter(1))><Case(1)>Small</Case><Case(2)>Normal</Case><Case(3)>Large</Case></Switch> gig head affixed."
 3579,67,17,0,False,"Data on <SheetEn(PlaceName,2,IntegerParameter(1),2,1)/> is added to your fishing log."
-3580,67,17,0,False,"Nothing speared. The gig head you are using may not be suited to this location."
-3581,67,17,0,False,"Nothing speared. Your timing may be off."
+3580,67,17,0,False,"Nothing speared. 
+The gig head you are using may not be suited to this location."
+3581,67,17,0,False,"Nothing speared. 
+Your timing may be off."
 3582,67,17,0,False,"The fish gets away..."
 3583,67,1,0,False,"Chance of <Sheet(Action,IntegerParameter(1),0)/> bestowing <If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If> <Sheet(Status,IntegerParameter(2),0)/> is now <Value>IntegerParameter(3)</Value>%."
 3584,60,9,0,False,"Unable to spearfish. Insufficient inventory space."
@@ -3711,8 +3750,11 @@ int32,LogKind,uint16,byte,bit&01,str
 3707,57,33,0,False,"The Slide I+XIV mini-game is now available."
 3708,57,33,0,False,"The Parley mini-game is now available."
 3709,57,33,0,False,"You can now accept mark bills from the Hunt board."
-3710,57,33,0,False,"A new regular duty has been added to the Duty Finder.Stone, Sky, Sea options have also been updated."
-3711,57,65,0,False,"You attune with the aether current.In addition to currents found in the field, there are others which can only be accessed through main and side quests.Information on current attunement can be viewed under Aether Currents in the main menu."
+3710,57,33,0,False,"A new regular duty has been added to the Duty Finder.
+Stone, Sky, Sea options have also been updated."
+3711,57,65,0,False,"You attune with the aether current.
+In addition to currents found in the field, there are others which can only be accessed through main and side quests.
+Information on current attunement can be viewed under Aether Currents in the main menu."
 3712,57,33,0,False,"The compass detects a current approximately <Value>IntegerParameter(2)</Value> yalms to the <Switch(IntegerParameter(1))><Case(1)>north</Case><Case(2)>northeast</Case><Case(3)>east</Case><Case(4)>southeast</Case><Case(5)>south</Case><Case(6)>southwest</Case><Case(7)>west</Case><Case(8)>northwest</Case><Case(9)>north</Case></Switch>."
 3713,57,33,0,False,"You have already attuned with the aether currents <If(<Sheet(PlaceName,IntegerParameter(1),1)/>)><Switch(<Sheet(PlaceName,IntegerParameter(1),1)/>)><Case(1)>in </Case><Case(2)>on </Case></Switch><Else/>at </If><SheetEn(PlaceName,2,IntegerParameter(1),2,1)/>."
 3714,57,33,0,False,"The compass does not detect any nearby currents."
@@ -3728,7 +3770,8 @@ int32,LogKind,uint16,byte,bit&01,str
 3724,60,9,0,False,"Unable to progress within the duty “<Sheet(Quest,IntegerParameter(2),0)/>.” You must be mounted on a <Sheet(Mount,IntegerParameter(1),0)/>."
 3725,60,9,0,False,"Unable to commence duty while using the Party Finder."
 3726,57,33,0,False,"A new high-end duty has been added to the Raid Finder."
-3727,57,33,0,False,"A new high-end duty has been added to the Raid Finder.Stone, Sky, Sea options have also been updated."
+3727,57,33,0,False,"A new high-end duty has been added to the Raid Finder.
+Stone, Sky, Sea options have also been updated."
 3728,57,33,0,False,"The anima housed in <SheetEn(Item,2,IntegerParameter(1),1,1)/> shows vague signs of aetheric condensation."
 3729,57,33,0,False,"The anima housed in <SheetEn(Item,2,IntegerParameter(1),1,1)/> shows meager signs of aetheric condensation."
 3730,57,33,0,False,"The anima housed in <SheetEn(Item,2,IntegerParameter(1),1,1)/> grows vigorous from aetheric condensation."
@@ -3751,7 +3794,8 @@ int32,LogKind,uint16,byte,bit&01,str
 3747,0,0,0,False,""
 3748,0,0,0,False,""
 3749,0,0,0,False,""
-3750,57,33,0,False,"You remove <SheetEn(Item,2,IntegerParameter(1),1,1)/> from the bottle and decipher its mysteries.You obtain <SheetEn(EventItem,1,IntegerParameter(2),1,1)/>!"
+3750,57,33,0,False,"You remove <SheetEn(Item,2,IntegerParameter(1),1,1)/> from the bottle and decipher its mysteries.
+You obtain <SheetEn(EventItem,1,IntegerParameter(2),1,1)/>!"
 3751,57,17,0,False,"There are no <If(Equal(IntegerParameter(1),0))>treasure coffers<Else/>teleportation wards</If> in the area."
 3752,57,17,0,False,"Time expired. The hunt is off."
 3753,57,17,0,False,"You do not possess a treasure map. The hunt is off."
@@ -3795,7 +3839,9 @@ int32,LogKind,uint16,byte,bit&01,str
 3791,57,33,0,False,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(3)))><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>you</If><Else/><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>ObjectParameter(3)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(3)))>have<Else/>has</If> initiated a ready check."
 3792,60,8,0,False,"Unable to commence ready check."
 3793,60,8,0,False,"Unable to respond to ready check."
-3794,57,33,0,False,"Ready check complete.Ready: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(3)</Value>Not Ready: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>"
+3794,57,33,0,False,"Ready check complete.
+Ready: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(3)</Value>
+Not Ready: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>"
 3795,60,8,0,False,"Unable to initiate ready check while engaged in battle."
 3796,0,0,0,False,""
 3797,60,8,0,False,"Unable to display this achievement."
@@ -4136,7 +4182,8 @@ int32,LogKind,uint16,byte,bit&01,str
 4132,60,9,0,False,"中毒防止制限中のため設計できません。"
 4133,60,9,0,False,"Unable to execute command. That prototype has already been created."
 4134,60,9,0,False,"Unable to execute command. You do not possess sufficient materials to create the prototype."
-4135,57,65,0,False,"<Clickable(<Sheet(CompanyCraftDraft,IntegerParameter(1),0)/>)/> created.A new recipe has been added to the company crafting log."
+4135,57,65,0,False,"<Clickable(<Sheet(CompanyCraftDraft,IntegerParameter(1),0)/>)/> created.
+A new recipe has been added to the company crafting log."
 4136,60,9,0,False,"You are not authorized to register or dismantle company airships or submersibles."
 4137,60,9,0,False,"You are not authorized to outfit company airships or submersibles."
 4138,60,9,0,False,"You are not authorized to change company airship/submersible component color."
@@ -4225,8 +4272,10 @@ int32,LogKind,uint16,byte,bit&01,str
 4221,60,1,0,False,"Duty not complete."
 4222,60,1,0,False,"Not enlisted in the proper Grand Company."
 4223,60,9,0,False,"Ineligible to participate in duty. One or more party members are not enlisted in the proper Grand Company."
-4224,57,65,0,False,"Your item level has been synced to <Value>IntegerParameter(1)</Value>.※While synced, all item stats are adjusted."
-4225,57,65,0,False,"One or more party members have yet to complete this duty.A bonus of <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/> will be awarded upon completion."
+4224,57,65,0,False,"Your item level has been synced to <Value>IntegerParameter(1)</Value>.
+※While synced, all item stats are adjusted."
+4225,57,65,0,False,"One or more party members have yet to complete this duty.
+A bonus of <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/> will be awarded upon completion."
 4226,57,1,0,False,"One or more party members completed this duty for the first time. A bonus has been awarded to all members."
 4227,60,1,0,False,"Expansion data unregistered."
 4228,0,0,0,False,""
@@ -4354,17 +4403,21 @@ int32,LogKind,uint16,byte,bit&01,str
 4350,57,33,0,False,"Bonding Ceremony invitations have been created."
 4351,60,9,0,False,"Unable to create Bonding Ceremony invitations. Inventory is full."
 4352,60,9,0,False,"Unable to create any more Bonding Ceremony invitations."
-4353,57,33,0,False,"The eternity bell can be rung to proceed to the next stage of the Bonding Ceremony.If the bell is not rung, the ceremony will automatically proceed after a set amount of time has elapsed."
+4353,57,33,0,False,"The eternity bell can be rung to proceed to the next stage of the Bonding Ceremony.
+If the bell is not rung, the ceremony will automatically proceed after a set amount of time has elapsed."
 4354,57,33,0,False,"Once you have donned your ceremonial garb, select the registry to initiate final preparations."
 4355,57,33,0,False,"Ring the eternity bell to commence the ceremony."
-4356,57,33,0,False,"If preparations are not completed in the next three minutes (Earth time),the ceremony will have to be rescheduled for a later date."
+4356,57,33,0,False,"If preparations are not completed in the next three minutes (Earth time),
+the ceremony will have to be rescheduled for a later date."
 4357,57,33,0,False,"Preparations were not completed within the allotted time. Today's ceremony has been canceled and must be rescheduled. Guests should speak with the couple regarding new invitations."
-4358,57,33,0,False,"Final preparations are being made to the Ivory Chapel.Please use this time to change your gear."
+4358,57,33,0,False,"Final preparations are being made to the Ivory Chapel.
+Please use this time to change your gear."
 4359,57,33,0,False,"Preparations to the Ivory Chapel are complete. Guests may now enter."
 4360,57,33,0,False,"After the ceremony, invitations will be exchanged for a special bomboniere."
 4361,57,33,0,False,"Use /say or /shout to address your guests."
 4362,57,33,0,False,"Control restrictions have been removed."
-4363,57,33,0,False,"During the reception, couples and guests are free to move about the Ivory Chapel.Group photographs can be taken at this time."
+4363,57,33,0,False,"During the reception, couples and guests are free to move about the Ivory Chapel.
+Group photographs can be taken at this time."
 4364,57,1,0,False,"Glamours projected from plate <Value>IntegerParameter(1)</Value>."
 4365,57,17,0,False,"You and your partner have arrived in your dressing rooms."
 4366,57,17,0,False,"Command accepted. Awaiting your partner's command..."
@@ -4392,7 +4445,8 @@ int32,LogKind,uint16,byte,bit&01,str
 4388,0,0,0,False,""
 4389,0,0,0,False,""
 4390,57,33,0,False,"<If(Equal(IntegerParameter(1),0))>No<Else/><Value>IntegerParameter(1)</Value></If> <If(Equal(IntegerParameter(1),1))>match<Else/>matches</If> found."
-4391,60,8,0,False,"Too many results to display.Add more letters to refine search."
+4391,60,8,0,False,"Too many results to display.
+Add more letters to refine search."
 4392,0,0,0,False,""
 4393,0,0,0,False,""
 4394,0,0,0,False,""
@@ -4416,7 +4470,8 @@ int32,LogKind,uint16,byte,bit&01,str
 4412,57,33,0,False,"<Clickable(<SheetEn(Item,3,IntegerParameter(1),1,1)/>)/> objectives complete!"
 4413,62,33,0,False,"You obtain <Value>IntegerParameter(1)</Value> Allied Seal<If(Equal(IntegerParameter(1),1))><Else/>s</If>."
 4414,60,9,0,False,"You cannot accept bills from this Grand Company's Hunt board."
-4415,57,1,0,False,"You obtain <SheetEn(EventItem,1,IntegerParameter(1),1,1)/>.Mark details can viewed at any time by using the bill located under the Key Items tab of your inventory."
+4415,57,1,0,False,"You obtain <SheetEn(EventItem,1,IntegerParameter(1),1,1)/>.
+Mark details can viewed at any time by using the bill located under the Key Items tab of your inventory."
 4416,57,1,0,False,"You destroy <SheetEn(EventItem,2,IntegerParameter(1),1,1)/> and abandon the hunt."
 4417,60,9,0,False,"You cannot hold any more Allied Seals. Your reward has been forfeited."
 4418,60,9,0,False,"You were unable to accept the bill. Please try again later."
@@ -4453,9 +4508,12 @@ int32,LogKind,uint16,byte,bit&01,str
 4449,57,33,0,False,"The relic exhibits distinct aetheric activity."
 4450,57,33,0,False,"The relic exhibits robust aetheric activity."
 4451,57,33,0,False,"The relic exhibits vigorous aetheric activity."
-4452,57,33,0,False,"The relic exhibits intense aetheric activity.Soul attunement draws near!"
-4453,57,33,0,False,"The relic exhibits extreme aetheric activity.Soul attunement is almost complete!"
-4454,57,33,0,False,"The relic is bursting with aetheric activity!Soul attunement complete!"
+4452,57,33,0,False,"The relic exhibits intense aetheric activity.
+Soul attunement draws near!"
+4453,57,33,0,False,"The relic exhibits extreme aetheric activity.
+Soul attunement is almost complete!"
+4454,57,33,0,False,"The relic is bursting with aetheric activity!
+Soul attunement complete!"
 4455,0,0,0,False,""
 4456,0,0,0,False,""
 4457,0,0,0,False,""
@@ -4643,7 +4701,8 @@ int32,LogKind,uint16,byte,bit&01,str
 4639,0,0,0,False,""
 4640,0,0,0,False,""
 4641,0,0,0,False,""
-4642,57,33,0,False,"Your chocobo's feathers will be returned to their original yellow hue.Tend to your companion once more to witness the change."
+4642,57,33,0,False,"Your chocobo's feathers will be returned to their original yellow hue.
+Tend to your companion once more to witness the change."
 4643,57,33,0,False,"<Clickable(<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)/>'s plumage will be ready for change in 6 hours."
 4644,57,33,0,False,"<Clickable(<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)/>'s plumage will be ready for change in <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>hour<Else/>hours</If><If(GreaterThan(IntegerParameter(2),0))><If(GreaterThan(IntegerParameter(1),0))> and <Else/></If><Else/></If><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>minute<Else/>minutes</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>minute<Else/>minutes</If><Else/>less than 1 minute</If></If>."
 4645,60,9,0,False,"<Clickable(<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)/> is resting in your free company's private chocobo stables."
@@ -5256,14 +5315,16 @@ int32,LogKind,uint16,byte,bit&01,str
 5252,60,9,0,False,"Unable to change PvP action presets. Insufficient Action Points."
 5253,57,33,0,False,"You join the <Sheet(GrandCompany,IntegerParameter(1),0)/> as a freelancer."
 5254,0,0,0,False,""
-5255,57,33,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!(<If(Equal(IntegerParameter(2),0))><Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case></Switch></If><If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)<Unknown60>0260</Unknown60>"
+5255,57,33,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!
+(<If(Equal(IntegerParameter(2),0))><Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case></Switch></If><If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)<Unknown60>0260</Unknown60>"
 5256,57,33,0,False,"Engage!"
 5257,57,33,0,False,"Countdown canceled by <If(Equal(IntegerParameter(1),0))><Else/><Switch(IntegerParameter(1))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case></Switch></If><If(Equal(ObjectParameter(1),ObjectParameter(3)))>you<Else/><If(Equal(ObjectParameter(1),ObjectParameter(3)))><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>you</If><Else/><If(PlayerParameter(8))><SheetEn(ObjStr,2,PlayerParameter(8),1,1)/><Else/>ObjectParameter(3)</If></If></If>."
 5258,60,9,0,False,"Unable to initiate countdown while engaged in combat."
 5259,60,9,0,False,"Unable to initiate countdown."
 5260,57,33,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!"
 5261,57,32,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!"
-5262,57,1,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!(<If(Equal(IntegerParameter(2),0))><Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case></Switch></If><If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)<Unknown60>0260</Unknown60>"
+5262,57,1,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!
+(<If(Equal(IntegerParameter(2),0))><Else/><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case><Case(4)></Case><Case(5)></Case><Case(6)></Case></Switch></If><If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>)<Unknown60>0260</Unknown60>"
 5263,57,1,0,False,"Battle commencing in <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>econd<Else/>seconds</If>!"
 5264,57,1,0,False,"Engage!"
 5265,0,0,0,False,""
@@ -5297,7 +5358,8 @@ int32,LogKind,uint16,byte,bit&01,str
 5293,0,0,0,False,""
 5294,0,0,0,False,""
 5295,57,65,0,False,"Profile updated."
-5296,57,65,0,False,"You have entered a PvP area.If you have a soul crystal equipped, your traits and hotbars will be automatically updated to their PvP counterparts."
+5296,57,65,0,False,"You have entered a PvP area.
+If you have a soul crystal equipped, your traits and hotbars will be automatically updated to their PvP counterparts."
 5297,57,65,0,False,"Unsaved changes have been deleted."
 5298,60,8,0,False,"Unable to execute. No PvP additional actions are set."
 5299,0,0,0,False,""
@@ -6510,12 +6572,17 @@ int32,LogKind,uint16,byte,bit&01,str
 7005,75,1,0,False,"Unable to join Novice Network. The channel has reached the maximum number of users."
 7006,60,9,0,False,"Unable to invite to Novice Network. The channel has reached the maximum number of users."
 7007,75,33,0,False,"Novice - <Highlight>StringParameter(1)</Highlight> has joined the Novice Network."
-7008,75,1,0,False,"Novice - <Highlight>StringParameter(1)</Highlight><If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> has been kicked from the channel by <Gui(78)/><If(PlayerParameter(7))><Sheet(ObjStr,PlayerParameter(7),0)/><Else/>ObjectParameter(2)</If>.Reason: <Highlight>StringParameter(2)</Highlight>"
+7008,75,1,0,False,"Novice - <Highlight>StringParameter(1)</Highlight><If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> has been kicked from the channel by <Gui(78)/><If(PlayerParameter(7))><Sheet(ObjStr,PlayerParameter(7),0)/><Else/>ObjectParameter(2)</If>.
+Reason: <Highlight>StringParameter(2)</Highlight>"
 7009,60,9,0,False,"Unable to join Novice Network. The channel is temporarily restricting participation."
 7010,60,9,0,False,"Unable to invite to Novice Network. The channel is temporarily restricting participation."
-7011,75,1,0,False,"Novice - You've joined the Novice Network.There <If(Equal(IntegerParameter(1),1))>is currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentor<Else/>are currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentors</If> (max. 100) and <Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))><Gui(77)/>new adventurer/<Gui(95)/>returner<Else/><Gui(77)/>new adventurers/<Gui(95)/>returners</If> (max. 412) participating.There are no language restrictions on this channel."
+7011,75,1,0,False,"Novice - You've joined the Novice Network.
+There <If(Equal(IntegerParameter(1),1))>is currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentor<Else/>are currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentors</If> (max. 100) and <Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))><Gui(77)/>new adventurer/<Gui(95)/>returner<Else/><Gui(77)/>new adventurers/<Gui(95)/>returners</If> (max. 412) participating.
+There are no language restrictions on this channel."
 7012,60,9,0,False,"Unable to renounce mentor status while bound by duty."
-7013,75,33,0,False,"Novice - You have accepted an invitation to the Novice Network by <Gui(78)/><If(PlayerParameter(7))><Sheet(ObjStr,PlayerParameter(7),0)/><Else/>ObjectParameter(2)</If>.The Novice Network is a chat channel where new adventurers can askgameplay questions to veteran players known as <Gui(78)/>mentors."
+7013,75,33,0,False,"Novice - You have accepted an invitation to the Novice Network by <Gui(78)/><If(PlayerParameter(7))><Sheet(ObjStr,PlayerParameter(7),0)/><Else/>ObjectParameter(2)</If>.
+The Novice Network is a chat channel where new adventurers can ask
+gameplay questions to veteran players known as <Gui(78)/>mentors."
 7014,60,9,0,False,"Unable to kick. Prohibited language was used in the submitted reason."
 7015,60,9,0,False,"Unable to invite to Novice Network. That player is on your blacklist."
 7016,60,9,0,False,"Unable to invite to Novice Network"
@@ -6529,7 +6596,11 @@ int32,LogKind,uint16,byte,bit&01,str
 7024,60,9,0,False,"Unable to invite. That character is currently bound by duty."
 7025,75,1,0,False,"Novice - You have joined the Novice Network."
 7026,75,1,0,False,"Novice - No input detected. You have left the Novice Network."
-7027,75,1,0,False,"Novice - You've joined the Novice Network.There <If(Equal(IntegerParameter(1),1))>is currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentor<Else/>are currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentors</If> (max. 100) and <Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))><Gui(77)/>new adventurer/<Gui(95)/>returner<Else/><Gui(77)/>new adventurers/<Gui(95)/>returners</If> (max. 412) participating.Use the Player Search to find new adventurers/returners and invite them to the network.There are no language restrictions on this channel."
+7027,75,1,0,False,"Novice - You've joined the Novice Network.
+There <If(Equal(IntegerParameter(1),1))>is currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentor<Else/>are currently <Value>IntegerParameter(1)</Value> <Gui(78)/>mentors</If> (max. 100) and <Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))><Gui(77)/>new adventurer/<Gui(95)/>returner<Else/><Gui(77)/>new adventurers/<Gui(95)/>returners</If> (max. 412) participating.
+
+Use the Player Search to find new adventurers/returners and invite them to the network.
+There are no language restrictions on this channel."
 7028,57,33,0,False,"Congratulations! You have proven your knowledge of adventuring and need no longer carry the title of new adventurer!"
 7029,57,33,0,False,"New Adventurer/Returner status removed. You are now a mentor."
 7030,75,1,0,False,"Novice - You have left the Novice Network."
@@ -6882,8 +6953,13 @@ int32,LogKind,uint16,byte,bit&01,str
 7377,0,0,0,False,""
 7378,0,0,0,False,""
 7379,0,0,0,False,""
-7380,57,33,0,False,"Report concerning the suspicious actions of <Highlight>StringParameter(1)</Highlight> sent.A reply will not be forthcoming."
-7381,57,33,0,False,"You have been reported by another player asparticipating in RMT activities and have had yourchat log access restricted. If you believe this to bein error, please access the Report Harassmentfeature via the Support Desk."
+7380,57,33,0,False,"Report concerning the suspicious actions of <Highlight>StringParameter(1)</Highlight> sent.
+A reply will not be forthcoming."
+7381,57,33,0,False,"You have been reported by another player as
+participating in RMT activities and have had your
+chat log access restricted. If you believe this to be
+in error, please access the Report Harassment
+feature via the Support Desk."
 7382,60,9,0,False,"Unable to send message. Your chat log access has been restricted."
 7383,0,1,0,False,""
 7384,0,1,0,False,""
@@ -6974,7 +7050,9 @@ int32,LogKind,uint16,byte,bit&01,str
 7469,57,33,0,False,"<Unknown60>0148</Unknown60> The Party Finder alliance has been disbanded."
 7470,60,9,0,False,"Unable to join party. You have already completed the duty specified in the Party Finder's requirements."
 7471,60,9,0,False,"Unable to execute command in current state."
-7472,60,9,0,False,"The party chat channel is unavailable while forming an alliance in public areas.Please use the alliance channel.The party channel will become available once the duty has commenced."
+7472,60,9,0,False,"The party chat channel is unavailable while forming an alliance in public areas.
+Please use the alliance channel.
+The party channel will become available once the duty has commenced."
 7473,57,33,0,False,"Alliance joined. Use the alliance chat channel to speak with other alliance members."
 7474,57,33,0,False,"Party status now cross-world. Invites canceled."
 7475,0,0,0,False,""
@@ -6989,8 +7067,10 @@ int32,LogKind,uint16,byte,bit&01,str
 7484,57,33,0,False,"That player's character data has been updated."
 7485,60,9,0,False,"Unable to send /tell. That character is on another World server and not on your Friend List. Use <If(Equal(PlayerParameter(78),3))>option<Else/>Alt</If>+R to reply to a Party Finder message."
 7486,60,9,0,False,"Unable to send /tell. That party is no longer accepting members."
-7487,57,33,0,False,"You send a friend request to <If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>.If a response is not received in a week, the request will be nullified."
-7488,57,33,0,False,"<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If> has sent you a friend request.Failing to respond within a week will render the request void."
+7487,57,33,0,False,"You send a friend request to <If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>.
+If a response is not received in a week, the request will be nullified."
+7488,57,33,0,False,"<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If> has sent you a friend request.
+Failing to respond within a week will render the request void."
 7489,60,9,0,False,"There are no Worlds by that name in this Data Center."
 7490,60,9,0,False,"The Friend Request did not receive a response within a week and has been rendered void."
 7491,0,0,0,False,""
@@ -7045,14 +7125,22 @@ int32,LogKind,uint16,byte,bit&01,str
 7540,57,33,0,False,"You discover a mysterious code: <Highlight>StringParameter(1)</Highlight>."
 7541,57,33,0,False,"You find a key!"
 7542,60,8,0,False,"A key is required to proceed."
-7543,57,32,0,False,"A strange message appears on the wall.“There's no end to these bug reports...”"
-7544,57,32,0,False,"A strange message appears on the wall.“It's not a bug, it's a feature!”"
-7545,57,32,0,False,"A strange message appears on the wall.“When was our deadline again?”"
-7546,57,32,0,False,"A strange message appears on the wall.“That's the last of it. Maybe now we can take a break...”"
-7547,57,32,0,False,"A strange message appears on the wall.“An S rank bug!? Oh boy, we're in for it now.”"
-7548,57,32,0,False,"A strange message appears on the wall.“Man, I hope the players like it.”"
-7549,57,32,0,False,"A strange message appears on the wall.“They changed spec again!? That's the tenth time this week!”"
-7550,57,32,0,False,"A strange message appears on the wall.“Lunch? I'll eat at my desk. There's way too much to do.”"
+7543,57,32,0,False,"A strange message appears on the wall.
+“There's no end to these bug reports...”"
+7544,57,32,0,False,"A strange message appears on the wall.
+“It's not a bug, it's a feature!”"
+7545,57,32,0,False,"A strange message appears on the wall.
+“When was our deadline again?”"
+7546,57,32,0,False,"A strange message appears on the wall.
+“That's the last of it. Maybe now we can take a break...”"
+7547,57,32,0,False,"A strange message appears on the wall.
+“An S rank bug!? Oh boy, we're in for it now.”"
+7548,57,32,0,False,"A strange message appears on the wall.
+“Man, I hope the players like it.”"
+7549,57,32,0,False,"A strange message appears on the wall.
+“They changed spec again!? That's the tenth time this week!”"
+7550,57,32,0,False,"A strange message appears on the wall.
+“Lunch? I'll eat at my desk. There's way too much to do.”"
 7551,57,33,0,False,"The way out remains closed. Perhaps these letters are in the wrong order..."
 7552,0,0,0,False,""
 7553,0,0,0,False,""

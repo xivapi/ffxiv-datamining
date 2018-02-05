@@ -2,12 +2,16 @@
 #,,
 int32,str,str
 0,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE_0","Select an option."
-1,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE","Vessels deployed: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>Ceruleum tanks: <Value>IntegerParameter(1)</Value>Select an airship."
+1,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE","Vessels deployed: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>
+Ceruleum tanks: <Value>IntegerParameter(1)</Value>
+Select an airship."
 2,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_ADD_NEW_AIRSHIP","Outfit and register an airship. (Flight credits required: <Value>IntegerParameter(1)</Value>)"
 3,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis>. (Rank: <Value>IntegerParameter(5)</Value>) <Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)> (Voyage complete in <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>d <Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>h <Else/></If><Value>IntegerParameter(4)</Value>m) </Case><Case(4)> (Mission complete in <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>d <Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>h <Else/></If><Value>IntegerParameter(4)</Value>m) </Case><Case(5)> (Awaiting alliance parties)</Case></Switch>"
 4,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_FINISH","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis>. (Rank: <Value>IntegerParameter(5)</Value>) <Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)> [Voyage complete]</Case><Case(4)> [Mission complete]</Case></Switch>"
 5,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_EXIT","Nothing."
-6,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE","Vessels deployed: <Value>IntegerParameter(4)</Value>/<Value>IntegerParameter(5)</Value>Ceruleum tanks: <Value>IntegerParameter(2)</Value><Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rank: <Value>IntegerParameter(3)</Value>) - Available"
+6,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE","Vessels deployed: <Value>IntegerParameter(4)</Value>/<Value>IntegerParameter(5)</Value>
+Ceruleum tanks: <Value>IntegerParameter(2)</Value>
+<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rank: <Value>IntegerParameter(3)</Value>) - Available"
 7,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_EXPEDITION","Deploy airship on exploratory voyage"
 8,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_RESULT","View previous voyage log"
 9,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_PARTS","Change airship components"
@@ -20,14 +24,21 @@ int32,str,str
 16,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPEDITION",""
 17,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPD2","Ready airship for exploratory mission"
 18,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPD2",""
-19,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE","Vessels deployed: <Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value><Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rank: <Value>IntegerParameter(2)</Value>) - DeployedVoyage complete in <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>d <Else/></If><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>h <Else/></If><Value>IntegerParameter(7)</Value>m"
+19,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE","Vessels deployed: <Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value>
+<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rank: <Value>IntegerParameter(2)</Value>) - Deployed
+Voyage complete in <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>d <Else/></If><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>h <Else/></If><Value>IntegerParameter(7)</Value>m"
 20,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_COND","Recall airship"
 21,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_MAP","View navigational charts"
 22,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_STATUS","View airship status"
 23,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_TITLE","Rename your airship."
 24,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_CAPTION","Airship Name"
-25,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0","Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:<Color(-32640)>'<Indent/>. , : ; ! ? & - _</Color>• Double spaces/underscores are not allowed.• A space cannot be used before or after the name.• Names consisting solely of punctuation marks are prohibited."
-26,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE","Are you certain you wish to dismantle <Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis>?<Color(-32640)>Please note that while airship components will be returned, your airship's registration, rank, and accrued experience will be lost.</Color>"
+25,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0","Names must be formed from alphanumeric characters. The following punctuation marks are also allowed:
+<Color(-32640)>'<Indent/>. , : ; ! ? & - _</Color>
+• Double spaces/underscores are not allowed.
+• A space cannot be used before or after the name.
+• Names consisting solely of punctuation marks are prohibited."
+26,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE","Are you certain you wish to dismantle <Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis>?
+<Color(-32640)>Please note that while airship components will be returned, your airship's registration, rank, and accrued experience will be lost.</Color>"
 27,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_CHECK","Dismantle Airship"
 28,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_1","To outfit and register an airship, you must have in your possession the requisite components and flight credits."
 29,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_2","<Color(-34022)>Flight credits</Color> can be purchased from resident caretakers with company credits."
@@ -44,4 +55,6 @@ int32,str,str
 40,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_CONFIRM",""
 41,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_YES",""
 42,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_NO",""
-43,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2","ディアデム諸島に至る空路の風脈が乱れているため、現在、探索を行うことができません。風脈の安定をお待ちください。"
+43,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2","ディアデム諸島に至る空路の風脈が乱れているため、
+現在、探索を行うことができません。
+風脈の安定をお待ちください。"
