@@ -492,8 +492,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 488,"Shade Shift","Shadows are nullifying damage.",10605,0,1,16,0,False,False,False,False,False,False,False,False,False,50,True,0,False,0,False,False,0,12,False
 489,"Kiss of the Wasp","Physical damage dealt is increased.",10606,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
 490,"Kiss of the Viper","Physical damage dealt is increased.",10609,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
-491,"Dancing Edge","Slashing resistance and HP recovery via healing magic and actions are reduced.
-※HP recovery unaffected in PvP.",10601,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
+491,"Dancing Edge","Slashing resistance and HP recovery via healing magic and actions are reduced.※HP recovery unaffected in PvP.",10601,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
 492,"Mutilation","Wounds are bleeding, causing damage over time.",10602,0,2,17,0,False,False,False,False,False,False,True,False,False,10,True,0,False,0,False,False,0,0,False
 493,"Physical Vulnerability Up","Physical damage taken is increased.",15053,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
 494,"Magic Vulnerability Up","Magic damage taken is increased.",15057,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
@@ -1203,7 +1202,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1198,"Refresh","Restoring MP over time.",13907,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,False,0,False,False,0,0,False
 1199,"Peloton","Movement speed is increased. Effect ends upon entering battle.",13908,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,True,0,False,False,0,0,False
 1200,"Caustic Bite","Toxins are causing damage over time.",12616,0,2,1,0,False,False,False,False,False,False,True,False,False,10,True,0,False,0,False,False,0,0,False
-1201,"Storm Bite","Wounds are exposed to the elements, causing wind damage over time.",12617,0,2,17,0,False,False,False,False,False,False,True,False,False,10,True,0,False,0,False,False,0,0,False
+1201,"Stormbite","Wounds are exposed to the elements, causing wind damage over time.",12617,0,2,17,0,False,False,False,False,False,False,True,False,False,10,True,0,False,0,False,False,0,0,False
 1202,"Nature's Minne","HP recovery via healing magic is increased.",12618,0,1,16,0,False,False,False,False,False,False,False,False,False,1,True,0,False,0,False,False,0,0,False
 1203,"Addle","Intelligence and mind are reduced.",13917,0,2,17,0,False,False,False,False,False,False,True,False,False,50,True,0,False,0,False,False,0,0,False
 1204,"Lucid Dreaming","Restoring MP over time.",13909,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
@@ -1324,7 +1323,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1319,"Higanbana","Open wounds are bleeding, causing damage over time.",13304,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1320,"Meikyo Shisui","Final combo prerequisite is met.",13309,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,21,False
 1321,"Caustic Bite","Toxins are causing damage over time.",12616,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
-1322,"Storm Bite","Wounds are exposed to the elements, causing wind damage over time.",12617,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
+1322,"Stormbite","Wounds are exposed to the elements, causing wind damage over time.",12617,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1323,"Wildfire","A portion of damage dealt is being stored.",13011,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1324,"Thunder","Sustaining lightning damage over time.",10457,0,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1325,"Swiftcast","Next spell will require no time to cast.",10454,0,1,16,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
@@ -1463,10 +1462,10 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1458,"Flamethrower Flames","Taking damage over time.",19081,5,2,17,0,False,False,False,False,False,False,False,False,False,0,True,0,False,0,False,False,0,0,False
 1459,"Transfiguration","Spiritual and corporeal forms are drastically altered.",15811,0,2,17,0,False,False,False,True,True,False,False,False,False,100,True,2,False,0,False,False,0,9,False
 1460,"Fetters","Unable to execute actions.",15545,0,2,17,41,True,False,True,True,False,False,False,True,False,100,True,4,False,0,False,False,0,0,False
-1461,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1461,"Elemental EXP Up","Elemental EXP earned through battle is increased.",15836,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 1462,"Out of the Action","Unable to execute actions.",15045,0,2,17,0,False,False,False,False,False,False,False,True,True,100,True,19,False,0,False,False,0,24,False
-1463,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1464,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1463,"Elemental Blessing","Receiving the blessing of Eureka's elementals. Damage dealt is increased and restoring HP over time.",15835,0,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
+1464,"Time's Up","Nearing the end of allotted exploration time in Eureka. ",15832,0,2,17,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
 1465,"Soaring","Overcome with the battle high, increasing damage dealt and healing magic potency.",19181,10,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1466,"Stab Wound","Wounds dealt by a piercing weapon are bleeding, causing damage over time.",15522,0,2,17,0,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
 1467,"Yellow Paint","Carrying a pot of yellow paint.",15829,0,1,16,56,False,False,False,False,False,False,False,True,True,150,True,0,True,0,False,False,0,0,False
@@ -1481,7 +1480,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1476,"Aether Rot Immunity","Unable to be an Aether Rot carrier.",15539,0,2,17,59,False,False,False,False,False,False,False,False,False,200,True,0,True,0,False,False,0,0,False
 1477,"Fetters","Unable to execute actions.",15545,0,2,17,0,True,False,True,True,False,False,False,True,False,100,True,0,False,0,False,False,0,0,False
 1478,"Connectivity","The Phantom Train is slowly leeching your life essence. Damage taken is also increased.",19201,10,2,17,0,False,False,False,False,False,False,False,True,True,100,True,0,False,0,False,False,0,0,False
-1479,"Falling","Absence of terra firma causing an inability to execute certain actions.",15831,0,2,17,49,False,False,True,False,False,False,False,True,False,100,True,0,False,0,False,False,0,0,False
+1479,"Falling","Decided absence of terra firma is causing an inability to execute certain actions.",15831,0,2,17,49,False,False,True,False,False,False,False,True,False,100,True,0,False,0,False,False,0,0,False
 1480,"Unrelenting Anguish","Continuously launching Aratama from your body.",15833,0,1,16,51,False,False,False,False,False,False,False,True,False,200,True,0,False,0,False,False,0,0,False
 1481,"Ominous Wind","Touched by an ominous wind. Coming in contact with another cursed by the selfsame wind causes the omen to spread.",15834,0,2,17,50,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
 1482,"Mana Charge","Charging mana for a forthcoming spell.",15845,0,1,16,0,False,False,False,False,False,False,False,True,False,0,True,0,False,0,False,False,0,0,False
@@ -1509,11 +1508,11 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1504,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19222,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
 1505,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19223,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
 1506,"Light Medal","The lack of medals collected is increasing faculty to fend off attacks. The higher the stack, the less damage taken.",19224,0,1,16,0,False,False,False,False,False,False,False,True,True,200,True,0,True,0,False,False,0,0,False
-1507,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1508,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1509,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1507,"Pollen","Deadly pollen has filled the lungs, causing damage over time.",15517,0,2,1,0,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
+1508,"Windburn","Sustaining wind damage over time.",19021,16,2,17,0,False,False,False,False,False,False,False,False,False,10,True,0,False,0,False,False,0,0,False
+1509,"Slow","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",15009,0,2,13,0,False,False,False,False,False,False,False,False,False,50,True,0,False,0,False,False,0,0,False
 1510,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",15013,0,2,2,3,True,False,True,False,False,False,False,False,False,100,True,0,False,0,False,False,0,3,False
-1511,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1511,"Petrification","Stone-like rigidity is preventing the execution of actions.",15001,0,2,6,1,True,False,True,False,False,False,True,False,False,100,True,0,False,0,False,False,0,0,False
 1512,"Knockback Penalty","Unable to use knockback and draw-in effects.",16704,0,2,17,0,False,False,False,False,False,False,False,True,True,50,True,0,False,0,False,False,0,0,False
 1513,"Stun","Unable to execute actions.",15004,0,2,17,0,False,False,True,True,False,False,False,True,False,100,True,4,False,0,False,False,2,0,False
 1514,"スリル・オブ・ウォー：効果","連続してＨＰが回復している状態。",14842,0,1,16,0,False,False,False,False,False,False,False,False,True,0,True,0,True,0,False,False,0,0,False
@@ -1525,7 +1524,7 @@ int32,str,str,Image,byte,byte,byte,byte,bit&01,bit&02,bit&04,bit&08,bit&10,bit&2
 1520,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1521,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1522,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1523,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1523,"Haste+","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced. Effect cannot be nullified.",17381,4,1,16,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 1524,"Blind","Encroaching darkness is lowering accuracy.",15012,0,2,10,0,False,False,False,False,False,False,False,False,False,100,True,0,False,0,False,False,0,0,False
 1525,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1526,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False

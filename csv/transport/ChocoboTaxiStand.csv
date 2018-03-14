@@ -70,20 +70,13 @@ int32,str,str
 66,"TEXT_CHOCOBOTAXISTAND_00100_TAXI_IMPOSSIBLE_1_KOJIN","Ah, a thousand pardons, but I can't let you hire a falcon porter. As a precaution, we only offer services to those stops you have already visited."
 67,"TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_IMPOSSIBLE_2","Each falcon stop offers several different routes; however, you may only select routes leading to destinations to which you have previously traveled."
 68,"TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_IMPOSSIBLE_3","If you have not visited any of the locations accessible from this one, the service will be unavailable."
-69,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_Q_1","Commence the following trip?
-Destination: <Sheet(ChocoboTaxiStand,IntegerParameter(1),8)/>
-Fee: <Value>IntegerParameter(2)</Value> gil
-Length: <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If>"
+69,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_Q_1","Commence the following trip?Destination: <Sheet(ChocoboTaxiStand,IntegerParameter(1),8)/>Fee: <Value>IntegerParameter(2)</Value> gilLength: <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If>"
 70,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_YES","Yes"
 71,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_NO","No"
-72,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_Q_1","Commence the following trip?
-Destination: <Sheet(ChocoboTaxiStand,IntegerParameter(1),8)/>
-Fee: <Value>IntegerParameter(2)</Value> gil
-Length: <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If>"
+72,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_Q_1","Commence the following trip?Destination: <Sheet(ChocoboTaxiStand,IntegerParameter(1),8)/>Fee: <Value>IntegerParameter(2)</Value> gilLength: <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If>"
 73,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_YES","Yes"
 74,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_NO","No"
 75,"TEXT_CHOCOBOTAXISTAND_00000_SHORT_OF_GIL","Out of gil, eh? I suppose there are worse fates...though I can think of none. Return again when fortune has filled your purse and pockets."
 76,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_SHORT_OF_GIL","You are struck with the sudden depressing realization that you do not have enough gil to leave as a suitable offering."
-77,"TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, <If(PlayerParameter(4))>madam<Else/>sir</If>. Do you wish to hire a─
-Oh, you haven't the gil? Then...I look forward to serving you next time!"
+77,"TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, <If(PlayerParameter(4))>madam<Else/>sir</If>. Do you wish to hire a─Oh, you haven't the gil? Then...I look forward to serving you next time!"
 78,"TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL_KOJIN","Oh dear, it seems you haven't enough coin. Worry not, I'll make an exception for you...is what I would like to say, but business is business. A thousand pardons!"

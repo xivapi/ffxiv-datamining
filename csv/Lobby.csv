@@ -7,16 +7,14 @@ int32,uint32,uint32,uint32,str,str,str
 3,0,0,0,"Opening Movie","",""
 4,0,0,0,"Credits","",""
 5,0,0,0,"","",""
-6,0,0,0,"Calibrate controller?
-※Settings can be changed at any time via the System Configuration menu.","",""
+6,0,0,0,"Calibrate controller?※Settings can be changed at any time via the System Configuration menu.","",""
 7,0,0,0,"Yes","",""
 8,0,0,0,"No","",""
 9,0,0,0,"","",""
 10,0,0,0,"Service Account","",""
 11,0,0,0,"Select a service account.","",""
 12,0,0,0,"Version: <Highlight>StringParameter(1)</Highlight> (<Highlight>StringParameter(2)</Highlight>)","",""
-13,0,0,0,"<Color(-34022)>Warning!</Color> Screen resolution is set to Low (480p/i 576p/i)
-The recommended setting is High (720p).","",""
+13,0,0,0,"<Color(-34022)>Warning!</Color> Screen resolution is set to Low (480p/i 576p/i)The recommended setting is High (720p).","",""
 14,0,0,0,"","",""
 15,0,0,0,"OK","",""
 16,0,0,0,"Cancel","",""
@@ -87,12 +85,9 @@ The recommended setting is High (720p).","",""
 81,0,0,0,"Save Appearance Data","",""
 82,0,0,0,"Load Appearance Data","",""
 83,0,0,0,"Unable to obtain character data due to server congestion.","",""
-84,0,0,0,"Welcome to Eorzea!
-Before your adventure can begin, you must first create a character.","",""
+84,0,0,0,"Welcome to Eorzea!Before your adventure can begin, you must first create a character.","",""
 85,0,0,0,"Proceed","",""
-86,0,0,0,"Welcome to Eorzea!
-Start your adventure by selecting an existing character, or creating a new one.
-You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> <If(Equal(IntegerParameter(1),1))>character<Else/>characters</If> on <Highlight>StringParameter(1)</Highlight>. To select another World, press the World button in the upper right of your screen.","",""
+86,0,0,0,"Welcome to Eorzea!Start your adventure by selecting an existing character, or creating a new one.You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> <If(Equal(IntegerParameter(1),1))>character<Else/>characters</If> on <Highlight>StringParameter(1)</Highlight>. To select another World, press the World button in the upper right of your screen.","",""
 87,0,0,0,"Proceed","",""
 88,0,0,0,"Select a World.","",""
 89,0,0,0,"Worlds are separated into two groups based on server location. Check their ping status to see which group is best for you.","",""
@@ -116,244 +111,41 @@ You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParamet
 107,0,10,0,"Class","クラス",""
 108,0,0,0,"World","ワールド",""
 109,0,0,0,"Name","名前",""
-110,0,0,0,"Hyur<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The Hyur are said to have first traveled to Eorzea from her surrounding
-continents and islands. Three great migratory waves later, they are now
-the most populous of all the civilized races. They exhibit a relatively
-modest physique, both in height and build, and are known for their
-peculiarly short, rounded ears. Hyurs are well suited for traveling long
-distances by foot, a trait thought to account for their swift proliferation.
-
-Their espousal of an eclectic variety of languages and traditions is
-a legacy of their diverse heritage－as is their resulting lack of a
-unified cultural identity."
+110,0,0,0,"Hyur<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The Hyur are said to have first traveled to Eorzea from her surroundingcontinents and islands. Three great migratory waves later, they are nowthe most populous of all the civilized races. They exhibit a relativelymodest physique, both in height and build, and are known for theirpeculiarly short, rounded ears. Hyurs are well suited for traveling longdistances by foot, a trait thought to account for their swift proliferation.Their espousal of an eclectic variety of languages and traditions isa legacy of their diverse heritage－as is their resulting lack of aunified cultural identity."
 111,0,0,0,"","",""
-112,0,0,0,"Elezen<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","In former times, the Elezen were the sole inhabitants of Eorzea,
-claiming dominion over her. Traditionally a nomadic people, the tall,
-slender Elezen believed the realm to be theirs by divine right.
-Unfortunately, this belief made the eventual appearance of the
-Hyur in their multitudes akin to an invasion, and a long history of
-conflict ensued.
-
-Ultimately, the Elezen diverged into the two clans that exist today.
-The Wildwood Elezen took to the forests to protect their homeland,
-while the Duskwight Elezen withdrew to caves and subterrane, opting
-instead to avoid all contact with any but their own."
+112,0,0,0,"Elezen<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","In former times, the Elezen were the sole inhabitants of Eorzea,claiming dominion over her. Traditionally a nomadic people, the tall,slender Elezen believed the realm to be theirs by divine right.Unfortunately, this belief made the eventual appearance of theHyur in their multitudes akin to an invasion, and a long history ofconflict ensued.Ultimately, the Elezen diverged into the two clans that exist today.The Wildwood Elezen took to the forests to protect their homeland,while the Duskwight Elezen withdrew to caves and subterrane, optinginstead to avoid all contact with any but their own."
 113,0,0,0,"","",""
-114,0,0,0,"Lalafell<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","A wee people sporting short, rotund bodies, the Lalafell appear as
-no more than children to the eyes of most. Many of these nimble
-little folk hail from the islands of the south seas, where they practice
-a simple agricultural lifestyle. It was not until the opening of maritime
-trade routes that the gradual migration of Lalafells to Eorzea began.
-
-Now one of the most well-established races in the realm, Lalafells
-can be found in great numbers in nearly every city. Though Lalafellin
-culture places great emphasis on blood relations, individuals are known
-for getting along amicably with members of all races."
+114,0,0,0,"Lalafell<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","A wee people sporting short, rotund bodies, the Lalafell appear asno more than children to the eyes of most. Many of these nimblelittle folk hail from the islands of the south seas, where they practicea simple agricultural lifestyle. It was not until the opening of maritimetrade routes that the gradual migration of Lalafells to Eorzea began.Now one of the most well-established races in the realm, Lalafellscan be found in great numbers in nearly every city. Though Lalafellinculture places great emphasis on blood relations, individuals are knownfor getting along amicably with members of all races."
 115,0,0,0,"","",""
-116,0,0,0,"Miqo'te<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The ancestors of the Miqo'te made their way to Eorzea during the
-Age of Endless Frost, traversing the frozen seas in pursuit of the
-wildlife upon which they subsisted. Adaptation to a hunting lifestyle
-has fashioned them with a keen sense of smell, powerful legs, and
-a tail which provides them with exceptional balance.
-
-Miqo'te are known to be very territorial, and many individuals tend
-to lead solitary lifestyles, particularly males."
+116,0,0,0,"Miqo'te<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The ancestors of the Miqo'te made their way to Eorzea during theAge of Endless Frost, traversing the frozen seas in pursuit of thewildlife upon which they subsisted. Adaptation to a hunting lifestylehas fashioned them with a keen sense of smell, powerful legs, anda tail which provides them with exceptional balance.Miqo'te are known to be very territorial, and many individuals tendto lead solitary lifestyles, particularly males."
 117,0,0,0,"","",""
-118,0,0,0,"Roegadyn<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","Known for their brawny builds and piercing eyes, the Roegadyn
-are the largest and most rugged of Eorzea's races. The majority
-of the realm's Roegadyn belong to the Sea Wolf clan, a maritime
-people who earn their keep on or by the sea, be it as sailors,
-fishermen, or pirates. Comparatively fewer in number are the
-Hellsguard, who are known for their more earnest demeanors
-and can often be found working as bodyguards and smithies."
+118,0,0,0,"Roegadyn<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","Known for their brawny builds and piercing eyes, the Roegadynare the largest and most rugged of Eorzea's races. The majorityof the realm's Roegadyn belong to the Sea Wolf clan, a maritimepeople who earn their keep on or by the sea, be it as sailors,fishermen, or pirates. Comparatively fewer in number are theHellsguard, who are known for their more earnest demeanorsand can often be found working as bodyguards and smithies."
 119,0,0,0,"","",""
-120,0,0,0,"Midlander","","The Midlander clan comprises over half of the total population of
-Eorzea's Hyurs. They have established themselves throughout
-every city in the realm and lead lives as diverse as their heritage.
-
-Trained in letters from infancy, the Midlanders are generally more
-educated than many of the other races and clans. Despite the fact
-that males tend to be slightly taller than females, there are no
-significant differences between the genders.
-
-Starting Attributes: STR 22/DEX 19/VIT 20/INT 23/MND 19"
+120,0,0,0,"Midlander","","The Midlander clan comprises over half of the total population ofEorzea's Hyurs. They have established themselves throughoutevery city in the realm and lead lives as diverse as their heritage.Trained in letters from infancy, the Midlanders are generally moreeducated than many of the other races and clans. Despite the factthat males tend to be slightly taller than females, there are nosignificant differences between the genders.Starting Attributes: STR 22/DEX 19/VIT 20/INT 23/MND 19"
 121,0,0,0,"","",""
-122,0,0,0,"Highlander","","The Highlanders were the first of the Hyur to reach Eorzea.
-Their name derives from their long tradition of building strongholds
-in the mountains. Compared to their Midland brethren, the
-Highlanders are noticeably larger in build.
-
-Of late, Highlanders have become an increasingly rare sight
-in Eorzea, their number represented almost exclusively by those
-who fled Ala Mhigo after its fall and now work in the desert
-city-state of Ul'dah as mercenaries and sellswords.
-
-Starting Attributes: STR 23/DEX 20/VIT 22/INT 18/MND 20"
+122,0,0,0,"Highlander","","The Highlanders were the first of the Hyur to reach Eorzea.Their name derives from their long tradition of building strongholdsin the mountains. Compared to their Midland brethren, theHighlanders are noticeably larger in build.Of late, Highlanders have become an increasingly rare sightin Eorzea, their number represented almost exclusively by thosewho fled Ala Mhigo after its fall and now work in the desertcity-state of Ul'dah as mercenaries and sellswords.Starting Attributes: STR 23/DEX 20/VIT 22/INT 18/MND 20"
 123,0,0,0,"","",""
-124,0,0,0,"Wildwood","","For hundreds of years, the Wildwood Elezen have lived in the
-relative safety of Eorzea's lush forests. With the formation of
-Eorzea's governments, however, many Wildwood ventured forth
-from the forests, drawn to the exhilarating cosmopolitanism of
-nearby Gridania. There is minimal dimorphism between the two
-genders, though males are generally considered to be milder and
-more chivalrous in demeanor. Among their Duskwight brethren,
-Wildwood Elezen are referred to as Greens, for their love of the forest.
-
-Starting Attributes: STR 20/DEX 23/VIT 19/INT 22/MND 19"
+124,0,0,0,"Wildwood","","For hundreds of years, the Wildwood Elezen have lived in therelative safety of Eorzea's lush forests. With the formation ofEorzea's governments, however, many Wildwood ventured forthfrom the forests, drawn to the exhilarating cosmopolitanism ofnearby Gridania. There is minimal dimorphism between the twogenders, though males are generally considered to be milder andmore chivalrous in demeanor. Among their Duskwight brethren,Wildwood Elezen are referred to as Greens, for their love of the forest.Starting Attributes: STR 20/DEX 23/VIT 19/INT 22/MND 19"
 125,0,0,0,"","",""
-126,0,0,0,"Duskwight","","Centuries ago, a number of Elezen sought out a life of peace and
-seclusion in the depths of Eorzea's caves and caverns. Today,
-they are called the Duskwight, though to their Wildwood cousins
-they are known simply as the Greys, after their preference for
-darkness and stone.
-
-The cave-dwelling ways of the Duskwight persist, with some
-among them turning to robbery and pillaging to survive, earning
-them the scorn of their woodland relatives. There are few
-differences between the genders, but Duskwight females are
-often regarded as being the more passionate and unyielding of
-the two.
-
-Starting Attributes: STR 20/DEX 20/VIT 19/INT 23/MND 21"
+126,0,0,0,"Duskwight","","Centuries ago, a number of Elezen sought out a life of peace andseclusion in the depths of Eorzea's caves and caverns. Today,they are called the Duskwight, though to their Wildwood cousinsthey are known simply as the Greys, after their preference fordarkness and stone.The cave-dwelling ways of the Duskwight persist, with someamong them turning to robbery and pillaging to survive, earningthem the scorn of their woodland relatives. There are fewdifferences between the genders, but Duskwight females areoften regarded as being the more passionate and unyielding ofthe two.Starting Attributes: STR 20/DEX 20/VIT 19/INT 23/MND 21"
 127,0,0,0,"","",""
-128,0,0,0,"Plainsfolk","","From the flat landscapes of the Plainsfolk's home islands are where
-this Lalafellin clan takes its name. Their distinct hair coloration－
-a myriad of earthy and grassy tones－helps them to blend in well
-with their environment, acting as an effective camouflage against
-would-be attackers. It was the similarity of La Noscea's grassy
-fields to those in their homeland which drew the first settlers to
-the island of Vylbrand and what is now Limsa Lominsa.
-
-They are a clever and opportunistic people, and crafty with
-their words. The generally accepted view of Plainsfolk is that
-they are a vibrant lot, with a penchant for excessive conversation.
-
-Starting Attributes: STR 19/DEX 23/VIT 19/INT 22/MND 20"
+128,0,0,0,"Plainsfolk","","From the flat landscapes of the Plainsfolk's home islands are wherethis Lalafellin clan takes its name. Their distinct hair coloration－a myriad of earthy and grassy tones－helps them to blend in wellwith their environment, acting as an effective camouflage againstwould-be attackers. It was the similarity of La Noscea's grassyfields to those in their homeland which drew the first settlers tothe island of Vylbrand and what is now Limsa Lominsa.They are a clever and opportunistic people, and crafty withtheir words. The generally accepted view of Plainsfolk is thatthey are a vibrant lot, with a penchant for excessive conversation.Starting Attributes: STR 19/DEX 23/VIT 19/INT 22/MND 20"
 129,0,0,0,"","",""
-130,0,0,0,"Dunesfolk","","Perhaps the most unique characteristic of the Dunesfolk is their
-luminous eyes─a result of a glossy, protective layer which covers
-the pupil, an evolutionary response to their homeland's glaring sunlight.
-Many individuals wear a small, traditional gemstone on their forehead,
-a symbol of their zodiacal sign. They are adamant about scholasticism,
-placing the advancement of knowledge before all else. Other races
-tend to perceive male Dunesfolk as introverts who care more for
-books, business, and the prosperity of Ul'dah─a city-state built upon
-Dunesfolk ingenuity─than the goings-on of the rest of the realm.
-
-Starting Attributes: STR 19/DEX 21/VIT 18/INT 22/MND 23"
+130,0,0,0,"Dunesfolk","","Perhaps the most unique characteristic of the Dunesfolk is theirluminous eyes─a result of a glossy, protective layer which coversthe pupil, an evolutionary response to their homeland's glaring sunlight.Many individuals wear a small, traditional gemstone on their forehead,a symbol of their zodiacal sign. They are adamant about scholasticism,placing the advancement of knowledge before all else. Other racestend to perceive male Dunesfolk as introverts who care more forbooks, business, and the prosperity of Ul'dah─a city-state built uponDunesfolk ingenuity─than the goings-on of the rest of the realm.Starting Attributes: STR 19/DEX 21/VIT 18/INT 22/MND 23"
 131,0,0,0,"","",""
-132,0,0,0,"Seekers of the Sun","","The self-proclaimed Seekers of the Sun are the diurnal clan of
-the Miqo'te race. Their preference for the warm light of day
-pervades all aspects of their culture, as is apparent in their
-devout reverence for Azeyma, the Warden, keeper of the sun
-and goddess of inquiry.
-
-They are perhaps known best for their striking eyes－the result
-of their vertically aligned pupils and faintly colored irises. It is also
-not uncommon for their eyes to be disparately colored from birth,
-a trait considered auspicious amongst their kind.
-
-Seeker tribes can be found throughout Eorzea, with large
-concentrations appearing near Limsa Lominsa and the Sagolii Desert.
-
-Starting Attributes: STR 22/DEX 23/VIT 20/INT 19/MND 19"
+132,0,0,0,"Seekers of the Sun","","The self-proclaimed Seekers of the Sun are the diurnal clan ofthe Miqo'te race. Their preference for the warm light of daypervades all aspects of their culture, as is apparent in theirdevout reverence for Azeyma, the Warden, keeper of the sunand goddess of inquiry.They are perhaps known best for their striking eyes－the resultof their vertically aligned pupils and faintly colored irises. It is alsonot uncommon for their eyes to be disparately colored from birth,a trait considered auspicious amongst their kind.Seeker tribes can be found throughout Eorzea, with largeconcentrations appearing near Limsa Lominsa and the Sagolii Desert.Starting Attributes: STR 22/DEX 23/VIT 20/INT 19/MND 19"
 133,0,0,0,"","",""
-134,0,0,0,"Keepers of the Moon","","The nocturnal among the Miqo'te have dubbed themselves the
-Keepers of the Moon. Shying from the garish light of day, they
-revel in the shroud of night, with most offering their piety to
-Menphina, the Lover, goddess of the moon.
-
-They are distinguishable from their diurnal cousins by their
-darker fur, larger ears, rounder eyes, more pronounced canines,
-and longer, skinnier tails. The ritual application of war paint to
-the face is still regularly practiced, as it is believed the vivid
-colors grant lunar powers.
-
-After a great many summers of conflict with the people of
-Gridania, the Keepers have finally made amends with the
-people of the sylvan city-state, with some even choosing
-to make their homes there.
-
-Starting Attributes: STR 19/DEX 22/VIT 18/INT 21/MND 23"
+134,0,0,0,"Keepers of the Moon","","The nocturnal among the Miqo'te have dubbed themselves theKeepers of the Moon. Shying from the garish light of day, theyrevel in the shroud of night, with most offering their piety toMenphina, the Lover, goddess of the moon.They are distinguishable from their diurnal cousins by theirdarker fur, larger ears, rounder eyes, more pronounced canines,and longer, skinnier tails. The ritual application of war paint tothe face is still regularly practiced, as it is believed the vividcolors grant lunar powers.After a great many summers of conflict with the people ofGridania, the Keepers have finally made amends with thepeople of the sylvan city-state, with some even choosingto make their homes there.Starting Attributes: STR 19/DEX 22/VIT 18/INT 21/MND 23"
 135,0,0,0,"","",""
-136,0,0,0,"Sea Wolves","","Long ago, no vessel or coastal village was safe from
-the fury of the Sea Wolves and their maritime brand
-of brutality. The mere mention of the clan was enough
-to strike fear into the hearts of any who drew their
-livelihood from the sea. The Sea Wolves originally hail
-from the islands of the far north seas, where they still
-subsist as fishermen and women.
-
-It was not until the large-scale deployment of Limsa
-Lominsa's armada that the Sea Wolves' appetite for
-piracy diminished. Now, it is not uncommon to see them
-employed as sailors or naval mercenaries on all manner
-of vessels. However, they have never forgotten the
-ways of their homeland, and still use the ancient
-Roegadyn language in their names.
-
-Starting Attributes: STR 22/DEX 19/VIT 23/INT 18/MND 21"
+136,0,0,0,"Sea Wolves","","Long ago, no vessel or coastal village was safe fromthe fury of the Sea Wolves and their maritime brandof brutality. The mere mention of the clan was enoughto strike fear into the hearts of any who drew theirlivelihood from the sea. The Sea Wolves originally hailfrom the islands of the far north seas, where they stillsubsist as fishermen and women.It was not until the large-scale deployment of LimsaLominsa's armada that the Sea Wolves' appetite forpiracy diminished. Now, it is not uncommon to see thememployed as sailors or naval mercenaries on all mannerof vessels. However, they have never forgotten theways of their homeland, and still use the ancientRoegadyn language in their names.Starting Attributes: STR 22/DEX 19/VIT 23/INT 18/MND 21"
 137,0,0,0,"","",""
-138,0,0,0,"Hellsguard","","The Hellsguard are a Roegadyn clan with body and mind
-tempered by the unforgiving heat of the volcanic regions
-they inhabit. Believing these mountains of flame to be
-gates to the underworld, their line has for centuries
-stood vigil to prevent the passage of souls back to the
-realm of the living.
-
-As the harsh environs of their homelands produce
-little sustenance, the second- and third-born are often
-sent forth from their mountain villages, with many and
-more making their way to the great cities. It is there that
-their sheer girth and steely demeanors place them in
-high demand as soldiers and sellswords, allowing the
-young of even the largest families to surpass their
-elder siblings in prosperity.
-
-Starting Attributes: STR 20/DEX 18/VIT 23/INT 20/MND 22"
+138,0,0,0,"Hellsguard","","The Hellsguard are a Roegadyn clan with body and mindtempered by the unforgiving heat of the volcanic regionsthey inhabit. Believing these mountains of flame to begates to the underworld, their line has for centuriesstood vigil to prevent the passage of souls back to therealm of the living.As the harsh environs of their homelands producelittle sustenance, the second- and third-born are oftensent forth from their mountain villages, with many andmore making their way to the great cities. It is there thattheir sheer girth and steely demeanors place them inhigh demand as soldiers and sellswords, allowing theyoung of even the largest families to surpass theirelder siblings in prosperity.Starting Attributes: STR 20/DEX 18/VIT 23/INT 20/MND 22"
 139,0,0,0,"","",""
-140,0,0,0,"Au Ra<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The curved horns and beautifully patterned scales that characterize
-the Au Ra oft give rise to speculation that members of this Hyur-like
-race native to the Far Eastern continent of Othard are, in fact, the
-progeny of dragons. This, however, has long been disputed, with
-scholars citing several distinct differences in the two races as
-evidence of decidedly dissimilar roots─the first and foremost being
-the enhanced hearing and spatial recognition granted by an Au Ra's
-cranial projections (traits not attributed to draconian horns), and the
-second being the gross disproportion in body mass between Auri
-males and females (again, a trait widely unseen in dragons)."
+140,0,0,0,"Au Ra<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The curved horns and beautifully patterned scales that characterizethe Au Ra oft give rise to speculation that members of this Hyur-likerace native to the Far Eastern continent of Othard are, in fact, theprogeny of dragons. This, however, has long been disputed, withscholars citing several distinct differences in the two races asevidence of decidedly dissimilar roots─the first and foremost beingthe enhanced hearing and spatial recognition granted by an Au Ra'scranial projections (traits not attributed to draconian horns), and thesecond being the gross disproportion in body mass between Aurimales and females (again, a trait widely unseen in dragons)."
 141,0,0,0,"","",""
-142,0,0,0,"Raen","","Auri creation myth tells of a Dawn Father and a
-Dusk Mother from whom all Au Ra are descended.
-The Raen believe their veins to run thick with the
-blood of the former─their brilliant white scales and
-iron wills serving as proof of this divine lineage.
-
-Unlike their sister clan, the Xaela, who bloody the
-land with endless tribal conflict, the Raen have
-embraced a life of tranquility and solitude, long
-abandoning the nomadic lifestyle of their ancestors
-to settle the deep valleys of Othard's mountainous
-eastern reaches. Only on rare occasions will one
-emerge from the valley mists to seek adventure
-in realms afar.
-
-Starting Attributes: STR 19/DEX 22/VIT 19/INT 20/MND 23"
+142,0,0,0,"Raen","","Auri creation myth tells of a Dawn Father and aDusk Mother from whom all Au Ra are descended.The Raen believe their veins to run thick with theblood of the former─their brilliant white scales andiron wills serving as proof of this divine lineage.Unlike their sister clan, the Xaela, who bloody theland with endless tribal conflict, the Raen haveembraced a life of tranquility and solitude, longabandoning the nomadic lifestyle of their ancestorsto settle the deep valleys of Othard's mountainouseastern reaches. Only on rare occasions will oneemerge from the valley mists to seek adventurein realms afar.Starting Attributes: STR 19/DEX 22/VIT 19/INT 20/MND 23"
 143,0,0,0,"","",""
-144,0,0,0,"Xaela","","Auri creation myth tells of a Dawn Father and a
-Dusk Mother from whom all Au Ra are descended.
-The Xaela believe their veins to run thick with the
-blood of the latter─their lustrous black scales and
-fiery wills serving as proof of this divine lineage.
-
-Unlike their sister clan, the Raen, who lead solitary
-lives hidden behind the savage peaks of Othard's
-eastern reaches, the Xaela are free spirits who
-roam the vast western steppe in close-knit tribes
-hunting, gathering, and warring as their ancestors
-have for countless generations.
-
-Starting Attributes: STR 23/DEX 20/VIT 22/INT 20/MND 18"
+144,0,0,0,"Xaela","","Auri creation myth tells of a Dawn Father and aDusk Mother from whom all Au Ra are descended.The Xaela believe their veins to run thick with theblood of the latter─their lustrous black scales andfiery wills serving as proof of this divine lineage.Unlike their sister clan, the Raen, who lead solitarylives hidden behind the savage peaks of Othard'seastern reaches, the Xaela are free spirits whoroam the vast western steppe in close-knit tribeshunting, gathering, and warring as their ancestorshave for countless generations.Starting Attributes: STR 23/DEX 20/VIT 22/INT 20/MND 18"
 145,0,0,0,"","",""
 146,0,0,0,"","",""
 147,0,0,0,"","",""
@@ -387,81 +179,21 @@ Starting Attributes: STR 23/DEX 20/VIT 22/INT 20/MND 18"
 175,0,0,0,"The Matron","",""
 176,0,0,0,"Althyk","",""
 177,0,0,0,"The Keeper","",""
-178,0,0,0,"Gladiator","","Gladiators specialize in the handling of all manner of one-handed
-blades, from daggers to longswords, be they single- or double-edged,
-straight or curved. A defining characteristic of the art is its emphasis
-on diverse combat tactics, training its members to bring their martial
-skills to bear in any situation. As such, there are practitioners who
-marry sword with shield, seeking to defend their fellow companions.
-Others opt for an empty off hand, choosing instead to focus entirely
-on their sword arm. In all instances, the ages-old art of the sword
-makes the gladiator a formidable adversary in any encounter."
+178,0,0,0,"Gladiator","","Gladiators specialize in the handling of all manner of one-handedblades, from daggers to longswords, be they single- or double-edged,straight or curved. A defining characteristic of the art is its emphasison diverse combat tactics, training its members to bring their martialskills to bear in any situation. As such, there are practitioners whomarry sword with shield, seeking to defend their fellow companions.Others opt for an empty off hand, choosing instead to focus entirelyon their sword arm. In all instances, the ages-old art of the swordmakes the gladiator a formidable adversary in any encounter."
 179,0,0,0,"","",""
-180,0,0,0,"Pugilist","","The path of the pugilist is one of incessant training aimed at mastering
-the traditional techniques of hand-to-hand combat. Though they
-command formidable power when unarmed, they are wont to use metal,
-leather, and bone weaponry to maximize their destructive potential.
-
-Their preference for fighting at close quarters makes negotiating
-distances an absolute necessity. This is why many pugilists are quick
-to learn that lightweight gear allowing for maximum agility ensures them
-better success in battle than does cumbersome plate or chain."
+180,0,0,0,"Pugilist","","The path of the pugilist is one of incessant training aimed at masteringthe traditional techniques of hand-to-hand combat. Though theycommand formidable power when unarmed, they are wont to use metal,leather, and bone weaponry to maximize their destructive potential.Their preference for fighting at close quarters makes negotiatingdistances an absolute necessity. This is why many pugilists are quickto learn that lightweight gear allowing for maximum agility ensures thembetter success in battle than does cumbersome plate or chain."
 181,0,0,0,"","",""
-182,0,0,0,"Marauder","","The marauder is a combat specialist whose weapon of choice is
-the greataxe－a fearsome arm emblematic of Eorzea's pirates.
-Their approach to battle is one of brute force, relying on strength
-and steel to crush enemies and sunder weapons. They are highly
-sought after for their ferocity and intimidating presence, and are
-often employed to hunt down monsters plaguing the land, or to turn
-the tide of battle between warring nations."
+182,0,0,0,"Marauder","","The marauder is a combat specialist whose weapon of choice isthe greataxe－a fearsome arm emblematic of Eorzea's pirates.Their approach to battle is one of brute force, relying on strengthand steel to crush enemies and sunder weapons. They are highlysought after for their ferocity and intimidating presence, and areoften employed to hunt down monsters plaguing the land, or to turnthe tide of battle between warring nations."
 183,0,0,0,"","",""
-184,0,0,0,"Lancer","","The strategy of the lancers is to outrange and fluster opponents
-with their long, two-handed polearms, peppering them with a barrage
-of thrusting attacks. They are trained with a number of weapons,
-giving a diversity to their attacks that makes them extremely
-versatile combatants.
-
-In former times, the longspear saw the most widespread use,
-due in great part to the influence of the proud lancer legions of
-Ala Mhigo. Since then, the guild has greatly expanded its armories
-to include a variety of weaponry, such as the halberd and the trident."
+184,0,0,0,"Lancer","","The strategy of the lancers is to outrange and fluster opponentswith their long, two-handed polearms, peppering them with a barrageof thrusting attacks. They are trained with a number of weapons,giving a diversity to their attacks that makes them extremelyversatile combatants.In former times, the longspear saw the most widespread use,due in great part to the influence of the proud lancer legions ofAla Mhigo. Since then, the guild has greatly expanded its armoriesto include a variety of weaponry, such as the halberd and the trident."
 185,0,0,0,"","",""
-186,0,0,0,"Archer","","The enduring popularity of the bow is a testament to its elegant
-design, but this simple weapon would be of little worth without the
-surpassing skill of those who master it－the archers. Projectile
-techniques such as high-angle fire enable archers to assail their
-foes with deadly precision even at great distances.
-
-Constant assessment of the battlefield enables them to carefully
-determine the most advantageous ground from which to loose,
-as well as the nature of the arrows best suited to their enemy.
-Together with the longbow sentries of the Elezen military, the
-shortbow hunters among the Miqo'te are widely regarded as
-most skilled with the bow."
+186,0,0,0,"Archer","","The enduring popularity of the bow is a testament to its elegantdesign, but this simple weapon would be of little worth without thesurpassing skill of those who master it－the archers. Projectiletechniques such as high-angle fire enable archers to assail theirfoes with deadly precision even at great distances.Constant assessment of the battlefield enables them to carefullydetermine the most advantageous ground from which to loose,as well as the nature of the arrows best suited to their enemy.Together with the longbow sentries of the Elezen military, theshortbow hunters among the Miqo'te are widely regarded asmost skilled with the bow."
 187,0,0,0,"","",""
-188,0,0,0,"Conjurer","","Conjury calls upon elemental forces present in nature and concentrates
-them to a potency at which spells can be woven. Through practiced
-meditation on the essences of creation, conjurers draw forth and
-absorb aether from their immediate surroundings. A wand or cane
-made from unworked wood is then utilized to focus the aether until it
-manifests as the desired spell. The seat of the Conjurers' Guild lies at
-Stillglade Fane in Gridania, where the voices of Eorzea's elementals are
-said to be most powerful."
+188,0,0,0,"Conjurer","","Conjury calls upon elemental forces present in nature and concentratesthem to a potency at which spells can be woven. Through practicedmeditation on the essences of creation, conjurers draw forth andabsorb aether from their immediate surroundings. A wand or canemade from unworked wood is then utilized to focus the aether until itmanifests as the desired spell. The seat of the Conjurers' Guild lies atStillglade Fane in Gridania, where the voices of Eorzea's elementals aresaid to be most powerful."
 189,0,0,0,"","",""
-190,0,0,0,"Thaumaturge","","In the hands of a skilled practitioner, thaumaturgy can be a force of
-terrifying destruction. At the heart of this school of magic lies the
-ability to call forth and command the latent aether within oneself
-through deep introspection. To then mold that aether into sorcery,
-the thaumaturge makes use of a scepter or staff, within which is
-housed a medium－a natural stone imbued with magical properties."
+190,0,0,0,"Thaumaturge","","In the hands of a skilled practitioner, thaumaturgy can be a force ofterrifying destruction. At the heart of this school of magic lies theability to call forth and command the latent aether within oneselfthrough deep introspection. To then mold that aether into sorcery,the thaumaturge makes use of a scepter or staff, within which ishoused a medium－a natural stone imbued with magical properties."
 191,0,0,0,"","",""
-192,0,0,0,"Arcanist","","Adepts of the art of arcanum derive their might from symbols of power
-born of geometric techniques hailing from across the southern seas.
-Held within occult grimoires, these symbols lend shape to the arcanist's
-aether, thereby allowing him to produce myriad powerful spells. Using
-the selfsame symbols to unlock the latent power contained within
-gemstones, arcanists are also able to summon forth the familiar known
-as Carbuncle to carry out their bidding."
+192,0,0,0,"Arcanist","","Adepts of the art of arcanum derive their might from symbols of powerborn of geometric techniques hailing from across the southern seas.Held within occult grimoires, these symbols lend shape to the arcanist'saether, thereby allowing him to produce myriad powerful spells. Usingthe selfsame symbols to unlock the latent power contained withingemstones, arcanists are also able to summon forth the familiar knownas Carbuncle to carry out their bidding."
 193,0,0,0,"","",""
 194,0,0,0,"Blacksmith","","不要：新生ではキャラメイクで選択できるのは戦闘職のみ。"
 195,0,0,0,"","",""
@@ -740,90 +472,18 @@ as Carbuncle to carry out their bidding."
 468,0,0,0,"","",""
 469,0,0,0,"","",""
 470,0,0,0,"","",""
-471,0,0,0,"Halone, mover of glaciers and goddess of war, is the
-guardian deity of Ishgard. She commands the element of
-ice and is associated with the first moon of the Eorzean
-calendar. Halone is the daughter of Rhalgr, and a bitter
-rival of Nophica. She is most often depicted as a
-relentless warrioress armed with a bronze greatshield.
-Her symbol is the three spears.","",""
-472,0,0,0,"Menphina is keeper of the moon and the goddess of love.
-She commands the element of ice and is associated with
-the second moon of the Eorzean calendar. Menphina is the
-sister of Azeyma, and the divine lover of Oschon. She is
-most often depicted as a maid carrying a round skillet.
-Her symbol is the full moon.","",""
-473,0,0,0,"Thaliak, ruler of rivers and wisdom, and god of knowledge,
-is the guardian deity of Sharlayan. He commands the
-element of water and is associated with the third moon
-of the Eorzean calendar. Thaliak is the father of Llymlaen,
-and the teacher of Byregot. He is most often depicted as a
-reserved scholar holding an ashen staff. His symbol is the scroll.","",""
-474,0,0,0,"Nymeia is the watcher of celestial bodies and goddess
-of fate. She commands the element of water and is
-associated with the fourth moon of the Eorzean calendar.
-Nymeia is the younger sister of Althyk, and master of
-Rhalgr. She is most often depicted as a weaver donning
-a white silken veil. Her symbol is the spinning wheel.","",""
-475,0,0,0,"Llymlaen, watcher of the seas and goddess of navigation,
-is the guardian deity of Limsa Lominsa. She commands
-the element of wind and is associated with the fifth
-moon of the Eorzean calendar. Llymlaen is the daughter
-of Thaliak, and the elder sister of Nophica. She is most
-often depicted as a strong fisherwoman wielding a
-long-bladed harpoon. Her symbol is the wave.","",""
-476,0,0,0,"Oschon is ruler of the mountains and god of travelers
-and vagrants. He commands the element of wind and is
-associated with the sixth moon of the Eorzean calendar.
-Oschon is the brother of Nald'thal, and the close
-companion of Halone. He is most often depicted as a
-carefree ranger wielding a bow of yew. His symbol is
-the walking stick.","",""
-477,0,0,0,"Byregot is the purveyor of architecture and industry,
-and god of the arts. He commands the element of
-lightning and is associated with the seventh moon of
-the Eorzean calendar. Byregot is the elder brother of
-Halone, and pupil of Thaliak. He is most often depicted
-as an ardent smith with a two-headed hammer.
-His symbol is the hand.","",""
-478,0,0,0,"Rhalgr, breaker of worlds, is the god of destruction
-and guardian deity of the now-fallen nation of Ala Mhigo.
-He commands the element of lightning and is associated
-with the eighth moon of the Eorzean calendar. Rhalgr is
-the father of both Byregot and Halone, and serves as
-attendant to Nymeia. He is most often depicted as a
-magus carrying a staff of bronze. His symbol is the
-streaking meteor.","",""
-479,0,0,0,"Azeyma is keeper of the sun and goddess of inquiry.
-She commands the element of fire and is associated
-with the ninth moon of the Eorzean calendar. Azeyma
-is the daughter of Althyk, and the elder sister of
-Menphina. She is most often depicted as a noble lady
-holding a golden fan. Her symbol is the radiant sun.","",""
-480,0,0,0,"Nald'thal, overseer of the underworld and god of
-commerce, is the guardian deity of Ul'dah. He
-commands the element of fire and is associated
-with the tenth moon of the Eorzean calendar.
-Nald'thal is the single manifestation of the deific
-twins Nald and Thal. He is most often depicted
-as a discerning merchant holding a balance.
-His symbol is the cowry, an ancient shell currency.","",""
-481,0,0,0,"Nophica, tender of soils and harvests, and goddess
-of abundance, is the guardian deity of Gridania.
-She commands the element of earth and is
-associated with the eleventh moon of the Eorzean
-calendar. Nophica is the daughter of Azeyma, and
-the younger sister of Llymlaen. She is most often
-depicted as a jubilant farmer holding a scythe of
-steel. Her symbol is the spring leaf.","",""
-482,0,0,0,"Althyk is the surveyor of change and space,
-and god of time. He commands the element of
-earth and is associated with the twelfth moon of
-the Eorzean calendar. Althyk is the father of
-Azeyma and Menphina, and elder brother to
-Nymeia. He is most often depicted as an
-austere emperor wielding a mythril greataxe.
-His symbol is the hourglass.","",""
+471,0,0,0,"Halone, mover of glaciers and goddess of war, is theguardian deity of Ishgard. She commands the element ofice and is associated with the first moon of the Eorzeancalendar. Halone is the daughter of Rhalgr, and a bitterrival of Nophica. She is most often depicted as arelentless warrioress armed with a bronze greatshield.Her symbol is the three spears.","",""
+472,0,0,0,"Menphina is keeper of the moon and the goddess of love.She commands the element of ice and is associated withthe second moon of the Eorzean calendar. Menphina is thesister of Azeyma, and the divine lover of Oschon. She ismost often depicted as a maid carrying a round skillet.Her symbol is the full moon.","",""
+473,0,0,0,"Thaliak, ruler of rivers and wisdom, and god of knowledge,is the guardian deity of Sharlayan. He commands theelement of water and is associated with the third moonof the Eorzean calendar. Thaliak is the father of Llymlaen,and the teacher of Byregot. He is most often depicted as areserved scholar holding an ashen staff. His symbol is the scroll.","",""
+474,0,0,0,"Nymeia is the watcher of celestial bodies and goddessof fate. She commands the element of water and isassociated with the fourth moon of the Eorzean calendar.Nymeia is the younger sister of Althyk, and master ofRhalgr. She is most often depicted as a weaver donninga white silken veil. Her symbol is the spinning wheel.","",""
+475,0,0,0,"Llymlaen, watcher of the seas and goddess of navigation,is the guardian deity of Limsa Lominsa. She commandsthe element of wind and is associated with the fifthmoon of the Eorzean calendar. Llymlaen is the daughterof Thaliak, and the elder sister of Nophica. She is mostoften depicted as a strong fisherwoman wielding along-bladed harpoon. Her symbol is the wave.","",""
+476,0,0,0,"Oschon is ruler of the mountains and god of travelersand vagrants. He commands the element of wind and isassociated with the sixth moon of the Eorzean calendar.Oschon is the brother of Nald'thal, and the closecompanion of Halone. He is most often depicted as acarefree ranger wielding a bow of yew. His symbol isthe walking stick.","",""
+477,0,0,0,"Byregot is the purveyor of architecture and industry,and god of the arts. He commands the element oflightning and is associated with the seventh moon ofthe Eorzean calendar. Byregot is the elder brother ofHalone, and pupil of Thaliak. He is most often depictedas an ardent smith with a two-headed hammer.His symbol is the hand.","",""
+478,0,0,0,"Rhalgr, breaker of worlds, is the god of destructionand guardian deity of the now-fallen nation of Ala Mhigo.He commands the element of lightning and is associatedwith the eighth moon of the Eorzean calendar. Rhalgr isthe father of both Byregot and Halone, and serves asattendant to Nymeia. He is most often depicted as amagus carrying a staff of bronze. His symbol is thestreaking meteor.","",""
+479,0,0,0,"Azeyma is keeper of the sun and goddess of inquiry.She commands the element of fire and is associatedwith the ninth moon of the Eorzean calendar. Azeymais the daughter of Althyk, and the elder sister ofMenphina. She is most often depicted as a noble ladyholding a golden fan. Her symbol is the radiant sun.","",""
+480,0,0,0,"Nald'thal, overseer of the underworld and god ofcommerce, is the guardian deity of Ul'dah. Hecommands the element of fire and is associatedwith the tenth moon of the Eorzean calendar.Nald'thal is the single manifestation of the deifictwins Nald and Thal. He is most often depictedas a discerning merchant holding a balance.His symbol is the cowry, an ancient shell currency.","",""
+481,0,0,0,"Nophica, tender of soils and harvests, and goddessof abundance, is the guardian deity of Gridania.She commands the element of earth and isassociated with the eleventh moon of the Eorzeancalendar. Nophica is the daughter of Azeyma, andthe younger sister of Llymlaen. She is most oftendepicted as a jubilant farmer holding a scythe ofsteel. Her symbol is the spring leaf.","",""
+482,0,0,0,"Althyk is the surveyor of change and space,and god of time. He commands the element ofearth and is associated with the twelfth moon ofthe Eorzean calendar. Althyk is the father ofAzeyma and Menphina, and elder brother toNymeia. He is most often depicted as anaustere emperor wielding a mythril greataxe.His symbol is the hourglass.","",""
 483,0,0,0,"","",""
 484,0,0,0,"","",""
 485,0,0,0,"","",""
@@ -958,8 +618,7 @@ His symbol is the hourglass.","",""
 614,0,0,0,"","",""
 615,0,0,0,"Days of Play Time Remaining: <Value>IntegerParameter(1)</Value>","",""
 616,0,0,0,"Veteran Reward Rank: <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value><Else/>None</If>","",""
-617,0,0,0,"Total Days Subscribed: <Format(IntegerParameter(1),FF022C)/><If(Equal(IntegerParameter(2),0))><Else/>
-Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
+617,0,0,0,"Total Days Subscribed: <Format(IntegerParameter(1),FF022C)/><If(Equal(IntegerParameter(2),0))><Else/>Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 618,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> of play time remaining. Proceed to the Mog Station (http://sqex.to/Msp) to renew.","",""
 619,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> left on your free trial. <If(GreaterThan(PlayerParameter(75),0))>Proceed to PlayStation™Store to upgrade to the full version of FINAL FANTASY XIV and unlock all the game's features.<Else/>Visit the Square Enix Online Store to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.</If>","",""
 620,0,0,0,"","",""
@@ -971,12 +630,9 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 626,0,0,0,"Finalize your character's appearance?","",""
 627,0,0,0,"Revert to your character's current appearance?","",""
 628,0,0,0,"","",""
-629,0,0,0,"Log in with <Highlight>StringParameter(1)</Highlight>?
-※Cancel and access the subcommand menu to re-edit your character.","",""
+629,0,0,0,"Log in with <Highlight>StringParameter(1)</Highlight>?※Cancel and access the subcommand menu to re-edit your character.","",""
 630,0,0,0,"You are granted one opportunity to edit your character's race, tribe, gender, and appearance.","",""
-631,0,0,0,"Are you certain you wish to alter your character's appearance?
-※Aesthetician-exclusive hairstyles or face paint patterns will be unavailable.
-※You may log in with this character as is.","",""
+631,0,0,0,"Are you certain you wish to alter your character's appearance?※Aesthetician-exclusive hairstyles or face paint patterns will be unavailable.※You may log in with this character as is.","",""
 632,0,0,0,"To re-edit your character's appearance, you must first log in and remove all your equipment. Return to the login screen when ready.","",""
 633,0,0,0,"Are you satisfied with the changes?","",""
 634,0,0,0,"Cancel appearance customization?","",""
@@ -985,158 +641,29 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 637,0,0,0,"","",""
 638,0,0,0,"","",""
 639,0,0,0,"","",""
-640,0,0,0,"Midlander","","The Midlander clan comprises over half of the total population of
-Eorzea's Hyurs. They have established themselves throughout
-every city in the realm and lead lives as diverse as their heritage.
-
-Trained in letters from infancy, the Midlanders are generally more
-educated than many of the other races and clans. Despite the fact
-that males tend to be slightly taller than females, there are no
-significant differences between the genders."
+640,0,0,0,"Midlander","","The Midlander clan comprises over half of the total population ofEorzea's Hyurs. They have established themselves throughoutevery city in the realm and lead lives as diverse as their heritage.Trained in letters from infancy, the Midlanders are generally moreeducated than many of the other races and clans. Despite the factthat males tend to be slightly taller than females, there are nosignificant differences between the genders."
 641,0,0,0,"","",""
-642,0,0,0,"Highlander","","The Highlanders were the first of the Hyur to reach Eorzea.
-Their name derives from their long tradition of building strongholds
-in the mountains. Compared to their Midland brethren, the
-Highlanders are noticeably larger in build.
-
-Of late, Highlanders have become an increasingly rare sight
-in Eorzea, their number represented almost exclusively by those
-who fled Ala Mhigo after its fall and now work in the desert
-city-state of Ul'dah as mercenaries and sellswords."
+642,0,0,0,"Highlander","","The Highlanders were the first of the Hyur to reach Eorzea.Their name derives from their long tradition of building strongholdsin the mountains. Compared to their Midland brethren, theHighlanders are noticeably larger in build.Of late, Highlanders have become an increasingly rare sightin Eorzea, their number represented almost exclusively by thosewho fled Ala Mhigo after its fall and now work in the desertcity-state of Ul'dah as mercenaries and sellswords."
 643,0,0,0,"","",""
-644,0,0,0,"Wildwood","","For hundreds of years, the Wildwood Elezen have lived in the
-relative safety of Eorzea's lush forests. With the formation of
-Eorzea's governments, however, many Wildwood ventured forth
-from the forests, drawn to the exhilarating cosmopolitanism of
-nearby Gridania. There is minimal dimorphism between the two
-genders, though males are generally considered to be milder and
-more chivalrous in demeanor. Among their Duskwight brethren,
-Wildwood Elezen are referred to as Greens, for their love of the forest."
+644,0,0,0,"Wildwood","","For hundreds of years, the Wildwood Elezen have lived in therelative safety of Eorzea's lush forests. With the formation ofEorzea's governments, however, many Wildwood ventured forthfrom the forests, drawn to the exhilarating cosmopolitanism ofnearby Gridania. There is minimal dimorphism between the twogenders, though males are generally considered to be milder andmore chivalrous in demeanor. Among their Duskwight brethren,Wildwood Elezen are referred to as Greens, for their love of the forest."
 645,0,0,0,"","",""
-646,0,0,0,"Duskwight","","Centuries ago, a number of Elezen sought out a life of peace and
-seclusion in the depths of Eorzea's caves and caverns. Today,
-they are called the Duskwight, though to their Wildwood cousins
-they are known simply as the Greys, after their preference for
-darkness and stone.
-
-The cave-dwelling ways of the Duskwight persist, with some
-among them turning to robbery and pillaging to survive, earning
-them the scorn of their woodland relatives. There are few
-differences between the genders, but Duskwight females are
-often regarded as being the more passionate and unyielding of
-the two."
+646,0,0,0,"Duskwight","","Centuries ago, a number of Elezen sought out a life of peace andseclusion in the depths of Eorzea's caves and caverns. Today,they are called the Duskwight, though to their Wildwood cousinsthey are known simply as the Greys, after their preference fordarkness and stone.The cave-dwelling ways of the Duskwight persist, with someamong them turning to robbery and pillaging to survive, earningthem the scorn of their woodland relatives. There are fewdifferences between the genders, but Duskwight females areoften regarded as being the more passionate and unyielding ofthe two."
 647,0,0,0,"","",""
-648,0,0,0,"Plainsfolk","","From the flat landscapes of the Plainsfolk's home islands are where
-this Lalafellin clan takes its name. Their distinct hair coloration－
-a myriad of earthy and grassy tones－helps them to blend in well
-with their environment, acting as an effective camouflage against
-would-be attackers. It was the similarity of La Noscea's grassy
-fields to those in their homeland which drew the first settlers to
-the island of Vylbrand and what is now Limsa Lominsa.
-
-They are a clever and opportunistic people, and crafty with
-their words. The generally accepted view of Plainsfolk is that
-they are a vibrant lot, with a penchant for excessive conversation."
+648,0,0,0,"Plainsfolk","","From the flat landscapes of the Plainsfolk's home islands are wherethis Lalafellin clan takes its name. Their distinct hair coloration－a myriad of earthy and grassy tones－helps them to blend in wellwith their environment, acting as an effective camouflage againstwould-be attackers. It was the similarity of La Noscea's grassyfields to those in their homeland which drew the first settlers tothe island of Vylbrand and what is now Limsa Lominsa.They are a clever and opportunistic people, and crafty withtheir words. The generally accepted view of Plainsfolk is thatthey are a vibrant lot, with a penchant for excessive conversation."
 649,0,0,0,"","",""
-650,0,0,0,"Dunesfolk","","Perhaps the most unique characteristic of the Dunesfolk is their
-luminous eyes─a result of a glossy, protective layer which covers
-the pupil, an evolutionary response to their homeland's glaring sunlight.
-Many individuals wear a small, traditional gemstone on their forehead,
-a symbol of their zodiacal sign. They are adamant about scholasticism,
-placing the advancement of knowledge before all else. Other races
-tend to perceive male Dunesfolk as introverts who care more for
-books, business, and the prosperity of Ul'dah─a city-state built upon
-Dunesfolk ingenuity─than the goings-on of the rest of the realm."
+650,0,0,0,"Dunesfolk","","Perhaps the most unique characteristic of the Dunesfolk is theirluminous eyes─a result of a glossy, protective layer which coversthe pupil, an evolutionary response to their homeland's glaring sunlight.Many individuals wear a small, traditional gemstone on their forehead,a symbol of their zodiacal sign. They are adamant about scholasticism,placing the advancement of knowledge before all else. Other racestend to perceive male Dunesfolk as introverts who care more forbooks, business, and the prosperity of Ul'dah─a city-state built uponDunesfolk ingenuity─than the goings-on of the rest of the realm."
 651,0,0,0,"","",""
-652,0,0,0,"Seekers of the Sun","","The self-proclaimed Seekers of the Sun are the diurnal clan of
-the Miqo'te race. Their preference for the warm light of day
-pervades all aspects of their culture, as is apparent in their
-devout reverence for Azeyma, the Warden, keeper of the sun
-and goddess of inquiry.
-
-They are perhaps known best for their striking eyes－the result
-of their vertically aligned pupils and faintly colored irises. It is also
-not uncommon for their eyes to be disparately colored from birth,
-a trait considered auspicious amongst their kind.
-
-Seeker tribes can be found throughout Eorzea, with large
-concentrations appearing near Limsa Lominsa and the Sagolii Desert."
+652,0,0,0,"Seekers of the Sun","","The self-proclaimed Seekers of the Sun are the diurnal clan ofthe Miqo'te race. Their preference for the warm light of daypervades all aspects of their culture, as is apparent in theirdevout reverence for Azeyma, the Warden, keeper of the sunand goddess of inquiry.They are perhaps known best for their striking eyes－the resultof their vertically aligned pupils and faintly colored irises. It is alsonot uncommon for their eyes to be disparately colored from birth,a trait considered auspicious amongst their kind.Seeker tribes can be found throughout Eorzea, with largeconcentrations appearing near Limsa Lominsa and the Sagolii Desert."
 653,0,0,0,"","",""
-654,0,0,0,"Keepers of the Moon","","The nocturnal among the Miqo'te have dubbed themselves the
-Keepers of the Moon. Shying from the garish light of day, they
-revel in the shroud of night, with most offering their piety to
-Menphina, the Lover, goddess of the moon.
-
-They are distinguishable from their diurnal cousins by their
-darker fur, larger ears, rounder eyes, more pronounced canines,
-and longer, skinnier tails. The ritual application of war paint to
-the face is still regularly practiced, as it is believed the vivid
-colors grant lunar powers.
-
-After a great many summers of conflict with the people of
-Gridania, the Keepers have finally made amends with the
-people of the sylvan city-state, with some even choosing
-to make their homes there."
+654,0,0,0,"Keepers of the Moon","","The nocturnal among the Miqo'te have dubbed themselves theKeepers of the Moon. Shying from the garish light of day, theyrevel in the shroud of night, with most offering their piety toMenphina, the Lover, goddess of the moon.They are distinguishable from their diurnal cousins by theirdarker fur, larger ears, rounder eyes, more pronounced canines,and longer, skinnier tails. The ritual application of war paint tothe face is still regularly practiced, as it is believed the vividcolors grant lunar powers.After a great many summers of conflict with the people ofGridania, the Keepers have finally made amends with thepeople of the sylvan city-state, with some even choosingto make their homes there."
 655,0,0,0,"","",""
-656,0,0,0,"Sea Wolves","","Long ago, no vessel or coastal village was safe from
-the fury of the Sea Wolves and their maritime brand
-of brutality. The mere mention of the clan was enough
-to strike fear into the hearts of any who drew their
-livelihood from the sea. The Sea Wolves originally hail
-from the islands of the far north seas, where they still
-subsist as fishermen and women.
-
-It was not until the large-scale deployment of Limsa
-Lominsa's armada that the Sea Wolves' appetite for
-piracy diminished. Now, it is not uncommon to see them
-employed as sailors or naval mercenaries on all manner
-of vessels. However, they have never forgotten the
-ways of their homeland, and still use the ancient
-Roegadyn language in their names."
+656,0,0,0,"Sea Wolves","","Long ago, no vessel or coastal village was safe fromthe fury of the Sea Wolves and their maritime brandof brutality. The mere mention of the clan was enoughto strike fear into the hearts of any who drew theirlivelihood from the sea. The Sea Wolves originally hailfrom the islands of the far north seas, where they stillsubsist as fishermen and women.It was not until the large-scale deployment of LimsaLominsa's armada that the Sea Wolves' appetite forpiracy diminished. Now, it is not uncommon to see thememployed as sailors or naval mercenaries on all mannerof vessels. However, they have never forgotten theways of their homeland, and still use the ancientRoegadyn language in their names."
 657,0,0,0,"","",""
-658,0,0,0,"Hellsguard","","The Hellsguard are a Roegadyn clan with body and mind
-tempered by the unforgiving heat of the volcanic regions
-they inhabit. Believing these mountains of flame to be
-gates to the underworld, their line has for centuries
-stood vigil to prevent the passage of souls back to the
-realm of the living.
-
-As the harsh environs of their homelands produce
-little sustenance, the second- and third-born are often
-sent forth from their mountain villages, with many and
-more making their way to the great cities. It is there that
-their sheer girth and steely demeanors place them in
-high demand as soldiers and sellswords, allowing the
-young of even the largest families to surpass their
-elder siblings in prosperity."
+658,0,0,0,"Hellsguard","","The Hellsguard are a Roegadyn clan with body and mindtempered by the unforgiving heat of the volcanic regionsthey inhabit. Believing these mountains of flame to begates to the underworld, their line has for centuriesstood vigil to prevent the passage of souls back to therealm of the living.As the harsh environs of their homelands producelittle sustenance, the second- and third-born are oftensent forth from their mountain villages, with many andmore making their way to the great cities. It is there thattheir sheer girth and steely demeanors place them inhigh demand as soldiers and sellswords, allowing theyoung of even the largest families to surpass theirelder siblings in prosperity."
 659,0,0,0,"","",""
-660,0,0,0,"Raen","","Auri creation myth tells of a Dawn Father and a
-Dusk Mother from whom all Au Ra are descended.
-The Raen believe their veins to run thick with the
-blood of the former─their brilliant white scales and
-iron wills serving as proof of this divine lineage.
-
-Unlike their sister clan, the Xaela, who bloody the
-land with endless tribal conflict, the Raen have
-embraced a life of tranquility and solitude, long
-abandoning the nomadic lifestyle of their ancestors
-to settle the deep valleys of Othard's mountainous
-eastern reaches. Only on rare occasions will one
-emerge from the valley mists to seek adventure
-in realms afar."
+660,0,0,0,"Raen","","Auri creation myth tells of a Dawn Father and aDusk Mother from whom all Au Ra are descended.The Raen believe their veins to run thick with theblood of the former─their brilliant white scales andiron wills serving as proof of this divine lineage.Unlike their sister clan, the Xaela, who bloody theland with endless tribal conflict, the Raen haveembraced a life of tranquility and solitude, longabandoning the nomadic lifestyle of their ancestorsto settle the deep valleys of Othard's mountainouseastern reaches. Only on rare occasions will oneemerge from the valley mists to seek adventurein realms afar."
 661,0,0,0,"","",""
-662,0,0,0,"Xaela","","Auri creation myth tells of a Dawn Father and a
-Dusk Mother from whom all Au Ra are descended.
-The Xaela believe their veins to run thick with the
-blood of the latter─their lustrous black scales and
-fiery wills serving as proof of this divine lineage.
-
-Unlike their sister clan, the Raen, who lead solitary
-lives hidden behind the savage peaks of Othard's
-eastern reaches, the Xaela are free spirits who
-roam the vast western steppe in close-knit tribes
-hunting, gathering, and warring as their ancestors
-have for countless generations."
+662,0,0,0,"Xaela","","Auri creation myth tells of a Dawn Father and aDusk Mother from whom all Au Ra are descended.The Xaela believe their veins to run thick with theblood of the latter─their lustrous black scales andfiery wills serving as proof of this divine lineage.Unlike their sister clan, the Raen, who lead solitarylives hidden behind the savage peaks of Othard'seastern reaches, the Xaela are free spirits whoroam the vast western steppe in close-knit tribeshunting, gathering, and warring as their ancestorshave for countless generations."
 663,0,0,0,"","",""
 664,0,0,0,"","",""
 665,0,0,0,"","",""
@@ -1280,9 +807,7 @@ have for countless generations."
 803,0,0,0,"Information","",""
 804,0,0,0,"Worlds","",""
 805,0,0,0,"<Switch(IntegerParameter(1))><Case(1)>JP 1</Case><Case(2)>JP 2</Case><Case(3)>JP 3</Case><Case(4)>DC NA 1</Case><Case(5)>NA 2</Case><Case(6)>EU</Case></Switch>","",""
-806,0,0,0,"FINAL FANTASY XIV requires connecting to one of three data centers to play. The closer your physical location to the data center, the smoother gameplay will be. The center you have selected is recommended for residents of <Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>Japan</Case><Case(3)>Japan</Case><Case(4)>North America</Case><Case(5)>North America</Case><Case(6)>Europe</Case><Case(7)>Europe</Case></Switch>. Select if you wish to create a character and play in one of the Worlds listed.
-
-Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you must select the corresponding data center.","",""
+806,0,0,0,"FINAL FANTASY XIV requires connecting to one of three data centers to play. The closer your physical location to the data center, the smoother gameplay will be. The center you have selected is recommended for residents of <Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>Japan</Case><Case(3)>Japan</Case><Case(4)>North America</Case><Case(5)>North America</Case><Case(6)>Europe</Case><Case(7)>Europe</Case></Switch>. Select if you wish to create a character and play in one of the Worlds listed.Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you must select the corresponding data center.","",""
 807,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case></Switch>","",""
 808,0,0,0,"Connecting to data center.","",""
 809,0,0,0,"Acquiring character list.","",""
@@ -1296,21 +821,7 @@ Each data center contains several unique Worlds (servers). If you have already d
 817,0,0,0,"","",""
 818,0,0,0,"","",""
 819,0,0,0,"","",""
-820,0,0,0,"“World” is another name for the server on which your character will reside.
-Once you have chosen a World, chances to move to another will be limited,
-so if you have made plans to play FINAL FANTASY XIV with friends, make
-certain that you all select the same one.
-
-Worlds are divided into six different data centers based on the location of
-their servers. To ensure you encounter the fewest number of latency issues,
-it is recommended, but not required, that you select a data center that is
-closer to where you will be playing. Legacy Worlds (servers existing since the
-original launch) are indicated in parentheses.
-
-<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of  <If(GreaterThan(IntegerParameter(1),0))><Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>Japan</Case><Case(3)>Japan</Case><Case(4)>North America</Case><Case(5)>North America</Case><Case(6)>Europe</Case><Case(7)>Europe</Case></Switch><Else/></If>.<If(GreaterThan(IntegerParameter(2),0))>
-
-<Gui(99)/><Color(-154)>EXP bonuses are currently being granted to all new players
-created on this world.</Color><Else/></If>","",""
+820,0,0,0,"“World” is another name for the server on which your character will reside.Once you have chosen a World, chances to move to another will be limited,so if you have made plans to play FINAL FANTASY XIV with friends, makecertain that you all select the same one.Worlds are divided into six different data centers based on the location oftheir servers. To ensure you encounter the fewest number of latency issues,it is recommended, but not required, that you select a data center that iscloser to where you will be playing. Legacy Worlds (servers existing since theoriginal launch) are indicated in parentheses.<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of  <If(GreaterThan(IntegerParameter(1),0))><Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>Japan</Case><Case(3)>Japan</Case><Case(4)>North America</Case><Case(5)>North America</Case><Case(6)>Europe</Case><Case(7)>Europe</Case></Switch><Else/></If>.<If(GreaterThan(IntegerParameter(2),0))><Gui(99)/><Color(-154)>EXP bonuses are currently being granted to all new playerscreated on this world.</Color><Else/></If>","",""
 821,0,0,0,"(Skipped)","",""
 822,0,0,0,"Save <Sheet(Tribe,IntegerParameter(1),0)/> <Switch(IntegerParameter(2))><Case(1)>male</Case><Case(2)>female</Case></Switch> character creation data to slot <Value>IntegerParameter(3)</Value>?","",""
 823,0,0,0,"Load character creation data for the <Switch(IntegerParameter(4))><Case(1)>male</Case><Case(2)>female</Case></Switch> <Sheet(Tribe,IntegerParameter(3),0)/> saved to slot <Value>IntegerParameter(2)</Value> at <Time(IntegerParameter(1))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> on <If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>?","",""
@@ -2463,40 +1974,16 @@ created on this world.</Color><Else/></If>","",""
 1970,0,0,0,"Quit character creation and return to the Character Selection screen. You will lose all current progress.","",""
 1971,0,0,0,"View your character on the sunny La Noscean coastline.","",""
 1972,0,0,0,"View your character in an arid desert of Thanalan.","",""
-1973,0,0,0,"Eorzean Calendar","","The Eorzean year consists of the moon, Menphina, revolving
-around Hydaelyn's two astral and umbral poles while fluctuating
-between each of the six elements. In this, the year can be said
-to be the length of twelve moons."
+1973,0,0,0,"Eorzean Calendar","","The Eorzean year consists of the moon, Menphina, revolvingaround Hydaelyn's two astral and umbral poles while fluctuatingbetween each of the six elements. In this, the year can be saidto be the length of twelve moons."
 1974,0,0,0,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8021C03</Unknown2D> (Lv. <Value>IntegerParameter(2)</Value>)","",""
 1975,0,0,0,"","",""
 1976,0,0,0,"Adjust graphics settings.","",""
 1977,0,0,0,"Adjust time of day.","",""
 1978,0,0,0,"Adjust weather.","",""
 1979,0,0,0,"Adjust camera options.","",""
-1980,0,0,0,"Limsa Lominsa","","On the southern coast of the island of Vylbrand, under the shadow of
-ancient cliffs worn by the relentless onslaught of the Rhotano Sea,
-lies the thalassocracy of Limsa Lominsa. Its economy is driven
-primarily by shipping, but boasts lucrative shipbuilding, fishing, and
-smithing industries as well. To maintain the safety of its maritime
-routes, the city employs a formidable navy known as the Knights
-of the Barracuda. Even so, pirate bands run rampant in nearby waters,
-reaving and pillaging."
-1981,0,0,0,"Gridania","","In the eastern reaches of the Aldenard landmass, home to vast, dense
-woodlands and coursing rivers, lies the forest nation of Gridania. The
-cityscape is a mosaic of labyrinthine waterways and great wooden
-structures, so gracefully constructed they seem a part of the
-surrounding environment. The favored goddess of the citizenry is
-Nophica, the Matron, but great faith is also placed in the wisdom of
-the Seedseers－young oracles who guide the nation based on the
-will of the forest's elementals."
-1982,0,0,0,"Ul'dah","","The bustling commercial hub of Ul'dah sits amid the desolate desert
-landscape of southern Aldenard. Ul'dahn culture is known for its
-affluence, and the wealth of the nation comes in large part from its
-abundant mineral resources and clothcrafting industry. Though it is
-the sultana who claims sovereignty, true power is wielded by the
-Syndicate, a council sat by six of Ul'dah's most elite and influential.
-Nald'thal is the nation's patron deity, and two great halls devoted to
-His two aspects lie in the east and west of the city."
+1980,0,0,0,"Limsa Lominsa","","On the southern coast of the island of Vylbrand, under the shadow ofancient cliffs worn by the relentless onslaught of the Rhotano Sea,lies the thalassocracy of Limsa Lominsa. Its economy is drivenprimarily by shipping, but boasts lucrative shipbuilding, fishing, andsmithing industries as well. To maintain the safety of its maritimeroutes, the city employs a formidable navy known as the Knightsof the Barracuda. Even so, pirate bands run rampant in nearby waters,reaving and pillaging."
+1981,0,0,0,"Gridania","","In the eastern reaches of the Aldenard landmass, home to vast, densewoodlands and coursing rivers, lies the forest nation of Gridania. Thecityscape is a mosaic of labyrinthine waterways and great woodenstructures, so gracefully constructed they seem a part of thesurrounding environment. The favored goddess of the citizenry isNophica, the Matron, but great faith is also placed in the wisdom ofthe Seedseers－young oracles who guide the nation based on thewill of the forest's elementals."
+1982,0,0,0,"Ul'dah","","The bustling commercial hub of Ul'dah sits amid the desolate desertlandscape of southern Aldenard. Ul'dahn culture is known for itsaffluence, and the wealth of the nation comes in large part from itsabundant mineral resources and clothcrafting industry. Though it isthe sultana who claims sovereignty, true power is wielded by theSyndicate, a council sat by six of Ul'dah's most elite and influential.Nald'thal is the nation's patron deity, and two great halls devoted toHis two aspects lie in the east and west of the city."
 1983,0,0,0,"","",""
 1984,0,0,0,"Both forename and surname must be between 2 and 15 characters and not total more than 20 characters combined. Only letters, hyphens, and apostrophes can be used. The first character of either name must be a letter. Hyphens cannot be used in succession or placed immediately before or after apostrophes.","",""
 1985,0,0,0,"Nicknames must be between 3 and 20 characters. Only letters, hyphens, and apostrophes can be used. The first character of either name must be a letter. Hyphens cannot be used in succession or placed immediately before or after apostrophes.","",""
@@ -2693,8 +2180,7 @@ His two aspects lie in the east and west of the city."
 2176,0,0,0,"Save appearance data?","",""
 2177,0,0,0,"Yes","",""
 2178,0,0,0,"No","",""
-2179,0,0,0,"Data is corrupted or format is different.
-Could not load.","",""
+2179,0,0,0,"Data is corrupted or format is different.Could not load.","",""
 2180,0,0,0,"Return","",""
 2181,0,0,0,"Load appearance data? Your current progress will be lost.","",""
 2182,0,0,0,"Yes","",""
