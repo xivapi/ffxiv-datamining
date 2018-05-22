@@ -1,8 +1,13 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10
-#,,,,,,,,,,,
-int32,str,int64,uint16,uint16,uint16,uint16,uint16,int32,str,int32,byte
-0,"","0, 0, 0, 0",0,0,0,0,0,0,"",0,0
-1,"047harp","697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Harp",751,1
-2,"001grandpiano","697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Piano",752,2
-3,"026steelguitar","697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Lute",753,3
-4,"046pizzicato","697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Fiddle",754,4
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11
+#,Name,ModelKey,Animation{Start},Animation{End},Animation{Idle},Animation{Play01},Animation{Play02},StopAnimation,Instrument,,Transient,
+int32,str,bit&01,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,ActionTimeline,int32,str,PerformTransient,byte
+0,"",False,"0, 0, 0, 0",0,0,0,0,0,0,"",0,0
+1,"047harp",False,"697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Harp",751,1
+2,"001grandpiano",False,"697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Piano",752,2
+3,"026steelguitar",False,"697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Lute",753,3
+4,"046pizzicato",False,"697, 1, 1, 0",6552,6554,6553,6555,6557,0,"Fiddle",754,4
+5,"074flute",True,"693, 1, 1, 0",6263,6265,6264,6266,6268,0,"Flute",755,5
+6,"069oboe",True,"693, 1, 1, 0",6263,6265,6264,6266,6268,0,"Oboe",757,6
+7,"072clarinet",True,"693, 1, 1, 0",6263,6265,6264,6266,6268,0,"Clarinet",759,7
+8,"073piccolo",True,"693, 1, 1, 0",6263,6265,6264,6266,6268,0,"Fife",758,8
+9,"076panflute",True,"693, 1, 1, 0",6263,6265,6264,6266,6268,0,"Panpipes",756,9
