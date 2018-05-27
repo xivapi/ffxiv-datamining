@@ -1,5 +1,5 @@
 ###	1013	
-Mount Barding (data_0 = barding id ??)
+Mount Barding (data_0 = BuddyEquip)
 
 ###	1053	
 Company Issue Expectorant, Company Issue Tonic, Over-Aspected Cluster, Phoenix Down, all "revive" of some sort
