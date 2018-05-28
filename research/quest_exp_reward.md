@@ -1,4 +1,5 @@
-Quest experience points are generated using a small equation. Why this is done I am not sure as the values always seem static.
+Quest experience points are generated using a small equation. 
+Why this is done I am not sure as the values always seem static.
 
 ### Formula updated: 28th May, 2018
 
@@ -20,6 +21,8 @@ All formula's use this as their starting point and ADD onto it.
 **QUEST LEVEL 60-69**
 > `EXP =CORE + ((37125 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-60) * (3375 * (Quest.ExpFactor/100))))`
 
+
+-----
 
 #### Formula in PHP:
 
