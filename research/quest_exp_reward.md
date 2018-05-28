@@ -4,21 +4,21 @@ Quest experience points are generated using a small equation. Why this is done I
 
 
 **CORE FORMULA**
-> EXP = Quest.ExpFactor * ParamGrow.QuestExpModifier * (45 + (5 * Quest.ClassJobLevel_0)) / 100
+> `EXP = Quest.ExpFactor * ParamGrow.QuestExpModifier * (45 + (5 * Quest.ClassJobLevel_0)) / 100`
 
 All formula's use this as their starting point and ADD onto it.
 
 **QUEST LEVEL 50**
-> EXP = CORE + ((400 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (400 * (Quest.ExpFactor/100))))
+> `EXP = CORE + ((400 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (400 * (Quest.ExpFactor/100))))`
 
 **QUEST LEVEL 51**
-> EXP = CORE + ((800 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (800 * (Quest.ExpFactor/100))))
+> `EXP = CORE + ((800 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (800 * (Quest.ExpFactor/100))))`
 
 **QUEST LEVEL 52-59**
-> EXP = CORE + ((2000 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (2000 * (Quest.ExpFactor/100))))
+> `EXP = CORE + ((2000 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (2000 * (Quest.ExpFactor/100))))`
 
 **QUEST LEVEL 60-69**
-> EXP =CORE + ((37125 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-60) * (3375 * (Quest.ExpFactor/100))))
+> `EXP =CORE + ((37125 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-60) * (3375 * (Quest.ExpFactor/100))))`
 
 
 #### Formula in PHP:
