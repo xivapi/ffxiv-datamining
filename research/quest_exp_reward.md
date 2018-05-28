@@ -41,7 +41,7 @@ if (in_array($quest->ClassJobLevel_0, [50])) {
 }
 
 // CORE + ((800 * (Quest.ExpFactor / 100)) + ((Quest.ClassJobLevel_0-52) * (800 * (Quest.ExpFactor/100))))
-if (in_array($quest->ClassJobLevel_0, [51])) {
+else if (in_array($quest->ClassJobLevel_0, [51])) {
     $EXP = $EXP + ((800 * ($quest->ExpFactor / 100)) + (($quest->ClassJobLevel_0 - 50) * (400 * ($quest->ExpFactor / 100))));
 }
 
