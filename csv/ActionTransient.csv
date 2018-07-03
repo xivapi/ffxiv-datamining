@@ -8757,7 +8757,7 @@ int32,str
 8753,"Restores target's HP.<Color(52258)>Cure Potency:</Color> 2,500<Color(52258)>Additional Effect:</Color> Restores to self 50% of HP restored to target if target is a party member"
 8754,"Delivers an attack with a potency of 1,000. Potency increases up to 200% as MP nears maximum.<Color(52258)>Additional Effect:</Color> Increases attack magic potency and healing magic potency by 25%<Color(52258)>Additional Effect:</Color> Reduces MP cost of all spells to 0<Color(52258)>Duration:</Color> 6s"
 8755,"Renders you impervious to most attacks.<Color(52258)>Duration:</Color> 5s"
-8756,"Take all damage intended for another party member. Only active when member is closer than 10 yalms.<Color(52258)>Oath Gauge Cost:</Color> 25Depletes <Color(-34022)>Oath Gauge</Color> by 25 periodically while active."
+8756,"Take all damage intended for another party member while increasing damage taken by self 10%. Only active when member is closer than 10 yalms.<Color(52258)>Oath Gauge Cost:</Color> 25Depletes <Color(-34022)>Oath Gauge</Color> by 25 periodically while active."
 8757,"Removes <Color(-154)>Cover</Color> status."
 8758,"Delivers an attack with a potency of 750.※This action cannot be assigned to a hotbar."
 8759,"Delivers an attack to target.<Color(52258)>Combo Action:</Color> <Color(-34022)>Heavy Swing</Color><Color(52258)>Combo Potency:</Color> 1,000<Color(52258)>Combo Bonus:</Color> Increases <Color(-34022)>Beast Gauge</Color> by 10※This action cannot be assigned to a hotbar."
@@ -8819,7 +8819,7 @@ int32,str
 8815,"Delivers an attack with a potency of 2,500.<Color(52258)>Additional Effect:</Color> <Color(-154)>Stun</Color><Color(52258)>Duration:</Color> 2s<Color(52258)>Ninki Gauge Cost:</Color> 80"
 8816,"Allows for immediate execution of any ninjutsu action.<Color(52258)>Duration:</Color> 5s<Color(52258)>Ninki Gauge Cost:</Color> 40※Action changes to <Color(-34022)>Kakuremi</Color> while under the effect of <Color(-154)>Three Mudra</Color>."
 8817,"Delivers fire damage to all enemies nearby with a potency of 1,250 for the first enemy, 25% less for the second, 50% less for the third, and 75% less for all remaining enemies.<Color(52258)>Additional Effect:</Color> <Color(-154)>Heavy</Color> +50%<Color(52258)>Duration:</Color> 3s<Color(52258)>Additional Effect:</Color> Resets <Color(-34022)>Shukuchi</Color> recast timerCan only be executed while under the effect of <Color(-154)>Three Mudra</Color>.※This action cannot be assigned to a hotbar."
-8818,"Delivers ice damage with a potency of 1,250.<Color(52258)>Additional Effect:</Color> <Color(-154)>Bind</Color><Color(52258)>Duration:</Color> 2s<Color(52258)>Additional Effect:</Color> Resets <Color(-34022)>Shukuchi</Color> recast timerCan only be executed while under the effect of <Color(-154)>Three Mudra</Color>.※This action cannot be assigned to a hotbar."
+8818,"Delivers ice damage with a potency of 750.<Color(52258)>Additional Effect:</Color> <Color(-154)>Bind</Color><Color(52258)>Duration:</Color> 2s<Color(52258)>Additional Effect:</Color> Resets <Color(-34022)>Shukuchi</Color> recast timerCan only be executed while under the effect of <Color(-154)>Three Mudra</Color>.※This action cannot be assigned to a hotbar."
 8819,"Delivers lightning damage with a potency of 1,750.<Color(52258)>Additional Effect:</Color> Resets <Color(-34022)>Shukuchi</Color> recast timerCan only be executed while under the effect of <Color(-154)>Three Mudra</Color>.※This action cannot be assigned to a hotbar."
 8820,"Grants the effect of <Color(-154)>Kakuremi</Color>.<Color(52258)>Duration:</Color> 3sIf not attacked before the effect expires, <Color(-154)>Kakuremi</Color> will change to <Color(-154)>Hidden</Color>.<Color(52258)>Duration:</Color> 10sCan only be executed while under the effect of <Color(-154)>Three Mudra</Color>.※This action cannot be assigned to a hotbar."
 8821,"Delivers an attack with a potency of 750.<Color(52258)>Additional Effect:</Color> Increases <Color(-34022)>Kenki Gauge</Color> by 5※This action cannot be assigned to a hotbar."
@@ -8832,7 +8832,7 @@ int32,str
 8828,"Executes a weaponskill depending on current number of <Color(-154)>Sen</Color> stored in <Color(-34022)>Sen Gauge</Color>.<Color(52258)>1 Sen:</Color> <Color(-34022)>Higanbana</Color><Color(52258)>2 Sen:</Color> <Color(-34022)>Tenka Goken</Color><Color(52258)>3 Sen:</Color> <Color(-34022)>Midare Setsugekka</Color>"
 8829,"Delivers an attack with a potency of 1,000.<Color(52258)>Additional Effect:</Color> Damage over time<Color(52258)>Potency:</Color> 300<Color(52258)>Duration:</Color> 30s<Color(52258)>Additional Effect:</Color> Increases <Color(-34022)>Kenki Gauge</Color> by 50 if target is KO'd before effect expires※This action cannot be assigned to a hotbar."
 8830,"Delivers an attack to all enemies in a cone before you with a potency of 2,000 for the first enemy, 25% less for the second, 50% less for the third, and 75% less for all remaining enemies.<Color(52258)>Additional Effect:</Color> 10-yalm knockback※This action cannot be assigned to a hotbar."
-8831,"Delivers an attack with a potency of 3,000.※This action cannot be assigned to a hotbar."
+8831,"Delivers an attack with a potency of 3,500.※This action cannot be assigned to a hotbar."
 8832,"Delivers an attack with a potency of 1,500.<Color(52258)>Kenki Gauge Cost:</Color> 20"
 8833,"Execute a combo without meeting combo prerequisites.<Color(52258)>Duration: </Color>5s"
 8834,"Delivers an attack with a potency of 500.<Color(52258)>Minuet/Paeon Additional Effect:</Color> Grants <Color(-154)>Repertoire</Color> if used on target suffering from a <Color(-154)>Caustic Bite</Color> effect inflicted by you※This action cannot be assigned to a hotbar."
@@ -8922,10 +8922,10 @@ int32,str
 8918,"Generate an aetheric bond with target party member. Each time you cast a single-target healing spell on yourself or a party member, the party member with whom you have the bond will also recover HP equaling 25% of the original spell. Effect ends upon executing action on a different target."
 8919,""
 8920,"Draw a card (arcanum) from your divining deck. Execute command again to use the arcanum drawn. Only one arcanum can be drawn at a time.<Color(52258)>Duration:</Color> 30s<Color(52258)>Additional Effect:</Color> Restores 1,000 MPRecast timer cooldown will begin once the drawn arcanum is read, or the <Color(-154)>Draw</Color> timer expires."
-8921,"Increases damage dealt by a party member or self by 10%.<Color(52258)>Duration:</Color> 30s※This action cannot be assigned to a hotbar."
-8922,"Reduces damage taken by a party member or self by 10%.<Color(52258)>Duration:</Color> 30s※This action cannot be assigned to a hotbar."
-8923,"Gradually restores MP of self or target party member.<Color(52258)>Potency:</Color> 200<Color(52258)>Duration:</Color> 30s※This action cannot be assigned to a hotbar."
-8924,"Gradually restores TP of self or target party member.<Color(52258)>Potency:</Color> 50<Color(52258)>Duration:</Color> 30s※This action cannot be assigned to a hotbar."
+8921,"Increases damage dealt by a party member or self by 10%.<Color(52258)>Duration:</Color> 15s※This action cannot be assigned to a hotbar."
+8922,"Reduces damage taken by a party member or self by 10%.<Color(52258)>Duration:</Color> 15s※This action cannot be assigned to a hotbar."
+8923,"Gradually restores MP of self or target party member.<Color(52258)>Potency:</Color> 400<Color(52258)>Duration:</Color> 15s※This action cannot be assigned to a hotbar."
+8924,"Gradually restores TP of self or target party member.<Color(52258)>Potency:</Color> 100<Color(52258)>Duration:</Color> 15s※This action cannot be assigned to a hotbar."
 8925,"Movement speed is increased.<Color(52258)>Duration:</Color> 10s"
 8926,""
 8927,""
@@ -12258,7 +12258,7 @@ int32,str
 12254,""
 12255,""
 12256,""
-12257,""
+12257,"Fires an explosive projectile at the designated area."
 12258,""
 12259,""
 12260,""
@@ -13022,3 +13022,283 @@ int32,str
 13018,""
 13019,""
 13020,""
+13021,""
+13022,""
+13023,""
+13024,""
+13025,""
+13026,""
+13027,""
+13028,""
+13029,""
+13030,""
+13031,""
+13032,""
+13033,""
+13034,""
+13035,""
+13036,""
+13037,""
+13038,""
+13039,""
+13040,""
+13041,""
+13042,""
+13043,""
+13044,""
+13045,""
+13046,""
+13047,""
+13048,""
+13049,""
+13050,""
+13051,""
+13052,""
+13053,""
+13054,""
+13055,""
+13056,""
+13057,""
+13058,""
+13059,""
+13060,""
+13061,""
+13062,""
+13063,""
+13064,""
+13065,""
+13066,""
+13067,""
+13068,""
+13069,""
+13070,""
+13071,""
+13072,""
+13073,""
+13074,""
+13075,""
+13076,""
+13077,""
+13078,""
+13079,""
+13080,""
+13081,""
+13082,""
+13083,""
+13084,""
+13085,""
+13086,""
+13087,""
+13088,""
+13089,""
+13090,""
+13091,""
+13092,""
+13093,""
+13094,""
+13095,""
+13096,""
+13097,""
+13098,""
+13099,""
+13100,""
+13101,""
+13102,""
+13103,""
+13104,""
+13105,""
+13106,""
+13107,""
+13108,""
+13109,""
+13110,""
+13111,""
+13112,""
+13113,""
+13114,""
+13115,""
+13116,""
+13117,""
+13118,""
+13119,""
+13120,""
+13121,""
+13122,""
+13123,""
+13124,""
+13125,""
+13126,""
+13127,""
+13128,""
+13129,""
+13130,""
+13131,""
+13132,""
+13133,""
+13134,""
+13135,""
+13136,""
+13137,""
+13138,""
+13139,""
+13140,""
+13141,""
+13142,""
+13143,""
+13144,""
+13145,""
+13146,""
+13147,""
+13148,""
+13149,""
+13150,""
+13151,""
+13152,""
+13153,""
+13154,""
+13155,""
+13156,""
+13157,""
+13158,""
+13159,""
+13160,""
+13161,""
+13162,""
+13163,""
+13164,""
+13165,""
+13166,""
+13167,""
+13168,""
+13169,""
+13170,""
+13171,""
+13172,""
+13173,""
+13174,""
+13175,""
+13176,""
+13177,""
+13178,""
+13179,""
+13180,""
+13181,""
+13182,""
+13183,""
+13184,""
+13185,""
+13186,""
+13187,""
+13188,""
+13189,""
+13190,""
+13191,""
+13192,""
+13193,""
+13194,""
+13195,""
+13196,""
+13197,""
+13198,""
+13199,""
+13200,""
+13201,""
+13202,""
+13203,""
+13204,""
+13205,""
+13206,""
+13207,""
+13208,""
+13209,""
+13210,""
+13211,""
+13212,""
+13213,""
+13214,""
+13215,""
+13216,""
+13217,""
+13218,""
+13219,""
+13220,""
+13221,""
+13222,""
+13223,""
+13224,""
+13225,""
+13226,""
+13227,""
+13228,""
+13229,""
+13230,""
+13231,""
+13232,""
+13233,""
+13234,""
+13235,""
+13236,""
+13237,""
+13238,""
+13239,""
+13240,""
+13241,""
+13242,""
+13243,""
+13244,""
+13245,""
+13246,""
+13247,""
+13248,""
+13249,""
+13250,""
+13251,""
+13252,""
+13253,""
+13254,""
+13255,""
+13256,""
+13257,""
+13258,""
+13259,""
+13260,""
+13261,""
+13262,""
+13263,""
+13264,""
+13265,""
+13266,""
+13267,""
+13268,""
+13269,""
+13270,""
+13271,""
+13272,""
+13273,""
+13274,""
+13275,""
+13276,""
+13277,""
+13278,""
+13279,""
+13280,""
+13281,""
+13282,""
+13283,""
+13284,""
+13285,""
+13286,""
+13287,""
+13288,""
+13289,""
+13290,""
+13291,""
+13292,""
+13293,""
+13294,""
+13295,""
+13296,""
+13297,""
+13298,""
+13299,""
+13300,""

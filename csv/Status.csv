@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
-#,Name,Description,Icon,MaxStacks,Category,HitEffect,VFX,LockMovement,,LockActions,LockControl,Transfiguration,,CanDispel,,IsPermanent,,InflictedByActor,,,,IsFcBuff,Invisibility,,,
+#,Name,Description,Icon,MaxStacks,Category,HitEffect,VFX,LockMovement,,LockActions,LockControl,Transfiguration,,CanDispel,InflictedByActor,IsPermanent,,,,,,IsFcBuff,Invisibility,,,
 int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04,bit&08,bit&10,bit&20,bit&40,bit&80,bit&01,byte,bit&02,byte,bit&04,uint16,bit&08,bit&10,byte,byte,bit&20
 0,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1,"Petrification","Stone-like rigidity is preventing the execution of actions.",15001,0,2,6,1,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,True
@@ -1301,7 +1301,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1297,"Embolden","Physical damage dealt is increased.",18941,5,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1298,"Jinpu","Damage dealt is increased.",13301,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1299,"Shifu","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced.",13302,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1300,"Cover","Protecting a party member.",12501,0,1,16,0,False,False,False,False,False,False,False,True,True,50,False,0,True,0,False,False,0,0,False
+1300,"Cover","Protecting a party member. Damage taken is increased.",12501,0,1,16,0,False,False,False,False,False,False,False,True,True,50,False,0,True,0,False,False,0,0,False
 1301,"Covered","Under the protection of a party member.",12502,0,1,16,0,False,False,False,False,False,False,False,True,True,50,False,0,True,0,False,False,0,0,False
 1302,"Hallowed Ground","Impervious to most attacks.",12504,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,12,False
 1303,"Inner Release","All stun, sleep, bind, heavy, silence, and knockback effects are nullified.",12556,0,1,16,29,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -1497,7 +1497,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1493,"Virus","A virus is loaded.",15841,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1494,"Face in the Crowd","Participating in a live performance.",15853,0,1,16,0,False,False,False,False,True,False,False,False,False,100,False,2,False,0,False,False,0,9,False
 1495,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1496,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1496,"Vanished","Invisible to enemies and traps.",16706,0,1,16,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,True,0,2,False
 1497,"Fetters","Unable to execute actions.",15545,0,2,17,71,True,False,True,True,False,False,False,True,False,100,False,4,False,0,False,False,0,0,False
 1498,"Shocked","Experiencing periodic immobility while bleeding HP over time.",15852,0,2,28,0,False,False,False,False,False,False,False,False,False,100,False,0,True,0,False,False,0,0,False
 1499,"Heavy Medal","The weight of medals collected is hampering faculty to fend off attacks. The higher the stack, the more damage taken.",18681,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
@@ -1526,15 +1526,15 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1522,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1523,"Haste+","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced. Effect cannot be nullified.",17381,4,1,16,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
 1524,"Blind","Encroaching darkness is lowering accuracy.",15012,0,2,10,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
-1525,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1526,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1527,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1528,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1529,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1530,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1525,"Thermal Low","The wind is high.",17241,3,2,17,0,False,False,False,False,False,False,False,True,True,199,False,0,False,0,False,False,0,0,False
+1526,"Thermal High","The wind has died. Resistance to wind damage is increased.",15030,0,1,16,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
+1527,"Accursed Flame","Sustaining fire damage over time.",15866,0,2,17,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
+1528,"Aetherially Charged","Charged with aether.",19241,3,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,True,0,False,False,0,0,False
+1529,"Woken","Overcharged with aether.",15863,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,2,True,0,False,False,0,9,False
+1530,"Beyond Limits","Hypercharged with aether.",15864,0,1,16,0,False,False,False,False,False,False,False,True,True,150,False,0,True,0,False,False,0,0,False
 1531,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1532,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1533,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1532,"Viscous Aetheroplasm","Aetheroplasm is attached to your body. A stack of 5 will result in instant death.",15867,0,2,17,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
+1533,"Airbound","Unable to move.",15865,0,2,17,0,True,False,True,True,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
 1534,"Roleplaying","Experiencing what it is to be someone else.",15844,0,1,16,0,False,False,False,False,False,False,False,True,True,100,False,2,True,0,False,False,0,9,False
 1535,"Full Moon","Unleashing the power of the full moon.",15878,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
 1536,"New Moon","Unleashing the power of the new moon.",15879,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
@@ -1545,12 +1545,12 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1541,"Veil of Light","Light shields you from the new moon's influence.",15882,0,1,16,0,False,False,False,False,False,False,False,True,True,199,False,0,False,0,False,False,0,0,False
 1542,"Haunt","Memory is taking corporeal form.",15883,0,1,16,68,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1543,"Haunt","Memory is taking corporeal form.",15883,0,1,16,69,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1544,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1545,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1546,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1544,"Damage Up","Damage dealt is increased.",17061,2,1,16,0,False,False,False,False,False,False,False,True,True,2,False,0,False,0,False,False,0,0,False
+1545,"Vulnerability Down","Damage taken is reduced.",17301,2,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
+1546,"Odder","Transformed into an otter and unable to execute actions.",16707,0,2,17,0,False,False,False,False,True,False,False,False,False,100,False,2,False,0,False,False,0,9,False
 1547,"True Self","Maximum HP, damage dealt, and HP recovered via healing magic are increased.",15869,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1548,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1549,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1548,"Sprint","Movement speed is increased.",10101,0,1,0,0,False,False,False,False,False,False,False,True,True,1,False,0,True,0,False,False,0,6,False
+1549,"Unmagicked","Unable to use magicite.",16708,0,2,17,0,False,False,False,False,False,False,False,True,True,50,False,0,False,0,False,False,0,0,False
 1550,"Magnetic Lysis +","Body is exhibiting a positive magnetic charge.",15854,0,2,17,60,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1551,"Magnetic Lysis -","Body is exhibiting a negative magnetic charge.",15855,0,2,17,61,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1552,"Magnetic Levitation","Suspended in midair.",15066,0,2,17,73,False,False,False,False,False,False,False,False,False,1,False,12,False,0,False,False,0,0,False
@@ -1568,7 +1568,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1564,"Annihilation Mode","Annihilation protocol is loaded.",15877,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1565,"Computation Boost","Damage dealt is increased.",19301,6,1,16,0,False,False,False,False,False,False,False,True,True,100,False,0,False,0,False,False,0,0,False
 1566,"Computation Error","Damage taken is increased.",19321,6,2,17,0,False,False,False,False,False,False,False,True,True,50,False,0,False,0,False,False,0,0,False
-1567,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1567,"Primal Rage","Invulnerable to all damage.",16709,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1568,"Slow+","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased. Effect cannot be nullified.",17361,16,2,13,0,False,False,False,False,False,False,False,True,True,100,False,0,False,0,False,False,0,0,False
 1569,"Auspicious","Temporarily granted the power of an auspice.",15868,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
 1570,"Invincibility","Invulnerable to all damage.",15024,0,1,16,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,12,False
@@ -1577,28 +1577,28 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1573,"Grudge","Damage taken is turning to resentment.",15044,0,2,17,35,False,False,False,False,False,False,False,True,False,200,False,0,False,0,False,False,0,0,False
 1574,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1575,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1576,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1576,"石化の呪い","石化した状態。攻撃を受けると戦闘不能になる。",15586,0,2,6,1,True,False,True,False,False,True,False,False,False,100,False,0,False,0,False,False,0,21,False
 1577,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1578,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1578,"Searing Wind","Ignited by white-hot embers and scorching those nearby. Sustaining fire damage over time.",15560,0,2,17,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
 1579,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1580,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1581,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1582,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1583,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1584,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1585,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1586,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1584,"Komainu's Favor","Damage dealt is increased.",16710,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
+1585,"Inugami's Favor","Damage taken is decreased.",16711,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
+1586,"Senri's Favor","Regenerating HP over time.",16712,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 1587,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1588,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1589,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1590,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1591,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1590,"Light in the Dark","Absorbing the light of a deepvoid torch and transforming it into mana.",15100,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
+1591,"Woken","Overcharged with aether.",15863,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
 1592,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1593,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1594,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1595,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1596,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1597,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1597,"Vulnerability Up","Damage taken is increased.",17101,16,2,17,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
 1598,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1599,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1600,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False

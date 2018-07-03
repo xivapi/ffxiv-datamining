@@ -1,5 +1,5 @@
 {
-  "version": "2018.05.31.0000.0000",
+  "version": "2018.05.26.0000.0000",
   "sheets": [
     {
       "sheet": "Achievement",
@@ -1122,20 +1122,7 @@
           "type": "repeat",
           "count": 16,
           "definition": {
-            "name": "Data",
-            "converter": {
-              "type": "multiref",
-              "targets": [
-                "InstanceContentGuide",
-                "Story",
-                "Opening",
-                "CustomTalk",
-                "DefaultTalk",
-                "GilShop",
-                "Warp",
-                "Quest"
-              ]
-            }
+            "name": "MULTIREF"
           }
         }
       ]
@@ -3007,10 +2994,6 @@
         {
           "index": 18,
           "name": "ItemLevel{Sync}"
-        },
-        {
-          "index": 26,
-          "name": "HighEndDuty"
         },
         {
           "index": 32,
@@ -5985,46 +5968,6 @@
       ]
     },
     {
-      "sheet": "GoldSaucerArcadeMachine",
-      "definitions": [
-        {
-          "index": 6,
-          "name": "Fail Image",
-          "converter": {
-            "type": "icon"
-          }
-        },
-        {
-          "index": 35,
-          "name": "Poor",
-          "converter": {
-            "type": "icon"
-          }
-        },
-        {
-          "index": 36,
-          "name": "Good",
-          "converter": {
-            "type": "icon"
-          }
-        },
-        {
-          "index": 37,
-          "name": "Great",
-          "converter": {
-            "type": "icon"
-          }
-        },
-        {
-          "index": 38,
-          "name": "Excellent",
-          "converter": {
-            "type": "icon"
-          }
-        }
-      ]
-    },
-    {
       "sheet": "GoldSaucerTextData",
       "defaultColumn": "Text",
       "definitions": [
@@ -6501,53 +6444,6 @@
         {
           "index": 7,
           "name": "DestroyOnRemoval"
-        }
-      ]
-    },
-    {
-      "sheet": "HowTo",
-      "definitions": [
-        {
-          "index": 2,
-          "type": "repeat",
-          "count": 10,
-          "definition": {
-            "name": "Images",
-            "converter": {
-              "type": "link",
-              "target": "HowToPage"
-            }
-          }
-        },
-        {
-          "index": 12,
-          "name": "Category",
-          "converter": {
-            "type": "link",
-            "target": "HowToCategory"
-          }
-        }
-      ]
-    },
-    {
-      "sheet": "HowToCategory",
-      "defaultColumn": "Category",
-      "definitions": [
-        {
-          "name": "Category"
-        }
-      ]
-    },
-    {
-      "sheet": "HowToPage",
-      "defaultColumn": "Image",
-      "definitions": [
-        {
-          "index": 2,
-          "name": "Image",
-          "converter": {
-            "type": "icon"
-          }
         }
       ]
     },
@@ -7438,47 +7334,7 @@
         },
         {
           "index": 6,
-          "name": "Object",
-          "converter": {
-            "type": "complexlink",
-            "links": [
-              {
-                "sheet": "ENpcBase",
-                "when": {
-                  "key": "Type",
-                  "value": 8
-                }
-              },
-              {
-                "sheet": "BNpcBase",
-                "when": {
-                  "key": "Type",
-                  "value": 9
-                }
-              },
-              {
-                "sheet": "Aetheryte",
-                "when": {
-                  "key": "Type",
-                  "value": 12
-                }
-              },
-              {
-                "sheet": "GatheringPoint",
-                "when": {
-                  "key": "Type",
-                  "value": 14
-                }
-              },
-              {
-                "sheet": "EObj",
-                "when": {
-                  "key": "Type",
-                  "value": 45
-                }
-              }
-            ]
-          }
+          "name": "ObjectKey"
         },
         {
           "index": 7,
@@ -7490,16 +7346,7 @@
         },
         {
           "index": 8,
-          "name": "EventId",
-          "converter": {
-            "type": "multiref",
-            "targets": [
-              "TripleTriad",
-              "Adventure",
-              "Opening",
-              "Quest"
-            ]
-          }
+          "name": "EventId"
         },
         {
           "index": 9,
@@ -7651,31 +7498,6 @@
       ]
     },
     {
-      "sheet": "LotteryExchangeShop",
-      "definitions": [
-        {
-          "index": 1,
-          "type": "repeat",
-          "count": 16,
-          "definition": {
-            "name": "ItemAccepted",
-            "converter": {
-              "type": "link",
-              "target": "Item"
-            }
-          }
-        },
-        {
-          "index": 17,
-          "type": "repeat",
-          "count": 16,
-          "definition": {
-            "name": "AmountAccepted"
-          }
-        }
-      ]
-    },
-    {
       "sheet": "MacroIcon",
       "defaultColumn": "Icon",
       "definitions": [
@@ -7740,34 +7562,6 @@
         {
           "index": 1,
           "name": "Name"
-        }
-      ]
-    },
-    {
-      "sheet": "ManeuversArmor",
-      "definitions": [
-        {
-          "index": 1,
-          "type": "repeat",
-          "count": 2,
-          "definition": {
-            "name": "BNpcBase",
-            "converter": {
-              "type": "link",
-              "target": "BNpcName"
-            }
-          }
-        },
-        {
-          "index": 5,
-          "type": "repeat",
-          "count": 5,
-          "definition": {
-            "name": "Icon",
-            "converter": {
-              "type": "icon"
-            }
-          }
         }
       ]
     },
@@ -8313,14 +8107,6 @@
           "converter": {
             "type": "icon"
           }
-        },
-        {
-          "index": 37,
-          "name": "MountAction",
-          "converter": {
-            "type": "link",
-            "target": "MountAction"
-          }
         }
       ]
     },
@@ -8634,6 +8420,14 @@
       "definitions": [
         {
           "name": "Name"
+        },
+        {
+          "index": 1,
+          "name": "Quest",
+          "converter": {
+            "type": "link",
+            "target": "Quest"
+          }
         }
       ]
     },
@@ -8719,19 +8513,6 @@
       ]
     },
     {
-      "sheet": "PartyContentCutscene",
-      "defaultColumn": "Name",
-      "definitions": [
-        {
-          "name": "Cutscene",
-          "converter": {
-            "type": "link",
-            "target": "Cutscene"
-          }
-        }
-      ]
-    },
-    {
       "sheet": "Perform",
       "defaultColumn": "Name",
       "definitions": [
@@ -8800,6 +8581,19 @@
           "converter": {
             "type": "link",
             "target": "PerformTransient"
+          }
+        }
+      ]
+    },
+    {
+      "sheet": "PartyContentCutscene",
+      "defaultColumn": "Name",
+      "definitions": [
+        {
+          "name": "Cutscene",
+          "converter": {
+            "type": "link",
+            "target": "Cutscene"
           }
         }
       ]
@@ -8987,23 +8781,6 @@
       ]
     },
     {
-      "sheet": "PvPActionSort",
-      "defaultColumn": "Name",
-      "definitions": [
-        {
-          "name": "Name"
-        },
-        {
-          "index": 1,
-          "name": "Action",
-          "converter": {
-            "type": "link",
-            "target": "Action"
-          }
-        }
-      ]
-    },
-    {
       "sheet": "PvPRank",
       "definitions": [
         {
@@ -9054,6 +8831,23 @@
           "converter": {
             "type": "link",
             "target": "Trait"
+          }
+        }
+      ]
+    },
+    {
+      "sheet": "PvPActionSort",
+      "defaultColumn": "Name",
+      "definitions": [
+        {
+          "name": "Name"
+        },
+        {
+          "index": 1,
+          "name": "Action",
+          "converter": {
+            "type": "link",
+            "target": "Action"
           }
         }
       ]
@@ -12413,6 +12207,22 @@
       "definitions": [
         {
           "name": "Description"
+        }
+      ]
+    },
+    {
+      "sheet": "WeeklyLotBonus",
+      "definitions": [
+        {
+          "type": "repeat",
+          "count": 31,
+          "definition": {
+            "name": "WeeklyLotBonusThreshold",
+            "converter": {
+              "type": "link",
+              "target": "WeeklyLotBonusThreshold"
+            }
+          }
         }
       ]
     },

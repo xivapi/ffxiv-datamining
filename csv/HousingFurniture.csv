@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13
-#,ModelKey,HousingItemCategory,UsageType,UsageParameter,HousingLayoutLimit,Event,Item,DestroyOnRemoval,,,,,,
-int32,uint16,HousingItemCategory,byte,uint32,HousingLayoutLimit,byte,Item,uint32,bit&01,bit&02,byte,byte,byte,bit&04
+#,ModelKey,HousingItemCategory,UsageType,UsageParameter,HousingLayoutLimit,CustomTalk,Event,Item,DestroyOnRemoval,Tooltip,,,,
+int32,uint16,HousingItemCategory,byte,uint32,HousingLayoutLimit,CustomTalk,uint32,Item,bit&01,HousingPlacement,byte,byte,byte,bit&04
 196608,0,0,0,0,0,0,0,0,False,False,0,0,0,False
 196609,1,13,0,0,0,0,0,6601,False,False,0,0,0,False
 196610,2,13,0,0,0,0,0,6602,False,False,0,0,0,False
@@ -617,9 +617,13 @@ int32,uint16,HousingItemCategory,byte,uint32,HousingLayoutLimit,byte,Item,uint32
 197261,625,14,0,0,0,0,0,21834,False,False,0,0,0,False
 197262,626,15,0,0,0,0,0,21835,False,False,0,0,0,False
 197263,627,15,0,0,0,0,0,21836,False,False,0,0,0,False
+197264,628,13,0,0,0,0,0,22538,False,False,0,0,0,False
+197266,630,12,0,0,0,0,0,22539,False,False,0,0,0,False
 197268,632,14,0,0,0,0,0,21838,False,False,5,0,0,False
 197269,633,12,0,0,0,0,0,21839,False,False,0,0,0,False
 197270,634,14,0,0,0,0,0,21840,False,False,5,0,0,False
+197271,635,12,0,0,0,0,0,22540,False,False,0,0,0,False
+197272,636,15,0,0,0,0,0,22541,False,False,0,0,0,False
 197281,645,14,16,1,63,1,721249,21841,False,False,0,6,13,False
 197282,646,14,16,2,63,2,721249,21842,False,False,0,6,13,False
 197283,647,12,0,0,0,0,721374,22521,False,False,5,0,0,False
@@ -674,6 +678,8 @@ int32,uint16,HousingItemCategory,byte,uint32,HousingLayoutLimit,byte,Item,uint32
 197348,243,12,3,20,21,0,0,21862,False,False,5,16,9,False
 197349,448,14,12,1,0,0,721232,21871,False,False,3,0,0,False
 197350,490,15,0,0,0,0,0,21872,False,False,3,0,0,False
+197356,692,14,0,0,0,0,0,22565,False,False,5,0,0,False
+197357,693,14,0,0,0,0,721037,22566,False,False,5,0,0,False
 197358,694,14,7,39,0,0,721109,22567,True,False,8,4,0,False
 197359,695,14,0,0,0,0,721037,22568,False,False,0,0,0,False
 197361,697,14,0,0,0,0,0,22576,False,False,5,0,0,False
@@ -690,6 +696,6 @@ int32,uint16,HousingItemCategory,byte,uint32,HousingLayoutLimit,byte,Item,uint32
 197378,243,12,3,23,21,0,0,22587,False,False,5,2,9,False
 197379,243,12,3,24,21,0,0,22588,False,False,5,2,9,False
 197380,243,12,3,25,21,0,0,23230,False,False,0,2,9,False
-197382,528,15,0,0,0,0,0,23339,False,False,5,0,0,False
+197382,528,15,0,0,0,0,0,23339,False,False,3,0,0,False
 197383,529,14,7,30,0,0,721109,23340,True,False,7,4,11,False
-197384,516,12,0,0,0,0,0,23341,False,False,5,0,0,False
+197384,516,12,0,0,0,0,0,23341,False,False,3,0,0,False
