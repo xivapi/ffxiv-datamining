@@ -1,3 +1,0 @@
-# Welcome
-
-FFXIV Datamining Research
