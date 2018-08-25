@@ -27,32 +27,29 @@ This is quite easy if you setup some software. I use: https://www.telerik.com/fi
 
 Once you have a proxy to fiddler, go to filters and add the url `companion-eu.finalfantasyxiv.com`, change `-eu` to your data center, or remove it completely to see login/auth queries. If you use the app from here you can begin to see the different endpoints and how they work.
 
-Once you have a valid token, you can provide it to any endpoint and everything will work. The following script in PHP requires you to install guzzle and uuid libraries: `composer req guzzlehttp/guzzle ramsey/uuid`
+Once you have a valid token, you can provide it to any endpoint and everything will work. The following script in PHP requires you to install guzzle `composer req guzzlehttp/guzzle` (you could just use curl internally if you prefer)
 
 **Some header info:**
 - `token` - Your token from the app, find via Fiddler
-- `request-id` - A UUID that will be used to create a request and then later request the response for the that UUID.
+- `request-id` - Any kind of string can be here, the app uses UUID however it can be anything, a string, text, numbers, whatever, a poem...
+> **Important** if you make the `request-id` unique PER REQUEST you will have a huge delay, around 2 seconds per call, if you use the same string for each request, you will get responses instantly from the API (often first query). It is more beneficial to hard code your request id, but this is not intentional by SE i believe, this is not what the app does...
 - `Content-Type` - `application/json;charset=utf-8`
 - `Accept` - `*/*'`
 - `domain-type` - `global`
 - `User-Agent` - `ffxivcomapp-e/1.0.0.5 CFNetwork/902.2 Darwin/17.7.0`
 
 **PHP code to query the API**
-- It should be fairly easy to convert this to node, all you need is the ability to create a UUID (i do wonder if any kind of request-id would work, eg sha1(random()) or current unix time lol), and your token and you're good to go.
 
 ```php
 <?php
 require __DIR__ .'/vendor/autoload.php';
 use GuzzleHttp\Client;
-use Ramsey\Uuid\Uuid;
 
 $headers = [
     // Your token, you would need to watch your traffic (eg I use Fiddler)
     // for this or use: https://github.com/Minoost/libpompom-sharp
     'token'             => '<put your token here>',
-    
-    // random uuid but has to be the same for all concurrent requests as SE don't allow long executions
-    'request-id'        => Uuid::uuid4()->toString(),
+    'request-id'        => "lol whatever you want here",
     
     // other random blab
     'Content-Type'      => 'application/json;charset=utf-8',
@@ -112,7 +109,7 @@ foreach (range(0, 15) as $i) {
 
 To run this code:
 - Update the `token`
-- install dependencies using composer: `composer req guzzlehttp/guzzle ramsey/uuid`
+- install dependencies using composer: `composer req guzzlehttp/guzzle`
 - Copy the code to a file, eg: `companion.php`
 - Call: `php companion.php`
   - the variable `$data` will be json, you could do `json_decode($data, true)` to get the response as an array of data.
