@@ -97,16 +97,15 @@ foreach (range(0, 15) as $i) {
     ]);
     
     if ($response->getStatusCode() == 200) {
-		// this is the API JSON data
+	// this is the API JSON data
         $data = (string)$response->getBody();
 		
-		// this is the json response from the server, do something with it.
-		print_r($data);
-
+	// this is the json response from the server, do something with it.
+	print_r($data);
         break;
     }
     
-	// delay for 250 milliseconds
+    // delay for 250 milliseconds
     usleep(250000);
 }
 ```
