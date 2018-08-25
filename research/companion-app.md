@@ -111,6 +111,13 @@ foreach (range(0, 15) as $i) {
 }
 ```
 
+To run this code:
+- Update the `token`
+- install dependencies using composer: `composer req guzzlehttp/guzzle ramsey/uuid`
+- Copy the code to a file, eg: `companion.php`
+- Call: `php companion.php`
+  - the variable `$data` will be json, you could do `json_decode($data, true)` to get the response as an array of data.
+
 ### Market Response info
 - `stack` Quantity for sale
 - `catalogId` ItemID you see in the game files
