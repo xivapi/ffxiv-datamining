@@ -1,11 +1,11 @@
 # FFXIV Companion App
 - https://eu.finalfantasyxiv.com/companion/
 
-The FINAL FANTASY XIV companion app has the ability to query the game servers for a specific resource to pull information. This document will list research and provide logic for obtaining data out of the app as well as quering the companion API.
+The FINAL FANTASY XIV companion app has the ability to query the game servers for a specific resource to pull information (market info, retainer items, player items, chat messages, etc). This document will list research and provide logic for obtaining data out of the app as well as quering the companion API.
 
 What we know:
 
-- The Companion App queryes a PHP 7 server. 
+- The Companion App Queries a PHP 7 server. 
 - Queries are not performed in real-time but instead a request adds to a queue and then the servers process the request and feed the result back to the same request ID when queried again. This means you have to query several times to the same url (using the same request-id) in order to finally get a result on the nth try. This is usually around 2-3 seconds.
 - Tokens last 24 hours before being expired. Unknown if using the companion app will "increase" the duration a token however using the API does not extend the token duration.
 - You can download the APK anywhere and rename it to `.zip` to extract the contents, there are some nice icons and a very basic `sqlite` file, unfortunately this does not contain any useful info like Libra did (eg no dungeon loot tables anymore...)
