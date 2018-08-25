@@ -38,7 +38,7 @@ Once you have a valid token, you can provide it to any endpoint and everything w
 - `User-Agent` - `ffxivcomapp-e/1.0.0.5 CFNetwork/902.2 Darwin/17.7.0`
 
 **PHP code to query the API**
-- It should be fairly easy to convert this to node, all you need is the ability to create a UUID (i do wonder if any kind of token would work), and your token and you're good to go.
+- It should be fairly easy to convert this to node, all you need is the ability to create a UUID (i do wonder if any kind of request-id would work, eg sha1(random()) or current unix time lol), and your token and you're good to go.
 
 ```php
 <?php
