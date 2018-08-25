@@ -137,6 +137,7 @@ To run this code:
 - Items that are not sellable can be queried, you will get no listings however you will get lodestone ID's which can be useful (HQ Icons!)
 - There doesn't seem to be any restrictions on spam or concurrent queries, I've been able to setup 4 terminals and query every item on the market board within 2 hours. I am going to test higher concurrent queries and see if there is a rate-limit, or I get banned lol.
 - At this time if you are looking to query the market board for every server you would need to have an account per server this is due to how the app locks you into 1 character for an account, if you try to switch characters it would reset your token. You could in theory use 1 account for many servers however you could not do this in real time and due to the nature of the API taking 2-3 seconds a response, you're looking at about 8 hours to query every possible item for 1 server. I'll let someone else handle the logistics of this (*note: Not tested if a token is reset when switching character, just assuming by how its designed*)
+   - There are 66 servers, cheapest acc: $12.99 (trail accounts do not work), so looking at $858/month for 1 char per server :D
 - No known way to query Korean or Chinese market boards at this time.
 
 ### All endpoints:
