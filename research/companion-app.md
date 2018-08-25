@@ -122,7 +122,7 @@ To run this code:
 - `catalogId` ItemID you see in the game files
 - `signatureName` the person who crafted the item
 - `isCrafted` obvious
-- `hq` hq or not, (see how see don't do `isHq` consistency!)
+- `hq` hq or not, (see how SE don't do `isHq`, consistency!)
 - `stain` the stain values, can't remember how this is formatted
 - `sellPrice` obvious the gil price
 - `sellRetainerName` the name of the retainer
