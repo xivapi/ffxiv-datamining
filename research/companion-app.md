@@ -34,6 +34,7 @@ Once you have a valid token, you can provide it to any endpoint and everything w
 - `request-id` - Any kind of string can be here, the app uses UUID however it can be anything, a string, text, numbers, whatever, a poem...
 > **Important** if you make the `request-id` unique PER REQUEST you will have a huge delay, around 2 seconds per call, if you use the same string for each request, you will get responses instantly from the API (often first query). It is more beneficial to hard code your request id, but this is not intentional by SE i believe, this is not what the app does...
 - `Content-Type` - `application/json;charset=utf-8`
+> **Important update: 27th August 2018** - This "exploit" seems to have been patched, there looks to be `request-id` rate limiting, a very basic NGINX with bursting. Need more testing. The request-id can still be anything but if you use the same one you'll get rate-limited by the app.
 - `Accept` - `*/*'`
 - `domain-type` - `global`
 - `User-Agent` - `ffxivcomapp-e/1.0.0.5 CFNetwork/902.2 Darwin/17.7.0`
