@@ -29,31 +29,31 @@ Taking a small snippet:
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<72>F201FA</72><73>F201FB</73>Bio<73>01</73><72>01</72>`
 
-Currently we think 72 = foreground colour and 73 = background color for when the new "Skins" come and colours need to work on a variety of different UI themes.
+> At this time we're not sure what 73 is for.
 
-Focusing on these values, we need to remove the first byte: F2
+Focusing on these values, **we need to remove the first byte: F2**
 
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<72>01FA</72><73>01FB</73>Bio<73>01</73><72>01</72>`
 
-After that, convert the HEX values to DEC:
+**After that, convert the HEX values to DEC:**
 
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<72>506</72><73>507</73>Bio<73>01</73><72>01</72>`
 
 In Patch 4.4 a new file was added: [UIColor.csv](https://github.com/viion/ffxiv-datamining/blob/master/csv/UIColor.csv)
 
-If our guess of Foreground/Background is correct, then in `UIColor: Col 1 = Foreground and Col 2 = Background, grabbing the rows related to our decimal values and the correct column we get:
+If our guess of Foreground/Background is correct, then in `UIColor`: Col 1 = Foreground and Col 2 = Background, grabbing the rows related to our decimal values and the correct column we get:
 
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<72>4294928127</72><73>4294174719</73>Bio<73>01</73><72>01</72>`
 
-And we can convert these values from DEC to HEX:
+**And we can convert these values from DEC to HEX:**
 
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<72>FFFF66FF</72><73>FFF3E7FF</73>Bio<73>01</73><72>01</72>`
 
-The hex can contain the alpha transparency, so if the value is a 8 character hex, we only care about the first 6.
+The hex can contain the alpha transparency, so if the value is a 8 character hex, **we only care about the first 6.**
 
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<72>FFFF66</72><73>FFF3E7</73>Bio<73>01</73><72>01</72>`
@@ -73,7 +73,7 @@ Remove 73 as it doesn't seem to do much right now:
 - Before: `<span style="color:#ffff66;">Bio</span>`
 - After: `<span style="color:#FFFF66;">Bio</span>`
 
-And there we have it!
+*And there we have it!*
 
 ---
 
