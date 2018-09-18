@@ -11,7 +11,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,byte,uint32
 →Opens and closes the Duty Recorder interface.
 
 >>Subcommands:
-　<Color(-154)>[countdowntime]</Color>
+　<72>F201FA</72><73>F201FB</73>[countdowntime]<73>01</73><72>01</72>
 　　Initiate a record ready check
 　　to begin recording a duty.
 　　When all party members
@@ -46,6 +46,18 @@ USAGE:
 　/cwlinkshellcmd
 
 →Opens and closes the Cross-world Linkshell window.","/cwlinkshellcmd","/cwlcmd",0,0
+8,3,1,17,0,0,"/quickchat","/qchat","ALIASES:
+　/quickchat, /qchat
+USAGE:
+　/quickchat [quick chat message]
+
+→Sends a Quick Chat message. Can only be used during the Feast.
+
+>>Example:
+　/quickchat Charge <t>
+　(Sends the Quick Chat message
+　“Charge” using a specified
+　target.)","/quickchat","/qchat",253,0
 91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -238,8 +250,8 @@ USAGE:
 →Begin moving in the current direction you are facing.
 
 >>Subcommands:
-　<Color(-154)>on </Color>    Initiate automove.
-　<Color(-154)>off </Color>    Cancel automove.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>    Initiate automove.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Cancel automove.
 
 Toggle between on and off when no subcommand is specified.","","",36,0
 134,2,0,0,0,0,"/follow","","USAGE:
@@ -308,17 +320,17 @@ USAGE:
 →Executes various party commands. Can only be used to display the Party menu or add party members when participating in a cross-world party.
 
 >>Subcommands:
-　<Color(-154)>join</Color>
+　<72>F201FA</72><73>F201FB</73>join<73>01</73><72>01</72>
 　　Accept a party invite.
-　<Color(-154)>decline</Color>
+　<72>F201FA</72><73>F201FB</73>decline<73>01</73><72>01</72>
 　　Decline a party invite.
-　<Color(-154)>add “PC name”</Color>
+　<72>F201FA</72><73>F201FB</73>add “PC name”<73>01</73><72>01</72>
 　　Invite a PC to your party.
-　<Color(-154)>leave</Color>
+　<72>F201FA</72><73>F201FB</73>leave<73>01</73><72>01</72>
 　　Leave your current party.
-　<Color(-154)>kick “PC name”</Color>
+　<72>F201FA</72><73>F201FB</73>kick “PC name”<73>01</73><72>01</72>
 　　Oust a PC from your party.
-　<Color(-154)>breakup </Color>
+　<72>F201FA</72><73>F201FB</73>breakup <73>01</73><72>01</72>
 　　Dissolve your current party.
 
 Opens and closes the Party menu when no subcommand is specified.","","",32,0
@@ -330,15 +342,15 @@ USAGE:
 →Executes various friend list commands.
 
 >>Subcommands:
-  <Color(-154)>add “PC name”</Color>
+  <72>F201FA</72><73>F201FB</73>add “PC name”<73>01</73><72>01</72>
 　　Send a PC a friend request.
-  <Color(-154)>accept “PC name”</Color>
+  <72>F201FA</72><73>F201FB</73>accept “PC name”<73>01</73><72>01</72>
 　　Accept a friend request from
 　　a PC.
-  <Color(-154)>deny “PC name”</Color>
+  <72>F201FA</72><73>F201FB</73>deny “PC name”<73>01</73><72>01</72>
 　　Deny a friend request from a
 　　PC.
-  <Color(-154)>remove “PC name”</Color>
+  <72>F201FA</72><73>F201FB</73>remove “PC name”<73>01</73><72>01</72>
 　　Remove a PC from your
 　　friend list.
 
@@ -351,9 +363,9 @@ USAGE:
 →Executes various blacklist commands.
 
 >>Subcommands:
-　<Color(-154)>add “PC name”</Color>
+　<72>F201FA</72><73>F201FB</73>add “PC name”<73>01</73><72>01</72>
 　　Add a PC to your blacklist.
-　<Color(-154)>remove “PC name” </Color>
+　<72>F201FA</72><73>F201FB</73>remove “PC name” <73>01</73><72>01</72>
 　　Remove a PC from your
 　　blacklist.
 
@@ -367,50 +379,50 @@ USAGE:
 
 >>Conditions:
 【PC Name】
-　<Color(-154)>forename “PC name”</Color>
+　<72>F201FA</72><73>F201FB</73>forename “PC name”<73>01</73><72>01</72>
 　　Search for a specific first
 　　name.
-　<Color(-154)>surname “PC name”</Color>
+　<72>F201FA</72><73>F201FB</73>surname “PC name”<73>01</73><72>01</72>
 　　Search for a specific last
 　　name.
 【Online Status】
-　<Color(-154)>leader</Color>, <Color(-154)>away</Color>, <Color(-154)>busy</Color>, <Color(-154)>duty</Color>
-　<Color(-154)>event</Color>, <Color(-154)>lookingforparty</Color>, <Color(-154)>recruit</Color>
-　<Color(-154)>lookingtomeld</Color>, <Color(-154)>newadventurer</Color>
-　<Color(-154)>mentor</Color>, <Color(-154)>tradementor</Color>
-　<Color(-154)>pvementor</Color>, <Color(-154)>pvpmentor</Color>
-　<Color(-154)>roleplay</Color>, <Color(-154)>returner</Color>
+　<72>F201FA</72><73>F201FB</73>leader<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>away<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>busy<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>duty<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>event<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>lookingforparty<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>recruit<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>lookingtomeld<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>newadventurer<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>mentor<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>tradementor<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>pvementor<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>pvpmentor<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>roleplay<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>returner<73>01</73><72>01</72>
 【Class & Job】
-　<Color(-154)>GLA</Color>, <Color(-154)>PGL</Color>, <Color(-154)>MRD</Color>, <Color(-154)>LNC</Color>, <Color(-154)>ARC</Color>, <Color(-154)>ROG</Color>
-　<Color(-154)>CNJ</Color>, <Color(-154)>THM</Color>, <Color(-154)>ACN</Color>, <Color(-154)>CRP</Color>, <Color(-154)>BSM</Color>, <Color(-154)>ARM</Color>
-　<Color(-154)>GSM</Color>, <Color(-154)>LTW</Color>, <Color(-154)>WVR</Color>, <Color(-154)>ALC</Color>, <Color(-154)>CUL</Color>, <Color(-154)>MIN</Color>
-　<Color(-154)>BTN</Color>, <Color(-154)>FSH</Color>, <Color(-154)>PLD</Color>, <Color(-154)>MNK</Color>, <Color(-154)>WAR</Color>, <Color(-154)>DRG</Color>
-　<Color(-154)>BRD</Color>, <Color(-154)>WHM</Color>, <Color(-154)>BLM</Color>, <Color(-154)>SMN</Color>, <Color(-154)>SCH</Color>
-　<Color(-154)>NIN</Color>, <Color(-154)>DRK</Color>, <Color(-154)>MCH</Color>, <Color(-154)>AST</Color>, <Color(-154)>SAM</Color>, <Color(-154)>RDM</Color>
+　<72>F201FA</72><73>F201FB</73>GLA<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>PGL<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MRD<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>LNC<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ARC<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ROG<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>CNJ<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>THM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ACN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>CRP<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>BSM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ARM<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>GSM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>LTW<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>WVR<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ALC<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>CUL<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MIN<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>BTN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>FSH<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>PLD<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MNK<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>WAR<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>DRG<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>BRD<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>WHM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>BLM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>SMN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>SCH<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>NIN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>DRK<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MCH<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>AST<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>SAM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>RDM<73>01</73><72>01</72>
 Searches all jobs and classes if none specified.
 【Level】
-　<Color(-154)>[number]</Color>
+　<72>F201FA</72><73>F201FB</73>[number]<73>01</73><72>01</72>
 　　Search for that level only.
-　<Color(-154)>[number 1]-[number 2]</Color>
+　<72>F201FA</72><73>F201FB</73>[number 1]-[number 2]<73>01</73><72>01</72>
 　　Search for players with
 　　levels between number 1
 　　and number 2.
 Searches all levels if none are specified.
 【Grand Company】
-　<Color(-154)>“Maelstrom”</Color>
-　<Color(-154)>“Immortal Flames”</Color>
-　<Color(-154)>“Order of the Twin Adder”</Color>
+　<72>F201FA</72><73>F201FB</73>“Maelstrom”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“Immortal Flames”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“Order of the Twin Adder”<73>01</73><72>01</72>
 【Location】
-　<Color(-154)>“Limsa Lominsa”</Color>, <Color(-154)>“Gridania”</Color>
-　<Color(-154)>“Ul'dah”</Color>, <Color(-154)>“Ishgard”</Color>
-　<Color(-154)>“The Black Shroud”</Color>, <Color(-154)>“Thanalan”</Color>
-　<Color(-154)>“La Noscea”</Color>, <Color(-154)>“Mor Dhona”</Color>
-　<Color(-154)>“Coerthas”</Color>, <Color(-154)>“Dravania”</Color>
-　<Color(-154)>“Abalathia”</Color>, <Color(-154)>“Kugane”</Color>
-　<Color(-154)>“Gyr Abania”</Color>, <Color(-154)>“Othard”</Color>
+　<72>F201FA</72><73>F201FB</73>“Limsa Lominsa”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Gridania”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“Ul'dah”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Ishgard”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“The Black Shroud”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Thanalan”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“La Noscea”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Mor Dhona”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“Coerthas”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Dravania”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“Abalathia”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Kugane”<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>“Gyr Abania”<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>“Othard”<73>01</73><72>01</72>
 Searches all locations if none are specified.
 【Language】
-　<Color(-154)>JA</Color>, <Color(-154)>EN</Color>, <Color(-154)>FR</Color>, <Color(-154)>DE</Color>
+　<72>F201FA</72><73>F201FB</73>JA<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>EN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>FR<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>DE<73>01</73><72>01</72>
 Searches current language if none is specified.
 
 >>Example:
@@ -434,14 +446,14 @@ USAGE:
 →Set a sign on the specified target. Uses current target when not specified.
 
 >>Sign types:
-  <Color(-154)>attack1-5</Color>
-  <Color(-154)>bind1-3</Color>
-  <Color(-154)>ignore1-2</Color>
-  <Color(-154)>circle</Color>
-  <Color(-154)>cross</Color>
-  <Color(-154)>square</Color>
-  <Color(-154)>triangle</Color>
- <Color(-154)> off</Color>/<Color(-154)>clear</Color>      Turns off sign.
+  <72>F201FA</72><73>F201FB</73>attack1-5<73>01</73><72>01</72>
+  <72>F201FA</72><73>F201FB</73>bind1-3<73>01</73><72>01</72>
+  <72>F201FA</72><73>F201FB</73>ignore1-2<73>01</73><72>01</72>
+  <72>F201FA</72><73>F201FB</73>circle<73>01</73><72>01</72>
+  <72>F201FA</72><73>F201FB</73>cross<73>01</73><72>01</72>
+  <72>F201FA</72><73>F201FB</73>square<73>01</73><72>01</72>
+  <72>F201FA</72><73>F201FB</73>triangle<73>01</73><72>01</72>
+ <72>F201FA</72><73>F201FB</73> off<73>01</73><72>01</72>/<72>F201FA</72><73>F201FB</73>clear<73>01</73><72>01</72>      Turns off sign.
 
 Opens and closes the Signs menu when no subcommand is specified.
 
@@ -529,10 +541,11 @@ USAGE:
 →Opens and closes the HUD layout editor.
 
 >>Subcommands:
-　<Color(-154)>“layout number”</Color>
+　<72>F201FA</72><73>F201FB</73>“layout number”<73>01</73><72>01</72>
 　Switches to specified layout.
 
 Opens the HUD layout editor if no subcommand is specified.
+
 >>Example:
 　 /hudlayout 3
 　 (Switches to layout 3.)","","",32,0
@@ -576,13 +589,13 @@ USAGE:
 →Place a waymark on the ground below a target. If no target is specified, a waymark will be placed beneath your cursor.
 
 >>Subcommands:
-　<Color(-154)>a </Color> Place or remove waymark A. Overwrites existing waymark if target is specified.
-　<Color(-154)>b </Color> Place or remove waymark B. Overwrites existing waymark if target is specified.
-　<Color(-154)>c </Color> Place or remove waymark C. Overwrites existing waymark if target is specified.
-　<Color(-154)>d</Color> Place or remove waymark D. Overwrites existing waymark if target is specified.
-　<Color(-154)>1</Color> Place or remove waymark 1. Overwrites existing wayrmark if target is specified.
-　<Color(-154)>2</Color> Place or remove wayrmark 2. Overwrites existing waymark if target is specified.
- <Color(-154)> off</Color>/<Color(-154)>clear </Color> Remove all waymarks.
+　<72>F201FA</72><73>F201FB</73>a <73>01</73><72>01</72> Place or remove waymark A. Overwrites existing waymark if target is specified.
+　<72>F201FA</72><73>F201FB</73>b <73>01</73><72>01</72> Place or remove waymark B. Overwrites existing waymark if target is specified.
+　<72>F201FA</72><73>F201FB</73>c <73>01</73><72>01</72> Place or remove waymark C. Overwrites existing waymark if target is specified.
+　<72>F201FA</72><73>F201FB</73>d<73>01</73><72>01</72> Place or remove waymark D. Overwrites existing waymark if target is specified.
+　<72>F201FA</72><73>F201FB</73>1<73>01</73><72>01</72> Place or remove waymark 1. Overwrites existing wayrmark if target is specified.
+　<72>F201FA</72><73>F201FB</73>2<73>01</73><72>01</72> Place or remove wayrmark 2. Overwrites existing waymark if target is specified.
+ <72>F201FA</72><73>F201FB</73> off<73>01</73><72>01</72>/<72>F201FA</72><73>F201FB</73>clear <73>01</73><72>01</72> Remove all waymarks.
 
 Places an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
 
@@ -692,12 +705,13 @@ USAGE:
 →Opens and closes the orchestrion list.","","",32,0
 197,2,1,0,0,0,"/countdown","/cd","ALIASES:
 　/countdown, /cd
-USAGE:　/cd
+USAGE:
+　/cd [subcommand]
 
 →Opens and closes the countdown interface.
 
 >>Subcommands:
-　<Color(-154)>[countdown time]</Color>
+　<72>F201FA</72><73>F201FB</73>[countdown time]<73>01</73><72>01</72>
 　　Initiates a countdown starting
 　　at the specified time. Changes
 　　made via text commands will
@@ -707,6 +721,7 @@ USAGE:　/cd
 　　displayed in the log window.
 
 Opens the countdown interface when no subcommand is specified.
+
 >>Example:
 　/countdown 10
 　Initiates a countdown starting
@@ -735,8 +750,8 @@ USAGE:
 →Show or hide the Mark of the Twelve─a brand appearing on the back of the neck of all who survived the Calamity.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Show mark.
-　<Color(-154)>off </Color>     Hide mark.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Show mark.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>     Hide mark.
 
 Toggle between shown and hidden when no subcommand is specified.","","",60,0
 206,2,1,2,0,0,"/gcsalute","","USAGE:
@@ -745,7 +760,7 @@ Toggle between shown and hidden when no subcommand is specified.","","",60,0
 →Perform the official salute of the Grand Company to which you belong.
 
 >>Subcommands:
- 　<Color(-154)>motion</Color>    Perform motion only.
+ 　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 207,3,3,0,2,7,"/macroicon","/micon","ALIASES:
@@ -756,58 +771,62 @@ USAGE:
 →Displays the specified icon as a hotbar icon. If used twice in a single user macro, only the first instance will be recognized.
 
 >>Categories:
-　<Color(-154)>action</Color>
+　<72>F201FA</72><73>F201FB</73>action<73>01</73><72>01</72>
 　　If the icon name is an
 　　action, action recast time
 　　and required MP/TP will
 　　be displayed with the icon.
-　<Color(-154)>pvpaction</Color>
+　<72>F201FA</72><73>F201FB</73>pvpaction<73>01</73><72>01</72>
 　　If the icon name is a
 　　pvp action, action recast
 　　time and required MP/TP will
 　　be displayed with the icon.
-　<Color(-154)>general</Color>
+　<72>F201FA</72><73>F201FB</73>general<73>01</73><72>01</72>
 　　If the icon name is a
 　　general action, action
 　　recast time will be
 　　displayed with the icon.
-　<Color(-154)>emote</Color>
+　<72>F201FA</72><73>F201FB</73>emote<73>01</73><72>01</72>
 　　If the icon name is an
 　　emote, its icon will be
 　　displayed.
-　<Color(-154)>companion</Color>
+　<72>F201FA</72><73>F201FB</73>companion<73>01</73><72>01</72>
 　　If the icon name is a
 　　companion action, its icon
 　　will be displayed.
-　<Color(-154)>pet</Color>
+　<72>F201FA</72><73>F201FB</73>pet<73>01</73><72>01</72>
 　　If the icon name is a
 　　pet action, action recast
 　　time will be displayed with
 　　the icon.
-　<Color(-154)>minion</Color>
+　<72>F201FA</72><73>F201FB</73>minion<73>01</73><72>01</72>
 　　If the icon name is a
 　　minion, its icon will be
 　　displayed.
-　<Color(-154)>mount</Color>
+　<72>F201FA</72><73>F201FB</73>mount<73>01</73><72>01</72>
 　　If the icon name is a
 　　mount, its icon will be
 　　displayed.
-　<Color(-154)>enemysign</Color>
+　<72>F201FA</72><73>F201FB</73>enemysign<73>01</73><72>01</72>
 　　If the icon name is an
 　　enemy sign, its icon will
 　　be displayed.
-　<Color(-154)>waymark</Color>
+　<72>F201FA</72><73>F201FB</73>waymark<73>01</73><72>01</72>
 　　If the icon name is a
 　　waymark, its icon will
 　　be displayed.
-　<Color(-154)>gearset</Color>
+　<72>F201FA</72><73>F201FB</73>gearset<73>01</73><72>01</72>
 　　If the icon name is a
 　　gear set number, its
 　　icon will be displayed.
-　<Color(-154)>classjob</Color>
+　<72>F201FA</72><73>F201FB</73>classjob<73>01</73><72>01</72>
 　　If the icon name is a
 　　class or job, its icon
 　　will be displayed.
+　<72>F201FA</72><73>F201FB</73>quickchat<73>01</73><72>01</72>
+　　If the icon name is a
+　　Quick Chat message,
+　　its icon will be displayed.
 
 Category defaults to action when none is specified.","","",36,0
 208,2,1,3,0,0,"/recast","","USAGE:
@@ -823,14 +842,14 @@ USAGE:
 →Execute gear set functions.
 
 >>Subcommands:
-　<Color(-154)>change [number 1] [number 2] </Color>
+　<72>F201FA</72><73>F201FB</73>change [number 1] [number 2] <73>01</73><72>01</72>
 　　Equip gear in slot [number]. If glamour plates are available, a plate number can also be specified.
-　<Color(-154)>view [number] </Color>
+　<72>F201FA</72><73>F201FB</73>view [number] <73>01</73><72>01</72>
 　　List gear in slot [number].
-　<Color(-154)>save [number] </Color>
+　<72>F201FA</72><73>F201FB</73>save [number] <73>01</73><72>01</72>
 　　Save current gear to slot
 　　[number].
-　<Color(-154)>delete [number] </Color>
+　<72>F201FA</72><73>F201FB</73>delete [number] <73>01</73><72>01</72>
 　　Delete slot [number].
 
 Gear set list will be displayed when no subcommand is specified.
@@ -847,36 +866,36 @@ USAGE:
 →Sorts your inventory based on the conditions given. This command does not affect the Sort function.
 
 >>Subcommands:
-　<Color(-154)>condition [Category]
-　[Condition] [Order]</Color>
+　<72>F201FA</72><73>F201FB</73>condition [Category]
+　[Condition] [Order]<73>01</73><72>01</72>
 　　Sets the items to be sorted
 　　along with sorting order.
-　<Color(-154)>execute [Category]</Color>
+　<72>F201FA</72><73>F201FB</73>execute [Category]<73>01</73><72>01</72>
 　　Sorts the specified items
 　　based on the conditions
 　　given.
-　<Color(-154)>clear [Category]</Color>
+　<72>F201FA</72><73>F201FB</73>clear [Category]<73>01</73><72>01</72>
 　　Clears sort conditions for the
 　　specified item category.
 
 >>Categories:
-　<Color(-154)>inventory</Color>, <Color(-154)>retainer</Color>, <Color(-154)>armoury</Color>
-　<Color(-154)>mh</Color>, <Color(-154)>oh</Color>, <Color(-154)>head</Color>, <Color(-154)>body</Color>, <Color(-154)>hands</Color>
-　<Color(-154)>waist</Color>, <Color(-154)>legs</Color>, <Color(-154)>feet</Color>, <Color(-154)>neck</Color>, <Color(-154)>ears</Color>
-　<Color(-154)>wrists</Color>, <Color(-154)>rings</Color>, <Color(-154)>soul</Color>
+　<72>F201FA</72><73>F201FB</73>inventory<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>retainer<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>armoury<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>mh<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>oh<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>head<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>body<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>hands<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>waist<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>legs<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>feet<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>neck<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ears<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>wrists<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>rings<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>soul<73>01</73><72>01</72>
 
 >>Conditions:
-　<Color(-154)>id</Color>, <Color(-154)>spiritbond</Color>, <Color(-154)>category</Color>, <Color(-154)>lv</Color>, <Color(-154)>ilv</Color>
-　<Color(-154)>stack</Color>, <Color(-154)>hq</Color>, <Color(-154)>materia</Color>, <Color(-154)>pdamage</Color>
-　<Color(-154)>mdamage</Color>, <Color(-154)>delay</Color>, <Color(-154)>autoattack</Color>
-　<Color(-154)>blockrate</Color>, <Color(-154)>blockstrength</Color>
-　<Color(-154)>defense</Color>, <Color(-154)>mdefense</Color>
-　<Color(-154)>str</Color>, <Color(-154)>dex</Color>, <Color(-154)>vit</Color>, <Color(-154)>int</Color>, <Color(-154)>mnd</Color>
-　<Color(-154)>craftsmanship</Color>, <Color(-154)>control</Color>
-　<Color(-154)>gathering</Color>, <Color(-154)>perception</Color>, <Color(-154)>tab</Color>
+　<72>F201FA</72><73>F201FB</73>id<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>spiritbond<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>category<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>lv<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ilv<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>stack<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>hq<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>materia<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>pdamage<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>mdamage<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>delay<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>autoattack<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>blockrate<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>blockstrength<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>defense<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>mdefense<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>str<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>dex<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>vit<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>int<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>mnd<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>craftsmanship<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>control<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>gathering<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>perception<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>tab<73>01</73><72>01</72>
 
 >>Order:
-　<Color(-154)>asc</Color>, <Color(-154)>des</Color>
+　<72>F201FA</72><73>F201FB</73>asc<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>des<73>01</73><72>01</72>
 
  Defaults to ascending if order is not specified. Cannot be used if one of the conditions is “tab”.
 
@@ -917,11 +936,11 @@ USAGE:
 USAGE:
 　/macroerror [subcommand]
 
-→Display or hide text command errors within a user macro. Any errors are displayed upon macro execution. Setting resets to <Color(-154)>on </Color>after macro is executed.
+→Display or hide text command errors within a user macro. Any errors are displayed upon macro execution. Setting resets to <72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>after macro is executed.
 
 >>Subcommands:
-　<Color(-154)>on </Color>   Displays error message.
-　<Color(-154)>off </Color>   Hides error message.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>   Displays error message.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>   Hides error message.
 
 Toggle between on and off when no subcommand is specified.","","",36,0
 216,1,0,0,0,0,"/clearlog","/cl","ALIASES:
@@ -972,7 +991,7 @@ USAGE:
  　<CommandIcon(20)/>, W, A, S, D, Q, E
 
 　Reset frame composition
-　<Gui(16)/>, Z","","",96,0
+　<Gui(16)/>, Z","","",32,0
 220,2,0,0,0,0,"/itemsearch","/isearch","ALIASES:
 　/itemsearch, /isearch
 USAGE:
@@ -1006,7 +1025,7 @@ USAGE:
 　<CommandIcon(20)/>, W, A, S, D, Q, E
 
 　Reset frame composition
-　<Gui(16)/>, Z","","",104,0
+　<Gui(16)/>, Z","","",40,0
 222,2,1,2,0,0,"/gaussbarrel","/gbarrel","ALIASES:
 　/gaussbarrel, /gbarrel
 USAGE:
@@ -1015,8 +1034,8 @@ USAGE:
 →Changes your Gauss Barrel display settings. These settings will not apply to other players.
 
 >>Subcommands:
-　<Color(-154)>on </Color>    Display your Gauss Barrel.
-　<Color(-154)>off </Color>    Hide your Gauss Barrel.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>    Display your Gauss Barrel.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Hide your Gauss Barrel.
 
 Toggle the Gauss Barrel display settings on/off if no subcommand is specified.","","",32,0
 223,2,1,2,0,0,"/duelswitch","","USAGE:
@@ -1025,9 +1044,9 @@ Toggle the Gauss Barrel display settings on/off if no subcommand is specified.",
 →Allow or automatically deny challenges to duel from other players.
 
 >>Subcommands:
-　<Color(-154)>on </Color>
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>
 　　Automatically refuse all challenges to duel.
-　<Color(-154)>off </Color>
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>
 　　Allow players to challenge you to duel.
 
 Toggles between on and off when no subcommand is specified.","","",4,0
@@ -1037,10 +1056,11 @@ USAGE:
 　/novicenetworkinvitation [subcommand]
 
 →Allow or automatically deny invitations to the Novice Network.
+
 >>Subcommands:
-　<Color(-154)>on </Color>
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>
 　　Allow players to invite you to the Novice Network.
-　<Color(-154)>off </Color>
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>
 　　Automatically refuse invitations to the Novice Network.
 
 Toggles between on and off when no subcommand is specified.","/novicenetworkinvitation","/nnetworkinvitation",189,1000
@@ -1060,7 +1080,7 @@ USAGE:
 　Titan-Egi
 　Ifrit-Egi
 
->>Glamour
+>>Glamour:
 　Emerald Carbuncle
 　Topaz Carbuncle
 　Ruby Carbuncle
@@ -1078,9 +1098,9 @@ The glamour will be removed when no glamour is specified.
 →Change your currently selected title.
 
 >>Subcommands:
-　<Color(-154)>set “title”</Color>
+　<72>F201FA</72><73>F201FB</73>set “title”<73>01</73><72>01</72>
 　　Change your current title to “title.”
-　<Color(-154)>clear</Color>
+　<72>F201FA</72><73>F201FB</73>clear<73>01</73><72>01</72>
 　　Display no title.
 
 A random title will be set when none is specified.
@@ -1093,22 +1113,62 @@ A random title will be set when none is specified.
 →Changes your Demi-Bahamut display settings. These settings will not apply to other players.
 
 >>Subcommands:
-　<Color(-154)>large</Color>
+　<72>F201FA</72><73>F201FB</73>large<73>01</73><72>01</72>
 　　Set Demi-Bahamut size to large.
-　<Color(-154)>medium</Color>
+　<72>F201FA</72><73>F201FB</73>medium<73>01</73><72>01</72>
 　　Set Demi-Bahamut size to medium.
-　<Color(-154)>small</Color>
+　<72>F201FA</72><73>F201FB</73>small<73>01</73><72>01</72>
 　　Set Demi-Bahamut size to small.
 
 Toggles between small, medium, and large when no subcommand is specified.","","",36,0
+229,6,3,2,2,2,"/alarm","","USAGE:
+　/alarm “name” [clock type] [repeat] [time] [reminder]
+
+→Set an alarm for a specified time using local, server, or Eorzea time.
+
+>>Clock Type:
+　<72>F201FA</72><73>F201FB</73>lt<73>01</73><72>01</72>
+　　Set the alarm using local time.
+　<72>F201FA</72><73>F201FB</73>st<73>01</73><72>01</72>
+　　Set the alarm using server time.
+　<72>F201FA</72><73>F201FB</73>et<73>01</73><72>01</72>
+　　Set the alarm usin Eorzea time.
+
+>>Repeat:
+　Use “repeat” or “rp” to set an hourly alarm.
+
+>>Time:
+　Times must be set using the 24-hour clock.
+　Time values: 0000-2400
+　The hour must be omitted when using the repeat subcommand.
+
+>>Reminder:
+　A notification can be given up to 60 minutes prior to the alarm.
+　Time values: 0-60
+
+The repeat and reminder subcommands can be omitted.
+The “clear” subcommand can be used to delete all alarms.
+Opens the alarm interface when no subcommands are specified.
+
+>>Examples:
+　/alarm Raid lt 2000 10
+　(Sets the “Raid” alarm for
+　20:00 local time, with a
+　notification given 10
+　minutes prior.)
+
+　/alarm Party lt rp 30
+　(Sets the “Party” alarm as
+　an hourly alarm, 30 minutes
+　past the hour in local time.)","","",32,0
 231,2,1,2,0,0,"/busy","","USAGE:
 　/busy [subcommand]
 
 →Set your online status to Busy/Online.
 
 >>Subcommands:
-　<Color(-154)>on </Color>    Set your status to Busy.
-　<Color(-154)>off </Color>    Set your status to Online.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>    Set your status to Busy.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Set your status to Online.
 
 Toggle between Busy and Online when no subcommand is specified.","","",36,0
 232,2,1,2,0,0,"/away","/afk","ALIASES:
@@ -1119,8 +1179,8 @@ USAGE:
 →Set your online status to Away/Online.
 
 >>Subcommands:
-　<Color(-154)>on </Color>     Set your status to Away.
-　<Color(-154)>off </Color>     Set your status to Online.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>     Set your status to Away.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>     Set your status to Online.
 
 Toggle between Away and Online when no subcommand is specified.","","",36,0
 233,1,0,0,0,0,"/lookingforparty","/lfp","ALIASES:
@@ -1131,21 +1191,21 @@ USAGE:
 →Set your online status to Looking for Party/Online.
 
 >>Subcommands:
-　<Color(-154)>on </Color>
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>
 　　Set your status to Looking for
 　　Party.
-　<Color(-154)>off </Color>
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>
 　　Set your status to Online.
 
 Toggle between Looking for Party and Online when no subcommand is specified.
 
 >>Classes/Jobs:
-　<Color(-154)>GLA</Color>, <Color(-154)>PGL</Color>, <Color(-154)>MRD</Color>, <Color(-154)>LNC</Color>, <Color(-154)>ARC</Color>, <Color(-154)>ROG</Color>
-　<Color(-154)>CNJ</Color>, <Color(-154)>THM</Color>, <Color(-154)>ACN</Color>, <Color(-154)>CRP</Color>, <Color(-154)>BSM</Color>, <Color(-154)>ARM</Color>
-　<Color(-154)>GSM</Color>, <Color(-154)>LTW</Color>, <Color(-154)>WVR</Color>, <Color(-154)>ALC</Color>, <Color(-154)>CUL</Color>, <Color(-154)>MIN</Color>
-　<Color(-154)>BTN</Color>, <Color(-154)>FSH</Color>, <Color(-154)>PLD</Color>, <Color(-154)>MNK</Color>, <Color(-154)>WAR</Color>, <Color(-154)>DRG</Color>
-　<Color(-154)>BRD</Color>, <Color(-154)>WHM</Color>, <Color(-154)>BLM</Color>, <Color(-154)>SMN</Color>, <Color(-154)>SCH</Color>
-　<Color(-154)>NIN</Color>, <Color(-154)>DRK</Color>, <Color(-154)>MCH</Color>, <Color(-154)>AST</Color>, <Color(-154)>SAM</Color>, <Color(-154)>RDM</Color>
+　<72>F201FA</72><73>F201FB</73>GLA<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>PGL<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MRD<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>LNC<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ARC<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ROG<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>CNJ<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>THM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ACN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>CRP<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>BSM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ARM<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>GSM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>LTW<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>WVR<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ALC<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>CUL<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MIN<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>BTN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>FSH<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>PLD<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MNK<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>WAR<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>DRG<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>BRD<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>WHM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>BLM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>SMN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>SCH<73>01</73><72>01</72>
+　<72>F201FA</72><73>F201FB</73>NIN<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>DRK<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>MCH<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>AST<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>SAM<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>RDM<73>01</73><72>01</72>
 
 Multiple classes/jobs─or none at all─may be specified.","","",36,0
 234,2,1,2,0,0,"/lookingformeld","/lfm","ALIASES:
@@ -1156,10 +1216,10 @@ USAGE:
 →Set your online status to Looking to Meld Materia/Online.
 
 >>Subcommands:
-　<Color(-154)>on </Color>
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>
 　　Set your status to Looking to
 　　Meld Materia.
-　<Color(-154)>off </Color>
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>
 　　Set your status to Online.
 
 Toggle between Looking to Meld Materia and Online when no subcommand is specified.","/lookingtomeld","/ltm",36,0
@@ -1177,9 +1237,9 @@ USAGE:
 →Toggle the New Adventurer status on/off. 
 
 >>Subcommands:
-　<Color(-154)>on </Color>
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>
 　　Turns on New Adventurer status.
-　<Color(-154)>off </Color>
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>
 　　Turns off New Adventurer status.
 
 Toggle the New Adventurer status on/off if no subcommand is specified.","/nastatus","/nas",36,1000
@@ -1188,11 +1248,12 @@ Toggle the New Adventurer status on/off if no subcommand is specified.","/nastat
 USAGE:
 　/nnetwork [subcommand]
 
-Toggle auto-join settings for the Novice Network on and off.
+→Toggle auto-join settings for the Novice Network on and off.
+
 >>Subcommands:
-　<Color(-154)>on </Color> 
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72> 
 　　Turn on auto-join and  connect to the Novice Network.
-　<Color(-154)>off </Color> 
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72> 
 　　Turn off auto-join and leave the Novice Network.
 
 Toggle auto-join on and off if no subcommand is specified.","/novicenetwork","/nnetwork",36,1000
@@ -1206,8 +1267,8 @@ Toggle auto-join on and off if no subcommand is specified.","/novicenetwork","/n
 →Set your online status to Role-playing.
 
 >>Subcommands:
-　<Color(-154)>on </Color>    Set your status to Role-playing.
-　<Color(-154)>off </Color>    Set your status to Online.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>    Set your status to Role-playing.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Set your status to Online.
 
 Toggle between Role-playing and Online when no subcommand is specified.","","",36,0
 251,3,1,3,0,0,"/action","/ac","ALIASES:
@@ -1229,8 +1290,8 @@ USAGE:
 →Toggle between active and passive mode.
 
 >>Subcommands:
-　<Color(-154)>on </Color>    Switch to active mode.
-　<Color(-154)>off </Color>    Switch to passive mode.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>    Switch to active mode.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Switch to passive mode.
 
 Toggle between active and passive mode when no subcommand is specified.","","",36,0
 253,2,0,0,0,0,"/target","/ta","ALIASES:
@@ -1305,8 +1366,8 @@ USAGE:
 →Lock on/off current target.
 
 >>Subcommands:
-　<Color(-154)>on </Color>     Enable lock-on.
-　<Color(-154)>off </Color>    Disable lock-on.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>     Enable lock-on.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Disable lock-on.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 265,2,0,0,0,0,"/focustarget","","USAGE:
@@ -1354,8 +1415,8 @@ USAGE:
 →Sync your level when the option is available, such as during FATEs.
 
 >>Subcommands:
-　<Color(-154)>on </Color>     Start level sync.
-　<Color(-154)>off </Color>    End level sync.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>     Start level sync.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    End level sync.
 
 Toggle between on and off when no subcommand is specified.","","",36,0
 271,2,1,9,0,0,"/mount","","USAGE:
@@ -1375,9 +1436,9 @@ USAGE:
 →Set the specified action as a role action or, in the case of gatherers and crafters, additional action, for your current class.
 
 >>Subcommands:
-　<Color(-154)>on </Color>　Set role action.
-　<Color(-154)>off </Color>　Remove role action.
-　<Color(-154)>clear</Color>　Remove all role actions.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>　Set role action.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>　Remove role action.
+　<72>F201FA</72><73>F201FB</73>clear<73>01</73><72>01</72>　Remove all role actions.
 
 Toggle between on and off when no subcommand is specified.
 
@@ -1453,8 +1514,8 @@ USAGE:
 →Automatically lock on target when initiating auto-attack.
 
 >>Subcommands:
-　<Color(-154)>on </Color>   Enable auto-lock on.
-　<Color(-154)>off </Color>   Disable auto-lock on.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>   Enable auto-lock on.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>   Disable auto-lock on.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 302,2,1,2,0,0,"/autofacetarget","","USAGE: 
@@ -1463,8 +1524,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Automatically face target when using action.
 
 >>Subcommands:
-　<Color(-154)>on </Color>       Enable auto-face.
-　<Color(-154)>off </Color>       Disable auto-face.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>       Enable auto-face.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>       Disable auto-face.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 303,2,1,2,0,0,"/targetring","","USAGE:
@@ -1473,8 +1534,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Hide/display target ring.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Display target ring.
-　<Color(-154)>off </Color>      Hide target ring.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Display target ring.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Hide target ring.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 304,2,1,2,0,0,"/targetline","","USAGE:
@@ -1483,8 +1544,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Hide/display target lines.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Display target lines.
-　<Color(-154)>off </Color>      Hide target lines.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Display target lines.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Hide target lines.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 305,2,1,2,0,0,"/linkline","","USAGE:
@@ -1493,8 +1554,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Hide/display aggro lines.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Display aggro lines.
-　<Color(-154)>off </Color>      Hide aggro lines.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Display aggro lines.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Hide aggro lines.
 
 Toggle between on/off when no subcommand is specified.","/aggroline","",36,0
 306,2,1,2,0,0,"/autotarget","","USAGE:
@@ -1503,8 +1564,8 @@ Toggle between on/off when no subcommand is specified.","/aggroline","",36,0
 →Enable auto-target when no target specified.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Enable auto-target.
-　<Color(-154)>off </Color>      Disable auto-target.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Enable auto-target.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Disable auto-target.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 307,2,1,2,0,0,"/displayhead","","USAGE:
@@ -1513,8 +1574,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Hide/display headgear.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Display headgear.
-　<Color(-154)>off </Color>      Hide headgear.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Display headgear.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Hide headgear.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 308,2,1,2,0,0,"/displayarms","","USAGE:
@@ -1523,8 +1584,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Hide/display main and off hand weapons when sheathed.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Display arms.
-　<Color(-154)>off </Color>      Hide arms.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Display arms.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Hide arms.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 309,2,1,2,0,0,"/autosheathe","/ashathe","ALIASES:
@@ -1535,8 +1596,8 @@ USAGE:
 →Auto-sheathe weapon when not in battle.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Enable auto-sheathe.
-　<Color(-154)>off </Color>      Disable auto-sheathe.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Enable auto-sheathe.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Disable auto-sheathe.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 310,2,1,2,0,0,"/targetself","","USAGE:
@@ -1545,8 +1606,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Enable/disable clicking on self.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Enable clicking on self.
-　<Color(-154)>off </Color>      Disable clicking on self.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Enable clicking on self.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Disable clicking on self.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 311,2,1,2,0,0,"/groundclick","","USAGE:
@@ -1555,8 +1616,8 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Enable clicking on field to remove target.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Enable ground clicking.
-　<Color(-154)>off </Color>      Disable ground clicking.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Enable ground clicking.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Disable ground clicking.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 312,4,3,2,2,2,"/chatlog","","USAGE:
@@ -1565,58 +1626,58 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 →Configure log window settings.
 
 >>Subcommands:
-　<Color(-154)>name [number 0-3]</Color>
+　<72>F201FA</72><73>F201FB</73>name [number 0-3]<73>01</73><72>01</72>
 　　Change the way names are
 　　displayed in your log window.
-　　　<Color(-154)>0</Color> Full Name
-　　　<Color(-154)>1</Color> Last Name Initialed
-　　　<Color(-154)>2</Color> First Name Initialed
-　　　<Color(-154)>3</Color> Initials Only
-　<Color(-154)>fontsize [tab number] [number]</Color>
+　　　<72>F201FA</72><73>F201FB</73>0<73>01</73><72>01</72> Full Name
+　　　<72>F201FA</72><73>F201FB</73>1<73>01</73><72>01</72> Last Name Initialed
+　　　<72>F201FA</72><73>F201FB</73>2<73>01</73><72>01</72> First Name Initialed
+　　　<72>F201FA</72><73>F201FB</73>3<73>01</73><72>01</72> Initials Only
+　<72>F201FA</72><73>F201FB</73>fontsize [tab number] [number]<73>01</73><72>01</72>
 　　Adjust [tab number] log
 　　window font size to
 　　[number].
-　<Color(-154)>time [tab number] on</Color>
+　<72>F201FA</72><73>F201FB</73>time [tab number] on<73>01</73><72>01</72>
 　　Add time stamps to all
 　　messages on [tab number]
 　　log window.
-　<Color(-154)>time [tab number] off</Color>
+　<72>F201FA</72><73>F201FB</73>time [tab number] off<73>01</73><72>01</72>
 　　Remove time stamps from all
 　　messages on [tab number]
 　　log window.
-　<Color(-154)>time [tab number]</Color>
+　<72>F201FA</72><73>F201FB</73>time [tab number]<73>01</73><72>01</72>
 　　Toggle time stamps on/off
 　　for all messages on
 　　[tab number] log window.
-　<Color(-154)>time 12 </Color>
+　<72>F201FA</72><73>F201FB</73>time 12 <73>01</73><72>01</72>
 　　Set time display to 12-hour
 　　format.
-　<Color(-154)>time 24 </Color>
+　<72>F201FA</72><73>F201FB</73>time 24 <73>01</73><72>01</72>
 　　Set time display to 24-hour
 　　format.
-　<Color(-154)>time local </Color>
+　<72>F201FA</72><73>F201FB</73>time local <73>01</73><72>01</72>
 　　Set time stamp clock to local
 　　time.
-　<Color(-154)>time server </Color>
+　<72>F201FA</72><73>F201FB</73>time server <73>01</73><72>01</72>
 　　Set time stamp clock to server
 　　time.
-　<Color(-154)>call on </Color>
+　<72>F201FA</72><73>F201FB</73>call on <73>01</73><72>01</72>
 　　Play sound upon receiving
 　　/tell.
-　<Color(-154)>call off </Color>
+　<72>F201FA</72><73>F201FB</73>call off <73>01</73><72>01</72>
 　　Play no sound upon receiving
 　　/tell.
-　<Color(-154)>call [chat channel]</Color>
+　<72>F201FA</72><73>F201FB</73>call [chat channel]<73>01</73><72>01</72>
 　　Toggle /tell sound on/off for
 　　the specified chat channel.
-　　　<Color(-154)>t</Color> Tell
-　　　<Color(-154)>p</Color> Party
-　　　<Color(-154)>fc</Color> Free Company
-　　　<Color(-154)>al</Color> Alliance
-　　　<Color(-154)>l1-8</Color> Linkshell 1-8
-　　　<Color(-154)>new</Color> Novice Network
-　　　<Color(-154)>pvpteam</Color> PvP Team
-　　　<Color(-154)>cwl</Color> Cross-world Linkshell","","",36,0
+　　　<72>F201FA</72><73>F201FB</73>t<73>01</73><72>01</72> Tell
+　　　<72>F201FA</72><73>F201FB</73>p<73>01</73><72>01</72> Party
+　　　<72>F201FA</72><73>F201FB</73>fc<73>01</73><72>01</72> Free Company
+　　　<72>F201FA</72><73>F201FB</73>al<73>01</73><72>01</72> Alliance
+　　　<72>F201FA</72><73>F201FB</73>l1-8<73>01</73><72>01</72> Linkshell 1-8
+　　　<72>F201FA</72><73>F201FB</73>new<73>01</73><72>01</72> Novice Network
+　　　<72>F201FA</72><73>F201FB</73>pvpteam<73>01</73><72>01</72> PvP Team
+　　　<72>F201FA</72><73>F201FB</73>cwl<73>01</73><72>01</72> Cross-world Linkshell","","",36,0
 313,3,2,2,2,0,"/battleeffect","","ALIASES:
 　/battleeffect, /bfx
 USAGE:
@@ -1625,20 +1686,20 @@ USAGE:
 →Configure battle effects settings.
 
 >>Subcommands:
-　<Color(-154)>self </Color>
+　<72>F201FA</72><73>F201FB</73>self <73>01</73><72>01</72>
 　　Configure own battle effects
 　　settings.
-　<Color(-154)>party </Color>
+　<72>F201FA</72><73>F201FB</73>party <73>01</73><72>01</72>
 　　Configure party members'
 　　battle effects settings.
-　<Color(-154)>other </Color>
+　<72>F201FA</72><73>F201FB</73>other <73>01</73><72>01</72>
 　　Configure other NPCs' battle
 　　effects settings.
 
 >>Settings:
-　<Color(-154)>all </Color>           Show all effects.
-　<Color(-154)>simple </Color>   Show limited effects.
-　<Color(-154)>off </Color>          Hide all effects.
+　<72>F201FA</72><73>F201FB</73>all <73>01</73><72>01</72>           Show all effects.
+　<72>F201FA</72><73>F201FB</73>simple <73>01</73><72>01</72>   Show limited effects.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>          Hide all effects.
 
 Toggles between all and off when no setting is specified.","/battleeffect","/bfx",228,0
 314,3,2,4,2,0,"/hud","","USAGE:
@@ -1648,71 +1709,69 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 
 >>UI Elements:
 　Target Bar
-　　<Color(-154)>TargetBar</Color>, <Color(-154)>tbar</Color>
+　　<72>F201FA</72><73>F201FB</73>TargetBar<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>tbar<73>01</73><72>01</72>
 　Target Info (HP)
-　　<Color(-154)>TInfoHP</Color>, <Color(-154)>tihp</Color>
+　　<72>F201FA</72><73>F201FB</73>TInfoHP<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>tihp<73>01</73><72>01</72>
 　Target Info (Progress)
-　　<Color(-154)>TInfoProgress</Color>, <Color(-154)>tiprog</Color>
+　　<72>F201FA</72><73>F201FB</73>TInfoProgress<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>tiprog<73>01</73><72>01</72>
 　Target Info (Status)
-　　<Color(-154)>TInfoStatus</Color>, <Color(-154)>tistat</Color>
+　　<72>F201FA</72><73>F201FB</73>TInfoStatus<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>tistat<73>01</73><72>01</72>
 　Focus Target Bar
-　　<Color(-154)>FocusTarget</Color>, <Color(-154)>ftarget</Color>
+　　<72>F201FA</72><73>F201FB</73>FocusTarget<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ftarget<73>01</73><72>01</72>
 　Party List
-　　<Color(-154)>PartyList</Color>, <Color(-154)>plist</Color>
+　　<72>F201FA</72><73>F201FB</73>PartyList<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>plist<73>01</73><72>01</72>
 　Enemy List
-　　<Color(-154)>EnemyList</Color>, <Color(-154)>elist</Color>
+　　<72>F201FA</72><73>F201FB</73>EnemyList<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>elist<73>01</73><72>01</72>
 　Parameter Bar
-　　<Color(-154)>ParamBar</Color>, <Color(-154)>param</Color>
+　　<72>F201FA</72><73>F201FB</73>ParamBar<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>param<73>01</73><72>01</72>
 　Minimap
-　　<Color(-154)>Minimap</Color>, <Color(-154)>mmap</Color>
+　　<72>F201FA</72><73>F201FB</73>Minimap<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>mmap<73>01</73><72>01</72>
 　Main Menu
-　　<Color(-154)>MainMenu</Color>, <Color(-154)>mmenu</Color>
+　　<72>F201FA</72><73>F201FB</73>MainMenu<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>mmenu<73>01</73><72>01</72>
 　Server Info
-　　<Color(-154)>ServerInfo</Color>, <Color(-154)>server</Color>
+　　<72>F201FA</72><73>F201FB</73>ServerInfo<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>server<73>01</73><72>01</72>
 　Gil
-　　<Color(-154)>Gil</Color>, <Color(-154)>gil</Color>
+　　<72>F201FA</72><73>F201FB</73>Gil<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>gil<73>01</73><72>01</72>
 　Inventory Grid
-　　<Color(-154)>InventoryGrid</Color>, <Color(-154)>igrid</Color>
+　　<72>F201FA</72><73>F201FB</73>InventoryGrid<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>igrid<73>01</73><72>01</72>
 　Duty List
-　　<Color(-154)>DutyList</Color>, <Color(-154)>dlist</Color>
+　　<72>F201FA</72><73>F201FB</73>DutyList<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>dlist<73>01</73><72>01</72>
 　Item Help
-　　<Color(-154)>ItemHelp</Color>, <Color(-154)>ihelp</Color>
+　　<72>F201FA</72><73>F201FB</73>ItemHelp<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ihelp<73>01</73><72>01</72>
 　Action Help
-　　<Color(-154)>ActionHelp</Color>, <Color(-154)>ahelp</Color>
+　　<72>F201FA</72><73>F201FB</73>ActionHelp<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ahelp<73>01</73><72>01</72>
 　Limit Gauge
-　　<Color(-154)>LimitGauge</Color>, <Color(-154)>lgauge</Color>
+　　<72>F201FA</72><73>F201FB</73>LimitGauge<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>lgauge<73>01</73><72>01</72>
 　Experience Bar
-　　<Color(-154)>ExpBar</Color>, <Color(-154)>ebar</Color>
+　　<72>F201FA</72><73>F201FB</73>ExpBar<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>ebar<73>01</73><72>01</72>
 　Status Effects
-　　<Color(-154)>StatusEffects</Color>, <Color(-154)>sfx</Color>
+　　<72>F201FA</72><73>F201FB</73>StatusEffects<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>sfx<73>01</73><72>01</72>
 　Status Info (Enhancements)
-　　<Color(-154)>SInfoEnhancements</Color>, <Color(-154)>sienh</Color>
+　　<72>F201FA</72><73>F201FB</73>SInfoEnhancements<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>sienh<73>01</73><72>01</72>
 　Status Info (Enfeeblements)
-　　<Color(-154)>SInfoEnfeeblements</Color>, <Color(-154)>sienf</Color>
+　　<72>F201FA</72><73>F201FB</73>SInfoEnfeeblements<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>sienf<73>01</73><72>01</72>
 　Status Info (Other)
-　　<Color(-154)>SInfoOther</Color>, <Color(-154)>siother</Color>
+　　<72>F201FA</72><73>F201FB</73>SInfoOther<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>siother<73>01</73><72>01</72>
 　Alliance List 1
-　　<Color(-154)>AllianceList1</Color>, <Color(-154)>alist1</Color>
+　　<72>F201FA</72><73>F201FB</73>AllianceList1<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>alist1<73>01</73><72>01</72>
 　Alliance List 2
-　　<Color(-154)>AllianceList2</Color>, <Color(-154)>alist2</Color>
+　　<72>F201FA</72><73>F201FB</73>AllianceList2<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>alist2<73>01</73><72>01</72>
 　<If(Equal(PlayerParameter(75),1))><Else/>Hotbars
-　　<Color(-154)>Hotbar1...Hotbar10</Color>
+　　<72>F201FA</72><73>F201FB</73>Hotbar1...Hotbar10<73>01</73><72>01</72>
 </If>　Cross Hotbar
-　　<Color(-154)>Crosshotbar</Color>
+　　<72>F201FA</72><73>F201FB</73>Crosshotbar<73>01</73><72>01</72>
 　Scenario Guide
-　　<Color(-154)>ScenarioGuide</Color>
+　　<72>F201FA</72><73>F201FB</73>ScenarioGuide<73>01</73><72>01</72>
 　Rival Wings Alliance List
-　　<Color(-154)>RWTeam</Color>, <Color(-154)>rwt</Color>
+　　<72>F201FA</72><73>F201FB</73>RWTeam<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>rwt<73>01</73><72>01</72>
 　The Feast Ally Info
-　　<Color(-154)>FeastAlly</Color>, <Color(-154)>fally</Color>
+　　<72>F201FA</72><73>F201FB</73>FeastAlly<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>fally<73>01</73><72>01</72>
 　The Feast Enemy Info
-　　<Color(-154)>FeastEnemy</Color>, <Color(-154)>fenemy</Color>
-
-Certain UI elements are only available in specific duties.
+　　<72>F201FA</72><73>F201FB</73>FeastEnemy<73>01</73><72>01</72>, <72>F201FA</72><73>F201FB</73>fenemy<73>01</73><72>01</72>
 
 >>Subcommands:
-　<Color(-154)>on </Color>        Show element.
-　<Color(-154)>off </Color>        Hide element.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>        Show element.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>        Hide element.
 
 Toggle between on/off when no subcommand is specified.","","",32,0
 315,6,3,2,3,7,"/hotbar","","USAGE:
@@ -1721,45 +1780,45 @@ Toggle between on/off when no subcommand is specified.","","",32,0
 →Edit and configure hotbar settings. Only available in PvE areas.
 
 >>Subcommands
-　<Color(-154)>action “action name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>action “action name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified action to slot [#2] in hotbar page [#1]. If “current” is entered for [#1], then the action will be set in the page displayed in hotbar 1. If [#2] is omitted, the action will be set to the lowest-numbered slot available. If both [#1] and [#2] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered hotbar available. This applies to all of the following subcommands.
-　<Color(-154)>general “general action name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>general “general action name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified general action to slot [#2] in hotbar [#1].
-　<Color(-154)>item “item name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>item “item name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified item to slot [#2] in hotbar [#1].
-　<Color(-154)>emote “emote name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>emote “emote name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified emote to slot [#2] in hotbar [#1].
-　<Color(-154)>companion “companion action name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>companion “companion action name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified companion action to slot [#2] in hotbar [#1].
-　<Color(-154)>pet “action name” “pet name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>pet “action name” “pet name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified pet action to slot [#2] in hotbar [#1].
-　<Color(-154)>minion “minion name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>minion “minion name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified minion to slot [#2] in hotbar [#1].
-　<Color(-154)>mount “mount name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>mount “mount name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified mount to slot [#2] in hotbar [#1].
-　<Color(-154)>enemysign “enemy sign name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>enemysign “enemy sign name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified enemy sign to slot [#2] in hotbar [#1].
-　<Color(-154)>waymark “waymark name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>waymark “waymark name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified waymark to slot [#2] in hotbar [#1].
-　<Color(-154)>change [number]</Color>
+　<72>F201FA</72><73>F201FB</73>change [number]<73>01</73><72>01</72>
 　　Replace current hotbar with hotbar [number].  If “next” or “prev” is entered in [number], then you can scroll through the pages of hotbar 1.
-　<Color(-154)>copy [class 1] [#1] [class 2] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>copy [class 1] [#1] [class 2] [#2]<73>01</73><72>01</72>
 　　Copy the contents of [class 1] hotbar [#1] to the [class 2] hotbar [#2].
 　　The subcommand “current” can be used to specify your current class.
 　　The subcommand “share” can be used instead of a class to specify your shared hotbar.
-　<Color(-154)>display [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] on<73>01</73><72>01</72>
 　　Display hotbar [number].
-　<Color(-154)>display [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] off<73>01</73><72>01</72>
 　　Hide hotbar [number].
-　<Color(-154)>display [number]</Color>
+　<72>F201FA</72><73>F201FB</73>display [number]<73>01</73><72>01</72>
 　　Toggle on/off hotbar [number].
-　<Color(-154)>share [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] on<73>01</73><72>01</72>
 　　Make hotbar [number] shared.
-　<Color(-154)>share [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] off<73>01</73><72>01</72>
 　　Unshare hotbar [number] and assign it to your current class/job.
-　<Color(-154)>share [number]</Color>
+　<72>F201FA</72><73>F201FB</73>share [number]<73>01</73><72>01</72>
 　　Toggle between on/off.
-　<Color(-154)>remove [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>remove [#1] [#2]<73>01</73><72>01</72>
 　　Remove the action assigned to slot [#2] on hotbar [#1].
 　　Replace [#2] with “all” to remove all actions from hotbar [#1].
 
@@ -1780,64 +1839,64 @@ USAGE:
 →Edit and configure cross hotbar settings. Only available in PvE areas.
 
 >>Subcommands
-　<Color(-154)>set “action name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>set “action name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified action to [slot name] in cross hotbar [number]. If “current” is entered for [number], the action will be set in the currently displayed hotbar. If [slot name] is omitted, the action will be set to the lowest-numbered slot available. If both [number] and [slot name] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered cross hotbar available. This applies to all of the following subcommands.
-　<Color(-154)>general “general action name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>general “general action name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified general action to [slot name] in cross hotbar [number].
-　<Color(-154)>item “item name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>item “item name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified item to [slot name] in cross hotbar [number].
-　<Color(-154)>emote “emote name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>emote “emote name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified emote to [slot name] in cross hotbar [number].
-　<Color(-154)>companion “companion action name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>companion “companion action name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified companion action to [slot name] in cross hotbar [number].
-　<Color(-154)>pet “action name” “pet name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>pet “action name” “pet name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified pet action to [slot name] in cross hotbar [number].
-　<Color(-154)>minion “minion name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>minion “minion name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified minion to [slot name] in cross hotbar [number].
-　<Color(-154)>mount “mount name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>mount “mount name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified mount to [slot name] in cross hotbar [number].
-　<Color(-154)>enemysign “enemy sign name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>enemysign “enemy sign name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified enemy sign to [slot name] in cross hotbar [number].
-　<Color(-154)>waymark “waymark name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>waymark “waymark name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified waymark to [slot name] in cross hotbar [number].
-　<Color(-154)>change [number]</Color>
+　<72>F201FA</72><73>F201FB</73>change [number]<73>01</73><72>01</72>
 　　Replace current cross hotbar with cross hotbar [number]. Enter “prev” or “next” for [number] to scroll through the cross hotbars.
-　<Color(-154)>copy [class 1] [number 1] [class 2] [number 2]</Color>
+　<72>F201FA</72><73>F201FB</73>copy [class 1] [number 1] [class 2] [number 2]<73>01</73><72>01</72>
 　　Copy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].
 　　The subcommand “current” can be used to specify your current class.
 　　The subcommand “share” can be used instead of a class to specify your shared hotbar.
-　<Color(-154)>display [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] on<73>01</73><72>01</72>
 　　Display cross hotbar [number].
-　<Color(-154)>display [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] off<73>01</73><72>01</72>
 　　Hide cross hotbar [number].
-　<Color(-154)>display [number]</Color>
+　<72>F201FA</72><73>F201FB</73>display [number]<73>01</73><72>01</72>
 　　Toggle on/off cross hotbar [number].
-　<Color(-154)>share [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] on<73>01</73><72>01</72>
 　　Make cross hotbar [number] shared.
-　<Color(-154)>share [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] off<73>01</73><72>01</72>
 　　Unshare cross hotbar [number] and assign it to your current class/job.
-　<Color(-154)>share [number]</Color>
+　<72>F201FA</72><73>F201FB</73>share [number]<73>01</73><72>01</72>
 　　Toggle between on/off.
-　<Color(-154)>remove [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>remove [number] [slot name]<73>01</73><72>01</72>
 　　Remove the action assigned to [slot name] on cross hotbar [number]. Replace [slot name] with “all” to remove all actions from cross hotbar [number].
 
 >>Slot Names:
-　<Gui(14)/>＋<Gui(3)/>  <Color(-154)>LDL (LD1) </Color>
-　<Gui(15)/>＋<Gui(3)/>  <Color(-154)>RDL (RD1)</Color>
-　<Gui(14)/>＋<Gui(1)/>  <Color(-154)>LDU (LD2) </Color>
-　<Gui(15)/>＋<Gui(1)/>  <Color(-154)>RDU (RD2)</Color>
-　<Gui(14)/>＋<Gui(4)/>  <Color(-154)>LDR (LD3) </Color>
-　<Gui(15)/>＋<Gui(4)/>  <Color(-154)>RDR (RD3)</Color>
-　<Gui(14)/>＋<Gui(2)/>  <Color(-154)>LDD (LD4) </Color>
-　<Gui(15)/>＋<Gui(2)/>  <Color(-154)>RDD (RD4)</Color>
-　<Gui(14)/>＋<Gui(10)/>  <Color(-154)>LAL (LA1) </Color>
-　<Gui(15)/>＋<Gui(10)/>  <Color(-154)>RAL (RA1)</Color>
-　<Gui(14)/>＋<Gui(11)/>  <Color(-154)>LAU (LA2) </Color>
-　<Gui(15)/>＋<Gui(11)/>  <Color(-154)>RAU (RA2)</Color>
-　<Gui(14)/>＋<Gui(8)/>  <Color(-154)>LAR (LA3) </Color>
-　<Gui(15)/>＋<Gui(8)/>  <Color(-154)>RAR (RA3)</Color>
-　<Gui(14)/>＋<Gui(9)/>  <Color(-154)>LAD (LA4) </Color>
-　<Gui(15)/>＋<Gui(9)/>  <Color(-154)>RAD (RA4)</Color>","","/chotbar",36,0
+　<Gui(14)/>＋<Gui(3)/>  <72>F201FA</72><73>F201FB</73>LDL (LD1) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(3)/>  <72>F201FA</72><73>F201FB</73>RDL (RD1)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(1)/>  <72>F201FA</72><73>F201FB</73>LDU (LD2) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(1)/>  <72>F201FA</72><73>F201FB</73>RDU (RD2)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(4)/>  <72>F201FA</72><73>F201FB</73>LDR (LD3) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(4)/>  <72>F201FA</72><73>F201FB</73>RDR (RD3)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(2)/>  <72>F201FA</72><73>F201FB</73>LDD (LD4) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(2)/>  <72>F201FA</72><73>F201FB</73>RDD (RD4)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(10)/>  <72>F201FA</72><73>F201FB</73>LAL (LA1) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(10)/>  <72>F201FA</72><73>F201FB</73>RAL (RA1)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(11)/>  <72>F201FA</72><73>F201FB</73>LAU (LA2) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(11)/>  <72>F201FA</72><73>F201FB</73>RAU (RA2)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(8)/>  <72>F201FA</72><73>F201FB</73>LAR (LA3) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(8)/>  <72>F201FA</72><73>F201FB</73>RAR (RA3)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(9)/>  <72>F201FA</72><73>F201FB</73>LAD (LA4) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(9)/>  <72>F201FA</72><73>F201FB</73>RAD (RA4)<73>01</73><72>01</72>","","/chotbar",36,0
 317,1,0,0,0,0,"/hudreset","","USAGE:
 　/hudreset
 
@@ -1852,8 +1911,8 @@ USAGE:
 →Resize current HUD elements and windows.
 
 >>Subcommands:
-　<Color(-154)>[number] </Color>      Resize all HUD elements and windows to the percentage equivalent to the number specified. Percentages available: 60, 80, 90, 100, 110, 120, 140.
-　<Color(-154)>reset </Color>      Reset all HUD elements to default size.
+　<72>F201FA</72><73>F201FB</73>[number] <73>01</73><72>01</72>      Resize all HUD elements and windows to the percentage equivalent to the number specified. Percentages available: 60, 80, 90, 100, 110, 120, 140.
+　<72>F201FA</72><73>F201FB</73>reset <73>01</73><72>01</72>      Reset all HUD elements to default size.
 
 >>Examples:
 　/uiscale 140
@@ -1871,8 +1930,8 @@ USAGE:
 →Display error messages when actions fail.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Enable messages.
-　<Color(-154)>off </Color>      Disable messages.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Enable messages.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Disable messages.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 321,2,1,2,0,0,"/recasterror","/rerror","ALIASES:
@@ -1883,8 +1942,8 @@ USAGE:
 →Display recast timer error messages.
 
 >>Subcommands:
-　<Color(-154)>on </Color>      Enable messages.
-　<Color(-154)>off </Color>      Disable messages.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>      Enable messages.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>      Disable messages.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 322,1,0,0,0,0,"//eventReset","","USAGE:
@@ -1899,9 +1958,9 @@ USAGE:
 →Changes the cross hotbar control type.
 
 >>Subcommands:
-　<Color(-154)>hold </Color>      Enable Hold type.
-　<Color(-154)>toggle </Color>      Enable Toggle type.
-　<Color(-154)>mix </Color>      Enable Mixed type.
+　<72>F201FA</72><73>F201FB</73>hold <73>01</73><72>01</72>      Enable Hold type.
+　<72>F201FA</72><73>F201FB</73>toggle <73>01</73><72>01</72>      Enable Toggle type.
+　<72>F201FA</72><73>F201FB</73>mix <73>01</73><72>01</72>      Enable Mixed type.
 ","","",36,0
 324,2,1,2,0,0,"/crosshotbardisplay","/chotbardisplay","ALIASES:
 　/crosshotbardisplay, /chotbardisplay
@@ -1911,8 +1970,8 @@ USAGE:
 →Toggle on/off the display of the cross hotbar.
 
 >>Subcommands:
-　<Color(-154)>on </Color>　　Display cross hotbar.
-　<Color(-154)>off </Color>　　Hide cross hotbar.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>　　Display cross hotbar.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>　　Hide cross hotbar.
 
 Toggle between on and off when no subcommand is specified.","","",36,0
 325,6,3,2,16,7,"/pvphotbar","","USAGE:
@@ -1921,47 +1980,47 @@ Toggle between on and off when no subcommand is specified.","","",36,0
 →Edit and configure hotbar settings. This command can only be used with the PvP hotbar.
 
 >>Subcommands
-　<Color(-154)>action “action name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>action “action name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified PvP action to slot [#2] in hotbar page [#1]. If “current” is entered for [#1], then the action will be set in the page displayed in hotbar 1. If [#2] is omitted, the action will be set to the lowest-numbered slot available. If both [#1] and [#2] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered hotbar available. This applies to all of the following subcommands.
-　<Color(-154)>general “general action name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>general “general action name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified general action to slot [#2] in hotbar [#1].
-　<Color(-154)>item “item name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>item “item name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified item to slot [#2] in hotbar [#1].
-　<Color(-154)>emote “emote name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>emote “emote name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified emote to slot [#2] in hotbar [#1].
-　<Color(-154)>companion “companion action name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>companion “companion action name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified companion action to slot [#2] in hotbar [#1].
-　<Color(-154)>pet “action name” “pet name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>pet “action name” “pet name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified pet action to slot [#2] in hotbar [#1].
-　<Color(-154)>minion “minion name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>minion “minion name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified minion to slot [#2] in hotbar [#1].
-　<Color(-154)>mount “mount name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>mount “mount name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified mount to slot [#2] in hotbar [#1].
-　<Color(-154)>enemysign “enemy sign name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>enemysign “enemy sign name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified enemy sign to slot [#2] in hotbar [#1].
-　<Color(-154)>waymark “waymark name” [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>waymark “waymark name” [#1] [#2]<73>01</73><72>01</72>
 　　Set the specified waymark to slot [#2] in hotbar [#1].
 
-　<Color(-154)>change [number]</Color>
+　<72>F201FA</72><73>F201FB</73>change [number]<73>01</73><72>01</72>
 　　Replace current hotbar with hotbar [number].  If “next” or “prev” is entered in [number], then you can scroll through the pages of hotbar 1.
 
-　<Color(-154)>copy [class 1] [#1] [class 2] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>copy [class 1] [#1] [class 2] [#2]<73>01</73><72>01</72>
 　　Copy the contents of [class 1] hotbar [#1] to the [class 2] hotbar [#2].
 　　The subcommand “current” can be used to specify your current class.
 　　The subcommand “share” can be used instead of a class to specify your shared hotbar.
-　<Color(-154)>display [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] on<73>01</73><72>01</72>
 　　Display hotbar [number].
-　<Color(-154)>display [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] off<73>01</73><72>01</72>
 　　Hide hotbar [number].
-　<Color(-154)>display [number]</Color>
+　<72>F201FA</72><73>F201FB</73>display [number]<73>01</73><72>01</72>
 　　Toggle on/off hotbar [number].
-　<Color(-154)>share [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] on<73>01</73><72>01</72>
 　　Make hotbar [number] shared.
-　<Color(-154)>share [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] off<73>01</73><72>01</72>
 　　Unshare hotbar [number] and assign it to your current class/job.
-　<Color(-154)>share [number]</Color>
+　<72>F201FA</72><73>F201FB</73>share [number]<73>01</73><72>01</72>
 　　Toggle between on/off.
-　<Color(-154)>remove [#1] [#2]</Color>
+　<72>F201FA</72><73>F201FB</73>remove [#1] [#2]<73>01</73><72>01</72>
 　　Remove the action assigned to slot [#2] on hotbar [#1].
 　　Replace [#2] with “all” to remove all actions from hotbar [#1].
 
@@ -1981,75 +2040,75 @@ USAGE:
 →Edit and configure cross hotbar settings. This command can only be used with the PvP cross hotbar.
 
 >>Subcommands
-　<Color(-154)>set “action name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>set “action name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified PvP action to [slot name] in cross hotbar [number]. If “current” is entered for [number], the action will be set in the currently displayed cross hotbar. If [slot name] is omitted, the action will be set to the lowest-numbered slot available. If both [number] and [slot name] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered cross hotbar available. This applies to all of the following subcommands.
-　<Color(-154)>general “general action name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>general “general action name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified general action to [slot name] in cross hotbar [number].
-　<Color(-154)>item “item name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>item “item name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified item to [slot name] in cross hotbar [number].
-　<Color(-154)>emote “emote name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>emote “emote name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified emote to [slot name] in cross hotbar [number].
-　<Color(-154)>companion “companion action name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>companion “companion action name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified companion action to [slot name] in cross hotbar [number].
-　<Color(-154)>pet “action name” “pet name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>pet “action name” “pet name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified pet action to [slot name] in cross hotbar [number].
-　<Color(-154)>minion “minion name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>minion “minion name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified minion to [slot name] in cross hotbar [number].
-　<Color(-154)>mount “mount name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>mount “mount name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified mount to [slot name] in cross hotbar [number].
-　<Color(-154)>enemysign “enemy sign name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>enemysign “enemy sign name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified enemy sign to [slot name] in cross hotbar [number].
-　<Color(-154)>waymark “waymark name” [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>waymark “waymark name” [number] [slot name]<73>01</73><72>01</72>
 　　Set the specified waymark to [slot name] in cross hotbar [number].
 
-　<Color(-154)>change [number]</Color>
+　<72>F201FA</72><73>F201FB</73>change [number]<73>01</73><72>01</72>
 　　Replace current cross hotbar with cross hotbar [number]. Enter “prev” or “next” for [number] to scroll through the cross hotbars.
 
-　<Color(-154)>copy [class 1] [number 1] [class 2] [number 2]</Color>
+　<72>F201FA</72><73>F201FB</73>copy [class 1] [number 1] [class 2] [number 2]<73>01</73><72>01</72>
 　　Copy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].
 　　The subcommand “current” can be used to specify your current class.
 　　The subcommand “share” can be used instead of a class to specify your shared cross hotbar.
-　<Color(-154)>display [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] on<73>01</73><72>01</72>
 　　Display cross hotbar [number].
-　<Color(-154)>display [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>display [number] off<73>01</73><72>01</72>
 　　Hide cross hotbar [number].
-　<Color(-154)>display [number]</Color>
+　<72>F201FA</72><73>F201FB</73>display [number]<73>01</73><72>01</72>
 　　Toggle on/off cross hotbar [number].
-　<Color(-154)>share [number] on</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] on<73>01</73><72>01</72>
 　　Make cross hotbar [number] shared.
-　<Color(-154)>share [number] off</Color>
+　<72>F201FA</72><73>F201FB</73>share [number] off<73>01</73><72>01</72>
 　　Unshare cross hotbar [number] and assign it to your current class/job.
-　<Color(-154)>share [number]</Color>
+　<72>F201FA</72><73>F201FB</73>share [number]<73>01</73><72>01</72>
 　　Toggle between on/off.
-　<Color(-154)>remove [number] [slot name]</Color>
+　<72>F201FA</72><73>F201FB</73>remove [number] [slot name]<73>01</73><72>01</72>
 　　Remove the action assigned to [slot name] on cross hotbar [number]. Replace [slot name] with “all” to remove all actions from cross hotbar [number].
 
 >>Slot Names:
-　<Gui(14)/>＋<Gui(3)/>  <Color(-154)>LDL (LD1) </Color>
-　<Gui(15)/>＋<Gui(3)/>  <Color(-154)>RDL (RD1)</Color>
-　<Gui(14)/>＋<Gui(1)/>  <Color(-154)>LDU (LD2) </Color>
-　<Gui(15)/>＋<Gui(1)/>  <Color(-154)>RDU (RD2)</Color>
-　<Gui(14)/>＋<Gui(4)/>  <Color(-154)>LDR (LD3) </Color>
-　<Gui(15)/>＋<Gui(4)/>  <Color(-154)>RDR (RD3)</Color>
-　<Gui(14)/>＋<Gui(2)/>  <Color(-154)>LDD (LD4) </Color>
-　<Gui(15)/>＋<Gui(2)/>  <Color(-154)>RDD (RD4)</Color>
-　<Gui(14)/>＋<Gui(10)/>  <Color(-154)>LAL (LA1) </Color>
-　<Gui(15)/>＋<Gui(10)/>  <Color(-154)>RAL (RA1)</Color>
-　<Gui(14)/>＋<Gui(11)/>  <Color(-154)>LAU (LA2) </Color>
-　<Gui(15)/>＋<Gui(11)/>  <Color(-154)>RAU (RA2)</Color>
-　<Gui(14)/>＋<Gui(8)/>  <Color(-154)>LAR (LA3) </Color>
-　<Gui(15)/>＋<Gui(8)/>  <Color(-154)>RAR (RA3)</Color>
-　<Gui(14)/>＋<Gui(9)/>  <Color(-154)>LAD (LA4) </Color>
-　<Gui(15)/>＋<Gui(9)/>  <Color(-154)>RAD (RA4)</Color>","","/pvpchotbar",36,0
+　<Gui(14)/>＋<Gui(3)/>  <72>F201FA</72><73>F201FB</73>LDL (LD1) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(3)/>  <72>F201FA</72><73>F201FB</73>RDL (RD1)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(1)/>  <72>F201FA</72><73>F201FB</73>LDU (LD2) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(1)/>  <72>F201FA</72><73>F201FB</73>RDU (RD2)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(4)/>  <72>F201FA</72><73>F201FB</73>LDR (LD3) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(4)/>  <72>F201FA</72><73>F201FB</73>RDR (RD3)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(2)/>  <72>F201FA</72><73>F201FB</73>LDD (LD4) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(2)/>  <72>F201FA</72><73>F201FB</73>RDD (RD4)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(10)/>  <72>F201FA</72><73>F201FB</73>LAL (LA1) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(10)/>  <72>F201FA</72><73>F201FB</73>RAL (RA1)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(11)/>  <72>F201FA</72><73>F201FB</73>LAU (LA2) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(11)/>  <72>F201FA</72><73>F201FB</73>RAU (RA2)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(8)/>  <72>F201FA</72><73>F201FB</73>LAR (LA3) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(8)/>  <72>F201FA</72><73>F201FB</73>RAR (RA3)<73>01</73><72>01</72>
+　<Gui(14)/>＋<Gui(9)/>  <72>F201FA</72><73>F201FB</73>LAD (LA4) <73>01</73><72>01</72>
+　<Gui(15)/>＋<Gui(9)/>  <72>F201FA</72><73>F201FB</73>RAD (RA4)<73>01</73><72>01</72>","","/pvpchotbar",36,0
 327,2,1,2,0,0,"/emotelog","","USAGE:
 　/emotelog [subcommand]
 
 →Toggle the display of log messages when using emotes.
 
 >>Subcommands:
-　<Color(-154)>on </Color>
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>
 　　Enable the display of log messages when using emotes.
-　<Color(-154)>off </Color>
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>
 　　Disable the display of log messages when using emotes.
 
 Toggles the display of log messages on and off when no subcommand is specified.","","",36,0
@@ -2059,9 +2118,9 @@ Toggles the display of log messages on and off when no subcommand is specified."
 →Toggle job gauges between normal and simple mode.
 
 >>Subcommands:
-　<Color(-154)>1</Color>
+　<72>F201FA</72><73>F201FB</73>1<73>01</73><72>01</72>
 　　Toggle first job gauge between normal and simple mode.
-　<Color(-154)>2</Color>
+　<72>F201FA</72><73>F201FB</73>2<73>01</73><72>01</72>
 　　Toggle second job gauge between normal and simple mode.
 
 Toggles all active job gauges when no subcommand is specified.","","",36,0
@@ -2071,7 +2130,7 @@ Toggles all active job gauges when no subcommand is specified.","","",36,0
 →Adjust master volume settings.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set master volume to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2082,7 +2141,7 @@ Toggles mute on and off when no subcommand is specified.","","",228,0
 →Adjust BGM volume settings.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set BGM to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2093,7 +2152,7 @@ Toggles BGM on and off when no subcommand is specified.","","",228,0
 →Adjust sound effects volume settings.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set sound effects to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2104,7 +2163,7 @@ Toggles sound effects on and off when no subcommand is specified.","","",228,0
 →Adjust voice volume settings.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set voice to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2115,7 +2174,7 @@ Toggles voice on and off when no subcommand is specified.","","",228,0
 →Adjust system sounds volume settings.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set system sounds to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2126,7 +2185,7 @@ Toggles system sounds on and off when no subcommand is specified.","","",228,0
 →Adjust ambient sounds volume settings.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set ambient sounds to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2137,7 +2196,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 →Adjust player effects volume settings for self.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set player effects for self to the specified volume level.
 　　Levels available: 0-100.","","",228,0
 336,2,0,0,0,0,"/soundeffectsparty","","USAGE:
@@ -2146,7 +2205,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 →Adjust player effects volume settings for your party.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set player effects for your party to the specified volume level.
 　　Levels available: 0-100.","","",228,0
 337,2,0,0,0,0,"/soundeffectsother","","USAGE:
@@ -2155,7 +2214,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 →Adjust player effects volume settings for other PCs.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set player effects for other PCs to the specified volume level.
 　　Levels available: 0-100.
 ","","",228,0
@@ -2169,7 +2228,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 →Adjust 3rd person camera angle settings.
 
 >>Subcommands:
-　<Color(-154)>[angle number]</Color>
+　<72>F201FA</72><73>F201FB</73>[angle number]<73>01</73><72>01</72>
 　　Set 3rd person camera angle to the specified setting.
 　　Settings available: 0-100.","","",36,0
 340,2,1,2,0,0,"/mountbgm","","USAGE:
@@ -2178,8 +2237,8 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 →Toggle the “Play music when mounted” setting on and off.
 
 >>Subcommands:
-　<Color(-154)>on </Color>    Turn on music when mounted.
-　<Color(-154)>off </Color>    Turn off music when mounted.
+　<72>F201FA</72><73>F201FB</73>on <73>01</73><72>01</72>    Turn on music when mounted.
+　<72>F201FA</72><73>F201FB</73>off <73>01</73><72>01</72>    Turn off music when mounted.
 
 Toggle between on and off when no subcommand is specified.","","",100,0
 341,2,0,0,0,0,"/performsounds","","USAGE:
@@ -2188,7 +2247,7 @@ Toggle between on and off when no subcommand is specified.","","",100,0
 →Adjust the volume settings for performance actions.
 
 >>Subcommands:
-　<Color(-154)>[volume number]</Color>
+　<72>F201FA</72><73>F201FB</73>[volume number]<73>01</73><72>01</72>
 　　Set performance actions to the specified volume level.
 　　Levels available: 0-100.
 
@@ -2198,14 +2257,14 @@ Toggles system sounds on and off when no subcommand is specified.","","",228,0
 USAGE:
 　/emote [message]
 
-→Sends your PC name and the message as an emote within a [Say] radius. This message will not be displayed if a PC has their <Color(-34022)>Custom Emotes</Color> chat filter turned on.","","",36,0
+→Sends your PC name and the message as an emote within a [Say] radius. This message will not be displayed if a PC has their <72>F201F4</72><73>F201F5</73>Custom Emotes<73>01</73><72>01</72> chat filter turned on.","","",36,0
 402,2,1,2,0,0,"/surprised","","USAGE:
 　/surprised [subcommand]
 
 →Act surprised.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 403,2,1,2,0,0,"/angry","","USAGE:
@@ -2214,7 +2273,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Be angry.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 404,2,1,2,0,0,"/furious","","USAGE:
@@ -2223,7 +2282,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Be furious.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 405,2,1,2,0,0,"/blush","","USAGE:
@@ -2232,7 +2291,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Blush with embarrassment.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 406,2,1,2,0,0,"/bow","","USAGE:
@@ -2241,7 +2300,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform a bow.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 407,2,1,2,0,0,"/cheer","","USAGE:
@@ -2250,7 +2309,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Cheer enthusiastically.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 408,2,1,2,0,0,"/clap","","USAGE:
@@ -2259,7 +2318,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Applaud.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 409,2,1,2,0,0,"/beckon","","USAGE:
@@ -2268,7 +2327,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Make a beckoning motion.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 410,2,1,2,0,0,"/comfort","","USAGE:
@@ -2277,7 +2336,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Make a consoling gesture.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 411,2,1,2,0,0,"/cry","","USAGE:
@@ -2286,7 +2345,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Break into tears.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 412,2,1,2,0,0,"/dance","","USAGE:
@@ -2295,7 +2354,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Start dancing.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 413,2,1,2,0,0,"/doubt","","USAGE:
@@ -2304,7 +2363,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Appear doubtful.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 414,2,1,2,0,0,"/doze","","USAGE:
@@ -2313,7 +2372,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Start dozing off. If a bed is nearby, your character will sleep in it.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 415,2,1,2,0,0,"/fume","","USAGE:
@@ -2322,7 +2381,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Express annoyance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 416,2,1,2,0,0,"/goodbye","","USAGE:
@@ -2331,7 +2390,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Bid farewell.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 417,2,1,2,0,0,"/wave","","USAGE:
@@ -2340,7 +2399,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Wave your hand.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 418,2,1,2,0,0,"/huh","","USAGE:
@@ -2349,7 +2408,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Act bemused.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 419,2,1,2,0,0,"/joy","","USAGE:
@@ -2358,7 +2417,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Express joy.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 420,2,1,2,0,0,"/kneel","","USAGE:
@@ -2367,7 +2426,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Kneel in respect.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 421,2,1,2,0,0,"/chuckle","","USAGE:
@@ -2376,7 +2435,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Chuckle in amusement.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 422,2,1,2,0,0,"/laugh","","USAGE:
@@ -2385,7 +2444,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Burst out laughing.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 423,2,1,2,0,0,"/lookout","","USAGE:
@@ -2394,7 +2453,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Scan the area.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 424,2,1,2,0,0,"/me","","USAGE:
@@ -2403,7 +2462,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Motion to yourself.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 425,2,1,2,0,0,"/no","","USAGE:
@@ -2412,7 +2471,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Disagree.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 426,2,1,2,0,0,"/deny","","USAGE:
@@ -2421,7 +2480,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Strongly disagree.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 427,2,1,2,0,0,"/panic","","USAGE:
@@ -2430,7 +2489,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Start to panic.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 428,2,1,2,0,0,"/point","","USAGE:
@@ -2439,7 +2498,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Point at something.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 429,2,1,2,0,0,"/poke","","USAGE:
@@ -2448,7 +2507,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Make a poking gesture.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 430,2,1,2,0,0,"/congratulate","","USAGE:
@@ -2457,7 +2516,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Offer congratulations.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 431,2,1,2,0,0,"/psych","","USAGE:
@@ -2466,7 +2525,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Psych yourself up.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 432,2,1,2,0,0,"/salute","","USAGE:
@@ -2475,7 +2534,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform a salute.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 433,2,1,2,0,0,"/shocked","","USAGE:
@@ -2484,7 +2543,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Act shocked.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 434,2,1,2,0,0,"/shrug","","USAGE:
@@ -2493,7 +2552,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Shrug.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 435,2,1,2,0,0,"/rally","","USAGE:
@@ -2502,7 +2561,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Give encouragement.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 436,2,1,2,0,0,"/soothe","","USAGE:
@@ -2511,7 +2570,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Make a comforting gesture.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 437,2,1,2,0,0,"/stagger","","USAGE:
@@ -2520,7 +2579,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Stagger for a moment.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 438,2,1,2,0,0,"/stretch","","USAGE:
@@ -2529,7 +2588,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Stretch.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 439,2,1,2,0,0,"/sulk","","USAGE:
@@ -2538,7 +2597,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Wallow in self-pity.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 440,2,1,2,0,0,"/think","","USAGE:
@@ -2547,7 +2606,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Become lost in thought.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 441,2,1,2,0,0,"/upset","","USAGE:
@@ -2556,7 +2615,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Express disgust.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 442,2,1,2,0,0,"/welcome","","USAGE:
@@ -2565,7 +2624,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Make a welcoming gesture.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 443,2,1,2,0,0,"/yes","","USAGE:
@@ -2574,7 +2633,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Nod in approval.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 444,2,1,2,0,0,"/thumbsup","","USAGE:
@@ -2583,7 +2642,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Strongly agree.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 445,2,1,2,0,0,"/examineself","","USAGE:
@@ -2592,7 +2651,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Admire yourself.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 446,2,1,2,0,0,"/pose","","USAGE:
@@ -2601,7 +2660,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Strike a pose.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 447,2,1,2,0,0,"/blowkiss","","USAGE:
@@ -2610,7 +2669,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Throw an airborne smooch in someone's general direction.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 448,2,1,2,0,0,"/grovel","","USAGE:
@@ -2619,7 +2678,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Fall to your knees in unworthiness.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 449,2,1,2,0,0,"/happy","","USAGE:
@@ -2628,7 +2687,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Display extreme happiness.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 450,2,1,2,0,0,"/disappointed","","USAGE:
@@ -2637,7 +2696,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Convey utter disappointment.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 451,1,0,0,0,0,"/lounge","/sit","ALIASES:
@@ -2664,7 +2723,7 @@ Certain emotes have special sitting equivalents. Does not sit your character in 
 →Perform an official Maelstrom salute.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",37,0
 457,2,1,2,0,0,"/gcsalute","","USAGE:
@@ -2673,7 +2732,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform an official Order of the Twin Adder salute.
   
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",37,0
 458,2,1,2,0,0,"/gcsalute","","USAGE:
@@ -2682,7 +2741,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform an official Immortal Flames salute.
   
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",37,0
 459,2,1,2,0,0,"/pray","","USAGE:
@@ -2691,7 +2750,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Offer solemn words of prayer to the Twelve or whatever gods it is you keep.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 460,2,1,2,0,0,"/imperialsalute","","USAGE:
@@ -2700,7 +2759,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform an Imperial Garlean Army salute.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 461,2,1,2,0,0,"/visor","","USAGE:
@@ -2715,7 +2774,7 @@ No system message is displayed with this emote.","","",44,0
 →Cast Megaflare.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 464,2,1,2,0,0,"/crimsonlotus","","USAGE:
@@ -2724,7 +2783,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Practice the art of the crimson lotus.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 465,2,1,2,0,0,"/charmed","","USAGE:
@@ -2733,7 +2792,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Fall into a lovestruck trance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 466,2,1,2,0,0,"/cheeron","","USAGE:
@@ -2742,7 +2801,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Wave your hands enthusiastically.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 467,2,1,2,0,0,"/cheerwave","","USAGE:
@@ -2751,7 +2810,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Wave your hand in the air like you just don't care.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/cheerwave","/hiphophurray",36,0
 468,2,1,2,0,0,"/cheerjump","","USAGE:
@@ -2760,7 +2819,7 @@ Both text and motion will be displayed when no subcommand is specified.","/cheer
 →Jump and cheer enthusiastically.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/cheerjump","/jumparound",36,0
 469,2,1,2,0,0,"/straightface","/straight","ALIASES:
@@ -2771,7 +2830,7 @@ USAGE:
 →Restore your facial expression to a neutral state.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified.","","",36,0
@@ -2781,7 +2840,7 @@ Both text and expression will be displayed when no subcommand is specified.","",
 →Beam with happiness.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2791,7 +2850,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Beam with delight.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2801,7 +2860,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Smirk wryly.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2811,7 +2870,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Put on a taunting grin.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2823,7 +2882,7 @@ USAGE:
 →Shut your eyes.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2833,7 +2892,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Frown.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2845,7 +2904,7 @@ USAGE:
 →Stare in fear.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2857,7 +2916,7 @@ USAGE:
 →Stare in awe.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2869,7 +2928,7 @@ USAGE:
 →Cringe in pain.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2881,7 +2940,7 @@ USAGE:
 →Furrow your brow.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2891,7 +2950,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Sense something amiss.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2903,7 +2962,7 @@ USAGE:
 →Appear worried.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2913,7 +2972,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Break into a broad smile.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2923,7 +2982,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Close your eyes and gather your thoughts.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2933,7 +2992,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Furrow your eyebrows.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2943,7 +3002,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Smile wryly.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -2953,7 +3012,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Throw an object.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 491,2,1,2,0,0,"/changepose","/cpose","ALIASES:
@@ -2970,7 +3029,7 @@ USAGE:
 →Perform a step dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 503,2,1,2,0,0,"/harvestdance","/hdance","ALIASES:
@@ -2981,7 +3040,7 @@ USAGE:
 →Perform a harvest dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 504,2,1,2,0,0,"/balldance","/bdance","ALIASES:
@@ -2992,7 +3051,7 @@ USAGE:
 →Perform a ball dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 505,2,1,2,0,0,"/mandervilledance","/mdance","ALIASES:
@@ -3003,7 +3062,7 @@ USAGE:
 →Perform the Manderville dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 506,2,1,2,0,0,"/stroke","","USAGE:
@@ -3012,7 +3071,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Take the love within your heart and focus it into your hand.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/pet","",36,0
 507,2,1,2,0,0,"/handover","","USAGE:
@@ -3021,7 +3080,7 @@ Both text and motion will be displayed when no subcommand is specified.","/pet",
 →Extend your hand in a giving gesture.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 510,2,1,2,0,0,"/bombdance","","USAGE:
@@ -3030,7 +3089,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform a bomb dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 511,2,1,2,0,0,"/hurray","","ALIASES:
@@ -3041,7 +3100,7 @@ USAGE:
 →Give a hearty cheer.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/huzzah","",36,0
 512,2,1,2,0,0,"/slap","","USAGE:
@@ -3050,7 +3109,7 @@ Both text and motion will be displayed when no subcommand is specified.","/huzza
 →Let your hand do the talking.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 513,2,1,2,0,0,"/hug","","USAGE:
@@ -3059,7 +3118,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Give a warm hug.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 514,2,1,2,0,0,"/embrace","","USAGE:
@@ -3068,7 +3127,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform a loving embrace.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 515,2,1,2,0,0,"/hildibrand","/hildy","ALIASES:
@@ -3079,7 +3138,7 @@ USAGE:
 →Flex like a gentleman.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 516,2,1,2,0,0,"/fistbump","/fist","ALIASES:
@@ -3090,7 +3149,7 @@ USAGE:
 →Attempt a fistbump.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/fistbump","/brofist",36,0
 519,2,1,2,0,0,"/thavdance","/tdance","ALIASES:
@@ -3101,7 +3160,7 @@ USAGE:
 →Perform a Thavnairian dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 520,2,1,2,0,0,"/golddance","/gdance","ALIASES:
@@ -3112,7 +3171,7 @@ USAGE:
 →Perform the Gold dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 521,2,1,2,0,0,"/sundance","","ALIASES:
@@ -3123,7 +3182,7 @@ USAGE:
 →Perform the sundrop dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/sundropdance","",36,0
 522,2,1,2,0,0,"/battlestance","/bstance","ALIASES:
@@ -3134,7 +3193,7 @@ USAGE:
 →Prepare yourself for battle.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 523,2,1,2,0,0,"/victorypose","/vpose","ALIASES:
@@ -3145,7 +3204,7 @@ USAGE:
 →Celebrate victory.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 524,2,1,2,0,0,"/backflip","/bflip","ALIASES:
@@ -3156,7 +3215,7 @@ USAGE:
 →Perform a backflip.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 525,2,1,2,0,0,"/easterngreeting","/egreeting","ALIASES:
@@ -3167,7 +3226,7 @@ USAGE:
 →Perform a greeting common in the Far East.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 526,2,1,2,0,0,"/eureka","","USAGE:
@@ -3176,7 +3235,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Experience a brief moment of enlightenment.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 527,2,1,2,0,0,"/mogdance","","USAGE:
@@ -3185,7 +3244,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform the moogle dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 528,2,1,2,0,0,"/haurchefant","/hknight","ALIASES:
@@ -3196,7 +3255,7 @@ USAGE:
 →Express your fervent approval.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 529,2,1,2,0,0,"/easternstretch","/estretch","ALIASES:
@@ -3207,7 +3266,7 @@ USAGE:
 →Stretch your muscles in the Far Eastern fashion.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/easternstretch","",36,0
 530,2,1,2,0,0,"/easterndance","/edance","ALIASES:
@@ -3218,7 +3277,7 @@ USAGE:
 →Perform a Far Eastern dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 531,2,1,2,0,0,"/rangerpose1r","/rpose1r","ALIASES:
@@ -3229,7 +3288,7 @@ USAGE:
 →Do the Red Ranger pose A.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/redrangerposea","/rrpa",36,0
 532,2,1,2,0,0,"/rangerpose2r","/rpose2r","ALIASES:
@@ -3240,7 +3299,7 @@ USAGE:
 →Do the Black Ranger pose A.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/blackrangerposea","/brpa",36,0
 533,2,1,2,0,0,"/rangerpose3r","/rpose3r","ALIASES:
@@ -3251,7 +3310,7 @@ USAGE:
 →Do the Yellow Ranger pose A.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/yellowrangerposea","/yrpa",36,0
 534,2,1,2,0,0,"/wink","/rightwink","ALIASES:
@@ -3262,7 +3321,7 @@ USAGE:
 →Perform the wink emote.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","/rightwink","/wink",36,0
@@ -3274,7 +3333,7 @@ USAGE:
 →Do the Red Ranger pose B.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/redrangerposeb","/rrpb",36,0
 536,2,1,2,0,0,"/rangerpose2l","/rpose2l","ALIASES:
@@ -3285,7 +3344,7 @@ USAGE:
 →Do the Black Ranger pose B.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/blackrangerposeb","/brpb",36,0
 537,2,1,2,0,0,"/rangerpose3l","/rpose3l","ALIASES:
@@ -3296,7 +3355,7 @@ USAGE:
 →Do the Yellow Ranger pose B.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","/yellowrangerposeb","/yrpb",36,0
 538,2,1,2,0,0,"/facepalm","","USAGE:
@@ -3305,7 +3364,7 @@ Both text and motion will be displayed when no subcommand is specified.","/yello
 →Bury your head into your hands in frustration.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 539,2,1,2,0,0,"/zantetsuken","/ztk","ALIASES:
@@ -3316,7 +3375,7 @@ USAGE:
 →Perform the Zantetsuken attack.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 540,2,1,2,0,0,"/flex","","USAGE:
@@ -3325,7 +3384,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Flex your muscles.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 541,2,1,2,0,0,"/respect","","USAGE:
@@ -3334,7 +3393,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Offer up a silent prayer.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 542,2,1,2,0,0,"/sneer","","USAGE:
@@ -3343,7 +3402,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Sneer contemptuously.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -3355,7 +3414,7 @@ USAGE:
 →Make a pleading motion.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 544,2,1,2,0,0,"/playdead","/pdead","ALIASES:
@@ -3366,7 +3425,7 @@ USAGE:
 →Feign death.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 545,2,1,2,0,0,"/iceheart","","USAGE:
@@ -3375,7 +3434,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Envelop yourself in diamond dust.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 546,2,1,2,0,0,"/moonlift","","USAGE:
@@ -3384,7 +3443,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform the moonlift dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 547,2,1,2,0,0,"/dote","","USAGE:
@@ -3393,7 +3452,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Throw a heartfelt kiss at your beloved.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 549,2,1,2,0,0,"/spectacles","","USAGE:
@@ -3402,7 +3461,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Adjust your spectacles.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 550,2,1,2,0,0,"/songbird","","USAGE:
@@ -3411,7 +3470,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform the Songbird's special dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 551,2,1,2,0,0,"/waterfloat","","USAGE:
@@ -3428,7 +3487,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Close your eyes and pucker your lips.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -3438,7 +3497,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Put your true strength on display.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 555,2,1,2,0,0,"/easternbow","/ebow","USAGE:
@@ -3447,7 +3506,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform a bow in the Far Eastern fashion.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 556,2,1,2,0,0,"/squats","","USAGE:
@@ -3456,7 +3515,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Do a set of squats.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 557,2,1,2,0,0,"/pushups","","USAGE:
@@ -3465,7 +3524,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Do a set of push-ups.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 558,2,1,2,0,0,"/situps","","USAGE:
@@ -3474,7 +3533,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Do a set of sit-ups.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 559,2,1,2,0,0,"/breathcontrol","","USAGE:
@@ -3483,7 +3542,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Take a breath and relax.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 560,2,1,2,0,0,"/converse","","USAGE:
@@ -3492,7 +3551,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Strike up a conversation.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 561,2,1,2,0,0,"/concentrate","","USAGE:
@@ -3501,7 +3560,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Knit your brows in thought.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -3511,7 +3570,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Twist your face in confusion.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -3521,7 +3580,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Give a lazy smile.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -3531,7 +3590,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Grin from ear to ear.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
@@ -3541,7 +3600,7 @@ Both text and expression will be displayed when no subcommand is specified. Expr
 →Stand at attention.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 566,2,1,2,0,0,"/atease","","USAGE:
@@ -3550,7 +3609,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Stand relaxed with your feet apart.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 567,2,1,2,0,0,"/box","","USAGE:
@@ -3559,7 +3618,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Put up your dukes.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 568,2,1,2,0,0,"/ritualprayer","","USAGE:
@@ -3568,7 +3627,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Offer a prayer to the gods.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 570,2,1,2,0,0,"/tremble","","USAGE:
@@ -3577,7 +3636,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Tremble with fear.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 571,2,1,2,0,0,"/winded","","USAGE:
@@ -3586,7 +3645,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Fall to one knee, exhausted.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 572,2,1,2,0,0,"/aback","","USAGE:
@@ -3595,7 +3654,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Act taken aback.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 573,2,1,2,0,0,"/greet","","USAGE:
@@ -3604,7 +3663,25 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Wave your hand in greeting.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",36,0
+574,2,1,2,0,0,"/boxstep","","USAGE:
+　/boxstep [subcommand]
+
+→Perform a box step dance.
+
+>>Subcommands:
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","/2legit",36,0
+575,2,1,2,0,0,"/sidestep","","USAGE:
+　/sidestep [subcommand]
+
+→Perform a side step dance.
+
+>>Subcommands:
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 577,2,1,2,0,0,"/yoldance","","USAGE:
@@ -3613,7 +3690,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Perform the yol dance.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 579,2,1,2,0,0,"/splash","","USAGE:
@@ -3622,7 +3699,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Splash playfully when in water.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 581,2,1,2,0,0,"/sweat","","USAGE:
@@ -3631,7 +3708,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Wipe the sweat from your brow.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","/tillyoubleed",36,0
 582,2,1,2,0,0,"/shiver","","USAGE:
@@ -3640,7 +3717,7 @@ Both text and motion will be displayed when no subcommand is specified.","","/ti
 →Tremble from the cold.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 583,2,1,2,0,0,"/elucidate","","USAGE:
@@ -3649,7 +3726,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Explain yourself to any who will listen.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",36,0
 584,2,1,2,0,0,"/ponder","","USAGE:
@@ -3658,7 +3735,7 @@ Both text and motion will be displayed when no subcommand is specified.","","",3
 →Lose yourself in thought.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>    Perform motion only.
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","/makeyougohmmm",36,0
 585,2,1,2,0,0,"/leftwink","","USAGE:
@@ -3667,7 +3744,43 @@ Both text and motion will be displayed when no subcommand is specified.","","/ma
 →Perform the wink emote with your left eye.
 
 >>Subcommands:
-　<Color(-154)>motion</Color>
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",36,0
+588,2,1,2,0,0,"/hum","","USAGE:
+　/hum [subcommand]
+
+→Swing your arms and hum a merry tune.
+
+>>Subcommands:
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",36,0
+589,2,1,2,0,0,"/confirm","","USAGE:
+　/confirm [subcommand]
+
+→Make sure that all is as it should be.
+
+>>Subcommands:
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",36,0
+591,2,1,2,0,0,"/endure","","USAGE:
+　/endure [subcommand]
+
+→Grit your teeth and bear all that comes your way.
+
+>>Subcommands:
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",36,0
+592,2,1,2,0,0,"/tomestone","","USAGE:
+　/tomestone [subcommand]
+
+→Lovingly tap your tomestone.
+
+>>Subcommands:
+　<72>F201FA</72><73>F201FB</73>motion<73>01</73><72>01</72>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",36,0

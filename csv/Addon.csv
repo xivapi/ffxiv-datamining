@@ -7,7 +7,7 @@ int32,str
 3,"Yes."
 4,"No."
 5,"Quit"
-6,"<Switch(IntegerParameter(1))><Case(1)><Color(-789517)></Case><Case(2)><Color(-4128832)></Case><Case(3)><Color(-10907393)></Case><Case(4)><Color(-5010177)></Case><Case(5)><Color(-22938)></Case><Case(6)><Color(-7911)></Case><Case(7)><Color(-357962)></Case><Case(8)><Color(-1457508)></Case></Switch>"
+6,"<Switch(IntegerParameter(1))><Case(1)><72>F20225</72><73>F20226</73></Case><Case(2)><72>F20227</72><73>F20228</73></Case><Case(3)><72>F20229</72><73>F2022A</73></Case><Case(4)><72>F2022B</72><73>F2022C</73></Case><Case(5)><72>F2022D</72><73>F2022E</73></Case><Case(6)><72>F2022F</72><73>F20230</73></Case><Case(7)><72>F20231</72><73>F20232</73></Case><Case(8)><72>F20233</72><73>F20234</73></Case></Switch>"
 7,"None"
 8,"..."
 9," "
@@ -37,7 +37,7 @@ int32,str
 33,"<Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 34,"<If(PlayerParameter(11))><Switch(PlayerParameter(11))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>PlayerParameter(12)</TwoDigitValue> <If(GreaterThanOrEqualTo(PlayerParameter(11),12))>p.m.<Else/>a.m.</If>"
 35,"Lv. <Value>IntegerParameter(1)</Value>"
-36,"Lv. <If(GreaterThan(IntegerParameter(0), 0))>+<Value>IntegerParameter(1)</Value><Else/><Value>IntegerParameter(1)</Value></If>"
+36,"Lv. <If(GreaterThan(IntegerParameter(1),0))>+<Value>IntegerParameter(1)</Value><Else/><Value>IntegerParameter(1)</Value></If>"
 37,"《<Highlight>StringParameter(1)</Highlight>》"
 38,"<Highlight>StringParameter(1)</Highlight>.<Highlight>StringParameter(2)</Highlight>"
 39,"A few minutes ago"
@@ -111,7 +111,7 @@ int32,str
 107,"Repair"
 108,"Leave party and abandon your current duty?"
 109,"Abandon your current duty?"
-110,"<Color(-32640)>Discard <If(Equal(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/></If>?</Color>"
+110,"<72>F201FC</72><73>F201FD</73>Discard <If(Equal(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/></If>?<73>01</73><72>01</72>"
 111,"Return to <SheetEn(PlaceName,2,<Sheet(Aetheryte,IntegerParameter(1),8)/>,2,1)/>?"
 112,"Accept Raise?"
 113,"Accept Rebirth from <Highlight>StringParameter(1)</Highlight>?"
@@ -124,7 +124,7 @@ int32,str
 119,"Return to the starting point for
 “<Highlight>ObjectParameter(56)</Highlight>”? 
 
-<Color(-34022)>※You will be unable to re-enter ongoing battles.</Color>"
+<72>F201F4</72><73>F201F5</73>※You will be unable to re-enter ongoing battles.<73>01</73><72>01</72>"
 120,"Join <Highlight>StringParameter(1)</Highlight>'s party?"
 121,"Decline <Highlight>StringParameter(1)</Highlight>'s party invite?"
 122,"Leave party?"
@@ -158,10 +158,10 @@ int32,str
 150," "
 151,"Are you certain you wish to use the collectable?"
 152,"Discard collectable."
-153,"<Color(-32640)>Discard <SheetEn(Item,2,IntegerParameter(1),1,1)/><If(GreaterThan(IntegerParameter(2),0))> (Collectability Rating: <Value>IntegerParameter(2)</Value>)<Else/></If>?</Color>"
+153,"<72>F201FC</72><73>F201FD</73>Discard <SheetEn(Item,2,IntegerParameter(1),1,1)/><If(GreaterThan(IntegerParameter(2),0))> (Collectability Rating: <Value>IntegerParameter(2)</Value>)<Else/></If>?<73>01</73><72>01</72>"
 154,"Lower Quality"
-155,"<Color(-32640)>Lower the quality of <If(Equal(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/></If> resulting in the following:</Color>"
-156,"<Color(-32640)>Lower the quality of <SheetEn(Item,2,IntegerParameter(1),1,1)/> (Collectability Rating: <Value>IntegerParameter(2)</Value>) resulting in the following:</Color>"
+155,"<72>F201FC</72><73>F201FD</73>Lower the quality of <If(Equal(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/></If> resulting in the following:<73>01</73><72>01</72>"
+156,"<72>F201FC</72><73>F201FD</73>Lower the quality of <SheetEn(Item,2,IntegerParameter(1),1,1)/> (Collectability Rating: <Value>IntegerParameter(2)</Value>) resulting in the following:<73>01</73><72>01</72>"
 157,"Lower quality of collectable."
 158,"Lower quality of item."
 159,"Copy Item Name"
@@ -193,16 +193,19 @@ int32,str
 186,"Teleport"
 187,"Select a destination.
 Current Gil: <Format(IntegerParameter(1),FF022C)/>"
+192,""
 193,"Role-play"
 194,"Return to the starting point for
 “<Highlight>ObjectParameter(56)</Highlight>”?"
 195,"Exit the game?"
 196,"Return to <SheetEn(PlaceName,2,<Sheet(Aetheryte,IntegerParameter(1),8)/>,2,1)/>?"
+197,"Return to the starting point for
+“<Highlight>ObjectParameter(56)</Highlight>”?"
 198,"<Highlight>StringParameter(3)</Highlight>
 <If(IntegerParameter(1))> <Value>IntegerParameter(2)</Value>m <Else/><Value>IntegerParameter(2)</Value>s</If>"
 199,"<Highlight>StringParameter(1)</Highlight> wishes to teleport you to <Switch(IntegerParameter(2))><Case(1)>New Gridania</Case><Case(2)>Bentbranch Meadows</Case><Case(3)>the Hawthorne Hut</Case><Case(4)>Quarrymill</Case><Case(5)>Camp Tranquil</Case><Case(6)>Fallgourd</Case></Switch>."
 200,"
-<Color(-34022)>Spell ready in <If(IntegerParameter(1))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If><Else/><If(GreaterThan(IntegerParameter(2),30))>less than a minute<Else/>less than 30 seconds</If></If>.</Color>"
+<72>F201F4</72><73>F201F5</73>Spell ready in <If(IntegerParameter(1))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If><Else/><If(GreaterThan(IntegerParameter(2),30))>less than a minute<Else/>less than 30 seconds</If></If>.<73>01</73><72>01</72>"
 201,"Trade"
 202,""
 203,"Trade"
@@ -371,7 +374,7 @@ be replaced with a 3D model."
 364,"<If(Equal(IntegerParameter(1),0))>Enable<Else/>Disable</If> text auto-advance?
 
 ※Use <If(Equal(PlayerParameter(80),0))><If(Equal(PlayerParameter(78),3))>[space]<Else/>[Space]</If><Else/><CommandIcon(11)/></If> to toggle functionality.
-</Color>
+<73>01</73><72>01</72>
 The following can be used to adjust speed in unvoiced cutscenes:
   <Gui(6)/> Left/Right Directional Buttons
 　<If(Equal(PlayerParameter(78),3))>［tab］［shift+tab］<Else/>［Tab］［Shift+Tab］</If>"
@@ -381,12 +384,12 @@ The following can be used to adjust speed in unvoiced cutscenes:
 368,"<Clickable(<Highlight>StringParameter(1)</Highlight>)/>"
 369,"Unknown"
 370,"Hide Log Window"
-371,"<Color(-34022)></Color><Highlight>StringParameter(1)</Highlight>"
+371,"<72>F201F4</72><73>F201F5</73><73>01</73><72>01</72><Highlight>StringParameter(1)</Highlight>"
 372,"Edit Macro"
 373,"What would you like to do?"
 374,"Cancel"
-376,"<Color(-10038529)></Color>"
-377,"<Color(-55292)></Color>"
+376,"<72>F20205</72><72>01</72>"
+377,"<72>F20206</72><72>01</72>"
 379,"Current Job: <Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D>"
 380,"Buyback"
 381,""
@@ -435,7 +438,7 @@ The following can be used to adjust speed in unvoiced cutscenes:
 425,"Select amount."
 426,"<Value>IntegerParameter(1)</Value> / <Value>IntegerParameter(2)</Value> / <Value>IntegerParameter(3)</Value>"
 427,"<CommandIcon(10)/> Subcommand  <CommandIcon(11)/> New Letter"
-428,"You have no unopened letters."
+428,"You have no unopened letters, gil transfers, or packages."
 429,"You have no opened letters."
 430,"Take All"
 431,"Delete"
@@ -657,7 +660,7 @@ The following can be used to adjust speed in unvoiced cutscenes:
 646,"Free Company"
 647,"Yell"
 648,"Alliance"
-649,"<Color(52258)>Complete</Color>"
+649,"<72>F201F8</72><73>F201F9</73>Complete<73>01</73><72>01</72>"
 650,"Temple Leves"
 651,"Novice Network"
 652,"Tell"
@@ -813,7 +816,7 @@ The following can be used to adjust speed in unvoiced cutscenes:
 796,"Guardian"
 797,"<Sheet(Race,IntegerParameter(1),0)/> / <Sheet(Tribe,IntegerParameter(2),0)/> / <Switch(IntegerParameter(3))><Case(1)>♂</Case><Case(2)>♀</Case></Switch>"
 798,"<Value>IntegerParameter(1)</Value>.<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
-799,"<Switch(IntegerParameter(1))><Case(1)><Color(-1)><Unknown14>FEFFC69A41</Unknown14>⒈<Unknown14>EC</Unknown14></Color></Case><Case(2)><Color(-1)><Unknown14>FEFFC69A41</Unknown14>⒉<Unknown14>EC</Unknown14></Color></Case><Case(3)><Color(-1)><Unknown14>FEFFC69A41</Unknown14>⒊<Unknown14>EC</Unknown14></Color></Case><Case(4)><Color(-1)><Unknown14>FEFFC69A41</Unknown14>⒋<Unknown14>EC</Unknown14></Color></Case><Case(5)><Color(-1)><Unknown14>FEFFC69A41</Unknown14>⒌<Unknown14>EC</Unknown14></Color></Case><Case(6)><Color(-1)><Unknown14>FEFFC477EA</Unknown14>⒈<Unknown14>EC</Unknown14></Color></Case><Case(7)><Color(-1)><Unknown14>FEFFC477EA</Unknown14><Unknown14>EC</Unknown14></Color>⒉</Case><Case(8)><Color(-1)><Unknown14>FEFFC477EA</Unknown14>⒊<Unknown14>EC</Unknown14></Color></Case><Case(9)><Color(-5142)><Unknown14>FEFFFF7092</Unknown14>⒈<Unknown14>EC</Unknown14></Color></Case><Case(10)><Color(-5142)><Unknown14>FEFFFF7092</Unknown14>⒉<Unknown14>EC</Unknown14></Color></Case><Case(11)><Color(-1)><Unknown14>FEFF47BAFF</Unknown14>　<Unknown14>EC</Unknown14></Color></Case><Case(12)><Color(-1)><Unknown14>FEFF47BAFF</Unknown14>　<Unknown14>EC</Unknown14></Color></Case><Case(13)><Color(-1)><Unknown14>FEFF47BAFF</Unknown14>　<Unknown14>EC</Unknown14></Color></Case><Case(14)><Color(-1)><Unknown14>FEFF47BAFF</Unknown14>　<Unknown14>EC</Unknown14></Color></Case></Switch>"
+799,"<Switch(IntegerParameter(1))><Case(1)><72>F20207</72><73>F20208</73>⒈<73>01</73><72>01</72></Case><Case(2)><72>F20207</72><73>F20208</73>⒉<73>01</73><72>01</72></Case><Case(3)><72>F20207</72><73>F20208</73>⒊<73>01</73><72>01</72></Case><Case(4)><72>F20207</72><73>F20208</73>⒋<73>01</73><72>01</72></Case><Case(5)><72>F20207</72><73>F20208</73>⒌<73>01</73><72>01</72></Case><Case(6)><72>F20209</72><73>F2020A</73>⒈<73>01</73><72>01</72></Case><Case(7)><72>F20209</72><73>F2020A</73>⒉<73>01</73><72>01</72></Case><Case(8)><72>F20209</72><73>F2020A</73>⒊<73>01</73><72>01</72></Case><Case(9)><72>F2020B</72><73>F2020C</73>⒈<73>01</73><72>01</72></Case><Case(10)><72>F2020B</72><73>F2020C</73>⒉<73>01</73><72>01</72></Case><Case(11)><72>F2020D</72><73>F2020E</73>　<73>01</73><72>01</72></Case><Case(12)><72>F2020D</72><73>F2020E</73>　<73>01</73><72>01</72></Case><Case(13)><72>F2020D</72><73>F2020E</73>　<73>01</73><72>01</72></Case><Case(14)><72>F2020D</72><73>F2020E</73>　<73>01</73><72>01</72></Case></Switch>"
 800,"Disciples of War"
 801,"Disciples of Magic"
 802,"Disciples of the Hand"
@@ -982,8 +985,8 @@ to any market wards."
 964,"(Unable to Retrieve)"
 965,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Send Friend Request"
 966,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Add to Blacklist"
-967,"<Highlight>StringParameter(1)</Highlight>.  (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>)"
-968,"<Highlight>StringParameter(1)</Highlight>.  (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>)"
+967,"<Highlight>StringParameter(1)</Highlight>. (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>)"
+968,"<Highlight>StringParameter(1)</Highlight>. (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>)"
 969,"Market tax reduced by <Value>IntegerParameter(1)</Value>% until <Time(IntegerParameter(2))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> on <If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>!"
 970,"All"
 971,"Party"
@@ -1038,7 +1041,7 @@ Crafting Catalyst"
 1016,"<If(IntegerParameter(1))> +<Value>IntegerParameter(2)</Value>% (Max <Value>IntegerParameter(3)</Value>)<Else/> +<Value>IntegerParameter(2)</Value></If>"
 1017,"Meal Benefits (EXP +<Value>IntegerParameter(1)</Value>%)"
 1018,"<Value>IntegerParameter(1)</Value>"
-1019,"<If(IntegerParameter(3))><Sheet(ClassJob,IntegerParameter(2),1)/>  <Gui(62)/><Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis><Else/><Sheet(ClassJob,IntegerParameter(2),1)/>  <Highlight>StringParameter(1)</Highlight></If>    <If(GreaterThan(IntegerParameter(7),0))>EXP –/–<Else/><If(GreaterThan(IntegerParameter(6),0))><Gui(76)/><Color(-5912)><Unknown14>FDFFC030</Unknown14>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/><Unknown14>EC</Unknown14></Color><Else/>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/></If></If>"
+1019,"<If(IntegerParameter(3))><Sheet(ClassJob,IntegerParameter(2),1)/>  <Gui(62)/><Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis><Else/><Sheet(ClassJob,IntegerParameter(2),1)/>  <Highlight>StringParameter(1)</Highlight></If>    <If(GreaterThan(IntegerParameter(7),0))>EXP –/–<Else/><If(GreaterThan(IntegerParameter(6),0))><Gui(76)/><72>F20203</72><73>F20204</73>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/><73>01</73><72>01</72><Else/>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/></If></If>"
 1020,"Full Party"
 1021,"Light Party"
 1022,"Solo"
@@ -1098,7 +1101,7 @@ Edit"
 1075,"Party Bonus"
 1076,"<If(GreaterThan(IntegerParameter(1),0))><If(Equal(PlayerParameter(78),3))><Switch(IntegerParameter(1))><Case(1)>Control Key</Case><Case(2)>Option Key</Case><Case(3)>Shift Key</Case><Case(4)><CommandIcon(14)/></Case></Switch><Else/><Switch(IntegerParameter(1))><Case(1)>Ctrl Key</Case><Case(2)>Alt Key</Case><Case(3)>Shift Key</Case><Case(4)><CommandIcon(14)/></Case></Switch></If>  Display <Switch(IntegerParameter(2))><Case(1)>high</Case><Case(2)>normal</Case></Switch>-quality item details<If(GreaterThan(IntegerParameter(3),0))>　<Else/></If><Else/></If><If(GreaterThan(IntegerParameter(3),0))><If(Equal(PlayerParameter(78),3))><Switch(IntegerParameter(3))><Case(1)>Control Key</Case><Case(2)>Option Key</Case><Case(3)>Shift Key</Case><Case(4)><CommandIcon(15)/></Case></Switch><Else/><Switch(IntegerParameter(3))><Case(1)>Ctrl Key</Case><Case(2)>Alt Key</Case><Case(3)>Shift Key</Case><Case(4)><CommandIcon(15)/></Case></Switch></If>  Hide item details<Else/></If>"
 1077,"Available under lv. <Value>IntegerParameter(1)</Value>"
-1078,"<If(IntegerParameter(3))><Sheet(ClassJob,IntegerParameter(2),1)/>  <Gui(62)/><Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis><Else/><Sheet(ClassJob,IntegerParameter(2),1)/>  <Highlight>StringParameter(1)</Highlight></If>    <If(GreaterThan(IntegerParameter(7),0))>EXP –/–<Else/><If(GreaterThan(IntegerParameter(6),0))><Gui(76)/><Color(-5912)><Unknown14>FDFFC030</Unknown14>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/><Unknown14>EC</Unknown14></Color><Else/>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/></If></If>"
+1078,"<If(IntegerParameter(3))><Sheet(ClassJob,IntegerParameter(2),1)/>  <Gui(62)/><Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis><Else/><Sheet(ClassJob,IntegerParameter(2),1)/>  <Highlight>StringParameter(1)</Highlight></If>    <If(GreaterThan(IntegerParameter(7),0))>EXP –/–<Else/><If(GreaterThan(IntegerParameter(6),0))><Gui(76)/><72>F20203</72><73>F20204</73>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/><73>01</73><72>01</72><Else/>EXP <Format(IntegerParameter(4),FF022C)/>/<Format(IntegerParameter(5),FF022C)/></If></If>"
 1079,"<If(IntegerParameter(3))><Emphasis><Gui(62)/><Highlight>StringParameter(1)</Highlight> <Highlight>StringParameter(2)</Highlight></Emphasis><Else/><If(IntegerParameter(5))><Highlight>StringParameter(1)</Highlight> <Highlight>StringParameter(2)</Highlight><Else/><If(IntegerParameter(4))><Highlight>StringParameter(2)</Highlight><Else/><Highlight>StringParameter(1)</Highlight> <Highlight>StringParameter(2)</Highlight></If></If></If>"
 1080,"DoW/DoM"
 1081,"DoH/DoL"
@@ -1107,8 +1110,8 @@ Edit"
 1084,"Melee DPS"
 1085,"Physical Ranged DPS"
 1086,"Magical Ranged DPS"
-1087,"<Unknown2D>FF1302280EFF09436C6173734A6F62E802010320</Unknown2D>"
-1088,"<Unknown2D>FF1302280EFF09436C6173734A6F62E802010320</Unknown2D> / <Unknown2D>FF1302280EFF09436C6173734A6F62E803010320</Unknown2D>"
+1087,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D>"
+1088,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D> / <Unknown2D>FF1202280EFF09436C6173734A6F62E8030103</Unknown2D>"
 1089,"<If(IntegerParameter(2))><Highlight>StringParameter(1)</Highlight><Else/>??? <Highlight>StringParameter(1)</Highlight></If>"
 1090,"Large-scale Levequests"
 1091,""
@@ -1145,11 +1148,14 @@ Edit"
 1131,"ST"
 1132,"ET"
 1133,"Support"
-1134,"<Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case></Switch> <If(Equal(IntegerParameter(2),1))><If(PlayerParameter(11))><Switch(PlayerParameter(11))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>PlayerParameter(12)</TwoDigitValue> <If(GreaterThanOrEqualTo(PlayerParameter(11),12))>p.m.<Else/>a.m.</If><Else/><Time(IntegerParameter(1))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></If>"
+1134,"<Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case></Switch> <If(Equal(IntegerParameter(2),1))><If(Equal(IntegerParameter(3),0))><Value>PlayerParameter(11)</Value>:<TwoDigitValue>PlayerParameter(12)</TwoDigitValue> <Else/><If(PlayerParameter(11))><Switch(PlayerParameter(11))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>PlayerParameter(12)</TwoDigitValue> <If(GreaterThanOrEqualTo(PlayerParameter(11),12))>p.m.<Else/>a.m. </If></If><Else/><Time(IntegerParameter(1))/><If(Equal(IntegerParameter(3),0))><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <Else/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m. </If></If></If>"
 1135,"<Highlight>StringParameter(1)</Highlight><If(GreaterThan(IntegerParameter(4),0))>/<Highlight>StringParameter(2)</Highlight><Else/></If><If(GreaterThan(IntegerParameter(5),0))>/<Highlight>StringParameter(3)</Highlight><Else/></If>"
-1136,"Playing recorded duty."
-1137,""
-1138,""
+1136,"Playing Recorded Duty"
+1137,"Duty Recorder Paused
+The current duty is recordable. Initiate a <72>F201FA</72><73>F201FB</73>record ready check<73>01</73><72>01</72> to begin recording."
+1138,"Recording Duty"
+1139,"The alarm <72>F201F4</72><73>F201F5</73><Highlight>StringParameter(1)</Highlight><73>01</73><72>01</72> has been set for <Time(IntegerParameter(3))/><If(Equal(IntegerParameter(5),0))><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></If> <Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)></Case></Switch>.
+A notification will be given <Value>IntegerParameter(4)</Value> <If(Equal(IntegerParameter(4),1))>minute<Else/>minutes</If> prior."
 1140,"Loot"
 1141,""
 1142,"???"
@@ -1171,13 +1177,13 @@ Edit"
 1162,"Alliance F"
 1163,""
 1164,""
-1165,""
-1166,""
-1167,""
-1168,""
-1169,""
-1170,""
-1171,""
+1165,"History"
+1166,"Favorites"
+1167,"Execute"
+1168,"Add to Favorites"
+1169,"Remove from Favorites"
+1170,"Add to Hotbar"
+1171,"Remove from History"
 1172,""
 1173,""
 1174,""
@@ -1442,9 +1448,9 @@ Specify the keyboard you are currently using."
 1448,"<If(GreaterThan(IntegerParameter(1),9999))>9,999+<Else/><Value>IntegerParameter(1)</Value></If>"
 1449,"Deleted Recipes"
 1450,"Finish the following item as a collectable?
-<Color(52258)>Collectability Rating:</Color> <Value>IntegerParameter(1)</Value>
+<72>F201F8</72><73>F201F9</73>Collectability Rating:<73>01</73><72>01</72> <Value>IntegerParameter(1)</Value>
 
-<Color(-34022)>Only one collectable can be synthesized at a time. Collectables cannot be traded or sold in the markets.</Color>"
+<72>F201F4</72><73>F201F5</73>Only one collectable can be synthesized at a time. Collectables cannot be traded or sold in the markets.<73>01</73><72>01</72>"
 1451,"Craftsmanship Recommended: <Value>IntegerParameter(1)</Value>"
 1455,"Special"
 1456,"Collectables"
@@ -1455,14 +1461,14 @@ Specify the keyboard you are currently using."
 1461,"Bonus"
 1462,"Required GP: <Value>IntegerParameter(1)</Value>"
 1463,"Gather the following item as a collectable?
-<Color(52258)>Collectability Rating:</Color> <Value>IntegerParameter(1)</Value>
+<72>F201F8</72><73>F201F9</73>Collectability Rating:<73>01</73><72>01</72> <Value>IntegerParameter(1)</Value>
 
-<Color(-34022)>Only one collectable can be gathered at a time. Collectables cannot be traded or sold in the markets.</Color>"
+<72>F201F4</72><73>F201F5</73>Only one collectable can be gathered at a time. Collectables cannot be traded or sold in the markets.<73>01</73><72>01</72>"
 1464,"/"
 1465,"%"
 1466,"Location Effect"
-1467,"<Highlight>StringParameter(1)</Highlight> <Color(-12533761)>[Off]</Color> "
-1468,"<Highlight>StringParameter(1)</Highlight> <Color(-12533761)>[On]</Color> "
+1467,"<Highlight>StringParameter(1)</Highlight> <72>F201F6</72><73>F201F7</73>[Off]<73>01</73><72>01</72> "
+1468,"<Highlight>StringParameter(1)</Highlight> <72>F201F6</72><73>F201F7</73>[On]<73>01</73><72>01</72> "
 1469,"BONUS"
 1470,"Item Search"
 1471,"Type in the full or partial name of an item and press Enter to commence the search."
@@ -1504,12 +1510,18 @@ Specify the keyboard you are currently using."
 1516,"The Spinner's Hand"
 1517,"The Solemn Oath"
 1518,"On Foot"
-1519,"On a Gondola"
+1519,"On a Gondola (1)"
 1520,"On Foot"
 1521,"On Chocoback"
 1522,"You"
 1523,"Partner"
 1524,"Listen"
+1525,"Lighting"
+1526,"Natural"
+1527,"Romantic"
+1528,"On a Gondola (2)"
+1529,"On a Gondola (3)"
+1530,"Fabric Color"
 1532,"White"
 1533,"Pink"
 1534,"Orange"
@@ -1532,10 +1544,14 @@ The Solemn Oath
 Presided over by a male Officiant of the Vows, this undenominational ceremony closes with the signing of an official pact before the assembled guests."
 1543,"Chapel Decoration
 
-<If(GreaterThan(IntegerParameter(1),0))><Switch(IntegerParameter(1))><Case(1)>A rug and flower combination will be selected for you</Case><Case(2)>You may choose the color of both the chapel carpeting and the hall's floral decoration</Case><Case(3)>You may choose the color of both the chapel carpeting and the hall's floral decoration</Case></Switch><Else/></If>."
+※<If(LessThan(IntegerParameter(1),2))>Natural lighting will be used in the chapel<Else/>You may choose between natural or romantic lighting options for the chapel</If>.
+
+※<If(GreaterThan(IntegerParameter(1),0))><Switch(IntegerParameter(1))><Case(1)>A rug and flower combination will be selected for you</Case><Case(2)>You may choose one of three colors for both the chapel carpeting and the hall's floral decoration</Case><Case(3)>You may choose one of five colors for both the chapel carpeting and the hall's floral decoration</Case></Switch><Else/></If>.
+
+※<If(GreaterThan(IntegerParameter(1),0))><Switch(IntegerParameter(1))><Case(1)>Decorative fabric will not be used in the chapel</Case><Case(2)>You may choose one of three fabric colors for chapel decoration</Case><Case(3)>You may choose one of five fabric colors for chapel decoration</Case></Switch><Else/></If>."
 1544,"Procession
 
-<If(LessThan(IntegerParameter(1),2))>You and your partner will enter the Ivory Chapel on foot<Else/>You and your partner may choose to enter the Ivory Chapel on foot, or seated upon an enchanted gondola</If>."
+<If(LessThan(IntegerParameter(1),2))>You and your partner will enter the Ivory Chapel on foot<Else/>You and your partner may choose to enter the Ivory Chapel on foot, or seated upon <If(GreaterThan(IntegerParameter(1),2))>one of three enchanted gondolas<Else/>an enchanted gondola</If></If>."
 1545,"Recession
 
 <If(LessThan(IntegerParameter(1),2))>You and your partner will leave the Ivory Chapel on foot<Else/>You and your partner may choose to leave the Ivory Chapel on foot, or astride a chocobo</If>."
@@ -1559,6 +1575,12 @@ You may decide who will carry the bouquet during the ceremony. The bearer of the
 1559,"??/??/????"
 1560,"?? Remaining"
 1561,"Only acquaintances who possess an invitation will be allowed admittance to your Bonding Ceremony. Print invitation?"
+1562,"None"
+1563,"White"
+1564,"Pink"
+1565,"Orange"
+1566,"Blue"
+1567,"Red"
 1570,"world"
 1571,"world"
 1572,"Limsa Lominsa"
@@ -1589,6 +1611,11 @@ You may decide who will carry the bouquet during the ceremony. The bearer of the
 1597,"gyrabania"
 1598,"Othard"
 1599,"othard"
+1612,"It is the anniversary of your Eternal Bonding. Proceed to the Sanctum of the Twelve in the East Shroud and speak with Hawu Bajihri to celebrate this truly singular occasion."
+1613,"Do not display again."
+1614,"Close"
+1615,"The Ceremony of Eternal Bonding"
+1616,"Anniversary Notice"
 1626,"▲"
 1627,"▼"
 1628,"▲ [Up]"
@@ -1641,6 +1668,9 @@ You may decide who will carry the bouquet during the ceremony. The bearer of the
 1689,"Group Name"
 1690,"<CommandIcon(10)/> Subcommands"
 1691,"Reducible: <If(GreaterThan(IntegerParameter(1),0))>Yes (<Clickable(<Sheet(ClassJob,IntegerParameter(1),0)/>)/> Lv. <Value>IntegerParameter(2)</Value>)<Else/>No</If>"
+1692,"Shop Selling Price: None"
+1693,"Shop Selling Price<If(GreaterThan(IntegerParameter(2),0))><Else/> (NQ)</If>: <Format(IntegerParameter(1),FF022C)/>"
+1694,"Shop Selling Price<If(GreaterThan(IntegerParameter(2),0))><Else/> (NQ)</If>: <Format(IntegerParameter(1),FF022C)/> (Restricted)"
 1700,"Recipe Search"
 1701,"History"
 1702,"Nothing to display."
@@ -1697,7 +1727,7 @@ You may decide who will carry the bouquet during the ceremony. The bearer of the
 1789,"Restore both tiers to default settings?"
 1790,"Apply changes to tiers?"
 1791,"If you exit without selecting Apply, all changes will be lost. Proceed?"
-1792,"<Color(-154)>Customize the subcommands that appear.</Color>"
+1792,"<72>F201FA</72><73>F201FB</73>Customize the subcommands that appear.<73>01</73><72>01</72>"
 1793,"Streamline your subcommand options
 by relegating little-used commands to a second tier.
 To move a subcommand to the second tier,
@@ -1715,12 +1745,16 @@ the right arrow button."
 1804,"Teleport Offer"
 1805,"<Clickable(<SheetEn(PlaceName,2,<Sheet(Aetheryte,IntegerParameter(1),8)/>,2,1)/>)/>"
 1806,"Teleport to Nearest Aetheryte"
-1810,"Reward Delivery Request"
-1811,"Send a request to have recently acquired special rewards or items delivered immediately. Speak with a delivery moogle or access your moogle letter box once again upon completing the request to claim the items.
+1807,"Letters from Friends"
+1808,"Purchases & Rewards"
+1809,"Letters from GMs"
+1810,"Reward/Purchase Delivery Request"
+1811,"Send a request to have recently acquired special rewards or purchases delivered immediately. Speak with a delivery moogle or access your moogle letter box once again upon completing the request to claim the items.
 
-<Color(-154)>Once you have sent a request, you must wait a few moments before placing another.</Color>"
+<72>F201FA</72><73>F201FB</73>Once you have sent a request, you must wait a few moments before placing another.<73>01</73><72>01</72>"
 1812,"Send"
 1813,"Close"
+1814,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 1815,"Desynthesis"
 1816,"Desynthesis"
 1817,""
@@ -1755,13 +1789,15 @@ the right arrow button."
 1846,"Reset your desynthesis skill for <Sheet(ClassJob,IntegerParameter(1),0)/>?"
 1847,"Desynthesize collectable."
 1848,"[Optimal Skill Rating for Desynthesis: <Value>IntegerParameter(1)</Value>.00]"
+1849,"Display only unread letters or packages."
 1850,"<CommandIcon(10)/> Subcommands"
 1851,"<CommandIcon(10)/> Subcommands　<CommandIcon(9)/> Return"
 1852,"<CommandIcon(10)/> Subcommands　<CommandIcon(9)/> Return"
+1853,"No letters are selected."
 1854,"You cannot carry any more system letters. To receive any new deliveries, you must first discard existing ones."
 1855,"You cannot carry any more campaign or Mog Station letters. To receive any new deliveries, you must first claim your items and then discard existing letters."
-1856,"You cannot carry any more letters with attachments from friends. To receive any new deliveries, you must first claim your items and then discard existing letters."
-1857,"You cannot carry any more letters. To receive any new deliveries, you must first discard existing ones."
+1856,"You cannot carry any more letters with attachments from friends. To receive any new deliveries, you must first claim your items and then discard existing letters. Gil transfers are not counted as items."
+1857,"You cannot carry any more letters from friends. To receive any new deliveries, you must first discard existing ones."
 1858,"Recipient List"
 1859,""
 1860,"<CommandIcon(8)/>Accept　<CommandIcon(11)/>Open Journal  <CommandIcon(24)/> Scroll"
@@ -1771,8 +1807,13 @@ the right arrow button."
 1864,"All Friends"
 1865,"There are no friends in this group."
 1866,"Name"
+1867,"Mailbox capacity for this type of letter is at 80%."
+1868,"Mailbox capacity for this type of letter is at 100%."
+1869,"Unclaimed attachment capacity is at 100%."
 1870,"%"
+1871,"Working..."
 1872,"<Sheet(PlaceName,IntegerParameter(1),0)/><If(IntegerParameter(2))> - <Sheet(PlaceName,IntegerParameter(2),0)/><Else/></If>"
+1873,"The current number of unclaimed items attached to letters (not including gil)."
 1874,"There is nothing to display."
 1875,"<Switch(IntegerParameter(1))><Case(1)>Show All</Case><Case(2)>Show Complete</Case><Case(3)>Show Incomplete</Case></Switch>"
 1876,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
@@ -1887,6 +1928,7 @@ Proceed with the transaction?"
 1982,"Select options."
 1983,"Search"
 1984,"Display only HQ items."
+1985,"Hide Sets for Sale"
 1986,"Type in the first few letters of the item you seek
 and press the Search button.
 Searches containing less than three characters
@@ -1941,7 +1983,7 @@ and press the Search button."
 2037,""
 2038,""
 2039,"<Highlight>StringParameter(1)</Highlight><Indent/>"
-2041,"x<Value>IntegerParameter(1)</Value>"
+2041,"x <Value>IntegerParameter(1)</Value>"
 2042,"x10k+"
 2043,"All"
 2044,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
@@ -1965,7 +2007,7 @@ and press the Search button."
 
 Up to ten items can be added to your wish list. While the contents of your list cannot be viewed by other players, the total number of people who desire a given item on your World will be displayed in search results.
 
-<Color(-34022)>※Please be advised that all wish list data will be cleared when Worlds undergo maintenance.</Color>"
+<72>F201F4</72><73>F201F5</73>※Please be advised that all wish list data will be cleared when Worlds undergo maintenance.<73>01</73><72>01</72>"
 2073,"<CommandIcon(10)/> Subcommands <CommandIcon(8)/> View Search Results <CommandIcon(9)/> Back"
 2074,"Add to Wish List"
 2075,"Remove from Wish List"
@@ -2052,7 +2094,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 2179,"<Clickable(<Sheet(ClassJob,IntegerParameter(1),0)/>)/> Lv. <Value>IntegerParameter(2)</Value>"
 2180,"Sent Letter History"
 2181,""
-2182,"The dates, times, attachments, and recipients of the last twenty letters you have sent will be displayed here. Please note that you cannot review the contents of sent letters."
+2182,"The dates, times, attachments, and recipients of the last twenty letters you have sent to friends will be displayed here. Please note that you cannot review the contents of sent letters."
 2183,""
 2184,"Close"
 2185,"<CommandIcon(10)/> Subcommands <CommandIcon(9)/> Close"
@@ -2126,6 +2168,7 @@ Up to ten items can be added to your wish list. While the contents of your list 
 2260,"No results were found using current search criteria."
 2261,"<Gui(103)/>Recordable"
 2262,"<Gui(103)/>"
+2263,"No results were found using current search criteria."
 2270,"Recruitment Criteria"
 2271,""
 2272,"Class"
@@ -2166,12 +2209,12 @@ Up to ten items can be added to your wish list. While the contents of your list 
 2311,"Lv. <Value>IntegerParameter(1)</Value>-<Value>IntegerParameter(2)</Value>."
 2312,"Select a level range."
 2313,"Select a class."
-2314,"<Highlight>StringParameter(1)</Highlight>.  (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>)"
-2315,"<Highlight>StringParameter(1)</Highlight>.  (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>) (Venture complete in <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>1m</If></If>)"
-2316,"<Highlight>StringParameter(1)</Highlight>.  (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>) (Venture complete)"
-2317,"<Highlight>StringParameter(1)</Highlight>.  (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>)"
-2318,"<Highlight>StringParameter(1)</Highlight>.  (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) (Venture complete in <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>1m</If></If>)"
-2319,"<Highlight>StringParameter(1)</Highlight>.  (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) (Venture complete)"
+2314,"<Highlight>StringParameter(1)</Highlight>. (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>)"
+2315,"<Highlight>StringParameter(1)</Highlight>. (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>) (Venture complete in <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>1m</If></If>)"
+2316,"<Highlight>StringParameter(1)</Highlight>. (Selling <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>item<Else/>items</If> (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) until <Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>) (Venture complete)"
+2317,"<Highlight>StringParameter(1)</Highlight>. (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>)"
+2318,"<Highlight>StringParameter(1)</Highlight>. (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) (Venture complete in <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>h<If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>m<Else/>1m</If></If>)"
+2319,"<Highlight>StringParameter(1)</Highlight>. (Currently selling no items) (<If(Equal(IntegerParameter(2),1))><Gui(51)/><Else/><If(Equal(IntegerParameter(2),2))><Gui(52)/><Else/><If(Equal(IntegerParameter(2),3))><Gui(53)/><Else/><If(Equal(IntegerParameter(2),4))><Gui(64)/><Else/><If(Equal(IntegerParameter(2),7))><Gui(96)/><Else/></If></If></If></If></If>) (Venture complete)"
 2320,"Retainer"
 2321,""
 2322,"Venture"
@@ -2571,7 +2614,7 @@ Complete"
 2733,"Fee: "
 2737,""
 2738,""
-2739,"このゲームは<Color(-34022)>青少年利用不可</Color>ゲームです。
+2739,"このゲームは<72>F201F4</72><73>F201F5</73>青少年利用不可<73>01</73><72>01</72>ゲームです。
 満18歳未満の青少年は利用できません。"
 2740,"3rd Party License"
 2741,""
@@ -2651,7 +2694,7 @@ Please sign in again."
 2850,"Assign <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> the rank <Highlight>StringParameter(1)</Highlight>?"
 2851,"Assign <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> the rank <Highlight>StringParameter(1)</Highlight>?
 Doing so will change your rank to <Highlight>StringParameter(2)</Highlight>.
-<Color(-32640)>This cannot be undone.</Color>"
+<72>F201FC</72><73>F201FD</73>This cannot be undone.<73>01</73><72>01</72>"
 2852,"Discharge <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> from the free company? <If(PlayerParameter(6))>Her<Else/>His</If> private chambers will automatically be demolished and <If(PlayerParameter(6))>her<Else/>his</If> chocobo removed from the stables. Any retainer stationed on estate grounds by <If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> will, however, remain."
 2853,"Leave the free company? Your retainer will remain on estate grounds."
 2854,"All changes will be lost. Proceed?"
@@ -2803,18 +2846,22 @@ Full soul resonance is almost complete!"
 3062,"Enables duty recording when all conditions are met."
 3063,"Disables duty recording even when all conditions are met."
 3064,"Display Duty Recorder help text."
-3065,"<Color(-32640)>Play function only available in inns.</Color>"
-3066,"<Color(-32640)>Older data version detected. Unable to play.</Color>"
-3067,"<Color(-32640)>Data is corrupted. Unable to play.</Color>"
+3065,"<72>F201FC</72><73>F201FD</73>Play function only available in inns.<73>01</73><72>01</72>"
+3066,"<72>F201FC</72><73>F201FD</73>Older data version detected. Unable to play.<73>01</73><72>01</72>"
+3067,"<72>F201FC</72><73>F201FD</73>Data is corrupted. Unable to play.<73>01</73><72>01</72>"
 3068,"Recorder Manual"
 3069,""
 3070,"<Value>IntegerParameter(1)</Value>/2"
 3071,"・<Clickable(<Sheet(ContentFinderCondition,295,32)/>)/>"
+3072,"<72>F20202</72>Recordable Duties<72>01</72>"
+3073,"・<Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),32)/>)/>"
+3074,"There are no recorded duties."
+3075,"・Locked"
 3079,"[<Value>IntegerParameter(1)</Value>] <ZeroPaddedValue(2)>IntegerParameter(2)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue> <If(GreaterThan(IntegerParameter(5),0))><Switch(IntegerParameter(5))><Case(1)>Restart</Case><Case(2)>Event Cutscene</Case></Switch><Else/>Countdown</If>"
 3080,"Chapter Select"
-3081,"<Color(-34022)>Play</Color>
+3081,"<72>F201F4</72><73>F201F5</73>Play<73>01</73><72>01</72>
 <If(Equal(PlayerParameter(78),3))>space<Else/>Spacebar</If>/<CommandIcon(11)/>"
-3082,"<Color(-34022)>Pause</Color>
+3082,"<72>F201F4</72><73>F201F5</73>Pause<73>01</73><72>01</72>
 <If(Equal(PlayerParameter(78),3))>space<Else/>Spacebar</If>/<CommandIcon(11)/>"
 3083,"Exit"
 3084,"<ZeroPaddedValue(2)>IntegerParameter(1)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(2)</ZeroPaddedValue>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>"
@@ -2832,39 +2879,40 @@ Full soul resonance is almost complete!"
 3096,"Exit view mode?"
 3097,"Recorder Manual"
 3098,""
-3099,"<Color(-34022)>Playback Speed</Color> x1
+3099,"<72>F201F4</72><73>F201F5</73>Playback Speed<73>01</73><72>01</72> x1
 <If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/>"
-3100,"<Color(-34022)>Playback Speed</Color> x2
+3100,"<72>F201F4</72><73>F201F5</73>Playback Speed<73>01</73><72>01</72> x2
 <If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/>"
-3101,"<Color(-34022)>Playback Speed</Color> x4
+3101,"<72>F201F4</72><73>F201F5</73>Playback Speed<73>01</73><72>01</72> x4
 <If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/>"
-3105,"Initiating <Color(-154)>record ready check</Color>.
+3102,"Caution"
+3105,"Initiating <72>F201FA</72><73>F201FB</73>record ready check<73>01</73><72>01</72>.
 Countdown will start and duty will begin recording
 once all duty members have selected “Yes.”
-<Color(-32640)>※A confirmation prompt will not appear
-　for future recordings.</Color>"
+<72>F201FC</72><73>F201FD</73>※A confirmation prompt will not appear
+　for future recordings.<73>01</73><72>01</72>"
 3106,"Determine countdown length (5-30 seconds)"
-3107,"<Color(-34022)>Time remaining for record ready check: <Value>IntegerParameter(1)</Value>m <Value>IntegerParameter(2)</Value>s</Color>"
-3108,"<Color(-34022)>Recording Disabled
-A record of the duty will not be taken.</Color>"
-3109,"<Color(-34022)>Recording Enabled
-A record of the duty will be taken.</Color>"
+3107,"<72>F201F4</72><73>F201F5</73>Time remaining for record ready check: <Value>IntegerParameter(1)</Value>m <Value>IntegerParameter(2)</Value>s<73>01</73><72>01</72>"
+3108,"<72>F201F4</72><73>F201F5</73>Recording Disabled
+A record of the duty will not be taken.<73>01</73><72>01</72>"
+3109,"<72>F201F4</72><73>F201F5</73>Recording Enabled
+A record of the duty will be taken.<73>01</73><72>01</72>"
 3110,"Begin"
-3111,"<Color(-34022)>Waiting for all duty members to confirm record ready check.</Color>"
+3111,"<72>F201F4</72><73>F201F5</73>Waiting for all duty members to confirm record ready check.<73>01</73><72>01</72>"
 3112,"Record Ready Check"
 3113,""
 3114,"None"
-3115,"The <Color(-154)>record ready check</Color> has been initiated. Recording will begin once all players have selected “Yes.”"
+3115,"The <72>F201FA</72><73>F201FB</73>record ready check<73>01</73><72>01</72> has been initiated. Recording will begin once all players have selected “Yes.”"
 3120,"<Gui(100)/>Invite Friend to Return"
 3121,"Upon selecting the Yes button below, the FINAL FANTASY XIV Operations Team will send an e-mail from your character to the specified player, inviting them to return to Eorzea.
 
-<Color(-154)>Invites will not be sent unless all applying conditions are met.
+<72>F201FA</72><73>F201FB</73>Invites will not be sent unless all applying conditions are met.
 No more than 5 invites can be sent at a time.
-A temporary restriction will be placed on invitations after reaching 5.</Color>
+A temporary restriction will be placed on invitations after reaching 5.<73>01</73><72>01</72>
 
-※Visit the following link for details: <Color(-12533761)>http://sqex.to/callback</Color>
+※Visit the following link for details: <72>F201F6</72><73>F201F7</73>https://sqex.to/callback<73>01</73><72>01</72>
 
-Send <Color(-32640)><Highlight>StringParameter(1)</Highlight></Color> an invitation e-mail?"
+Send <72>F201FC</72><73>F201FD</73><Highlight>StringParameter(1)</Highlight><73>01</73><72>01</72> an invitation e-mail?"
 3122,"Confirm invitation."
 3130,"Item Search Settings"
 3131,"Search for items containing certain letters. Up to 100 results will be displayed. Use the cursor keys or <CommandIcon(5)/> up/down to view history."
@@ -2899,7 +2947,7 @@ Send <Color(-32640)><Highlight>StringParameter(1)</Highlight></Color> an invitat
 3180,"Character (PvP)"
 3181,""
 3185,"Glamour Plate"
-3189,"<Color(-154)>※Gear requiring multiple slots will only display in its main slot.</Color>"
+3189,"<72>F201FA</72><73>F201FB</73>※Gear requiring multiple slots will only display in its main slot.<73>01</73><72>01</72>"
 3190,"Recommended Gear"
 3191,"Recommended Gear"
 3192,""
@@ -3044,7 +3092,7 @@ Select the same slot to delete the command."
 3365,"Currency"
 3366,"Achievement Points"
 3367,"Displays achievement certificate help text."
-3368,"Each time you earn an achievement, you will gain achievement points. These points can be exchanged for <Color(-154)>achievement certificates</Color> by speaking with Jonathas in Old Gridania. Certificates can then be used to purchase special rewards including rare items and gear."
+3368,"Each time you earn an achievement, you will gain achievement points. These points can be exchanged for <72>F201FA</72><73>F201FB</73>achievement certificates<73>01</73><72>01</72> by speaking with Jonathas in Old Gridania. Certificates can then be used to purchase special rewards including rare items and gear."
 3369,"Approaching Completion"
 3370,"Current Area"
 3371,"View more achievements approaching completion."
@@ -3225,6 +3273,7 @@ Select the same slot to delete the command."
 3639,"status name"
 3640,"pet name"
 3641,"note name"
+3642,"quick chat name"
 3650,"Items"
 3651,"Key Items & Crystals"
 3652,"Items 1-100"
@@ -3320,7 +3369,7 @@ Select the same slot to delete the command."
 3772,"Adjust system and hotbar HUD layout."
 3773,"Adjust system HUD layout."
 3774,"Adjust hotbar HUD layout."
-3775,"Adjust duty-specific HUD layout. PvP-specific layouts can only be adjusted while participating in PvP."
+3775,"Adjust duty-specific HUD layout. PvP-specific layouts can only be adjusted on Wolves' Den Pier or while participating in PvP."
 3780,"Wait"
 3781,"Return Confirmation"
 3782,"Wait"
@@ -3345,9 +3394,12 @@ Select the same slot to delete the command."
 3811,"Undiscovered"
 3812,"Fishing Log"
 3813,"Required Knowledge: <Sheet(Item,IntegerParameter(1),9)/><If(Equal(IntegerParameter(2),0))><Else/>(In Inventory)</If>"
-3815,"Preserve the following item with a collectability of <Color(52258)><Value>IntegerParameter(1)</Value></Color>?
+3814,"Weather Restrictions: <Switch(IntegerParameter(1))><Case(1)>Yes</Case><Case(2)>None</Case><Case(3)>???</Case></Switch>
+Time Restrictions: <Switch(IntegerParameter(2))><Case(1)>Yes</Case><Case(2)>None</Case><Case(3)>???</Case></Switch>
+Special Conditions: <Switch(IntegerParameter(3))><Case(1)>Yes</Case><Case(2)>None</Case><Case(3)>???</Case></Switch>"
+3815,"Preserve the following item with a collectability of <72>F201F8</72><73>F201F9</73><Value>IntegerParameter(1)</Value><73>01</73><72>01</72>?
 
-<Color(-34022)>※An item which has been preserved as a collectable cannot be traded or sold.</Color>"
+<72>F201F4</72><73>F201F5</73>※An item which has been preserved as a collectable cannot be traded or sold.<73>01</73><72>01</72>"
 3816,"Toggle between fishing and spearfishing."
 3820,"Fish Guide"
 3821,""
@@ -3358,6 +3410,7 @@ Select the same slot to delete the command."
 3825,"There is nothing to display."
 3826,"Additional Information"
 3827,"Collectable"
+3828,"Required to Gather: <Sheet(Item,IntegerParameter(1),9)/> (<If(Equal(IntegerParameter(2),0))>Not Owned<Else/>Owned</If>)"
 3830,"Records"
 3831,""
 3832,"There is nothing to display."
@@ -3819,8 +3872,8 @@ Settings will be restored in <Value>IntegerParameter(1)</Value> <If(Equal(Intege
 4431,"Qty."
 4432,"You do not possess any meldable materia."
 4433,"You do not possess any meldable gear in this category."
-4434,"<Color(-154)>Unable to meld materia.
-Reattempt meld using the same materials?</Color>"
+4434,"<72>F201FA</72><73>F201FB</73>Unable to meld materia.
+Reattempt meld using the same materials?<73>01</73><72>01</72>"
 4435,"Convert"
 4436,"Meld"
 4437,"Request Meld"
@@ -4193,6 +4246,7 @@ Rank <Value>IntegerParameter(1)</Value>"
 4815,"Date/Time"
 4816,"There are no sales to display."
 4817,"List could not be updated."
+4818,"Reflect Quest Progression"
 4820,"Crest Editor"
 4821,""
 4822,"Preview"
@@ -4222,10 +4276,10 @@ Rank <Value>IntegerParameter(1)</Value>"
 4850,"Attempts (Max: <Value>IntegerParameter(1)</Value>)"
 4851,"Use HQ materials."
 4852,"Synthesize"
-4853,"<Color(-34022)>※HQ materials will not improve item quality.</Color>"
+4853,"<72>F201F4</72><73>F201F5</73>※HQ materials will not improve item quality.<73>01</73><72>01</72>"
 4854,"Select the quantity you wish to synthesize."
 4855,"Cancel"
-4856,"<Color(-34022)>※Quick synthesis cannot be used to craft collectables.</Color>"
+4856,"<72>F201F4</72><73>F201F5</73>※Quick synthesis cannot be used to craft collectables.<73>01</73><72>01</72>"
 4860,"Default"
 4861,"Apply"
 4862,"Close"
@@ -4764,7 +4818,7 @@ Rank <Value>IntegerParameter(1)</Value>"
 5406,"Rating: "
 5407,"<If(Equal(IntegerParameter(2),0))><Value>IntegerParameter(1)</Value><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(1)</Value>（+<Value>IntegerParameter(2)</Value>）<Else/><Value>IntegerParameter(1)</Value>（<Value>IntegerParameter(2)</Value>）</If></If>"
 5408,"Tier"
-5409,"You have been KO'd and lost medals (<Color(-154)><Value>IntegerParameter(1)</Value> → <Value>IntegerParameter(2)</Value></Color>). 
+5409,"You have been KO'd and lost medals (<72>F201FA</72><73>F201FB</73><Value>IntegerParameter(1)</Value> → <Value>IntegerParameter(2)</Value><73>01</73><72>01</72>). 
 Returning to starting area shortly."
 5410,"Medals"
 5411,"(Wins: <Highlight>StringParameter(1)</Highlight>%)"
@@ -4828,8 +4882,8 @@ A: The number of KOs you assisted"
 5472,"Search"
 5473,"Search for a quest containing a specified term. Move the cursor up/down to view search history.
 
-<Color(-154)>※Uncheck the Title Only box to search the entire quest text database for the specified term.
-Results may take longer to display.</Color>"
+<72>F201FA</72><73>F201FB</73>※Uncheck the Title Only box to search the entire quest text database for the specified term.
+Results may take longer to display.<73>01</73><72>01</72>"
 5474,"No matching quests."
 5475,"Searching..."
 5476,"Title Only"
@@ -4839,6 +4893,13 @@ Results may take longer to display.</Color>"
 5482,"Customize Subcommands"
 5483,"Preview"
 5484,"Retrieve Materia"
+5490,"Category"
+5491,"Search"
+5492,"Type in the full or partial name of an item and press Enter to commence the search."
+5493,"Results"
+5494,"No results found."
+5495,"Category"
+5496,"Search"
 5500,"Open the FINAL FANTASY XIV Lodestone playguide in your default web browser?"
 5501,"Yes"
 5502,"No"
@@ -4931,7 +4992,7 @@ Please remove it from your hotbar."
 5611,"1 Line"
 5612,"2 Lines"
 5613,"3 Lines"
-5614,"x<Value>IntegerParameter(1)</Value>"
+5614,"x <Value>IntegerParameter(1)</Value>"
 5615,"Select One"
 5616,"Second Chance"
 5617,"Use Second Chance points."
@@ -5047,7 +5108,7 @@ Proceed?"
 5743,"Undo all recent changes?"
 5744,"Reset all changes?"
 5745,"Cancel glamour application?"
-5746,"<Color(-32640)>Unable to apply glamours. Insufficient prisms.</Color>"
+5746,"<72>F201FC</72><73>F201FD</73>Unable to apply glamours. Insufficient prisms.<73>01</73><72>01</72>"
 5747,"Glamoured gear will be bound to you."
 5750,"Tribal"
 5751,"Beastman Currency"
@@ -5119,6 +5180,12 @@ Proceed?"
 5907,"F-number"
 5908,"Enable idling camera."
 5909,"Limb Darkening"
+5917,"Play/Stop Movement
+※Can be used on the following targets:
+　PC, Companions, Pets, Minions, Mounts
+※Some motions unavailable for pets/minions."
+5918,"Initiate Movement"
+5919,"Reset Movement"
 5920,"Face Camera:
 Keyboard: <If(Equal(PlayerParameter(78),3))>space<Else/>Space</If> Key
 <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If>: <CommandIcon(11)/> Button"
@@ -5181,6 +5248,7 @@ Keyboard: X Key
 5945,"Apply Lighting 3 to Camera Position"
 5946,"Reset Lighting Settings"
 5947,"Reset Brightness Settings"
+5948,"Stop Time/Weather"
 5950,"Idling Camera Settings"
 5951,""
 5952,"Enable switching."
@@ -5215,6 +5283,19 @@ Keyboard: X Key
 5987,"※Exit group pose to apply battle action changes."
 5988,"※Cannot add status.
 　Target motion disabled."
+5989,"Movement Settings"
+5990,"Movement"
+5991,"※Movement not available
+　during certain
+　emotes/statuses."
+5992,"Walk Forward"
+5993,"Run Forward"
+5994,"Sprint Forward"
+5995,"Slowly Strafe Left"
+5996,"Quickly Strafe Left"
+5997,"Slowly Strafe Right"
+5998,"Quickly Strafe Right"
+5999,"Walk Backwards"
 6000,"Y"
 6001,"B"
 6002,"A"
@@ -5307,10 +5388,10 @@ An additional <Value>IntegerParameter(1)</Value> <Switch(IntegerParameter(2))><C
 6126,"Issues"
 6127,"Thank you for your report. A representative will review it shortly.
 
-Notification of a reply will be displayed in <Color(-34022)>Recent Replies & Notices</Color> located under the <Color(-34022)>Information</Color> tab. Depending on the issue, the representative may request further information. All queries and replies can be viewed under the <Color(-34022)>History</Color> tab. "
+Notification of a reply will be displayed in <72>F201F4</72><73>F201F5</73>Recent Replies & Notices<73>01</73><72>01</72> located under the <72>F201F4</72><73>F201F5</73>Information<73>01</73><72>01</72> tab. Depending on the issue, the representative may request further information. All queries and replies can be viewed under the <72>F201F4</72><73>F201F5</73>History<73>01</73><72>01</72> tab. "
 6128,"Thank you for your report. A representative will review it shortly.
 
-Notification of a reply will be displayed in <Color(-34022)>Recent Replies & Notices</Color> located under the <Color(-34022)>Information</Color> tab. Depending on the issue, the representative may request further information. All queries and replies can be viewed under the <Color(-34022)>History</Color> tab. "
+Notification of a reply will be displayed in <72>F201F4</72><73>F201F5</73>Recent Replies & Notices<73>01</73><72>01</72> located under the <72>F201F4</72><73>F201F5</73>Information<73>01</73><72>01</72> tab. Depending on the issue, the representative may request further information. All queries and replies can be viewed under the <72>F201F4</72><73>F201F5</73>History<73>01</73><72>01</72> tab. "
 6129,"Close this issue?"
 6130,"The issue is closed."
 6131,"Thank you for your report. A representative will review it shortly."
@@ -5422,6 +5503,7 @@ Notification of a reply will be displayed in <Color(-34022)>Recent Replies & Not
 6259,""
 6260,"Allow the following privileges to non-free company members:"
 6261,"Estate Hall Access"
+6262,"Estate Tag Settings."
 6265,"Outdoor Furnishings"
 6266,""
 6267,"Placed"
@@ -5464,12 +5546,12 @@ Notification of a reply will be displayed in <Color(-34022)>Recent Replies & Not
 6305,"Close"
 6306,"Display Help Text"
 6307,"Once removed, the fixture can no longer be put up for sale.
-<Color(-32640)>The following may also result in loss of items:
+<72>F201FC</72><73>F201FD</73>The following may also result in loss of items:
   - The removal of said item by another player
   - Leaving or being discharged from the free
   company
   - Unsharing an estate
-  - The demolition of an estate</Color>
+  - The demolition of an estate<73>01</73><72>01</72>
 
 Estate exterior fixtures can, at any time,
 be removed and returned to your inventory.
@@ -5479,12 +5561,12 @@ inventory as well.
 
 Select “Confirm” to finalize all changes."
 6308,"Once removed, the fixture can no longer be put up for sale.
-<Color(-32640)>The following may also result in loss of items:
+<72>F201FC</72><73>F201FD</73>The following may also result in loss of items:
   - The removal of said item by another player
   - Leaving or being discharged from the free
   company
   - Unsharing an estate
-  - The demolition of an estate</Color>
+  - The demolition of an estate<73>01</73><72>01</72>
 This includes items purchased on the Mog Station or redeemed with a promotional code.
 
 Estate interior furnishings can, at any time,
@@ -5529,7 +5611,7 @@ Select “Confirm” to finalize all changes."
 6345,"Select Residential Ward"
 6346,""
 6347,"What would you like to do?"
-6349,"Go to specified ward."
+6349,"Go to specified ward. (Review Tabs)"
 6350,"Nothing."
 6351,"Ward"
 6352,"Number"
@@ -5748,7 +5830,7 @@ Proceed anyway?"
 6571,"Range"
 6572,"Favor"
 6573,"Capacity"
-6574,"<If(GreaterThan(IntegerParameter(1),IntegerParameter(2)))><Color(-34022)><Value>IntegerParameter(1)</Value></Color>/<Value>IntegerParameter(2)</Value><Else/><Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value></If>"
+6574,"<If(GreaterThan(IntegerParameter(1),IntegerParameter(2)))><72>F201F4</72><73>F201F5</73><Value>IntegerParameter(1)</Value><73>01</73><72>01</72>/<Value>IntegerParameter(2)</Value><Else/><Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value></If>"
 6575,"Components"
 6576,"Register"
 6577,"Cancel"
@@ -5892,11 +5974,11 @@ Proceed anyway?"
 6720,"Evict"
 6721,"Evict <Highlight>StringParameter(1)</Highlight> from the estate?
 
-<Color(-34022)>※The evicted party will no longer be able to access certain estate features.</Color>"
+<72>F201F4</72><73>F201F5</73>※The evicted party will no longer be able to access certain estate features.<73>01</73><72>01</72>"
 6722,"Confirm eviction."
 6723,"Welcome <Highlight>StringParameter(1)</Highlight> to the shared estate?
 
-<Color(-154)>※Authorizations are updated upon closing window.</Color>"
+<72>F201FA</72><73>F201FB</73>※Authorizations are updated upon closing window.<73>01</73><72>01</72>"
 6724,"Shared Estate (Plot <Value>IntegerParameter(3)</Value>, <Switch(IntegerParameter(2))><Case(1)>1st</Case><Case(2)>2nd</Case><Case(3)>3rd</Case><Case(4)>4th</Case><Case(5)>5th</Case><Case(6)>6th</Case><Case(7)>7th</Case><Case(8)>8th</Case><Case(9)>9th</Case><Case(10)>10th</Case><Case(11)>11th</Case><Case(12)>12th</Case><Case(13)>13th</Case><Case(14)>14th</Case><Case(15)>15th</Case><Case(16)>16th</Case><Case(17)>17th</Case><Case(18)>18th</Case><Case(19)>19th</Case><Case(20)>20th</Case></Switch> Ward, <Sheet(PlaceName,IntegerParameter(1),0)/>)."
 6725,"Shared Estate (Plot <Value>IntegerParameter(3)</Value>, <Switch(IntegerParameter(2))><Case(1)>1st</Case><Case(2)>2nd</Case><Case(3)>3rd</Case><Case(4)>4th</Case><Case(5)>5th</Case><Case(6)>6th</Case><Case(7)>7th</Case><Case(8)>8th</Case><Case(9)>9th</Case><Case(10)>10th</Case><Case(11)>11th</Case><Case(12)>12th</Case><Case(13)>13th</Case><Case(14)>14th</Case><Case(15)>15th</Case><Case(16)>16th</Case><Case(17)>17th</Case><Case(18)>18th</Case><Case(19)>19th</Case><Case(20)>20th</Case></Switch> Ward, <Sheet(PlaceName,IntegerParameter(1),0)/>)."
 6726,"<Sheet(MateAuthorityCategory,1,0)/>"
@@ -5911,21 +5993,21 @@ Proceed anyway?"
 6735,"<Sheet(HousingMateAuthority,6,0)/>"
 6736,"<If(GreaterThan(IntegerParameter(1),1))>Relocate to a new private estate for <Format(IntegerParameter(1),FF022C)/> gil?
 
-<Color(-154)>※30% of the minimum value of the old plot was applied towards the price of the new.</Color><Else/></If><If(LessThan(IntegerParameter(1),1))>Relocate to a new private estate? No fees will be incurred.
+<72>F201FA</72><73>F201FB</73>※30% of the minimum value of the old plot was applied towards the price of the new.<73>01</73><72>01</72><Else/></If><If(LessThan(IntegerParameter(1),1))>Relocate to a new private estate? No fees will be incurred.
 
-<Color(-154)>※30% of the minimum value of the old plot was more than the price of the new.</Color><Else/></If>"
+<72>F201FA</72><73>F201FB</73>※30% of the minimum value of the old plot was more than the price of the new.<73>01</73><72>01</72><Else/></If>"
 6737,"<If(GreaterThan(IntegerParameter(1),1))>Relocate to a new free company estate for <Format(IntegerParameter(1),FF022C)/> gil?
 
-<Color(-154)>※30% of the minimum value of the old plot was applied towards the price of the new.</Color><Else/></If><If(LessThan(IntegerParameter(1),1))>Relocate to a new free company estate? No fees will be incurred.
+<72>F201FA</72><73>F201FB</73>※30% of the minimum value of the old plot was applied towards the price of the new.<73>01</73><72>01</72><Else/></If><If(LessThan(IntegerParameter(1),1))>Relocate to a new free company estate? No fees will be incurred.
 
-<Color(-154)>※30% of the minimum value of the old plot was more than the price of the new.</Color><Else/></If>"
+<72>F201FA</72><73>F201FB</73>※30% of the minimum value of the old plot was more than the price of the new.<73>01</73><72>01</72><Else/></If>"
 6738,"<Clickable(<Sheet(MateAuthorityCategory,5,0)/>)/>"
 6739,"<Clickable(<Sheet(HousingMateAuthority,7,0)/>)/>"
 6740,"Leave"
 6741,"Leave shared estate."
 6742,"Leave the estate?
 
-<Color(-34022)>※You will no longer be able to access certain estate features.</Color>"
+<72>F201F4</72><73>F201F5</73>※You will no longer be able to access certain estate features.<73>01</73><72>01</72>"
 6745,"Flower Vase"
 6746,""
 6747,"Available Flowers"
@@ -5934,7 +6016,7 @@ Proceed anyway?"
 6750,"Nothing"
 6751,"There are no flowers in your inventory."
 6752,"Place <SheetEn(Item,2,IntegerParameter(1),1,1)/> in the vase?"
-6753,"<Color(-154)>You have selected the same item that is already on display.</Color>
+6753,"<72>F201FA</72><73>F201FB</73>You have selected the same item that is already on display.<73>01</73><72>01</72>
 
 Discard the following item and replace it with another?"
 6754,""
@@ -5979,8 +6061,8 @@ Discard the following item and replace it with another?"
 6805,"Return"
 6806,"Proceed with the specified changes?
 
-<Color(-34022)>※HQ items and collectables will be rendered normal.</Color>
-<Color(-34022)>※Items currently contained in the aquarium will be destroyed.</Color>"
+<72>F201F4</72><73>F201F5</73>※HQ items and collectables will be rendered normal.<73>01</73><72>01</72>
+<72>F201F4</72><73>F201F5</73>※Items currently contained in the aquarium will be destroyed.<73>01</73><72>01</72>"
 6807,"Select Fish/Accessories"
 6808,"Aquarium Settings"
 6810,"Aquarium Fish"
@@ -6002,7 +6084,7 @@ Discard the following item and replace it with another?"
 6826,"<If(Equal(IntegerParameter(1),1))>Sightseeing Log<Else/><If(Equal(IntegerParameter(1),2))>Landscapes<Else/></If></If>"
 6827,"Frame <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
 6828,"The same painting is already framed. Proceed and the following item will be lost:"
-6829,"<Color(-34022)>Discard the following painting</Color> and replace it with <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
+6829,"<72>F201F4</72><73>F201F5</73>Discard the following painting<73>01</73><72>01</72> and replace it with <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
 6830,"Available"
 6831,"Current"
 6832,"There are no items to frame."
@@ -6026,17 +6108,17 @@ Discard the following item and replace it with another?"
 6850,"Outdoor Furnishings"
 6851,"No indoor furnishings stored."
 6852,"No outdoor furnishings stored."
-6853,"<Color(-154)>※You will not be able to complete relocation
+6853,"<72>F201FA</72><73>F201FB</73>※You will not be able to complete relocation
 　if the total number of items placed both in your
 　estate and stored in your storeroom exceeds 400
-　indoor furnishings and 40 outdoor furnishings.　Chocobo stables and aetherytes not included in limit.</Color>"
+　indoor furnishings and 40 outdoor furnishings.　Chocobo stables and aetherytes not included in limit.<73>01</73><72>01</72>"
 6854,"Close"
 6855,"Display"
 6856,"Storage Mode"
 6857,"Wall Decoration"
 6858,""
 6859,"Apply <SheetEn(Item,1,IntegerParameter(1),1,1)/>?"
-6860,"<Color(-154)>You are attempting to apply the same design. Proceed and lose the currently applied item?</Color>"
+6860,"<72>F201FA</72><73>F201FB</73>You are attempting to apply the same design. Proceed and lose the currently applied item?<73>01</73><72>01</72>"
 6861,"Apply <SheetEn(Item,1,IntegerParameter(1),1,1)/>? The currently applied design will be lost."
 6862,"Available Designs"
 6863,"Current Design"
@@ -6104,6 +6186,88 @@ Discard the following item and replace it with another?"
 
 “<Highlight>StringParameter(1)</Highlight>”"
 6925,"Like"
+6926,"<Unknown2D>FF07022903EA0203</Unknown2D>"
+6927,"Class/Job: <Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D>"
+6928,"Race: <Sheet(Race,IntegerParameter(1),0)/>"
+6929,"Gender: <If(Equal(IntegerParameter(1),0))>♂<Else/>♀</If>"
+6930,"Pose: <Highlight>StringParameter(1)</Highlight>"
+6931,"Sales Retainer"
+6932,"<Highlight>StringParameter(1)</Highlight>"
+6933,"Capacity: <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
+6934,"Wares List"
+6935,"Sell Only as Set"
+6936,"Grand Total"
+6938,"Mannequin Gear"
+6939,""
+6940,"Inventory/Armoury Chest"
+6941,"Retainer Inventory"
+6942,"Item"
+6943,"There are no items."
+6944,"SOLD OUT"
+6945,"No taxes will be collected on items sold from mannequins."
+6946,"Remove gear from mannequin?"
+6947,"Return to Inventory"
+6948,"Adjust Price"
+6949,"Mannequin Shop"
+6950,""
+6951,"Select an item to purchase."
+6952,"Set must be purchased as a whole.
+Individual pieces are not for sale."
+6953,"Grand Total"
+6954,"Return to Retainer Inventory"
+6955,"Items for Sale"
+6956,"Purchase"
+6957,"Close"
+6958,"SOLD OUT"
+6959,"Purchase selected item for <Format(IntegerParameter(1),FF022C)/> gil?"
+6960,"Level"
+6961,"Mannequin Shop Settings"
+6962,""
+6963,"Apply"
+6964,"Tag house activities."
+6965,"Main"
+6966,"Sub 1"
+6967,"Sub 2"
+6968,"Tag"
+6969,"Tag"
+6970,"Main"
+6971,"Sub 1"
+6972,"Sub 2"
+6973,"Tag"
+6974,"<72>F201FA</72><73>F201FB</73>One or more items may not be compatible with your current class, level, or gear.<73>01</73><72>01</72>"
+6975,"<72>F201FC</72><73>F201FD</73>One or more items selected are no longer for sale.<73>01</73><72>01</72>"
+6976,"Purchase"
+6977,"Purchase"
+6978,"Purchase"
+6979,"Remove Sold Out Item"
+6980,"Changes are not reflected until
+the Apply button is pressed."
+6981,"Select a retainer to serve as merchant."
+6982,"Mannequin Display Settings"
+6983,""
+6984,"Retainer"
+6985,"Item List"
+6986,"<Not for Sale>"
+6987,"Display gear on mannequin?
+Items displayed are not for sale."
+6988,"Remove gear from mannequin?"
+6989,"Mannequin Display"
+6990,""
+6991,"View items displayed on mannequin.
+Items displayed are not for sale."
+6992,"Item List"
+6993,"<Not for Sale>"
+6994,"Place gear on markets for sale as a set.
+
+<72>F201FA</72><73>F201FB</73>※Please note, by making gear set available for sale, your character's name will be known to other players, allowing them to send you /tell messages.<73>01</73><72>01</72>"
+6995,"Sell as Set"
+6996,"Send Seller /tell"
+6997,"<Not for Sale>"
+6998,"<Not for Sale>"
+6999,"Estate Tag Settings"
+7000,""
+7001,"Remove from Sale"
+7002,"Not for Sale"
 7050,"Orchestrion Playlist"
 7051,""
 7053,"Play All"
@@ -6123,13 +6287,13 @@ Discard the following item and replace it with another?"
 7071,"The playlist is empty."
 7072,"Commence <Emphasis><Highlight>StringParameter(2)</Highlight></Emphasis> (mode: <Highlight>StringParameter(1)</Highlight>)?
 
-<Color(-154)>※Affects estate BGM.</Color>"
+<72>F201FA</72><73>F201FB</73>※Affects estate BGM.<73>01</73><72>01</72>"
 7073,"Stop current playlist?
 
-<Color(-154)>※Affects estate BGM.</Color>"
+<72>F201FA</72><73>F201FB</73>※Affects estate BGM.<73>01</73><72>01</72>"
 7074,"Change current playlist to <Highlight>StringParameter(1)</Highlight>?
 
-<Color(-154)>※Affects estate BGM.</Color>"
+<72>F201FA</72><73>F201FB</73>※Affects estate BGM.<73>01</73><72>01</72>"
 7075,"Estate BGM"
 7078,"Select Track"
 7080,"Playlist Editor"
@@ -6144,7 +6308,7 @@ Discard the following item and replace it with another?"
 7089,"Cancel"
 7090,"Update playlist?
 
-<Color(-154)>※May affect estate BGM.</Color>"
+<72>F201FA</72><73>F201FB</73>※May affect estate BGM.<73>01</73><72>01</72>"
 7091,"Discard changes and return to the playlist?"
 7095,"Playlist Tracks"
 7096,""
@@ -6629,7 +6793,7 @@ Discard the following item and replace it with another?"
 7951,"Server Time"
 7955,"24-hour Format"
 7956,"12-hour Format"
-7960,"Dim unequippable gear in the Armoury Chest when in Equip mode."
+7960,"Remove dim effect from unequippable gear in the Armoury Chest."
 7962,"Subcommand Customization"
 7963,"Open"
 7965,"Show All"
@@ -6728,34 +6892,34 @@ Discard the following item and replace it with another?"
 8093,"Caution. You have already completed the duty selected.
 
 Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
-<Color(-34022)>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch></Color>"
+<72>F201F4</72><73>F201F5</73>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch><73>01</73><72>01</72>"
 8094,"Caution. You have already completed the duty selected.
 
 <Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> <If(Equal(IntegerParameter(2),1))>member of the party has<Else/>members of the party have</If> progressed beyond this part in the story. <Clickable(<If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If>)/> treasure <If(Equal(IntegerParameter(3),1))>coffer<Else/>coffers</If> will appear upon duty completion.
 
 Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
-<Color(-34022)>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch></Color>"
+<72>F201F4</72><73>F201F5</73>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch><73>01</73><72>01</72>"
 8095,"<Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> <If(Equal(IntegerParameter(2),1))>member of the party has<Else/>members of the party have</If> progressed beyond this part in the story. <Clickable(<If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If>)/> treasure <If(Equal(IntegerParameter(3),1))>coffer<Else/>coffers</If> will appear upon duty completion.
 
 Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
-<Color(-34022)>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch></Color>"
+<72>F201F4</72><73>F201F5</73>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch><73>01</73><72>01</72>"
 8096,"Caution. The duty selected is beyond your current story progression.
 
 <Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> <If(Equal(IntegerParameter(2),1))>member of the party has<Else/>members of the party have</If> progressed beyond this part in the story. <Clickable(<If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If>)/> treasure <If(Equal(IntegerParameter(3),1))>coffer<Else/>coffers</If> will appear upon duty completion.
 
 Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
-<Color(-34022)>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch></Color>"
+<72>F201F4</72><73>F201F5</73>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch><73>01</73><72>01</72>"
 8097,"Caution. The duty selected is beyond your current story progression.
 
 Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
-<Color(-34022)>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch></Color>"
+<72>F201F4</72><73>F201F5</73>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch><73>01</73><72>01</72>"
 8098,"Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?"
 8099,"<Color(-32640)>Caution.</Color>
 
 A total of <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> members (including you) have already completed this duty and are no longer eligible for duty rewards. <Clickable(<If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If>)/> treasure <If(Equal(IntegerParameter(3),1))>coffer<Else/>coffers</If> will appear upon duty completion.
 
 Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
-<Color(-34022)>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch></Color>"
+<72>F201F4</72><73>F201F5</73>※Loot rule: <Switch(IntegerParameter(4))><Case(1)>Normal</Case><Case(2)>Greed Only</Case><Case(3)>Lootmaster</Case></Switch><73>01</73><72>01</72>"
 8100,"Decipher"
 8101,"Decipher <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
 8102,"Decipher"
@@ -6770,14 +6934,15 @@ Enter <Sheet(InstanceContent,IntegerParameter(1),3)/>?
 8111,"Examine Treasure Coffer"
 8112,"Defeat Enemy"
 8113,"Secure Treasure Coffer"
-8114,"Touch the teleportation ward and enter <InstanceContent><Sheet(InstanceContent,IntegerParameter(1),3)/></InstanceContent>!"
-8115,"Touch Teleportation Ward"
-8116,"Enter <InstanceContent><Sheet(InstanceContent,IntegerParameter(1),3)/></InstanceContent>?
-<Color(-32640)>Any party members will also be transported.</Color>"
+8114,"Pass through the portal into Uznair!"
+8115,"Enter the Portal"
+8116,"Journey to Uznair?
+<72>F201FC</72><73>F201FD</73>Any party members will also be transported.<73>01</73><72>01</72>"
 8120,"Display log message."
 8124,"<Sheet(EmoteCategory,1,0)/>"
 8125,"<Sheet(EmoteCategory,2,0)/>"
 8126,"<Sheet(EmoteCategory,3,0)/>"
+8127,"Favorites"
 8130,"Ready Check"
 8131,""
 8132,"Close"
@@ -6909,7 +7074,7 @@ Current settings will be overwritten. Proceed?"
 8293,"30m"
 8294,"60m"
 8295,"Specify destination folder path.
-<Color(-34022)>Advanced users only.</Color>"
+<72>F201F4</72><73>F201F5</73>Advanced users only.<73>01</73><72>01</72>"
 8296,"Switch to idling camera when auto-AFK activates."
 8297,"Group Pose/Idling Camera Settings"
 8298,"Switch online status to Camera Mode while active."
@@ -6920,8 +7085,8 @@ Current settings will be overwritten. Proceed?"
 8304,"Toggle"
 8305,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(8)/> Summon"
 8306,"<CommandIcon(11)/> Toggle Between Lists"
-8307,"You have yet to acquire a mount."
-8308,"You have yet to collect a minion."
+8307,"Manage minions added to your favorites list."
+8308,"Manage mounts added to your favorites list."
 8309,"Select a mount."
 8310,"Select a minion."
 8311,"Total: <Value>IntegerParameter(1)</Value>"
@@ -6935,6 +7100,14 @@ Current settings will be overwritten. Proceed?"
 8319,"Edit minion hotbar."
 8320,"Target"
 8321,"Open the Yo-kai Medallium."
+8322,"Summon"
+8323,"Add to Favorites"
+8324,"Remove from Favorites"
+8325,"Add to Hotbar"
+8326,"Summon"
+8327,"Add to Favorites"
+8328,"Remove from Favorites"
+8329,"Add to Hotbar"
 8330,"Trials of the Braves"
 8331,""
 8332,"Reward"
@@ -6954,18 +7127,36 @@ Current settings will be overwritten. Proceed?"
 8346,"Discard key item."
 8347,"Complete the Grand Company levequest “<Sheet(Leve,IntegerParameter(1),0)/>.”"
 8348,"Crystals Acquired"
+8349,"Dismiss"
+8350,"Dismiss"
+8351,"Search Minion Guide. Up to 30 results are displayed."
+8352,"Search Mount Guide. Up to 30 results are displayed."
+8353,"Search"
+8354,"Include Body Text"
+8355,"Search"
+8356,"Include Body Text"
+8357,"Select a new slot."
+8358,"Select a new slot."
+8359,"Type in the full or partial name of a minion and press Enter to commence the search."
+8360,"Type in the full or partial name of a mount and press Enter to commence the search."
 8361,"Grade"
 8362,"Grade: <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value><Else/>???</If>"
 8363,"Ability: <If(GreaterThan(IntegerParameter(1),0))><Sheet(ChocoboRaceAbility,IntegerParameter(1),0)/><Else/><If(Equal(IntegerParameter(1),0))>None<Else/>???</If></If>"
 8364,"Color: <If(GreaterThan(IntegerParameter(1),0))><Sheet(Stain,IntegerParameter(1),2)/><Else/>???</If>"
 8365,"Breeding Capacity: <If(LessThan(IntegerParameter(1),0))>?<Else/><Value>IntegerParameter(1)</Value></If>"
 8366,"Pedigree"
-8367,"<Color(-13576449)>♂</Color><If(GreaterThan(IntegerParameter(1),0))><Color(-12753539)><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch></Color><Color(-13576449)><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch></Color><Else/><Color(-13576449)>???</Color></If>　<Color(-32159)>♀</Color><If(GreaterThan(IntegerParameter(2),0))><Color(-8369605)><Switch(IntegerParameter(2))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch></Color><Color(-32159)><Switch(IntegerParameter(2))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch></Color><Else/><Color(-32159)>???</Color></If>"
+8367,"<72>F20211</72>♂<72>01</72><If(GreaterThan(IntegerParameter(1),0))><72>F20212</72><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch><72>01</72><72>F20211</72><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch><72>01</72><Else/><72>F20211</72>???<72>01</72></If>　<72>F20213</72>♀<72>01</72><If(GreaterThan(IntegerParameter(2),0))><72>F20214</72><Switch(IntegerParameter(2))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch><72>01</72><72>F20213</72><Switch(IntegerParameter(2))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch><72>01</72><Else/><72>F20213</72>???<72>01</72></If>"
 8368,"Fledgling"
 8369,"Adoption Date"
 8370,"Catalyst Acquired"
 8371,"Zodiac Material Acquired"
 8372," "
+8373,"Minion not found."
+8374,"Mount not found."
+8375,"Favorites"
+8376,"Minion Search"
+8377,"Favorites"
+8378,"Mount Search"
 8380,"One piece of gear or gear-enhancing material obtainable per week."
 8400,"Visual Alerts"
 8401,"Enable visual alerts."
@@ -7025,62 +7216,77 @@ Current settings will be overwritten. Proceed?"
  - The brightness of estate lighting can now be adjusted.
  - Estates not accessed for extended periods of time will be automatically demolished and the plots of land put back up for sale.
 
-For further details on these changes, speak with a <Color(-154)>resident caretaker</Color>."
-8462,"Exploratory missions are now available through the company workshop's <Color(-154)>voyage control panel</Color>. These missions allow you and your company members to explore a remote cluster of islets in the Sea of Clouds known as the Diadem.
+For further details on these changes, speak with a <72>F201FA</72><73>F201FB</73>resident caretaker<73>01</73><72>01</72>."
+8462,"Exploratory missions are now available through the company workshop's <72>F201FA</72><73>F201FB</73>voyage control panel<73>01</73><72>01</72>. These missions allow you and your company members to explore a remote cluster of islets in the Sea of Clouds known as the Diadem.
 
 For further details, speak with the mammet voyager #004A."
 8463,"Flowerpots and flower vases are now available for placement in all private estates and chambers. Curious crops grown in the flowerpots can be exchanged for materials at residential area material suppliers."
-8464,"<Color(-154)>Apartments</Color> are now available for purchase in residential areas. Speak with a resident caretaker for details."
+8464,"<72>F201FA</72><73>F201FB</73>Apartments<73>01</73><72>01</72> are now available for purchase in residential areas. Speak with a resident caretaker for details."
 8465,"The following activities have been added to the Duty Finder and are accessible under Gold Saucer:
 
-<Color(-154)>Triple Triad Battlehall Matches</Color>
-<Color(-154)>LoVM Player Battles (Non-RP)</Color>
-<Color(-154)>LoVM Player Battles (RP)</Color>
-<Color(-154)>LoVM Tournaments</Color>
+<72>F201FA</72><73>F201FB</73>Triple Triad Battlehall Matches<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>LoVM Player Battles (Non-RP)<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>LoVM Player Battles (RP)<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>LoVM Tournaments<73>01</73><72>01</72>
 
 Lord of Verminion match registration no longer requires MGP."
 8466,"The following features have been added to estate orchestrions:
 
-<Color(-154)>Playlists</Color>
-<Color(-154)>Play All option</Color>
-<Color(-154)>Repeat option</Color>
-<Color(-154)>Shuffle option</Color>
+<72>F201FA</72><73>F201FB</73>Playlists<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Play All option<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Repeat option<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Shuffle option<73>01</73><72>01</72>
 
 Further information on playlists can be found under the active help topic “The Orchestrion.”
 
-Caught fish can now be placed in <Color(-154)>aquariums</Color> and displayed in estates or private rooms."
+Caught fish can now be placed in <72>F201FA</72><73>F201FB</73>aquariums<73>01</73><72>01</72> and displayed in estates or private rooms."
 8467,"Paintings are now available for purchase at the Hard Place in Idyllshire. These paintings can be placed in frames and displayed in personal estates, rooms, and apartments."
-8468,"New exploratory missions are now available through the company workshop's <Color(-154)>voyage control panel</Color>. These missions allow you and your company members to explore a remote cluster of islets in the Sea of Clouds known as the Diadem.
+8468,"New exploratory missions are now available through the company workshop's <72>F201FA</72><73>F201FB</73>voyage control panel<73>01</73><72>01</72>. These missions allow you and your company members to explore a remote cluster of islets in the Sea of Clouds known as the Diadem.
 
 For further details, speak with the mammet voyager #004A."
-8469,"A <Color(-154)>relocation</Color> option is now available to estate owners wishing to move to a new plot of land. In addition, owners will now be granted use of <Color(-154)>storerooms</Color> for the temporary storage of both outdoor and indoor furnishings. Speak with a resident caretaker for details."
-8470,"Unsure what to wear to the coming seasonal event? <Color(-154)>Glamour dressers</Color> have been added to inn rooms in all of Eorzea's major city-states and Kugane, making gear coordination even easier!"
-8471,"Custom <Color(-154)>PvP teams</Color> can now be formed! View the <Color(-154)>team creation board</Color> located on the <Color(-154)>Wolves' Den Pier</Color> to learn more!"
-8472,"The following temporary <Color(-154)>restrictions</Color> have
+8469,"A <72>F201FA</72><73>F201FB</73>relocation<73>01</73><72>01</72> option is now available to estate owners wishing to move to a new plot of land. In addition, owners will now be granted use of <72>F201FA</72><73>F201FB</73>storerooms<73>01</73><72>01</72> for the temporary storage of both outdoor and indoor furnishings. Speak with a resident caretaker for details."
+8470,"Unsure what to wear to the coming seasonal event? <72>F201FA</72><73>F201FB</73>Glamour dressers<73>01</73><72>01</72> have been added to inn rooms in all of Eorzea's major city–states and Kugane, making gear coordination even easier!"
+8471,"Custom <72>F201FA</72><73>F201FB</73>PvP teams<73>01</73><72>01</72> can now be formed! View the <72>F201FA</72><73>F201FB</73>team creation board<73>01</73><72>01</72> located on the <72>F201FA</72><73>F201FB</73>Wolves' Den Pier<73>01</73><72>01</72> to learn more!"
+8472,"The following temporary <72>F201FA</72><73>F201FB</73>restrictions<73>01</73><72>01</72> have
 been placed on future land purchases:
 
-・All new land purchases are limited to <Color(-154)>free companies</Color>.
-・Players may only own one private and one free company estate per <Color(-154)>World</Color> per <Color(-154)>service account</Color>.
-・Free companies with less than <Color(-154)>four members</Color> cannot purchase land.
+・All new land purchases are limited to <72>F201FA</72><73>F201FB</73>free companies<73>01</73><72>01</72>.
+・Players may only own one private and one free company estate per <72>F201FA</72><73>F201FB</73>World<73>01</73><72>01</72> per <72>F201FA</72><73>F201FB</73>service account<73>01</73><72>01</72>.
+・Free companies with less than <72>F201FA</72><73>F201FB</73>four members<73>01</73><72>01</72> cannot purchase land.
 
 Plots relinquished by owners will be
 unavailable for purchase for a limited time."
-8473,"<Color(-154)>Message Books</Color> can now be found in all estates and apartments. Callers can now leave personalized messages, as well as <Color(-154)>like</Color> the estates."
+8473,"<72>F201FA</72><73>F201FB</73>Message Books<73>01</73><72>01</72> can now be found in all estates and apartments. Callers can now leave personalized messages, as well as <72>F201FA</72><73>F201FB</73>like<73>01</73><72>01</72> the estates."
 8474,"The following duties have been added
 to the Duty Finder under “Gold Saucer”:
 
 Chocobo Races
-<Color(-154)>Chocobo Race: Random</Color>
-<Color(-154)>Chocobo Race: Sagolii Road</Color>
-<Color(-154)>Chocobo Race: Costa del Sol</Color>
-<Color(-154)>Chocobo Race: Tranquil Paths</Color>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Random<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Sagolii Road<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Costa del Sol<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Tranquil Paths<73>01</73><72>01</72>
 
 Chocobo Races (Party Member)
-<Color(-154)>Chocobo Race: Random</Color>
-<Color(-154)>Chocobo Race: Sagolii Road</Color>
-<Color(-154)>Chocobo Race: Costa del Sol</Color>
-<Color(-154)>Chocobo Race: Tranquil Paths</Color>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Random<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Sagolii Road<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Costa del Sol<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Chocobo Race: Tranquil Paths<73>01</73><72>01</72>
 "
+8475,"A new Gold Saucer Active Time Event
+“Leap of Faith” is now available!
+
+To coincide with this addition, the GATE schedule
+has been updated. Speak with the Gold Saucer
+attendant at Entrance Square for details. "
+8476,"<72>F201FA</72><73>F201FB</73>Mannequins<73>01</73><72>01</72> are now available for all residences and can be purchased from housing area merchants, estate man/maidservants, hokonin, or housekeeping nodes. Players can use mannequins to display gear, as well as sell it to prospective buyers.
+
+<72>F201FA</72><73>F201FB</73>Tags<73>01</73><72>01</72> can now be attached to all residences and viewed in the following areas:
+
+Estate Profile
+Ward Select Screen
+Private Chamber Select Screen
+Apartment Room Select Screen"
+8477,"Achieving a maximum satisfaction level with <72>F201FA</72><73>F201FB</73>Zhloe Aliapoh<73>01</73><72>01</72> will now allow you to apply glamours to the budding shopkeep."
 8480,"All"
 8484,"Others"
 8485,"Favorites"
@@ -7201,7 +7407,7 @@ Accept?"
 8637,"Select an aetherial wheel to charge."
 8638,"Charge"
 8639,"<Value>IntegerParameter(1)</Value>%"
-8640,"<Color(-154)>Primed</Color>"
+8640,"<72>F201FA</72><73>F201FB</73>Primed<73>01</73><72>01</72>"
 8641,"<If(GreaterThan(IntegerParameter(1),0))><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> <If(Equal(IntegerParameter(1),1))>hour<Else/>hours</If><Else/>Less than 1 hour</If> remaining."
 8642,"Place <SheetEn(Item,2,IntegerParameter(1),1,1)/> on the wheel stand?"
 8643,"Remove <SheetEn(Item,2,IntegerParameter(2),1,1)/> from wheel slot <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>?"
@@ -7262,7 +7468,7 @@ Accept?"
 8729,"Off"
 8732,"Performance"
 8733,"Enable normal battle music."
-8734,"Enable city-state BGM in residential areas."
+8734,"Enable city–state BGM in residential areas."
 8800,"Preparing free company estate auto-demolition."
 8801,"Preparing private estate auto-demolition."
 8802,"Preparing shared estate (1) auto-demolition."
@@ -7297,7 +7503,7 @@ Accept?"
 8831,"Currently not accepting donations."
 8850,"Role Sort Settings"
 8851,""
-8852,"<Color(-154)>Customize how classes and jobs are sorted in your party list.</Color>"
+8852,"<72>F201FA</72><73>F201FB</73>Customize how classes and jobs are sorted in your party list.<73>01</73><72>01</72>"
 8853,"Move up."
 8854,"Move down."
 8855,"Paladin/Gladiator"
@@ -7359,7 +7565,7 @@ With your mission objectives completed, you are free to explore the Diadem for t
 <If(Equal(IntegerParameter(1),0))>
 At this point in the mission, it is also now possible to switch classes to a Disciple of the Land.
 <Else/></If>
-You may choose to withdraw from a mission early via the <Color(-34022)>Duty Finder</Color> or by leaving the mission area from the <Color(-34022)>base camp</Color>."
+You may choose to withdraw from a mission early via the <72>F201F4</72><73>F201F5</73>Duty Finder<73>01</73><72>01</72> or by leaving the mission area from the <72>F201F4</72><73>F201F5</73>base camp<73>01</73><72>01</72>."
 8919,"Close"
 8920,"Exploratory Missions"
 8921,""
@@ -7373,10 +7579,10 @@ You may choose to withdraw from a mission early via the <Color(-34022)>Duty Find
 8929,"Embark"
 8930,"Exploratory Mission Settings"
 8931,""
-8932,"<Color(-154)>※Lootmaster and Greed Only are only available when participating in a preformed party or from the voyage control panel.
+8932,"<72>F201FA</72><73>F201FB</73>※Lootmaster and Greed Only are only available when participating in a preformed party or from the voyage control panel.
 ※The loot rule for non preformed parties departing from Ishgard is automatically set to Greed Only.
 ※Loot rules can only be changed by the party leader.
-※Loot rules are only in effect while in the instanced area.</Color>"
+※Loot rules are only in effect while in the instanced area.<73>01</73><72>01</72>"
 8933,"Embark on an exploratory mission to <Highlight>StringParameter(1)</Highlight> with your current party?"
 8934,"Mission Time"
 8935,"Enemies Slain"
@@ -7664,7 +7870,7 @@ You currently possess <Format(IntegerParameter(4),FF022C)/>."
 9277,"Payout"
 9278,""
 9279,"Winning Number"
-9280,"The winning number is selected every <Time(IntegerParameter(1))/><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If>"
+9280,"The winning number is selected every <If(NotEqual(PlayerParameter(83),0))><Switch(PlayerParameter(83))><Case(1)><ResetTime>1607</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></Case><Case(2)><ResetTime>0C01</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></Case><Case(3)><ResetTime>0501</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></Case></Switch><Else/><ResetTime>1607</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></If>."
 9281,"1st Prize"
 9282,"All Numbers Match"
 9283,"2nd Prize"
@@ -7714,21 +7920,21 @@ You currently possess <Format(IntegerParameter(3),FF022C)/>."
 9326,"Gauge Your Skill!"
 9327,"Find the Sweet Spot!"
 9328,"Double Down!"
-9329,"<Color(-154)>Congratulations!</Color>
+9329,"<72>F201FA</72><73>F201FB</73>Congratulations!<73>01</73><72>01</72>
 You may either claim your reward and end the game, or try again to earn an even larger payout. But remember, if you fail, all previous rewards are forfeit.
 
-Current payout: <Color(-154)><Value>IntegerParameter(3)</Value></Color> MGP
-Double down payout: <Color(-154)><Value>IntegerParameter(4)</Value></Color> MGP
+Current payout: <72>F201FA</72><73>F201FB</73><Value>IntegerParameter(3)</Value><73>01</73><72>01</72> MGP
+Double down payout: <72>F201FA</72><73>F201FB</73><Value>IntegerParameter(4)</Value><73>01</73><72>01</72> MGP
 
 Double down opportunities remaining: <Value>IntegerParameter(2)</Value>"
 9330,"Time remaining: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 9331,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>take<Else/>takes</If> up the pickaxe."
 9332,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>take<Else/>takes</If> up the hatchet."
-9333,"<Color(-154)>Congratulations!</Color>
+9333,"<72>F201FA</72><73>F201FB</73>Congratulations!<73>01</73><72>01</72>
 You may either claim your reward and end the game, or try again to earn an even larger payout. But remember, if you fail, all previous rewards are forfeit.
 
-Current payout: <Color(-154)><Value>IntegerParameter(5)</Value></Color> MGP
-Double down payout: <Color(-154)><Value>IntegerParameter(6)</Value></Color> MGP
+Current payout: <72>F201FA</72><73>F201FB</73><Value>IntegerParameter(5)</Value><73>01</73><72>01</72> MGP
+Double down payout: <72>F201FA</72><73>F201FB</73><Value>IntegerParameter(6)</Value><73>01</73><72>01</72> MGP
 Time Remaining: <Value>IntegerParameter(3)</Value>:<TwoDigitValue>IntegerParameter(4)</TwoDigitValue>
 
 Double down opportunities remaining: <Value>IntegerParameter(2)</Value>"
@@ -7766,8 +7972,8 @@ Double down opportunities remaining: <Value>IntegerParameter(2)</Value>"
 9366,"Unable to retrieve data while bound by duty."
 9367,"Verminion"
 9370,"<If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value><Else/>–/–</If>"
-9371,"<Color(-12753539)><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch></Color><Color(-13576449)><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch></Color>"
-9372,"<Color(-8369605)><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch></Color><Color(-32159)><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch></Color>"
+9371,"<72>F20212</72><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch><72>01</72><72>F20211</72><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch><72>01</72>"
+9372,"<72>F20214</72><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch><72>01</72><72>F20213</72><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch><72>01</72>"
 9373,"Parameters"
 9374,"Pedigree"
 9375,"Appearance"
@@ -7800,14 +8006,14 @@ Double down opportunities remaining: <Value>IntegerParameter(2)</Value>"
 9402,"Own"
 9403,"Grade"
 9404,"<Switch(IntegerParameter(1))><Case(1)>★★★★</Case><Case(2)>★★★★</Case><Case(3)>★★★★</Case><Case(4)>★★★★</Case></Switch>"
-9405,"<Color(-12753539)>★★★</Color><Color(-13576449)>★</Color>"
-9406,"<Color(-12753539)>★★</Color><Color(-13576449)>★★</Color>"
-9407,"<Color(-12753539)>★</Color><Color(-13576449)>★★★</Color>"
-9408,"<Color(-13576449)>★★★★</Color>"
-9409,"<Color(-8369605)>★★★</Color><Color(-32159)>★</Color>"
-9410,"<Color(-8369605)>★★</Color><Color(-32159)>★★</Color>"
-9411,"<Color(-8369605)>★</Color><Color(-32159)>★★★</Color>"
-9412,"<Color(-32159)>★★★★</Color>"
+9405,"<72>F20212</72>★★★<72>01</72><72>F20211</72>★<72>01</72>"
+9406,"<72>F20212</72>★★<72>01</72><72>F20211</72>★★<72>01</72>"
+9407,"<72>F20212</72>★<72>01</72><72>F20211</72>★★★<72>01</72>"
+9408,"<72>F20211</72>★★★★<72>01</72>"
+9409,"<72>F20214</72>★★★<72>01</72><72>F20213</72>★<72>01</72>"
+9410,"<72>F20214</72>★★<72>01</72><72>F20213</72>★★<72>01</72>"
+9411,"<72>F20214</72>★<72>01</72><72>F20213</72>★★★<72>01</72>"
+9412,"<72>F20213</72>★★★★<72>01</72>"
 9413,"<Clickable(<Highlight>StringParameter(1)</Highlight>)/>"
 9414,"Sides:"
 9415,"Rarity:"
@@ -7833,7 +8039,7 @@ Double down opportunities remaining: <Value>IntegerParameter(2)</Value>"
 9435,"Are you sure you wish to clear this deck of all its cards?"
 9436,"<CommandIcon(10)/> Subcommands"
 9437,"You will be unable to use the deck in match play for the following reason:
-<Color(-154)><Highlight>StringParameter(1)</Highlight></Color>
+<72>F201FA</72><73>F201FB</73><Highlight>StringParameter(1)</Highlight><73>01</73><72>01</72>
 
 Save deck?"
 9438,"Not Enough Cards"
@@ -7879,7 +8085,7 @@ MGP to gil exchanges are unavailable.
 9516,"You have no cards to sell."
 9517,"Quantity"
 9518,"Price"
-9519,"<Color(-154)>You may sell as many cards as you wish, but any funds which exceed the maximum amount of MGP allowed an individual will be forfeit.</Color>"
+9519,"<72>F201FA</72><73>F201FB</73>You may sell as many cards as you wish, but any funds which exceed the maximum amount of MGP allowed an individual will be forfeit.<73>01</73><72>01</72>"
 9520,"Sell"
 9521,"Cancel"
 9522,"MGP/Max"
@@ -7898,7 +8104,7 @@ MGP to gil exchanges are unavailable.
 9535,"Fee"
 9536,"Register"
 9537,"Withdraw"
-9538,"<Color(-34022)>Withdrawing from a match three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in dismissal from the Battlehall as well as a penalty temporarily restricting use of both Duty and Raid Finders.</Color>
+9538,"<72>F201F4</72><73>F201F5</73>Withdrawing from a match three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in dismissal from the Battlehall as well as a penalty temporarily restricting use of both Duty and Raid Finders.<73>01</73><72>01</72>
 Proceed?"
 9539,"Confirming opponent..."
 9540,"Select the desired match rules."
@@ -7966,7 +8172,7 @@ Proceed?"
 9605,"ATK"
 9606,"DEF"
 9607,"SPD"
-9608,"<Color(-20992)><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch></Color><Color(-7643392)><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch></Color>"
+9608,"<72>F2020F</72><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch><72>01</72><72>F20210</72><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch><72>01</72>"
 9609,"Auto-attack"
 9610,"Single-target"
 9611,"Multi-target"
@@ -7997,7 +8203,7 @@ Proceed?"
 9636,"ATK"
 9637,"DEF"
 9638,"SPD"
-9639,"<Color(-20992)><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch></Color><Color(-7643392)><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch></Color>"
+9639,"<72>F2020F</72><Switch(IntegerParameter(1))><Case(1)>★</Case><Case(2)>★★</Case><Case(3)>★★★</Case><Case(4)>★★★★</Case></Switch><72>01</72><72>F20210</72><Switch(IntegerParameter(1))><Case(1)>★★★</Case><Case(2)>★★</Case><Case(3)>★</Case><Case(4)></Case></Switch><72>01</72>"
 9640,"Auto-attack:"
 9641,"Single-target"
 9642,"Multi-target"
@@ -8011,9 +8217,9 @@ Proceed?"
 9650,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 9651,"Battle List"
 9652,"Retreat"
-9653,"<Color(-34022)>By retreating, you forfeit the match.
+9653,"<72>F201F4</72><73>F201F5</73>By retreating, you forfeit the match.
 
-</Color><Color(-154)>※If playing versus another PC, retreating will count toward your daily Lord of Verminion withdrawal penalty.</Color>
+<73>01</73><72>01</72><72>F201FA</72><73>F201FB</73>※If playing versus another PC, retreating will count toward your daily Lord of Verminion withdrawal penalty.<73>01</73><72>01</72>
 Proceed?"
 9654,"Main Commands"
 9655,"Execute Action"
@@ -8066,6 +8272,20 @@ Proceed?"
 9711,"You sense something close."
 9712,"You sense something very close."
 9713,"You're right on top of it!"
+9714,"Results"
+9715,"<Clickable(<Highlight>StringParameter(1)</Highlight>)/>"
+9716,"Completion Bonus"
+9717,"Cactuar Bonus"
+9718,"Gilded Cactuar"
+9719,"Silver Cactuar"
+9720,"Bronze Cactuar"
+9721," x <Value>IntegerParameter(1)</Value> "
+9722,"<Format(IntegerParameter(1),FF022C)/> MGP"
+9723,"Exit"
+9724,"Time Remaining: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
+9725,"<Value>IntegerParameter(1)</Value> "
+9726,"Total"
+9727,"Participation Bonus"
 9979,"Prize"
 9980,"Mini Cactpot"
 9981,"Jumbo Cactpot"
@@ -8093,25 +8313,25 @@ Proceed?"
 10007,"Set special participation requirements."
 10008,"Undersized Party"
 10009,"Participate in duties without meeting the minimum party member requirements.
-<Color(-154)>※Level sync and item level sync are
+<72>F201FA</72><73>F201FB</73>※Level sync and item level sync are
 　disabled and role requirements are ignored.
 ※Defeating enemies will yield no EXP or items.
 ※Only certain duties allow undersized parties.
-※Only the party leader's settings are applicable.</Color>"
+※Only the party leader's settings are applicable.<73>01</73><72>01</72>"
 10010,"Minimum IL"
 10011,"Item level sync all gear to the duty's minimum requirement.
-<Color(-154)>※Can only be selected in a duty with party size
+<72>F201FA</72><73>F201FB</73>※Can only be selected in a duty with party size
 　requirements or when using an undersized party.
 ※Only the party leader's settings are applicable.
 ※When using an undersized party, player and item levels
-　will be synced.</Color>"
+　will be synced.<73>01</73><72>01</72>"
 10012,"Confirm"
 10013,"Undersized Parties Allowed"
 10014,"Undersized Parties Not Allowed"
 10015,"Select a loot rule."
 10016,"Normal"
 10017,"The Need, Greed, Pass system is employed for loot drops.
-<Color(-154)>※Loot rules for some duties may be set to Greed Only.</Color>"
+<72>F201FA</72><73>F201FB</73>※Loot rules for some duties may be set to Greed Only.<73>01</73><72>01</72>"
 10018,"Greed Only"
 10019,"All party members must select Greed."
 10020,"Lootmaster"
@@ -8120,10 +8340,10 @@ Proceed?"
 10023,"Loot Rule: Greed Only"
 10024,"Loot Rule: Lootmaster"
 10025,"<Sheet(ContentType,IntegerParameter(1),0)/><If(LessThan(IntegerParameter(2),0))><Else/> (<Sheet(ExVersion,IntegerParameter(2),0)/>)</If>"
-10026,"<Color(-154)>※Lootmaster and Greed Only can only be selected in a duty with
+10026,"<72>F201FA</72><73>F201FB</73>※Lootmaster and Greed Only can only be selected in a duty with
 　party size requirements or when using an undersized party.
 ※Only the party leader can change loot rules.
-※Loot rules are void upon leaving an instance.</Color>"
+※Loot rules are void upon leaving an instance.<73>01</73><72>01</72>"
 10027,"<CommandIcon(10)/> Select  <CommandIcon(11)/> Select and Close"
 10028,"Minimum IL Unavailable"
 10029,"Additional Loot Rules Unavailable"
@@ -8151,13 +8371,13 @@ Proceed?"
 10051,"D"
 10052,"F"
 10053,"Specify languages to be used during party matching."
-10054,"<Color(-154)>Check the boxes of the languages you are comfortable using.
-The ★ indicates your current client language setting.</Color>
-<Color(-32640)>※This setting is shared in all duty matching.</Color>"
+10054,"<72>F201FA</72><73>F201FB</73>Check the boxes of the languages you are comfortable using.
+The ★ indicates your current client language setting.<73>01</73><72>01</72>
+<72>F201FC</72><73>F201FD</73>※This setting is shared in all duty matching.<73>01</73><72>01</72>"
 10055,"★"
-10056,"<Color(-32640)>※Depending on the languages chosen, matching times may
+10056,"<72>F201FC</72><73>F201FD</73>※Depending on the languages chosen, matching times may
 　increase. If you are experiencing overlong wait times,
-　you may want to consider different language settings.</Color>"
+　you may want to consider different language settings.<73>01</73><72>01</72>"
 10057,"Duty Information"
 10058,"Close window and discard all changes without saving?"
 10059,"<If(GreaterThan(IntegerParameter(1),0))>Japanese <Else/></If><If(GreaterThan(IntegerParameter(2),0))>English <Else/></If><If(GreaterThan(IntegerParameter(3),0))>German <Else/></If><If(GreaterThan(IntegerParameter(4),0))>French<Else/></If>"
@@ -8167,15 +8387,15 @@ The ★ indicates your current client language setting.</Color>
 10063,"Settings"
 10064,"Abandon Duty"
 10065,"Leave current duty.
-<Color(-154)>※A Duty Finder penalty will be incurred in the following cases:
+<72>F201FA</72><73>F201FB</73>※A Duty Finder penalty will be incurred in the following cases:
 　Leaving a matched party before duty is complete.
 　Leaving a preformed party in less than 10 minutes.
 ※A penalty will not be incurred when leaving a party
-　that does not meet the minimum member requirements.</Color>"
+　that does not meet the minimum member requirements.<73>01</73><72>01</72>"
 10066,"Vote Abandon"
 10067,"Initiate a vote to abandon current duty.
-<Color(-154)>※Parties must wait 15 minutes from duty commencement
-　before voting.</Color>"
+<72>F201FA</72><73>F201FB</73>※Parties must wait 15 minutes from duty commencement
+　before voting.<73>01</73><72>01</72>"
 10068,"Add Members"
 10069,"Search for new party members in the event party composition falls below the minimum size."
 10070,"Display Duty Information"
@@ -8184,7 +8404,7 @@ The ★ indicates your current client language setting.</Color>
 10073,"Close"
 10074,"Duty Finder Settings"
 10075,"Open Duty Finder settings.
-<Color(-154)>※Only settings for current duty are available for review.</Color>"
+<72>F201FA</72><73>F201FB</73>※Only settings for current duty are available for review.<73>01</73><72>01</72>"
 10076,"Raid Finder"
 10077,""
 10078,"Matching Requirements"
@@ -8199,17 +8419,24 @@ The ★ indicates your current client language setting.</Color>
 10087,"Final Phase"
 10088,"※Option only available if weekly reward is unclaimed."
 10089,"※Phase selection does not entail the skipping of phases."
-10090,"<Color(-154)>※The “Duty Complete” option is only available for previously
+10090,"<72>F201FA</72><73>F201FB</73>※The “Duty Complete” option is only available for previously
 　completed duties.
+※The “Duty Completion” option is only available if the
+　weekly reward has yet to be obtained.
 ※Practice phase selection does not entail the actual skipping
-　of phases.</Color>"
+　of phases.<73>01</73><72>01</72>
+<72>F201FC</72><73>F201FD</73>※If the registration period overlaps with the weekly reset,
+　registration will be canceled.
+※If 1 to 4 members have already received the weekly reward,
+　only one coffer will appear. No coffers will appear if 5 or
+　more members have received the reward."
 10091,"Unselect"
 10092,"Join"
 10093,"<If(Equal(IntegerParameter(1),IntegerParameter(2)))><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> player<If(Equal(IntegerParameter(1),1))><Else/>s</If><Else/><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> to <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> players</If>
  <If(GreaterThan(IntegerParameter(2),1))>(<Value>IntegerParameter(3)</Value> tank<If(Equal(IntegerParameter(3),1))><Else/>s</If>, <Value>IntegerParameter(4)</Value> healer<If(Equal(IntegerParameter(4),1))><Else/>s</If>, <Value>IntegerParameter(5)</Value> melee DPS, <Value>IntegerParameter(6)</Value> physical ranged DPS, <Value>IntegerParameter(7)</Value> magical ranged DPS, <Value>IntegerParameter(8)</Value> other DPS)<Else/></If>"
 10094,"Job: <Sheet(ClassJobCategory,IntegerParameter(1),0)/>"
 10095,"One Player per Job"
-10096,"The duty selected is beyond your current story progression. The preceding duty will be skipped and <Color(-5912)><Unknown14>FDFFC030</Unknown14>its weekly reward lost<Unknown14>EC</Unknown14></Color>. Proceed?"
+10096,"The duty selected is beyond your current story progression. The preceding duty will be skipped and <72>F201FE</72><73>F201FF</73>its weekly reward lost<73>01</73><72>01</72>. Proceed?"
 10097,"Practice Phase Selection"
 10098,"Progress (See Raid Finder for Details)"
 10099,"Display Raid Finder help."
@@ -8221,7 +8448,7 @@ The ★ indicates your current client language setting.</Color>
 10105,"Greed Only"
 10106,"Loot Recipient"
 10107,"Cancel Greed Only setting?"
-10108,"Set the loot rule for <If(LessThanOrEqualTo(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/>the <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),3,1)/></If> to <Color(-34022)>Greed Only</Color>?"
+10108,"Set the loot rule for <If(LessThanOrEqualTo(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/>the <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),3,1)/></If> to <72>F201F4</72><73>F201F5</73>Greed Only<73>01</73><72>01</72>?"
 10109,"Loot Recipient"
 10110,""
 10111,"Select the recipient of the loot."
@@ -8268,14 +8495,7 @@ The ★ indicates your current client language setting.</Color>
 10157,"Level: <Value>IntegerParameter(1)</Value>"
 10158,"Raid Finder Help"
 10159,""
-10160,"<Color(-32640)>※The following changes have been
-made to Savage raids for patch 4.36:
- - Progress is no longer saved after completing a turn.
- - Turns can be challenged in any order.
- - Two coffers will now appear upon turn completion.
- - Weekly reward limits have been removed.
-
-<Color(-287193856)>Progress Record</Color>
+10160,"<Color(-287193856)>Progress Record</Color>
 Progress within the latest Savage raids is
 periodically saved, allowing for continuation
 of the duty from that point.
@@ -8320,10 +8540,11 @@ Melee DPS, Ranged Physical DPS,
 Ranged Magic DPS, and Not Specified.
 
 When the raid purpose is set as “Duty Completion,”
-the jobs that fall into Not Specified must be different
-from the ones which fill the other three DPS roles.
-When the raid purpose is set to “Practice,” overlapping
-between specified and unspecified DPS jobs is allowed.
+the jobs that fall into Not Specified must be
+different from the ones which fill the other three
+DPS roles. When the raid purpose is set to “Practice,”
+overlapping between specified and unspecified DPS
+jobs is allowed.
 
 <Color(-287193856)>Loot Rules & Languages</Color>
 Loot rules and Language settings are imported
@@ -8335,15 +8556,15 @@ shared between all matched content."
 10161,"Close"
 10162,"Enlistment in a Grand Company"
 10163,"Set whether or not you wish to join a party in progress looking for members. This feature allows for party matching without using the Duty Finder.
-<Color(-154)>※Setting active only when playing solo.</Color>"
+<72>F201FA</72><73>F201FB</73>※Setting active only when playing solo.<73>01</73><72>01</72>"
 10164,""
-10165,"Skipping duty. <Color(-5912)><Unknown14>FDFFC030</Unknown14>The corresponding weekly reward will be made available again after the weekly reset.<Unknown14>EC</Unknown14></Color>"
+10165,"Skipping duty. <72>F201FE</72><73>F201FF</73>The corresponding weekly reward will be made available again after the weekly reset.<73>01</73><72>01</72>"
 10166,"Duty Status"
 10167,"Withdraw"
 10170,"Kick <Highlight>StringParameter(1)</Highlight> from the Novice Network.
-<Color(-154)>This command should only be executed in cases of spamming or harassment.</Color>"
+<72>F201FA</72><73>F201FB</73>This command should only be executed in cases of spamming or harassment.<73>01</73><72>01</72>"
 10171,"Reason (required)"
-10172,"<Color(-32640)>Your name, the name of the player being kicked, and the reason will be displayed to everyone on the channel. If your decision is challenged, you may face punishment. Kicked mentors cannot return to the Novice Network for 3 hours, kicked new adventurers for 30 minutes (Earth time).</Color>
+10172,"<72>F201FC</72><73>F201FD</73>Your name, the name of the player being kicked, and the reason will be displayed to everyone on the channel. If your decision is challenged, you may face punishment. Kicked mentors cannot return to the Novice Network for 3 hours, kicked new adventurers for 30 minutes (Earth time).<73>01</73><72>01</72>
 Proceed?"
 10173,"Accept terms and kick the specified player."
 10174,"Kick from Novice Network"
@@ -8356,19 +8577,19 @@ Proceed?"
 10180,"You can now receive your mentor certification.
 
 As a mentor, you are expected to actively perform the following:
-<Color(-154)>1. Provide gameplay advice for new adventurers and other players.
+<72>F201FA</72><73>F201FB</73>1. Provide gameplay advice for new adventurers and other players.
 2. Be an exemplar for player etiquette.
-3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.</Color>
+3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.<73>01</73><72>01</72>
 
 Accepting mentor certification will grant you access to the Novice Network and Duty Roulette: Mentor, as well as earn you a bonus to experience points when grouping with a new adventurer.
 
-<Color(-34022)>※Mentors can participate in the Novice Network regardless of online status. You will also be able to register for Duty Roulette: Mentor, but your status will automatically switch to “Mentor” once inside the instance.
-※Inappropriate mentor behavior may be reported.</Color>"
+<72>F201F4</72><73>F201F5</73>※Mentors can participate in the Novice Network regardless of online status. You will also be able to register for Duty Roulette: Mentor, but your status will automatically switch to “Mentor” once inside the instance.
+※Inappropriate mentor behavior may be reported.<73>01</73><72>01</72>"
 10181,"Accept terms and become a mentor."
 10182,"Do you wish to cancel your mentor certification?
 By renouncing your mentor status, you forfeit access to the Novice Network and Duty Roulette: Mentor, and will also lose the bonus to experience points earned when grouping with a new adventurer.
 
-<Color(-154)>Mentor certification will be unavailable for 30 days following cancellation.</Color>"
+<72>F201FA</72><73>F201FB</73>Mentor certification will be unavailable for 30 days following cancellation.<73>01</73><72>01</72>"
 10183,"Accept terms and renounce your mentor status."
 10184,"<Gui(78)/>Mentor"
 10185,"<Gui(77)/>New Adventurer / <Gui(95)/>Returner"
@@ -8377,11 +8598,11 @@ By renouncing your mentor status, you forfeit access to the Novice Network and D
 Other players will be able to identify you as a mentor while this setting is active.
 
 As a mentor, you are expected to actively perform the following:
-<Color(-154)>1. Provide gameplay advice for new adventurers and other players.
+<72>F201FA</72><73>F201FB</73>1. Provide gameplay advice for new adventurers and other players.
 2. Be an exemplar for player etiquette.
-3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.</Color>
+3. Invite new adventurers to the Novice Network, and answer their queries in the chat channel.<73>01</73><72>01</72>
 
-<Color(-34022)>※Inappropriate mentor behavior may be reported.</Color>"
+<72>F201F4</72><73>F201F5</73>※Inappropriate mentor behavior may be reported.<73>01</73><72>01</72>"
 10188,"Search for a new adventurer or returner."
 10189,"You have received an invite to the Novice Network from the <Gui(78)/>mentor <Highlight>StringParameter(1)</Highlight>!
 
@@ -8392,8 +8613,8 @@ The Novice Network is a place where beginning players can share their experience
 ビギナーチャンネルは一度参加した後でも、
 以下の方法で退出することができますので、
 気軽に参加してみてください。
-<Color(-154)>ビギナーチャンネル参加者リストの「退出」ボタンを押下
-テキストコマンド「/**** off」を実行</Color>"
+<72>F201FA</72><73>F201FB</73>ビギナーチャンネル参加者リストの「退出」ボタンを押下
+テキストコマンド「/**** off」を実行<73>01</73><72>01</72>"
 10193,"Join"
 10194,"Cancel"
 10195,"Once an invite to the Novice Network has been declined, participation in the channel will not be allowed until another invite is received.
@@ -8404,7 +8625,7 @@ Click the box below to automatically decline all further invites."
 10198,"Automatically decline all further invites."
 10199,"Once the Novice Network has been left, participation in the channel will not be allowed until another invite is received.
 
-<Color(-154)>※Leaving the Novice Network does not remove the New Adventurer/Returner status.</Color>"
+<72>F201FA</72><73>F201FB</73>※Leaving the Novice Network does not remove the New Adventurer/Returner status.<73>01</73><72>01</72>"
 10200,"Leave"
 10201,"Cancel"
 10202,"Much and more has happened in Eorzea while you were away. To help those such as yourself reacclimate to the ever-changing realm, the Twelve have prepared a most generous boon─the Returner's Bounty.
@@ -8414,11 +8635,11 @@ Accepting this divine aid will provide you with the tools required to make that 
 10204,"Decline Bounty"
 10205,"All <Gui(95)/>Returners are granted full access to the Novice Network. In addition to returners, this chat channel is only open to <Gui(78)/>mentors and <Gui(77)/>new adventurers, and provides players with a place to ask questions and seek help.
 
-The Novice Network can be left at any time by pressing the Leave button in the Novice Network List, or by using the text command <Color(-154)><Sheet(TextCommand,225,8)/></Color>."
+The Novice Network can be left at any time by pressing the Leave button in the Novice Network List, or by using the text command <72>F201FA</72><73>F201FB</73><Sheet(TextCommand,225,8)/><73>01</73><72>01</72>."
 10206,"Join"
 10207,"Decline"
 10208,"Cancel"
-10209,"<Color(-34022)>Declining the Returner's Bounty will remove the Returner status. Returner status cannot be reachieved without first meeting several requirements.</Color>
+10209,"<72>F201F4</72><73>F201F5</73>Declining the Returner's Bounty will remove the Returner status. Returner status cannot be reachieved without first meeting several requirements.<73>01</73><72>01</72>
 
 Proceed?"
 10210,"Yes"
@@ -8427,7 +8648,7 @@ Proceed?"
 10213,"Join the Novice Network?"
 10214,"Yes"
 10215,"Cancel"
-10216,"Mentors can rejoin the Novice Network at any time by using the text command via the Novice Network List or by using the text command <Color(-154)>/novicenetwork on</Color>."
+10216,"Mentors can rejoin the Novice Network at any time by using the text command via the Novice Network List or by using the text command <72>F201FA</72><73>F201FB</73>/novicenetwork on<73>01</73><72>01</72>."
 10217,"Leave"
 10218,"Cancel"
 10220,"Display control guide."
@@ -8525,6 +8746,12 @@ Proceed?"
 10312,"Cycle Alliance List (Back)"
 10313,"Achievements"
 10314,"Display achievements nearing completion as login notification."
+10315,"Open All"
+10316,"Default to Language Setting"
+10317,"24-hour Format"
+10318,"12-hour Format"
+10319,"Open All (Not Available w/ DX9)"
+10320,"Open All (Not Available on Mac)"
 10350,"Yo-kai Medallium"
 10351,""
 10352,"Open Minion Guide."
@@ -8557,7 +8784,7 @@ Yo-kai Medals can be obtained in select FATEs."
 10387,"+<Value>IntegerParameter(1)</Value>"
 10388,"/<Value>IntegerParameter(1)</Value>"
 10389,"Allocate"
-10390,"Use <If(Equal(IntegerParameter(1),1))>a <Color(-154)>pinch of treated crystal sand</Color><Else/><Value>IntegerParameter(1)</Value> <Color(-154)>pinches of treated crystal sand</Color></If> to foster your quickened anima's growth?"
+10390,"Use <If(Equal(IntegerParameter(1),1))>a <72>F201FA</72><73>F201FB</73>pinch of treated crystal sand<73>01</73><72>01</72><Else/><Value>IntegerParameter(1)</Value> <72>F201FA</72><73>F201FB</73>pinches of treated crystal sand<73>01</73><72>01</72></If> to foster your quickened anima's growth?"
 10391,"Discard current allocations?"
 10392,"Close"
 10393,"Required"
@@ -8573,21 +8800,21 @@ Yo-kai Medals can be obtained in select FATEs."
 10407,"Character Info"
 10408,""
 10409,"Items"
-10410,"Proceed and your <Color(-34022)>fixed party</Color> save data will be converted to <Color(-34022)>matched party</Color> save data.
+10410,"Proceed and your <72>F201F4</72><73>F201F5</73>fixed party<73>01</73><72>01</72> save data will be converted to <72>F201F4</72><73>F201F5</73>matched party<73>01</73><72>01</72> save data.
 
 Matched party save data still allows for the creation of preformed parties as long as the party is formed before returning to the deep dungeon, and the progression of all members is identical. Any open party slots will be filled automatically via the matching system.
 
-<Color(-154)>All special items (pomanders) will be lost upon data conversion.</Color>
+<72>F201FA</72><73>F201FB</73>All special items (pomanders) will be lost upon data conversion.<73>01</73><72>01</72>
 
-<Color(-154)>Scores will not be recorded for matched parties.</Color>
+<72>F201FA</72><73>F201FB</73>Scores will not be recorded for matched parties.<73>01</73><72>01</72>
 
-<Color(-32640)>※Converted data cannot be restored to its original state.</Color>"
+<72>F201FC</72><73>F201FD</73>※Converted data cannot be restored to its original state.<73>01</73><72>01</72>"
 10411,"Accept terms and convert data."
 10412,"Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from floor 1.
 
 Floor progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
 
-<Color(-32640)>※Data cannot be restored once deleted.</Color>"
+<72>F201FC</72><73>F201FD</73>※Data cannot be restored once deleted.<73>01</73><72>01</72>"
 10413,"Accept terms and delete data."
 10414,"Gear Strength: +<Value>IntegerParameter(1)</Value>"
 10415,"Character not found."
@@ -8602,7 +8829,7 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10424,"Close"
 10425,"Unlock Map"
 10426,"Item Effects"
-10427,"<If(IntegerParameter(3))><Color(-399290)><Emphasis><Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),0))><Else/><If(GreaterThanOrEqualTo(IntegerParameter(2),IntegerParameter(4)))><Color(-34022)> +<Value>IntegerParameter(2)</Value></Color><Else/> +<Value>IntegerParameter(2)</Value></If></If></Emphasis></Color><Else/><Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),0))><Else/><If(GreaterThanOrEqualTo(IntegerParameter(2),IntegerParameter(4)))><Color(-34022)> +<Value>IntegerParameter(2)</Value></Color><Else/> +<Value>IntegerParameter(2)</Value></If></If></If>"
+10427,"<If(IntegerParameter(3))><Color(-399290)><Emphasis><Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),0))><Else/><If(GreaterThanOrEqualTo(IntegerParameter(2),IntegerParameter(4)))><72>F201F4</72><73>F201F5</73> +<Value>IntegerParameter(2)</Value><73>01</73><72>01</72><Else/> +<Value>IntegerParameter(2)</Value></If></If></Emphasis></Color><Else/><Highlight>StringParameter(1)</Highlight><If(Equal(IntegerParameter(2),0))><Else/><If(GreaterThanOrEqualTo(IntegerParameter(2),IntegerParameter(4)))><72>F201F4</72><73>F201F5</73> +<Value>IntegerParameter(2)</Value><73>01</73><72>01</72><Else/> +<Value>IntegerParameter(2)</Value></If></If></If>"
 10428,"Unable to retrieve data."
 10429,"Cannot continue with this data. Dungeon is cleared."
 10430,"To next level: "
@@ -8631,7 +8858,7 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10453,"These floors are only available when party KO count is at zero."
 10454,"Item Appraisal"
 10455,""
-10456,"Use <SheetEn(Item,1,IntegerParameter(1),1,1)/> to appraise an item?"
+10456,"Appraise <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
 10457,"Item"
 10458,"Qty."
 10459,"??????"
@@ -8660,7 +8887,7 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10481,"Floor"
 10482,"You are not starting from floor 1. 
 Progress will not count towards solo completion achievements."
-10483,"Party KO count for this save data is more than zero. Laters floors will not be accessible. Proceed?"
+10483,"Party KO count for this save data is more than zero. Later floors will not be accessible. Proceed?"
 10484,"Continue with current save data."
 10507,"/"
 10508,"Chemistry"
@@ -8675,7 +8902,7 @@ Progress will not count towards solo completion achievements."
 10515,"Reset glamours?"
 10516,"Undo all glamours?"
 10517,"Discard changes?"
-10518,"<Color(-32640)>You do not possess enough glamour prisms.</Color>"
+10518,"<72>F201FC</72><73>F201FD</73>You do not possess enough glamour prisms.<73>01</73><72>01</72>"
 10519,"Current Attributes"
 10520,"Squadron EXP"
 10521,"Deploy"
@@ -8683,9 +8910,9 @@ Progress will not count towards solo completion achievements."
 
 Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><If(Equal(IntegerParameter(3),0))><Else/> (In <Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>hour<Else/>hours</If>)</If><If(GreaterThan(IntegerParameter(4),0))>
 
-<Color(-154)>※Unassigned chemistry is lost upon deployment.</Color><Else/></If>
+<72>F201FA</72><73>F201FB</73>※Unassigned chemistry is lost upon deployment.<73>01</73><72>01</72><Else/></If>
 <If(GreaterThan(IntegerParameter(5),0))>
-<Color(-34022)>※If a mission is successful, another may not be undertaken until the mission list resets.</Color><Else/></If>"
+<72>F201F4</72><73>F201F5</73>※If a mission is successful, another may not be undertaken until the mission list resets.<73>01</73><72>01</72><Else/></If>"
 10523,"Physical Ability"
 10524,"Mental Ability"
 10525,"Tactical Ability"
@@ -8742,7 +8969,7 @@ Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(2
 10578,"EXP Reward: <Value>IntegerParameter(1)</Value>"
 10579,"Commence “<Highlight>StringParameter(1)</Highlight>”?"
 10580,"Commence “<Highlight>StringParameter(1)</Highlight>”?
-<Color(-154)>※Squadron attribute total exceeds value allowed by current squadron rank. One or more squadron attributes will be capped.</Color>"
+<72>F201FA</72><73>F201FB</73>※Squadron attribute total exceeds value allowed by current squadron rank. One or more squadron attributes will be capped.<73>01</73><72>01</72>"
 10581,"Daily Sessions Remaining:
 <Value>IntegerParameter(1)</Value>"
 10582,"Squadron Outfitter"
@@ -8751,8 +8978,8 @@ Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(2
 10585,"Reset"
 10586,"Undo"
 10587,"Prism"
-10588,"<Color(-154)>Squadron glamours are available from level 51.</Color>"
-10589,"<Color(-154)>To apply a glamour, speak to a squadron member.</Color>"
+10588,"<72>F201FA</72><73>F201FB</73>Squadron glamours are available from level 51.<73>01</73><72>01</72>"
+10589,"<72>F201FA</72><73>F201FB</73>To apply a glamour, speak to a squadron member.<73>01</73><72>01</72>"
 10590,"Unavailable"
 10591,"Current Training"
 10592,"Time Until Completion"
@@ -8763,7 +8990,7 @@ Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(2
 10597,"Completed Regimen"
 10598,"None"
 10599,"EXP Earned: <Value>IntegerParameter(1)</Value>"
-10600,"<Color(-154)>Squadron glamours unavailable.</Color>"
+10600,"<72>F201FA</72><73>F201FB</73>Squadron glamours unavailable.<73>01</73><72>01</72>"
 10603,"Squadron Attributes: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>"
 10604,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 10609,"Squadron Members"
@@ -8812,7 +9039,7 @@ Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(2
 10674,"Dismiss <Highlight>StringParameter(1)</Highlight>?"
 10675,"Discharge <Highlight>StringParameter(1)</Highlight> and recruit <Highlight>StringParameter(2)</Highlight>?"
 10676,"Use <SheetEn(Item,1,IntegerParameter(1),1,1)/> to order the class change?<If(GreaterThan(IntegerParameter(2),0))>
-<Color(-154)>(All glamours will be removed.)</Color><Else/></If>"
+<72>F201FA</72><73>F201FB</73>(All glamours will be removed.)<73>01</73><72>01</72><Else/></If>"
 10677,"Close"
 10678,"Discharge"
 10679,"Return"
@@ -8840,7 +9067,7 @@ Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(2
 10706,"None"
 10707,"To organize a custom match, you must have two light or full parties willing to participate. Once invitations have been sent, the leader of the Claws can continue the registration process by pressing the Join button.
 
-<Color(-154)>※Spectator parties must have at least two members.
+<72>F201FA</72><73>F201FB</73>※Spectator parties must have at least two members.
 ※Invitations for spectator parties cannot be sent until participating parties have been formed.
 ※When organizing a custom match, the leaders of the participating and spectating parties must be in the same area.
 ※Undersized party settings are ignored in custom matches.
@@ -8854,7 +9081,7 @@ Estimated Time of Return: <Time(IntegerParameter(2))/><Value>TopLevelParameter(2
 　・A party is disbanded
 　・A party declines the match registration
 　・The “Cancel All” button is pressed
-</Color>"
+<73>01</73><72>01</72>"
 10708,"Cancel All"
 10709,"Close"
 10710,"Register Custom Match"
@@ -8960,15 +9187,15 @@ Proceed?"
 10808,"Tournament Entry"
 10809,"Tournament Registration Period"
 10810,"<Sheet(ContentFinderCondition,IntegerParameter(1),32)/>"
-10811,"<Color(-154)>※The “Duty Complete” option is only available for previously
+10811,"<72>F201FA</72><73>F201FB</73>※The “Duty Complete” option is only available for previously
 　completed duties.
 ※Practice phase selection does not entail the actual skipping of
-　phases.</Color>
+　phases.<73>01</73><72>01</72>
 "
 10812,"Cannot select with other duties"
 10813,"Frontline Freelancer"
 10814,"Freelancers can participate in Frontline campaigns without being bound to their Grand Company of allegiance.
-<Color(-154)>※When joining as a party, members will default to the freelance status.</Color>"
+<72>F201FA</72><73>F201FB</73>※When joining as a party, members will default to the freelance status.<73>01</73><72>01</72>"
 10815,"<Gui(82)/>:<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value> <Gui(83)/>:<Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value> <Gui(84)/>:<Value>IntegerParameter(5)</Value>/<Value>IntegerParameter(6)</Value>"
 10816,"<Gui(87)/>:<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 10817,"Time Elapsed: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>/Average Wait Time: <Highlight>StringParameter(3)</Highlight>"
@@ -8979,7 +9206,7 @@ Proceed?"
 10822,"High-end Duty"
 10823,"Unable to participate in duty while looking for a party.
 Quit using the Party Finder?"
-10824,"<Color(-154)>※This duty is only open for full parties without role requirements. Matching requirements cannot be set.</Color>"
+10824,"<72>F201FA</72><73>F201FB</73>※This duty is only open for full parties without role requirements. Matching requirements cannot be set.<73>01</73><72>01</72>"
 10825,"※Three parties with at least one member each are necessary when Undersized Party requirements are in effect."
 10826,"Alliance Registration"
 10827,"Participating Parties: Two <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>-player parties
@@ -9007,7 +9234,7 @@ Spectator Party: 1-8 players"
 10869,""
 10870,"Report"
 10871,"<Highlight>StringParameter(1)</Highlight> will be reported as conducting RMT activity.
-<Color(-32640)>If this report is found to be baseless and/or of malicious intent, you may face punishment.</Color>
+<72>F201FC</72><73>F201FD</73>If this report is found to be baseless and/or of malicious intent, you may face punishment.<73>01</73><72>01</72>
 Proceed?"
 10872,"Report"
 10873,"Cancel"
@@ -9061,7 +9288,7 @@ Proceed?"
 10935,"Duty Finder Settings"
 10936,"Undersized Party"
 10937,"Minimum IL"
-10938,"<Color(-154)>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder interface.</Color>"
+10938,"<72>F201FA</72><73>F201FB</73>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder interface.<73>01</73><72>01</72>"
 10939,"Selecting “Duty Complete” signifies that only players who have completed a certain duty may join the party. Selecting “Duty Incomplete” signifies the opposite."
 10940,"Contact List"
 10941,""
@@ -9069,7 +9296,7 @@ Proceed?"
 10943,"Name"
 10944,"World"
 10945,"Close"
-10946,"<Color(-154)>The names of blacklisted players from other World servers will be saved to your PC.</Color>
+10946,"<72>F201FA</72><73>F201FB</73>The names of blacklisted players from other World servers will be saved to your PC.<73>01</73><72>01</72>
 
 Add <Highlight>StringParameter(1)</Highlight> to your blacklist?"
 10947,"There are no players to display."
@@ -9079,25 +9306,25 @@ Add <Highlight>StringParameter(1)</Highlight> to your blacklist?"
 10952,""
 10953,"–"
 10954,"World"
-10955,"<Color(-154)>
-※Names of characters on other Worlds are saved to the client.</Color>"
+10955,"<72>F201FA</72><73>F201FB</73>
+※Names of characters on other Worlds are saved to the client.<73>01</73><72>01</72>"
 10960,"<Gui(95)/>Returner Status"
 10961,"The <Gui(95)/>Returner status is applied to players who have at least one class at level 50 or above, have not visited Eorzea in more than 45 days, and have accepted the Returner's Bounty.
 
 The Returner's Bounty consists of the following:
-  <Color(-154)>Novice Network Access
+  <72>F201FA</72><73>F201FB</73>Novice Network Access
   EXP bonus when partying with a <Gui(78)/>Mentor (up to Lv. 20)
-  Returner online status icon</Color>
+  Returner online status icon<73>01</73><72>01</72>
 
-Returner status is removed after accumulating 72 hours of gameplay after accepting the Bounty, or by using the text command <Color(-154)><Sheet(TextCommand,238,8)/></Color>."
+Returner status is removed after accumulating 72 hours of gameplay after accepting the Bounty, or by using the text command <72>F201FA</72><73>F201FB</73><Sheet(TextCommand,238,8)/><73>01</73><72>01</72>."
 10962,"Novice Network"
-10963,"<Color(-34022)>Once Returner status has been removed, it cannot be obtained again until certain conditions are met.</Color>
+10963,"<72>F201F4</72><73>F201F5</73>Once Returner status has been removed, it cannot be obtained again until certain conditions are met.<73>01</73><72>01</72>
 
 Proceed?"
 10964,"Remove"
 10965,"Cancel"
 10966,"Decide Later"
-10967,"<Color(-154)>You will be granted another opportunity to accept the Returner's Bounty upon your next login.</Color>
+10967,"<72>F201FA</72><73>F201FB</73>You will be granted another opportunity to accept the Returner's Bounty upon your next login.<73>01</73><72>01</72>
 
 Proceed?"
 10968,"Yes"
@@ -9154,11 +9381,13 @@ Attempts remaining: <Value>IntegerParameter(2)</Value>"
 11054,"Attacking <Unknown2F>FF1202280EFF09436C6173734A6F62E8020103</Unknown2F>!"
 11055,"Stopping <Unknown2F>FF1202280EFF09436C6173734A6F62E8020103</Unknown2F>!"
 11056,"<Clickable(<Sheet(Action,IntegerParameter(1),0)/>)/> <If(Equal(IntegerParameter(2),0))>ready!<Unknown60>0263</Unknown60><Else/>ready in <Value>IntegerParameter(2)</Value>s!<Unknown60>0264</Unknown60></If>"
+11057,"Focus on the <Unknown2F>FF1202280EFF09436C6173734A6F62E8020103</Unknown2F>!"
+11058,"End focused attack! <Unknown60>0264</Unknown60>"
 11060,"Loot Rules"
 11061,"None"
 11062,"Greed Only"
 11063,"Lootmaster"
-11064,"<Color(-154)>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder or Exploratory Missions interface.</Color>"
+11064,"<72>F201FA</72><73>F201FB</73>※Settings assigned here are for display only. To change actual settings, you must access the Duty Finder or Exploratory Missions interface.<73>01</73><72>01</72>"
 11065,"Language"
 11066,"Reset"
 11067,"Are you certain you wish to clear all search data?"
@@ -9250,7 +9479,7 @@ Attempts remaining: <Value>IntegerParameter(2)</Value>"
 11171,"※Private party results are not included."
 11172,"Recruiter: <Highlight>StringParameter(1)</Highlight>"
 11173,"Recruit Alliance Members"
-11174,"<Color(-154)>Party matching is unavailable for alliances. To form an alliance, three full parties are required (or three parties of at least one member each if using undersized parties).</Color>"
+11174,"<72>F201FA</72><73>F201FB</73>Party matching is unavailable for alliances. To form an alliance, three full parties are required (or three parties of at least one member each if using undersized parties).<73>01</73><72>01</72>"
 11175,""
 11176,""
 11177,""
@@ -9322,6 +9551,25 @@ High Score
 11244,"Failed..."
 11245,"Start"
 11246,"Easy Mode"
+11247,"SCORE:"
+11248,"CHAIN"
+11249,"CRITICAL"
+11250,"GREAT"
+11251,"GOOD"
+11252,"MISS"
+11253,"RESULTS"
+11254,"SUCCESS"
+11255,"FAILURE"
+11256,"Score"
+11257,"Critical"
+11258,"Great"
+11259,"Good"
+11260,"Miss"
+11261,"PERFECT CHAIN!"
+11262,"Audience Satisfaction"
+11263,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
+11264,"Results screen will close in <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
+11265,"Close"
 11310,"Performance Actions Agreement"
 11311,""
 11312,"I agree to the above conditions."
@@ -9432,6 +9680,18 @@ Should you wish to try your luck, two cards will appear─one hidden, one reveal
 11426,"<Format(IntegerParameter(1),FF022C)/>/<Format(IntegerParameter(2),FF022C)/>"
 11427,"Exchange"
 11428,"Cancel"
+11429,"Rewards"
+11430,""
+11431,"Available Items"
+11432,"Display Only Recently Added Items"
+11433,"Available"
+11434,"Owned"
+11435,"There is nothing to display."
+11436,"Required <Switch(IntegerParameter(1))><Case(1)>Achievement</Case><Case(2)>Quest</Case><Case(3)>???</Case><Case(4)></Case></Switch>:
+
+<72>F201FA</72><73>F201FB</73><Highlight>StringParameter(2)</Highlight><73>01</73><72>01</72>
+<Highlight>StringParameter(3)</Highlight>"
+11437,"Claim <If(Equal(IntegerParameter(2),1))><SheetEn(Item,2,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/></If>?"
 11440,"Inventory/Armoury Chest"
 11441,"Glamour Dresser"
 11442,"Armoire"
@@ -9446,12 +9706,51 @@ applying glamours from an armoire."
 11449,"Remove Dye"
 11450,"Dispel"
 11451,"Apply Dye"
+11455,"Alarm"
+11456,""
+11457,"Alarm Editor"
+11458,""
+11459,"Add Alarm"
+11460,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
+11461,"Name"
+11462,"Clock Type"
+11463," Local Time"
+11464," Server Time"
+11465," Eorzea Time"
+11466,"Repeat"
+11467,"Off"
+11468,"Hourly (Earth Time)"
+11469,"Daily (Eorzea Time)"
+11470,"Time"
+11471,"Hours (<Value>IntegerParameter(1)</Value>-<Value>IntegerParameter(2)</Value>)"
+11472,"Minutes (0-59)"
+11473,"Reminder (Minutes)"
+11474,"Confirm"
+11475,"Cancel"
+11476,"/alarm ""<Highlight>StringParameter(4)</Highlight>"" <Switch(IntegerParameter(1))><Case(1)>lt</Case><Case(2)>st</Case><Case(3)>et</Case></Switch> <Switch(IntegerParameter(5))><Case(1)></Case><Case(2)>rp </Case></Switch><Highlight>StringParameter(2)</Highlight> <Value>IntegerParameter(3)</Value>"
+11477,"Copy Text Command"
+11478,"Edit"
+11479,"Delete"
+11480,"No alarms are set."
+11481,"<Gui(104)/>Time
+<Time(IntegerParameter(1))/> <If(Equal(IntegerParameter(2),0))><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></If>"
+11482,"<Switch(IntegerParameter(1))><Case(1)></Case><Case(2)></Case><Case(3)></Case></Switch>"
+11483,"<Time(IntegerParameter(1))/><If(Equal(IntegerParameter(2),0))><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue><Else/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If></If>"
+11484,"<If(Equal(IntegerParameter(1),0))><Else/>(<Value>IntegerParameter(1)</Value>)</If>"
+11485,"Alarm"
+11486,"a.m."
+11487,"p.m."
 11501,"You have already acquired the action granted by this item. Proceed?"
 11502,"You cannot currently equip this item.
 Proceed with the transaction?"
 11503,"You will never be able to equip this item.
 Proceed with the transaction?"
 11504,"Purchase despite being unable to equip."
+11505,"Cancel."
+11506,"You already possess that item. Claim another?"
+11507,"Your character cannot equip that item. Claim anyway?"
+11508,"Your character cannot currently equip that item. Claim anyway?"
+11509,"Claim anyway."
 11520,"Fashion Report"
 11521,""
 11522,"<Highlight>StringParameter(1)</Highlight>"
@@ -9498,14 +9797,16 @@ Proceed with the transaction?"
 11588,""
 11589,"There are no items to buy back."
 11590,"Reclaim <SheetEn(Item,2,IntegerParameter(1),2,1)/>?
-<Color(-154)>※Gratuity price has been updated to include a small transaction fee.
+<72>F201FA</72><73>F201FB</73>※Gratuity price has been updated to include a small transaction fee.
 ※Reclaimed items will no longer contribute to the enclave's reconstruction.
-※Reclaiming donations will not increase or otherwise affect the weekly budget.<Color(-154)>"
+※Reclaiming donations will not increase or otherwise affect the weekly budget.<72>F201FA</72><73>F201FB</73>"
 11591,"Donate the items for a gratuity of <Format(IntegerParameter(1),FF022C)/>?"
-11592,"<Color(-32640)>The weekly budget is exceeded by <Format(IntegerParameter(2),FF022C)/>.</Color>
+11592,"<72>F201FC</72><73>F201FD</73>The weekly budget is exceeded by <Format(IntegerParameter(2),FF022C)/>.<73>01</73><72>01</72>
 Donate the items for a gratuity of <Format(IntegerParameter(1),FF022C)/>?"
-11593,"You already possess another <SheetEn(Item,3,IntegerParameter(1),1,1)/>. Reclaim it anyway?
-<Color(-154)>※The gratuity price has been updated.<Color(-154)>"
+11593,"You already possess another <SheetEn(Item,3,IntegerParameter(1),1,1)/>. Reclaim <If(Equal(IntegerParameter(2),1))>it<Else/>them</If> anyway?
+<72>F201FA</72><73>F201FB</73>※Gratuity price has been updated to include a small transaction fee.
+※Reclaimed items will no longer contribute to the enclave's reconstruction.
+※Reclaiming donations will not increase or otherwise affect the weekly budget.<72>F201FA</72><73>F201FB</73>"
 11594,"Donate"
 11595,"Donate"
 11596,"Select item to donate."
@@ -9524,7 +9825,7 @@ Donate the items for a gratuity of <Format(IntegerParameter(1),FF022C)/>?"
 11611,"Adventurer List"
 11612,"Refresh Eureka adventurer list results."
 11613,"World"
-11614,"<Color(-154)>Unable to retrieve data.</Color>"
+11614,"<72>F201FA</72><73>F201FB</73>Unable to retrieve data.<73>01</73><72>01</72>"
 11615,"Time Remaining"
 11616,"<If(LessThan(IntegerParameter(1),1))>Less than 1m<Else/><Value>IntegerParameter(1)</Value>m</If>"
 11617,"Expedition Time Remaining: <If(LessThan(IntegerParameter(1),1))>Less than 1m<Else/><Value>IntegerParameter(1)</Value>m</If>"
@@ -9534,7 +9835,7 @@ Donate the items for a gratuity of <Format(IntegerParameter(1),FF022C)/>?"
 11621,"Return to the starting point for
 “<Highlight>ObjectParameter(56)</Highlight>”? 
 
-<Color(-34022)>※You will automatically return 10 minutes after KO.</Color>"
+<72>F201F4</72><73>F201F5</73>※You will automatically return 10 minutes after KO.<73>01</73><72>01</72>"
 11622,"MA"
 11623,"<If(Equal(PlayerParameter(80),1))><CommandIcon(10)/><Else/></If> Spin Counterclockwise  <If(Equal(PlayerParameter(80),1))><CommandIcon(8)/><Else/></If> Spin Clockwise"
 11624,"+<Value>IntegerParameter(1)</Value>%)"
@@ -9582,25 +9883,25 @@ Teams which end the season with the highest rankings are awarded
 special prizes and granted eligibility to exclusive tournaments.
 Team ratings and rankings are reset at the end of every season.
 Season schedule and ranking information can be viewed under
-<Color(-34022)>PvP Team</Color> in the <Color(-34022)>main menu</Color>."
+<72>F201F4</72><73>F201F5</73>PvP Team<73>01</73><72>01</72> in the <72>F201F4</72><73>F201F5</73>main menu<73>01</73><72>01</72>."
 11734,"Team Management"
 11735,"Team information, including status of current members, can be viewed
-under <Color(-34022)>PvP Team</Color> in the <Color(-34022)>main menu</Color>."
+under <72>F201F4</72><73>F201F5</73>PvP Team<73>01</73><72>01</72> in the <72>F201F4</72><73>F201F5</73>main menu<73>01</73><72>01</72>."
 11736,"Inviting Players"
-11737,"To invite a player to a PvP team, target him or her and select <Color(-34022)>Invite
-to PvP Team</Color> from the subcommands. The invitee will join the
+11737,"To invite a player to a PvP team, target him or her and select <72>F201F4</72><73>F201F5</73>Invite
+to PvP Team<73>01</73><72>01</72> from the subcommands. The invitee will join the
 team upon agreeing to the request. To invite someone from another
 World server to your PvP team, you must first be in a cross-world
 party with that player.
 
 Dismissing a member of your PvP team is conducted in the same
-manner as invitations, except <Color(-34022)>Dismiss from PvP Team</Color> is chosen from
+manner as invitations, except <72>F201F4</72><73>F201F5</73>Dismiss from PvP Team<73>01</73><72>01</72> is chosen from
 the subcommands after targeting the player. Only PvP team leaders
 or subleaders may invite and dismiss members.
 
-<Color(-154)>Once a PvP season has begun, you may not recruit new members
+<72>F201FA</72><73>F201FB</73>Once a PvP season has begun, you may not recruit new members
 to your team. If, during a season, member count falls below four,
-your team will be removed from the rankings.</Color>"
+your team will be removed from the rankings.<73>01</73><72>01</72>"
 11738,"Member Authorization"
 11739,"Certain team actions, such as changing the team name or updating the
 team crest, require authorization to execute. This authorization is only
@@ -9608,14 +9909,14 @@ granted to team leaders and subleaders. A team subleader can be
 appointed by the team leader via subcommand on the member list in
 the PvP Team interface."
 11740,"Disbanding/Leaving a Team"
-11741,"To disband a team, the leader must first select the option <Color(-34022)>Disband
-Team</Color> found under <Color(-34022)>Status</Color> on the PvP Team interface. More than half of
+11741,"To disband a team, the leader must first select the option <72>F201F4</72><73>F201F5</73>Disband
+Team<73>01</73><72>01</72> found under <72>F201F4</72><73>F201F5</73>Status<73>01</73><72>01</72> on the PvP Team interface. More than half of
 the team members must then agree to the disbandment before it is
 executed. Team history, rank, and rating are all deleted upon
 disbandment.
 
-To leave a PvP team, a member must select <Color(-34022)>Leave Team</Color>, also found
-under <Color(-34022)>Status</Color> on the PvP Team interface. Once the team has been left,
+To leave a PvP team, a member must select <72>F201F4</72><73>F201F5</73>Leave Team<73>01</73><72>01</72>, also found
+under <72>F201F4</72><73>F201F5</73>Status<73>01</73><72>01</72> on the PvP Team interface. Once the team has been left,
 that member will no longer have access to functions and content
 associated with the former PvP team."
 11742,"Automatic Leader Transfer"
@@ -9650,6 +9951,7 @@ member who joined the team first."
 11775,""
 11776,"Confirm"
 11777,"Cancel"
+11779,"Promote to Leader"
 11780,"Promote to Subleader"
 11781,"Remove as Subleader"
 11782,"Invite to PvP Team"
@@ -9695,9 +9997,10 @@ member who joined the team first."
 11827,"To disband a PvP team, approval must be received from more than half of the
 team members. Offline members will be recorded as not giving their assent."
 11828,"Proceed with motion."
+11829,"Promote <Highlight>StringParameter(1)</Highlight> to PvP team leader?"
 11830,"PvP Team Disbandment Confirmation"
 11831,"PvPチームの解散が提案されました。"
-11832,"A motion to <Color(-154)>disband the PvP team</Color> has been submitted by the team leader.
+11832,"A motion to <72>F201FA</72><73>F201FB</73>disband the PvP team<73>01</73><72>01</72> has been submitted by the team leader.
 Votes of any offline team members will be counted as “No.”
 Failing to reply in the allotted time will also render a vote “No.”"
 11833,"Agree to the disbandment."
@@ -9715,13 +10018,13 @@ Failing to reply in the allotted time will also render a vote “No.”"
 11851,"PvPチームの結成が提案されました。"
 11852,"<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If> has submitted a request to create the PvP team “<Highlight>StringParameter(1)</Highlight>.” The team will be created once all members have granted their approval. Misbehavior by any team members at any time may result in the automatic disbandment of the team. Approve creation?"
 11853,"チームの結成に同意しますか？"
-11855,"You defeat <Color(-154)><Highlight>StringParameter(1)</Highlight></Color>."
-11856,"You are defeated by <Color(-154)><Highlight>StringParameter(1)</Highlight></Color>."
-11857,"Your match with <Color(-154)><Highlight>StringParameter(1)</Highlight></Color> is a draw."
+11855,"You defeat <72>F201FA</72><73>F201FB</73><Highlight>StringParameter(1)</Highlight><73>01</73><72>01</72>."
+11856,"You are defeated by <72>F201FA</72><73>F201FB</73><Highlight>StringParameter(1)</Highlight><73>01</73><72>01</72>."
+11857,"Your match with <72>F201FA</72><73>F201FB</73><Highlight>StringParameter(1)</Highlight><73>01</73><72>01</72> is a draw."
 11858,"A new season begins."
-11859,"You defeat <Color(-154)><disbanded team></Color>."
-11860,"You are defeated by <Color(-154)><disbanded team></Color>."
-11861,"Your match with <Color(-154)><disbanded team></Color> is a draw."
+11859,"You defeat <72>F201FA</72><73>F201FB</73><disbanded team><73>01</73><72>01</72>."
+11860,"You are defeated by <72>F201FA</72><73>F201FB</73><disbanded team><73>01</73><72>01</72>."
+11861,"Your match with <72>F201FA</72><73>F201FB</73><disbanded team><73>01</73><72>01</72> is a draw."
 11870,"PvP Schedule"
 11871,""
 11872,"Confirm registration periods for ranked Feast matches."
@@ -9735,8 +10038,8 @@ Failing to reply in the allotted time will also render a vote “No.”"
 11880,"WED"
 11881,"THU"
 11882,"FRI"
-11883,"<Color(-12533761)>SAT</Color>"
-11884,"<Color(-34022)>SUN</Color>"
+11883,"<72>F201F6</72><73>F201F7</73>SAT<73>01</73><72>01</72>"
+11884,"<72>F201F4</72><73>F201F5</73>SUN<73>01</73><72>01</72>"
 11885,"Close"
 11886,"<If(GreaterThanOrEqualTo(IntegerParameter(5),25))>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue><Else/><If(GreaterThanOrEqualTo(IntegerParameter(6),25))><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Else/><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue></If> <If(GreaterThanOrEqualTo(IntegerParameter(1),12))>p.m.<Else/>a.m.</If><If(GreaterThanOrEqualTo(IntegerParameter(2),12))>p.m.<Else/>a.m.</If></If>"
 11887,"Confirm registration periods for ranked Feast matches."
@@ -9820,7 +10123,7 @@ The following dyes will be used:"
 11975,""
 11976,"Gear Selection"
 11977,""
-11978,"<Color(-32640)>Unable to save. Insufficient dye.</Color>"
+11978,"<72>F201FC</72><73>F201FD</73>Unable to save. Insufficient dye.<73>01</73><72>01</72>"
 11979,"Discard all changes?"
 11980,"There are no glamours."
 11981,"Too many items are equipped in the following slots:
@@ -9831,14 +10134,14 @@ The following dyes will be used:"
 11985,"　Hands"
 11986,"　Legs"
 11987,"　Feet"
-11988,"<Color(-154)>This plate includes gear specialized for differing classes or jobs. Depending on your current job, not all gear may be displayed at the time of glamour application.</Color>
+11988,"<72>F201FA</72><73>F201FB</73>This plate includes gear specialized for differing classes or jobs. Depending on your current job, not all gear may be displayed at the time of glamour application.<73>01</73><72>01</72>
 
 "
 11989,"There are no items in the <Highlight>StringParameter(1)</Highlight> category."
 11990,"Link Gear Set"
-11991,"<Color(-154)>This item can be stored in an armoire.</Color>"
-11992,"<Color(-154)>The same item is already stored in your glamour dresser.</Color>"
-11993,"<Color(-154)>This item is saved to a gear set.</Color>"
+11991,"<72>F201FA</72><73>F201FB</73>This item can be stored in an armoire.<73>01</73><72>01</72>"
+11992,"<72>F201FA</72><73>F201FB</73>The same item is already stored in your glamour dresser.<73>01</73><72>01</72>"
+11993,"<72>F201FA</72><73>F201FB</73>This item is saved to a gear set.<73>01</73><72>01</72>"
 11994,"Using <SheetEn(Item,1,IntegerParameter(1),1,1)/> on the selected item and placing it into the glamour dresser will reset its spiritbond to 0% and condition to 100%, as well as remove customization including: signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal. Proceed?"
 12002,"C"
 12003,"D"
@@ -9922,16 +10225,22 @@ The following dyes will be used:"
 12081,"Press <If(Equal(PlayerParameter(78),3))>esc<Else/>Esc</If> to exit Performance mode."
 12082,"–-"
 12083,"Assign all notes to keyboard."
+12084,"Initializing keyboard controls.
+Select your keyboard type."
+12085,"Japanese Keyboard (106/109)"
+12086,"English Keyboard (101/104)"
+12087,"German Keyboard (102/105)"
+12088,"French Keyboard (102/105)"
 12110,"Cross-world Linkshell"
 12111,""
 12112,"Name"
 12113,"World"
 12114,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
-12115,"<Color(-154)>Linkshells with less than 2 members will be automatically disbanded if new members are not added within 24 hours (Earth time).
-(<If(GreaterThan(IntegerParameter(3),0))>Time is up. Disbanding linkshell shortly.<Else/>Time Remaining:<If(GreaterThan(IntegerParameter(1),0))> <Value>IntegerParameter(1)</Value>h<Else/></If><If(Equal(IntegerParameter(2),0))><If(Equal(IntegerParameter(1),0))> Less than 1m<Else/></If><Else/> <Value>IntegerParameter(2)</Value>m</If></If>)</Color>"
+12115,"<72>F201FA</72><73>F201FB</73>Linkshells with less than 2 members will be automatically disbanded if new members are not added within 24 hours (Earth time).
+(<If(GreaterThan(IntegerParameter(3),0))>Time is up. Disbanding linkshell shortly.<Else/>Time Remaining:<If(GreaterThan(IntegerParameter(1),0))> <Value>IntegerParameter(1)</Value>h<Else/></If><If(Equal(IntegerParameter(2),0))><If(Equal(IntegerParameter(1),0))> Less than 1m<Else/></If><Else/> <Value>IntegerParameter(2)</Value>m</If></If>)<73>01</73><72>01</72>"
 12116,"Refresh member list results."
 12117,"Unable to retrieve member list."
-12118,"<Color(52258)>Cross-world linkshells</Color> are special linkshells that allow players on different worlds to form private chat groups and communicate in real time. Any player can create a cross-world linkshell, as well as join one via invite. While communication between players on the same world is possible through cross-world linkshells, it is recommended that intra-world communication is done using normal linkshells available in Limsa Lominsa, Gridania, and Ul'dah.
+12118,"<72>F201F8</72><73>F201F9</73>Cross-world linkshells<73>01</73><72>01</72> are special linkshells that allow players on different worlds to form private chat groups and communicate in real time. Any player can create a cross-world linkshell, as well as join one via invite. While communication between players on the same world is possible through cross-world linkshells, it is recommended that intra-world communication is done using normal linkshells available in Limsa Lominsa, Gridania, and Ul'dah.
 
 Please note, players may only belong to one cross-world linkshell at a time, and linkshells with less than 2 active members will be automatically disbanded if new members are not added within 24 hours (Earth time). Multiple cross-world linkshells cannot be created in succession."
 12119,"Create"
@@ -10009,7 +10318,7 @@ Please note, players may only belong to one cross-world linkshell at a time, and
 12221,"Unlocked after Summoning Once"
 12222,"Unlocked after Opening Once"
 12223,"Unable to Access"
-12224,"Tab: <If(GreaterThan(IntegerParameter(1),0))> [1]<Else/></If><If(GreaterThan(IntegerParameter(2),0))> [2]<Else/></If><If(GreaterThan(IntegerParameter(3),0))> [3]<Else/></If><If(GreaterThan(IntegerParameter(4),0))> [4]<Else/></If><If(GreaterThan(IntegerParameter(5),0))> [5]<Else/></If><If(GreaterThan(IntegerParameter(6),0))> [6]<Else/></If><If(GreaterThan(IntegerParameter(7),0))> [7]<Else/></If><If(GreaterThan(IntegerParameter(8),0))> [Crystals]<Else/></If><If(GreaterThan(IntegerParameter(9),0))> <Highlight>StringParameter(10)</Highlight><Else/></If>"
+12224,"Block: <If(GreaterThan(IntegerParameter(1),0))> [1]<Else/></If><If(GreaterThan(IntegerParameter(2),0))> [2]<Else/></If><If(GreaterThan(IntegerParameter(3),0))> [3]<Else/></If><If(GreaterThan(IntegerParameter(4),0))> [4]<Else/></If><If(GreaterThan(IntegerParameter(5),0))> [5]<Else/></If><If(GreaterThan(IntegerParameter(6),0))> [Crystals]<Else/></If><If(GreaterThan(IntegerParameter(7),0))> <Highlight>StringParameter(8)</Highlight><Else/></If>"
 12225,"Bag: <If(GreaterThan(IntegerParameter(1),0))> [1]<Else/></If><If(GreaterThan(IntegerParameter(2),0))> [2]<Else/></If>"
 12226,"Main Hand"
 12227,"Off Hand"
@@ -10431,13 +10740,13 @@ Current Location: <Highlight>StringParameter(1)</Highlight>"
 102421,"Duty calls. Commence battle for
 “<Highlight>StringParameter(1)</Highlight>”?
 
-<Color(-34022)>※If your level is above <Sheet(QuestBattle,IntegerParameter(2),3)/>, it will be synced.</Color>"
+<72>F201F4</72><73>F201F5</73>※If your level is above <Sheet(QuestBattle,IntegerParameter(2),3)/>, it will be synced.<73>01</73><72>01</72>"
 102422,"Proceed"
 102423,"Leave"
 102424,"Duty calls. Commence battle for
 “<Highlight>StringParameter(1)</Highlight>”?
 
-<Color(-34022)>※If your level is above <Value>IntegerParameter(2)</Value>, it will be synced.</Color>"
+<72>F201F4</72><73>F201F5</73>※If your level is above <Value>IntegerParameter(2)</Value>, it will be synced.<73>01</73><72>01</72>"
 102425,"Proceed"
 102426,"Leave"
 102431,"Yes"
@@ -10541,7 +10850,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102563,"Do you wish to dismiss this party member?"
 102564,"Yes"
 102565,"No"
-102566,"<Color(-32640)>Warning: Unjustified usage of vote dismiss is a punishable act.</Color>"
+102566,"<72>F201FC</72><73>F201FD</73>Warning: Unjustified usage of vote dismiss is a punishable act.<73>01</73><72>01</72>"
 102570,"Player Commendation"
 102571,""
 102572,"Commend the player who left a positive impression upon you."
@@ -10550,7 +10859,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102575,"Player Commendation"
 102580,"Duty Roulette"
 102581,"Adventurer in Need (<Highlight>StringParameter(1)</Highlight>)"
-102582,"<Color(-34022)>Item already received</Color>"
+102582,"<72>F201F4</72><73>F201F5</73>Item already received<73>01</73><72>01</72>"
 102583,"<Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> player<If(Equal(IntegerParameter(1),1))><Else/>s</If> only
  (<Value>IntegerParameter(2)</Value> tank<If(Equal(IntegerParameter(2),1))><Else/>s</If>, <Value>IntegerParameter(3)</Value> healer<If(Equal(IntegerParameter(3),1))><Else/>s</If>, <Value>IntegerParameter(4)</Value> DPS)"
 102584,"Up to <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If> player<If(Equal(IntegerParameter(1),1))><Else/>s</If>
@@ -10559,7 +10868,7 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
  (<If(IntegerParameter(5))><If(LessThanOrEqualTo(IntegerParameter(5),10))><Switch(IntegerParameter(5))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(5)</Value></If><Else/><Value>IntegerParameter(5)</Value></If> part<If(Equal(IntegerParameter(5),1))>y<Else/>ies</If> of <Value>IntegerParameter(2)</Value> tank<If(Equal(IntegerParameter(2),1))><Else/>s</If>, <Value>IntegerParameter(3)</Value> healer<If(Equal(IntegerParameter(3),1))><Else/>s</If>, <Value>IntegerParameter(4)</Value> DPS)"
 102586,"Fulfill the requirements for two or more duties."
 102587,"Awards Obtainable: Daily"
-102588,"<Color(-34022)>Reward already received <If(GreaterThan(IntegerParameter(2),1))>(<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>).<Else/></If></Color>"
+102588,"<72>F201F4</72><73>F201F5</73>Reward already received <If(GreaterThan(IntegerParameter(2),1))>(<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>).<Else/></If><73>01</73><72>01</72>"
 102589,"Awards Obtainable: Weekly"
 102590,"Clear Selection"
 102591,"<Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> player<If(Equal(IntegerParameter(1),1))><Else/>s</If> only
@@ -10590,8 +10899,8 @@ Patch4.0から不要なログのはずなのでこれが出た場合要チェッ
 102608,"This duty is item level synced. All item levels will be adjusted to the level indicated."
 102609,"Role requirements are not enforced for this duty."
 102610,"Wait"
-102611,"<Color(-34022)>Withdrawing from a duty three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in a penalty preventing further use of the Duty Finder and Raid Finder.</Color>
-<Color(-154)>※Withdrawing from preformed parties does not count toward the penalty.</Color>
+102611,"<72>F201F4</72><73>F201F5</73>Withdrawing from a duty three times a day, whether it be via the withdraw button or allowing the timer to run out, will result in a penalty preventing further use of the Duty Finder and Raid Finder.<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>※Withdrawing from preformed parties does not count toward the penalty.<73>01</73><72>01</72>
 Proceed?"
 102612,"Summoning a companion at this time will cancel your Duty Finder registration. Proceed?"
 102613,"Duty Participation Confirmation"
@@ -10604,10 +10913,10 @@ Proceed?"
 102619,"Duty Recording On"
 102620,"Vote Abandon"
 102621,"Initiate a vote to abandon the current duty.
-If more than half the party members vote <Color(-34022)>Yes</Color>, the party will be disbanded and the duty will end.
+If more than half the party members vote <72>F201F4</72><73>F201F5</73>Yes<73>01</73><72>01</72>, the party will be disbanded and the duty will end.
 ※Please note that penalties will not be incurred for abandoning a duty in this fashion."
 102622,"Vote Abandon"
-102623,"If more than half the party members vote <Color(-34022)>Yes</Color>, the party will be disbanded and the duty will end.
+102623,"If more than half the party members vote <72>F201F4</72><73>F201F5</73>Yes<73>01</73><72>01</72>, the party will be disbanded and the duty will end.
 ※Please note that penalties will not be incurred for abandoning a duty in this fashion."
 102624,"Do you wish to abandon this duty?"
 102625,"Yes"

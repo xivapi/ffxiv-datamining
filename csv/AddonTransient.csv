@@ -35,17 +35,17 @@ int32,str
 31,"<CommandIcon(11)/> Execute Search"
 32,"<CommandIcon(10)/> Subcommands <CommandIcon(8)/> View Search Results <CommandIcon(9)/> Back"
 33,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> View Search Results  <CommandIcon(9)/> Back  <CommandIcon(12)/><CommandIcon(13)/> Turn Pages"
-34,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Close"
+34,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 35,"<CommandIcon(11)/> Reload List  <CommandIcon(10)/> Subcommands  <CommandIcon(8)/> View Details"
 36,"<CommandIcon(11)/> Search"
 37,"<CommandIcon(11)/> Cycle Between Roles  <CommandIcon(8)/> Specify Class/Job"
 38,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Exchange"
-39,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Purchase"
+39,"<CommandIcon(10)/> Subcommand"
 40,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Confirm  <CommandIcon(9)/> Close"
 41,"<CommandIcon(13)/>"
 42,"<CommandIcon(12)/>"
 43,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Teleport"
-44,"<CommandIcon(10)/> Set to Hotbar"
+44,"<CommandIcon(10)/> Subcommands"
 45,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
 46,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Macro Editor  <CommandIcon(24)/> Scroll"
 47,"<CommandIcon(8)/> Select Materia  <CommandIcon(11)/> Move to Materia Transmutation"
@@ -236,39 +236,39 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 184,"<CommandIcon(8)/> Summon"
 185,"<CommandIcon(24)/> Scroll"
 186,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(11)/> Edit Minion Hotbar  <CommandIcon(8)/> Summon"
-187,"<Color(-34022)>Learn Your Structures</Color>
-<Color(-154)>Arcana Stones</Color>
+187,"<72>F201F4</72><73>F201F5</73>Learn Your Structures<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Arcana Stones<73>01</73><72>01</72>
   You and your opponent each have three of these immobile crystals on
   the playing field. Shatter all of your enemy's Arcana Stones to claim
   victory.
-<Color(-154)>Gates</Color>
+<72>F201FA</72><73>F201FB</73>Gates<73>01</73><72>01</72>
   Minions will appear in front of your currently selected gate.
   Returning minions to a gate area will restore their HP.
   Minions can still be summoned from a destroyed gate, but they will be
   unable to exit the gate area. Conversely, minions outside a destroyed
   gate will be unable to enter.
-<Color(-154)>Search Eye</Color>
+<72>F201FA</72><73>F201FB</73>Search Eye<73>01</73><72>01</72>
   This structure reveals your opponent's minions. If the Search Eye is
   destroyed, you will only be able to see enemy units that are near
   your own minions.
-<Color(-154)>Shield</Color>
+<72>F201FA</72><73>F201FB</73>Shield<73>01</73><72>01</72>
   This structure adds defensive strength to Arcana Stones. Destroy the
   enemy Shield and your opponent's Arcana Stones will be more easily
   shattered.
 
-<Color(-34022)>Structural Regeneration</Color>
+<72>F201F4</72><73>F201F5</73>Structural Regeneration<73>01</73><72>01</72>
   All structures except for Arcana Stones can only be temporarily
   destroyed. Their various functions will reactivate at full strength
   after a certain amount of time has passed.
   ※Positioning your minions near a destroyed structure will hasten
   　the reactivation process.
 
-<Color(-34022)>Play to Your Minions' Strengths</Color>
+<72>F201F4</72><73>F201F5</73>Play to Your Minions' Strengths<73>01</73><72>01</72>
   Each variety of minion is capable of inflicting greater damage against
   certain structures. Learn each unit's strengths, and pick the right
   minion for the job!
 
-<Color(-34022)>Turn the Tide with Special Actions</Color>
+<72>F201F4</72><73>F201F5</73>Turn the Tide with Special Actions<73>01</73><72>01</72>
   These conditions must be met before a special action can be used:
   ・Four minions of the same variety are gathered in an action party
   ・Each minion in the action party has full action points
@@ -277,20 +277,20 @@ Permission to use, copy, modify, distribute and sell this software and its docum
   action party, and press the Execute Action button on the minion
   hotbar.
 
-<Color(-34022)>Mastering Traps</Color>
+<72>F201F4</72><73>F201F5</73>Mastering Traps<73>01</73><72>01</72>
   Some minions will place traps with their special actions. A trap will
   become armed ten seconds after it has been placed, and it can then
   be triggered by pressing the Trigger Trap button on the minion
   hotbar.
   ※Only one trap can be placed at a time.
 
-<If(GreaterThan(PlayerParameter(80),0))><Color(-34022)>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If></Color>
-<Color(-154)>Selecting Minions</Color>
+<If(GreaterThan(PlayerParameter(80),0))><72>F201F4</72><73>F201F5</73>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
   ・Selecting an individual minion
      <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list
   ・Selecting multiple minions
      <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions
-<Color(-154)>Useful Commands</Color>
+<72>F201FA</72><73>F201FB</73>Useful Commands<73>01</73><72>01</72>
   ・General
      <Gui(17)/>　　　: Switch summoning gate
      <CommandIcon(15)/>　　　: Toggle minion party list display
@@ -309,26 +309,26 @@ Permission to use, copy, modify, distribute and sell this software and its docum
      <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection
      <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults
 
-<Color(-34022)>Mouse Controls</Color>
-<Color(-154)>Selecting Minions</Color>
+<72>F201F4</72><73>F201F5</73>Mouse Controls<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
    Left-Click : Select individual minion
    　※Left-clicking on your currently selected minion will select all
    　nearby minions of the same variety.
    Left-Click + Drag : Select all minions in the selection square
-<Else/><Color(-34022)>Mouse Controls</Color>
-<Color(-154)>Selecting Minions</Color>
+<Else/><72>F201F4</72><73>F201F5</73>Mouse Controls<73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
    Left-Click : Select individual minion
    　※Left-clicking on your currently selected minion will select all
    　nearby minions of the same variety.
    Left-Click + Drag : Select all minions in the selection square
 
-<Color(-34022)>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If></Color>
-<Color(-154)>Selecting Minions</Color>
+<72>F201F4</72><73>F201F5</73>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><73>01</73><72>01</72>
+<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
   ・Selecting an individual minion
      <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list
   ・Selecting multiple minions
      <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions
-<Color(-154)>Useful Commands</Color>
+<72>F201FA</72><73>F201FB</73>Useful Commands<73>01</73><72>01</72>
   ・General
      <Gui(17)/>　　　: Switch summoning gate
      <CommandIcon(15)/>　　　: Toggle minion party list display
@@ -347,7 +347,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
      <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection
      <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults
 </If>
-<Color(-34022)>Keyboard Shortcuts</Color>
+<72>F201F4</72><73>F201F5</73>Keyboard Shortcuts<73>01</73><72>01</72>
   The following keybinds will be assigned different functions while
   playing Lord of Verminion.
 <If(Equal(PlayerParameter(75),1))><Else/>  Hotbar 1 - Slots 1 to 12 : Minion hotbar bottom row
@@ -443,16 +443,136 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 271,"<CommandIcon(8)/> Remove Item  <CommandIcon(11)/> Select Item to Donate"
 272,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 273,""
-274,""
-275,""
-276,""
-277,""
-278,""
-279,""
-280,""
+274,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
+275,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Move Favorite"
+276,"<CommandIcon(11)/> Select Item to Donate"
+277,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Edit Minion Hotbar"
+278,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands <CommandIcon(11)/> Move"
+279,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
+280,"<CommandIcon(5)/> History  <CommandIcon(10)/> Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/></If>"
+281,"<CommandIcon(5)/> Move  <CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands"
+282,"<CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands"
+283,"<CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Move"
+284,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
+285,"<CommandIcon(5)/> History  <CommandIcon(10)/>Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/></If>"
+286,"<CommandIcon(5)/> Move  <CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands"
+287,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/><CommandIcon(10)/> Confirm  <CommandIcon(9)/> Cancel"
+288,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands"
+289,"<CommandIcon(11)/> New Letter"
+290,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Accept"
+291,""
+292,""
+293,""
+294,""
+295,""
+296,""
+297,""
+298,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
+299,""
+300,""
+301,"<CommandIcon(10)/> Subcommands"
+302,"<CommandIcon(10)/> Subcommands"
+303,"<CommandIcon(8)/><CommandIcon(10)/> View Tag"
+304,"<CommandIcon(8)/><CommandIcon(10)/> View Tag"
+305,"<CommandIcon(10)/> Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/></If>"
+306,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
+307,""
+308,""
+309,""
+310,""
+311,""
+312,""
+313,""
+314,""
+315,""
+316,""
+317,""
+318,""
+319,""
+320,""
+321,""
+322,""
+323,""
+324,""
+325,""
+326,""
+327,""
+328,""
+329,""
+330,""
+331,""
+332,""
+333,""
+334,""
+335,""
+336,""
+337,""
+338,""
+339,""
+340,""
+341,""
+342,""
+343,""
+344,""
+345,""
+346,""
+347,""
+348,""
+349,""
+350,""
+351,""
+352,""
+353,""
+354,""
+355,""
+356,""
+357,""
+358,""
+359,""
+360,""
+361,""
+362,""
+363,""
+364,""
+365,""
+366,""
+367,""
+368,""
+369,""
+370,""
+371,""
+372,""
+373,""
+374,""
+375,""
+376,""
+377,""
+378,""
+379,""
+380,""
+381,""
+382,""
+383,""
+384,""
+385,""
+386,""
+387,""
+388,""
+389,""
+390,""
+391,""
+392,""
+393,""
+394,""
+395,""
+396,""
+397,""
+398,""
+399,""
+400,""
 1000,"Report could not be sent.
 Please try again."
-1001,"<Color(-287193856)>Duty Record Playback</Color>
+1001,"<72>F20202</72>Duty Record Playback<72>01</72>
 ※Keyboard/Mouse settings listed are default.
 <If(Equal(PlayerParameter(78),99))>・Move Camera
 　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)
@@ -462,8 +582,6 @@ Please try again."
 　<CommandIcon(7)/> Buttons/<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys
 ・Pause/Play
 　<CommandIcon(11)/> Button/<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)
-・Toggle Playback Speed (x1/x2/x4)
-　<CommandIcon(13)/> Button/<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key
 ・Open/Close Controls
 　<CommandIcon(10)/> Button/R Key or  Button (Auto Run)<Else/>・Move Camera
 　W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick
@@ -473,34 +591,29 @@ Please try again."
 　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
 ・Pause/Play
 　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
-・Toggle Playback Speed (x1/x2/x4)
-　<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/> Button
 ・Open/Close Controls
 　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>
 
-<Color(-287193856)>Current Duties Available for Recording</Color>
-<Sheet(Addon,3071,0)/>
-
 ––––––––––––––––––––––––––––––––––––––––––
-<Color(-287193856)>Recording Duties</Color>
+<72>F20202</72>Recording Duties<72>01</72>
 The following conditions must be met to use the Duty Recorder:
 　1. Recorder settings are enabled.
 　2. Current duty is available for recording.
 　3. Parties meet minimum size requirements.
 　4. Record ready check has been executed.
 
-<Color(-287193856)>1. Recorder settings are enabled</Color>
-Recorder settings can be adjusted under <Color(-34022)>Duty Recorder</Color> in the main menu.
+<72>F20202</72>1. Recorder settings are enabled<72>01</72>
+Recorder settings can be adjusted under <72>F201F4</72><73>F201F5</73>Duty Recorder<73>01</73><72>01</72> in the main menu.
 
-<Color(-287193856)>2. Current duty is available for recording</Color>
+<72>F20202</72>2. Current duty is available for recording<72>01</72>
 Not all duties are available for recording.
 Recordable duties are marked with a special icon.
 
-<Color(-287193856)>3. Parties meet minimum size requirements</Color>
+<72>F20202</72>3. Parties meet minimum size requirements<72>01</72>
 Duties undertaken by undersized parties cannot be recorded.
 ※This includes parties formed via the Duty Finder.
 
-<Color(-287193856)>4. Record ready check has been executed</Color>
+<72>F20202</72>4. Record ready check has been executed<72>01</72>
 Approval from all party members is required before recording can begin.
 ※Record ready checks must be performed within 5 minutes of commencing a duty.
 
@@ -508,18 +621,18 @@ Only 3 records may be saved at once. Oldest records will be overwritten.
 ※Up to 2 records can be protected at once.
 
 ––––––––––––––––––––––––––––––––––––––––––
-<Color(-287193856)>Viewing Recorded Duties</Color>
+<72>F20202</72>Viewing Recorded Duties<72>01</72>
 The following conditions must be met to view duty records:
 　1. You are in an inn room.
 　2. Recorded duty is from the most recent game version.
 
-<Color(-287193856)>1. You are in an inn room</Color>
+<72>F20202</72>1. You are in an inn room<72>01</72>
 Duty playback is only available in inn rooms.
 
-<Color(-287193856)>2. Recorded duty is from the most recent game version</Color>
+<72>F20202</72>2. Recorded duty is from the most recent game version<72>01</72>
 This includes both major updates and minor hotfixes.
 Recordings will become inaccessible after applying the newest data patch."
-1002,"<Color(-287193856)>Duty Record Playback</Color>
+1002,"<72>F20202</72>Duty Record Playback<72>01</72>
 ※Keyboard/Mouse settings listed are default.
 <If(Equal(PlayerParameter(78),99))>・Move Camera
 　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)
@@ -529,8 +642,6 @@ Recordings will become inaccessible after applying the newest data patch."
 　<CommandIcon(7)/> Buttons/<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys
 ・Pause/Play
 　<CommandIcon(11)/> Button/<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)
-・Toggle Playback Speed (x1/x2/x4)
-　<CommandIcon(13)/> Button/<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key
 ・Open/Close Controls
 　<CommandIcon(10)/> Button/R Key or  Button (Auto Run)<Else/>・Move Camera
 　W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick
@@ -540,44 +651,32 @@ Recordings will become inaccessible after applying the newest data patch."
 　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
 ・Pause/Play
 　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
-・Toggle Playback Speed (x1/x2/x4)
-　<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/> Button
 ・Open/Close Controls
 　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>
 
 ––––––––––––––––––––––––––––––––––––––––––
-<Color(-287193856)>Functions</Color>
+<72>F20202</72>Functions<72>01</72>
 
-<Color(-287193856)>Pause</Color>
+<72>F20202</72>Pause<72>01</72>
 Temporarily stop playback.
 
-<Color(-287193856)>Playback Speed</Color>
-Change playback speed to 1x, 2x, or 4x of the original.
-
-<Color(-287193856)>Chapter Selection</Color>
+<72>F20202</72>Chapter Selection<72>01</72>
 Start playback at the position selected.
 ※Depending on chapter position, playback may not be instantaneous.
 
-<Color(-287193856)>Next Chapter</Color>
+<72>F20202</72>Next Chapter<72>01</72>
 Skip to the next available chapter.
 
-<Color(-287193856)>Previous Chapter</Color>
+<72>F20202</72>Previous Chapter<72>01</72>
 Skip to the previous chapter.
 
-<Color(-287193856)>HUD Display</Color>
+<72>F20202</72>HUD Display<72>01</72>
 Toggle on/off on-screen UI elements.
 ※Settings are saved for next playback.
 
-<Color(-287193856)>Focus Target</Color>
+<72>F20202</72>Focus Target<72>01</72>
 Camera can be focused on any party member.
-
-<Color(-287193856)>Group Pose</Color>
-Open the Group Pose function.
-※This feature is not always available.
-
-<Color(-287193856)>Idling Camera</Color>
-Activate idling camera.
-※This feature is not always available."
+"
 1003,""
 1004,""
 1005,""
@@ -586,3 +685,4 @@ Activate idling camera.
 1008,""
 1009,""
 1010,""
+2000,""
