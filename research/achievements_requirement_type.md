@@ -13,8 +13,8 @@ Achievements link to a "pre-requisite type" that defines it as completed. The li
 9: complete any of these requirement_2 - 9 quests (?)
 10: level your companion chocobo to rank n
 11: achieve PVP rank n with a specific Grand Company
-12: participate in n matches in The Fold
-13: triumph in n matches in The Fold
+12: participate in n matches in The Feast
+13: triumph in n matches in The Feast
 14: complete a specific Trial
 15: achieve rank n with a specific Beast Tribe
 16: there is no type 16
@@ -26,4 +26,5 @@ Achievements link to a "pre-requisite type" that defines it as completed. The li
 22: there is no type 22
 23: complete all Verminion challenges
 24: obtain a variety of anima weapon
+25: finish top 10 in a Regional Feast Championship
 ```
