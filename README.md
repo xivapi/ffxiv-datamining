@@ -51,7 +51,7 @@ A great tool showing really impressive results, it will allow you to view and ex
 
 **Other cool projects**
 
-- REST API for FFXIV via XIVDB: https://github.com/xivdb/api
+- REST API: http://xivapi.com/
 - (PHP) Lodestone Parser: https://github.com/viion/lodestone-php
 - (PHP CLI) Libra exporter: https://github.com/viion/libra-php
 - (PHP CLI) Lodestone Icon Ripper: https://github.com/viion/lodestone-icons
