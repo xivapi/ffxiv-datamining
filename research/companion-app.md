@@ -38,7 +38,7 @@ Once you have a valid token, you can provide it to any endpoint and everything w
 - `Content-Type` - `application/json;charset=utf-8`
 - `Accept` - `*/*'`
 - `domain-type` - `global`
-- `User-Agent` - `ffxivcomapp-e/1.0.0.5 CFNetwork/902.2 Darwin/17.7.0`
+- `User-Agent` - `ffxivcomapp-e/1.0.1.0 CFNetwork/974.2.1 Darwin/18.0.0`
 
 **PHP code to query the API**
 
@@ -57,7 +57,7 @@ $headers = [
     'Content-Type'      => 'application/json;charset=utf-8',
     'Accept'            => '*/*',
     'domain-type'       => 'global',
-    'User-Agent'        => 'ffxivcomapp-e/1.0.0.5 CFNetwork/902.2 Darwin/17.7.0',
+    'User-Agent'        => 'ffxivcomapp-e/1.0.1.0 CFNetwork/974.2.1 Darwin/18.0.0',
 ];
 
 $client = new Client([
