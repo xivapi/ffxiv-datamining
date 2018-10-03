@@ -1,3 +1,5 @@
+# Collectible Reward Info
+
 MasterpieceSupplyDuty is where all of the Collectable information is kept. Unknown how scrips are calculated for base value,
 but Bonus / High Bonus is calculated very easily, for both EXP and Scrips.
 
@@ -30,7 +32,7 @@ rewards across all classes for the exact same level (assuming an item isn't in d
 you can divide it by 1.2 and round up to get the info!) Gathering collectables I'd presume share a similar EXP systme, but I
 haven't mapped out those values yet.
 
-Level    = EXP 
+Level    = EXP
 ------------------
 Level 51 = 52920
 Level 52 = 63360

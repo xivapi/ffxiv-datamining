@@ -1,4 +1,5 @@
-# FFXIV Companion App
+# Companion App API
+
 - https://eu.finalfantasyxiv.com/companion/
 
 The FINAL FANTASY XIV companion app has the ability to query the game servers for a specific resource to pull information (market info, retainer items, player items, chat messages, etc). This document will list research and provide logic for obtaining data out of the app as well as quering the companion API.

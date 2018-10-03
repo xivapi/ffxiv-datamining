@@ -1,3 +1,5 @@
+# Item Stats
+
 Most of these are kind of obvious, but will add here for safe keeping!
 
 # Attack speed

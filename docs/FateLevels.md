@@ -1,3 +1,5 @@
+# FATE Levels
+
 The sync level for fates is always +5 of the fate level.
 
 ## Test Data
