@@ -50,17 +50,4 @@
   - [Sapphire](https://discord.gg/xxcdCER)
   - [Apkallu Falls](https://discord.gg/RNcV4eY)
 
-Do you have a discord for your FFXIV project? Provide a PR with your invite link added!
-
----
-
-# Community Members
-
-Notable members that have contributed information in some way, If you're part of the datamining and FFXIV discovery community be sure to add your credit!
-
-- Vekien (xivapi)
-- Clorifex (GarlandTools)
-- Hezkezl (GamerEscape)
-- Icarus Twine (GamerEscape & Blue Mage overlord)
-- Miu (TeamCraft)
-- Ioncannon (FFXIV Explorer)
+> Do you have a discord for your FFXIV project? Provide a PR with your invite link added!

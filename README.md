@@ -42,13 +42,6 @@ It's an extract of FFXIV UI Elements (images) extracted from SaintCoinach.
 
 ---
 
-### Huge thanks to:
-
-- [Ioncannon](https://www.reddit.com/user/Ioncannon) from [FFXIV Explorer](http://ffxivexplorer.fragmenterworks.com)
-- [Clorifex](https://www.reddit.com/user/Clorifex) from [GarlandTools](http://www.garlandtools.org/db/)
-- [Hezkezl](https://www.reddit.com/user/Hezkezl) for being awesome
-
-
 ### Becoming a dataminer
 
 - Step 1. Extract CSV data
@@ -66,3 +59,13 @@ If you find a connection between files or an identification of data, throw up an
 - Connection between files could be an number in 1 column that matches the numbers in another column or even another file
 - Identification of data could be values in a column that have a meaning and a pattern can be observed (eg ClassJob ID, or Craft Level)
 
+### Huge thanks to:
+
+Notable members that have contributed information in some way, If you're part of the datamining and FFXIV discovery community be sure to add your credit!
+
+- Clorifex (GarlandTools)
+- Hezkezl (GamerEscape)
+- Icarus Twine (GamerEscape & Blue Mage overlord)
+- Miu (TeamCraft)
+- Ioncannon (FFXIV Explorer)
+- Vekien (xivapi)
