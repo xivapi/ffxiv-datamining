@@ -51,7 +51,11 @@ It's an extract of FFXIV UI Elements (images) extracted from SaintCoinach.
 
 ### Becoming a dataminer
 
-Getting started in datamining is quite easy. If you enjoy digging around CSV database files then you've come to the right place! The best place to start would be:
+- Step 1. Extract CSV data
+- Step 2. Find where bluemage is
+- Step 3. Profit!
+
+Getting started in FFXIV data mining is quite easy. If you enjoy digging around CSV database files then you've come to the right place! The best place to start would be:
 
 - Download this repository and start looking at the files in the `/csv` folder
 - Download **SaintCoinach** and use either the `SaintCoinach.Cmd` or `Godbert` tools.
