@@ -2,15 +2,15 @@
 
 This repository is to serve as a place to share data mining information related to Final Fantasy XIV. All findings and knowledge that each member discovers will be provided here for all in the FFXIV Community to read, learn and use.
 
-# Documents of Knowledge
+### Documents of Knowledge
 
 - [Click here to view Documents on various FFXIV systems](docs/README.md)
 
-# Research and misc files
+### Research and misc files
 
 - [Click here to view various research and resource files](research/README.md)
 
-# CSVs
+### CSVs
 
 This repository keeps a record of CSV's extracted via SaintCoinach using the command `rawexd`, this is so they can be easily linked and referenced when datamining, so we have a git history of changes and just to make life easier in some cases :)
 
