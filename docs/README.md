@@ -1,21 +1,21 @@
 # FFXIV Data-Mining
 
 - Research
-  - [Achievements Requirement Types](docs/AchievementsRequirementTypes.md)
-  - [Collectable Reward Info](docs/CollectibleRewardInfo.md)
-  - [CompanionApp API](docs/CompanionAppApi.md)
-  - [Emote Log Messages](docs/EmoteLogMessage.md)
-  - [FATE Experience Points](docs/FateExpPoints.md)
-  - [FATE Levels](docs/FateLevels.md)
-  - [Icon Paths](docs/IconPaths.md)
-  - [Item Actions](docs/ItemActions.md)
-  - [Item Stats](docs/ItemStats.md)
-  - [LeveToNpc](docs/LeveToNpc.md)
-  - [MapCoordinates](docs/MapCoordinates.md)
-  - [MapScales](docs/MapScales.md)
-  - [QuestExpReward](docs/QuestExpReward.md)
-  - [UIColor](docs/UIColor.md)
-  - [Weather](docs/Weather.md)
+  - [Achievements Requirement Types](AchievementsRequirementTypes.md)
+  - [Collectable Reward Info](CollectibleRewardInfo.md)
+  - [CompanionApp API](CompanionAppApi.md)
+  - [Emote Log Messages](EmoteLogMessage.md)
+  - [FATE Experience Points](FateExpPoints.md)
+  - [FATE Levels](FateLevels.md)
+  - [Icon Paths](IconPaths.md)
+  - [Item Actions](ItemActions.md)
+  - [Item Stats](ItemStats.md)
+  - [LeveToNpc](LeveToNpc.md)
+  - [MapCoordinates](MapCoordinates.md)
+  - [MapScales](MapScales.md)
+  - [QuestExpReward](QuestExpReward.md)
+  - [UIColor](UIColor.md)
+  - [Weather](Weather.md)
 
 - Tools of the trade
   - [SaintCoinach](https://github.com/ufx/SaintCoinach) - The #1 datamining tool.
