@@ -1,6 +1,11 @@
+# Weather
+
 The current weather of a zone is based on the current unix epoch, and a zone weather table (WeatherRate).
+
 A forecast target integer is first calculated.  This value to the frequency of the zone's weather.
+
 When the number is less than the cumulative rate at which a weather pattern occurs, that weather will appear in the zone.
+
 For example, in Gridania it's raining 20% of the time, and foggy 10%. It rains when the number is < 20, and foggy when it's >= 20 and < 30, and so on.
 
 ````js

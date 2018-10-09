@@ -1,3 +1,9 @@
+# Emote Log Messages
+
+Attempting to debug the emote LogMessages
+
+---
+
 100	Standard Emotes	1	0	False
 
 

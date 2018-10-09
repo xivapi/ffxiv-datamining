@@ -1,4 +1,5 @@
-# FFXIV Companion App
+# Companion App API
+
 - https://eu.finalfantasyxiv.com/companion/
 
 The FINAL FANTASY XIV companion app has the ability to query the game servers for a specific resource to pull information (market info, retainer items, player items, chat messages, etc). This document will list research and provide logic for obtaining data out of the app as well as quering the companion API.
@@ -44,19 +45,25 @@ Once you have a valid token, you can provide it to any endpoint and everything w
 
 ```php
 <?php
+/**
+ * composer req ramsey/uuid guzzlehttp/guzzle
+ */
 require __DIR__ .'/vendor/autoload.php';
+
 use GuzzleHttp\Client;
 
 $headers = [
     // Your token, you would need to watch your traffic (eg I use Fiddler)
     // for this or use: https://github.com/Minoost/libpompom-sharp
-    'token'             => '<put your token here>',
-    'request-id'        => "lol whatever you want here",
+    'token'             => '<YOUR TOKEN>',
     
-    // other random blab
+    // this is your request-id and will affect SE's cache, you will not get up to date
+    // information until the same request has been made with a different request-id
+    // so this example just generates a random one each time
+    'request-id'        => time(),
+    
+    // other random blab - This isn't needed but is nice to have
     'Content-Type'      => 'application/json;charset=utf-8',
-    'Accept'            => '*/*',
-    'domain-type'       => 'global',
     'User-Agent'        => 'ffxivcomapp-e/1.0.1.0 CFNetwork/974.2.1 Darwin/18.0.0',
 ];
 
@@ -72,7 +79,7 @@ $client = new Client([
  *   /login/characters
  *   /login/region
  *
- * base_uri = https://companion-eu.finalfantasyxiv.com
+ * base_uri = https://companion-eu.finalfantasyxiv.com/
  *                              ^^ can be na or ja (i think data center?)
  *
  * These require the correct endpoint, eg:
@@ -81,31 +88,32 @@ $client = new Client([
  *
  * It returns a region, which will be the new 'base_uri'
  *
- *   /character/login-status
- *   /items/character
- *   /market/items/catalog/18189 (<-- item id , aka "catalogId")
+ *      /character/login-status
+ *      /items/character
+ *
+ *      /market/items/catalog/18189 (<-- item id , aka "catalogId")
  */
 
 // You have to keep hitting the API until you get a 200, 
-// as it queues requests and processes them in the background
-// This will attempt 15 times delaying for 250ms
-foreach (range(0, 15) as $i) {
-    // get market info for item id 18189
-    $response = $client->get('/sight-v060/sight/market/items/catalog/18189', [
+// as it queues requests and process them in the background
+foreach (range(0, 15) as $second) {
+	usleep(200000);
+
+    $response = $client->get('/sight-v060/sight/market/items/catalog/5', [
         \GuzzleHttp\RequestOptions::HEADERS => $headers,
     ]);
-    
-    if ($response->getStatusCode() == 200) {
-	// this is the API JSON data
-        $data = (string)$response->getBody();
-		
-	// this is the json response from the server, do something with it.
-	print_r($data);
-        break;
+
+    if ($response->getStatusCode() == 202) {
+    	continue;
     }
     
-    // delay for 250 milliseconds
-    usleep(250000);
+    if ($response->getStatusCode() == 200) {
+		// this is the API JSON data
+        print_r((string)$response->getBody());
+        break;
+    }
+
+    print_r($response);
 }
 ```
 

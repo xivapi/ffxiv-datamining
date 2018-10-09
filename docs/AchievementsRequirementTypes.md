@@ -1,4 +1,8 @@
-Achievements link to a "pre-requisite type" that defines it as completed. The list of Types are:
+# Achievements Requirement Types
+
+Achievements link to a "pre-requisite type" that defines it as completed.
+
+**This is a known list of types as of: 3rd October, 2018**
 
 ```
 0: complete specific Legacy thing

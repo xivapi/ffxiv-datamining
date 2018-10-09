@@ -1,8 +1,24 @@
 # Conversions to 2D Map
 
-*Code samples in C#*
 
-Conversion of a Level coordinate into a 2D map coordinate:
+### Version of an in-game coordinate to a 2D map coordinate
+
+**By: Clorifex, slightly modified by: Vekien - In C#**
+https://github.com/xivapi/xivapi-mappy/blob/master/Mappy/Helpers/MapHelper.cs
+
+```csharp
+public static double ConvertCoordinatesIntoMapPosition(double scale, double offset, double val)
+{
+    val = Math.Round(val, 3);
+    val = (val + offset) * scale;
+    return ((41.0 / scale) * ((val + 1024.0) / 2048.0)) + 1;
+}
+```
+
+### Conversion of a Level coordinate into a 2D map coordinate:
+
+**By: Clorifex - In C#**
+
 ```csharp
 private double ToMapCoordinate(double val) {
 	var c = Map.SizeFactor / 100.0;
@@ -12,7 +28,10 @@ private double ToMapCoordinate(double val) {
 }
 ```
 
-Conversion of a FishingSpot coordinate into a 2D map coordinate:
+### Conversion of a FishingSpot coordinate into a 2D map coordinate:
+
+**By: Clorifex - In C#**
+
 ```csharp
 private double ToMapCoordinate(double val) {
 	var c = TerritoryType.Map.SizeFactor / 100.0;
@@ -21,50 +40,19 @@ private double ToMapCoordinate(double val) {
 }
 ```
 
-# Conversions to Long/Lat (eg Leaflets/Google Maps)
+### Conversion of MapPosition to Pixels
 
-*Code samples in PHP*
+**By: Vekien - In C#**
+https://github.com/xivapi/xivapi-mappy/blob/master/Mappy/Helpers/MapHelper.cs
 
-You can translate the `levels.exd` values to Long/Lat using the `x`, `y` and **scale** would be the maps [size_factor](https://github.com/viion/XIV-Datamining/blob/master/offsets/3.1_list.txt#L679)
-
-```php
-//
-// Used due to spherical maps, world is round irl :P
-//
-function mapsRadiansToDegrees($rad)
+```csharp
+public static int ConvertMapPositionToPixels(double value, double scale)
 {
-    return $rad / (pi() / 180);
-}
-
-//
-// This code will take the X, Y and map scale from the levels CSV and convert it into a LAT/LONG 
-// which can be used on leaflet or Google maps or just about any map tool
-//
-public function mapsTranslateXYZtoLatLong($x, $y, $scale = 100)
-{
-    if ($x == 0 || $y == 0 || $scale == 0) {
-        return false;
-    }
-    
-    $scale = $scale / 100;
-    
-    $tilesize = 2048 / $scale;
-    
-    $pixelsPerLonDegree = $tilesize / 360;
-    $pixelsPerLonRadian = $tilesize / (2 * pi());
-    
-    $lng = $x / $pixelsPerLonDegree;
-    $latRadians = $y / -$pixelsPerLonRadian;
-    $lat = $this->mapsRadiansToDegrees(2 * atan(exp($latRadians)) - pi() / 2);
-    
-    $coords = [
-        'x' => $lng,
-        'y' => $lat,
-    ];
-    
-    return $coords;
+    return Convert.ToInt32((value - 1) * 50 * scale);
 }
 ```
+
+----
 
 To translate a `levels.exd` position to an in-game X/Y:
 

@@ -1,4 +1,7 @@
-Quest experience points are generated using a small equation. 
+# Quest Exp Reward
+
+Quest experience points are generated using a small equation.
+
 Why this is done I am not sure as the values always seem static.
 
 ### Formula updated: 28th May, 2018

@@ -1,3 +1,5 @@
+# FATE Experience Points
+
 Fate EXP is still a mystery, research so far:
 
 Equation: ` fate offset 22 * paramgrow offset 8 + paramgrow offset 8 = exp`
