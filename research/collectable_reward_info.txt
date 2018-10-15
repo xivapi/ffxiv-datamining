@@ -25,14 +25,18 @@ Bonus EXP   : (143769*1.1 round down) = 158145
 High EXP    : (143769*1.2 round down) = 172522
 
 Collectability ranges are in the MasterpieceSupplyDuty file, so all that's needed is to figure out how scrips and exp are
-actually calculated. EXP might be set in stone somewhere, as I've noticed all of the CRAFTING Collectables have the same EXP
-rewards across all classes for the exact same level (assuming an item isn't in demand, of course. But if an item is in demand,
-you can divide it by 1.2 and round up to get the info!) Gathering collectables I'd presume share a similar EXP systme, but I
-haven't mapped out those values yet.
+actually calculated. EXP must be calculated from a formula somewhere, as they are fairly uniform across all crafted items (though
+there are exceptions sometimes... such as a "Marid Leather Grimoire" having a base "in-demand" EXP value of 370656 (level 67), but
+the "Azurite Choker of Slaying" has a base "in-demand" EXP value of 400600 (also level 67).
 
-Note: Some collectables, such as Fish, have a different EXP reward than what is shown here. Also, once you are outside of the intended expansion for these items, they rever to a 10000 "cap" for EXP earned. Intended to prevent people from quickly gaining a level by stockpiling items before-hand and turning them in. Levequests also have the same "cap" on EXP earned if you're outside of the intended expansion. (ARR For 1-50, HW for 51-60, etc)
+If an item is in demand, you should be able to divide it by 1.2 and round UP to get the EXP reward.
 
-Level    = EXP 
+Note: Sometimes the collectables will have a different EXP reward than what is shown here. Unknown what causes this behavior.
+Also, once you are outside of the intended expansion for these items, they rever to a 10000 "cap" for EXP earned. Intended
+to prevent people from quickly gaining a level by stockpiling items before-hand and turning them in. Levequests also have
+the same "cap" on EXP earned if you're outside of the intended expansion. (ARR For 1-50, HW for 51-60, etc)
+
+Level XX = EXP 
 ------------------
 Level 51 = 52920
 Level 52 = 63360
