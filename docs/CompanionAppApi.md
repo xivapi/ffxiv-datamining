@@ -15,6 +15,8 @@ What we know:
 
 Minoost has done some fantastic work reverse engineering the auth of the app, you can find his work here: https://github.com/Minoost/libpompom-sharp
 
+PHP Library: https://github.com/xivapi/companion-php
+
 ## Getting data
 
 This segment will provide a small amount of PHP as that is what I am familiar with, however because I've not translated the auth logic into PHP you will need a valid token
@@ -33,12 +35,10 @@ Once you have a valid token, you can provide it to any endpoint and everything w
 **Some header info:**
 - `token` - Your token from the app, find via Fiddler
 - `request-id` - Any kind of string can be here, the app uses UUID however it can be anything, a string, text, numbers, whatever, a poem...
-> **Important** if you make the `request-id` unique PER REQUEST you will have a huge delay, around 2 seconds per call, if you use the same string for each request, you will get responses instantly from the API (often first query). It is more beneficial to hard code your request id, but this is not intentional by SE i believe, this is not what the app does...
-> **Important update: 27th August 2018** - This "exploit" seems to have been patched, there looks to be `request-id` rate limiting, a very basic NGINX with bursting. Need more testing. The request-id can still be anything but if you use the same one you'll get rate-limited by the app.
+> **Important** if you make the `request-id` unique PER REQUEST you will have a huge delay, around 2 seconds per call, if you use the same string for each request, you will get responses instantly from the API (often first query) however it will be a cached response until the response is updated via a "new" request-id, this includes someone else using the app and queries the same endpoint your data will update using the same request, I've no idea what bonkers system SE are using.
 
 - `Content-Type` - `application/json;charset=utf-8`
 - `Accept` - `*/*'`
-- `domain-type` - `global`
 - `User-Agent` - `ffxivcomapp-e/1.0.1.0 CFNetwork/974.2.1 Darwin/18.0.0`
 
 **PHP code to query the API**
@@ -143,8 +143,7 @@ To run this code:
 - Market endpoint ids match ItemSearchCategory.csv
 - Items that are not sellable can be queried, you will get no listings however you will get lodestone ID's which can be useful (HQ Icons!)
 - There doesn't seem to be any restrictions on spam or concurrent queries, I've been able to setup 4 terminals and query every item on the market board within 2 hours. I am going to test higher concurrent queries and see if there is a rate-limit, or I get banned lol.
-- At this time if you are looking to query the market board for every server you would need to have an account per server this is due to how the app locks you into 1 character for an account, if you try to switch characters it would reset your token. You could in theory use 1 account for many servers however you could not do this in real time and due to the nature of the API taking 2-3 seconds a response, you're looking at about 8 hours to query every possible item for 1 server. I'll let someone else handle the logistics of this (*note: Not tested if a token is reset when switching character, just assuming by how its designed*)
-   - There are 66 servers, cheapest acc: $12.99 (trail accounts do not work), so looking at $858/month for 1 char per server :D
+- You can log into multiple accounts and characters, generate tokens and those will last for 24 hours. It does not matter if you use the same account for multiple characters. This means to cover all 66 servers you would need 2 accounts (40 characters per account), costing about $30/month, very little.... Trail accounts do not work.
 - No known way to query Korean or Chinese market boards at this time.
 
 ### All endpoints:
