@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10
-#,Singular,,Plural,,,,,,Title,Map,
+#,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun,Article,Title,Map,
 int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1000000,"",0,"",0,0,1,0,0,"",3,False
 1000001,"",0,"",0,0,0,0,0,"",0,False
@@ -9452,7 +9452,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1009448,"",0,"",0,0,0,0,0,"",0,False
 1009449,"",0,"",0,0,0,0,0,"",0,False
 1009450,"",0,"",0,0,0,0,0,"",0,False
-1009451,"",0,"",0,0,0,0,0,"",0,False
+1009451,"expedition birdwatcher",0,"expedition birdwatchers",0,1,1,0,0,"",3,True
 1009452,"",0,"",0,0,0,0,0,"",0,False
 1009453,"Cid",0,"Cid",0,0,1,0,1,"",3,False
 1009454,"",0,"",0,0,0,0,0,"",0,False
@@ -24179,13 +24179,13 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1024175,"",0,"",0,0,1,0,0,"",5,False
 1024176,"",0,"",0,0,1,0,0,"",5,False
 1024177,"",0,"",0,0,1,0,0,"",5,False
-1024178,"",0,"",0,0,0,0,0,"",0,False
-1024179,"",0,"",0,0,0,0,0,"",0,False
-1024180,"",0,"",0,0,0,0,0,"",0,False
-1024181,"",0,"",0,0,0,0,0,"",0,False
-1024182,"",0,"",0,0,0,0,0,"",0,False
-1024183,"",0,"",0,0,0,0,0,"",0,False
-1024184,"",0,"",0,0,0,0,0,"",0,False
+1024178,"inoshishi doshin",0,"inoshishi doshin",0,1,1,0,0,"",3,True
+1024179,"inoshishi doshin",0,"inoshishi doshin",0,1,1,0,0,"",3,True
+1024180,"inoshishi doshin",0,"inoshishi doshin",0,1,1,1,0,"",3,True
+1024181,"green inoshishi shonin",0,"green inoshishi shonin",0,0,1,0,0,"",3,True
+1024182,"red inoshishi shonin",0,"red inoshishi shonin",0,0,1,1,0,"",3,True
+1024183,"blue inoshishi shonin",0,"blue inoshishi shonin",0,0,1,0,0,"",3,True
+1024184,"inoshishi bugyo",0,"inoshishi bugyo",0,1,1,0,0,"",3,False
 1024185,"expedition liaison",0,"expedition liaisons",0,1,1,1,0,"",3,True
 1024186,"",0,"",0,0,0,0,0,"",0,False
 1024187,"Pipin",0,"Pipin",0,0,1,0,1,"",3,False
@@ -24438,12 +24438,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1024434,"",0,"",0,0,1,0,0,"",4,False
 1024435,"",0,"",0,0,1,0,0,"",4,False
 1024436,"",0,"",0,0,1,0,0,"",4,False
-1024437,"",0,"",0,0,0,0,0,"",0,False
-1024438,"",0,"",0,0,0,0,0,"",0,False
-1024439,"",0,"",0,0,0,0,0,"",0,False
-1024440,"",0,"",0,0,0,0,0,"",0,False
-1024441,"",0,"",0,0,0,0,0,"",0,False
-1024442,"",0,"",0,0,0,0,0,"",0,False
+1024437,"green inoshishi shonin",0,"green inoshishi shonin",0,0,1,0,0,"",3,True
+1024438,"red inoshishi shonin",0,"red inoshishi shonin",0,0,1,1,0,"",3,True
+1024439,"blue inoshishi shonin",0,"blue inoshishi shonin",0,0,1,0,0,"",3,True
+1024440,"green inoshishi shonin",0,"green inoshishi shonin",0,0,1,0,0,"",3,True
+1024441,"red inoshishi shonin",0,"red inoshishi shonin",0,0,1,1,0,"",3,True
+1024442,"blue inoshishi shonin",0,"blue inoshishi shonin",0,0,1,0,0,"",3,True
 1024443,"M'naago",0,"M'naago",0,0,1,1,1,"",3,False
 1024444,"M'naago",0,"M'naago",0,0,1,1,1,"",3,False
 1024445,"Polaris",0,"Polaris",0,0,1,0,1,"",3,False
@@ -24548,7 +24548,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1024544,"",0,"",0,0,1,0,0,"",5,False
 1024545,"",0,"",0,0,1,0,0,"",5,False
 1024546,"",0,"",0,0,1,0,0,"",4,False
-1024547,"",0,"",0,0,0,0,0,"",0,False
+1024547,"neko bugyo",0,"neko bugyo",0,0,1,0,0,"",4,False
 1024548,"material supplier",0,"material suppliers",0,0,1,0,0,"",3,True
 1024549,"material supplier",0,"material suppliers",0,0,1,1,0,"",3,True
 1024550,"material supplier",0,"material suppliers",0,0,1,0,0,"",3,True
@@ -24589,18 +24589,18 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1024585,"blithesome businessman",0,"blithesome businessmen",0,0,1,0,0,"",3,False
 1024586,"Goberin",0,"Goberin",0,0,1,0,1,"Crafting Tome Vendor",3,True
 1024587,"Geila",0,"Geila",0,0,1,1,1,"",4,False
-1024588,"",0,"",0,0,0,0,0,"",0,False
-1024589,"",0,"",0,0,0,0,0,"",0,False
-1024590,"",0,"",0,0,0,0,0,"",0,False
-1024591,"",0,"",0,0,0,0,0,"",0,False
-1024592,"",0,"",0,0,0,0,0,"",0,False
-1024593,"",0,"",0,0,0,0,0,"",0,False
-1024594,"",0,"",0,0,0,0,0,"",0,False
-1024595,"",0,"",0,0,0,0,0,"",0,False
-1024596,"",0,"",0,0,0,0,0,"",0,False
-1024597,"",0,"",0,0,0,0,0,"",0,False
-1024598,"",0,"",0,0,0,0,0,"",0,False
-1024599,"",0,"",0,0,0,0,0,"",0,False
+1024588,"Ibukimaru",0,"Ibukimaru",0,0,1,0,1,"",4,False
+1024589,"Ibukimaru",0,"Ibukimaru",0,0,1,0,1,"",3,False
+1024590,"Ibukimaru",0,"Ibukimaru",0,0,1,0,1,"",3,False
+1024591,"Ibukimaru",0,"Ibukimaru",0,0,1,0,1,"",3,False
+1024592,"Ibukimaru",0,"Ibukimaru",0,0,1,0,1,"",3,False
+1024593,"troubled townsman",0,"troubled townsmen",0,0,1,0,0,"",3,False
+1024594,"melancholy maiden",0,"melancholy maidens",0,0,1,1,0,"",3,False
+1024595,"livid Lominsan",0,"livid Lominsans",0,0,1,0,0,"",3,False
+1024596,"",0,"",0,0,1,0,0,"",4,False
+1024597,"",0,"",0,0,1,0,0,"",4,False
+1024598,"",0,"",0,0,1,0,0,"",4,False
+1024599,"",0,"",0,0,1,0,0,"",4,False
 1024600,"company tragedienne",0,"company tragediennes",0,0,1,1,0,"",3,False
 1024601,"",0,"",0,0,1,0,0,"",5,False
 1024602,"",0,"",0,0,1,0,0,"",5,False
@@ -24650,7 +24650,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1024646,"wayward Qiqirn",0,"wayward Qiqirn",0,0,1,0,0,"",4,False
 1024647,"",0,"",0,0,1,0,0,"",4,False
 1024648,"solemn Sekiseigumi",0,"solemn Sekiseigumi",0,0,1,0,0,"",4,False
-1024649,"Wolf Burglar",0,"Wolf Burglars",0,0,1,0,0,"",4,False
+1024649,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",4,False
 1024650,"",0,"",0,0,1,0,0,"",4,False
 1024651,"Jifuya",0,"Jifuya",0,0,1,0,1,"",4,False
 1024652,"Liberation Front samurai",0,"Liberation Front samurai",0,0,1,0,0,"",4,False
@@ -25392,21 +25392,21 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1025388,"",0,"",0,0,1,0,0,"",4,False
 1025389,"",0,"",0,0,1,0,0,"",4,False
 1025390,"",0,"",0,0,1,0,0,"",4,False
-1025391,"",0,"",0,0,0,0,0,"",0,False
+1025391,"",0,"",0,0,1,0,0,"",4,False
 1025392,"",0,"",0,0,1,0,0,"",4,False
 1025393,"",0,"",0,0,1,0,0,"",4,False
 1025394,"",0,"",0,0,1,0,0,"",4,False
 1025395,"",0,"",0,0,1,0,0,"",4,False
 1025396,"",0,"",0,0,1,0,0,"",4,False
-1025397,"",0,"",0,0,0,0,0,"",0,False
+1025397,"",0,"",0,0,1,0,0,"",4,False
 1025398,"",0,"",0,0,1,0,0,"",4,False
 1025399,"",0,"",0,0,1,0,0,"",4,False
 1025400,"",0,"",0,0,1,0,0,"",4,False
 1025401,"",0,"",0,0,1,0,0,"",4,False
-1025402,"",0,"",0,0,0,0,0,"",0,False
-1025403,"",0,"",0,0,0,0,0,"",0,False
-1025404,"",0,"",0,0,0,0,0,"",0,False
-1025405,"",0,"",0,0,0,0,0,"",0,False
+1025402,"",0,"",0,0,1,0,0,"",4,False
+1025403,"",0,"",0,0,1,0,0,"",4,False
+1025404,"",0,"",0,0,1,0,0,"",4,False
+1025405,"",0,"",0,0,1,0,0,"",4,False
 1025406,"",0,"",0,0,1,0,0,"",4,False
 1025407,"",0,"",0,0,0,0,0,"",0,False
 1025408,"",0,"",0,0,0,0,0,"",0,False
@@ -26325,12 +26325,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026321,"Shiun",0,"Shiun",0,0,1,0,1,"",3,False
 1026322,"Koharu",0,"Koharu",0,0,1,1,1,"",3,False
 1026323,"Rokka",0,"Rokka",0,0,1,1,1,"",3,False
-1026324,"",0,"",0,0,0,0,0,"",0,False
-1026325,"",0,"",0,0,0,0,0,"",0,False
-1026326,"",0,"",0,0,0,0,0,"",0,False
-1026327,"",0,"",0,0,0,0,0,"",0,False
-1026328,"",0,"",0,0,0,0,0,"",0,False
-1026329,"",0,"",0,0,0,0,0,"",0,False
+1026324,"Shigure",0,"Shigure",0,0,1,0,1,"",4,False
+1026325,"Shigure",0,"Shigure",0,0,1,0,1,"",4,False
+1026326,"Sekiseigumi turnkey",0,"Sekiseigumi turnkeys",0,0,1,0,0,"",4,False
+1026327,"Miyamagi",0,"Miyamagi",0,0,1,0,1,"",4,False
+1026328,"Gentle Dead Man",0,"Gentle Dead Man",0,0,1,0,0,"",4,False
+1026329,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",4,False
 1026330,"",0,"",0,0,0,0,0,"",0,False
 1026331,"",0,"",0,0,0,0,0,"",0,False
 1026332,"",0,"",0,0,0,0,0,"",0,False
@@ -26347,40 +26347,40 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026343,"Clemence",0,"Clemence",0,0,1,1,1,"",3,False
 1026344,"Isildaure",0,"Isildaure",0,0,1,0,1,"",3,False
 1026345,"Alianne",0,"Alianne",0,0,1,1,1,"",3,False
-1026346,"",0,"",0,0,0,0,0,"",0,False
+1026346,"",0,"",0,0,1,0,0,"",4,False
 1026347,"",0,"",0,0,0,0,0,"",0,False
 1026348,"",0,"",0,0,0,0,0,"",0,False
-1026349,"",0,"",0,0,0,0,0,"",0,False
+1026349,"Shigure",0,"Shigure",0,0,1,0,1,"",3,False
 1026350,"",0,"",0,0,0,0,0,"",0,False
-1026351,"",0,"",0,0,0,0,0,"",0,False
-1026352,"",0,"",0,0,0,0,0,"",0,False
-1026353,"",0,"",0,0,0,0,0,"",0,False
-1026354,"",0,"",0,0,0,0,0,"",0,False
-1026355,"",0,"",0,0,0,0,0,"",0,False
-1026356,"",0,"",0,0,0,0,0,"",0,False
-1026357,"",0,"",0,0,0,0,0,"",0,False
-1026358,"",0,"",0,0,0,0,0,"",0,False
-1026359,"",0,"",0,0,0,0,0,"",0,False
-1026360,"",0,"",0,0,0,0,0,"",0,False
-1026361,"",0,"",0,0,0,0,0,"",0,False
-1026362,"",0,"",0,0,0,0,0,"",0,False
+1026351,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1026352,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1026353,"Shigure",0,"Shigure",0,0,1,0,1,"",3,False
+1026354,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",3,False
+1026355,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1026356,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1026357,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",3,False
+1026358,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1026359,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1026360,"Shigure",0,"Shigure",0,0,1,0,1,"",3,False
+1026361,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",3,False
+1026362,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
 1026363,"",0,"",0,0,0,0,0,"",0,False
 1026364,"",0,"",0,0,0,0,0,"",0,False
 1026365,"",0,"",0,0,0,0,0,"",0,False
-1026366,"",0,"",0,0,0,0,0,"",0,False
-1026367,"",0,"",0,0,0,0,0,"",0,False
-1026368,"",0,"",0,0,0,0,0,"",0,False
-1026369,"",0,"",0,0,0,0,0,"",0,False
+1026366,"Confederate shipwatch",0,"Confederate shipwatches",0,0,1,0,0,"",3,False
+1026367,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
+1026368,"Nashu Mhakaracca",0,"Nashu Mhakaracca",0,0,1,1,1,"",3,False
+1026369,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",3,False
 1026370,"Nero",0,"Nero",0,0,1,0,1,"",4,False
 1026371,"Omega",0,"Omega",0,0,1,1,1,"",4,False
 1026372,"Omega",0,"Omega",0,0,1,1,1,"",4,False
 1026373,"Omega",0,"Omega",0,0,1,1,1,"",4,False
 1026374,"Omega",0,"Omega",0,0,1,1,1,"",4,False
 1026375,"",0,"",0,0,1,0,0,"",4,False
-1026376,"",0,"",0,0,0,0,0,"",0,False
-1026377,"",0,"",0,0,0,0,0,"",0,False
-1026378,"",0,"",0,0,0,0,0,"",0,False
-1026379,"",0,"",0,0,0,0,0,"",0,False
+1026376,"",0,"",0,0,1,0,0,"",4,False
+1026377,"Koju",0,"Koju",0,0,1,0,1,"",4,False
+1026378,"Sazanami",0,"Sazanami",0,0,1,1,1,"",4,False
+1026379,"",0,"",0,0,1,0,0,"",2,False
 1026380,"",0,"",0,0,0,0,0,"",0,False
 1026381,"",0,"",0,0,0,0,0,"",0,False
 1026382,"",0,"",0,0,0,0,0,"",0,False
@@ -26458,7 +26458,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026454,"Alpha",0,"Alpha",0,0,1,0,1,"",3,False
 1026455,"Alpha",0,"Alpha",0,0,1,0,1,"",3,False
 1026456,"Cid",0,"Cid",0,0,1,0,1,"",3,False
-1026457,"",0,"",0,0,0,0,0,"",0,False
+1026457,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",3,False
 1026458,"Alpha",0,"Alpha",0,0,1,0,1,"",3,False
 1026459,"Cid",0,"Cid",0,0,1,0,1,"",3,False
 1026460,"Alpha",0,"Alpha",0,0,1,0,1,"",3,False
@@ -26493,35 +26493,35 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026489,"",0,"",0,0,1,0,0,"",4,False
 1026490,"",0,"",0,0,1,0,0,"",4,False
 1026491,"wandering minstrel",0,"wandering minstrels",0,0,1,0,0,"",4,False
-1026492,"",0,"",0,0,0,0,0,"",0,False
-1026493,"",0,"",0,0,0,0,0,"",0,False
-1026494,"",0,"",0,0,0,0,0,"",0,False
-1026495,"",0,"",0,0,0,0,0,"",0,False
-1026496,"",0,"",0,0,0,0,0,"",0,False
-1026497,"",0,"",0,0,0,0,0,"",0,False
-1026498,"",0,"",0,0,0,0,0,"",0,False
-1026499,"",0,"",0,0,0,0,0,"",0,False
-1026500,"",0,"",0,0,0,0,0,"",0,False
-1026501,"",0,"",0,0,0,0,0,"",0,False
-1026502,"",0,"",0,0,0,0,0,"",0,False
-1026503,"",0,"",0,0,0,0,0,"",0,False
-1026504,"",0,"",0,0,0,0,0,"",0,False
-1026505,"",0,"",0,0,0,0,0,"",0,False
-1026506,"",0,"",0,0,0,0,0,"",0,False
-1026507,"",0,"",0,0,0,0,0,"",0,False
-1026508,"",0,"",0,0,0,0,0,"",0,False
-1026509,"",0,"",0,0,0,0,0,"",0,False
-1026510,"",0,"",0,0,0,0,0,"",0,False
-1026511,"",0,"",0,0,0,0,0,"",0,False
-1026512,"",0,"",0,0,0,0,0,"",0,False
-1026513,"",0,"",0,0,0,0,0,"",0,False
-1026514,"",0,"",0,0,0,0,0,"",0,False
+1026492,"Krile",0,"Krile",0,0,1,1,1,"",3,False
+1026493,"Krile",0,"Krile",0,0,1,1,1,"",3,False
+1026494,"Gerolt",0,"Gerolt",0,0,1,0,1,"",3,True
+1026495,"Drake",0,"Drake",0,0,1,0,1,"",3,True
+1026496,"expedition artisan",0,"expedition artisans",0,1,1,0,0,"",3,True
+1026497,"expedition chronicler",0,"expedition chroniclers",0,1,1,0,0,"",3,False
+1026498,"expedition scholar",0,"expedition scholars",0,1,1,0,0,"",3,False
+1026499,"expedition digger",0,"expedition diggers",0,1,1,0,0,"",3,False
+1026500,"expedition potwatch",0,"expedition potwatches",0,1,1,0,0,"",3,False
+1026501,"expedition provisioner",0,"expedition provisioners",0,1,1,0,0,"",3,True
+1026502,"expedition lockpick",0,"expedition lockpicks",0,1,1,0,0,"",3,True
+1026503,"expedition mender",0,"expedition menders",0,1,1,0,0,"",3,True
+1026504,"expedition skywatcher",0,"expedition skywatchers",0,1,1,0,0,"",3,True
+1026505,"",0,"",0,0,1,0,0,"",5,False
+1026506,"",0,"",0,0,1,0,0,"",5,False
+1026507,"",0,"",0,0,1,0,0,"",5,False
+1026508,"",0,"",0,0,1,0,0,"",5,False
+1026509,"",0,"",0,0,1,0,0,"",5,False
+1026510,"",0,"",0,0,1,0,0,"",5,False
+1026511,"",0,"",0,0,1,0,0,"",5,False
+1026512,"",0,"",0,0,1,0,0,"",5,False
+1026513,"",0,"",0,0,1,0,0,"",5,False
+1026514,"",0,"",0,0,1,0,0,"",5,False
 1026515,"",0,"",0,0,1,0,0,"",2,False
 1026516,"",0,"",0,0,1,0,0,"",2,False
 1026517,"",0,"",0,0,1,0,0,"",2,False
 1026518,"",0,"",0,0,1,0,0,"",2,False
-1026519,"",0,"",0,0,0,0,0,"",0,False
-1026520,"",0,"",0,0,0,0,0,"",0,False
+1026519,"Ejika Tsunjika",0,"Ejika Tsunjika",0,0,1,0,1,"",4,False
+1026520,"Galuf Baldesion",0,"Galuf Baldesion",0,0,1,0,1,"",4,False
 1026521,"Ihase",0,"Ihase",0,0,1,0,1,"",4,False
 1026522,"Mauto",0,"Mauto",0,0,1,0,1,"",4,False
 1026523,"Ishibushi",0,"Ishibushi",0,0,1,0,1,"",4,False
@@ -26530,11 +26530,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026526,"Higiri",0,"Higiri",0,0,1,0,1,"",4,False
 1026527,"Shimogare",0,"Shimogare",0,0,1,0,1,"",4,False
 1026528,"Minazuki",0,"Minazuki",0,0,1,0,1,"",4,False
-1026529,"",0,"",0,0,0,0,0,"",0,False
-1026530,"",0,"",0,0,0,0,0,"",0,False
+1026529,"the Wolf Burglar",0,"the Wolf Burglar",0,0,1,0,1,"",4,False
+1026530,"",0,"",0,0,1,0,0,"",4,False
 1026531,"Serpent Marshal Brookstone",0,"Serpent Marshal Brookstone",0,0,1,0,1,"",4,False
-1026532,"",0,"",0,0,0,0,0,"",0,False
-1026533,"",0,"",0,0,0,0,0,"",0,False
+1026532,"Hildibrand",0,"Hildibrand",0,0,1,0,1,"",4,False
+1026533,"",0,"",0,0,1,0,0,"",4,False
 1026534,"Hozan",0,"Hozan",0,0,1,0,1,"",4,False
 1026535,"Homei",0,"Homei",0,0,1,0,1,"",4,False
 1026536,"Doware",0,"Doware",0,0,1,0,1,"",4,False
@@ -26542,16 +26542,16 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026538,"",0,"",0,0,0,0,0,"",0,False
 1026539,"",0,"",0,0,0,0,0,"",0,False
 1026540,"",0,"",0,0,0,0,0,"",0,False
-1026541,"",0,"",0,0,0,0,0,"",0,False
-1026542,"",0,"",0,0,0,0,0,"",0,False
-1026543,"",0,"",0,0,0,0,0,"",0,False
-1026544,"",0,"",0,0,0,0,0,"",0,False
+1026541,"Drake",0,"Drake",0,0,1,0,1,"",4,False
+1026542,"",0,"",0,0,1,0,0,"",4,False
+1026543,"",0,"",0,0,1,0,0,"",4,False
+1026544,"",0,"",0,0,1,0,0,"",4,False
 1026545,"",0,"",0,0,0,0,0,"",0,False
 1026546,"",0,"",0,0,0,0,0,"",0,False
 1026547,"",0,"",0,0,0,0,0,"",0,False
 1026548,"",0,"",0,0,0,0,0,"",0,False
 1026549,"",0,"",0,0,0,0,0,"",0,False
-1026550,"",0,"",0,0,0,0,0,"",0,False
+1026550,"",0,"",0,0,1,0,0,"",4,False
 1026551,"",0,"",0,0,0,0,0,"",0,False
 1026552,"",0,"",0,0,0,0,0,"",0,False
 1026553,"",0,"",0,0,0,0,0,"",0,False
@@ -26602,7 +26602,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026598,"Augustiniel",0,"Augustiniel",0,0,1,0,1,"",4,False
 1026599,"Baenfaeld",0,"Baenfaeld",0,0,1,0,1,"",4,False
 1026600,"Hachinan",0,"Hachinan",0,0,1,0,1,"",3,False
-1026601,"",0,"",0,0,0,0,0,"",0,False
+1026601,"Botan",0,"Botan",0,0,1,1,1,"",3,False
 1026602,"Wood Wailer",0,"Wood Wailers",0,0,1,0,0,"",3,False
 1026603,"Amh Garanjy",0,"Amh Garanjy",0,0,1,1,1,"",4,False
 1026604,"Augustiniel",0,"Augustiniel",0,0,1,0,1,"",4,False
@@ -26611,22 +26611,22 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026607,"",0,"",0,0,0,0,0,"",0,False
 1026608,"",0,"",0,0,0,0,0,"",0,False
 1026609,"Alpha",0,"Alpha",0,0,1,0,1,"",4,False
-1026610,"",0,"",0,0,0,0,0,"",0,False
-1026611,"",0,"",0,0,0,0,0,"",0,False
-1026612,"",0,"",0,0,0,0,0,"",0,False
-1026613,"",0,"",0,0,0,0,0,"",0,False
-1026614,"",0,"",0,0,0,0,0,"",0,False
-1026615,"",0,"",0,0,0,0,0,"",0,False
-1026616,"",0,"",0,0,0,0,0,"",0,False
-1026617,"",0,"",0,0,0,0,0,"",0,False
-1026618,"",0,"",0,0,0,0,0,"",0,False
-1026619,"",0,"",0,0,0,0,0,"",0,False
-1026620,"",0,"",0,0,0,0,0,"",0,False
-1026621,"",0,"",0,0,0,0,0,"",0,False
-1026622,"",0,"",0,0,0,0,0,"",0,False
-1026623,"",0,"",0,0,0,0,0,"",0,False
-1026624,"",0,"",0,0,0,0,0,"",0,False
-1026625,"",0,"",0,0,0,0,0,"",0,False
+1026610,"",0,"",0,0,1,0,0,"",5,False
+1026611,"",0,"",0,0,1,0,0,"",5,False
+1026612,"",0,"",0,0,1,0,0,"",5,False
+1026613,"",0,"",0,0,1,0,0,"",5,False
+1026614,"",0,"",0,0,1,0,0,"",5,False
+1026615,"",0,"",0,0,1,0,0,"",5,False
+1026616,"",0,"",0,0,1,0,0,"",5,False
+1026617,"",0,"",0,0,1,0,0,"",5,False
+1026618,"",0,"",0,0,1,0,0,"",5,False
+1026619,"",0,"",0,0,1,0,0,"",5,False
+1026620,"",0,"",0,0,1,0,0,"",5,False
+1026621,"",0,"",0,0,1,0,0,"",5,False
+1026622,"",0,"",0,0,1,0,0,"",5,False
+1026623,"",0,"",0,0,1,0,0,"",5,False
+1026624,"",0,"",0,0,1,0,0,"",5,False
+1026625,"",0,"",0,0,1,0,0,"",5,False
 1026626,"Amh Garanjy",0,"Amh Garanjy",0,0,1,1,1,"",3,False
 1026627,"Amh Garanjy",0,"Amh Garanjy",0,0,1,1,1,"",3,False
 1026628,"Baenfaeld",0,"Baenfaeld",0,0,1,0,1,"",3,False
@@ -26650,7 +26650,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,Map,bit&01
 1026646,"",0,"",0,0,1,0,0,"",4,False
 1026647,"",0,"",0,0,1,0,0,"",4,False
 1026648,"impulsive girl",0,"impulsive girls",0,1,1,1,0,"",3,False
-1026649,"",0,"",0,0,0,0,0,"",0,False
+1026649,"expedition engineer",0,"expedition engineers",0,1,1,0,0,"",3,True
 1026650,"inexperienced enclave guard",0,"inexperienced enclave guards",0,1,1,0,0,"",4,False
 1026651,"untried enclave guard",0,"untried enclave guards",0,1,1,0,0,"",4,False
 1026652,"Adventurers' Guild investigator",0,"Adventurers' Guild investigators",0,1,1,0,0,"",3,False
