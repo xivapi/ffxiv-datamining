@@ -4,7 +4,7 @@
 
 It is believed that:
 - 72 = Foreground
-- 73 = Glow (not background)
+- 73 = Glow/background
 
 
 In Patch 4.4, SE changed how colours work in tooltips in preperation of new UI "Skins". The logic for displaying colours changed quite drastically but was figured out quickly, here is the process and how it works now:
