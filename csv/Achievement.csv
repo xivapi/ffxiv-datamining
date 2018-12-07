@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-#,AchievementCategory,Name,Description,Points,Title,Item,Icon,,Type,Key,Data[0],Data[1],Data[2],Data[3],Data[4],Data[5],Data[6],Data[7],Order,,
+#,AchievementCategory,Name,Description,Points,Title,Item,Icon,,Type,Key,Data[0],Data[1],Data[2],Data[3],Data[4],Data[5],Data[6],Data[7],Order,,InitialHide
 int32,AchievementCategory,str,str,byte,Title,Item,Image,byte,byte,Row,Row,Row,Row,Row,Row,Row,Row,Row,uint16,byte,bit&01
 0,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,False
 1,1,"To Crush Your Enemies I","Defeat 100 enemies.",5,0,0,262,3,1,11,100,0,0,0,0,0,0,0,1,1,False
@@ -2010,7 +2010,7 @@ int32,AchievementCategory,str,str,byte,Title,Item,Image,byte,byte,Row,Row,Row,Ro
 1993,4,"Resistance Is Futile","Defeat Bahamut Prime in the Unending Coil of Bahamut (Ultimate).",10,138,0,317,1,14,30057,0,0,0,0,0,0,0,0,0,1,False
 1994,38,"Rise of the Lupin","Complete the quest “The Adventurer Who Cried Wolfman.”",10,0,0,42584,1,6,68548,0,0,0,0,0,0,0,0,79,5,False
 1995,38,"The Nightbear Before Starlight","Complete the quest “Starlight Stakeout.”",10,0,0,26038,1,6,68546,0,0,0,0,0,0,0,0,80,6,False
-1996,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
+1996,38,"Cats & Hogs","Complete the quest “Hogging the Spotlight.”",10,0,0,40299,1,6,68550,0,0,0,0,0,0,0,0,90,16,False
 1997,37,"To Kojin Is Divine I","Attain rank 3 reputation (friendly) with the Divine Circle.",5,0,0,62964,1,15,9,3,0,0,0,0,0,0,0,0,1,False
 1998,37,"To Kojin Is Divine II","Attain rank 4 reputation (trusted) with the Divine Circle.",5,0,0,62964,1,15,9,4,0,0,0,0,0,0,0,0,1,False
 1999,37,"To Kojin Is Divine III","Attain rank 6 reputation (honored) with the Divine Circle.",10,0,0,62964,1,15,9,6,0,0,0,0,0,0,0,0,1,False
@@ -2157,20 +2157,20 @@ int32,AchievementCategory,str,str,byte,Title,Item,Image,byte,byte,Row,Row,Row,Ro
 2140,38,"Ghost with the Most","Complete the quest “The Sordid Cipher.”",10,0,0,28807,1,6,68707,0,0,0,0,0,0,0,0,88,14,False
 2141,38,"Theatgrhythdaniam: Curtain Call","Complete the quest “Theatgrhythdaniam.”",10,0,0,42621,1,6,68711,0,0,0,0,0,0,0,0,89,15,False
 2142,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2143,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2144,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2145,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2146,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2147,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2148,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2149,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2150,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2151,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2152,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2153,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2154,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2155,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2156,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2157,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2158,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-2159,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
+2143,19,"I've Got It: Pyros Sword","Obtain a Pyros sword.",10,0,0,30586,1,1,710,1,0,0,0,0,0,0,0,1013,1,False
+2144,19,"I've Got It: Pyros Battleaxe","Obtain a Pyros battleaxe.",10,0,0,31560,1,1,711,1,0,0,0,0,0,0,0,1033,1,False
+2145,19,"I've Got It: Pyros Guillotine","Obtain a Pyros guillotine.",10,0,0,34314,1,1,712,1,0,0,0,0,0,0,0,1113,1,False
+2146,19,"I've Got It: Pyros Lance","Obtain a Pyros lance.",10,0,0,31960,1,1,713,1,0,0,0,0,0,0,0,1043,1,False
+2147,19,"I've Got It: Pyros Knuckles","Obtain a pair of Pyros knuckles.",10,0,0,31152,1,1,714,1,0,0,0,0,0,0,0,1023,1,False
+2148,19,"I've Got It: Pyros Knives","Obtain a pair of Pyros knives.",10,0,0,33938,1,1,715,1,0,0,0,0,0,0,0,1063,1,False
+2149,19,"I've Got It: Pyros Blade","Obtain a Pyros blade.",10,0,0,38568,1,1,716,1,0,0,0,0,0,0,0,1143,1,False
+2150,19,"I've Got It: Pyros Harp Bow","Obtain a Pyros harp bow.",10,0,0,32351,1,1,717,1,0,0,0,0,0,0,0,1053,1,False
+2151,19,"I've Got It: Pyros Handgonne","Obtain a Pyros handgonne.",10,0,0,39712,1,1,718,1,0,0,0,0,0,0,0,1123,1,False
+2152,19,"I've Got It: Pyros Rod","Obtain a Pyros rod.",10,0,0,33103,1,1,719,1,0,0,0,0,0,0,0,1083,1,False
+2153,19,"I've Got It: Pyros Grimoire","Obtain a Pyros grimoire.",10,0,0,39433,1,1,720,1,0,0,0,0,0,0,0,1093,1,False
+2154,19,"I've Got It: Pyros Tuck","Obtain a Pyros tuck.",10,0,0,38869,1,1,721,1,0,0,0,0,0,0,0,1153,1,False
+2155,19,"I've Got It: Pyros Cane","Obtain a Pyros cane.",10,0,0,32735,1,1,722,1,0,0,0,0,0,0,0,1073,1,False
+2156,19,"I've Got It: Pyros Codex","Obtain a Pyros codex.",10,0,0,39432,1,1,723,1,0,0,0,0,0,0,0,1103,1,False
+2157,19,"I've Got It: Pyros Astrometer","Obtain a Pyros astrometer.",10,0,0,34911,1,1,724,1,0,0,0,0,0,0,0,1133,1,False
+2158,49,"Mapping the Realm: Eureka Pyros","Discover every location within the Forbidden Land, Eureka Pyros.",10,0,0,1001,1,8,484,0,0,0,0,0,0,0,0,2103,1,False
+2159,49,"Making the Most of Pyros","Complete all the scenario quests within the Forbidden Land, Eureka Pyros.",10,0,0,26185,1,1,725,1,0,0,0,0,0,0,0,2113,1,False

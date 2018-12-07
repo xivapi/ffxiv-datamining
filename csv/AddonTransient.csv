@@ -236,39 +236,39 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 184,"<CommandIcon(8)/> Summon"
 185,"<CommandIcon(24)/> Scroll"
 186,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(11)/> Edit Minion Hotbar  <CommandIcon(8)/> Summon"
-187,"<72>F201F4</72><73>F201F5</73>Learn Your Structures<73>01</73><72>01</72>
-<72>F201FA</72><73>F201FB</73>Arcana Stones<73>01</73><72>01</72>
+187,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Learn Your Structures<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Arcana Stones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   You and your opponent each have three of these immobile crystals on
   the playing field. Shatter all of your enemy's Arcana Stones to claim
   victory.
-<72>F201FA</72><73>F201FB</73>Gates<73>01</73><72>01</72>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gates<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   Minions will appear in front of your currently selected gate.
   Returning minions to a gate area will restore their HP.
   Minions can still be summoned from a destroyed gate, but they will be
   unable to exit the gate area. Conversely, minions outside a destroyed
   gate will be unable to enter.
-<72>F201FA</72><73>F201FB</73>Search Eye<73>01</73><72>01</72>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Search Eye<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   This structure reveals your opponent's minions. If the Search Eye is
   destroyed, you will only be able to see enemy units that are near
   your own minions.
-<72>F201FA</72><73>F201FB</73>Shield<73>01</73><72>01</72>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Shield<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   This structure adds defensive strength to Arcana Stones. Destroy the
   enemy Shield and your opponent's Arcana Stones will be more easily
   shattered.
 
-<72>F201F4</72><73>F201F5</73>Structural Regeneration<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Structural Regeneration<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   All structures except for Arcana Stones can only be temporarily
   destroyed. Their various functions will reactivate at full strength
   after a certain amount of time has passed.
   ※Positioning your minions near a destroyed structure will hasten
   　the reactivation process.
 
-<72>F201F4</72><73>F201F5</73>Play to Your Minions' Strengths<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Play to Your Minions' Strengths<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   Each variety of minion is capable of inflicting greater damage against
   certain structures. Learn each unit's strengths, and pick the right
   minion for the job!
 
-<72>F201F4</72><73>F201F5</73>Turn the Tide with Special Actions<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Turn the Tide with Special Actions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   These conditions must be met before a special action can be used:
   ・Four minions of the same variety are gathered in an action party
   ・Each minion in the action party has full action points
@@ -277,20 +277,20 @@ Permission to use, copy, modify, distribute and sell this software and its docum
   action party, and press the Execute Action button on the minion
   hotbar.
 
-<72>F201F4</72><73>F201F5</73>Mastering Traps<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mastering Traps<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   Some minions will place traps with their special actions. A trap will
   become armed ten seconds after it has been placed, and it can then
   be triggered by pressing the Trigger Trap button on the minion
   hotbar.
   ※Only one trap can be placed at a time.
 
-<If(GreaterThan(PlayerParameter(80),0))><72>F201F4</72><73>F201F5</73>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><73>01</73><72>01</72>
-<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
+<If(GreaterThan(PlayerParameter(80),0))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   ・Selecting an individual minion
      <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list
   ・Selecting multiple minions
      <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions
-<72>F201FA</72><73>F201FB</73>Useful Commands<73>01</73><72>01</72>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Useful Commands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   ・General
      <Gui(17)/>　　　: Switch summoning gate
      <CommandIcon(15)/>　　　: Toggle minion party list display
@@ -309,26 +309,26 @@ Permission to use, copy, modify, distribute and sell this software and its docum
      <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection
      <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults
 
-<72>F201F4</72><73>F201F5</73>Mouse Controls<73>01</73><72>01</72>
-<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mouse Controls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
    Left-Click : Select individual minion
    　※Left-clicking on your currently selected minion will select all
    　nearby minions of the same variety.
    Left-Click + Drag : Select all minions in the selection square
-<Else/><72>F201F4</72><73>F201F5</73>Mouse Controls<73>01</73><72>01</72>
-<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
+<Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mouse Controls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
    Left-Click : Select individual minion
    　※Left-clicking on your currently selected minion will select all
    　nearby minions of the same variety.
    Left-Click + Drag : Select all minions in the selection square
 
-<72>F201F4</72><73>F201F5</73>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><73>01</73><72>01</72>
-<72>F201FA</72><73>F201FB</73>Selecting Minions<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   ・Selecting an individual minion
      <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list
   ・Selecting multiple minions
      <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions
-<72>F201FA</72><73>F201FB</73>Useful Commands<73>01</73><72>01</72>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Useful Commands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   ・General
      <Gui(17)/>　　　: Switch summoning gate
      <CommandIcon(15)/>　　　: Toggle minion party list display
@@ -347,7 +347,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
      <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection
      <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults
 </If>
-<72>F201F4</72><73>F201F5</73>Keyboard Shortcuts<73>01</73><72>01</72>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Keyboard Shortcuts<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
   The following keybinds will be assigned different functions while
   playing Lord of Verminion.
 <If(Equal(PlayerParameter(75),1))><Else/>  Hotbar 1 - Slots 1 to 12 : Minion hotbar bottom row
@@ -463,13 +463,13 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 291,""
 292,""
 293,""
-294,""
-295,""
-296,""
-297,""
+294,"<CommandIcon(9)/> Close"
+295,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Set  <CommandIcon(9)/> Manipulate  <CommandIcon(11)/> Logos Actions"
+296,"<CommandIcon(8)/> Enable  <CommandIcon(11)/> Close"
+297,"<CommandIcon(11)/> Select Logogram  <CommandIcon(10)/> Subcommands"
 298,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
-299,""
-300,""
+299,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/><CommandIcon(11)/> Manipulate"
+300,"<CommandIcon(11)/> Select Logogram  <CommandIcon(9)/> Close"
 301,"<CommandIcon(10)/> Subcommands"
 302,"<CommandIcon(10)/> Subcommands"
 303,"<CommandIcon(8)/><CommandIcon(10)/> View Tag"
@@ -572,7 +572,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 400,""
 1000,"Report could not be sent.
 Please try again."
-1001,"<72>F20202</72>Duty Record Playback<72>01</72>
+1001,"<UIForeground>F20202</UIForeground>Duty Record Playback<UIForeground>01</UIForeground>
 ※Keyboard/Mouse settings listed are default.
 <If(Equal(PlayerParameter(78),99))>・Move Camera
 　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)
@@ -595,25 +595,25 @@ Please try again."
 　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>
 
 ––––––––––––––––––––––––––––––––––––––––––
-<72>F20202</72>Recording Duties<72>01</72>
+<UIForeground>F20202</UIForeground>Recording Duties<UIForeground>01</UIForeground>
 The following conditions must be met to use the Duty Recorder:
 　1. Recorder settings are enabled.
 　2. Current duty is available for recording.
 　3. Parties meet minimum size requirements.
 　4. Record ready check has been executed.
 
-<72>F20202</72>1. Recorder settings are enabled<72>01</72>
-Recorder settings can be adjusted under <72>F201F4</72><73>F201F5</73>Duty Recorder<73>01</73><72>01</72> in the main menu.
+<UIForeground>F20202</UIForeground>1. Recorder settings are enabled<UIForeground>01</UIForeground>
+Recorder settings can be adjusted under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty Recorder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu.
 
-<72>F20202</72>2. Current duty is available for recording<72>01</72>
+<UIForeground>F20202</UIForeground>2. Current duty is available for recording<UIForeground>01</UIForeground>
 Not all duties are available for recording.
 Recordable duties are marked with a special icon.
 
-<72>F20202</72>3. Parties meet minimum size requirements<72>01</72>
+<UIForeground>F20202</UIForeground>3. Parties meet minimum size requirements<UIForeground>01</UIForeground>
 Duties undertaken by undersized parties cannot be recorded.
 ※This includes parties formed via the Duty Finder.
 
-<72>F20202</72>4. Record ready check has been executed<72>01</72>
+<UIForeground>F20202</UIForeground>4. Record ready check has been executed<UIForeground>01</UIForeground>
 Approval from all party members is required before recording can begin.
 ※Record ready checks must be performed within 5 minutes of commencing a duty.
 
@@ -621,18 +621,18 @@ Only 3 records may be saved at once. Oldest records will be overwritten.
 ※Up to 2 records can be protected at once.
 
 ––––––––––––––––––––––––––––––––––––––––––
-<72>F20202</72>Viewing Recorded Duties<72>01</72>
+<UIForeground>F20202</UIForeground>Viewing Recorded Duties<UIForeground>01</UIForeground>
 The following conditions must be met to view duty records:
 　1. You are in an inn room.
 　2. Recorded duty is from the most recent game version.
 
-<72>F20202</72>1. You are in an inn room<72>01</72>
+<UIForeground>F20202</UIForeground>1. You are in an inn room<UIForeground>01</UIForeground>
 Duty playback is only available in inn rooms.
 
-<72>F20202</72>2. Recorded duty is from the most recent game version<72>01</72>
+<UIForeground>F20202</UIForeground>2. Recorded duty is from the most recent game version<UIForeground>01</UIForeground>
 This includes both major updates and minor hotfixes.
 Recordings will become inaccessible after applying the newest data patch."
-1002,"<72>F20202</72>Duty Record Playback<72>01</72>
+1002,"<UIForeground>F20202</UIForeground>Duty Record Playback<UIForeground>01</UIForeground>
 ※Keyboard/Mouse settings listed are default.
 <If(Equal(PlayerParameter(78),99))>・Move Camera
 　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)
@@ -655,26 +655,26 @@ Recordings will become inaccessible after applying the newest data patch."
 　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>
 
 ––––––––––––––––––––––––––––––––––––––––––
-<72>F20202</72>Functions<72>01</72>
+<UIForeground>F20202</UIForeground>Functions<UIForeground>01</UIForeground>
 
-<72>F20202</72>Pause<72>01</72>
+<UIForeground>F20202</UIForeground>Pause<UIForeground>01</UIForeground>
 Temporarily stop playback.
 
-<72>F20202</72>Chapter Selection<72>01</72>
+<UIForeground>F20202</UIForeground>Chapter Selection<UIForeground>01</UIForeground>
 Start playback at the position selected.
 ※Depending on chapter position, playback may not be instantaneous.
 
-<72>F20202</72>Next Chapter<72>01</72>
+<UIForeground>F20202</UIForeground>Next Chapter<UIForeground>01</UIForeground>
 Skip to the next available chapter.
 
-<72>F20202</72>Previous Chapter<72>01</72>
+<UIForeground>F20202</UIForeground>Previous Chapter<UIForeground>01</UIForeground>
 Skip to the previous chapter.
 
-<72>F20202</72>HUD Display<72>01</72>
+<UIForeground>F20202</UIForeground>HUD Display<UIForeground>01</UIForeground>
 Toggle on/off on-screen UI elements.
 ※Settings are saved for next playback.
 
-<72>F20202</72>Focus Target<72>01</72>
+<UIForeground>F20202</UIForeground>Focus Target<UIForeground>01</UIForeground>
 Camera can be focused on any party member.
 "
 1003,""
