@@ -161,7 +161,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 157,"Presence of Mind","Spell cast times, recast times, and auto-attack delay are reduced.",12627,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 158,"Regen","Regenerating HP over time.",12626,0,1,16,0,False,False,False,False,False,False,False,False,False,5,False,0,False,0,False,False,0,0,False
 159,"Divine Seal","HP restoration via healing magic is increased.",10407,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-160,"Surecast","Spells cannot be interrupted by taking damage.",10452,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+160,"Surecast","Spells cannot be interrupted by taking damage.",10452,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,34,False
 161,"Thunder","Sustaining lightning damage over time.",10457,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
 162,"Thunder II","Sustaining lightning damage over time.",10458,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
 163,"Thunder III","Sustaining lightning damage over time.",10459,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
@@ -196,11 +196,11 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 192,"Spur","Attack power and attack magic potency are increased.",12679,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 193,"Slow","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",15009,0,2,13,0,False,False,False,False,False,False,True,False,True,50,False,0,False,0,False,False,0,0,False
 194,"Shield Wall","Damage taken is reduced.",16401,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-195,"Mighty Guard","Damage taken is reduced.",16401,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+195,"Stronghold","Damage taken is reduced.",16401,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 196,"Last Bastion","Damage taken is reduced.",16401,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-197,"Blaze Spikes","Fire spikes are damaging attackers.",15508,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
-198,"Ice Spikes","Ice spikes are damaging and sometimes slowing down attackers.",15501,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
-199,"Shock Spikes","Lightning spikes are damaging and sometimes stunning attackers.",15502,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+197,"Blaze Spikes","Elemental spikes are dealing fire damage to attackers.",15508,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+198,"Ice Spikes","Elemental spikes are dealing ice damage to and sometimes slowing down attackers.",15501,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+199,"Shock Spikes","Elemental spikes are dealing lightning damage to and sometimes stunning attackers.",15502,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 200,"Physical Vulnerability Up","Physical damage taken is increased.",18001,4,2,17,0,False,False,False,False,False,False,True,False,False,100,False,0,False,0,False,False,0,0,False
 201,"Stun","Unable to execute actions.",15004,0,2,3,0,True,False,True,False,False,False,False,True,True,100,False,0,False,0,False,False,0,0,False
 202,"Vulnerability Up","Damage taken is increased.",17101,8,2,17,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
@@ -385,13 +385,13 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 381,"Sword Oath","Auto-attacks are enhanced.",12505,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 382,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 383,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-384,"Thrill of War","Maximum HP is increased.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-385,"Full Swing","Taking damage over time.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-386,"Somersault","Spell speed is reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-387,"Fetter Ward","Immune to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, knockback, and draw-in effects.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-388,"Impulse Rush","Critical hit rate is increased.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-389,"Skewer","Damage dealt and healing magic potency are reduced.",14808,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-390,"Sacred Prism","A veil of succor is healing party members in the area.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+384,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+385,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+386,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+387,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+388,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+389,"Skewer","Damage dealt and potency of all HP restoration actions are reduced.",14808,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+390,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 391,"Phantom Dart","All magic resistances are reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 392,"Misty Veil","Attack range is reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 393,"Wither","All magic resistances are reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -488,7 +488,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 484,"Ink","Your body is dripping with thick toxic ink, slowing movement speed and dealing damage over time.",15569,0,2,17,0,False,False,False,False,False,False,False,False,False,150,False,1,False,0,False,False,0,0,False
 485,"Dropsy","Sustaining water damage over time.",17641,16,2,17,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
 486,"Watery Grave","You are trapped in a magicked prison of water and are unable to execute actions.",15038,0,2,17,0,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,3,0,False
-487,"Deep Freeze","Your body is encased in ice, preventing actions and dealing damage over time.",17621,16,2,17,18,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,32,True
+487,"Deep Freeze","Your body is encased in ice, preventing action and dealing damage over time.",17621,16,2,17,18,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,32,True
 488,"Shade Shift","Shadows are nullifying damage.",10605,0,1,16,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,12,False
 489,"Kiss of the Wasp","Physical damage dealt is increased.",10606,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 490,"Kiss of the Viper","Physical damage dealt is increased.",10609,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
@@ -817,7 +817,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 812,"Magic Vulnerability Down","Magic damage taken is reduced.",15056,0,1,16,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
 813,"Dark Dance","Parry and evasion rates are increased.",13111,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 814,"Enhanced Unleash","Next <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Unleash<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will not require any MP to cast.",13117,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-815,"Enhanced Benefic II","Next <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Benefic II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will deal critical damage.",13228,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+815,"Enhanced Benefic II","Next <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Benefic II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will restore critical HP.",13228,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 816,"Enhanced Royal Road","Potency of the card played is enhanced.",13210,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 817,"Expanded Royal Road","Adds area of effect to next card played.",13211,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 818,"Extended Royal Road","Duration of the card played is extended.",13212,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
@@ -1152,7 +1152,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1147,"Shadow Links","Sustaining damage over time. Movement speed is also decreased.",15756,0,2,4,25,False,False,False,False,False,False,False,False,False,200,False,1,False,0,False,False,0,0,False
 1148,"Shadow Limb","A shadowy appendage has sprouted from Scathach's body.",15757,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
 1149,"Wolf's Heart Kit","Movement speed is increased while restoring TP and MP over time.",15752,0,1,0,0,False,False,False,False,False,False,False,False,False,100,False,0,True,0,False,False,0,0,False
-1150,"Deep Freeze","Your body is encased in ice, preventing actions and dealing damage over time.",15637,0,2,17,18,True,False,True,False,False,False,False,True,True,100,False,0,False,0,False,False,0,32,False
+1150,"Deep Freeze","Your body is encased in ice, preventing action and dealing damage over time.",15637,0,2,17,18,True,False,True,False,False,False,False,True,True,100,False,0,False,0,False,False,0,32,False
 1151,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1152,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1153,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -1256,7 +1256,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1251,"Turret Reset","Unable to deploy turrets.",13018,0,2,17,0,False,False,False,False,False,False,False,False,False,100,False,0,True,0,False,False,0,0,False
 1252,"Eyes Open","Succeeded at opening the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Third Eye<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13308,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1253,"Prey","Marked as prey.",15026,0,2,17,30,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
-1254,"Deep Freeze","Your body is encased in ice, preventing actions and dealing damage over time.",15637,0,2,17,18,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,32,False
+1254,"Deep Freeze","Your body is encased in ice, preventing action and dealing damage over time.",15637,0,2,17,18,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,32,False
 1255,"Fire Resistance Down II","Fire resistance is significantly reduced.",15595,0,2,17,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
 1256,"Wounded","Severe wounds are reducing damage dealt while increasing damage taken by certain attacks.",15763,0,2,17,35,False,False,False,False,False,False,False,True,True,100,False,0,False,0,False,False,0,25,False
 1257,"Forced March","Advancing in the ordered direction.",15773,0,2,17,0,True,False,True,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
@@ -1309,7 +1309,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1304,"Holmgang","Unable to move until effect fades. Most attacks cannot reduce your HP to less than 1.",10255,0,2,17,0,False,True,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,31,False
 1305,"Holmgang","Unable to move until effect fades.",14824,0,2,17,0,False,True,False,False,False,False,True,False,False,0,False,0,False,0,False,False,0,0,False
 1306,"Sole Survivor","Damage taken is increased.",13105,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1307,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1307,"Ice Spikes","Upon taking physical damage, sharpened spikes deal ice damage to the attacking opponent, potentially slowing them.",15501,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
 1308,"Blackest Night","An all-encompassing darkness is nullifying damage.",13118,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,12,False
 1309,"Demolish","Sustaining damage over time, as well as increased damage from target who executed Demolish.",10218,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1310,"Riddle of Earth","Contemplating the riddle of earth. Taking a certain amount of damage triggers <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Earth's Reply<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",12527,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,25,False
@@ -1329,7 +1329,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1324,"Thunder","Sustaining lightning damage over time.",10457,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1325,"Swiftcast","Next spell will require no time to cast.",10454,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1326,"Bio III","Contagions are spreading, causing damage over time.",12682,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1327,"Miasma III","Lungs are failing, causing damage over time and reducing own HP restored by spells.",12683,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1327,"Miasma III","Lungs are failing, causing damage over time and reducing HP recovery.",12683,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1328,"Electrocution","Sustaining lightning damage over time.",19041,16,2,17,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
 1329,"Withering","Damage taken is increased.",14812,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1330,"Regen","Regenerating HP over time.",12626,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -1372,9 +1372,9 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1367,"Impactful","Able to execute Impact.",13401,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1368,"Requiescat","Magic damage dealt and HP restoration via healing magic are increased.",12514,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1369,"Requiescat","Magic damage dealt and HP restoration via healing magic are increased. Spells consume no MP.",12514,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,6,False,0,False,False,0,19,False
-1370,"Rage of Halone","Damage dealt and HP recovery via healing magic are reduced.",14836,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1370,"Rage of Halone","Damage dealt and potency of all HP restoration actions are reduced.",14836,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1371,"Butcher's Block","Damage taken is increased.",14837,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1372,"Power Slash","HP recovery via healing magic is reduced.",14838,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1372,"Power Slash","HP recovery is reduced.",14838,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1373,"Immaterialized","Not yet fully materialized to a complete form.",15798,0,2,17,0,False,False,False,False,False,False,False,True,True,100,False,0,False,0,False,True,0,0,False
 1374,"Target Right","Focusing attack on target to the right.",15800,0,2,17,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
 1375,"Target Left","Focusing attack on target to the left.",15801,0,2,17,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
@@ -1398,7 +1398,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1393,"Dualcast","The next spell will be cast immediately.",13406,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1394,"Limp","Your mount has been lamed by an attack. Movement speed is reduced.",14839,0,2,17,47,False,False,False,False,False,False,True,False,False,200,False,1,False,0,False,False,0,0,False
 1395,"Shield Oath","Damage dealt and taken are reduced.",12506,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
-1396,"Defiance","Maximum HP and HP recovery via healing magic is increased, while damage dealt is reduced.",12551,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1396,"Defiance","Damage dealt and taken are reduced.",12551,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1397,"Grit","Damage dealt and taken are reduced.",13108,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1398,"Inner Beast","Damage taken is reduced.",12553,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1399,"Fetters","Unable to execute actions.",15545,0,2,17,0,True,False,True,True,False,False,False,False,False,100,False,4,False,0,False,False,0,0,False
@@ -1411,7 +1411,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1406,"Chain Stratagem","Damage taken is increased.",12809,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1407,"Barrage","Striking multiple times per weaponskill.",10356,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1408,"Cometeor","Damage taken is increased.",14843,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1409,"Terminal Velocity","HP recovery via healing magic is reduced.",14844,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1409,"Terminal Velocity","HP recovery is reduced.",14844,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1410,"Chanchala","Lakshmi's divine nature vacillates unsteadily.",15805,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
 1411,"The Road to 60","Experience earned while below level 60 is dramatically increased.",16227,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
 1412,"Vulnerability Up","Damage taken is increased.",17101,16,2,17,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
@@ -1422,7 +1422,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1417,"Stone Curse","Turned into stone. Taking damage results in instant death.",15586,0,2,6,1,True,False,True,False,False,True,False,False,False,100,False,0,False,0,False,False,0,32,False
 1418,"Abandonment","Will suffer <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fear<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when straying too far from party members.",15649,0,2,17,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
 1419,"The Worm's Curse","HP regeneration is nullified and damage is taken slowly over time. Attacking, however, will periodically restore HP.",15815,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,29,False
-1420,"Mounted","Mounted in warmachina. HP regeneration is nullified. Damage taken from ranged and magic attacks is reduced.",15821,0,1,16,0,False,False,False,False,True,False,False,True,True,200,False,2,True,0,False,False,0,9,False
+1420,"Mounted","Mounted in warmachina. HP recovery and beneficial effects conferred by actions are nullified.",15821,0,1,16,0,False,False,False,False,True,False,False,True,True,200,False,2,True,0,False,False,0,9,False
 1421,"Craven","Courage is fully tapped, increasing damage taken.",15810,0,2,17,0,False,False,False,True,True,False,False,False,False,100,False,2,False,0,False,False,0,9,False
 1422,"Temporary Misdirection","Overcome with temporary insanity. Can only move in the direction indicated.",15809,0,2,17,43,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
 1423,"Transfiguration","Spiritual and corporeal forms are drastically altered.",15811,0,2,17,0,False,False,False,True,True,False,False,False,False,100,False,2,False,0,False,False,0,9,False
@@ -1441,11 +1441,11 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1436,"Phoenix's Blessing","Damage dealt is increased.",15819,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
 1437,"Lohs Daih","Bahamut Prime's insanity has peaked. Damage dealt is increased.",15820,0,1,16,0,False,False,False,False,True,False,False,True,True,200,False,2,False,0,False,False,0,9,False
 1438,"Resonant","Strength is transcending that of mere mortals.",15795,0,1,16,31,True,False,True,False,False,False,False,True,True,200,False,4,False,0,False,False,0,16,False
-1439,"Independent Tactics","Maximum HP and damage dealt are increased while damage taken is reduced.",19101,5,1,16,0,False,False,False,True,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1440,"Offensive Tactics","Damage dealt is increased.",19121,5,1,16,0,False,False,False,True,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1441,"Defensive Tactics","Maximum HP is increased while damage taken is reduced.",19141,5,1,16,0,False,False,False,True,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1442,"Balanced Tactics","Maximum HP and damage dealt are increased.",19161,5,1,16,0,False,False,False,True,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1443,"Clockwork","When the gears run down, functionality will cease. HP restored by healing magic and damage taken from ranged and magic attacks are reduced.",15825,0,2,0,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
+1439,"Independent Tactics","Maximum HP and damage dealt are increased while damage taken is reduced.",19101,5,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1440,"Offensive Tactics","Damage dealt is increased.",19121,5,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1441,"Defensive Tactics","Maximum HP is increased while damage taken is reduced.",19141,5,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1442,"Balanced Tactics","Maximum HP and damage dealt are increased.",19161,5,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1443,"Clockwork","When the gears run down, functionality will cease. HP restoration is reduced.",15825,0,2,0,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
 1444,"Magitek Field","Impervious to all damage.",15824,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,12,False
 1445,"The Deceiver","Wearing the face of the god of lies.",15812,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
 1446,"The Upholder","Wearing the face of the god of truth.",15813,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
@@ -1453,7 +1453,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1448,"Transfiguration","Corporeal form has been altered.",16214,0,1,16,0,False,False,False,False,True,False,False,False,False,100,False,2,True,0,False,False,0,9,False
 1449,"Troubadour's Minuet","Damage dealt is increased.",12615,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1450,"Troubadour's Paeon","Damage taken is reduced.",12614,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1451,"Lord of Crowns","HP is slowly being drained while HP recovery via healing magic is reduced.",14841,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1451,"Lord of Crowns","Sustaining damage over time. HP recovery is reduced.",14841,0,2,17,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1452,"Lady of Crowns","Regenerating HP over time.",14840,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1453,"Right Eye","Damage dealt is increased.",12581,0,1,16,0,False,False,False,False,False,False,False,False,False,100,False,0,True,0,False,False,0,0,False
 1454,"Left Eye","Damage dealt is increased.",12582,0,1,16,0,False,False,False,False,False,False,False,False,False,100,False,0,True,0,False,False,0,0,False
@@ -1467,7 +1467,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1462,"Out of the Action","Unable to execute actions.",15045,0,2,17,0,False,False,False,False,False,False,False,True,True,100,False,19,False,0,False,False,0,24,False
 1463,"Elemental Blessing: Damage","Receiving the blessing of Eureka's elementals. Damage dealt is increased and restoring HP over time.",15835,0,1,16,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
 1464,"Time's Up","Nearing the end of allotted exploration time in Eureka. ",15832,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
-1465,"Soaring","Overcome with the battle high, increasing damage dealt and healing magic potency.",19181,10,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
+1465,"Soaring","Overcome with the battle high, increasing damage dealt and potency of HP restoration actions. Effect is nullified when piloting warmachina.",19181,19,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,True,0,False,False,0,0,False
 1466,"Stab Wound","Wounds dealt by a piercing weapon are bleeding, causing damage over time.",15522,0,2,17,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
 1467,"Yellow Paint","Carrying a pot of yellow paint.",15829,0,1,16,56,False,False,False,False,False,False,False,True,True,150,False,0,True,0,False,False,0,0,False
 1468,"Blue Paint","Carrying a pot of light blue paint.",15828,0,1,16,55,False,False,False,False,False,False,False,True,True,150,False,0,True,0,False,False,0,0,False
@@ -1618,8 +1618,8 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1613,"Burning Soul","The immortal spirit blazes bright within.",19381,10,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1614,"Fetters","Unable to execute actions.",15545,0,2,17,77,True,False,True,True,False,False,False,True,False,100,False,4,False,0,False,False,0,0,False
 1615,"Crumbling Bulwark","Magicked barrier is gradually disintegrating.",15899,0,1,16,79,False,False,False,False,False,False,False,False,False,200,False,0,True,0,False,False,0,12,False
-1616,"Death from Above","Any auto-attack from a skyborne opponent will apply Doom.",15900,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
-1617,"Death from Below","Any auto-attack from a landborne opponent will apply Doom.",15901,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
+1616,"Death from Above","Any auto-attack from a skyborne opponent will apply <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",15900,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
+1617,"Death from Below","Any auto-attack from a landborne opponent will apply <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",15901,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
 1618,"Logos-minded","Ruminating on extracted mnemes. Ready to use select logos actions.",16626,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
 1619,"Preoccupied","Engaged in complex maneuvers.",15765,0,1,0,0,False,False,True,True,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1620,"Unveiled","Gilgamesh's true form is revealed.",15928,0,1,16,0,False,False,False,False,True,False,False,True,True,200,False,2,False,0,False,False,0,9,False
@@ -1634,7 +1634,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1629,"Kill Command","Deleting variables from the Interdimensional Rift.",15892,0,2,17,83,False,False,False,False,False,False,False,False,False,200,False,0,True,0,False,True,0,0,False
 1630,"Love's True Form","Suzaku's heretofore unknown visage is revealed.",15908,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
 1631,"Wisdom of the Aetherweaver","Magic damage is increased.",16627,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
-1632,"Wisdom of the Martialist","Physical damage is increased.",16628,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1632,"Wisdom of the Martialist","Damage dealt is increased.",16628,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1633,"Wisdom of the Platebearer","Maximum HP and defense are increased.",16629,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1634,"Wisdom of the Guardian","Maximum HP and defense are increased.",16630,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1635,"Wisdom of the Ordained","Maximum MP and healing magic potency are increased.",16631,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
@@ -1643,7 +1643,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1638,"Wisdom of the Templar","Maximum HP and healing magic potency are increased, while damage dealt is reduced.",16634,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,23,True,0,False,False,0,0,False
 1639,"Wisdom of the Irregular","Damage dealt is increased, while magic defense is reduced.",16635,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1640,"Wisdom of the Breathtaker","Movement speed, evasion, and poison resistance are increased.",16636,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
-1641,"Wisdom of the Remembered","Maximum HP and accuracy are increased. Chance of automatic revival upon KO.",16637,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1641,"Spirit of the Remembered","Maximum HP and accuracy are increased. Chance of automatic revival upon KO.",16637,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 1642,"Protect L","Physical defense is increased.",16638,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1643,"Shell L","Magic defense is increased.",16639,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1644,"Swift L","Movement speed is increased.",16640,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,6,False
@@ -1686,7 +1686,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1681,"Paying the Piper","Advancing in the direction to which the melody calls you.",15773,0,2,17,0,True,False,True,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
 1682,"Sleeping Dark","Ying is fast asleep.",15929,0,1,16,76,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1683,"Sleeping Light","Yang is fast asleep.",15930,0,1,16,75,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1684,"Breakga Edict","Following orders to perform Little Breakga.",15555,0,1,16,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
+1684,"Break III Edict","Following orders to perform Little Break III.",15555,0,1,16,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
 1685,"Rush Edict","Following orders to perform Little Rush.",15555,0,1,16,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
 1686,"Tornado Edict","Following orders to perform Little Tornado.",15555,0,1,16,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
 1687,"Rehabilitation","Regenerating HP over time.",15532,0,1,16,0,False,False,False,False,False,False,False,False,False,5,False,0,False,0,False,False,0,0,False
@@ -1694,11 +1694,11 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1689,"Primary Target","Identified as the focus of a coordinated attack.",15932,0,2,17,0,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1690,"Skyborne","Drawing power from the firmament.",15934,0,1,0,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1691,"Landborne","Drawing power from the land itself.",15896,0,1,0,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
-1692,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1692,"Guardian Spirit","Soul ablaze with the will to protect.",15869,0,1,0,106,False,False,False,False,False,False,False,True,True,199,False,0,False,0,False,False,0,0,False
 1693,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1694,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1695,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1696,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1696,"Drowning","Being dragged under by the current. Unable to move or execute actions.",15936,0,2,3,0,False,False,True,True,False,False,False,False,False,100,False,4,False,0,False,False,0,0,False
 1697,"Invincibility","Invulnerable to all damage.",15024,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,1,12,False
 1698,"Mutation","Aetherial instability is triggering mutations.",15885,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
 1699,"Looming Crescendo","The melody of the pyre calls. Will be compelled in the designated direction when the effect ends.",15933,0,2,17,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
@@ -1709,38 +1709,38 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1704,"Looper","Corrupted by Omega's program loop.",15892,0,2,17,83,False,False,False,False,False,False,False,False,False,200,False,0,True,0,False,True,0,0,False
 1705,"Hidden","Unable to be detected. Movement speed is severely reduced.",10607,0,1,16,0,False,False,False,False,False,False,False,True,True,100,False,1,False,0,False,True,0,2,False
 1706,"Evasion Up","Evasion is enhanced.",15062,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
-1707,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1708,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1709,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1707,"Right Unseen","Only vulnerabilities on the right side of the body remain undetected. Damage taken to the front, back, and left sides of the body will result in K.O.",15939,0,2,17,87,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
+1708,"Left Unseen","Only vulnerabilities on the left side of the body remain undetected. Damage taken to the front, back, and right sides of the body will result in K.O.",15940,0,2,17,88,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
+1709,"Back Unseen","Only vulnerabilities on the back of the body remain undetected. Damage taken to the front, right, and left sides of the body will result in K.O.",15941,0,2,17,86,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1710,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1711,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1712,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1713,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1714,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1715,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1716,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1717,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1718,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1719,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1720,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1721,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1722,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1723,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1724,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1725,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1726,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1727,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1714,"Pain","Sustaining damage over time.",13501,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
+1715,"Malodorous","Damage dealt is reduced.",13502,0,2,17,0,False,False,False,False,False,False,True,False,False,50,False,0,False,0,False,False,0,0,False
+1716,"Boost","Potency of next magic attack is increased.",13503,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+1717,"Off-guard","Damage taken from the combatant who inflicted this status is increased.",13504,0,2,17,0,False,False,False,False,False,False,True,False,False,50,False,0,False,0,False,False,0,0,False
+1718,"Waxing Nocturne","Damage dealt and movement speed are increased. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Waning Nocturne<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will take hold when the effect ends.",13505,0,1,16,85,False,False,False,False,False,False,False,False,False,1,False,0,True,0,False,False,0,0,False
+1719,"Mighty Guard","Damage taken and dealt are reduced, while enmity is increased.",13506,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,34,False
+1720,"Ice Spikes","Upon taking physical damage, sharpened spikes deal ice damage to the attacking opponent, potentially slowing them.",13507,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+1721,"Peculiar Light","Magic damage taken is increased.",13508,0,2,17,0,False,False,False,False,False,False,True,False,False,50,False,0,False,0,False,False,0,0,False
+1722,"Diamondback","Though unable to move, damage taken is reduced.",13509,0,1,16,84,True,True,True,False,False,False,False,False,False,1,False,4,True,0,False,False,0,27,False
+1723,"Windburn","Sustaining wind damage over time.",13510,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
+1724,"Veil of the Whorl","Dealing water damage to attackers upon taking damage.",13511,0,1,16,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
+1725,"Cursekeeper","Afflicted by a karmic curse carried within a paper doll. Damage taken will be channeled into an explosion when the effect ends or you are KO'd.",15937,0,2,17,98,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
+1726,"Fetters","Unable to execute actions.",15545,0,2,17,99,True,False,True,True,False,False,False,False,True,100,False,4,False,0,False,False,0,0,False
+1727,"Waning Nocturne","Unable to auto-attack or use spells, weaponskills, and abilities.",13512,0,2,17,0,False,False,False,False,False,False,False,False,False,50,False,19,False,0,False,False,0,24,False
 1728,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1729,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1730,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1731,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1730,"Flying High","Nearly giddy with the thrill of battle, increasing damage dealt, potency of HP restoration actions, and the rate at which the adrenaline gauge fills. Effect is nullified when piloting warmachina.",14845,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,3,True,0,False,False,0,0,False
+1731,"Deep Freeze","Frozen solid and unable to execute actions.",13513,0,2,17,18,True,False,True,False,False,False,False,False,False,50,False,0,False,0,False,False,0,32,False
 1732,"Elemental EXP Up","Elemental EXP earned through battle while at an elemental level lower than 35 is increased.",15836,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
-1733,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1734,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1735,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1736,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1737,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1738,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1733,"Shieldbearer","Equipped with an ethereal shield and able to use the duty action Heavenly Shield.",15942,0,1,16,91,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
+1734,"Swordbearer","Equipped with an ethereal sword and able to use the duty action Heavenly Sword.",15943,0,1,16,92,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
+1735,"Heavenly Shield","Protected by an ethereal shield. Damage taken from certain attacks is reduced.",15944,0,1,16,96,False,False,False,False,False,False,False,True,False,0,False,4,True,0,False,False,0,27,False
+1736,"Dropsy","Sustaining water damage over time.",13514,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
+1737,"Toad Oil","Evasion is enhanced.",13515,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+1738,"Doom","Certain death when counter reaches zero.",13516,0,2,9,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
 1739,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1740,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1741,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -1749,42 +1749,42 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1744,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1745,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1746,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1747,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1748,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1749,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1747,"Fearless","Empowered by courage, increasing damage dealt.",15948,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+1748,"Guardians' Aegis","Shielded by a protective barrier.",15949,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1749,"Area of Influence Up","Area of effect for actions is expanded.",17981,16,1,16,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,33,False
 1750,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1751,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1752,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1753,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1754,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1755,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1756,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1756,"Elemental Blessing","An area of land has been granted the elementals' protection, reducing damage taken for all who enter.",15021,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,4,True,0,False,False,0,27,False
 1757,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1758,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1759,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1760,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1761,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1758,"Deep Freeze","Your body is encased in ice, preventing action and dealing damage over time.",17621,16,2,17,18,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,32,True
+1759,"Vulnerability Down","Damage taken is reduced.",15021,0,1,16,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
+1760,"Damage Up","Damage dealt is increased.",17061,16,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1761,"Ice Resistance Up","Ice resistance is increased.",15029,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1762,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1763,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1764,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1765,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1764,"Artificially Enhanced","Magitek plate armor has been enhanced.",15956,0,1,16,94,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1765,"Artificially Enhanced","Magitek plate armor has been enhanced.",15956,0,1,16,95,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1766,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1767,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1767,"Weak Magitek Field","Protection provided by towers has lessened, but damage taken is still reduced.",15957,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1768,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1769,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1769,"Doom","Certain death when counter reaches zero. Effect dissipates once fully healed.",15503,0,2,9,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,25,False
 1770,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1771,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1772,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1773,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1774,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1774,"Blazing Aramitama","The aramitama has been stoked, and both body and soul surrendered to it.",15961,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
 1775,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1776,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1776,"Blunt Resistance Down","Blunt resistance is reduced.",15064,0,2,17,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
 1777,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1778,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1779,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1780,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1781,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1782,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1781,"Damage Up","Damage dealt is increased.",15519,0,1,16,101,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
+1782,"Vulnerability Down","Damage taken is reduced.",15021,0,1,16,100,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
 1783,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1784,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1785,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -1794,7 +1794,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1789,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1790,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1791,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1792,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1792,"Artificial Boost","Magitek plate armor has been enhanced beyond standard limits.",15956,0,1,16,85,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
 1793,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1794,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1795,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
