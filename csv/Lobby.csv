@@ -101,7 +101,9 @@ You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParamet
 92,0,0,0,"","",""
 93,0,0,0,"","",""
 94,0,1200,0,"","",""
-95,0,0,0,"","",""
+95,0,0,0,"Logging onto <Highlight>StringParameter(1)</Highlight>.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Your character is currently on a World Server different from your Home World. Visit an aetheryte in either Limsa Lominsa, Gridania, or Ul'dah to return.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 96,0,0,0,"","",""
 97,0,120,0,"","",""
 98,0,0,0,"","",""
@@ -114,7 +116,7 @@ You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParamet
 105,0,0,0,"Nameday","誕生日",""
 106,0,12,0,"Guardian","守護神",""
 107,0,10,0,"Class","クラス",""
-108,0,0,0,"World","ワールド",""
+108,0,0,0,"Home World","ワールド",""
 109,0,0,0,"Name","名前",""
 110,0,0,0,"Hyur<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","The Hyur are said to have first traveled to Eorzea from her surrounding
 continents and islands. Three great migratory waves later, they are now
@@ -960,8 +962,8 @@ His symbol is the hourglass.","",""
 616,0,0,0,"Veteran Reward Rank: <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value><Else/>None</If>","",""
 617,0,0,0,"Total Days Subscribed: <Format(IntegerParameter(1),FF022C)/><If(Equal(IntegerParameter(2),0))><Else/>
 Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
-618,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> of play time remaining. Proceed to the Mog Station (http://sqex.to/Msp) to renew.","",""
-619,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> left on your free trial. <If(GreaterThan(PlayerParameter(75),0))>Proceed to PlayStation™Store to upgrade to the full version of FINAL FANTASY XIV and unlock all the game's features.<Else/>Visit the Square Enix Online Store to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.</If>","",""
+618,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> of play time remaining. Proceed to the Mog Station (https://sqex.to/Msp) to renew.","",""
+619,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> left on your free trial. <If(GreaterThan(PlayerParameter(75),0))>Proceed to PlayStation™Store to upgrade to the full version of FINAL FANTASY XIV and unlock all the game's features.<Else/>Visit the Square Enix Online Store (https://sqex.to/Msp) to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.</If>","",""
 620,0,0,0,"","",""
 621,0,0,0,"Finalize your retainer's appearance?","",""
 622,0,0,0,"Cancel retainer customization.","",""
@@ -1280,7 +1282,7 @@ have for countless generations."
 803,0,0,0,"Information","",""
 804,0,0,0,"Worlds","",""
 805,0,0,0,"<Switch(IntegerParameter(1))><Case(1)>JP 1</Case><Case(2)>JP 2</Case><Case(3)>JP 3</Case><Case(4)>DC NA 1</Case><Case(5)>NA 2</Case><Case(6)>EU</Case></Switch>","",""
-806,0,0,0,"FINAL FANTASY XIV requires connecting to one of three data centers to play. The closer your physical location to the data center, the smoother gameplay will be. The center you have selected is recommended for residents of <Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>Japan</Case><Case(3)>Japan</Case><Case(4)>North America</Case><Case(5)>North America</Case><Case(6)>Europe</Case><Case(7)>Europe</Case></Switch>. Select if you wish to create a character and play in one of the Worlds listed.
+806,0,0,0,"FINAL FANTASY XIV requires connecting to one of three data centers to play. The closer your physical location to the data center, the smoother gameplay will be. The center you have selected is recommended for residents of <Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case></Switch>. Select if you wish to create a character and play in one of the Worlds listed.
 
 Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you must select the corresponding data center.","",""
 807,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case></Switch>","",""
@@ -1297,7 +1299,7 @@ Each data center contains several unique Worlds (servers). If you have already d
 818,0,0,0,"","",""
 819,0,0,0,"","",""
 820,0,0,0,"“World” is another name for the server on which your character will reside.
-Once you have chosen a World, chances to move to another will be limited,
+Once you have chosen a Home World, chances to move to another will be limited,
 so if you have made plans to play FINAL FANTASY XIV with friends, make
 certain that you all select the same one.
 
@@ -1307,7 +1309,7 @@ it is recommended, but not required, that you select a data center that is
 closer to where you will be playing. Legacy Worlds (servers existing since the
 original launch) are indicated in parentheses.
 
-<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of  <If(GreaterThan(IntegerParameter(1),0))><Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>Japan</Case><Case(3)>Japan</Case><Case(4)>North America</Case><Case(5)>North America</Case><Case(6)>Europe</Case><Case(7)>Europe</Case></Switch><Else/></If>.<If(GreaterThan(IntegerParameter(2),0))>
+<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of  <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case></Switch><Else/></If>.<If(GreaterThan(IntegerParameter(2),0))>
 
 <Gui(99)/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EXP bonuses are currently being granted to all new players
 created on this world.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>","",""
@@ -1346,7 +1348,8 @@ created on this world.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><
 851,0,0,0,"Save a backup of local system settings for UI, sound, user macros, and more to the server.
 ※Display resolution, graphics quality, input device, and other settings dependent on current play environment will not be saved.","",""
 852,0,0,0,"Save a backup of local character settings, HUD layout, hotbars, gear sets, and more to the server.
-※Item sort settings and inventory location data will not be saved.","",""
+※Item sort settings and inventory location data will not be saved.<If(Equal(PlayerParameter(78),99))>
+※Only HUD size and layout will be saved for remote play.<Else/></If>","",""
 853,0,0,0,"","",""
 854,0,0,0,"","",""
 855,0,0,0,"This feature is unavailable on the free trial.","",""
@@ -1378,7 +1381,7 @@ You cannot upload data again until <Time(IntegerParameter(1))/><Value>TopLevelPa
 878,0,0,0,"Data consists only of default settings.","",""
 879,0,0,0,"Unable to upload backup data at this time.","",""
 880,0,0,0,"Backup features are currently unavailable.","",""
-881,0,0,0,"Apply Character Settings for <Highlight>StringParameter(3)</Highlight><Highlight>StringParameter(4)</Highlight> to <Highlight>StringParameter(1)</Highlight><Highlight>StringParameter(2)</Highlight>?","",""
+881,0,0,0,"Apply Character Settings for <Highlight>StringParameter(3)</Highlight><Gui(88)/><Highlight>StringParameter(4)</Highlight> to <Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>?","",""
 882,0,0,0,"No other <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exist.","",""
 883,0,0,0,"Search","",""
 884,0,0,0,"Data Ready","",""
@@ -1387,8 +1390,8 @@ You cannot upload data again until <Time(IntegerParameter(1))/><Value>TopLevelPa
 887,0,0,0,"Uploading backup data...","",""
 888,0,0,0,"<UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> successfully applied.","",""
 889,0,0,0,"<UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> data saved to the server.","",""
-890,0,0,0,"Character Settings successfully applied to <Highlight>StringParameter(1)</Highlight><Highlight>StringParameter(2)</Highlight>.","",""
-891,0,0,0,"Character Settings for <Highlight>StringParameter(1)</Highlight><Highlight>StringParameter(2)</Highlight> successfully uploaded to the server.","",""
+890,0,0,0,"Character Settings successfully applied to <Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>.","",""
+891,0,0,0,"Character Settings for <Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> successfully uploaded to the server.","",""
 892,0,0,0,"Insufficient settings data. Unable to perform backup.
 Log in with the character and try again.","",""
 893,0,0,0,"Settings data is corrupted. Unable to perform backup.
@@ -1451,12 +1454,12 @@ Please try again later.","",""
 938,0,0,0,"","",""
 939,0,0,0,"","",""
 940,0,0,0,"Restore","",""
-941,0,0,0,"Restore Macros","",""
+941,0,0,0,"Restore <If(Equal(PlayerParameter(78),99))>Settings<Else/>Macros</If>","",""
 942,0,0,0,"Restore Settings","",""
-943,0,0,0,"Restore Shared Macros","",""
+943,0,0,0,"Restore <If(Equal(PlayerParameter(78),99))>Client Settings<Else/>Shared Macros</If>","",""
 944,0,0,0,"","",""
-945,0,0,0,"Up to 100 shared macros can be restored.","",""
-946,0,0,0,"If a problem occurred applying <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you can use this feature to restore your shared macro settings to those automatically recorded at a previous date.","",""
+945,0,0,0,"<If(Equal(PlayerParameter(78),99))> <Else/>Up to 100 shared macros can be restored.</If>","",""
+946,0,0,0,"If a problem occurred applying <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you can use this feature to restore your <If(Equal(PlayerParameter(78),99))><Else/>shared macro </If>settings to those automatically recorded at a previous date.","",""
 947,0,0,0,"Settings are automatically saved each time you download and apply new data (up to 10 instances).
 No data currently exists.","",""
 948,0,0,0,"Automatic Backup: <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>","",""
@@ -1466,17 +1469,17 @@ No data currently exists.","",""
 952,0,0,0,"If a problem occurred applying <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you can use this feature to restore your settings to those automatically recorded at a previous date.","",""
 953,0,0,0,"Settings are automatically saved each time you download and apply new data (up to 10 instances).
 No data currently exists.","",""
-954,0,0,0,"Restore shared macro data for <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>?","",""
+954,0,0,0,"Restore <If(Equal(PlayerParameter(78),99))>Client Settings<Else/>shared macro data</If> for <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>?","",""
 955,0,0,0,"Restore <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>?","",""
-956,0,0,0,"Shared macros successfully restored.","",""
-957,0,0,0,"Unable to restore shared macros.","",""
+956,0,0,0,"<If(Equal(PlayerParameter(78),99))>Client Settings<Else/>Shared macros</If> successfully restored.","",""
+957,0,0,0,"Unable to restore <If(Equal(PlayerParameter(78),99))>Client Settings<Else/>shared macros</If>.","",""
 958,0,0,0,"<UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> successfully restored.","",""
 959,0,0,0,"Unable to restore <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
 960,0,0,0,"Unable to download data. Backup file may be missing or corrupted.","",""
 961,0,0,0,"Corrupted","",""
-962,0,0,0,"A new feature has been added that allows you to save backups of your Character Settings and Client Settings to the FINAL FANTASY XIV servers. Currently, the feature is only available to Windows®/Mac® version users.
+962,0,0,0,"A new feature has been added that allows you to save backups of your Character Settings and Client Settings to the FINAL FANTASY XIV servers.
 
-This feature is still in the beta testing phase and may not be fully compatible with your play environment. It is strongly recommended that you save your settings data locally before attempting a backup to the servers.","",""
+This feature is still in the beta testing phase and may not be fully compatible with your play environment. It is strongly recommended that you save your data locally before attempting a backup to the servers.<If(Equal(PlayerParameter(78),99))><Else/> This can be done manually or via the CONFIG option found in the launcher.</If>","",""
 963,0,0,0,"I understand.","",""
 964,0,0,0,"Proceed","",""
 965,0,0,0,"Return","",""
@@ -1486,8 +1489,8 @@ This feature is still in the beta testing phase and may not be fully compatible 
 969,0,0,0,"Unable to restore settings using specified data.","",""
 970,0,0,0,"Unable to prepare data for restoration.","",""
 971,0,0,0,"Unable to restore data.","",""
-972,0,0,0,"","",""
-973,0,0,0,"","",""
+972,0,0,0,"Sharing backup settings data between Windows®/Mac® and PlayStation®4 play environments is currently resricted.","",""
+973,0,0,0,"Searching for data...","",""
 974,0,0,0,"","",""
 975,0,0,0,"","",""
 976,0,0,0,"","",""
@@ -2559,7 +2562,7 @@ His two aspects lie in the east and west of the city."
 2018,0,0,0,"GUARDIAN","",""
 2019,0,0,0,"CLASS","",""
 2020,0,0,0,"LOCATION","",""
-2021,0,0,0,"WORLD","",""
+2021,0,0,0,"WORLD VISIT","",""
 2022,0,0,0,"","",""
 2023,0,0,0,"","",""
 2024,0,0,0,"","",""
