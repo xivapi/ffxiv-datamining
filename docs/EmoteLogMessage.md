@@ -6,7 +6,7 @@ Attempting to debug the emote LogMessages
 
 100	Standard Emotes	1	0	False
 
-
+```
 <Clickable(
 	<If(Equal(ObjectParameter(1),ObjectParameter(2)))>
 		you
@@ -41,8 +41,9 @@ Attempting to debug the emote LogMessages
 	</If>
 
 	in surprise.
+```
 
-
+```
 Un-targeted
 	Solo: [You] look surprised!
 	Someone else: [Siyukan Virtue] looks surprised!
@@ -51,11 +52,13 @@ Targeted
 	targeting other: [You] [look] at [the housing enthusiast] in surprise.
 	player targeting you: [Siyukan Virtue] [looks] at [you] in surprise.
 	player targeting other: [Siyukan Virtue] [looks] at [the housing enthusiast] in surprise.
+```
 
 
 
 JSON:
 
+```json
 "en": [
 	"?? missing character choice ",
 	{
@@ -91,3 +94,4 @@ JSON:
 	},
 	" in surprise."
 ],
+```
