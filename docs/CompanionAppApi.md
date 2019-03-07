@@ -4,6 +4,10 @@
 
 The FINAL FANTASY XIV companion app has the ability to query the game servers for a specific resource to pull information (market info, retainer items, player items, chat messages, etc). This document will list research and provide logic for obtaining data out of the app as well as quering the companion API.
 
+# Ban Notice
+
+> **IMPORTANT: If you spam the Sight API with a lot of requests in a short period. SE will ban you. This is not automated but is final with no warning. Be very careful how you access the API and if possoble use a dummy account, Twitch Prime starter keys will work. You only need to make a character and enter the game, you do not even need to step forward. Once the character has been logged in it will have Companion Accesss
+
 What we know:
 
 - The Companion App Queries a PHP 7 server. 
