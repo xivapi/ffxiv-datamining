@@ -6,7 +6,7 @@ The FINAL FANTASY XIV companion app has the ability to query the game servers fo
 
 # Ban Notice
 
-> **IMPORTANT: If you spam the Sight API with a lot of requests in a short period. SE will ban you. This is not automated but is final with no warning. Be very careful how you access the API and if possoble use a dummy account, Twitch Prime starter keys will work. You only need to make a character and enter the game, you do not even need to step forward. Once the character has been logged in it will have Companion Accesss
+> **IMPORTANT: If you spam the Sight API with a lot of requests in a short period. SE will ban you. This is not automated but is final with no warning. Be very careful how you access the API and if possoble use a dummy account, Twitch Prime starter keys will work. You only need to make a character and enter the game, you do not even need to step forward. Once the character has been logged in it will have Companion Accesss**
 
 What we know:
 
