@@ -23,9 +23,8 @@
   - [Sapphire Server Emulation](https://github.com/SapphireMordred/Sapphire) - FFXIV Server Emulation
   - [Machina](https://github.com/ravahn/machina) - Network Packet Reader
   - [Sharlayan](https://github.com/FFXIVAPP/sharlayan) - In-Game memory reader.
-  - [FFXIV MemoryReader](https://github.com/TamanegiMage/FFXIV_MemoryReader) - In-Game memory reader.
   - [XIVAPI.com Source Code](https://github.com/xivapi/xivapi.com)
-  - [LibPomPom](https://github.com/Minoost/libpompom-sharp) - C# code that authenticates with the FFXIV Companion App.
+  - [LibPomPom](https://github.com/viion/libpompom-sharp) - C# code that authenticates with the FFXIV Companion App.
   - [3D Web Model Viewer](https://github.com/viion/ffxiv-3d)
   - [Sapphire Ubuntu Setup Script](https://github.com/viion-misc/ffxiv-sapphire-setup) - a script to install Sapphire on ubuntu.
   - [Custom FFXIV Launcher](https://github.com/xivapi/ffxiv-launcher)
