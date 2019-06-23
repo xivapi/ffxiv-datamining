@@ -1,17 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESPDY502_03209_SEQ_00","※本クエストは、期間限定のクエストとなります。
+0,"TEXT_FESPDY502_03209_SEQ_00","The royal seneschal is eager to see more floral crowns on the heads of Little Ladies' Day celebrants.
+※This quest is available for a limited time only."
+1,"TEXT_FESPDY502_03209_SEQ_01","In the name of letting no princess go uncrowned, the royal seneschal divides his current stock of daisy crowns with you─though he is running low, and hopes to receive more from his staff shortly. He advises that you stand under a peach tree by the Gate of Nald and keep watch for any would-be princesses or seneschals in the meantime.
 
-ウルダハの執事王は、冒険者に依頼したいことがあるようだ。"
-1,"TEXT_FESPDY502_03209_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
-　受注、進行できます。
-　開催期間終了後は進行できませんので、ご注意ください。
-　期間等の詳細についてはLodestoneをご覧ください。
-
-執事王から、ガーベラの花冠を町の人々に渡してきてほしいと依頼された。アルディシアに報告するためにも、エメラルドアベニューの「<Sheet(EObj,2009706,0)/>」で待機し、立ち寄った人に「<Sheet(EventItem,2002506,0)/>」を渡して様子を見届けよう。"
-2,"TEXT_FESPDY502_03209_SEQ_02","<Sheet(EventItem,2002506,0)/>を渡した。エメラルドアベニューにいる「執事王」に報告しよう。"
-3,"TEXT_FESPDY502_03209_SEQ_03","執事王に報告した。<Sheet(EventItem,2002506,0)/>がもたらした、微笑ましいエピソードを聞いて満足気だ。引き続き、プリンセスデーを盛り上げるために協力しよう。"
+※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
+2,"TEXT_FESPDY502_03209_SEQ_02","Your diligent scanning of Emerald Avenue soon rewards you with a fateful encounter─and a story to tell the royal seneschal. Once again, Aldiytha's plan has succeeded in making Ul'dah a brighter place this Little Ladies' Day."
+3,"TEXT_FESPDY502_03209_SEQ_03","You share your tale with the royal seneschal, who promises to see it relayed to Aldiytha. Of course, there are still many whose smiles may shine under a crown of daisies, should you be in the mood to continue spreading joy throughout the city."
 4,"TEXT_FESPDY502_03209_SEQ_04",""
 5,"TEXT_FESPDY502_03209_SEQ_05",""
 6,"TEXT_FESPDY502_03209_SEQ_06",""
@@ -32,8 +28,8 @@ int32,str,str
 21,"TEXT_FESPDY502_03209_SEQ_21",""
 22,"TEXT_FESPDY502_03209_SEQ_22",""
 23,"TEXT_FESPDY502_03209_SEQ_23",""
-24,"TEXT_FESPDY502_03209_TODO_00","<Sheet(EObj,2009706,0)/>で待機する"
-25,"TEXT_FESPDY502_03209_TODO_01","執事王に報告する"
+24,"TEXT_FESPDY502_03209_TODO_00","Wait under the peach tree."
+25,"TEXT_FESPDY502_03209_TODO_01","Report to the royal seneschal."
 26,"TEXT_FESPDY502_03209_TODO_02",""
 27,"TEXT_FESPDY502_03209_TODO_03",""
 28,"TEXT_FESPDY502_03209_TODO_04",""
@@ -56,222 +52,95 @@ int32,str,str
 45,"TEXT_FESPDY502_03209_TODO_21",""
 46,"TEXT_FESPDY502_03209_TODO_22",""
 47,"TEXT_FESPDY502_03209_TODO_23",""
-48,"TEXT_FESPDY502_03209_BUTLER_000_000","冒険者さん、来てくださったのですね！
-アルディシアお嬢さんに報告するためにも、
-ガーベラの花冠でプリンセスデーを盛り上げましょう！"
-49,"TEXT_FESPDY502_03209_BUTLER_000_001","冒険者さんには、地図に示した場所で「待機」し、
-立ち寄った人に、この「<Sheet(EventItem,2002506,0)/>」を渡してほしいのです。
-よろしくお願いしますよ！"
-50,"TEXT_FESPDY502_03209_BUTLER_000_002","地図に示した場所で「待機」し、
-立ち寄った人に、この「<Sheet(EventItem,2002506,0)/>」を渡してください！"
-51,"TEXT_FESPDY502_03209_WEDGE_000_010","あれ！？　<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>ッス！？
-すごい偶然ッス！"
-52,"TEXT_FESPDY502_03209_BIGGS_000_011","俺たちは採掘師ギルドに行くところなんだが……
-お前は、こんなところで何を？"
-53,"TEXT_FESPDY502_03209_WEDGE_000_012","ふむふむ……「プリンセスデー」の催しで、
-花冠を配るお手伝いをしてるッス……？"
-54,"TEXT_FESPDY502_03209_BIGGS_000_013","いい催しじゃないか。
-俺たちもひとつ、もらっていくとしよう。"
-55,"TEXT_FESPDY502_03209_WEDGE_000_014","…………ビッグスが被るッス？
-そのゴーグルの上に？"
-56,"TEXT_FESPDY502_03209_BIGGS_100_014","んなわけあるか！
-ラールガーズリーチの支社に、飾っておくんだよ。"
-57,"TEXT_FESPDY502_03209_BIGGS_100_015","ここのところ、オメガの調査の後処理もあって、
-みんな忙しくしてたからな。
-花冠を見れば、少しは和むってもんだろ。"
-58,"TEXT_FESPDY502_03209_WEDGE_000_015","な、なんか切ない使い方ッス……。
-できることなら、タタルさんに贈りたかったッス……。"
+48,"TEXT_FESPDY502_03209_BUTLER_000_000","If you have the time, I could certainly use more assistance in presenting our flower crowns to those on Emerald Avenue. As I mentioned, it is at the center of our Little Ladies' Day celebration, and nary a moment passes without a would-be princess or seneschal walking by!"
+49,"TEXT_FESPDY502_03209_BUTLER_000_001","I will divide my remaining stock with you─please wait by yonder peach tree and offer crowns to any potential celebrants whom I have missed. My staff is weaving more as we speak, so return to me when you need to resupply!"
+50,"TEXT_FESPDY502_03209_BUTLER_000_002","I can scarce remember a more hectic Little Ladies' Day─but the smiles of newly crowned princesses and their seneschals make all of our efforts worthwhile, don't you agree?"
+51,"TEXT_FESPDY502_03209_WEDGE_000_010","Hey, it's <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+52,"TEXT_FESPDY502_03209_BIGGS_000_011","We're here on Ironworks business─visiting the Miners' Guild to inquire about supplies and whatnot─but we hardly expected to see you here! What brings you to Ul'dah?"
+53,"TEXT_FESPDY502_03209_WEDGE_000_012","Flower crowns for Little Ladies' Day? What a nice idea!"
+54,"TEXT_FESPDY502_03209_BIGGS_000_013","Indeed it is! I'll take one, if you don't mind."
+55,"TEXT_FESPDY502_03209_WEDGE_000_014","Er...if you say so. I'm not sure it'll match your goggles, though."
+56,"TEXT_FESPDY502_03209_BIGGS_100_014","I'm not going to <Emphasis>wear</Emphasis> it! It'd make a nice decoration for our little corner of Rhalgr's Reach, is all."
+57,"TEXT_FESPDY502_03209_BIGGS_100_015","We've been so harried lately, what with saving the world from Omega, sorting all the data, Cid's emotional issues... A floral decoration will bring some much-needed tranquility to the place."
+58,"TEXT_FESPDY502_03209_WEDGE_000_015","That may be a bit much for one ring of daisies to handle. I'd rather give it to Tataru─I think it'd bring out the pink in her eyes. She'd like it, wouldn't she?"
 59,"TEXT_FESPDY502_03209_WEDGE_000_016","（★未使用／削除予定★）"
-60,"TEXT_FESPDY502_03209_BIGGS_000_017","ありがとな。
-……アルファも、どこかの街で、
-こうしてプリンセスデーを楽しんでるといいんだが。"
-61,"TEXT_FESPDY502_03209_WEDGE_000_018","きっと、楽しんでるッス！
-アルファは、まだこの世界に生まれたばかり。
-こういう楽しいことがたくさん……たくさん……"
-62,"TEXT_FESPDY502_03209_WEDGE_000_019","うぅぅ……久しぶりにアルファに会いたいッス……！
-今どこにいるッス～！"
-63,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_020","おや、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>ではないか！
-プリンセスデーの催しをやっているようじゃな。
-今日のわらわ……私は、ただの商家の娘、リリラであるぞ。"
-64,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_021","おや、そなたは冒険者か。
-プリンセスデーの催しをやっているようじゃな。
-わらわは……私は、ただの商家の娘、リリラであるぞ。"
-65,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_022","おおっ、そなたが持っているのは、ガーベラの花冠か？
-どれ、私にもひとつくれぬか？"
-66,"TEXT_FESPDY502_03209_PAPASHAN_000_023","リリラお嬢様、
-どうか、どうか目立つ行動はお控えくだされ……！
-ここで変装を解かれては…………！"
-67,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_024","プリンセスデーは、
-すべての女性のための祝祭なのじゃ！
-それとも、そなたは私が「姫」には値しないとでも？"
-68,"TEXT_FESPDY502_03209_PAPASHAN_000_025","そ、そうではございませぬが……！"
-69,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_026","ククククク……冗談じゃ！
-そのくらいの分別はついておるぞ！"
-70,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_027","さて、あらためて花冠をくれぬか？
-帰って皆に自慢するとしよう！"
-71,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_028","ふむ、「姫」になるのは久しぶりゆえ、被るのが楽しみじゃ！
-どちらかと言えば、最近はもっぱら「王」の方が……
-そうじゃ、「執事王」役をやってみるのもよいのう！"
-72,"TEXT_FESPDY502_03209_PAPASHAN_000_029","皆が困りますゆえ、
-ほどほどにしてくだされ……。"
-73,"TEXT_FESPDY502_03209_YELLOWMOON_000_030","アナタが持ってるソレ、もしかして！
-夢見る乙女の必須アイテム、は・な・か・ん・む・り、
-だったりする？"
-74,"TEXT_FESPDY502_03209_YELLOWMOON_000_031","やだぁ～～最高！　絶対ほし～い！
-これで、ますますダーリンが私にメロメロになったら、
-イエロー・ムーン、幸せだむ～ん！"
-75,"TEXT_FESPDY502_03209_ADALBERTA_000_032","あら、ここでも花冠を配布していたのね。
-あたしたちも、さっき別のスタッフから貰ったところなのよ。
-どう？　似合うかしら？"
-76,"TEXT_FESPDY502_03209_YELLOWMOON_000_033","アダルベルタちゃんだぁ！
-とっても素敵！　似合う似合う～！"
-77,"TEXT_FESPDY502_03209_YELLOWMOON_000_034","ミラちゃんも、普段のクールなイメージから大変身！
-オトメ度急上昇だねっ！"
-78,"TEXT_FESPDY502_03209_MYLLA_000_035","……あ、あまりジロジロ見るな……。
-私は遠慮すると言ったのに、アダルベルタが……！"
-79,"TEXT_FESPDY502_03209_ADALBERTA_000_036","いいじゃない、少しくらい女っ気があった方が、
-あの人も……"
-80,"TEXT_FESPDY502_03209_MYLLA_000_037","う、うるさい！
-それ以上言うと、たたじゃ済まさんぞ！"
-81,"TEXT_FESPDY502_03209_YELLOWMOON_000_038","はいは～い、ストップ！　喧嘩はダメダメ～！
-オトモダチ同士は仲良くしないと、
-イエロー・ムーン、困っちゃむ～ん！"
-82,"TEXT_FESPDY502_03209_MYLLA_000_039","フッ、喧嘩じゃないさ。
-アダルベルタとは長い付き合いだからな。
-……まぁ、たまにはこんな格好もいいか。"
-83,"TEXT_FESPDY502_03209_ADALBERTA_000_040","まったく、素直じゃないんだから。"
-84,"TEXT_FESPDY502_03209_SEVERIAN_000_050","……うん？
-お前、我が助手ではないか。
-こんなところで何をしている？"
-85,"TEXT_FESPDY502_03209_SEVERIAN_000_051","……うん？
-寄付金の懇願なら、我が錬金術師ギルドの受付に言いたまえ。
-私は研究の考え事で忙しいのでな……なに、違うのか？"
-86,"TEXT_FESPDY502_03209_SEVERIAN_000_052","ほう……？
-そのような花飾りで、世の女は喜ぶのか。
-いずれ枯れゆく物だというのに、全くもって理解できんな。"
-87,"TEXT_FESPDY502_03209_SEVERIAN_000_053","いや待てよ……。
-特殊な錬金薬を塗布して、永遠に美しさを固定してやれば……
-よし、研究のために、ひとつもらっておこうか。"
-88,"TEXT_FESPDY502_03209_COCOBUKI_000_054","クックック……こんなところでお会いするなんて、奇遇ですね。
-裁縫師ギルドのレドレント・ローズさん。"
-89,"TEXT_FESPDY502_03209_REDOLENTROSE_000_055","あら、アナタは呪術士ギルドのマスターさんね！
-たしか、6人兄弟の一番上のお兄さんの、
-ええと……ココブ……？"
-90,"TEXT_FESPDY502_03209_COCOBUKI_000_056","ココブキです……。
-貴方も「プリンセスデー」の催しに参加を？"
-91,"TEXT_FESPDY502_03209_REDOLENTROSE_000_057","ええ、私は町のみんなのファッションチェッ……
-花冠ファッションを研究しに来たの！
-アナタもどうかしら？"
-92,"TEXT_FESPDY502_03209_COCOBUKI_000_058","花冠ですか……いえ、私は結構です。
-しかし、一番下の弟、ココブシであれば似合うでしょうね。
-ハッ…………その場合、私は弟の執事なのでは……？"
-93,"TEXT_FESPDY502_03209_COCOBUKI_100_058","その花冠、私にひとつください！！"
-94,"TEXT_FESPDY502_03209_COCOBUKI_000_059","ココブシちゃぁ～ん！！
-お兄ちゃんが何でも言うこと聞くから、待っててね～～！"
-95,"TEXT_FESPDY502_03209_REDOLENTROSE_000_060","あらあら、相変わらず末の弟さんには過保護なんだから。"
-96,"TEXT_FESPDY502_03209_SERENDIPITY_000_070","こんにちは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-「プリンセスデー」の催しのお手伝いですか？
-このような活動までされているなんて、流石です！"
-97,"TEXT_FESPDY502_03209_SERENDIPITY_000_071","こんにちは！
-「プリンセスデー」の催しですね！
-私このお祭り、毎回楽しみにしているんです！"
-98,"TEXT_FESPDY502_03209_HAMON_000_072","ヒョッヒョッヒョ！
-そこに居るのは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>と……
-ピチピチギャルのセレンちゃんじゃなあ！"
-99,"TEXT_FESPDY502_03209_HAMON_000_073","ヒョッヒョッヒョ！
-そこに居るのは、見知らぬ顔の冒険者と……
-ピチピチギャルのセレンちゃんじゃなあ！"
-100,"TEXT_FESPDY502_03209_SERENDIPITY_000_074","ピ……ピチピチギャル……？
-もしかして、ハモンさんも「プリンセスデー」に？"
-101,"TEXT_FESPDY502_03209_HAMON_000_075","フォッフォッフォ！
-ギャルの祭りに、このハモンありじゃ！"
-102,"TEXT_FESPDY502_03209_HAMON_000_076","ほれ、セレンちゃんも花冠を被ってみんか？
-ワシが執事王役になって……
-一日中、セレンちゃんの執事に……！"
-103,"TEXT_FESPDY502_03209_SERENDIPITY_000_077","そ、そんなことハモンさんにさせられません……！
-それに、格闘士ギルドのお仕事もあるんですから。
-チュチュトさんに怒られちゃいますよ？"
-104,"TEXT_FESPDY502_03209_HAMON_000_078","…………ワシ、しょんぼりじゃ。"
-105,"TEXT_FESPDY502_03209_SERENDIPITY_000_079","でもでも、とても素敵な花冠ですから、
-チュチュトさんにプレゼントされてはいかがですか？
-きっと、喜ばれますよ！"
-106,"TEXT_FESPDY502_03209_HAMON_000_080","……そうじゃのう。
-たまには愛弟子にサプライズ、するとしようかのう！"
-107,"TEXT_FESPDY502_03209_POPOKKULI_000_090","あれ？
-あんたは冒険者の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-こんなところで何をしているんだ？"
-108,"TEXT_FESPDY502_03209_POPOKKULI_000_091","あんた、冒険者……に見えるが。
-ここで何をしているんだ？"
-109,"TEXT_FESPDY502_03209_SESERUKKA_000_092","なるほど、「プリンセスデー」の催しか！
-兄さん、この花冠、妹……ネネッコにプレゼントしたらどうかな？"
-110,"TEXT_FESPDY502_03209_POPOKKULI_000_093","ああ、それはいいな！
-あいつが小さい頃、よく「執事王」の物語を読み聞かせたもんだ。"
-111,"TEXT_FESPDY502_03209_POPOKKULI_000_094","ここのとこ、遺跡調査にのめり込んでばかりだったから、
-たまにはこんなサプライズもいいだろう。
-なんてったって、今日は女の子が主役のイベントだからな！"
-112,"TEXT_FESPDY502_03209_GREINFARR_000_095","相変わらず、仲のいい兄妹だな。
-羨ましいこったぜ！"
-113,"TEXT_FESPDY502_03209_SESERUKKA_000_096","グレインファルは、
-花冠を渡したい子はいないのかい？"
-114,"TEXT_FESPDY502_03209_GREINFARR_000_097","バッ……！
-俺っちは日々の鍛錬で忙しいんだよ！"
-115,"TEXT_FESPDY502_03209_GREINFARR_000_098","さあ、鍛錬、鍛錬！
-ブロンズ・ブルは、いつだって期待に応えなきゃならねえからな！
-あばよ！"
-116,"TEXT_FESPDY502_03209_ULALA_000_100","あれっ？
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃない！？
-会えるかな～と思って探してたら、こんなにすぐに会えるなんて♪"
-117,"TEXT_FESPDY502_03209_NARUMI_000_101","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、お久しぶりです！
-こうしてまたお会いできて、本当に嬉しいです……！
-いつあなたと次にお会いできるかわからない間、不安でした……。"
-118,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_102","また会えるなんてね。
-おかげさまで、歌姫の活動は順調よ。
-あなたがこれまで応援してくれたから、今も頑張っていられているわ。"
-119,"TEXT_FESPDY502_03209_ULALA_000_103","はじめましてぇ～！
-エオルゼアいちの歌姫を目指してます、ウララで～っす♪
-あなたのことを、ウララに夢中にさせちゃうぞっ☆"
-120,"TEXT_FESPDY502_03209_NARUMI_000_104","はじめまして、私はナルミといいます。
-不器用ですが、歌や踊りを精いっぱい頑張っています……！
-歌姫として、胸を張って人前に立っていられるように……。"
-121,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_105","どうも、アタシはマシャ・マカラッカ。
-マシャって呼ばれてるわ。
-全力で踊って元気を届けるつもりで、歌姫の活動をしているわ。"
-122,"TEXT_FESPDY502_03209_ULALA_000_106","ところで、ここで何してるの？"
-123,"TEXT_FESPDY502_03209_NARUMI_000_107","ガーベラの花冠……素敵……！
-私たちもいただいていいのですか……？"
-124,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_108","そうだ、せっかくだし、
-アタシたち3人の中で、誰が一番花冠が似合っているか、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに選んでもらわない？"
-125,"TEXT_FESPDY502_03209_ULALA_000_109","ちょっとした勝負ってわけね、臨むところよ……！
-きっと私がイチバンって、言ってくれるんだからっ！"
-126,"TEXT_FESPDY502_03209_NARUMI_000_110","な、なんだか少し緊張してしまいますね……。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-私たちの中で、誰が一番似合うと思いますか……？"
-127,"TEXT_FESPDY502_03209_Q1_000_000","誰を選ぶ？"
-128,"TEXT_FESPDY502_03209_A1_000_001","ウララ"
-129,"TEXT_FESPDY502_03209_A1_000_002","ナルミ"
-130,"TEXT_FESPDY502_03209_A1_000_003","マシャ・マカラッカ"
-131,"TEXT_FESPDY502_03209_ULALA_000_111","やっぱり、キミならウララを選んでくれるって信じてた！
-えへへへへ……嬉しいなぁ！
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、ありがとっ♪"
-132,"TEXT_FESPDY502_03209_ULALA_000_112","これからも「三歌姫」はエオルゼアに元気を送るために頑張るから、
-キミも、冒険頑張ってねっ☆
-たまにはウララたちのこと、思い出してね～♪"
-133,"TEXT_FESPDY502_03209_NARUMI_000_113","わ、私ですか……？
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに選んでいただけるなんて！
-こんな些細なことでも、本当に自信になるんです……！"
-134,"TEXT_FESPDY502_03209_NARUMI_000_114","今日はお会いできて、とても嬉しかった……。
-また次にどこかでお会いできる日を、楽しみにしていますね。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、どうかお元気で！"
-135,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_115","ア、アタシを選んでくれたの？
-嬉しい……ありがとう<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-自分で言い出した勝負だけど、ちょっと恥ずかしいね。"
-136,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_116","今日はすごく楽しかった！
-「三歌姫」は、これからも頑張っていくわ。
-あなたの冒険も、心から応援しているから！"
-137,"TEXT_FESPDY502_03209_BUTLER_000_120","冒険者さん、
-花冠を受け取った方の様子はいかがでしたかな？"
-138,"TEXT_FESPDY502_03209_BUTLER_000_121","おお、そんな素敵なエピソードがあったのですな！
-アルディシアお嬢さんにもご報告しておきましょう。"
-139,"TEXT_FESPDY502_03209_BUTLER_000_122","いやぁ、冒険者さんに手伝っていただいてよかった。
-ぜひ、またご協力くださいね！"
+60,"TEXT_FESPDY502_03209_BIGGS_000_017","Thank you kindly. It's so colorful... I bet Alpha would love it, were he here. I hope he's learned about Little Ladies' Day, wherever he may be."
+61,"TEXT_FESPDY502_03209_WEDGE_000_018","I bet he has─and all sorts of other things besides! Most of this world is new to him, after all. He's probably having a wonderful time, so we shouldn't...we shouldn't..."
+62,"TEXT_FESPDY502_03209_WEDGE_000_019","Waaah! I miss Alphaaa!"
+63,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_020","Why, how nice it is to see you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! 'Tis I, your favorite common merchant's daughter, come to enjoy the Little Ladies' Day celebration."
+64,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_021","Well met, adventurer. I am Lilira─no one of note, I fear. Merely another merchant's daughter."
+65,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_022","Oho, is that a flower crown I spy? How lovely! Could I perchance trouble you for one?"
+66,"TEXT_FESPDY502_03209_PAPASHAN_000_023","Lady Lilira, do you not think that a crown will cause you to, er...<Emphasis>stand out</Emphasis> overmuch?"
+67,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_024","Not at all! This is a day on which <Emphasis>all</Emphasis> little ladies are as princesses, is it not? Or do you believe that a crown will not suit one such as I?"
+68,"TEXT_FESPDY502_03209_PAPASHAN_000_025","M-My lady, that was hardly my intention..."
+69,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_026","Hahaha! I jest, I jest! I well understood your meaning."
+70,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_027","Yet my point stands─as a little lady, it is fitting that I have a crown. And I would quite like one, besides."
+71,"TEXT_FESPDY502_03209_NANAMOULNAMO_000_028","I expect that everyone at home will be surprised─it has been quite some time since I was last a princess. Hmm, or shall I play the role of Sultan Baldric instead? “My lady, I am your royal seneschal!”"
+72,"TEXT_FESPDY502_03209_PAPASHAN_000_029","I only ask that you avoid any <Emphasis>jests</Emphasis> that may alarm your other attendants. I nearly perished on the spot!"
+73,"TEXT_FESPDY502_03209_YELLOWMOON_000_030","<gasp> Could it be? The garland spoken of in faerie tales and romances... The accessory of my childhood dreams... A flower crown!?"
+74,"TEXT_FESPDY502_03209_YELLOWMOON_000_031","How wonderful! It will perfectly suit a fair maiden such as I, don't you agree? Oh, I can hardly wait to show Bitter Snow─he'll fall in love with me all over again!"
+75,"TEXT_FESPDY502_03209_ADALBERTA_000_032","If it isn't Yellow Moon! I see you're enjoying your flower crown. We picked ours up from the royal seneschal just a moment ago. Aren't they cute?"
+76,"TEXT_FESPDY502_03209_YELLOWMOON_000_033","Adalberta! You look positively precious!"
+77,"TEXT_FESPDY502_03209_YELLOWMOON_000_034","And you, Mylla, are stunning! Somehow your steely gaze makes your crown all the lovelier. You should decorate your hair more often!"
+78,"TEXT_FESPDY502_03209_MYLLA_000_035","I feel utterly ridiculous. But Adalberta insists I wear the thing..."
+79,"TEXT_FESPDY502_03209_ADALBERTA_000_036","Come now, there's no use pretending─you know you like it. And you'll be turning heads for the rest of the day. One head in particular, I'm su─"
+80,"TEXT_FESPDY502_03209_MYLLA_000_037","Not. Another. Word. Do you hear me?"
+81,"TEXT_FESPDY502_03209_YELLOWMOON_000_038","Now, now, no murder on Little Ladies' Day! It's not ladylike!"
+82,"TEXT_FESPDY502_03209_MYLLA_000_039","Oh, I would never harm Adalberta─she's one of my oldest and dearest friends. Even if she is constantly pestering me."
+83,"TEXT_FESPDY502_03209_ADALBERTA_000_040","Well, someone has to do it!"
+84,"TEXT_FESPDY502_03209_SEVERIAN_000_050","...Is that you, my loyal assistant? Why are you standing about gormlessly in the middle of town?"
+85,"TEXT_FESPDY502_03209_SEVERIAN_000_051","Why do your eyes fixate on me so? If you're in need of some piddling potion or other, direct your vacuous gaze at some other alchemist. My attentions are occupied by more important matters."
+86,"TEXT_FESPDY502_03209_SEVERIAN_000_052","A flower crown? How utterly banal."
+87,"TEXT_FESPDY502_03209_SEVERIAN_000_053","Though, were one to apply an admixture of the appropriate viscosity and translucence, it may be possible to preserve its beauty evermore, thereby defying principles that have heretofore been presumed unyielding... Perhaps I do require one after all."
+88,"TEXT_FESPDY502_03209_COCOBUKI_000_054","Hm hm hm... Guildmaster Redolent Rose, if I'm not mistaken. What brings you here?"
+89,"TEXT_FESPDY502_03209_REDOLENTROSE_000_055","Ah, a master of the Thaumaturges' Guild! I recall the eyepatch, so you must be Coco...er..."
+90,"TEXT_FESPDY502_03209_COCOBUKI_000_056","Cocobuki, yes."
+91,"TEXT_FESPDY502_03209_REDOLENTROSE_000_057","That was it! As to your question, I've come to evaluate the fashions of the day. And by “evaluate” I simply mean “observe,” of course. I'm not keeping score. Who would do that? Hahaha... Anyway, the flower crowns certainly are charming, are they not?"
+92,"TEXT_FESPDY502_03209_COCOBUKI_000_058","Charming...yes. Such an embellishment would ill suit me. Busi, on the other hand..."
+93,"TEXT_FESPDY502_03209_COCOBUKI_100_058","One crown, my good <If(PlayerParameter(4))>woman<Else/>man</If>!"
+94,"TEXT_FESPDY502_03209_COCOBUKI_000_059","A pleasing headpiece, and perhaps suitable for later use in alchemic solutions. Busi will be delighted."
+95,"TEXT_FESPDY502_03209_REDOLENTROSE_000_060","His name may be impossible to remember, but he's unmistakably the eldest brother. I do hope his siblings know how much he cares."
+96,"TEXT_FESPDY502_03209_SERENDIPITY_000_070","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Are you helping the royal seneschal this year? How kind of you!"
+97,"TEXT_FESPDY502_03209_SERENDIPITY_000_071","Hello there, adventurer! Thank you for helping the royal seneschal─volunteers like you make Little Ladies' Day an event I look forward to year after year!"
+98,"TEXT_FESPDY502_03209_HAMON_000_072","Oho, if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! And Mistress Serendipity, shimmering with youth!"
+99,"TEXT_FESPDY502_03209_HAMON_000_073","If it isn't Mistress Serendipity, shimmering with youth!"
+100,"TEXT_FESPDY502_03209_SERENDIPITY_000_074","I'm...pretty sure that's just light reflecting off of my accessories. But what brings you here, Master Hamon?"
+101,"TEXT_FESPDY502_03209_HAMON_000_075","Hamon Holyfist would never forgo a chance to celebrate with the ladies, ohohoho! Keeps me vigorous."
+102,"TEXT_FESPDY502_03209_HAMON_000_076","And what about you, Mistress Serendipity? Do you require a seneschal for the day? I would be at your beck and call─managing your mammets, polishing your hammers, delivering righteous blows to the teeth of persistent suitors..."
+103,"TEXT_FESPDY502_03209_SERENDIPITY_000_077","Oh, my! That's very...specific of you, but I couldn't ask you to do that! And Chuchuto would probably be less than pleased to find you eschewing your own guild duties in favor of mine."
+104,"TEXT_FESPDY502_03209_HAMON_000_078","Oh, woe is me! Were I twenty─actually, better make that forty─years younger..."
+105,"TEXT_FESPDY502_03209_SERENDIPITY_000_079","If you'd like to celebrate with someone, why not take one of these flower crowns to Chuchuto and tell her how much you appreciate her? I'm sure she'd be delighted to have your help with some of the more tedious guild work for the day, at the very least. Don't you agree?"
+106,"TEXT_FESPDY502_03209_HAMON_000_080","Make a princess of my ever-devoted disciple, eh? Well, she certainly deserves it!"
+107,"TEXT_FESPDY502_03209_POPOKKULI_000_090","Hm? You, you're that adventurer─<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! What are you up to?"
+108,"TEXT_FESPDY502_03209_POPOKKULI_000_091","Hm, you have the look of an adventurer. If you're looking for beasts to slay, you're in the wrong place, I'm afraid."
+109,"TEXT_FESPDY502_03209_SESERUKKA_000_092","Giving out crowns for Little Ladies' Day? Interesting! Shall we take one to Nenekko?"
+110,"TEXT_FESPDY502_03209_POPOKKULI_000_093","Not a bad idea! She always did love it when we read the Legend of the Lost Lady to her as a child."
+111,"TEXT_FESPDY502_03209_POPOKKULI_000_094","She's been so immersed in her research lately that she's like to have forgotten about Little Ladies' Day altogether, which means it'll be a pleasant surprise!"
+112,"TEXT_FESPDY502_03209_GREINFARR_000_095","Heh. She's a lucky girl, to have you two watching over her."
+113,"TEXT_FESPDY502_03209_SESERUKKA_000_096","While we're on the subject, Greinfarr, isn't there anyone you would want to give one of these crowns to?"
+114,"TEXT_FESPDY502_03209_GREINFARR_000_097","Wh─ No! Of course not. I am far too busy training to even think of such things."
+115,"TEXT_FESPDY502_03209_GREINFARR_000_098","In fact, the Bronze Bull hears the call of the arena right now! Farewell!"
+116,"TEXT_FESPDY502_03209_ULALA_000_100","Why, it's <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I was hoping I might find our biggest fan amongst the <If(PlayerParameter(4))>princesses<Else/>seneschals</If>, and here you are!"
+117,"TEXT_FESPDY502_03209_NARUMI_000_101","It's wonderful to see you again! I was so worried that we wouldn't meet this year."
+118,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_102","A happy coincidence indeed. And before you ask─because I know you will─though our performances aren't the main event this year, our stage career is still going strong. So I had better not see you fretting when you should be celebrating!"
+119,"TEXT_FESPDY502_03209_ULALA_000_103","Hello there, adventurer─I don't believe we've met. I'm Ulala, beloved star of the Songbirds and soon-to-be number one songstress in all of Eorzea!"
+120,"TEXT_FESPDY502_03209_NARUMI_000_104","I am Narumi. Though I lack Ulala's boldness, I too believe that our ensemble can reach the realm through our performances. I hone my voice night and day to make certain that when we do, I can stand proudly before our audience and lift their hearts with my song."
+121,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_105","And I'm Masha Mhakaracca─you can call me Masha. My voice may not be as sweet as Narumi's, but I more than make up for that with my dancing. I live to inspire our fans to move with the music!"
+122,"TEXT_FESPDY502_03209_ULALA_000_106","So, are you waiting for your <If(PlayerParameter(4))>seneschal to come? Or maybe your princess<Else/>princess to come? Or maybe your seneschal</If>?"
+123,"TEXT_FESPDY502_03209_NARUMI_000_107","Oh, I adore flower crowns! May we each have one?"
+124,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_108","Come to think of it, this seems like the perfect opportunity for one of our signature friendly competitions. Shall we ask <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> to judge who wears her crown best?"
+125,"TEXT_FESPDY502_03209_ULALA_000_109","Oh, absolutely! It never hurts to gauge public opinion─and I'm confident that <If(PlayerParameter(4))>she<Else/>he</If> will make the objectively correct choice."
+126,"TEXT_FESPDY502_03209_NARUMI_000_110","No matter how many times we do this, I can't help but feel nervous! But, well...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, what do you think? Who does the crown best suit?"
+127,"TEXT_FESPDY502_03209_Q1_000_000","Who will you choose?"
+128,"TEXT_FESPDY502_03209_A1_000_001","Ulala─she's so cute I could die."
+129,"TEXT_FESPDY502_03209_A1_000_002","Narumi─the crown befits one gentle of spirit."
+130,"TEXT_FESPDY502_03209_A1_000_003","Masha─poised and graceful, as a princess should be."
+131,"TEXT_FESPDY502_03209_ULALA_000_111","Ha, I knew you would choose me! I am no less pleased to hear it, though. Thank you!"
+132,"TEXT_FESPDY502_03209_ULALA_000_112","The Songbirds will continue to flutter into hearts across Eorzea, so spare a thought for us as you wander far and wide. Until we meet again!"
+133,"TEXT_FESPDY502_03209_NARUMI_000_113","M-Me? I'm honored─thank you! I will remember your words, and I am certain they shall help me find my voice in times of need."
+134,"TEXT_FESPDY502_03209_NARUMI_000_114","I know not where or when it might be, but I look forward to the next time we meet!"
+135,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_115","Who, me? I realize that it was I who proposed the contest, but I wasn't expecting to receive such a compliment. Thank you!"
+136,"TEXT_FESPDY502_03209_MASHAMHAKARACCA_000_116","This has been great fun─I hope we'll meet again soon. And wherever you go, remember that the Songbirds are singing for you!"
+137,"TEXT_FESPDY502_03209_BUTLER_000_120","Ah, you have returned. How did you fare?"
+138,"TEXT_FESPDY502_03209_BUTLER_000_121","What a charming tale! We shall have to relay it to Miss Aldiytha─she will be delighted to know that her crowns are the source of such happiness."
+139,"TEXT_FESPDY502_03209_BUTLER_000_122","For my part, I appreciate your continued assistance. Needless to say, you will always be welcome to join me in acting as seneschal to the little ladies of Ul'dah!"

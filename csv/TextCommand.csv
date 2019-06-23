@@ -65,19 +65,22 @@ USAGE:
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>set ""blue mage action"" on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set the specified blue mage
-　　action as an active action in
-　　the current set.
+　　Removes the specified blue
+　　mage action from the list
+　　of active actions in the
+　　current set.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> set ""blue mage action"" off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Removes the specified blue mage
-　　action from the list of active
-　　actions in the current set.
+　　Removes the specified blue
+　　mage action from the list of
+　　active actions in the current
+　　set.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset [active set 1-5]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Load the specified set of active
-　　actions.
+　　Load the specified set of
+　　active actions.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Remove all active actions from
-　　the current active action set.
+　　Remove all active actions
+　　from the current active
+　　action set.
 
 Opens the Blue Magic Spellbook when no subcommand is specified.
 
@@ -90,7 +93,7 @@ Opens the Blue Magic Spellbook when no subcommand is specified.
 　/bluespellbook preset 2
 　(Loads active set 2.)","","",36,0
 10,2,1,2,0,0,"/magiaattack","","USAGE:
-　/magiaattack [Placeholder]
+　/magiaattack [placeholder]
 
 →Spin the magia board to match the elemental weakness of the specified target. If no target is specified, matches based on current target.
 
@@ -99,7 +102,7 @@ Opens the Blue Magic Spellbook when no subcommand is specified.
 
 A full list of placeholders can be found on the Lodestone Play Guide.","","",0,0
 11,2,1,2,0,0,"/magiadefense","","USAGE:
-　/magiadefense [Placeholder]
+　/magiadefense [placeholder]
 
 →Spin the magia board to match the elemental affinity of the specified target. If no target is specified, matches based on current target.
 
@@ -284,7 +287,7 @@ USAGE:
 
 →Declines a party invite.","","",4,0
 123,2,0,0,0,0,"/invite","","USAGE:
-　/invite [Placeholder]
+　/invite [placeholder]
 
 →Invites the specified PC to your party. Invites current target when no PC is specified.
 
@@ -293,7 +296,7 @@ USAGE:
 
 A full list of Placeholders can be found on the Lodestone Play Guide.","","",4,0
 124,2,0,0,0,0,"/kick","","USAGE:
-　/kick [Placeholder]
+　/kick [placeholder]
 
 →Kicks the specified PC from your party. Kicks current target when no PC is specified.
 
@@ -302,7 +305,7 @@ A full list of Placeholders can be found on the Lodestone Play Guide.","","",4,0
 
 A full list of placeholders can be found on the Lodestone Play Guide.","","",4,0
 125,2,0,0,0,0,"/leader","","USAGE:
-　/leader [Placeholder]
+　/leader [placeholder]
 
 →Promotes the specified PC to party leader. Promotes current target when no PC is specified.
 
@@ -317,7 +320,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.","","",4,0
 131,2,0,0,0,0,"/check","/c","ALIASES:
 　/check, /c
 USAGE:
-　/check [Placeholder]
+　/check [placeholder]
 
 →Examines the specified PC. Examines current target when no PC is specified.
 
@@ -326,7 +329,7 @@ USAGE:
 
 A full list of placeholders can be found on the Lodestone Play Guide.","","",160,0
 132,2,0,0,0,0,"/trade","","USAGE:
-　/trade [Placeholder]
+　/trade [placeholder]
 
 →Initiates a trade with the specified PC. Initiates a trade with your current target when no PC is specified.
 
@@ -349,7 +352,7 @@ Toggle between on and off when no subcommand is specified.","","",36,0
 
 →Automatically follow a specified PC. Follow current target when no PC is specified.","","",36,0
 136,2,0,0,0,0,"/meldrequest","","USAGE:
-　/meldrequest [Placeholder]
+　/meldrequest [placeholder]
 
 →Sends a materia meld request to the specified PC. Sends request to current target when no PC is specified.
 
@@ -419,11 +422,11 @@ USAGE:
 　　Accept a party invite.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>decline<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Decline a party invite.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Invite a PC to your party.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>leave<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Leave your current party.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>kick [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>kick [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Oust a PC from your party.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>breakup <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Dissolve your current party.
@@ -442,15 +445,15 @@ USAGE:
 →Executes various friend list commands.
 
 >>Subcommands:
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Send a PC a friend request.
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>accept [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>accept [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Accept a friend request from
 　　a PC.
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>deny [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>deny [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Deny a friend request from a
 　　PC.
-  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Remove a PC from your
 　　friend list.
 
@@ -468,9 +471,9 @@ USAGE:
 →Executes various blacklist commands.
 
 >>Subcommands:
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Add a PC to your blacklist.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [Placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Remove a PC from your
 　　blacklist.
 
@@ -552,7 +555,7 @@ Searches current language if none is specified.
 156,3,1,2,0,0,"/marking","/mk","ALIASES:
 　/enemysign, /marking, /mk
 USAGE:
-　/enemysign [sign type] [Placeholder]
+　/enemysign [sign type] [placeholder]
 
 →Set a sign on the specified target. Uses current target when not specified.
 
@@ -700,7 +703,7 @@ USAGE:
 178,3,1,2,0,0,"/waymark","/wmark","ALIASES:
 　/waymark, /wmark
 USAGE:
-　/wmark [subcommand] [Placeholder]
+　/wmark [subcommand] [placeholder]
 
 →Place a waymark on the ground below a target. If no target is specified, you will enter ground targeting mode ready to place a waymark.
 
@@ -1142,7 +1145,7 @@ USAGE:
 221,2,0,0,0,0,"/idlingcamera","/icam","ALIASES:
 　/idlingcamera, /icam
 USAGE:
-　/icam [Placeholder]
+　/icam [placeholder]
 
 →Activate the idling camera. Target does not need to be specified. If a target is specified, the camera will switch between camera angles focusing on that target. If the specified target cannot be focused on, then a random subject will be chosen.
 
@@ -1414,7 +1417,7 @@ Toggle between Role-playing and Online when no subcommand is specified.","","",3
 251,3,1,3,0,0,"/action","/ac","ALIASES:
 　/action, /ac
 USAGE:
-　/action ""action name"" [Placeholder]
+　/action ""action name"" [placeholder]
 
 →Uses an action on the specified PC. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed on the specified PC. If no PC is specified, then you will enter ground targeting mode.
 
@@ -1446,7 +1449,7 @@ Toggle between active and passive mode when no subcommand is specified.","","",3
 253,2,0,0,0,0,"/target","/ta","ALIASES:
 　/target, /ta
 USAGE:
-　/target [Placeholder]
+　/target [placeholder]
 
 →Targets the specified PC. Target must be within a certain radius for this command to function.
 
@@ -1486,7 +1489,7 @@ USAGE:
 258,2,0,0,0,0,"/assist","/as","ALIASES:
 　/assist, /as
 USAGE:
-　/assist [Placeholder]
+　/assist [placeholder]
 
 →Targets the target of another PC. Assists current target when none is specified.
 
@@ -1535,7 +1538,7 @@ USAGE:
 
 Toggle between on/off when no subcommand is specified.","","",36,0
 265,2,0,0,0,0,"/focustarget","","USAGE:
-　/focustarget [Placeholder]
+　/focustarget [placeholder]
 
 →Makes the specified PC your focus target. Makes current target your focus target when none specified.
 
@@ -1551,7 +1554,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 267,3,1,5,0,0,"/petaction","/pac","ALIASES:
 　/petaction, /pac
 USAGE:
-　/pac ""pet action name"" [Placeholder]
+　/pac ""pet action name"" [placeholder]
 
 →Uses a pet action on the specified target. Uses current target when not specified. Target does not need to be specified for certain pet actions. This cannot be used with pet actions you have not yet learned, or when restricted by other factors.
 
@@ -1625,7 +1628,7 @@ Toggle between on and off when no subcommand is specified.
 273,3,1,10,0,0,"/generalaction","/gaction","ALIASES:
 　/generalaction, /gaction
 USAGE:
-　/gaction ""action name"" [Placeholder]
+　/gaction ""action name"" [placeholder]
 
 →Uses the specified general action on the specified target. The target name can be omitted when the target is yourself.
 
@@ -1677,7 +1680,7 @@ USAGE:
 277,3,1,16,0,0,"/pvpaction","/pvpac","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
-　/pvpaction ""action name"" [Placeholder]
+　/pvpaction ""action name"" [placeholder]
 
 →Uses the specified pvp action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with pvp actions you have not yet learned or when restricted by other factors. If the action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.
 
@@ -1702,7 +1705,7 @@ USAGE:
 　(Sets Increased HP, Increased Action Speed, and
 　Decreased Damage Taken as PvP traits.)","","",36,1000
 279,3,1,18,0,0,"/blueaction","","USAGE:
-　/blueaction “blue mage action” [Placeholder]
+　/blueaction “blue mage action” [placeholder]
 
 →Uses the specified blue magic action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.
 
@@ -2158,10 +2161,6 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable messages.
 
 Toggle between on/off when no subcommand is specified.","","",36,0
-322,1,0,0,0,0,"//eventReset","","USAGE:
-　/eventReset
-
-→Resets all in-game settings to default to prepare for a ""real event.""","","",32,0
 323,2,1,2,0,0,"/crosshotbartype","/chotbartype","ALIASES:
 　/crosshotbartype, /chotbartype
 USAGE:
@@ -4032,6 +4031,24 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
+595,2,1,2,0,0,"/gratuity","","USAGE:
+　/gratuity [subcommand]
+
+→Humbly scatter gold coins at the feet of your admirers.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","/makeithail",293,0
+596,2,1,2,0,0,"/fistpump","","USAGE:
+　/fistpump [subcommand]
+
+→Express an unbridled satisfaction at the crushing defeat of your enemies via a swift pumping motion of your arms.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
 597,2,1,2,0,0,"/reprimand","","USAGE:
 　/reprimand [subcommand]
 
@@ -4045,6 +4062,17 @@ Both text and motion will be displayed when no subcommand is specified.","","/yo
 　/sabotender [subcommand]
 
 →Do your finest impression of the Manderville Gold Saucer's mascot Senor Sabotender.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+599,2,1,2,0,0,"/mandervillemambo","/mmambo","ALIASES:
+　/mandervillemambo, /mmambo
+USAGE:
+　/mmambo [subcommand]
+
+→Perform the Manderville Mambo.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.

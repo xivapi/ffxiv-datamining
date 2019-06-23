@@ -120,9 +120,9 @@ int32,str
 116,"Log out and exit the game?"
 117,"Return to your home point?"
 118,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”?"
+<Highlight>ObjectParameter(56)</Highlight>?"
 119,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”? 
+<Highlight>ObjectParameter(56)</Highlight>? 
 
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※You may be unable to re-enter ongoing battles.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 120,"Join <Highlight>StringParameter(1)</Highlight>'s party?"
@@ -196,11 +196,11 @@ Current Gil: <Format(IntegerParameter(1),FF022C)/>"
 192,""
 193,"Role-play"
 194,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”?"
+<Highlight>ObjectParameter(56)</Highlight>?"
 195,"Exit the game?"
 196,"Return to <SheetEn(PlaceName,2,<Sheet(Aetheryte,IntegerParameter(1),8)/>,2,1)/>?"
 197,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”?"
+<Highlight>ObjectParameter(56)</Highlight>?"
 198,"<Highlight>StringParameter(3)</Highlight>
 <If(IntegerParameter(1))> <Value>IntegerParameter(2)</Value>m <Else/><Value>IntegerParameter(2)</Value>s</If>"
 199,"<Highlight>StringParameter(1)</Highlight> wishes to teleport you to <Switch(IntegerParameter(2))><Case(1)>New Gridania</Case><Case(2)>Bentbranch Meadows</Case><Case(3)>the Hawthorne Hut</Case><Case(4)>Quarrymill</Case><Case(5)>Camp Tranquil</Case><Case(6)>Fallgourd</Case></Switch>."
@@ -1110,7 +1110,7 @@ Edit"
 1091,""
 1092,"Use <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If> guildleve <If(Equal(IntegerParameter(0),1))>allowance<Else/>allowances</If> to accept <Highlight>StringParameter(2)</Highlight>?"
 1093,"<Value>IntegerParameter(1)</Value>"
-1094,"<Unknown2D>FF1A022816FF11436C6173734A6F6243617465676F7279E8020103</Unknown2D>  [Limited Job]"
+1094,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D> [Limited Job]"
 1095,"Add New Tab"
 1096,"Chat Log Settings"
 1097,"Novice Network List"
@@ -2605,6 +2605,7 @@ Please sign in again."
 2774,"<Sheet(GrandCompany,IntegerParameter(1),0)/>"
 2775,"Close"
 2777,"This role restriction-free duty is item level synced. All item levels will be adjusted to the level indicated."
+2778,"Rewards for this duty can be traded with itinerant moogles."
 2779,"Duty: <Clickable(<Highlight>StringParameter(1)</Highlight>)/>"
 2780,"Checking member status..."
 2781,"All"
@@ -3443,17 +3444,17 @@ Special Conditions: <Switch(IntegerParameter(3))><Case(1)>Yes</Case><Case(2)>Non
 Progress: <Value>IntegerParameter(2)</Value>%"
 3923,"Objective"
 3940,"Custom"
-3941,"Maximum"
-3942,"High (Desktop)"
+3941,"<If(Equal(PlayerParameter(78),3))>Maximum (Mac)<Else/>Maximum</If>"
+3942,"<If(Equal(PlayerParameter(78),3))>Very High (Mac)<Else/>High (Desktop)</If>"
 3943,"<If(Equal(PlayerParameter(78),3))>High (Mac)<Else/>High (Laptop)</If>"
 3944,"<If(Equal(PlayerParameter(78),3))>Middle (Mac)<Else/>Standard (Desktop)</If>"
 3945,"<If(Equal(PlayerParameter(78),3))>Standard (Mac)<Else/>Standard (Laptop)</If>"
 3950,"Settings have been customized."
-3951,"The highest possible graphical settings. Recommended for use with high-end PCs only."
-3952,"Graphical settings optimized for desktop PCs which meet the recommended specifications."
-3953,"Graphical settings optimized for <If(Equal(PlayerParameter(78),3))>high-end models released after late 2014.<Else/>laptop PCs which meet the recommended specifications.</If>"
-3954,"Settings which ensure optimal performance on <If(Equal(PlayerParameter(78),3))>models released after late 2013<Else/>desktop PCs</If> without compromising graphical quality."
-3955,"Settings which ensure balanced performance on <If(Equal(PlayerParameter(78),3))>models released after 2013<Else/>laptop PCs</If>."
+3951,"<If(Equal(PlayerParameter(78),3))>The highest possible graphical settings.<Else/>The highest possible graphical settings. Recommended for use with high-end PCs only.</If>"
+3952,"Settings optimized for <If(Equal(PlayerParameter(78),3))>high-end models allowing for superior graphical quality.<Else/>desktop PCs which meet the recommended specifications.</If>"
+3953,"Settings optimized for <If(Equal(PlayerParameter(78),3))>high-end models.<Else/>laptop PCs which meet the recommended specifications.</If>"
+3954,"<If(Equal(PlayerParameter(78),3))>Settings which ensure optimal performance<Else/>Settings which ensure optimal performance on desktop PCs</If> without compromising graphical quality."
+3955,"<If(Equal(PlayerParameter(78),3))>Settings which ensure balanced performance.<Else/>Settings which ensure balanced performance on laptop PCs.</If>"
 3960,"High"
 3961,"Normal"
 3962,"Off"
@@ -5152,7 +5153,7 @@ Proceed?"
 5904,"Color Filter"
 5905,"Depth of Field"
 5906,"Enable depth of field."
-5907,"Value (f/<Value>IntegerParameter(1)</Value>)"
+5907,"Value (f/<Highlight>StringParameter(1)</Highlight>)"
 5908,"Enable idling camera."
 5909,"Limb Darkening"
 5910,"Enable manual focus."
@@ -7502,7 +7503,7 @@ Accept?"
 8831,"Currently not accepting donations."
 8832,"The Masked Carnivale"
 8833,"Confirm weekly target progression."
-8834,"  <Value>IntegerParameter(1)</Value>:<Value>IntegerParameter(2)</Value> Remaining  <Time(IntegerParameter(3))/>(<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>)　[<If(GreaterThan(IntegerParameter(4),0))>Complete<Else/>Incomplete</If>]"
+8834,"  <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> Remaining  <Time(IntegerParameter(3))/>(<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>)　[<If(GreaterThan(IntegerParameter(4),0))>Complete<Else/>Incomplete</If>]"
 8835,"Weekly Target Conditions"
 8836,"C"
 8837,"B"
@@ -8311,7 +8312,7 @@ Proceed?"
 9743,"Time Remaining: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 9744,"Final Reward"
 9745,"<If(LessThan(IntegerParameter(1),0))><UIForeground>F2021B</UIForeground><Value>IntegerParameter(1)</Value><UIForeground>01</UIForeground><Else/><Value>IntegerParameter(1)</Value></If>"
-9746,"<If(Equal(PlayerParameter(80),0))>: Aim Crosshairs  /Jump: <Highlight>StringParameter(1)</Highlight><Else/><CommandIcon(20)/>: Aim Crosshairs  <CommandIcon(14)/><CommandIcon(15)/>: Increase/Decrease Crosshair Speed  <CommandIcon(8)/><CommandIcon(9)/>: <Highlight>StringParameter(1)</Highlight></If>"
+9746,"<If(Equal(PlayerParameter(80),0))>: Aim Crosshairs  /Jump: <Highlight>StringParameter(1)</Highlight><Else/><CommandIcon(20)/>: Aim Crosshairs  <CommandIcon(14)/><CommandIcon(15)/>: Decrease Crosshair Speed  <CommandIcon(8)/><CommandIcon(9)/>: <Highlight>StringParameter(1)</Highlight></If>"
 9979,"Prize"
 9980,"Mini Cactpot"
 9981,"Jumbo Cactpot"
@@ -8447,15 +8448,9 @@ The ★ indicates your current client language setting.<UIGlow>01</UIGlow><UIFor
 10089,"※Phase selection does not entail the skipping of phases."
 10090,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※The “Duty Complete” option is only available for previously
 　completed duties.
-※The “Duty Completion” option is only available if the
-　weekly reward has yet to be obtained.
 ※Practice phase selection does not entail the actual skipping
 　of phases.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※If the registration period overlaps with the weekly reset,
-　registration will be canceled.
-※If 1 to 4 members have already received the weekly reward,
-　only one coffer will appear. No coffers will appear if 5 or
-　more members have received the reward."
+"
 10091,"Unselect"
 10092,"Join"
 10093,"<If(Equal(IntegerParameter(1),IntegerParameter(2)))><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> player<If(Equal(IntegerParameter(1),1))><Else/>s</If><Else/><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> to <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> players</If>
@@ -8521,7 +8516,14 @@ The ★ indicates your current client language setting.<UIGlow>01</UIGlow><UIFor
 10157,"Level: <Value>IntegerParameter(1)</Value>"
 10158,"Raid Finder Help"
 10159,""
-10160,"<UIForeground>F20202</UIForeground>Progress Record<UIForeground>01</UIForeground>
+10160,"<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※The following changes have been
+made to Savage raids:
+ - Progress is no longer saved after completing a turn.
+ - Turns can be challenged in any order.
+ - Two coffers will now appear upon turn completion.
+ - Weekly reward limits have been removed.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+<UIForeground>F20202</UIForeground>Progress Record<UIForeground>01</UIForeground>
 Progress within the latest Savage raids is
 periodically saved, allowing for continuation
 of the duty from that point.
@@ -9186,6 +9188,7 @@ Quit using the Party Finder?"
 Spectator Party: 1-8 players"
 10828,"Race-ready Chocobo Registered"
 10829,"※Limited jobs can participate only when using a preformed or undersized party, and the duty allows it."
+10830,"Register from Home World"
 10831,"Ranked 1st Dan or Higher"
 10832,"This duty is temporarily unavailable."
 10850,"A Most Gentlemanly Duel"
@@ -9549,6 +9552,10 @@ High Score
 11313,"Confirm"
 11314,"Cancel"
 11315,"Deleted Action"
+11316,"Supplies: Gobcrate"
+11317,"Supplies: Gobtank"
+11318,"Supplies: Main Ceruleum Tank"
+11319,"Supplies: Gobbiejuice"
 11320,"A"
 11321,"B"
 11322,"C"
@@ -9582,20 +9589,25 @@ High Score
 11350,"Falcons"
 11351,"Ravens"
 11352,"Sorted by <Highlight>StringParameter(1)</Highlight>"
-11353,"Time remaining in Astragalos: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
+11353,"Time remaining in Rival Wings: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue>"
 11354,"Falcons win!"
 11355,"Ravens win!"
 11356,"Victory for <Highlight>StringParameter(1)</Highlight>!"
 11357,"Alliance"
 11358,"Ceruleum"
+11359,"Readying forces for <If(Equal(IntegerParameter(1),0))>northern<Else/>southern</If> deployment."
 11360,"K: The number of targets KO'd"
 11361,"D: The number of times KO'd"
 11362,"A: The number of KOs assisted"
+11363,"Forces deployed from the <If(Equal(IntegerParameter(1),0))>north<Else/>south</If>!"
 11364,"Tower 1"
 11365,"Tower 2"
 11366,"Core"
+11367,"Ceruleum engine deployed."
 11368,"Promotion Qualifier Available"
 11369,"<If(Equal(IntegerParameter(1),0))>Until Promotion:<Else/>Until Qualifier:</If>"
+11370,"A gobtank has emerged near the core.
+Adrenaline, ceruleum, and Soaring effects are increased for all team members."
 11371,"Team"
 11372,"<Switch(IntegerParameter(1))><Case(1)>Falcon Tower</Case><Case(2)>Raven Tower</Case></Switch> <Value>IntegerParameter(3)</Value>
 Integrity: <Value>IntegerParameter(2)</Value>%"
@@ -9603,12 +9615,22 @@ Integrity: <Value>IntegerParameter(2)</Value>%"
 Integrity: <Value>IntegerParameter(2)</Value>%"
 11374,"Power Generator
 <Switch(IntegerParameter(1))><Case(1)>Claimed by Falcons</Case><Case(2)>Claimed by Ravens</Case><Case(3)>Unclaimed</Case></Switch>"
+11375,"The goblin mercenary <Switch(IntegerParameter(1))><Case(1)>is idle.</Case><Case(2)>is
+engaged in battle.</Case><Case(3)>is
+awaiting deployment (<Value>IntegerParameter(2)</Value>:<TwoDigitValue>IntegerParameter(3)</TwoDigitValue>).</Case></Switch>"
+11376,"The station is
+<Switch(IntegerParameter(1))><Case(1)>under Falcon control</Case><Case(2)>under Raven control</Case><Case(3)>unclaimed</Case><Case(4)>readying an engine for departure (<Value>IntegerParameter(2)</Value>:<TwoDigitValue>IntegerParameter(3)</TwoDigitValue>)</Case></Switch>."
+11377,"Allied with the Ravens"
 11378,"Select machina to mount.
 ※Only one member per party may mount machina."
 11379,"CE"
 11380,"Remaining Uses: <Value>IntegerParameter(1)</Value>"
 11381,"※Uses shared across alliance."
 11382,"Mount"
+11383,"A gobtank has emerged near the core.
+Soaring effect is increased for all team members."
+11384,"Ceruleum and Soaring effects are increased for all team members."
+11385,"Adrenaline and Soaring effects are increased for all team members."
 11386,"Unable to mount machina."
 11387,"Another party member has already mounted."
 11388,"Ceruleum is depleted."
@@ -9622,6 +9644,8 @@ This number will increase upon losing towers.</Case></Switch>"
 11395,"Total Victories:"
 11396,"Weekly Matches:"
 11397,"Weekly Victories:"
+11398,"Allied with the Falcons"
+11399,"Enemy engaged in the <If(Equal(IntegerParameter(1),0))>north<Else/>south</If>!"
 11400,"Abharamu's Lure"
 11401,""
 11402,"Treasure Claimed"
@@ -9804,7 +9828,7 @@ Donate the items for a gratuity of <Format(IntegerParameter(1),FF022C)/>?"
 11619,"Party Seeker On"
 11620,"Party Seeker Off"
 11621,"Return to the starting point for
-“<Highlight>ObjectParameter(56)</Highlight>”? 
+<Highlight>ObjectParameter(56)</Highlight>? 
 
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※You will automatically return 10 minutes after KO.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 11622,"MA"
@@ -9875,6 +9899,7 @@ Activate a logos action to convert <If(GreaterThan(IntegerParameter(1),1))>the t
 ""<Sheet(Action,IntegerParameter(1),0)/>""<If(GreaterThan(IntegerParameter(2),0))> and “<Sheet(Action,IntegerParameter(2),0)/>”<Else/></If>"
 11684,"Exploring Dungeon"
 11685,"Prioritize By"
+11686,"+<Value>IntegerParameter(1)</Value>"
 11687,"Set magia board aspect to offensive."
 11688,"Set magia board aspect to defensive."
 11689,"Chain"
@@ -10058,9 +10083,9 @@ Failing to reply in the allotted time will also render a vote “No.”"
 11856,"You are defeated by <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Highlight>StringParameter(1)</Highlight><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 11857,"Your match with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Highlight>StringParameter(1)</Highlight><UIGlow>01</UIGlow><UIForeground>01</UIForeground> is a draw."
 11858,"A new season begins."
-11859,"You defeat <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><disbanded team><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-11860,"You are defeated by <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><disbanded team><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-11861,"Your match with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><disbanded team><UIGlow>01</UIGlow><UIForeground>01</UIForeground> is a draw."
+11859,"You defeat <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><UNKNOWN><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+11860,"You are defeated by <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><UNKNOWN><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+11861,"Your match with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><UNKNOWN><UIGlow>01</UIGlow><UIForeground>01</UIForeground> is a draw."
 11870,"PvP Schedule"
 11871,""
 11872,"Confirm registration periods for ranked Feast matches."
@@ -10082,6 +10107,8 @@ Failing to reply in the allotted time will also render a vote “No.”"
 11888,"Registration Period"
 11889,"Registration Period"
 11890,"<Highlight>StringParameter(1)</Highlight>, <If(GreaterThanOrEqualTo(IntegerParameter(5),25))>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue><Else/><If(GreaterThanOrEqualTo(IntegerParameter(6),25))><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Else/><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue></If> <If(GreaterThanOrEqualTo(IntegerParameter(1),12))>p.m.<Else/>a.m.</If><If(GreaterThanOrEqualTo(IntegerParameter(2),12))>p.m.<Else/>a.m.</If></If>"
+11892,"The goblin mercenary is
+readying for deployment."
 11900,"Apply Glamour"
 11901,"Apply Glamour to Right Finger"
 11902,"Apply Glamour to Left Finger"
@@ -10628,6 +10655,82 @@ Please note, players may only belong to one cross-world linkshell at a time, and
 12507,"Slashing"
 12508,"Piercing"
 12509,"Blunt"
+12510,"World Visit"
+12511,""
+12512,"Home World"
+12513,"Available Destinations"
+12514,"<UIForeground>F20202</UIForeground>The World Visit System<UIForeground>01</UIForeground>
+You may now visit other World servers in your data center to party with friends, purchase items, and tackle duties.
+
+<UIForeground>F20202</UIForeground>Visiting Other Worlds<UIForeground>01</UIForeground>
+Depending on the congestion of the target World, it may take several minutes to complete the transfer. Transfers will occur automatically and cancel all current actions/duties.
+
+<UIForeground>F20202</UIForeground>Restrictions<UIForeground>01</UIForeground>
+The following restrictions apply when playing on servers other than your Home World:
+
+<UIForeground>F20202</UIForeground>Retainers<UIForeground>01</UIForeground>
+　・Retainers cannot be summoned, hired, or released from service
+　・Items cannot be put up to market (purchasing is available)
+
+<UIForeground>F20202</UIForeground>Free Companies<UIForeground>01</UIForeground>
+　・Free companies cannot be formed or joined
+　・Free company information cannot be viewed
+　・Company credits cannot be earned
+
+<UIForeground>F20202</UIForeground>Linkshells<UIForeground>01</UIForeground>
+　・Linkshells cannot be used
+　・Linkshell information cannot be viewed
+　・Linkshells cannot be created or joined
+
+<UIForeground>F20202</UIForeground>Housing<UIForeground>01</UIForeground>
+　・Estates and apartments cannot be purchased
+　・Residence sharing is unavailable
+
+<UIForeground>F20202</UIForeground>Eternal Bonding<UIForeground>01</UIForeground>
+　・Ceremonies of Eternal Bonding are unavailable
+　・Eternal Bonding quests are unavailable
+　・Others' ceremonies cannot be attended
+
+<UIForeground>F20202</UIForeground>Duties/Features<UIForeground>01</UIForeground>
+　・Lord of Verminion tournaments cannot be entered
+　・Triple Triad tournaments cannot be entered
+　・Cactpot tickets cannot be purchased
+　・The Moogle Delivery Service is unavailable
+　・Deep Dungeon results will not be saved to the leaderboards
+　・Friendship circlet and eternal bonding teleportation is
+　　available only if both parties are on the same World
+　・Legendary and unspoiled gathering nodes are inaccessible
+"
+12515,"Home World"
+12516,"Current World"
+12517,"Unavailable World"
+12518,"Retrieving World data..."
+12519,"Travel to <Highlight>StringParameter(1)</Highlight>?"
+12520,"World Visit"
+12521,"Destination: <Highlight>StringParameter(1)</Highlight>"
+12522,"Position in Queue:"
+12523,"Time Elapsed: <Value>IntegerParameter(1)</Value>:<TwoDigitValue>IntegerParameter(2)</TwoDigitValue> Average Wait Time: "
+12524,"World Visit"
+12525,""
+12526,"<Highlight>StringParameter(1)</Highlight>"
+12527,"<Highlight>StringParameter(1)</Highlight>"
+12528,"Position in Queue"
+12529,"Time"
+12530,"Average Wait Time"
+12531,"Cancel"
+12532,"<Value>IntegerParameter(1)</Value>"
+12533,"More than <Value>IntegerParameter(1)</Value>"
+12534,"<Value>IntegerParameter(1)</Value>m"
+12535,"More than <Value>IntegerParameter(1)</Value>m"
+12536,"Less than <Value>IntegerParameter(1)</Value>m"
+12537,"World Visit"
+12538,"Ready for transport."
+12539,"<Highlight>StringParameter(1)</Highlight>"
+12540,"<Highlight>StringParameter(1)</Highlight>"
+12541,"Wanderer"
+12542,"Current World"
+12543,"World Info"
+12544,"World List"
 101000,"<CommandIcon(10)/> Subcommands"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Select"
@@ -11014,6 +11117,7 @@ Current Location: <Highlight>StringParameter(1)</Highlight>"
 102335,"Register this location as your free destination? <Clickable(<SheetEn(PlaceName,2,<Sheet(Aetheryte,IntegerParameter(1),8)/>,2,1)/>)/> will be removed."
 102336,"This location is currently registered as your free destination. Register it as a favored destination instead?"
 102337,"This location is currently registered as a favored destination. Register it as your free destination instead?"
+102338,"<Gui(69)/> Visit Another World Server."
 102339,"Your entry will be canceled upon leaving the area. Proceed?"
 102341,"Completed"
 102342,"Completed"

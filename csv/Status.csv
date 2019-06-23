@@ -395,7 +395,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 391,"Phantom Dart","All magic resistances are reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 392,"Misty Veil","Attack range is reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 393,"Wither","All magic resistances are reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-394,"Focalization","All magic resistances are increased.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+394,"Invincibility","Invulnerable to all damage.",15024,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,True,0,False,False,0,1,False
 395,"Aetheric Burst","Skill speed is reduced.",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 396,"Concentration","Next enfeeblement received is nullified.",14815,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 397,"Safeguard","Damage taken is reduced.",14816,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -897,7 +897,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 892,"Matron's Favor (Azys Lla)","Concealed gathering points are now discoverable while harvesting at mature trees or patches of lush vegetation in Azys Lla.",11058,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 893,"Vulnerability Up","Damage taken is increased.",17101,5,2,17,0,False,False,False,False,False,False,True,False,False,100,False,0,False,0,False,False,0,0,False
 894,"Wind Resistance Down","Resistance to wind damage is reduced.",18201,4,2,17,0,False,False,False,False,False,False,True,False,False,50,False,0,False,0,False,False,0,0,False
-895,"Invincibility","Invulnerable to all damage.",15024,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,True,0,False,False,0,0,False
+895,"Invincibility","Invulnerable to all damage.",15024,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,True,0,False,False,0,1,False
 896,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 897,"Regen","Regenerating HP over time.",12626,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 898,"Lightning Resistance Down","Lightning resistance is reduced.",17741,2,2,17,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
@@ -1227,12 +1227,12 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1222,"Fey Union","Allowing regeneration of HP over time.",12810,0,1,16,0,False,True,True,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1223,"Fey Union","Regenerating HP over time.",12811,0,1,16,0,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1224,"Earthly Dominance","An earthly star is in your control.",13241,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
-1225,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1226,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1225,"Damage Up","Damage dealt is increased.",15519,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
+1226,"Vulnerability Down","Damage taken is reduced.",15021,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1227,"Yukikaze","Slashing resistance is reduced.",13303,0,2,17,0,False,False,False,False,False,False,True,False,False,50,False,0,False,0,False,False,0,0,False
 1228,"Higanbana","Open wounds are bleeding, causing damage over time.",13304,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
 1229,"Kaiten","Next weaponskill will deal increased damage.",13305,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1230,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1230,"Recuperation","Regenerating HP over time.",12626,0,1,16,0,False,False,False,False,False,False,False,False,False,5,False,0,False,0,False,False,0,0,False
 1231,"Meditate","Storing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13306,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,4,False,0,False,False,0,27,False
 1232,"Third Eye","Next damage taken is reduced.",13307,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1233,"Meikyo Shisui","Combo prerequisites are met.",13309,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,21,False
@@ -1449,7 +1449,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1444,"Magitek Field","Impervious to all damage.",15824,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,12,False
 1445,"The Deceiver","Wearing the face of the god of lies.",15812,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
 1446,"The Upholder","Wearing the face of the god of truth.",15813,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
-1447,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1447,"Elemental EXP Up","Elemental EXP earned through battle while at an elemental level lower than 50 is increased.",15836,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
 1448,"Transfiguration","Corporeal form has been altered.",16214,0,1,16,0,False,False,False,False,True,False,False,False,False,100,False,2,True,0,False,False,0,9,False
 1449,"Troubadour's Minuet","Damage dealt is increased.",12615,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1450,"Troubadour's Paeon","Damage taken is reduced.",12614,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
@@ -1585,7 +1585,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1580,"Thin Ice","Having trouble maintaining a solid foothold upon ice-covered ground.",15615,0,2,17,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
 1581,"Adaptation","Adapted to an aetherially unstable environment.",15884,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
 1582,"Mutation","Aetherial instability is triggering mutations.",15885,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
-1583,"Elemental EXP Up","Elemental EXP earned through battle is increased.",15836,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
+1583,"Elemental EXP Up","Elemental EXP earned through battle while at an elemental level lower than 20 is increased.",15836,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
 1584,"Komainu's Favor","Damage dealt is increased.",16710,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 1585,"Inugami's Favor","Damage taken is decreased.",16711,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 1586,"Senri's Favor","Regenerating HP over time.",16712,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
@@ -1624,7 +1624,7 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1619,"Preoccupied","Engaged in complex maneuvers.",15765,0,1,0,0,False,False,True,True,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1620,"Unveiled","Gilgamesh's true form is revealed.",15928,0,1,16,0,False,False,False,False,True,False,False,True,True,200,False,2,False,0,False,False,0,9,False
 1621,"Concealed","Unable to be detected from a distance.",15673,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
-1622,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1622,"Critical Strikes","All attacks are dealing critical damage.",15555,0,1,16,0,False,False,False,False,False,False,False,True,True,50,False,0,False,0,False,False,0,0,False
 1623,"Live Wire","Crackling like a levinbolt. Damage dealt against opponents vulnerable to electricity is increased.",15891,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
 1624,"Looper","Corrupted by Omega's program loop.",15892,0,2,17,83,False,False,False,False,False,False,False,False,False,200,False,0,True,0,False,True,0,0,False
 1625,"Memory Degredation","Gradually forgetting important details. A stack of 6 will result in full memory loss.",19361,6,2,17,0,False,False,False,False,False,False,False,True,False,0,False,0,True,0,False,False,0,0,False
@@ -1712,10 +1712,10 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1707,"Right Unseen","Only vulnerabilities on the right side of the body remain undetected. Damage taken to the front, back, and left sides of the body will result in K.O.",15939,0,2,17,87,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1708,"Left Unseen","Only vulnerabilities on the left side of the body remain undetected. Damage taken to the front, back, and right sides of the body will result in K.O.",15940,0,2,17,88,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
 1709,"Back Unseen","Only vulnerabilities on the back of the body remain undetected. Damage taken to the front, right, and left sides of the body will result in K.O.",15941,0,2,17,86,False,False,False,False,False,False,False,True,True,100,False,0,True,0,False,False,0,0,False
-1710,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1711,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1712,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1713,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1710,"Astral Essence","Astrally charged attacks are enhanced.",15950,0,1,16,89,False,False,False,False,False,False,False,True,True,199,False,0,False,0,False,False,0,0,False
+1711,"Umbral Essence","Umbrally charged attacks are enhanced.",15951,0,1,16,90,False,False,False,False,False,False,False,True,True,199,False,0,False,0,False,False,0,0,False
+1712,"Astral Cloak","Enshrouded in light and resistant to certain umbrally charged attacks. ",15952,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1713,"Umbral Cloak","Enshrouded in shadow and resistant to certain astrally charged attacks.",15953,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1714,"Pain","Sustaining damage over time.",13501,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
 1715,"Malodorous","Damage dealt is reduced.",13502,0,2,17,0,False,False,False,False,False,False,True,False,False,50,False,0,False,0,False,False,0,0,False
 1716,"Boost","Potency of next magic attack is increased.",13503,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
@@ -1730,8 +1730,8 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1725,"Cursekeeper","Afflicted by a karmic curse carried within a paper doll. Damage taken will be channeled into an explosion when the effect ends or you are KO'd.",15937,0,2,17,98,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
 1726,"Fetters","Unable to execute actions.",15545,0,2,17,99,True,False,True,True,False,False,False,False,True,100,False,4,False,0,False,False,0,0,False
 1727,"Waning Nocturne","Unable to auto-attack or use spells, weaponskills, and abilities.",13512,0,2,17,0,False,False,False,False,False,False,False,False,False,50,False,19,False,0,False,False,0,24,False
-1728,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1729,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1728,"Contractual Obligation","Mercenaries are allied to a team. Contract will expire when the counter reaches zero. HP restored by healing magic is reduced.",15945,0,2,0,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
+1729,"Sheer Will","Remaining standing through pure determination. Damage dealt is increased.",15946,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,True,0,False,False,0,0,False
 1730,"Flying High","Nearly giddy with the thrill of battle, increasing damage dealt, potency of HP restoration actions, and the rate at which the adrenaline gauge fills. Effect is nullified when piloting warmachina.",14845,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,3,True,0,False,False,0,0,False
 1731,"Deep Freeze","Frozen solid and unable to execute actions.",13513,0,2,17,18,True,False,True,False,False,False,False,False,False,50,False,0,False,0,False,False,0,32,False
 1732,"Elemental EXP Up","Elemental EXP earned through battle while at an elemental level lower than 35 is increased.",15836,0,1,16,0,False,False,False,False,False,False,False,True,True,0,True,0,False,0,False,False,0,0,False
@@ -1741,65 +1741,165 @@ int32,str,str,Image,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,bit&04
 1736,"Dropsy","Sustaining water damage over time.",13514,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
 1737,"Toad Oil","Evasion is enhanced.",13515,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1738,"Doom","Certain death when counter reaches zero.",13516,0,2,9,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
-1739,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1740,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1741,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1742,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1743,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1744,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1745,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1746,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1739,"Wisdom of the Elder","Magic damage dealt and magic defense are increased. Spell MP cost is reduced.",16654,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,6,True,0,False,False,0,19,False
+1740,"Wisdom of the Duelist","Physical damage dealt and maximum HP are increased. Weaponskill TP cost is reduced.",16655,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,7,True,0,False,False,0,20,False
+1741,"Wisdom of the Fiendhunter","Physical damage dealt and evasion are increased.",16656,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1742,"Wisdom of the Indomitable","Defense is increased. Maximum HP is boosted each time you take damage equivalent to at least 50% of your maximum HP from a single-target attack.",16657,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1743,"Doom","Certain death when counter reaches zero.",15503,0,2,9,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,0,False
+1744,"Stellation","Transformed into a many-pointed star. Damage dealt is increased.",15954,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
+1745,"Black Hole Buffer","Invulnerable to the pull of the black hole.",15955,0,1,16,0,False,False,False,False,False,False,False,True,True,199,False,0,True,0,False,False,0,0,False
+1746,"Blown Away","Carried away by an updraft.",15066,0,2,17,0,False,False,False,False,False,False,False,True,True,1,False,12,False,0,False,False,0,0,False
 1747,"Fearless","Empowered by courage, increasing damage dealt.",15948,0,1,16,0,False,False,False,False,False,False,False,False,False,1,False,0,False,0,False,False,0,0,False
 1748,"Guardians' Aegis","Shielded by a protective barrier.",15949,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1749,"Area of Influence Up","Area of effect for actions is expanded.",17981,16,1,16,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,33,False
-1750,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1751,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1752,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1753,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1754,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1755,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1750,"Twin Fates","Orlasrach and Munderg are in resonance with one another, each protecting its twin.",15947,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
+1751,"Soul of Fire","Aetherial aspect is leaning primarily to fire.",15509,0,1,16,104,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
+1752,"Soul of Ice","Aetherial aspect is leaning primarily to ice.",15510,0,1,16,105,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
+1753,"Blood Sacrifice","Damage taken is increased if those bonded by the blood ritual are separated.",15675,0,2,17,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
+1754,"Aetherially Primed","Awash in aether attuned for traveling via unstable currents.",15958,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,True,0,False,False,0,0,False
+1755,"Resurrection Restricted","The influence of Eureka-forged weapons is making resurrection by certain means impossible.",15959,0,2,17,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1756,"Elemental Blessing","An area of land has been granted the elementals' protection, reducing damage taken for all who enter.",15021,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,4,True,0,False,False,0,27,False
-1757,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1757,"Fetters","Unable to execute actions.",15545,0,2,17,97,False,False,True,True,False,False,False,True,False,100,False,4,False,0,False,False,0,0,False
 1758,"Deep Freeze","Your body is encased in ice, preventing action and dealing damage over time.",17621,16,2,17,18,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,0,32,True
 1759,"Vulnerability Down","Damage taken is reduced.",15021,0,1,16,0,False,False,False,False,False,False,False,False,True,0,False,0,False,0,False,False,0,0,False
 1760,"Damage Up","Damage dealt is increased.",17061,16,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1761,"Ice Resistance Up","Ice resistance is increased.",15029,0,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1762,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1763,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1762,"Down for the Count","Unable to move or execute actions.",15044,0,2,3,0,True,False,False,False,False,False,False,False,False,100,False,19,False,0,False,False,0,24,False
+1763,"HP Boost","Maximum HP is increased.",17801,16,1,16,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
 1764,"Artificially Enhanced","Magitek plate armor has been enhanced.",15956,0,1,16,94,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1765,"Artificially Enhanced","Magitek plate armor has been enhanced.",15956,0,1,16,95,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1766,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1766,"Damage Up","Damage dealt is increased.",17061,16,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
 1767,"Weak Magitek Field","Protection provided by towers has lessened, but damage taken is still reduced.",15957,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
-1768,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1768,"Watery Grave","You are trapped in a magicked prison of water and are unable to execute actions.",15038,0,2,17,0,True,False,True,False,False,False,False,False,False,100,False,0,False,0,False,False,1,0,False
 1769,"Doom","Certain death when counter reaches zero. Effect dissipates once fully healed.",15503,0,2,9,0,False,False,False,False,False,False,False,False,False,200,False,0,False,0,False,False,0,25,False
-1770,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1771,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1772,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1773,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1770,"Damage Up","Damage dealt is increased.",17061,3,1,16,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1771,"True Virtue","As an ideal made manifest, strength surpasses mortal imagination.",15960,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
+1772,"Aggressive Posture","Prepared to carry out an assault.",15555,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
+1773,"Defensive Posture","Prepared to stand fast.",15555,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,0,True,0,False,False,0,0,False
 1774,"Blazing Aramitama","The aramitama has been stoked, and both body and soul surrendered to it.",15961,0,1,16,0,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
-1775,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1775,"Reforged","Aetherial composition has been altered, changing elemental aspect.",15938,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,2,False,0,False,False,0,9,False
 1776,"Blunt Resistance Down","Blunt resistance is reduced.",15064,0,2,17,0,False,False,False,False,False,False,False,False,False,50,False,0,False,0,False,False,0,0,False
-1777,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1778,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1779,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1780,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1777,"Reforged","Aetherial composition has been altered, changing elemental aspect.",15938,0,1,16,0,False,False,False,False,False,False,False,True,True,0,False,2,False,0,False,False,0,9,False
+1778,"Hoofing It","Unable to summon or ride mounts.",16232,0,2,17,0,False,False,False,False,False,False,False,True,True,0,False,0,False,0,False,False,0,0,False
+1779,"Ajisai","Fine cuts are causing damage over time.",13304,0,2,17,0,False,False,False,False,False,False,True,False,False,10,False,0,False,0,False,False,0,0,False
+1780,"魔力汚染","害意ある魔力によって汚染された状態。特定の攻撃によって、戦闘不能状態に陥る。",15057,0,2,17,0,False,False,False,False,False,False,True,False,False,200,False,0,False,0,False,False,0,0,False
 1781,"Damage Up","Damage dealt is increased.",15519,0,1,16,101,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
 1782,"Vulnerability Down","Damage taken is reduced.",15021,0,1,16,100,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
-1783,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1784,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1785,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1786,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1787,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1788,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1789,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1790,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1791,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1783,"Soul of Fire","Aetherial aspect is leaning primarily to fire.",15509,0,1,16,102,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
+1784,"Soul of Ice","Aetherial aspect is leaning primarily to ice.",15510,0,1,16,103,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
+1785,"Down for the Count","Unable to move or execute actions.",15044,0,2,3,0,True,False,True,False,False,False,False,False,True,100,False,4,False,0,False,False,0,0,False
+1786,"Pure Muscle","Muscles are rippling with power. Potency and range of certain actions are increased.",15718,0,1,16,0,False,False,False,False,True,False,False,True,True,0,False,2,False,0,False,False,0,9,False
+1787,"Burns","Sustaining fire damage over time.",15524,0,2,17,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
+1788,"Frostbite","Sustaining ice damage over time.",15525,0,2,17,0,False,False,False,False,False,False,False,False,False,10,False,0,False,0,False,False,0,0,False
+1789,"Vulnerability Up","Damage taken is increased.",17101,8,2,17,0,False,False,False,False,False,False,False,False,False,100,False,0,False,0,False,False,0,0,False
+1790,"Shadow Links","Sustaining damage over time. Movement speed is also decreased.",15756,0,2,4,25,False,False,False,False,False,False,False,False,False,200,False,1,False,0,False,False,0,0,False
+1791,"Magic Infusion","Imbued with enough potent aether to execute a certain action.",15863,0,1,16,20,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1792,"Artificial Boost","Magitek plate armor has been enhanced beyond standard limits.",15956,0,1,16,85,False,False,False,False,False,False,False,True,True,1,False,0,False,0,False,False,0,0,False
-1793,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1793,"Mark of Mortality","Branded with a mark of mortality. Damage dealt is reduced. Too many stacks will result in KO.",19421,3,2,17,0,False,False,False,False,False,False,False,False,False,200,False,10,False,0,False,False,0,23,False
 1794,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1795,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1796,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1797,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
-1798,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1797,"Critical Strikes","All attacks are dealing critical damage.",15555,0,1,16,0,False,False,False,False,False,False,False,True,True,50,False,0,False,0,False,False,0,0,False
+1798,"Dualcast","The next spell will be cast immediately.",15779,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,0,0,False
 1799,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
 1800,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1801,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1802,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1803,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1804,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1805,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1806,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1807,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1808,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1809,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1810,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1811,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1812,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1813,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1814,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1815,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1816,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1817,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1818,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1819,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1820,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1821,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1822,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1823,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1824,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1825,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1826,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1827,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1828,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1829," Invincibility","Invulnerable to all damage.",15024,0,1,16,0,False,False,False,False,False,False,False,True,True,200,False,0,False,0,False,False,1,1,False
+1830,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1831,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1832,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1833,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1834,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1835,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1836,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1837,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1838,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1839,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1840,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1841,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1842,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1843,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1844,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1845,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1846,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1847,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1848,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1849,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1850,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1851,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1852,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1853,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1854,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1855,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1856,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1857,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1858,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1859,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1860,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1861,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1862,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1863,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1864,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1865,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1866,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1867,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1868,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1869,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1870,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1871,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1872,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1873,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1874,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1875,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1876,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1877,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1878,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1879,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1880,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1881,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1882,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1883,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1884,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1885,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1886,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1887,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1888,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1889,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1890,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1891,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1892,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1893,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1894,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1895,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1896,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1897,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1898,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False
+1899,"Electrocution","Sustaining lightning damage over time.",15528,0,2,17,0,False,False,False,False,False,False,False,True,True,10,False,0,False,0,False,False,0,0,False
+1900,"","",0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,0,False,0,False,False,0,0,False

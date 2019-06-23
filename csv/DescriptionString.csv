@@ -1,5 +1,5 @@
 ﻿key,0
-#,
+#,Text
 int32,str
 0,""
 1,""
@@ -35,7 +35,7 @@ int32,str
 31,"Doman mahjong is a game for four players. The following guide covers the basic rules."
 32,"2. What is Doman Mahjong?"
 33,"In Doman mahjong, players <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>race to complete a winning hand of 14 tiles, with points awarded for speed and difficulty of the hand<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard; either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the end of the hand.
+Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard: either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the end of the hand.
 
 The first player to complete a winning hand is awarded points. A total of eight hands are played, and the player who finishes with the most points is declared the winner.
 Here is an example of a winning hand:"
@@ -133,9 +133,9 @@ Only number tiles from one suit."
 "
 68,"9. Riichi Yaku"
 69,"A special condition known as “riichi” makes it easier to form a yaku."
-70,"The hand in the diagram only requires a 3 or a 6 to form a winning hand.
+70,"The hand in the diagram only requires a 3 or a 6 of Dots to form a winning hand.
 When a player is one tile away from a winning hand, riichi may be declared."
-71,"When the hand is ready for declaring riichi, the player will have the option to do so before discarding a tile. In the case shown in the diagram, if the declaring player receives a 3 or a 6, whether the tile is drawn by the player or discarded by another player, a winning hand can be called.
+71,"When the hand is ready for declaring riichi, the player will have the option to do so before discarding a tile. In the case shown in the diagram, if the declaring player receives a 3 or a 6 of Dots, whether the tile is drawn by the player or discarded by another player, a winning hand can be called.
 After declaring riichi, that player can no longer put drawn tiles into their hand. Any tiles drawn will automatically be discarded until a tile that completes the winning hand is obtained. However, a winning hand achieved through riichi is a yaku in itself. Therefore, the player does not need to have formed any other yaku to complete a winning hand."
 72,"■ Properties of Riichi
 　1.　The player's hand automatically becomes a yaku, regardless of whether it contains any other yaku.
@@ -168,8 +168,8 @@ If you have a pair of matching tiles, when another player discards a tile that c
 Calling chi allows you to claim a number tile discarded by another player and complete a straight. However, it can only be called for the player whose turn comes before yours."
 83,"Although pon and chi allow you to form a winning hand more quickly, there are some drawbacks."
 84,"■ Drawback 1: Revealing Your Hand
-Using pon or chi to form a triplet will cause it to be revealed to the other players. In addition, you can no longer use those tiles for any other melds.
-This can lead to missing opportunities to form better hands as a result of having those tiles locked into a triplet."
+Using pon or chi to form a triplet or straight will cause it to be revealed to the other players. In addition, you can no longer use those tiles for any other melds.
+This can lead to missing opportunities to form better hands as a result of having those tiles locked into a triplet or straight."
 85,"■ Drawback 2: Preventing Riichi
 It is not possible to declare riichi after using pon or chi.
 Due to being unable to form a riichi yaku, you must find a way to form a different yaku. There are also certain yaku that can only be formed on the condition that you have not used pon or chi, so these will also become unavailable. In some cases, pon and chi will limit your ability to score points."
@@ -209,7 +209,7 @@ The higher your rank, the more points are lost when finishing 4th.
 Only players ranked 1st dan or higher can register. After registering as a solo player, you will be matched against other players.
 Ratings are affected as follows:
 　1st: +60 points　2nd: +15 points　3rd: No change
-　4th: -30pt
+　4th: -30 points
 The higher your rank, the more points are lost when finishing 4th.
 
 ■ Four-player Mahjong (Kuitan enabled)
@@ -228,14 +228,14 @@ You must form a party of four players to begin the match. Ratings and ranks are 
 "
 103,"■ Chat
 ・During a four-player mahjong game, you may chat to the other players.
-・Chat can be toggled on and off using the button in the lower-right of the screen. Turning chat off will prevent you from sending and receiving messages. On-screen icons indicate whether the other players are participating in the chat.
+・Chat can be toggled on and off using the button in the lower right of the screen. Turning chat off will prevent you from sending and receiving messages. On-screen icons indicate whether the other players are participating in the chat.
 "
 104,"■ Rating and Rank
 ・Matches played in “Novice Mahjong (Ranked)” and “Advanced Mahjong (Ranked)” will affect your rating and rank.
 ・Your rating starts at 1,500, and will increase or decrease according to your finishing position in each match.
 ・Although you cannot be demoted while in the lower ranks, progressing to the higher ranks puts you at risk of demotion should you perform poorly.
 ・Ratings and ranks are calculated only according to the rating of your opponents and your finishing position in the game.
-(The number of points with which you end a game is taken into consideration.)
+(The number of points with which you end a game is not taken into consideration.)
 ・Your mahjong rating and rank can be viewed in the Gold Saucer menu, under Mahjong.
 "
 105,"■ Abandoning a Match
@@ -247,7 +247,7 @@ You must form a party of four players to begin the match. Ratings and ranks are 
 106,"Navigating the Screen"
 107,"Understanding the UI"
 108,"1. Shows the 13 tiles in your hand. When you draw a tile, it is shown as the 14th tile, to the right of your hand. When your turn comes, select a tile to discard it."
-109,"2. When you are in a position to call riichi, tsumo, ron, pon, chi, or kan, a prompt will appear. In the case of pon, chi, and kan, this prompt can be ignored.
+109,"2. When you are in a position to call riichi, tsumo, ron, pon, chi, or kan, a prompt will appear. In the case of pon, chi, and kan, this prompt can be hidden.
 To hide these prompts, set Display Calls to Off. However, this option defaults to On at the start of a new hand.
 
 "
@@ -277,47 +277,122 @@ Enable this feature for recommendations on which tiles to discard, whether to ca
 
 "
 120,""
-121,""
-122,""
-123,""
-124,""
-125,""
-126,""
-127,""
-128,""
-129,""
-130,""
-131,""
-132,""
-133,""
-134,""
-135,""
-136,""
-137,""
-138,""
-139,""
-140,""
-141,""
-142,""
-143,""
-144,""
-145,""
-146,""
+121,"Rival Wings"
+122,"Overview"
+123,"Rival Wings is a large-scale PvP battle involving up to 48 combatants. Participants are divided into two teams, the Falcons and the Ravens.
+Each team may pilot powerful machina as they attempt to destroy the opponent's core, which is defended by mammets."
+124,"■Basic Rules
+A Rival Wings team consists of 6 light parties, for a total of 24 participants.
+A match lasts for 20 minutes.
+
+■Retaliation
+Incapacitated players will be returned to their landing point, where they will be allowed to rejoin combat after a short delay. Furthermore, players will be invulnerable so long as they remain at their landing point. This effect will be lost upon returning to the battlefield.
+
+■Mounts
+Players are free to use mounts during Rival Wings campaigns. However, players taking damage while mounted will be afflicted with the Limp status effect.
+
+■Return 
+Using Return will teleport players back to their landing point. Moreover, this action has no recast time during Rival Wings campaigns. Please note, however, casting will be interrupted by attacks.
+
+■Rewards
+When a match has ended, players will receive PvP EXP, PvE EXP, Wolf Marks, and Allagan tomestones.
+By continually winning Rival Wings matches, players will receive achievements that reward special mounts and gear."
+125,"Cores and Towers"
+126,"The first team to destroy the core located on the opponent's base will be declared the winner. In the event neither team destroys a core, the team that deals the most damage to the opponent's core wins. If both teams have dealt the same amount of damage to each other's cores, the number of remaining towers─which protect the core─determines victory. Should the number of remaining towers be the same for both teams, the amount of damage dealt to the towers determines the winners."
+127,"■Cores
+Each team has a core located at its base, and the chief objective is to destroy the enemy's core. The core is protected by a magitek field emanating from two towers, so before you can strike at the core, you must first destroy at least one of the towers."
+128,"■Towers
+Each team has two towers that serve to protect their core. Each tower is also enveloped in a defensive field that mitigates damage taken by team members and restores their HP, which players can take advantage of as protection when hard-pressed by the opposing team. If you succeed in destroying the enemy team's towers, the magitek fields around both teams' bases will dissipate, and your team will earn Soaring stacks."
+129,"■Magitek Fields
+Each team has two towers which project a magitek field to guard the core. While both towers are present, the core cannot be damaged, and the field deals severe damage over time to any enemies that enter.
+If one of the towers is destroyed, the defensive effect of the magitek field is weakened, allowing damage to be dealt to the core. In addition, the magitek field will no longer deal damage to enemies.
+When both towers are destroyed, the magitek field disappears and the core will receive full damage from enemy attacks."
+130,"Machina"
+131,"Players can deploy three types of powerful machina in battle."
+132,"■Cruise Chaser
+A next-generation machina ideal for combat against enemy players and machina. While it possesses a high degree of mobility, it lacks in durability."
+133,"■Oppressor 
+A hulking machina engineered for siege warfare, it excels at wreaking havoc upon structures. However, it is slow and poorly suited to combating enemy players and machina."
+134,"■Brute Justice
+Boasting unrivaled power, Brute Justice dominates opposing players and machina on the battlefield, while also laying waste to structures with its lethal armaments. Although it can easily turn the tide of battle, there are strict conditions governing its deployment."
+135,"Machina Restrictions
+Only one machina may be operated per party at any given time, regardless of type. In the case of the Oppressor, however, the limit is two per team. Two Brute Justices can be deployed by each team per match, one becoming available for each tower you lose.
+
+Riding Machina
+When deploying a machina, its HP will be displayed in place of the player. Its HP cannot be restored by curative actions of teammates, nor will it restore automatically when out of combat. Machina actions will expend EP, a resource that can only be restored by using the Ceruleum Refill action. Be advised that use of this action will deplete your party's ceruleum stores.
+
+■Ceruleum
+Ceruleum is required to operate machina. A maximum of 100 units of ceruleum can be stored by each party. You can build up your ceruleum stores by collecting tanks in the field, controlling the power generator, or defeating enemy team members and mammets. As ceruleum is a party resource, it is recommended that you confer with your comrades prior to activating a machina."
+136,"■Hangar Terminals
+Once your team has sufficient ceruleum, you can choose a machina to deploy at the hangar terminal, located near the starting area. You may also view information relating to the various types of machina."
+137,"Mammets"
+138,"Mammets are clockwork soldiers programmed to seek out and destroy towers and cores. They emerge from their own core at regular intervals before striking out on a set route, and will remain in battle for a set duration. Upon detecting an enemy mammet, they will engage and attack until either side is destroyed. Mammets that arrive at an enemy tower or core will perform a powerful self-sacrificing attack. That is the extent of their programming; mammets will not harm adventurers."
+139,"■Wind-up Viking
+These mammets specialize in fighting at close quarters."
+140,"■Wind-up Magus
+These mammets specialize in magic-based attacks."
+141,"■Fighting Alongside Mammets
+Mammets are governed by the Clockwork status which counts down to zero, after which they are removed from battle.
+Although it is possible to use healing actions on mammets, the amount of HP restored is reduced.
+
+■Gaining Ceruleum from Mammets
+Parties gain units of ceruleum upon defeating an enemy mammet. These units will be distributed to all parties that engage with the mammet based on the amount of damage inflicted. Ceruleum cannot be gained from damage inflicted by other mammets."
+142,"Steam Cannons"
+143,"Two steam cannons have been erected near each team's core. While they cannot be moved, they are powerful weapons which may prove useful in deterring enemy forces."
+144,"Soaring"
+145,"When you defeat an enemy team member, your party receives the Soaring enhancing effect. This effect can stack up to twenty times, increasing all party members' damage dealt and HP restored via healing actions, while also reducing damage taken. At twenty stacks, Soaring will be replaced with the Flying High effect, which confers even greater benefits."
+146,"■Soaring Stacks
+The number of Soaring stacks an enemy has when defeated affects how many stacks your party gains.
+Defeat an enemy with 0 to 9 stacks: gain 1 stack
+Defeat an enemy with 10 to 19 stacks: gain 2 stacks
+Defeat an enemy with 20 stacks (Flying High): gain 3 stacks
+"
 147,""
 148,""
 149,""
 150,""
 151,""
-152,""
-153,""
-154,""
-155,""
-156,""
-157,""
-158,""
-159,""
-160,""
-161,""
+152,"Hidden Gorge"
+153,"Map Overview"
+154,"Developed by Amajina & Sons Mineral Concern at great cost, the mine at Hidden Gorge proved to be a flash in the pan, its veins running dry within a matter of years. For a time afterwards, the site in Thanalan lay abandoned, but now it has been revived as a training ground for adventurers. On tracks of steel the goblin-made ceruleum engines arrive, laden with supplies that combatants should seize if they hope to claim victory."
+155,"Ceruleum Engines"
+156,"Ceruleum engines move across the map on rails at high speed, stopping at the loading stations in the center of the map. By taking control of the loading stations, teams can claim the supplies delivered by the ceruleum engines.
+
+■Ceruleum Engines in Motion
+If you come into contact with a ceruleum engine while it is moving, you will incur potentially lethal damage.
+A warning will sound to indicate the approach of a ceruleum engine."
+157,"■Loading Stations
+Ceruleum engines deliver supplies to loading stations. Players cannot enter a loading station while riding machina. Each team may occupy or control a loading station.
+
+■Occupying a Loading Station
+When a ceruleum engine arrives at a station, standing in the area next to the engine will cause a gauge to fill. Once it is full, your team will occupy that station. The gauge fills more quickly when you have a higher number of team members near the engine than the opponent. The greater the difference in players, the quicker the gauge fills. However, only the first four players from each team are counted. Those standing near the engine will also gain the Sheer Will status, which greatly increases damage dealt. Making use of this status will help to reduce the number of enemies and occupy the station more quickly.
+
+■Controlling a Loading Station
+Once a loading station has been occupied, a new gauge will appear indicating your control over the station. When filled, the station will be under your team's control, allowing you to claim its supplies. This gauge will only fill when your team has a number of members equal to or higher than the opponent in that area.
+When the supplies have been claimed, the ceruleum engine will leave the station and the gauges will be reset."
+158,"■Supplies
+There are four types of supplies. For the first half of the match, the ceruleum engine will deliver main ceruleum tanks, gobbiejuice, and gobtank keys at random. In the second half of the match, they will only deliver gobcrates.
+Each type grants its own benefits and increases the Soaring stacks of the whole team.
+
+Main Ceruleum Tanks
+Each party on the team gains 50 ceruleum.
+
+Gobbiejuice
+Fills the adrenaline gauge of every team member.
+
+Gobtanks
+Two gobtanks will appear at the core and will travel down the north and south routes to the enemy base. They are considerably more powerful than regular mammets and can deal severe damage to towers and the core.
+
+Gobcrates
+Grant all of the effects of main ceruleum tanks, gobbiejuice, and gobtanks."
+159,"Goblin Mercenaries "
+160,"After a certain amount of time has passed, goblin mercenaries will randomly appear from the north and south mercenary bases. Initially, they will not side with either team, and will attack any player that approaches. However, it is possible to have them ally with your team."
+161,"■Allied Mercenaries
+If the damage your team deals to a goblin mercenary surpasses that of the opposing team by a certain amount, it will join your side. If the mercenary's HP reaches zero before this condition has been fulfilled, it will form an alliance with whichever team dealt the most damage to it.
+
+■Mercenary Deployment
+Once you have formed an alliance with a mercenary, it will appear at your team's core and will attempt to destroy the enemy's towers and core, much like a mammet would. Forming an alliance with a mercenary that appeared from the north mercenary base will cause it to travel along the northern route, with the same being true of the south mercenary base and southern route.
+Mercenaries are also governed by the Contractual Obligation status, and they will leave the field of battle once the status counts down to zero. After a certain amount of time passes, they will reappear from their respective base and will no longer be allied with either team."
 162,""
 163,""
 164,""
