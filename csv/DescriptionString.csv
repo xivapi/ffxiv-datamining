@@ -190,7 +190,8 @@ Similarly to pon and chi, calling kan locks those tiles, preventing them from be
 94,"14. Learn by Playing"
 95,"Doman mahjong is a complex game even once you have learned all of the rules. However, many of the actions normally carried out by players themselves are performed automatically, so feel free to head to the tables and try your luck without worrying about the less important details. Why not start at the novices' table?
 
-Once you have a grasp of the basics, you may wish to challenge other adventurers via the Duty Finder."
+Once you have a grasp of the basics, you may wish to challenge other adventurers via the Duty Finder.
+For details on the more advanced rules, please refer to the guide on the Lodestone."
 96,"Playing Mahjong"
 97,"NPC Matches"
 98,"The Gold Saucer offers games against novice, intermediate, and advanced opponents."
@@ -250,6 +251,7 @@ You must form a party of four players to begin the match. Ratings and ranks are 
 109,"2. When you are in a position to call riichi, tsumo, ron, pon, chi, or kan, a prompt will appear. In the case of pon, chi, and kan, this prompt can be hidden.
 To hide these prompts, set Display Calls to Off. However, this option defaults to On at the start of a new hand.
 
+If you turn on “Auto-declare winning hand,” you will automatically declare a winning hand as soon as tsumo or ron become available. This option defaults to Off at the start of a new hand.
 "
 110,"3. The star icon indicates which player is the dealer. It is also displayed in the center of the table.
 The compass direction shown below each player's name is their current seat wind. Players can form a yaku by collecting three wind tiles that match their seat wind. The role of dealer rotates counterclockwise, from east, to south, to west, to north.
@@ -315,10 +317,10 @@ A next-generation machina ideal for combat against enemy players and machina. Wh
 A hulking machina engineered for siege warfare, it excels at wreaking havoc upon structures. However, it is slow and poorly suited to combating enemy players and machina."
 134,"■Brute Justice
 Boasting unrivaled power, Brute Justice dominates opposing players and machina on the battlefield, while also laying waste to structures with its lethal armaments. Although it can easily turn the tide of battle, there are strict conditions governing its deployment."
-135,"Machina Restrictions
+135,"■Machina Restrictions
 Only one machina may be operated per party at any given time, regardless of type. In the case of the Oppressor, however, the limit is two per team. Two Brute Justices can be deployed by each team per match, one becoming available for each tower you lose.
 
-Riding Machina
+■Riding Machina
 When deploying a machina, its HP will be displayed in place of the player. Its HP cannot be restored by curative actions of teammates, nor will it restore automatically when out of combat. Machina actions will expend EP, a resource that can only be restored by using the Ceruleum Refill action. Be advised that use of this action will deplete your party's ceruleum stores.
 
 ■Ceruleum
@@ -393,12 +395,407 @@ If the damage your team deals to a goblin mercenary surpasses that of the opposi
 ■Mercenary Deployment
 Once you have formed an alliance with a mercenary, it will appear at your team's core and will attempt to destroy the enemy's towers and core, much like a mammet would. Forming an alliance with a mercenary that appeared from the north mercenary base will cause it to travel along the northern route, with the same being true of the south mercenary base and southern route.
 Mercenaries are also governed by the Contractual Obligation status, and they will leave the field of battle once the status counts down to zero. After a certain amount of time passes, they will reappear from their respective base and will no longer be allied with either team."
-162,""
-163,""
-164,""
-165,""
-166,""
-167,""
-168,""
-169,""
-170,""
+162,"Housing"
+163,"1. Residential Districts"
+164,"In residential districts, adventurers may purchase plots of land, estates, and apartments.
+The properties available to you are not affected by your choice of Grand Company.
+
+■Residential Districts by City-state
+　・Limsa Lominsa: Mist
+　・Gridania: The Lavender Beds
+　・Ul'dah: The Goblet
+　・Kugane: Shirogane
+
+"
+165,"2. Plots of Land"
+166,"A plot of land is required to build an estate. In addition, the size of the estate must match the size of the plot on which it is built.
+■Estate Size and Maximum Number of Furnishings
+　・Small: 200 indoor, 20 outdoor
+　・Medium: 300 indoor, 30 outdoor
+　・Large: 400 indoor, 40 outdoor
+
+"
+167,"3. Purchasing and Relinquishing Land"
+168,"■Purchasing Land
+To purchase an unowned plot, select the placard located at its entrance and select “Purchase Land.”
+The listed price will be automatically reduced every six hours until it reaches a predetermined minimum.
+The requirements for purchasing land vary depending on whether you are a private buyer, or a representative of your free company.
+
+Purchasing as a Private Buyer
+　1. You must have at least one class at level 50.
+　2. You must hold a rank of second lieutenant or above in one of the Grand Companies.
+
+Purchasing as a Free Company Representative
+　1. You must have at least one class at level 50.
+　2. You must be authorized to acquire land.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>To purchase land in Shirogane, you must first complete the main scenario quest “Not without Incident, ” whether you are a private buyer or free company representative.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+
+■Relinquishing Land
+If you no longer wish to own a particular plot of land, select “Relinquish Land” from the Housing menu. Please note that the purchasing price will not be refunded.
+Before land can be relinquished, the following conditions must be fulfilled:
+　1. All furnishings must be removed from the property.
+　2. All furnishings must be removed from storage.
+　3. The estate must be removed from the plot of land.
+
+"
+169,"4. Auto-demolition"
+170,"Plots of land which have been left abandoned for an extended period of time will be cleared to make way for new owners.
+
+■The Auto-demolition Process
+　1. Estate halls which have not been entered by their owner for thirty days (Earth time) will be designated abandoned and scheduled for auto-demolition.
+
+　2. Once the estate hall has not been entered for a total of forty-five days (Earth time), it will be demolished, and the plot will be put up for sale.
+While any member of a free company may enter a company estate hall to prevent auto-demolition, only the owner can prevent the auto-demolition of a private estate.
+
+■Reclaiming Funds and Furnishings Following Auto-demolition
+In the event your estate is demolished and your plot is sold, you will be able to claim indemnification for 80% of the plot's value. Furthermore, furnishings which can be safely removed will be stored for safekeeping by the resident caretaker. However, you must speak with the resident caretaker within thirty-five days (Earth time) of auto-demolition to reclaim funds and furnishings.
+In the case of free company estates, this can only be performed by members with authority to purchase and relinquish land.
+
+"
+171,"5. Building an Estate Hall"
+172,"A construction permit is required to build an estate hall.
+
+While there are several types of construction permit available, the estate size must match the size of the plot on which it will be built.
+
+From the Social menu, select “Housing,” then “Estate Hall,” followed by “Build Estate Hall” to use the construction permit.
+"
+173,"6. Furnishings"
+174,"Furnishings come in two varieties: indoor and outdoor.
+
+To place indoor furnishings, open the Housing menu while inside your estate hall, and select “Indoor Furnishings.”
+
+Similarly, to place outdoor furnishings, open the Housing menu while on your property but outside your estate hall, and select “Outdoor Furnishings.”
+
+Placing a furnishing will bind it to you, preventing future trade or sale to other players.
+
+Moreover, certain furnishings cannot be retrieved once placed, and will be permanently discarded upon removal.
+
+"
+175,"7. Fixtures"
+176,"You can change various elements of your estate, by opening the Housing menu while inside your estate hall, and selecting “Remodel Interior” or “Remodel Exterior.” The following fixtures can be customized:
+
+■Interior Fixtures
+　・Interior walls
+　・Flooring
+　・Ceiling lights
+
+■Exterior Fixtures
+　・Rooves
+　・Exterior walls
+　・Windows
+　・Doors
+　・Placards
+　・Fences
+　・Roof Decorations
+　・Exterior Wall Decorations
+
+Placed fixtures will be returned to your inventory when they are replaced by another fixture.
+Placing a fixture will bind it to you, preventing future trade or sale to other players.
+
+"
+177,"8. Company Workshops"
+178,"Owners of a free company estate can purchase a company workshop."
+179,"In a company workshop, you may craft company projects and build airships and submersibles to embark on exploratory voyages.
+
+Once gil has been paid for the construction of the company workshop, it can be accessed via the door inside the estate hall.
+
+
+■Demolishing a Company Workshop
+If a company workshop is no longer needed, it can be demolished. Please note that doing so will delete all records of the activities performed there, including progress made on exploratory voyages. In addition, the gil spent on purchasing the facility will not be refunded.
+Before a company workshop can be demolished, any airships and submersibles currently in service must be dismantled. 
+"
+180,"9. Private Chambers "
+181,"Private chambers may be added to free company estates, and can be accessed from inside the property.
+
+To add a private chamber, you must fulfill the following conditions
+　1. You must have at least one class at level 50.
+　2. You must hold a rank of second lieutenant or above in one of the Grand Companies.
+
+
+■Demolishing Private Chambers
+If you no longer require a private chamber, it can be demolished, providing that all furnishings have been removed from the chamber and its storage.
+
+
+■Auto-demolition of Private Chambers
+If you are dismissed from your free company, your private chambers will be demolished, and furnishings placed in your private chambers will be given into the care of the resident caretaker. Furnishings will be held by the resident caretaker for 35 days (Earth time), after which they will be permanently discarded. Only the former owner of the private chamber can claim these furnishings, not other members of the free company to whom the estate belongs.
+
+"
+182,"10. Apartments"
+183,"Apartments are available for purchase in each of the residential districts. The buildings are named as follows:
+
+　・Mist: The Topmast
+　・The Lavender Beds: Lily Hills
+　・The Goblet: The Sultana's Breath
+　・Shirogane: Kobai Goten
+
+
+■Purchasing an Apartment
+You must fulfill the following conditions to purchase an apartment:
+　1. You must have at least one class at level 50.
+　2. You must hold a rank of second lieutenant or above in one of the Grand Companies.
+Upon purchasing an apartment, you will gain access to the building's chocobo stable. Furthermore, you will gain the option to teleport directly to the entrance of your apartment building.
+
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>To purchase an apartment in Kobai Goten, you must first complete the main scenario quest “Not without Incident.”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+
+■Vacating an Apartment
+In order to vacate your apartment, you must first remove all furnishings, including those in storage."
+184,"11. Estate Sharing"
+185,"If you are the owner of a private estate, you may choose to share it with up to three friends, regardless of plot size. You may then grant these friends─or tenants─access to certain estate features, such as gardening, stable tending, and estate customization.
+
+To welcome friends as tenants, open the Housing menu, select “Private Estate,” then select “Shared Estate Settings,” followed by “New Tenant.”
+Furthermore, you may evict tenants at any time by selecting their name, followed by “Evict”.
+"
+186,"12. Relocation"
+187,"It is possible to relocate your estate hall to a new plot. Private estates may be relocated by their owners at will, while free company estates require those with authority to purchase and relinquish land.
+
+When making the purchase, 30% of the minimum value of the old plot will be applied towards the price of the new.
+
+Upon relocation, placed furnishings will be put in the storeroom at the destination plot, save for the chocobo stables and the miniature aetheryte, which will be placed in the garden. In the event that there are too many furnishings to fit in the storeroom, the estate cannot be relocated until they have been removed.
+
+Private chambers and company workshops will be moved in their entirety and retain their state.
+
+Interior fixtures, meanwhile, will remain intact, unless the relocation results in an estate hall with fewer floors. In this case, the fixtures will be lost alongside the floor.
+
+Estate halls which have not been entered by their owner for thirty days (Earth time) cannot be relocated. Furthermore, initiating a relocation has the same effect as the owner entering his or her estate hall, and resets the period until auto-demolition.
+
+"
+188,"13. Storerooms"
+189,"All types of housing come with a storeroom for keeping one's furnishings. The larger the residence, the bigger the storeroom. The maximum number of furnishings that can be stored is as follows:
+
+　・Private chamber: 100 indoor
+　・Apartment: 100 indoor
+　・Small: 200 indoor, 20 outdoor
+　・Medium: 300 indoor, 30 outdoor
+　・Large: 400 indoor, 40 outdoor
+
+Chocobo stables and miniature aetherytes cannot be placed in the storeroom.
+
+Certain items, meanwhile, are stored in stasis. For instance, plants will cease to grow and wheel stands will cease to charge.
+
+An estate hall cannot be removed while items are in storage. In the event that your estate hall is demolished, you may reclaim stored items by speaking with the resident caretaker within 35 days of repossession.
+
+"
+190,"14. Navigating Residential Districts"
+191,"The icons below are used to display various locations in residential districts.
+
+■Land available for purchase"
+192,"■Land that has been purchased and is awaiting construction of an estate hall"
+193,"■Free company estate
+Blue: Access permitted
+Yellow: Access denied
+Star: Owned by your free company"
+194,"■Private estate
+Blue: Access permitted
+Yellow: Access denied
+Star: Owned by your character"
+195,"■Estate that you are sharing
+Blue: Access permitted
+Yellow: Access denied
+"
+196,"15. Lighting"
+197,"The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Adjust Lighting” option in the Housing menu to choose from one of five levels of brightness.
+"
+198,"16. Estate Tags"
+199,"Estate tags tell potential visitors what they can expect to find on your property. From the Housing menu, select “Estate Tag Settings” to set up to three tags.
+
+Tags will be displayed when selecting a residential ward, on estate profiles, and when viewing a list of private chambers.
+"
+200,"Interactive Furnishings"
+201,"Crafting Facilities"
+202,"Crafting facilities can be placed on your property and offer temporary boosts while crafting.
+
+■Number Permitted
+The number of crafting facilities allowed varies according to the estate type.
+　・Private chamber: 2
+　・Apartment: 2
+　・Small estate hall (cottage): 4
+　・Medium estate hall (house): 6
+　・Large estate hall (mansion): 8
+
+■Types of Crafting Facility
+There are eight varieties in total, one for each Disciple of the Hand class.
+　・Carpenter: Woodworking bench
+　・Blacksmith: Smithing bench
+　・Armorer: Armorcraft forge
+　・Goldsmith: Goldsmithing bench
+　・Leatherworker: Leatherworking bench
+　・Weaver: Clothcraft loom
+　・Alchemist: Alchemy furnace
+　・Culinarian: Cooking stove
+
+"
+203,"Gardens"
+204,"Gardens allow you to grow and harvest crops on your land.
+
+■Number Permitted
+The number of garden patches allowed varies according to the estate type.
+　・Small estate hall (cottage): 1
+　・Medium estate hall (house): 2
+　・Large estate hall (mansion): 3
+
+■Number of Ridges
+There are three sizes of garden patch, each with a different number of ridges on which to grow crops.
+　・Round garden patch: 4
+　・Oblong garden patch: 6
+　・Deluxe garden patch: 8"
+205,"Growing and Harvesting Crops
+■Planting Seeds
+Seeds require soil to grow, which comes in various types and affects the quality and number of crops. The speed at which they grow depends on the seeds used.
+
+■Fertilizing Crops
+Fertilizer can be used to enrich the soil and accelerate growth.
+
+■Removing Crops
+If crops are not harvested, they will eventually die. If this occurs, or if you no longer need a certain crop, you have the option to remove it.
+
+■Harvesting Crops
+Once crops are fully grown, you can harvest them.
+
+■Intercrossing
+When different crops are grown in adjacent ridges, you may occasionally receive new types of seeds when harvesting.
+
+"
+206,"Flowerpots"
+207,"Flowerpots are indoor furnishings that allow you to grow crops in a similar fashion to gardens. There are also certain types of flower that can only be grown in pots, and these plants may even be used as materials when crafting equipment.
+
+■Number Permitted
+The number of flowerpots allowed varies according to the estate type.
+　・Private chamber: 2
+　・Apartment: 2
+　・Small estate hall (cottage): 2
+　・Medium estate hall (house): 3
+　・Large estate hall (mansion): 4
+
+Growing and Harvesting with Flowerpots
+■Planting Seeds
+Seeds require soil to grow, which comes in various types and affects the quality and number of crops. The speed at which they grow depends on the seeds used.
+
+■Fertilizing Plants
+Fertilizer can be used to enrich the soil and accelerate growth.
+
+■Removing Plants
+If plants are not harvested, they will eventually die. If this occurs, or if you no longer need a certain plant, you have the option to remove it.
+
+■Harvesting Plants
+Once plants are fully grown, you can harvest them.
+
+Growing Flowers
+The use of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>pomace<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when tending to potted plants can affect their color when they bloom. Fully grown plants can then be plucked and placed in a flower vase to decorate your estate, or used as materials when crafting items.
+
+　・Red pomace: Red blooms
+　・Blue pomace: Blue blooms
+　・Mountain pomace: Yellow blooms"
+208,"Orchestrions"
+209,"Orchestrions can be used to change the music in your estate or inn room, but only if you have first obtained song rolls. Free company estates, private estates, private chambers, and apartments may only have one orchestrion.
+
+■The Orchestrion List
+After obtaining a roll, use it to add the track to your orchestrion list.
+
+■Playlist
+Up to eight songs can be registered to a playlist. Playback options for the playlist can be accessed via subcommands or the buttons found at the bottom of the playlist interface."
+210,"　1. Play All: Plays each track in order.
+　2. Shuffle: Plays each track in the playlist in a random order. The same track will not be chosen twice until every track has been played.
+　3. Repeat: Only the currently selected track will be played.
+
+
+Tracks not listed in the playlist can also be set as estate background music by using the Select Track option at the bottom of the interface.
+"
+211,"Aetherial Wheels"
+212,"Aetherial wheels can be used to acquire company actions without the use of company credits. The aetherial wheel stands required to do so can be obtained from housing merchants in any residential district.
+
+To charge an aetherial wheel, simply place it in a stand, and it will gradually accumulate aether over a period of time.
+
+Once primed, you may remove the aetherial wheel and use the stand to convert it into a company action, or you may choose to store it until a later date.
+
+"
+213,"Aquariums"
+214,"Aquariums are indoor furnishings that are used to display fish. They must be filled with either freshwater or saltwater and only fish suited to the chosen water type can be placed inside. In addition, the tank can also be decorated with a range of trimmings.
+※A fish will be destroyed if it is placed in an aquarium and then removed.
+
+■Number Permitted
+The number of aquariums allowed varies according to the estate type.
+　・Private chamber: 4
+　・Apartment: 4
+　・Small estate hall (cottage): 6
+　・Medium estate hall (house): 8
+　・Large estate hall (mansion): 10
+"
+215,"■Fish Sizes
+Fish have been categorized into four sizes─small (one unit), medium (two units), large (four units), and extra large (seven units). It is worth noting that larger fish will occupy more space in an aquarium, leaving less room for other fish.
+
+■Number of Fish per Aquarium
+Aquariums are available in four sizes, the smallest holding only a single small fish, and the largest holding up to four. Because larger fish take up more room in the aquarium, one must choose carefully which fish they will put on display.
+　・Tier 1: One unit, maximum of one fish
+　・Tier 2: Two units, maximum of two fish
+　・Tier 3: Four units, maximum of three fish
+　・Tier 4: Seven units, maximum of four fish
+
+"
+216,"Chocobo Stables"
+217,"Your chocobo, as well as those of your free company members, can be trained once per hour while stabled to earn experience points.
+"
+218,"■Chocobo Level Cap
+For chocobos that have already attained the maximum rank, rewarding them with a Thavnairian onion following training will increase this upper limit by one.
+※Chocobo companions cannot exceed rank 20.
+
+■Stable Cleanliness
+As you and your free company members continue to use the chocobo stable, it will begin to accumulate dirt and grime. Stable cleanliness is reflected by one of three conditions─good, fair, or poor─which can be confirmed by accessing the stable. Keep your stable clean to ensure that chocobo training is effective, yielding the most experience.
+
+"
+219,"Message Books"
+220,"A message book can be placed in a free company estate, private estate, or an apartment. In the case of estates, there are two versions of the message book─one for indoor and one for outdoor use. Please note you may only set one of each at any given time.
+"
+221,"While the message book is primarily for visitors to leave messages, the estate owner can also set a greeting message for visitors.
+
+■Message Privacy Settings
+Entries left in the message book are set to public by default, allowing anyone to view them. However, they can be set to private at the owner's discretion.
+
+■Writing in the Message Book
+Players may leave one message in an estate's book per day per character.
+※Permission to leave messages will reset every day at <ResetTime>01</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time).
+
+■Deleting a Message
+Messages can also be deleted by the player who penned them, as well as by the estate owner and those with authorization.
+
+■Liking a Message Book
+Before leaving an estate, visitors can show their love of the house and its décor by leaving a “like” in the message book.
+Characters are granted ten likes to distribute upon first viewing a message book, and accumulate an additional five likes per day at <ResetTime>01</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time) up to a maximum of fifty.
+※You cannot “like” your own estate.
+
+"
+222,"Mannequins"
+223,"Mannequins are interior furnishings that you can equip with clothing items. You may select their class or job, as well as gender. Various poses are also available. The mannequin can be used either to display an outfit for sale, or simply as decoration.
+"
+224,"■Retainer Serving as Merchant
+You must also select a retainer to serve as merchant before you can place the mannequin. One retainer may serve as merchant for multiple mannequins. Gil earned from the sale of items equipped to the mannequin will be entrusted to the corresponding retainer.
+
+■Number Permitted
+The number of mannequins allowed varies according to the estate type.
+　・Private chamber: 4
+　・Apartment: 4
+　・Small estate hall (cottage): 6
+　・Medium estate hall (house): 8
+　・Large estate hall (mansion): 10
+
+■Selling Items Equipped to Mannequins
+Access the mannequin and choose “Select gear to sell” to open the Mannequin Shop Settings window. Only sellable items in your inventory, Armoury Chest, or retainer inventory may be selected.
+
+Any items equipped on a mannequin that are listed for sale still occupy slots in the retainer's list. For that reason, a mannequin cannot be equipped with items that would cause the retainer to exceed the 20 item limit.
+
+■Selling as a Set
+By checking “Sell Only as Set,” you can sell all items equipped to the mannequin together. While the items may be viewed on the market board, a player must access the mannequin directly if they wish to purchase the set.
+
+When viewing items listed on the market board as part of a set, it is possible to send a tell to the seller to ascertain the location of their estate. 
+※Please be aware that it is possible to view the name of a character selling a set through the market board.
+
+■Displaying Gear
+You may also display items on a mannequin without listing the gear for sale. It is also possible to select unsellable items for display.
+※The mannequin cannot be used to display glamoured items.
+
+However, gear that is displayed also occupies slots in the retainer's list of items for sale on the market, despite not being available for purchase.
+
+"

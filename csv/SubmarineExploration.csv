@@ -1,35 +1,83 @@
-﻿key,0,1,2,3,4,5,6,7,8,9
-#,Destination,Location,,,,RankReq,CeruleumTankReq,Duration<min>,DistanceForSurvey,ExpReward
-int32,str,str,int16,int16,int16,byte,byte,uint16,byte,uint32
-0,"","",483,927,0,0,0,0,0,0
-1,"the Ivory Shoals","Ivory Shoals",640,880,100,1,1,180,10,10610
-2,"deep-sea site 1","Site 1",570,750,300,1,1,180,10,10610
-3,"deep-sea site 2","Site 2",740,700,300,4,1,240,10,27840
-4,"the Lightless Basin","Lightless Basin",400,850,500,4,2,240,10,27840
-5,"deep-sea site 3","Site 3",650,610,200,7,2,300,11,46660
-6,"the Southern Rimilala Trench","Southern Rimilala",850,850,600,7,3,300,11,46660
-7,"the Umbrella Narrow","Umbrella Narrow",260,760,100,10,1,360,11,75920
-8,"Offender's Rot","Offender's Rot",120,840,100,14,1,420,12,102600
-9,"Neolith Island","Neolith Island",380,660,100,17,1,420,12,118350
-10,"unidentified derelict","Derelict",900,600,600,20,3,480,12,146210
-11,"the Cobalt Shoals","Cobalt Shoals",520,550,300,20,6,480,12,146210
-12,"the Mystic Basin","Mystic Basin",260,570,600,24,6,540,13,174980
-13,"deep-sea site 4","Site 4",90,630,100,27,6,600,13,200430
-14,"the Central Rimilala Trench","Central Rimilala",800,550,400,27,6,600,13,200430
-15,"the Wreckage of <Emphasis>Discovery I</Emphasis>","<Emphasis>Discovery I</Emphasis> Wreckage",630,490,500,30,6,660,14,231750
-16,"Komura","Komura",290,365,100,30,6,660,14,231750
-17,"Kanayama","Kanayama",115,350,0,34,6,720,14,263530
-18,"concealed bay","Concealed Bay",150,540,600,37,6,780,15,292170
-19,"deep-sea site 5","Site 5",320,230,200,37,6,780,15,292170
-20,"Purgatory","Purgatory",130,180,100,40,6,840,15,338330
-21,"deep-sea site 6","Site 6",465,330,100,40,6,840,15,338330
-22,"the Rimilala Shelf","Rimilala Shelf",555,225,600,44,6,900,16,374020
-23,"deep-sea site 7","Site 7",710,370,300,44,6,900,16,374020
-24,"Glittersand Basin","Glittersand Basin",900,355,800,47,6,960,16,406590
-25,"Flickering Dip","Flickering Dip",210,90,100,47,6,960,16,406590
-26,"the Wreckage of the <Emphasis>Headway</Emphasis>","<Emphasis>Headway</Emphasis> Wreckage",430,100,1000,50,6,1020,17,0
-27,"the Upwell","Upwell",830,210,800,50,6,1020,17,0
-28,"the Rimilala Trench Bottom","Rimilala Trench Bottom",750,90,1000,50,6,1020,17,0
-29,"stone temple","Stone Temple",895,100,1000,50,6,1020,17,0
-30,"sunken vault","Sunken Vault",595,100,800,50,6,1020,17,0
-31,"","",0,0,0,0,0,0,0,0
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12
+#,Destination,Location,,,,RankReq,CeruleumTankReq,Duration<min>,DistanceForSurvey,ExpReward,,,
+int32,str,str,int16,int16,int16,byte,bit&01,byte,byte,byte,uint16,byte,uint32
+0,"","",483,927,0,1,True,0,0,0,0,0,0
+1,"the Ivory Shoals","Ivory Shoals",640,880,100,1,False,1,1,1,180,10,10610
+2,"deep-sea site 1","Site 1",570,750,300,1,False,1,1,1,180,10,10610
+3,"deep-sea site 2","Site 2",740,700,300,1,False,1,4,1,240,10,27840
+4,"the Lightless Basin","Lightless Basin",400,850,500,1,False,1,4,2,240,10,27840
+5,"deep-sea site 3","Site 3",650,610,200,1,False,1,7,2,300,11,46660
+6,"the Southern Rimilala Trench","Southern Rimilala",850,850,600,1,False,1,7,3,300,11,46660
+7,"the Umbrella Narrow","Umbrella Narrow",260,760,100,1,False,1,10,1,360,11,75920
+8,"Offender's Rot","Offender's Rot",120,840,100,1,False,2,14,1,420,12,102600
+9,"Neolith Island","Neolith Island",380,660,100,1,False,2,17,1,420,12,118350
+10,"unidentified derelict","Derelict",900,600,600,1,False,2,20,3,480,12,146210
+11,"the Cobalt Shoals","Cobalt Shoals",520,550,300,1,False,2,20,6,480,12,146210
+12,"the Mystic Basin","Mystic Basin",260,570,600,1,False,3,24,6,540,13,174980
+13,"deep-sea site 4","Site 4",90,630,100,1,False,3,27,6,600,13,200430
+14,"the Central Rimilala Trench","Central Rimilala",800,550,400,1,False,3,27,6,600,13,200430
+15,"the Wreckage of <Emphasis>Discovery I</Emphasis>","<Emphasis>Discovery I</Emphasis> Wreckage",630,490,500,1,False,3,30,6,660,14,231750
+16,"Komura","Komura",290,365,100,1,False,3,30,6,660,14,231750
+17,"Kanayama","Kanayama",115,350,0,1,False,4,34,6,720,14,263530
+18,"concealed bay","Concealed Bay",150,540,600,1,False,4,37,6,780,15,292170
+19,"deep-sea site 5","Site 5",320,230,200,1,False,4,37,6,780,15,292170
+20,"Purgatory","Purgatory",130,180,100,1,False,4,40,6,840,15,338330
+21,"deep-sea site 6","Site 6",465,330,100,1,False,4,40,6,840,15,338330
+22,"the Rimilala Shelf","Rimilala Shelf",555,225,600,1,False,5,44,6,900,16,374020
+23,"deep-sea site 7","Site 7",710,370,300,1,False,5,44,6,900,16,374020
+24,"Glittersand Basin","Glittersand Basin",900,355,800,1,False,5,47,6,960,16,406590
+25,"Flickering Dip","Flickering Dip",210,90,100,1,False,5,47,6,960,16,406590
+26,"the Wreckage of the <Emphasis>Headway</Emphasis>","<Emphasis>Headway</Emphasis> Wreckage",430,100,1000,1,False,5,50,6,1020,17,440990
+27,"the Upwell","Upwell",830,210,800,1,False,5,50,6,1020,17,440990
+28,"the Rimilala Trench Bottom","Rimilala Trench Bottom",750,90,1000,1,False,5,50,6,1020,17,440990
+29,"stone temple","Stone Temple",895,100,1000,1,False,5,50,6,1020,17,440990
+30,"sunken vault","Sunken Vault",595,100,800,1,False,5,50,6,1020,17,440990
+31,"","",0,0,0,0,False,0,0,0,0,0,0
+32,"","",0,0,0,0,False,0,0,0,0,0,0
+33,"","",0,0,0,0,False,0,0,0,0,0,0
+34,"","",0,0,0,0,False,0,0,0,0,0,0
+35,"","",0,0,0,0,False,0,0,0,0,0,0
+36,"","",0,0,0,0,False,0,0,0,0,0,0
+37,"","",0,0,0,0,False,0,0,0,0,0,0
+38,"","",0,0,0,0,False,0,0,0,0,0,0
+39,"","",0,0,0,0,False,0,0,0,0,0,0
+40,"","",0,0,0,0,False,0,0,0,0,0,0
+41,"","",0,0,0,0,False,0,0,0,0,0,0
+42,"","",0,0,0,0,False,0,0,0,0,0,0
+43,"","",0,0,0,0,False,0,0,0,0,0,0
+44,"","",0,0,0,0,False,0,0,0,0,0,0
+45,"","",0,0,0,0,False,0,0,0,0,0,0
+46,"","",0,0,0,0,False,0,0,0,0,0,0
+47,"","",0,0,0,0,False,0,0,0,0,0,0
+48,"","",0,0,0,0,False,0,0,0,0,0,0
+49,"","",0,0,0,0,False,0,0,0,0,0,0
+50,"","",0,0,0,0,False,0,0,0,0,0,0
+51,"","",0,0,0,0,False,0,0,0,0,0,0
+52,"","",0,0,0,0,False,0,0,0,0,0,0
+53,"","",0,0,0,0,False,0,0,0,0,0,0
+54,"","",0,0,0,0,False,0,0,0,0,0,0
+55,"","",0,0,0,0,False,0,0,0,0,0,0
+56,"","",0,0,0,0,False,0,0,0,0,0,0
+57,"","",0,0,0,0,False,0,0,0,0,0,0
+58,"","",0,0,0,0,False,0,0,0,0,0,0
+59,"","",0,0,0,0,False,0,0,0,0,0,0
+60,"","",0,0,0,0,False,0,0,0,0,0,0
+61,"","",0,0,0,0,False,0,0,0,0,0,0
+62,"","",0,0,0,0,False,0,0,0,0,0,0
+63,"","",0,0,0,0,False,0,0,0,0,0,0
+64,"","",0,0,0,0,False,0,0,0,0,0,0
+65,"","",0,0,0,0,False,0,0,0,0,0,0
+66,"","",0,0,0,0,False,0,0,0,0,0,0
+67,"","",0,0,0,0,False,0,0,0,0,0,0
+68,"","",0,0,0,0,False,0,0,0,0,0,0
+69,"","",0,0,0,0,False,0,0,0,0,0,0
+70,"","",0,0,0,0,False,0,0,0,0,0,0
+71,"","",0,0,0,0,False,0,0,0,0,0,0
+72,"","",0,0,0,0,False,0,0,0,0,0,0
+73,"","",0,0,0,0,False,0,0,0,0,0,0
+74,"","",0,0,0,0,False,0,0,0,0,0,0
+75,"","",0,0,0,0,False,0,0,0,0,0,0
+76,"","",0,0,0,0,False,0,0,0,0,0,0
+77,"","",0,0,0,0,False,0,0,0,0,0,0
+78,"","",0,0,0,0,False,0,0,0,0,0,0
+79,"","",0,0,0,0,False,0,0,0,0,0,0
