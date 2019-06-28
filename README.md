@@ -64,8 +64,8 @@ If you find a connection between files or an identification of data, throw up an
 Notable members that have contributed information in some way, If you're part of the datamining and FFXIV discovery community be sure to add your credit!
 
 - Clorifex (GarlandTools)
-- Hezkezl (GamerEscape)
-- Icarus Twine (GamerEscape & Blue Mage overlord)
+- Hezkezl (Gamer Escape)
+- Icarus Twine (Gamer Escape & Blue Mage overlord)
 - Miu (TeamCraft)
 - Ioncannon (FFXIV Explorer)
 - Vekien (xivapi)
