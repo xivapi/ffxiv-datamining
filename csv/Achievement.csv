@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-#,AchievementCategory,Name,Description,Points,Title,Item,Icon,,Type,Key,Data[0],Data[1],Data[2],Data[3],Data[4],Data[5],Data[6],Data[7],Order,,InitialHide
-int32,AchievementCategory,str,str,byte,Title,Item,Image,byte,byte,Row,Row,Row,Row,Row,Row,Row,Row,Row,uint16,byte,byte
+#,AchievementCategory,Name,Description,Points,Title,Item,Icon,,Type,Key,Data[0],Data[1],Data[2],Data[3],Data[4],Data[5],Data[6],Data[7],Order,,AchievementHideCondition
+int32,AchievementCategory,str,str,byte,Title,Item,Image,byte,byte,Row,Row,Row,Row,Row,Row,Row,Row,Row,uint16,byte,AchievementHideCondition
 0,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 1,1,"To Crush Your Enemies I","Defeat 100 enemies.",5,0,0,2565,3,1,11,100,0,0,0,0,0,0,0,1,1,0
 2,1,"To Crush Your Enemies II","Defeat 500 enemies.",5,0,0,2565,3,1,11,500,0,0,0,0,0,0,0,2,1,0
@@ -2430,9 +2430,9 @@ int32,AchievementCategory,str,str,byte,Title,Item,Image,byte,byte,Row,Row,Row,Ro
 2406,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2407,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2408,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2409,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2410,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2411,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2409,4,"Paradise Found I","Complete Eden's Gate.",5,0,0,3120,1,1,791,1,0,0,0,0,0,0,0,0,1,0
+2410,4,"Paradise Found II","Complete Eden's Gate 5 times.",10,0,0,3120,1,1,791,5,0,0,0,0,0,0,0,0,1,0
+2411,4,"Paradise Found III","Complete Eden's Gate 10 times.",20,0,0,3120,1,1,791,10,0,0,0,0,0,0,0,0,1,0
 2412,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2413,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2414,0,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
