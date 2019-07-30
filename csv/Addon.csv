@@ -1131,7 +1131,7 @@ Return to your Home World and visit a delivery moogle to accept and view it."
 1110,"Focus Target"
 1111,"<If(IntegerParameter(1))><Highlight>StringParameter(2)</Highlight> <Else/></If><If(IntegerParameter(4))> <Highlight>StringParameter(5)</Highlight><Else/></If><Unknown2D>FF07022903EA0403</Unknown2D>"
 1112,"<If(IntegerParameter(1))><Highlight>StringParameter(2)</Highlight>% <Else/></If><If(IntegerParameter(4))> <Highlight>StringParameter(5)</Highlight><Else/></If><Unknown2D>FF07022903EA0403</Unknown2D>"
-1113,"<If(IntegerParameter(1))><Highlight>StringParameter(2)</Highlight> <Else/></If><Unknown2D>FF07022903EA0403</Unknown2D><If(IntegerParameter(4))><Highlight>StringParameter(5)</Highlight><Else/></If>"
+1113,"<If(IntegerParameter(1))><Highlight>StringParameter(2)</Highlight> <Else/></If><If(IntegerParameter(4))><Highlight>StringParameter(5)</Highlight><Else/></If><Unknown2D>FF07022903EA0403</Unknown2D>"
 1114,"You have a new letter.
 Visit a delivery moogle to accept and view it."
 1115,"Alliance A"
@@ -3412,7 +3412,7 @@ Select the same slot to delete the command."
 3810,"Lv. <Value>IntegerParameter(1)</Value>"
 3811,"Undiscovered"
 3812,"Fishing Log"
-3813,"Required Knowledge: <Sheet(Item,IntegerParameter(1),9)/><If(Equal(IntegerParameter(2),0))><Else/>(In Inventory)</If>"
+3813,"Required Knowledge: <Sheet(Item,IntegerParameter(1),9)/><If(Equal(IntegerParameter(2),0))><Else/> (Learned)</If>"
 3814,"Weather Restrictions: <Switch(IntegerParameter(1))><Case(1)>Yes</Case><Case(2)>None</Case><Case(3)>???</Case></Switch>
 Time Restrictions: <Switch(IntegerParameter(2))><Case(1)>Yes</Case><Case(2)>None</Case><Case(3)>???</Case></Switch>
 Special Conditions: <Switch(IntegerParameter(3))><Case(1)>Yes</Case><Case(2)>None</Case><Case(3)>???</Case></Switch>"
@@ -3487,7 +3487,7 @@ Special Conditions: <Switch(IntegerParameter(3))><Case(1)>Yes</Case><Case(2)>Non
 3922,"Distance to Objective: <Value>IntegerParameter(1)</Value>%
 Progress: <Value>IntegerParameter(2)</Value>%"
 3923,"Objective"
-3924,"Shared FATEs"
+3924,"Shared FATE"
 3925,""
 3926,"There is no information to display."
 3927,"Rank: <Value>IntegerParameter(1)</Value>"
@@ -3549,7 +3549,7 @@ Progress: <Value>IntegerParameter(2)</Value>%"
 4029,"Custom"
 4030,"Width"
 4031,"Height"
-4032,"Frame Rate Limit"
+4032,"Frame Rate"
 4033,"None"
 4034,"60 fps (Refresh Rate 1/1)"
 4035,"30 fps (Refresh Rate 1/2)"
@@ -7395,6 +7395,7 @@ To coincide with this addition, the GATE
 schedule has been updated. Speak with
 the Gold Saucer attendant at Entrance
 Square for details. "
+8479,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nautical maps<UIGlow>01</UIGlow><UIForeground>01</UIForeground> can now be discovered on certain subaquatic voyages to reveal the whereabouts of additional explorable locations."
 8480,"All"
 8484,"Others"
 8485,"Favorites"
@@ -8683,7 +8684,7 @@ unless certain conditions are met.
 
 DPS jobs are divided into the following roles:
 Melee DPS, Ranged Physical DPS,
-Ranged Magic DPS, and Not Specified.
+Ranged Magical DPS, and Not Specified.
 
 When the raid purpose is set as “Duty Completion,”
 the jobs that fall into Not Specified must be
@@ -9765,25 +9766,24 @@ This number will increase upon losing towers.</Case></Switch>"
 11397,"Weekly Victories:"
 11398,"Allied with the Falcons"
 11399,"Enemy engaged in the <If(Equal(IntegerParameter(1),0))>north<Else/>south</If>!"
-11400,"Abharamu's Lure"
+11400,"Gambler's Lure"
 11401,""
 11402,"Treasure Claimed"
 11403,"Reward (Attempt #<Value>IntegerParameter(1)</Value>)"
 11404,"Try Luck"
 11405,"Open Chest"
 11406,"Close"
-11407,"Abharamu's Lure"
+11407,"Gambler's Lure"
 11408,"Display Help"
 11409,"Help"
 11410,""
-11411,"This treasure coffer has been marked by Abharamu's Lure!
+11411,"This treasure coffer has been marked by the Gambler's Lure!
 Should you wish to try your luck, two cards will appear─one hidden, one revealed─with a possible value of one to nine. You must then guess whether the value of the hidden card is higher or lower than that of the other.
 ・If you guess correctly, the quantity of items you may claim will increase.
 ・You may elect to try your luck again following a correct guess, up to a maximum of five times.
 ・If you guess incorrectly at any point, the coffer will vanish, and you will lose all treasure.
 ・If the number is the same, the quantity of items you may claim will remain unchanged, and you will have to try your luck again. This will not count against the five-time maximum.
-・To claim the treasure within, you need only resist Abharamu's Lure and open the chest...
-"
+・To claim the treasure within, you need only resist the Gambler's Lure and open the chest..."
 11420,"<If(GreaterThan(IntegerParameter(1),99999))>99,999+<Else/><Format(IntegerParameter(1),FF022C)/></If>"
 11421,"Currency Exchange"
 11422,""
