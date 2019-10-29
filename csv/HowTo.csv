@@ -27,7 +27,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 23,"Finding Mature Trees",True,890,891,892,0,0,890,893,894,0,0,13,1
 24,"Gathering",True,900,901,902,0,0,0,0,0,0,0,13,2
 25,"Gathering Interface",True,910,911,912,0,0,0,0,0,0,0,13,5
-26,"Stealth",True,920,921,922,0,0,0,0,0,0,0,13,6
+26,"Sneak",True,920,0,0,0,0,0,0,0,0,0,13,6
 27,"Harvesting",True,930,931,0,0,0,0,0,0,0,0,13,7
 28,"Crafting Log",True,700,701,702,0,0,0,0,0,0,0,12,1
 29,"Crafting",True,710,711,712,713,0,714,711,712,713,0,12,2
@@ -56,7 +56,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 52,"Hiring a Retainer",True,850,851,0,0,0,0,0,0,0,0,6,22
 53,"A Retainer's Many Tasks",True,860,861,0,0,0,0,0,0,0,0,6,23
 54,"Gathering Point Characteristics",True,870,871,0,0,0,0,0,0,0,0,13,9
-55,"Unspoiled Locations",True,1000,1001,0,0,0,0,0,0,0,0,13,10
+55,"Unspoiled Locations",True,1000,1001,1002,0,0,0,0,0,0,0,13,10
 56,"Gathering HQ Items",True,880,881,882,0,0,0,0,0,0,0,13,8
 57,"Clearing Instanced Raids",True,105,106,107,0,0,0,0,0,0,0,8,3
 58,"Material Condition",True,730,731,0,0,0,0,0,0,0,0,12,4
@@ -86,7 +86,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 82,"Dismounting Rental Chocobos",True,310,0,0,0,0,311,0,0,0,0,3,7
 83,"Porters",True,320,0,0,0,0,0,0,0,0,0,3,4
 84,"Dismounting Porters",True,330,0,0,0,0,331,0,0,0,0,3,5
-85,"Personal Chocobos",True,340,341,342,343,0,0,0,0,0,0,3,8
+85,"Personal Chocobos",True,340,341,343,0,0,0,0,0,0,0,3,8
 86,"Dismounting Personal Chocobos",True,350,0,0,0,0,351,0,0,0,0,3,9
 87,"Grand Companies",True,410,411,412,0,0,0,0,0,0,0,10,1
 88,"Class Quest Rewards",True,130,0,0,0,0,0,0,0,0,0,5,14
@@ -108,7 +108,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 104,"Adding Members",True,1190,0,0,0,0,0,0,0,0,0,8,23
 105,"Finding Mineral Deposits",True,1020,1021,1022,0,0,0,0,0,0,0,13,3
 106,"Quarrying",True,1030,1031,0,0,0,0,0,0,0,0,13,4
-107,"Out-of-reach Items",True,1010,1011,1012,0,0,0,0,0,0,0,13,11
+107,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 108,"Companion Skills",True,380,381,382,383,0,0,0,0,0,0,4,22
 109,"Ordering Your Chocobo",True,370,371,372,0,0,0,0,0,0,0,4,23
 110,"Opening Treasure Coffers",True,1110,0,0,0,0,0,0,0,0,0,9,7
@@ -214,13 +214,13 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 210,"Hidden Characteristics",True,2030,2031,0,0,0,0,0,0,0,0,13,63
 211,"Favors",True,2040,2041,0,0,0,0,0,0,0,0,13,64
 212,"Aetherial Reduction",True,2050,0,0,0,0,0,0,0,0,0,13,65
-213,"Tomes of Regional Folklore",True,2060,0,0,0,0,0,0,0,0,0,13,66
+213,"Legendary Nodes and Tomes of Regional Folklore",True,2060,2061,0,0,0,0,0,0,0,0,13,66
 214,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 215,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 216,"Loot Rules",True,2090,2091,2092,2093,0,2094,2091,2092,2093,0,4,11
 217,"Setting Loot Rules",True,2100,2101,0,0,0,0,0,0,0,0,4,12
 218,"Temple Leves",True,2110,2111,0,0,0,0,0,0,0,0,9,20
-219,"Collectables",True,2120,2121,0,0,0,0,0,0,0,0,6,40
+219,"Collectables",True,2120,2121,2122,0,0,0,0,0,0,0,6,40
 220,"Crafting Collectables",True,2130,2131,0,0,0,0,0,0,0,0,12,23
 221,"Collectable Fish",True,2140,2141,0,0,0,0,0,0,0,0,14,20
 222,"Gathering Collectables",True,2150,0,0,0,0,0,0,0,0,0,13,68
@@ -268,8 +268,8 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 264,"World Visit",True,2506,2507,0,0,0,0,0,0,0,0,3,10
 265,"Blue Magic",True,2502,2503,2504,2505,2508,2502,2509,2504,2505,2508,4,64
 266,"Bicolor Gemstones",True,2510,2511,2512,0,0,2510,2511,2513,0,0,8,2
-267,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-268,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-269,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+267,"Fishing and Regional Folklore",True,1764,1765,0,0,0,0,0,0,0,0,14,13
+268,"Swimming Shadows",True,1767,1768,0,0,0,0,0,0,0,0,14,12
+269,"Collection",True,1770,0,0,0,0,1771,0,0,0,0,2,27
 270,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 271,"",False,0,0,0,0,0,0,0,0,0,0,0,0

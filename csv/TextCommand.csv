@@ -176,6 +176,55 @@ USAGE:
 　/cwlinkshell8 [message]
 
 →Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 8, regardless of their location. Typing /cwlinkshell8 or /cwl8 without a message switches the default chat mode to [Cross-world Linkshell 8].","","",509,0
+21,2,0,0,0,0,"/graphicpresets","/gpresets","ALIASES:
+　/graphicpresets, /gpresets
+USAGE:
+　/graphicpresets [preset number]
+
+→Load one of several preset graphics configuration settings.
+
+>>Preset Configurations:
+<If(Equal(PlayerParameter(78),3))>　　1: Standard (Mac)
+　　2: Middle  (Mac)
+　　3: High (Mac)
+　　4: Extra-High (Mac)
+　　5: Maximum (Mac)
+
+>>Example:
+　　/graphicpresets 2
+　　=Sets graphics settings to preset 2.<Else/>　　1: Standard (Laptop)
+　　2: Standard (Desktop)
+　　3: High (Laptop)
+　　4: High (Desktop)
+　　5: Maximum
+
+>>Example:
+　　/graphicpresets 2
+　　(Sets graphics settings to preset 2.)</If>","","",481,0
+22,1,0,0,0,0,"/fellowship","/fs","ALIASES:
+　/fellowship, /fs
+USAGE:
+　/fellowship
+
+→Opens and closes the Fellowship interface.","","",32,0
+23,1,0,0,0,0,"/fellowshipfinder","/fsfinder","ALIASES:
+　/fellowshipfinder, /fsfinder
+USAGE:
+　/fellowshipfinder
+
+→Opens and closes the Fellowship Finder interface.","","",32,0
+24,1,0,0,0,0,"/collection","/coll","ALIASES:
+　/collection, /coll
+USAGE:
+　/collection
+
+→Opens and closes the Collection interface.","","",32,0
+25,1,0,0,0,0,"/newgame+","/ng+","ALIASES:
+　/newgame+, /ng+
+USAGE:
+　/newgame+
+
+→Opens the New Game+ interface.","","",32,0
 91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -984,9 +1033,8 @@ USAGE:
 　　will be displayed.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>pet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　If the icon name is a
-　　pet action, action recast
-　　time will be displayed with
-　　the icon.
+　　pet action, its icon will
+　　be displayed
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>minion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　If the icon name is a
 　　minion, its icon will be
@@ -1031,21 +1079,41 @@ USAGE:
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>change [number 1] [number 2] <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Equip gear in slot [number]. If glamour plates are available, a plate number can also be specified.
+　　Equip gear in slot [number].
+　　A gear set name can be
+　　specified in place of a slot
+　　number. If glamour plates
+　　are available, a plate
+　　number can also be
+　　specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>view [number] <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　List gear in slot [number].
+　　A gear set name can be
+　　specified in place of a slot
+　　number.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save [number] <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Save current gear to slot
-　　[number].
+　　[number]. A gear set name
+　　can be specified in place
+　　of a slot number.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>delete [number] <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Delete slot [number].
+　　Delete slot [number]. A
+　　gear set name can be
+　　specified in place of a slot
+　　number.
 
+First letter matching can be used when specifying gear sets by name.
+Gear sets will be searched in order from lowest slot number to highest.
 Gear set list will be displayed when no subcommand is specified.
 
 >>Example:
 　/gearset change 1 1
 　(Equip gear in slot 1 and
-　cast glamour from plate 1.)","","",32,0
+　cast glamour from plate 1.)
+　/gearset change warrior
+　(Equip gear slot whose
+　name begins with warrior.)
+","","",32,0
 210,4,2,2,2,0,"/itemsort","/isort","ALIASES:
 　　/itemsort, /isort
 USAGE:
@@ -1185,7 +1253,7 @@ USAGE:
 USAGE:
 　/isearch [item name]
 
-→Conducts a complete search of your inventory for all items you own, including equipped gear, items held or equipped by retainers, and items stored in your Armoury Chest, saddlebag, and armoire. Command cannot be used in a macro.
+→Conducts a complete search of your inventory for all items you own, including equipped gear, items held or equipped by retainers, and items stored in your Armoury Chest, saddlebag, armoire, and glamour dresser. Command cannot be used in a macro.
 
 >>Example:
 　/itemsearch ""Potion""
@@ -1387,6 +1455,7 @@ Toggle between Looking for Party and Online when no subcommand is specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BTN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FSH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PLD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MNK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WAR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Multiple classes/jobs─or none at all─may be specified.","","",36,0
 234,2,1,2,0,0,"/lookingformeld","/lfm","ALIASES:
@@ -1658,8 +1727,8 @@ USAGE:
 Toggle between on and off when no subcommand is specified.
 
 >>Examples:
-　/aaction ""Rumination""
-　(Sets Rumination as an additional action.)
+　/aaction ""Triangulate""
+　(Sets Triangulate as an additional action.)
 
 　/aaction clear
 　(Removes all role actions.)","","",36,1000
@@ -1712,9 +1781,10 @@ USAGE:
 →Set the specified actions as additional PvP actions. This command requires that you specify two actions.
 
 >>Example:
-　/addpvpaction ""Purify"" ""Bolt""
-　(Sets Purify and Bolt as
-　additional PvP actions.)","","",36,1000
+　/addpvpaction ""Weapon Throw"" ""Full Swing""
+　(Sets Weapon Throw and
+　Full Swing as additional
+　PvP actions.)","","",36,1000
 277,3,1,16,0,0,"/pvpaction","/pvpac","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
@@ -1728,8 +1798,8 @@ USAGE:
 A full list of placeholders can be found on the Lodestone Play Guide.
 
 >>Example:
-　/pvpaction ""Fell Cleave"" <t>
-　(Executes Fell Cleave
+　/pvpaction ""Storm's Path"" <t>
+　(Executes Storm's Path
 　on current target.)","","",4,0
 279,3,1,18,0,0,"/blueaction","","USAGE:
 　/blueaction “blue mage action” [placeholder]
@@ -1908,6 +1978,7 @@ Toggle between on/off when no subcommand is specified.","","",36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>call [chat channel]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Toggle /tell sound on/off for
 　　the specified chat channel.
+　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>emote<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Emote
 　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>t<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Tell
 　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>p<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Party
 　　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>fc<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Free Company
@@ -2000,6 +2071,8 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crosshotbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Scenario Guide
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ScenarioGuide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Battle High Gauge
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BattleHighGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Rival Wings Alliance List
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWAlliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwa<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Rival Wings Station Info
@@ -4113,6 +4186,15 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　/laliho [subcommand]
 
 →Perform a traditional dwarven greeting.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+603,2,1,2,0,0,"/toast","","USAGE:
+　/toast [subcommand]
+
+→Raise a toast to those around you.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.

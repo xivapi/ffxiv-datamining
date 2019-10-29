@@ -3,7 +3,7 @@
 int32,str
 0,""
 1,"<CommandIcon(10)/> Withdraw Item"
-2,"<CommandIcon(10)/> Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/><Indent/></If>"
+2,"<CommandIcon(12)/> + <CommandIcon(13)/>Paste  <CommandIcon(10)/>Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
 3,"<CommandIcon(8)/> Change Order  <CommandIcon(10)/> Subcommands"
 4,"<CommandIcon(11)/> Execute Search"
 5,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Purchase　<CommandIcon(11)/> Select Item to Sell"
@@ -76,7 +76,7 @@ int32,str
 72,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/>Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>  <CommandIcon(11)/> Expand Log"
 73,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Expand Log"
 74,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Restore Log Size"
-75,"<CommandIcon(5)/> History  <CommandIcon(10)/> Delete  <CommandIcon(13)/> Auto-translate<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/><Indent/></If> "
+75,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <CommandIcon(13)/> Auto-translate<If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
 76,"<CommandIcon(3)/> Previous  <CommandIcon(4)/> Next  <CommandIcon(13)/> Auto-translate"
 77,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Apply"
 78,"<CommandIcon(11)/> Apply  <CommandIcon(10)/> Delete Settings　"
@@ -228,8 +228,8 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 176,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Phase  <CommandIcon(10)/> Subcommands"
 177,"<CommandIcon(9)/> Return  <CommandIcon(11)/> Commence Voyage"
 178,"<CommandIcon(10)/> Subcommands"
-179,"<CommandIcon(10)/> Select  <CommandIcon(11)/> Select and Close"
-180,"<CommandIcon(5)/> History  <CommandIcon(10)/>Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/> Keyboard<Else/> <Indent/></If>"
+179,"<CommandIcon(8)/> Select <CommandIcon(9)/> Close <CommandIcon(11)/> Register"
+180,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
 181,"<CommandIcon(10)/> Subcommands"
 182,"<CommandIcon(9)/> Apply Changes and Close"
 183,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Display Minion List"
@@ -297,6 +297,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
      <Gui(16)/>　　　: Select summoning queue
      <CommandIcon(12)/>＋<Gui(10)/>  : Execute special action
      <CommandIcon(13)/>＋<CommandIcon(20)/>  : Move ground target pointer
+     <CommandIcon(13)/>＋<Gui(16)/>  : Reset ground target pointer
      <CommandIcon(18)/>  : Display help
   ・Minion Selection
      <CommandIcon(12)/>＋<Gui(8)/>  : Select all minions near currently selected minion
@@ -335,6 +336,7 @@ Permission to use, copy, modify, distribute and sell this software and its docum
      <Gui(16)/>　　　: Select summoning queue
      <CommandIcon(12)/>＋<Gui(10)/>  : Execute special action
      <CommandIcon(13)/>＋<CommandIcon(20)/>  : Move ground target pointer
+     <CommandIcon(13)/>＋<Gui(16)/>  : Reset ground target pointer
      <CommandIcon(18)/>  : Display help
   ・Minion Selection
      <CommandIcon(12)/>＋<Gui(8)/>  : Select all minions near currently selected minion
@@ -449,12 +451,12 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 277,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Edit Minion Hotbar"
 278,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands <CommandIcon(11)/> Move"
 279,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
-280,"<CommandIcon(5)/> History  <CommandIcon(10)/> Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/></If>"
+280,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/> Keyboard<Else/></If>"
 281,"<CommandIcon(5)/> Move  <CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands"
 282,"<CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands"
 283,"<CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Move"
 284,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
-285,"<CommandIcon(5)/> History  <CommandIcon(10)/>Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/></If>"
+285,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/></If>"
 286,"<CommandIcon(5)/> Move  <CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands"
 287,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/><CommandIcon(10)/> Confirm  <CommandIcon(9)/> Cancel"
 288,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands"
@@ -484,27 +486,27 @@ Permission to use, copy, modify, distribute and sell this software and its docum
 312,"<CommandIcon(8)/> Confirm"
 313,"<CommandIcon(10)/> Change Calls  <CommandIcon(11)/> Toggle Support Features"
 314,"<CommandIcon(8)/> Retrieve Online Status  <CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Return"
-315,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Act Info  <CommandIcon(8)/> Confirm Enemy's Resistances"
+315,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Act Info  <CommandIcon(8)/> Confirm Enemy's Vulnerabilities"
 316,"<CommandIcon(8)/> Confirm  <CommandIcon(10)/> Subcommands"
 317,"<CommandIcon(8)/> Select  <CommandIcon(10)/> Subcommands"
 318,"<CommandIcon(5)/> Scroll"
 319,"<CommandIcon(8)/> Select Item"
 320,"<CommandIcon(8)/> Add/Remove Party Member"
 321,"<CommandIcon(10)/>Subcommands  <CommandIcon(8)/> Add/Remove Party Member"
-322,""
-323,""
-324,""
+322,"<CommandIcon(8)/> Toggle On/Off  <CommandIcon(10)/> Toggle Others On/Off  <CommandIcon(11)/> Filter"
+323,"<CommandIcon(9)/> Close <CommandIcon(24)/> Scroll"
+324,"<CommandIcon(8)/> Select <CommandIcon(9)/> Close <CommandIcon(11)/> Register <CommandIcon(24)/> Scroll"
 325,""
-326,""
-327,""
+326,"<CommandIcon(10)/> Subcommands"
+327,"<CommandIcon(10)/>Subcommands  <CommandIcon(11)/>Enable/Disable Quick Gathering"
 328,""
-329,""
-330,""
-331,""
-332,""
-333,""
-334,""
-335,""
+329,"<CommandIcon(10)/> Subcommands"
+330,"<CommandIcon(10)/> Subcommands"
+331,"<CommandIcon(10)/> Subcommands"
+332,"<CommandIcon(10)/> Subcommands"
+333,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(8)/> Execute Action"
+334,"<CommandIcon(24)/> Scroll"
+335,"<CommandIcon(10)/> Subcommands"
 336,""
 337,""
 338,""
@@ -677,12 +679,91 @@ Toggle on/off on-screen UI elements.
 <UIForeground>F20202</UIForeground>Focus Target<UIForeground>01</UIForeground>
 Camera can be focused on any party member.
 "
-1003,""
-1004,""
-1005,""
-1006,""
-1007,""
-1008,""
-1009,""
-1010,""
+1003,"Fellowships"
+1004,"Fellowships are gatherings of players who share common interests. With up to 1,000 members permitted in each fellowship, they provide an excellent way to connect and socialize with like-minded adventurers.
+
+Anyone can create their own fellowship or become a member of another. Fellowships are cross-world, and you can belong to a maximum of ten at any given time.
+
+To search for fellowships that are currently recruiting, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Social<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>main menu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and then <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fellowship Finder<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+Each fellowship is led by a master, who can grant administrative rights to other members to assist them. The master role automatically falls to the fellowship's founder, but it can also be transferred to another.
+
+Join a fellowship or create your own, and gain access to its myriad benefits!"
+1005,"General Tab"
+1006,"■Message of the Day
+Leave a message for fellowship members to see, be it a motto, an announcement, or something random. Messages can be posted by the master and admin members.
+
+■Poll
+Polls can be created by the fellowship master and admin members. All members are eligible to cast one vote per poll.
+
+■Notices
+Post up to five notices at a time. This feature is available only to the fellowship master and admin members."
+1007,"Message Board Tab"
+1008,"All fellowship members can post comments to the message board.
+
+Up to 100 comments are displayed, with the oldest being deleted first. The fellowship master and admin members can delete comments at any time.
+
+* Characters on the free trial cannot post to the message board during their first 14 days as a fellowship member."
+1009,"Members Tab"
+1010,"Displays the list of fellowship members. Here you can carry out various administrative tasks such as appointing admin members and transferring master privileges.
+
+It is also possible to blacklist players. Doing so removes them from the fellowship and prevents them from rejoining in the future."
+1011,"Other Functions"
+1012,"■Settings
+This menu is accessible only to the master. Here you can rename the fellowship, set the fellowship's activities, manage the blacklist, and disband the fellowship. 
+
+■Recruitment
+Under this menu, you can recruit new members to the fellowship. Recruitment ends either when the target is reached, one week has elapsed, or the recruiter chooses to cancel the process. 
+
+■Admin
+The master can appoint admin members to assist in the management of the fellowship. Master privileges can only be transferred to an admin member. Furthermore, in order for the master to leave their fellowship, they must transfer their privileges first."
+1013,"Fellowship Finder"
+1014,"This menu displays the fellowships that are currently recruiting members, with the option to filter by activities and language."
+1015,"Important Information"
+1016,"<UIForeground>F20202</UIForeground>■Performance Actions: Important Information<UIForeground>01</UIForeground>
+When using the performance actions, you are strictly prohibited from performing the music of any third parties. You may record and upload your performance and hereby agree to license such recordings to us for use by Square Enix or others in accordance with the terms of the “FINAL FANTASY XIV Material Usage License”."
+1017,"Ensemble Mode"
+1018,"<UIForeground>F20202</UIForeground>■Overview<UIForeground>01</UIForeground>
+Ensemble mode makes it easier for you and your party members to play in sync for the benefit of your audience.
+
+<UIForeground>F20202</UIForeground>■Playback Differences between Performance and Ensemble Mode<UIForeground>01</UIForeground>
+When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.
+Those who select “Self Only” will only hear their own instrument, while “All Members” plays the instruments of all members with an increased delay.
+※“Playback Type” can be found in ensemble mode's settings menu.
+
+<UIForeground>F20202</UIForeground>■Entering Ensemble Mode<UIForeground>01</UIForeground>
+Follow the steps below to enter ensemble mode.
+ 1. Select “Ensemble Ready Check” from the metronome menu.
+ 2. With “Enter Ensemble Mode” enabled, select Begin.
+ 3. Once all party members have responded to the ready check, you will enter ensemble mode.
+
+<UIForeground>F20202</UIForeground>■Ensemble Mode Requirements<UIForeground>01</UIForeground>
+Ensemble mode can only be used if the following conditions have been met:
+ 1. The party leader is using Performance mode.
+ 2. All party members are in an area where Performance actions can be used. Ensemble mode cannot be used in inn rooms or Grand Company barracks.
+ 3. Each area has a limit on the number of ensembles that can be present at any given time. If this limit has been reached, you will not be able to use ensemble mode in that area.
+"
+1019,"Performance Assistance"
+1020,"<UIForeground>F20202</UIForeground>■Performance Assistance<UIForeground>01</UIForeground>
+This feature helps you to play along with a number of songs, with the timings and key presses displayed as you perform.
+
+<UIForeground>F20202</UIForeground>■Using Performance Assistance<UIForeground>01</UIForeground>
+Follow the steps below to use Performance Assistance.
+ 1. Select Performance Assistance from the Performance menu.
+ 2. Select a song.
+ 3. You may select the playback speed and whether or not to use a metronome.
+
+<UIForeground>F20202</UIForeground>■Important<UIForeground>01</UIForeground>
+If a party member initiates an ensemble mode ready check while you are using Performance Assistance, a “No” response will be sent automatically. For this reason, it is not advisable to use Performance Assistance while in a party.
+"
+1021,""
+1022,""
+1023,""
+1024,""
+1025,""
+1026,""
+1027,""
+1028,""
+1029,""
+1030,""
 2000,""
