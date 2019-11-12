@@ -152,7 +152,7 @@ int32,byte,byte,bit&01,byte,byte,byte,str,byte,WeaponTimeline,byte,byte,byte,uin
 148,0,3,False,0,0,1,"battle/partsbreak",0,0,0,0,3,0,False,False,0,True,False,True
 149,0,1,False,0,2,0,"status/facial/sleep_demi",0,0,0,0,0,0,False,False,0,False,False,True
 150,0,1,False,0,0,0,"normal/event_action_default_end",0,2,0,2,3,0,False,False,0,False,False,True
-151,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
+151,0,3,False,0,0,0,"normal/event_action_hwd_end",0,2,0,2,3,0,False,False,0,False,False,True
 152,0,1,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,True
 153,0,1,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,True
 154,0,1,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,True
@@ -6280,8 +6280,8 @@ int32,byte,byte,bit&01,byte,byte,byte,str,byte,WeaponTimeline,byte,byte,byte,uin
 6276,0,1,False,0,0,0,"emote/loop_emot22_start",0,2,0,2,0,0,True,True,0,False,False,True
 6277,0,0,True,0,0,0,"emote/loop_emot22_loop",0,2,1,2,0,0,True,True,0,False,False,True
 6278,0,1,False,0,0,0,"emote/act_emot17",0,2,1,2,0,0,True,True,0,False,False,True
-6279,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-6280,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
+6279,0,1,False,0,0,0,"emote/loop_emot23_start",0,2,1,2,0,0,True,True,0,False,False,True
+6280,0,0,True,0,0,0,"emote/loop_emot23_loop",0,2,1,2,0,0,True,True,0,False,False,True
 6281,3,1,False,0,0,2,"music/instrument03_start",2,2,1,2,0,0,False,True,0,False,False,True
 6282,0,0,True,0,0,2,"music/instrument03_idle",2,2,1,2,0,0,False,True,0,False,False,True
 6283,0,1,False,0,0,2,"music/instrument03_end",0,2,1,2,0,0,False,True,0,False,False,True
@@ -7347,8 +7347,8 @@ int32,byte,byte,bit&01,byte,byte,byte,str,byte,WeaponTimeline,byte,byte,byte,uin
 7343,2,0,True,0,0,3,"music/instrument04_play02_loop",0,2,1,2,0,0,False,True,0,False,False,True
 7344,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
 7345,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-7346,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-7347,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
+7346,0,3,True,0,0,1,"normal/hwd_fate_hammer_hit_wall_loop",0,2,1,2,0,0,True,True,0,False,False,True
+7347,0,3,True,0,0,1,"normal/hwd_fate_saw_wood_loop",0,2,1,2,0,0,True,True,0,False,False,True
 7348,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
 7349,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
 7350,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
@@ -7563,11 +7563,11 @@ int32,byte,byte,bit&01,byte,byte,byte,str,byte,WeaponTimeline,byte,byte,byte,uin
 7559,0,3,False,0,0,0,"mon_sp/gimmick/n4r1_boss3_gimmick07",0,0,0,0,0,0,False,False,0,False,False,True
 7560,0,3,False,0,0,0,"mon_sp/gimmick/n4r1_trush_gimmick01",0,0,0,0,0,0,False,False,0,False,False,True
 7561,0,3,False,0,0,1,"mon_sp/common/mon_sph055",0,1,0,1,0,0,False,False,0,False,False,True
-7562,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-7563,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-7564,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-7565,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
-7566,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
+7562,0,3,False,0,0,0,"mon_sp/gimmick/d2az_boss_gimmick01",0,0,0,0,0,0,False,False,0,False,False,True
+7563,0,3,False,0,0,0,"mon_sp/gimmick/d2az_boss_gimmick02",0,0,0,0,0,0,False,False,0,False,False,True
+7564,0,3,False,0,0,0,"mon_sp/gimmick/d2az_boss_gimmick03",0,0,0,0,0,0,False,False,0,False,False,True
+7565,0,3,False,0,0,0,"mon_sp/gimmick/d2az_boss_gimmick04",0,0,0,0,0,0,False,False,0,False,False,True
+7566,0,3,False,0,0,0,"mon_sp/gimmick/d2az_boss_gimmick05",0,0,0,0,0,0,False,False,0,False,False,True
 7567,0,3,False,0,0,1,"mount_sp/m0607/mon_sp001",0,0,1,0,1,0,False,False,0,False,False,True
 7568,0,3,False,0,0,0,"mon_sp/gimmick/n4r1_boss1_gimmick01",0,0,0,0,0,0,False,False,0,False,False,True
 7569,0,3,False,0,0,0,"mon_sp/gimmick/n4r1_boss1_gimmick02",0,0,0,0,0,0,False,False,0,False,False,True
@@ -7588,7 +7588,7 @@ int32,byte,byte,bit&01,byte,byte,byte,str,byte,WeaponTimeline,byte,byte,byte,uin
 7584,0,3,False,0,0,0,"mon_sp/m0631/mon_sp007",0,1,1,1,1,0,False,False,0,False,False,True
 7585,0,3,False,0,0,0,"mon_sp/m0631/mon_sp008",0,1,1,1,1,0,False,False,0,False,False,True
 7586,0,3,False,0,0,0,"mon_sp/m0631/mon_sp009",0,1,1,1,1,0,False,False,0,False,False,True
-7587,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
+7587,0,3,False,0,0,0,"mon_sp/gimmick/d2az_boss_gimmick06",0,0,0,0,0,0,False,False,0,False,False,True
 7588,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
 7589,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
 7590,0,0,False,0,0,0,"",0,0,0,0,0,0,False,False,0,False,False,False
