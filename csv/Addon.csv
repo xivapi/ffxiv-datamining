@@ -697,15 +697,15 @@ The following can be used to adjust speed in unvoiced cutscenes:
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>HP: <Value>IntegerParameter(3)</Value>"
 691,"<Clickable(<Sheet(ActStr,IntegerParameter(1),0)/>)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>MP: <Value>IntegerParameter(3)</Value>"
-692,"<Sheet(ActStr,IntegerParameter(1),0)/>
+692,"<Clickable(<Sheet(ActStr,IntegerParameter(1),0)/>)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>MP: All"
 693,"<Sheet(ActStr,IntegerParameter(1),0)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>TP: <Value>IntegerParameter(3)</Value>"
 694,"<Sheet(ActStr,IntegerParameter(1),0)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>TP: All"
-695,"<Sheet(ActStr,IntegerParameter(1),0)/>
+695,"<Clickable(<Sheet(ActStr,IntegerParameter(1),0)/>)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>GP: <Value>IntegerParameter(3)</Value>"
-696,"<Sheet(ActStr,IntegerParameter(1),0)/>
+696,"<Clickable(<Sheet(ActStr,IntegerParameter(1),0)/>)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>CP: <Value>IntegerParameter(3)</Value>"
 697,"<Sheet(ActStr,IntegerParameter(1),0)/>
 <If(IntegerParameter(2))>Lv. <Value>IntegerParameter(2)</Value> <Else/></If>MP: <Value>IntegerParameter(3)</Value>  TP: <Value>IntegerParameter(4)</Value>"
@@ -5078,7 +5078,7 @@ Please remove it from your hotbar."
 <Highlight>StringParameter(1)</Highlight>
  (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete the following duty:
 <Highlight>StringParameter(1)</Highlight></If>"
-5622,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Complete the following instanced dungeon:
+5622,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Commence one of the following instanced dungeons:
 <Highlight>StringParameter(1)</Highlight>
  (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete the following instanced dungeon:
 <Highlight>StringParameter(1)</Highlight></If>"
@@ -7680,7 +7680,7 @@ Accept?"
 8831,"Currently not accepting donations."
 8832,"The Masked Carnivale"
 8833,"Confirm weekly target progression."
-8834," <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value>:<Else/></If><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value><Else/><If(GreaterThan(IntegerParameter(1),0))><Else/> Less than 1 minute</If></If> remaining <Time(IntegerParameter(3))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThan(IntegerParameter(4),0))>All Complete<Else/>Incomplete</If>"
+8834," <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value>:<Else/></If><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value><Else/><If(GreaterThan(IntegerParameter(1),0))><Else/> Less than 1 minute</If></If> Remaining (<Time(IntegerParameter(3))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>) <If(GreaterThan(IntegerParameter(4),0))>All Complete<Else/>Incomplete</If>"
 8835,"Weekly Target Conditions"
 8836,"C"
 8837,"B"
@@ -8519,8 +8519,7 @@ Proceed?"
 10007,"Set special participation requirements."
 10008,"Undersized Party"
 10009,"Participate in duties without meeting the minimum party member requirements.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Level sync and item level sync are
-　disabled and role requirements are ignored.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Level sync and item level sync are disabled and role requirements are ignored.
 ※Defeating enemies will yield no EXP or items.
 ※Role requirements are not enforced for this duty.
 ※Only certain duties allow undersized parties.
@@ -10357,8 +10356,13 @@ Failing to reply in the allotted time will also render a vote “No.”"
 11888,"Registration Period"
 11889,"Registration Period"
 11890,"<Highlight>StringParameter(1)</Highlight>, <If(GreaterThanOrEqualTo(IntegerParameter(5),25))>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue><Else/><If(GreaterThanOrEqualTo(IntegerParameter(6),25))><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Else/><Value>IntegerParameter(5)</Value>:<ZeroPaddedValue(2)>IntegerParameter(3)</ZeroPaddedValue>～<Value>IntegerParameter(6)</Value>:<ZeroPaddedValue(2)>IntegerParameter(4)</ZeroPaddedValue></If> <If(GreaterThanOrEqualTo(IntegerParameter(1),12))>p.m.<Else/>a.m.</If><If(GreaterThanOrEqualTo(IntegerParameter(2),12))>p.m.<Else/>a.m.</If></If>"
+11891,"Tactical Rating"
 11892,"The goblin mercenary is
 readying for deployment."
+11893,"Tactical Points Earned from Ovoo Claims"
+11894,"Tactical Points Earned from Enemy Kills"
+11895,"Tactical Points Lost by KO"
+11896,"Total Tactical Rating"
 11897,"Knockout!"
 11898,"Assist!"
 11899,"Down..."
@@ -10552,7 +10556,7 @@ Select your keyboard type."
 12098,"Keyboard mode"
 12099,"<If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If> mode"
 12100,"Ensemble Mode"
-12101,"When ensemble mode is enabled, all party members will be heard in synch by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.
+12101,"When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.
 Those who select “Self Only” will only hear their own instrument, while “All Members” plays the instruments of all members with an increased delay."
 12102,"Help"
 12103,"♯"
@@ -10645,6 +10649,12 @@ Swaps numbers that have already been assigned."
 12186,"Dispel"
 12187,"Use <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/> to dispel selected glamours?"
 12188,"Check all on/off."
+12195,"<If(GreaterThan(IntegerParameter(2),0))>★<Else/>　</If><Switch(IntegerParameter(1))><Case(1)><Gui(51)/></Case><Case(2)><Gui(52)/></Case><Case(3)><Gui(53)/></Case></Switch>The <Sheet(GrandCompany,IntegerParameter(1),0)/>
+Tactical Rating"
+12196,"Active"
+12197,"Claiming <Switch(IntegerParameter(1))><Case(1)><Gui(51)/></Case><Case(2)><Gui(52)/></Case><Case(3)><Gui(53)/></Case></Switch>"
+12198,"Claimed <Switch(IntegerParameter(1))><Case(1)><Gui(51)/></Case><Case(2)><Gui(52)/></Case><Case(3)><Gui(53)/></Case></Switch>"
+12199,"<Sheet(PlaceName,IntegerParameter(1),0)/> <Switch(IntegerParameter(2))><Case(1)>Rank B</Case><Case(2)>Rank A</Case><Case(3)>Rank S</Case></Switch>"
 12200,"Item Search List"
 12201,""
 12202,"Item"
@@ -10914,8 +10924,10 @@ Swaps numbers that have already been assigned."
 12467,"Bonus List"
 12468,"Close"
 12469,"Complete!"
+12470,"Blue Magic Spellbook"
+12471,"Blue Mage Log"
 12472,"Slow"
-12473,"Petrification"
+12473,"Petrification/Freeze"
 12474,"Paralysis"
 12475,"Interruption"
 12476,"Blind"
@@ -10923,7 +10935,7 @@ Swaps numbers that have already been assigned."
 12478,"Sleep"
 12479,"Bind"
 12480,"Heavy"
-12481,"Instant Death"
+12481,"Flat Damage/Death"
 12482,"Low"
 12483,"Below Average"
 12484,"Average"
@@ -11028,6 +11040,20 @@ The following restrictions apply when playing on servers other than your Home Wo
 12542,"Current World"
 12543,"World Info"
 12544,"World List"
+12545,"Blue Mage Log"
+12546,""
+12547,"Recruit Members"
+12548,"Commence Duty"
+12549,"Complete"
+12550,"<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
+12551,"This Week's Prime Target"
+12552,"First-time Reward"
+12553,"Reward"
+12554,"Weekly Target Reward"
+12555,"Time Remaining: <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value> h <Else/></If><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> m <Else/><If(GreaterThan(IntegerParameter(1),0))><Else/>less than 1 minute</If></If><Time(IntegerParameter(3))/>[<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]"
+12556,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Target Expired<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+12557,"Information"
+12558,"Requirements"
 12559,"Display Crystarium Deliveries help."
 12560,"Esteem Level"
 12561,"Esteem"
@@ -11060,7 +11086,7 @@ The following restrictions apply when playing on servers other than your Home Wo
 12588,"None"
 12589,"Selling <Value>IntegerParameter(1)</Value> <If(LessThanOrEqualTo(IntegerParameter(1),1))>item<Else/>items</If>"
 12590,"None in progress"
-12591,"Complete in <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value>h<If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>m<Else/>1m</If></If>"
+12591,"Complete in <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value>h <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>m<Else/></If><Else/> <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>m<Else/>1m</If></If>"
 12592,"Complete"
 12593,"Sort Retainers"
 12594,""
@@ -11069,7 +11095,7 @@ The following restrictions apply when playing on servers other than your Home Wo
 12597,"Selling <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>item<Else/>items</If> until <Time(IntegerParameter(2))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>"
 12598,"None in progress"
 12599,"<If(GreaterThan(IntegerParameter(1),0))> <Value>IntegerParameter(1)</Value> <Else/></If><Highlight>StringParameter(2)</Highlight>"
-12600,"<Highlight>StringParameter(1)</Highlight> (complete in <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>h<If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>m<Else/></If><Else/><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>m<Else/>1m</If></If>)"
+12600,"<Highlight>StringParameter(1)</Highlight> (complete in <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>h <If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>m<Else/></If><Else/> <If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>m<Else/>1m</If></If>)"
 12601,"Complete"
 12602,"Contract Suspended"
 12603,"Items for Sale:"
@@ -11454,7 +11480,7 @@ When all party members are ready, the count-in will commence."
 13071,"BPM Setting (30 - 200)"
 13072,"Beats per Measure (2 - 7)"
 13073,"Enter ensemble mode."
-13074,"When ensemble mode is enabled, all party members will be heard in synch by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.
+13074,"When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.
 Those who select “Self Only” will only hear their own instrument, while “All Members” plays the instruments of all members with an increased delay."
 13075,"Begin"
 13076,"Close"
@@ -11478,7 +11504,7 @@ Join the ensemble?
 13095,"Speed: <38>E8020BFF022E</38>"
 13096,"Begin"
 13097,"Close"
-13098,"Select a song to play with Performance Assistance."
+13098,"Performance Assistance is available for these songs:"
 13099,"Stop using Performance Assistance?"
 13100,"Type"
 13101,"Magical"
@@ -11510,6 +11536,14 @@ Join the ensemble?
 13127,"No matches."
 13128,"Status Inflicted"
 13129,"Select Filters"
+13130,"???"
+13131,"<UIForeground>02</UIForeground><UIGlow>11</UIGlow>You have not unlocked this duty.<UIForeground>01</UIForeground><UIGlow>01</UIGlow>"
+13132,"Time Limit: <Value>IntegerParameter(1)</Value>m / <Sheet(PlaceName,IntegerParameter(2),0)/>"
+13133,"<If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> parties of <Else/></If><Value>IntegerParameter(1)</Value> players<If(GreaterThan(IntegerParameter(3),0))>
+Average item level: <Value>IntegerParameter(3)</Value><Else/></If>
+* The completion of duties will only count towards blue mage log progress if the party meets the size requirements. For this reason, it is recommended that you avoid using the “Undersized Party” option."
+13134,"Search for Parties Recruiting"
+13135,"Currently Recruiting"
 13140,"Character Display Settings"
 13141,"Controlled Character"
 13142,"Non-controlled Characters"
