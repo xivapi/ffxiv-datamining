@@ -1,5 +1,16 @@
 # Quest Exp Reward
 
+
+Formaula: 
+
+```
+exp = ([Quest] ExpFactor * [ParamGrow] ScaledQuestXP * [ParamGrow] QuestExpModifier) / 100
+```
+
+----
+
+## Below is out of date as of 5.0 and inaccurate.
+
 Quest experience points are generated using a small equation.
 
 Why this is done I am not sure as the values always seem static.
