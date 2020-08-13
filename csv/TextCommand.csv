@@ -226,7 +226,7 @@ USAGE:
 
 →Opens the New Game+ interface.","","",32,0
 26,2,1,2,0,0,"/dice","","USAGE:
-　/dice [chat mode]
+　/dice [chat mode] [subcommand]
 
 →Displays a random number between 0 and 999 in the specified chat channel. Displays in the current chat mode when no chat mode is specified.
 
@@ -244,14 +244,30 @@ USAGE:
 　Cross-world Linkshell
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cwlinkshell1-8<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cwl1-8<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[upper limit]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Set an upper limit to display a random number between 1 and the specified number. Displays a random number between 0 and 999 when no upper limit is specified.
+　　Upper limit range: 2-999
+
 >>Examples:
 　/dice
 　(Displays a random number
 　in the current chat mode.)
 
-　/dice cwl
+　/dice 16
+　(Displays a random number
+　between 1 and 16 in the
+　current chat mode.)
+
+　/dice cwl1
 　(Displays a random number
 　in the Cross-world Linkshell 1
+　channel.)
+
+　/dice cwl1 16
+　(Displays a random number
+　between 1 and 16 in the
+　Cross-world Linkshell 1
 　channel.)","","",36,1000
 27,3,1,2,0,0,"/nameplatetype","","USAGE:
 　/nameplatetype [category] [setting number]
@@ -311,6 +327,24 @@ USAGE:
 　/nameplatetype all 4
 　(Set display names to never
 　display for all players.)","","",36,0
+29,2,1,20,0,0,"/fashion","","USAGE:
+　/fashion [accessory]
+
+→Equip a specified fashion accessory.
+
+>>Example:
+　/fashion “parasol”
+　(Equip the parasol accessory.)","","",36,0
+30,1,0,0,0,0,"/fashionguide","","USAGE:
+　/fashionguide
+
+→Opens and closes the Fashion Accessories interface.","/fashionguide","",32,0
+31,1,0,0,0,0,"/officialsite","/site","ALIASES:
+　/officialsite, /site
+USAGE:
+　/officialsite
+
+→Opens and closes the Official Sites interface.","","",32,0
 91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -861,12 +895,20 @@ Opens the HUD layout editor if no subcommand is specified.
 　/shutdown
 
 →Log out and close the game.","","",32,0
-174,1,0,0,0,0,"/partysort","/psort","ALIASES:
+174,3,0,0,0,0,"/partysort","/psort","ALIASES:
 　/partysort, /psort
 USAGE:
-　/partysort
+　/partysort [subcommand]
 
-→Sort the party list in the specified order.","","",36,0
+→Change the order of specified party members in the party list.
+
+>>Subcommand:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[party member 1] [party member 2]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Switch the position of party member 1 and party member 2 in the party list.
+
+>>Example:
+　/partysort 2 4
+　Switch the position of party member 2 and party member 4 in the party list.","","",36,0
 175,1,0,0,0,0,"/readycheck","/rcheck","ALIASES:
 　/readycheck, /rcheck
 USAGE:
@@ -902,7 +944,7 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>d<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Place or remove waymark D. Overwrites existing waymark if target is specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Place or remove waymark 1. Overwrites existing wayrmark if target is specified.
+　　Place or remove waymark 1. Overwrites existing waymark if target is specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Place or remove waymark 2. Overwrites existing waymark if target is specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -1230,8 +1272,9 @@ USAGE:
 
 >>Categories:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>inventory<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>retainer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>armoury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>oh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>head<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>body<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>hands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>waist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>legs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>neck<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ears<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>saddlebag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rightsaddlebag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>oh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>head<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>body<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>hands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>waist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>legs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>neck<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ears<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>wrists<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>soul<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Conditions:
@@ -1247,7 +1290,7 @@ USAGE:
 >>Order:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>asc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>des<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-Defaults to ascending if order is not specified. Cannot be used if one of the conditions is ""tab"".
+Defaults to ascending if order is not specified. Retainer and saddlebag inventories must be open when specified as categories. Cannot be used if one of the conditions is ""tab"".
 
 >>Examples:
 　/isort condition mh lv asc
@@ -1262,9 +1305,24 @@ Defaults to ascending if order is not specified. Cannot be used if one of the co
 　(Sorts main arms based on
 　the above conditions.) ","","",36,0
 211,2,1,2,0,0,"/random","","USAGE:
-　/random
+　/random [subcommand]
 
-→Displays within a /say radius a random number between 0 and 999.","","",36,0
+→Displays within a /say radius a random number between 0 and 999.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[upper limit]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Set an upper limit to display a random number between 1 and the specified number. Displays a random number between 0 and 999 when no upper limit is specified.
+　　Upper limit range: 2-999
+
+>>Examples:
+　/random
+　(Displays a random number
+　within a /say radius.)
+
+　/random 16
+　(Displays a random number
+　between 1 and 16 within a
+　/say radius.)","","",36,0
 212,1,0,0,0,0,"/instance","","USAGE:
 　/instance
 
@@ -2160,6 +2218,8 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crosshotbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Scenario Guide
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ScenarioGuide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Compressed Aether
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CompressedAether<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Battle High Gauge
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BattleHighGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Rival Wings Alliance List
@@ -2410,10 +2470,10 @@ Toggle between on and off when no subcommand is specified.","","",36,0
 　　Set the specified waymark to slot [#2] in hotbar [#1].
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>change [number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Replace current hotbar with hotbar [number].  If ""next"" or ""prev"" is entered in [number], then you can scroll through the pages of hotbar 1.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>copy [class 1] [#1] [class 2] [#2]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Copy the contents of [class 1] hotbar [#1] to the [class 2] hotbar [#2].
-　　The subcommand ""current"" can be used to specify your current class.
-　　The subcommand ""share"" can be used instead of a class to specify your shared hotbar.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>copy [job 1] [#1] [job 2] [#2]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Copy the contents of [job 1] hotbar [#1] to the [job 2] hotbar [#2].
+　　The subcommand ""current"" can be used to specify your current job.
+　　The subcommand ""share"" can be used instead of a job to specify your shared hotbar.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>display [number] on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display hotbar [number].
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>display [number] off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -2423,7 +2483,7 @@ Toggle between on and off when no subcommand is specified.","","",36,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>share [number] on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Make hotbar [number] shared.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>share [number] off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Unshare hotbar [number] and assign it to your current class/job.
+　　Unshare hotbar [number] and assign it to your current job.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>share [number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Toggle between on/off.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [#1] [#2]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -2468,10 +2528,10 @@ USAGE:
 　　Set the specified waymark to [slot name] in cross hotbar [number].
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>change [number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Replace current cross hotbar with cross hotbar [number]. Enter ""prev"" or ""next"" for [number] to scroll through the cross hotbars.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>copy [class 1] [number 1] [class 2] [number 2]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Copy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].
-　　The subcommand ""current"" can be used to specify your current class.
-　　The subcommand ""share"" can be used instead of a class to specify your shared cross hotbar.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>copy [job 1] [number 1] [job 2] [number 2]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Copy the contents of [job 1] cross hotbar [number 1] to the [job 2] cross hotbar [number 2].
+　　The subcommand ""current"" can be used to specify your current job.
+　　The subcommand ""share"" can be used instead of a job to specify your shared cross hotbar.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>display [number] on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Display cross hotbar [number].
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>display [number] off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -2481,7 +2541,7 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>share [number] on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Make cross hotbar [number] shared.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>share [number] off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Unshare cross hotbar [number] and assign it to your current class/job.
+　　Unshare cross hotbar [number] and assign it to your current job.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>share [number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Toggle between on/off.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [number] [slot name]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -4353,6 +4413,44 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　/insist [subcommand]
 
 →Speak emphatically to get your point across.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+610,2,1,2,0,0,"/consider","/hmm","ALIASES:
+　/consider, /hmm
+USAGE:
+　/consider [subcommand]
+
+→Mull over a curious question.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+613,2,1,2,0,0,"/flamedance","","USAGE:
+　/flamedance [subcommand]
+
+→Perform the flame dance.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+617,2,1,2,0,0,"/beesknees","","USAGE:
+　/beesknees [subcommand]
+
+→Perform the bee's knees dance.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+618,2,1,2,0,0,"/lalihop","","USAGE:
+　/lalihop [subcommand]
+
+→Perform the lali hop.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
