@@ -31,6 +31,10 @@ Wings, eg: Icarus Wing, restores TP
 ###	2120	
 Cards and Eggs + Starlite giftbox, nothing in data_0, unsure the meaning
 
+### 20086
+Unlock Ornament (Fashion Accessory) 
+- `data_0` = `Ornament`
+
 ###	2136	
 Unlocks master recipes, (eg Master Carpenter I), 
 - `data_0` = `SecretRecipeBook`
