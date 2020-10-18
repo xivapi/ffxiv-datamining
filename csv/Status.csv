@@ -43,7 +43,7 @@ int32,str,str,Image,byte,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,b
 39,"Stun Resistance","Immune to stun effects.",15566,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,100,0,False,0,False,False,0,0,False
 40,"Silence Resistance","Immune to silence effects.",15567,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,100,0,False,0,False,False,0,0,False
 41,"Crafting Facility","Maximum CP is increased for crafters level 70 or below.",16107,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,10,0,False,0,False,False,0,0,False
-42,"The Echo","Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",16207,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,15,0,False,0,False,False,0,0,False
+42,"The Echo","Maximum HP, damage dealt, and potency of HP restoration actions are increased.",16207,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,15,0,False,0,False,False,0,0,False
 43,"Weakness","Strength, dexterity, intelligence, and mind are reduced by 25%.",15010,0,1,2,0,0,False,False,False,False,False,False,False,False,False,100,False,False,False,0,0,False,0,False,False,0,0,False
 44,"Brink of Death","Strength, dexterity, intelligence, and mind are reduced by 50%.",15011,0,1,2,0,0,False,False,False,False,False,False,False,False,False,100,False,False,False,0,0,False,0,False,False,0,0,False
 45,"Crafter's Grace","Increased experience point gains as a Disciple of the Hand.",16106,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,False,0,False,False,0,0,False
@@ -241,7 +241,7 @@ Enhanced Thrill of Battle Effect: HP recovery via healing actions is increased."
 236,"Choco Beak","Bleeding HP over time.",15522,0,1,2,17,0,False,False,False,False,False,False,False,False,False,10,False,False,True,25,0,False,0,False,False,0,0,False
 237,"Choco Regen","Regenerating HP over time.",12626,0,1,1,16,0,False,False,False,False,False,False,False,False,False,5,False,False,True,10,0,False,0,False,False,0,0,False
 238,"Choco Surge","HP restoration via healing magic is increased.",15058,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,30,0,False,0,False,False,0,0,False
-239,"The Echo","Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",16207,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,15,0,False,0,False,False,0,0,False
+239,"The Echo","Maximum HP, damage dealt, and potency of HP restoration actions are increased.",16207,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,15,0,False,0,False,False,0,0,False
 240,"Heavy","Movement speed is reduced.",15002,0,1,2,4,6,False,False,False,False,False,False,False,False,False,100,False,False,False,0,1,False,0,False,False,0,0,False
 241,"Blessing of Light","Bathed in the light of the Mothercrystal.",15548,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,50,0,True,0,False,False,0,0,False
 242,"Arbor Call II","Surveying the land for the highest-level mature tree or lush vegetation.",11053,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
@@ -1552,7 +1552,7 @@ Enhanced Requiescat Effect: Spells require no time to cast.",12514,0,1,1,16,0,Fa
 1544,"Damage Up","Damage dealt is increased.",17061,2,1,1,16,0,False,False,False,False,False,False,False,True,True,2,False,False,False,20,0,False,0,False,False,0,0,False
 1545,"Vulnerability Down","Damage taken is reduced.",17301,2,1,1,16,0,False,False,False,False,False,False,False,True,True,1,False,False,False,-20,0,False,0,False,False,0,0,False
 1546,"Odder","Transformed into an otter and unable to execute actions.",16707,0,1,2,17,0,False,False,False,False,True,False,False,False,False,100,False,False,False,-50,2,False,0,False,False,0,0,False
-1547,"True Self","Maximum HP, damage dealt, and HP recovered via healing magic and actions are increased.",15869,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,15,0,False,0,False,False,0,0,False
+1547,"True Self","Maximum HP, damage dealt, and potency of HP restoration actions are increased.",15869,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,15,0,False,0,False,False,0,0,False
 1548,"Sprint","Movement speed is increased.",10101,0,1,1,0,0,False,False,False,False,False,False,False,True,True,1,False,False,False,0,0,True,0,False,False,0,6,False
 1549,"Unmagicked","Unable to use magicite.",16708,0,1,2,17,0,False,False,False,False,False,False,False,True,True,50,False,False,False,0,0,False,0,False,False,0,0,False
 1550,"Magnetic Lysis +","Body is exhibiting a positive magnetic charge.",15854,0,1,2,17,60,False,False,False,False,False,False,False,False,False,1,False,False,False,0,0,False,0,False,False,0,0,False
@@ -1712,9 +1712,9 @@ Enhanced Requiescat Effect: Spells require no time to cast.",12514,0,1,1,16,0,Fa
 1704,"Looper","Corrupted by Omega's program loop.",15892,0,1,2,17,83,False,False,False,False,False,False,False,False,False,200,False,False,False,0,0,True,0,False,True,0,0,False
 1705,"Hidden","Unable to be detected. Movement speed is severely reduced.",10607,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,0,1,False,0,False,True,0,2,False
 1706,"Evasion Up","Evasion is enhanced.",15062,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,10,0,False,0,False,False,0,0,False
-1707,"Right Unseen","Only vulnerabilities on the right side of the body remain undetected. Damage taken to the front, back, and left sides of the body will result in K.O.",15939,0,1,2,17,87,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
-1708,"Left Unseen","Only vulnerabilities on the left side of the body remain undetected. Damage taken to the front, back, and right sides of the body will result in K.O.",15940,0,1,2,17,88,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
-1709,"Back Unseen","Only vulnerabilities on the back of the body remain undetected. Damage taken to the front, right, and left sides of the body will result in K.O.",15941,0,1,2,17,86,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
+1707,"Right Unseen","Only vulnerabilities on the right side of the body remain undetected. Hits to the front, back, and left sides of the body will result in severe damage.",15939,0,1,2,17,87,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
+1708,"Left Unseen","Only vulnerabilities on the left side of the body remain undetected. Hits to the front, back, and right sides of the body will result in severe damage.",15940,0,1,2,17,88,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
+1709,"Back Unseen","Only vulnerabilities on the back of the body remain undetected. Hits to the front, right, and left sides of the body will result in severe damage.",15941,0,1,2,17,86,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
 1710,"Astral Essence","Astrally charged attacks are enhanced.",15950,0,1,1,16,89,False,False,False,False,False,False,False,True,True,199,False,False,False,0,0,False,0,False,False,0,0,False
 1711,"Umbral Essence","Umbrally charged attacks are enhanced.",15951,0,1,1,16,90,False,False,False,False,False,False,False,True,True,199,False,False,False,0,0,False,0,False,False,0,0,False
 1712,"Astral Cloak","Enshrouded in light and resistant to certain umbrally charged attacks. ",15952,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,0,0,False,0,False,False,0,0,False
@@ -2076,7 +2076,7 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 2066,"Drained Power","Damage taken is increased.",14870,0,149,2,17,0,False,False,False,False,False,False,False,False,False,0,False,False,False,10,0,True,0,False,False,0,0,False
 2067,"Drained Fortitude","Damage dealt and potency of all HP restoration actions are reduced.",14872,0,149,2,17,0,False,False,False,False,False,False,False,False,False,0,False,False,False,-10,0,True,0,False,False,0,0,False
 2068,"Smackdown","Accuracy and damage dealt are increased.",15115,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,10,0,False,0,False,False,0,0,False
-2069,"Dissipation","HP recovered via healing magic and actions is increased.",12805,0,29,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,50,0,True,0,False,False,0,0,False
+2069,"Dissipation","Potency of all HP restoration actions is increased.",12805,0,29,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,50,0,True,0,False,False,0,0,False
 2070,"Diurnal Opposition","Regenerating HP over time.",13246,0,99,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,100,0,True,0,False,False,0,0,False
 2071,"Nocturnal Opposition","An aetherial barrier is preventing damage.",13247,0,99,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,True,0,False,False,0,12,False
 2072,"Focalization","HP recovery via healing actions is increased.",14813,0,29,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,20,0,True,0,False,False,0,0,False
@@ -2291,7 +2291,7 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 2281,"Fully Enlarged","Body has grown to maximum size.",15971,0,1,1,16,0,False,False,False,False,True,False,False,True,False,200,False,False,False,100,26,False,0,False,False,0,0,False
 2282,"Embolden","Damage dealt is increased.",18921,5,112,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,3,0,True,0,False,False,0,0,False
 2283,"Collective Unconscious","An area of mind attunement is created, reducing damage taken for all who enter.",13227,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,0,4,True,0,False,False,0,27,False
-2284,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2284,"Running Wild","Unleashing full strength, as commanded.",15255,0,1,1,16,207,False,False,False,False,False,False,False,False,False,0,False,False,False,50,0,False,0,False,False,0,0,False
 2285,"Fetters","Unable to execute actions and sustaining damage over time.",15545,0,1,2,17,0,True,False,True,True,False,False,False,True,True,100,False,False,False,20,0,False,0,False,False,3,0,False
 2286,"Fetters","Unable to execute actions.",15545,0,1,2,17,173,True,False,True,True,False,False,False,True,False,100,False,False,False,0,4,False,0,False,False,0,0,False
 2287,"True Hallowed Ground","Impervious to all damage.",12504,0,1,1,16,0,False,False,False,False,False,False,False,False,False,200,False,False,False,0,0,False,0,False,False,0,1,False
@@ -2308,112 +2308,116 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 2298,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
 2299,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
 2300,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2301,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2302,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2301,"Tender Anaphylaxis","Smothered with affection. Damage taken by certain attacks is increased.",15268,0,1,2,17,0,False,False,False,False,False,False,False,True,True,200,False,False,False,0,0,False,0,False,False,0,0,False
+2302,"Jealous Anaphylaxis","Smothered with possessive bitterness. Damage taken by certain attacks is increased.",15269,0,1,2,17,0,False,False,False,False,False,False,False,True,True,200,False,False,False,0,0,False,0,False,False,0,0,False
 2303,"True Walking Dead","Certain death when counter reaches zero. Effect dissipates upon being healed by an amount that totals your maximum HP.",15270,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,100,0,False,0,False,False,0,25,False
 2304,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2305,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2306,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2305,"Zombification","Turned into a mindless zombie under enemy control.",15559,0,1,2,17,0,False,False,False,True,False,True,False,False,False,100,False,False,False,1051,0,False,0,False,False,0,0,False
+2306,"Boot Camp Mode","Boot Camp protocol is loaded.",15875,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,0,0,False,0,False,False,0,0,False
 2307,"Safety Lock: Pyretic Booster","Safety lock is on, preventing use of the Pyretic Booster.",15259,0,1,2,17,0,False,False,False,False,False,False,False,True,True,199,False,False,False,0,0,False,0,False,False,0,0,False
 2308,"Safety Lock: Aetherial Aegis","Safety lock is on, preventing use of the Aetherial Aegis.",15260,0,1,2,17,0,False,False,False,False,False,False,False,True,True,199,False,False,False,0,0,False,0,False,False,0,0,False
 2309,"A Bit Berserk","Getting a taste for violence. Will go <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Truly Berserk<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon reaching maximum stacks.",17251,8,1,2,17,183,False,False,False,False,False,False,False,True,True,100,False,False,False,2000,0,False,0,False,False,0,0,False
 2310,"Truly Berserk","Thoughtlessly raining auto-attacks upon main target while inflicting great damage to self with each one.",15276,0,1,2,17,184,False,False,False,True,False,True,False,False,False,100,False,False,False,5449,0,False,0,False,False,0,0,False
-2311,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2312,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2313,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2314,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2315,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2316,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2317,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2318,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2319,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2320,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2321,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2322,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2323,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2324,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2325,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2326,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2327,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2328,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2329,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2330,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2331,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2332,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2333,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2334,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2335,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2336,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2337,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2338,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2339,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2340,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2341,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2342,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2343,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2344,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2345,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2346,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2347,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2348,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2349,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2311,"Spirit of the Aetherweaver","Damage dealt is increased.",16660,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,80,0,False,0,False,False,0,0,False
+2312,"Spirit of the Martialist","Damage dealt is increased.",16661,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,60,0,False,0,False,False,0,0,False
+2313,"Spirit of the Savior","Potency of all HP restoration actions is increased.",16662,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,60,0,False,0,False,False,0,0,False
+2314,"Spirit of the Veteran","Maximum HP and defense are increased.",16663,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,150,29,False,0,False,False,0,0,False
+2315,"Spirit of the Platebearer","Maximum HP and defense are increased.",16664,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,80,29,False,0,False,False,0,0,False
+2316,"Spirit of the Guardian","Maximum HP and defense are increased.",16665,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,30,0,False,0,False,False,0,0,False
+2317,"Spirit of the Ordained","Maximum MP, damage dealt, and potency of all HP restoration actions are increased.",16666,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,50,30,False,0,False,False,0,0,False
+2318,"Spirit of the Skirmisher","Damage dealt and critical hit rate are increased.",16667,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,20,0,False,0,False,False,0,0,False
+2319,"Spirit of the Watcher","Evasion is increased while maximum HP is reduced.",16668,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,40,0,False,0,False,False,0,0,False
+2320,"Spirit of the Profane","Damage dealt is increased while potency of all HP restoration actions is reduced.",16669,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,-70,0,False,0,False,False,0,0,False
+2321,"Spirit of the Irregular","Damage dealt and taken is increased while maximum HP is reduced.",16670,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,90,29,False,0,False,False,0,0,False
+2322,"Spirit of the Breathtaker","Evasion, movement speed, and poison resistance are increased.",16671,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,10,0,False,0,False,False,0,0,False
+2323,"Spirit of the Bloodsucker","Damage dealt is increased, and attacks generate HP equal to a portion of damage dealt.",16672,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,40,0,False,0,False,False,0,0,False
+2324,"Spirit of the Beast","Maximum HP and defense are increased, and attacks generate HP equal to a portion of damage dealt.",16673,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,50,0,False,0,False,False,0,0,False
+2325,"Spirit of the Templar","Maximum HP, defense, and damage dealt are increased.",16674,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,False,False,False,50,29,False,0,False,False,0,0,False
+2326,"Banner of Noble Ends","HP recovered via most healing actions is nullified, but damage dealt is increased.",16690,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,50,0,False,0,False,False,0,0,False
+2327,"Banner of Honored Sacrifice","Sustaining damage over time in exchange for dealing increased damage.",16691,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,55,0,False,0,False,False,0,0,False
+2328,"Banner of Tireless Conviction","Damage taken is increased, but your conviction is strengthened with each attack received. At maximum stacks, take up the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Banner of Unyielding Defense<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Banner of Unyielding Defense Effect: Damage taken is reduced.",19761,5,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,15,0,False,0,False,False,0,0,False
+2329,"Banner of Firm Resolve","Damage dealt is reduced, but your resolve is strengthened with each attack received. At maximum stacks, take up the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Banner of Unyielding Defense<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Banner of Unyielding Defense Effect: Damage taken is reduced.",19781,5,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,-15,0,False,0,False,False,0,0,False
+2330,"Banner of Solemn Clarity","You take a moment to still your mind, gaining clarity as time passes. At maximum stacks, take up the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Banner of Limitless Grace<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Banner of Limitless Grace Effect: Potency of HP restoration actions is increased while MP cost is reduced.",19801,4,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,0,0,False,0,False,False,0,27,False
+2331,"Banner of Honed Acuity","Damage taken is increased, but your senses sharpen with each attack evaded. At maximum stacks, take up the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Banner of Transcendent Finesse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Banner of Transcendent Finesse Effect: Critical hit rate is increased while weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced.",19821,3,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,10,0,False,0,False,False,0,0,False
+2332,"Lost Font of Magic","Increasing damage dealt while draining own MP.",16675,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,70,0,False,0,False,False,0,0,False
+2333,"Lost Protect","Physical damage taken is reduced.",16676,0,1,1,16,0,False,False,False,False,False,False,False,False,False,36,False,False,False,-10,0,False,0,False,False,0,0,False
+2334,"Lost Shell","Magic damage taken is reduced.",16677,0,1,1,16,0,False,False,False,False,False,False,False,False,False,35,False,False,False,-10,0,False,0,False,False,0,0,False
+2335,"Lost Swift","Movement speed is increased.",16678,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,6,False
+2336,"Lost Stealth","Unable to be detected. Movement speed is severely reduced.",16679,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,0,1,False,0,False,True,0,2,False
+2337,"Lost Reflect","Reflecting magic back on its caster.",16680,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,0,0,False,0,False,False,0,40,False
+2338,"Lost Spellforge","All attacks deal magic damage.",16696,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,0,0,False,0,False,False,0,37,False
+2339,"Lost Steelsting","All attacks deal physical damage.",16681,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,0,0,False,0,False,False,0,37,False
+2340,"Lost Banish","Damage taken is increased.",16682,0,1,2,17,0,False,False,False,False,False,False,True,False,False,50,False,False,False,30,0,False,0,False,False,0,0,False
+2341,"Lost Bravery","Damage dealt is increased.",16683,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,5,0,False,0,False,False,0,0,False
+2342,"Auto-potion","Recover HP automatically when HP falls below 50%. When triggered, there is a 50% chance the effect will end. While enlivened by the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Spirit of the Breathtaker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, this chance is reduced to 10%.",16684,0,1,1,16,0,False,False,False,False,False,False,False,False,False,25,False,False,False,100,0,False,0,False,False,0,25,False
+2343,"Auto-ether","Recover MP automatically when MP falls below 20%. When triggered, there is a 50% chance the effect will end. While enlivened by the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Spirit of the Breathtaker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, this chance is reduced to 10%.",16685,0,1,1,16,0,False,False,False,False,False,False,False,False,False,25,False,False,False,100,0,False,0,False,False,0,38,False
+2344,"Auto-remedy","The next status ailment suffered will be cured automatically.",16686,0,1,1,16,0,False,False,False,False,False,False,False,False,False,25,False,False,False,0,0,False,0,False,False,0,0,False
+2345,"Lost Manawall","Damage taken is reduced and immune to most knockback and draw-in effects.",16687,0,1,1,16,0,False,False,False,False,False,False,False,False,False,100,False,False,False,-90,0,False,0,False,False,0,0,False
+2346,"Lost Font of Power","Damage dealt and critical hit rate are increased.",16688,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,30,0,False,0,False,False,0,0,False
+2347,"Vulnerability Up","Damage taken is increased.",17101,16,1,2,17,0,False,False,False,False,False,False,False,True,True,50,False,False,False,50,0,False,0,False,False,0,0,False
+2348,"Reminiscence","Ruminating on the memories of the fallen. Ready to use select lost actions.",16626,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,False,False,False,0,0,True,0,False,False,0,0,False
+2349,"Deep Essence of the Victor","Critical hit rate is increased, while weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced.",16659,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,-20,0,False,0,False,False,0,0,False
 2350,"Hastilude","An area of land has been granted protection, reducing damage taken for all who enter.",12512,0,1,1,16,0,True,False,True,False,False,False,False,False,False,0,False,False,False,-99,4,False,0,False,False,0,0,False
 2351,"Hastilude Heartened","Damage taken is significantly reduced.",12513,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,-99,0,False,0,False,False,0,0,False
-2352,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2353,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2354,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2355,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2356,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2357,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2358,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2359,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2360,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2361,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2362,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2363,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2364,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2365,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2366,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2367,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2368,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2369,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2370,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2371,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2352,"Banner of Unyielding Defense","Damage taken is reduced.",16692,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,-30,0,False,0,False,False,0,0,False
+2353,"Banner of Limitless Grace","Potency of all HP restoration actions is increased while MP cost is reduced.",16693,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,50,6,False,0,False,False,0,19,False
+2354,"Banner of Transcendent Finesse","Critical hit rate is increased while weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced.",16694,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,False,False,False,-20,0,False,0,False,False,0,0,False
+2355,"Resistance Reraiser","Chance of automatic revival upon KO.",16695,0,1,1,16,0,False,False,False,False,False,False,False,False,False,30,False,False,False,0,0,True,0,False,False,0,0,False
+2356,"Lost Incense","Enmity is increased and damage taken is reduced.",16689,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,500,0,False,0,False,False,0,0,False
+2357,"Fully Analyzed","All vulnerabilities have been detected. Any damage taken will be severe.",15254,0,1,2,17,200,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,True,0,False,False,0,0,False
+2358,"Marching Orders","Officially selected for priority deployment in critical engagements per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2359,"Marching Orders: Vigil for the Lost","Officially selected for priority deployment in the Vigil for the Lost engagement per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2360,"Marching Orders: Kill It with Fire","Officially selected for priority deployment in the Kill It with Fire engagement per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2361,"Marching Orders: The Hunt for Red Choctober","Officially selected for priority deployment in the Hunt for Red Choctober engagement per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2362,"Marching Orders: The Final Furlong","Officially selected for priority deployment in the Final Furlong engagement per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2363,"Marching Orders: Rise of the Robots","Officially selected for priority deployment in the Rise of the Robots engagement per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2364,"Marching Orders: Metal Fox Chaos","Officially selected for priority deployment in the Metal Fox Chaos engagement per Resistance leadership.",16697,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,True,False,False,0,0,True,0,False,False,0,0,False
+2365,"High Morale","A dauntless spirit guides you to victory. Mettle earned is increased.",16698,0,1,1,29,0,False,False,False,False,False,False,False,False,False,0,True,False,False,50,0,False,0,False,False,0,0,False
+2366,"","",0,0,1,1,0,95,False,False,False,False,False,False,False,True,True,0,False,True,False,-90,12,True,0,False,False,0,0,False
+2367,"Pall of Darkness","Encroaching gloom is impairing your accuracy while rendering you immune to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Demon Eye<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",15012,0,1,2,10,0,False,False,False,False,False,False,False,False,False,100,False,False,False,-10,0,False,0,False,False,0,0,False
+2368,"Warmonger","The thrill of battle leads you to crave only more. Damage dealt is increased while damage taken is reduced.",15267,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,30,0,False,0,False,False,0,0,False
+2369,"Physical Aversion","Vulnerable to physical attacks.",15261,0,1,2,17,0,False,False,False,False,False,False,False,True,True,0,False,False,False,20,0,False,0,False,False,0,0,False
+2370,"Magical Aversion","Vulnerable to magic attacks.",15262,0,1,2,17,0,False,False,False,False,False,False,False,True,True,0,False,False,False,20,0,False,0,False,False,0,0,False
+2371,"Lightning Resistance Down","Lightning resistance is reduced.",15271,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,-6,0,False,0,False,False,0,0,False
 2372,"Absolute Protect","Damage taken is reduced.",10405,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,-20,0,False,0,False,False,0,0,False
-2373,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2373,"Mark of Mortality","Branded with a mark of mortality. Damage dealt is reduced. Too many stacks will result in KO.",19421,2,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,-10,10,False,0,False,False,0,23,False
 2374,"EP Penalty","EP regeneration has stopped.",16705,0,1,2,17,0,False,False,False,False,False,False,False,True,True,50,False,False,False,0,14,False,0,False,False,0,0,False
 2375,"Feelin' Hot","Flammability is increased due to the effects of the flame dance.",17821,3,1,1,17,195,False,False,False,False,True,False,False,True,True,200,False,False,False,100,26,False,0,False,False,0,0,False
 2376,"Quintuplecast","Able to cast up to 5 consecutive spells with no recast time.",17211,5,1,1,16,0,False,False,False,False,False,False,False,True,True,200,False,False,False,0,27,False,0,False,False,0,0,False
 2377,"Imbued Saber","Saber is imbued with magicks.",17016,2,1,1,16,0,False,False,False,False,False,False,False,True,True,200,False,False,False,0,0,False,0,False,False,0,0,False
-2378,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2378,"Haste+","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are reduced. Effect cannot be nullified.",17381,8,1,1,16,0,False,False,False,False,False,False,False,False,False,100,False,False,False,-5,0,False,0,False,False,0,0,False
 2379,"Fresh Perspective","Operating outside the usual conditions of combat.",15111,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,0,2,True,0,False,False,0,0,False
-2380,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2381,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2382,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2383,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2384,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2380,"Warmonger","The thrill of battle leads you to crave only more. Damage dealt is increased while damage taken is reduced.",15267,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,30,0,False,0,False,False,0,0,False
+2381,"Forward March","Have received the order to advance. Order will be executed when status fades.",15774,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,0,0,False,0,False,False,0,0,False
+2382,"About Face","Have received the order to retreat. Order will be executed when status fades.",15775,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,0,0,False,0,False,False,0,0,False
+2383,"Left Face","Have received the order to move left. Order will be executed when status fades.",15776,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,0,0,False,0,False,False,0,0,False
+2384,"Right Face","Have received the order to move right. Order will be executed when status fades.",15777,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,False,False,False,0,0,False,0,False,False,0,0,False
 2385,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
 2386,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
 2387,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
 2388,"Nausea","Feeling as if you might vomit at any moment. Damage dealt and maximum HP are decreased.",15274,0,1,2,17,0,False,False,False,False,False,False,True,False,False,50,False,False,False,-10,0,False,0,False,False,0,0,False
 2389,"Pain","Sustaining damage over time.",15530,0,1,2,17,0,False,False,False,False,False,False,False,True,True,10,False,False,True,10,0,False,0,False,False,0,0,False
 2390,"Hover","Floating above ground.",15683,0,1,1,16,0,False,False,False,False,False,False,False,True,True,1,False,True,False,0,12,True,0,False,False,0,0,False
-2391,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2391,"Heavy","Movement speed is reduced.",15002,0,1,2,4,6,False,False,False,False,False,False,False,False,False,200,False,False,False,0,1,False,0,False,False,0,0,False
 2392,"Lightning Shot","Next weaponskill will deal increased damage.",14886,0,149,1,16,0,False,False,False,False,False,False,False,False,False,0,False,False,False,20,0,True,0,False,False,0,0,False
 2393,"","",0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,False,True,False,0,20,False,0,False,False,0,0,False
 2394,"Damage Up","Damage dealt is increased.",15519,0,1,1,16,204,False,False,False,False,False,False,False,True,True,100,False,False,False,50,0,False,0,False,False,0,0,False
 2395,"Vulnerability Down","Damage taken is reduced.",15021,0,1,1,16,205,False,False,False,False,False,False,False,True,True,100,False,False,False,-50,0,False,0,False,False,0,0,False
-2396,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2396,"At the Limit","Unable to execute limit breaks.",15275,0,1,2,17,0,False,False,False,False,False,False,False,True,True,0,False,False,False,0,19,True,0,False,False,0,24,False
 2397,"","",0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,False,True,False,0,28,True,0,False,False,0,0,False
-2398,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2399,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2398,"Incurable","All HP restoration is nullified.",15851,0,1,2,17,0,False,False,False,False,False,False,False,True,True,200,False,False,False,0,0,False,0,False,False,0,30,False
+2399,"Bleeding","Sustaining damage over time.",15530,0,1,2,17,0,False,False,False,False,False,False,False,True,True,10,False,False,True,10,0,False,0,False,False,0,0,False
 2400,"孤独感","仲間から離れると恐慌状態になる。",15649,0,1,2,17,0,False,False,False,False,False,False,False,False,False,100,False,False,False,538,0,False,0,False,False,0,0,False
 2401,"Burns","Sustaining fire damage over time.",15524,0,1,2,17,0,False,False,False,False,False,False,False,False,False,10,False,False,False,10,0,False,0,False,False,0,0,False
-2402,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2403,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2404,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2405,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
-2406,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2402,"Evasion Up","Evasion is enhanced.",15062,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,10,0,False,0,False,False,0,0,False
+2403,"Evasion Down","Evasion is reduced.",15063,0,1,2,17,0,False,False,False,False,False,False,True,False,False,50,False,False,False,-10,0,False,0,False,False,0,0,False
+2404,"Damage Down","Damage dealt is reduced.",15520,0,1,2,17,0,False,False,False,False,False,False,True,False,False,50,False,False,False,-10,0,False,0,False,False,0,0,False
+2405,"Out of Control","Separated from master and becoming increasingly agitated. The higher the stack, the more damage dealt is increased.",17221,8,1,1,16,0,False,False,False,False,False,False,False,True,True,0,False,False,False,5,0,False,0,False,False,0,23,False
+2406,"Shock Spikes","Elemental spikes are dealing lightning damage to and sometimes stunning attackers.",15502,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,False,False,False,100,0,False,0,False,False,0,0,False
 2407,"Fetters","Unable to execute actions.",15545,0,1,2,17,0,True,False,True,True,False,False,False,True,False,100,False,False,False,0,12,False,0,False,False,0,0,False
 2408,"Down for the Count","Unable to move or execute actions.",15044,0,1,2,3,0,True,False,True,False,False,False,False,True,False,100,False,False,False,0,4,False,0,False,False,0,0,False
 2409,"Process of Elimination A","Optimized for engaging with alliance A. Attacks by members of other alliances are nullified.",15277,0,1,1,16,0,False,False,False,False,False,False,False,True,True,100,False,False,False,0,0,False,0,False,False,0,0,False
@@ -2422,7 +2426,7 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 2412,"Cover","Protecting an ally.",12501,0,1,1,16,0,False,False,False,False,False,False,False,False,False,100,False,False,False,0,0,True,0,False,False,0,0,False
 2413,"Covered","Under the protection of an ally.",12502,0,20,1,16,0,False,False,False,False,False,False,False,False,False,100,False,False,False,0,0,True,0,False,False,0,35,False
 2414,"","",15545,0,1,2,17,210,True,False,True,True,False,False,False,True,False,100,False,True,False,0,4,False,0,False,False,0,0,False
-2415,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
+2415,"Duties as Assigned","Unable to change to another class or job.",16236,0,1,2,17,0,False,False,False,False,False,False,False,True,True,0,False,False,False,0,0,True,0,False,False,0,0,False
 2416,"Light Beyond Darkness","Unleashing the Light trapped within you in defiance of the Darkness.",15988,0,1,1,16,117,True,False,True,True,False,False,False,True,False,200,False,False,False,0,4,True,0,False,False,0,0,False
 2417,"","",0,0,1,1,16,0,True,False,True,True,False,False,False,True,False,200,False,True,False,0,4,True,0,False,False,0,0,False
 2418,"","",0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,False,False,False,0,0,False,0,False,False,0,0,False
