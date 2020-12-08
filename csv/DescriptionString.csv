@@ -37,7 +37,7 @@ int32,str
 33,"In Doman mahjong, players <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>race to complete a winning hand of 14 tiles, with points awarded for speed and difficulty of the hand<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard: either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the end of the hand.
 
-The first player to complete a winning hand is awarded points. A total of eight hands are played, and the player who finishes with the most points is declared the winner.
+The first player to complete a winning hand is awarded points. A total of eight hands are played in a full match and four in a quick match, and the player who finishes with the most points is declared the winner.
 Here is an example of a winning hand:"
 34,"The 14 tiles form <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>four groups of three tiles and one pair of matching tiles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. A group of tiles is known as a “meld,” and the various types are explained in this guide. The combination of melds determines the difficulty of the hand and the points awarded when winning.
 
@@ -68,7 +68,7 @@ Number tiles and honor tiles can also form matching triplets with identical tile
 That player draws one new tile and chooses one tile to discard. This may either be the new tile or one from their hand.
 Once that player has discarded a tile, the player to the right takes a turn. This process is repeated until the end of the hand."
 45,"The hand ends when a player calls a winning hand. The hand also ends if all of the tiles are drawn with no player calling a winning hand."
-46,"At the start of a new hand, the role of dealer passes to the player on the right. A round consists of eight hands, during which time the role of dealer passes around the board twice. The player with the highest score at the end of the round is declared the winner.
+46,"At the start of a new hand, the role of dealer passes to the player on the right. In a full match, a round consists of eight hands, during which time the role of dealer passes around the board twice. The player with the highest score at the end of the round is declared the winner. In a quick match, only four hands are played.
 
 "
 47,"6. Points for a Winning Hand"
@@ -238,7 +238,7 @@ You must form a party of four players to begin the match. Ratings and ranks are 
 ・Ratings and ranks are calculated only according to the rating of your opponents and your finishing position in the game.
 (The number of points with which you end a game is not taken into consideration.)
 ・Your mahjong rating and rank can be viewed in the Gold Saucer menu, under Mahjong.
-"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Rating and rank data is saved locally. If you log in using another platform, your rating and rank will not be displayed."
 105,"■ Abandoning a Match
 ・If players log out during a mahjong match, tiles will be discarded automatically when their turn comes around. When players log back in, they will regain control from the next turn onwards.
 ・If players abandon a match, it will continue without them and their tiles will be discarded automatically. They will also incur the standard penalties for abandoning a duty and will be unable to register for another mahjong match until the previous match ends.
@@ -488,8 +488,8 @@ Moreover, certain furnishings cannot be retrieved once placed, and will be perma
 　・Doors
 　・Placards
 　・Fences
-　・Roof Decorations
-　・Exterior Wall Decorations
+　・Roof decorations
+　・Exterior wall decorations
 
 Placed fixtures will be returned to your inventory when they are replaced by another fixture.
 Placing a fixture will bind it to you, preventing future trade or sale to other players.
@@ -547,7 +547,7 @@ In order to vacate your apartment, you must first remove all furnishings, includ
 185,"If you are the owner of a private estate, you may choose to share it with up to three friends, regardless of plot size. You may then grant these friends─or tenants─access to certain estate features, such as gardening, stable tending, and estate customization.
 
 To welcome friends as tenants, open the Housing menu, select “Private Estate,” then select “Shared Estate Settings,” followed by “New Tenant.”
-Furthermore, you may evict tenants at any time by selecting their name, followed by “Evict”.
+Furthermore, you may evict tenants at any time by selecting their name, followed by “Evict.”
 "
 186,"12. Relocation"
 187,"It is possible to relocate your estate hall to a new plot. Private estates may be relocated by their owners at will, while free company estates require those with authority to purchase and relinquish land.
@@ -1130,9 +1130,9 @@ Different unreal trials will be available in each major patch. To confirm which 
 
 ■Types of Illustration"
 366,"The amount of faux leaves awarded differs depending on the size and nature of the illustration uncovered:
-Dual Blades (Large) - 5 Leaves
-Coffer (Medium) - 20 Leaves
-Gift (Medium) - 10 Leaves
+Dual Blades (Large) - 15 Leaves
+Coffer (Medium) - 35 Leaves
+Gift (Medium) - 25 Leaves
 Faux Commander (Small) - 100 Leaves
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※A maximum of 1,000 faux leaves can be held at one time.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
@@ -1211,7 +1211,7 @@ Bozjan clusters can be used to gain priority deployment for critical engagements
 ■Item Exchange
 Bozjan clusters can also be used to exchange for various items, including forgotten fragments."
 403,"■Overview
-Lost actions are special abilities that can only be used in the Bozjan southern front. To acquire these actions, players must first find forgotten fragments, which drop occasionally when participating in skirmishes and critical engagements. These fragments can examined by a Resistance appraiser, transforming them into lost actions.
+Lost actions are special abilities that can only be used in the Bozjan southern front. To acquire these actions, players must first find forgotten fragments, which drop occasionally when participating in skirmishes and critical engagements. These fragments can be examined by a Resistance appraiser, transforming them into lost actions.
 There are a variety of lost actions to be found, some requiring a certain Resistance rank before they can be used. Any lost actions you have obtained will be automatically stored in the lost finds cache.
 
 ■Uses and Restrictions
@@ -1224,7 +1224,7 @@ Lost actions can be moved freely between the lost finds cache and lost finds hol
 
 ■Action Sets
 Up to 10 combinations of your favorite lost actions can be saved as sets."
-407,"While assisting the Bozjan resistance in their fight against the Empire, you will have the opportunity to create Bozjan gear. This gear possesses special attributes which are only effective when fighting in the Bozjan southern front."
+407,"While assisting the Bozjan Resistance in their fight against the Empire, you will have the opportunity to create Bozjan gear. This gear possesses special attributes which are only effective when fighting in the Bozjan southern front."
 408,"Using Lost Actions"
 409,"Before lost actions can be used, they must first be converted into duty actions. Once converted, they will remain as duty actions even after leaving the instance, and will only expire after all uses have been depleted.
 
@@ -1234,3 +1234,127 @@ All duty actions and items can be used by left-clicking their icon, but can be b
 
 ■Gamepad
 Duty actions are used by pressing <CommandIcon(17)/> while holding down both <CommandIcon(14)/> and <CommandIcon(15)/>. Lost actions from the item category must be selected from the lost finds holster. They may also be assigned to your hotbar."
+411,"Voyage Missions"
+412,"Upon boarding the <Emphasis>Endeavor</Emphasis>, players will receive three missions from the captain. Mission details will be displayed in a special UI window while the voyage is underway and will vary from route to route.
+
+A mission requirement might be “Catch sharks,” or “Catch fish with a weak bite.” Bite strength can be determined by the number of exclamation marks displayed above a fisher's head when hooking a fish:
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>! = weak bite
+!! = strong bite
+!!! = ferocious bite<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+To complete a mission, a player must catch the required number of designated fish, with bonus points being added to a player's score at the end of the voyage based on the number of missions completed.
+
+If you're aiming for the highest score possible, don't let these missions be the ones that got away!"
+413,"Abandoning a Voyage"
+414,"Players who abandon a voyage partway through will be unable to register to board again during the current voyage's registration period.
+※Unlike the usual Duty Finder penalty, this restriction only applies to Ocean Fishing.
+※Boarding registration restrictions apply across all Worlds."
+415,"Open Tournaments"
+416,"Invitational Tournaments"
+417,"Overview"
+418,"Tournament Style"
+419,"Match Rules"
+420,"Overview"
+421,"Setting Match Rules"
+422,"An Open tournament is a Triple Triad competition in which eight participants battle it out under a prearranged set of rules."
+423,"■The Basics
+Designed for solo players, this tournament mode pits registered participants against each other in contests of up to eight opponents.
+
+■How to Participate
+Speak with the Open tournament official in the Gold Saucer to register for the next available competition. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Registration periods last for 30 minutes and occur every two hours (Earth time).<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+The tournament will begin when 8 participants have been assembled or once the requisite amount of time has elapsed since the registration period began. If there are fewer than 8 participants available, NPCs will sit in for any missing players. Registration times may be viewed via the Open tournament schedule.
+
+■Rewards
+MGP, Triple Triad cards, and other prizes will be awarded at the end of a tournament, with final rankings and win rate determining the reward amount. Titles and items are also available as achievement rewards.
+
+In the case that multiple players earn the same ranking, the MGP amount for the ranking reward will be adjusted accordingly. "
+424,"■Tournament Style
+An Open tournament consists of three matches, with participants earning points based on the outcome of each game: 2 points for a win, 1 point for a draw, and zero points for a loss. At the culmination of the third match, the participant with the most points is declared the victor.
+
+In addition to victory points, the final number of captured cards is also recorded for each match. In the case that participants end the tournament with equal points, the player who most dominated the card grid over the course of the competition is awarded a higher ranking.
+
+■Matching Opponents
+For the first match, opponents are decided by pairing off the 8 participants at random. For the second and third matches, players are pit against whomever shares the closest point total at that stage in the tournament."
+425,"■Match Rules
+Regardless of any other ruleset in play, every Open tournament enforces the Draft rule. This rule guarantees a more balanced playing field by restricting participants to the use of temporary “house” cards."
+426,"At the beginning of the competition, three sets of randomly generated cards will be displayed. Participants must choose one option from each set to build their deck, which will then be locked in for the rest of the tournament."
+427,"Players who lack confidence in their deck-building abilities are encouraged to make use of the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Recommended<UIGlow>01</UIGlow><UIForeground>01</UIForeground> button. This handy feature will automatically choose the strongest cards available.
+
+Please note that while card options are randomized for each player, the number of rare cards on offer will always be the same.
+
+■Rulesets
+Speak with the tournament official and view the schedule to see which rules will be in effect for the upcoming competitions. Each tournament will be marked as having either a “basic” or “advanced” ruleset.
+
+With the exception of Draft, basic tournaments have no advanced rules in play. All that is required to enjoy these matches is an understanding of the standard Triple Triad rules.
+
+Advanced tournaments are for players who prefer their card battles with an extra layer of complexity. In addition to Draft, these contests will also feature advanced rules such as Same or Plus.
+
+The Open tournament schedule will switch back and forth between basic and advanced rulesets, so you won't need to wait long before your preferred style of competition rolls around!"
+428,"An Invitational tournament is a Triple Triad competition which follows the same basic structure as an Open tournament, with the main difference being that there are no rewards on offer. Participants may also register at any time as either a solo player or as a party.
+
+■How to Participate
+Players seeking the thrill of tournament play can form a party and register to enter the Triple Triad Invitational Parlor via the Duty Finder. In the case that a player registers solo, or a party has less than 8 members, the missing numbers will be made up by Triple Triad regulars or Gold Saucer employees.
+
+■Rematches
+At the end of an Invitational tournament, you will have the opportunity to organize a rematch. If every player agrees to the rematch, you can begin a new tournament with the current participants without needing to leave or re-register the party. Up to three rematches are available per tournament registration."
+429,"■Setting the Rules
+Invitational tournaments have no set rules in play."
+430,"Upon entering the Parlor, the party leader is tasked with deciding which rules will apply during the competition. With the exception of Sudden Death and Random, any combination of up to four different advanced rules can be set. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Remember: you must deselect Draft if you wish to battle using your own custom-built decks.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+For the sake of a harmonious experience, it is strongly suggested that players agree upon a ruleset before commencing registration!"
+431,""
+432,""
+433,""
+434,""
+435,""
+436,""
+437,""
+438,""
+439,""
+440,""
+441,""
+442,""
+443,""
+444,""
+445,""
+446,""
+447,""
+448,""
+449,""
+450,""
+451,""
+452,""
+453,""
+454,""
+455,""
+456,""
+457,""
+458,""
+459,""
+460,""
+461,""
+462,""
+463,""
+464,""
+465,""
+466,""
+467,""
+468,""
+469,""
+470,""
+471,""
+472,""
+473,""
+474,""
+475,""
+476,""
+477,""
+478,""
+479,""
+480,""
+481,""
+482,""
+483,""
+484,""
