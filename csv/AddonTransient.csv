@@ -3,7 +3,7 @@
 int32,str
 0,""
 1,"<CommandIcon(10)/> Withdraw Item"
-2,"<CommandIcon(10)/> Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/><Indent/></If>"
+2,"<CommandIcon(12)/> + <CommandIcon(13)/>Paste  <CommandIcon(10)/>Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
 3,"<CommandIcon(8)/> Change Order  <CommandIcon(10)/> Subcommands"
 4,"<CommandIcon(11)/> Execute Search"
 5,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Purchase　<CommandIcon(11)/> Select Item to Sell"
@@ -20,8 +20,8 @@ int32,str
 16,"<CommandIcon(10)/> Subcommands"
 17,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Toggle Map"
 18,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(13)/> Toggle Floor  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Toggle Map"
-19,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Send Friend Request"
-20,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Add to Blacklist"
+19,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
+20,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 21,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 22,"<CommandIcon(10)/> Subcommands"
 23,"<CommandIcon(10)/>Subcommands  <CommandIcon(11)/>Select Item"
@@ -35,18 +35,18 @@ int32,str
 31,"<CommandIcon(11)/> Execute Search"
 32,"<CommandIcon(10)/> Subcommands <CommandIcon(8)/> View Search Results <CommandIcon(9)/> Back"
 33,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> View Search Results  <CommandIcon(9)/> Back  <CommandIcon(12)/><CommandIcon(13)/> Turn Pages"
-34,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Close"
+34,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 35,"<CommandIcon(11)/> Reload List  <CommandIcon(10)/> Subcommands  <CommandIcon(8)/> View Details"
 36,"<CommandIcon(11)/> Search"
 37,"<CommandIcon(11)/> Cycle Between Roles  <CommandIcon(8)/> Specify Class/Job"
 38,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Exchange"
-39,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Purchase"
+39,"<CommandIcon(10)/> Subcommand"
 40,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Confirm  <CommandIcon(9)/> Close"
 41,"<CommandIcon(13)/>"
 42,"<CommandIcon(12)/>"
 43,"<CommandIcon(23)/> Scroll  <CommandIcon(11)/> Switch Type  <CommandIcon(12)/>+<CommandIcon(23)/> Zoom  <CommandIcon(8)/> Teleport"
-44,"<CommandIcon(10)/> Set to Hotbar"
-45,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
+44,"<CommandIcon(10)/> Subcommands"
+45,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
 46,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Macro Editor  <CommandIcon(24)/> Scroll"
 47,"<CommandIcon(8)/> Select Materia  <CommandIcon(11)/> Move to Materia Transmutation"
 48,"<CommandIcon(8)/> Deselect Materia  <CommandIcon(11)/> Move to Inventory"
@@ -65,7 +65,7 @@ int32,str
 61,"<CommandIcon(10)/> Subcommands"
 62,"<CommandIcon(11)/> Change Display  <CommandIcon(10)/> Subcommands"
 63,"<CommandIcon(10)/> Subcommands"
-64,"<CommandIcon(11)/>"
+64,"<CommandIcon(11)/> Confirm"
 65,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Select"
 66,"<CommandIcon(10)/> Subcommands"
 67,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/>Select Log  <CommandIcon(11)/> Expand Log"
@@ -76,7 +76,7 @@ int32,str
 72,"<CommandIcon(10)/> Subcommands  <CommandIcon(1)/>Select Log<If(PlayerParameter(75))><Switch(PlayerParameter(75))><Case(1)></Case><Case(2)>  <CommandIcon(2)/> Toggle Tabs</Case></Switch><Else/>  <CommandIcon(2)/> Toggle Tabs</If>  <CommandIcon(11)/> Expand Log"
 73,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Expand Log"
 74,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Chat Input  <CommandIcon(11)/> Restore Log Size"
-75,"<CommandIcon(5)/> History  <CommandIcon(10)/> Delete  <CommandIcon(13)/> Auto-translate<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/><Indent/></If> "
+75,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <CommandIcon(13)/> Auto-translate<If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
 76,"<CommandIcon(3)/> Previous  <CommandIcon(4)/> Next  <CommandIcon(13)/> Auto-translate"
 77,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Apply"
 78,"<CommandIcon(11)/> Apply  <CommandIcon(10)/> Delete Settings　"
@@ -86,8 +86,8 @@ int32,str
 82,"<CommandIcon(5)/> Order  <CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
 83,"<CommandIcon(7)/> Move  <CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
 84,"<CommandIcon(11)/> Edit Company Board"
-85,"<CommandIcon(11)/> Display Online Members"
-86,"<CommandIcon(11)/> Display All Members"
+85,"<CommandIcon(10)/> Subcommands"
+86,"<CommandIcon(8)/> Retrieve Online Status  <CommandIcon(10)/> Subcommands"
 87,"<CommandIcon(11)/> Apply"
 88,"<CommandIcon(11)/> Apply"
 89,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Apply"
@@ -105,8 +105,8 @@ int32,str
 101,"<CommandIcon(10)/> Subcommands  <CommandIcon(12)/><CommandIcon(13)/> Change Category  <CommandIcon(9)/> Return"
 102,"<CommandIcon(10)/> Gear Subcommands"
 103,"<CommandIcon(12)/><CommandIcon(13)/> Select Category"
-104,"<CommandIcon(11)/> Display Online Members  <CommandIcon(3)/><CommandIcon(4)/> Change Page"
-105,"<CommandIcon(11)/> Display All Members  <CommandIcon(3)/><CommandIcon(4)/> Change Page"
+104,"<CommandIcon(10)/> Subcommands  <CommandIcon(3)/><CommandIcon(4)/> Change Page"
+105,"<CommandIcon(8)/> Retrieve Online Status  <CommandIcon(10)/> Subcommands  <CommandIcon(3)/><CommandIcon(4)/> Change Page"
 106,"<CommandIcon(23)/> Scroll"
 107,"<CommandIcon(8)/> Use  <CommandIcon(10)/> Subcommands"
 108,"<CommandIcon(10)/> Set to Hotbar"
@@ -174,21 +174,191 @@ int32,str
 170,"<CommandIcon(11)/> Display Rules"
 171,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Select Item"
 172,"<CommandIcon(9)/> Target Close Button"
-173,"lua 5.1.4 / MIT LicenseCopyright (C) 1994-2008 Lua.org, PUC-Rio.Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.rsa-md5 / RSA Data Security LicenseCopyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.License to copy and use this software is granted provided that it is identified as the “RSA Data Security, Inc. MD5 Message-Digest Algorithm” in all material mentioning or referencing this software or this function.License is also granted to make and use derivative works provided that such works are identified as “derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm” in all material mentioning or referencing the derived work.RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided “as is” without express or implied warranty of any kind.These notices must be retained in any copies of any part of this documentation and/or software. SHA-1 (Internet Society)––––––––––––Copyright (C) The Internet Society (2001). All Rights Reserved.This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to the Internet Society or other Internet organizations, except as needed for the purpose of developing Internet standards in which case the procedures for copyrights defined in the Internet Standards process must be followed, or as required to translate it into languages other than English.The limited permissions granted above are perpetual and will not be revoked by the Internet Society or its successors or assigns.This document and the information contained herein is provided on an “AS IS” basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.AcknowledgementFunding for the RFC Editor function is currently provided by the Internet Society.zstream.h (zlib)––––––––Copyright (c) 1997Christian Michelsen Research ASAdvanced ComputingFantoftvegen 38, 5036 BERGEN, Norwayhttp://www.cmr.noPermission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. Christian Michelsen Research AS makes no representations about the suitability of this software for any purpose. It is provided “as is” without express or implied warranty.–––––––––––––––––––––––––––––––––––––––-"
+173,"lua 5.1.4 / MIT License
+
+Copyright (C) 1994-2008 Lua.org, PUC-Rio.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: 
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+rsa-md5 / RSA Data Security License
+
+Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.
+
+License to copy and use this software is granted provided that it is identified as the “RSA Data Security, Inc. MD5 Message-Digest Algorithm” in all material mentioning or referencing this software or this function.
+
+License is also granted to make and use derivative works provided that such works are identified as “derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm” in all material mentioning or referencing the derived work.
+
+RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided “as is” without express or implied warranty of any kind.
+
+These notices must be retained in any copies of any part of this documentation and/or software. 
+
+
+SHA-1 (Internet Society)
+––––––––––––
+Copyright (C) The Internet Society (2001). All Rights Reserved.
+
+This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to the Internet Society or other Internet organizations, except as needed for the purpose of developing Internet standards in which case the procedures for copyrights defined in the Internet Standards process must be followed, or as required to translate it into languages other than English.
+
+The limited permissions granted above are perpetual and will not be revoked by the Internet Society or its successors or assigns.
+
+This document and the information contained herein is provided on an “AS IS” basis and THE INTERNET SOCIETY AND THE INTERNET ENGINEERING TASK FORCE DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Acknowledgement
+
+Funding for the RFC Editor function is currently provided by the Internet Society.
+
+
+zstream.h (zlib)
+––––––––
+Copyright (c) 1997
+Christian Michelsen Research AS
+Advanced Computing
+Fantoftvegen 38, 5036 BERGEN, Norway
+http://www.cmr.no
+
+Permission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. Christian Michelsen Research AS makes no representations about the suitability of this software for any purpose. It is provided “as is” without express or implied warranty.
+–––––––––––––––––––––––––––––––––––––––-"
 174,"<CommandIcon(12)/><CommandIcon(13)/> Select Category"
 175,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Phase  <CommandIcon(10)/> Subcommands"
 176,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Phase  <CommandIcon(10)/> Subcommands"
 177,"<CommandIcon(9)/> Return  <CommandIcon(11)/> Commence Voyage"
 178,"<CommandIcon(10)/> Subcommands"
-179,"<CommandIcon(10)/> Select  <CommandIcon(11)/> Select and Close"
-180,"<CommandIcon(5)/> History  <CommandIcon(10)/>Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/> Keyboard<Else/> <Indent/></If>"
+179,"<CommandIcon(8)/> Select <CommandIcon(9)/> Close <CommandIcon(11)/> Register"
+180,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/><Indent/></If>"
 181,"<CommandIcon(10)/> Subcommands"
 182,"<CommandIcon(9)/> Apply Changes and Close"
 183,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Display Minion List"
 184,"<CommandIcon(8)/> Summon"
 185,"<CommandIcon(24)/> Scroll"
 186,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(11)/> Edit Minion Hotbar  <CommandIcon(8)/> Summon"
-187,"<Color(-34022)>Learn Your Structures</Color><Color(-154)>Arcana Stones</Color>  You and your opponent each have three of these immobile crystals on  the playing field. Shatter all of your enemy's Arcana Stones to claim  victory.<Color(-154)>Gates</Color>  Minions will appear in front of your currently selected gate.  Returning minions to a gate area will restore their HP.  Minions can still be summoned from a destroyed gate, but they will be  unable to exit the gate area. Conversely, minions outside a destroyed  gate will be unable to enter.<Color(-154)>Search Eye</Color>  This structure reveals your opponent's minions. If the Search Eye is  destroyed, you will only be able to see enemy units that are near  your own minions.<Color(-154)>Shield</Color>  This structure adds defensive strength to Arcana Stones. Destroy the  enemy Shield and your opponent's Arcana Stones will be more easily  shattered.<Color(-34022)>Structural Regeneration</Color>  All structures except for Arcana Stones can only be temporarily  destroyed. Their various functions will reactivate at full strength  after a certain amount of time has passed.  ※Positioning your minions near a destroyed structure will hasten  　the reactivation process.<Color(-34022)>Play to Your Minions' Strengths</Color>  Each variety of minion is capable of inflicting greater damage against  certain structures. Learn each unit's strengths, and pick the right  minion for the job!<Color(-34022)>Turn the Tide with Special Actions</Color>  These conditions must be met before a special action can be used:  ・Four minions of the same variety are gathered in an action party  ・Each minion in the action party has full action points   (Action points accumulate over time)  To perform a special action, select an individual minion from the  action party, and press the Execute Action button on the minion  hotbar.<Color(-34022)>Mastering Traps</Color>  Some minions will place traps with their special actions. A trap will  become armed ten seconds after it has been placed, and it can then  be triggered by pressing the Trigger Trap button on the minion  hotbar.  ※Only one trap can be placed at a time.<If(GreaterThan(PlayerParameter(80),0))><Color(-34022)>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If></Color><Color(-154)>Selecting Minions</Color>  ・Selecting an individual minion     <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list  ・Selecting multiple minions     <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions<Color(-154)>Useful Commands</Color>  ・General     <Gui(17)/>　　　: Switch summoning gate     <CommandIcon(15)/>　　　: Toggle minion party list display     <Gui(16)/>　　　: Select summoning queue     <CommandIcon(12)/>＋<Gui(10)/>  : Execute special action     <CommandIcon(13)/>＋<CommandIcon(20)/>  : Move ground target pointer     <CommandIcon(18)/>  : Display help  ・Minion Selection     <CommandIcon(12)/>＋<Gui(8)/>  : Select all minions near currently selected minion     <CommandIcon(12)/>＋<Gui(11)/>  : Select all nearby minions of same variety as currently　　　　　      selected minion     <CommandIcon(12)/>＋<Gui(9)/>  : Select all minions of same variety as currently selected　　　　　      minion  ・Minimap Controls     <CommandIcon(14)/> while pressed : Record map jump point (release button to jump)     <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection     <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults<Color(-34022)>Mouse Controls</Color><Color(-154)>Selecting Minions</Color>   Left-Click : Select individual minion   　※Left-clicking on your currently selected minion will select all   　nearby minions of the same variety.   Left-Click + Drag : Select all minions in the selection square<Else/><Color(-34022)>Mouse Controls</Color><Color(-154)>Selecting Minions</Color>   Left-Click : Select individual minion   　※Left-clicking on your currently selected minion will select all   　nearby minions of the same variety.   Left-Click + Drag : Select all minions in the selection square<Color(-34022)>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If></Color><Color(-154)>Selecting Minions</Color>  ・Selecting an individual minion     <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list  ・Selecting multiple minions     <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions<Color(-154)>Useful Commands</Color>  ・General     <Gui(17)/>　　　: Switch summoning gate     <CommandIcon(15)/>　　　: Toggle minion party list display     <Gui(16)/>　　　: Select summoning queue     <CommandIcon(12)/>＋<Gui(10)/>  : Execute special action     <CommandIcon(13)/>＋<CommandIcon(20)/>  : Move ground target pointer     <CommandIcon(18)/>  : Display help  ・Minion Selection     <CommandIcon(12)/>＋<Gui(8)/>  : Select all minions near currently selected minion     <CommandIcon(12)/>＋<Gui(11)/>  : Select all nearby minions of same variety as currently　　　　　      selected minion     <CommandIcon(12)/>＋<Gui(9)/>  : Select all minions of same variety as currently selected　　　　　      minion  ・Minimap Controls     <CommandIcon(14)/> while pressed : Record map jump point (release button to jump)     <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection     <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults</If><Color(-34022)>Keyboard Shortcuts</Color>  The following keybinds will be assigned different functions while  playing Lord of Verminion.<If(Equal(PlayerParameter(75),1))><Else/>  Hotbar 1 - Slots 1 to 12 : Minion hotbar bottom row  Hotbar 2 - Slots 1 to 12 : Minion hotbar top row  Hotbar 3 - Slot 1 : Execute Action  Hotbar 3 - Slot 2 : Trigger Trap  Hotbar 3 - Slot 3 : Withdraw Minion</If>  Draw/Sheathe Weapon : Switch summoning gate  Minion Guide : Battle List"
+187,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Learn Your Structures<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Arcana Stones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  You and your opponent each have three of these immobile crystals on
+  the playing field. Shatter all of your enemy's Arcana Stones to claim
+  victory.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gates<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  Minions will appear in front of your currently selected gate.
+  Returning minions to a gate area will restore their HP.
+  Minions can still be summoned from a destroyed gate, but they will be
+  unable to exit the gate area. Conversely, minions outside a destroyed
+  gate will be unable to enter.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Search Eye<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  This structure reveals your opponent's minions. If the Search Eye is
+  destroyed, you will only be able to see enemy units that are near
+  your own minions.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Shield<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  This structure adds defensive strength to Arcana Stones. Destroy the
+  enemy Shield and your opponent's Arcana Stones will be more easily
+  shattered.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Structural Regeneration<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  All structures except for Arcana Stones can only be temporarily
+  destroyed. Their various functions will reactivate at full strength
+  after a certain amount of time has passed.
+  ※Positioning your minions near a destroyed structure will hasten
+  　the reactivation process.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Play to Your Minions' Strengths<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  Each variety of minion is capable of inflicting greater damage against
+  certain structures. Learn each unit's strengths, and pick the right
+  minion for the job!
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Turn the Tide with Special Actions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  These conditions must be met before a special action can be used:
+  ・Four minions of the same variety are gathered in an action party
+  ・Each minion in the action party has full action points
+   (Action points accumulate over time)
+  To perform a special action, select an individual minion from the
+  action party, and press the Execute Action button on the minion
+  hotbar.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mastering Traps<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  Some minions will place traps with their special actions. A trap will
+  become armed ten seconds after it has been placed, and it can then
+  be triggered by pressing the Trigger Trap button on the minion
+  hotbar.
+  ※Only one trap can be placed at a time.
+
+<If(GreaterThan(PlayerParameter(80),0))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  ・Selecting an individual minion
+     <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list
+  ・Selecting multiple minions
+     <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Useful Commands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  ・General
+     <Gui(17)/>　　　: Switch summoning gate
+     <CommandIcon(15)/>　　　: Toggle minion party list display
+     <Gui(16)/>　　　: Select summoning queue
+     <CommandIcon(12)/>＋<Gui(10)/>  : Execute special action
+     <CommandIcon(13)/>＋<CommandIcon(20)/>  : Move ground target pointer
+     <CommandIcon(13)/>＋<Gui(16)/>  : Reset ground target pointer
+     <CommandIcon(18)/>  : Display help
+  ・Minion Selection
+     <CommandIcon(12)/>＋<Gui(8)/>  : Select all minions near currently selected minion
+     <CommandIcon(12)/>＋<Gui(11)/>  : Select all nearby minions of same variety as currently
+　　　　　      selected minion
+     <CommandIcon(12)/>＋<Gui(9)/>  : Select all minions of same variety as currently selected
+　　　　　      minion
+  ・Minimap Controls
+     <CommandIcon(14)/> while pressed : Record map jump point (release button to jump)
+     <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection
+     <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mouse Controls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+   Left-Click : Select individual minion
+   　※Left-clicking on your currently selected minion will select all
+   　nearby minions of the same variety.
+   Left-Click + Drag : Select all minions in the selection square
+<Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mouse Controls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+   Left-Click : Select individual minion
+   　※Left-clicking on your currently selected minion will select all
+   　nearby minions of the same variety.
+   Left-Click + Drag : Select all minions in the selection square
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Playing with a <If(GreaterThan(PlayerParameter(75),0))>Controller<Else/>Gamepad</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selecting Minions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  ・Selecting an individual minion
+     <CommandIcon(12)/>＋<CommandIcon(7)/>  : Select minion from party list
+  ・Selecting multiple minions
+     <CommandIcon(11)/>　　　: Activate selection circle and select targeted minions
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Useful Commands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  ・General
+     <Gui(17)/>　　　: Switch summoning gate
+     <CommandIcon(15)/>　　　: Toggle minion party list display
+     <Gui(16)/>　　　: Select summoning queue
+     <CommandIcon(12)/>＋<Gui(10)/>  : Execute special action
+     <CommandIcon(13)/>＋<CommandIcon(20)/>  : Move ground target pointer
+     <CommandIcon(13)/>＋<Gui(16)/>  : Reset ground target pointer
+     <CommandIcon(18)/>  : Display help
+  ・Minion Selection
+     <CommandIcon(12)/>＋<Gui(8)/>  : Select all minions near currently selected minion
+     <CommandIcon(12)/>＋<Gui(11)/>  : Select all nearby minions of same variety as currently
+　　　　　      selected minion
+     <CommandIcon(12)/>＋<Gui(9)/>  : Select all minions of same variety as currently selected
+　　　　　      minion
+  ・Minimap Controls
+     <CommandIcon(14)/> while pressed : Record map jump point (release button to jump)
+     <CommandIcon(14)/>＋<CommandIcon(23)/>  : Map jump point selection
+     <CommandIcon(14)/>＋<Gui(17)/>  : Restore map jump point defaults
+</If>
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Keyboard Shortcuts<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+  The following keybinds will be assigned different functions while
+  playing Lord of Verminion.
+<If(Equal(PlayerParameter(75),1))><Else/>  Hotbar 1 - Slots 1 to 12 : Minion hotbar bottom row
+  Hotbar 2 - Slots 1 to 12 : Minion hotbar top row
+  Hotbar 3 - Slot 1 : Execute Action
+  Hotbar 3 - Slot 2 : Trigger Trap
+  Hotbar 3 - Slot 3 : Withdraw Minion
+</If>  Draw/Sheathe Weapon : Switch summoning gate
+  Minion Guide : Battle List"
 188,"'<CommandIcon(8)/> Select  <CommandIcon(11)/> Embark  <CommandIcon(24)/> Scroll"
 189,"<CommandIcon(8)/>Change Order/Tier  <CommandIcon(10)/> Turn On/Off  <CommandIcon(11)/> Apply"
 190,"<CommandIcon(10)/> Subcommands"
@@ -247,7 +417,7 @@ int32,str
 243,"<CommandIcon(9)/> Target Close Button"
 244,"<CommandIcon(5)/> Scroll  <CommandIcon(9)/> Close"
 245,"<CommandIcon(11)/> Edit Squadron"
-246,"<CommandIcon(8)/> Retrieve Online Status  <CommandIcon(10)/> Subcommands   <CommandIcon(11)/> Send Friend Request"
+246,"<CommandIcon(8)/> Retrieve Online Status  <CommandIcon(10)/> Subcommands"
 247,"When using the performance actions, you are strictly prohibited from performing the music of any third parties. You may record and upload your performance and hereby agree to license such recordings to us for use by Square Enix or others in accordance with the terms of the “FINAL FANTASY XIV Material Usage License”."
 248,"<CommandIcon(10)/> Subcommands"
 249,"<CommandIcon(11)/> Start/Abandon"
@@ -273,23 +443,384 @@ int32,str
 269,"<CommandIcon(11)/> Check All On/Off"
 270,"<CommandIcon(10)/> Subcommands"
 271,"<CommandIcon(8)/> Remove Item  <CommandIcon(11)/> Select Item to Donate"
-272,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
-273,""
-274,""
-275,""
-276,""
-277,""
-278,""
-279,""
-280,""
-1000,"Report could not be sent.Please try again."
-1001,"<Color(-287193856)>Duty Record Playback</Color>※Keyboard/Mouse settings listed are default.<If(Equal(PlayerParameter(78),99))>・Move Camera　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)・Reset Camera　<Gui(16)/> Button/Z Key (Draw Weapon) ・Change Focus Target　<CommandIcon(7)/> Buttons/<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys・Pause/Play　<CommandIcon(11)/> Button/<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)・Toggle Playback Speed (x1/x2/x4)　<CommandIcon(13)/> Button/<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key・Open/Close Controls　<CommandIcon(10)/> Button/R Key or  Button (Auto Run)<Else/>・Move Camera　W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick・Reset Camera　Z Key (Draw Weapon)/<Gui(16)/> Button・Change Focus Target　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons・Pause/Play　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button・Toggle Playback Speed (x1/x2/x4)　<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/> Button・Open/Close Controls　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If><Color(-287193856)>Current Duties Available for Recording</Color><Sheet(Addon,3071,0)/>––––––––––––––––––––––––––––––––––––––––––<Color(-287193856)>Recording Duties</Color>The following conditions must be met to use the Duty Recorder:　1. Recorder settings are enabled.　2. Current duty is available for recording.　3. Parties meet minimum size requirements.　4. Record ready check has been executed.<Color(-287193856)>1. Recorder settings are enabled</Color>Recorder settings can be adjusted under <Color(-34022)>Duty Recorder</Color> in the main menu.<Color(-287193856)>2. Current duty is available for recording</Color>Not all duties are available for recording.Recordable duties are marked with a special icon.<Color(-287193856)>3. Parties meet minimum size requirements</Color>Duties undertaken by undersized parties cannot be recorded.※This includes parties formed via the Duty Finder.<Color(-287193856)>4. Record ready check has been executed</Color>Approval from all party members is required before recording can begin.※Record ready checks must be performed within 5 minutes of commencing a duty.Only 3 records may be saved at once. Oldest records will be overwritten.※Up to 2 records can be protected at once.––––––––––––––––––––––––––––––––––––––––––<Color(-287193856)>Viewing Recorded Duties</Color>The following conditions must be met to view duty records:　1. You are in an inn room.　2. Recorded duty is from the most recent game version.<Color(-287193856)>1. You are in an inn room</Color>Duty playback is only available in inn rooms.<Color(-287193856)>2. Recorded duty is from the most recent game version</Color>This includes both major updates and minor hotfixes.Recordings will become inaccessible after applying the newest data patch."
-1002,"<Color(-287193856)>Duty Record Playback</Color>※Keyboard/Mouse settings listed are default.<If(Equal(PlayerParameter(78),99))>・Move Camera　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)・Reset Camera　<Gui(16)/> Button/Z Key (Draw Weapon) ・Change Focus Target　<CommandIcon(7)/> Buttons/<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys・Pause/Play　<CommandIcon(11)/> Button/<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)・Toggle Playback Speed (x1/x2/x4)　<CommandIcon(13)/> Button/<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key・Open/Close Controls　<CommandIcon(10)/> Button/R Key or  Button (Auto Run)<Else/>・Move Camera　W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick・Reset Camera　Z Key (Draw Weapon)/<Gui(16)/> Button・Change Focus Target　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons・Pause/Play　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button・Toggle Playback Speed (x1/x2/x4)　<If(Equal(PlayerParameter(78),3))>num9<Else/>Num9</If> Key/<CommandIcon(13)/> Button・Open/Close Controls　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>––––––––––––––––––––––––––––––––––––––––––<Color(-287193856)>Functions</Color><Color(-287193856)>Pause</Color>Temporarily stop playback.<Color(-287193856)>Playback Speed</Color>Change playback speed to 1x, 2x, or 4x of the original.<Color(-287193856)>Chapter Selection</Color>Start playback at the position selected.※Depending on chapter position, playback may not be instantaneous.<Color(-287193856)>Next Chapter</Color>Skip to the next available chapter.<Color(-287193856)>Previous Chapter</Color>Skip to the previous chapter.<Color(-287193856)>HUD Display</Color>Toggle on/off on-screen UI elements.※Settings are saved for next playback.<Color(-287193856)>Focus Target</Color>Camera can be focused on any party member.<Color(-287193856)>Group Pose</Color>Open the Group Pose function.※This feature is not always available.<Color(-287193856)>Idling Camera</Color>Activate idling camera.※This feature is not always available."
-1003,""
-1004,""
-1005,""
-1006,""
-1007,""
-1008,""
-1009,""
-1010,""
+272,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Return"
+273,"<CommandIcon(24)/> Scroll"
+274,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
+275,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Move Favorite"
+276,"<CommandIcon(11)/> Select Item to Donate"
+277,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Edit Minion Hotbar"
+278,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands <CommandIcon(11)/> Move"
+279,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
+280,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/> Keyboard<Else/></If>"
+281,"<CommandIcon(5)/> Move  <CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands"
+282,"<CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands"
+283,"<CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Move"
+284,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
+285,"<CommandIcon(5)/> History  <CommandIcon(12)/> + <CommandIcon(13)/> Paste  <CommandIcon(10)/> Delete  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>Keyboard<Else/></If>"
+286,"<CommandIcon(5)/> Move  <CommandIcon(8)/> Execute  <CommandIcon(10)/> Subcommands"
+287,"<CommandIcon(7)/> Move  <CommandIcon(11)/><CommandIcon(8)/><CommandIcon(10)/> Confirm  <CommandIcon(9)/> Cancel"
+288,"<CommandIcon(8)/> Summon/Dismiss  <CommandIcon(10)/> Subcommands"
+289,"<CommandIcon(11)/> New Letter"
+290,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Accept"
+291,"<CommandIcon(8)/> Add to Active Actions"
+292,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Assign New Slot"
+293,"<CommandIcon(7)/> Move  <CommandIcon(8)/> Confirm  <CommandIcon(9)/> Cancel"
+294,"<CommandIcon(9)/> Close"
+295,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Set  <CommandIcon(9)/> Manipulate  <CommandIcon(11)/> Logos Actions"
+296,"<CommandIcon(8)/> Enable  <CommandIcon(11)/> Close"
+297,"<CommandIcon(11)/> Select Logogram  <CommandIcon(10)/> Subcommands"
+298,"<CommandIcon(10)/><CommandIcon(8)/> Subcommands"
+299,"<CommandIcon(10)/> Subcommands  <CommandIcon(9)/><CommandIcon(11)/> Manipulate"
+300,"<CommandIcon(11)/> Select Logogram  <CommandIcon(9)/> Close"
+301,"<CommandIcon(10)/> Subcommands"
+302,"<CommandIcon(10)/> Subcommands"
+303,"<CommandIcon(8)/><CommandIcon(10)/> View Tag"
+304,"<CommandIcon(8)/><CommandIcon(10)/> View Tag"
+305,"<CommandIcon(10)/> Delete<If(GreaterThan(PlayerParameter(75),0))>  <CommandIcon(11)/> Keyboard<Else/></If>"
+306,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands"
+307,"<CommandIcon(8)/>Execute Action  <CommandIcon(10)/>Set to Hotbar  <CommandIcon(11)/> Edit Hotbar"
+308,"<CommandIcon(8)/>Execute Action  <CommandIcon(10)/>Set to Hotbar"
+309,"<CommandIcon(8)/>Execute Action  <CommandIcon(10)/>Set to Hotbar"
+310,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Stage Info"
+311,"<CommandIcon(8)/> Confirm  <CommandIcon(24)/> Scroll"
+312,"<CommandIcon(8)/> Confirm"
+313,"<CommandIcon(10)/> Change Calls  <CommandIcon(11)/> Toggle Support Features"
+314,"<CommandIcon(8)/> Retrieve Online Status  <CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Return"
+315,"<CommandIcon(12)/><CommandIcon(13)/> Toggle Act Info  <CommandIcon(8)/> Confirm Enemy's Vulnerabilities"
+316,"<CommandIcon(8)/> Confirm  <CommandIcon(10)/> Subcommands"
+317,"<CommandIcon(8)/> Select  <CommandIcon(10)/> Subcommands"
+318,"<CommandIcon(5)/> Scroll"
+319,"<CommandIcon(8)/> Select Item"
+320,"<CommandIcon(8)/> Add/Remove Party Member"
+321,"<CommandIcon(10)/>Subcommands  <CommandIcon(8)/> Add/Remove Party Member"
+322,"<CommandIcon(8)/> Toggle On/Off  <CommandIcon(10)/> Toggle Others On/Off  <CommandIcon(11)/> Filter"
+323,"<CommandIcon(9)/> Close <CommandIcon(24)/> Scroll"
+324,"<CommandIcon(8)/> Select <CommandIcon(9)/> Close <CommandIcon(11)/> Register <CommandIcon(24)/> Scroll"
+325,"<CommandIcon(8)/> To Details  <CommandIcon(24)/> Scroll  <CommandIcon(10)/> Subcommands"
+326,"<CommandIcon(10)/> Subcommands"
+327,"<CommandIcon(10)/>Subcommands  <CommandIcon(11)/>Enable/Disable Quick Gathering"
+328,"<CommandIcon(8)/> View Details  <CommandIcon(24)/> Scroll <CommandIcon(10)/> Subcommands"
+329,"<CommandIcon(10)/> Subcommands"
+330,"<CommandIcon(10)/> Subcommands"
+331,"<CommandIcon(10)/> Subcommands  <CommandIcon(12)/><CommandIcon(13)/> Change Page"
+332,"<CommandIcon(10)/> Subcommands"
+333,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(8)/> Execute Action"
+334,"<CommandIcon(24)/> Scroll"
+335,"<CommandIcon(10)/> Subcommands"
+336,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Return  <CommandIcon(9)/> Close"
+337,"<CommandIcon(10)/> Subcommands"
+338,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Select"
+339,"<CommandIcon(11)/> Apply"
+340,"<CommandIcon(10)/> Subcommands"
+341,"<CommandIcon(10)/> Subcommands"
+342,"<CommandIcon(9)/> Return to Toy Chest"
+343,"<CommandIcon(9)/> Target Close Button"
+344,"<CommandIcon(8)/><CommandIcon(10)/> Subcommands  <CommandIcon(9)/> Back"
+345,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Execute"
+346,"<CommandIcon(8)/> Use  <CommandIcon(11)/> Return"
+347,"<CommandIcon(7)/> Move  <CommandIcon(8)/> Turn Panel"
+348,"<CommandIcon(8)/> Move to Lost Finds Holster  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Manage Lost Finds Holster"
+349,"<CommandIcon(8)/> Use  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Return"
+350,"<CommandIcon(8)/> Move to Lost Finds Cache  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Manage Lost Finds Cache"
+351,"<CommandIcon(11)/> Return"
+352,"<CommandIcon(11)/> Manage Lost Finds Cache"
+353,"<CommandIcon(11)/> Recommended"
+354,""
+355,"<CommandIcon(24)/> Scroll"
+356,"<CommandIcon(10)/> Subcommands"
+357,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Exchange"
+358,"<CommandIcon(10)/> Subcommands"
+359,"<CommandIcon(10)/> Display Map"
+360,"<CommandIcon(1)/>"
+361,"<CommandIcon(2)/>"
+362,"<CommandIcon(3)/>"
+363,"<CommandIcon(4)/>"
+364,"<CommandIcon(5)/>"
+365,"<CommandIcon(6)/>"
+366,"<CommandIcon(7)/>"
+367,"<CommandIcon(8)/>"
+368,"<CommandIcon(9)/>"
+369,"<CommandIcon(10)/>"
+370,"<CommandIcon(11)/>"
+371,"<CommandIcon(12)/>"
+372,"<CommandIcon(13)/>"
+373,"<CommandIcon(14)/>"
+374,"<CommandIcon(15)/>"
+375,"<Gui(16)/>"
+376,"<Gui(17)/>"
+377,"<CommandIcon(18)/>"
+378,"<CommandIcon(19)/>"
+379,"<CommandIcon(20)/>"
+380,"<CommandIcon(21)/>"
+381,"<CommandIcon(22)/>"
+382,"<CommandIcon(23)/>"
+383,"<CommandIcon(24)/>"
+384,"<CommandIcon(25)/>"
+385,""
+386,""
+387,""
+388,""
+389,""
+390,""
+391,""
+392,""
+393,""
+394,""
+395,""
+396,""
+397,""
+398,""
+399,""
+400,""
+1000,"Report could not be sent.
+Please try again."
+1001,"<UIForeground>F20202</UIForeground>Duty Record Playback<UIForeground>01</UIForeground>
+※Keyboard/Mouse settings listed are default.
+<If(Equal(PlayerParameter(78),99))>・Move Camera
+　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)
+・Reset Camera
+　<Gui(16)/> Button/Z Key (Draw Weapon) 
+・Change Focus Target
+　<CommandIcon(7)/> Buttons/<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys
+・Pause/Play
+　<CommandIcon(11)/> Button/<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)
+・Open/Close Controls
+　<CommandIcon(10)/> Button/R Key or  Button (Auto Run)<Else/>・Move Camera
+　W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick
+・Reset Camera
+　Z Key (Draw Weapon)/<Gui(16)/> Button
+・Change Focus Target
+　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
+・Pause/Play
+　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
+・Open/Close Controls
+　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>
+
+––––––––––––––––––––––––––––––––––––––––––
+<UIForeground>F20202</UIForeground>Recording Duties<UIForeground>01</UIForeground>
+The following conditions must be met to use the Duty Recorder:
+　1. Recorder settings are enabled.
+　2. Current duty is available for recording.
+　3. Parties meet minimum size requirements.
+　4. Record ready check has been executed.
+
+<UIForeground>F20202</UIForeground>1. Recorder settings are enabled<UIForeground>01</UIForeground>
+Recorder settings can be adjusted under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty Recorder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu.
+
+<UIForeground>F20202</UIForeground>2. Current duty is available for recording<UIForeground>01</UIForeground>
+Not all duties are available for recording.
+Recordable duties are marked with a special icon.
+
+<UIForeground>F20202</UIForeground>3. Parties meet minimum size requirements<UIForeground>01</UIForeground>
+Duties undertaken by undersized parties cannot be recorded.
+※This includes parties formed via the Duty Finder.
+
+<UIForeground>F20202</UIForeground>4. Record ready check has been executed<UIForeground>01</UIForeground>
+Approval from all party members is required before recording can begin.
+※Record ready checks must be performed within 5 minutes of commencing a duty.
+
+Only 3 records may be saved at once. Oldest records will be overwritten.
+※Up to 2 records can be protected at once.
+
+––––––––––––––––––––––––––––––––––––––––––
+<UIForeground>F20202</UIForeground>Viewing Recorded Duties<UIForeground>01</UIForeground>
+The following conditions must be met to view duty records:
+　1. You are in an inn room.
+　2. Recorded duty is from the most recent game version.
+
+<UIForeground>F20202</UIForeground>1. You are in an inn room<UIForeground>01</UIForeground>
+Duty playback is only available in inn rooms.
+
+<UIForeground>F20202</UIForeground>2. Recorded duty is from the most recent game version<UIForeground>01</UIForeground>
+This includes both major updates and minor hotfixes.
+Recordings will become inaccessible after applying the newest data patch."
+1002,"<UIForeground>F20202</UIForeground>Duty Record Playback<UIForeground>01</UIForeground>
+※Keyboard/Mouse settings listed are default.
+<If(Equal(PlayerParameter(78),99))>・Move Camera
+　<CommandIcon(20)/> Stick/W, A, S, D Keys (Movement)
+・Reset Camera
+　<Gui(16)/> Button/Z Key (Draw Weapon) 
+・Change Focus Target
+　<CommandIcon(7)/> Buttons/<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys
+・Pause/Play
+　<CommandIcon(11)/> Button/<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)
+・Open/Close Controls
+　<CommandIcon(10)/> Button/R Key or  Button (Auto Run)<Else/>・Move Camera
+　W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick
+・Reset Camera
+　Z Key (Draw Weapon)/<Gui(16)/> Button
+・Change Focus Target
+　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
+・Pause/Play
+　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
+・Open/Close Controls
+　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>
+
+––––––––––––––––––––––––––––––––––––––––––
+<UIForeground>F20202</UIForeground>Functions<UIForeground>01</UIForeground>
+
+<UIForeground>F20202</UIForeground>Pause<UIForeground>01</UIForeground>
+Temporarily stop playback.
+
+<UIForeground>F20202</UIForeground>Chapter Selection<UIForeground>01</UIForeground>
+Start playback at the position selected.
+※Depending on chapter position, playback may not be instantaneous.
+
+<UIForeground>F20202</UIForeground>Next Chapter<UIForeground>01</UIForeground>
+Skip to the next available chapter.
+
+<UIForeground>F20202</UIForeground>Previous Chapter<UIForeground>01</UIForeground>
+Skip to the previous chapter.
+
+<UIForeground>F20202</UIForeground>HUD Display<UIForeground>01</UIForeground>
+Toggle on/off on-screen UI elements.
+※Settings are saved for next playback.
+
+<UIForeground>F20202</UIForeground>Focus Target<UIForeground>01</UIForeground>
+Camera can be focused on any party member.
+"
+1003,"Fellowships"
+1004,"Fellowships are gatherings of players who share common interests. With up to 1,000 members permitted in each fellowship, they provide an excellent way to connect and socialize with like-minded adventurers.
+
+Anyone can create their own fellowship or become a member of another. Fellowships are cross-world, and you can belong to a maximum of ten at any given time.
+
+To search for fellowships that are currently recruiting, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Social<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>main menu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and then <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fellowship Finder<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+Each fellowship is led by a master, who can grant administrative rights to other members to assist them. The master role automatically falls to the fellowship's founder, but it can also be transferred to another.
+
+Join a fellowship or create your own, and gain access to its myriad benefits!"
+1005,"General Tab"
+1006,"■Message of the Day
+Leave a message for fellowship members to see, be it a motto, an announcement, or something random. Messages can be posted by the master and admin members.
+
+■Poll
+Polls can be created by the fellowship master and admin members. All members are eligible to cast one vote per poll.
+
+■Notices
+Post up to five notices at a time. This feature is available only to the fellowship master and admin members."
+1007,"Message Board Tab"
+1008,"All fellowship members can post comments to the message board.
+
+Up to 100 comments are displayed, with the oldest being deleted first. The fellowship master and admin members can delete comments at any time.
+
+* Characters on the free trial cannot post to the message board during their first 14 days as a fellowship member."
+1009,"Members Tab"
+1010,"Displays the list of fellowship members. Here you can carry out various administrative tasks such as appointing admin members and transferring master privileges.
+
+It is also possible to blacklist players. Doing so removes them from the fellowship and prevents them from rejoining in the future."
+1011,"Other Functions"
+1012,"■Settings
+This menu is accessible only to the master. Here you can rename the fellowship, set the fellowship's activities, manage the blacklist, and disband the fellowship. 
+
+■Recruitment
+Under this menu, you can recruit new members to the fellowship. Recruitment ends either when the target is reached, one week has elapsed, or the recruiter chooses to cancel the process. 
+
+■Admin
+The master can appoint admin members to assist in the management of the fellowship. Master privileges can only be transferred to an admin member. Furthermore, in order for the master to leave their fellowship, they must transfer their privileges first."
+1013,"Fellowship Finder"
+1014,"This menu displays the fellowships that are currently recruiting members, with the option to filter by activities and language."
+1015,"Important Information"
+1016,"<UIForeground>F20202</UIForeground>■Performance Actions: Important Information<UIForeground>01</UIForeground>
+When using the performance actions, you are strictly prohibited from performing the music of any third parties. You may record and upload your performance and hereby agree to license such recordings to us for use by Square Enix or others in accordance with the terms of the “FINAL FANTASY XIV Material Usage License”."
+1017,"Ensemble Mode"
+1018,"<UIForeground>F20202</UIForeground>■Overview<UIForeground>01</UIForeground>
+Ensemble mode makes it easier for you and your party members to play in sync for the benefit of your audience.
+
+<UIForeground>F20202</UIForeground>■Playback Differences between Performance and Ensemble Mode<UIForeground>01</UIForeground>
+When ensemble mode is enabled, all party members will be heard in sync by players in the vicinity, but there will be a delay between the inputs and the sounds being heard by those performing, according to the playback type.
+Those who select “Self Only” will only hear their own instrument, while “All Members” plays the instruments of all members with an increased delay.
+※“Playback Type” can be found in ensemble mode's settings menu.
+
+<UIForeground>F20202</UIForeground>■Entering Ensemble Mode<UIForeground>01</UIForeground>
+Follow the steps below to enter ensemble mode.
+ 1. Select “Ensemble Ready Check” from the metronome menu.
+ 2. With “Enter Ensemble Mode” enabled, select Begin.
+ 3. Once all party members have responded to the ready check, you will enter ensemble mode.
+
+<UIForeground>F20202</UIForeground>■Ensemble Mode Requirements<UIForeground>01</UIForeground>
+Ensemble mode can only be used if the following conditions have been met:
+ 1. The party leader is using Performance mode.
+ 2. All party members are in an area where Performance actions can be used. Ensemble mode cannot be used in inn rooms or Grand Company barracks.
+ 3. Each area has a limit on the number of ensembles that can be present at any given time. If this limit has been reached, you will not be able to use ensemble mode in that area.
+"
+1019,"Performance Assistance"
+1020,"<UIForeground>F20202</UIForeground>■Performance Assistance<UIForeground>01</UIForeground>
+This feature helps you to play along with a number of songs, with the timings and key presses displayed as you perform.
+
+<UIForeground>F20202</UIForeground>■Using Performance Assistance<UIForeground>01</UIForeground>
+Follow the steps below to use Performance Assistance.
+ 1. Select Performance Assistance from the Performance menu.
+ 2. Select a song.
+ 3. You may select the playback speed and whether or not to use a metronome.
+
+<UIForeground>F20202</UIForeground>■Important<UIForeground>01</UIForeground>
+If a party member initiates an ensemble mode ready check while you are using Performance Assistance, a “No” response will be sent automatically. For this reason, it is not advisable to use Performance Assistance while in a party.
+"
+1021,"<UIForeground>08</UIForeground><UIGlow>04</UIGlow>The rules of engagement on the Bozjan southern front are different than what you will have encountered before. The following pages contain a detailed explanation of what you may expect on the battlefield.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+<UIForeground>0F</UIForeground>Read and understand them well if you would gain the upper hand over the Empire's IVth Legion.<UIForeground>01</UIForeground>"
+1022,"<UIForeground>08</UIForeground><UIGlow>04</UIGlow>■Level Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Though it is possible to join the Bozjan southern front beginning at level 71, all players will be synced to level 80 while in duty. Item level will also be synced accordingly.
+
+<UIForeground>0F</UIForeground>* All job actions unlocked through level 80 will also be available while in duty.<UIForeground>01</UIForeground>"
+1023,"<UIForeground>08</UIForeground><UIGlow>04</UIGlow>■Resistance Rank<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+All players are subject to a separate leveling system while at the front, indicated by their “Resistance rank.” Performing admirably in large-scale battles such as skirmishes and critical engagements will increase your “mettle”─akin to experience points.
+
+<UIForeground>0F</UIForeground>* Simply defeating imperial troops and beasts is not enough to prove your mettle─you must participate in successful military operations.<UIForeground>01</UIForeground>"
+1024,"If you demonstrate sufficient mettle upon reporting to the Resistance commander, your Resistance rank will climb. Those of higher rank will gain access to more areas of the front, as well as additional quests.
+
+<UIForeground>0F</UIForeground>* Your Resistance rank will not increase unless authorized by the commander, so don't forget to report for inspection!<UIForeground>01</UIForeground>"
+1025,"<UIForeground>08</UIForeground><UIGlow>04</UIGlow>■Job Leveling<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Upon successful completion of a military operation, you will gain regular experience points in addition to mettle. This experience will be applied to your job level as normal, so it is recommended that you consider using a job that has not yet reached level 80 to take advantage of experience point gains."
+1026,"<UIForeground>08</UIForeground><UIGlow>04</UIGlow>■But Wait...<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+More information is available from Sjeros in Gangos and your Resistance comrades at the southern front, so don't hesitate to converse with them!"
+1027,"Collectables"
+1028,"The higher an item's collectability, the more attractive it is to certain NPCs who are seeking to purchase or trade for them. It should be noted, however, these items must meet a certain collectability threshold before they will be accepted by NPCs."
+1029,"The Collectables Interface"
+1030,"Selecting a collectable item in the gathering window will open the collectables interface. Here you can try to improve the item's collectability rating before adding it to your inventory."
+1031,"Increasing Collectability"
+1032,"Techniques such as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scour<UIGlow>01</UIGlow><UIForeground>01</UIForeground> can be employed to increase the collectability of an item. It should be noted, however, the gathering point's <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>integrity<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is diminished by the use of such actions. Integrity is also reduced when gathering items. One must be mindful of their actions to ensure integrity still remains after reaching a suitable collectability rating."
+1033,"Collectable Actions"
+1034,"There are three key actions used to raise collectability, each of which reduces the gathering point's integrity by one.
+
+Scour
+Increases collectability by a fixed amount determined by your gathering rating.
+
+Brazen Prospector / Brazen Woodsman
+Increases collectability by a random amount that may be lower or significantly higher than Scour. A potentially efficient option when gathering in a location where your desired item can be found in abundance.
+
+Meticulous Prospector / Meticulous Woodsman
+Increases collectability by a fixed amount lower than Scour. However, there is chance integrity is unaffected. A good option when you're certain your next action will reach the desired collectability rating."
+1035,"Gathering Collectables"
+1036,"When the item reaches a sufficient collectability rating, use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Collect<UIGlow>01</UIGlow><UIForeground>01</UIForeground> action to gather the item and add it to your inventory. Be mindful, however, that the integrity of the gathering spot is reduced by one for every item gathered. When its integrity reaches zero, no more items can be gathered.
+
+※You may fail to gather an item if its gathering rate is not 100%."
+1037,"Improving Collectability"
+1038,"The effectiveness of collectable actions such as Scour can be enhanced further by first using <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Scrutiny<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. While this action does not affect the gathering point's integrity, it does cost GP. A higher perception rating will increase the potency of this action."
+1039,"Collector's Intuition"
+1040,"When using collectable actions, there is a chance to trigger <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Collector's Intuition<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, granting a bonus to collectability. The chance of triggering this bonus increases with a higher perception rating."
+1041,"Collector's Standard"
+1042,"When using collectable actions, there is a chance you will be granted the effect of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Collector's Standard<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. While under this effect, the potency of brazen and meticulous actions is increased significantly."
+1043,"Other Actions"
+1044,"Raising collectability should not be your only focus when gathering collectables. Actions that increase gathering rate, as well as those that grant additional gathering attempts or restore integrity, are also essential to procure as many collectables as possible. Careful planning and effective use of all actions is the key to success for accomplished Disciples of the Land."
+1045,""
+1046,""
+1047,""
+1048,""
+1049,""
+1050,""
+1051,""
+1052,""
+1053,""
+1054,""
+1055,""
+1056,""
+1057,""
+1058,""
+1059,""
+1060,""
+2000,""

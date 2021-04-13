@@ -159,9 +159,9 @@ int32,str,str
 155,"TEXT_VOICEMAN_03200_001550_AYMERIC","Ha! Together, we shall give the people a spectacle for the ages─a celebration to mark the dawning of a new era!"
 156,"TEXT_VOICEMAN_03200_001560_AYMERIC","Let all here present heed well the rules of engagement!"
 157,"TEXT_VOICEMAN_03200_001561_SYSTEM_000","The grand melee is a large-scale battle in which an allied company of Ul'dahn, Gridanian, and Lominsan forces will be pitted against a company of Ishgardian forces."
-158,"TEXT_VOICEMAN_03200_001561_SYSTEM_010","When a combatant is incapacitated, the opposing company will be awarded <Color(-34022)>tactical points</Color>."
-159,"TEXT_VOICEMAN_03200_001561_SYSTEM_020","The first company to attain the designated tactical rating of <Color(-34022)>100 points</Color> is declared the victor."
-160,"TEXT_VOICEMAN_03200_001561_SYSTEM_030","During the grand melee, officiants may mark certain combatants with the <Color(-34022)>Fury's Gaze</Color>, which will be indicated by an aetherial tether linking them to their company's flag."
+158,"TEXT_VOICEMAN_03200_001561_SYSTEM_010","When a combatant is incapacitated, the opposing company will be awarded <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>tactical points<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+159,"TEXT_VOICEMAN_03200_001561_SYSTEM_020","The first company to attain the designated tactical rating of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>100 points<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is declared the victor."
+160,"TEXT_VOICEMAN_03200_001561_SYSTEM_030","During the grand melee, officiants may mark certain combatants with the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fury's Gaze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which will be indicated by an aetherial tether linking them to their company's flag."
 161,"TEXT_VOICEMAN_03200_001561_SYSTEM_040","While defeating most combatants will award your company 1 tactical point, defeating marked combatants will award your company 10 tactical points."
 162,"TEXT_VOICEMAN_03200_001561_SYSTEM_050","Marked combatants also possess enhanced attributes, rendering them more powerful and more difficult to defeat."
 163,"TEXT_VOICEMAN_03200_001561_SYSTEM_060","Defending and defeating these combatants is the key to victory!"
@@ -242,12 +242,23 @@ int32,str,str
 238,"TEXT_VOICEMAN_03200_002310_CITIZENA02240","Hells take that wyrm! While he lives, we'll never know peace!"
 239,"TEXT_VOICEMAN_03200_002320_CITIZENB02240","Aye, there'll be no end to this war till Nidhogg is dead and gone!"
 240,"TEXT_VOICEMAN_03200_002330_CITIZENC02240","So let's kill the bastard and be done with it! Death to Nidhogg! Death to Nidhogg! Death to Nidhogg!"
-241,"TEXT_VOICEMAN_03200_002340_CITIZENA02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!"
-242,"TEXT_VOICEMAN_03200_002350_CITIZENB02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!"
-243,"TEXT_VOICEMAN_03200_002360_CITIZENC02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!"
-244,"TEXT_VOICEMAN_03200_002361_CITIZENA02240","(-Angry Mob-)Death to the wyrm! Death to Nidhogg!Death to the wyrm! Death to Nidhogg!Death to the wyrm! Death to Nidhogg!"
-245,"TEXT_VOICEMAN_03200_002362_CITIZENB02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!"
-246,"TEXT_VOICEMAN_03200_002363_CITIZENC02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!Death to Nidhogg! Death to Nidhogg!"
+241,"TEXT_VOICEMAN_03200_002340_CITIZENA02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!"
+242,"TEXT_VOICEMAN_03200_002350_CITIZENB02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!"
+243,"TEXT_VOICEMAN_03200_002360_CITIZENC02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!"
+244,"TEXT_VOICEMAN_03200_002361_CITIZENA02240","(-Angry Mob-)Death to the wyrm! Death to Nidhogg!
+Death to the wyrm! Death to Nidhogg!
+Death to the wyrm! Death to Nidhogg!"
+245,"TEXT_VOICEMAN_03200_002362_CITIZENB02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!"
+246,"TEXT_VOICEMAN_03200_002363_CITIZENC02240","(-Angry Mob-)Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!
+Death to Nidhogg! Death to Nidhogg!"
 247,"TEXT_VOICEMAN_03200_002370_KRILE","Of all the ways for it to end."
 248,"TEXT_VOICEMAN_03200_002380_KRILE","Even before his transformation, I could feel the wyrm's hatred swirling about Estinien. The terrible, all-consuming rage..."
 249,"TEXT_VOICEMAN_03200_002390_KRILE","Enough to fuel a thousand-year quest for vengeance. It was all I could do not to run away screaming."
@@ -278,6 +289,8 @@ int32,str,str
 274,"TEXT_VOICEMAN_03200_002600_EDMONT","Change─that great, inexorable wave─was upon us, and soon all of Ishgard would bend to its will."
 275,"TEXT_VOICEMAN_03200_002610_EDMONT","For all our sins, for all our scars, the future for which we had long yearned was at last within our grasp."
 276,"TEXT_VOICEMAN_03200_002620_EDMONT","But it would be bought at a heavy price."
-277,"TEXT_VOICEMAN_03200_002630_EDMONT","For in those twilight hours did Nidhogg cry out for vengeance,and his brethren raise their voices for the final chorus of the Dragonsong War."
-278,"TEXT_VOICEMAN_03200_002640_SYSTEM","From the memoirs of Count Edmont de Fortemps<Emphasis>Heavensward: The Gears of Change</Emphasis>"
+277,"TEXT_VOICEMAN_03200_002630_EDMONT","For in those twilight hours did Nidhogg cry out for vengeance,
+and his brethren raise their voices for the final chorus of the Dragonsong War."
+278,"TEXT_VOICEMAN_03200_002640_SYSTEM","From the memoirs of Count Edmont de Fortemps
+<Emphasis>Heavensward: The Gears of Change</Emphasis>"
 279,"TEXT_VOICEMAN_03200_002650_KRILE",""

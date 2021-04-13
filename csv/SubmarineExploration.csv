@@ -1,35 +1,83 @@
-﻿key,0,1,2,3,4,5,6,7,8,9
-#,Destination,Location,,,,RankReq,CeruleumTankReq,Duration<min>,DistanceForSurvey,ExpReward
-int32,str,str,int16,int16,int16,byte,byte,uint16,byte,uint32
-0,"","",483,927,0,0,0,0,0,0
-1,"the Ivory Shoals","Ivory Shoals",640,880,100,1,1,180,10,10610
-2,"deep-sea site 1","Site 1",570,750,300,1,1,180,10,10610
-3,"deep-sea site 2","Site 2",740,700,300,4,1,240,10,27840
-4,"the Lightless Basin","Lightless Basin",400,850,500,4,2,240,10,27840
-5,"deep-sea site 3","Site 3",650,610,200,7,2,300,11,46660
-6,"the Southern Rimilala Trench","Southern Rimilala",850,850,600,7,3,300,11,46660
-7,"the Umbrella Narrow","Umbrella Narrow",260,760,100,10,1,360,11,75920
-8,"Offender's Rot","Offender's Rot",120,840,100,14,1,420,12,102600
-9,"Neolith Island","Neolith Island",380,660,100,17,1,420,12,118350
-10,"unidentified derelict","Derelict",900,600,600,20,3,480,12,146210
-11,"the Cobalt Shoals","Cobalt Shoals",520,550,300,20,6,480,12,146210
-12,"the Mystic Basin","Mystic Basin",260,570,600,24,6,540,13,174980
-13,"deep-sea site 4","Site 4",90,630,100,27,6,600,13,200430
-14,"the Central Rimilala Trench","Central Rimilala",800,550,400,27,6,600,13,200430
-15,"the Wreckage of Discovery I","Discovery I Wreckage",630,490,500,30,6,660,14,0
-16,"","",0,0,0,0,0,0,0,0
-17,"","",0,0,0,0,0,0,0,0
-18,"","",0,0,0,0,0,0,0,0
-19,"","",0,0,0,0,0,0,0,0
-20,"","",0,0,0,0,0,0,0,0
-21,"","",0,0,0,0,0,0,0,0
-22,"","",0,0,0,0,0,0,0,0
-23,"","",0,0,0,0,0,0,0,0
-24,"","",0,0,0,0,0,0,0,0
-25,"","",0,0,0,0,0,0,0,0
-26,"","",0,0,0,0,0,0,0,0
-27,"","",0,0,0,0,0,0,0,0
-28,"","",0,0,0,0,0,0,0,0
-29,"","",0,0,0,0,0,0,0,0
-30,"","",0,0,0,0,0,0,0,0
-31,"","",0,0,0,0,0,0,0,0
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12
+#,Destination,Location,,,,Map,,Stars,RankReq,CeruleumTankReq,Duration<min>,DistanceForSurvey,ExpReward
+int32,str,str,int16,int16,int16,SubmarineMap,bit&01,byte,byte,byte,uint16,byte,uint32
+0,"","",483,927,0,1,True,0,0,0,0,0,0
+1,"the Ivory Shoals","Ivory Shoals",640,880,100,1,False,1,1,1,180,10,10610
+2,"deep-sea site 1","Site 1",570,750,300,1,False,1,1,1,180,10,10610
+3,"deep-sea site 2","Site 2",740,700,300,1,False,1,4,1,240,10,27840
+4,"the Lightless Basin","Lightless Basin",400,850,500,1,False,1,4,2,240,10,27840
+5,"deep-sea site 3","Site 3",650,610,200,1,False,1,7,2,300,11,46660
+6,"the Southern Rimilala Trench","Southern Rimilala",850,850,600,1,False,1,7,3,300,11,46660
+7,"the Umbrella Narrow","Umbrella Narrow",260,760,100,1,False,1,10,1,360,11,75920
+8,"Offender's Rot","Offender's Rot",120,840,100,1,False,2,14,1,420,12,102600
+9,"Neolith Island","Neolith Island",380,660,100,1,False,2,17,1,420,12,118350
+10,"unidentified derelict","Derelict",900,600,600,1,False,2,20,3,480,12,146210
+11,"the Cobalt Shoals","Cobalt Shoals",520,550,300,1,False,2,20,6,480,12,146210
+12,"the Mystic Basin","Mystic Basin",260,570,600,1,False,3,24,6,540,13,174980
+13,"deep-sea site 4","Site 4",90,630,100,1,False,3,27,6,600,13,200430
+14,"the Central Rimilala Trench","Central Rimilala",800,550,400,1,False,3,27,6,600,13,200430
+15,"the Wreckage of <Emphasis>Discovery I</Emphasis>","<Emphasis>Discovery I</Emphasis> Wreckage",630,490,500,1,False,3,30,6,660,14,231750
+16,"Komura","Komura",290,365,100,1,False,3,30,6,660,14,231750
+17,"Kanayama","Kanayama",115,350,0,1,False,4,34,6,720,14,263530
+18,"concealed bay","Concealed Bay",150,540,600,1,False,4,37,6,780,15,292170
+19,"deep-sea site 5","Site 5",320,230,200,1,False,4,37,6,780,15,292170
+20,"Purgatory","Purgatory",130,180,100,1,False,4,40,6,840,15,338330
+21,"deep-sea site 6","Site 6",465,330,100,1,False,4,40,6,840,15,338330
+22,"the Rimilala Shelf","Rimilala Shelf",555,225,600,1,False,5,44,6,900,16,374020
+23,"deep-sea site 7","Site 7",710,370,300,1,False,5,44,6,900,16,374020
+24,"Glittersand Basin","Glittersand Basin",900,355,800,1,False,5,47,6,960,16,406590
+25,"Flickering Dip","Flickering Dip",210,90,100,1,False,5,47,6,960,16,406590
+26,"the Wreckage of the <Emphasis>Headway</Emphasis>","<Emphasis>Headway</Emphasis> Wreckage",430,100,1000,1,False,5,50,6,1020,17,440990
+27,"the Upwell","Upwell",830,210,800,1,False,5,50,6,1020,17,440990
+28,"the Rimilala Trench Bottom","Rimilala Trench Bottom",750,90,1000,1,False,5,50,6,1020,17,440990
+29,"stone temple","Stone Temple",895,100,1000,1,False,5,50,6,1020,17,440990
+30,"sunken vault","Sunken Vault",595,100,800,1,False,5,50,6,1020,17,440990
+31,"","",483,927,0,2,True,0,0,0,0,0,0
+32,"South Isle of Zozonan","South Isle of Zozonan",290,750,100,2,False,1,50,6,480,12,440990
+33,"Wreckage of the <Emphasis>Windwalker</Emphasis>","<Emphasis>Windwalker</Emphasis> Wreckage",150,840,100,2,False,1,50,6,480,12,440990
+34,"North Isle of Zozonan","North Isle of Zozonan",280,570,100,2,False,2,54,6,540,13,480270
+35,"Sea of Ash 1","Sea of Ash 1",430,660,300,2,False,2,54,6,540,13,480270
+36,"the Southern Charnel Trench","Southern Charnel Trench",590,750,600,2,False,2,57,6,600,14,522300
+37,"Sea of Ash 2","Sea of Ash 2",180,440,300,2,False,2,57,6,600,14,522300
+38,"Sea of Ash 3","Sea of Ash 3",350,480,300,2,False,3,60,6,660,15,548410
+39,"Ascetic's Demise","Ascetic's Demise",340,330,600,2,False,3,60,6,660,15,548410
+40,"the Central Charnel Trench","Central Charnel Trench",500,580,600,2,False,3,60,6,660,15,548410
+41,"the Catacombs of the Father","Catacombs of the Father",460,420,600,2,False,3,60,6,660,15,548410
+42,"Sea of Ash 4","Sea of Ash 4",140,310,300,2,False,3,60,6,660,15,548410
+43,"the Midden Pit","Midden Pit",440,200,600,2,False,4,63,6,720,16,595020
+44,"the Lone Glove","Lone Glove",820,550,100,2,False,4,63,6,720,16,595020
+45,"Coldtoe Isle","Coldtoe Isle",870,400,100,2,False,4,65,6,780,17,645590
+46,"Smuggler's Knot","Smuggler's Knot",760,660,300,2,False,4,65,6,780,17,645590
+47,"the Open Robe","Open Robe",584,195,100,2,False,4,65,6,780,20,645590
+48,"Nald'thal's Pipe","Nald'thal's Pipe",761,885,600,2,False,4,66,6,800,20,661730
+49,"the Slipped Anchor","Slipped Anchor",818,145,400,2,False,5,67,6,820,21,678274
+50,"Glutton's Belly","Glutton's Belly",680,285,300,2,False,5,69,6,860,21,712612
+51,"the Blue Hole","Blue Hole",168,140,600,2,False,5,70,6,880,22,730428
+52,"","",64,591,0,3,True,0,0,0,0,0,0
+53,"the Isle of Sacrament","Isle of Sacrament",199,455,100,3,False,1,70,6,880,22,730428
+54,"the Kraken's Tomb","Kraken's Tomb",246,703,1000,3,False,1,70,6,880,22,730428
+55,"Sea of Jade 1","Sea of Jade 1",261,289,400,3,False,1,70,6,880,22,730428
+56,"Rogo-Tumu-Here's Haunt","Rogo-Tumu-Here's Haunt",101,203,1000,3,False,1,72,6,900,23,767407
+57,"the Stone Barbs","Stone Barbs",474,89,700,3,False,1,72,6,900,23,767407
+58,"Rogo-Tumu-Here's Repose","Rogo-Tumu-Here's Repose",214,98,1000,3,False,1,73,6,920,24,786593
+59,"Tangaroa's Prow","Tangaroa's Prow",689,253,500,3,False,1,74,6,930,24,806258
+60,"Sea of Jade 2","Sea of Jade 2",676,76,400,3,False,2,75,6,940,25,826415
+61,"the Blind Sound","Blind Sound",842,186,200,3,False,2,75,6,940,25,826415
+62,"Sea of Jade 3","Sea of Jade 3",723,387,300,3,False,2,75,6,940,25,826415
+63,"Moergynn's Forge","Moergynn's Forge",855,96,500,3,False,2,76,6,950,26,847076
+64,"Tangaroa's Beacon","Tangaroa's Beacon",889,305,100,3,False,3,78,6,960,28,889960
+65,"Sea of Jade 4","Sea of Jade 4",659,637,300,3,False,3,80,6,980,30,935015
+66,"","",0,0,0,0,False,0,0,0,0,0,0
+67,"","",0,0,0,0,False,0,0,0,0,0,0
+68,"","",0,0,0,0,False,0,0,0,0,0,0
+69,"","",0,0,0,0,False,0,0,0,0,0,0
+70,"","",0,0,0,0,False,0,0,0,0,0,0
+71,"","",0,0,0,0,False,0,0,0,0,0,0
+72,"","",0,0,0,0,False,0,0,0,0,0,0
+73,"","",0,0,0,0,False,0,0,0,0,0,0
+74,"","",0,0,0,0,False,0,0,0,0,0,0
+75,"","",0,0,0,0,False,0,0,0,0,0,0
+76,"","",0,0,0,0,False,0,0,0,0,0,0
+77,"","",0,0,0,0,False,0,0,0,0,0,0
+78,"","",0,0,0,0,False,0,0,0,0,0,0
+79,"","",0,0,0,0,False,0,0,0,0,0,0

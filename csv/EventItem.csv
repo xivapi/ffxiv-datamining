@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
-#,Singular,,Plural,,StartsWithVowel,Rarity,,,,Name,Icon,Action,StackSize,,Quest,CastTime,,
-int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,byte,Quest,byte,byte,byte
+#,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun,Article,,Name,Icon,Action,StackSize,,Quest,CastTime,CastTimeline,Timeline
+int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,byte,Quest,byte,EventItemCastTimeline,byte
 2000000,"[en]",0,"",0,0,1,0,0,False,"",0,0,1,1,0,0,0,0
 2000021,"wooden hairpin",0,"wooden hairpins",0,0,1,0,0,False,"Wooden Hairpin",22623,1,1,1,0,3,0,0
 2000024,"recruit's toolbox",0,"recruit's toolboxes",0,0,1,0,0,False,"Recruit's Toolbox",21002,1,1,1,65563,3,0,0
@@ -9,23 +9,23 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000038,"fire candy",0,"fire candies",0,0,1,0,0,False,"Fire Candy",22624,1,1,1,66704,3,0,0
 2000039,"wind candy",0,"wind candies",0,0,1,0,0,False,"Wind Candy",22625,1,1,1,66704,3,0,0
 2000040,"earth candy",0,"earth candies",0,1,1,0,0,False,"Earth Candy",22626,1,1,1,66704,3,0,0
-2000041,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30201,1,5,1,66705,3,0,0
+2000041,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30351,1,5,1,66705,3,0,0
 2000042,"warding lantern",0,"warding lantern",0,0,1,0,0,False,"Warding Lantern",24153,1,1,1,66706,5,0,0
-2000043,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30201,1,1,1,66706,3,0,0
+2000043,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30351,1,1,1,66706,3,0,0
 2000044,"spooky sparkler",0,"spooky sparkler",0,0,1,0,0,False,"Spooky Sparkler",22647,1,1,1,66706,3,0,0
 2000045,"fire candy",0,"fire candies",0,0,1,0,0,False,"Fire Candy",22624,1,1,1,66700,3,0,0
 2000046,"wind candy",0,"wind candies",0,0,1,0,0,False,"Wind Candy",22625,1,1,1,66700,3,0,0
 2000047,"earth candy",0,"earth candies",0,1,1,0,0,False,"Earth Candy",22626,1,1,1,66700,3,0,0
-2000048,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30201,1,5,1,66701,3,0,0
+2000048,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30351,1,5,1,66701,3,0,0
 2000049,"warding lantern",0,"warding lantern",0,0,1,0,0,False,"Warding Lantern",24153,1,1,1,66702,5,0,0
-2000050,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30201,1,1,1,66702,3,0,0
+2000050,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30351,1,1,1,66702,3,0,0
 2000051,"spooky sparkler",0,"spooky sparkler",0,0,1,0,0,False,"Spooky Sparkler",22646,1,1,1,66702,3,0,0
 2000052,"fire candy",0,"fire candies",0,0,1,0,0,False,"Fire Candy",22624,1,1,1,66708,3,0,0
 2000053,"wind candy",0,"wind candies",0,0,1,0,0,False,"Wind Candy",22625,1,1,1,66708,3,0,0
 2000054,"earth candy",0,"earth candies",0,1,1,0,0,False,"Earth Candy",22626,1,1,1,66708,3,0,0
-2000055,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30201,1,5,1,66709,3,0,0
+2000055,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30351,1,5,1,66709,3,0,0
 2000056,"warding lantern",0,"warding lantern",0,0,1,0,0,False,"Warding Lantern",24153,1,1,1,66710,5,0,0
-2000057,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30201,1,1,1,66710,3,0,0
+2000057,"bomb digit",0,"bomb digits",0,0,1,0,0,False,"Bomb Digit",30351,1,1,1,66710,3,0,0
 2000058,"spooky sparkler",0,"spooky sparkler",0,0,1,0,0,False,"Spooky Sparkler",22645,1,1,1,66710,3,0,0
 2000061,"pot of amber unguent",0,"pots of amber unguent",0,0,1,0,0,False,"Amber Unguent",20661,1,3,1,65663,3,0,0
 2000062,"chigoe egg sac",0,"chigoe egg sacs",0,0,1,0,0,False,"Chigoe Egg Sac",22623,1,8,1,65664,3,0,0
@@ -44,7 +44,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000092,"roselet seed",0,"roselet seeds",0,0,1,0,0,False,"Roselet Seed",22623,1,6,1,65692,3,0,0
 2000093,"strand of newly spun diremite webbing",0,"strands of newly spun diremite webbing",0,0,1,0,0,False,"Newly Spun Diremite Web",21664,1,6,1,65693,3,0,0
 2000094,"bottle of stingbrew",0,"bottles of stingbrew",0,0,1,0,0,False,"Stingbrew",24403,1,1,1,65694,3,0,0
-2000095,"smoldering coal",0,"smoldering coals",0,0,1,0,0,False,"Smoldering Coal",30202,1,1,1,65695,3,0,0
+2000095,"smoldering coal",0,"smoldering coals",0,0,1,0,0,False,"Smoldering Coal",30352,1,1,1,65695,3,0,0
 2000096,"Leia's egg",0,"Leia's eggs",0,0,1,0,1,False,"Leia's Egg",25252,1,1,1,65697,3,0,0
 2000097,"Keitha's letter",0,"Keitha's letters",0,0,1,0,1,False,"Keitha's Letter",25918,1,1,1,0,3,0,0
 2000098,"phial of scarlet oil",0,"phials of scarlet oil",0,0,1,0,0,False,"Scarlet Oil",20641,1,6,1,65567,0,0,0
@@ -118,9 +118,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000219,"lightning sprite core",0,"lightning sprite cores",0,0,1,0,0,False,"Lightning Sprite Core",21265,1,3,1,65946,3,0,0
 2000220,"curved jackal fang",0,"curved jackal fangs",0,0,1,0,0,False,"Curved Jackal Fang",22303,1,4,1,65947,3,0,0
 2000221,"lump of fetid dodo flesh",0,"lumps of fetid dodo flesh",0,0,1,0,0,False,"Fetid Dodo Flesh",24353,1,1,1,65952,3,0,0
-2000222,"brass helm wheel",0,"brass helm wheels",0,0,1,0,0,False,"Brass Helm Wheel",21003,1,1,1,65951,3,0,0
-2000223,"knot of tangled rigging",0,"knots of tangled rigging",0,0,1,0,0,False,"Tangled Rigging",20910,1,1,1,65951,3,0,0
-2000224,"folded sailcloth",0,"folded sailcloths",0,0,1,0,0,False,"Folded Sailcloth",21602,1,1,1,65951,3,0,0
+2000222,"folded sailcloth",0,"folded sailcloths",0,0,1,0,0,False,"Folded Sailcloth",21602,1,1,1,65951,3,0,0
+2000223,"brass helm wheel",0,"brass helm wheels",0,0,1,0,0,False,"Brass Helm Wheel",21003,1,1,1,65951,3,0,0
+2000224,"knot of tangled rigging",0,"knots of tangled rigging",0,0,1,0,0,False,"Knot of Tangled Rigging",20910,1,1,1,65951,3,0,0
 2000225,"La Noscean lilybell",0,"La Noscean lilybells",0,0,1,0,0,False,"La Noscean Lilybell",25022,1,1,1,65953,3,0,0
 2000228,"muddy potsherd",0,"muddy potsherds",0,0,1,0,0,False,"Muddy Potsherd",25054,1,5,1,0,3,0,0
 2000229,"magicked blade",0,"magicked blades",0,0,1,0,0,False,"Magicked Blade",30426,1,1,1,65981,3,0,0
@@ -263,7 +263,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000378,"raw Nashachite",0,"raw Nashachite",0,0,1,0,0,False,"Raw Nashachite",20004,1,3,1,66109,3,0,0
 2000379,"vial of gigantoad secretions",0,"vials of gigantoad secretions",0,0,1,0,0,False,"Gigantoad Secretions",20682,1,2,1,66066,3,0,0
 2000380,"Hamund's application",0,"Hamund's applications",0,0,1,0,0,False,"Hamund's Application",26151,1,1,1,66067,3,0,0
-2000381,"antique dagger",0,"antique daggers",0,1,1,0,0,False,"Antique Dagger",30222,1,1,1,65868,3,0,0
+2000381,"antique dagger",0,"antique daggers",0,1,1,0,0,False,"Antique Dagger",30362,1,1,1,65868,3,0,0
 2000382,"buzzard thigh",0,"buzzard thighs",0,0,1,0,0,False,"Buzzard Thigh",25154,1,2,1,65871,3,0,0
 2000383,"thickshell leg",0,"thickshell legs",0,0,1,0,0,False,"Thickshell Leg",29201,1,2,1,65871,3,0,0
 2000384,"scaphite slice",0,"scaphite slices",0,0,1,0,0,False,"Scaphite Slice",25156,1,2,1,65871,3,0,0
@@ -423,7 +423,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000544,"half-empty bottle of ale",0,"half-empty bottles of ale",0,0,1,0,0,False,"Half-empty Bottle of Ale",25057,0,99,1,0,3,0,0
 2000545,"washed up wine bottle",0,"washed up wine bottles",0,0,1,0,0,False,"Washed Up Wine",25057,0,99,1,0,3,0,0
 2000546,"phial of nerve drops",0,"phials of nerve drops",0,0,1,0,0,False,"Nerve Drops",20625,1,99,1,0,1,0,0
-2000547,"bomb finger",0,"bomb fingers",0,0,1,0,0,False,"Bomb Finger",30201,1,99,1,0,3,0,0
+2000547,"bomb finger",0,"bomb fingers",0,0,1,0,0,False,"Bomb Finger",30351,1,99,1,0,3,0,0
 2000548,"glowing abdomen",0,"glowing abdomens",0,0,1,0,0,False,"Glowing Abdomen",25919,1,99,1,0,3,0,0
 2000549,"fire sprite core",0,"fire sprite cores",0,0,1,0,0,False,"Fire Sprite Core",21261,1,99,1,0,3,0,0
 2000550,"roseling pollen cluster",0,"roseling pollen clusters",0,0,1,0,0,False,"Roseling Pollen Cluster",25919,1,99,1,0,3,0,0
@@ -572,14 +572,14 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000699,"slice of fresh mutton loin",0,"slices of fresh mutton loin",0,0,1,0,0,False,"Fresh Mutton Loin",25153,1,12,1,66429,3,0,0
 2000700,"karakul skin",0,"karakul skins",0,0,1,0,0,False,"Karakul Skin",21820,1,12,1,66429,3,0,0
 2000701,"silvery ring",0,"silvery rings",0,0,1,0,0,False,"Silvery Ring",48003,1,1,1,66430,3,0,0
-2000702,"dull knife",0,"dull knives",0,0,1,0,0,False,"Dull Knife",30223,1,1,1,66434,3,0,0
+2000702,"dull knife",0,"dull knives",0,0,1,0,0,False,"Dull Knife",30363,1,1,1,66434,3,0,0
 2000703,"snow wolf hide",0,"snow wolf hides",0,0,1,0,0,False,"Snow Wolf Hide",21819,1,4,1,66435,3,0,0
 2000704,"length of brambleweed rope",0,"lengths of brambleweed rope",0,0,1,0,0,False,"Brambleweed Rope",26103,1,1,1,66437,3,0,0
 2000705,"bound karakul",0,"bound karakuls",0,0,1,0,0,False,"Bound Karakul",21003,1,1,1,66437,3,0,0
 2000706,"smoldering coal",0,"smoldering coals",0,0,1,0,0,False,"Smoldering Coal",25911,1,5,1,66438,3,0,0
 2000707,"black yew log",0,"black yew logs",0,0,1,0,0,False,"Black Yew Log",22401,1,1,1,66440,3,0,0
 2000708,"letter to Isaudorel",0,"letters to Isaudorel",0,0,1,0,0,False,"Letter to Isaudorel",26151,1,1,1,66441,3,0,0
-2000709,"bomb finger",0,"bomb fingers",0,0,1,0,0,False,"Bomb Finger",30201,1,1,1,66444,3,0,0
+2000709,"bomb finger",0,"bomb fingers",0,0,1,0,0,False,"Bomb Finger",30351,1,1,1,66444,3,0,0
 2000710,"letter to Belmont",0,"letters to Belmont",0,0,1,0,0,False,"Letter to Belmont",26151,1,1,1,66445,3,0,0
 2000711,"draconian rosary",0,"draconian rosaries",0,0,1,0,0,False,"Draconian Rosary",21002,1,2,1,66447,3,0,0
 2000712,"copy of Well-learned and Well-dressed",0,"copies of Well-learned and Well-dressed",0,0,1,0,0,False,"Well-learned and Well-dressed",20601,1,1,1,0,3,0,0
@@ -655,7 +655,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000785,"chunk of basilisk meat",0,"chunks of basilisk meat",0,0,1,0,0,False,"Basilisk Meat",25154,1,3,1,66575,3,0,0
 2000786,"bowl of basilisk stew",0,"bowls of basilisk stew",0,0,1,0,0,False,"Basilisk Stew",24107,1,3,1,66575,3,0,0
 2000787,"Immortal Flames scimitars",0,"Immortal Flames scimitars",0,1,1,0,0,False,"Immortal Flames Scimitars",21003,1,1,1,66576,3,0,0
-2000788,"grenade claw",0,"grenade claws",0,0,1,0,0,False,"Grenade Claw",30201,1,1,1,66577,3,0,0
+2000788,"grenade claw",0,"grenade claws",0,0,1,0,0,False,"Grenade Claw",30351,1,1,1,66577,3,0,0
 2000789,"potion cocktail",0,"potion cocktails",0,0,1,0,0,False,"Potion Cocktail",20684,1,4,1,66580,3,0,0
 2000790,"ahriman cornea",0,"ahriman corneas",0,1,1,0,0,False,"Ahriman Cornea",22605,1,6,1,66581,3,0,0
 2000791,"White Wolf Gate pass",0,"White Wolf Gate passes",0,0,1,0,0,False,"White Wolf Gate Pass",26153,1,1,1,66338,3,0,0
@@ -837,7 +837,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2000970,"vial of pelican poison",0,"vials of pelican poison",0,0,1,0,0,False,"Pelican Poison",20626,1,3,1,66684,3,0,0
 2000971,"bottle of lowland white",0,"bottles of lowland white",0,0,1,0,0,False,"Lowland White",25057,1,2,1,66685,3,0,0
 2000972,"bouquet of spring stars",0,"bouquets of spring stars",0,0,1,0,0,False,"Spring Stars",25008,1,1,1,66686,3,0,0
-2000973,"blunt hunting knife",0,"blunt hunting knives",0,0,1,0,0,False,"Blunt Hunting Knife",30222,1,1,1,66318,3,0,0
+2000973,"blunt hunting knife",0,"blunt hunting knives",0,0,1,0,0,False,"Blunt Hunting Knife",30362,1,1,1,66318,3,0,0
 2000974,"map of Zanr'ak",0,"maps of Zanr'ak",0,0,1,0,0,False,"Zanr'ak Map",26151,1,1,1,66318,3,0,0
 2000975,"bottle of phurble tonic",0,"bottles of phurble tonic",0,0,1,0,0,False,"Phurble Tonic",22606,1,1,1,66287,3,0,0
 2000976,"bottle of snurble tonic",0,"bottles of snurble tonic",0,0,1,0,0,False,"Snurble Tonic",22606,1,1,1,66493,3,0,0
@@ -946,9 +946,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001081,"highland tea leaves",0,"highland tea leaves",0,0,1,0,0,False,"Highland Tea Leaves",25009,1,4,1,66723,3,0,0
 2001082,"airship ticket",0,"airship tickets",0,1,1,0,0,False,"Airship Ticket",26153,1,1,1,66964,0,0,0
 2001083,"succulent bone",0,"succulent bones",0,0,1,0,0,False,"Succulent Bone",22202,1,1,1,66826,3,0,0
-2001084,"starved pup",0,"starved pups",0,0,1,0,0,False,"Starved Pup",28550,1,1,1,66826,0,0,0
+2001084,"starved pup",0,"starved pups",0,0,1,0,0,False,"Starved Pup",59450,1,1,1,66826,0,0,0
 2001085,"×'救急キット（仮）",0,"",0,0,1,0,0,False,"",25919,1,1,1,0,3,0,0
-2001086,"baby coeurl",0,"baby coeurls",0,0,1,0,0,False,"Baby Coeurl",28552,1,1,1,66827,0,0,0
+2001086,"baby coeurl",0,"baby coeurls",0,0,1,0,0,False,"Baby Coeurl",59452,1,1,1,66827,0,0,0
 2001087,"leather treasure map",0,"leather treasure maps",0,0,1,0,0,False,"Leather Treasure Map",26151,1,1,2,0,0,0,0
 2001088,"goatskin treasure map",0,"goatskin treasure maps",0,0,1,0,0,False,"Goatskin Treasure Map",26151,1,1,2,0,0,0,0
 2001089,"toadskin treasure map",0,"toadskin treasure maps",0,0,1,0,0,False,"Toadskin Treasure Map",26151,1,1,2,0,0,0,0
@@ -1086,24 +1086,24 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001222,"waymaker bomb",0,"waymaker bombs",0,0,1,0,0,False,"Waymaker Bomb",26015,1,1,1,66876,1,0,0
 2001223,"alexandrite map",0,"alexandrite maps",0,1,1,0,0,False,"Alexandrite Map",26151,1,1,2,0,0,0,0
 2001226,"smoky coal",0,"smoky coals",0,0,1,0,0,False,"Smoky Coal",25911,1,1,1,66873,3,0,0
-2001227,"hot grenade arm",0,"hot grenade arms",0,0,1,0,0,False,"Hot Grenade Arm",30201,1,1,1,66873,3,0,0
-2001228,"scalding bomb arm",0,"scalding bomb arms",0,0,1,0,0,False,"Scalding Bomb Arm",30201,1,1,1,0,3,0,0
+2001227,"hot grenade arm",0,"hot grenade arms",0,0,1,0,0,False,"Hot Grenade Arm",30351,1,1,1,66873,3,0,0
+2001228,"scalding bomb arm",0,"scalding bomb arms",0,0,1,0,0,False,"Scalding Bomb Arm",30351,1,1,1,0,3,0,0
 2001229,"soft doblyn shell",0,"soft doblyn shells",0,0,1,0,0,False,"Soft Doblyn Shell",20006,1,3,1,66902,3,0,0
 2001230,"boom toss",0,"boom tosses",0,0,1,0,0,False,"Boom Toss",26015,1,3,1,66902,3,0,0
-2001231,"glowing bomb arm",0,"glowing bomb arms",0,0,1,0,0,False,"Glowing Bomb Arm",30201,1,1,1,66904,3,0,0
+2001231,"glowing bomb arm",0,"glowing bomb arms",0,0,1,0,0,False,"Glowing Bomb Arm",30351,1,1,1,66904,3,0,0
 2001232,"crooked pickaxe",0,"crooked pickaxes",0,0,1,0,0,False,"Crooked Pickaxe",38003,0,1,1,66856,0,0,0
 2001233,"chunk of worthless ore",0,"chunks of worthless ore",0,0,1,0,0,False,"Worthless Ore",21451,0,4,1,66857,0,0,0
-2001234,"set of smart bombs",0,"sets of smart bombs",0,0,1,0,0,False,"Smart Bombs",28503,1,1,1,66858,3,0,0
+2001234,"set of smart bombs",0,"sets of smart bombs",0,0,1,0,0,False,"Smart Bombs",59403,1,1,1,66858,3,0,0
 2001235,"set of furnace plans",0,"sets of furnace plans",0,0,1,0,0,False,"Furnace Plans",26151,0,1,1,66859,0,0,0
 2001236,"letter from Bi Bi",0,"letters from Bi Bi",0,0,1,0,0,False,"Letter from Bi Bi",25918,0,1,1,66859,0,0,0
-2001237,"limpet bomb",0,"limpet bombs",0,0,1,0,0,False,"Limpet Bomb",28503,1,6,1,66860,3,0,0
+2001237,"limpet bomb",0,"limpet bombs",0,0,1,0,0,False,"Limpet Bomb",59403,1,6,1,66860,3,0,0
 2001238,"leather bag",0,"leather bags",0,0,1,0,0,False,"Leather Bag",25919,1,1,1,66957,0,0,0
 2001239,"letter from Wiscard",0,"letters from Wiscard",0,0,1,0,0,False,"Letter from Wiscard",25918,1,1,1,66958,0,0,0
 2001240,"large sack",0,"large sacks",0,0,1,0,0,False,"Large Sack",22628,1,1,1,66960,0,0,0
 2001241,"small sack",0,"small sacks",0,0,1,0,0,False,"Small Sack",25919,1,1,1,66960,0,0,0
 2001242,"Nanalai's payment",0,"Nanalai's payments",0,0,1,0,1,False,"Nanalai's Payment",25919,1,1,1,66960,0,0,0
 2001243,"13th Order's treasure",0,"13th Order's treasures",0,0,1,0,0,False,"13th Order's Treasure",23001,1,3,1,66878,0,0,0
-2001244,"rejected bomb arm",0,"rejected bomb arms",0,0,1,0,0,False,"Rejected Bomb Arm",30201,1,1,1,66875,3,0,0
+2001244,"rejected bomb arm",0,"rejected bomb arms",0,0,1,0,0,False,"Rejected Bomb Arm",30351,1,1,1,66875,3,0,0
 2001245,"shrapnel core",0,"shrapnel cores",0,0,1,0,0,False,"Shrapnel Core",21262,1,1,1,66875,3,0,0
 2001246,"shard of crystalline",0,"shards of crystalline saltpeter",0,0,1,0,0,False,"Crystalline Saltpeter",25919,1,5,1,66903,0,0,0
 2001247,"chunk of worthless ore",0,"chunks of worthless ore",0,0,1,0,0,False,"Worthless Ore",21202,0,3,1,66861,0,0,0
@@ -1117,15 +1117,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001255,"earthenware pot",0,"earthenware pot",0,1,1,0,0,False,"Earthenware Pot",22802,0,1,1,0,0,0,0
 2001256,"box of bang tosses",0,"boxes of bang tosses",0,0,1,0,0,False,"Bang Tosses",26015,1,1,1,66871,3,0,0
 2001257,"smoldering coal",0,"smoldering coals",0,0,1,0,0,False,"Smoldering Coal",25911,1,3,1,66866,3,0,0
-2001258,"set of smart bombs",0,"sets of smart bombs",0,0,1,0,0,False,"Smart Bombs",28503,1,1,1,66866,3,0,0
+2001258,"set of smart bombs",0,"sets of smart bombs",0,0,1,0,0,False,"Smart Bombs",59403,1,1,1,66866,3,0,0
 2001259,"smart bomb core",0,"smart bomb cores",0,0,1,0,0,False,"Smart Bomb Core",21261,0,1,1,66866,0,0,0
 2001260,"glowing coal",0,"glowing coals",0,0,1,0,0,False,"Glowing Coal",25911,1,3,1,66867,3,0,0
-2001261,"set of advanced smart bombs",0,"sets of advanced smart bombs",0,0,1,0,0,False,"Advanced Smart Bombs",28503,1,1,1,66867,3,0,0
+2001261,"set of advanced smart bombs",0,"sets of advanced smart bombs",0,0,1,0,0,False,"Advanced Smart Bombs",59403,1,1,1,66867,3,0,0
 2001262,"advanced smart bomb core",0,"advanced smart bomb core",0,1,1,0,0,False,"Advanced Smart Bomb Core",21261,0,1,1,0,0,0,0
 2001263,"flint stone",0,"flint stones",0,0,1,0,0,False,"Flint Stone",21205,1,4,1,66930,3,0,0
 2001264,"moon jellyfish",0,"moon jellyfish",0,0,1,0,0,False,"Moon Jellyfish",29005,1,5,1,66931,2,0,0
 2001265,"pot stopper",0,"pot stoppers",0,0,1,0,0,False,"Pot Stopper",22255,1,4,1,66933,3,0,0
-2001266,"grenade digit",0,"grenade digits",0,0,1,0,0,False,"Grenade Digit",30201,0,3,1,66863,0,0,0
+2001266,"grenade digit",0,"grenade digits",0,0,1,0,0,False,"Grenade Digit",30351,0,3,1,66863,0,0,0
 2001267,"slab of fresh pugil flesh",0,"slabs of fresh pugil flesh",0,0,1,0,0,False,"Fresh Pugil Flesh",29001,1,2,1,66920,3,0,0
 2001268,"rigid megalocrab shell",0,"rigid megalocrab shells",0,0,1,0,0,False,"Rigid Megalocrab Shell",29201,1,2,1,66920,3,0,0
 2001269,"whitecap clam",0,"whitecap clams",0,0,1,0,0,False,"Whitecap Clam",22253,1,5,1,66921,3,0,0
@@ -1134,11 +1134,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001272,"slab of rubbery tail meat",0,"slabs of rubbery tail meat",0,0,1,0,0,False,"Rubbery Tail Meat",29002,1,1,1,66941,3,0,0
 2001273,"small flint stone",0,"small flint stones",0,0,1,0,0,False,"Small Flint Stone",21205,1,2,1,66916,5,0,0
 2001274,"bright coal",0,"bright coals",0,0,1,0,0,False,"Bright Coal",25911,1,3,1,66877,3,0,0
-2001275,"set of advanced smart bombs",0,"sets of advanced smart bombs",0,0,1,0,0,False,"Advanced Smart Bombs",28503,1,1,1,66877,3,0,0
+2001275,"set of advanced smart bombs",0,"sets of advanced smart bombs",0,0,1,0,0,False,"Advanced Smart Bombs",59403,1,1,1,66877,3,0,0
 2001276,"advanced smart bomb core",0,"advanced smart bomb cores",0,1,0,0,0,False,"Advanced Smart Bomb Core",21261,0,1,1,66877,0,0,0
 2001277,"stuffed giant clam",0,"stuffed giant clams",0,0,1,0,0,False,"Stuffed Giant Clam",25919,1,3,1,66918,3,0,0
 2001278,"flickering coal",0,"flickering coals",0,0,1,0,0,False,"Flickering Coal",25911,1,3,1,66906,3,0,0
-2001279,"set of Mark II smart bombs",0,"sets of Mark II smart bombs",0,0,1,0,0,False,"Mark II Smart Bombs",28503,1,1,1,66906,3,0,0
+2001279,"set of Mark II smart bombs",0,"sets of Mark II smart bombs",0,0,1,0,0,False,"Mark II Smart Bombs",59403,1,1,1,66906,3,0,0
 2001280,"Mark II smart bomb core",0,"Mark II smart bomb cores",0,0,1,0,0,False,"Mark II Smart Bomb Core",21261,0,1,1,0,0,0,0
 2001281,"slab of tender tail meat",0,"slabs of tender tail meat",0,0,1,0,0,False,"Tender Tail Meat",29001,0,1,1,66941,0,0,0
 2001282,"goldpot key",0,"goldpot keys",0,0,1,0,0,False,"Goldpot Key",25902,1,1,1,66905,3,0,0
@@ -1188,7 +1188,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001327,"package for Marcette",0,"packages for Marcette",0,0,1,0,0,False,"Package for Marcette",23001,0,1,1,67021,0,0,0
 2001328,"light flint stone",0,"light flint stones",0,0,1,0,0,False,"Light Flint Stone",21205,1,1,1,67021,3,0,0
 2001329,"bushel of weeds",0,"bushels of weeds",0,0,1,0,0,False,"Weed Bushel",25919,1,1,1,67021,3,0,0
-2001330,"mole pup",0,"mole pups",0,0,1,0,0,False,"Mole Pup",28540,0,1,1,67021,0,0,0
+2001330,"mole pup",0,"mole pups",0,0,1,0,0,False,"Mole Pup",59440,0,1,1,67021,0,0,0
 2001331,"bundle for Braya",0,"bundles for Braya",0,0,1,0,0,False,"Bundle for Braya",23001,0,1,1,67067,0,0,0
 2001332,"letter to Gegeruju",0,"letters to Gegeruju",0,0,1,0,0,False,"Letter to Gegeruju",25918,0,1,1,67068,0,0,0
 2001333,"training contract",0,"training contracts",0,0,1,0,0,False,"Training Contract",26151,0,1,1,67068,0,0,0
@@ -1251,12 +1251,12 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001395,"set of transmission component materials",0,"sets of transmission component materials",0,0,1,0,0,False,"Transmission Component Materials",25919,0,3,1,67038,0,0,0
 2001396,"piece of dullahan plate",0,"pieces of dullahan plate",0,0,1,0,0,False,"Dullahan Plate",20954,0,3,1,67039,0,0,0
 2001397,"set of cockpit exterior component materials",0,"sets of cockpit exterior component materials",0,0,1,0,0,False,"Cockpit Exterior Component Materials",25919,0,1,1,67050,0,0,0
-2001398,"saint carp",0,"saint carp",0,1,1,0,0,False,"Saint Carp",29210,0,1,1,67050,0,0,0
+2001398,"saint carp",0,"saint carp",0,0,1,0,0,False,"Saint Carp",29210,0,1,1,67050,0,0,0
 2001399,"set of cockpit interior component materials",0,"sets of cockpit interior component materials",0,0,1,0,0,False,"Cockpit Interior Component Materials",25919,0,1,1,67051,0,0,0
 2001400,"bundle of pine lumber scraps",0,"bundles of pine lumber scraps",0,0,1,0,0,False,"Pine Lumber Scraps",53013,0,1,1,67051,0,0,0
 2001401,"set of ballast component materials",0,"sets of ballast component materials",0,0,1,0,0,False,"Ballast Component Materials",25919,0,1,1,67052,0,0,0
 2001402,"feral croc beard",0,"feral croc beards",0,0,1,0,0,False,"Feral Croc Beard",21827,0,1,1,67052,0,0,0
-2001403,"shearing knife",0,"shearing knives",0,0,1,0,0,False,"Shearing Knife",30223,1,1,1,67052,3,0,0
+2001403,"shearing knife",0,"shearing knives",0,0,1,0,0,False,"Shearing Knife",30363,1,1,1,67052,3,0,0
 2001404,"set of instrument panel component materials",0,"sets of instrument panel component materials",0,0,1,0,0,False,"Instrument Panel Component Materials",25919,0,1,1,67053,0,0,0
 2001405,"biast claw",0,"biast claws",0,0,1,0,0,False,"Biast Claw",22301,0,1,1,67053,0,0,0
 2001406,"set of aerodynamo component materials",0,"sets of aerodynamo component materials",0,0,1,0,0,False,"Aerodynamo Component Materials",25919,0,1,1,67054,0,0,0
@@ -1352,7 +1352,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001502,"tarnished neckpiece",0,"tarnished neckpieces",0,0,1,0,0,False,"Tarnished Neckpiece",48315,0,1,1,67112,0,0,0
 2001503,"challenge to the death",0,"challenges to the death",0,0,1,0,0,False,"Challenge to the Death",26151,0,1,1,67113,0,0,0
 2001504,"Brass Blade missive",0,"Brass Blade missives",0,1,1,0,0,False,"Brass Blade Missive",25918,0,1,1,65778,0,0,0
-2001505,"Ossuary index",0,"Ossuary indices",0,1,1,0,0,False,"Ossuary Index",26002,0,1,1,65778,0,0,0
+2001505,"Ossuary index",0,"Ossuary indexes",0,1,1,0,0,False,"Ossuary Index",26002,0,1,1,65778,0,0,0
 2001506,"letter to Jijiroon",0,"letters to Jijiroon",0,0,1,0,0,False,"Letter to Jijiroon",25918,0,1,1,65779,0,0,0
 2001507,"firing mechanism #43",0,"firing mechanisms #43",0,0,1,0,0,False,"Firing Mechanism #43",21003,1,1,1,65646,0,0,0
 2001508,"crate of Coliseum refuse",0,"crates of Coliseum refuse",0,0,1,0,0,False,"Coliseum Refuse",21003,1,3,1,65739,0,0,0
@@ -1451,7 +1451,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001603,"empty wine bottle",0,"empty wine bottles",0,0,1,0,0,False,"Empty Wine Bottle",27608,0,1,1,67303,0,0,0
 2001604,"bottle of Dragonspit",0,"bottles of Dragonspit",0,0,1,0,0,False,"Dragonspit",27608,0,1,1,67303,0,0,0
 2001605,"battle chocobo feather",0,"battle chocobo feathers",0,0,1,0,0,False,"Battle Chocobo Feather",21901,0,1,1,67304,0,0,0
-2001606,"quavering kitten",0,"quavering kittens",0,0,1,0,0,False,"Quavering Kitten",4552,0,1,1,67290,0,0,0
+2001606,"quavering kitten",0,"quavering kittens",0,0,1,0,0,False,"Quavering Kitten",4452,0,1,1,67290,0,0,0
 2001607,"lampshade",0,"lampshades",0,0,1,0,0,False,"Lampshade",25402,0,1,1,67314,0,0,0
 2001608,"bunch of spore-covered greens",0,"bunches of spore-covered greens",0,0,1,0,0,False,"Spore-covered Greens",25218,0,1,1,67314,0,0,0
 2001609,"bottle of foul-smelling sludge",0,"bottles of foul-smelling sludge",0,0,1,0,0,False,"Foul-smelling Sludge",24402,1,1,1,67315,3,0,0
@@ -1485,7 +1485,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001639,"moca leaf",0,"moca leaves",0,0,1,0,0,False,"Moca Leaf",25005,0,1,1,67372,0,0,0
 2001640,"empty ewer",0,"empty ewers",0,1,1,0,0,False,"Empty Ewer",25055,0,1,1,67373,0,0,0
 2001641,"full ewer",0,"full ewers",0,0,1,0,0,False,"Full Ewer",25055,0,1,1,67373,0,0,0
-2001642,"Moglinglaive",0,"Moglinglaives",0,0,1,0,0,False,"Moglinglaive",30223,1,1,1,67374,3,0,0
+2001642,"Moglinglaive",0,"Moglinglaives",0,0,1,0,0,False,"Moglinglaive",30363,1,1,1,67374,3,0,0
 2001643,"handful of blistering scales",0,"handfuls of blistering scales",0,0,1,0,0,False,"Blistering Scales",22251,0,3,1,67374,0,0,0
 2001644,"sparkly spillikin",0,"sparkly spillikins",0,0,1,0,0,False,"Sparkly Spillikin",21002,0,5,1,67376,0,0,0
 2001645,"crackleweed seedling",0,"crackleweed seedlings",0,0,1,0,0,False,"Crackleweed Seedling",25015,0,5,1,67380,0,0,0
@@ -1723,7 +1723,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001878,"decorated envelope",0,"decorated envelopes",0,0,1,0,0,False,"Decorated Envelope",26174,0,1,1,67608,0,0,0
 2001879,"folded missive",0,"folded missives",0,0,1,0,0,False,"Folded Missive",26181,0,1,1,67555,0,0,0
 2001880,"sack of guild aid",0,"sacks of guild aid",0,0,1,0,0,False,"Guild Aid",25919,1,1,1,67614,3,0,0
-2001882,"node nacelle",0,"node nacelles",0,0,1,0,0,False,"Node Nacelle",28642,0,1,1,67649,0,0,0
+2001882,"node nacelle",0,"node nacelles",0,0,1,0,0,False,"Node Nacelle",59542,0,1,1,67649,0,0,0
 2001883,"ice rondel",0,"ice rondels",0,1,1,0,0,False,"Ice Rondel",21291,0,1,1,67647,0,0,0
 2001884,"waukkeon scale",0,"waukkeon scales",0,0,1,0,0,False,"Waukkeon Scale",22252,0,1,1,67648,0,0,0
 2001885,"wild chocobo feather",0,"wild chocobo feathers",0,0,1,0,0,False,"Wild Chocobo Feather",21901,0,99,1,0,0,0,0
@@ -1735,7 +1735,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001891,"engineer's report",0,"engineer's reports",0,1,1,0,0,False,"Engineer's Report",25906,0,1,1,67670,3,0,0
 2001895,"bottle of pirate grog",0,"bottles of pirate grog",0,0,1,0,0,False,"Pirate Grog",25057,0,99,1,0,0,0,0
 2001896,"creepy cookie",0,"creepy cookies",0,0,1,0,0,False,"Creepy Cookie",24067,0,3,1,67686,0,0,0
-2001897,"witch's broom",0,"witch's brooms",0,0,1,0,0,False,"Witch's Broom",28571,1,1,1,67687,3,0,0
+2001897,"witch's broom",0,"witch's brooms",0,0,1,0,0,False,"Witch's Broom",59471,1,1,1,67687,3,0,0
 2001898,"pinch of broom ash",0,"pinches of broom ash",0,0,1,0,0,False,"Broom Ash",21001,1,1,1,67687,3,0,0
 2001899,"Alphinaud's sketch",0,"Alphinaud's sketches",0,0,1,0,1,False,"Alphinaud's Sketch",25906,0,1,1,67695,3,0,0
 2001900,"blunt whittle",0,"blunt whittles",0,0,1,0,0,False,"Blunt Whittle",33801,0,1,1,67737,0,0,0
@@ -1757,7 +1757,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001916,"dhalmel femur",0,"dhalmel femurs",0,0,1,0,0,False,"Dhalmel Femur",22202,0,2,1,67723,0,0,0
 2001917,"Vundu dye pot",0,"Vundu dye pots",0,0,1,0,0,False,"Vundu Dye Pot",22802,0,3,1,67724,0,0,0
 2001918,"wamoura cocoon",0,"wamoura cocoons",0,0,1,0,0,False,"Wamoura Cocoon",21664,0,4,1,67727,0,0,0
-2001919,"stray gaelicat",0,"stray gaelicats",0,0,1,0,0,False,"Stray Gaelicat",28632,0,5,1,67728,0,0,0
+2001919,"stray gaelicat",0,"stray gaelicats",0,0,1,0,0,False,"Stray Gaelicat",59532,0,5,1,67728,0,0,0
 2001920,"comely korrigan",0,"comely korrigans",0,0,1,0,0,False,"Comely Korrigan",26110,0,4,1,67729,0,0,0
 2001921,"downy gastornis feather",0,"downy gastornis feathers",0,0,1,0,0,False,"Downy Gastornis Feather",21907,0,3,1,67730,0,0,0
 2001922,"crone's catsfoot chew",0,"crone's catsfoot chews",0,0,1,0,0,False,"Crone's Catsfoot Chew",27011,0,3,1,67731,0,0,0
@@ -1799,7 +1799,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001960,"bottle of caelumtree wine",0,"bottles of caelumtree wine",0,0,0,0,0,False,"Caelumtree Wine",25057,0,1,1,67804,0,0,0
 2001961,"scrap of meat",0,"scraps of meat",0,0,1,0,0,False,"Scrap of Meat",25154,1,3,1,67806,3,0,0
 2001962,"bandersnatch pelt",0,"bandersnatch pelts",0,0,1,0,0,False,"Bandersnatch Pelt",22013,0,2,1,67806,0,0,0
-2001963,"nail shrimp",0,"nail shrimps",0,0,1,0,0,False,"Nail Shrimp",29404,1,1,1,67809,3,0,0
+2001963,"nail shrimp",0,"nail shrimp",0,0,1,0,0,False,"Nail Shrimp",29404,1,1,1,67809,3,0,0
 2001964,"clutch of nanka eggs",0,"clutches of nanka eggs",0,0,1,0,0,False,"Nanka Eggs",25156,0,2,1,67809,0,0,0
 2001965,"sprig of Whilom mint",0,"sprigs of Whilom mint",0,0,1,0,0,False,"Whilom Mint",25016,0,3,1,67810,0,0,0
 2001966,"sprig of Danner sage",0,"sprigs of Danner sage",0,0,1,0,0,False,"Danner Sage",25009,0,3,1,67810,0,0,0
@@ -1810,9 +1810,9 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001971,"egg fragment",0,"egg fragments",0,1,0,0,0,False,"Egg Fragment",26111,1,1,1,67666,5,0,0
 2001972,"Archon egg",0,"Archon eggs",0,1,0,0,0,False,"Archon Egg",21308,0,99,1,0,0,0,0
 2001973,"flame-resistant net",0,"flame-resistant nets",0,0,1,0,0,False,"Flame-resistant Net",25919,1,1,1,67675,1,0,0
-2001974,"bound Bombard",0,"bound Bombards",0,0,1,0,0,False,"Bound Bombard",28503,1,1,1,67675,3,0,0
+2001974,"bound Bombard",0,"bound Bombards",0,0,1,0,0,False,"Bound Bombard",59403,1,1,1,67675,3,0,0
 2001975,"Avere's ring",0,"Avere's rings",0,1,0,0,1,False,"Avere's Ring",48021,0,1,1,67093,0,0,0
-2001976,"Yo-kai Medallium",0,"Yo-kai Medalliums",0,0,0,0,0,False,"Yo-kai Medallium",26995,1,1,6,0,0,0,0
+2001976,"Yo-kai Medallium",0,"Yo-kai Medalliums",0,0,0,0,0,False,"Yo-kai Medallium",787,1,1,1,0,0,0,0
 2001977,"master thief's map",0,"master thief's maps",0,0,0,0,0,False,"Master Thief's Map",26151,1,1,2,0,0,0,0
 2001978,"crate of supplies",0,"crates of supplies",0,0,1,0,0,False,"Crate of Supplies",21003,0,1,1,67860,0,0,0
 2001979,"letter to Handeloup",0,"letters to Handeloup",0,0,1,0,0,False,"Letter to Handeloup",26171,0,1,1,67861,0,0,0
@@ -1829,8 +1829,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2001990,"bowl of mogstew",0,"bowls of mogstew",0,0,1,0,0,False,"Mogstew",24104,0,3,1,67843,0,0,0
 2001991,"kupa tree crystal",0,"kupa tree crystals",0,0,1,0,0,False,"Kupa Tree Crystal",20016,0,1,1,67844,0,0,0
 2001992,"statuette materials",0,"statuette materials",0,0,1,0,0,False,"Statuette Materials",21003,0,1,1,0,0,0,0
-2001993,"Ulan's note",0,"Ulan's notes",0,0,1,0,1,False,"Ulan's Note",26189,1,1,7,0,0,0,0
-2001994,"anima glass",0,"anima glasses",0,1,1,0,0,False,"Anima Glass",25986,1,1,7,0,0,0,0
+2001993,"Ulan's note",0,"Ulan's notes",0,0,1,0,1,False,"Ulan's Note",26189,1,1,6,0,0,0,0
+2001994,"anima glass",0,"anima glasses",0,1,1,0,0,False,"Anima Glass",25986,1,1,6,0,0,0,0
 2001995,"handful of wyvern scale flakes",0,"handfuls of wyvern scale flakes",0,0,1,0,0,False,"Wyvern Scale Flakes",22262,0,1,1,67849,0,0,0
 2001996,"undiscovered cloudfish",0,"undiscovered cloudfish",0,1,0,0,0,False,"Undiscovered Cloudfish",29717,0,1,1,67850,0,0,0
 2001997,"package of passerine nests",0,"packages of passerine nests",0,0,1,0,0,False,"Passerine Nests",21003,0,1,1,67851,0,0,0
@@ -1858,15 +1858,15 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002020,"cloth of memories",0,"cloths of memories",0,0,1,0,0,False,"Cloth of Memories",21614,0,1,1,67917,0,0,0
 2002021,"cloth of disturbing memories",0,"cloths of disturbing memories",0,0,1,0,0,False,"Cloth of Disturbing Memories",21615,0,1,1,67917,0,0,0
 2002022,"bottle of distilled ceruleum",0,"bottles of distilled ceruleum",0,0,1,0,0,False,"Distilled Ceruleum",20622,0,1,1,67915,0,0,0
-2002023,"copy of Wondrous Tails",0,"copies of Wondrous Tails",0,0,1,0,0,False,"Wondrous Tails",25987,1,1,8,0,0,0,0
+2002023,"copy of Wondrous Tails",0,"copies of Wondrous Tails",0,0,1,0,0,False,"Wondrous Tails",25987,1,1,7,0,0,0,0
 2002024,"copy of volume two of An Adventurer's Life",0,"copies of volume two of An Adventurer's Life",0,0,1,0,0,False,"Volume Two of An Adventurer's Life",26156,0,1,1,67916,0,0,0
 2002025,"copy of volume three of An Adventurer's Life",0,"copies of volume three of An Adventurer's Life",0,0,1,0,0,False,"Volume Three of An Adventurer's Life",26157,0,1,1,67916,0,0,0
 2002026,"bottle of moonrise",0,"bottles of moonrise",0,0,1,0,0,False,"Moonrise",25057,0,1,1,67915,0,0,0
 2002027,"weathered manuscript",0,"weathered manuscripts",0,0,1,0,0,False,"Weathered Manuscript",26159,0,1,1,67875,0,0,0
 2002028,"Allagan weapon scrap",0,"Allagan weapon scraps",0,1,1,0,0,False,"Allagan Weapon Scrap",20954,1,1,1,67016,0,0,0
-2002029,"enhanced anima glass",0,"enhanced anima glasses",0,1,1,0,0,False,"Enhanced Anima Glass",25996,1,1,7,67932,0,0,0
+2002029,"enhanced anima glass",0,"enhanced anima glasses",0,1,1,0,0,False,"Enhanced Anima Glass",25996,1,1,6,67932,0,0,0
 2002030,"magicked bauble",0,"magicked baubles",0,0,1,0,0,False,"Magicked Bauble",21328,0,1,1,67932,0,0,0
-2002031,"ancient magicked poppet",0,"ancient magicked poppets",0,1,1,0,0,False,"Ancient Magicked Poppet",28501,0,1,1,67932,0,0,0
+2002031,"ancient magicked poppet",0,"ancient magicked poppets",0,1,1,0,0,False,"Ancient Magicked Poppet",59401,0,1,1,67932,0,0,0
 2002032,"spectral magma",0,"spectral magma",0,0,1,0,0,False,"Spectral Magma",21471,0,1,1,67932,0,0,0
 2002033,"Allagan tomestone of eikonology",0,"Allagan tomestones of eikonology",0,1,1,0,0,False,"Allagan Tomestone of Eikonology",25931,0,1,1,67931,0,0,0
 2002034,"vial of salamander oil",0,"vials of salamander oil",0,0,1,0,0,False,"Salamander Oil",22603,1,1,1,67908,2,0,0
@@ -1899,7 +1899,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002061,"enfeebling elixir",0,"enfeebling elixirs",0,1,1,0,0,False,"Enfeebling Elixir",22612,1,1,1,0,3,1,1
 2002062,"cloud dweller bone",0,"cloud dweller bones",0,0,1,0,0,False,"Cloud Dweller Bone",22213,0,99,1,0,0,0,0
 2002064,"cloud dweller organ",0,"cloud dweller organs",0,0,1,0,0,False,"Cloud Dweller Organ",22602,0,99,1,0,0,0,0
-2002065,"unadorned katana",0,"unadorned katana",0,1,1,0,0,False,"Unadorned Katana",38527,0,1,1,68129,0,0,0
+2002065,"unadorned katana",0,"unadorned katana",0,1,1,0,0,False,"Unadorned Katana",36427,0,1,1,68129,0,0,0
 2002066,"set of tools",0,"sets of tools",0,0,1,0,0,False,"Set of Tools",21003,0,1,1,68154,0,0,0
 2002067,"bouquet of yellow wildflowers",0,"bouquets of yellow wildflowers",0,0,1,0,0,False,"Yellow Wildflowers",25029,0,1,1,68030,0,0,0
 2002068,"blowgun",0,"blowguns",0,0,1,0,0,False,"Blowgun",22452,0,1,1,68031,0,0,0
@@ -1916,7 +1916,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002079,"sack of Thavnairian limestone",0,"sacks of Thavnairian limestone",0,0,1,0,0,False,"Thavnairian Limestone",27404,1,4,1,68182,3,0,0
 2002080,"bottle of arak",0,"bottles of arak",0,0,1,0,0,False,"Bottle of Arak",25057,0,1,1,68396,0,0,0
 2002081,"Wido's orchestrion box",0,"Wido's orchestrion boxes",0,0,1,0,1,False,"Wido's Orchestrion Box",21003,0,1,1,68139,0,0,0
-2002082,"Hal's orchestrion ornamentation",0,"Hal's orchestrion ornamention",0,0,1,0,1,False,"Hal's Orchestrion Ornamentation",21002,0,1,1,68139,0,0,0
+2002082,"Hal's orchestrion ornamentation",0,"Hal's orchestrion ornamentations",0,0,1,0,1,False,"Hal's Orchestrion Ornamentation",21002,0,1,1,68139,0,0,0
 2002083,"sample of Gyr Abanian soil",0,"samples of Gyr Abanian soil",0,0,1,0,0,False,"Gyr Abanian Soil Sample",21465,0,3,1,68179,0,0,0
 2002084,"sample of Velodyna River water",0,"samples of Velodyna River water",0,0,1,0,0,False,"Velodyna River Water Sample",22614,0,1,1,68179,0,0,0
 2002085,"cut of sarcosuchus meat",0,"cuts of sarcosuchus meat",0,0,1,0,0,False,"Sarcosuchus Meat",25151,0,3,1,68180,0,0,0
@@ -1931,11 +1931,11 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002094,"unkiu carapace",0,"unkiu carapaces",0,1,1,0,0,False,"Unkiu Carapace",22257,0,1,1,68019,0,0,0
 2002095,"Yasakani-no-Magatama",0,"Yasakani-no-Magatamas",0,0,1,0,0,False,"Yasakani-no-Magatama",26513,0,1,1,68022,0,0,0
 2002096,"Yasakani-no-Magatama",0,"Yasakani-no-Magatamas",0,0,1,0,0,False,"Yasakani-no-Magatama",26513,0,1,1,68023,0,0,0
-2002097,"red panda cub",0,"red panda cubs",0,0,1,0,0,False,"Red Panda Cub",28634,0,2,1,68206,0,0,0
-2002098,"pot of liquid hot magma",0,"pots of liquid hot magma",0,0,1,0,0,False,"Liquid Hot Magma",30202,0,6,1,68211,0,0,0
+2002097,"red panda cub",0,"red panda cubs",0,0,1,0,0,False,"Red Panda Cub",59534,0,2,1,68206,0,0,0
+2002098,"pot of liquid hot magma",0,"pots of liquid hot magma",0,0,1,0,0,False,"Liquid Hot Magma",30352,0,6,1,68211,0,0,0
 2002099,"Yugiri and Gosetsu sketch",0,"Yugiri and Gosetsu sketches",0,0,1,0,0,False,"Yugiri and Gosetsu Sketch",26151,3140,1,1,68009,0,0,0
 2002100,"red coral",0,"red coral",0,0,1,0,0,False,"Red Coral",29060,0,3,1,68239,0,0,0
-2002101,"wakizashi",0,"wakizashi ",0,0,1,0,0,False,"Wakizashi",38532,0,1,1,68247,0,0,0
+2002101,"wakizashi",0,"wakizashi ",0,0,1,0,0,False,"Wakizashi",36432,0,1,1,68247,0,0,0
 2002102,"crimson sea grass",0,"tufts of crimson sea grass",0,0,1,0,0,False,"Crimson Sea Grass",26110,0,3,1,68252,0,0,0
 2002103,"vimshroom",0,"vimshrooms",0,0,1,0,0,False,"Vimshroom",25405,0,3,1,68252,0,0,0
 2002104,"fresh island gedan meat",0,"slabs of fresh island gedan meat",0,0,1,0,0,False,"Fresh Island Gedan Meat",25159,0,3,1,68252,0,0,0
@@ -1954,13 +1954,13 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002117,"Mol sword",0,"Mol swords",0,0,1,0,0,False,"Mol Sword",30420,0,1,1,68337,0,0,0
 2002118,"offering of food",0,"offerings of food",0,1,1,0,0,False,"Offering of Food",26109,0,1,1,68337,0,0,0
 2002119,"vial of holy water",0,"vials of holy water",0,0,1,0,0,False,"Holy Water",22614,0,1,1,68337,0,0,0
-2002120,"length of coarse-grained wood",0,"lengths of coarse-grained wood",0,0,1,0,0,False,"Coarse-Grained Wood",22455,1,99,1,0,0,0,0
-2002121,"length of fine-grained wood",0,"lengths of fine-grained wood",0,0,1,0,0,False,"Fine-Grained Wood",22459,1,99,1,0,0,0,0
+2002120,"length of coarse-grained wood",0,"lengths of coarse-grained wood",0,0,1,0,0,False,"Coarse-grained Wood",22455,1,99,1,0,0,0,0
+2002121,"length of fine-grained wood",0,"lengths of fine-grained wood",0,0,1,0,0,False,"Fine-grained Wood",22459,1,99,1,0,0,0,0
 2002122,"pot of heavenspillar sap",0,"pots of heavenspillar sap",0,0,1,0,0,False,"Heavenspillar Sap",22642,1,99,1,0,0,0,0
 2002123,"strip of dried bark",0,"strips of dried bark",0,0,1,0,0,False,"Dried Bark",22634,1,99,1,0,0,0,0
 2002124,"strip of young bark",0,"strips of young bark",0,0,1,0,0,False,"Young Bark",22418,1,99,1,0,0,0,0
 2002125,"Othardian pine log",0,"Othardian pine logs",0,1,1,0,0,False,"Othardian Pine Log",22414,1,99,1,0,0,0,0
-2002126,"old-growth Othardian pine log",0,"old-growth Othardian pine logs",0,1,1,0,0,False,"Old-Growth Othardian Pine Log",22411,1,99,1,0,0,0,0
+2002126,"old-growth Othardian pine log",0,"old-growth Othardian pine logs",0,1,1,0,0,False,"Old-growth Othardian Pine Log",22411,1,99,1,0,0,0,0
 2002127,"branch of crimson fan coral",0,"branches of crimson fan coral",0,0,1,0,0,False,"Crimson Fan Coral",29060,1,99,1,0,0,0,0
 2002128,"knotted sea pen",0,"knotted sea pens",0,0,1,0,0,False,"Knotted Sea Pen",23106,1,99,1,0,0,0,0
 2002129,"length of aged bamboo",0,"lengths of aged bamboo",0,0,1,0,0,False,"Aged Bamboo",22452,1,99,1,0,0,0,0
@@ -1972,8 +1972,8 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002135,"bleatwort cutting",0,"bleatwort cuttings",0,0,1,0,0,False,"Bleatwort Cutting",25035,1,99,1,0,0,0,0
 2002136,"fleshy leaf",0,"fleshy leaves",0,0,1,0,0,False,"Fleshy Leaf",25202,1,99,1,0,0,0,0
 2002137,"fragrant leaf",0,"fragrant leaves",0,0,1,0,0,False,"Fragrant Leaf",25201,1,99,1,0,0,0,0
-2002138,"handful of pleasant-smelling petals",0,"handfuls of pleasant-smelling petals",0,0,1,0,0,False,"Pleasant-Smelling Petals",25022,1,99,1,0,0,0,0
-2002139,"handful of perfect-smelling petals",0,"handfuls of perfect-smelling petals",0,0,1,0,0,False,"Perfect-Smelling Petals",22627,1,99,1,0,0,0,0
+2002138,"handful of pleasant-smelling petals",0,"handfuls of pleasant-smelling petals",0,0,1,0,0,False,"Pleasant-smelling Petals",25022,1,99,1,0,0,0,0
+2002139,"handful of perfect-smelling petals",0,"handfuls of perfect-smelling petals",0,0,1,0,0,False,"Perfect-smelling Petals",22627,1,99,1,0,0,0,0
 2002140,"beaknettle flower",0,"beaknettle flowers",0,0,1,0,0,False,"Beaknettle Flower",25022,1,99,1,0,0,0,0
 2002141,"handful of wild vegetable seeds",0,"handfuls of wild vegetable seeds",0,0,1,0,0,False,"Wild Vegetable Seeds",27457,1,99,1,0,0,0,0
 2002142,"handful of pristine vegetable seeds",0,"handfuls of pristine vegetable seeds",0,0,1,0,0,False,"Pristine Vegetable Seeds",27458,1,99,1,0,0,0,0
@@ -2005,13 +2005,13 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002168,"reagent",0,"reagents",0,0,1,0,0,False,"Reagent",20645,0,1,1,68159,0,0,0
 2002169,"pair of plot-relevant gloves",0,"pairs of plot-relevant gloves",0,0,1,0,0,False,"Plot-relevant Gloves",44082,0,1,1,68631,0,0,0
 2002171,"empty Dalmascan wine bottle",0,"empty Dalmascan wine bottles",0,0,1,0,0,False,"Empty Dalmascan Wine Bottle",25057,0,1,1,68626,0,0,0
-2002172,"bottle of Suhd Viandja rosé",0,"bottles of Suhd Viandja rosé",0,0,1,0,0,False,"Suhd Viandja Rosé",25057,0,1,1,68626,0,0,0
-2002173,"sleeping lamb",0,"sleeping lambs",0,0,1,0,0,False,"Sleeping Lamb",28541,0,1,1,68307,0,0,0
+2002172,"bottle of Suhd Viandja rose",0,"bottles of Suhd Viandja rose",0,0,1,0,0,False,"Suhd Viandja Rose",25057,0,1,1,68626,0,0,0
+2002173,"sleeping lamb",0,"sleeping lambs",0,0,1,0,0,False,"Sleeping Lamb",59441,0,1,1,68307,0,0,0
 2002174,"Cid's parcel",0,"Cid's parcels",0,0,1,0,1,False,"Cid's Parcel",26173,0,1,1,68482,0,0,0
 2002175,"magitek field generator manual",0,"magitek field generator manuals",0,0,1,0,0,False,"Magitek Field Generator Manual ",26109,0,1,1,68482,0,0,0
 2002176,"makeshift bombs",0,"makeshift bombs",0,0,1,0,0,False,"Makeshift Bombs",25907,1766,1,1,68483,3,0,4
 2002177,"sheet of armor plating",0,"sheets of armor plating",0,0,1,0,0,False,"Armor Plating",20961,0,15,1,68483,0,0,0
-2002178,"sheathed katana",0,"sheathed katana",0,0,1,0,0,False,"Sheathed Katana",38527,0,1,1,68058,0,0,0
+2002178,"sheathed katana",0,"sheathed katana",0,0,1,0,0,False,"Sheathed Katana",36427,0,1,1,68058,0,0,0
 2002179,"smoke bomb",0,"smoke bombs",0,0,1,0,0,False,"Smoke Bomb",26015,1276,7,1,68186,3,0,6
 2002180,"basket of dafangshi",0,"baskets of dafangshi",0,0,1,0,0,False,"Basket of Dafangshi",22261,0,1,1,68434,0,0,0
 2002181,"Wilkin's gift",0,"Wilkin's gifts",0,0,1,0,1,False,"Wilkin's Gift",26171,0,1,1,68114,0,0,0
@@ -2040,7 +2040,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002205,"urolith soulstone",0,"urolith soulstones",0,1,1,0,0,False,"Urolith Soulstone",21278,0,2,1,68191,0,0,0
 2002206,"cut of Yanxian tiger meat",0,"cuts of Yanxian tiger meat",0,0,1,0,0,False,"Yanxian Tiger Meat",25153,0,2,1,68268,0,0,0
 2002207,"handful of swordgrass",0,"handfuls of swordgrass",0,0,1,0,0,False,"Swordgrass",25035,0,8,1,68045,0,0,0
-2002208,"",0,"",0,0,1,0,0,False,"",28541,0,1,1,0,0,0,0
+2002208,"",0,"",0,0,1,0,0,False,"",59441,0,1,1,0,0,0,0
 2002209,"gaganaskin treasure map",0,"gaganaskin treasure maps",0,0,1,0,0,False,"Gaganaskin Treasure Map",26151,1,1,2,0,0,0,0
 2002210,"gazelleskin treasure map",0,"gazelleskin treasure maps",0,0,1,0,0,False,"Gazelleskin Treasure Map",26151,1,1,2,0,0,0,0
 2002211,"bejeweled necklace",0,"bejeweled necklaces",0,0,1,0,0,False,"Bejeweled Necklace",48468,0,1,1,68355,0,0,0
@@ -2079,7 +2079,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002244,"iron leg trap",0,"iron leg traps",0,1,1,0,0,False,"Iron Leg Trap",21003,1,6,1,68262,3,0,0
 2002245,"tackle box",0,"tackle boxes",0,0,1,0,0,False,"Tackle Box",21002,0,1,1,68254,0,0,0
 2002246,"firewood",0,"stacks of firewood",0,0,1,0,0,False,"Firewood",53013,0,1,1,68263,0,0,0
-2002247,"tasty trout",0,"tasty trouts",0,0,1,0,0,False,"Tasty Trout",29034,0,1,1,68263,0,0,0
+2002247,"tasty trout",0,"tasty trout",0,0,1,0,0,False,"Tasty Trout",29034,0,1,1,68263,0,0,0
 2002248,"bunch of mugworts",0,"bunches of mugworts",0,0,1,0,0,False,"Mugworts",25036,0,1,1,68269,0,0,0
 2002249,"waterweed",0,"clumps of waterweed",0,0,1,0,0,False,"Waterweed",25217,0,1,1,68269,0,0,0
 2002250,"seedling",0,"seedlings",0,0,1,0,0,False,"Seedling",53085,0,1,1,68270,0,0,0
@@ -2128,7 +2128,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002293,"smoked fish",0,"smoked fish",0,0,1,0,0,False,"Smoked Fish",24315,0,1,1,68288,0,0,0
 2002294,"tent pillar",0,"tent pillars",0,0,1,0,0,False,"Tent Pillar",22453,0,1,1,68305,0,0,0
 2002295,"mammoth hide",0,"mammoth hides",0,0,1,0,0,False,"Mammoth Hide",22008,0,3,1,68311,0,0,0
-2002296,"dried leaf",0,"dried leaves",0,0,1,0,0,False,"Dried Leaves",25034,0,1,1,68311,0,0,0
+2002296,"dried leaves",0,"dried leaves",0,0,1,0,0,False,"Dried Leaves",25034,0,1,1,68311,0,0,0
 2002297,"jar of Oroniri kumis",0,"jars of Oroniri kumis",0,0,1,0,0,False,"Oroniri Kumis",24454,1,5,1,68312,3,0,0
 2002298,"Oroniri leather bag",0,"Oroniri leather bags",0,1,1,0,0,False,"Oroniri Leather Bag",25991,0,1,1,68315,0,0,0
 2002299,"vial of acid",0,"vials of acid",0,0,1,0,0,False,"Vial of Acid",20642,306,1,1,68315,1,0,0
@@ -2188,7 +2188,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002353,"catoblepas eye",0,"catoblepas eyes",0,0,1,0,0,False,"Catoblepas Eye",21274,0,1,1,68388,3,0,0
 2002354,"jhammel hide",0,"jhammel hides",0,0,1,0,0,False,"Jhammel Hide",22003,0,3,1,68390,0,0,0
 2002355,"blowpipe set",0,"blowpipe sets",0,0,1,0,0,False,"Blowpipe Set",21002,1,1,1,68392,3,0,0
-2002356,"twitching foper",0,"twitching fopers",0,0,1,0,0,False,"Twitching Foper",28663,0,1,1,68392,0,0,0
+2002356,"twitching foper",0,"twitching fopers",0,0,1,0,0,False,"Twitching Foper",59563,0,1,1,68392,0,0,0
 2002357,"chunk of griffin meat",0,"chunks of griffin meat",0,0,1,0,0,False,"Griffin Meat",25159,0,3,1,68394,0,0,0
 2002358,"bunch of Rhalgr's gold",0,"bunches of Rhalgr's gold",0,0,1,0,0,False,"Rhalgr's Gold",25028,0,3,1,68402,0,0,0
 2002359,"Kakalai's love note",0,"Kakalai's love notes",0,0,1,0,1,False,"Kakalai's Love Note",26174,0,1,1,68407,0,0,0
@@ -2207,7 +2207,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002372,"baras meat",0,"chunks of baras meat",0,0,1,0,0,False,"Baras Meat",25153,0,3,1,68331,0,0,0
 2002373,"baras meat",0,"chunks of baras meat",0,0,1,0,0,False,"Baras Meat",25153,0,1,1,68331,0,0,0
 2002374,"wooden fishing lure",0,"wooden fishing lures",0,0,1,0,0,False,"Wooden Fishing Lure",27069,0,1,1,68256,0,0,0
-2002375,"Nayoshi's Rod",0,"Nayoshi's Rods",0,0,1,0,1,False,"Nayoshi's Rod",38202,0,1,1,68257,0,0,0
+2002375,"Nayoshi's rod",0,"Nayoshi's rods",0,0,1,0,1,False,"Nayoshi's Rod",38202,0,1,1,68257,0,0,0
 2002376,"hooked bombfish corpse",0,"hooked bombfish corpses",0,0,1,0,0,False,"Hooked Bombfish Corpse",29046,1,1,1,68257,3,0,0
 2002377,"hooked bombfish corpse",0,"hooked bombfish corpses",0,0,1,0,0,False,"Hooked Bombfish Corpse",29002,0,1,1,68258,0,0,0
 2002378,"crate of firecrackers",0,"crates of firecrackers",0,0,1,0,0,False,"Firecrackers",26015,1,1,1,68259,3,0,0
@@ -2242,7 +2242,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002407,"letter to Goberin",0,"letters to Goberin",0,0,0,0,0,False,"Letter to Goberin",25918,0,1,1,68554,0,0,0
 2002408,"Eorzean gold coin",0,"Eorzean gold coins",0,1,1,0,0,False,"Eorzean Gold Coin",26276,0,2,1,68528,0,0,0
 2002409,"Eorzean silver coin",0,"Eorzean silver coins",0,1,1,0,0,False,"Eorzean Silver Coin",26275,0,4,1,68528,0,0,0
-2002410,"Isari-style dried fish",0,"Isari-style dried fish",0,1,1,0,0,False,"Isari-Style Dried Fish",24315,0,1,1,68529,0,0,0
+2002410,"Isari-style dried fish",0,"Isari-style dried fish",0,1,1,0,0,False,"Isari-style Dried Fish",24315,0,1,1,68529,0,0,0
 2002411,"fish basket",0,"fish baskets",0,0,1,0,0,False,"Fish Basket",22261,0,1,1,68529,0,0,0
 2002412,"wooden bucket",0,"wooden buckets",0,0,1,0,0,False,"Wooden Bucket",22637,0,1,1,68529,0,0,0
 2002413,"lunar orb",0,"lunar orbs",0,0,1,0,0,False,"Lunar Orbs",21266,0,3,1,68530,0,0,0
@@ -2251,7 +2251,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002416,"glass of blood orange juice",0,"glasses of blood orange juice",0,0,1,0,0,False,"Blood Orange Juice",24401,0,1,1,68553,0,0,0
 2002417,"glass of Othardian orange juice",0,"glasses of Othardian orange juice",0,0,1,0,0,False,"Othardian Orange Juice",24401,0,1,1,68554,0,0,0
 2002418,"piece of slick debris",0,"pieces of slick debris",0,0,1,0,0,False,"Slick Debris",25975,0,4,1,68533,0,0,0
-2002419,"live ruby shrimp",0,"live ruby shrimps",0,0,1,0,0,False,"Live Ruby Shrimp",29138,1,2,1,68534,3,0,0
+2002419,"live ruby shrimp",0,"live ruby shrimp",0,0,1,0,0,False,"Live Ruby Shrimp",29138,1,2,1,68534,3,0,0
 2002420,"cluster of tatsunoko roe",0,"clusters of tatsunoko roe",0,0,1,0,0,False,"Tatsunoko Roe",27031,0,2,1,68534,0,0,0
 2002421,"bottle of fine Hingan wine",0,"bottles of fine Hingan wine",0,0,1,0,0,False,"Fine Hingan Wine",25051,0,1,1,68534,0,0,0
 2002422,"Confederate explosive",0,"Confederate explosives",0,0,1,0,0,False,"Confederate Explosive",26015,1276,3,1,68535,3,0,3
@@ -2284,6 +2284,7 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002449,"jar of fish mint salve",0,"jars of fish mint salve",0,0,1,0,0,False,"Fish Mint Salve",22603,0,1,1,68600,0,0,0
 2002450,"vial of botanical growth formula",0,"vials of botanical growth formula",0,0,1,0,0,False,"Botanical Growth Formula",22664,1,3,1,68601,3,0,0
 2002451,"dianthus blossom",0,"dianthus blossoms",0,0,1,0,0,False,"Dianthus Blossom",25028,0,3,1,68601,0,0,0
+2002452,"nectarine",0,"nectarines",0,0,1,0,0,False,"Nectarine",26574,0,1,1,68833,0,0,0
 2002453,"jar of Ananta healing salve",0,"jars of Ananta healing salve",0,0,1,0,0,False,"Ananta Healing Salve",22852,1,2,1,68603,3,0,0
 2002454,"chunk of mudstone",0,"chunks of mudstone",0,0,1,0,0,False,"Mudstone",21455,0,3,1,68604,0,0,0
 2002455,"bundle of gagana feathers",0,"bundles of gagana feathers",0,0,1,0,0,False,"Gagana Feathers",26110,0,2,1,68605,0,0,0
@@ -2310,4 +2311,547 @@ int32,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,bit&01,str,Image,Action,byte,b
 2002479,"box of firecrackers",0,"boxes of firecrackers",0,0,1,0,0,False,"Firecrackers",23001,1,3,1,68663,3,0,0
 2002480,"vial of reinvigorating elixir",0,"vials of reinvigorating elixir",0,0,1,0,0,False,"Reinvigorating Elixir",22637,0,3,1,68666,0,0,0
 2002481,"sack of finmade trinkets",0,"sacks of finmade trinkets",0,0,1,0,0,False,"Finmade Trinkets",25919,0,1,1,68644,0,0,0
+2002482,"lucky carrot",0,"lucky carrots",0,0,1,0,0,False,"Lucky Carrot",25207,3140,1,1,0,0,0,0
 2002483,"bottle of Lea Monde Valens",0,"bottles of Lea Monde Valens",0,0,1,0,0,False,"Lea Monde Valens",25057,0,1,1,68626,0,0,0
+2002484,"flawless earth crystal",0,"flawless earth crystals",0,0,1,0,0,False,"Flawless Earth Crystal",20012,1,1,1,67245,3,0,0
+2002485,"flawless water crystal",0,"flawless water crystals",0,0,1,0,0,False,"Flawless Water Crystal",20008,1,1,1,67245,3,0,0
+2002486,"flawless fire crystal",0,"flawless fire crystals",0,0,1,0,0,False,"Flawless Fire Crystal",20007,1,1,1,67245,3,0,0
+2002487,"flawless wind crystal",0,"flawless wind crystals",0,0,1,0,0,False,"Flawless Wind Crystal",20010,1,1,1,67245,3,0,0
+2002488,"case of Mark XLII grenades",0,"cases of Mark XLII grenades",0,0,1,0,0,False,"Mark XLII Grenades",26015,1276,1,1,68697,3,0,3
+2002493,"subliming scalebomb",0,"subliming scalebombs",0,0,1,0,0,False,"Subliming Scalebomb",26015,1766,1,1,68707,5,0,4
+2002494,"conductor's baton",0,"conductor's batons",0,0,1,0,0,False,"Conductor's Baton",21003,0,1,1,68709,0,0,0
+2002495,"order of choir surplices",0,"orders of choir surplices",0,1,1,0,0,False,"Order of Choir Surplices",21005,0,1,1,68709,0,0,0
+2002496,"Fife of Nine Tails",0,"Fife of Nine Tails",0,0,1,0,0,False,"Fife of Nine Tails",26039,1,1,1,68736,3,0,0
+2002497,"crumpled cartograph",0,"crumpled cartographs",0,0,1,0,0,False,"Crumpled Cartograph",26151,3140,1,1,68739,0,0,0
+2002498,"gilded tourmaline egg",0,"gilded tourmaline eggs",0,0,1,0,0,False,"Gilded Tourmaline Egg",21309,0,1,1,68739,0,0,0
+2002499,"crinkled cartograph",0,"crinkled cartographs",0,0,1,0,0,False,"Crinkled Cartograph",26151,3140,1,1,68740,0,0,0
+2002500,"gilded topaz egg",0,"gilded topaz eggs",0,0,1,0,0,False,"Gilded Topaz Egg",21310,0,1,1,68740,0,0,0
+2002503,"seemingly special treasure map",0,"seemingly special treasure maps",0,0,1,0,0,False,"Seemingly Special Treasure Map",26151,1,1,2,0,0,0,0
+2002504,"seemingly special thief's map",0,"seemingly special thief's maps",0,0,1,0,0,False,"Seemingly Special Thief's Map",26151,1,1,2,0,0,0,0
+2002505,"flower crown",0,"flower crowns",0,0,1,0,0,False,"Flower Crown",47925,0,2,1,68744,0,0,0
+2002506,"flower crown",0,"flower crowns",0,0,1,0,0,False,"Flower Crown",47925,0,1,1,68745,0,0,0
+2002507,"ceremony invitation",0,"ceremony invitations",0,0,1,0,0,False,"Ceremony Invitation",26187,0,3,1,68741,0,0,0
+2002508,"bottle of Lea Monde Valens",0,"bottles of Lea Monde Valens",0,0,1,0,0,False,"Lea Monde Valens",25057,0,3,1,68726,0,0,0
+2002509,"revival root",0,"revival roots",0,0,1,0,0,False,"Revival Root",25005,1,1,1,68754,0,0,0
+2002519,"Slitherbough serum",0,"bottles of Slitherbough serum",0,0,1,0,0,False,"Slitherbough Serum",20601,0,1,1,68980,0,0,0
+2002520,"peeling bark",0,"pieces of peeling bark",0,0,1,0,0,False,"Peeling Bark",25005,0,4,1,68976,0,0,0
+2002521,"preserving agent",0,"bottles of preserving agent",0,0,1,0,0,False,"Preserving Agent",20641,1,5,1,68979,3,0,0
+2002522,"tea mushroom",0,"tea mushrooms",0,0,1,0,0,False,"Tea Mushroom",25406,0,5,1,68979,0,0,0
+2002523,"glittering gemstone",0,"glittering gemstones",0,0,1,0,0,False,"Glittering Gemstone",20220,0,5,1,68985,0,0,0
+2002524,"sickly sweet nectar",0,"bottles of sickly sweet nectar",0,0,1,0,0,False,"Sickly Sweet Nectar",20647,1,1,1,68986,3,0,0
+2002525,"snapmint leaf",0,"snapmint leaves",0,0,1,0,0,False,"Snapmint Leaf",25026,0,2,1,68986,0,0,0
+2002526,"blue-flamed candle",0,"blue-flamed candles",0,0,1,0,0,False,"Blue-flamed Candle",26102,1,3,1,68983,3,0,0
+2002527,"copy of Life in the Crystarium",0,"copies of Life in the Crystarium",0,0,1,0,0,False,"Life in the Crystarium",26572,0,1,1,68816,0,0,0
+2002528,"copy of The Flood of Light",0,"copies of The Flood of Light",0,0,1,0,0,False,"The Flood of Light",26572,0,1,1,68816,0,0,0
+2002529,"copy of The Peoples of the First",0,"copies of The Peoples of the First",0,0,1,0,0,False,"The Peoples of the First",26572,0,1,1,68816,0,0,0
+2002530,"copy of The Illustrated Tale of the Oracle of Light",0,"copies of The Illustrated Tale of the Oracle of Light",0,0,1,0,0,False,"The Illustrated Tale of the Oracle of Light",26002,0,1,1,68838,0,0,0
+2002531,"vial of prince's kiss",0,"vials of prince's kiss",0,0,1,0,0,False,"Prince's Kiss",20623,3140,1,1,68839,0,0,1
+2002532,"bundle of treated fodder",0,"bundles of treated fodder",0,0,1,0,0,False,"Treated Fodder",27551,0,4,1,68841,0,0,0
+2002533,"looking grass",0,"looking grass",0,0,1,0,0,False,"Looking Grass",26575,0,1,1,68842,0,0,0
+2002534,"pouch of everbloom seeds",0,"pouches of everbloom seeds",0,0,1,0,0,False,"Everbloom Seeds",27459,1,3,1,68843,3,0,0
+2002535,"bellfruit",0,"bellfruits",0,0,1,0,0,False,"Bellfruit",25318,0,2,1,68844,0,0,0
+2002536,"bottle of Longmirror water",0,"bottles of Longmirror water",0,0,1,0,0,False,"Longmirror Water",22614,1,2,1,68845,3,0,0
+2002537,"moss fungus leg",0,"moss fungus legs",0,0,1,0,0,False,"Moss Fungus Leg",22259,0,2,1,68850,0,0,0
+2002538,"vial of invisible ink",0,"vials of invisible ink",0,0,1,0,0,False,"Invisible Ink",25923,0,6,1,68852,0,0,0
+2002539,"abandoned blade",0,"abandoned blades",0,0,1,0,0,False,"Abandoned Blade",30428,0,1,1,68981,0,0,0
+2002540,"poisoned meat",0,"chunks of poisoned meat",0,0,1,0,0,False,"Poisoned Meat",29017,1,3,1,68982,3,0,0
+2002541,"bunch of mist lilies",0,"bunches of mist lilies",0,0,1,0,0,False,"Mist Lilies",25022,0,1,1,68749,0,0,0
+2002542,"sealed missive",0,"sealed missives",0,0,1,0,0,False,"Sealed Missive",26171,0,1,1,68827,0,0,0
+2002543,"Voeburtite honor",0,"Voeburtite honors",0,0,1,0,0,False,"Voeburtite Honor",26573,0,1,1,68828,0,0,0
+2002544,"",0,"",0,0,1,0,0,False,"",26201,0,1,1,0,0,0,0
+2002545,"jade heartstone",0,"jade heartstones",0,0,1,0,0,False,"Jade Heartstone",21295,0,1,1,68863,0,0,0
+2002546,"blue-flamed candle",0,"blue-flamed candles",0,0,1,0,0,False,"Blue-flamed Candle",26102,1,1,1,68864,3,0,0
+2002547,"smoke bomb",0,"smoke bombs",0,0,1,0,0,False,"Smoke Bomb",26015,1,2,1,68865,3,0,0
+2002548,"large burlap sack",0,"large burlap sacks",0,0,1,0,0,False,"Large Burlap Sack",26110,1,2,1,68865,3,0,0
+2002549,"buzzing burlap sack",0,"buzzing burlap sacks",0,0,1,0,0,False,"Buzzing Burlap Sack",25919,0,2,1,68865,0,0,0
+2002550,"seal of Ronka",0,"seals of Ronka",0,0,1,0,0,False,"Seal of Ronka",26576,0,1,1,68868,0,0,0
+2002551,"copy of Happenings in the Rak'tika Greatwood",0,"copies of Happenings in the Rak'tika Greatwood",0,0,1,0,0,False,"Happenings in the Rak'tika Greatwood",26572,0,1,1,68870,0,0,0
+2002552,"clay tablet",0,"clay tablets",0,0,1,0,0,False,"Clay Tablet",26201,1,4,1,68871,3,1,1
+2002553,"bottle of antidote",0,"bottles of antidote",0,0,1,0,0,False,"Bottle of Antidote",20604,1,1,1,68874,3,0,0
+2002554,"aetherial lamp",0,"aetherial lamps",0,1,0,0,0,False,"Aetherial Lamp",25911,3140,1,1,68875,0,0,0
+2002555,"sprig of elven dill",0,"sprigs of elven dill",0,0,0,0,0,False,"Elven Dill",25009,0,2,1,69144,0,0,0
+2002556,"note concerning the gondola",0,"notes concerning the gondola",0,0,0,0,0,False,"Note Concerning the Gondola",26572,0,1,1,69146,0,0,0
+2002557,"note concerning the trolley",0,"notes concerning the trolley",0,0,0,0,0,False,"Note Concerning the Trolley",26572,0,1,1,69146,0,0,0
+2002558,"note concerning airships",0,"notes concerning airships",0,0,0,0,0,False,"Note Concerning Airships",26572,0,1,1,69146,0,0,0
+2002559,"too-large toolbox",0,"too-large toolboxes",0,0,0,0,0,False,"Too-large Toolbox",21003,3140,1,1,69149,0,0,0
+2002560,"debitage fragment",0,"debitage fragments",0,0,1,0,0,False,"Debitage Fragment",26110,0,3,1,69150,0,0,0
+2002561,"Voeburt gold piece",0,"Voeburt gold pieces",0,0,1,0,0,False,"Voeburt Gold Piece",26573,0,1,1,69152,0,0,0
+2002562,"smoke bomb",0,"smoke bombs",0,0,1,0,0,False,"Smoke Bomb",26110,1,3,1,69153,3,0,0
+2002563,"glittering rock",0,"glittering rocks",0,0,1,0,0,False,"Glittering Rock",21452,0,7,1,69153,0,0,0
+2002565,"chunk of leonine",0,"chunks of leonine",0,0,1,0,0,False,"Leonine",21452,0,1,1,69154,0,0,0
+2002566,"glamour dispeller",0,"glamour dispellers",0,0,0,0,0,False,"Glamour Dispeller",22623,1,1,1,68774,3,0,0
+2002567,"jagged swine tusk",0,"jagged swine tusks",0,0,1,0,0,False,"Jagged Swine Tusk",22303,0,1,1,68978,0,0,0
+2002568,"azure flower",0,"azure flowers",0,1,1,0,0,False,"Azure Flower",25520,1,4,1,68996,3,0,0
+2002569,"satchel of mushroom powder",0,"satchels of mushroom powder",0,0,0,0,0,False,"Mushroom Powder",25919,1,1,1,68784,3,0,0
+2002570,"chunk of doe meat",0,"chunks of doe meat",0,0,1,0,0,False,"Doe Meat",25159,1,2,1,68997,0,0,0
+2002571,"vial of caracal blood",0,"vials of caracal blood",0,0,1,0,0,False,"Caracal Blood",20641,0,1,1,68997,0,0,0
+2002572,"Sharlayan box",0,"Sharlayan boxes",0,0,1,0,0,False,"Sharlayan Box",26544,1,1,1,68847,1,0,0
+2002573,"boxed hawker",0,"boxed hawkers",0,0,1,0,0,False,"Boxed Hawker",26544,0,1,1,68847,0,0,0
+2002574,"sprig of lake thyme",0,"sprigs of lake thyme",0,0,1,0,0,False,"Lake Thyme",25020,0,1,1,68819,0,0,0
+2002575,"bottle of sweet-smelling perfume",0,"bottles of sweet-smelling perfume",0,0,1,0,0,False,"Sweet-smelling Perfume",20624,3140,1,1,68822,3,0,0
+2002576,"list of singer's symptoms",0,"lists of singer's symptoms",0,0,1,0,0,False,"Singer's Symptoms",26189,0,1,1,68825,0,0,0
+2002577,"chunk of meol",0,"chunks of meol",0,0,1,0,0,False,"Meol Chunk",26110,0,1,1,68825,0,0,0
+2002578,"golden medallion",0,"golden medallions",0,0,1,0,0,False,"Golden Medallion",26573,0,1,1,68855,0,0,0
+2002579,"unsigned letter",0,"unsigned letters",0,1,1,0,0,False,"Unsigned Letter",25918,0,1,1,68757,0,0,0
+2002580,"vial of corrosive elixir",0,"vials of corrosive elixir",0,0,1,0,0,False,"Corrosive Elixir",20626,812,1,1,69008,1,0,0
+2002581,"bottle of potent liquor",0,"bottles of potent liquor",0,0,1,0,0,False,"Potent Liquor",25106,0,1,1,68881,0,0,0
+2002582,"pungent sack",0,"pungent sacks",0,0,1,0,0,False,"Pungent Sack",27501,0,1,1,68882,0,0,0
+2002583,"bag of feed vegetables",0,"bags of feed vegetables",0,0,1,0,0,False,"Feed Vegetables",26110,0,1,1,68882,0,0,0
+2002584,"ancient signet ring",0,"ancient signet rings",0,1,1,0,0,False,"Ancient Signet Ring",48001,0,1,1,68911,0,0,0
+2002585,"dirt-encrusted shield",0,"dirt-encrusted shields",0,0,1,0,0,False,"Dirt-encrusted Shield",30034,0,1,1,68913,0,0,0
+2002586,"sand-caked statue",0,"sand-caked statues",0,0,1,0,0,False,"Sand-caked Statue",25316,0,1,1,68913,0,0,0
+2002587,"Spagyrics flyer",0,"Spagyrics flyers",0,0,1,0,0,False,"Spagyrics Flyer",26179,0,1,1,68879,0,0,0
+2002588,"bottle of dawn faetail nectar",0,"bottles of dawn faetail nectar",0,0,1,0,0,False,"Dawn Faetail Nectar",24403,0,1,1,68879,0,0,0
+2002589,"dawn faetail cutting",0,"dawn faetail cuttings",0,0,1,0,0,False,"Dawn Faetail Cutting",25026,0,1,1,68879,0,0,0
+2002590,"Crystarium facilities list",0,"Crystarium facilities lists",0,0,1,0,0,False,"Crystarium Facilities List",26179,0,1,1,68880,0,0,0
+2002591,"fragrant treat",0,"fragrant treats",0,0,1,0,0,False,"Fragrant Treat",27459,0,1,1,68936,0,0,0
+2002592,"picture of gathered leafmen",0,"pictures of gathered leafmen",0,0,1,0,0,False,"Picture of Gathered Leafmen",25999,3140,1,1,68937,0,0,0
+2002593,"picture of bathing leafmen",0,"pictures of bathing leafmen",0,0,1,0,0,False,"Picture of Bathing Leafmen",25999,3140,1,1,68937,0,0,0
+2002594,"stout backbone",0,"stout backbones",0,0,0,0,0,False,"Stout Backbone",22303,0,1,1,69115,0,0,0
+2002595,"hunk of trilobite meat",0,"hunks of trilobite meat",0,0,0,0,0,False,"Trilobite Meat",29110,1,1,1,69117,1,0,0
+2002596,"serving of trilobite stew",0,"servings of trilobite stew",0,0,0,0,0,False,"Trilobite Stew",24105,0,1,1,69117,0,0,0
+2002597,"hardskin stingray skin",0,"hardskin stingray skins",0,0,0,0,0,False,"Hardskin Stingray Skin",21822,0,1,1,69122,0,0,0
+2002598,"fashionable accessory",0,"fashionable accessories",0,0,0,0,0,False,"Fashionable Accessory",21003,0,1,1,69122,0,0,0
+2002599,"tearstained letter",0,"tearstained letters",0,0,1,0,0,False,"Tearstained Letter",25918,0,3,1,69055,0,0,0
+2002600,"note concerning Voeburt muffins",0,"notes concerning Voeburt muffins",0,0,1,0,0,False,"Note Concerning Voeburt Muffins",26572,0,1,1,69056,0,0,0
+2002601,"note concerning novelty dishes",0,"notes concerning novelty dishes",0,0,1,0,0,False,"Note Concerning Novelty Dishes",26572,0,1,1,69056,0,0,0
+2002602,"note concerning Kholusian stew",0,"notes concerning Kholusian stew",0,0,1,0,0,False,"Note Concerning Kholusian Stew",26572,0,1,1,69056,0,0,0
+2002603,"length of ship's lumber",0,"lengths of ship's lumber",0,0,1,0,0,False,"Ship's Lumber",22453,0,4,1,69059,0,0,0
+2002604,"tarnished ring",0,"tarnished rings",0,0,1,0,0,False,"Tarnished Ring",48007,0,1,1,69059,0,0,0
+2002605,"emblazoned tiara",0,"emblazoned tiaras",0,1,1,0,0,False,"Emblazoned Tiara",41614,0,1,1,69060,0,0,0
+2002606,"engraved necklace",0,"engraved necklaces",0,1,1,0,0,False,"Engraved Necklace",48428,0,1,1,69060,0,0,0
+2002607,"amethyst ring",0,"amethyst rings",0,1,1,0,0,False,"Amethyst Ring",48224,0,1,1,69060,0,0,0
+2002608,"vial of succulent scent",0,"vials of succulent scent",0,0,1,0,0,False,"Succulent Scent",20701,3140,1,1,68944,1,0,0
+2002609,"dose of dream powder",0,"doses of dream powder",0,0,1,0,0,False,"Dream Powder",21006,1,3,1,69168,0,0,0
+2002610,"dose of dream powder",0,"doses of dream powder",0,0,1,0,0,False,"Dream Powder",21006,1,3,1,69175,0,0,1
+2002611,"dwarven pickaxe",0,"dwarven pickaxes",0,0,1,0,0,False,"Dwarven Pickaxe",38019,0,15,1,69176,0,0,0
+2002612,"concept matrix",0,"concept matrices",0,0,0,0,0,False,"Concept Matrix",21263,1,1,1,69128,3,0,0
+2002613,"loop of aetheric rope",0,"loops of aetheric rope",0,0,0,0,0,False,"Aetheric Rope",21663,1,1,1,69130,1,0,0
+2002614,"captured cubus",0,"captured cubuses",0,0,0,0,0,False,"Captured Cubus",25979,0,1,1,69130,0,0,0
+2002615,"bottle of sheep's milk",0,"bottles of sheep's milk",0,0,1,0,0,False,"Sheep's Milk",24453,0,1,1,68932,0,0,0
+2002616,"loop of stout rope",0,"loops of stout rope",0,0,0,0,0,False,"Stout Rope",26103,1,3,1,69113,1,0,0
+2002617,"captured sea creature",0,"captured sea creatures",0,0,0,0,0,False,"Captured Sea Creature",26108,0,3,1,69113,0,0,0
+2002618,"Mord Souq merchandise",0,"Mord Souq merchandise",0,0,1,0,0,False,"Mord Souq Merchandise",26108,0,3,1,68829,0,0,0
+2002619,"box of all-purpose explosives",0,"boxes of all-purpose explosives",0,0,1,0,0,False,"All-purpose Explosives",26015,1276,1,1,68897,3,0,3
+2002620,"sand wriggler",0,"sand wrigglers",0,0,1,0,0,False,"Sand Wriggler",27032,0,4,1,68897,0,0,0
+2002621,"chunk of fruiting gigantender flesh",0,"chunks of fruiting gigantender flesh",0,0,1,0,0,False,"Fruiting Gigantender Flesh",25156,0,1,1,68898,0,0,0
+2002622,"bag of wriggler powder",0,"bags of wriggler powder",0,0,1,0,0,False,"Wriggler Powder",25977,3140,1,1,68899,1,0,0
+2002623,"letter to Thaymoth",0,"letters to Thaymoth",0,0,1,0,0,False,"Letter to Thaymoth",26171,0,1,1,68899,0,0,0
+2002624,"letter to Ghin Gin",0,"letters to Ghin Gin",0,0,1,0,0,False,"Letter to Ghin Gin",26173,0,1,1,68900,0,0,0
+2002625,"excessively heavy package",0,"excessively heavy packages",0,1,1,0,0,False,"Excessively Heavy Package",23001,0,1,1,68902,0,0,0
+2002626,"brass siphon",0,"brass siphons",0,0,1,0,0,False,"Brass Siphon",27602,1,1,1,68903,10,0,0
+2002627,"siphon of sweet-smelling succulent secretions",0,"siphons of sweet-smelling succulent secretions",0,0,1,0,0,False,"Sweet-smelling Succulent Secretions",27602,0,1,1,68903,0,0,0
+2002628,"stack of one-nut Clan mark bills",0,"stacks of one-nut Clan mark bills",0,0,0,0,0,False,"One-nut Clan Mark Bills",26568,1,1,4,0,0,0,0
+2002629,"stack of two-nut Clan mark bills",0,"stacks of two-nut Clan mark bills",0,0,0,0,0,False,"Two-nut Clan Mark Bills",26569,1,1,4,0,0,0,0
+2002630,"stack of three-nut Clan mark bills",0,"stacks of three-nut Clan mark bills",0,0,0,0,0,False,"Three-nut Clan Mark Bills",26570,1,1,4,0,0,0,0
+2002631,"elite Clan Nutsy mark bill",0,"elite Clan Nutsy mark bills",0,1,0,0,0,False,"Elite Clan Nutsy Mark Bill",26571,1,1,4,0,0,0,0
+2002632,"handful of shivermoss",0,"handfuls of shivermoss",0,0,0,0,0,False,"Shivermoss",25919,0,3,1,68748,0,0,0
+2002633,"lumber note",0,"lumber notes",0,0,1,0,0,False,"Lumber Note",26572,0,1,1,69169,0,0,0
+2002634,"lumber note",0,"lumber notes",0,0,1,0,0,False,"Lumber Note",26572,0,1,1,69169,0,0,0
+2002635,"lumber note",0,"lumber notes",0,0,1,0,0,False,"Lumber Note",26572,0,1,1,69169,0,0,0
+2002636,"whirlweed",0,"whirlweeds",0,0,1,0,0,False,"Whirlweed",25038,0,4,1,68934,0,0,0
+2002637,"snugbloom",0,"snugblooms",0,0,1,0,0,False,"Snugbloom",25991,1,3,1,68934,3,0,0
+2002638,"pixie spyglass",0,"pixie spyglasses",0,0,1,0,0,False,"Pixie Spyglass",26316,0,1,1,68938,0,0,0
+2002639,"sable-covered scroll",0,"sable-covered scrolls",0,0,1,0,0,False,"Sable-covered Scroll",26436,0,1,1,68755,0,0,0
+2002640,"bag of numbcap spores",0,"bags of numbcap spores",0,0,1,0,0,False,"Numbcap Spores",25978,0,5,1,68945,0,0,0
+2002641,"bag of flower seeds",0,"bags of flower seeds",0,0,1,0,0,False,"Flower Seeds",27454,0,6,1,68945,0,0,0
+2002642,"full-blown lily",0,"full-blown lilies",0,0,1,0,0,False,"Full-blown Lily",25519,0,3,1,68949,0,0,0
+2002643,"",0,"",0,0,1,0,0,False,"",25525,0,1,1,0,0,0,0
+2002644,"",0,"",0,0,1,0,0,False,"",25523,0,1,1,0,0,0,0
+2002645,"mock ancient text",0,"mock ancient texts",0,0,1,0,0,False,"Mock Ancient Text",26173,0,2,1,68950,0,0,0
+2002646,"polished sword",0,"polished swords",0,0,1,0,0,False,"Polished Sword",30420,1,1,1,68951,1,0,0
+2002647,"chunk of Amber iguana meat",0,"chunks of Amber iguana meat",0,0,1,0,0,False,"Chunk of Amber Iguana Meat",25155,0,2,1,69022,0,0,0
+2002648,"pouch of iguana repellent",0,"pouches of iguana repellent",0,0,1,0,0,False,"Iguana Repellent",25919,0,1,1,69022,0,0,0
+2002649,"gnawed water bottle",0,"gnawed water bottles",0,0,1,0,0,False,"Gnawed Water Bottle",27602,0,1,1,69024,0,0,0
+2002650,"rusty spade",0,"rusty spades",0,0,1,0,0,False,"Rusty Spade",21003,1,1,1,69025,3,0,0
+2002651,"rotted chest",0,"rotted chests",0,0,1,0,0,False,"Rotted Chest",21002,0,1,1,69025,0,0,0
+2002652,"twinkling gemstone",0,"twinkling gemstones",0,0,1,0,0,False,"Twinkling Gemstone",21210,0,1,1,69026,0,0,0
+2002653,"vial of viscous oil",0,"vials of viscous oil",0,0,1,0,0,False,"Viscous Oil",20645,812,1,1,69027,1,0,0
+2002654,"porxie familiar",0,"porxie familiars",0,0,1,0,0,False,"Porxie Familiar",26110,0,1,1,68944,0,0,0
+2002655,"bowl of sauteed mushroom soup",0,"bowls of sauteed mushroom soup",0,0,1,0,0,False,"Sauteed Mushroom Soup",24105,1,1,1,68946,3,0,0
+2002656,"bottle of phooka blood",0,"bottles of phooka blood",0,0,1,0,0,False,"Phooka Blood",22601,0,1,1,68947,0,0,0
+2002657,"undine heart",0,"undine hearts",0,1,1,0,0,False,"Undine Heart",20008,0,1,1,68947,0,0,0
+2002658,"ball of psammead silk",0,"balls of psammead silk",0,0,1,0,0,False,"Psammead Silk",21664,0,1,1,68947,0,0,0
+2002659,"moss fungus leg",0,"moss fungus legs",0,0,1,0,0,False,"Moss Fungus Leg",22259,0,1,1,68952,0,0,0
+2002660,"witchweed thorn",0,"witchweed thorns",0,0,1,0,0,False,"Witchweed Thorn",22301,0,1,1,68952,0,0,0
+2002661,"hempen sack",0,"hempen sacks",0,0,1,0,0,False,"Hempen Sack",21610,1,1,1,68953,1,0,0
+2002662,"full hempen sack",0,"full hempen sacks",0,0,1,0,0,False,"Full Hempen Sack",26110,0,1,1,68953,0,0,0
+2002663,"gliderskin treasure map",0,"gliderskin treasure maps",0,0,1,0,0,False,"Gliderskin Treasure Map",26151,1,1,2,0,0,0,0
+2002664,"zonureskin treasure map",0,"zonureskin treasure maps",0,0,1,0,0,False,"Zonureskin Treasure Map",26151,1,1,2,0,0,0,0
+2002665,"legendary thief's map",0,"legendary thief's maps",0,0,1,0,0,False,"Legendary Thief's Map",26151,1,1,2,0,0,0,0
+2002666,"",0,"",0,0,1,0,0,False,"",26107,0,1,1,0,0,0,0
+2002667,"phial of poisonous sap",0,"phials of poisonous sap",0,0,1,0,0,False,"Poisonous Sap",27607,0,1,1,68994,0,0,0
+2002668,"sibilus tendon",0,"sibilus tendons",0,0,1,0,0,False,"Sibilus Tendon",21005,1,1,1,69160,0,0,0
+2002669,"snapped fishing rod",0,"snapped fishing rods",0,0,1,0,0,False,"Snapped Fishing Rod",38201,0,1,1,68885,0,0,0
+2002670,"clouded necklace",0,"clouded necklaces",0,0,1,0,0,False,"Clouded Necklace",48331,0,1,1,68885,0,0,0
+2002671,"corroded ring",0,"corroded rings",0,0,1,0,0,False,"Corroded Ring",48001,0,1,1,68885,0,0,0
+2002672,"oversized tideclam",0,"oversized tideclams",0,1,1,0,0,False,"Oversized Tideclam",29031,0,1,1,68887,0,0,0
+2002673,"mythril knife",0,"mythril knives",0,0,1,0,0,False,"Mythril Knife",30362,1,1,1,69185,3,0,0
+2002674,"copy of the Qitana Ravel mural",0,"copies of the Qitana Ravel mural",0,0,1,0,0,False,"Qitana Ravel Mural Copy",26572,3140,1,1,69185,0,0,0
+2002675,"Grenoldt's lamp",0,"Grenoldt's lamps",0,0,1,0,1,False,"Grenoldt's Lamp",26577,0,1,1,69187,0,0,0
+2002676,"visitor's writ application",0,"visitor's writ applications",0,0,1,0,0,False,"Visitor's Writ Application",26178,0,1,1,69189,0,0,0
+2002677,"visitor's writ",0,"visitor's writs",0,0,1,0,0,False,"Visitor's Writ",26176,0,1,1,69189,0,0,0
+2002678,"wrangling rope",0,"wrangling ropes",0,0,1,0,0,False,"Wrangling Rope",26103,1,1,1,68888,1,0,0
+2002679,"large burlap sack",0,"large burlap sacks",0,0,1,0,0,False,"Large Burlap Sack",21610,0,1,1,68888,0,0,0
+2002680,"trussed-up tragopan",0,"trussed-up tragopans",0,0,1,0,0,False,"Trussed-up Tragopan",26110,0,1,1,68888,0,0,0
+2002681,"bunch of Kholusian sage",0,"bunches of Kholusian sage",0,0,1,0,0,False,"Kholusian Sage",25009,0,2,1,68889,0,0,0
+2002682,"sachet of Kholusian sage",0,"sachets of Kholusian sage",0,0,1,0,0,False,"Kholusian Sage Sachet",26110,1,1,1,68889,1,0,0
+2002683,"copper knife",0,"copper knives",0,0,1,0,0,False,"Copper Knife",35751,1,1,1,68890,3,0,0
+2002684,"strip of dried bark",0,"strips of dried bark",0,0,1,0,0,False,"Dried Bark",22634,0,3,1,68890,0,0,0
+2002685,"pouch of herbal pellets",0,"pouches of herbal pellets",0,0,1,0,0,False,"Herbal Pellets",22623,0,1,1,68890,0,0,0
+2002686,"stalk of golden barley",0,"stalks of golden barley",0,0,1,0,0,False,"Golden Barley",25357,0,3,1,68895,0,0,0
+2002687,"bottle of Wright ale",0,"bottles of Wright ale",0,0,1,0,0,False,"Wright Ale",25057,0,1,1,68895,0,0,0
+2002688,"jar of powdered crystal",0,"jars of powdered crystal",0,0,1,0,0,False,"Powdered Crystal",22636,1,6,1,68896,1,0,0
+2002689,"beautiful bloom",0,"beautiful blooms",0,0,1,0,0,False,"Beautiful Bloom",25561,0,3,1,68909,0,0,0
+2002690,"bucket of cobalt coal",0,"buckets of cobalt coal",0,0,1,0,0,False,"Cobalt Coal",21462,1,1,1,69093,3,0,0
+2002691,"worn sack",0,"worn sacks",0,0,1,0,0,False,"Worn Sack",26110,0,1,1,68965,0,0,0
+2002692,"chunk of rock phosphate",0,"chunks of rock phosphate",0,0,1,0,0,False,"Rock Phosphate",21453,0,1,1,69096,0,0,0
+2002693,"bulging sack of foodstuffs",0,"bulging sacks of foodstuffs",0,0,1,0,0,False,"Bulging Sack of Foodstuffs",26110,1,1,1,69074,3,0,0
+2002694,"sopping sack of supplies",0,"sopping sacks of supplies",0,0,1,0,0,False,"Sopping Sack of Supplies",25356,0,3,1,69075,0,0,0
+2002695,"stack of seasoned timber",0,"stacks of seasoned timber",0,0,1,0,0,False,"Seasoned Timber",22408,0,4,1,69076,0,0,0
+2002696,"letter of contrition",0,"letters of contrition",0,0,1,0,0,False,"Letter of Contrition",26171,0,1,1,69077,0,0,0
+2002697,"cliffkite wing",0,"cliffkite wings",0,0,1,0,0,False,"Cliffkite Wing",21954,0,3,1,69078,0,0,0
+2002698,"bite-sized stone",0,"bite-sized stones",0,0,1,0,0,False,"Bite-sized Stone",21231,0,3,1,69082,0,0,0
+2002699,"letter of introduction",0,"letters of introduction",0,0,1,0,0,False,"Letter of Introduction",25918,0,1,1,68818,0,0,0
+2002700,"set of registration papers",0,"sets of registration papers",0,0,1,0,0,False,"Registration Papers",26176,0,1,1,68822,0,0,0
+2002701,"Watts's hammer",0,"Watts's hammers",0,0,1,0,1,False,"Watts's Hammer",35133,0,1,1,69092,0,0,0
+2002702,"curious container",0,"curious containers",0,0,1,0,0,False,"Curious Container",27616,0,1,1,69194,0,0,0
+2002703,"blood-soaked parchment",0,"sheets of blood-soaked parchment",0,0,1,0,0,False,"Blood-soaked Parchment",26193,0,1,1,69195,0,0,0
+2002704,"wriggling grub",0,"wriggling grubs",0,0,1,0,0,False,"Wriggling Grub",27004,0,1,1,69083,0,0,0
+2002705,"empty larder sack",0,"empty larder sacks",0,1,1,0,0,False,"Empty Larder Sack",21610,0,1,1,69083,0,0,0
+2002706,"full larder sack",0,"full larder sacks",0,0,1,0,0,False,"Full Larder Sack",26110,0,1,1,69083,0,0,0
+2002707,"lump of dense coal",0,"lumps of dense coal",0,0,1,0,0,False,"Dense Coal",21462,1,1,1,69084,1,0,0
+2002708,"automaton core",0,"automaton cores",0,1,1,0,0,False,"Automaton Core",21469,0,1,1,69084,0,0,0
+2002709,"box of custom-made explosives",0,"boxes of custom-made explosives",0,0,1,0,0,False,"Custom-made Explosives",26015,1276,1,1,69085,3,0,3
+2002710,"chunk of twinkling ore",0,"chunks of twinkling ore",0,0,1,0,0,False,"Twinkling Ore",21202,0,3,1,69085,0,0,0
+2002711,"slick pebble",0,"slick pebbles",0,0,1,0,0,False,"Slick Pebble",21451,0,3,1,69087,0,0,0
+2002712,"coil of wire",0,"coils of wire",0,0,1,0,0,False,"Wire Coil",20901,1,2,1,69089,1,0,0
+2002713,"captured knocker",0,"captured knockers",0,0,1,0,0,False,"Captured Knocker",26110,0,2,1,69089,0,0,0
+2002716,"chunk of feral lizard meat",0,"chunks of feral lizard meat",0,0,1,0,0,False,"Feral Lizard Meat",25157,0,1,1,69027,0,0,0
+2002717,"market receipt",0,"market receipts",0,0,1,0,0,False,"Market Receipt",26151,3140,1,1,68829,0,0,0
+2002718,"cut of iguana meat",0,"cuts of iguana meat",0,0,0,0,0,False,"Iguana Meat",25152,1,1,1,68809,3,0,0
+2002719,"pot of thick sap",0,"pots of thick sap",0,0,1,0,0,False,"Thick Sap",22642,0,3,1,68941,0,0,0
+2002720,"vibrant blossom",0,"vibrant blossoms",0,0,1,0,0,False,"Vibrant Blossom",25558,0,3,1,68942,0,0,0
+2002721,"letter to the Crystarium merchant",0,"letters to the Crystarium merchant",0,0,1,0,0,False,"Letter to the Crystarium Merchant",26192,0,1,1,69032,0,0,0
+2002722,"debitage soulstone",0,"debitage soulstones",0,0,1,0,0,False,"Debitage Soulstone",21453,0,1,1,69032,0,0,0
+2002723,"bottle of Brewer's Eyebrow",0,"bottles of Brewer's Eyebrow",0,0,1,0,0,False,"Brewer's Eyebrow",26514,0,1,1,69032,0,0,0
+2002724,"safety lamp",0,"safety lamps",0,0,1,0,0,False,"Safety Lamp",52333,3140,1,1,69033,1,0,0
+2002725,"sparkling gemstone",0,"sparkling gemstones",0,0,1,0,0,False,"Sparkling Gemstone",21452,0,1,1,69033,0,0,0
+2002726,"purse of antique coins",0,"purses of antique coins",0,1,1,0,0,False,"Antique Coins",25919,0,1,1,69040,0,0,0
+2002727,"piece of decorative Ronso crockery",0,"pieces of decorative Ronso crockery",0,0,1,0,0,False,"Decorative Ronso Crockery",26548,0,1,1,69040,0,0,0
+2002728,"battered chest",0,"battered chests",0,0,1,0,0,False,"Battered Chest",21003,0,1,1,69040,0,0,0
+2002729,"blunt knife",0,"blunt knives",0,0,1,0,0,False,"Blunt Knife",35754,1,1,1,69041,3,0,0
+2002730,"rock wriggler",0,"rock wrigglers",0,0,1,0,0,False,"Rock Wriggler",27016,0,2,1,69041,0,0,0
+2002731,"banded gem",0,"banded gems",0,0,1,0,0,False,"Banded Gem",21327,0,1,1,69045,0,0,0
+2002732,"dainty wooden chest",0,"dainty wooden chests",0,0,1,0,0,False,"Dainty Wooden Chest",25916,0,1,1,69046,0,0,0
+2002733,"cat's-eye charm",0,"cat's-eye charms",0,0,1,0,0,False,"Cat's-eye Charm",26112,0,1,1,69047,0,0,0
+2002734,"flask of pungent lamp oil",0,"flasks of pungent lamp oil",0,0,1,0,0,False,"Pungent Lamp Oil",22636,1,4,1,69048,3,0,0
+2002735,"extravagant pipe",0,"extravagant pipes",0,1,1,0,0,False,"Extravagant Pipe",26038,0,1,1,69050,0,0,0
+2002736,"pristine Talos core housing",0,"pristine Talos core housings",0,0,1,0,0,False,"Pristine Talos Core Housing",26108,0,1,1,69066,0,0,0
+2002737,"dented Talos core housing",0,"dented Talos core housings",0,0,1,0,0,False,"Dented Talos Core Housing",26108,0,2,1,69066,0,0,0
+2002738,"steel lever",0,"steel levers",0,0,0,0,0,False,"Steel Lever",35315,1,1,1,69066,3,0,0
+2002739,"Iron Beak's tail feather",0,"Iron Beak's tail feathers",0,1,1,0,1,False,"Iron Beak's Tail Feather",21903,0,1,1,69043,0,0,0
+2002740,"payment for farside sprouts",0,"payments for farside sprouts",0,0,1,0,0,False,"Payment for Farside Sprouts",25919,0,1,1,69030,0,0,0
+2002741,"sack of farside sprouts",0,"sacks of farside sprouts",0,0,1,0,0,False,"Farside Sprouts",25978,0,1,1,69030,0,0,0
+2002742,"lump of thistle mole fat",0,"lumps of thistle mole fat",0,0,1,0,0,False,"Thistle Mole Fat",22609,0,1,1,69034,0,0,0
+2002743,"pot of thistle mole oil",0,"pots of thistle mole oil",0,0,1,0,0,False,"Thistle Mole Oil",27605,1,1,1,69034,5,0,0
+2002744,"chunk of stag meat",0,"chunks of stag meat",0,0,1,0,0,False,"Stag Meat",25153,0,3,1,69016,0,0,0
+2002745,"agaricus mushroom",0,"agaricus mushrooms",0,0,1,0,0,False,"Agaricus Mushroom",25405,0,3,1,69016,0,0,0
+2002746,"mnyiri liver",0,"mnyiri livers",0,0,0,0,0,False,"Mnyiri Liver",29002,0,1,1,69125,0,0,0
+2002747,"unblemished shell",0,"unblemished shells",0,1,0,0,0,False,"Unblemished Shell",22254,0,1,1,69126,0,0,0
+2002748,"sea anemone tentacle",0,"sea anemone tentacles",0,0,0,0,0,False,"Sea Anemone Tentacle",21662,0,3,1,69127,0,0,0
+2002749,"birthing rope",0,"birthing ropes",0,0,0,0,0,False,"Birthing Rope",21672,0,1,1,69127,0,0,0
+2002750,"worn sack",0,"worn sacks",0,0,1,0,0,False,"Worn Sack",26110,0,1,1,68965,0,0,0
+2002751,"fae lamp",0,"fae lamps",0,0,1,0,0,False,"Fae Lamp",22618,0,1,1,68966,0,0,0
+2002752,"polished horn necklace",0,"polished horn necklaces",0,0,1,0,0,False,"Polished Horn Necklace",48469,0,1,1,68915,0,0,0
+2002753,"protective gift",0,"protective gifts",0,0,1,0,0,False,"Protective Gift",23001,0,1,1,69100,0,0,0
+2002754,"nourishing gift",0,"nourishing gifts",0,0,1,0,0,False,"Nourishing Gift",23001,0,1,1,69100,0,0,0
+2002755,"inspiriting gift",0,"inspiriting gifts",0,1,1,0,0,False,"Inspiriting Gift",23001,0,1,1,69100,0,0,0
+2002756,"bottle of stygian syrup",0,"bottles of stygian syrup",0,0,1,0,0,False,"Stygian Syrup",20685,3140,2,1,69101,0,0,1
+2002757,"stink bomb",0,"stink bombs",0,0,1,0,0,False,"Stink Bomb",26015,1276,3,1,69051,3,0,4
+2002758,"consolatory sandwich",0,"consolatory sandwiches",0,0,1,0,0,False,"Consolatory Sandwich",24009,0,1,1,69103,0,0,0
+2002759,"pinch of shadow pepper",0,"pinches of shadow pepper",0,0,1,0,0,False,"Shadow Pepper",25007,1,99,1,0,0,0,0
+2002760,"pinch of fine shadow pepper",0,"pinches of fine shadow pepper",0,0,1,0,0,False,"Fine Shadow Pepper",21458,1,99,1,0,0,0,0
+2002761,"sprig of Kholusian sage",0,"sprigs of Kholusian sage",0,0,1,0,0,False,"Kholusian Sage",25579,1,99,1,0,0,0,0
+2002762,"piece of Kholusian driftwood",0,"pieces of Kholusian driftwood",0,0,1,0,0,False,"Kholusian Driftwood",22457,1,99,1,0,0,0,0
+2002763,"piece of sturdy Kholusian driftwood",0,"pieces of sturdy Kholusian driftwood",0,0,1,0,0,False,"Sturdy Kholusian Driftwood",22464,1,99,1,0,0,0,0
+2002764,"pot of cloudpuff sap",0,"pots of cloudpuff sap",0,0,1,0,0,False,"Cloudpuff Sap",22637,1,99,1,0,0,0,0
+2002765,"pot of superlative cloudpuff sap",0,"pots of superlative cloudpuff sap",0,0,1,0,0,False,"Superlative Cloudpuff Sap",22636,1,99,1,0,0,0,0
+2002766,"waterlogged log",0,"waterlogged logs",0,0,1,0,0,False,"Waterlogged Log",22402,1,99,1,0,0,0,0
+2002767,"magicked seed",0,"magicked seeds",0,0,1,0,0,False,"Magicked Seed",27459,1,99,1,0,0,0,0
+2002768,"eye of Yx'Lokwa",0,"eyes of Yx'Lokwa",0,1,1,0,0,False,"Eye of Yx'Lokwa",25002,1,99,1,0,0,0,0
+2002769,"glistening eye of Yx'Lokwa",0,"glistening eyes of Yx'Lokwa",0,0,1,0,0,False,"Glistening Eye of Yx'Lokwa",25578,1,99,1,0,0,0,0
+2002770,"portion of Rak'tika aloe",0,"portions of Rak'tika aloe",0,0,1,0,0,False,"Rak'tika Aloe",22652,1,99,1,0,0,0,0
+2002771,"clump of dream algae",0,"clumps of dream algae",0,0,1,0,0,False,"Dream Algae",25225,1,99,1,0,0,0,0
+2002772,"clump of potent dream algae",0,"clumps of potent dream algae",0,0,1,0,0,False,"Potent Dream Algae",25217,1,99,1,0,0,0,0
+2002773,"piece of Amh Araeng deadwood",0,"pieces of Amh Araeng deadwood",0,0,1,0,0,False,"Amh Araeng Deadwood",22414,1,99,1,0,0,0,0
+2002774,"Greatwood oilseed",0,"Greatwood oilseeds",0,0,1,0,0,False,"Greatwood Oilseed",27451,1,99,1,0,0,0,0
+2002775,"sprig of Mord's arsefluff",0,"sprigs of Mord's arsefluff",0,0,1,0,0,False,"Mord's Arsefluff",25031,1,99,1,0,0,0,0
+2002776,"sprig of impeccable Mord's arsefluff",0,"sprigs of impeccable Mord's arsefluff",0,0,1,0,0,False,"Impeccable Mord's Arsefluff",25028,1,99,1,0,0,0,0
+2002777,"log of Lakeland oak",0,"logs of Lakeland oak",0,0,1,0,0,False,"Lakeland Oak",22401,1,99,1,0,0,0,0
+2002778,"log of robust Lakeland oak",0,"logs of robust Lakeland oak",0,0,1,0,0,False,"Robust Lakeland Oak",22409,1,99,1,0,0,0,0
+2002779,"sprig of Elven herb",0,"sprigs of Elven herb",0,0,1,0,0,False,"Elven Herb",25224,1,99,1,0,0,0,0
+2002780,"clump of lake grass",0,"clumps of lake grass",0,0,1,0,0,False,"Lake Grass",25225,1,99,1,0,0,0,0
+2002781,"clump of lake grass sprouts",0,"clumps of lake grass sprouts",0,0,1,0,0,False,"Lake Grass Sprouts",25217,1,99,1,0,0,0,0
+2002782,"raw callais",0,"raw callais",0,0,1,0,0,False,"Raw Callais",21224,1,99,1,0,0,0,0
+2002783,"exquisite callais",0,"exquisite callais",0,1,1,0,0,False,"Exquisite Callais",21228,1,99,1,0,0,0,0
+2002784,"piece of Kholusian slag",0,"pieces of Kholusian slag",0,0,1,0,0,False,"Kholusian Slag",21455,1,99,1,0,0,0,0
+2002785,"chunk of Kholusian iron ore",0,"chunks of Kholusian iron ore",0,0,1,0,0,False,"Kholusian Iron Ore",21202,1,99,1,0,0,0,0
+2002786,"chunk of exceptional Kholusian iron ore",0,"chunks of exceptional Kholusian iron ore",0,0,1,0,0,False,"Exceptional Kholusian Iron Ore",21205,1,99,1,0,0,0,0
+2002787,"chunk of Voeburtite quartz",0,"chunks of Voeburtite quartz",0,0,1,0,0,False,"Voeburtite Quartz",21251,1,99,1,0,0,0,0
+2002788,"chunk of immaculate Voeburtite quartz",0,"chunks of immaculate Voeburtite quartz",0,0,1,0,0,False,"Immaculate Voeburtite Quartz",21470,1,99,1,0,0,0,0
+2002789,"chunk of pink sapphire",0,"chunks of pink sapphire",0,0,1,0,0,False,"Pink Sapphire",21225,1,99,1,0,0,0,0
+2002790,"chunk of Il Mheg topaz",0,"chunks of Il Mheg topaz",0,0,1,0,0,False,"Il Mheg Topaz",21291,1,99,1,0,0,0,0
+2002791,"handful of poison-soaked gravel",0,"handfuls of poison-soaked gravel",0,0,1,0,0,False,"Poison-soaked Gravel",21456,1,99,1,0,0,0,0
+2002792,"handful of poison-coated gravel",0,"handfuls of poison-coated gravel",0,0,1,0,0,False,"Poison-coated Gravel",21461,1,99,1,0,0,0,0
+2002793,"chunk of Rak'tika jade",0,"chunks of Rak'tika jade",0,0,1,0,0,False,"Rak'tika Jade",21252,1,99,1,0,0,0,0
+2002794,"Pip of the Protector",0,"Pips of the Protector",0,0,1,0,0,False,"Pip of the Protector",21217,1,99,1,0,0,0,0
+2002795,"perfect Pip of the Protector",0,"perfect Pips of the Protector",0,0,1,0,0,False,"Perfect Pip of the Protector",21223,1,99,1,0,0,0,0
+2002796,"chunk of puricon",0,"chunks of puricon",0,0,1,0,0,False,"Puricon",21201,1,99,1,0,0,0,0
+2002797,"chunk of Nabaathite ore",0,"chunks of Nabaathite ore",0,0,1,0,0,False,"Nabaathite Ore",21208,1,99,1,0,0,0,0
+2002798,"Talos component",0,"Talos components",0,0,1,0,0,False,"Talos Component",20912,1,99,1,0,0,0,0
+2002799,"untarnished Talos component",0,"untarnished Talos components",0,0,1,0,0,False,"Untarnished Talos Component",20915,1,99,1,0,0,0,0
+2002800,"piece of useful-looking debris",0,"pieces of useful-looking debris",0,0,1,0,0,False,"Useful-looking Debris",21453,1,99,1,0,0,0,0
+2002801,"piece of sturdy-looking debris",0,"pieces of sturdy-looking debris",0,0,1,0,0,False,"Sturdy-looking Debris",21454,1,99,1,0,0,0,0
+2002802,"chunk of prasiolite",0,"chunks of prasiolite",0,0,1,0,0,False,"Prasiolite",21207,1,99,1,0,0,0,0
+2002803,"Source salt crystal",0,"Source salt crystals",0,0,1,0,0,False,"Source Salt Crystal",20026,1,99,1,0,0,0,0
+2002804,"Source salt geode",0,"Source salt geodes",0,0,1,0,0,False,"Source Salt Geode",20022,1,99,1,0,0,0,0
+2002805,"magma bloom",0,"magma blooms",0,0,1,0,0,False,"Magma Bloom",26110,0,4,1,69097,0,0,0
+2002806,"iguana tail",0,"iguana tails",0,0,1,0,0,False,"Iguana Tail",25038,0,2,1,69098,0,0,0
+2002807,"barrel of fermenting ale",0,"barrels of fermenting ale",0,0,1,0,0,False,"Fermenting Ale",26547,0,1,1,69098,0,0,0
+2002808,"walking stick",0,"walking sticks",0,0,1,0,0,False,"Walking Stick",32609,0,1,1,69105,0,0,0
+2002809,"facet investigator's report",0,"facet investigator's reports",0,0,1,0,0,False,"Facet Investigator's Report",26002,0,1,1,69105,0,0,0
+2002810,"specimen pouch",0,"specimen pouches",0,0,1,0,0,False,"Specimen Pouch",26110,0,1,1,69105,0,0,0
+2002811,"rusted chain",0,"rusted chains",0,0,1,0,0,False,"Rusted Chain",20921,0,1,1,69106,0,0,0
+2002812,"engraved slab",0,"engraved slabs",0,1,1,0,0,False,"Engraved Slab",26201,0,1,1,69106,0,0,0
+2002813,"rusted key",0,"rusted keys",0,0,1,0,0,False,"Rusted Key",25904,0,1,1,69106,0,0,0
+2002814,"fish order",0,"fish orders",0,0,1,0,0,False,"Fish Order",25918,0,3,1,69107,0,0,0
+2002815,"bundle of dried fish",0,"bundles of dried fish",0,0,1,0,0,False,"Dried Fish",24315,0,1,1,69107,0,0,0
+2002816,"jar of salted fish",0,"jars of salted fish",0,0,1,0,0,False,"Salted Fish",27608,0,1,1,69110,0,0,0
+2002817,"bag of wriggly worms",0,"bags of wriggly worms",0,0,1,0,0,False,"Wriggly Worms",26110,0,1,1,69110,0,0,0
+2002818,"treasure chest",0,"treasure chests",0,0,1,0,0,False,"Treasure Chest",21003,0,1,1,69108,0,0,0
+2002819,"pot of golden nectar",0,"pots of golden nectar",0,0,1,0,0,False,"Golden Nectar",22642,0,99,1,0,0,0,0
+2002820,"poison urn fragment",0,"poison urn fragments",0,0,1,0,0,False,"Poison Urn Fragment",25975,0,99,1,0,0,0,0
+2002821,"Ronkan curio",0,"Ronkan curios",0,0,1,0,0,False,"Ronkan Curio",21205,0,99,1,0,0,0,0
+2002822,"tarichuk feather",0,"tarichuk feathers",0,0,1,0,0,False,"Tarichuk Feather",21902,0,99,1,0,0,0,0
+2002823,"piece of sanguine coral",0,"pieces of sanguine coral",0,0,1,0,0,False,"Sanguine Coral",22207,0,99,1,0,0,0,0
+2002824,"alonso pearl",0,"alonso pearls",0,1,1,0,0,False,"Alsono Pearl",21287,0,99,1,0,0,0,0
+2002825,"supply crate",0,"supply crates",0,0,1,0,0,False,"Supply Crate",21003,0,1,1,68923,0,0,0
+2002826,"lake anemone seed",0,"lake anemone seeds",0,0,1,0,0,False,"Lake Anemone Seed",25302,0,3,1,68924,0,0,0
+2002827,"bottle of Flatulent Stranger",0,"bottles of Flatulent Stranger",0,0,1,0,0,False,"Flatulent Stranger",20601,0,4,1,68925,0,0,0
+2002828,"pilfered weapon",0,"pilfered weapons",0,0,1,0,0,False,"Pilfered Weapon",30436,0,1,1,68926,0,0,0
+2002829,"bottle of Clearmelt's finest mulled wine",0,"bottles of Clearmelt's finest mulled wine",0,0,1,0,0,False,"Clearmelt's Finest Mulled Wine",52139,0,2,1,68927,0,0,0
+2002830,"slobbery sack",0,"slobbery sacks",0,0,1,0,0,False,"Slobbery Sack",26110,0,1,1,68972,0,0,0
+2002831,"bucket of reinforcing mortar",0,"buckets of reinforcing mortar",0,0,1,0,0,False,"Reinforcing Mortar",21003,1,4,1,68920,3,0,0
+2002832,"phial of healing salve",0,"phials of healing salve",0,0,1,0,0,False,"Healing Salve",26110,1,1,1,68921,3,0,0
+2002833,"supply order",0,"supply orders",0,0,1,0,0,False,"Supply Order",26183,0,1,1,68922,0,0,0
+2002834,"Kholusian orange",0,"Kholusian oranges",0,0,0,0,0,False,"Kholusian Orange",25312,0,1,1,69121,0,0,0
+2002835,"meager bounty",0,"meager bounties",0,0,0,0,0,False,"Meager Bounty",29034,0,1,1,69114,0,0,0
+2002836,"sack of crab meat",0,"sacks of crab meat",0,0,0,0,0,False,"Crab Meat",26110,1,1,1,69118,3,0,0
+2002837,"shimmering orb",0,"shimmering orbs",0,0,0,0,0,False,"Shimmering Orb",21266,813,1,1,69118,1,0,0
+2002838,"amphisbaena scales",0,"amphisbaena scales",0,1,0,0,0,False,"Amphisbaena Scales",22262,0,1,1,69118,0,0,0
+2002839,"promising salvage",0,"promising salvage",0,0,0,0,0,False,"Promising Salvage",26316,0,4,1,69120,0,0,0
+2002840,"ancient stone tablet",0,"ancient stone tablets",0,1,1,0,0,False,"Ancient Stone Tablet",26201,0,1,1,69018,0,0,0
+2002841,"anemone carcass",0,"anemone carcasses",0,1,1,0,0,False,"Anemone Carcass",26111,0,1,1,0,0,0,0
+2002842,"paper scrap",0,"paper scraps",0,0,0,0,0,False,"Paper Scrap",26110,0,1,1,69196,0,0,0
+2002843,"rusty fishing rod",0,"rusty fishing rods",0,0,0,0,0,False,"Rusty Fishing Rod",25919,0,1,1,69196,0,0,0
+2002844,"empty bottle",0,"empty bottles",0,1,0,0,0,False,"Empty Bottle",25930,0,1,1,69196,0,0,0
+2002845,"message in a small bottle",0,"messages in small bottles",0,0,0,0,0,False,"Message in a Small Bottle",25930,0,1,1,69197,0,0,0
+2002846,"impressed clay tablet",0,"impressed clay tablets",0,1,1,0,0,False,"Impressed Clay Tablet",26201,0,4,1,68871,0,0,0
+2002847,"enigmatic missive",0,"enigmatic missives",0,1,0,0,0,False,"Enigmatic Missive",26151,0,1,1,69196,0,0,0
+2002848,"lovingly wrapped parcel",0,"lovingly wrapped parcels",0,0,1,0,0,False,"Lovingly Wrapped Parcel ",23001,0,1,1,68916,0,0,0
+2002849,"homemade meal",0,"homemade meals",0,0,1,0,0,False,"Homemade Meal",24009,0,4,1,68916,0,0,0
+2002850,"whittled whistle",0,"whittled whistles",0,0,1,0,0,False,"Whittled Whistle",26039,3140,1,1,68918,0,0,0
+2002851,"sap-rich cutting",0,"sap-rich cuttings",0,0,1,0,0,False,"Sap-rich Cutting",25005,0,1,1,68919,0,0,0
+2002852,"length of Lakeland lumber",0,"lengths of Lakeland lumber",0,0,1,0,0,False,"Lakeland Lumber",22453,0,99,1,0,0,0,0
+2002853,"chunk of prismatic ore",0,"chunks of prismatic ore",0,0,1,0,0,False,"Prismatic Ore",21212,0,99,1,0,0,0,0
+2002854,"knobbly cane",0,"knobbly canes",0,0,1,0,0,False,"Knobbly Cane",32609,0,1,1,68917,0,0,0
+2002855,"pixie treasure",0,"pixie treasures",0,0,1,0,0,False,"Pixie Treasure",25569,0,2,1,68967,0,0,0
+2002856,"anemone carcass",0,"anemone carcasses",0,1,1,0,0,False,"Anemone Carcass",26110,0,1,1,68988,0,0,0
+2002857,"homely harpoon",0,"homely harpoons",0,0,1,0,0,False,"Homely Harpoon",30391,0,1,1,69111,0,0,0
+2002858,"psammead leg",0,"psammead legs",0,0,1,0,0,False,"Psammead Leg",22260,0,2,1,68929,0,0,0
+2002859,"pristine crate",0,"pristine crates",0,0,1,0,0,False,"Pristine Crate",52546,0,1,1,68990,0,0,0
+2002860,"well-worn journal",0,"well-worn journals",0,0,1,0,0,False,"Well-worn Journal",26161,0,1,1,68991,0,0,0
+2002861,"bundle of arrows",0,"bundles of arrows",0,0,1,0,0,False,"Bundle of Arrows",27212,0,4,1,68999,0,0,0
+2002862,"fur blanket",0,"fur blankets",0,0,1,0,0,False,"Fur Blanket",23253,0,1,1,69004,0,0,0
+2002863,"pail of purified water",0,"pails of purified water",0,0,1,0,0,False,"Purified Water",20681,0,1,1,69004,0,0,0
+2002864,"pair of carved wood earrings",0,"pairs of carved wood earrings",0,0,1,0,0,False,"Carved Wood Earrings",48695,0,1,1,69001,0,0,0
+2002865,"Ronkan lilybell",0,"Ronkan lilybells",0,0,1,0,0,False,"Ronkan Lilybell",25580,0,1,1,69001,0,0,0
+2002866,"carved wood ring",0,"carved wood rings",0,0,1,0,0,False,"Carved Wood Ring",48083,0,1,1,69001,0,0,0
+2002867,"pouch of golden nectar",0,"pouches of golden nectar",0,0,1,0,0,False,"Golden Nectar",26110,0,1,1,68929,0,0,0
+2002868,"pinch of flying fishscales",0,"pinches of flying fishscales",0,0,1,0,0,False,"Flying Fishscales",25011,1,3,1,68935,3,0,0
+2002869,"fresh haddock",0,"fresh haddock",0,0,1,0,0,False,"Fresh Haddock",29012,0,3,1,69203,0,0,0
+2002870,"pack of mushrooms",0,"packs of mushrooms",0,0,1,0,0,False,"Pack of Mushrooms",23001,0,1,1,68954,0,0,0
+2002871,"alchemical concoction",0,"alchemical concoctions",0,1,1,0,0,False,"Alchemical Concoction",20669,0,1,1,68954,0,0,0
+2002872,"sprig of Voeburtwort",0,"sprigs of Voeburtwort",0,0,1,0,0,False,"Voeburtwort",25030,0,4,1,68955,0,0,0
+2002873,"blue flower",0,"blue flowers",0,0,1,0,0,False,"Blue Flower",27458,0,1,1,68956,0,0,0
+2002874,"yellow flower",0,"yellow flowers",0,0,1,0,0,False,"Yellow Flower",27458,0,1,1,68956,0,0,0
+2002875,"pink flower",0,"pink flowers",0,0,1,0,0,False,"Pink Flower",27458,0,1,1,68956,0,0,0
+2002876,"green glider tail",0,"green glider tails",0,0,1,0,0,False,"Green Glider Tail",27001,0,1,1,68958,0,0,0
+2002877,"Nu Mou blanket",0,"Nu Mou blankets",0,0,1,0,0,False,"Nu Mou Blanket",21615,0,1,1,68959,0,0,0
+2002878,"rabbit's tail fleece",0,"rabbit's tail fleeces",0,0,1,0,0,False,"Rabbit's Tail Fleece",21654,0,1,1,68960,0,0,0
+2002879,"bundle of tot aevis feathers",0,"bundles of tot aevis feathers",0,0,1,0,0,False,"Tot Aevis Feathers",21908,0,1,1,68960,0,0,0
+2002880,"phooka pelt",0,"phooka pelts",0,0,1,0,0,False,"Phooka Pelt",21616,0,1,1,68960,0,0,0
+2002881,"silver medallion",0,"silver medallions",0,0,1,0,0,False,"Silver Medallion",48474,0,1,1,68961,0,0,0
+2002882,"eggshell",0,"eggshells",0,1,1,0,0,False,"Eggshell",25252,0,4,1,68970,0,0,0
+2002883,"vial of healing herbs",0,"vials of healing herbs",0,0,1,0,0,False,"Healing Herbs",20702,1,1,1,69009,3,0,0
+2002884,"sturdy leather sack",0,"sturdy leather sacks",0,0,1,0,0,False,"Sturdy Leather Sack",26110,1,1,1,69007,1,0,0
+2002885,"bulging leather sack",0,"bulging leather sacks",0,0,1,0,0,False,"Bulging Leather Sack",26110,0,1,1,69007,0,0,0
+2002886,"Voeburtite lockbox",0,"Voeburtite lockboxes",0,0,1,0,0,False,"Voeburtite Lockbox",21003,0,1,1,68968,0,0,0
+2002887,"set of archer's raiments",0,"sets of archer's raiments",0,0,1,0,0,False,"Archer's Raiments",23001,0,3,1,69003,0,0,0
+2002888,"favor of Fanow",0,"favors of Fanow",0,0,1,0,0,False,"Favor of Fanow",25023,0,3,1,69020,0,0,0
+2002889,"loaf of hand-baked bread",0,"loaves of hand-baked bread",0,0,1,0,0,False,"Hand-baked Bread",24006,0,1,1,69006,0,0,0
+2002890,"heartfelt letter",0,"heartfelt letters",0,0,1,0,0,False,"Heartfelt Letter",26171,0,1,1,69006,0,0,0
+2002891,"djinn core",0,"djinn cores",0,0,1,0,0,False,"Djinn Core",21293,0,1,1,69011,0,0,0
+2002892,"tear of Yx'Lokwa",0,"tears of Yx'Lokwa",0,0,1,0,0,False,"Tear of Yx'Lokwa",25354,0,1,1,69011,0,0,0
+2002893,"Ronkan doll core",0,"Ronkan doll cores",0,0,1,0,0,False,"Ronkan Doll Core",21292,0,1,1,69013,0,0,0
+2002894,"gnome soulstone",0,"gnome soulstones",0,0,1,0,0,False,"Gnome Soulstone",21292,0,2,1,69091,0,0,0
+2002895,"bottle of Tomran stonebrew",0,"bottles of Tomran stonebrew",0,0,1,0,0,False,"Tomran Stonebrew",25057,1,4,1,69091,3,0,0
+2002896,"Drery's note",0,"Drery's notes",0,0,1,0,1,False,"Drery's Note",26151,3140,1,1,69046,0,0,0
+2002897,"stack of discarded timber",0,"stacks of discarded timber",0,0,1,0,0,False,"Discarded Timber",22454,0,2,1,69036,0,0,0
+2002898,"traveling historian's pack",0,"traveling historian's packs",0,0,1,0,0,False,"Traveling Historian's Pack",26553,0,1,1,69038,0,0,0
+2002899,"commemorative flower",0,"commemorative flowers",0,0,1,0,0,False,"Commemorative Flower",26024,1,1,1,69037,1,0,0
+2002900,"automaton core",0,"automaton cores",0,1,0,0,0,False,"Automaton Core",21002,0,1,1,69207,0,0,0
+2002901,"mining lantern",0,"mining lanterns",0,0,0,0,0,False,"Mining Lantern",52333,0,1,1,69207,0,0,0
+2002902,"message in a medium bottle",0,"messages in medium bottles",0,0,0,0,0,False,"Message in a Medium Bottle",25930,0,1,1,69197,0,0,0
+2002903,"message in a large bottle",0,"messages in large bottles",0,0,0,0,0,False,"Message in a Large Bottle",25930,0,1,1,69197,0,0,0
+2002904,"vial of soul tonic",0,"vials of soul tonic",0,0,1,0,0,False,"Soul Tonic",20702,1,3,1,69211,3,0,0
+2002905,"lump of pristine clay",0,"lumps of pristine clay",0,0,1,0,0,False,"Pristine Clay",26110,0,3,1,69212,0,0,0
+2002906,"bejeweled bracelet",0,"bejeweled bracelets",0,0,1,0,0,False,"Bejeweled Bracelet",48956,0,1,1,69253,0,0,0
+2002907,"broken kickumbob",0,"broken kickumbobs",0,0,1,0,0,False,"Broken Kickumbob",26596,0,1,1,69256,0,0,0
+2002908,"tarnished thingamajig",0,"tarnished thingamajigs",0,0,1,0,0,False,"Tarnished Thingamajig",26597,0,1,1,69256,0,0,0
+2002909,"rusty whatsit",0,"rusty whatsits",0,0,1,0,0,False,"Rusty Whatsit",26598,0,1,1,69256,0,0,0
+2002910,"broken kickumbob",0,"broken kickumbobs",0,0,1,0,0,False,"Broken Kickumbob",26596,0,1,1,69257,0,0,0
+2002911,"tarnished thingamajig",0,"tarnished thingamajigs",0,0,1,0,0,False,"Tarnished Thingamajig",26597,0,1,1,69257,0,0,0
+2002912,"rusty whatsit",0,"rusty whatsits",0,0,1,0,0,False,"Rusty Whatsit",26598,0,1,1,69257,0,0,0
+2002917,"note concerning the state of business in Eulmore",0,"notes concerning the state of business in Eulmore",0,0,1,0,0,False,"Note Concerning the State of Business in Eulmore",26572,0,1,1,69214,0,0,0
+2002918,"note concerning the state of Eulmore's defenses",0,"notes concerning the state of Eulmore's defenses",0,0,1,0,0,False,"Note Concerning the State of Eulmore's Defenses",26572,0,1,1,69214,0,0,0
+2002919,"note concerning the living conditions in Kholusia",0,"notes concerning the living conditions in Kholusia",0,0,1,0,0,False,"Note Concerning the Living Conditions in Kholusia",26572,0,1,1,69214,0,0,0
+2002920,"ball of fleecy wool",0,"balls of fleecy wool",0,0,1,0,0,False,"Fleecy Wool",21655,0,3,1,69225,0,0,0
+2002921,"bitsy basket",0,"bitsy baskets",0,0,1,0,0,False,"Bitsy Basket",26110,0,1,1,69226,0,0,0
+2002922,"collection of insect wings",0,"collections of insect wings",0,0,1,0,0,False,"Insect Wings",21951,0,1,1,69227,0,0,0
+2002923,"bouquet of rare flowers",0,"bouquets of rare flowers",0,0,1,0,0,False,"Rare Flowers",25509,0,1,1,69227,0,0,0
+2002924,"handful of round rocks",0,"handfuls of round rocks",0,0,1,0,0,False,"Round Rocks",22624,0,1,1,69227,0,0,0
+2002925,"clump of leafman foliage",0,"clumps of leafman foliage",0,0,1,0,0,False,"Leafman Foliage",25010,0,2,1,69228,0,0,0
+2002926,"echevore tail",0,"echevore tails",0,1,1,0,0,False,"Echevore Tail",26110,0,1,1,69229,0,0,0
+2002927,"drowned relic",0,"drowned relics",0,0,1,0,0,False,"Drowned Relic",25998,0,1,1,69230,0,0,0
+2002928,"handful of witchweed petals",0,"handfuls of witchweed petals",0,0,1,0,0,False,"Witchweed Petals",22251,0,1,1,69231,0,0,0
+2002929,"damaged pod",0,"damaged pods",0,0,1,0,0,False,"Damaged Pod",59764,0,1,1,69256,0,0,0
+2002930,"damaged pod",0,"damaged pods",0,0,1,0,0,False,"Damaged Pod",59764,0,1,1,69257,0,0,0
+2002931,"tuft of miniature mallow",0,"tufts of miniature mallow",0,0,1,0,0,False,"Miniature Mallow",27453,0,2,1,69232,0,0,0
+2002932,"moss fungus cap",0,"moss fungus caps",0,0,1,0,0,False,"Moss Fungus Cap",25406,0,1,1,69233,0,0,0
+2002933,"deepglider wing membrane",0,"deepglider wing membranes",0,0,1,0,0,False,"Deepglider Wing Membrane",22004,0,1,1,69236,0,0,0
+2002934,"clump of much-better-than-usual grass",0,"clumps of much-better-than-usual grass",0,0,1,0,0,False,"Much-better-than-usual Grass",25035,0,2,1,69237,0,0,0
+2002935,"porcelain fragment",0,"porcelain fragments",0,0,1,0,0,False,"Porcelain Fragment",21265,0,1,1,69238,0,0,0
+2002936,"oddly smooth branch",0,"oddly smooth branches",0,1,1,0,0,False,"Oddly Smooth Branch",22416,0,1,1,69238,0,0,0
+2002937,"fruit of the forest",0,"fruits of the forest",0,0,1,0,0,False,"Fruit of the Forest",25308,0,1,1,69238,0,0,0
+2002938,"shiny pebble",0,"shiny pebbles",0,0,1,0,0,False,"Shiny Pebble",21472,0,1,1,69240,0,0,0
+2002939,"fish-filled trap",0,"fish-filled traps",0,0,1,0,0,False,"Fish-filled Trap",22261,0,1,1,69241,0,0,0
+2002940,"icewater undine heart",0,"icewater undine hearts",0,0,1,0,0,False,"Icewater Undine Heart",20008,0,1,1,69242,0,0,0
+2002941,"marchioness's marcher",0,"marchioness's marchers",0,0,1,0,0,False,"Marchioness's Marcher",25542,0,3,1,69244,0,0,0
+2002942,"wriggling tendril",0,"wriggling tendrils",0,0,1,0,0,False,"Wriggling Tendril",21662,0,1,1,69245,0,0,0
+2002943,"flask of fake true love potion",0,"flasks of fake true love potion",0,0,1,0,0,False,"Fake True Love Potion",22654,1,1,1,69252,3,0,0
+2002944,"incomprehensible love letter",0,"incomprehensible love letters",0,1,1,0,0,False,"Incomprehensible Love Letter",25918,0,1,1,69252,0,0,0
+2002945,"voluminous sack",0,"voluminous sacks",0,0,1,0,0,False,"Voluminous Sack",26110,1,2,1,69246,3,0,0
+2002946,"stuffed sack",0,"stuffed sacks",0,0,1,0,0,False,"Stuffed Sack",26110,0,2,1,69246,0,0,0
+2002947,"giant mushroom spawn",0,"giant mushroom spawns",0,0,1,0,0,False,"Giant Mushroom Spawn",27459,0,1,1,69247,0,0,0
+2002948,"ball of psammead silk",0,"balls of psammead silk",0,0,1,0,0,False,"Psammead Silk",21664,0,1,1,69251,0,0,0
+2002954,"bottle of mulled wine",0,"bottles of mulled wine",0,0,1,0,0,False,"Mulled Wine",25057,0,1,1,69208,0,0,0
+2002955,"sack of advent cakes",0,"sacks of advent cakes",0,0,1,0,0,False,"Sack of Advent Cakes",22640,0,1,1,69287,0,0,0
+2002956,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",22405,0,99,1,0,0,0,0
+2002957,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",22405,0,99,1,0,0,0,0
+2002958,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",22405,0,99,1,0,0,0,0
+2002959,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",22405,0,99,1,0,0,0,0
+2002960,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",22405,0,99,1,0,0,0,0
+2002961,"piece of raw material",0,"pieces of raw material",0,0,1,0,0,False,"Raw Material",22405,0,99,1,0,0,0,0
+2002962,"piece of processed material",0,"pieces of processed material",0,0,1,0,0,False,"Processed Material",22457,0,99,1,0,0,0,0
+2002963,"piece of processed material",0,"pieces of processed material",0,0,1,0,0,False,"Processed Material",22457,0,99,1,0,0,0,0
+2002964,"piece of processed material",0,"pieces of processed material",0,0,1,0,0,False,"Processed Material",22457,0,99,1,0,0,0,0
+2002965,"piece of processed material",0,"pieces of processed material",0,0,1,0,0,False,"Processed Material",22457,0,99,1,0,0,0,0
+2002966,"piece of processed material",0,"pieces of processed material",0,0,1,0,0,False,"Processed Material",22457,0,99,1,0,0,0,0
+2002967,"stack of processed firewood",0,"stacks of processed firewood",0,0,1,0,0,False,"Processed Firewood",53013,0,99,1,0,0,0,0
+2002968,"royal relic",0,"royal relics",0,0,1,0,0,False,"Royal Relic",25998,0,1,1,69230,0,0,0
+2002969,"royal relic",0,"royal relics",0,0,1,0,0,False,"Royal Relic",25998,0,1,1,69230,0,0,0
+2002970,"battered broom",0,"battered brooms",0,0,1,0,0,False,"Battered Broom",59471,0,1,1,69302,0,0,0
+2002971,"sack of mnyiri livers",0,"sacks of mnyiri livers",0,0,1,0,0,False,"Mnyiri Livers",26110,0,1,1,69303,0,0,0
+2002972,"chunk of knocker",0,"chunks of knocker",0,0,1,0,0,False,"Chunk of Knocker",20818,0,1,1,69321,0,0,0
+2002973,"signed contract",0,"signed contracts",0,0,1,0,0,False,"Signed Contract",26176,0,1,1,69493,0,0,0
+2002974,"Francel's missive",0,"Francel's missives",0,0,1,0,1,False,"Francel's Missive",26176,0,3,1,69261,0,0,0
+2002976,"bundle of salvaged wood scraps",0,"bundles of salvaged wood scraps",0,0,1,0,0,False,"Salvaged Wood Scraps",53013,0,1,1,69376,0,0,0
+2002977,"jar of Qitari fertilizer",0,"jars of Qitari fertilizer",0,0,1,0,0,False,"Qitari Fertilizer",20661,1,2,1,69346,3,0,0
+2002978,"jadeite adornment",0,"jadeite adornments",0,0,1,0,0,False,"Jadeite Adornment",21295,0,3,1,69349,0,0,0
+2002979,"worn Ronkan coffer",0,"worn Ronkan coffers",0,0,1,0,0,False,"Worn Ronkan Coffer",21002,0,1,1,69362,0,0,0
+2002980,"large sack",0,"large sacks",0,0,1,0,0,False,"Large Sack",21610,1,1,1,69365,3,0,0
+2002981,"clucking sack",0,"clucking sacks",0,0,1,0,0,False,"Clucking Sack",25919,0,1,1,69365,0,0,0
+2002982,"splendid egg",0,"splendid eggs",0,1,0,0,0,False,"Splendid Egg",25252,0,1,1,69365,0,0,0
+2002983,"crate of broken debris",0,"crates of broken debris",0,0,1,0,0,False,"Broken Debris",20406,0,99,1,0,0,0,0
+2002984,"bag of raw repair material",0,"bags of raw repair material",0,0,1,0,0,False,"Raw Repair Material",21464,0,99,1,0,0,0,0
+2002986,"pot of processed repair material",0,"pots of processed repair material",0,0,1,0,0,False,"Processed Repair Material",22616,0,99,1,0,0,0,0
+2002987,"piece of raw building material",0,"pieces of raw building material",0,0,1,0,0,False,"Raw Building Material",21251,0,99,1,0,0,0,0
+2002988,"piece of processed building material",0,"pieces of processed building material",0,0,1,0,0,False,"Processed Building Material",21470,0,99,1,0,0,0,0
+2002989,"basket of Slitherbough vegetables",0,"baskets of Slitherbough vegetables",0,0,1,0,0,False,"Slitherbough Vegetables",27551,0,1,1,69346,0,0,0
+2002990,"pouch of Fanow pellets",0,"pouches of Fanow pellets",0,0,1,0,0,False,"Fanow Pellets",25919,0,1,1,69334,0,0,0
+2002991,"armful of blessed gilded eggs",0,"armfuls of blessed gilded eggs",0,0,1,0,0,False,"Blessed Gilded Eggs",21310,0,1,1,69383,0,0,0
+2002992,"armful of oily gilded eggs",0,"armfuls of oily gilded eggs",0,1,1,0,0,False,"Oily Gilded Eggs",21311,0,1,1,69383,0,0,0
+2002993,"armful of oversized gilded eggs",0,"armfuls of oversized gilded eggs",0,1,1,0,0,False,"Oversized Gilded Eggs",21308,0,1,1,69383,0,0,0
+2002994,"handful of Thavnairian scalepowder",0,"handfuls of Thavnairian scalepowder",0,0,1,0,0,False,"Thavnairian Scalepowder",22650,0,1,1,69380,0,0,0
+2002997,"sealed documents",0,"sealed documents",0,0,1,0,0,False,"Sealed Documents",25918,0,1,1,69412,0,0,0
+2002998,"Warburton's journal",0,"Warburton's journals",0,0,1,0,1,False,"Warburton's Journal",26002,0,1,1,69414,0,0,0
+2002999,"Ehll Tou's hammer",0,"Ehll Tou's hammers",0,1,1,0,1,False,"Ehll Tou's Hammer",21003,0,1,1,69426,0,0,0
+2003000,"bunch of undersized grapes",0,"bunches of undersized grapes",0,0,1,0,0,False,"Undersized Grapes",25309,0,3,1,69307,0,0,0
+2003001,"heat lure",0,"heat lures",0,0,1,0,0,False,"Heat Lure",25977,1,3,1,69308,1,0,0
+2003002,"vampire bat fang",0,"vampire bat fangs",0,0,1,0,0,False,"Vampire Bat Fang",22303,0,9,1,69308,0,0,0
+2003003,"slice of Archon loaf",0,"slices of Archon loaf",0,0,1,0,0,False,"Archon Loaf",24003,0,1,1,69310,0,0,0
+2003004,"faded Crystal of Light",0,"faded Crystals of Light",0,0,1,0,0,False,"Faded Crystal of Light",20019,0,1,1,69316,0,0,0
+2003005,"brownie brush",0,"brownie brushes",0,0,1,0,0,False,"Brownie Brush",25406,0,3,1,69394,0,0,0
+2003006,"water-filled tub",0,"water-filled tubs",0,0,1,0,0,False,"Water-filled Tub",22642,1,1,1,69395,3,0,0
+2003007,"fresh chicken egg",0,"fresh chicken eggs",0,0,1,0,0,False,"Fresh Chicken Egg",25252,0,1,1,69396,0,0,0
+2003008,"scarlet earring",0,"scarlet earrings",0,0,1,0,0,False,"Scarlet Earring",48516,0,1,1,69396,0,0,0
+2003009,"coeurl pup whisker",0,"coeurl pup whiskers",0,0,1,0,0,False,"Coeurl Pup Whisker",25919,0,3,1,69397,0,0,0
+2003010,"giant adamantoise egg",0,"giant adamantoise eggs",0,0,1,0,0,False,"Giant Adamantoise Egg",25251,0,1,1,69401,0,0,0
+2003011,"aperitif order slip",0,"aperitif order slips",0,1,1,0,0,False,"Aperitif Order Slip",25918,0,1,1,69402,0,0,0
+2003012,"bull-point chisel",0,"bull-point chisels",0,0,1,0,0,False,"Bull-point Chisel",23103,0,1,1,69403,0,0,0
+2003013,"pair of needle-nose pincers",0,"pairs of needle-nose pincers",0,0,1,0,0,False,"Needle-nose Pincers",35251,0,1,1,69403,0,0,0
+2003014,"weighty coinpurse",0,"weighty coinpurses",0,0,1,0,0,False,"Weighty Coinpurse",26001,0,1,1,69403,0,0,0
+2003015,"repaired horologe",0,"repaired horologes",0,0,1,0,0,False,"Repaired Horologe",21002,0,1,1,69403,0,0,0
+2003016,"Haurchefant's letter of introduction",0,"Haurchefant's letters of introduction",0,0,1,0,1,False,"Haurchefant's Letter",25918,0,1,1,69404,0,0,0
+2003017,"Francel's letter of introduction",0,"Francel's letters of introduction",0,0,1,0,1,False,"Francel's Letter",25918,0,1,1,69404,0,0,0
+2003018,"ice sprite core",0,"ice sprite cores",0,1,1,0,0,False,"Ice Sprite Core",21266,0,3,1,69405,0,0,0
+2003019,"true heart",0,"true hearts",0,0,1,0,0,False,"True Heart",21253,1,1,1,69406,3,0,0
+2003020,"corrupted crystal",0,"corrupted crystals",0,0,1,0,0,False,"Corrupted Crystal",20649,0,1,1,69406,0,0,0
+2003021,"damaged imperial uniform",0,"damaged imperial uniforms",0,0,1,0,0,False,"Damaged Imperial Uniform",42345,0,3,1,69407,0,0,0
+2003022,"damaged imperial helm",0,"damaged imperial helms",0,0,1,0,0,False,"Damaged Imperial Helm",40128,0,3,1,69407,0,0,0
+2003023,"repaired imperial uniform",0,"repaired imperial uniforms",0,0,1,0,0,False,"Repaired Imperial Uniform",42345,0,3,1,69407,0,0,0
+2003024,"repaired imperial helm",0,"repaired imperial helms",0,0,1,0,0,False,"Repaired Imperial Helm",40128,0,3,1,69407,0,0,0
+2003025,"chigoe egg sac",0,"chigoe egg sacs",0,0,1,0,0,False,"Chigoe Egg Sac",22623,0,3,1,69390,0,0,0
+2003026,"anole egg",0,"anole eggs",0,1,1,0,0,False,"Anole Egg",25251,0,1,1,69391,0,0,0
+2003027,"keg of nitrobrew",0,"kegs of nitrobrew",0,0,1,0,0,False,"Nitrobrew",26547,0,3,1,69436,0,0,0
+2003028,"Lorathia's letter of introduction",0,"Lorathia's letters of introduction",0,0,1,0,1,False,"Lorathia's Letter of Introduction",25918,0,1,1,69434,0,0,0
+2003029,"carnival banner",0,"carnival banners",0,0,1,0,0,False,"Carnival Banner",21615,0,3,1,69488,0,0,0
+2003030,"precision explosive",0,"precision explosives",0,0,1,0,0,False,"Precision Explosive",26015,1276,1,1,69448,3,0,3
+2003031,"sealed ale cask",0,"sealed ale casks",0,0,1,0,0,False,"Sealed Ale Cask",26547,0,1,1,69462,0,0,0
+2003032,"aether spectrometer",0,"aether spectrometers",0,1,1,0,0,False,"Aether Spectrometer",26108,0,2,1,69486,0,0,0
+2003033,"wayward automaton",0,"wayward automata",0,0,1,0,0,False,"Wayward Automaton",59751,0,2,1,69452,0,0,0
+2003034,"pouch of grog money",0,"pouches of grog money",0,0,1,0,0,False,"Grog Money",25919,0,1,1,69462,0,0,0
+2003035,"elaborate epistle",0,"elaborate epistles",0,1,1,0,0,False,"Elaborate Epistle",26182,0,1,1,69496,0,0,0
+2003036,"pouch of cloudcrawler",0,"pouches of cloudcrawler",0,0,1,0,0,False,"Cloudcrawler Pouch",25979,1,1,1,69497,3,0,0
+2003037,"anti-gremlin trap",0,"anti-gremlin traps",0,0,1,0,0,False,"Anti-gremlin Trap",25979,0,2,1,69441,0,0,0
+2003040,"aether spectrometer",0,"aether spectrometers",0,1,1,0,0,False,"Aether Spectrometer",26108,0,1,1,69482,0,0,0
+2003041,"aether spectrometer",0,"aether spectrometers",0,1,1,0,0,False,"Aether Spectrometer",26108,0,1,1,69483,0,0,0
+2003042,"Rising festival flyer",0,"Rising festival flyers",0,0,1,0,0,False,"Rising Festival Flyer",26188,0,3,1,69509,0,0,0
+2003043,"magitek part",0,"magitek parts",0,0,1,0,0,False,"Magitek Part",26270,0,99,1,0,0,0,0
+2003044,"Rising festival flyer",0,"Rising festival flyers",0,0,1,0,0,False,"Rising Festival Flyer",26188,0,1,1,69510,0,0,0
+2003046,"crate of imperial supplies",0,"crates of imperial supplies",0,0,1,0,0,False,"Imperial Supplies",26108,0,99,1,0,0,0,0
+2003047,"Azuro costume",0,"Azuro costumes",0,1,1,0,0,False,"Azuro Costume",25919,0,1,1,69527,0,0,0
+2003048,"sweet-scented posy",0,"sweet-scented posies",0,0,1,0,0,False,"Sweet-scented Posy",25556,0,1,1,69532,0,0,0
+2003049,"Unukalhai's spirit vessel",0,"Unukalhai's spirit vessels",0,1,1,0,1,False,"Unukalhai's Spirit Vessel",26610,0,1,1,69522,0,0,0
+2003050,"smoldering coal",0,"smoldering coals",0,0,1,0,0,False,"Smoldering Coal",25911,1,3,1,69541,1,0,0
+2003051,"spindle of soft yarn",0,"spindles of soft yarn",0,0,1,0,0,False,"Soft Yarn",21656,0,1,1,69539,0,0,0
+2003053,"indecorous decoration",0,"indecorous decorations",0,1,1,0,0,False,"Indecorous Decoration",25919,0,3,1,69553,0,0,0
+2003054,"fragment of eternal ice",0,"fragments of eternal ice",0,0,1,0,0,False,"Eternal Ice",20015,1,3,1,69556,3,0,0
+2003055,"festive wreath",0,"festive wreaths",0,0,1,0,0,False,"Festive Wreath",26108,0,1,1,69557,0,0,0
+2003056,"concentrated lightning shard",0,"concentrated lightning shards",0,0,1,0,0,False,"Concentrated Lightning Shard",20017,0,1,1,69544,0,0,0
+2003057,"Ironworks promissory note",0,"Ironworks promissory notes",0,1,1,0,0,False,"Ironworks Promissory Note",26179,0,1,1,69545,0,0,0
+2003058,"small sack",0,"small sacks",0,0,1,0,0,False,"Small Sack",25919,0,1,1,69542,0,0,0
+2003059,"Nymeia lily",0,"Nymeia lilies",0,0,1,0,0,False,"Nymeia Lily",22627,0,2,1,69542,0,0,0
+2003066,"enigmatic Bozjan relic",0,"enigmatic Bozjan relics",0,1,1,0,0,False,"Enigmatic Bozjan Relic",26108,0,1,1,69564,0,0,0

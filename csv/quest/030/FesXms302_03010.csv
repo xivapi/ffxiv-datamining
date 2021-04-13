@@ -1,10 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESXMS302_03010_SEQ_00","Will Taff's testimony help solve the mystery of the stolen decorations?※This quest is available for a limited time only."
-1,"TEXT_FESXMS302_03010_SEQ_01","It appears that treants stole the Starlight Celebration decorations, and the wandering pilgrim saw them heading southward. Baenfaeld has gone to Galvanth's Spire to scout ahead, and you agree to rendezvous with him there.※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
+0,"TEXT_FESXMS302_03010_SEQ_00","Will Taff's testimony help solve the mystery of the stolen decorations?
+※This quest is available for a limited time only."
+1,"TEXT_FESXMS302_03010_SEQ_01","It appears that treants stole the Starlight Celebration decorations, and the wandering pilgrim saw them heading southward. Baenfaeld has gone to Galvanth's Spire to scout ahead, and you agree to rendezvous with him there.
+
+※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
 2,"TEXT_FESXMS302_03010_SEQ_02","Baenfaeld reveals that the treants have converged at the Mirror Planks. Speak with the Starlight Bear handler stationed by the Mirror Planks to proceed to the next phase of the plan."
-3,"TEXT_FESXMS302_03010_SEQ_03","The Starlight Bear handler requests you ride your trusted bear once more, and use starbursts to halt the treants in their tracks.※Participate in the FATE “Bad Luck Comes in Trees” to apprehend the culprits.※Speak with the Starlight Bear handler near the Mirror Planks to mount <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case></Switch>."
+3,"TEXT_FESXMS302_03010_SEQ_03","The Starlight Bear handler requests you ride your trusted bear once more, and use starbursts to halt the treants in their tracks.
+
+※Participate in the FATE “Bad Luck Comes in Trees” to apprehend the culprits.
+
+※Speak with the Starlight Bear handler near the Mirror Planks to mount <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch>."
 4,"TEXT_FESXMS302_03010_SEQ_04","The treants have been subdued. It is time to return to Bentbranch Meadows and tell Taff the good news."
 5,"TEXT_FESXMS302_03010_SEQ_05","Taff is delighted to hear from Baenfaeld and yourself that most of the treants have been caught and the majority of the decorations recovered. Your efforts have contributed greatly to the case of the stolen Starlight Celebration goods, but several treants still evade capture. There may yet be need of your services."
 6,"TEXT_FESXMS302_03010_SEQ_06",""
@@ -50,7 +57,7 @@ int32,str,str
 46,"TEXT_FESXMS302_03010_TODO_22",""
 47,"TEXT_FESXMS302_03010_TODO_23",""
 48,"TEXT_FESXMS302_03010_TAFF_000_000","You mean you'll get all the decorations back? Thank you so much, <If(PlayerParameter(4))>miss<Else/>sir</If>!"
-49,"TEXT_FESXMS302_03010_BAENFAELD_000_001","<Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case></Switch> came lookin' for me, an' told me to leg it back here. Everythin' all right?"
+49,"TEXT_FESXMS302_03010_BAENFAELD_000_001","<Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> came lookin' for me, an' told me to leg it back here. Everythin' all right?"
 50,"TEXT_FESXMS302_03010_BAENFAELD_000_002","You what? This little nipper saw the thief?"
 51,"TEXT_FESXMS302_03010_TAFF_000_003","I did! The Starlight Tree nicked all the decorations, and stuck 'em all over itself!"
 52,"TEXT_FESXMS302_03010_BAENFAELD_000_004","Pull the other one, it's got bells on! We was robbed by a tree? Bit far-fetched, don't ye think?"
@@ -80,14 +87,14 @@ int32,str,str
 76,"TEXT_FESXMS302_03010_GODBERT_000_050","Ho ho ho! A fine plan indeed! All that remains is to round up the troublemakers, and make those darling children smile once more. Now go, adventurer! May the raging flames of your righteous soul spare not those who defy the will of Nymeia!"
 77,"TEXT_FESXMS302_03010_TAFF_000_051","You're going to Galvanth's Spire? I want to help too, but I know I'd only get in your way. So I'll keep an eye on things here!"
 78,"TEXT_FESXMS302_03010_BAENFAELD_000_060","It's just as we suspected. A whole troop of 'em have been seen shufflin' about by the Mirror Planks."
-79,"TEXT_FESXMS302_03010_BAENFAELD_000_061","The bears are in position, and ready when you are. When our quarry shows up, have a word with the Starlight Bear handler to ride <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case></Switch> and start flingin' them starbursts!"
+79,"TEXT_FESXMS302_03010_BAENFAELD_000_061","The bears are in position, and ready when you are. When our quarry shows up, have a word with the Starlight Bear handler to ride <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> and start flingin' them starbursts!"
 80,"TEXT_FESXMS302_03010_BAENFAELD_000_062","Once you've got 'em stunned, we'll take care of the rest. There might even be a few more 'venturers willin' to join ye. Just do whatever it takes!"
 81,"TEXT_FESXMS302_03010_TAFF_000_063","I don't think I'd be any good fighting treants, so I'll keep out of the way. Wish I could watch, though!"
-82,"TEXT_FESXMS302_03010_COMMITTEE00439_100_065","Baenfaeld's told me all about the plan. I've got <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case></Switch> right here, ready to throw some starbursts. Good luck out there!"
+82,"TEXT_FESXMS302_03010_COMMITTEE00439_100_065","Baenfaeld's told me all about the plan. I've got <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> right here, ready to throw some starbursts. Good luck out there!"
 83,"TEXT_FESXMS302_03010_SYSTEM_110_065",""
-84,"TEXT_FESXMS302_03010_COMMITTEE00439_110_065","<Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case></Switch> is right here, waiting for you. Don't let those thieves get away!"
+84,"TEXT_FESXMS302_03010_COMMITTEE00439_110_065","<Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> is right here, waiting for you. Don't let those thieves get away!"
 85,"TEXT_FESXMS302_03010_TAFF_000_070","Oh, you're back! How did it go?"
-86,"TEXT_FESXMS302_03010_BAENFAELD_000_071","Ah, there ye are! Great work, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You too, <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case></Switch>! Judgin' by the amount of decorations we got back, I'd say most of the treants've been dealt with."
+86,"TEXT_FESXMS302_03010_BAENFAELD_000_071","Ah, there ye are! Great work, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You too, <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch>! Judgin' by the amount of decorations we got back, I'd say most of the treants've been dealt with."
 87,"TEXT_FESXMS302_03010_BAENFAELD_000_072","We couldn't've done it without ye! So, Taff, you got anythin' ye want to say?"
 88,"TEXT_FESXMS302_03010_TAFF_000_073","Thank you so much! I knew you'd come through for us!"
 89,"TEXT_FESXMS302_03010_TAFF_000_074","I'll make sure everyone knows what you did! Nymeia bless you, <If(PlayerParameter(4))>miss<Else/>sir</If>! Good-bye!"

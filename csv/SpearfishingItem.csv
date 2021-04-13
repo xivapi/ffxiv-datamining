@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5
-#,Description,Item,GatheringItemLevel,,TerritoryType,IsVisible
-int32,str,Item,GatheringItemLevelConvertTable,byte,TerritoryType,bit&01
+#,Description,Item,GatheringItemLevel,FishingRecordType,TerritoryType,IsVisible
+int32,str,Item,GatheringItemLevelConvertTable,FishingRecordType,TerritoryType,bit&01
 0,"",0,0,0,0,False
 20000,"Those who dare gaze into its swirling whorls risk spiraling into infinite madness. Luckily, few have peered into that void, as an intact specimen of this fragile shell is scarcely to be found.",20144,205,26,613,True
 20001,"Despite its name, the shading of this protogynous species is subject to variation as it transitions genders. As a result, some infer that its tenebrous title in fact references the deadly, viscous toxin it secretes.",20145,205,11,613,True
@@ -16,10 +16,10 @@ int32,str,Item,GatheringItemLevelConvertTable,byte,TerritoryType,bit&01
 20011,"Once brought to the brink of extinction by a Thavnairian fad that claimed these fish could unlock the secret to eternal youth, the species was saved at the last moment by a shift in popular attitudes toward growing old gracefully.",20155,210,11,613,True
 20012,"The precise purpose of its dual dorsal fins remains a mystery to scholars, as observing the dark fish in its native deep-sea environs has proven nigh impossible.",20156,210,12,613,True
 20013,"The vertical black and white striping that identifies these sharks disappears as the pups mature, and for a long time, youth and adult specimens were considered altogether separate species.",20157,210,12,613,True
-20014,"With a morose, bony appearance and purported powers to ward off evil spirits, it should come as no surprise this shell is a popular trinket with those who fly the skull-and-crossbones.",20158,210,26,613,True
+20014,"With a morose, bony appearance and purported powers to ward off evil spirits, it should come as no surprise this shell is a popular trinket with those who fly the skull and crossbones.",20158,210,26,613,True
 20015,"This repulsive breed of languid swimmers' only chance of drawing near to fellow sea creatures is to dangle bait from their protrusions and hope others are not revolted.",20159,210,14,614,True
 20016,"Ubiquitous and unremarkable shellfish tucked in among the rocks and algae along Othardian river- and lakebeds. These whelks are essentially what fish feed on when they can't be bothered to hunt for something better.",20160,210,13,614,True
-20017,"It is indeed a curiosity how an herbivorous fish should chance to grow to Roegadyn dimensions in length, but the vegetarian diet at least helps explain this fish's youthful, clean-shaven appearance.",20161,210,15,614,True
+20017,"It is indeed a curiosity how a herbivorous fish should chance to grow to Roegadyn dimensions in length, but the vegetarian diet at least helps explain this fish's youthful, clean-shaven appearance.",20161,210,15,614,True
 20018,"The bioluminescent organs that cause this slight-bodied fish to glow in the dark are sometimes mistaken by fishers for drowned spirits lost at sea from afar, but there is no mistaking the wavekin's disproportionately enormous head.",20162,215,10,613,True
 20019,"While this fish may not technically be inedible, its string-like fin fibers make for a meal that will under no circumstances go down smoothly, and the flesh reeks of rot to boot.",20163,215,11,613,True
 20020,"Though this eel may be named for its affinity for green, its aversion to land should assuage growers' fears of one turning up in the garden.",20164,215,10,613,True
@@ -54,7 +54,7 @@ int32,str,Item,GatheringItemLevelConvertTable,byte,TerritoryType,bit&01
 20049,"While more imaginative Xaela may convince themselves that this fish's eponymous appendage heralds the dawn and renders its kin to the almighty Azim, sometimes a red fin is just a red fin.",20193,230,17,622,True
 20050,"Having fallen in a teardrop as the moon above wept into the sea below, this pious disc-in-water offers prayers to the Lover each full moon in hopes of returning home. ",20194,230,26,621,True
 20051,"One might mistakenly assume this bonytongue was left out in the sun too long, but the pigmentation of its glistening scales actually owes more to its saline habitat.",20195,230,21,621,True
-20052,"This merciless lord of Loch Seld rules with an iron fin, visiting a nightly reign of terror upon the indigenous Flood Tuna, who live in perpetual fear of the salty tyrant.",20196,230,20,621,True
+20052,"This merciless lord of Loch Seld rules with an iron fin, visiting a nightly reign of terror upon the indigenous flood tuna, who live in perpetual fear of the salty tyrant.",20196,230,20,621,True
 20053,"The sky-colored shine of its tapetum evokes the proud image of Ala Mhigan regalia, but the cape is only as good as the king, and the fish was unduly subjected to symbolic slaughter following the fall of Theodoric.",20197,230,21,621,True
 20054,"Discovery of this “new” bioluminescent species has been hailed as a breakthrough by academics, but the Kojin, who have dwelled beside the fish for countless generations, do not see what all the fuss is about.",20198,245,26,613,True
 20055,"Despite being the largest fish in its family, this exceptional hunter is remarkably fast, and sure to go quickly when served for supper as well.",20199,245,12,613,True
@@ -101,30 +101,132 @@ int32,str,Item,GatheringItemLevelConvertTable,byte,TerritoryType,bit&01
 20096,"While it is the female tatsunoko who lays the eggs, it is the male who sees them through gestation in a brood pouch on its belly. And if that doesn't make you truly stop and think, nothing will.",20528,290,26,613,True
 20097,"Taking its name from a Hingan blade of legend, this razor-toothed wavekin is one of the few predators known to successfully hunt the slippery snailfish.",21179,300,12,613,True
 20098,"The unusual snailfish is covered in a supple, gelatinous skin rather than scales, allowing it to wriggle free from the jaws of would-be predators.",21180,300,11,613,True
-20099,"",0,0,0,0,False
-20100,"",0,0,0,0,False
-20101,"",0,0,0,0,False
-20102,"",0,0,0,0,False
-20103,"",0,0,0,0,False
-20104,"",0,0,0,0,False
-20105,"",0,0,0,0,False
-20106,"",0,0,0,0,False
-20107,"",0,0,0,0,False
-20108,"",0,0,0,0,False
-20109,"",0,0,0,0,False
-20110,"",0,0,0,0,False
-20111,"",0,0,0,0,False
-20112,"",0,0,0,0,False
-20113,"",0,0,0,0,False
-20114,"",0,0,0,0,False
-20115,"",0,0,0,0,False
-20116,"",0,0,0,0,False
-20117,"",0,0,0,0,False
-20118,"",0,0,0,0,False
-20119,"",0,0,0,0,False
-20120,"",0,0,0,0,False
+20099,"Edible either steamed or fried, this wavekin is common throughout the waterways of Lakeland. With its ordinary appearance and undistinctive taste, the grey carp's name has become a byword for “boring.”",27516,345,26,813,True
+20100,"This goby's large, lilac fins protect it from the attentions of hungry wildfowl. It absorbs the pigment from the purple plants that line the pools of Lakeland, making it look like a flower fallen from the very same shrubs.",27517,345,22,813,True
+20101,"This creature has the ability to produce a strong galvanic force, which it uses to stun prey by the schoolload. Scavengers often follow behind it to scoop up the leftovers, but if they stray too close, they too may be in for a shock.",27518,345,22,813,True
+20102,"Strange, twisting shadows can be seen within this sea creature's glassy skin, making them popular substitutes for crystal balls among the fortune-tellers of Lakeland. Scholars insist the visions it reveals are but the half-digested remains of its last meal.",27520,345,26,813,True
+20103,"This wavekin has a vicious temperament, attacking fish and fisher alike. Legend holds that these creatures are the animated spears of fallen elves who have held dominion over Lakeland since time immemorial.",27522,345,24,813,True
+20104,"Named after its unusual ritual, wherein individuals rub their cheeks against each other, mouths opening and closing all the while. Scholars believe this aids the wavekin in establishing hierarchies of dominance within social groups.",27528,345,22,813,True
+20105,"This pretty pink and purple shellfish is a distant relative of the dusk scallop. Its flesh has the unmistakable floral flavor of viola blossoms.",27529,345,22,813,True
+20106,"With its pure white scales representing honesty, and its peaceable demeanor representing harmony, this wavekin is often served at Lakeland wedding feasts, where the happy couple separate the sweet, steamed, fleshy flakes with a ceremonial fish knife.",27533,345,26,813,True
+20107,"This fish was once a fixture on the dining tables of Voeburt, oft served stewed with a heady mix of aromatic herbs and spices. Whether this was in order to complement the fish's strong, sulfurous taste, or to mask it, is a matter for the historians.",27536,390,26,816,True
+20108,"Feeding by filtering algae and other living things from the water, this aquatic insect lacks excretory organs and uses virtually everything it eats to add to its armor. Just as well that it is an extremely light eater, or this louse would be as big as a house.",27519,345,23,813,True
+20109,"Endemic to the Source, this cephalopod's pale purple patina helps it to remain hidden beneath the waters of Lakeland, upon whose surface is reflected the lilac-blossomed branches of the local flora.",27521,350,24,813,True
+20110,"The gudgeon are cowardly creatures, burrowing into the lakebed to hide themselves from harm. Shade gudgeon differ only in that the high concentration of crystal in Lakeland sands stains their bodies a bright, shining white.",27523,350,22,813,True
+20111,"When the shallow pools that this wavekin lives in dry up, it crafts a cocoon from a mixture of mucus and mud, within which it hibernates. When the rains return and refill the pools, these purple pods float to the surface, looking every bit like the flowers of thistles.",27524,350,23,813,True
+20112,"The aether this wavekin absorbs from the water makes its scales shine in a pattern peculiar to each fish. They use this to identify each other─unfortunately for them, the light they reflect also identifies them to any nearby anglers.",27525,350,23,813,True
+20113,"Immediately identifiable by the fat, purple body it shares with its vegetable namesake, this wavekin's appearance in the waterways around a farm heralds a bumper harvest─according to local legend, at least.",27527,350,24,813,True
+20114,"This hardy fish can survive on almost any source of food and is also highly resistant to temperature changes. Where other wavekin were driven to extinction by the Flood of Light, the geayi not only survived, but thrived.",27530,350,23,813,True
+20115,"Captivating in both shape and shade, the noblefish has long had pride of place in the aquariums of the high houses of Lakeland. Some say the wavekin was named after its stuck-up snout and absent chin, but this is likely naught but sour grapes.",27531,350,23,813,True
+20116,"Though its name conjures romantic images of a wizened night watchman, holding his lamp aloft as its flickering flame illuminates the path ahead, this fish's vile visage is rather more reminiscent of another kind of warden─that of an infernal gaol.",27526,355,24,813,True
+20117,"This ancient, armored wavekin cannot see through its clouded eyes. Instead, it navigates by sensing the flow of the water against its skin, which is remarkably sensitive despite its protective plating.",27532,355,24,813,True
+20118,"Princess Jenanna of the Kingdom of Voeburt weeps still for the fate of her fallen nation, her tears falling from the heavens and mingling with the waters that once belonged to her homeland.",27537,355,26,816,True
+20119,"Local legend has it that the verdant light that spilled forth from the castle of Lyhe Ghiah gave these amphibians their jadeite tint. Before the Flood, their skin was a pale pink.",27539,355,23,816,True
+20120,"Named after the long spines that extend from the edges of its shell like petals, and the whorl that twists around its side like a silken scarf. Its bright yellow color attracts curious fish, which it seizes upon with its sharp, toothy beak.",27538,370,22,816,True
+20121,"These small river dwellers are often offered as gifts between lovers, due to the romantic implications of the heart marks upon their heads. In captivity, it is wise to keep individuals apart, due to their unfortunate cannibalistic tendencies.",27540,370,23,816,True
+20122,"A peallaidh is a Fuath's best friend, or so the fae folk say─and indeed, the wavekin are unusually intelligent and expressive creatures. However, when asked how they feel about the Fuath, they are wont to wear altogether more dubious faces.",27541,370,24,816,True
+20123,"The golden fringes of this fish's fluttering fins attract the envy of every lake dweller. They have become something of a fashion accessory for the Fuath, where everyone who is anyone in polite society has one in tow.",27544,370,22,816,True
+20124,"This wavekin was common throughout the waterways of Voeburt before the Flood. Its scales were once dull and grey, before the ever-playful pixies decided to give them a touch more glamour.",27546,370,26,816,True
+20125,"This eel's glossy, cerulean skin resembles naught more than the signature glassware of old Voeburt, leading the antique hunters of Il Mheg to christen the species the “Fool's Goblet.”",27547,345,24,816,True
+20126,"The Voeburt bichir is easily identified by the plethora of independently agile dorsal finlets along its spine. The more a fish has, the higher its position in the dominance hierarchy, so individuals engage in vicious duels to remove their rivals' fins.",27542,380,24,816,True
+20127,"One of the many species of wavekin given a gaudy makeover by the fae folk of Il Mheg. The Fuath compete to decorate these fish, using their magicks to dress them in the most captivating patterns they can.",27543,380,22,816,True
+20128,"With its pale pink body and sky blue fins, this wavekin resembles naught more than a flower falling from a tree. It flutters its entire body from side to side as it swims, only adding to the effect.",27545,380,23,816,True
+20129,"The Voeburt salamander is a relic from the times before the Flood. It survived the crisis thanks in no small part to its incredible regenerative powers─cut off the creature's tail, and it will regrow in a matter of moons. Alas, this oft makes them the target for mischievous pixies.",27548,380,24,816,True
+20130,"During the spawning season, bedskippers have a tendency to leap about upon the surface of the water, the fluttering of their large, colorful dorsal fins looking like a storm of summer blossoms blowing across a lake.",27549,390,22,816,True
+20131,"The dandyfish attaches great importance to its opulent appearance. Be sure to don dull clothing before entering this wavekin's waters, for it will attack anything that attracts more attention than itself on sight, and not cease until their togs are in tatters.",27550,390,22,816,True
+20132,"Some say this strange, barely sentient creature is the result of the wandering soul of a fallen faerie taking up residence in an algal bloom, and failing to reshape its new body into its former form.",27552,390,23,816,True
+20133,"With its arrow-like head and sleek, shaft-like body, this scalekin flies through the water like a dart loosed from a bow. Once it has set upon a course it refuses to change direction, leading to innumerable painful prangs with underwater cliff faces.",27553,390,24,816,True
+20134,"Rulers of the lakes within which they reside due to their prodigious size, this aptly named wavekin has a habit of swallowing the frog-like fae folk whole. Luckily for the Fuath, the gobblers are unable to digest such sizable prey, and spit their victims out soon after.",27554,390,26,816,True
+20135,"A wanderer who once strayed into a land of eternal springtime tells of how he met with a man who lived in a mushroom house who grew mushrooms to feed his family, who were also made of mushrooms. The moral of the story is─don't eat fungus from a crab's back.",27555,390,22,816,True
+20136,"An anemone that makes its home at the foot of the cliff where Saint Fathric performed his ablutionary rites. Its mane of blond tendrils resembles the hair of the short-tempered penitent, who was prone to fly into a furious rage when disturbed.",27556,390,22,816,True
+20137,"The jade frills of this fish's fins remind one of the ball gowns beloved by the royal ladies of Voeburt. Smaller wavekin are wont to follow in their wake in search of scraps, resembling the train of sycophants who would often attend such lofty personages.",27557,390,23,816,True
+20138,"Native to the waterways of the Rak'tika Greatwood, this small, stone-colored crab will hide itself among the riverbed rubble, attacking the ankles of any passing animals with its viselike pincers.",27568,390,22,817,True
+20139,"These freshwater shellfish attach themselves to the roots of lakeside trees, looking to all the world like nothing more than another knot, thanks to their brown, bark-like patina. Eagle-eyed oyster hunters are in for a delicious, earthy treat.",27569,390,22,817,True
+20140,"Depicted in Ronkan murals with brightly patterned scales, it would seem that this wavekin has faded faster over the passing of the generations than the pigments used in the ancient empire's paint.",27570,390,26,817,True
+20141,"A close cousin of the robber crab that lives alongside it, the gourmand crab is a pickier eater than its omnivorous ally, feeding only on the blue berries that lend its shell its distinctive hue.",27571,390,23,817,True
+20142,"A prince from a faraway nation once gifted such a creature to Princess Sauldia of the Kingdom of Voeburt, and it has been a staple of aquariums both public and private ever since. At night, it shines with a rosy glow, signifying the ardor of her suitor's heart.",27551,400,23,816,True
+20143,"The ancestors of this bright and beautiful wavekin had scales a tawny brown, to hide themselves among the leaf litter. All that was to change when the fae folk filled Il Mheg with flowers, and the duller creatures suddenly started to stand out.",27558,400,23,816,True
+20144,"With a clear cranium revealing its innards, this weird wavekin spends most of its time buried beneath the lakebed, tubular eyes scanning the waters above. The innards of its prey also become visible when they chance to swim above it, and are torn apart by a flurry of darting teeth.",27559,400,24,816,True
+20145,"Known to the fae folk of Il Mheg as the “Children of the Storm,” these wavekin can deliver a stunning shock when touched. The pixies claim that they fell from the sky as lightning bolts─in truth, their skin is simply laced with a paralyzing poison.",27560,400,26,816,True
+20146,"According to fable, a Fuath once wished to have horns on his head, and cast a spell to make it so. Alas, he neglected to specify the horns be attached, and so came to conjure this species into existence, crawling over his flustered face.",27561,390,22,816,True
+20147,"A larger, more aggressive cousin of the Night's bass, introduced to the Greatwood by the Night's Blessed. The wavekin's readiness to resort to violence to assert their dominion over their compeers provides a striking parallel with the Children of the Everlasting Dark.",27577,400,23,817,True
+20148,"Known in the world beneath the water as death incarnate, due to the ferocious manner in which they devour their prey. When a swarm of aquabloom attack a larger wavekin en masse, they resemble a great thicket, its leaves whipping to and fro in a storm.",27562,410,22,816,True
+20149,"The jesters of ancient Voeburt would wear round, red noses and perform gymnastic tricks for the court. The swollen, scarlet eyes of this wavekin resemble the clowns' snouts, and with their ungainly swimming style, seem to be imitating their movements too.",27563,410,23,816,True
+20150,"This freshwater fish uses its wing-shaped fins to traverse the water at alarming speeds. Some have likened it to a bolt from the blue.",27564,410,24,816,True
+20151,"This rather autumnal fish can look out of place in the faerie kingdom. Its eggs are a greenish yellow and give off a unique stench.",27565,410,24,816,True
+20152,"Hermit crabs like to make homes of this mollusk's discarded shells, wearing them like a hat. In life, they migrate from place to place, feeding on the local fauna as they go. Different foodstuffs produce shells of a different color, adding another stripe each season.",27574,410,26,817,True
+20153,"A carnivorous freshwater fish that looks as if it hails from a bygone age, and acts as if it has been nursing a grudge all the while. Its powerful jaws can easily tear through the scales of fish, the shells of turtles, and the armor of adventurers.",27576,410,23,817,True
+20154,"Long has the legend of Bismarck, the great spirit of the water, been passed down among the peoples of the Source. This fish is named for the single, sharp horn it shares with its fabular brother, though its purpose is unknown─the wavekin hunts with its teeth alone.",27534,370,24,813,True
+20155,"Notable for its four fins that resemble a bird's wings. Only the most skilled of faerie pranksters are capable of taking on this form.",27567,420,23,816,True
+20156,"When the world was young, Ox'Gatorl, the keeper of the flame, taught the Ronkans how to work metal. As he tended his forge, a drop of sweat fell from his forehead and into the lake below, quenching with a hiss of steam. Thus did this copper-plated wavekin come into being.",27572,420,24,817,True
+20157,"Like a religious recluse, it lives alone in its seashell home. For reasons unknown, it refuses to take up residence in a shell of two or fewer colors, or of four or more. Only a shell striped thrice will suffice.",27575,420,22,817,True
+20158,"Named after a stone giant from Ronkan legend, due to its prodigious size. In ancient times, these wavekin were often offered to the imperial household as tribute─the master of the waters lying before the throne representing the emperor's dominion over all.",27578,420,24,817,True
+20159,"The long, flexible fins extending from this wavekin's belly allow it to steer through the water at will, describing loops and rolls with almost impertinent ease. Its movements are almost impossible to predict, resulting in many a perplexed predator.",27581,420,22,817,True
+20160,"One of an ancient order of armored fish, the bothriolepis's body is protected by thick, chitinous plates. Unlike many of its cousins it is not a skilled hunter, preferring to stir up the lakebed sand with its fins and feasting on whatever it finds.",27535,380,24,813,True
+20161,"Legend has it that this wavekin was once a butterfly, before being transformed into a fish by a mischievous pixie's magick. Instead of feeding on flower nectar, it nourishes itself by nibbling away at underwater weeds.",27566,430,23,816,True
+20162,"The shining scales of this freshwater wavekin are as hard as diamond. Suits of armor have been crafted from these scales, though they have largely been relegated to ornamental purposes due to their tendency to shatter under impact.",27573,430,24,817,True
+20163,"According to Ronkan legend, these large wavekin are the maidservants to the mortal form of Yx'Anpa, goddess of the harvest. Their migration patterns brought them to Ronkan lands come autumn, as if ushering in the changing of the season.",27579,430,24,817,True
+20164,"These soft-bodied sea slugs are named for their resemblance to the long, pointed ears of the Viis. The people of Fanow reject this comparison─be sure not to speak the slug's sobriquet in the vicinity of the village, lest you find yourself on the pointy end of the rabbit ladies' lances.",27580,430,22,817,True
+20165,"",0,0,0,0,False
+20166,"",0,0,0,0,False
+20167,"",0,0,0,0,False
+20168,"",0,0,0,0,False
+20169,"",0,0,0,0,False
+20170,"",0,0,0,0,False
+20171,"",0,0,0,0,False
+20172,"",0,0,0,0,False
+20173,"",0,0,0,0,False
+20174,"",0,0,0,0,False
+20175,"",0,0,0,0,False
+20176,"",0,0,0,0,False
+20177,"",0,0,0,0,False
+20178,"",0,0,0,0,False
+20179,"",0,0,0,0,False
+20180,"",0,0,0,0,False
+20181,"",0,0,0,0,False
+20182,"",0,0,0,0,False
+20183,"",0,0,0,0,False
+20184,"",0,0,0,0,False
+20185,"",0,0,0,0,False
+20186,"",0,0,0,0,False
+20187,"",0,0,0,0,False
+20188,"",0,0,0,0,False
+20189,"",0,0,0,0,False
+20190,"",0,0,0,0,False
+20191,"",0,0,0,0,False
+20192,"",0,0,0,0,False
+20193,"",0,0,0,0,False
+20194,"",0,0,0,0,False
+20195,"",0,0,0,0,False
+20196,"",0,0,0,0,False
+20197,"",0,0,0,0,False
+20198,"",0,0,0,0,False
+20199,"",0,0,0,0,False
+20200,"",0,0,0,0,False
+20201,"",0,0,0,0,False
+20202,"",0,0,0,0,False
+20203,"",0,0,0,0,False
+20204,"",0,0,0,0,False
+20205,"",0,0,0,0,False
+20206,"",0,0,0,0,False
+20207,"",0,0,0,0,False
+20208,"",0,0,0,0,False
+20209,"",0,0,0,0,False
+20210,"",0,0,0,0,False
+20211,"",0,0,0,0,False
+20212,"",0,0,0,0,False
+20213,"",0,0,0,0,False
+20214,"",0,0,0,0,False
+20215,"",0,0,0,0,False
+20216,"",0,0,0,0,False
 30000,"",17835,290,26,134,False
 30001,"",17836,290,26,134,False
 30002,"",17951,260,26,614,False
-30003,"",0,0,0,0,True
-30004,"",0,0,0,0,True
+30003,"",26744,425,26,134,False
+30004,"",26745,425,26,134,False
+30005,"",29573,290,26,817,False
+30006,"",29574,290,26,817,False
+30007,"",29578,290,26,817,False
+30008,"",29579,290,26,817,False
+30009,"",29581,290,26,817,False
+30010,"",29589,290,26,817,False

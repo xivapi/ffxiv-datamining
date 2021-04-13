@@ -27,7 +27,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 23,"Finding Mature Trees",True,890,891,892,0,0,890,893,894,0,0,13,1
 24,"Gathering",True,900,901,902,0,0,0,0,0,0,0,13,2
 25,"Gathering Interface",True,910,911,912,0,0,0,0,0,0,0,13,5
-26,"Stealth",True,920,921,922,0,0,0,0,0,0,0,13,6
+26,"Sneak",True,920,0,0,0,0,0,0,0,0,0,13,6
 27,"Harvesting",True,930,931,0,0,0,0,0,0,0,0,13,7
 28,"Crafting Log",True,700,701,702,0,0,0,0,0,0,0,12,1
 29,"Crafting",True,710,711,712,713,0,714,711,712,713,0,12,2
@@ -56,11 +56,11 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 52,"Hiring a Retainer",True,850,851,0,0,0,0,0,0,0,0,6,22
 53,"A Retainer's Many Tasks",True,860,861,0,0,0,0,0,0,0,0,6,23
 54,"Gathering Point Characteristics",True,870,871,0,0,0,0,0,0,0,0,13,9
-55,"Unspoiled Locations",True,1000,1001,0,0,0,0,0,0,0,0,13,10
+55,"Unspoiled Locations",True,1000,1001,1002,0,0,0,0,0,0,0,13,10
 56,"Gathering HQ Items",True,880,881,882,0,0,0,0,0,0,0,13,8
 57,"Clearing Instanced Raids",True,105,106,107,0,0,0,0,0,0,0,8,3
 58,"Material Condition",True,730,731,0,0,0,0,0,0,0,0,12,4
-59,"Aspected Recipes",True,740,741,0,0,0,0,0,0,0,0,12,5
+59,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 60,"High-quality Items",True,770,771,0,0,0,0,0,0,0,0,6,2
 61,"Unique Items",True,780,0,0,0,0,0,0,0,0,0,6,3
 62,"Binding Items",True,790,791,0,0,0,0,0,0,0,0,7,2
@@ -86,7 +86,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 82,"Dismounting Rental Chocobos",True,310,0,0,0,0,311,0,0,0,0,3,7
 83,"Porters",True,320,0,0,0,0,0,0,0,0,0,3,4
 84,"Dismounting Porters",True,330,0,0,0,0,331,0,0,0,0,3,5
-85,"Personal Chocobos",True,340,341,342,343,0,0,0,0,0,0,3,8
+85,"Personal Chocobos",True,340,341,343,0,0,0,0,0,0,0,3,8
 86,"Dismounting Personal Chocobos",True,350,0,0,0,0,351,0,0,0,0,3,9
 87,"Grand Companies",True,410,411,412,0,0,0,0,0,0,0,10,1
 88,"Class Quest Rewards",True,130,0,0,0,0,0,0,0,0,0,5,14
@@ -98,7 +98,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 94,"Jobs",True,260,261,262,0,0,0,0,0,0,0,2,9
 95,"Dyeing",True,950,951,952,0,0,0,0,0,0,0,7,8
 96,"Fighting with Your Chocobo",True,360,361,0,0,0,0,0,0,0,0,4,21
-97,"Creating Materia",True,960,961,962,0,0,0,0,0,0,0,7,21
+97,"Extracting Materia",True,960,961,962,0,0,0,0,0,0,0,7,21
 98,"Affixing Materia",True,970,971,0,0,0,0,0,0,0,0,7,22
 99,"Advanced Materia Melding",True,980,981,0,0,0,0,0,0,0,0,7,24
 100,"Meld Requests",True,990,991,992,0,0,0,0,0,0,0,7,23
@@ -108,7 +108,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 104,"Adding Members",True,1190,0,0,0,0,0,0,0,0,0,8,23
 105,"Finding Mineral Deposits",True,1020,1021,1022,0,0,0,0,0,0,0,13,3
 106,"Quarrying",True,1030,1031,0,0,0,0,0,0,0,0,13,4
-107,"Out-of-reach Items",True,1010,1011,1012,0,0,0,0,0,0,0,13,11
+107,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 108,"Companion Skills",True,380,381,382,383,0,0,0,0,0,0,4,22
 109,"Ordering Your Chocobo",True,370,371,372,0,0,0,0,0,0,0,4,23
 110,"Opening Treasure Coffers",True,1110,0,0,0,0,0,0,0,0,0,9,7
@@ -130,7 +130,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 126,"Quick Synthesis",True,690,691,692,0,0,0,0,0,0,0,12,6
 127,"Umbral Ice & Astral Fire",True,1220,1221,1222,1223,0,0,0,0,0,0,4,6
 128,"Pugilist Forms",True,1230,1231,1232,1233,0,0,0,0,0,0,4,5
-129,"Pets",True,1240,1241,1242,1243,1244,1240,1245,1242,1243,1244,4,7
+129,"Pets",True,1240,1241,1242,1244,0,1240,1245,1242,1244,0,4,7
 130,"The Wolves' Den",True,1250,0,0,0,0,0,0,0,0,0,8,31
 131,"Quest Battles",True,1260,1261,1262,0,0,0,0,0,0,0,4,15
 132,"Achievements",True,1150,1151,0,0,0,0,0,0,0,0,2,14
@@ -164,7 +164,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 160,"Player Commendation",True,1520,1521,1522,0,0,0,0,0,0,0,8,26
 161,"Applying to a Free Company",True,1530,1531,0,0,0,1530,1532,0,0,0,11,7
 162,"Challenge Log",True,1540,1542,0,0,0,1541,1542,0,0,0,8,6
-163,"Master Recipes",True,1550,0,0,0,0,0,0,0,0,0,12,7
+163,"Master Recipes",True,1550,0,0,0,0,0,0,0,0,0,12,10
 164,"Glamours",True,1560,1561,1562,0,0,0,0,0,0,0,7,25
 165,"Gardening",True,1570,1571,0,0,0,0,0,0,0,0,2,18
 166,"Tending Your Garden",True,1580,1581,0,0,0,0,0,0,0,0,2,20
@@ -188,7 +188,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 184,"Chocobo Raising",True,1760,1761,1762,0,0,0,0,0,0,0,4,24
 185,"Ixal Quests",True,1780,1781,0,0,0,0,0,0,0,0,5,27
 186,"Ehcatl Nine Delivery Quests",True,1790,1791,1792,0,0,0,0,0,0,0,5,28
-187,"Venturing for Rare Items",True,1800,0,0,0,0,0,0,0,0,0,6,26
+187,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 188,"Transfiguration",True,1810,1811,0,0,0,0,0,0,0,0,5,29
 189,"Soulglazing",True,1820,1821,1822,1823,0,0,0,0,0,0,7,33
 190,"Fish Population",True,1830,1831,0,0,0,0,0,0,0,0,14,10
@@ -207,24 +207,24 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 203,"Specialists",True,1960,1961,0,0,0,0,0,0,0,0,12,21
 204,"Submitting Collectables",True,1970,0,0,0,0,0,0,0,0,0,6,41
 205,"Flying Mounts",True,1980,1981,0,0,0,1980,1982,0,0,0,3,20
-206,"Astromancy",True,1990,1991,1992,1993,0,0,0,0,0,0,4,62
-207,"Machinistry",True,2000,2001,2003,0,0,0,0,0,0,0,4,61
+206,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+207,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 208,"The Mentor System",True,2010,2011,2012,2013,0,0,0,0,0,0,2,60
 209,"Ephemeral Gathering Points",True,2020,0,0,0,0,0,0,0,0,0,13,62
 210,"Hidden Characteristics",True,2030,2031,0,0,0,0,0,0,0,0,13,63
-211,"Favors",True,2040,2041,0,0,0,0,0,0,0,0,13,64
+211,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 212,"Aetherial Reduction",True,2050,0,0,0,0,0,0,0,0,0,13,65
-213,"Tomes of Regional Folklore",True,2060,0,0,0,0,0,0,0,0,0,13,66
+213,"Legendary Nodes and Tomes of Regional Folklore",True,2060,2061,0,0,0,0,0,0,0,0,13,66
 214,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 215,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 216,"Loot Rules",True,2090,2091,2092,2093,0,2094,2091,2092,2093,0,4,11
 217,"Setting Loot Rules",True,2100,2101,0,0,0,0,0,0,0,0,4,12
 218,"Temple Leves",True,2110,2111,0,0,0,0,0,0,0,0,9,20
-219,"Collectables",True,2120,2121,0,0,0,0,0,0,0,0,6,40
-220,"Crafting Collectables",True,2130,2131,0,0,0,0,0,0,0,0,12,23
+219,"Collectables",True,2120,2121,2122,0,0,0,0,0,0,0,6,40
+220,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 221,"Collectable Fish",True,2140,2141,0,0,0,0,0,0,0,0,14,20
-222,"Gathering Collectables",True,2150,0,0,0,0,0,0,0,0,0,13,68
-223,"Collectable Rarity and Wear",True,2160,2161,0,0,0,0,0,0,0,0,13,69
+222,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+223,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 224,"Lord of Verminion",True,2170,2171,2172,2173,2174,0,0,0,0,0,15,10
 225,"Minion Types",True,2180,2181,2182,2183,0,0,0,0,0,0,15,11
 226,"Verminion Structures",True,2190,2191,2192,2193,2194,0,0,0,0,0,15,12
@@ -232,20 +232,20 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 228,"Class/Job-specific Quests",True,2210,0,0,0,0,0,0,0,0,0,5,31
 229,"The Orchestrion",True,2220,2221,2222,2223,2224,0,0,0,0,0,2,40
 230,"Flowerpots",True,2230,0,0,0,0,0,0,0,0,0,2,19
-231,"The Aquapolis and the Lost Canals of Uznair",True,2240,2241,2242,0,0,0,0,0,0,0,6,34
+231,"Treasure Dungeons",True,2240,2241,2242,0,0,0,0,0,0,0,6,34
 232,"Aquariums",True,2250,2251,2252,2253,0,0,0,0,0,0,2,22
 233,"Egi Glamours",True,2260,2261,2262,0,0,0,0,0,0,0,4,63
 234,"Item Level",True,2270,2271,2272,0,0,0,0,0,0,0,4,70
 235,"Increasing Item Level",True,2280,2281,2282,0,0,0,0,0,0,0,4,71
-236,"Personal Rewards",True,2290,0,0,0,0,0,0,0,0,0,8,46
-237,"Exploring the Diadem",True,2300,2301,2302,2303,0,0,0,0,0,0,8,45
+236,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+237,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 238,"Swimming and Diving",True,2310,2311,2313,0,0,2310,2312,2313,0,0,3,21
 239,"Duty Actions",True,2320,2322,0,0,0,2321,2322,0,0,0,8,55
 240,"Rival Wings",True,2330,0,0,0,0,0,0,0,0,0,8,35
 241,"Spearfishing",True,2340,0,0,0,0,0,0,0,0,0,14,30
 242,"Teeming Waters",True,2350,2351,2352,0,0,0,0,0,0,0,14,31
 243,"How to Gig",True,2360,2361,0,0,0,0,0,0,0,0,14,32
-244,"Role Actions",True,2370,2371,2372,2373,0,2370,2371,2372,2374,0,4,10
+244,"Role Actions",True,2370,2371,0,0,0,2370,2371,0,0,0,4,10
 245,"Performance Actions",True,2380,0,0,0,0,0,0,0,0,0,2,45
 246,"The Fashion Report",True,2390,2391,2392,2393,0,0,0,0,0,0,7,30
 247,"Glamour Dressers",True,2400,2401,0,0,0,0,0,0,0,0,7,26
@@ -257,11 +257,27 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 253,"Duty Recorder",True,2460,2461,0,0,0,0,0,0,0,0,8,56
 254,"Recording Duties",True,2470,2471,2472,2473,0,2470,2471,2472,2474,0,8,57
 255,"Viewing Recorded Duties",True,2480,0,0,0,0,0,0,0,0,0,8,58
-256,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+256,"Happy Bunnies",True,2487,2488,0,0,0,0,0,0,0,0,8,51
 257,"Message Books",True,2481,2482,2483,2484,0,0,0,0,0,0,2,23
 258,"Companion Makeovers",True,2485,2486,0,0,0,0,0,0,0,0,8,61
-259,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-260,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-261,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-262,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-263,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+259,"Shifting Sanctums",True,2489,2490,2491,2492,0,0,0,0,0,0,6,35
+260,"Mannequins",True,2493,2494,2495,0,0,0,0,0,0,0,2,24
+261,"Logos Manipulator",True,2496,2497,2498,0,0,0,0,0,0,0,8,52
+262,"Upgraded Logos Manipulator",True,2499,2500,0,0,0,0,0,0,0,0,8,53
+263,"Multi-seat Mounts",True,2501,0,0,0,0,0,0,0,0,0,3,22
+264,"World Visit",True,2506,2507,0,0,0,0,0,0,0,0,3,10
+265,"Blue Magic",True,2502,2503,2504,2505,2508,2502,2509,2504,2505,2508,4,64
+266,"Bicolor Gemstones",True,2510,2511,2512,0,0,2510,2511,2513,0,0,8,2
+267,"Fishing and Regional Folklore",True,1764,1765,0,0,0,0,0,0,0,0,14,13
+268,"Swimming Shadows",True,1767,1768,0,0,0,0,0,0,0,0,14,12
+269,"Collection",True,1770,0,0,0,0,1771,0,0,0,0,2,27
+270,"Expert Recipes",True,2520,0,0,0,0,0,0,0,0,0,12,11
+271,"Patience",True,2530,2531,0,0,0,0,0,0,0,0,14,14
+272,"Fashion Accessories",True,2540,2541,0,0,0,0,0,0,0,0,2,28
+273,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+274,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+275,"Gathering Collectables",True,2552,0,0,0,0,0,0,0,0,0,13,68
+276,"Trial Synthesis",True,2550,2551,0,0,0,0,0,0,0,0,12,7
+277,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+278,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+279,"",False,0,0,0,0,0,0,0,0,0,0,0,0

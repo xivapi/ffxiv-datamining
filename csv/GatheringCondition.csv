@@ -18,6 +18,7 @@ int32,str
 14,"Gathering ≥ <Value>IntegerParameter(1)</Value>"
 15,"Perception ≥ <Value>IntegerParameter(1)</Value>"
 16,"Gathering < <Value>IntegerParameter(1)</Value>"
-17,"Perception < <Value>IntegerParameter(1)</Value>"
+17,"Perception <If(IntegerParameter(2))>≥<Else/><</If> <Value>IntegerParameter(1)</Value>"
 18,"<Sheet(Status,IntegerParameter(1),0)/> Required"
 19,"Max GP ≥ <Value>IntegerParameter(1)</Value>"
+20,"<Sheet(Item,IntegerParameter(1),9)/> <If(IntegerParameter(2))>Equipped<Else/>Unequipped</If>"
