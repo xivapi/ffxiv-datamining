@@ -65,8 +65,8 @@ USAGE:
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>set ""blue mage action"" on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Removes the specified blue
-　　mage action from the list
+　　Adds the specified blue
+　　mage action to the list
 　　of active actions in the
 　　current set.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> set ""blue mage action"" off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -2688,7 +2688,14 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 338,2,0,0,0,0,"/systemsoundsspeaker","","USAGE:
 　/systemsoundsspeaker [subcommand]
 
-→Adjust system volume settings for speakers (for PlayStation®4.)","","",228,0
+→Adjust system volume settings for speakers (for PlayStation®4 and PlayStation®5).
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Set system speaker sounds to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles system speaker sounds on and off when no subcommand is specified.","","",228,0
 339,2,0,0,0,0,"/tiltcamera","","USAGE:
 　/tiltcamera [subcommand]
 
@@ -4461,6 +4468,17 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
+612,2,1,2,0,0,"/flowershower","/petals","ALIASES:
+　/flowershower, /petals
+USAGE:
+　/flowershower [subcommand]
+
+→Toss fragrant flower petals into the air.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
 613,2,1,2,0,0,"/flamedance","","USAGE:
 　/flamedance [subcommand]
 
@@ -4596,3 +4614,34 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　　Display expression only.
 
 Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+630,2,1,2,0,0,"/pantomime","/mime","ALIASES:
+　/pantomime, /mime
+USAGE:
+　/pantomime [subcommand]
+
+→Perform a pantomime.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+631,2,1,2,0,0,"/vexed","","USAGE:
+　/vexed [subcommand]
+
+→Appear visibly frustrated.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+633,2,1,2,0,0,"/eatpizza","/pizza","ALIASES:
+　/eatpizza, /pizza
+USAGE:
+　/eatpizza [subcommand]
+
+→Snack on a slice of pizza.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
