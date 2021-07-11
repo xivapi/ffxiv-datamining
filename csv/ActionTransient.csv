@@ -24689,7 +24689,7 @@ This action does not share a recast timer with any other actions."
 20530,""
 20531,""
 20532,""
-20533,""
+20533,"Deals unaspected damage with a potency of 200 to all nearby enemies."
 20534,""
 20535,""
 20536,""
@@ -24878,13 +24878,14 @@ Effect cannot be stacked with <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300s
 Effect cannot be stacked with <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Lost Spellforge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20708,"Greatly increases movement speed.
+Effect cannot be stacked with other movement speed enhancing abilities.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Breathtaker Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases evasion by 30%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Watcher Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rapid Recast<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rapid Recast Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Shortens recast time for next ability used by 60%
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
-Effect cannot be stacked with other movement speed enhancing abilities."
+Effect only applies to certain abilities.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
 20709,"Applies a barrier to self or target player reducing physical damage taken by 10%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30m"
 20710,"Applies a barrier to self or target player reducing magic damage taken by 10%.
@@ -24985,7 +24986,8 @@ This action does not share a recast timer with any other actions. Furthermore, t
 20733,"Study the lost techniques used by a targeted ally and make them your own.
 Cannot be executed while in combat."
 20734,"Place your faith in the goddess Nymeia as she spins the wheel of fate.
-Can only be executed while in combat."
+Can only be executed while in combat.
+Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Resistance Potion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Resistance Elixir<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20735,"Resurrects target to a weakened state."
 20736,"Grants a 70% chance of automatic revival upon KO.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>180m"
@@ -25007,7 +25009,8 @@ Effect cannot be stacked with similar barrier actions.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Resistance Potion Kit<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Resistance Ether Kit<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20740,"Gradually restores HP.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5,000
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>40s"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>40s
+Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dynamis Dice<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Resistance Elixir<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 20741,"Increases damage dealt by 80%.
 Effect ends upon reuse.
 Cannot be used with other Essence or Deep Essence actions."
@@ -25825,11 +25828,12 @@ Cannot be used with other Essence or Deep Essence actions."
 21491,""
 21492,""
 21493,""
-21494,""
-21495,""
+21494,"Delivers an attack with a potency of 440."
+21495,"Delivers an attack with a potency of 400 to target and all enemies nearby it."
 21496,""
-21497,""
-21498,""
+21497,"Restores target's HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 350"
+21498,"Deals unaspected damage with a potency of 210."
 21499,""
 21500,""
 21501,""
@@ -25939,10 +25943,21 @@ Cannot be used with other Essence or Deep Essence actions."
 21605,""
 21606,""
 21607,""
-21608,""
-21609,""
+21608,"Restores target's HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400"
+21609,"Restores own HP and the HP of all nearby party members.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Regen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 21610,""
-21611,""
+21611,"Creates a fixed sign centered around the caster, reducing damage taken by 10% for self and any party members who enter.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Healing over time
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Effect ends upon using another action or moving (including facing a different direction).
+Cancels auto-attack upon execution."
 21612,""
 21613,""
 21614,""
@@ -26183,7 +26198,8 @@ Cannot be used with other Essence or Deep Essence actions."
 21849,""
 21850,""
 21851,""
-21852,""
+21852,"Deals ice damage with a potency of 300.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores up to 40% of MP"
 21853,""
 21854,""
 21855,""
@@ -26215,11 +26231,20 @@ Cannot be used with other Essence or Deep Essence actions."
 21881,""
 21882,""
 21883,""
-21884,""
+21884,"Deals lightning damage with a potency of 200 to target and all enemies nearby it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Lightning damage over time
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+"
 21885,""
-21886,""
+21886,"Restores target's HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 700"
 21887,""
-21888,""
+21888,"Restores own HP and the HP of all nearby party members.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Regen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 21889,""
 21890,""
 21891,""
@@ -26252,7 +26277,7 @@ Cannot be used with other Essence or Deep Essence actions."
 21918,""
 21919,""
 21920,""
-21921,""
+21921,"Prevents spellcasting, movement, and other activity of all nearby enemies."
 21922,""
 21923,""
 21924,""
@@ -27726,7 +27751,7 @@ Potency increases to 300 when partied with your personal chocobo."
 Potency is increased to 100 when you are under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherial Mimicry: DPS<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Shares a recast timer with certain blue magic spells."
 23286,"Deals physical damage to all enemies in a straight line before you with a potency of 220 for the first enemy, and 50% less for all remaining enemies.
-Potency increased to 400 when target is afflicted with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lightheaded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Potency increased to 400 when target becomes afflicted with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lightheaded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Inflicts <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lightheaded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
 Repeated use of this action in a short period will reduce the additional effect's duration, eventually rendering targets immune to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lightheaded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
@@ -28363,22 +28388,78 @@ Effect ends upon using an action other than <UIForeground>F201F4</UIForeground><
 23904,""
 23905,""
 23906,""
-23907,""
-23908,""
-23909,""
-23910,""
-23911,""
-23912,""
-23913,""
-23914,""
-23915,""
-23916,""
-23917,""
-23918,""
-23919,""
-23920,""
-23921,""
-23922,""
+23907,"Instantly return to the starting point of the area.
+Cannot be executed while in combat.
+Shares a recast timer with all other weaponskills and spells."
+23908,"Creates a barrier around self and all party members near you that absorbs damage totaling 10% of maximum HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
+23909,"Deals lightning damage with a potency of 300 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Interrupts all nearby enemies
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage taken by enemies with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Magical Aversion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s"
+23910,"Delivers an attack with a potency of 300 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Interrupts all nearby enemies
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage taken by enemies with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Physical Aversion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s"
+23911,"Grants the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lost Reflect<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lost Reflect Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Reflects most magic attacks
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+Shares a recast timer with all other weaponskills and spells."
+23912,"Grants the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Reraise<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self or target ally.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Reraise Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants an 80% chance of automatic revival upon KO
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 180m"
+23913,"Temporarily eliminates cast time for all spells.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Magic Burst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Magic Burst Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases spell damage by 45% while increasing MP cost
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Ordained Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Raises <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Magic Burst<UIGlow>01</UIGlow><UIForeground>01</UIForeground> spell damage increase to 100% and nullifies additional MP cost
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Watcher Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lost Chainspell<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration is extended to 90s
+Can only be executed while in combat."
+23914,"Delivers a close-quarter attack with a potency of 350. Chance of instant KO when attacking from the rear, which increases the lower the target's HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Beast Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lost Font of Power<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lost Font of Power Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases damage dealt by 30% and critical hit rate by 40%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions."
+23915,"Applies a barrier to self or target player reducing physical damage taken by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30m"
+23916,"Applies a barrier to self or target player reducing magic damage taken by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30m"
+23917,"Increases maximum HP of self or target player by 30%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 600s"
+23918,"Quickly dash 10 yalms forward.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Applies <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lost Swift<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self and nearby party members
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lost Swift Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Greatly increases movement speed
+Effect cannot be stacked with other movement speed enhancing abilities.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Breathtaker Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases evasion of self and nearby party members by 15%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Watcher Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rapid Recast<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self and nearby party members
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rapid Recast Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Shortens recast time for next ability used by 25%
+Effect only applies to certain abilities.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+Cannot be executed while bound."
+23919,"Instantly cures <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weakness<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and temporarily nullifies most attacks, while increasing damage dealt by 65%. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Memorable<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be applied when effect ends.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Memorable Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases damage dealt by 65% while decreasing damage taken by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50s
+Can only be executed while in combat."
+23920,"Fully restores HP and MP while granting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-potion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-ether<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self and nearby party members.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Auto-potion Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP automatically when HP falls below 50%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>600s
+When triggered, there is a 50% chance the effect will end.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Auto-ether Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP automatically when MP falls below 20%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>600s
+When triggered, there is a 50% chance the effect will end.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Spirit of the Breathtaker Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Chance for <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-potion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Auto-ether<UIGlow>01</UIGlow><UIForeground>01</UIForeground> effect to end is reduced to 10%"
+23921,"Increases damage dealt by 15% and reduces damage taken by 5% per stack. Stacks increase with each use of a dash attack while effect is active, to a maximum of 4.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s
+Maximum stacks grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blood Rush<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Blood Rush Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases damage dealt by 60%, shortens recast times by 75%, and gradually restores HP and MP
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+Can only be executed while in combat."
+23922,"Restores own HP and MP to maximum.
+Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Resistance Potion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dynamis Dice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 23923,""
 23924,""
 23925,""
@@ -29076,8 +29157,8 @@ Effect ends upon using an action other than <UIForeground>F201F4</UIForeground><
 24616,""
 24617,""
 24618,""
-24619,"Unleash a digital barrage that damages black walls and towers."
-24620,"Unleash a digital barrage that damages white walls and towers."
+24619,"Unleash a digital barrage that damages black walls and pylons."
+24620,"Unleash a digital barrage that damages white walls and pylons."
 24621,"Swap your color."
 24622,"Swap your color."
 24623,""

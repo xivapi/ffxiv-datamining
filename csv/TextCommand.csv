@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11
-#,,,,,,Command,ShortCommand,Description,Alias,ShortAlias,,
-int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,uint16,uint32
+#,,,,,,Command,ShortCommand,Description,Alias,ShortAlias,Param,
+int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 1,1,0,0,0,0,"/record","","USAGE:
 　/record
 
@@ -4557,6 +4557,15 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
+623,2,1,2,0,0,"/wringhands","","USAGE:
+　/wringhands [subcommand]
+
+→Wring your hands obsequiously.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
 624,2,1,2,0,0,"/sweep","/broom","ALIASES:
 　/sweep, /broom
 USAGE:
@@ -4629,6 +4638,17 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　/vexed [subcommand]
 
 →Appear visibly frustrated.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+632,2,1,2,0,0,"/shush","/shh","ALIASES:
+　/shush, /shh
+USAGE:
+　/shush [subcommand]
+
+→Gesture to be quiet.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
