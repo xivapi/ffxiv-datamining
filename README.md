@@ -52,7 +52,7 @@ Getting started in FFXIV data mining is quite easy. If you enjoy digging around 
 
 - Download this repository and start looking at the files in the `/csv` folder
 - Download **SaintCoinach** and use either the `SaintCoinach.Cmd` or `Godbert` tools.
-	- Saint provides releases: https://github.com/ufx/SaintCoinach/releases
+	- Saint provides releases: https://github.com/xivapi/SaintCoinach/releases
 
 If you find a connection between files or an identification of data, throw up an issue on the repository and it will be sorted :)
 
