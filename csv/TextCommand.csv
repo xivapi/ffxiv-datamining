@@ -348,6 +348,83 @@ USAGE:
 32,1,0,0,0,0,"//setGearset","","//setGearset
 リアルイベント用コマンド。
 アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。","","",32,0
+33,3,2,7,15,0,"/petmirage","","ALIASES:
+　/petglamour, /egiglamour
+USAGE:
+　/petglamour [summon] [appearance]
+
+→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
+
+>>Summon Name:
+　Carbuncle
+　Garuda-Egi
+　Titan-Egi
+　Ifrit-Egi
+
+>>Glamour:
+　Carbuncle
+　Emerald Carbuncle
+　Topaz Carbuncle
+　Ruby Carbuncle
+　Garuda-Egi
+　Titan-Egi
+　Ifrit-Egi
+
+The glamour will be removed when no glamour is specified.
+
+>>Example:
+　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)","/petmirage","/egimirage",36,0
+34,3,2,7,2,0,"/petsize","","USAGE:
+　/petsize [summon] [size]
+
+→Alter the size of select summons. Command not applicable in PvP instances. These settings will not apply to other players.
+
+>>Egi Name:
+　Demi-Bahamut
+　Demi-Phoenix
+　Ruby Ifrit
+　Topaz Titan
+　Emerald Garuda
+　all
+
+>>Size:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>large<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Set summon size to large.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>medium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Set summon size to medium.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>small<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Set summon size to small.
+
+Toggles between small, medium, and large when no size is specified. Returns an error when attempting to toggle using “all.”
+
+>>Example:
+　/petsize ""Ruby Ifrit"" ""small""
+　(Set Ruby Ifrit's size to small.)","","",36,0
+35,3,0,0,0,0,"/ridepillion","","USAGE:
+　/ridepillion [placeholder] [subcommand]
+
+→Ride pillion on a selected party member's mount.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[seat number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Select your desired seat on the mount.
+　　Available options: 1-7
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+If the desired seat is already selected, you will be placed in the next available seat. Seat 1 will be selected if unspecified.
+
+>>Example:
+　/ridepillion <2> 1
+　(Ride in seat 1 of party member 2.)","","",36,0
+36,1,0,0,0,0,"/patchnote","","USAGE:
+　/patchnote
+
+→Opens the Patch Notes page on the official site.
+
+Launches using your default browser.","","",32,1000
 91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -726,13 +803,14 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>pvementor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>pvpmentor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>roleplay<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>returner<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 【Class & Job】
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GLA<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PGL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ROG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CNJ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>THM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ACN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CRP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LTW<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WVR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ALC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CUL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BTN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FSH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PLD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MNK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WAR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GLA<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PGL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ROG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CNJ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>THM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ACN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CRP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LTW<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WVR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ALC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CUL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BTN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FSH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PLD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MNK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WAR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SGE<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RPR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Searches all jobs and classes if none specified.
 【Level】
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -751,11 +829,16 @@ Searches all levels if none are specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Ul'dah""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Ishgard""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""The Black Shroud""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Thanalan""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""La Noscea""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Mor Dhona""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Coerthas""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Dravania""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Abalathia's Spine""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Kugane""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Gyr Abania""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Othard""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""The Crystarium""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Eulmore""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Norvrandt""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Coerthas""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""The Gold Saucer""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""The Wolves' Den""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Dravania""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Abalathia's Spine""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Idyllshire""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Kugane""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Othard""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Gyr Abania""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Rhalgr's Reach“<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Old Sharlayan""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Labyrinthos""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Radz-at-Han""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Thavnair""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Garlemald""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""The Crystarium""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Eulmore""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Norvrandt""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Elsewhere""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Searches all locations if none are specified.
 【Language】
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>JA<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DE<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -930,7 +1013,7 @@ USAGE:
 　/hold
 
 →Indicate that you are not ready when a ready check has been initiated.","/hold","/hd",36,0
-178,3,1,2,0,0,"/waymark","/wmark","ALIASES:
+178,3,2,2,2,0,"/waymark","/wmark","ALIASES:
 　/waymark, /wmark
 USAGE:
 　/wmark [subcommand] [placeholder]
@@ -964,7 +1047,7 @@ USAGE:
 You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
 
 >>Common Placeholders:
-　<t>, <target>, <1>-<8>
+　<t>, <target>, <1>-<8>, gtoff
 
 A full list of placeholders can be found on the Lodestone Play Guide.
 
@@ -976,7 +1059,11 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 
 　/waymark A <t>
 　(Places waymark A at the
-　selected target's location.)","/waymark","/wmark",32,0
+　selected target's location.)
+
+　/waymark A gtoff
+　(Places waymark A at the
+　mouse cursor's location.)","/waymark","/wmark",32,0
 179,1,0,0,0,0,"/fishguide","/fg","ALIASES:
 　/fishguide, /fg
 USAGE:
@@ -1154,7 +1241,7 @@ USAGE:
 　　icon.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>pvpaction<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　If the icon name is a
-　　pvp action, action recast
+　　PvP action, action recast
 　　time and required MP will
 　　be displayed with the icon.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>general<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -1261,8 +1348,8 @@ USAGE:
 →Sorts your inventory based on the conditions given. This command does not affect the Sort function.
 
 >>Subcommands:
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>condition [Category]
-　[Condition] [Order]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>condition [Category]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[Condition] [Order]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Sets the items to be sorted
 　　along with sorting order.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>execute [Category]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -1276,7 +1363,7 @@ USAGE:
 >>Categories:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>inventory<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>retainer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>armoury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>saddlebag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rightsaddlebag<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>oh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>head<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>body<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>hands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>waist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>oh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>head<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>body<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>hands<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>legs<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feet<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>neck<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ears<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>wrists<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>soul<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
@@ -1402,7 +1489,7 @@ USAGE:
  　<CommandIcon(20)/>, W, A, S, D, Q, E
 
 　Reset frame composition
-　<Gui(16)/>, Z","","",32,0
+　<Gui(16)/>, Z","","",160,0
 220,2,0,0,0,0,"/itemsearch","/isearch","ALIASES:
 　/itemsearch, /isearch
 USAGE:
@@ -1474,28 +1561,33 @@ USAGE:
 　/novicenetworkleave
 
 →Leave the Novice Network.","/novicenetworkleave","/nnetworkleave",189,1000
-226,3,2,7,15,0,"/egiglamour","","USAGE:
-　/egiglamour ""egi name"" ""glamour""
+226,3,2,7,15,0,"/egiglamour","","ALIASES:
+　/petglamour, /egiglamour
+USAGE:
+　/petglamour [summon] [glamour]
 
-→Alter the appearance of your egi. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
+→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
 
->>Egi Name:
-　Garuda-Egi
-　Titan-Egi
-　Ifrit-Egi
+>>Summon Name:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Glamour:
-　Emerald Carbuncle
-　Topaz Carbuncle
-　Ruby Carbuncle
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 The glamour will be removed when no glamour is specified.
 
->>Examples:
-　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
-
-　/egiglamour ""Garuda-Egi""　(Remove the glamour from Garuda-Egi.)","/egiglamour","",36,0
+>>Example:
+　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)","/petglamour","/egiglamour",36,0
 227,3,1,2,0,0,"/title","","USAGE:
 　/title [subcommand]
 
@@ -1511,20 +1603,10 @@ A random title will be set when none is specified.
 
 >>Example:
 　/title set ""The Heart of the Party""　(Set title as ""The Heart of the Party."")","","",36,1000
-228,2,1,2,0,0,"/bahamutsize","","USAGE:
+228,2,1,2,0,0,"/bahamutsize","","ALLEGED USAGE:
 　/bahamutsize [subcommand]
 
-→Changes your Demi-Bahamut display settings. These settings will not apply to other players.
-
->>Subcommands:
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>large<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set Demi-Bahamut size to large.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>medium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set Demi-Bahamut size to medium.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>small<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set Demi-Bahamut size to small.
-
-Toggles between small, medium, and large when no subcommand is specified.","","",36,0
+Though mages well versed in the art of summoning know to use /petsize, ancient texts suggest this command was once used to alter the visage of the dread summon Demi-Bahamut.","","",36,0
 229,6,3,2,2,2,"/alarm","","USAGE:
 　/alarm ""name"" [clock type] [repeat] [time] [reminder]
 
@@ -1604,13 +1686,13 @@ USAGE:
 Toggle between Looking for Party and Online when no subcommand is specified.
 
 >>Classes/Jobs:
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GLA<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PGL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ROG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CNJ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>THM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ACN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CRP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LTW<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WVR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ALC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CUL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BTN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FSH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PLD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MNK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WAR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GLA<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PGL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ROG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CNJ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>THM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ACN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CRP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ARM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GSM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LTW<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WVR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ALC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CUL<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BTN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FSH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PLD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MNK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WAR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SGE<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RPR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Multiple classes/jobs─or none at all─may be specified.","","",36,0
 234,2,1,2,0,0,"/lookingformeld","/lfm","ALIASES:
@@ -1676,15 +1758,15 @@ Toggle auto-join on and off if no subcommand is specified.","/novicenetwork","/n
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Set your status to Online.
 
 Toggle between Role-playing and Online when no subcommand is specified.","","",36,0
-251,3,1,3,0,0,"/action","/ac","ALIASES:
+251,3,2,3,2,0,"/action","/ac","ALIASES:
 　/action, /ac
 USAGE:
 　/action ""action name"" [placeholder]
 
-→Uses an action on the specified PC. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed on the specified PC. If no PC is specified, then you will enter ground targeting mode.
+→Uses an action on the specified PC. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
-　<t>, <target>, <1>-<8>
+　<t>, <target>, <1>-<8>, gtoff
 
 A full list of placeholders can be found on the Lodestone Play Guide.
 
@@ -1694,8 +1776,11 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　on current target.)
 
 　/action ""Cure"" <2>
-　(Executes cure on second
-　player in party list.)","","",36,0
+　(Executes Cure on second
+　player in party list.)
+　/action ""Earthly Star"" gtoff
+　(Executes Earthly Star at
+　mouse cursor's location.)","","",36,0
 252,2,1,2,0,0,"/battlemode","/bm","ALIASES:
 　/battlemode, /bm
 USAGE:
@@ -1813,7 +1898,7 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/focustarget <t>
 　(Makes current target
 　your focus target.)","","",36,0
-267,3,1,5,0,0,"/petaction","/pac","ALIASES:
+267,3,2,5,2,0,"/petaction","/pac","ALIASES:
 　/petaction, /pac
 USAGE:
 　/pac ""pet action name"" [placeholder]
@@ -1887,15 +1972,15 @@ Toggle between on and off when no subcommand is specified.
 
 　/aaction clear
 　(Removes all role actions.)","","",36,1000
-273,3,1,10,0,0,"/generalaction","/gaction","ALIASES:
+273,3,2,10,2,0,"/generalaction","/gaction","ALIASES:
 　/generalaction, /gaction
 USAGE:
 　/gaction ""action name"" [placeholder]
 
-→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself.
+→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
-　<t>, <target>, <1>-<8>
+　<t>, <target>, <1>-<8>, gtoff
 
 A full list of placeholders can be found on the Lodestone Play Guide.
 
@@ -1935,15 +2020,15 @@ USAGE:
 　(Sets Weapon Throw and
 　Full Swing as additional
 　PvP actions.)","","",36,1000
-277,3,1,16,0,0,"/pvpaction","/pvpac","ALIASES:
+277,3,2,16,2,0,"/pvpaction","/pvpac","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
 　/pvpaction ""action name"" [placeholder]
 
-→Uses the specified pvp action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with pvp actions you have not yet learned or when restricted by other factors. If the action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.
+→Uses the specified PvP action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with PvP actions you have not yet learned or when restricted by other factors. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
-　<t>, <target>, <1>-<8>
+　<t>, <target>, <1>-<8>, gtoff
 
 A full list of placeholders can be found on the Lodestone Play Guide.
 
@@ -1951,21 +2036,20 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　/pvpaction ""Storm's Path"" <t>
 　(Executes Storm's Path
 　on current target.)","","",4,0
-279,3,1,18,0,0,"/blueaction","","USAGE:
+279,3,2,18,2,0,"/blueaction","","USAGE:
 　/blueaction “blue mage action” [placeholder]
 
-→Uses the specified blue magic action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed on the specified target. If no target is specified, then you will enter ground targeting mode.
+→Uses the specified blue magic action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
-　<t>, <target>, <1>-<8>
+　<t>, <target>, <1>-<8>, gtoff
 
 A full list of placeholders can be found on the Lodestone Play Guide.
 
 >>Example:
 　/blueaction “Water Cannon” <t>
 　(Executes Water Cannon on
-　the specified target.)
-","","",36,0
+　the specified target.)","","",36,0
 301,2,1,2,0,0,"/autolockon","","USAGE:
 　/autolockon [subcommand]
 
@@ -2154,6 +2238,9 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>other <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Configure other NPCs' battle
 　　effects settings.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>enemypc <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Configure PvP combatants'
+　　battle effects settings.
 
 >>Settings:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>all <UIGlow>01</UIGlow><UIForeground>01</UIForeground>           Show all effects.
@@ -2207,6 +2294,8 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>StatusEffects<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sfx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Enhancements)
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Status Info (Conditional Enhancements)
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoConditionalEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sicenh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Enfeeblements)
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnfeeblements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Other)
@@ -2688,7 +2777,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 338,2,0,0,0,0,"/systemsoundsspeaker","","USAGE:
 　/systemsoundsspeaker [subcommand]
 
-→Adjust system volume settings for speakers (for PlayStation®4 and PlayStation®5).
+→Adjust system volume settings for wireless controller speakers (for PlayStation®4, PlayStation®5, and Windows®(DX11)).
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>

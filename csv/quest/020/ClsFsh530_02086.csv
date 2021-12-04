@@ -3,7 +3,7 @@
 int32,str,str
 0,"TEXT_CLSFSH530_02086_SEQ_00","Ansaulme is eager to share some exciting information with a fellow fisher."
 1,"TEXT_CLSFSH530_02086_SEQ_01","News has reached Ansaulme that a school of icepicks, fish as defiant as they are delicious, has been sighted in a secluded fishing hole in the Coerthas western highlands. Eager to show you the sights of his homeland, as well as pit his wits against such a fractious fish, he bids you meet with him by the north entrance of Falcon's Nest, whence he will guide you to the fishing hole in question."
-2,"TEXT_CLSFSH530_02086_SEQ_02","You make the appointed rendezvous with Ansaulme, only to learn that he has already been to the fishing hole and back. While awaiting your arrival, a fellow fisher named Reyna engaged him in a fish-off─a competition that he duly lost, catching only a single high-quality icepick to Reyna's two. Eager to silence the fisherwoman's taunts, he asks you to catch three high-quality icepicks to steal Reyna's thunder. The fish can be found in an unfrozen pond in the Gorgagne Holding, to the north of Falcon's Nest."
+2,"TEXT_CLSFSH530_02086_SEQ_02","You make the appointed rendezvous with Ansaulme, only to learn that he has already been to the fishing hole and back. While awaiting your arrival, a fellow fisher named Reyna engaged him in a fish-off─a competition that he duly lost, catching only a single icepick to Reyna's two. Eager to silence the fisherwoman's taunts, he asks you to catch three icepicks to steal Reyna's thunder. The fish can be found in an unfrozen pond in the Gorgagne Holding, to the north of Falcon's Nest."
 3,"TEXT_CLSFSH530_02086_SEQ_03","You dutifully deliver the trio of icepicks to Ansaulme, beating Reyna's record and confirming your place at the top table of the fishing fraternity. As a reward for your efforts, Reyna tells you a tale of a chocobo hunter who angled from a floating island, opening your eyes to a new way of fishing. The bait Ansaulme gave you as his own reward may serve you well should you wish to try your hand at cloudfishing, and pluck fish from the skies themselves.
 
 ※The next fisher quest will be available from Ansaulme upon reaching level 55."
@@ -28,7 +28,7 @@ int32,str,str
 22,"TEXT_CLSFSH530_02086_SEQ_22",""
 23,"TEXT_CLSFSH530_02086_SEQ_23",""
 24,"TEXT_CLSFSH530_02086_TODO_00","Speak with Ansaulme at Falcon's Nest."
-25,"TEXT_CLSFSH530_02086_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch icepicks <Sheet(Addon,9,0)/> in the unfrozen pond in the Gorgagne Holding.<Else/>Deliver the icepicks <Sheet(Addon,9,0)/> to Ansaulme.</If>"
+25,"TEXT_CLSFSH530_02086_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch icepicks in the unfrozen pond in the Gorgagne Holding.<Else/>Deliver the icepicks to Ansaulme.</If>"
 26,"TEXT_CLSFSH530_02086_TODO_02",""
 27,"TEXT_CLSFSH530_02086_TODO_03",""
 28,"TEXT_CLSFSH530_02086_TODO_04",""
@@ -69,8 +69,8 @@ I'm sorry we didn't wait for you, but you know how hot-headed we fishers can be.
 62,"TEXT_CLSFSH530_02086_A1_000_002","Leave it to me!"
 63,"TEXT_CLSFSH530_02086_ANSAULME_000_020","The apex of the angling art! The perfect <If(PlayerParameter(4))>piscatrix<Else/>piscator</If>! The finest fisher<If(PlayerParameter(4))>woman<Else/>man</If> in the firmament! He was talking about <Emphasis>you</Emphasis>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! If there's anyone who can wipe that smirk off Reyna's face, you can!"
 64,"TEXT_CLSFSH530_02086_ANSAULME_000_025","I knew I could rely on you! If there's anyone who can wipe that smirk off Reyna's face, you can!"
-65,"TEXT_CLSFSH530_02086_ANSAULME_000_030","The pond where you'll find the fish is off to the north. Cross the bridge, and keep going until you reach the Gorgagne Holding. You should find it easily enough─it's the only stretch of liquid water in malms. Reyna caught two high-quality icepicks, so you're going to have to catch three!"
-66,"TEXT_CLSFSH530_02086_ANSAULME_000_040","The fishing hole where we found the icepicks is up in the Gorgagne Holding─just head north, cross the Black Iron Bridge, and you'll be there. Reyna caught two high-quality icepicks, so you're going to have to catch three. I'm counting on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+65,"TEXT_CLSFSH530_02086_ANSAULME_000_030","The pond where you'll find the fish is off to the north. Cross the bridge, and keep going until you reach the Gorgagne Holding. You should find it easily enough─it's the only stretch of liquid water in malms. Reyna caught two icepicks, so you're going to have to catch three!"
+66,"TEXT_CLSFSH530_02086_ANSAULME_000_040","The fishing hole where we found the icepicks is up in the Gorgagne Holding─just head north, cross the Black Iron Bridge, and you'll be there. Reyna caught two icepicks, so you're going to have to catch three. I'm counting on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
 67,"TEXT_CLSFSH530_02086_ANSAULME_000_045","Ha ha! Three icepicks, and every one a beauty! How do you like that, Reyna? Who's laughing now!?"
 68,"TEXT_CLSFSH530_02086_REYNA_000_046","Whaaat!? I can't believe you beat my record... Alright, I'll admit it─you're a better fisher<If(PlayerParameter(4))>woman<Else/>man</If> than me...and thrice as good as Ansaulme."
 69,"TEXT_CLSFSH530_02086_REYNA_000_047","I may have lost the contest, but it's been wonderful to meet you both! I thought I was the only one who spent her days traveling the realm, taking on what jobs I can to fuel my fishing habit, but now I know there's at least two more <Emphasis>epicureans</Emphasis> in the world!"

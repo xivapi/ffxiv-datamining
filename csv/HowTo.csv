@@ -24,11 +24,11 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 20,"Shops",True,135,136,0,0,0,137,136,0,0,0,6,5
 21,"The Armoire",True,1320,1321,0,0,0,0,0,0,0,0,7,11
 22,"Moogle Delivery Service",True,40,41,0,0,0,40,42,0,0,0,2,7
-23,"Finding Mature Trees",True,890,891,892,0,0,890,893,894,0,0,13,1
-24,"Gathering",True,900,901,902,0,0,0,0,0,0,0,13,2
-25,"Gathering Interface",True,910,911,912,0,0,0,0,0,0,0,13,5
-26,"Sneak",True,920,0,0,0,0,0,0,0,0,0,13,6
-27,"Harvesting",True,930,931,0,0,0,0,0,0,0,0,13,7
+23,"Finding Mature Trees",True,890,891,892,0,0,890,893,894,0,0,13,2
+24,"Gathering",True,900,901,902,0,0,0,0,0,0,0,13,3
+25,"Gathering Interface",True,910,911,912,0,0,0,0,0,0,0,13,4
+26,"Sneak",True,920,0,0,0,0,0,0,0,0,0,13,10
+27,"Harvesting",True,930,931,0,0,0,0,0,0,0,0,13,16
 28,"Crafting Log",True,700,701,702,0,0,0,0,0,0,0,12,1
 29,"Crafting",True,710,711,712,713,0,714,711,712,713,0,12,2
 30,"Improving Item Quality",True,720,721,722,0,0,720,723,722,0,0,12,3
@@ -55,9 +55,9 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 51,"Retainers",True,840,841,0,0,0,0,0,0,0,0,6,21
 52,"Hiring a Retainer",True,850,851,0,0,0,0,0,0,0,0,6,22
 53,"A Retainer's Many Tasks",True,860,861,0,0,0,0,0,0,0,0,6,23
-54,"Gathering Point Characteristics",True,870,871,0,0,0,0,0,0,0,0,13,9
-55,"Unspoiled Locations",True,1000,1001,1002,0,0,0,0,0,0,0,13,10
-56,"Gathering HQ Items",True,880,881,882,0,0,0,0,0,0,0,13,8
+54,"Gathering Point Characteristics",True,870,871,0,0,0,0,0,0,0,0,13,22
+55,"Unspoiled Locations",True,1000,1001,1002,0,0,0,0,0,0,0,13,30
+56,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 57,"Clearing Instanced Raids",True,105,106,107,0,0,0,0,0,0,0,8,3
 58,"Material Condition",True,730,731,0,0,0,0,0,0,0,0,12,4
 59,"",False,0,0,0,0,0,0,0,0,0,0,0,0
@@ -96,7 +96,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 92,"Limit Break",True,240,241,242,243,0,0,0,0,0,0,4,13
 93,"Level Sync",True,250,251,252,0,0,0,0,0,0,0,8,4
 94,"Jobs",True,260,261,262,0,0,0,0,0,0,0,2,9
-95,"Dyeing",True,950,951,952,0,0,0,0,0,0,0,7,8
+95,"Dyeing",True,950,951,952,953,0,0,0,0,0,0,7,8
 96,"Fighting with Your Chocobo",True,360,361,0,0,0,0,0,0,0,0,4,21
 97,"Extracting Materia",True,960,961,962,0,0,0,0,0,0,0,7,21
 98,"Affixing Materia",True,970,971,0,0,0,0,0,0,0,0,7,22
@@ -106,8 +106,8 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 102,"Using Items",True,280,281,0,0,0,280,283,0,0,0,6,1
 103,"Using the Duty Finder",True,1180,1181,1182,0,0,0,0,0,0,0,8,22
 104,"Adding Members",True,1190,0,0,0,0,0,0,0,0,0,8,23
-105,"Finding Mineral Deposits",True,1020,1021,1022,0,0,0,0,0,0,0,13,3
-106,"Quarrying",True,1030,1031,0,0,0,0,0,0,0,0,13,4
+105,"Finding Mineral Deposits",True,1020,1021,1022,0,0,0,0,0,0,0,13,1
+106,"Quarrying",True,1030,1031,0,0,0,0,0,0,0,0,13,13
 107,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 108,"Companion Skills",True,380,381,382,383,0,0,0,0,0,0,4,22
 109,"Ordering Your Chocobo",True,370,371,372,0,0,0,0,0,0,0,4,23
@@ -149,7 +149,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 145,"Duties for Alliances",True,1370,1371,0,0,0,0,0,0,0,0,8,40
 146,"Weekly Reward Limits",True,1380,1381,1382,0,0,0,0,0,0,0,8,41
 147,"The Party Finder",True,1390,1391,1392,0,0,1393,1391,1392,0,0,2,5
-148,"Hidden Items",True,1400,1401,0,0,0,0,0,0,0,0,13,12
+148,"Hidden Items",True,1400,1401,0,0,0,0,0,0,0,0,13,19
 149,"Timeworn Maps",True,1410,1411,1412,0,0,0,0,0,0,0,6,31
 150,"Deciphering Timeworn Maps",True,1420,1421,0,0,0,0,0,0,0,0,6,32
 151,"Finding Treasure",True,1430,1431,1432,0,0,0,0,0,0,0,6,33
@@ -210,11 +210,11 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 206,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 207,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 208,"The Mentor System",True,2010,2011,2012,2013,0,0,0,0,0,0,2,60
-209,"Ephemeral Gathering Points",True,2020,0,0,0,0,0,0,0,0,0,13,62
-210,"Hidden Characteristics",True,2030,2031,0,0,0,0,0,0,0,0,13,63
+209,"Ephemeral Gathering Points",True,2020,0,0,0,0,0,0,0,0,0,13,49
+210,"Hidden Characteristics",True,2030,2031,0,0,0,0,0,0,0,0,13,46
 211,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-212,"Aetherial Reduction",True,2050,0,0,0,0,0,0,0,0,0,13,65
-213,"Legendary Nodes and Tomes of Regional Folklore",True,2060,2061,0,0,0,0,0,0,0,0,13,66
+212,"Aetherial Reduction",True,2050,0,0,0,0,0,0,0,0,0,13,52
+213,"Legendary Nodes and Tomes of Regional Folklore",True,2060,2061,0,0,0,0,0,0,0,0,13,40
 214,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 215,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 216,"Loot Rules",True,2090,2091,2092,2093,0,2094,2091,2092,2093,0,4,11
@@ -234,7 +234,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 230,"Flowerpots",True,2230,0,0,0,0,0,0,0,0,0,2,19
 231,"Treasure Dungeons",True,2240,2241,2242,0,0,0,0,0,0,0,6,34
 232,"Aquariums",True,2250,2251,2252,2253,0,0,0,0,0,0,2,22
-233,"Egi Glamours",True,2260,2261,2262,0,0,0,0,0,0,0,4,63
+233,"Pet Glamours",True,2260,2261,2262,0,0,0,0,0,0,0,4,63
 234,"Item Level",True,2270,2271,2272,0,0,0,0,0,0,0,4,70
 235,"Increasing Item Level",True,2280,2281,2282,0,0,0,0,0,0,0,4,71
 236,"",False,0,0,0,0,0,0,0,0,0,0,0,0
@@ -244,7 +244,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 240,"Rival Wings",True,2330,0,0,0,0,0,0,0,0,0,8,35
 241,"Spearfishing",True,2340,0,0,0,0,0,0,0,0,0,14,30
 242,"Teeming Waters",True,2350,2351,2352,0,0,0,0,0,0,0,14,31
-243,"How to Gig",True,2360,2361,0,0,0,0,0,0,0,0,14,32
+243,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 244,"Role Actions",True,2370,2371,0,0,0,2370,2371,0,0,0,4,10
 245,"Performance Actions",True,2380,0,0,0,0,0,0,0,0,0,2,45
 246,"The Fashion Report",True,2390,2391,2392,2393,0,0,0,0,0,0,7,30
@@ -276,8 +276,11 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 272,"Fashion Accessories",True,2540,2541,0,0,0,0,0,0,0,0,2,28
 273,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 274,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-275,"Gathering Collectables",True,2552,0,0,0,0,0,0,0,0,0,13,68
+275,"Gathering Collectables",True,2552,0,0,0,0,0,0,0,0,0,13,43
 276,"Trial Synthesis",True,2550,2551,0,0,0,0,0,0,0,0,12,7
-277,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-278,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-279,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+277,"Gatherer's Boon",True,2553,0,0,0,0,0,0,0,0,0,13,7
+278,"Perception Requirements",True,2554,0,0,0,0,0,0,0,0,0,13,60
+279,"Spearfishing Interface",True,2555,2556,2557,0,0,0,0,0,0,0,14,32
+280,"Fish Population (Spearfishing)",True,2558,2559,0,0,0,0,0,0,0,0,14,33
+281,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+282,"",False,0,0,0,0,0,0,0,0,0,0,0,0

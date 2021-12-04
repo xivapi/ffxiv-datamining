@@ -1,49 +1,62 @@
-﻿key,0,1,2,3,4,5,6,7,8,9
-#,Name,Color,,TextString,,,,,,
-int32,str,ContentGaugeColor,bit&01,str,sbyte,sbyte,byte,sbyte,sbyte,byte
-0,"",0,True,"",-1,1,0,-1,1,0
-1,"",0,False,"",0,0,0,0,0,0
-2,"",0,False,"",0,0,0,0,0,0
-3,"Corrupted Aether",4,True,"ContentGaugeMax_negative",80,1,2,-1,1,0
-4,"Aether Transfer",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-5,"Earthen Accord",3,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-6,"Funds",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-7,"Alluring Embrace",4,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-8,"Mana",3,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-9,"Aethertrail Attunement",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-10,"Emptiness",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-11,"Fordola's Aether",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-12,"Mateus's Aether",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-13,"Aetherial Acceleration",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-14,"Genbu's Focus",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-15,"Affinity",2,False,"",60,1,3,90,1,1
-16,"Down Gauge",3,False,"ContentGaugeMax_positive",30,-1,2,-1,1,0
-17,"Suffering",1,True,"ContentGaugeMax_negative",50,1,3,80,1,2
-18,"Monkey Magicks",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-19,"Ultima Aether",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-20,"Mana",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-21,"Mana",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-22,"Divine Epicness",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-23,"Scarlet Melody",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-24,"Midgardsormr's Aether",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-25,"Meteor Impact",3,True,"ContentGaugeMax_negative",80,1,2,-1,1,0
-26,"Dark Aether",1,False,"ContentGaugeMax_negative",50,1,3,80,1,2
-27,"Electromagnetic Induction",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-28,"Holy Blade",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-29,"Seiryu's Focus",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2
-30,"Barrier Strength",2,False,"",30,1,3,50,1,1
-31,"Aether Transfer",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-32,"Swordplay",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-33,"Titania's Power",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-34,"Immaculate Authority",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-35,"Fervor of the Ancients",1,True,"ContentGaugeMax_negative",100,1,2,-1,1,0
-36,"Charge",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-37,"Hacking",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2
-38,"Flood of Light",4,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-39,"Charge",3,True,"ContentGaugeMax_negative",80,1,2,-1,1,0
-40,"Dalamud Reborn",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-41,"Limit Break",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-42,"Mother Porxie's Magic",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
-43,"Gaia's Memories",2,False,"",35,1,3,50,1,1
-44,"Za Da's Tempering",3,False,"",-1,1,0,-1,1,0
-45,"Sovereignty ",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11
+#,,Name,Color,,TextString,,,,,,,
+int32,byte,str,ContentGaugeColor,bit&01,str,int16,sbyte,byte,int16,sbyte,byte,int16
+0,0,"",0,True,"",-1,1,0,-1,1,0,0
+1,0,"",0,False,"",0,0,0,0,0,0,0
+2,0,"",0,False,"",0,0,0,0,0,0,0
+3,0,"Corrupted Aether",4,True,"ContentGaugeMax_negative",80,1,2,-1,1,0,0
+4,0,"Aether Transfer",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+5,0,"Earthen Accord",3,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+6,0,"Funds",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+7,0,"Alluring Embrace",4,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+8,0,"Mana",3,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+9,0,"Aethertrail Attunement",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+10,0,"Emptiness",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+11,0,"Fordola's Aether",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+12,0,"Mateus's Aether",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+13,0,"Aetherial Acceleration",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+14,0,"Genbu's Focus",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+15,0,"Affinity",2,False,"",60,1,3,90,1,1,0
+16,0,"Down Gauge",3,False,"ContentGaugeMax_positive",30,-1,2,-1,1,0,0
+17,0,"Suffering",1,True,"ContentGaugeMax_negative",50,1,3,80,1,2,0
+18,0,"Monkey Magicks",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+19,0,"Ultima Aether",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+20,0,"Mana",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+21,0,"Mana",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+22,0,"Divine Epicness",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+23,0,"Scarlet Melody",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+24,0,"Midgardsormr's Aether",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+25,0,"Meteor Impact",3,True,"ContentGaugeMax_negative",80,1,2,-1,1,0,0
+26,0,"Dark Aether",1,False,"ContentGaugeMax_negative",50,1,3,80,1,2,0
+27,0,"Electromagnetic Induction",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+28,0,"Holy Blade",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+29,0,"Seiryu's Focus",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2,0
+30,0,"Barrier Strength",2,False,"",30,1,3,50,1,1,0
+31,0,"Aether Transfer",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+32,0,"Swordplay",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+33,0,"Titania's Power",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+34,0,"Immaculate Authority",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+35,0,"Fervor of the Ancients",1,True,"ContentGaugeMax_negative",100,1,2,-1,1,0,0
+36,0,"Charge",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+37,0,"Hacking",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2,0
+38,0,"Flood of Light",4,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+39,0,"Charge",3,True,"ContentGaugeMax_negative",80,1,2,-1,1,0,0
+40,0,"Dalamud Reborn",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+41,0,"Limit Break",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+42,0,"Mother Porxie's Magic",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+43,0,"Gaia's Memories",2,False,"",35,1,3,50,1,1,0
+44,0,"Za Da's Tempering",3,False,"",-1,1,0,-1,1,0,0
+45,0,"Sovereignty ",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+46,0,"Chaos",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2,0
+47,0,"Despair",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2,0
+48,0,"Summoning of the Irmin Hedge",1,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+49,0,"Threat Awareness",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2,0
+50,0,"Zodiark's Power",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+51,0,"Conviction",4,True,"ContentGaugeMax_negative",100,1,2,-1,1,0,0
+52,0,"",0,False,"",0,0,0,0,0,0,0
+53,0,"",0,False,"",0,0,0,0,0,0,0
+54,1,"",0,True,"",600,1,0,900,1,0,0
+55,0,"Profane Fafnir's Magic",2,True,"ContentGaugeMax_negative",-1,1,0,-1,1,0,0
+56,0,"",0,False,"",0,0,0,0,0,0,0
+57,0,"Venat's Aether",1,True,"ContentGaugeMax_negative",60,1,3,80,1,2,0
+58,0,"",0,False,"",0,0,0,0,0,0,0
