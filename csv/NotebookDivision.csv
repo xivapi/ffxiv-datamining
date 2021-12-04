@@ -17,8 +17,8 @@ int32,str,NotebookDivisionCategory,byte,byte,Quest,byte,bit&01,bool,bool,bool,bo
 13,"66-70",0,63,65,0,0,False,True,True,True,True,True,True,True,True
 14,"71-75",0,68,70,0,0,False,True,True,True,True,True,True,True,True
 15,"76-80",0,73,75,0,0,False,True,True,True,True,True,True,True,True
-16,"81-85",0,255,255,0,0,False,True,True,True,True,True,True,True,True
-17,"86-90",0,255,255,0,0,False,True,True,True,True,True,True,True,True
+16,"81-85",0,78,80,0,0,False,True,True,True,True,True,True,True,True
+17,"86-90",0,83,85,0,0,False,True,True,True,True,True,True,True,True
 18,"91-95",0,255,255,0,0,False,True,True,True,True,True,True,True,True
 19,"96-100",0,255,255,0,0,False,True,True,True,True,True,True,True,True
 20,"101-105",0,255,255,0,0,False,True,True,True,True,True,True,True,True
@@ -42,17 +42,17 @@ int32,str,NotebookDivisionCategory,byte,byte,Quest,byte,bit&01,bool,bool,bool,bo
 38,"191-195",0,255,255,0,0,False,True,True,True,True,True,True,True,True
 39,"196-200",0,255,255,0,0,False,True,True,True,True,True,True,True,True
 40,"[翻訳不要] レベル区分終端",0,255,255,0,0,False,True,True,True,True,True,True,True,True
-1000,"Master Recipes (1)",1,50,255,0,1,True,True,True,True,True,True,True,True,True
-1001,"Master Recipes (2)",1,50,255,0,2,True,True,True,True,True,True,True,True,True
-1002,"Master Recipes (3)",1,50,255,0,3,True,True,True,True,True,True,True,True,True
-1003,"Master Recipes (4)",1,60,255,0,4,True,True,True,True,True,True,True,True,True
+1000,"Master Recipes (1)",1,50,255,0,9,True,True,True,True,True,True,True,True,True
+1001,"Master Recipes (2)",1,50,255,0,8,True,True,True,True,True,True,True,True,True
+1002,"Master Recipes (3)",1,50,255,0,7,True,True,True,True,True,True,True,True,True
+1003,"Master Recipes (4)",1,60,255,0,6,True,True,True,True,True,True,True,True,True
 1004,"Master Recipes (5)",1,70,255,0,5,True,True,True,True,True,True,True,True,True
-1005,"Master Recipes (6)",1,70,255,0,6,True,True,True,True,True,True,True,True,True
-1006,"Master Recipes (7)",1,80,255,0,7,True,True,True,True,True,True,True,True,True
-1007,"Master Recipes (8)",1,80,255,0,8,True,True,True,True,True,True,True,True,True
-1008,"Other Master Recipes",1,15,255,0,9,True,True,True,True,True,True,True,True,True
-1009,"Housing (1)",2,12,255,0,1,False,True,True,True,True,True,True,True,True
-1010,"Housing (2)",2,12,255,0,2,False,True,True,True,True,True,True,True,True
+1005,"Master Recipes (6)",1,70,255,0,4,True,True,True,True,True,True,True,True,True
+1006,"Master Recipes (7)",1,80,255,0,3,True,True,True,True,True,True,True,True,True
+1007,"Master Recipes (8)",1,80,255,0,2,True,True,True,True,True,True,True,True,True
+1008,"Other Master Recipes",1,15,255,0,10,True,True,True,True,True,True,True,True,True
+1009,"",0,0,0,0,0,False,False,False,False,False,False,False,False,False
+1010,"",0,0,0,0,0,False,False,False,False,False,False,False,False,False
 1011,"Dyes",3,30,255,0,1,False,True,True,True,True,True,True,True,True
 1012,"",0,0,0,0,0,False,False,False,False,False,False,False,False,False
 1013,"Class Quests",4,61,255,0,1,False,True,True,True,True,True,True,True,True
@@ -74,21 +74,37 @@ int32,str,NotebookDivisionCategory,byte,byte,Quest,byte,bit&01,bool,bool,bool,bo
 1029,"Dwarf Quests",5,70,255,0,4,False,True,True,True,True,True,True,True,True
 1030,"Ehll Tou",6,55,255,0,6,False,True,True,True,True,True,True,True,True
 1031,"Restoration (3)",7,20,255,73,3,False,True,True,True,True,True,True,True,True
-1032,"50-60",8,50,255,0,1,False,True,True,True,True,True,True,True,True
-1033,"61-70",8,61,255,0,2,False,True,True,True,True,True,True,True,True
-1034,"71-80",8,70,255,0,3,False,True,True,True,True,True,True,True,True
+1032,"50-60",8,50,255,0,4,False,True,True,True,True,True,True,True,True
+1033,"61-70",8,61,255,0,3,False,True,True,True,True,True,True,True,True
+1034,"71-80",8,70,255,0,2,False,True,True,True,True,True,True,True,True
 1035,"Ornaments",3,50,255,0,3,False,False,False,False,False,False,False,True,False
 1036,"Restoration (4)",7,20,255,73,4,False,True,True,True,True,True,True,True,True
 1037,"Charlemend",6,55,255,0,7,False,True,True,True,True,True,True,True,True
 1038,"",0,0,0,0,0,False,False,False,False,False,False,False,False,False
-2000,"Coerthan Folklore",0,255,50,0,0,False,True,True,True,True,True,True,True,True
-2001,"Dravanian Folklore",0,255,50,0,0,False,True,True,True,True,True,True,True,True
-2002,"Abalathian Folklore",0,255,50,0,0,False,True,True,True,True,True,True,True,True
-2003,"Gyr Abanian Folklore",0,255,60,0,0,False,True,True,True,True,True,True,True,True
-2004,"Othardian Folklore",0,255,60,0,0,False,True,True,True,True,True,True,True,True
-2005,"Vrandtic Folklore",0,255,70,0,0,False,True,True,True,True,True,True,True,True
-2006,"Ishgard Restoration",0,255,1,74,0,False,True,True,True,True,True,True,True,True
-2007,"Skysteel Tools",0,255,80,69384,0,False,True,True,True,True,True,True,True,True
-2008,"Collectables (1)",0,255,50,67631,0,False,True,True,True,True,True,True,True,True
-2009,"Collectables (2)",0,255,70,67631,0,False,True,True,True,True,True,True,True,True
-2010,"",0,255,255,0,0,False,True,True,True,True,True,True,True,True
+1039,"81-90",8,80,255,0,1,False,True,True,True,True,True,True,True,True
+1040,"Studium Deliveries",4,80,255,69668,5,False,False,True,True,True,False,False,False,False
+1041,"Studium Deliveries",4,80,255,69675,6,False,True,False,False,False,True,True,False,False
+1042,"Studium Deliveries",4,80,255,69682,7,False,False,False,False,False,False,False,True,True
+1043,"Fixtures",2,12,255,0,1,False,True,True,True,True,True,True,True,False
+1044,"Outdoor Furnishings",2,12,255,0,2,False,True,True,True,True,True,True,True,True
+1045,"Indoor Furnishings",2,12,255,0,3,False,True,True,True,True,True,True,True,True
+1046,"Tables/Rugs",2,12,255,0,4,False,True,True,True,True,True,True,True,False
+1047,"Tabletop",2,12,255,0,5,False,True,True,True,True,True,True,True,True
+1048,"Wall-mounted",2,12,255,0,6,False,True,True,True,True,True,True,True,False
+1049,"Other",2,12,255,0,7,False,False,False,False,False,False,False,True,False
+1050,"",0,0,0,0,0,False,False,False,False,False,False,False,False,False
+2000,"Coerthas",10,255,50,0,9,False,True,True,True,True,True,True,True,True
+2001,"Dravania",10,255,50,0,8,False,True,True,True,True,True,True,True,True
+2002,"Abalathia",10,255,50,0,7,False,True,True,True,True,True,True,True,True
+2003,"Gyr Abania",10,255,60,0,6,False,True,True,True,True,True,True,True,True
+2004,"Othard",10,255,60,0,5,False,True,True,True,True,True,True,True,True
+2005,"Norvrandt",10,255,70,0,4,False,True,True,True,True,True,True,True,True
+2006,"Ishgard Restoration",11,255,1,74,1,False,True,True,True,True,True,True,True,True
+2007,"Skysteel Tools",11,255,80,69384,2,False,True,True,True,True,True,True,True,True
+2008,"50-70",9,255,50,67631,3,False,True,True,True,True,True,True,True,True
+2009,"71-80",9,255,70,67631,2,False,True,True,True,True,True,True,True,True
+2010,"Ilsabard/Northern Empty",10,255,80,0,3,False,True,True,True,True,True,True,True,True
+2011,"Sea of Stars",10,255,80,69932,2,False,True,True,True,True,True,True,True,True
+2012,"World Unsundered",10,255,80,69956,1,False,True,True,True,True,True,True,True,True
+2013,"81-90",9,255,80,67631,1,False,True,True,True,True,True,True,True,True
+2014,"",0,255,255,0,0,False,True,True,True,True,True,True,True,True
