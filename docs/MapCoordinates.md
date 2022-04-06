@@ -8,7 +8,7 @@ public static Vector2 GetPixelCoordinates( Vector2 worldXZCoordinates, Vector2 m
     return ( worldXZCoordinates + mapOffset ) / 100f * mapSizeFactor + new Vector2( 1024f );
 }
 ```
-This assumes using the normal map textures that are 2048x2048.  If you're using the small (1024x1024) map textures, divide the result by two.
+This assumes using the basic map textures that are 2048x2048.  If you're using the small (1024x1024) map textures for some reason, divide the result by two.
 
 ### Conversion of map texture pixel coordinates (such as FishingSpot coordinates) to in-game 2D map coordinates:
 ```csharp
