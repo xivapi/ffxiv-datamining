@@ -63,8 +63,8 @@ The recommended setting is High (720p).","",""
 57,0,0,0,"Obtaining the World list...","",""
 58,0,0,0,"Unable to obtain the World list.","",""
 59,0,0,0,"Obtain updated World information. This feature can only be used once every <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If>.","",""
-60,0,0,0,"This account has no available character slots. To create a new character, you must first delete an existing one by right-clicking its name and selecting the “Delete” option.","",""
-61,0,0,0,"You cannot create any more characters. To create a new character, you must first delete an existing one. This can be done by right-clicking a character's name and selecting the “Delete” option.","",""
+60,0,0,0,"This account has no available character slots. To create a new character, you must first delete an existing one by selecting the “Delete” option from the subcommand menu.","",""
+61,0,0,0,"You cannot create any more characters. To create a new character, you must first delete an existing one. This can be done by selecting the “Delete” option from the subcommand menu.","",""
 62,0,0,0,"You cannot create any more characters on this World. Please select another.","",""
 63,0,0,0,"This World is not accepting any more new characters. You may either wait for the restriction to be lifted, or you may select another World.","",""
 64,0,0,0,"You cannot select this character with your current account.","",""
@@ -104,7 +104,9 @@ You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParamet
 95,0,0,0,"Logging in with <Highlight>StringParameter(1)</Highlight>.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Your character is currently on a World Server different from your Home World. Visit an aetheryte in either Limsa Lominsa, Gridania, or Ul'dah to return.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
-96,0,0,0,"","",""
+96,0,0,0,"「<Highlight>StringParameter(1)</Highlight>」でログインします。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>現在ホームワールドとは異なるデータセンターでプレイ中です。ホームワールドに戻るには、ログイン前のキャラクターのサブコマンドから「元のデータセンターに戻る」を選んでください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 97,0,120,0,"","",""
 98,0,0,0,"","",""
 99,0,0,0,"
@@ -994,15 +996,15 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 627,0,0,0,"Revert to your character's current appearance?","",""
 628,0,0,0,"","",""
 629,0,0,0,"Log in with <Highlight>StringParameter(1)</Highlight>?
-※Cancel and access the subcommand menu to re-edit your character.","",""
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Cancel and access the subcommand menu to re-edit your character.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 630,0,0,0,"You are granted one opportunity to edit your character's race, tribe, gender, and appearance.","",""
 631,0,0,0,"Are you certain you wish to alter your character's appearance?
-※Aesthetician-exclusive hairstyles or face paint patterns will be unavailable.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Aesthetician-exclusive hairstyles or face paint patterns will be unavailable.
 ※Depending on the race selected, certain hairstyles and helmets will be unavailable. 
-※You may log in with this character as is.","",""
+※You may log in with this character as is.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 632,0,0,0,"To re-edit your character's appearance, you must first log in and remove all your equipment. Return to the login screen when ready.","",""
 633,0,0,0,"Are you satisfied with the changes?
-※Depending on your selected race, certain hairstyles may be unavailable. ","",""
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Depending on your selected race, certain hairstyles may be unavailable. <UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 634,0,0,0,"Cancel appearance customization?","",""
 635,0,0,0,"","",""
 636,0,0,0," Pin Hairstyle","",""
@@ -1539,8 +1541,8 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1113,0,0,0,"Character is currently imprisoned in the Mordion Gaol. World Visit request denied.","",""
 1114,0,0,0,"World Visit system is temporarily unavailable.","",""
 1115,0,0,0,"World Visit transfer failed. Please wait before submitting another transfer request via the subcommand.","",""
-1116,0,0,0,"World Visit transfer successful. New World login now available.","",""
-1117,0,0,0,"","",""
+1116,0,0,0,"World Visit transfer successful. Login to <Highlight>StringParameter(1)</Highlight> now available.","",""
+1117,0,0,0,"Return to Home World","",""
 1118,0,0,0,"<CommandIcon(24)/> Scroll","",""
 1119,0,0,0,"","",""
 1120,0,0,0,"","",""
@@ -1573,49 +1575,79 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1147,0,0,0,"","",""
 1148,0,0,0,"","",""
 1149,0,0,0,"","",""
-1150,0,0,0,"","",""
-1151,0,0,0,"","",""
-1152,0,0,0,"","",""
-1153,0,0,0,"","",""
-1154,0,0,0,"","",""
-1155,0,0,0,"","",""
-1156,0,0,0,"","",""
-1157,0,0,0,"","",""
-1158,0,0,0,"","",""
-1159,0,0,0,"","",""
+1150,0,0,0,"他のデータセンターへ遊びに行く","",""
+1151,0,0,0,"元のデータセンターに戻る","",""
+1152,0,0,0,"TRAVELED FROM","",""
+1153,0,0,0,"TRAVELED TO","",""
+1154,0,0,0,"<Highlight>StringParameter(1)</Highlight> [ <Highlight>StringParameter(2)</Highlight> ]","",""
+1155,0,0,0,"他のデータセンターに所属するワールドへ遊びに行きましょう！
+移動先のデータセンターでも、パーティを組んだり、募集に参加したり、買物をするなど、自由にコンテンツをプレイ可能です。
+データセンタートラベルをお楽しみください！
+
+※元のデータセンターのLS/FC等のチャットが使えなくなるなど、幾つかの制限があります。ご了承ください","",""
+1156,0,0,0,"データセンタートラベルの注意事項を確認","",""
+1157,0,0,0,"注意事項について了承しました","",""
+1158,0,0,0,"ワールドを確認","",""
+1159,0,0,0,"キャンセル","",""
 1160,0,0,0,"","",""
-1161,0,0,0,"","",""
-1162,0,0,0,"","",""
-1163,0,0,0,"","",""
-1164,0,0,0,"","",""
-1165,0,0,0,"","",""
-1166,0,0,0,"","",""
-1167,0,0,0,"","",""
-1168,0,0,0,"","",""
-1169,0,0,0,"","",""
-1170,0,0,0,"","",""
-1171,0,0,0,"","",""
-1172,0,0,0,"","",""
-1173,0,0,0,"","",""
-1174,0,0,0,"","",""
-1175,0,0,0,"","",""
-1176,0,0,0,"","",""
-1177,0,0,0,"","",""
-1178,0,0,0,"","",""
-1179,0,0,0,"","",""
-1180,0,0,0,"","",""
-1181,0,0,0,"","",""
-1182,0,0,0,"","",""
-1183,0,0,0,"","",""
-1184,0,0,0,"","",""
-1185,0,0,0,"","",""
-1186,0,0,0,"","",""
-1187,0,0,0,"","",""
-1188,0,0,0,"","",""
-1189,0,0,0,"","",""
-1190,0,0,0,"","",""
-1191,0,0,0,"","",""
-1192,0,0,0,"","",""
+1161,0,0,0,"閉じる","",""
+1162,0,0,0,"遊びに行くデータセンターとワールドを選んでください。","",""
+1163,0,0,0,"元のデータセンターのホームワールドに戻ります。","",""
+1164,0,0,0,"DATA CENTER","",""
+1165,0,0,0,"WORLD","",""
+1166,0,0,0,"決定","",""
+1167,0,0,0,"キャンセル","",""
+1168,0,0,0,"❖<Highlight>StringParameter(1)</Highlight>","",""
+1169,0,0,0,"ワールドの情報を取得しています。","",""
+1170,0,0,0,"キャラクター「<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>」を
+データセンター「<Highlight>StringParameter(3)</Highlight>」所属ワールド「<Highlight>StringParameter(4)</Highlight>」に移動させる処理を開始します。
+
+<UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>キャラクターを安全に移動させるため、
+・キャラクターの移動には、数十秒から数分の時間がかかります。
+・キャラクターの移動が完了するまでキャンセルはできなくなり
+   ます。
+・処理が完了するまで、他のキャラクターでのログインができなく
+   なります。
+ご了承ください。
+
+※混雑時には移動時間が増える可能性があります<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+1171,0,0,0,"実行","",""
+1172,0,0,0,"ひとつ前のステップ","",""
+1173,0,0,0,"データセンタートラベルにより、キャラクターを移動させています。
+処理が完了するまで、そのままお待ちください。
+※混雑時には移動時間が長くなる場合があります","",""
+1174,0,0,0,"キャラクター「<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>」の
+データセンター「<Highlight>StringParameter(3)</Highlight>」所属ワールド「<Highlight>StringParameter(4)</Highlight>」への移動が完了しました！","",""
+1175,0,0,0,"このキャラクターは現在他のデータセンターに遊びに行っています。","",""
+1176,0,0,0,"A name change is required to log in with this character. Please return to your Home World to change your name.","",""
+1177,0,0,0,"A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.","",""
+1178,0,0,0,"You may perform any necessary name changes by returning to your Home World.
+After changing names, logging in will place your character at the aetheryte of your starting nation.","",""
+1179,0,0,0,"Return to Home World request accepted. Please wait until the transfer is complete.","",""
+1180,0,0,0,"Unable to submit Return to Home World request at this time.","",""
+1181,0,0,0,"Unable to return to Home World at this time. Please wait before attempting to return again.","",""
+1182,0,0,0,"Return to Home World failed. Please wait before submitting another Return to Home World request via the subcommand.","",""
+1183,0,0,0,"Successfully returned to Home World.","",""
+1184,0,0,0,"このキャラクターでログインするには名前の変更が必要です。名前の変更のため元のデータセンターに戻ってください。","",""
+1185,0,0,0,"このキャラクターでログインするにはリテイナー名の変更が必要です。リテイナー名の変更のため元のデータセンターに戻ってください。","",""
+1186,0,0,0,"Return to Home World","",""
+1187,0,0,0,"経過時間：","",""
+1188,0,0,0,"データセンターを選択","",""
+1189,0,0,0,"ワールドを選択","",""
+1190,0,0,0,"実行","",""
+1191,0,0,0,"キャラクター「<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>」を
+元のデータセンター「<Highlight>StringParameter(3)</Highlight>」のホームワールド「<Highlight>StringParameter(4)</Highlight>」に戻す処理を開始します。
+
+<UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>キャラクターを安全に移動させるため、
+・キャラクターの移動には、数十秒から数分の時間がかかります。
+・キャラクターの移動が完了するまでキャンセルはできなくなり
+   ます。
+・処理が完了するまで、他のキャラクターでのログインができなく
+   なります。
+ご了承ください。
+
+※混雑時には移動時間が増える可能性があります<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+1192,0,0,0,"While visiting other data centers, the display of character information will be simplified.","",""
 1193,0,0,0,"","",""
 1194,0,0,0,"","",""
 1195,0,0,0,"","",""
@@ -1623,28 +1655,35 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1197,0,0,0,"","",""
 1198,0,0,0,"","",""
 1199,0,0,0,"","",""
-1200,0,0,0,"","",""
-1201,0,0,0,"","",""
-1202,0,0,0,"","",""
-1203,0,0,0,"","",""
-1204,0,0,0,"","",""
-1205,0,0,0,"","",""
-1206,0,0,0,"","",""
-1207,0,0,0,"","",""
-1208,0,0,0,"","",""
-1209,0,0,0,"","",""
-1210,0,0,0,"","",""
-1211,0,0,0,"","",""
-1212,0,0,0,"","",""
-1213,0,0,0,"","",""
-1214,0,0,0,"","",""
-1215,0,0,0,"","",""
-1216,0,0,0,"","",""
-1217,0,0,0,"","",""
-1218,0,0,0,"","",""
-1219,0,0,0,"","",""
-1220,0,0,0,"","",""
-1221,0,0,0,"","",""
+1200,0,0,0,"<If(GreaterThan(IntegerParameter(2),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>機能は現在ご利用いただけません。<If(GreaterThan(IntegerParameter(1),0))>
+[<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
+1201,0,0,0,"現在選択中のデータセンターには、同一地域内に他のデータセンターがないため、「他のデータセンターへ遊びに行く」機能はお使いいただけません。","",""
+1202,0,0,0,"前回の処理を行ってからまだ一定時間が経過していないため、<If(GreaterThan(IntegerParameter(1),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>コマンドを実行できません。","",""
+1203,0,0,0,"このキャラクターで「他のデータセンターへ遊びに行く」には、事前にサブコマンド「名前を変更」でキャラクター名を変更してください。","",""
+1204,0,0,0,"このキャラクターで「他のデータセンターへ遊びに行く」には、事前にサブコマンド「リテイナー名を変更」で雇用中のリテイナーの名前を変更してください。","",""
+1205,0,0,0,"キャラクターが現在「モルディオン監獄」にいるため、<If(GreaterThan(IntegerParameter(1),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>コマンドは制限されています。","",""
+1206,0,0,0,"キャラクターがゲームのオープニングイベントを完了していないため、「他のデータセンターへ遊びに行く」コマンドはまだ使えません。","",""
+1207,0,0,0,"「他のデータセンターへ遊びに行く」コマンドを実行するには、キャラクターがホームワールドにいる必要があります。","",""
+1208,0,0,0,"<If(GreaterThan(IntegerParameter(2),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>処理が行えませんでした。
+もう一度実行するには、しばらく待ってからサブコマンドを選択してください。<If(GreaterThan(IntegerParameter(1),0))>
+[<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
+1209,0,0,0,"現在<If(GreaterThan(IntegerParameter(2),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>サービスが一時的にご利用いただけません。<If(GreaterThan(IntegerParameter(1),0))>
+[<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
+1210,0,0,0,"<If(GreaterThan(IntegerParameter(2),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>処理が行えませんでした。<If(GreaterThan(IntegerParameter(1),0))>
+[<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
+1211,0,0,0,"キャラクターがコンテンツ中でログアウトまたは通信切断していたため、<If(GreaterThan(IntegerParameter(1),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>処理を実行できません。","",""
+1212,0,0,0,"「他のデータセンターへ遊びに行く」で選択したワールド<Highlight>StringParameter(1)</Highlight>は現在のご契約のキャラクター作成の上限に達しているため移動できません。","",""
+1213,0,0,0,"ホームワールドのあるデータセンター以外から「他のデータセンターへ遊びに行く」を実行することはできません。","",""
+1214,0,0,0,"「元のデータセンターに戻る」で指定されたワールド<Highlight>StringParameter(1)</Highlight>は、このキャラクターのホームワールドではありません。","",""
+1215,0,0,0,"「他のデータセンターへ遊びに行く」で選択したワールド<Highlight>StringParameter(1)</Highlight>は現在のデータセンター内にあります。ワールド間テレポをお使いください。","",""
+1216,0,0,0,"「他のデータセンターへ遊びに行く」で選択したワールド<Highlight>StringParameter(1)</Highlight>は他の地域にあるデータセンターのため、処理を実行できません。","",""
+1217,0,0,0,"「他のデータセンターへ遊びに行く」で選択したワールド<Highlight>StringParameter(1)</Highlight>は現在のワールドと同一です。処理を中断します。","",""
+1218,0,0,0,"<If(GreaterThan(IntegerParameter(2),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>で選択したワールド<Highlight>StringParameter(1)</Highlight>は現在移動先として選択できません。","",""
+1219,0,0,0,"ゲームデータの一部に問題が発生しており<If(GreaterThan(IntegerParameter(1),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>処理ができません。サポートデスクまでお問い合わせください。<If(GreaterThan(IntegerParameter(2),0))>
+[<Value>IntegerParameter(2)</Value>]<Else/></If>","",""
+1220,0,0,0,"サーバーへの処理のリクエストでエラーが発生しました。<If(GreaterThan(IntegerParameter(1),0))>
+[<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
+1221,0,0,0,"パーティを組んだ状態のため、<If(GreaterThan(IntegerParameter(1),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>処理を実行できません。","",""
 1222,0,0,0,"","",""
 1223,0,0,0,"","",""
 1224,0,0,0,"","",""

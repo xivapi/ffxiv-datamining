@@ -51,7 +51,7 @@ USAGE:
 USAGE:
 　/quickchat [quick chat message]
 
-→Sends a Quick Chat message. Can only be used during the Feast.
+→Sends a Quick Chat message. Can only be used during Crystalline Conflict.
 
 >>Example:
 　/quickchat Charge <t>
@@ -285,7 +285,7 @@ USAGE:
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>other<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Friends
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>friend<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Feast Opponents
+　Crystalline Conflict Opponents
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Setting Number
@@ -314,7 +314,7 @@ USAGE:
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>other<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Friends
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>friend<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Feast Opponents
+　Crystalline Conflict Opponents
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Setting Number
@@ -425,6 +425,16 @@ If the desired seat is already selected, you will be placed in the next availabl
 →Opens the Patch Notes page on the official site.
 
 Launches using your default browser.","","",32,1000
+37,1,0,0,0,0,"/portrait","","USAGE:
+　/portrait
+
+→Opens and closes the Portraits interface.","","",32,0
+38,1,0,0,0,0,"/adventurerplate","/myplate","ALIASES:
+　/adventurerplate, /myplate
+USAGE:
+　/myplate
+
+→Opens and closes your adventurer plate.","","",32,0
 91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
 　/pvpteam, /pt
 USAGE:
@@ -1957,7 +1967,7 @@ Toggle between on and off when no subcommand is specified.","","",36,0
 USAGE:
 　/aaction ""action name"" [subcommand]
 
-→Set the specified action as an additional action for your current gatherer or crafter class. This command cannot be used with Disciples of War or Magic.
+→Set the specified action as an additional action for your current gatherer class. This command cannot be used with Disciples of War or Magic.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>　Set additional action.
@@ -1971,7 +1981,7 @@ Toggle between on and off when no subcommand is specified.
 　(Sets Triangulate as an additional action.)
 
 　/aaction clear
-　(Removes all role actions.)","","",36,1000
+　(Removes all additional actions.)","","",36,1000
 273,3,2,10,2,0,"/generalaction","/gaction","ALIASES:
 　/generalaction, /gaction
 USAGE:
@@ -2320,10 +2330,6 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWStation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Rival Wings Mercenary Info
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWMerc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwmrc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　The Feast Ally Info
-　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FeastAlly<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>fally<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　The Feast Enemy Info
-　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FeastEnemy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>fenemy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Show element.
@@ -3881,7 +3887,7 @@ Both text and motion will be displayed when no subcommand is specified.","/yello
 USAGE:
 　/rightwink [subcommand]
 
-→Perform the wink emote.
+→Perform the wink emote with your right eye.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -4749,6 +4755,90 @@ USAGE:
 　/eatpizza [subcommand]
 
 →Snack on a slice of pizza.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+634,2,1,2,0,0,"/clutchhead","","USAGE:
+　/clutchhead [subcommand]
+
+→Seize your head in pain or anguish.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+636,2,1,2,0,0,"/eategg","/egg","ALIASES:
+　/eategg, /egg
+USAGE:
+　/eategg [subcommand]
+
+→Casually eat a boiled egg.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+637,2,1,2,0,0,"/content","","USAGE:
+　/content [subcommand]
+
+→Smile in warm satisfaction.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.","","",293,0
+638,2,1,2,0,0,"/sheathe","","USAGE:
+　/sheathe [subcommand]
+
+→Put away your weapon.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+639,2,1,2,0,0,"/draw","","USAGE:
+　/draw [subcommand]
+
+→Ready your weapon.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+640,2,1,2,0,0,"/tea","","USAGE:
+　/tea [subcommand]
+
+→Sip serenely from a teacup.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+641,2,1,2,0,0,"/determined","","USAGE:
+　/determined [subcommand]
+
+→Punch your own palm with readiness.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+642,2,1,2,0,0,"/showright","","USAGE:
+　/showright [subcommand]
+
+→Show off what's on your right.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+643,2,1,2,0,0,"/showleft","","USAGE:
+　/showleft [subcommand]
+
+→Show off what's on your left.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
