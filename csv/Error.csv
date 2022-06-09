@@ -99,19 +99,19 @@ Players in queue: <Format(IntegerParameter(1),FF022C)/>."
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ Please contact support if this issue is not resolved after waiting for an extended period of time.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 13219,"Unable to visit other Worlds while in a party."
 13220,"The World Visit System is temporarily unavailable."
-13221,"「他のデータセンターへ遊びに行く」処理がタイムアウトしました。"
-13222,"前回実行したデータセンタートラベルの処理中です。しばらく待ってからもう一度お試しください。
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※長時間解消しない場合にはサポートにお問い合わせください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-13223,"パーティを組んだ状態のため、「他のデータセンターへ遊びに行く」処理を実行できません。"
-13224,"現在「他のデータセンターへ遊びに行く」サービスが一時的にご利用いただけません。"
+13221,"Data Center Visit attempt timed out."
+13222,"Previously requested data center travel is still in progress. Please wait before submitting another request.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Please contact support if this issue is not resolved after waiting for an extended period of time.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+13223,"Unable to visit other data centers while in a party."
+13224,"Data Center Visit system is temporarily unavailable."
 13225,"Return to Home World attempt timed out. Returning to title screen."
 13226,"The Return to Home World option is temporarily unavailable."
-13227,"「元のデータセンターに戻る」処理がタイムアウトしました。"
-13228,"パーティを組んだ状態のため、「元のデータセンターに戻る」処理を実行できません。"
-13229,"現在「元のデータセンターに戻る」サービスが一時的にご利用いただけません。"
-13230,"サーバーへの処理のリクエストでエラーが発生しました。一度ゲームを終了します。<If(GreaterThan(IntegerParameter(1),0))>
+13227,"Return to Home Data Center attempt timed out."
+13228,"Unable to return to Home Data Center while in a party."
+13229,"Return to Home Data Center system is temporarily unavailable."
+13230,"An error occurred while contacting the server. Exiting game. <If(GreaterThan(IntegerParameter(1),0))>
 [<Value>IntegerParameter(1)</Value>]<Else/></If>"
-13231,"<If(GreaterThan(IntegerParameter(2),0))>「元のデータセンターに戻る」<Else/>「他のデータセンターへ遊びに行く」</If>処理が正常に行えませんでした。一度ゲームを終了します。<If(GreaterThan(IntegerParameter(1),0))>
+13231,"Unable to process <If(GreaterThan(IntegerParameter(2),0))>Return to Home Data Center<Else/>Data Center Visit</If> request. Exiting game. <If(GreaterThan(IntegerParameter(1),0))>
 [<Value>IntegerParameter(1)</Value>]<Else/></If>"
 13300,"An error has occurred. Canceling backup."
 13301,"An error has occurred. Canceling backup."
