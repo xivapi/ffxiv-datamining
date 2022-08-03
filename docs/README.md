@@ -16,6 +16,7 @@
   - [QuestExpReward](QuestExpReward.md)
   - [UIColor](UIColor.md)
   - [Weather](Weather.md)
+  - [Workshop Exploratory Ventures](WorkshopVentures.md)
 
 - Awsome stuff
   - [SaintCoinach](https://github.com/ufx/SaintCoinach) - The #1 datamining tool.
