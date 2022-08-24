@@ -1987,7 +1987,7 @@ Toggle between on and off when no subcommand is specified.
 USAGE:
 　/gaction ""action name"" [placeholder]
 
-→Uses the specified general action on the specified target. The target name can be omitted when the target is yourself. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>, gtoff
@@ -2020,16 +2020,8 @@ A full list of placeholders can be found on the Lodestone Play Guide.
 　(Removes Bloodbath.)","","",36,0
 276,3,0,0,0,0,"/addpvpaction","/apa","ALIASES:
 　/addpvpaction, /apa
-USAGE:
-　/apa ""action name 1"" ""action name 2""
-
-→Set the specified actions as additional PvP actions. This command requires that you specify two actions.
-
->>Example:
-　/addpvpaction ""Weapon Throw"" ""Full Swing""
-　(Sets Weapon Throw and
-　Full Swing as additional
-　PvP actions.)","","",36,1000
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.","","",36,1000
 277,3,2,16,2,0,"/pvpaction","/pvpac","ALIASES:
 　/pvpaction, /pvpac
 USAGE:
@@ -2305,7 +2297,7 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　Status Info (Enhancements)
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Conditional Enhancements)
-　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoConditionalEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sicenh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoConditional<SoftHyphen/>Enhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sicenh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Enfeeblements)
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnfeeblements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Other)
@@ -4769,6 +4761,17 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
+635,2,1,2,0,0,"/eatchocolate","/choco","ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
 636,2,1,2,0,0,"/eategg","/egg","ALIASES:
 　/eategg, /egg
 USAGE:
@@ -4842,5 +4845,38 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+646,2,1,2,0,0,"/deride","/pagaga","ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+648,2,1,2,0,0,"/eatpumpkincookie","/cookie","ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Display motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+649,2,1,2,0,0,"/spirit","","USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
