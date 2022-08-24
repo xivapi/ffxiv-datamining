@@ -86,11 +86,12 @@ Effect ends upon reuse."
 36,"Delivers an attack with a potency of 200.
 Can only be executed when target's HP is below 20%.
 If delivered as the killing blow, up to 20% of your maximum HP will be restored."
-37,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>.
+37,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>150<Else/>100</If><Else/>100</If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Heavy Swing<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>250</If><Else/>250</If><If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>250</If><Else/>250</If><If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10<Else/></If><Else/></If><Else/></If><Else/></If>"
 38,"Grants 3 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Berserk<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, each stack guaranteeing weaponskill attacks are critical and direct hits.
+Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s<If(GreaterThanOrEqualTo(PlayerParameter(72),40))><If(Equal(PlayerParameter(68),3))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration by 10s to a maximum of 60s<Else/><If(Equal(PlayerParameter(68),21))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration by 10s to a maximum of 60s<Else/></If></If><Else/></If>"
@@ -101,9 +102,9 @@ If delivered as the killing blow, up to 20% of your maximum HP will be restored.
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases HP recovery via healing actions on self by 20%
 <Else/></If><Else/></If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 41,"Delivers an attack with a potency of 110 to all nearby enemies."
-42,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>.
+42,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Maim<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>380</If><Else/>380</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>250<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 20<Else/></If><Else/></If>"
@@ -112,9 +113,9 @@ If delivered as the killing blow, up to 20% of your maximum HP will be restored.
 When a target is selected, halts their movement with chains."
 44,"Reduces damage taken by 30% and delivers an attack with a potency of 55 every time you suffer physical damage.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
-45,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>.
+45,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Maim<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>380</If><Else/>380</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>410<Else/>380</If><Else/>380</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, increasing damage dealt by 10%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration by 30s to a maximum of 60s.<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
@@ -145,6 +146,7 @@ Can only be executed while in combat."
 53,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>210<Else/>180</If><Else/>180</If>.
 <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Leaden Fist Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>310<Else/>280</If><Else/>280</If>
 <Else/></If><Else/></If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo Form Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Guarantees a critical hit
+Damage dealt is increased when under an effect that raises critical hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
 54,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>270</If><Else/>270</If>.
@@ -249,6 +251,7 @@ Effect ends upon reuse."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s (PvP 2s)"
 83,"Ensures critical damage for first weaponskill used while <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Life Surge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is active.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+Increases damage dealt when under an effect that raises critical hit rate.
 Effect cannot be applied to damage over time.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Absorbs a portion of damage dealt as HP<If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2<Else/></If><Else/></If>"
@@ -291,9 +294,7 @@ Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wheel in Mot
 92,"Delivers a jumping attack with a potency of <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>250</If><Else/>250</If>. Returns you to your original position after the attack is made.
 <If(GreaterThanOrEqualTo(PlayerParameter(72),68))><If(Equal(PlayerParameter(68),22))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dive Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
-<Else/></If><Else/></If>Cannot be executed while bound.<If(GreaterThanOrEqualTo(PlayerParameter(72),68))><If(Equal(PlayerParameter(68),22))>
-
-※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mirage Dive<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dive Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
+<Else/></If><Else/></If>Cannot be executed while bound."
 93,"Increases the damage dealt by a single <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jump<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Spineshatter Dive<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
 94,"Executes a jump to a location 15 yalms behind you.
@@ -3697,9 +3698,10 @@ Triggers the cooldown of weaponskills, mudra, and <UIForeground>F201F4</UIForegr
 2861,""
 2862,""
 2863,""
-2864,"Deploys a single-target battle turret which attacks using <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Volley Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing damage with a potency of 70.
+2864,"Deploys a single-target battle turret which attacks using <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Volley Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, dealing damage with a potency of 35.
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 75.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Battery Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
-Duration increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 15 seconds.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>9s
 Consumes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 Shuts down when time expires or upon execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rook Overdrive<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rook Overdrive<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
@@ -3736,6 +3738,7 @@ This weaponskill does not share a recast timer with any other actions."
 Can only be executed when target's HP is below 20%."
 2876,"Guarantees that next weaponskill is a critical direct hit.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s
+Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
 This action does not affect damage over time effects.<If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2<Else/></If><Else/></If>"
 2877,"Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> +40%.
@@ -4489,7 +4492,8 @@ Can only be executed while under the effect of three of the same <UIForeground>F
 ※This action cannot be assigned to a hotbar."
 3546,"Opens a chakra. Up to five chakra can be opened at once.
 Opens all five chakra when used outside of combat.
-Shares a recast timer with all other weaponskills.
+Triggers the cooldown of weaponskills upon execution.
+Conversely, execution of weaponskills triggers the cooldown of this action.
 
 ※Action changes to <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>The Forbidden Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Steel Peak<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Steel Peak<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> when all five chakra are open."
 3547,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>310</If><Else/>310</If>.
@@ -4615,7 +4619,8 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ruin III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Astral Impulse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Outburst<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Astral Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Can only be executed in combat and while Carbuncle is summoned."
+Can only be executed in combat and while Carbuncle is summoned.
+This action does not share a recast timer with any other actions."
 3582,"Deals unaspected damage to target and all enemies nearby it with a potency of 500 for the first enemy, and 60% less for all remaining enemies.
 Can only be executed while in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dreadwyrm Trance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -4809,7 +4814,7 @@ While under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIG
 3640,"Delivers a jumping attack with a potency of 150.
 <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 <Else/></If><Else/></If>Cannot be executed while bound."
-3641,"Deals unaspected damage with a potency of 150 to target and all enemies nearby it.
+3641,"Deals unaspected damage with a potency of 240 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP
@@ -8729,10 +8734,11 @@ Can only be used once per synthesis."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blade of Faith Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
+Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blade of Faith Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends upon execution of any melee weaponskill.
 
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Confiteor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blade of Faith<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blade of Faith Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
-7384,"Deals unaspected damage with a potency of <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>270<Else/>250</If><Else/>250</If>.<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Requiescat Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>540<Else/>500</If><Else/>500</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
+7384,"Deals unaspected damage with a potency of <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>270</If><Else/>270</If>.<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),68))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Requiescat Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>560<Else/>540</If><Else/>540</If><Else/></If><Else/></If><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400<Else/></If><Else/></If>"
 7385,"Increases block rate to 100% and creates a designated area in a cone behind you in which party members will only suffer 85% of all damage inflicted.
@@ -8750,6 +8756,7 @@ Dispels <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Thrill of Batt
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP and the HP of all nearby party members
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300<Else/></If><Else/></If>"
 7389,"Grants 3 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inner Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, each stack allowing the use of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fell Cleave<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Decimate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> without cost and guaranteeing they are critical and direct hits.
+Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inner Strength<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, nullifying <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and most knockback and draw-in effects
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration by 10s to a maximum of 60s<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>
@@ -8786,9 +8793,7 @@ Chance is 100% when you successfully land a weaponskill or cast a spell while un
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s"
 7399,"Delivers an attack with a potency of 200.
 <If(GreaterThanOrEqualTo(PlayerParameter(72),70))><If(Equal(PlayerParameter(68),22))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Strengthens the gaze of your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dragon Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 1
-<Else/></If><Else/></If>Can only be executed when <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dive Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-
-※This action cannot be assigned to a hotbar."
+<Else/></If><Else/></If>Can only be executed when <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dive Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 7400,"Delivers an attack to all enemies in a straight line before you with a potency of <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>360<Else/>300</If><Else/>300</If> for the first enemy, and 30% less for all remaining enemies.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Life of the Dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
@@ -8833,7 +8838,7 @@ Can only be executed when <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIG
 7410,"Delivers an attack with a potency of 180.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces the recast time of both <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gauss Round<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ricochet<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 15s
 Can only be executed when firearm is <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Overheated<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Recast timer cannot be affected by status effects or gear attributes."
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 7411,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>200<Else/>180</If><Else/>180</If>.<If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Heat Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 5<Else/></If><Else/></If>"
 7412,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>.
@@ -8848,12 +8853,12 @@ Recast timer cannot be affected by status effects or gear attributes."
 7414,"Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Heat Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50.
 Can only be executed while in combat."
 7415,"Orders the rook autoturret to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rook Overload<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rook Overload Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>320
-Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rook Overload Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>160
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 320.
 The rook autoturret shuts down after execution. If this action is not used manually while the rook autoturret is active, it will be triggered automatically immediately before shutting down.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rook Autoturret<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-7416,"Delivers an attack with a potency of 320.
-Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment.
+7416,"Delivers an attack with a potency of 160.
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 320.
 The rook autoturret shuts down after execution. If this action is not used manually while the rook autoturret is active, it will be triggered automatically immediately before shutting down.
 
 ※This action cannot be assigned to a hotbar."
@@ -8898,7 +8903,8 @@ Increases enmity in target when Demi-Bahamut is summoned.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ruin III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Astral Impulse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>Tri-disaster<Else/>Outburst</If><Else/>Outburst</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Astral Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Can only be executed in combat and while Carbuncle is summoned."
+Can only be executed in combat and while Carbuncle is summoned.
+This action does not share a recast timer with any other actions."
 7428,"Deals unaspected damage with a potency of 150.
 Will only execute while Demi-Bahamut is summoned.
 
@@ -8926,10 +8932,13 @@ Upon receiving HP recovery via <UIForeground>F201F4</UIForeground><UIGlow>F201F5
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
 7437,"Orders faerie to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fey Union<UIGlow>01</UIGlow><UIForeground>01</UIForeground> with target party member. Effect ends upon reuse.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Faerie Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fey Union Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Gradually restores HP of party member with which faerie has a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fey Union<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Faerie Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is depleted by 10 periodically while HP is restored. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fey Union<UIGlow>01</UIGlow><UIForeground>01</UIForeground> effect fades upon execution of other faerie actions or when party member moves from within 30 yalms of the faerie.
 The <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Faerie Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> increases when <If(Equal(PlayerParameter(68),28))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))>a faerie or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seraph<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>a faerie</If><Else/>a faerie</If> is summoned and an <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherflow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> action is successfully executed while in combat."
 7438,"Gradually restores HP of party member with which faerie has a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fey Union<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
-<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Faerie Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is depleted while HP is restored. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fey Union<UIGlow>01</UIGlow><UIForeground>01</UIForeground> effect fades upon execution of other faerie actions. Party member must be within 30 yalms.
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Faerie Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is depleted by 10 periodically while HP is restored. <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fey Union<UIGlow>01</UIGlow><UIForeground>01</UIForeground> effect fades upon execution of other faerie actions or when party member moves from within 30 yalms of the faerie.
 
 ※This action cannot be assigned to a hotbar."
 7439,"Deploys an <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Earthly Star<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the designated area and grants the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Earthly Dominance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -8944,7 +8953,7 @@ Waiting 10s or executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGl
 7441,""
 7442,"Deals unaspected damage with a potency of 190."
 7443,"Draws either the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lord of Crowns<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lady of Crowns<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from your divining deck.
-Arcanum effect can be triggered using the action <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crown Play<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Action changes to the drawn arcanum.
 Can only be executed while in combat."
 7444,"Deals unaspected damage with a potency of 250 to all nearby enemies.
 
@@ -9066,10 +9075,11 @@ Can only be executed while Demi-Bahamut is summoned.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Enhanced Enpi Bonus Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 260<Else/></If><Else/></If><If(GreaterThanOrEqualTo(PlayerParameter(72),52))><If(Equal(PlayerParameter(68),34))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by <If(GreaterThanOrEqualTo(PlayerParameter(72),62))><If(Equal(PlayerParameter(68),34))>10<Else/>5</If><Else/>5</If><Else/></If><Else/></If>"
 7487,"Delivers a critical hit with a potency of 640.
+Damage dealt is increased when under an effect that raises critical hit rate.
 <If(Equal(PlayerParameter(68),34))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, up to a maximum of 3
 <Else/></If><Else/></If>
 ※This action cannot be assigned to a hotbar."
-7488,"Delivers an attack with a potency of 280 to all nearby enemies.
+7488,"Delivers an attack with a potency of 300 to all nearby enemies.
 <If(Equal(PlayerParameter(68),34))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, up to a maximum of 3
 <Else/></If><Else/></If>
 ※This action cannot be assigned to a hotbar."
@@ -9082,7 +9092,7 @@ Can only be executed while Demi-Bahamut is summoned.
 ※This action cannot be assigned to a hotbar."
 7490,"Delivers an attack with a potency of 250.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Kenki Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 25"
-7491,"Delivers an attack with a potency of 110 to all nearby enemies.
+7491,"Delivers an attack with a potency of 120 to all nearby enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Kenki Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 25"
 7492,"Rushes target and delivers an attack with a potency of 100.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Kenki Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10
@@ -9097,7 +9107,7 @@ Cannot be executed while bound."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Kenki Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20"
 7495,"Converts <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Setsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Getsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ka<UIGlow>01</UIGlow><UIForeground>01</UIForeground> into <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kenki<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Each <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sen<UIGlow>01</UIGlow><UIForeground>01</UIForeground> converted increases your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10. Can only be executed if under the effect of at least one of the three statuses."
-7496,"Delivers an attack to all enemies in a straight line before you with a potency of 500 for the first enemy, and 50% less for all remaining enemies.
+7496,"Delivers an attack to all enemies in a straight line before you with a potency of 500 for the first enemy, and 25% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Kenki Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 25<If(Equal(PlayerParameter(68),34))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Hissatsu: Senei<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
 7497,"Gradually increases your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -12421,26 +12431,26 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 9968,""
 9969,""
 9970,""
-9971,"Deals damage with a potency of 7,500 to all opposing players and warmachina near point of impact. 750 when attacking a mammet or object."
+9971,"Deals damage with a potency of 30,000 to all opposing players and warmachina near point of impact. 3,000 when attacking a mammet or object."
 9972,""
-9973,"Delivers an attack with a potency of 10,000 to all opposing warmachina in a cone before you. 1,000 when attacking a player, mammet, or object."
-9974,"Delivers an attack with a potency of 12,500 to all opposing players and warmachina in a cone before you. 1,250 when attacking a mammet or object."
-9975,"Deals damage with a potency of 250,000 to all objects near point of impact. 5,000 to opposing players, warmachina, or mammets.
+9973,"Delivers an attack with a potency of 40,000 to all opposing warmachina in a cone before you. 4,000 when attacking a player, mammet, or object."
+9974,"Delivers an attack with a potency of 50,000 to all opposing players and warmachina in a cone before you. 5,000 when attacking a mammet or object."
+9975,"Deals damage with a potency of 1,000,000 to all objects near point of impact. 20,000 to opposing players, warmachina, or mammets.
 Potency decreases the greater the target's distance from point of impact, to a maximum of 30 yalms."
 9976,""
-9977,"Deals damage to all opposing players and warmachina nearby with a potency of 2,500. 250 when attacking a mammet or object.
+9977,"Deals damage to all opposing players and warmachina nearby with a potency of 10,000. 1,000 when attacking a mammet or object.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15-yalm knockback"
-9978,"Deals damage with a potency of 10,000 to all opposing players and warmachina in a cone before you. 1,000 when attacking a mammet or object.
+9978,"Deals damage with a potency of 40,000 to all opposing players and warmachina in a cone before you. 4,000 when attacking a mammet or object.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Inflicts <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Burns<UIGlow>01</UIGlow><UIForeground>01</UIForeground> on opposing players and warmachina
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2,500
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10,000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>12s"
-9979,"Deals damage with a potency of 150,000 to all objects near point of impact. 7,500 when attacking opposing players, warmachina, or mammets.
+9979,"Deals damage with a potency of 600,000 to all objects near point of impact. 30,000 when attacking opposing players, warmachina, or mammets.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 3s"
-9980,"Delivers damage with a potency of 15,000 to all opposing players and warmachina in a straight line before you. 1,500 when attacking a mammet or object.
+9980,"Delivers damage with a potency of 60,000 to all opposing players and warmachina in a straight line before you. 6,000 when attacking a mammet or object.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30-yalm knockback"
 9981,"Uses 25 units of ceruleum fuel (CE) to restore 5000 EP to currently mounted warmachina."
-9982,"Deals damage with a potency of 5,000 to all opposing players and warmachina near point of impact. 500 when attacking a mammet or object."
+9982,"Deals damage with a potency of 20,000 to all opposing players and warmachina near point of impact. 2,000 when attacking a mammet or object."
 9983,""
 9984,""
 9985,""
@@ -16078,9 +16088,9 @@ Generates significant enmity upon use."
 13422,""
 13423,"Deals earth damage with a potency of 140."
 13424,"Deals wind damage with a potency of 50.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Wind damage over time
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 18s"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Wind damage over time
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>18s"
 13425,"Restores target's HP.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 700"
 13426,"Restores MP."
@@ -18716,30 +18726,30 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while dancing.
 Only <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, step actions, role actions, Sprint, and Limit Break can be performed while dancing.
-Recast timer cannot be affected by status effects or gear attributes."
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 15998,"Begin dancing, granting yourself <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Technical Step<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while dancing.
 Only <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, step actions, role actions, Sprint, and Limit Break can be performed while dancing.
-Recast timer cannot be affected by status effects or gear attributes."
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 15999,"Perform an emboite.
 When performed together with other step actions, in sequence, the potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is increased.
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16000,"Perform an entrechat.
 When performed together with other step actions, in sequence, the potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is increased.
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16001,"Perform a jete.
 When performed together with other step actions, in sequence, the potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is increased.
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16002,"Perform a pirouette.
 When performed together with other step actions, in sequence, the potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is increased.
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16003,"Delivers an attack to all nearby enemies. Potency varies with number of successful steps, dealing full potency for the first enemy, and 75% less for all remaining enemies.
@@ -18751,7 +18761,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Standa
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>1 Step: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>2 Steps: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16004,"Delivers an attack to all nearby enemies. Potency varies with number of successful steps, dealing full potency for the first enemy, and 75% less for all remaining enemies.
@@ -18769,7 +18779,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Techni
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-<Else/></If><Else/></If>Recast timer cannot be affected by status effects or gear attributes.
+<Else/></If><Else/></If>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 <Else/></If><Else/></If>※This action cannot be assigned to a hotbar."
@@ -18937,9 +18947,9 @@ Cancels auto-attack upon execution.
 16137,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>170<Else/>150</If><Else/>150</If>."
 16138,"Increases damage dealt by 20%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s"
-16139,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>.
+16139,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>130<Else/>100</If><Else/>100</If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Keen Edge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>260<Else/>240</If><Else/>240</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>270<Else/>240</If><Else/>240</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>200<If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),52))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Creates a barrier which nullifies damage equaling HP restored
@@ -18952,9 +18962,9 @@ Effect ends upon reuse."
 16143,"Delivers a ranged attack with a potency of 150.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increased enmity"
 16144,"Delivers an attack with a potency of 250."
-16145,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>120<Else/>100</If><Else/>100</If>.
+16145,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>140<Else/>100</If><Else/>100</If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brutal Shell<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>320</If><Else/>320</If><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If><If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),30))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Adds a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cartridge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Powder Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
 16146,"Delivers an attack with a potency of 380.
 <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),70))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ready to Rip<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -19028,10 +19038,10 @@ Can only be executed when <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIG
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ready to Blast<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends upon execution of any weaponskill.
 <Else/></If><Else/></If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cartridge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1"
-16163,"Delivers an attack with a potency of 290 to all nearby enemies.
+16163,"Delivers an attack with a potency of 300 to all nearby enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cartridge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1"
 16164,"Draws aetheric energy from target, adding <If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>3<Else/>2</If><Else/>2</If> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cartridges<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Powder Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-16165,"Delivers an attack with a potency of 700."
+16165,"Delivers an attack with a potency of 720."
 16166,""
 16167,""
 16168,""
@@ -19066,7 +19076,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Standa
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>1 Step: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>2 Steps: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16192,"Delivers an attack to all nearby enemies. Potency varies with number of successful steps, dealing full potency for the first enemy, and 75% less for all remaining enemies.
@@ -19078,7 +19088,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Standa
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>1 Step: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>2 Steps: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
-Recast timer cannot be affected by status effects or gear attributes.
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 16193,"Delivers an attack to all nearby enemies. Potency varies with number of successful steps, dealing full potency for the first enemy, and 75% less for all remaining enemies.
@@ -19096,7 +19106,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Techni
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-<Else/></If><Else/></If>Recast timer cannot be affected by status effects or gear attributes.
+<Else/></If><Else/></If>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 <Else/></If><Else/></If>※This action cannot be assigned to a hotbar."
@@ -19115,7 +19125,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Techni
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-<Else/></If><Else/></If>Recast timer cannot be affected by status effects or gear attributes.
+<Else/></If><Else/></If>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 <Else/></If><Else/></If>※This action cannot be assigned to a hotbar."
@@ -19134,7 +19144,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Techni
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-<Else/></If><Else/></If>Recast timer cannot be affected by status effects or gear attributes.
+<Else/></If><Else/></If>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 <Else/></If><Else/></If>※This action cannot be assigned to a hotbar."
@@ -19153,7 +19163,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Techni
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-<Else/></If><Else/></If>Recast timer cannot be affected by status effects or gear attributes.
+<Else/></If><Else/></If>This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 <Else/></If><Else/></If>※This action cannot be assigned to a hotbar."
@@ -19445,6 +19455,7 @@ Cannot be executed while bound."
 Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration by 30s to a maximum of 60s.<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Beast Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 20<Else/></If><Else/></If>"
 16463,"Delivers a critical direct hit with a potency of 320 to all nearby enemies.
+Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces the recast time of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Infuriate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 5 seconds
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Beast Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nascent Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Effect fades upon execution.
@@ -19461,6 +19472,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <Else/></If><Else/></If>Shares a recast timer with <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloodwhetting<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raw Intuition<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raw Intuition<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>."
 16465,"Delivers a critical direct hit with a potency of 650.
+Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces the recast time of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Infuriate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 5 seconds
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Beast Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nascent Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Effect fades upon execution.
@@ -19494,10 +19506,10 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 16471,"Reduces magic damage taken by self and nearby party members by 10%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s"
 16472,"Conjure a simulacrum of your darkside to fight alongside you.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Simulacrum Attack Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>300<Else/>240</If><Else/>240</If>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>24s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Simulacrum Attack Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),88))>350<Else/>280</If><Else/>280</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Blood Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
-<If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Simulacrum is able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Shadowbringer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering an attack to all enemies in a straight line before it with a potency of 450 for the first enemy, and 25% less for all remaining enemies.<Else/></If><Else/></If>"
+<If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Simulacrum is able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Shadowbringer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, delivering an attack to all enemies in a straight line before it with a potency of 500 for the first enemy, and 25% less for all remaining enemies.<Else/></If><Else/></If>"
 16473,"Delivers an attack with a potency of 120 to all nearby enemies.
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Disciplined Fist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -19524,9 +19536,7 @@ This weaponskill does not share a recast timer with any other actions. Upon exec
 16478,"Delivers a jumping attack with a potency of 400. Returns you to your original position after the attack is made.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dive Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
-Cannot be executed while bound.
-
-※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mirage Dive<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dive Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+Cannot be executed while bound."
 16479,"Delivers an attack with a potency of 280.
 <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Sharpens the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Firstminds' Focus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 1
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Draconian Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -19554,11 +19564,12 @@ Effect cannot be stacked with <UIForeground>F201FA</UIForeground><UIGlow>F201FB<
 Triggers the cooldown of weaponskills upon execution. Cannot be executed during the cooldown of weaponskills.
 
 ※This action cannot be assigned to a hotbar."
-16485,"Delivers an attack with a potency of 280 to all nearby enemies.
+16485,"Delivers an attack with a potency of 300 to all nearby enemies.
 Triggers the cooldown of weaponskills upon execution. Cannot be executed during the cooldown of weaponskills.
 
 ※This action cannot be assigned to a hotbar."
 16486,"Delivers a critical hit with a potency of 640.
+Damage dealt is increased when under an effect that raises critical hit rate.
 Triggers the cooldown of weaponskills upon execution. Cannot be executed during the cooldown of weaponskills.
 
 ※This action cannot be assigned to a hotbar."
@@ -19583,7 +19594,7 @@ Triggers the cooldown of weaponskills, mudra, and <UIForeground>F201F4</UIForegr
 
 ※This action cannot be assigned to a hotbar."
 16492,"Deals ice damage with a potency of 1,300.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Mudra Combination: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Mudra Combination: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ten<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>→<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kassatsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Triggers the cooldown of weaponskills, mudra, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ninjutsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 
@@ -19615,7 +19626,7 @@ Potency increases up to 500 as <UIForeground>F201F4</UIForeground><UIGlow>F201F5
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blast Arrow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blast Arrow Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/></If><Else/></If>"
 16497,"Delivers an attack with a potency of 140 to all enemies in a cone before you.
 Can only be executed when firearm is <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Overheated<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Recast timer cannot be affected by status effects or gear attributes."
+This weaponskill does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 16498,"Delivers an attack with a potency of 580.
 <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/>This weaponskill does not share a recast timer with any other actions.</If><Else/>This weaponskill does not share a recast timer with any other actions.</If>"
 16499,"Delivers an attack with a potency of 50 to all enemies in a cone before you.
@@ -19627,22 +19638,24 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 20
 This weaponskill does not share a recast timer with any other actions."
 16501,"Deploys an Automaton Queen to fight at your side.
+Potency of Automaton Queen actions increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Battery Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
-Duration increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds minimum cost at time of deployment, up to a maximum of 20 seconds.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>12s
 Consumes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 Shuts down when time expires or upon execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Queen Overdrive<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Queen Overdrive<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 16502,"Orders the Automaton Queen to use <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Pile Bunker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Pile Bunker Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>680
-Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Pile Bunker Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>340
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 680.
 The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Automaton Queen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-16503,"Delivers an attack with a potency of 680.
-Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment.
+16503,"Delivers an attack with a potency of 340.
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 680.
 <If(Equal(PlayerParameter(68),31))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><Else/>The Automaton Queen shuts down after execution. </If><Else/>The Automaton Queen shuts down after execution. </If>If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
 
 ※This action cannot be assigned to a hotbar."
 16504,"Delivers an attack with a potency of 120.
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 240.
 
 ※This action cannot be assigned to a hotbar."
 16505,"Deals fire damage with a potency of 340.
@@ -20604,6 +20617,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 17204,""
 17205,""
 17206,"Rushes target and delivers an attack with a potency of 240.
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 480.
 
 ※This action cannot be assigned to a hotbar."
 17207,""
@@ -21341,8 +21355,8 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 17739,""
 17740,"Repeats the previously executed iaijutsu.
 Can only be executed immediately following <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Midare Setsugekka<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tenka Goken<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-This weaponskill does not share a recast timer with any other actions.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
+This weaponskill does not share a recast timer with any other actions."
 17741,"Delivers an attack with a potency of 800.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Damage over time
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 300
@@ -27913,15 +27927,15 @@ Potency increased to 400 when target becomes afflicted with <UIForeground>F201FA
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Inflicts <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lightheaded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
 Repeated use of this action in a short period will reduce the additional effect's duration, eventually rendering targets immune to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lightheaded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-23287,"Deals unaspected damage with a potency of 600 to all nearby enemies.
+23287,"Deals physical damage with a potency of 600 to all nearby enemies.
 Shares a recast timer with certain blue magic spells."
-23288,"Deals unaspected damage over time with a potency of 200 to all enemies in a cone before you.
+23288,"Deals physical damage over time with a potency of 200 to all enemies in a cone before you.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
-Executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground> again before its effect expires deals unaspected damage to all enemies in a cone before you with a potency of 600 for the first enemy, and 50% less for all remaining enemies.
+Executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground> again before its effect expires deals physical damage to all enemies in a cone before you with a potency of 600 for the first enemy, and 50% less for all remaining enemies.
 Effect ends upon using an action other than <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or moving (including facing a different direction)."
-23289,"Deals unaspected damage over time with a potency of 200 to all enemies in a cone before you.
+23289,"Deals physical damage over time with a potency of 200 to all enemies in a cone before you.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
-Executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground> again before its effect expires deals unaspected damage to all enemies in a cone before you with a potency of 600 for the first enemy, and 50% less for all remaining enemies.
+Executing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground> again before its effect expires deals physical damage to all enemies in a cone before you with a potency of 600 for the first enemy, and 50% less for all remaining enemies.
 Effect ends upon using an action other than <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Flurry<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or moving (including facing a different direction)."
 23290,"Deals unaspected damage to all nearby enemies with a potency of 400 for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Unaspected damage over time
@@ -28996,12 +29010,12 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP to targets under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> granted by you
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
-This action does not share a recast timer with any other actions."
+Recast timer cannot be affected by status effects or gear attributes."
 24290,"Augments certain offensive and healing magic actions.
 <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis III<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If></If><Else/><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis II<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Dosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If></If>.
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Diagnosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Diagnosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Prognosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Eukrasian Prognosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Recast timer cannot be affected by status effects or gear attributes."
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 24291,"Restores target's HP.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Erects a magicked barrier which nullifies damage equaling <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>180<Else/>125</If><Else/>125</If>％ of the amount of HP restored. When critical HP is restored, also grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Differential Diagnosis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, nullifying damage equaling <If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>180<Else/>125</If><Else/>125</If>% the amount of HP restored.
@@ -29081,7 +29095,7 @@ When the effect duration expires, a healing effect is then applied.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP to targets under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> granted by you
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
-This action does not share a recast timer with any other actions."
+Recast timer cannot be affected by status effects or gear attributes."
 24308,"Deals unaspected damage over time.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
@@ -29092,6 +29106,8 @@ This action does not share a recast timer with any other actions."
 24309,"Grants 1 stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Addersgall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 24310,"Restores own HP and the HP of all nearby party members.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Erects a magicked barrier which nullifies damage equaling the amount of HP restored
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces damage taken by self and nearby party members by 10%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s"
 24311,"Erects a magicked barrier around self and all party members near you that absorbs damage equivalent to a heal of 200 potency.
@@ -29107,7 +29123,7 @@ When the effect duration expires, a healing effect is then applied.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP to targets under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> granted by you
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
-This action does not share a recast timer with any other actions."
+Recast timer cannot be affected by status effects or gear attributes."
 24314,"Deals unaspected damage over time.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>70
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
@@ -29129,7 +29145,7 @@ This action does not share a recast timer with any other actions."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>600
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP to targets under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Kardion<UIGlow>01</UIGlow><UIForeground>01</UIForeground> granted by you
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),40))><If(GreaterThanOrEqualTo(PlayerParameter(72),85))>170<Else/>130</If><Else/>130</If>
-This action does not share a recast timer with any other actions."
+Recast timer cannot be affected by status effects or gear attributes."
 24319,""
 24320,""
 24321,""
@@ -29184,15 +29200,15 @@ This action does not share a recast timer with any other actions."
 24370,""
 24371,""
 24372,""
-24373,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>300<Else/>260</If><Else/>260</If>.<If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
+24373,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>320<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>300<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>300<Else/>260</If><Else/>260</If></If>.<If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10<Else/></If><Else/></If>"
-24374,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If>.
+24374,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>160<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Slice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>380<Else/>340</If><Else/>340</If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>380<Else/>340</If><Else/>340</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>380<Else/>340</If><Else/>340</If></If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10<Else/></If><Else/></If>"
-24375,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If>.
+24375,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>180<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>100</If><Else/>100</If></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Waxing Slice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>460<Else/>420</If><Else/>420</If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>500<Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>460<Else/>420</If><Else/>420</If></If><Else/><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>460<Else/>420</If><Else/>420</If></If><If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10<Else/></If><Else/></If>"
 24376,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>140<Else/>120</If><Else/>120</If> to all nearby enemies.<If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10<Else/></If><Else/></If>"
@@ -29213,11 +29229,13 @@ Extends duration of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>De
 24380,"Delivers an attack with a potency of 460.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
-<Else/></If><Else/></If>Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Scythe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+<Else/></If><Else/></If>Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Scythe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Recast timer cannot be affected by status effects or gear attributes."
 24381,"Delivers an attack with a potency of 180 to all nearby enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
-<Else/></If><Else/></If>Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Slice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+<Else/></If><Else/></If>Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul Slice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Recast timer cannot be affected by status effects or gear attributes."
 24382,"Delivers an attack with a potency of 400.
 460 when executed from a target's flank.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Enhanced Gibbet Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>460
@@ -29308,6 +29326,7 @@ Certain actions cannot be executed while playing host to your avatar.
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enshrouded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Recast timer cannot be affected by status effects or gear attributes.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lemure Shroud Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 24396,"Delivers an attack with a potency of 460.
@@ -29316,15 +29335,15 @@ Recast timer cannot be affected by status effects or gear attributes.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Void Shroud<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lemure Shroud<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Recast timer cannot be affected by status effects or gear attributes.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lemure Shroud Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 24397,"Delivers an attack with a potency of 200 to all enemies in a cone before you.
 <If(Equal(PlayerParameter(68),39))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Void Shroud<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enshrouded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Recast timer cannot be affected by status effects or gear attributes.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Lemure Shroud Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 24398,"Deals unaspected damage to target and all enemies nearby it with a potency of 1,000 for the first enemy, and 60% less for all remaining enemies.
@@ -30728,21 +30747,21 @@ Effect can be stacked with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Oath Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50"
 25747,"Delivers an attack to target and all enemies nearby it with a potency of 340 for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP"
-25748,"Deals unaspected damage to target and all enemies nearby it with a potency of 420 for the first enemy, and 50% less for all remaining enemies.
+25748,"Deals unaspected damage to target and all enemies nearby it with a potency of 460 for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blade of Faith Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, granted when the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends.
 
 ※This action cannot be assigned to a hotbar."
-25749,"Deals unaspected damage to target and all enemies nearby it with a potency of 500 for the first enemy, and 50% less for all remaining enemies.
+25749,"Deals unaspected damage to target and all enemies nearby it with a potency of 540 for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blade of Faith<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 
 ※This action cannot be assigned to a hotbar."
-25750,"Deals unaspected damage to target and all enemies nearby it with a potency of 580 for the first enemy, and 50% less for all remaining enemies.
+25750,"Deals unaspected damage to target and all enemies nearby it with a potency of 620 for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blade of Truth<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Damage over time
@@ -30767,6 +30786,7 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 25752,"Delivers an attack with a potency of 150 to all nearby enemies.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Upheaval<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 25753,"Jumps to the target and delivers a critical direct hit to target and all enemies nearby it with a potency of 700 for the first enemy, and 70% less for all remaining enemies.
+Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 Stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Inner Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are not consumed upon execution.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Primal Rend Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, granted by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inner Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Cannot be executed while bound."
@@ -30795,7 +30815,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 Can only be executed when <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ready to Blast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar."
-25760,"Delivers an attack to all nearby enemies with a potency of 1,200 for the first enemy, and 20% less for all remaining enemies.
+25760,"Delivers an attack to all nearby enemies with a potency of 1,200 for the first enemy, and 15% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cartridge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 This weaponskill does not share a recast timer with any other actions."
 25761,"Delivers an attack with a potency of 180.
@@ -30828,6 +30848,7 @@ Can only be executed while under the effect of three <UIForeground>F201FA</UIFor
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s"
 25767,"Delivers an attack with a potency of 110 to all nearby enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo Form Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Guarantees a critical hit
+Damage dealt is increased when under an effect that raises critical hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s"
 25768,"Deals physical fire damage to all nearby enemies with a potency of 700 for the first enemy, and 70% less for all remaining enemies.
@@ -30895,11 +30916,13 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 25780,"Delivers an attack with a potency of 100 to all nearby enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10"
 25781,"Delivers a critical hit to all enemies in a cone before you with a potency of 800 for the first enemy, and 75% less for all remaining enemies.
+Damage dealt is increased when under an effect that raises critical hit rate.
 Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, up to a maximum of 3.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ogi Namikiri Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kaeshi: Namikiri<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution."
 25782,"Delivers a critical hit to all enemies in a cone before you with a potency of 800 for the first enemy, and 75% less for all remaining enemies.
+Damage dealt is increased when under an effect that raises critical hit rate.
 Triggers the cooldown of weaponskills upon execution. Cannot be executed during the cooldown of weaponskills.
 
 ※This action cannot be assigned to a hotbar."
@@ -30919,8 +30942,8 @@ Effectiveness is determined by the number of different <UIForeground>F201FA</UIF
 Can only be executed when at least 1 coda is active."
 25786,"Delivers an attack with a potency of 150 to all enemies in a cone before you.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Heat Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10"
-25787,"Delivers an attack with a potency of 780.
-Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment.
+25787,"Delivers an attack with a potency of 390.
+Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battery Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exceeds required cost at time of deployment, up to a maximum of 780.
 The Automaton Queen shuts down after execution. If this action is not used manually while the Automaton Queen is active, it will be triggered automatically immediately before shutting down.
 
 ※This action cannot be assigned to a hotbar."
@@ -30942,12 +30965,13 @@ Can only be executed while <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Standard Finish Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage dealt by 5%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Recast timer cannot be affected by status effects or gear attributes.
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25791,"Delivers an attack to all enemies in a cone before you with a potency of 300 for the first enemy, and 50% less for all remaining enemies.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 25792,"Delivers a critical direct hit to all enemies in a straight line before you with a potency of 600 for the first enemy, and 75% less for all remaining enemies.
+Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Starfall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 25793,"Deals ice damage with a potency of 100 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(GreaterThanOrEqualTo(PlayerParameter(72),35))><If(Equal(PlayerParameter(68),7))>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and<Else/><If(Equal(PlayerParameter(68),25))>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and<Else/>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or</If></If><Else/>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or</If> removes <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -30989,19 +31013,22 @@ Can only be executed in combat and while Carbuncle is summoned."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 2 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fire Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become fire-aspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Ruby Carbuncle is present, and return once gone."
 25803,"Summons Topaz Carbuncle, and orders it to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Glittering Topaz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Glittering Topaz Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes target and deals earth damage with a potency of 400
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 4 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Earth Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Earth Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become earth-aspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Topaz Carbuncle is present, and return once gone."
 25804,"Summons Emerald Carbuncle, and orders it to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Glittering Emerald<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Glittering Emerald Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Deals wind damage with a potency of 400
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 4 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wind Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Wind Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become wind-aspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Emerald Carbuncle is present, and return once gone."
 25805,"Summons Ifrit-Egi and orders it to execute <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inferno<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Burning Strike<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Burning Strike<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Inferno Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes forward and deals fire damage to all enemies in a 5-yalm cone before it with a potency of 600 for the first enemy, and 60% less for all remaining enemies<Else/><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Burning Strike Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes forward and deals fire damage with a potency of 500</If><Else/><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Burning Strike Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes forward and deals fire damage with a potency of 500</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 2 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fire Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -31009,13 +31036,15 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends upon execution of certain summoner actions.
-<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Ifrit-Egi is present, and return once gone."
 25806,"Summons Titan-Egi and orders it to execute <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Earthen Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rock Buster<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rock Buster<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Earthen Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes forward and deals earth damage to all enemies within 5 yalms with a potency of 600 for the first enemy, and 60% less for all remaining enemies<Else/><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rock Buster Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes forward and deals earth damage with a potency of 500</If><Else/><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rock Buster Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Rushes forward and deals earth damage with a potency of 500</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 4 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Earth Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Earth Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become earth-aspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Titan-Egi is present, and return once gone."
 25807,"Summons Garuda-Egi and orders it to execute <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aerial Blast<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aerial Slash<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aerial Slash<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Aerial Blast Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Deals wind damage to target and all enemies within 5 yalms with a potency of 600 for the first enemy, and 60% less for all remaining enemies<Else/><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Aerial Slash Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Deals wind damage with a potency of 100 to target and all enemies nearby it</If><Else/><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Aerial Slash Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Deals wind damage with a potency of 100 to target and all enemies nearby it</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 4 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wind Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -31023,9 +31052,11 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends upon execution of certain summoner actions.
-<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Garuda-Egi is present, and return once gone."
 25808,"Deals fire damage with a potency of 340.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25809,"Deals earth damage with a potency of 240.
@@ -31038,6 +31069,7 @@ Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Fav
 ※This action cannot be assigned to a hotbar."
 25811,"Deals fire damage with a potency of 380.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25812,"Deals earth damage with a potency of 270.
@@ -31050,6 +31082,7 @@ Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Fav
 ※This action cannot be assigned to a hotbar."
 25814,"Deals fire damage with a potency of 160 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25815,"Deals earth damage with a potency of 110 to target and all enemies nearby it.
@@ -31062,6 +31095,7 @@ Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Fav
 ※This action cannot be assigned to a hotbar."
 25817,"Deals fire damage with a potency of 410.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25818,"Deals earth damage with a potency of 300.
@@ -31088,6 +31122,7 @@ Can only be executed while in <UIForeground>F201FA</UIForeground><UIGlow>F201FB<
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Garuda's Favor Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Slipstream<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>"
 25823,"Deals fire damage with a potency of <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>510<Else/>480</If><Else/>480</If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25824,"Deals earth damage with a potency of <If(Equal(PlayerParameter(68),27))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>330<Else/>320</If><Else/>320</If>.
@@ -31103,6 +31138,7 @@ Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan's Favo
 25826,"Deals unaspected damage with a potency of 120 to target and all enemies nearby it."
 25827,"Deals fire damage with a potency of 190 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25828,"Deals earth damage with a potency of 130 to target and all enemies nearby it.
@@ -31129,9 +31165,11 @@ Increases enmity in target when Demi-Phoenix is summoned.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ruin III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fountain of Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tri-disaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Brand of Purgatory<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Can only be executed in combat and while Carbuncle is summoned."
+Can only be executed in combat and while Carbuncle is summoned.
+This action does not share a recast timer with any other actions."
 25832,"Deals fire damage with a potency of 210 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25833,"Deals earth damage with a potency of 140 to target and all enemies nearby it.
@@ -31159,6 +31197,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar."
 25838,"Summons Ruby Ifrit and orders it to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inferno<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -31168,13 +31207,15 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Fire Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become fire-aspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends upon execution of certain summoner actions.
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Ruby Ifrit is present, and return once gone."
 25839,"Summons Topaz Titan and orders it to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Earthen Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Earthen Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Deals earth damage to target and all enemies within 5 yalms with a potency of 700 for the first enemy, and 60% less for all remaining enemies
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 4 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Earth Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Earth Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become earth-aspected
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Topaz Titan is present, and return once gone."
 25840,"Summons Emerald Garuda and orders it to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aerial Blast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Aerial Blast Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Deals wind damage to target and all enemies within 5 yalms with a potency of 700 for the first enemy, and 60% less for all remaining enemies
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 4 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wind Attunement<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -31182,7 +31223,8 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Wind Attunement Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gemshine<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Precious Brilliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> become wind-aspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda's Favor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> ends upon execution of certain summoner actions.
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Arcanum<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and Carbuncle is summoned.
+Current pet will leave the battlefield while Emerald Garuda is present, and return once gone."
 25841,"Creates a barrier around you that absorbs damage totaling 20% of your maximum HP.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 
@@ -31223,7 +31265,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 25861,"Reduces damage taken by a party member or self by 15%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8s"
 25862,"Places a healing blossom at the designated location and grants 5 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Liturgy of the Bell<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 Taking damage will expend 1 stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Liturgy of the Bell<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to heal self and all party members within a radius of 20 yalms.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 The effect of this action can only be triggered once per second.
@@ -31267,7 +31309,7 @@ Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Micr
 For the effect's duration, 50% of damage taken is compiled.
 Restores HP equal to a cure of 200 potency plus compiled damage when the effect expires or upon execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Microcosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Amount restored cannot exceed the target's maximum HP.
-This action does not share a recast timer with any other actions."
+Recast timer cannot be affected by status effects or gear attributes."
 25875,"Triggers the healing effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Macrocosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, restoring HP equal to a cure of 200 potency plus 50% of compiled damage.
 Amount restored cannot exceed the target's maximum HP."
 25876,"Delivers an attack with a potency of 200.
@@ -34755,7 +34797,7 @@ If the barrier is not absorbed and the effect duration expires, deals unaspected
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s"
 29068,""
 29069,"Grants the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hallowed Ground<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Phalanx<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to nearby party members.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Hallowed Ground Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Renders you impervious to all attacks
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Hallowed Ground Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Renders you impervious to most attacks
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Phalanx Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces damage taken by 50%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
@@ -34778,6 +34820,7 @@ This action does not share a recast timer with any other actions."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blade of Faith Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
+※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blade of Truth<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 ※This action cannot be assigned to a hotbar."
 29072,"Deals unaspected damage with a potency of 6,000 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Potency is increased by 50% when target is under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sacred Claim<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -34787,6 +34830,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2,000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 
+※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blade of Valor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution.
 ※This action cannot be assigned to a hotbar."
 29073,"Deals unaspected damage with a potency of 8,000 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Potency is increased by 50% when target is under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sacred Claim<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -34829,7 +34873,7 @@ Consumes 20% of current HP when executed.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> +75%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s"
 29082,"Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bloodwhetting<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stem the Tide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nascent Chaos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Bloodwhetting Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Converts 75% of damage dealt into HP
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Bloodwhetting Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Converts 100% of damage dealt into HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Stem the Tide Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Creates a barrier around self that absorbs damage totaling 10% of your maximum HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
@@ -34882,7 +34926,7 @@ Cannot be executed when current HP is lower than 20%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sole Survivor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Sole Survivor Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces target's HP recovered by healing actions by 20%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
-If that target should be KO'd in battle before <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sole Survivor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> expires, your HP will be restored to maximum and your MP restored by 20%, and the recast time of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Plunge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be reset.
+If that target should be KO'd in battle before <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sole Survivor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> expires, your HP and MP will be restored by 20%, and the recast time of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Plunge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will be reset.
 Cannot be executed while bound."
 29093,"Creates a barrier around self or target party member that absorbs damage equivalent to a heal of 8,000 potency.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
@@ -34906,7 +34950,7 @@ Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dark Arts<UIGlo
 Potency increases up to 20,000 as HP nears maximum.
 HP is reduced to 1 upon execution.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Undead Redemption<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Undead Redemption Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Attacks cannot reduce your HP to less than 1, and you absorb 100% of weaponskill damage dealt as HP
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Undead Redemption Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Most attacks cannot reduce your HP to less than 1, and you absorb 100% of weaponskill damage dealt as HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blackblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
@@ -35129,7 +35173,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nebula<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aurora<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar."
-29129,"Restores target's HP.
+29129,"Restores own or target party member's HP.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8,000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Regen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3,000
@@ -35247,21 +35291,21 @@ Can only be executed when the limit gauge is full.
 This action does not share a recast timer with any other actions.
 
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cure III<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cure III Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-29225,"Restores HP of target and all party members nearby target.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>12,000
+29225,"Restores HP of self or target and all party members nearby target.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>16,000
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cure III Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar."
-29226,"Deals unaspected damage with a potency of 10,000 to target and all enemies nearby it.
+29226,"Deals unaspected damage with a potency of 12,000 to target and all enemies nearby it.
 This action does not share a recast timer with any other actions."
-29227,"Creates a barrier around self or target party member that absorbs damage equivalent to a heal of 6,000 potency.
+29227,"Creates a barrier around self or target party member that absorbs damage equivalent to a heal of 8,000 potency.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Nullifies one status affliction that can be removed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Purify<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Barrier potency is doubled when successfully nullifying a status affliction."
 29228,"Forcibly transforms target into a diminutive creature, preventing them from using actions.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2s
 Has no effect on players under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Guard<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, players riding machina, or non-player combatants."
-29229,"Delivers a jumping attack that deals unaspected damage to target and all enemies nearby it with a potency of 6,000.
+29229,"Delivers a jumping attack that deals unaspected damage to target and all enemies nearby it with a potency of 8,000.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Protect<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self and nearby party members
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Protect Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces damage taken by 10%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
@@ -35285,7 +35329,7 @@ Can only be executed when the limit gauge is full."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Galvanize Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Absorbs damage equivalent to a heal of 4,000 potency
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 Barrier potency is increased by 50% when you are under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Recitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Catalyze Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage dealt by 10%
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Catalyze Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage dealt by 8%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 This action does not share a recast timer with any other actions."
@@ -35293,8 +35337,8 @@ This action does not share a recast timer with any other actions."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Biolysis Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Damage over time
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3,000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
-Potency is increased by 50% if you are under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Recitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Biolytic Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces target's damage dealt by 10%
+Potency is increased by 50% when you are under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Recitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Biolytic Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Reduces target's damage dealt by 8%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 This action does not share a recast timer with any other actions."
 29234,"Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Galvanize<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Catalyze<UIGlow>01</UIGlow><UIForeground>01</UIForeground> effects cast on self or target to nearby party members.
@@ -35377,15 +35421,16 @@ Potency increases up to 10,000 as the target's HP decreases, reaching its maximu
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Nocturnal Benefic<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to target
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Nocturnal Benefic Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Erects a magicked barrier which nullifies damage equivalent to a heal of 4,000 potency
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
+
 ※This action cannot be assigned to a hotbar."
 29248,"Deals unaspected damage with a potency of 8,000 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Afflicts first target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3s
 
 ※This action cannot be assigned to a hotbar."
-29249,"Draws the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Balance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ewer<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, or the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Spire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from your divining deck.
+29249,"Draws the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Balance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bole<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, or the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Arrow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from your divining deck.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s"
-29250,"Increases damage dealt by target and all party members nearby target by 10%.
+29250,"Increases damage dealt by self or target and all nearby party members by 10%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 
 ※This action cannot be assigned to a hotbar."
@@ -35695,10 +35740,7 @@ Ignores the effects of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drill Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 This weaponskill does not share a recast timer with any other actions.
 
-※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bioblaster Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Air Anchor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> Air Anchor Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chain Saw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Chain Saw Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-"
+※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bioblaster<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bioblaster Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 29406,"Delivers an attack with a potency of 4,000 to all enemies in a cone before you.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> +75% while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analysis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
@@ -35725,7 +35767,7 @@ This weaponskill does not share a recast timer with any other actions.
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Chain Saw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Chain Saw Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 ※This action cannot be assigned to a hotbar."
 29408,"Delivers an attack with a potency of 12,000 to all enemies in a straight line before you.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3% chance to deal damage equal to 100％ of target's HP while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analysis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3% chance to deal damage equal to 95％ of target's HP while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Analysis<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Effect cannot be triggered when targeting players riding machina or non-player combatants.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Drill Primed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
@@ -35757,7 +35799,8 @@ Potency is increased by 4,000 for each of your own attack actions you land prior
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Drill Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Potency is increased to 200%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Bioblaster Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> +75%
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Air Anchor Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Potency is increased by 50%, and the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind<UIGlow>01</UIGlow><UIForeground>01</UIForeground> effect becomes <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Chain Saw Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3% chance to deal damage equal to 100％ of target's HP"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Chain Saw Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3% chance to deal damage equal to 95％ of target's HP
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2"
 29415,"Delivers a ranged attack with a potency of 36,000.
 Can only be executed when the limit gauge is full."
 29416,"Delivers a ranged attack with a potency of 3,000.
@@ -36034,7 +36077,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 
 ※This action cannot be assigned to a hotbar."
 29490,"Delivers an attack with a potency of 8,000.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Absorbs 100% of damage dealt as HP
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Absorbs 150% of damage dealt as HP
 This weaponskill does not share a recast timer with any other actions."
 29491,"Delivers an attack with a potency of 4,000 to all enemies in a straight line before you.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Life of the Dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -36044,7 +36087,7 @@ This weaponskill does not share a recast timer with any other actions."
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Nastrond<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon execution."
 29492,"Delivers an attack with a potency of 4,000 to all enemies in a straight line before you.
 Potency increases up to 8,000 as the target's HP decreases, reaching its maximum value when the target has 50% HP or less.
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Life of the Dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Life of the Dragon<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Effect fades upon execution.
 
 ※This action cannot be assigned to a hotbar."
 29493,"Delivers a jumping attack with a potency of 5,000.
@@ -36122,7 +36165,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Meisui<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Three Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 ※All actions except <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will change to their respective ninjutsu actions while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Three Mudra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-29508,"Restores target's HP.
+29508,"Restores own or target party member's HP.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8,000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants healing over time effect to target
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>4,000
@@ -36175,18 +36218,20 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 29515,"Rushes target and delivers an attack with a potency of 10,000, incapacitating foes whose HP is below 50%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Death Link<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
-Defeating an enemy with this action, or one under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Death Link<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, will grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing a second execution of this action.
+Defeating an enemy with this action, or one under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Death Link<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, will grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Unsealed Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing a second execution of this action.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8s
+Effect duration is reduced by 1s each time it is applied to a target with a minimum duration of 4s.
 Effect cannot be applied to players riding machina or non-player combatants.
-Can only be executed when the limit gauge is full or while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed when the limit gauge is full or while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Unsealed Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Cannot be executed while bound."
 29516,"Rushes target and delivers an attack with a potency of 10,000, incapacitating foes whose HP is below 50%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Afflicts target with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Death Link<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
-Defeating an enemy with this action, or one under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Death Link<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, will grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing a second execution of this action.
+Defeating an enemy with this action, or one under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Death Link<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, will grant <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Unsealed Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing a second execution of this action.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8s
+Effect duration is reduced by 1s each time it is applied to a target with a minimum duration of 4s.
 Effect cannot be applied to players riding machina or non-player combatants.
-Can only be executed when the limit gauge is full or while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Seiton Tenchu Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed when the limit gauge is full or while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Unsealed Seiton Tenchu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Cannot be executed while bound."
 29517,""
 29518,""
@@ -36370,6 +36415,7 @@ Grants the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crest of Ti
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Hysteria Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Afflicted enemies are unable to act of their own free will
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2s
 Can only be executed when the limit gauge is full.
+Has no effect on players riding machina or non-player combatants.
 
 ※Action changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Communio<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enshrouded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Grim Swathe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lemure's Slice<UIGlow>01</UIGlow><UIForeground>01</UIForeground> while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enshrouded<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -36397,6 +36443,7 @@ Requires the execution of a weaponskill, <UIForeground>F201F4</UIForeground><UIG
 29565,""
 29566,"Delivers an attack with a potency of 8,000.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Soul Sacrifice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, up to a maximum of 8
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 This weaponskill does not share a recast timer with any other actions."
 29567,""
 29568,""
@@ -36404,7 +36451,7 @@ This weaponskill does not share a recast timer with any other actions."
 29570,""
 29571,""
 29572,""
-29573,""
+29573,"Instantly return to this sanctuary's cozy cabin."
 29574,""
 29575,""
 29576,""
@@ -36559,7 +36606,7 @@ This action does not share a recast timer with any other actions."
 29658,""
 29659,"Afflicts target and all enemies nearby it with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Half-asleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3s
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Half-asleep Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground>Targets succumb to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when effect expires
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Half-asleep Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Targets succumb to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when effect expires
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>3s
 Targets struck while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will take additional damage with a potency of 8,000, and effect will dissipate."
 29660,"Rush to a targeted enemy's or party member's location.
@@ -36615,9 +36662,10 @@ This action does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar."
 29669,"Deals wind damage with a potency of 8,000 to target and all enemies nearby it.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Creates a windstorm centered around target, dealing damage to any enemies who enter
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Creates a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Slipstream<UIGlow>01</UIGlow><UIForeground>01</UIForeground> centered around target, dealing damage to any enemies who enter
 Enemies standing within 5 yalms of the storm's eye take no damage.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>4,000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases movement speed of party members standing in the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Slipstream<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 This action does not share a recast timer with any other actions."
 29670,"Creates a barrier around self or target party member that reduces damage taken by 20% and absorbs damage equivalent to a heal of 10,000 potency.
@@ -36860,7 +36908,8 @@ Cannot be executed while bound.
 29717,""
 29718,""
 29719,""
-29720,""
+29720,"プレゼントの幻影を見せる。
+※演出用アクション。特に効果は発生しない。"
 29721,""
 29722,""
 29723,""
@@ -36938,8 +36987,14 @@ Cannot be executed when current HP falls below 20%.
 29780,""
 29781,""
 29782,""
-29783,""
-29784,""
+29783,"Reduces damage taken by self or target and nearby party members by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
+
+※This action cannot be assigned to a hotbar."
+29784,"Reduces weaponskill cast time and recast time, as well as spell cast time and recast time for self or target and nearby party members by 10%, while also increasing movement speed.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
+
+※This action cannot be assigned to a hotbar."
 29785,""
 29786,""
 29787,""
@@ -38023,8 +38078,10 @@ Cannot be executed when current HP falls below 20%.
 30865,""
 30866,""
 30867,""
-30868,""
-30869,""
+30868,"Dance to and fro with your umbrella, ella, ella.
+※Has no effect in battle."
+30869,"Put out your hand and check for rain.
+※Has no effect in battle."
 30870,""
 30871,""
 30872,""
@@ -38242,3 +38299,348 @@ Cannot be executed when current HP falls below 20%.
 31084,""
 31085,""
 31086,""
+31087,""
+31088,""
+31089,""
+31090,""
+31091,""
+31092,""
+31093,""
+31094,""
+31095,""
+31096,""
+31097,""
+31098,""
+31099,""
+31100,""
+31101,""
+31102,""
+31103,""
+31104,""
+31105,""
+31106,""
+31107,""
+31108,""
+31109,""
+31110,""
+31111,""
+31112,""
+31113,""
+31114,""
+31115,""
+31116,""
+31117,""
+31118,""
+31119,""
+31120,""
+31121,""
+31122,""
+31123,""
+31124,""
+31125,""
+31126,""
+31127,""
+31128,""
+31129,""
+31130,""
+31131,""
+31132,""
+31133,""
+31134,""
+31135,""
+31136,""
+31137,""
+31138,""
+31139,""
+31140,""
+31141,""
+31142,""
+31143,""
+31144,""
+31145,""
+31146,""
+31147,""
+31148,""
+31149,""
+31150,""
+31151,""
+31152,""
+31153,""
+31154,""
+31155,""
+31156,""
+31157,""
+31158,""
+31159,""
+31160,""
+31161,""
+31162,""
+31163,""
+31164,""
+31165,""
+31166,""
+31167,""
+31168,""
+31169,""
+31170,""
+31171,""
+31172,""
+31173,""
+31174,""
+31175,""
+31176,""
+31177,""
+31178,""
+31179,""
+31180,""
+31181,""
+31182,""
+31183,""
+31184,""
+31185,""
+31186,""
+31187,""
+31188,""
+31189,""
+31190,""
+31191,""
+31192,""
+31193,""
+31194,""
+31195,""
+31196,""
+31197,""
+31198,""
+31199,""
+31200,""
+31201,""
+31202,""
+31203,""
+31204,""
+31205,""
+31206,""
+31207,""
+31208,""
+31209,""
+31210,""
+31211,""
+31212,""
+31213,""
+31214,""
+31215,""
+31216,""
+31217,""
+31218,""
+31219,""
+31220,""
+31221,""
+31222,""
+31223,""
+31224,""
+31225,""
+31226,""
+31227,""
+31228,""
+31229,""
+31230,""
+31231,""
+31232,""
+31233,""
+31234,""
+31235,""
+31236,""
+31237,""
+31238,""
+31239,""
+31240,""
+31241,""
+31242,""
+31243,""
+31244,""
+31245,""
+31246,""
+31247,""
+31248,""
+31249,""
+31250,""
+31251,""
+31252,""
+31253,""
+31254,""
+31255,""
+31256,""
+31257,""
+31258,""
+31259,""
+31260,""
+31261,""
+31262,""
+31263,""
+31264,""
+31265,""
+31266,""
+31267,""
+31268,""
+31269,""
+31270,""
+31271,""
+31272,""
+31273,""
+31274,""
+31275,""
+31276,""
+31277,""
+31278,""
+31279,""
+31280,""
+31281,""
+31282,""
+31283,""
+31284,""
+31285,""
+31286,""
+31287,""
+31288,""
+31289,""
+31290,""
+31291,""
+31292,""
+31293,""
+31294,""
+31295,""
+31296,""
+31297,""
+31298,""
+31299,""
+31300,""
+31301,""
+31302,""
+31303,""
+31304,""
+31305,""
+31306,""
+31307,""
+31308,""
+31309,""
+31310,""
+31311,""
+31312,""
+31313,""
+31314,"Movement speed is increased.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s"
+31315,""
+31316,""
+31317,""
+31318,""
+31319,""
+31320,""
+31321,""
+31322,""
+31323,""
+31324,""
+31325,""
+31326,""
+31327,""
+31328,""
+31329,""
+31330,""
+31331,""
+31332,""
+31333,""
+31334,""
+31335,""
+31336,""
+31337,""
+31338,""
+31339,""
+31340,""
+31341,""
+31342,""
+31343,""
+31344,""
+31345,""
+31346,""
+31347,""
+31348,""
+31349,""
+31350,""
+31351,""
+31352,""
+31353,""
+31354,""
+31355,""
+31356,""
+31357,""
+31358,""
+31359,""
+31360,""
+31361,""
+31362,""
+31363,""
+31364,""
+31365,""
+31366,""
+31367,""
+31368,""
+31369,""
+31370,""
+31371,""
+31372,""
+31373,""
+31374,""
+31375,""
+31376,""
+31377,""
+31378,""
+31379,""
+31380,""
+31381,""
+31382,""
+31383,""
+31384,""
+31385,""
+31386,""
+31387,""
+31388,""
+31389,""
+31390,""
+31391,""
+31392,""
+31393,""
+31394,""
+31395,""
+31396,""
+31397,""
+31398,""
+31399,""
+31400,""
+31401,""
+31402,""
+31403,""
+31404,""
+31405,""
+31406,""
+31407,""
+31408,""
+31409,""
+31410,""
+31411,""
+31412,""
+31413,""
+31414,""
+31415,""
+31416,""
+31417,""
+31418,""
+31419,""
+31420,""
+31421,""
+31422,""
+31423,""
+31424,""
+31425,""
+31426,""
+31427,""
+31428,""
+31429,""
+31430,""

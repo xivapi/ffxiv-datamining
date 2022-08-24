@@ -6,8 +6,7 @@ int32,str,str
 2,"TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL","Cancel"
 3,"TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2","<If(GreaterThan(IntegerParameter(1),0))><Gui(69)/><Else/></If>Cancel"
 4,"TEXT_COMARMGCARMYOFFICER_00342_RANK_UP","Squadron Rank <Value>IntegerParameter(1)</Value>"
-5,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_WAITING","Current deployment: None
-"
+5,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_WAITING","Current deployment: None"
 6,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION","Current deployment: <Sheet(GcArmyExpedition,IntegerParameter(1),8)/>
 Mission status: <If(GreaterThan(IntegerParameter(2),0))>Complete<Else/><If(GreaterThan(IntegerParameter(4),0))><Value>IntegerParameter(4)</Value> <If(Equal(IntegerParameter(4),1))>hour<Else/>hours</If><If(GreaterThan(IntegerParameter(3),0))><If(GreaterThan(IntegerParameter(4),0))> and <Else/></If><Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If><Else/>Less than 1 minute</If></If> remaining</If> [<Time(IntegerParameter(5))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]"
 7,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING","（★未使用／削除予定★）"

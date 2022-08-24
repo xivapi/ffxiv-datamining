@@ -23,9 +23,11 @@ The recommended setting is High (720p).","",""
 17,0,0,0,"Select the features you wish to change from the list on the right. Those marked with ??? have yet to be confirmed.","",""
 18,0,0,0,"Select the features you wish to change from the list on the right and press OK to reflect the changes.","",""
 19,0,0,0,"Select the features you wish to change from the list on the right. Those marked with ??? have yet to be confirmed.","",""
-20,0,0,0,"Delete","",""
-21,0,0,0,"Delete <Highlight>StringParameter(1)</Highlight>?","",""
-22,0,0,0,"Yes.","",""
+20,0,0,0,"Delete Character","",""
+21,0,0,0,"Delete <Highlight>StringParameter(1)</Highlight>?
+Please be aware that if you delete this character, you will lose all items, gil, and hired retainers in their possession.
+If this character is master of a free company for which there is no eligible successor, the free company will be automatically disbanded, causing company estates and all items within the company chest to be deleted as well.","",""
+22,0,0,0,"I understand and wish to delete this character.","",""
 23,0,0,0,"Change Name","",""
 24,0,0,0,"Change Retainer Name","",""
 25,0,0,0,"Log in with <Highlight>StringParameter(1)</Highlight>?","",""
@@ -1610,7 +1612,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1173,0,0,0,"Your character is traveling between data centers. Please wait until they have reached their destination.
 ※Travel times may take longer during periods of server congestion.","",""
 1174,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> has arrived safely on <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center!","",""
-1175,0,0,0,"This character is currently visiting another data center.","",""
+1175,0,0,0,"This character is currently visiting the <Highlight>StringParameter(1)</Highlight> data center.","",""
 1176,0,0,0,"A name change is required to log in with this character. Please return to your Home World to change your name.","",""
 1177,0,0,0,"A name change for your retainer is required to log in with this character. Please return to your Home World to change your retainer's name.","",""
 1178,0,0,0,"You may perform any necessary name changes by returning to your Home World.
@@ -1671,7 +1673,7 @@ After changing names, logging in will place your character at the aetheryte of y
 1220,0,0,0,"An error occurred while contacting the server. <If(GreaterThan(IntegerParameter(1),0))>
 [<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
 1221,0,0,0,"Unable to <If(GreaterThan(IntegerParameter(1),0))>return to Home Data Center<Else/>visit another data center</If> while in a party.","",""
-1222,0,0,0,"","",""
+1222,0,0,0,"More Subcommands","",""
 1223,0,0,0,"","",""
 1224,0,0,0,"","",""
 1225,0,0,0,"","",""
@@ -2250,7 +2252,7 @@ After changing names, logging in will place your character at the aetheryte of y
 1798,0,0,0,"","",""
 1799,0,0,0,"","",""
 1800,0,0,0,"Are you certain you wish to leave the queue?","",""
-1801,0,0,0,"","",""
+1801,0,0,0,"You were automatically logged out due to extended inactivity.","",""
 1802,0,0,0,"","",""
 1803,0,0,0,"","",""
 1804,0,0,0,"","",""
