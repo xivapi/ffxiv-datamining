@@ -1,0 +1,42 @@
+﻿key,0,1,2,3,4,5,6,7,8
+#,Name,Description,,Action,UnlockLink,Recast,UIPriority,Icon,
+int32,str,str,byte,Action,uint16,byte,byte,Image,bit&01
+0,"","",0,0,0,0,0,0,False
+1,"Auto-attack","Automatically attack your current target at a set interval determined by your weapon.",1,0,0,0,7,101,False
+2,"Jump","Make a spring from the ground or other base by flexion and sudden muscular extension of the legs.",1,0,0,0,11,102,False
+3,"Limit Break","Spend energy stored in your party's limit gauge to execute a powerful battle technique. The technique executed is determined by the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>role<UIGlow>01</UIGlow><UIForeground>01</UIForeground> of the party member who initiates it.
+Tank: Increase party defense (area of effect: 50y).
+Melee: Single-target attack.
+Ranged: Attack to all targets in a straight line (range: 30y).
+Caster: Area of effect attack (8y/10y/15y).
+Healer: HP restoration. Raise at level 3 (area of effect: 50y).
+※If target is not weakened at the time of Raise, the target will be restored in a non-weakened state. If target is weakened at the time of Raise, the weakness counter will reset.",1,0,0,0,4,103,False
+4,"Sprint","Increases movement speed.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s (20s when not in combat)
+※Unavailable in PvP.",1,3,0,56,1,104,False
+5,"Desynthesis","Break down an item into one or more of its original materials.",2,0,95,0,51,120,True
+6,"Repair","Use dark matter to mend damaged equipment.",2,0,0,0,31,106,True
+7,"Teleport","Reduce your body to aether and instantly teleport to any aetheryte to which you have previously attuned. Requires a gil fee paid upon arrival at your destination.",1,5,4,0,2,111,True
+8,"Return","Instantly return to your current home point.",1,6,1,57,3,112,True
+9,"Mount Roulette","Summon a mount at random.",1,0,0,0,21,118,False
+10,"Minion Roulette","Summon a minion at random.",1,0,0,0,23,117,False
+11,"","",0,0,0,0,0,0,False
+12,"Materia Melding","Affix materia onto weapons and armor.",2,0,11,0,33,107,True
+13,"Advanced Materia Melding","Affix materia onto weapons and armor. Can also affix materia to items with no slots remaining, but success is not guaranteed.",2,0,12,0,34,108,True
+14,"Materia Extraction","Extract the aether from an item with a complete spiritbond, and then recrystallize the resulting residue into a concentrated substance known as “materia.”",2,0,13,0,32,109,True
+15,"Dye","Use dye to color gear.",2,0,14,0,41,110,True
+16,"Target Forward","Toggle forward through nearby enemies.",3,0,0,0,12,113,True
+17,"Target Back","Toggle back through nearby enemies.",3,0,0,0,13,114,True
+18,"Set Down","Put down the object you are carrying.",1,0,0,0,0,61112,False
+19,"Decipher","Remove a timeworn map from its glass prison and unlock its mysteries.",1,1694,25,0,61,115,False
+20,"Dig","Locate a buried treasure coffer within a 30-yalm radius and extract it from the ground.",1,1695,25,67,62,116,False
+21,"Aetherial Reduction","Break down an item to its aetherial components.",2,0,256,0,52,121,True
+22,"Cast Glamour","Use a glamour prism to cast an optical illusion upon a piece of equipment, thus altering its appearance.",2,0,15,0,42,119,True
+23,"Dismount","Dismount your current mount.",1,0,0,0,0,61128,False
+24,"Flying Mount Roulette","Summon a random flying mount.",1,0,0,0,0,122,False
+25,"Glamour Plate","Create a set of multiple glamours to apply at once.",2,0,15,0,43,125,True
+26,"Duty Action I","Execute a duty-specific action.",1,0,0,0,5,123,False
+27,"Duty Action II","Execute a duty-specific action.",1,0,0,0,6,124,False
+28,"Put Away","Stow personal effects.",1,0,0,0,0,61188,False
+29,"Sort Pet Hotbar","Change the order of hotbar-assigned actions.",1,0,0,0,0,61192,True
+30,"Sort Pet Hotbar","Change the order of hotbar-assigned actions.",1,0,0,0,0,61192,True

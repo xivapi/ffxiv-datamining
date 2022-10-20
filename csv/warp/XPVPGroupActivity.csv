@@ -1,0 +1,18 @@
+﻿key,0,1,2,3
+#,,,,
+int32,str,int32,int32,byte
+0,"",0,0,0
+1,"The PvP team “<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>” is formed.",0,1,0
+2,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>join<Else/>joins</If> the team.",2,0,0
+3,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>leave<Else/>leaves</If> the team.",2,0,0
+4,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>leave<Else/>leaves</If> the team.",2,0,0
+5,"",2,0,0
+6,"",2,0,0
+7,"The team name is changed to “<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>.”",0,1,0
+8,"The team crest is updated.",0,0,0
+9,"The team is promoted to rank “<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>.”",0,3,0
+10,"The team is demoted to rank “<If(PlayerParameter(8))><Sheet(ObjStr,PlayerParameter(8),0)/><Else/>ObjectParameter(3)</If>.”",0,3,0
+11,"A new season begins.",0,0,0
+12,"Leader not found. <Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>are<Else/>is</If> promoted to team leader.",2,0,0
+13,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>are<Else/>is</If> promoted to subleader.",2,0,0
+14,"<Clickable(<If(Equal(ObjectParameter(1),ObjectParameter(2)))>you<Else/><If(PlayerParameter(7))><SheetEn(ObjStr,2,PlayerParameter(7),1,1)/><Else/>ObjectParameter(2)</If></If>)/> <If(Equal(ObjectParameter(1),ObjectParameter(2)))>are<Else/>is</If> promoted to team leader.",2,0,0
