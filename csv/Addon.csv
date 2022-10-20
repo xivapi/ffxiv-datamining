@@ -11686,6 +11686,7 @@ Depending on the congestion of the target World, travel may take several minutes
 　・Free companies cannot be formed or joined
 　・Free company information cannot be viewed
 　・Company credits cannot be earned
+　・Should the company master spend 35 consecutive days away from their Home World, their rank will be automatically transferred to another member
 
 <If(GreaterThan(IntegerParameter(1),0))><UIForeground>F20202</UIForeground>Cross-world Linkshells<UIForeground>01</UIForeground>
 　・Cross-world linkshells cannot be created
@@ -13871,7 +13872,7 @@ Do you still wish to proceed?"
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Animals will disappear from the pasture once released.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15229,"Release Animal"
 15230,"Animal cannot be released because it is either under care, or has leavings available to retrieve."
-15231,"The captured <Highlight>StringParameter(1)</Highlight> will be released. Proceed?"
+15231,"The captured <SheetEn(BNpcName,3,IntegerParameter(1),1,1)/> will be released. Proceed?"
 15232,"Specify a nickname."
 15233,"The following punctuation marks are allowed:
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>'<Indent/>. , : ; ! ? & - _<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -13913,7 +13914,9 @@ Do you still wish to proceed?"
 15262,"Review"
 15263,"Exports"
 15264,""
-15265,"Materials"
+15265,"<Clickable(<SheetEn(BNpcName,2,IntegerParameter(1),1,1)/>)/> will be released from the pasture. Proceed?
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Animals will disappear from the pasture once released.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 15266,"Rare Materials"
 15267,"Produce"
 15268,"Leavings"
@@ -14047,6 +14050,65 @@ Release Area: <Highlight>StringParameter(2)</Highlight>
 15386,"Delete the selected preset?"
 15387,"Catalyst"
 15388,"<If(GreaterThan(IntegerParameter(1),0))>Completion Time: <Time(IntegerParameter(1))/><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> <If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If><Else/>Expansion Complete</If>"
+15400,"V&C Dungeon Finder"
+15401,""
+15402,"Variant Dungeons"
+15403,"Criterion Dungeons"
+15404,"Recruit Members"
+15405,"View Parties That Meet Conditions"
+15406,"<If(GreaterThan(IntegerParameter(1),0))>Avg. Item Level: <Value>IntegerParameter(1)</Value>～
+<Else/></If><If(GreaterThan(IntegerParameter(2),0))>Item Level Sync: <Value>IntegerParameter(2)</Value>
+<Else/></If><If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Job Change Permitted</Case><Case(2)>Job Change Prohibited
+Resurrection Restricted</Case><Case(3)>Job Change Prohibited
+Resurrection Restricted
+Instance Reset on Party KO</Case></Switch><Else/></If>"
+15407,"Following requirements not met:"
+15408,"Variant Actions
+(Select two)"
+15409,"Variant Actions
+(Preset only)"
+15410,"Variant Actions
+(Unavailable)"
+15411,"Can only be set by Disciples of War or Magic
+(excluding limited jobs)"
+15412,"Set Actions"
+15413,"Variant Actions"
+15414,""
+15415,"Action I"
+15416,"Action II"
+15417,"Confirm"
+15418,"Cancel"
+15419,"Enable party matching."
+15420,"Party matching will be used to form four-player parties."
+15421,"Please form a party of four players."
+15422,"Register for Duty"
+15423,"Entries <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
+15424,"This entry has yet to be written..."
+15425,"Blank Page"
+15426,"Read entry."
+15427,"Display V&C Dungeon Finder help."
+15428,"V&C Dungeon Finder Help"
+15429,""
+15430,"Enter dungeon as a solo player?"
+15431,""
+15432,""
+15433,""
+15434,""
+15435,""
+15436,""
+15437,""
+15438,""
+15439,""
+15440,""
+15441,""
+15442,""
+15443,""
+15444,""
+15445,""
+15446,""
+15447,""
+15448,""
+15449,""
 101000,"<CommandIcon(10)/> Subcommands"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Select"

@@ -19437,7 +19437,7 @@ Damage bonus of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Techni
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Requiescat Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400<Else/></If><Else/></If>"
-16459,"Deals unaspected damage with a potency of 1000 to target and all enemies nearby it.
+16459,"Deals unaspected damage with a potency of 1,000 to target and all enemies nearby it.
 <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores own HP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Requiescat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Effect fades upon execution."
@@ -34182,7 +34182,7 @@ Unable to cast if bound."
 28507,""
 28508,""
 28509,"Places a healing blossom at the designated location and grants 5 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Liturgy of the Bell<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 Taking damage will expend 1 stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Liturgy of the Bell<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to heal self and all party members within a radius of 20 yalms.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 The effect of this action can only be triggered once per second.
@@ -34786,7 +34786,8 @@ Cannot be executed while bound.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Take all damage intended for the targeted party member
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10s
 Can only be executed when member is closer than 10 yalms.
-Cannot be executed while bound."
+Cannot be executed while bound.
+Has no effect on targets interacting with an object."
 29067,"Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Holy Sheltron<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Knight's Resolve<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Holy Sheltron Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Creates a barrier around self that absorbs damage equivalent to a heal of 12,000 potency
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
@@ -36906,10 +36907,11 @@ Cannot be executed while bound.
 29715,""
 29716,"対象の被ダメージを10％増加させ、ガードの被ダメージ軽減効果を25％減少させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
 29717,""
-29718,""
-29719,""
-29720,"プレゼントの幻影を見せる。
-※演出用アクション。特に効果は発生しない。"
+29718,"Unleashes an energetic blast of lightning."
+29719,"Unleashes an energetic blast of lightning.
+※Has no effect in battle."
+29720,"Weave a miraculous illusion of seasonal whimsy.
+※Has no effect in battle."
 29721,""
 29722,""
 29723,""
@@ -36918,12 +36920,28 @@ Cannot be executed while bound.
 29726,""
 29727,""
 29728,""
-29729,""
-29730,""
-29731,""
-29732,""
-29733,""
-29734,""
+29729,"Restores target's HP.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 14,000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Regen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4,200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Cure potency is doubled when target is under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rehabilitation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+This action is not affected by attributes."
+29730,"Places yourself at the top of nearby enemies' enmity list and increases enmity generation.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 4s
+Additionally, significantly increases enmity generation.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
+29731,"Resurrects target to a weakened state.
+This action does not share a recast timer with any other actions. Furthermore, the recast timer cannot be affected by other actions."
+29732,"Deals damage over time to target and all enemies nearby it.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 2,040
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+This action is not affected by attributes or enhancing effects."
+29733,"Reduces damage taken by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 60s
+Creates a barrier around self that absorbs damage equivalent to a heal of 21,000 potency."
+29734,"Resurrects target to a weakened state. Resurrection restrictions do not apply."
 29735,"Reduces damage taken by 90% and grants immunity to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Heavy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Bind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Silence<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Half-asleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sleep<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Deep Freeze<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and knockback and draw-in effects.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5s
 Movement speed is reduced by 50% for the duration of this effect.
@@ -37895,7 +37913,7 @@ Cannot be executed when current HP falls below 20%.
 30682,""
 30683,""
 30684,""
-30685,""
+30685,"AA"
 30686,""
 30687,""
 30688,""
@@ -38321,7 +38339,7 @@ Cannot be executed when current HP falls below 20%.
 31106,""
 31107,""
 31108,""
-31109,""
+31109,"AA"
 31110,""
 31111,""
 31112,""
