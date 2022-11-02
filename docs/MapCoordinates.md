@@ -1,56 +1,31 @@
 # Conversions to 2D Map
 
-
-### Version of an in-game coordinate to a 2D map coordinate
-
-**By: Clorifex, slightly modified by: Vekien - In C#**
-https://github.com/xivapi/xivapi-mappy/blob/master/Mappy/Helpers/MapHelper.cs
+### Conversion of world coordinates to a 2D map texture coordinate (in pixels):
 
 ```csharp
-public static double ConvertCoordinatesIntoMapPosition(double scale, double offset, double val)
+public static Vector2 GetPixelCoordinates( Vector2 worldXZCoordinates, Vector2 mapOffset, UInt16 mapSizeFactor )
 {
-    val = Math.Round(val, 3);
-    val = (val + offset) * scale;
-    return ((41.0 / scale) * ((val + 1024.0) / 2048.0)) + 1;
+    return ( worldXZCoordinates + mapOffset ) / 100f * mapSizeFactor + new Vector2( 1024f );
 }
 ```
+This assumes using the basic map textures that are 2048x2048.  If you're using the small (1024x1024) map textures for some reason, divide the result by two.
 
-### Conversion of a Level coordinate into a 2D map coordinate:
-
-**By: Clorifex - In C#**
-
+### Conversion of map texture pixel coordinates (such as FishingSpot coordinates) to in-game 2D map coordinates:
 ```csharp
-private double ToMapCoordinate(double val) {
-	var c = Map.SizeFactor / 100.0;
-
-	val *= c;
-	return ((41.0 / c) * ((val + 1024.0) / 2048.0)) + 1;
-}
-```
-
-### Conversion of a FishingSpot coordinate into a 2D map coordinate:
-
-**By: Clorifex - In C#**
-
-```csharp
-private double ToMapCoordinate(double val) {
-	var c = TerritoryType.Map.SizeFactor / 100.0;
-
-	return (41.0 / c) * ((val) / 2048.0) + 1;
-}
-```
-
-### Conversion of MapPosition to Pixels
-
-**By: Vekien - In C#**
-https://github.com/xivapi/xivapi-mappy/blob/master/Mappy/Helpers/MapHelper.cs
-
-```csharp
-public static int ConvertMapPositionToPixels(double value, double scale)
+public static Vector2 GetGameMapCoordinates( Vector2 mapPixelCoordinates, UInt16 mapSizeFactor )
 {
-    return Convert.ToInt32((value - 1) * 50 * scale);
+    return mapPixelCoordinates / mapSizeFactor * 2f + Vector2.One;
 }
 ```
+
+### Conversion of world coordinates to in-game 2D map coordinates (using the above functions):
+```csharp
+public static Vector2 WorldToMapCoordinates( Vector2 worldXZCoordinates, Vector2 mapOffset, UInt16 mapSizeFactor )
+{
+    return GetGameMapCoordinates( GetPixelCoordinates( worldXZCoordinates, mapOffset, mapSizeFactor ), mapSizeFactor );
+}
+```
+The game *truncates* the result of this to the first decimal place.
 
 ----
 
