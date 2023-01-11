@@ -1,0 +1,90 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"",""
+1,"",""
+2,"",""
+3,"",""
+4,"Reduced Difficulty","The following changes have been made to Savage duties:
+　・Progress records are no longer kept for individual duties.
+　・The “Progress” option is no longer available.
+　・Two treasure coffers will always appear upon completion.
+　・The weekly limit on items from treasure coffers has been removed.
+"
+5,"Matching Requirements","<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Matching Requirements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The “Duty Complete” option is only available for previously completed duties.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Purpose<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The “Duty Completion” option is only available if the weekly reward has yet to be obtained.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Practice Phase Selection<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+This is only available when “Purpose” is set to “Practice.” Practice phase selection does not entail the actual skipping of phases.
+
+If the registration period overlaps with the weekly reset, registration will be canceled."
+6,"Progress Record","Progress within the latest Savage duty is periodically saved, allowing for continuation from that point.
+
+Progress is reset every week on <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time).
+"
+7,"Reward Restrictions","Players will not earn rewards for completing phases they have already completed.
+
+Coffer quantity will vary based on the total number of party members who have already completed the duty.
+　・1-4 players = 1 coffer 
+　・5 or more = No coffers
+ 
+When participating in the latest Savage raid with a matched party, duty rewards may change based on the progress level of matched members."
+8,"Job Distribution","Parties formed with the Raid Finder do not allow for two members with the same job unless certain conditions are met.
+　・DPS jobs are divided into the following roles:
+    Melee DPS, Physical Ranged DPS, Magical Ranged DPS, and Not Specified.
+
+When the raid purpose is set as “Duty Completion,” the jobs that fall into Not Specified must be different from the ones which fill the other three DPS roles. When the raid purpose is set to “Practice,” overlapping between specified and unspecified DPS jobs is allowed.
+
+Parties formed with the Raid Finder do not allow for more than one pure healer and one barrier healer.
+　・Pure Healers: White Mage, Astrologian
+　※Emphasis on actions that directly heal self and party members.
+　・Barrier Healers: Scholar, Sage
+　※Emphasis on actions that negate damage via magicked barriers."
+9,"Party Progress","A party's starting point in the duty is determined by the leader's past progress. As long as all other conditions are met, players who have not progressed as far as the leader may still participate in the duty.
+
+If a party member's progress was less than that of the leader, then progress will be updated to match.
+If a party member's progress is beyond that of the leader, that member's progress will remain unaffected.
+"
+10,"Duty Finder","The <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Finder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> allows you to challenge dungeons and other duties with a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>party of other players<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. You may access it via <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu, or by choosing the appropriate option at the entrance of any duty."
+11,"Duty Registration","Enter dungeons and other duties via the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Finder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by choosing your desired duty, then selecting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Join<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. You will then be automatically matched with compatible players destined for the same duty.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※You may register for up to five duties at one time.
+※Duties marked by a lock symbol require certain conditions to be met before becoming accessible.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+12,"Duty Status","When you register for a duty, it will appear along with an icon in your duty list. You may check <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>duty status<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, including matching progress and approximate waiting times, by selecting this entry."
+13,"Commencing Duty","Once you have been successfully matched with other players, a prompt window indicated by a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>notification sound<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will appear. Begin duty by selecting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Commence<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Please note that if you do not commence duty within the time limit, your registration will be automatically withdrawn, and you must start the process over.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+14,"What Next?","Over the course of your adventures, the number of duties available to you will gradually increase. Many duties can be cleared via both the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Finder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Support<UIGlow>01</UIGlow><UIForeground>01</UIForeground> systems, so it's worth familiarizing yourself with both. You may also rechallenge previously cleared dungeons by accessing <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Finder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Support<UIGlow>01</UIGlow><UIForeground>01</UIForeground> via <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu."
+15,"Entering V&C Dungeons","You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu.
+
+This window features all the necessary information regarding dungeon entry, as well as the dungeon-specific settings."
+16,"Variant Dungeons","The difficulty of a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>variant dungeon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is automatically adjusted to provide a challenge for parties of between one to four players. Victory will require effort and attention, but it is entirely possible to complete these dungeons alone. 
+
+If you wish to enter as a solo player or with your current party members, be sure to uncheck the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enable party matching<UIGlow>01</UIGlow><UIForeground>01</UIForeground> option (disabled by default). Conversely, enabling this option will match you with other adventurers to tackle the dungeon in a four-player party."
+17,"Variant Actions","To allow for greater freedom in role choices, variant dungeons grant players the use of special <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>variant actions<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+These actions mimic existing abilities such as <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cure<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, alleviating the need for dedicated tanks, DPS, or healers. Each player has two actions available for use during the dungeon, and these can be changed <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>at any time<UIGlow>01</UIGlow><UIForeground>01</UIForeground> via the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Set Actions<UIGlow>01</UIGlow><UIForeground>01</UIForeground> button in the V&C Dungeon Finder window."
+18,"Unraveling the Story","Variant dungeons feature <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>branching paths<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and by exploring these choices alongside the quest character will you reveal new elements of the overarching story.
+
+Upon completing each path, a new entry will be added to the journal or expedition log associated with the dungeon. Simply open the V&C Dungeon Finder window and select the character portrait to browse the completed entries."
+19,"Criterion Dungeons","You have unlocked <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>criterion dungeons<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, a tier of higher difficulties which can be accessed by switching the tab at the top of the V&C Dungeon Finder window. 
+
+Criterion dungeons have no accompanying NPC or branching paths to explore. In place of newly discovered story elements, the tab will instead display a list of available dungeons, as well as the amount of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>special currency<UIGlow>01</UIGlow><UIForeground>01</UIForeground> earned from attempting these more punishing challenges."
+20,"Criterion Dungeon Restrictions","Unlike variant dungeons, criterion dungeons <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>do not allow job changes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Resurrection via Raise or other abilities is also restricted, being permitted only through use of the special action Variant Raise II.
+
+Criterion dungeons of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Savage<UIGlow>01</UIGlow><UIForeground>01</UIForeground> difficulty disable the use of variant actions completely, and must be attempted by preformed four-player parties meeting the entry requirements."
+21,"Party Member Portraits","By way of introduction, party member portraits are automatically displayed at the beginning of assorted duties. While size and positioning cannot be adjusted during its initial display, this window may be disabled via the gear icon of the Party Member Portraits window or in Character Configuration settings."
+22,"Displaying Party Member Portraits","Party member portraits may be manually displayed during a duty by accessing the Duty Menu, selecting the Functions tab, and then pressing “Display Party Member Portraits.” You may also redisplay party member portraits via the corresponding notification."
+23,"Settings","The following settings may be adjusted via the gear icon in the Party Member Portraits window:
+
+  ・Show party member portraits at the start of duty.
+  ・Display party member portraits notification.
+  ・Allow compact portrait display."
+24,"",""
+25,"Variant Dungeon Item Level","When exploring a variant dungeon with a light party (4 players) formed via <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>matching<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, all players must fulfill the required <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>average item level<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+
+Please note that fulfilling average item level is not required when exploring solo or with a preformed party."
+26,"Criterion Dungeon Matching","The “<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty Complete<UIGlow>01</UIGlow><UIForeground>01</UIForeground>” option is only available to those who have previously completed that particular duty."
