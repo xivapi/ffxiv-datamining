@@ -521,7 +521,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 337,"<CommandIcon(10)/> Subcommands"
 338,"<CommandIcon(10)/> Subcommands  <CommandIcon(8)/> Select"
 339,"<CommandIcon(11)/> Apply"
-340,"<CommandIcon(10)/> Subcommands"
+340,"<CommandIcon(10)/> Subcommands <CommandIcon(12)/><CommandIcon(13)/> Change Page"
 341,"<CommandIcon(10)/> Subcommands"
 342,"<CommandIcon(9)/> Return to Toy Chest"
 343,"<CommandIcon(9)/> Target Close Button"
@@ -654,16 +654,16 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Reset Camera<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Z Key (Draw Weapon)/<Gui(16)/> Button
+Z Key (Draw Weapon)/<Gui(16)/> Button
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Change Target Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
+<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Pause/Play<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
+<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Open/Close Controls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>"
+R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>"
 443,"Recording Duties"
 444,"The following conditions must be met to use the Duty Recorder:
 　1. Recorder is enabled.
@@ -721,16 +721,16 @@ Recordings will become inaccessible after applying the newest data patch."
 W, A, S, D Keys (Movement)/<CommandIcon(20)/> Stick
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Reset Camera<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Z Key (Draw Weapon)/<Gui(16)/> Button
+Z Key (Draw Weapon)/<Gui(16)/> Button
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Change Target Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
+<If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/>Tab, Shift+Tab</If> Keys/<CommandIcon(7)/> Buttons
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Pause/Play<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
+<If(Equal(PlayerParameter(78),3))>space bar<Else/>Space Bar</If> (Jump)/<CommandIcon(11)/> Button
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Open/Close Controls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>"
+R Key or  Button (Auto Run)/<CommandIcon(10)/> Button</If>"
 449,"Functions"
 450,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Pause<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Temporarily stop playback.
@@ -756,7 +756,7 @@ Displays focus target information for the selected target.
 Exit playback."
 451,"<CommandIcon(10)/> Subcommands"
 452,"<CommandIcon(24)/> Scroll"
-453,"<CommandIcon(8)/> Open"
+453,"<CommandIcon(8)/> Open  <CommandIcon(24)/> Scroll"
 454,"<CommandIcon(24)/> Scroll"
 455,"<CommandIcon(10)/> Subcommands"
 456,"<CommandIcon(8)/> Release Minion  <CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Move"
@@ -777,12 +777,12 @@ Exit playback."
 471,""
 472,""
 473,""
-474,""
-475,""
-476,""
-477,""
-478,""
-479,""
+474,"<CommandIcon(11)/> Confirm"
+475,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(12)/><CommandIcon(13)/> Change Page"
+476,"<CommandIcon(12)/><CommandIcon(13)/> Change Page"
+477,"<CommandIcon(8)/> Display Locations"
+478,"<CommandIcon(10)/> Subcommands"
+479,"<CommandIcon(10)/> Subcommands"
 480,""
 481,""
 482,""
@@ -1047,8 +1047,12 @@ Increases collectability by a fixed amount lower than Scour. However, there is c
 Moreover, these prime collectables may also become sublime when they are gathered with maximum collectability, which guarantees a yield of rare items from aetherial reduction.
 
 A higher gathering rate increases your chances of a prime collectable becoming sublime."
-1047,""
-1048,""
+1047,"Collectability"
+1048,"The collectability of an item is another means of measuring its intrinsic quality.
+
+Collectability required to deliver an item can be confirmed at the top right of the interface.
+
+When breaking down items via aetherial reduction, this rating indicates the collectability required to obtain items other than crystals."
 1049,""
 1050,"Entering V&C Dungeons"
 1051,"You can enter a variant or criterion dungeon via the V&C Dungeon Finder window, which is accessed by speaking with the NPC at the dungeon entrance, or by selecting the option from <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu.
