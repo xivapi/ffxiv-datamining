@@ -4450,6 +4450,7 @@ Rank <Value>IntegerParameter(1)</Value>"
 4816,"There are no sales to display."
 4817,"List could not be updated."
 4818,"Reflect Quest Progression"
+4819,"Eureka Orthos"
 4820,"Crest Editor"
 4821,""
 4822,"Preview"
@@ -5218,17 +5219,17 @@ Please remove it from your hotbar."
 <Highlight>StringParameter(1)</Highlight>
  (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete the following duty:
 <Highlight>StringParameter(1)</Highlight></If>"
-5622,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Commence one of the following instanced dungeons:
+5622,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Commence a dungeon in the following category:
 <Highlight>StringParameter(1)</Highlight>
- (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Commence one of the following instanced dungeons:
+ (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Commence a dungeon in the following category:
 <Highlight>StringParameter(1)</Highlight></If>"
 5623,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Participate in the following:
 <Highlight>StringParameter(1)</Highlight>
  (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Participate in the following:
 <Highlight>StringParameter(1)</Highlight></If>"
-5624,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Complete one of the following duties:
+5624,"<If(GreaterThanOrEqualTo(IntegerParameter(2),1))>Complete a duty in the following category:
 <Highlight>StringParameter(1)</Highlight>
- (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete one of the following duties:
+ (Second Chance Bonus: <Value>IntegerParameter(2)</Value> Points)<Else/>Complete a duty in the following category:
 <Highlight>StringParameter(1)</Highlight></If>"
 5625,"Second Chance points can be earned by completing select duties with party members who are new to the duty."
 5626,"Second Chance Points: <Value>IntegerParameter(1)</Value>/9"
@@ -7079,8 +7080,8 @@ Waymarks can only be saved and loaded during certain duties."
 7744,""
 7745,"Party List Sorting"
 7746,"Define party list role order."
-7747,""
-7748,""
+7747,"Rotation in Character Preview"
+7748,"Movement in Character Preview"
 7749,""
 7750,"Hotbar Display Settings"
 7751,"Hotbar 1"
@@ -9751,7 +9752,7 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10466,"Access Ranking"
 10467,"https://sqex.to/fkM"
 10468,"https://sqex.to/Bry"
-10469,"<Sheet(ClassJob,IntegerParameter(1),0)/><If(GreaterThan(IntegerParameter(2),0))> / <Sheet(ClassJob,IntegerParameter(2),0)/><Else/></If>"
+10469,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D><If(GreaterThan(IntegerParameter(2),0))> / <Unknown2D>FF1202280EFF09436C6173734A6F62E8030103</Unknown2D><Else/></If>"
 10470,"None of the Accursed Hoard has been discovered."
 10471,"Current Deep Dungeon rankings can be viewed on the Lodestone!
 <Highlight>StringParameter(1)</Highlight>"
@@ -9769,6 +9770,11 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 Progress will not count towards solo completion achievements."
 10483,"Party KO count for this save data is more than zero. Later floors will not be accessible. Proceed?"
 10484,"Continue with current save data."
+10485,"Pylon of Return"
+10486,"Pylon of Passage"
+10487,"Progress toward Pylon of Return activation."
+10488,"Progress toward Pylon of Passage activation."
+10489,"Demiclone Generator"
 10490,"Lodestone Playguide"
 10491,"View the deep dungeon guide."
 10500,"Register via Duty Support"
@@ -14289,6 +14295,10 @@ Do you still wish to proceed?"
 15613,"Cancel"
 15614,"Filter displayed items by specified criteria."
 15615,"Current Gender"
+15700," Make Another Manderville (Create Weapon)"
+15701," The Next Mander-level (Enhance Weapon)"
+15702," A Dedicated Tool (1st Enhancement)"
+15703," An Adaptive Tool (2nd Enhancement)"
 101000,"<CommandIcon(10)/> Subcommands"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Select"

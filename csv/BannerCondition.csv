@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
-#,UnlockType1,UnlockCriteria1,,,,,,UnlockType2,UnlockCriteria2,UnlockCriteria3,UnlockCriteria4,HasPrerequisite,Prerequisite,,
-int32,byte,Row,uint32,uint32,uint32,uint32,uint32,byte,Row,Row,Row,byte,Quest,byte,bit&01
+#,UnlockType1,UnlockCriteria1[0],UnlockCriteria1[1],UnlockCriteria1[2],UnlockCriteria1[3],UnlockCriteria1[4],UnlockCriteria1[5],UnlockType2,UnlockCriteria2,UnlockCriteria3,UnlockCriteria4,PrerequisiteType,Prerequisite,UnlockHint,
+int32,byte,Row,Row,Row,Row,Row,Row,byte,Row,Row,Row,byte,Row,BannerObtainHintType,bit&01
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
 1,10,0,0,0,0,0,0,1,0,0,0,0,0,0,False
 2,5,81,0,0,0,0,0,16,1011039,5581045,22497,1,65970,51,False
@@ -434,7 +434,7 @@ int32,byte,Row,uint32,uint32,uint32,uint32,uint32,byte,Row,Row,Row,byte,Quest,by
 430,9,73,0,0,0,0,0,17,1032661,8267961,39573,1,69335,49,False
 431,9,74,0,0,0,0,0,17,1033714,8368178,39574,1,69437,49,False
 432,9,75,0,0,0,0,0,17,1042424,9160432,39575,1,70086,50,False
-433,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
+433,9,76,0,0,0,0,0,17,1044404,9527715,39576,1,70222,50,False
 434,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
 435,6,106,0,0,0,0,0,16,1011039,5581045,9346,1,65970,51,False
 436,6,47,0,0,0,0,0,31,18,0,6208,4,18,66,False
@@ -466,8 +466,8 @@ int32,byte,Row,uint32,uint32,uint32,uint32,uint32,byte,Row,Row,Row,byte,Quest,by
 462,6,132,0,0,0,0,0,12,12047,0,0,1,66060,41,False
 463,6,133,0,0,0,0,0,2,67184,0,0,1,67183,42,False
 464,6,456,0,0,0,0,0,25,1043463,9318702,38444,1,70179,55,False
-465,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
-466,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False
+465,9,81,0,0,0,0,0,20,1044503,9553386,39577,1,70199,55,False
+466,9,82,0,0,0,0,0,20,1044503,9553386,39580,1,70201,55,False
 467,1,68702,0,0,0,0,0,2,68702,0,0,1,68701,78,False
 468,9,77,0,0,0,0,0,25,1043463,9318702,39578,1,70179,55,False
 469,9,78,0,0,0,0,0,25,1043463,9318702,39579,1,70179,55,False
