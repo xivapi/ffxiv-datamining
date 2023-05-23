@@ -360,6 +360,7 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Glamour:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -369,12 +370,18 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)","/petglamour","/petglam",36,0
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)","/petglamour","/petglam",36,0
 34,3,2,7,2,0,"/petsize","","USAGE:
 　/petsize [summon] [size]
 
@@ -911,14 +918,14 @@ USAGE:
 →Set a sign on the specified target. Uses current target when not specified.
 
 >>Sign Types:
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>attack1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>attack1-8<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bind1-3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ignore1-2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>circle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cross<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>square<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>triangle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>/<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Turns off sign.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>　off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>/<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Turns off sign.
 
 Opens and closes the Signs menu when no subcommand is specified.
 
@@ -1619,6 +1626,7 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Glamour:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -1628,12 +1636,18 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
 
 >>Example:
 　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
-　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)","/egiglamour","/egiglam",36,0
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)","/egiglamour","/egiglam",36,0
 227,3,1,2,0,0,"/title","","USAGE:
 　/title [subcommand]
 
@@ -2128,7 +2142,7 @@ Toggle between on/off when no subcommand is specified.","/aggroline","",36,0
 306,2,1,2,0,0,"/autotarget","","USAGE:
 　/autotarget [subcommand]
 
-→Enable auto-target when no target specified.
+→Enable full auto-target.
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable auto-target.
@@ -4911,6 +4925,15 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
  　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
+650,2,1,2,0,0,"/magictrick","","USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
 651,2,1,2,0,0,"/littleladiesdance","/ladance","ALIASES:
 　/littleladiesdance, /ladance
 USAGE:
@@ -4947,5 +4970,59 @@ Both text and motion will be displayed when no subcommand is specified.","","",2
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+658,2,1,2,0,0,"/adventoflight","/advent","USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+664,2,1,2,0,0,"/handtoheart","","USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+665,2,1,2,0,0,"/cheeronbright","/cheerbright","USAGE:
+　/cheeronbright, /cheerbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+666,2,1,2,0,0,"/cheerwaveviolet","/cheerviolet","USAGE:
+　/cheerwaveviolet, /cheerviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+667,2,1,2,0,0,"/cheerjumpgreen","/cheergreen","USAGE:
+　/cheerjumpgreen, /cheergreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+668,2,1,2,0,0,"/allsaintscharm","","USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
