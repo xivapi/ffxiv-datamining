@@ -751,7 +751,7 @@ mercenary, and peddler among them."
 466,0,0,0,"Rava","","Viera of the Rava clan live primarily in the Golmore Jungle, their
 umber skin allowing them to readily blend in with their surroundings.
 Though the males stand as wards of the forest, the females are
-adept hunters in their own right, fiercely guarding their homes and
+adept hunters and protectors in their own right, fiercely guarding their homes and
 their young. Despite attempts by the Dalmascans to subjugate
 them, they have ever maintained a self-governing dominion. Though
 most would adhere to the traditions of the wood, some few have
@@ -1208,10 +1208,15 @@ it is recommended, but not required, that you select a data center that is
 closer to where you will be playing. Legacy Worlds (servers existing since the
 original launch) are indicated in parentheses.
 
-<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case></Switch><Else/></If>.<If(GreaterThan(IntegerParameter(2),0))>
+<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case></Switch><Else/></If>.<If(Equal(IntegerParameter(2),0))>
 
 <Gui(99)/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EXP bonuses are currently being granted to all new players
-created on this world.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>","",""
+created on this world.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(Equal(IntegerParameter(2),2))>
+
+<UIForeground>F201FE</UIForeground><UIGlow>F201FF</UIGlow>The creation of characters on this World is currently restricted. You must
+either wait for this restriction to be lifted, or create a character on another
+World. In the event you create a character on another World, you may use the
+World Visit system to play on this one.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>","",""
 821,0,0,0,"(Skipped)","",""
 822,0,0,0,"Save <Switch(IntegerParameter(2))><Case(1)><Sheet(Tribe,IntegerParameter(1),0)/> male</Case><Case(2)><Sheet(Tribe,IntegerParameter(1),1)/> female</Case></Switch> character creation data to slot <Value>IntegerParameter(3)</Value>?","",""
 823,0,0,0,"Load character creation data for the <Switch(IntegerParameter(4))><Case(1)>male <Sheet(Tribe,IntegerParameter(3),0)/></Case><Case(2)>female <Sheet(Tribe,IntegerParameter(3),1)/></Case></Switch> saved to slot <Value>IntegerParameter(2)</Value> at <Time(IntegerParameter(1))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> on <If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>?","",""
@@ -1585,7 +1590,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1155,0,0,0,"The Data Center Travel system allows your character to visit Worlds in other data centers, where you can create parties with friends, trade items, challenge duties, and more.
 
 ※Certain features will be unavailable while visiting other data centers, including access to linkshell and free company chat channels affiliated with your Home Data Center.","",""
-1156,0,0,0,"データセンタートラベルの注意事項を確認","",""
+1156,0,0,0,"Using the Data Center Travel System","",""
 1157,0,0,0,"注意事項について了承しました","",""
 1158,0,0,0,"Select World","",""
 1159,0,0,0,"Cancel","",""
@@ -1687,9 +1692,11 @@ Proceed?","",""
 Logging in will place your character at the aetheryte of your starting nation.","",""
 1232,0,0,0,"To visit other Worlds with this character, you must first return to your Home World and change your character's name.","",""
 1233,0,0,0,"To visit other Worlds with this character, you must first return to your Home World and change your retainer's name.","",""
-1234,0,0,0,"","",""
-1235,0,0,0,"","",""
-1236,0,0,0,"","",""
+1234,0,0,0,"Your request for data center travel could not be processed, as you have never accessed Worlds in the selected region.
+From the Data Center Selection screen, please select any World in your desired region and proceed to the Character Selection screen. After doing so, you will be able to use the Data Center Travel system in that region.","",""
+1235,0,0,0,"You have already reached the maximum number of characters allowed for this service account in the selected region.
+At least one unused character slot is required in your destination region when using the Data Center Travel system.","",""
+1236,0,0,0,"The selected character has yet to log out from a previous play session. Please wait and try accessing the subcommand menu again.","",""
 1237,0,0,0,"","",""
 1238,0,0,0,"","",""
 1239,0,0,0,"","",""
@@ -2255,8 +2262,8 @@ Logging in will place your character at the aetheryte of your starting nation.",
 1799,0,0,0,"","",""
 1800,0,0,0,"Are you certain you wish to leave the queue?","",""
 1801,0,0,0,"You were automatically logged out due to extended inactivity.","",""
-1802,0,0,0,"","",""
-1803,0,0,0,"","",""
+1802,0,0,0,"<UIForeground>F201FE</UIForeground><UIGlow>F201FF</UIGlow>A registered license for <Sheet(ExVersion,IntegerParameter(1),0)/> is required to select this race.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+1803,0,0,0,"RGB: <Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>,<Value>IntegerParameter(3)</Value>","",""
 1804,0,0,0,"","",""
 1805,0,0,0,"","",""
 1806,0,0,0,"","",""
@@ -2407,8 +2414,12 @@ Logging in will place your character at the aetheryte of your starting nation.",
 1951,0,0,0,"Select your character's clan.","",""
 1952,0,0,0,"Select your character's gender.","",""
 1953,0,0,0,"Customize your character's appearance.","",""
-1954,0,0,0,"Specify your character's date of birth.","",""
-1955,0,0,0,"Select your character's patron deity.","",""
+1954,0,0,0,"Specify your character's date of birth.
+
+<UIForeground>02</UIForeground><UIGlow>25</UIGlow>This selection has no effect on gameplay.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+1955,0,0,0,"Select your character's patron deity.
+
+<UIForeground>02</UIForeground><UIGlow>25</UIGlow>This selection has no effect on gameplay.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 1956,0,0,0,"Select your starting class and city-state.","",""
 1957,0,0,0,"Select a World server on which to play.","",""
 1958,0,0,0,"Specify the first and last name of your character.","",""
@@ -2653,7 +2664,9 @@ His two aspects lie in the east and west of the city."
 2173,0,0,0,"<Time(IntegerParameter(1))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>","",""
 2174,0,0,0,"Save Slot <Value>IntegerParameter(1)</Value>","",""
 2175,0,0,0,"<Switch(IntegerParameter(2))><Case(1)><Sheet(Tribe,IntegerParameter(1),0)/> ♂</Case><Case(2)><Sheet(Tribe,IntegerParameter(1),1)/> ♀</Case></Switch>","",""
-2176,0,0,0,"Save appearance data?","",""
+2176,0,0,0,"Save appearance data?
+
+Once saved, appearance data can be reused when creating another character.","",""
 2177,0,0,0,"Yes","",""
 2178,0,0,0,"No","",""
 2179,0,0,0,"Data is corrupted or format is different.

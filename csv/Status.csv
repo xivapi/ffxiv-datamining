@@ -91,7 +91,7 @@ int32,str,str,Image,byte,byte,ClassJobCategory,byte,StatusHitEffect,StatusLoopVF
 87,"Thrill of Battle","Maximum HP is increased.
 Enhanced Thrill of Battle Effect: HP recovery via healing actions is increased.",10254,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,5,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 88,"Holmgang","Unable to move until effect fades.",10255,0,0,1,2,17,0,True,False,False,False,False,False,False,False,False,100,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-89,"Vengeance","Inflicting a portion of sustained damage back to its source.",10256,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,25,0,False,0,False,0,False,0,0,0,False
+89,"Vengeance","Damage taken is reduced while inflicting a portion of sustained damage back to its source.",10256,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,-30,0,False,0,False,0,False,0,0,0,False
 90,"Storm's Eye","Damage dealt is increased.",10263,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,5,0,False,0,False,0,False,0,0,0,False
 91,"Defiance","Enmity is increased.",12551,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,500,0,True,0,False,0,False,0,0,0,False
 92,"Unchained","Damage penalty inflicted by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Defiance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is nullified.",12552,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
@@ -396,7 +396,7 @@ Enhanced Thrill of Battle Effect: HP recovery via healing actions is increased."
 391,"Full-grown","Fully matured.",15971,89,0,1,1,16,113,False,False,False,False,True,False,False,False,False,200,0,False,False,50,26,False,0,False,0,False,0,0,0,False
 392,"Royal Guard","Enmity is increased.",13603,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,200,0,False,0,False,0,False,0,0,0,False
 393,"Iron Will","Enmity is increased.",12506,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,200,0,False,0,False,0,False,0,0,0,False
-394,"Invincibility","Impervious to most attacks.",15024,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+394,"Invincibility","Impervious to all attacks.",15024,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,0,0,True,0,False,0,False,0,1,0,False
 395,"Physical Damage Down","Physical damage dealt is reduced.",15051,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,50,0,False,False,-10,0,False,0,False,0,False,0,0,0,False
 396,"Concentration","Next enfeeblement received is nullified.",14815,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 397,"Safeguard","Damage taken is reduced.",14816,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,-20,0,False,0,False,0,False,0,0,0,False
@@ -853,7 +853,7 @@ Enhanced Blackblood Effect: Increasing <UIForeground>F201F4</UIForeground><UIGlo
 846,"Synastry","An aetheric bond is created with a party astrologian. Each time a single-target healing spell is cast by the astrologian, you will recover partial HP.",13224,0,0,99,1,16,0,False,False,False,False,False,False,False,False,False,100,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 847,"Collective Unconscious","An area of mind attunement is healing party members.",13227,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,50,4,True,0,False,0,False,0,27,0,False
 848,"Collective Unconscious","An area of mind attunement is created, reducing damage taken for all who enter.",13227,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,4,True,0,False,0,False,0,27,0,False
-849,"Collective Unconscious","Damage taken is reduced.",13226,65,0,99,1,16,0,False,False,False,False,False,False,False,False,True,0,0,False,False,-10,0,False,0,False,0,False,0,0,0,False
+849,"Collective Unconscious","Damage taken is reduced.",13226,65,0,99,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,-10,0,False,0,False,0,False,0,0,0,False
 850,"Angler's Fortune","Chance of landing a large-sized catch while fishing is increased.",16023,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 851,"Reassembled","Next weaponskill will result in a critical direct hit. Damage dealt when under an effect that raises critical hit rate or direct hit rate is increased.",13001,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,1,0,False,0,False,0,False,0,0,0,False
 852,"Promotion","Autoturret auto-attack mode is disabled.",13002,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,1,0,False,False,0,0,True,0,False,0,False,0,0,0,False
@@ -899,7 +899,7 @@ Enhanced Blackblood Effect: Increasing <UIForeground>F201F4</UIForeground><UIGlo
 892,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 893,"Vulnerability Up","Damage taken is increased.",17101,40,5,1,2,17,0,False,False,False,False,False,False,True,False,False,100,0,False,False,15,0,False,0,False,0,False,0,0,0,False
 894,"Wind Resistance Down","Resistance to wind damage is reduced.",18201,0,4,1,2,17,0,False,False,False,False,False,False,True,False,False,50,0,False,False,-25,0,False,0,False,0,False,0,0,0,False
-895,"Invincibility","Impervious to most attacks.",15024,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,1,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+895,"Invincibility","Impervious to all attacks.",15024,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,1,0,False,False,0,0,True,0,False,0,False,0,1,0,False
 896,"Down for the Count","Unable to move or execute actions.",15044,0,0,1,2,3,0,True,False,True,True,False,False,False,False,True,100,0,False,False,0,4,False,0,False,0,False,0,0,0,False
 897,"Regen","Regenerating HP over time.",12626,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 898,"Lightning Resistance Down","Lightning resistance is reduced.",17741,0,2,1,2,17,0,False,False,False,False,False,False,False,False,False,50,0,False,False,-50,0,False,0,False,0,False,0,0,0,False
@@ -1203,7 +1203,7 @@ Enhanced Blackblood Effect: Increasing <UIForeground>F201F4</UIForeground><UIGlo
 1196,"Palisade","Physical damage taken is reduced.",13905,0,0,115,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,-10,0,False,0,False,0,False,0,0,0,False
 1197,"Tactician","Gradually regenerating TP.",13906,0,0,115,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 1198,"Refresh","Restoring MP over time.",13907,0,0,115,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,10,0,False,0,False,0,False,0,0,0,False
-1199,"Peloton","Movement speed is increased. Effect ends upon entering battle.",13908,0,0,115,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,0,18,True,0,False,0,False,0,0,0,False
+1199,"Peloton","Movement speed is increased. Effect ends upon entering battle.",13908,0,0,115,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,0,18,False,0,False,0,False,0,0,0,False
 1200,"Caustic Bite","Toxins are causing damage over time.",12616,0,0,1,2,1,0,False,False,False,False,False,False,True,False,False,10,0,False,True,10,0,False,0,False,2,False,0,0,0,False
 1201,"Stormbite","Wounds are exposed to the elements, causing wind damage over time.",12617,0,0,1,2,17,0,False,False,False,False,False,False,True,False,False,10,0,False,True,10,0,False,0,False,2,False,0,0,0,False
 1202,"Nature's Minne","HP recovery via healing actions is increased.",12618,0,0,24,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,10,0,False,0,False,0,False,0,0,0,False
@@ -1638,17 +1638,17 @@ Potency of <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerPar
 1630,"Love's True Form","Suzaku's heretofore unknown visage is revealed.",15908,69,0,1,1,16,0,False,False,False,False,True,False,False,True,True,0,0,False,False,0,2,False,0,False,0,False,0,0,0,False
 1631,"Wisdom of the Aetherweaver","Magic damage is increased.",16627,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,60,0,True,0,False,0,False,0,0,0,False
 1632,"Wisdom of the Martialist","Damage dealt is increased.",16628,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,40,0,True,0,False,0,False,0,0,0,False
-1633,"Wisdom of the Platebearer","Maximum HP and defense are increased.",16629,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,150,0,True,0,False,0,False,0,0,0,False
-1634,"Wisdom of the Guardian","Maximum HP and defense are increased.",16630,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,50,0,True,0,False,0,False,0,0,0,False
+1633,"Wisdom of the Platebearer","Maximum HP is increased while damage taken is reduced.",16629,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,-80,0,True,0,False,0,False,0,0,0,False
+1634,"Wisdom of the Guardian","Maximum HP is increased while damage taken is reduced.",16630,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,-45,0,True,0,False,0,False,0,0,0,False
 1635,"Wisdom of the Ordained","Maximum MP and healing magic potency are increased.",16631,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,50,0,True,0,False,0,False,0,0,0,False
 1636,"Wisdom of the Skirmisher","Damage dealt is increased.",16632,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,20,0,True,0,False,0,False,0,0,0,False
 1637,"Wisdom of the Watcher","Evasion is enhanced, while damage dealt is reduced.",16633,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,25,0,True,0,False,0,False,0,0,0,False
 1638,"Wisdom of the Templar","Maximum HP and healing magic potency are increased, while damage dealt is reduced.",16634,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,30,23,True,0,False,0,False,0,0,0,False
 1639,"Wisdom of the Irregular","Damage dealt is increased, while magic defense is reduced.",16635,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,30,0,True,0,False,0,False,0,0,0,False
-1640,"Wisdom of the Breathtaker","Movement speed, evasion, and poison resistance are increased.",16636,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,10,18,True,0,False,0,False,0,0,0,False
+1640,"Wisdom of the Breathtaker","Movement speed, evasion, and poison resistance are increased.",16636,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,10,0,True,0,False,0,False,0,0,0,False
 1641,"Spirit of the Remembered","Maximum HP and accuracy are increased. Chance of automatic revival upon KO.",16637,117,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,10,0,True,0,False,0,False,0,0,0,False
-1642,"Protect L","Physical defense is increased.",16638,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,1000,0,False,0,False,0,False,0,0,0,False
-1643,"Shell L","Magic defense is increased.",16639,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,1000,0,False,0,False,0,False,0,0,0,False
+1642,"Protect L","Physical damage taken is reduced.",16638,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,-22,0,False,0,False,0,False,0,0,0,False
+1643,"Shell L","Magic damage taken is reduced.",16639,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,-22,0,False,0,False,0,False,0,0,0,False
 1644,"Swift L","Movement speed is increased.",16640,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,18,False,0,False,0,False,0,6,0,False
 1645,"Rapid Recast","Recast time of next ability is reduced.",16641,116,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,5,False,0,False,0,False,0,18,0,False
 1646,"Bravery L","Damage dealt is increased.",16642,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,0,False,False,10,0,False,0,False,0,False,0,0,0,False
@@ -1744,10 +1744,10 @@ Potency of <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerPar
 1736,"Dropsy","Sustaining water damage over time.",13514,0,0,1,2,17,0,False,False,False,False,False,False,True,False,False,10,0,False,True,10,0,False,0,False,5,False,0,0,0,False
 1737,"Toad Oil","Evasion is enhanced.",13515,11,0,1,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 1738,"Doom","Certain death when counter reaches zero.",13516,0,0,1,2,9,0,False,False,False,False,False,False,False,False,False,50,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-1739,"Wisdom of the Elder","Magic damage dealt and magic defense are increased. Spell MP cost is reduced.",16654,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,35,6,True,0,False,0,False,0,19,0,False
+1739,"Wisdom of the Elder","Magic damage dealt is increased. Magic damage taken and spell MP cost are reduced.",16654,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,35,6,True,0,False,0,False,0,19,0,False
 1740,"Wisdom of the Duelist","Physical damage dealt and maximum HP are increased.",16655,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,40,0,True,0,False,0,False,0,20,0,False
 1741,"Wisdom of the Fiendhunter","Physical damage dealt and evasion are increased.",16656,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,25,0,True,0,False,0,False,0,0,0,False
-1742,"Wisdom of the Indomitable","Defense is increased. Maximum HP is boosted each time you take damage equivalent to at least 50% of your maximum HP from a single-target attack.",16657,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,2000,0,True,0,False,0,False,0,0,0,False
+1742,"Wisdom of the Indomitable","Damage taken is reduced. Maximum HP is boosted each time you take damage equivalent to at least 50% of your maximum HP from a single-target attack.",16657,98,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,-64,0,True,0,False,0,False,0,0,0,False
 1743,"Sacrifice","Certain death when counter reaches zero.",15503,0,0,1,2,9,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 1744,"Stellation","Transformed into a many-pointed star. Damage dealt is increased.",15954,89,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 1745,"Black Hole Buffer","Invulnerable to the pull of the black hole.",15955,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,199,0,False,False,0,0,True,0,False,0,False,0,0,0,False
@@ -1783,7 +1783,7 @@ Potency of <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerPar
 1775,"Reforged","Aetherial composition has been altered, changing elemental aspect.",15938,69,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,2,False,0,False,0,False,0,0,0,False
 1776,"Blunt Resistance Down","Blunt resistance is reduced.",15064,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,50,0,False,False,-12,0,False,0,False,0,False,0,0,0,False
 1777,"Reforged","Aetherial composition has been altered, changing elemental aspect.",15938,69,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,2,False,0,False,0,False,0,0,0,False
-1778,"Hoofing It","Unable to summon or ride mounts, or to equip fashion accessories.",16232,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+1778,"Hoofing It","Unable to summon or ride mounts, or to equip fashion accessories.",16232,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,True,0,False,0,False,0,47,0,False
 1779,"Ajisai","Fine cuts are causing damage over time.",13304,0,0,1,2,17,0,False,False,False,False,False,False,True,False,False,10,0,False,True,10,0,False,0,False,1,False,0,0,0,False
 1780,"魔力汚染","害意ある魔力によって汚染された状態。特定の攻撃によって、戦闘不能状態に陥る。",15057,0,0,1,2,17,0,False,False,False,False,False,False,True,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 1781,"Damage Up","Damage dealt is increased.",15519,39,0,1,1,16,101,False,False,False,False,False,False,False,True,True,1,0,False,False,10,0,False,0,False,0,False,0,0,0,False
@@ -1823,8 +1823,8 @@ Potency of <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerPar
 1815,"Flourishing Fountain","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fountainfall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13702,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 1816,"Flourishing Windmill","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rising Windmill<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13703,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 1817,"Flourishing Shower","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloodshower<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13704,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-1818,"Standard Step","Caught up in the dance and only able to execute step actions, role actions, Sprint, Limit Break, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13705,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
-1819,"Technical Step","Caught up in the dance and only able to execute step actions, role actions, Sprint, Limit Break, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13706,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+1818,"Standard Step","Caught up in the dance and only able to execute step actions, role actions, Sprint, Limit Break, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),52))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curing Waltz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <Else/></If><Else/></If><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),56))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Shield Samba<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <Else/></If><Else/></If>and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13705,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+1819,"Technical Step","Caught up in the dance and only able to execute step actions, role actions, Sprint, Limit Break, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,  <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),52))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curing Waltz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <Else/></If><Else/></If><If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),56))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Shield Samba<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <Else/></If><Else/></If>and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>En Avant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13706,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 1820,"Threefold Fan Dance","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fan Dance III<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13707,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,0,2,False,False,0,0,False,0,False,0,False,0,0,0,False
 1821,"Standard Finish","Damage dealt is increased.",13708,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,10,0,False,0,False,0,False,0,5,0,False
 1822,"Technical Finish","Damage dealt is increased.",13709,0,0,150,1,16,0,False,False,False,False,False,False,False,False,False,1,0,False,False,10,0,False,0,False,0,False,0,5,0,False
@@ -1916,7 +1916,7 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 1907,"Faded Out","Overburdened body is unable to execute actions.",16404,0,0,1,2,17,0,True,False,True,False,False,False,False,False,False,100,0,False,False,0,4,False,0,False,0,False,0,0,0,False
 1908,"Fetters","Unable to execute actions.",15534,0,0,1,2,3,0,True,False,True,True,False,False,False,False,True,100,0,False,False,0,0,False,0,False,0,False,2,0,0,False
 1909,"Area of Influence Up","Area of effect for actions is expanded.",17981,0,16,1,1,16,0,False,False,False,False,False,False,False,False,False,50,0,False,False,0,0,False,0,False,0,False,0,33,0,False
-1910,"Right Eye","Damage dealt is increased.",12581,82,0,1,1,16,0,False,False,False,False,False,False,False,False,False,100,0,False,False,10,0,True,0,False,0,False,0,0,0,False
+1910,"Right Eye","Damage dealt is increased and all action direction requirements are nullified.",12581,82,0,1,1,16,0,False,False,False,False,False,False,False,False,False,100,0,False,False,10,0,True,0,False,0,False,0,0,0,False
 1911,"Asylum","A veil of succor is healing party members in the area.",12629,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,50,0,True,0,False,0,False,0,0,0,False
 1912,"Asylum","HP recovery via healing actions is increased.",12636,0,0,1,1,16,0,False,False,False,False,False,False,False,False,True,0,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 1913,"Vauthry's Blessing","Blessed by Vauthry and experiencing heightened senses.",15962,89,0,1,1,16,112,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
@@ -1951,7 +1951,7 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 1942,"Ranging","Scouting territory. Will halt if engaged in combat. If not engaged while scouting, will end foray and return home.",15994,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 1943,"Hastilude","An area of land has been granted protection, reducing damage taken for all who enter.",12512,0,0,1,1,16,0,True,False,True,False,False,False,False,True,False,0,0,False,False,100,4,True,0,False,0,False,0,27,0,False
 1944,"Sacred Soil","A circle of sanctified earth is healing party members and reducing damage taken within its bounds.",12802,0,0,29,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,50,0,True,0,False,0,False,0,0,0,False
-1945,"Hoofing It","Unable to summon or ride mounts, or to equip fashion accessories.",16232,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+1945,"Hoofing It","Unable to summon or ride mounts, or to equip fashion accessories.",16232,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,True,0,False,0,False,0,47,0,False
 1946,"Wildfire","Currently afflicting an enemy with <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wildfire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",13019,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,50,0,False,True,0,0,False,0,False,0,False,0,0,0,False
 1947,"Sleep","Overwhelming drowsiness is preventing the execution of actions.",15013,1,0,1,2,2,3,True,False,False,False,False,False,False,True,False,100,0,False,False,0,0,False,0,False,0,False,0,3,0,False
 1948,"Magic Damage Down","Magic damage dealt is reduced.",15055,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,50,0,False,False,-10,0,False,0,False,0,False,0,0,0,False
@@ -2329,7 +2329,7 @@ Nascent Chaos Effect: <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>
 2319,"Spirit of the Watcher","Evasion is increased while maximum HP is reduced.",16668,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,40,0,False,0,False,0,False,0,0,0,False
 2320,"Spirit of the Profane","Damage dealt is increased while potency of all HP restoration actions is reduced.",16669,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,-70,0,False,0,False,0,False,0,0,0,False
 2321,"Spirit of the Irregular","Damage dealt and taken is increased while maximum HP is reduced.",16670,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,90,29,False,0,False,0,False,0,0,0,False
-2322,"Spirit of the Breathtaker","Evasion, movement speed, and poison resistance are increased.",16671,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,10,18,False,0,False,0,False,0,0,0,False
+2322,"Spirit of the Breathtaker","Evasion, movement speed, and poison resistance are increased.",16671,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 2323,"Spirit of the Bloodsucker","Damage dealt is increased, and attacks generate HP equal to a portion of damage dealt.",16672,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,40,0,False,0,False,0,False,0,0,0,False
 2324,"Spirit of the Beast","Maximum HP and defense are increased, and attacks generate HP equal to a portion of damage dealt.",16673,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,50,0,False,0,False,0,False,0,0,0,False
 2325,"Spirit of the Templar","Maximum HP, defense, and damage dealt are increased.",16674,108,0,1,1,16,0,False,False,False,False,False,False,False,True,True,150,0,False,False,50,29,False,0,False,0,False,0,0,0,False
@@ -2869,7 +2869,7 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 2851,"In Event","Participating in an in-game event.",15765,0,0,1,1,0,0,False,False,True,True,False,False,False,True,True,100,0,False,False,0,4,True,0,False,0,False,0,0,0,False
 2852,"HP Recovery Down","Healing effects received are reduced.",15427,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,-30,0,True,0,False,0,False,0,0,0,False
 2853,"Titan's Favor","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Mountain Buster<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",12698,0,0,28,1,16,0,False,False,False,False,False,False,False,True,False,0,2,False,False,0,0,False,0,False,0,False,0,0,0,False
-2854,"Soul Reaver","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gibbet<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gallows<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",17097,0,2,180,1,16,0,False,False,False,False,False,False,False,False,False,0,2,False,False,0,27,True,0,False,0,False,0,0,0,False
+2854,"Soul Reaver","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Guillotine<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",12940,0,0,180,1,16,0,False,False,False,False,False,False,False,False,False,0,2,False,False,0,0,True,0,False,0,False,0,0,0,False
 2855,"Enhanced Gibbet","Next <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gibbet<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will deal increased damage.",12927,0,0,180,1,16,0,False,False,False,False,False,False,False,False,False,0,2,False,False,0,0,True,0,False,0,False,0,0,0,False
 2856,"Gallows Oiled","Able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Gallows<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",12928,0,0,180,1,16,0,False,False,False,False,False,False,False,False,False,0,2,False,False,0,0,True,0,False,0,False,0,0,0,False
 2857,"Enhanced Void Reaping","Next <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Void Reaping<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will deal increased damage.",12929,0,0,180,1,16,0,False,False,False,False,False,False,False,False,False,0,2,False,False,0,0,True,0,False,0,False,0,0,0,False
@@ -3442,33 +3442,33 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 3424,"Guided Missile Kyrios Incoming","Target of a missile kyrios launch. Designated attack will occur when this effect expires.",15126,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3425,"Sniper Cannon Fodder","Designated target of a sniper cannon, which will fire when this effect expires.",15127,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3426,"High-powered Sniper Cannon Fodder","Designated target of a high-powered sniper cannon, which will fire when this effect expires.",15128,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3427,"_rsv_3427_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3427_-1_1_1_0_S74CFC3B0_E74CFC3B0",15129,0,0,1,2,17,533,False,False,False,False,False,False,False,False,False,150,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3428,"_rsv_3428_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3428_-1_1_1_0_S74CFC3B0_E74CFC3B0",15130,0,0,1,2,17,532,False,False,False,False,False,False,False,False,False,150,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3429,"_rsv_3429_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3429_-1_1_1_0_S74CFC3B0_E74CFC3B0",15131,0,0,1,2,17,557,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3427,"Mid Glitch","An error has occurred. Being too close or too far from other players will result in increased damage taken.",15129,0,0,1,2,17,533,False,False,False,False,False,False,False,False,False,150,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3428,"Remote Glitch","An error has occurred. Being too close to other players will result in increased damage taken.",15130,0,0,1,2,17,532,False,False,False,False,False,False,False,False,False,150,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3429,"Critical Performance Bug","Affected by a critical error. Coming in contact with allies will cause data corruption to spread. Corruption will cause explosive damage when the effect ends.",15131,0,0,1,2,17,557,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3430,"Synchronization Debugger","Invulnerable to critical synchronization bugs.",15918,0,0,1,2,16,0,False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 3431,"Overflow Debugger","Invulnerable to critical overflow bugs.",15919,0,0,1,2,16,0,False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 3432,"Underflow Debugger","Invulnerable to critical underflow bugs.",15920,0,0,1,2,16,0,False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,True,0,False,0,False,0,0,0,False
-3433,"_rsv_3433_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3433_-1_1_1_0_S74CFC3B0_E74CFC3B0",15132,0,0,1,2,16,0,False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3433,"Performance Debugger","Invulnerable to critical performance bugs.",15132,0,0,1,2,16,0,False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 3434,"Latent Synchronization Bug","Affected by a hidden error that will cause explosive damage when the effect ends. Effect canceled upon being hit by a certain action.",15133,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,220,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3435,"_rsv_3435_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3435_-1_1_1_0_S74CFC3B0_E74CFC3B0",15134,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3435,"Latent Performance Defect","Affected by a hidden error that will cause explosive damage when the effect ends. Effect canceled upon being hit by a certain action.",15134,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3436,"Synchronization Code Smell","Hints of faulty programming are arising. Issues will manifest as a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Critical Synchronization Bug<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when this effect expires.",15135,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3437,"Overflow Code Smell","Hints of faulty programming are arising. Issues will manifest as a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Critical Overflow Bug<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when this effect expires.",15136,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3438,"Underflow Code Smell","Hints of faulty programming are arising. Issues will manifest as a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Critical Underflow Bug<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when this effect expires.",15137,0,0,1,2,17,556,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3439,"_rsv_3439_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3439_-1_1_1_0_S74CFC3B0_E74CFC3B0",15138,0,0,1,2,17,557,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3439,"Performance Code Smell","Hints of faulty programming are arising. Issues will manifest as a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Critical Performance Bug<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when this effect expires.",15138,0,0,1,2,17,557,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3440,"Local Code Smell","Hints of corrupted programming are arising. Issues will manifest as <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Local Regression<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when this effect expires.",15139,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3441,"Remote Code Smell","Hints of corrupted programming are arising. Issues will manifest as <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Remote Regression<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when this effect expires.",15140,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,230,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3442,"_rsv_3442_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3442_-1_1_1_0_S74CFC3B0_E74CFC3B0",15141,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3443,"_rsv_3443_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3443_-1_1_1_0_S74CFC3B0_E74CFC3B0",15142,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3444,"_rsv_3444_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3444_-1_1_1_0_S74CFC3B0_E74CFC3B0",19657,0,3,1,1,16,0,False,False,False,False,False,False,False,True,True,255,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3442,"Hello, Near World","Subject to Omega's influence. Designated attack will occur when this effect expires.",15141,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3443,"Hello, Distant World","Subject to Omega's influence. Designated attack will occur when this effect expires.",15142,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3444,"Quickening Dynamis ","Dynamis is flickering to life, inspired by Omega's fledgling passion.",19657,0,3,1,1,16,0,False,False,False,False,False,False,False,True,True,255,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 3445,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3446,"_rsv_3446_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3446_-1_1_1_0_S74CFC3B0_E74CFC3B0",15143,0,0,1,1,29,0,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,True,0,False,0,False,0,0,0,False
-3447,"_rsv_3447_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3447_-1_1_1_0_S74CFC3B0_E74CFC3B0",15144,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3448,"_rsv_3448_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3448_-1_1_1_0_S74CFC3B0_E74CFC3B0",15145,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3446,"Brilliant Dynamis","Burning with dynamis inspired by Omega's passion and exceeding own limits.",15143,0,0,1,1,29,0,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3447,"Code: ****mi*","Transformed by a variable previously discarded as unimportant. Burning with an incomprehensible energy, and exceeding own limits.",15144,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3448,"Spark of Dynamis","Burning with dynamis inspired by Omega's passion.",15145,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 3449,"Omega","Inscrutable.",15909,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3450,"Infinite Limit","Actions transcending standard limits.",15910,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,199,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 3451,"Fourth in Line","Marked as target #4.",15118,0,0,1,2,17,0,False,False,False,False,False,False,False,True,True,250,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3452,"_rsv_3452_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3452_-1_1_1_0_S74CFC3B0_E74CFC3B0",15146,0,0,1,2,16,534,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3453,"_rsv_3453_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3453_-1_1_1_0_S74CFC3B0_E74CFC3B0",15146,0,0,1,2,16,535,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3452,"Oversampled Wave Cannon Loading","Preparing oversampled wave cannon, which will fire in the direction of designated player when this effect expires.",15146,0,0,1,2,16,534,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3453,"Oversampled Wave Cannon Loading","Preparing oversampled wave cannon, which will fire in the direction of designated player when this effect expires.",15146,0,0,1,2,16,535,False,False,False,False,False,False,False,True,True,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3454,"Omega-M","Mimicking the male form.",15925,69,0,1,1,16,0,False,False,False,False,True,False,False,True,True,0,0,False,False,0,2,False,0,False,0,False,0,0,0,False
 3455,"Superfluid","In a transitional liquid state.",15927,69,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3456,"Looper","Corrupted by Omega's program loop.",15892,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,True,0,False,0,False,0,0,0,False
@@ -3478,7 +3478,7 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 3460,"Blooming Gold","Resistant to goldblossom aether.",15125,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,True,0,False,0,False,0,0,0,False
 3461,"Featherbrained","The incessant chirping of birds is scattering thoughts, preventing all action.",16410,0,0,1,2,17,0,True,False,True,False,False,False,False,False,True,100,0,False,False,0,4,False,0,False,0,False,0,0,0,False
 3462,"Poison","Toxins are causing damage over time.",17001,54,8,1,2,1,0,False,False,False,False,False,False,False,False,False,10,0,False,False,10,0,False,0,False,5,False,0,0,0,False
-3463,"Dirty Claw","Deadened nerves are sometimes preventing the execution of actions.",15006,0,0,1,2,5,0,False,False,False,False,False,False,True,False,False,100,0,False,False,20,0,False,0,False,0,False,0,0,0,False
+3463,"Paralysis","Deadened nerves are sometimes preventing the execution of actions.",15006,0,0,1,2,5,0,False,False,False,False,False,False,True,False,False,100,0,False,False,20,0,False,0,False,0,False,0,0,0,False
 3464,"Slow","Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",15009,5,0,1,2,13,0,False,False,False,False,False,False,True,False,False,50,0,False,False,15,0,False,0,False,0,False,0,0,0,False
 3465,"Stun","Unable to execute actions.",15004,0,0,1,2,3,2,True,False,True,False,False,False,True,False,False,100,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3466,"Sleep","Overwhelming drowsiness is preventing the execution of actions",15013,1,0,1,2,2,3,True,False,True,False,False,False,True,False,False,100,0,False,False,0,0,False,0,False,0,False,0,3,0,False
@@ -3547,7 +3547,7 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 3529,"Local Regression","Affected by a patch error. Data corruption will cause damage when in close proximity to others affected by the same error, or when the effect ends.",15923,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3530,"Remote Regression","Affected by a patch error. Data corruption will cause damage when out of range of others affected by the same error, or when the effect ends.",15924,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,230,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3531,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3532,"_rsv_3532_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3532_-1_1_1_0_S74CFC3B0_E74CFC3B0",15171,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3532,"Magic Number","Affected by a factor that Omega previously considered meaningless. This effect can be dispelled via healer limit break. ",15171,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,240,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3533,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3534,"Ancient Circle","Fell darkness spreads out from where you stand. The <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ancient Circle<UIGlow>01</UIGlow><UIForeground>01</UIForeground> will activate when this effect expires.",15770,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,23,0,False
 3535,"Dark Whispers","Cursed by tongues of stygian flame, which will unleash a dark attack when this effect expires.",15305,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,23,0,False
@@ -3557,12 +3557,262 @@ Will grant the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGl
 3539,"About Face","Have received the order to retreat. Order will be executed when status fades.",15775,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3540,"Left Face","Have received the order to move left. Order will be executed when status fades.",15776,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3541,"Right Face","Have received the order to move right. Order will be executed when status fades.",15777,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3542,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3543,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3544,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3545,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3542,"Soul of the Mage","Wielding the power of an ancient magos.",15173,89,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3543,"Soul of the Martialist","Wielding the power of an ancient pankratiast.",15174,89,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3544,"Soul of the Beast","Wielding the power of an ancient therion.",15175,89,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3545,"_rsv_3545_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3545_-1_1_1_0_S74CFC3B0_E74CFC3B0",15176,89,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3546,"Radiant Veil","A magicked barrier is nullifying damage.",12509,0,0,20,1,16,0,False,False,False,False,False,False,False,False,False,30,0,False,False,100,0,False,0,False,0,False,0,12,0,False
-3547,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3548,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3549,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3550,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3547,"Binding Soul Snare","Bound by web and unable to move. Taking damage and becoming further entangled over time. A stack of 5 will result in KO.",18072,3,5,1,2,12,617,False,True,False,False,False,False,False,False,False,100,0,False,False,10,0,False,0,False,0,False,0,0,0,False
+3548,"Heavy Soul Snare","Caught in a web, reducing movement speed and causing damage over time. A stack of 4 will result in severe poisoning.",18132,0,4,1,2,4,580,False,False,False,False,False,False,False,False,False,100,0,False,False,10,1,False,0,False,0,False,0,0,0,False
+3549,"Incapacitating Soul Snare","Entangled in web and unable to execute actions.",15191,0,0,1,2,17,0,True,False,True,True,False,False,False,True,True,150,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3550,"_rsv_3550_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3550_-1_1_1_0_S74CFC3B0_E74CFC3B0",15192,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,210,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3551,"_rsv_3551_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3551_-1_1_1_0_S74CFC3B0_E74CFC3B0",15193,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,205,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3552,"Fetters","Unable to execute actions.",15545,0,0,1,2,17,71,True,False,True,True,False,False,False,False,False,100,0,False,False,0,4,False,0,False,0,False,0,0,0,False
+3553,"Light's Accord","Though aetherial polarity is tilting toward the Light, balance with Darkness remains intact.",15197,89,0,1,2,17,606,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3554,"Dark's Accord","Though aetherial polarity is tilting toward the Dark, balance with Light remains intact.",15196,89,0,1,2,17,607,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3555,"Light's Discord","Aetherial polarity is tilting dangerously toward the Light. Failure to restore the balance with Darkness will result in damage taken.",15195,89,0,1,2,17,604,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3556,"Dark's Discord","Aetherial polarity is tilting dangerously toward the Dark. Failure to restore the balance with Light will result in damage taken.",15194,89,0,1,2,17,605,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3557,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3558,"","",0,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,True,False,0,28,True,0,False,0,False,0,0,0,False
+3559,"Polarizing","Aetherially unbalanced and taking damage over time. Resistance to certain attacks is decreased.",18506,0,5,1,2,17,0,False,False,False,False,False,False,False,False,False,190,0,False,False,10,0,False,0,False,5,False,0,0,0,False
+3560,"Alpha Target","Marked as the target of a particular attack.",14103,0,0,1,2,17,0,False,False,False,False,False,False,False,True,True,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3561,"Beta Target","Marked as the target of a particular attack.",14104,0,0,1,2,17,0,False,False,False,False,False,False,False,True,True,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3562,"System Error","A system error is increasing damage taken.",15020,40,0,1,2,17,0,False,False,False,False,False,False,False,False,True,100,0,False,False,20,28,True,0,False,0,False,0,0,0,False
+3563,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3564,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3565,"ヴァリアント・ケアル設定","ヴァリアント・ケアルをセットし、一時的に使用可能になった状態。",16739,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,1,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3566,"ヴァリアント・アルティメイタム設定","ヴァリアント・アルティメイタムをセットし、一時的に使用可能になった状態。",16740,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,2,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3567,"ヴァリアント・レイズ設定","ヴァリアント・レイズをセットし、一時的に使用可能になった状態。",16741,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,3,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3568,"ヴァリアント・スピリットダート設定","ヴァリアント・スピリットダートをセットし、一時的に使用可能になった状態。",16742,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,4,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3569,"ヴァリアント・ランパート設定","ヴァリアント・ランパートをセットし、一時的に使用可能になった状態。",16743,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,5,0,False,False,0,0,True,0,False,0,False,0,0,0,False
+3570,"Wrathful Revelation","Overcome by divine wrath and unable to move.",14105,0,0,1,2,17,72,False,True,True,True,False,False,False,False,False,200,0,False,False,0,4,True,0,False,0,False,0,0,0,False
+3571,"Delightful Revelation","Overcome by divine joy and unable to move.",14106,0,0,1,2,17,72,False,True,True,True,False,False,False,False,False,200,0,False,False,0,4,True,0,False,0,False,0,0,0,False
+3572,"","",0,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,20,True,0,False,0,False,0,0,0,False
+3573,"Flames of Eventide","Beset by draconic flames. A stack of 3 will result in severe damage.",18806,0,5,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3574,"Eventide Sword","Wielding Azdaja's might as a blade.",15178,0,0,1,1,0,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3575,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3576,"_rsv_3576_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3576_-1_1_1_0_S74CFC3B0_E74CFC3B0",15179,89,0,1,2,17,0,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3577,"_rsv_3577_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3577_-1_1_1_0_S74CFC3B0_E74CFC3B0",15180,89,0,1,2,17,0,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3578,"_rsv_3578_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3578_-1_1_1_0_S74CFC3B0_E74CFC3B0",15181,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,198,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3579,"_rsv_3579_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3579_-1_1_1_0_S74CFC3B0_E74CFC3B0",15182,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3580,"_rsv_3580_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3580_-1_1_1_0_S74CFC3B0_E74CFC3B0",15183,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3581,"_rsv_3581_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3581_-1_1_1_0_S74CFC3B0_E74CFC3B0",15184,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3582,"_rsv_3582_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3582_-1_1_1_0_S74CFC3B0_E74CFC3B0",15185,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3583,"_rsv_3583_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3583_-1_1_1_0_S74CFC3B0_E74CFC3B0",15186,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3584,"_rsv_3584_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3584_-1_1_1_0_S74CFC3B0_E74CFC3B0",15187,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3585,"Enchained Soul","Spiritually chained to the terrestrial plane and unable to jump.",15188,0,0,1,2,17,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3586,"_rsv_3586_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3586_-1_1_1_0_S74CFC3B0_E74CFC3B0",15189,0,0,1,2,17,0,False,False,False,False,False,False,False,True,True,0,0,False,False,0,38,False,0,False,0,False,0,0,0,False
+3587,"Missing Link","Bound by metaphysical chains, causing damage over time.",15190,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3588,"_rsv_3588_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3588_-1_1_1_0_S74CFC3B0_E74CFC3B0",15328,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3589,"_rsv_3589_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3589_-1_1_1_0_S74CFC3B0_E74CFC3B0",18826,0,5,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3590,"_rsv_3590_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3590_-1_1_1_0_S74CFC3B0_E74CFC3B0",15198,0,0,1,2,17,623,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3591,"_rsv_3591_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3591_-1_1_1_0_S74CFC3B0_E74CFC3B0",15199,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3592,"_rsv_3592_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3592_-1_1_1_0_S74CFC3B0_E74CFC3B0",18052,0,8,1,2,17,623,False,False,False,False,False,False,False,False,True,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3593,"_rsv_3593_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3593_-1_1_1_0_S74CFC3B0_E74CFC3B0",17178,0,2,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3594,"_rsv_3594_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3594_-1_1_1_0_S74CFC3B0_E74CFC3B0",15200,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3595,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3596,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3597,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3598,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3599,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3600,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3601,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3602,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3603,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3604,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3605,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3606,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3607,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3608,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3609,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3610,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3611,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3612,"Spicy Circulation XXII","Reforged by the flames of truly challenging curry.",16252,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3613,"Spicy Circulation I","Warmed and invigorated by a bowl of hot curry.",16253,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3614,"Honed Eye","Damage taken is reduced.",13307,0,0,1,1,16,0,False,False,False,False,False,False,False,False,False,0,0,False,False,-20,0,False,0,False,0,False,0,0,0,False
+3615,"Imposing Figure","Enmity is increased.",13314,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,0,0,False,False,500,0,True,0,False,0,False,0,0,0,False
+3616,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3617,"_rsv_3617_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3617_-1_1_1_0_S74CFC3B0_E74CFC3B0",14107,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,198,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3618,"_rsv_3618_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3618_-1_1_1_0_S74CFC3B0_E74CFC3B0",14108,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,198,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3619,"Dark Resistance Down","Dark resistance is reduced.",15598,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3620,"Hoofing It","Unable to summon or ride mounts.",16232,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,True,0,False,0,False,0,47,0,False
+3621,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3622,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3623,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3624,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3625,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3626,"Fire Loaded","Primed with fire-aspected aether.",15791,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3627,"Ice Loaded","Primed with ice-aspected aether.",15792,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3628,"Lightning Loaded","Primed with lightning-aspected aether.",15793,0,0,1,1,16,0,False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3629,"Forced March","Advancing in the ordered direction.",15773,67,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3630,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3631,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3632,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3633,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3634,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3635,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3636,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3637,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3638,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3639,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3640,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3641,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3642,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3643,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3644,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3645,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3646,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3647,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3648,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3649,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3650,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3651,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3652,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3653,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3654,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3655,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3656,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3657,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3658,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3659,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3660,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3661,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3662,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3663,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3664,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3665,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3666,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3667,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3668,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3669,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3670,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3671,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3672,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3673,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3674,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3675,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3676,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3677,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3678,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3679,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3680,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3681,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3682,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3683,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3684,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3685,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3686,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3687,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3688,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3689,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3690,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3691,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3692,"Concentrated Poison","Powerful poison is slowly draining HP while reducing HP recovery.",18581,0,8,1,2,17,0,False,False,False,False,False,False,False,False,False,50,0,False,False,5000,0,False,0,False,5,False,0,0,0,False
+3693,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3694,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3695,"Fourfold-come Ruin","Bearing signs that the end may be nigh. Too many stacks will result in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Doom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",19861,0,4,1,2,17,0,False,False,False,False,False,False,False,False,False,100,0,False,False,0,0,False,0,False,0,False,0,23,0,False
+3696,"_rsv_3696_-1_1_0_0_S74CFC3B0_E74CFC3B0","_rsv_3696_-1_1_1_0_S74CFC3B0_E74CFC3B0",14110,0,0,1,2,17,0,False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3697,"Seized","Held in a vicelike grip and cannot act. Taking damage over time.",15564,0,0,1,2,17,0,True,False,True,False,False,False,False,True,True,0,0,False,False,500,0,False,0,False,1,False,0,0,0,False
+3698,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3699,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3700,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3701,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3702,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3703,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3704,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3705,"Windburn","Sustaining wind damage over time.",15526,89,0,1,2,17,0,False,False,False,False,False,False,False,True,True,100,0,False,False,10,0,False,0,False,6,False,0,0,0,False
+3706,"Windburn","Sustaining wind damage over time.",15526,89,0,1,2,17,0,False,False,False,False,False,False,False,False,False,100,0,False,False,10,0,False,0,False,6,False,0,0,0,False
+3707,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3708,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3709,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3710,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3711,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3712,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3713,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3714,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3715,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3716,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3717,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3718,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3719,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3720,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3721,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3722,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3723,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3724,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3725,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3726,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3727,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3728,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3729,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3730,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3731,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3732,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3733,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3734,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3735,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3736,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3737,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3738,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3739,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3740,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3741,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3742,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3743,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3744,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3745,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3746,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3747,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3748,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3749,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3750,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3751,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3752,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3753,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3754,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3755,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3756,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3757,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3758,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3759,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3760,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3761,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3762,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3763,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3764,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3765,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3766,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3767,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3768,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3769,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3770,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3771,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3772,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3773,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3774,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3775,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3776,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3777,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3778,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3779,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3780,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3781,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3782,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3783,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3784,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3785,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3786,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3787,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3788,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3789,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3790,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3791,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3792,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3793,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3794,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3795,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3796,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3797,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3798,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3799,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3800,"","",0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False

@@ -34,7 +34,9 @@ int32,str,str
 28,"TEXT_CMNDEFRETAINERBELL_00544_ASK_RESET_JOB","Your retainer's copy of <Emphasis>Modern Vocation</Emphasis> will be permanently discarded. Are you sure you wish to proceed?"
 29,"TEXT_CMNDEFRETAINERBELL_00544_ASK_RESET_CLASS","Reset <Highlight>StringParameter(1)</Highlight>'s class/job?
 (<Clickable(<Sheet(ClassJob,IntegerParameter(2),0)/>)/>: Level <Value>IntegerParameter(3)</Value>)
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Resetting will revert this class/job to level 1.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Resetting will revert this class/job to level 1.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<If(Equal(IntegerParameter(5),1))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Retainer venture history will also be reset.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<Else/></If>"
 30,"TEXT_CMNDEFRETAINERBELL_00544_ASK_RESET_CLASS_CHECK","Reset class/job."
 31,"TEXT_CMNDEFRETAINERBELL_00544_GO_BACK","Return."
 32,"TEXT_CMNDEFRETAINERBELL_00544_NO_CLASS_WARNING","You must select a class for your retainer before you assign a venture."

@@ -1004,8 +1004,7 @@ The remnants of that mad plan still litter the frozen lowlands, as well as other
 299,"Similarly to Seal Rock (Seize), the first alliance to accumulate the required amount of data will be declared the winner, and the remaining alliances will be ranked according to their respective ratings. Data is accumulated by:
 
 　1. Defeating enemy players
-　2. Occupying Allagan tomeliths
-　3. Destroying icebound tomeliths
+　2. Destroying icebound tomeliths
 
 In the event that none of the three alliances accumulates the required amount of data within the time limit, victory will be awarded to the alliance with the most data."
 300,"Occupying Allagan Tomeliths"
@@ -1014,7 +1013,7 @@ In the event that none of the three alliances accumulates the required amount of
 303,"The data from icebound tomeliths can be collected by attacking them, and once they are destroyed, data will be rewarded to each Grand Company based on the amount of damage inflicted.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Activating Icebound Tomeliths■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a fixed amount of time. Icebound tomeliths that have been destroyed will not reactivate. As time passes, more icebound tomeliths will activate, and the order in which they do so differs in every campaign. In some cases, several tomeliths may activate at the beginning of the campaign, while in others, they will activate at a steady pace. Regardless of the timing and frequency, all tomeliths on the map will be active by the end of the campaign.
+Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a short period of time. Any icebound tomeliths destroyed during the course of the campaign will regenerate in an inactive state after a fixed amount of time.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Icebound Tomelith■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Active icebound tomeliths will be either large or small, with large tomeliths containing more data."
@@ -1056,6 +1055,8 @@ Up to 24 players may join an Ocean Fishing voyage, solo or in parties of up to e
 
 ■How to Participate
 Speak with Dryskthota at the ferry docks to register as a crew member and board the <Emphasis>Endeavor</Emphasis>. Registration periods last for 15 minutes and occur every two hours (Earth time). If registering as a party, the party leader must register. The ship will depart when 24 crew members have been assembled or the registration period has ended, even if there are fewer than 24 crew members. Registration times may be viewed from the Sailing Schedule.
+
+Progressing through the main scenario will give access to an additional route known as the Ruby route. Details on how to  unlock this route can be found from the Sailing Schedule.
 
 ■Rewards
 By meeting certain conditions while fishing during the voyage, players will receive achievements that reward special titles, mounts, and minions. Fishers who are level 50 or above and have completed the requisite quest may also receive gatherers' scrips as rewards."
@@ -1856,10 +1857,10 @@ Both casual and ranked matches are held in a variety of different arenas. The st
 589,"Risers and Tiers"
 590,"A player's riser and tier indicate their demonstrated skill in ranked Crystalline Conflict matches."
 591,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Tier■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Once they have attained a particular tier, a player will never drop down to a lower tier during that season.
+Each player will rate in one of six tiers─Bronze, Silver, Gold, Platinum, Diamond, or Crystal. Players ranked in or below the Platinum tier will never drop down to a lower tier during that season. However, it is possible to drop to a lower tier from the Diamond or Crystal tiers.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Riser■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Unlike tiers, it is possible to drop down to a lower riser.
+The sub-levels within each tier are called “risers.” The number of risers varies per tier, with three risers each for Bronze and Silver, four for Gold and Platinum, and five within the Diamond tier. Regardless of tier placement, it is always possible for players to drop down to a lower riser.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Rising Stars■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 When you win a ranked match, you will gain one Rising Star. Similarly, a loss will remove one Star. Once you have earned the maximum three Rising Stars in one riser, an additional win will allow you to move up a riser. Winning three or more matches in a row while in the Bronze, Silver, Gold, Platinum, or Diamond tier will apply a streak bonus, netting you two Rising Stars per win.
@@ -2375,7 +2376,7 @@ Constructing landmarks and renovating your granaries will increase the amount of
 Free-range Minions menu and get started."
 742,"■Release the Minions!
 The Free-range Minions menu displays the current population of released minions in each available area. After selecting your desired area, press Select Minions and let loose your tiny friends via subcommand.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You can release one of each minion, up to a maximum of 40 minions.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You can release one of each minion, up to a starting maximum of 40 minions. You will be able to release more minions as your island development progresses.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Please note that your minions are enjoying this island paradise as much as you are, and may therefore seem different than they do when accompanying you on your journeys.
 
@@ -2820,7 +2821,7 @@ Please note that you cannot earn credit for previous floors when starting from f
 896,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Trick Floors■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Standing upon a trick floor for too long will trigger a Tatami Twist, launching the unwitting loiterer into the air and inflicting damage. If your Guard is active, it will be depleted by the effort of staying upright."
 897,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Trick Door■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless."
+Players who approach these false gates will find themselves teleported instantly to another door, far away from the expected trajectory. Trick doors only operate in one direction, so attempting to return the way you came will prove fruitless, and players may discover that passage is denied entirely whilst executing certain actions."
 898,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Pneumatic Parades■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 When a pneumatic parade begins, the clockwork onmyoji and clockwork yojimbo will join the fray. These puppets travel a predetermined path through the arena and unleash their unique attacks upon arriving in the vicinity of the centerpoint, checkpoints, and goals.
 
@@ -2829,3 +2830,187 @@ While the clockwork yojimbo will obliterate its surroundings with strong physica
 　・Increased damage taken"
 899,"During the midst of the parade, infamous soy sauce mogul Kageyama will make his grand appearance upon a stage outside the arena, and shower combatants with glimmering coin. Players who get their hands on a pile of gold will enjoy the following effect:
 　・A boost to the limit gauge"
+900,"Island Sanctuary Furnishings"
+901,"Furnishing Glamours"
+902,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Furnishings may be placed on your island sanctuary as glamours, allowing you to further personalize your tropical hideaway.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+903,"■Placing Furnishing Glamours
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>The furnishings that appear on your island are glamours of furnishing items you own.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Select “Manage Furnishings” from the islekeep's index to place, color, or preview available furnishings."
+904,"You only need to possess one of any given furnishing item to place it as many times as you'd like on your island─within reason, of course.
+
+There is a limit to the number of furnishing items allowed on your island at once. This number will increase as island development progresses.
+
+Glamours may be placed in areas designated for furnishing. However, some existing furnishing items are not compatible with glamours and therefore cannot be placed anywhere on your island.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You do not need prisms to place furnishing glamours, and furnishing items will remain in your inventory even after you have placed them as glamours. However, please note that placing a glamour will bind the furnishing item to you, preventing future trade or sale to other players.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+■Registering Glamours
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Island prisms may be used to register furnishing glamours.<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Registered glamours may be placed as many times as desired via the Registered Glamours list, which can be toggled to from the Furnishing Glamours window.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>You may register up to 120 furnishing glamours.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+You can register a furnishing glamour in the following ways:
+①Via the subcommand of the item while managing island furnishings
+②Via the subcommand of the glamour in your Placed Glamours list
+③Via the prompt when placing a glamour
+④Via the prompt when removing a glamour
+
+■Coloring Glamours
+Furnishing glamours may be painted by selecting “Manage Furnishings” from the islekeep's index, followed by “Color Furnishing Glamours.”
+
+As with regular furnishings, dye is required to change the color of furnishing glamours."
+905,"Fashion Accessory Basics"
+906,"Types of Fashion Accessories"
+907,"Hotbar Settings"
+908,"Accessory Display Conditions"
+909,"Auto-umbrella"
+910,"Looking to add that extra bit of flair to your favorite glamour? Why not try a fashion accessory on for size?"
+911,"To add a fashion accessory to your collection, use the corresponding item in your inventory. To equip your new accessory or assign it to the hotbar for later use, open the Fashion Accessories window from the Character section of the main menu.
+
+You may stow your current accessory via the “Use” subcommand in the Fashion Accessories menu, or by selecting “Put Away” on the pet hotbar.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Fashion accessories are unavailable in dungeons and certain other areas. <UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+912,"Many types of fashion accessories can be found throughout the realm, including colorful parasols and umbrellas, stylish glasses, and wings of all shapes and sizes.
+
+Some accessories come with unique actions─for example, equipping an umbrella or parasol will allow you to perform an umbrella dance."
+913,"The world of fashion is ever-changing, and new innovations may give rise to more types of accessories in the future. Keep an eye out for the latest trends!"
+914,"The pet hotbar will appear when a fashion accessory is equipped, allowing you to easily change poses and perform unique actions.
+
+By default, the pet hotbar automatically replaces a hotbar or cross hotbar. You may disable this function from the Hotbar Settings tab of the Character Configuration menu.
+
+■Disable Automatic Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace hotbar 1 when a fashion accessory is equipped.”"
+915,"Fashion accessories will remain equipped while you speak with NPCs, engage in battle, and ride mounts.
+
+Some accessories may disappear for a short time while performing certain actions, but they will remain equipped.
+
+For example, if a parasol is equipped, riding a mount will temporarily hide it, but the parasol will display again once you have dismounted."
+916,"Afeared of being soaked by a sudden downpour? Keep your favorite umbrella or parasol at the ready with the auto-umbrella feature!
+
+Simply open the Fashion Accessories window under Character in the main menu, then select “Enable Auto-umbrella” from the subcommands of your preferred umbrella or parasol. The accessory you selected will be brought out the moment the rain begins, and put away once the weather clears up or you find shelter.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※You may only set one auto-umbrella at a time.
+※The auto-umbrella function is disabled in certain areas.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+917,"Fashion Accessories"
+918,"■Disable Automatic Cross Hotbar Replacement
+From the Character Configuration menu, select the Hotbar Settings tab. Uncheck “Automatically replace cross hotbar with pet hotbar.”"
+919,"Gear Set Basics"
+920,"Purpose of Gear Sets"
+921,"A <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gear set<UIGlow>01</UIGlow><UIForeground>01</UIForeground> allows you to register and save your current equipment.
+
+Numerous gear sets can be registered to make efficient use of the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Armoury system<UIGlow>01</UIGlow><UIForeground>01</UIForeground>─by registering gear sets with different weapons or tools equipped to your main hand, you may switch between classes and jobs instantly without the need to manually equip each piece of gear.
+
+If you unlock a new class or job, you may find it helpful to register a gear set for it."
+922,"Making the Most of Gear Sets"
+923,"Using Gear Sets"
+924,"Firstly, let's create a gear set using the items you currently have equipped.
+
+■How to Register a Gear Set
+1. Open Character from the main menu, then select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gear Set List button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> on the top right.
+2. A new window will be displayed. Select the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>plus button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> found in the top left corner.
+3. Your current equipment will now be registered as a new gear set.
+
+■How to Equip a Gear Set
+1. Open Gear Set List and select the desired gear set.
+2. Confirm your selection with the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Equip Set button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> at the bottom of the window.
+
+An “E” icon next to a gear set indicates your currently equipped selection."
+925,""
+926,"Useful Commands"
+927,"The gear set list includes many useful subcommands which can allow you to quickly check the equipment in a set, rename a set, or reorder the list itself."
+928,"■Display Set
+Display the equipment registered to the gear set in a slot-specific list.
+
+■Preview
+View your character wearing the selected gear set."
+929,"Updating Gear Sets"
+930,"Changes to your equipment can easily be reflected to your currently selected gear set.
+
+■How to Update Gear Sets
+1. Open Character from the main menu.
+2. Press the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Update Gear Set button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the top right corner.
+
+Remember to update your gear sets whenever you upgrade your equipment or make changes to materia!"
+931,"■Reassign Set Number
+Directly assign a gear set number. Using an existing gear set number will result in the two sets swapping numbers.
+
+■Move Set Up/Down
+Shift a gear set to the number above or below it on the list.
+※Deleted set numbers will be skipped.
+
+Make use of these commands to assign a convenient number or order to the gear sets you use most often."
+932,"■Link to Glamour Plate
+You can change the outward appearance of gear sets by linking them to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour plates<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Furthermore, by registering the same equipment as multiple gear sets, each set can be linked a different glamour plate, allowing you to switch looks to match your current mood at the touch of a button!
+
+After linking a gear set, the glamour plate's number will be displayed to the right of the list. Please note that glamour plates can only be applied to equipment while within areas that classify as sanctuaries.
+
+■Remove Glamour Plate Link
+Links to glamour plates can be removed with the gear set subcommand. Existing links must also be removed before you will be able to assign a different glamour plate.
+
+■Creating Glamour Plates
+Read the section in this guide entitled “Customizing Ensembles” to learn more about creating glamour plates."
+933,""
+934,"■Change Set Name
+Your current class or job will become the default name for a newly registered set. You can use the subcommand to change this name freely, a function which comes in especially useful when creating multiple sets for the same class/job.
+
+■Delete Set
+Remove unwanted sets from the list. The numbers assigned to these sets will also be removed."
+935,""
+936,"Customizing Ensembles"
+937,""
+938,"A Picture of You"
+939,"Fashion Functionality"
+940,"While much of the equipment in FINAL FANTASY XIV provides advantages in battle, certain pieces are worn purely for the sake of fashion. Mix and match your favorite fashion items to create a style all your own!
+
+A special sidequest will unlock customization options allowing you to use these favored pieces to change the appearance of other equipment. Combined with the flexibility of gear sets, you control how you wish to look as you forge ahead on your adventures."
+941,"Casting Glamours"
+942,"Glamours are a means of projecting the appearance of one piece of equipment onto another. This can be accomplished with the subcommand on the item you wish to alter, or by using Cast Glamour from Actions & Traits.
+
+Casting glamours requires catalysts known as <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour prisms<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, with one prism being consumed per cast. Among other sources, glamour prisms can be obtained from the market board or from Grand Company quartermasters.
+
+The presence of a glamour is indicated by a symbol in the upper right corner of the item icon. Removing glamours requires the use of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour dispellers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which are also available from market boards or certain vendors. 
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Please note that, for the illusion to take effect, the projected gear must be compatible with the glamoured gear's level, class, race, and gender.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+943,"Glamour Plates"
+944,"Created using the glamour dressers found inside inn rooms, glamour plates are a means of projecting an entire ensemble onto your gear. When designing a glamour plate, the equipment you wish to project must be stored inside a glamour dresser or armoire.
+
+Ensembles saved to a glamour plate are applied with a single command, and can be projected over and over again without consuming glamour prisms. You can also use the gear set subcommand to link to plates, and instantly don your saved appearance by switching to the linked set."
+945,"Glamour Dresser"
+946,"Glamour dressers are available in every inn room, and can be used to store equipment as glamours. Any type of gear can be stored free of charge, up to the dresser's maximum capacity.
+
+The initial transformation consumes one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour prism<UIGlow>01</UIGlow><UIForeground>01</UIForeground> per item, but once glamoured gear has been added to a glamour plate, it can be projected onto your equipment as many times as you like at no cost."
+947,"Armoire"
+948,"Available in inn rooms or placed as furnishings in player estates, armoires are used to store artifact armor, seasonal event costumes, achievement rewards, bonus items, and other specific gear.
+
+An unlimited amount of equipment can be stored in the armoire at no cost, but please note that any dyes, crests, or glamours will be removed. Additionally, spiritbond will be reset to 0% and durability will be set to 100%.
+
+If you wish to keep dyes when storing items, or wish to use dyed items to cast glamours, the glamour dresser is the more suitable choice."
+949,"Dyeing Equipment"
+950,"You can change the coloring of various gear and furnishing items through the use of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>dyes<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, with one pot of dye being consumed for each distinct section of an item.
+
+Should you wish to restore gear to its original hue, a pot of terebinth removes the dye from a single item.
+
+Both dyes and terebinth are available from vendors and the market boards, and can also be crafted by Disciples of the Hand from level 30 onwards.
+
+Please note that not every piece of equipment is a candidate for dyeing. Items you can dye are marked with the corresponding symbol in the top right corner of their icons."
+951,""
+952,"Portraits"
+953,"Including options such as poses, expressions, camera angles, and picture frames, the portrait feature gives you the tools to create the perfect snapshot of your character.
+
+The portrait you compose will be displayed at a variety of times, including the commencement of dungeons and awarding player commendations, as well as the start of competitive matches such as Crystalline Conflict PvP and Doman mahjong in the Gold Saucer.
+
+To create a portrait, open Character from the main menu, and select Portraits. You can also open the portrait interface via the Edit Portrait subcommand in the gear set list.
+
+One portrait can be saved to each gear set. The portrait linked to your currently equipped gear set will be displayed as your instant portrait.
+
+For more information on how to edit your portraits, press the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>? button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> found at the bottom of the Portraits interface to access the corresponding guide."
+954,""
+955,""
+956,"Display Set"
+957,"Reordering Gear Sets"
+958,"Link to Glamour Plate"
+959,"Managing Gear Sets"
+960,"Other Useful Features"
+961,""
+962,""
