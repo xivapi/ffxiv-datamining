@@ -5831,7 +5831,7 @@ Notification of a reply will be displayed in <UIForeground>F201F4</UIForeground>
 6195,"Private Estate Possession Retrieval"
 6196,"Scheduled Estate Demolition"
 6197,"An estate is scheduled for immediate demolition."
-6198,"View estates secheduled for demolition."
+6198,"View estates scheduled for demolition."
 6199,"Next Exploratory Mission"
 6201,"Housing"
 6202,""
@@ -9343,8 +9343,9 @@ The ★ indicates your current client language setting.<UIGlow>01</UIGlow><UIFor
 <If(Equal(IntegerParameter(1),0))><UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※If the registration period overlaps with the weekly reset,
 　registration will be canceled.
 ※If 1 to 4 members have already received the weekly reward,
-　only one coffer will appear. No coffers will appear if 5 or
-　more members have received the reward.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
+　or if a member logs out or disconnects, the number of rewards
+　will be reduced. No coffers will appear if 5 or more members
+　have received the reward.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>"
 10091,"Unselect"
 10092,"Join"
 10093,"<If(Equal(IntegerParameter(1),IntegerParameter(2)))><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> player<If(Equal(IntegerParameter(1),1))><Else/>s</If><Else/><Clickable(<If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If>)/> to <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> players</If>
@@ -14236,9 +14237,9 @@ Release Area: <Highlight>StringParameter(2)</Highlight>
 15353,"Rank"
 15354,"Lang."
 15355,"Visitors"
-15356,"Change expedition area to the <SheetEn(MJIName,2,IntegerParameter(1),2,1)/>?"
+15356,"Change expedition area to <SheetEn(MJIName,2,IntegerParameter(1),2,1)/>?"
 15357,"Spend <Value>IntegerParameter(1)</Value> seafarer's cowries to extend the length of the expedition?"
-15358,"Spend <Value>IntegerParameter(1)</Value> seafarer's cowries to extend the length of the expedition and change the area to the <SheetEn(MJIName,2,IntegerParameter(2),2,1)/>?"
+15358,"Spend <Value>IntegerParameter(1)</Value> seafarer's cowries to extend the length of the expedition and change the area to <SheetEn(MJIName,2,IntegerParameter(2),2,1)/>?"
 15359,"Select Expedition Area"
 15360,"Register the agenda beginning with this item as a preset?"
 15361,"Sanctuary Settings"
@@ -14488,6 +14489,9 @@ Registered glamours may be placed as many times as desired from the Registered G
 15701," The Next Mander-level (Enhance Weapon)"
 15702," A Dedicated Tool (1st Enhancement)"
 15703," An Adaptive Tool (2nd Enhancement)"
+15704," In Need of Adjustment (Reforge Weapon)"
+15705," A Tool of Her Own (3rd Enhancement)"
+15706," A Tool without Compare (4th Enhancement)"
 15730,"Not Specified"
 15731,"Freshwater"
 15732,"Saltwater"
@@ -14533,6 +14537,25 @@ Registered glamours may be placed as many times as desired from the Registered G
 15834,"World"
 15835,"World"
 15836,"World"
+15840,"Please select three attributes.
+The third attribute will be set to a lower value."
+15842,"(<Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>)"
+15843,"Unselected"
+15844,"Confirm"
+15845,"Cancel"
+15846,"Adjusting attributes for <SheetEn(Item,2,IntegerParameter(1),1,1)/>."
+15847,"Adjustments"
+15848,"Expend <Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/>?"
+15849,"Cancel attribute adjustment?"
+15850,"Confirm attributes and receive <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
+15851,"Confirm attribute adjustment for <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Highlight>StringParameter(1)</Highlight><UIGlow>01</UIGlow><UIForeground>01</UIForeground>?"
+15852,"Critical Hit Rate"
+15853,"Direct Hit Rate"
+15854,"Skill Speed"
+15855,"Spell Speed"
+15856,"Tenacity"
+15857,"Determination"
+15858,"Piety"
 101000,"<CommandIcon(10)/> Subcommands"
 101001,"<CommandIcon(11)/>"
 101002,"<CommandIcon(19)/> Select"
