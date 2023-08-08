@@ -2,21 +2,31 @@
 #,,,,,,,,,,
 int32,int32,int32,byte,byte,byte,byte,byte,int32,str,str
 0,0,0,0,0,0,0,0,0,"",""
-1,0,0,0,0,0,0,0,0,"",""
-2,0,0,0,0,0,0,0,0,"",""
-3,0,0,0,0,0,0,0,0,"",""
-4,0,0,0,0,0,0,0,0,"",""
-5,0,0,0,0,0,0,0,0,"",""
-6,0,0,0,0,0,0,0,0,"",""
-7,0,0,0,0,0,0,0,0,"",""
-8,0,0,0,0,0,0,0,0,"",""
-9,0,0,0,0,0,0,0,0,"",""
-10,0,0,0,0,0,0,0,0,"",""
+1,20,0,30,3,1,1,1,15,"Pom Fire","Deals <Value>IntegerParameter(1)</Value> damage to a target in front of you.
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+2,10,8,40,4,3,3,2,25,"Pom Starstorm","Deals <Value>IntegerParameter(1)</Value> damage to all enemies in an area centered <Value>IntegerParameter(2)</Value> squares in front of you.
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+3,15,0,80,10,0,0,3,50,"Pom Meteor","Deals <Value>IntegerParameter(1)</Value> damage to all enemies.
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+4,50,0,10,1,0,0,4,0,"Pom Cure","Restores <Value>IntegerParameter(1)</Value> HP.
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+5,0,0,20,3,0,0,5,0,"Pom Esuna","Removes all detrimental effects except for Doom.
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+6,0,0,30,3,0,0,6,0,"Pom Ward","Erects a protective barrier around you.
+<If(GreaterThan(IntegerParameter(5),1))>Effect Turns<Else/>Effect Turn</If>: <Value>IntegerParameter(5)</Value>
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+7,0,0,20,3,0,0,7,0,"Pom Levitation","Grants invulnerability to floor effects.
+<If(GreaterThan(IntegerParameter(5),1))>Effect Turns<Else/>Effect Turn</If>: <Value>IntegerParameter(5)</Value>
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+8,0,0,50,99,0,0,8,0,"Pom Reraise","Grants automatic revival upon KO for the duration of the effect.
+MP Cost: <Value>IntegerParameter(3)</Value>   <If(GreaterThan(IntegerParameter(4),1))>Recast Turns<Else/>Recast Turn</If>: <Value>IntegerParameter(4)</Value>"
+9,100,0,0,0,0,0,0,0,"",""
+10,100,0,0,0,0,0,0,0,"",""
 11,0,0,0,0,0,0,0,0,"",""
 12,0,0,0,0,0,0,0,0,"",""
-13,0,0,0,0,0,0,0,0,"",""
-14,0,0,0,0,0,0,0,0,"",""
-15,0,0,0,0,0,0,0,0,"",""
+13,100,0,0,0,0,7,0,0,"",""
+14,10,2,0,0,0,1,0,0,"",""
+15,100,0,0,0,0,1,0,0,"",""
 16,0,0,0,0,0,0,0,0,"",""
 17,0,0,0,0,0,0,0,0,"",""
-18,0,0,0,0,0,0,0,0,"",""
+18,9999,0,0,0,0,0,0,0,"",""
