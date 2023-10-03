@@ -61,7 +61,7 @@ If this character is master of a free company for which there is no eligible suc
 53,0,0,0,"<Switch(IntegerParameter(3))><Case(1)>1st</Case><Case(2)>2nd</Case><Case(3)>3rd</Case><Case(4)>4th</Case><Case(5)>5th</Case><Case(6)>6th</Case><Case(7)>7th</Case><Case(8)>8th</Case><Case(9)>9th</Case><Case(10)>10th</Case><Case(11)>11th</Case><Case(12)>12th</Case><Case(13)>13th</Case><Case(14)>14th</Case><Case(15)>15th</Case><Case(16)>16th</Case><Case(17)>17th</Case><Case(18)>18th</Case><Case(19)>19th</Case><Case(20)>20th</Case><Case(21)>21st</Case><Case(22)>22nd</Case><Case(23)>23rd</Case><Case(24)>24th</Case><Case(25)>25th</Case><Case(26)>26th</Case><Case(27)>27th</Case><Case(28)>28th</Case><Case(29)>29th</Case><Case(30)>30th</Case><Case(31)>31st</Case><Case(32)>32nd</Case></Switch> Sun of the <Switch(IntegerParameter(2))><Case(1)>1st Astral</Case><Case(2)>1st Umbral</Case><Case(3)>2nd Astral</Case><Case(4)>2nd Umbral</Case><Case(5)>3rd Astral</Case><Case(6)>3rd Umbral</Case><Case(7)>4th Astral</Case><Case(8)>4th Umbral</Case><Case(9)>5th Astral</Case><Case(10)>5th Umbral</Case><Case(11)>6th Astral</Case><Case(12)>6th Umbral</Case></Switch> Moon","",""
 54,0,0,0,"","",""
 55,0,0,0,"","",""
-56,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case><Case(7)> (OC)</Case><Case(8)> (OC Legacy)</Case></Switch>","",""
+56,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)></Case><Case(4)> (NA)</Case><Case(5)> (NA Legacy)</Case><Case(6)> (EU)</Case><Case(7)> (EU Legacy)</Case><Case(8)> (OC)</Case><Case(9)> (OC Legacy)</Case><Case(10)></Case></Switch>","",""
 57,0,0,0,"Obtaining the World list...","",""
 58,0,0,0,"Unable to obtain the World list.","",""
 59,0,0,0,"Obtain updated World information. This feature can only be used once every <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If>.","",""
@@ -987,7 +987,7 @@ His symbol is the hourglass.","",""
 617,0,0,0,"Total Days Subscribed: <Format(IntegerParameter(1),FF022C)/><If(Equal(IntegerParameter(2),0))><Else/>
 Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 618,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> of play time remaining. Proceed to the Mog Station (https://sqex.to/Msp) to renew.","",""
-619,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> left on your free trial. <If(GreaterThan(PlayerParameter(75),0))>Proceed to PlayStation™Store to upgrade to the full version of FINAL FANTASY XIV and unlock all the game's features.<Else/>Visit the Square Enix Online Store (https://sqex.to/Msp) to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.</If>","",""
+619,0,0,0,"You have <Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If> left on your free trial. Proceed to <If(Equal(PlayerParameter(75),0))>the Square Enix Online Store (https://sqex.to/Msp)<Else/><If(Equal(PlayerParameter(78),99))>PlayStation™Store<Else/>Microsoft Store</If></If> to purchase the full version of FINAL FANTASY XIV and unlock all the game's features.","",""
 620,0,0,0,"","",""
 621,0,0,0,"Finalize your retainer's appearance?","",""
 622,0,0,0,"Cancel retainer customization.","",""
@@ -1181,10 +1181,11 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 805,0,0,0,"<Switch(IntegerParameter(1))><Case(1)>JP 1</Case><Case(2)>JP 2</Case><Case(3)>JP 3</Case><Case(4)>DC NA 1</Case><Case(5)>NA 2</Case><Case(6)>EU</Case></Switch>","",""
 806,0,0,0,"FINAL FANTASY XIV requires connecting to one of several data centers to play. The closer your physical location to the data center, the smoother gameplay will be.
 
-<If(GreaterThan(IntegerParameter(1),0))>The center you have selected is recommended for residents of <Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case></Switch>. Select if you wish to create a character and play in one of the Worlds listed.
-
+<If(GreaterThan(IntegerParameter(1),0))>The center you have selected is recommended for residents of <Switch(IntegerParameter(1))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case><Case(5)></Case><Case(6)></Case><Case(7)>North America</Case></Switch>. Select if you wish to create a character and play in one of the Worlds listed.
+<If(Equal(IntegerParameter(1),7))><UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>This data center is for cloud stress testing only. No connections can be made outside the test period.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<Else/></If>
 Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.<Else/>First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.</If>","",""
-807,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case><Case(7)> (OC)</Case><Case(8)> (OC Legacy)</Case></Switch>","",""
+807,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)></Case><Case(4)> (NA)</Case><Case(5)> (NA Legacy)</Case><Case(6)> (EU)</Case><Case(7)> (EU Legacy)</Case><Case(8)> (OC)</Case><Case(9)> (OC Legacy)</Case><Case(10)></Case></Switch>","",""
 808,0,0,0,"Connecting to data center.","",""
 809,0,0,0,"Acquiring character list.","",""
 810,0,0,0,"Proceed","",""
@@ -1193,7 +1194,7 @@ Each data center contains several unique Worlds (servers). If you have already d
 813,0,0,0,"North American Data Centers","",""
 814,0,0,0,"European Data Centers","",""
 815,0,0,0,"Oceanian Data Center","",""
-816,0,0,0,"","",""
+816,0,0,0,"NA Cloud Data Center (Beta)","",""
 817,0,0,0,"","",""
 818,0,0,0,"","",""
 819,0,0,0,"","",""
@@ -1208,7 +1209,8 @@ it is recommended, but not required, that you select a data center that is
 closer to where you will be playing. Legacy Worlds (servers existing since the
 original launch) are indicated in parentheses.
 
-<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case></Switch><Else/></If>.<If(Equal(IntegerParameter(2),1))>
+<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case><Case(5)></Case><Case(6)></Case><Case(7)>North America</Case></Switch><Else/></If>.<If(Equal(IntegerParameter(3),7))><UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>This data center is for cloud stress testing only. No connections can be made outside the test period.
+<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(Equal(IntegerParameter(2),1))>
 
 <Gui(99)/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EXP bonuses are currently being granted to all new players
 created on this world.<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(Equal(IntegerParameter(2),2))>
@@ -1220,7 +1222,7 @@ World Visit system to play on this one.<UIGlow>01</UIGlow><UIForeground>01</UIFo
 821,0,0,0,"(Skipped)","",""
 822,0,0,0,"Save <Switch(IntegerParameter(2))><Case(1)><Sheet(Tribe,IntegerParameter(1),0)/> male</Case><Case(2)><Sheet(Tribe,IntegerParameter(1),1)/> female</Case></Switch> character creation data to slot <Value>IntegerParameter(3)</Value>?","",""
 823,0,0,0,"Load character creation data for the <Switch(IntegerParameter(4))><Case(1)>male <Sheet(Tribe,IntegerParameter(3),0)/></Case><Case(2)>female <Sheet(Tribe,IntegerParameter(3),1)/></Case></Switch> saved to slot <Value>IntegerParameter(2)</Value> at <Time(IntegerParameter(1))/><Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> on <If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If>?","",""
-824,0,0,0,"Saved character creation data found in the FINAL FANTASY XIV folder. Select data to load and continue to the final step.","",""
+824,0,0,0,"Saved appearance data found in the FINAL FANTASY XIV folder. Select data to load and continue to the final step.","",""
 825,0,0,0,"Character creation data saved. Please wait until patch data download is complete. Finishing character creation will return you to the launcher.","",""
 826,0,0,0,"Character creation data saved. Please wait until patch data download is complete. Finishing character creation will return you to the launcher.","",""
 827,0,0,0,"Character creation data saved. Please close the application and return to the launcher.","",""
@@ -1241,10 +1243,10 @@ World Visit system to play on this one.<UIGlow>01</UIGlow><UIForeground>01</UIFo
 840,0,0,0,"Back Up Client Settings","",""
 841,0,0,0,"Back Up Character Settings","",""
 842,0,0,0,"Back Up Character Settings","",""
-843,0,0,0,"CLIENT SETTINGS BACKUP","",""
-844,0,0,0,"CHARACTER SETTINGS BACKUP","",""
-845,0,0,0,"CLIENT SETTINGS DATA","",""
-846,0,0,0,"CHARACTER SETTINGS DATA","",""
+843,0,0,0,"Client Settings Backup","",""
+844,0,0,0,"Character Settings Backup","",""
+845,0,0,0,"Client Settings Data","",""
+846,0,0,0,"Character Settings Data","",""
 847,0,0,0,"Download","",""
 848,0,0,0,"Upload","",""
 849,0,0,0,"","",""
@@ -1273,7 +1275,7 @@ World Visit system to play on this one.<UIGlow>01</UIGlow><UIForeground>01</UIFo
 867,0,0,0,"Recently Backed Up Characters (Same DC Only)","",""
 868,0,0,0,"No Data","",""
 869,0,0,0,"Backup Date: <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>","",""
-870,0,0,0,"[<Switch(IntegerParameter(1))><Case(1)>Win</Case><Case(2)>PS4</Case><Case(3)>Mac</Case><Case(4)>PS5</Case></Switch>]","",""
+870,0,0,0,"[<Switch(IntegerParameter(1))><Case(1)>Win</Case><Case(2)>PS4</Case><Case(3)>Mac</Case><Case(4)>PS5</Case><Case(5)>Xbox</Case></Switch>]","",""
 871,0,0,0,"Ready to create backup.","",""
 872,0,0,0,"Ready to download.","",""
 873,0,0,0,"Apply <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for a different character.","",""
@@ -1293,7 +1295,7 @@ You cannot upload data again until <Time(IntegerParameter(1))/><Value>TopLevelPa
 886,0,0,0,"Downloading backup data...","",""
 887,0,0,0,"Uploading backup data...","",""
 888,0,0,0,"<UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> successfully applied.
-* Certain changes will only be reflected upon restarting the client.","",""
+※Certain changes will only be reflected upon restarting the client.","",""
 889,0,0,0,"<UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> data saved to the server.","",""
 890,0,0,0,"Character Settings successfully applied to <Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight>.","",""
 891,0,0,0,"Character Settings for <Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> successfully uploaded to the server.","",""
@@ -1322,13 +1324,13 @@ Please try again later.
 900,0,1,0,"Saves UI size, frame rate limit, and other display settings.
 ※Resolution and other graphical settings dependent on current play environment will not be saved.","Display",""
 901,0,11,0,"Saves volume, mute, and other sound settings.","Sound",""
-902,0,41,0,"Saves <If(GreaterThan(PlayerParameter(75),0))>wireless controller and mouse<Else/>gamepad and mouse</If> settings.
+902,0,41,0,"Saves <If(Equal(PlayerParameter(75),0))>mouse and gamepad<Else/><If(Equal(PlayerParameter(78),99))>wireless controller<Else/>controller</If> and mouse</If> settings.
 ※Input device information will not be saved.","Input Device",""
 903,0,181,0,"Saves your preferred color scheme.","Theme Settings",""
 904,0,51,0,"Saves movie/cutscene voice settings.
 ※Settings dependent on current play environment will not be saved.","Others",""
-905,0,61,0,"Saves visual alert and color filtering settings.<If(Equal(PlayerParameter(78),99))>
-※Not applicable to <If(GreaterThan(PlayerParameter(75),0))><Switch(PlayerParameter(75))><Case(1)>PlayStation®3</Case><Case(2)>PlayStation®4</Case><Case(3)>PlayStation®4</Case><Case(4)>PlayStation®5</Case></Switch><Else/></If>.<Else/></If>","Accessibility",""
+905,0,61,0,"Saves visual alert and color filtering settings.<If(Equal(PlayerParameter(75),0))><Else/>
+※Not applicable to <If(GreaterThan(PlayerParameter(75),0))><Switch(PlayerParameter(75))><Case(1)>PlayStation®3</Case><Case(2)>PlayStation®4</Case><Case(3)>PlayStation®4</Case><Case(4)>PlayStation®5</Case><Case(5)>Xbox Series X</Case><Case(6)>Xbox Series S</Case></Switch><Else/></If>.</If>","Accessibility",""
 906,0,161,0,"Saves shared macros.
 ※Individual macros are saved by backing up <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","Shared Macros",""
 907,0,0,0,"","",""
@@ -1366,12 +1368,12 @@ Please try again later.
 938,0,0,0,"","",""
 939,0,0,0,"","",""
 940,0,0,0,"Restore","",""
-941,0,0,0,"Restore <If(Equal(PlayerParameter(78),99))>Settings<Else/>Macros</If>","",""
+941,0,0,0,"Restore <If(Equal(PlayerParameter(75),0))>Macros<Else/>Settings</If>","",""
 942,0,0,0,"Restore Settings","",""
-943,0,0,0,"Restore <If(Equal(PlayerParameter(78),99))>Client Settings<Else/>Shared Macros</If>","",""
+943,0,0,0,"Restore <If(Equal(PlayerParameter(75),0))>Shared Macros<Else/>Client Settings</If>","",""
 944,0,0,0,"","",""
-945,0,0,0,"<If(Equal(PlayerParameter(78),99))> <Else/>Up to 100 shared macros can be restored.</If>","",""
-946,0,0,0,"If a problem occurred applying <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you can use this feature to restore your <If(Equal(PlayerParameter(78),99))><Else/>shared macro </If>settings to those automatically recorded at a previous date.","",""
+945,0,0,0,"<If(Equal(PlayerParameter(75),0))>Up to 100 shared macros can be restored.<Else/></If>","",""
+946,0,0,0,"If a problem occurred applying <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Client Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you can use this feature to restore your <If(Equal(PlayerParameter(75),0))>shared macro <Else/></If>settings to those automatically recorded at a previous date.","",""
 947,0,0,0,"Settings are automatically saved each time you download and apply new data (up to 10 instances).
 No data currently exists.","",""
 948,0,0,0,"Automatic Backup: <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>","",""
@@ -1381,17 +1383,17 @@ No data currently exists.","",""
 952,0,0,0,"If a problem occurred applying <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you can use this feature to restore your settings to those automatically recorded at a previous date.","",""
 953,0,0,0,"Settings are automatically saved each time you download and apply new data (up to 10 instances).
 No data currently exists.","",""
-954,0,0,0,"Restore <If(Equal(PlayerParameter(78),99))>Client Settings<Else/>shared macro data</If> for <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>?","",""
+954,0,0,0,"Restore <If(Equal(PlayerParameter(75),0))>shared macro data<Else/>Client Settings</If> for <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>?","",""
 955,0,0,0,"Restore <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for <Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>?","",""
-956,0,0,0,"<If(Equal(PlayerParameter(78),99))>Client Settings<Else/>Shared macros</If> successfully restored.","",""
-957,0,0,0,"Unable to restore <If(Equal(PlayerParameter(78),99))>Client Settings<Else/>shared macros</If>.","",""
+956,0,0,0,"<If(Equal(PlayerParameter(75),0))>Shared macros<Else/>Client Settings</If> successfully restored.","",""
+957,0,0,0,"Unable to restore <If(Equal(PlayerParameter(75),0))>shared macros<Else/>Client Settings</If>.","",""
 958,0,0,0,"<UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground> successfully restored.","",""
 959,0,0,0,"Unable to restore <UIForeground>F20239</UIForeground><UIGlow>F2023A</UIGlow>Character Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.","",""
 960,0,0,0,"Unable to download data. Backup file may be missing or corrupted.","",""
 961,0,0,0,"Corrupted","",""
-962,0,0,0,"A new feature has been added that allows you to save backups of your Character Settings and Client Settings to the FINAL FANTASY XIV servers.
+962,0,0,0,"This feature allows you to save backups of your Client and Character Configuration Settings to the FINAL FANTASY XIV servers, as well as import these backups to your <If(Equal(PlayerParameter(75),0))>hardware<Else/>system</If>, thereby allowing you to easily carry over your preferences to a different play environment.
 
-It is strongly recommended that you save your data locally before attempting a backup to the servers.<If(Equal(PlayerParameter(78),99))><Else/> This can be done manually or via the CONFIG option found in the launcher.</If>","",""
+It is strongly recommended that you save your data locally before attempting a backup or download.<If(Equal(PlayerParameter(75),0))> In addition to manually backing up your data, please select the CONFIG option found in the launcher and use the Backup Tool.<Else/></If>","",""
 963,0,0,0,"I understand.","",""
 964,0,0,0,"Proceed","",""
 965,0,0,0,"Return","",""
@@ -1543,7 +1545,8 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1108,0,0,0,"Unable to visit other Worlds at this time. Please wait before attempting another transfer.","",""
 1109,0,0,0,"To visit other Worlds with this character, you must first select a different name using the Change Name subcommand.","",""
 1110,0,0,0,"To visit other Worlds with this character, you must first select a different retainer name using the Change Retainer Name subcommand.","",""
-1111,0,0,0,"Character was logged out or disconnected mid-duty. Unable to process <If(GreaterThan(IntegerParameter(1),0))>Return to Home World<Else/>World Visit</If> request.","",""
+1111,0,0,0,"Character was logged out or disconnected mid-duty. Unable to process <If(GreaterThan(IntegerParameter(1),0))>Return to Home World<Else/>World Visit</If> request.
+You must log in before a new request can be processed.","",""
 1112,0,0,0,"Character has not completed the game's opening event. Unable to submit World Visit request.","",""
 1113,0,0,0,"Character is currently imprisoned in the Mordion Gaol. <If(GreaterThan(IntegerParameter(1),0))>Return to Home World<Else/>World Visit</If> request denied.","",""
 1114,0,0,0,"World Visit system is temporarily unavailable.","",""
@@ -1596,8 +1599,10 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1159,0,0,0,"Cancel","",""
 1160,0,0,0,"","",""
 1161,0,0,0,"Close","",""
-1162,0,0,0,"Select the data center and World you wish to visit.","",""
-1163,0,0,0,"Returning to Home Data Center and Home World.","",""
+1162,0,0,0,"Select the data center and World you wish to visit.
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>","",""
+1163,0,0,0,"Returning to Home Data Center and Home World.
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>","",""
 1164,0,0,0,"DATA CENTER","",""
 1165,0,0,0,"WORLD","",""
 1166,0,0,0,"Confirm","",""
@@ -1605,6 +1610,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1168,0,0,0,"❖<Highlight>StringParameter(1)</Highlight>","",""
 1169,0,0,0,"Retrieving World data...","",""
 1170,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> will now be transported to <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center.
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>
 
 <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Please note the following:
 ・This process may take several minutes to complete.
@@ -1615,7 +1621,7 @@ Those unfamiliar with the World Visit system and its restrictions should refer t
 1171,0,0,0,"Proceed","",""
 1172,0,0,0,"Previous Step","",""
 1173,0,0,0,"Your character is traveling between data centers. Please wait until they have reached their destination.
-※Travel times may take longer during periods of server congestion.","",""
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>","",""
 1174,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> has arrived safely on <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center!","",""
 1175,0,0,0,"This character is currently visiting the <Highlight>StringParameter(1)</Highlight> data center.","",""
 1176,0,0,0,"A name change is required to log in with this character. Please return to your Home World to change your name.","",""
@@ -1635,13 +1641,12 @@ After changing names, logging in will place your character at the aetheryte of y
 1189,0,0,0,"Select World","",""
 1190,0,0,0,"Proceed","",""
 1191,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> will now be returned to Home World <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center.
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>
 
 <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Please note the following:
 ・This process may take several minutes to complete.
 ・You will be unable to cancel this process while it is underway.
-・You will be unable to log in with a different character until this process has been completed.
-
-※Travel times may take longer during periods of server congestion.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+・You will be unable to log in with a different character until this process has been completed.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 1192,0,0,0,"While visiting other data centers, the display of character information will be simplified.","",""
 1193,0,0,0,"","",""
 1194,0,0,0,"","",""
@@ -1665,7 +1670,8 @@ After changing names, logging in will place your character at the aetheryte of y
 [<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
 1210,0,0,0,"Unable to <If(GreaterThan(IntegerParameter(2),0))>return to Home World<Else/>visit to another data center</If>. <If(GreaterThan(IntegerParameter(1),0))>
 [<Value>IntegerParameter(1)</Value>]<Else/></If>","",""
-1211,0,0,0,"Character was logged out or disconnected mid-duty. Unable to process <If(GreaterThan(IntegerParameter(1),0))>Return to Home World<Else/>Data Center Visit</If> request.","",""
+1211,0,0,0,"Character was logged out or disconnected mid-duty. Unable to process <If(GreaterThan(IntegerParameter(1),0))>Return to Home World<Else/>Data Center Visit</If> request.
+You must log in before a new request can be processed.","",""
 1212,0,0,0,"Unable to proceed with Data Center Visit. You cannot have any more characters on <Highlight>StringParameter(1)</Highlight>.","",""
 1213,0,0,0,"You cannot submit a Data Center Visit request while outside of your Home Data Center.","",""
 1214,0,0,0,"The World you have selected for your Return to Home World request is not this character's Home World.","",""
@@ -1697,12 +1703,19 @@ From the Data Center Selection screen, please select any World in your desired r
 1235,0,0,0,"You have already reached the maximum number of characters allowed for this service account in the selected region.
 At least one unused character slot is required in your destination region when using the Data Center Travel system.","",""
 1236,0,0,0,"The selected character has yet to log out from a previous play session. Please wait and try accessing the subcommand menu again.","",""
-1237,0,0,0,"","",""
-1238,0,0,0,"","",""
-1239,0,0,0,"","",""
-1240,0,0,0,"","",""
-1241,0,0,0,"","",""
-1242,0,0,0,"","",""
+1237,0,0,0,"The character you last logged out with in this play environment could not be found on the current data center.
+Please connect to another data center from the Data Center Selection screen.","",""
+1238,0,0,0,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>This World is experiencing congestion. Visiting characters cannot log in at this time, and you will be unable to return to your duty in progress.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+By abandoning the duty, you may return to your Home World.
+Abandon duty?","",""
+1239,0,0,0,"Preparing to abandon duty.
+Please wait for the request to be processed.","",""
+1240,0,0,0,"Abandoning duty.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>It can take up to 5 minutes for the request to be processed.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Please wait before traveling to another World.","",""
+1241,0,0,0,"The duty has not yet been abandoned.
+Please wait a moment and try again.","",""
+1242,0,0,0,"I understand.","",""
 1243,0,0,0,"","",""
 1244,0,0,0,"","",""
 1245,0,0,0,"","",""
@@ -1710,7 +1723,7 @@ At least one unused character slot is required in your destination region when u
 1247,0,0,0,"","",""
 1248,0,0,0,"","",""
 1249,0,0,0,"","",""
-1250,0,0,0,"","",""
+1250,0,0,0,"Please note that Worlds on the Cloud Data Center will be shut down once the Cloud Data Center stress test has concluded. All character and retainer data on these Worlds will be deleted.","",""
 1251,0,0,0,"","",""
 1252,0,0,0,"","",""
 1253,0,0,0,"","",""
@@ -2499,7 +2512,7 @@ His two aspects lie in the east and west of the city."
 2008,0,0,0,"A Realm Reborn Demo and Title","",""
 2009,0,0,0,"BACK","",""
 2010,0,0,0,"Character Selection","",""
-2011,0,0,0,"MOVIES & TITLE","",""
+2011,0,0,0,"MOVIES & TITLES","",""
 2012,0,0,0,"Heavensward Demo and Title","",""
 2013,0,0,0,"Stormblood Demo and Title","",""
 2014,0,0,0,"Shadowbringers Demo and Title","",""
@@ -2629,7 +2642,7 @@ His two aspects lie in the east and west of the city."
 2138,0,0,0,"","",""
 2139,0,0,0,"","",""
 2140,0,0,0,"Character Data Import","",""
-2141,0,0,0,"Character data has been found in your FINAL FANTASY XIV folder. Select the data you wish to import.","",""
+2141,0,0,0,"Character data has been found. Select the data you wish to import.","",""
 2142,0,0,0,"Date","",""
 2143,0,0,0,"Slot Number","",""
 2144,0,0,0,"Clan/Gender","",""
@@ -2684,7 +2697,7 @@ Could not load.","",""
 2190,0,0,0,"Videos","",""
 2191,0,0,0,"A Realm Reborn","",""
 2192,0,0,0,"Heavensward","",""
-2193,0,0,0,"","",""
+2193,0,0,0,"Stormblood","",""
 2194,0,0,0,"","",""
 2195,0,0,0,"","",""
 2196,0,0,0,"","",""

@@ -212,7 +212,7 @@ Gear in your Armoury Chest is categorized and sorted by type, and can be equippe
 182,1,0,150902,0,"While in a party, a list of your party's members is displayed on the left side of the screen. This can be used to quickly identify each member's current condition. You can also target party members by clicking on their name in the list. This is especially helpful when there are many objects on the screen and it is difficult or time-consuming to target a member by ordinary means.","",""
 183,1,0,150904,0,"Your party will sometimes be awarded boosts to various attributes based on class and job combinations. If your party is receiving one of these bonuses, it will be indicated by a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>party bonus icon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> located above your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>party list<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. The bonus is nullified if you leave your party for another area.","",""
 184,1,0,150905,0,"Remember, your party members are all the in-game embodiment of real, living people, and chances are you will see them again online. Karma is alive and well in Eorzea. Treat people well, and your life in Eorzea will be a pleasant one. Treat them poorly, and it will come back to you.","",""
-185,1,0,150902,0,"While in a party, a list of your party's members is displayed on the left side of the screen. This can be used to quickly identify each member's current condition. You can also target party members by pressing <If(GreaterThan(PlayerParameter(75),0))>the up and down buttons<Else/>up and down on the d-pad</If> to select their names from the list. This is especially helpful when there are many objects on the screen and it is difficult or time-consuming to target a member by ordinary means.","",""
+185,1,0,150902,0,"While in a party, a list of your party's members is displayed on the left side of the screen. This can be used to quickly identify each member's current condition. You can also target party members by pressing <If(Equal(PlayerParameter(106),99))>up and down on the D-pad<Else/>the up and down buttons</If> to select their names from the list. This is especially helpful when there are many objects on the screen and it is difficult or time-consuming to target a member by ordinary means.","",""
 186,0,0,0,0,"","",""
 187,0,0,0,0,"","",""
 188,0,0,0,0,"","",""
@@ -221,7 +221,7 @@ Gear in your Armoury Chest is categorized and sorted by type, and can be equippe
 191,1,0,150932,0,"Various actions such as spells and weaponskills can be performed by using the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>cross hotbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground> on the bottom of your screen.
 
 ※The cross hotbar is only available in <If(GreaterThan(PlayerParameter(75),0))>controller<Else/>gamepad</If> mode.","",""
-192,1,0,150933,0,"The actions set to your cross hotbar can be initiated via the corresponding button combination, which consists of holding one of the <Gui(14)/><Gui(15)/> buttons and pressing <If(GreaterThan(PlayerParameter(75),0))>one of the directional<Else/>one of the d-pad</If> or <Gui(11)/><Gui(8)/><Gui(9)/><Gui(10)/> buttons.
+192,1,0,150933,0,"The actions set to your cross hotbar can be initiated via the corresponding button combination, which consists of holding one of the <Gui(14)/><Gui(15)/> buttons and pressing <If(Equal(PlayerParameter(106),99))>one of the D-pad<Else/>one of the directional</If> or <Gui(11)/><Gui(8)/><Gui(9)/><Gui(10)/> buttons.
 
 ※When a new action is learned, it will be automatically added to your cross hotbar.","",""
 193,1,0,150934,0,"Most actions require magic points (<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>MP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>) to execute, in addition to having recast times of various lengths.
@@ -1395,7 +1395,7 @@ The first is by right-clicking the enemy's <UIForeground>F201F4</UIForeground><U
 1272,1,0,151504,0,"Some quests require you to use a key item on an enemy target. There are two ways to do so.
 
 The first is by pressing <CommandIcon(10)/> and selecting <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Use Key Item<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the subcommands.","",""
-1273,1,0,151502,0,"The second method is to first target an enemy, then press <CommandIcon(19)/> to access the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>duty list<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Use the directional keys to select the key item icon and press <CommandIcon(8)/> to complete the action.","",""
+1273,1,0,151502,0,"The second method is to first target an enemy, then press <CommandIcon(19)/> to access the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>duty list<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Use the <If(Equal(PlayerParameter(106),99))>D-pad<Else/>directional keys</If> to select the key item icon and press <CommandIcon(8)/> to complete the action.","",""
 1274,0,0,0,0,"","",""
 1275,0,0,0,0,"","",""
 1276,0,0,0,0,"","",""
