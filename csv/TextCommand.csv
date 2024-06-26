@@ -179,8 +179,8 @@ USAGE:
 21,2,0,0,0,0,"/graphicpresets","/gpresets","ALIASES:
 　/graphicpresets, /gpresets
 USAGE:
-　/graphicpresets [preset number]
-
+　/graphicpresets [preset
+　number]
 →Load one of several preset graphics configuration settings.
 
 >>Preset Configurations:
@@ -192,7 +192,8 @@ USAGE:
 
 >>Example:
 　　/graphicpresets 2
-　　=Sets graphics settings to preset 2.<Else/>　　1: Standard (Laptop)
+　　=Sets graphics settings to
+ 　　preset 2.<Else/>　　1: Standard (Laptop)
 　　2: Standard (Desktop)
 　　3: High (Laptop)
 　　4: High (Desktop)
@@ -200,7 +201,8 @@ USAGE:
 
 >>Example:
 　　/graphicpresets 2
-　　(Sets graphics settings to preset 2.)</If>","","",993,0
+　　(Sets graphics settings to
+　　preset 2.)</If>","","",993,0
 22,1,0,0,0,0,"/fellowship","/fs","ALIASES:
 　/fellowship, /fs
 USAGE:
@@ -393,6 +395,7 @@ Displays pet glamour settings in chat log when no subcommand is specified.
 　Ruby Ifrit
 　Topaz Titan
 　Emerald Garuda
+　Solar Bahamut
 　all
 
 >>Size:
@@ -476,6 +479,63 @@ Toggles between on and off when no subcommand is specified.","","",36,0
 　　Disables right-click selection for minions.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.","","",36,0
+42,2,1,21,0,0,"/facewear","","USAGE:
+　/facewear [accessory]
+
+→Equip a specified face accessory.
+
+>>Example:
+　/facewear “oval spectacles”
+　(Equip the oval spectacles face accessory.)","/facewear","",36,0
+43,1,0,0,0,0,"/mutelist","","USAGE:
+　/mutelist
+
+→Opens and closes the Mute List interface.","","",32,0
+44,1,0,0,0,0,"/termfilter","","USAGE:
+　/termfilter
+
+→Opens and closes the Term Filter interface.","/termfilter","",32,0
+45,1,0,0,0,0,"/facewearlist","","USAGE:
+　/facewearlist
+
+→Opens and closes the Facewear interface.","/facewearlist","",32,0
+46,2,1,2,0,0,"/visualalerts","","USAGE:
+　/visualalerts [subcommand]
+
+→Change visual alerts settings.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Enables visual alerts.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Disable visual alerts.
+
+Toggles between on and off when no subcommand is specified.","","",509,0
+47,2,1,2,0,0,"/colorfiltering","","USAGE:
+　/colorfiltering [subcommand]
+
+→Change color filtering settings.
+　※Windows and Mac only.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Enables color filtering.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Disable color filtering.
+
+Toggles between on and off when no subcommand is specified.","","",509,0
+48,2,1,2,0,0,"/autotargetpriority","","USAGE:
+　/autotargetpriority [subcommand]
+
+→Change auto-target priority settings.
+
+>>Subcommands:
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Enables auto-target priority.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Disable auto-target priority.
 
 Toggles between on and off when no subcommand is specified.","","",36,0
 91,1,0,0,0,0,"/pvpteam","/pt","ALIASES:
@@ -822,10 +882,13 @@ USAGE:
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>add [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Add a PC to your blacklist.
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Remove a PC from your
+　　Add an account tied to a
+　　designated PC to your
 　　blacklist.
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>remove [placeholder]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　Remove an account tied
+　　to a designated PC from
+　　your blacklist.
 
 Opens and closes blacklist when no subcommand is specified.
 
@@ -863,7 +926,8 @@ USAGE:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PLD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MNK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WAR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRG<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BRD<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>WHM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SMN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>NIN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DRK<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MCH<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AST<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SAM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RDM<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SGE<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RPR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BLU<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>GNB<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DNC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SGE<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RPR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>VPR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PCT<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Searches all jobs and classes if none specified.
 【Level】
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -891,7 +955,8 @@ Searches all levels if none are specified.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Radz-at-Han""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Thavnair""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Garlemald""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""The Crystarium""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Eulmore""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Norvrandt""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
-　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Elsewhere""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Elsewhere""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Tuliyollal""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>,
+　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Yok Tural""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>""Xak Tural""<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Searches all locations if none are specified.
 【Language】
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>JA<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EN<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FR<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DE<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -1521,13 +1586,13 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, NUM*, Mouse Wheel
+　<CommandIcon(10)/>, R, NUM*, Mouse Wheel
 
 　Toggle group view on camera
 　<CommandIcon(11)/>, <If(Equal(PlayerParameter(78),3))>spacebar<Else/>Spacebar</If>
 
 　Toggle camera lighting
-　<CommandIcon(13)/>, <If(Equal(PlayerParameter(78),3))>x<Else/>X</If>
+　<CommandIcon(13)/>, X
 
 　Toggle all character motions
 　<CommandIcon(14)/>, 1 Key
@@ -1536,13 +1601,13 @@ USAGE:
 　<CommandIcon(15)/>, 2 Key
 
 　Change focus of camera
-　<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>
+　<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab, shift+tab<Else/> Tab, Shift+Tab</If>
 
 　Adjust frame composition
- 　<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>
+ <CommandIcon(20)/>, W, A, S, D, Q, E
 
 　Reset frame composition
-　<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>","","",160,0
+　<Gui(16)/>, Z","","",160,0
 220,2,0,0,0,0,"/itemsearch","/isearch","ALIASES:
 　/itemsearch, /isearch
 USAGE:
@@ -1564,19 +1629,19 @@ USAGE:
 
 >>Controls
 　Open the Camera Settings interface
-　<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, NUM*, Wheel Button
+　<CommandIcon(10)/>, R, NUM*, Wheel Button
 
 　Pause/unpause camera
 　<CommandIcon(8)/>, NUM0, left-click
 
 　Skip scene
-　<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>
+　<CommandIcon(6)/>, Tab, Shift+Tab
 
 　Adjust frame composition
-　<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>
+　<CommandIcon(20)/>, W, A, S, D, Q, E
 
 　Reset frame composition
-　<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>
+　<Gui(16)/>, Z
 
 >>Common Placeholders:
 　<t>, <target>, <1>-<8>
@@ -1667,8 +1732,8 @@ A random title will be set when none is specified.
 　/bahamutsize [subcommand]
 
 Though mages well versed in the art of summoning know to use /petsize, ancient texts suggest this command was once used to alter the visage of the dread summon Demi-Bahamut.","","",36,0
-229,6,3,2,2,2,"/alarm","","USAGE:
-　/alarm ""name"" [clock type] [repeat] [time] [reminder]
+229,8,3,2,2,2,"/alarm","","USAGE:
+　/alarm ""name"" [clock type] [repeat] [time] [reminder] [sound effect] [mute]
 
 →Set an alarm for a specified time using local, server, or Eorzea time.
 
@@ -1676,34 +1741,50 @@ Though mages well versed in the art of summoning know to use /petsize, ancient t
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>lt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set the alarm using local time.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>st<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set the alarm using server time.
+　　Set the alarm using server
+　　time.
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>et<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　　Set the alarm using Eorzea time.
+　　Set the alarm using Eorzea
+　　time.
 
 >>Repeat:
-　Use ""repeat"" or ""rp"" to set an hourly alarm.
+　Use ""repeat"" or ""rp"" to set an
+　hourly alarm.
 
 >>Time:
-　Times must be set using the 24-hour clock.
+　Times must be set using the 24-
+　hour clock.
 　Time values: 0000-2400
-　The hour must be omitted when using the repeat subcommand.
+　The hour must be omitted
+　when using the repeat
+　subcommand.
 
 >>Reminder:
-　A notification can be given up to 60 minutes prior to the alarm.
+　A notification can be given up
+　to 60 minutes prior to the
+　alarm.
 　Time values: 0-60
 
-The repeat and reminder subcommands can be omitted.
+>>Sound Effect:
+　Play a designated sound effect.
+　Sound effect values: 00-05
+
+>>Mute:
+　Mute sound effects while
+　undertaking duties.
+
+The repeat, reminder, sound effect, and mute subcommands can be omitted.
 The ""clear"" subcommand can be used to delete all alarms.
 Opens the alarm interface when no subcommands are specified.
 
 >>Examples:
-　/alarm Raid lt 2000 10
+　/alarm Raid lt 2000 10 se04
 　(Sets the ""Raid"" alarm for
 　20:00 local time, with a
 　notification given 10
 　minutes prior.)
 
-　/alarm Party lt rp 30
+　/alarm Party lt rp 30 se05
 　(Sets the ""Party"" alarm as
 　an hourly alarm, 30 minutes
 　past the hour in local time.)","","",32,0
@@ -2305,8 +2386,12 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FocusTarget<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ftarget<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Party List
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PartyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>plist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Enemy List
-　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EnemyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>elist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Job Gauge 1
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>JobGauge1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Job Gauge 2
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>JobGauge2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Enmity List
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EnmityList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>elist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Parameter Bar
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ParamBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>param<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Minimap
@@ -2333,7 +2418,8 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>StatusEffects<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sfx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Enhancements)
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Status Info (Conditional Enhancements)
+　Status Info (Conditional
+　Enhancements)
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoConditional<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sicenh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Status Info (Enfeeblements)
@@ -2352,7 +2438,8 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ScenarioGuide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Compressed Aether
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CompressedAether<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　Crystalline Conflict Progress Gauge
+　Crystalline Conflict Progress
+　Gauge
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictProgress<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ccprog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Crystalline Conflict Ally Info
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictAlly<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ccally<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -2374,6 +2461,14 @@ Toggles between all and off when no setting is specified.","/battleeffect","/bfx
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWStation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　Rival Wings Mercenary Info
 　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWMerc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwmrc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Blunderville Objective
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blunder:Objective<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Blunderville Score
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blunder:Score<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Blunderville Status
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blunder:Status<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　Blunderville Show Log
+　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Blunder:ShowLog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Show element.
@@ -2740,7 +2835,7 @@ Toggles all active job gauges when no subcommand is specified.","","",36,0
 　　Set master volume to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles mute on and off when no subcommand is specified.","","",228,0
+Toggles mute on and off when no subcommand is specified.","","",229,0
 330,2,0,0,0,0,"/bgm","","USAGE:
 　/bgm [subcommand]
 
@@ -2751,7 +2846,7 @@ Toggles mute on and off when no subcommand is specified.","","",228,0
 　　Set BGM to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles BGM on and off when no subcommand is specified.","","",228,0
+Toggles BGM on and off when no subcommand is specified.","","",229,0
 331,2,0,0,0,0,"/soundeffects","","USAGE:
 　/soundeffects [subcommand]
 
@@ -2762,7 +2857,7 @@ Toggles BGM on and off when no subcommand is specified.","","",228,0
 　　Set sound effects to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles sound effects on and off when no subcommand is specified.","","",228,0
+Toggles sound effects on and off when no subcommand is specified.","","",229,0
 332,2,0,0,0,0,"/voice","","USAGE:
 　/voice [subcommand]
 
@@ -2773,7 +2868,7 @@ Toggles sound effects on and off when no subcommand is specified.","","",228,0
 　　Set voice to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles voice on and off when no subcommand is specified.","","",228,0
+Toggles voice on and off when no subcommand is specified.","","",229,0
 333,2,0,0,0,0,"/systemsounds","","USAGE:
 　/systemsounds [subcommand]
 
@@ -2784,7 +2879,7 @@ Toggles voice on and off when no subcommand is specified.","","",228,0
 　　Set system sounds to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles system sounds on and off when no subcommand is specified.","","",228,0
+Toggles system sounds on and off when no subcommand is specified.","","",229,0
 334,2,0,0,0,0,"/ambientsounds","","USAGE:
 　/ambientsounds [subcommand]
 
@@ -2795,7 +2890,7 @@ Toggles system sounds on and off when no subcommand is specified.","","",228,0
 　　Set ambient sounds to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
+Toggles ambient sounds on and off when no subcommand is specified.","","",229,0
 335,2,0,0,0,0,"/soundeffectsself","","USAGE:
 　/soundeffectsself [subcommand]
 
@@ -2804,7 +2899,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set player effects for self to the specified volume level.
-　　Levels available: 0-100.","","",228,0
+　　Levels available: 0-100.","","",229,0
 336,2,0,0,0,0,"/soundeffectsparty","","USAGE:
 　/soundeffectsparty [subcommand]
 
@@ -2813,7 +2908,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set player effects for your party to the specified volume level.
-　　Levels available: 0-100.","","",228,0
+　　Levels available: 0-100.","","",229,0
 337,2,0,0,0,0,"/soundeffectsother","","USAGE:
 　/soundeffectsother [subcommand]
 
@@ -2823,7 +2918,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[volume number]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　　Set player effects for other PCs to the specified volume level.
 　　Levels available: 0-100.
-","","",228,0
+","","",229,0
 338,2,0,0,0,0,"/systemsoundsspeaker","","USAGE:
 　/systemsoundsspeaker [subcommand]
 
@@ -2834,7 +2929,7 @@ Toggles ambient sounds on and off when no subcommand is specified.","","",228,0
 　　Set system speaker sounds to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles system speaker sounds on and off when no subcommand is specified.","","",228,0
+Toggles system speaker sounds on and off when no subcommand is specified.","","",229,0
 339,2,0,0,0,0,"/tiltcamera","","USAGE:
 　/tiltcamera [subcommand]
 
@@ -2864,7 +2959,7 @@ Toggle between on and off when no subcommand is specified.","","",100,0
 　　Set performance actions to the specified volume level.
 　　Levels available: 0-100.
 
-Toggles system sounds on and off when no subcommand is specified.","","",228,0
+Toggles system sounds on and off when no subcommand is specified.","","",229,0
 401,1,0,0,0,0,"/emote","/em","ALIASES:
 　/emote, /em
 USAGE:
@@ -5163,5 +5258,16 @@ USAGE:
 
 >>Subcommands:
 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.","","",293,0
+679,2,1,2,0,0,"/uchiwasshoi","/bigfan","ALIASES:
+　/uchiwasshoi, /bigfan
+USAGE:
+　/uchiwasshoi [subcommand]
+
+→Stir the air with a giant fan.
+
+>>Subcommands:
+ 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.","","",293,0
