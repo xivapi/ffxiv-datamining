@@ -1,6 +1,6 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30
-#,Name,Description,LeveClient,,LeveAssignmentType,Town,ClassJobLevel,TimeLimit,AllowanceCost,Evaluation,PlaceName{Start},PlaceName{Issued},FishingSpot,,,ClassJobCategory,JournalGenre,,PlaceName{StartZone},Icon{CityState},DataId,CanCancel,MaxDifficulty,ExpFactor,ExpReward,GilReward,LeveRewardItem,LeveVfx,LeveVfx{Frame},Level{Levemete},Icon{Issuer}
-int32,str,str,LeveClient,byte,LeveAssignmentType,Town,uint16,byte,byte,int32,PlaceName,PlaceName,FishingSpot,byte,uint32,ClassJobCategory,JournalGenre,int32,PlaceName,Image,Row,uint32,uint32,uint16,byte,byte,LeveRewardItem,LeveVfx,LeveVfx,Level,Image
+#,Name,Description,LeveClient,,LeveAssignmentType,Town,ClassJobLevel,TimeLimit,AllowanceCost,PlaceName{Start},PlaceName{Issued},FishingSpot,,ClassJobCategory,JournalGenre,PlaceName{StartZone},Icon{CityState},DataId,CanCancel,MaxDifficulty,ExpFactor,ExpReward,GilReward,LeveRewardItem,LeveVfx,LeveVfx{Frame},Level{Levemete},Icon{Issuer},LockedLeve,Level{Start},BGM
+int32,str,str,LeveClient,byte,LeveAssignmentType,Town,uint16,byte,byte,PlaceName,PlaceName,FishingSpot,byte,ClassJobCategory,JournalGenre,PlaceName,Image,Row,bit&01,byte,single,uint32,uint32,LeveRewardItem,LeveVfx,LeveVfx,Level,Image,bit&02,Level,BGM
 0,"","",0,0,0,0,0,0,1,0,0,0,0,0,0,1,20011,0,True,0,1,0,0,0,0,0,0,0,True,0,14
 1,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,0,0,0,0,0,0,0,0,0,False,0,0
 2,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,0,0,0,0,0,0,0,0,0,False,0,0
