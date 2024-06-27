@@ -14,7 +14,7 @@ int32,uint32,uint32,uint32,str,str,str
 9,0,0,0,"","",""
 10,0,0,0,"Service Account","",""
 11,0,0,0,"Select a service account.","",""
-12,0,0,0,"Version: <Highlight>StringParameter(1)</Highlight> (<Highlight>StringParameter(2)</Highlight>)","",""
+12,0,0,0,"Version: <Highlight>StringParameter(1)</Highlight>(<Highlight>StringParameter(2)</Highlight>)<If(GreaterThan(IntegerParameter(3),0))> - ex<Value>IntegerParameter(3)</Value> : <Highlight>StringParameter(4)</Highlight><Else/></If>","",""
 13,0,0,0,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Warning!<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Screen resolution is set to Low (480p/i 576p/i)
 The recommended setting is High (720p).","",""
 14,0,0,0,"","",""
@@ -61,7 +61,7 @@ If this character is master of a free company for which there is no eligible suc
 53,0,0,0,"<Switch(IntegerParameter(3))><Case(1)>1st</Case><Case(2)>2nd</Case><Case(3)>3rd</Case><Case(4)>4th</Case><Case(5)>5th</Case><Case(6)>6th</Case><Case(7)>7th</Case><Case(8)>8th</Case><Case(9)>9th</Case><Case(10)>10th</Case><Case(11)>11th</Case><Case(12)>12th</Case><Case(13)>13th</Case><Case(14)>14th</Case><Case(15)>15th</Case><Case(16)>16th</Case><Case(17)>17th</Case><Case(18)>18th</Case><Case(19)>19th</Case><Case(20)>20th</Case><Case(21)>21st</Case><Case(22)>22nd</Case><Case(23)>23rd</Case><Case(24)>24th</Case><Case(25)>25th</Case><Case(26)>26th</Case><Case(27)>27th</Case><Case(28)>28th</Case><Case(29)>29th</Case><Case(30)>30th</Case><Case(31)>31st</Case><Case(32)>32nd</Case></Switch> Sun of the <Switch(IntegerParameter(2))><Case(1)>1st Astral</Case><Case(2)>1st Umbral</Case><Case(3)>2nd Astral</Case><Case(4)>2nd Umbral</Case><Case(5)>3rd Astral</Case><Case(6)>3rd Umbral</Case><Case(7)>4th Astral</Case><Case(8)>4th Umbral</Case><Case(9)>5th Astral</Case><Case(10)>5th Umbral</Case><Case(11)>6th Astral</Case><Case(12)>6th Umbral</Case></Switch> Moon","",""
 54,0,0,0,"","",""
 55,0,0,0,"","",""
-56,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case><Case(7)> (OC)</Case><Case(8)> (OC Legacy)</Case><Case(9)></Case></Switch>","",""
+56,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (Legacy)</Case><Case(4)> (Legacy)</Case><Case(5)> (Legacy)</Case><Case(6)></Case></Switch>","",""
 57,0,0,0,"Obtaining the World list...","",""
 58,0,0,0,"Unable to obtain the World list.","",""
 59,0,0,0,"Obtain updated World information. This feature can only be used once every <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If>.","",""
@@ -72,7 +72,7 @@ If this character is master of a free company for which there is no eligible suc
 64,0,0,0,"You cannot select this character with your current account.","",""
 65,0,0,0,"You are granted one opportunity to edit your character's race, tribe, gender, appearance, and name.","",""
 66,0,0,0,"<If(GreaterThan(IntegerParameter(1),0))>Please change your retainer's name after retrieving your character's data.<Else/>To log in with this character you must first change your retainer's name.</If>","",""
-67,0,0,0,"If you wish, you can edit your character's race, sex, and appearance.","",""
+67,0,0,0,"If you wish, you can edit your character's race, sex, and appearance. <If(GreaterThan(IntegerParameter(1),0))>(<Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If> remaining)<Else/></If>","",""
 68,0,0,0,"To log in with this character you must first install <Sheet(ExVersion,IntegerParameter(1),0)/>.","",""
 69,0,0,0,"To edit this character's race, sex, or appearance you must first install <Sheet(ExVersion,IntegerParameter(1),0)/>.","",""
 70,0,0,0,"To log in with this character from version 1.0, you must first specify the Disciple of War or Magic class you wish to begin the game as.","",""
@@ -371,7 +371,7 @@ have for countless generations."
 175,0,0,0,"The Matron","",""
 176,0,0,0,"Althyk","",""
 177,0,0,0,"The Keeper","",""
-178,0,0,0,"Gladiator","","Gladiators specialize in the handling of all manner of one-handed
+178,0,76804,0,"Gladiator"," ","Gladiators specialize in the handling of all manner of one-handed
 blades, from daggers to longswords, be they single- or double-edged,
 straight or curved. A defining characteristic of the art is its emphasis
 on diverse combat tactics, training its members to bring their martial
@@ -379,9 +379,11 @@ skills to bear in any situation. As such, there are practitioners who
 marry sword with shield, seeking to defend their fellow companions.
 Others opt for an empty off hand, choosing instead to focus entirely
 on their sword arm. In all instances, the ages-old art of the sword
-makes the gladiator a formidable adversary in any encounter."
+makes the gladiator a formidable adversary in any encounter.
+
+Corresponding Job: Paladin"
 179,0,0,0,"","",""
-180,0,0,0,"Pugilist","","The path of the pugilist is one of incessant training aimed at mastering
+180,0,76805,0,"Pugilist"," ","The path of the pugilist is one of incessant training aimed at mastering
 the traditional techniques of hand-to-hand combat. Though they
 command formidable power when unarmed, they are wont to use metal,
 leather, and bone weaponry to maximize their destructive potential.
@@ -389,17 +391,21 @@ leather, and bone weaponry to maximize their destructive potential.
 Their preference for fighting at close quarters makes negotiating
 distances an absolute necessity. This is why many pugilists are quick
 to learn that lightweight gear allowing for maximum agility ensures them
-better success in battle than does cumbersome plate or chain."
+better success in battle than does cumbersome plate or chain.
+
+Corresponding Job: Monk"
 181,0,0,0,"","",""
-182,0,0,0,"Marauder","","The marauder is a combat specialist whose weapon of choice is
+182,0,76806,0,"Marauder"," ","The marauder is a combat specialist whose weapon of choice is
 the greataxe－a fearsome arm emblematic of Eorzea's pirates.
 Their approach to battle is one of brute force, relying on strength
 and steel to crush enemies and sunder weapons. They are highly
 sought after for their ferocity and intimidating presence, and are
 often employed to hunt down monsters plaguing the land, or to turn
-the tide of battle between warring nations."
+the tide of battle between warring nations.
+
+Corresponding Job: Warrior"
 183,0,0,0,"","",""
-184,0,0,0,"Lancer","","The strategy of the lancers is to outrange and fluster opponents
+184,0,76807,0,"Lancer"," ","The strategy of the lancers is to outrange and fluster opponents
 with their long, two-handed polearms, peppering them with a barrage
 of thrusting attacks. They are trained with a number of weapons,
 giving a diversity to their attacks that makes them extremely
@@ -408,9 +414,11 @@ versatile combatants.
 In former times, the longspear saw the most widespread use,
 due in great part to the influence of the proud lancer legions of
 Ala Mhigo. Since then, the guild has greatly expanded its armories
-to include a variety of weaponry, such as the halberd and the trident."
+to include a variety of weaponry, such as the halberd and the trident.
+
+Corresponding Job: Dragoon"
 185,0,0,0,"","",""
-186,0,0,0,"Archer","","The enduring popularity of the bow is a testament to its elegant
+186,0,76808,0,"Archer"," ","The enduring popularity of the bow is a testament to its elegant
 design, but this simple weapon would be of little worth without the
 surpassing skill of those who master it－the archers. Projectile
 techniques such as high-angle fire enable archers to assail their
@@ -421,31 +429,39 @@ determine the most advantageous ground from which to loose,
 as well as the nature of the arrows best suited to their enemy.
 Together with the longbow sentries of the Elezen military, the
 shortbow hunters among the Miqo'te are widely regarded as
-most skilled with the bow."
+most skilled with the bow.
+
+Corresponding Job: Bard"
 187,0,0,0,"","",""
-188,0,0,0,"Conjurer","","Conjury calls upon elemental forces present in nature and concentrates
+188,0,76809,0,"Conjurer"," ","Conjury calls upon elemental forces present in nature and concentrates
 them to a potency at which spells can be woven. Through practiced
 meditation on the essences of creation, conjurers draw forth and
 absorb aether from their immediate surroundings. A wand or cane
 made from unworked wood is then utilized to focus the aether until it
 manifests as the desired spell. The seat of the Conjurers' Guild lies at
 Stillglade Fane in Gridania, where the voices of Eorzea's elementals are
-said to be most powerful."
+said to be most powerful.
+
+Corresponding Job: White Mage"
 189,0,0,0,"","",""
-190,0,0,0,"Thaumaturge","","In the hands of a skilled practitioner, thaumaturgy can be a force of
+190,0,76810,0,"Thaumaturge"," ","In the hands of a skilled practitioner, thaumaturgy can be a force of
 terrifying destruction. At the heart of this school of magic lies the
 ability to call forth and command the latent aether within oneself
 through deep introspection. To then mold that aether into sorcery,
 the thaumaturge makes use of a scepter or staff, within which is
-housed a medium－a natural stone imbued with magical properties."
+housed a medium－a natural stone imbued with magical properties.
+
+Corresponding Job: Black Mage"
 191,0,0,0,"","",""
-192,0,0,0,"Arcanist","","Adepts of the art of arcanum derive their might from symbols of power
+192,0,76829,0,"Arcanist"," ","Adepts of the art of arcanum derive their might from symbols of power
 born of geometric techniques hailing from across the southern seas.
 Held within occult grimoires, these symbols lend shape to the arcanist's
 aether, thereby allowing him to produce myriad powerful spells. Using
 the selfsame symbols to unlock the latent power contained within
 gemstones, arcanists are also able to summon forth the familiar known
-as Carbuncle to carry out their bidding."
+as Carbuncle to carry out their bidding.
+
+Corresponding Jobs: Summoner, Scholar"
 193,0,0,0,"","",""
 194,0,0,0,"Blacksmith","","不要：新生ではキャラメイクで選択できるのは戦闘職のみ。"
 195,0,0,0,"","",""
@@ -702,15 +718,15 @@ as Carbuncle to carry out their bidding."
 446,0,0,0,"","",""
 447,0,0,0,"Disciples of Magic","",""
 448,0,0,0,"","",""
-449,0,0,0,"","",""
+449,0,1200,0,"","",""
 450,0,1200,0,"","",""
-451,0,900,0,"","",""
-452,0,800,0,"","",""
-453,0,2100,0,"","",""
-454,0,1220,0,"","",""
+451,0,0,0,"","",""
+452,0,1210,0,"","",""
+453,0,20,0,"","",""
+454,0,1420,0,"","",""
 455,0,15,0,"","",""
-456,0,800,0,"","",""
-457,0,2100,0,"","",""
+456,0,930,0,"","",""
+457,0,2130,0,"","",""
 458,0,0,0,"Hrothgar<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","Hailing from the distant shores of Ilsabard, the Hrothgar are a burly
 people of lionlike appearance—or the males are, at least. Females
 number staggeringly few among their population, and thus are
@@ -858,9 +874,9 @@ His symbol is the hourglass.","",""
 488,0,0,0,"","",""
 489,0,0,0,"","",""
 490,0,0,0,"","",""
-491,0,220,0,"","",""
-492,0,160,0,"","",""
-493,0,290,0,"","",""
+491,0,310,0,"","",""
+492,0,0,0,"","",""
+493,0,110,0,"","",""
 494,0,0,0,"","",""
 495,0,0,0,"","",""
 496,0,0,0,"","",""
@@ -881,7 +897,7 @@ His symbol is the hourglass.","",""
 511,0,0,0,"Save Slot <Value>IntegerParameter(1)</Value>: <Switch(IntegerParameter(3))><Case(1)><Sheet(Tribe,IntegerParameter(2),0)/>♂</Case><Case(2)><Sheet(Tribe,IntegerParameter(2),1)/>♀</Case></Switch>","",""
 512,0,0,0,"This character was designed specially for the benchmark and his gear cannot be changed.","",""
 513,0,0,0,"There are no comments.","",""
-514,0,0,0,"","",""
+514,0,0,0,"View your character in a set of job-specific gear based on the selected class. (Class selection is unavailable in the benchmark.)","",""
 515,0,0,0,"","",""
 516,0,0,0,"","",""
 517,0,0,0,"","",""
@@ -967,21 +983,21 @@ His symbol is the hourglass.","",""
 597,0,0,0,"","",""
 598,0,0,0,"","",""
 599,0,0,0,"","",""
-600,0,0,0,"<CommandIcon(23)/> Rotate Camera <CommandIcon(20)/> Rotate Background <CommandIcon(12)/>+<CommandIcon(24)/> Zoom <Gui(19)/> Reverse Camera","LOBBY_PAD_GUIDE_CENTER_CAMERA",""
-601,0,0,0,"<Gui(18)/>","LOBBY_PAD_GUIDE_RETURN",""
-602,0,0,0,"<CommandIcon(23)/> Rotate Camera <CommandIcon(20)/> Rotate Background <CommandIcon(12)/>+<CommandIcon(24)/> Zoom <CommandIcon(12)/>+<CommandIcon(21)/> Tilt Camera <Gui(19)/> Reverse Camera","MAKE_PAD_GUIDE_CENTER_CAMERA",""
-603,0,0,0,"<Gui(18)/>","MAKE_PAD_GUIDE_RETURN",""
-604,0,0,0,"<Gui(16)/>","MAKE_PAD_GUIDE_POSE",""
-605,0,0,0,"<Gui(17)/>","MAKE_PAD_GUIDE_ATTIRE",""
-606,0,0,0,"<CommandIcon(14)/>","MAKE_PAD_GUIDE_BG_L",""
-607,0,0,0,"<CommandIcon(15)/>","MAKE_PAD_GUIDE_BG_R",""
-608,0,0,0,"<Gui(11)/>","MAKE_PAD_GUIDE_TIME",""
-609,0,0,0,"<Gui(10)/>","MAKE_PAD_GUIDE_CONFIG",""
+600,0,0,0,"<CommandIcon(23)/> Rotate Camera <CommandIcon(20)/> Rotate Background <CommandIcon(12)/>+<CommandIcon(24)/> Zoom <Gui(19)/> Reverse Camera","",""
+601,0,0,0,"<Gui(18)/>","",""
+602,0,0,0,"<CommandIcon(23)/> Rotate Camera <CommandIcon(20)/> Rotate Background <CommandIcon(12)/>+<CommandIcon(24)/> Zoom <CommandIcon(12)/>+<CommandIcon(21)/> Tilt Camera <Gui(19)/> Reverse Camera","",""
+603,0,0,0,"<Gui(18)/>","",""
+604,0,0,0,"<Gui(16)/>","",""
+605,0,0,0,"<Gui(17)/>","",""
+606,0,0,0,"<CommandIcon(14)/>","",""
+607,0,0,0,"<CommandIcon(15)/>","",""
+608,0,0,0,"<Gui(11)/>","",""
+609,0,0,0,"<Gui(10)/>","",""
 610,0,0,0,"<CommandIcon(11)/> Keyboard","",""
 611,0,0,0,"<CommandIcon(10)/> Subcommands","",""
 612,0,0,0,"Rotate Camera Rotate Background Zoom","",""
 613,0,0,0,"Rotate Camera Rotate Background Zoom Tilt Camera","",""
-614,0,0,0,"","",""
+614,0,0,0,"<CommandIcon(6)/>","",""
 615,0,0,0,"Days of Play Time Remaining: <Value>IntegerParameter(1)</Value>","",""
 616,0,0,0,"Veteran Reward Rank: <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value><Else/>None</If>","",""
 617,0,0,0,"Total Days Subscribed: <Format(IntegerParameter(1),FF022C)/><If(Equal(IntegerParameter(2),0))><Else/>
@@ -1053,35 +1069,35 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 677,0,0,0,"","",""
 678,0,0,0,"","",""
 679,0,0,0,"","",""
-680,0,0,0,"Job-specific Gear (Level 90)","",""
+680,0,0,0,"Job-specific Gear (Level 100)","",""
 681,0,0,0,"Race-specific Gear","",""
-682,0,0,0,"Job-specific Gear (Level 50)","",""
-683,0,0,0,"Job-specific Gear (Level 60)","",""
-684,0,0,0,"Job-specific Gear (Level 70)","",""
-685,0,0,0,"Job-specific Gear (Level 80)","",""
-686,0,0,0,"Dreadwyrm Gear","",""
-687,0,0,0,"Ironworks Gear","",""
-688,0,0,0,"Lynxliege Gear","",""
-689,0,0,0,"Alexandrian Gear","",""
-690,0,0,0,"Behemoth King Gear","",""
-691,0,0,0,"Storm Elite Gear","",""
-692,0,0,0,"Serpent Elite Gear","",""
-693,0,0,0,"Flame Elite Gear","",""
-694,0,0,0,"Omega Gear","",""
-695,0,0,0,"Genji Gear","",""
-696,0,0,0,"Hellhound Gear","",""
-697,0,0,0,"Dwarven Gear","",""
-698,0,0,0,"Edenmorn Gear","",""
-699,0,0,0,"Legacy Gear","",""
-700,0,0,0,"Wild Rose Attire","",""
-701,0,0,0,"Strife Attire","",""
-702,0,0,0,"Leonheart Attire","",""
-703,0,0,0,"Tantalus Attire","",""
-704,0,0,0,"Abes/High Summoner Attire","",""
-705,0,0,0,"Snow's/Lightning's Attire","",""
-706,0,0,0,"Sharlayan Prodigy's Suit","",""
-707,0,0,0,"Lucian Prince's Attire","",""
-708,0,0,0,"Swine Suit","",""
+682,0,0,0,"Dreadwyrm Gear","",""
+683,0,0,0,"Ironworks Gear","",""
+684,0,0,0,"Alexandrian Gear","",""
+685,0,0,0,"Falling Dragon Gear","",""
+686,0,0,0,"Storm Elite Gear","",""
+687,0,0,0,"Serpent Elite Gear","",""
+688,0,0,0,"Flame Elite Gear","",""
+689,0,0,0,"Genji Gear","",""
+690,0,0,0,"Omega Gear","",""
+691,0,0,0,"Hellhound Gear","",""
+692,0,0,0,"Dwarven Gear","",""
+693,0,0,0,"Edenmorn Gear","",""
+694,0,0,0,"Anabaseios Gear","",""
+695,0,0,0,"Legacy Gear","",""
+696,0,0,0,"Wild Rose Attire","",""
+697,0,0,0,"Moonward Gear","",""
+698,0,0,0,"Strife Attire","",""
+699,0,0,0,"Leonheart Attire","",""
+700,0,0,0,"Tantalus Attire","",""
+701,0,0,0,"Abes/High Summoner Attire","",""
+702,0,0,0,"Snow's/Lightning's Attire","",""
+703,0,0,0,"Sharlayan Prodigy's Suit","",""
+704,0,0,0,"Lucian Prince's Attire","",""
+705,0,0,0,"Metian Attire","",""
+706,0,0,0,"Swine Suit","",""
+707,0,0,0,"","",""
+708,0,0,0,"","",""
 709,0,0,0,"","",""
 710,0,0,0,"","",""
 711,0,0,0,"","",""
@@ -1393,7 +1409,7 @@ No data currently exists.","",""
 961,0,0,0,"Corrupted","",""
 962,0,0,0,"This feature allows you to save backups of your Client and Character Configuration Settings to the FINAL FANTASY XIV servers, as well as import these backups to your <If(Equal(PlayerParameter(75),0))>hardware<Else/>system</If>, thereby allowing you to easily carry over your preferences to a different play environment.
 
-It is strongly recommended that you save your data locally before attempting a backup or download.<If(Equal(PlayerParameter(75),0))> In addition to manually backing up your data, please select the CONFIG option found in the launcher and use the Backup Tool.<Else/></If>","",""
+It is strongly recommended that you save your data locally before attempting a backup or download.<If(Equal(PlayerParameter(75),0))> In addition to manually backing up your data, please select the Config option found in the launcher and use the Backup Tool.<Else/></If>","",""
 963,0,0,0,"I understand.","",""
 964,0,0,0,"Proceed","",""
 965,0,0,0,"Return","",""
@@ -1468,16 +1484,16 @@ It is strongly recommended that you save your data locally before attempting a b
 1034,0,0,0,"Ear Length","",""
 1035,0,0,0,"Short","",""
 1036,0,0,0,"Long","",""
-1037,0,0,0,"","",""
-1038,0,0,0,"","",""
-1039,0,0,0,"","",""
-1040,0,0,0,"","",""
-1041,0,0,0,"","",""
-1042,0,0,0,"","",""
-1043,0,0,0,"","",""
-1044,0,0,0,"","",""
-1045,0,0,0,"","",""
-1046,0,0,0,"","",""
+1037,0,0,0,"Bust Size","",""
+1038,0,0,0,"Small","",""
+1039,0,0,0,"Large","",""
+1040,0,0,0,"Tail Shape","",""
+1041,0,0,0,"Tail Length","",""
+1042,0,0,0,"Short","",""
+1043,0,0,0,"Long","",""
+1044,0,0,0,"Fang Length","",""
+1045,0,0,0,"Tattoos","",""
+1046,0,0,0,"Tattoo Color","",""
 1047,0,0,0,"","",""
 1048,0,0,0,"","",""
 1049,0,0,0,"","",""
@@ -1716,7 +1732,8 @@ Please wait before traveling to another World.","",""
 1241,0,0,0,"The duty has not yet been abandoned.
 Please wait a moment and try again.","",""
 1242,0,0,0,"I understand.","",""
-1243,0,0,0,"","",""
+1243,0,0,0,"Your account data must be updated before traveling to Worlds in <Highlight>StringParameter(2)</Highlight>.
+After returning to the title screen, please select <Highlight>StringParameter(2)</Highlight> from the Data Center menu option and access the Character Selection screen. This will allow you to use the data center travel system to visit Worlds within this regional data center.","",""
 1244,0,0,0,"","",""
 1245,0,0,0,"","",""
 1246,0,0,0,"","",""
@@ -2175,9 +2192,9 @@ Please wait a moment and try again.","",""
 1699,0,0,0,"","",""
 1700,0,0,0,"","",""
 1701,0,0,0,"","",""
-1702,0,0,0,"","",""
-1703,0,0,0,"","",""
-1704,0,0,0,"","",""
+1702,0,0,0,"Program Version: <Highlight>StringParameter(1)</Highlight>","",""
+1703,0,0,0,"FFXIV: <Highlight>StringParameter(1)</Highlight>","",""
+1704,0,0,0,"EX<Value>IntegerParameter(1)</Value>: <Highlight>StringParameter(2)</Highlight>","",""
 1705,0,0,0,"","",""
 1706,0,0,0,"","",""
 1707,0,0,0,"","",""
@@ -2277,9 +2294,33 @@ Please wait a moment and try again.","",""
 1801,0,0,0,"You were automatically logged out due to extended inactivity.","",""
 1802,0,0,0,"<UIForeground>F201FE</UIForeground><UIGlow>F201FF</UIGlow>A registered license for <Sheet(ExVersion,IntegerParameter(1),0)/> is required to select this race.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 1803,0,0,0,"RGB: <Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>,<Value>IntegerParameter(3)</Value>","",""
-1804,0,0,0,"","",""
-1805,0,0,0,"","",""
-1806,0,0,0,"","",""
+1804,0,76801,0,"Tank"," ","Stand as a bulwark in the face of danger.
+With superior defensive abilities, tanks protect their comrades
+by diverting enemy focus and bearing the brunt of battle.
+
+Begin your journey as a gladiator or marauder, and later master
+the jobs of paladin, warrior, dark knight, and gunbreaker."
+1805,0,76802,0,"Healer"," ","Provide succor to all in need.
+Though limited in their offensive abilities, healers replenish
+health and protect their comrades with myriad rejuvenating skills.
+
+Begin your journey as a conjurer, and later master the jobs of
+white mage, scholar, astrologian, and sage.
+※Please note that the job of scholar is unlocked via the 
+DPS class of arcanist."
+1806,0,76803,0,"DPS"," ","Decimate your foes.
+Possessing great talent for the offensive, DPS is a role whose sole
+focus is to rout the enemy with a diverse array of punishing attacks.
+
+Begin your journey as a pugilist, lancer, archer, thaumaturge, or
+arcanist. From there, master the jobs of monk, dragoon, ninja, samurai,
+reaper, viper, bard, machinist, dancer, black mage, summoner, red mage,
+pictomancer, and blue mage.
+
+Note that the DPS role is divided into three categories.
+Melee DPS specializes in close combat; physical ranged DPS wields arms
+such as guns and bows; and magical ranged DPS uses arcane powers to
+assert dominance upon the battlefield."
 1807,0,0,0,"","",""
 1808,0,0,0,"","",""
 1809,0,0,0,"","",""
@@ -2402,8 +2443,8 @@ Please wait a moment and try again.","",""
 1926,0,360,0,"","",""
 1927,0,450,0,"","",""
 1928,0,0,0,"","",""
-1929,0,0,0,"","",""
-1930,0,0,0,"","",""
+1929,0,77,0,"","",""
+1930,0,60,0,"","",""
 1931,0,10,0,"","",""
 1932,0,5,0,"","",""
 1933,0,40,0,"","",""
@@ -2439,7 +2480,7 @@ Please wait a moment and try again.","",""
 1959,0,0,0,"Select a new name for your character.","",""
 1960,0,0,0,"View your retainer in the uniform he or she will wear when working.","",""
 1961,0,0,0,"View your character in the set of race-specific gear he or she will be wearing at the game's onset.","",""
-1962,0,0,0,"View your character in a set of job-specific gear based on the selected class.","",""
+1962,0,0,0,"View your character in a set of job-specific gear based on the selected class. Available after class selection.","",""
 1963,0,0,0,"View your character in the set of undergarments he or she will be wearing at the game's onset.","",""
 1964,0,0,0,"View your character in a standing pose.","",""
 1965,0,0,0,"View your character performing various actions such as emotes.","",""
@@ -2454,10 +2495,10 @@ Please wait a moment and try again.","",""
 around Hydaelyn's two astral and umbral poles while fluctuating
 between each of the six elements. In this, the year can be said
 to be the length of twelve moons."
-1974,0,0,0,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8021C03</Unknown2D> (Lv. <Value>IntegerParameter(2)</Value>)","",""
+1974,0,0,0,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8021E03</Unknown2D> (Lv. <Value>IntegerParameter(2)</Value>)","",""
 1975,0,0,0,"","",""
-1976,0,0,0,"Adjust graphics settings.","",""
-1977,0,0,0,"Adjust time of day.","",""
+1976,0,0,0,"Adjust system settings.","",""
+1977,0,0,0,"Adjust lighting and time of day.","",""
 1978,0,0,0,"Adjust weather.","",""
 1979,0,0,0,"Adjust camera options.","",""
 1980,0,0,0,"Limsa Lominsa","","On the southern coast of the island of Vylbrand, under the shadow of
@@ -2501,10 +2542,10 @@ His two aspects lie in the east and west of the city."
 1997,0,0,0,"","",""
 1998,0,0,0,"","",""
 1999,0,0,0,"","",""
-2000,0,0,0,"© 2010-<If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value><Else/><Time(0)/><If(LessThan(TopLevelParameter(222),2013))>2013<Else/><Value>TopLevelParameter(222)</Value></If></If> SQUARE ENIX CO., LTD. All Rights Reserved.","",""
+2000,0,0,0,"© SQUARE ENIX","",""
 2001,0,0,0,"START","",""
 2002,0,0,0,"EXIT","",""
-2003,0,0,0,"CONFIGURATION","",""
+2003,0,0,0,"SYSTEM CONFIGURATION","",""
 2004,0,0,0,"OPENING MOVIE","",""
 2005,0,0,0,"LAUNCHER","",""
 2006,0,0,0,"DATA CENTER","",""
@@ -2524,7 +2565,7 @@ His two aspects lie in the east and west of the city."
 2020,0,0,0,"LOCATION","",""
 2021,0,0,0,"WORLD VISIT","",""
 2022,0,0,0,"Endwalker Demo and Title","",""
-2023,0,0,0,"","",""
+2023,0,0,0,"Dawntrail Demo and Title","",""
 2024,0,0,0,"","",""
 2025,0,0,0,"World","",""
 2026,0,0,0,"Ping Status","",""
@@ -2558,9 +2599,9 @@ His two aspects lie in the east and west of the city."
 2054,0,0,0,"","",""
 2055,0,0,0,"CHARACTER CREATION","",""
 2056,0,0,0,"CHARACTER CUSTOMIZATION","",""
-2057,0,0,0,"","",""
-2058,0,0,0,"","",""
-2059,0,0,0,"","",""
+2057,0,0,0,"LICENSE","",""
+2058,0,0,0,"OPTIONS","",""
+2059,0,0,0,"INSTALLATION DETAILS","",""
 2060,0,0,0,"POSE","",""
 2061,0,0,0,"Standing","",""
 2062,0,0,0,"Unique","",""
@@ -2578,8 +2619,8 @@ His two aspects lie in the east and west of the city."
 2074,0,0,0,"Evening","",""
 2075,0,0,0,"Midday","",""
 2076,0,0,0,"Evening","",""
-2077,0,0,0,"","",""
-2078,0,0,0,"","",""
+2077,0,0,0,"No Head/Facewear","",""
+2078,0,0,0,"View your character without gear equipped to the head or face.","",""
 2079,0,0,0,"","",""
 2080,0,0,0,"1","",""
 2081,0,0,0,"1","",""
@@ -2596,8 +2637,8 @@ His two aspects lie in the east and west of the city."
 2092,0,0,0,"","",""
 2093,0,0,0,"","",""
 2094,0,0,0,"","",""
-2095,0,0,0,"","",""
-2096,0,0,0,"","",""
+2095,0,0,0,"Lighting 1","",""
+2096,0,0,0,"Lighting 2","",""
 2097,0,0,0,"","",""
 2098,0,0,0,"","",""
 2099,0,0,0,"","",""
