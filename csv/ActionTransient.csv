@@ -103,7 +103,8 @@ Increases damage dealt when under an effect that raises critical hit rate or dir
 40,"Increases maximum HP by 20% and restores the amount increased.
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases HP recovery via healing actions on self by 20%
 <Else/></If><Else/></If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s"
-41,"Delivers an attack with a potency of 110 to all nearby enemies."
+41,"Delivers an attack with a potency of 110 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity"
 42,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>200<Else/><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>160<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>160<Else/>100</If><Else/>100</If></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Maim<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>480<Else/><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>440<Else/>380</If><Else/>380</If></If><Else/><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>440<Else/>380</If><Else/>380</If></If>
@@ -153,20 +154,20 @@ Can only be executed while in combat."
 Damage dealt is increased when under an effect that raises critical hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s"
-54,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>290<Else/>250</If><Else/>250</If>.
-<If(GreaterThanOrEqualTo(PlayerParameter(72),18))><If(Equal(PlayerParameter(68),2))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>440<Else/>400</If><Else/>400</If>
-<Else/><If(Equal(PlayerParameter(68),20))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>440<Else/>400</If><Else/>400</If>
+54,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If>.
+<If(GreaterThanOrEqualTo(PlayerParameter(72),18))><If(Equal(PlayerParameter(68),2))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>500<Else/>460</If><Else/>460</If>
+<Else/><If(Equal(PlayerParameter(68),20))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>500<Else/>460</If><Else/>460</If>
 <Else/></If></If><Else/></If>Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
 55,"Increases evasion by <If(GreaterThanOrEqualTo(PlayerParameter(72),14))><If(Equal(PlayerParameter(68),2))>20<Else/><If(Equal(PlayerParameter(68),20))>20<Else/>12</If></If><Else/>12</If>%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
-56,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If>.
-<If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If> when executed from a target's flank.
-<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),2))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>360</If><Else/>360</If>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Flank Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>460<Else/>420</If><Else/>420</If>
-<Else/><If(Equal(PlayerParameter(68),20))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>400<Else/>360</If><Else/>360</If>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Flank Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>460<Else/>420</If><Else/>420</If>
+56,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>270<Else/>230</If><Else/>230</If>.
+<If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>330<Else/>290</If><Else/>290</If> when executed from a target's flank.
+<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),2))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/>380</If><Else/>380</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Flank Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>480<Else/>440</If><Else/>440</If>
+<Else/><If(Equal(PlayerParameter(68),20))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/>380</If><Else/>380</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Flank Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>480<Else/>440</If><Else/>440</If>
 <Else/></If></If><Else/></If>Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>opo-opo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
@@ -182,14 +183,14 @@ Can only be executed immediately after evading an attack.
 60,"Reduces damage taken by 10%.
 Cannot be used with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fists of Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fists of Wind<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and shares a recast timer with both.
 Effect ends upon reuse."
-61,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>380<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>300</If><Else/>300</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>340<Else/>300</If><Else/>300</If></If>.
+61,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>420<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/>340</If><Else/>340</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/>340</If><Else/>340</If></If>.
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 2 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor's Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Rising Raptor<Else/>True Strike</If><Else/>True Strike</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 150
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor's Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Rising Raptor<Else/>True Strike</If><Else/>True Strike</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
-62,"Delivers an attack with a potency of 100 to all nearby targets.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo Form Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>110
+62,"Delivers an attack with a potency of 110 to all nearby targets.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo Form Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>120
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
 63,"Increases damage dealt by <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>10<Else/>5</If><Else/>5</If>%.
@@ -198,11 +199,11 @@ Effect ends upon reuse."
 64,"Delivers an attack with a potency of 150."
 65,"Increases HP recovery via healing actions by 10% for self and nearby party members.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
-66,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>340<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>300<Else/>260</If><Else/>260</If></If>.
-<If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>400<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>360<Else/>320</If><Else/>320</If></If> when executed from a target's rear.
+66,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>360<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>320<Else/>280</If><Else/>280</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>320<Else/>280</If><Else/>280</If></If>.
+<If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>420<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/>340</If><Else/>340</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/>340</If><Else/>340</If></If> when executed from a target's rear.
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 3 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl's Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Pouncing Coeurl<Else/>Snap Punch</If><Else/>Snap Punch</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 100
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 2 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl's Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Pouncing Coeurl<Else/>Snap Punch</If><Else/>Snap Punch</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 150
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>opo-opo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
 67,"Delivers an attack with a potency of 210 to all enemies in a straight line before you."
@@ -213,12 +214,12 @@ Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</
 69,"Grants 3 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Perfect Balance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, each stack allowing the execution of a weaponskill that requires a certain form, without being in that form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Opo-opo Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Coeurl Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raptor Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground> depending on the form changed to upon executing actions
-Changing to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-opo Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Coeurl Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Changing to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Opo-opo Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Changing to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raptor Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Changing to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-opo Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Coeurl Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Changing to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Raptor Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Opo-opo Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Changing to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Coeurl Form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raptor Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <Else/></If><Else/></If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))>Can only be executed while in combat and when not under the effect of any <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Beast Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/>Can only be executed while in combat.</If><Else/>Can only be executed while in combat.</If>"
-70,"Delivers an attack with a potency of 130 to all nearby enemies.
+70,"Delivers an attack with a potency of 150 to all nearby enemies.
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>opo-opo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s"
@@ -236,7 +237,7 @@ Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</
 Cannot be used with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fists of Earth<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fists of Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and shares a recast timer with both.
 Effect ends upon reuse."
 74,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>320<Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>240</If><Else/>240</If></If><Else/><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>280<Else/>240</If><Else/>240</If></If>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-opo's Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo Form Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Opo-opo's Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo's Fury Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Leaping Opo<Else/>Bootshine</If><Else/>Bootshine</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s"
@@ -247,7 +248,7 @@ Effect ends upon reuse."
 77,"Increases parry rate by <If(GreaterThanOrEqualTo(PlayerParameter(72),20))><If(Equal(PlayerParameter(68),4))>80<Else/><If(Equal(PlayerParameter(68),22))>80<Else/>40</If></If><Else/>40</If>%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s"
 78,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>130<Else/>100</If><Else/>100</If>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raiden Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>280<Else/>250</If><Else/>250</If>"
 79,"Delivers an attack with a potency of 150.
 190 when executed from a target's flank.
@@ -271,7 +272,7 @@ Effect cannot be applied to damage over time.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s"
 86,"Delivers an attack with a potency of 110 to all enemies in a straight line before you."
 87,"Delivers an attack with a potency of <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>140<Else/>100</If><Else/>100</If>.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raiden Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),76))>250<Else/>210</If><Else/>210</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Power Surge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Power Surge Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases damage dealt by 10%
@@ -372,7 +373,7 @@ Can be stacked up to 4 times.
 <Else/></If><Else/></If>Can only be executed while in combat."
 117,"Delivers an attack with a potency of 100 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>3<Else/>2</If><Else/>2</If>
-Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Bloodletter<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))>Heartbreak Shot<Else/>Bloodletter</If><Else/>Bloodletter</If><UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 118,"Increases direct hit rate of self and all nearby party members by 20%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s"
 119,"Deals earth damage with a potency of 140."
@@ -502,7 +503,7 @@ Unable to cast if bound."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Thunderhead<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),58))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Hearts<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Umbral Heart Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Nullifies <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>'s MP cost increase for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> spells
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Umbral Heart Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Nullifies <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>'s MP cost increase for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> spells and reduces MP cost for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by one-third
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Paradox<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 159,"Deals ice damage with a potency of 120 to target and all enemies nearby it.
@@ -3090,7 +3091,7 @@ Triggers the cooldown of weaponskills, mudra, and <UIForeground>F201F4</UIForegr
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ninjutsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Hyoton<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
-2269,"Deals fire damage with a potency of 240 to target and all enemies nearby it.
+2269,"Deals wind damage with a potency of 240 to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Shadow Walker<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Shadow Walker Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Allows execution of actions which require the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hidden<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, without being under that effect
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
@@ -4484,7 +4485,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 3542,"Reduces damage taken by 15%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>6<Else/>4</If><Else/>4</If>s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Oath Gauge Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 50"
-3543,"Delivers an attack to target and all enemies nearby it with a potency of 850 for the first enemy, and 50% less for all remaining enemies.
+3543,"Delivers an attack to target and all enemies nearby it with a potency of 1,200 for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Formless Fist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing the execution of a weaponskill that requires a certain form, without being in that form
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 Any additional effects associated with the executed action will also be applied.
@@ -4714,7 +4715,8 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 Effect cannot be removed while in combat.
 Effect ends upon reuse."
 3606,"Reduces cast times for spells by 2.5 seconds.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2"
 3607,"Reduces enmity generation.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Refresh
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Refresh Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(GreaterThanOrEqualTo(PlayerParameter(72),48))><If(Equal(PlayerParameter(68),33))>80<Else/>60</If><Else/>60</If>
@@ -4758,7 +4760,8 @@ Also extends duration of beneficial effects cast on self and party members by 10
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Damage over time
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 40
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(GreaterThanOrEqualTo(PlayerParameter(72),32))><If(Equal(PlayerParameter(68),32))>30<Else/>18</If><Else/>18</If>s"
-3621,"Deals unaspected damage with a potency of 120 to all nearby enemies."
+3621,"Deals unaspected damage with a potency of 120 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity"
 3622,"Delivers an attack with a potency of 100.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Stun<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s (PvP 3s)
@@ -8740,7 +8743,8 @@ Can only be used once per synthesis."
 7378,""
 7379,""
 7380,""
-7381,"Delivers an attack with a potency of 100 to all nearby enemies."
+7381,"Delivers an attack with a potency of 100 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity"
 7382,"Reduces target party member's damage taken by 10%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>8<Else/>6</If><Else/>6</If>s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage reduction by an additional 10% if <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rampart<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Guardian<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sentinel<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sentinel<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> are active
@@ -8826,7 +8830,7 @@ Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dark Arts<UIGlo
 Chance is 100% when you successfully land a weaponskill or cast a spell while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditative Brotherhood<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<Else/>20% chance you open a chakra when you or party members under this effect successfully land a weaponskill or cast a spell</If><Else/>20% chance you open a chakra when you or party members under this effect successfully land a weaponskill or cast a spell</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s"
 7397,"Delivers an attack with a potency of 100 to all enemies in a straight line before you.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Doom Spike<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> <If(Equal(PlayerParameter(68),22))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Doom Spike<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Draconian Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Doom Spike<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Doom Spike<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 120
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Power Surge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Power Surge Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases damage dealt by 10%
@@ -9247,7 +9251,7 @@ Action upgraded to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Enc
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerParameter(72),78))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))>6<Else/>5</If><Else/>5</If> stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Manafication<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Manafication Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases magic damage dealt by 5%
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),35))><If(GreaterThanOrEqualTo(PlayerParameter(72),100))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Prefulgence Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon consuming 6 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Manafication<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 <Else/></If><Else/></If>All combos are canceled upon execution of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Manafication<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
@@ -18857,7 +18861,7 @@ This weaponskill does not share a recast timer with any other actions. Upon exec
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Step<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Technical Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 16005,"Delivers an attack to target and all enemies nearby it with a potency of <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>520<Else/>500</If><Else/>500</If> for the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Esprit Gauge Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50"
-16006,"Grants you <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Closed Position<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and designates a party member as your <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dance Partner<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing you to share the effects of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curing Waltz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Devilment<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tillana<UIGlow>01</UIGlow><UIForeground>01</UIForeground> with said party member.
+16006,"Grants you <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Closed Position<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and designates a party member as your <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dance Partner<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing you to share the effects of <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),62))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curing Waltz<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Devilment<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Finishing Move<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Devilment<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Devilment<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curing Waltz<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Standard Finish<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Curing Waltz<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If> with said party member.
 Effect ends upon reuse."
 16007,"Delivers an attack with a potency of 150.
 <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),66))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>50% chance of granting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -18880,7 +18884,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 16012,"Reduces damage taken by self and nearby party members by <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),98))>15<Else/>10</If><Else/>10</If>%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 Effect cannot be stacked with bard's <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Troubadour<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or machinist's <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tactician<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-16013,"Grants you the effects of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Symmetry<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Flow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Finishing Move Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
+16013,"Grants you the effects of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Symmetry<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Flourishing Flow<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <If(Equal(PlayerParameter(68),38))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Finishing Move Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Fourfold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/>and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Threefold Fan Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 Can only be executed while in combat."
 16014,"Dance to the beat of your own drum, granting <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rising Rhythm<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self.
@@ -19028,7 +19032,8 @@ Cancels auto-attack upon execution."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s<Else/></If><Else/></If>"
 16140,"Increases parry rate by 50% while reducing damage taken by 10%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s"
-16141,"Delivers an attack with a potency of 100 to all nearby enemies."
+16141,"Delivers an attack with a potency of 100 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity"
 16142,"Significantly increases enmity generation.
 Effect ends upon reuse."
 16143,"Delivers a ranged attack with a potency of 150.
@@ -19055,6 +19060,7 @@ Effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ready to Tea
 16148,"Reduces damage taken by 30%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s"
 16149,"Delivers an attack with a potency of 100 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Demon Slice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>160
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Adds a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cartridge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Powder Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -19533,6 +19539,7 @@ This weaponskill does not share a recast timer with any other actions. Upon exec
 16455,""
 16456,""
 16457,"Delivers an attack with a potency of 100 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Total Eclipse<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>170<If(Equal(PlayerParameter(68),19))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP
@@ -19559,6 +19566,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 Cannot be executed while bound."
 16462,"Delivers an attack with a potency of 100 to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Overpower<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>140
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Surging Tempest<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, increasing damage dealt by 10%
@@ -19602,6 +19610,7 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 Extends <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Darkside<UIGlow>01</UIGlow><UIForeground>01</UIForeground> duration by 30s to a maximum of 60s.
 Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flood of Darkness<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 16468,"Deals unaspected damage with a potency of <If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>120<Else/>100</If><Else/>100</If> to all nearby enemies.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Unleash<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>160<Else/>140</If><Else/>140</If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores MP<If(GreaterThanOrEqualTo(PlayerParameter(72),62))><If(Equal(PlayerParameter(68),32))>
@@ -19626,11 +19635,11 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Simulacrum is able to execute <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Shadowbringer<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),100))> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Disesteem<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Shadowbringer Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 570 for the first enemy, and 25% less for all remaining enemies<If(Equal(PlayerParameter(68),32))><If(GreaterThanOrEqualTo(PlayerParameter(72),100))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Disesteem Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 620 for the first enemy, and 25% less for all remaining enemies<Else/></If><Else/></If><Else/></If><Else/></If>"
-16473,"Delivers an attack with a potency of 120 to all nearby enemies.
+16473,"Delivers an attack with a potency of 140 to all nearby enemies.
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s"
-16474,"Delivers an attack with a potency of 170 to all enemies in a straight line before you.
+16474,"Delivers an attack with a potency of 200 to all enemies in a straight line before you.
 Can only be executed while in combat and under the effect of five <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Five chakra close upon execution."
 16475,"Extends the duration of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Disciplined Fist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and your present form to maximum and halts their expiration.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
@@ -19779,9 +19788,11 @@ Potency increases as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>B
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire III<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-16506,"Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+16506,"<If(Equal(PlayerParameter(68),25))><If(GreaterThanOrEqualTo(PlayerParameter(72),58))>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and 1 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Heart<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Umbral Heart Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIGlow>01</UIGlow><UIForeground>01</UIForeground>Nullifies <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Astral Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground>'s MP cost increase for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fire<UIGlow>01</UIGlow><UIForeground>01</UIForeground> spells and reduces MP cost for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flare<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by one-third
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores an amount of MP commensurate with your stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<Else/>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+</If><Else/>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+</If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores an amount of MP commensurate with your stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Umbral Ice<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Umbral Ice I: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2,500 MP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Umbral Ice II: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5,000 MP
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Umbral Ice III: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>10,000 MP
@@ -23444,21 +23455,29 @@ Can only be executed while in possession of <UIForeground>F201FA</UIForeground><
 19010,"Increases efficiency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Touch<UIGlow>01</UIGlow><UIForeground>01</UIForeground> actions by 50% for the next four steps."
 19011,"Increases efficiency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Touch<UIGlow>01</UIGlow><UIForeground>01</UIForeground> actions by 50% for the next four steps."
 19012,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19013,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19014,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19015,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19016,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19017,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19018,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19019,"The next action that would complete item synthesis will instead leave one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>progress<UIGlow>01</UIGlow><UIForeground>01</UIForeground> point remaining.
-Effect active for five steps."
+Effect active for five steps.
+This action does not increase step count."
 19020,""
 19021,""
 19022,""
@@ -30962,7 +30981,7 @@ Shares a recast timer with <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 25753,"Jumps to the target and delivers a critical direct hit to target and all enemies nearby it with a potency of 700 for the first enemy, and 70% less for all remaining enemies.
 Damage dealt is increased when under an effect that raises critical hit rate or direct hit rate.
 <If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),100))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Primal Ruination Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>20s
 <Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Primal Rend Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, granted by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inner Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Cannot be executed while bound."
 25754,"Reduces damage taken by target party member or self by 10%.
@@ -30995,7 +31014,7 @@ This weaponskill does not share a recast timer with any other actions."
 25761,"Delivers an attack with a potency of 180.
 Can only be executed while in combat and under the effect of five <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Five chakra close upon execution."
 25762,"Rush to a targeted enemy's or party member's location.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>3<Else/>2</If><Else/>2</If>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>3<Else/>2</If><Else/>2</If>
 Cannot be executed while bound."
 25763,"Delivers an attack with a potency of 100 to all enemies in a straight line before you.
 Can only be executed while in combat and under the effect of five <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Chakra<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Five chakra close upon execution."
@@ -31005,7 +31024,7 @@ The technique used is determined by the number of different types of <UIForegrou
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>2 Beast Chakra Types: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Celestial Revolution<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>3 Beast Chakra Types: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),86))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Rising Phoenix<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flint Strike<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Flint Strike<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>3 Beast Chakra and Both Nadi: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Phantom Rush<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tornado Kick<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tornado Kick<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>"
-25765,"Delivers an attack with a potency of 450.
+25765,"Delivers an attack with a potency of 600.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Opens the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lunar Nadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 If the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Lunar Nadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is already open, opens the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Solar Nadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> instead.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Formless Fist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing the execution of a weaponskill that requires a certain form, without being in that form
@@ -31019,7 +31038,7 @@ Can only be executed while under the effect of three <UIForeground>F201FA</UIFor
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s<If(Equal(PlayerParameter(68),20))><If(GreaterThanOrEqualTo(PlayerParameter(72),96))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Wind's Rumination<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s<Else/></If><Else/></If>"
-25767,"Delivers an attack with a potency of 110 to all nearby enemies.
+25767,"Delivers an attack with a potency of 120 to all nearby enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Opo-opo Form Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Guarantees a critical hit
 Damage dealt is increased when under an effect that raises critical hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -31487,7 +31506,7 @@ Effects granted are determined by the number of different types of astrosigns re
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP at the end of the effect's duration
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>500"
-25874,"Deals unaspected damage to all nearby enemies with a potency of 250 for the first enemy, and 40% less for all remaining enemies.
+25874,"Deals unaspected damage to all nearby enemies with a potency of <If(Equal(PlayerParameter(68),33))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>270<Else/>250</If><Else/>250</If> for the first enemy, and 40% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Macrocosmos<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to self and all nearby party members
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
 For the effect's duration, 50% of damage taken is compiled.
@@ -31507,7 +31526,7 @@ Amount restored cannot exceed the target's maximum HP."
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 Cancels auto-attack upon execution."
 25881,""
-25882,"Delivers an attack to all nearby enemies with a potency of 600 for the first enemy, and 70% less for all remaining enemies.
+25882,"Delivers an attack to all nearby enemies with a potency of 800 for the first enemy, and 70% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Opens the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Solar Nadi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Formless Fist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, allowing the execution of a weaponskill that requires a certain form, without being in that form
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
@@ -42336,7 +42355,7 @@ Potency is increased to 600 when executed after <UIForeground>F201F4</UIForegrou
 This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
-※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dreadfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dread Maw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> change to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Second Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dread Fangs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Dread Maw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> change to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Second Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34629,"Delivers an attack with a potency of 400 to the first enemy, and 60% less for all remaining enemies.
 Potency is increased to 600 when executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Second Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Anguine Tribute Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
@@ -42363,6 +42382,8 @@ This weaponskill does not share a recast timer with any other actions.
 <If(Equal(PlayerParameter(68),41))><If(GreaterThanOrEqualTo(PlayerParameter(72),92))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poised for Twinfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Poised for Twinfang Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases the potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Twinfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
+Upon successfully landing this action, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Twinfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Twinfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+These actions can be executed a total of two times.
 <Else/></If><Else/></If><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Rattling Coil Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1
 This weaponskill does not share a recast timer with any other actions."
 34634,"Delivers an attack with a potency of 250.
@@ -42408,22 +42429,22 @@ Can only be executed after successfully landing <UIForeground>F201F4</UIForegrou
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Twinblood Thresh<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34640,"Delivers an attack with a potency of 250 to the first enemy, and 60% less for all remaining enemies.
-Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>First Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed after successfully landing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>First Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serpent's Tail<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>First Legacy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34641,"Delivers an attack with a potency of 250 to the first enemy, and 60% less for all remaining enemies.
-Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Second Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed after successfully landing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Second Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serpent's Tail<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Second Legacy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34642,"Delivers an attack with a potency of 250 to the first enemy, and 60% less for all remaining enemies.
-Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Third Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed after successfully landing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Third Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serpent's Tail<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Third Legacy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34643,"Delivers an attack with a potency of 250 to the first enemy, and 60% less for all remaining enemies.
-Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fourth Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed after successfully landing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fourth Generation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Serpent's Tail<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fourth Legacy<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -42432,13 +42453,13 @@ Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UI
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Poised for Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Poised for Twinblood Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases the potency of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 50
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>60s
-Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed after landing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Twinfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Twinfang<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34645,"Delivers an attack with a potency of 100 to the first enemy, and 50% less for all remaining enemies.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Poised for Twinblood Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>150
-Can only be executed after <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Can only be executed after landing <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Fury<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Uncoiled Twinblood<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -42453,13 +42474,14 @@ Cannot be executed while bound."
 34649,""
 34650,"Deals fire damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>440<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>340<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>280<Else/>220</If><Else/>220</If></If></If></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+Cannot be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>"
 34651,"Deals wind damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>480<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>420<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>380<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),54))>320<Else/>260</If><Else/>260</If></If></If></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and not under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fire in Red<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aero in Green<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -42467,8 +42489,8 @@ Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hy
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Palette Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 25
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>White Paint<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Stacks: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5
-<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and not under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aero in Green<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Water in Blue<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -42476,13 +42498,13 @@ Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hy
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 34654,"Deals earth damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>840<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>740<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>740<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>670<Else/>560</If><Else/>560</If></If></If>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar.
@@ -42490,21 +42512,22 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 34655,"Deals lightning damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>880<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>780<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),84))>780<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>710<Else/>600</If><Else/>600</If></If></If>.
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>White Paint<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Stacks: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5
-<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Stone in Yellow<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Thunder in Magenta<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 34656,"Deals fire damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>120<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>100<Else/>80</If><Else/>80</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>100<Else/>80</If><Else/>80</If></If> to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
+Cannot be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>"
 34657,"Deals wind damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>140<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>120<Else/>100</If><Else/>100</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>120<Else/>100</If><Else/>100</If></If> to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and not under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Fire II in Red<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aero II in Green<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -42512,8 +42535,8 @@ Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hy
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),60))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Palette Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 25
 <Else/></If><Else/></If><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>White Paint<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Stacks: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5
-<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and not under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aero II in Green<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Water II in Blue<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -42521,13 +42544,13 @@ Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hy
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 34660,"Deals earth damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>260<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>240<Else/>200</If><Else/>200</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>240<Else/>200</If><Else/>200</If></If> to target and all enemies nearby it.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar.
@@ -42535,8 +42558,8 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 34661,"Deals lightning damage with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>280<Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>260<Else/>220</If><Else/>220</If></If><Else/><If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>260<Else/>220</If><Else/>220</If></If> to target and all enemies nearby it.
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),80))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>White Paint<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Stacks: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>5
-<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+<Else/></If><Else/></If>Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Aetherhues II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions.
 
 ※This action cannot be assigned to a hotbar.
@@ -42545,11 +42568,11 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>White Paint<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Cannot be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Monochrome Tones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>White Paint Cost: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>1<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>"
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>"
 34663,"Deals unaspected damage to target and all enemies nearby it with a potency of <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),94))>880<Else/>780</If><Else/>780</If> for the first enemy, and 60% less for all remaining enemies.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Black Paint<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Monochrome Tones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Black Paint Cost:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 1
-<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.
+<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.
 <Else/></If><Else/></If>This action does not share a recast timer with any other actions. Upon execution, the recast timer for this action will be applied to all other weaponskills and magic actions."
 34664,"Paints a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>pom<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 Cast immediately when used outside of combat.
@@ -42676,7 +42699,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP of all party members within 30 yalms of target
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Starstruck<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.<If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),82))>
-Consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available upon execution.<Else/></If><Else/></If>"
+When standing within the bounds of Starry Muse, consumes a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hyperphantasia<UIGlow>01</UIGlow><UIForeground>01</UIForeground> if available.<Else/></If><Else/></If>"
 34682,""
 34683,"Grants 3 stacks of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Subtractive Palette<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <If(Equal(PlayerParameter(68),42))><If(GreaterThanOrEqualTo(PlayerParameter(72),90))><UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Monochrome Tones<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -44984,7 +45007,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Imperator<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Blade of Honor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 36923,"Reduces damage taken by 40% and delivers an attack with a potency of 55 every time you suffer physical damage.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Primeval Impulse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when the effect expires
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Primeval Impulse<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when the effect expires or damage is taken
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Primeval Impulse Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Healing over time
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 400
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>15s"
@@ -44993,13 +45016,14 @@ Can only be executed when <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIG
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Inner Release<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Primal Wrath<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
-36925,"Delivers a critical direct hit to target and all enemies nearby it with a potency of 740 for the first enemy, and 70% less for all remaining enemies.
+36925,"Delivers a critical direct hit to target and all enemies nearby it with a potency of 780 for the first enemy, and 70% less for all remaining enemies.
 Increases damage dealt when under an effect that raises critical hit rate or direct hit rate.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Primal Ruination Ready<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Primal Rend<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Primal Ruination<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 36926,"Rush to a targeted enemy's location.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 Cannot be executed while bound."
 36927,"Reduces damage taken by 40%.
@@ -45038,6 +45062,7 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 Can only be executed while <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scorn<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is active."
 36933,""
 36934,"Rush to a targeted enemy's location.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Increased enmity
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Maximum Charges: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 Cannot be executed while bound."
 36935,"Reduces damage taken by 40%.
@@ -45086,15 +45111,15 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 Damage dealt is increased when under an effect that raises critical hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
-36946,"Delivers an attack with a potency of 330.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>480
+36946,"Delivers an attack with a potency of 340.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Raptor's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>540
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>raptor<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s"
-36947,"Delivers an attack with a potency of 340.
-400 when executed from a target's flank.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>440
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Flank Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>500
+36947,"Delivers an attack with a potency of 310.
+370 when executed from a target's flank.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>460
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Flank Coeurl's Fury Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>520
 Can only be executed when in <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>coeurl<UIGlow>01</UIGlow><UIForeground>01</UIForeground> form.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> Changes form to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>opo-opo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 30s"
@@ -45128,10 +45153,10 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 36953,"Deals physical damage to target and all enemies nearby it with a potency of 550 for the first enemy, and 50% less for all remaining enemies.
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Dragon's Flight<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
 36954,"Delivers an attack with a potency of 130.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raiden Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>340"
 36955,"Delivers an attack with a potency of 140.
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Action: <UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>True Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground> or <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Raiden Thrust<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Combo Bonus: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Power Surge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Power Surge Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Increases damage dealt by 10%
@@ -45172,8 +45197,8 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ten Chi Jin<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tenri Jindo<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 36962,"Reduces the amount of damage taken by the next attack by 10%.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>4s
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tengetsu's Foresight<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10 when hit
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Tengetsu's Foresight Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP when effect expires
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tengentsu's Foresight<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and increases <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kenki Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> by 10 when hit
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Tengentsu's Foresight Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Restores HP when effect expires
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>8s
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Cure Potency: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>500"
 36963,"Delivers an attack with a potency of 240.
@@ -45191,7 +45216,6 @@ Can only be executed while under the effect of <UIForeground>F201FA</UIForegroun
 Damage dealt is increased when under an effect that raises critical hit rate.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Additional Effect: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>Grants a stack of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Meditation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, up to a maximum of 3
 Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Tendo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and after accumulating 3 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Sen<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Iaijutsu<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tendo Setsugekka<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -45201,7 +45225,6 @@ This weaponskill does not share a recast timer with any other actions.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tsubame-gaeshi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tendo Kaeshi Goken<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
 36968,"Delivers a critical hit with a potency of 1,020.
 Damage dealt is increased when under an effect that raises critical hit rate.
-This weaponskill does not share a recast timer with any other actions.
 
 ※This action cannot be assigned to a hotbar.
 ※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tsubame-gaeshi<UIGlow>01</UIGlow><UIForeground>01</UIForeground> changes to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Tendo Kaeshi Setsugekka<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when requirements for execution are met."
@@ -45311,7 +45334,7 @@ Can only be cast while under the effect of <UIForeground>F201FA</UIForeground><U
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Thunderhead Duration: <UIGlow>01</UIGlow><UIForeground>01</UIForeground>30s
 Only one <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Thunder<UIGlow>01</UIGlow><UIForeground>01</UIForeground> spell-induced damage over time effect per caster can be inflicted upon a single target."
 36988,"Weave ley lines anew, setting your circle of power at a new location.
-Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ley Lines<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+Can only be executed while under the effect of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ley Lines<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and the effect duration will not be reset."
 36989,"Deals fire damage to target and all enemies nearby it with a potency of 400 for the first enemy, and 65% less for all remaining enemies.
 Can only be executed when the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Astral Gauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is full."
 36990,"Deals unaspected damage with a potency of 420.
