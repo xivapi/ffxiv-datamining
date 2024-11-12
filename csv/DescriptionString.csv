@@ -77,7 +77,7 @@ Once that player has discarded a tile, the player to the right takes a turn. Thi
 A winning hand can be formed in one of two ways:
 "
 49,"1. Tsumo: When a tile is drawn
-When a winning hand is formed with a tile drawn by the player, the point value is calculated, and each of the other three players pays this point cost.
+When a winning hand is formed with a tile drawn by the player, the point value is calculated. This is divided between the other three players, who each pay an even share.
 If the dealer calls a winning hand, the point value is increased by 50%.
 If the dealer has to pay another player, they must pay double."
 50,"2. Ron: When another player discards a tile
@@ -1847,7 +1847,7 @@ Each type of content awards unique achievements, which unlock a variety of mount
 Losing or winning a casual match has no effect on riser or tier.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Ranked Matches■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Loss or victory in these competitive matches affects participants' risers and tiers. Thus, when playing a ranked match, you will be matched with players of similar tier and riser to your own.
+Loss or victory in these competitive matches affects participants' risers and tiers. Thus, when playing a ranked match, you will be matched with players of similar tier and riser to your own. Furthermore, a match can only take place on selected data centers, which alternate each season.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Custom Matches■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Custom matches allow participants to customize their group, arena, and other match settings. Members may be recruited via the Party Finder. The results of a custom match will not be reflected on Player PvP profiles, count toward achievements, or affect risers or tiers. Additionally, PvP EXP, Series EXP, Wolf Marks, and similar rewards cannot be earned during custom matches.
@@ -1881,7 +1881,11 @@ If neither team reaches the goal by the time limit, and progress for both teams 
 
 ・Should the opposing team have the greater progress score upon the commencement of overtime, you must beat their progress score during overtime to win.
 
-・Should the teams have equal progress scores upon the commencement of overtime, you must beat the opposing team's progress score during overtime to win."
+・Should the teams have equal progress scores upon the commencement of overtime, you must beat the opposing team's progress score during overtime to win.
+
+Should neither team fulfill victory requirements by the end of overtime, the team with the greater progress score will declared the winner.
+If the teams have equal progress scores, victory will be awarded to the team that moved the tactical crystal closest to the goal point.
+In the event progress scores are equal, and the tactical crystal remains at the center of the field, the match will end in a draw."
 595,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■The Tactical Crystal■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 The all-important object placed at the arena's centerpoint is called the “tactical crystal.” It will remain bound until the first 20 seconds of the match have passed."
 596,"Once the tactical crystal is unbound, a ring will appear at its base. Should one team be fully in control of this ring─with no members of the opposing team present within its bounds─that team will be able to move the crystal.
@@ -1925,7 +1929,9 @@ Players cast up into the air by turbulence will take damage upon being returned 
 ・A boost to the limit gauge.
 
 The locations of black chocobo feathers are indicated by markers on the ground. Those who do not wish to go flying can negate the effects of turbulence by using Guard."
-612,"Turbulence also leaves behind a twister at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister."
+612,"Turbulence also leaves behind a twister and gale sphere at the site where it occurred. Stumbling into these twisters will result in damage and knockback. If your Guard is active, it will be depleted by the twister.
+
+Gale spheres, on the other hand, will greatly increase movement speed. Only one player may use any given gale sphere, and they will reappear after a fixed period of time while turbulence is active."
 613,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Participation Requirements■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Crystalline Conflict matches can be entered via the Duty Finder. To register, participants must use a job of level 30 or above, and may not be part of a preformed party.
 
@@ -1933,7 +1939,7 @@ Crystalline Conflict matches can be entered via the Duty Finder. To register, pa
 There are no restrictions on the balance of roles within a team. However, there cannot be two players of the same job on one team.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Time Limit■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-A standard match lasts five minutes. In the event that neither team claims victory in the allotted time, the match will go into overtime.
+A standard match lasts five minutes. In the event that neither team claims victory in the allotted time, the match will go into overtime, which may last up to ten minutes.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Retaliation■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Incapacitated players will be returned to their base, where they will be allowed to rejoin combat after a short delay─however, this delay increases with each incapacitation. Players will return to their senses with HP and MP fully restored and all action recast timers reset. Furthermore, they will be invulnerable so long as they remain at their base. This effect will be lost upon returning to the battlefield.
@@ -2968,7 +2974,7 @@ Remove unwanted sets from the list. The numbers assigned to these sets will also
 
 A special sidequest will unlock customization options allowing you to use these favored pieces to change the appearance of other equipment. Combined with the flexibility of gear sets, you control how you wish to look as you forge ahead on your adventures.
 
-The Glamour Guide can be accessed via the interface for each of these customization features, offering a detailed explanation of the various options available to create a style all your own."
+The ensemble customization guide can be accessed via the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>? button<UIGlow>01</UIGlow><UIForeground>01</UIForeground> found on each of these customization features, offering a detailed explanation of the various options available to create a style all your own."
 941,""
 942,""
 943,""
@@ -3216,10 +3222,7 @@ Example: Level 100 gear cannot be glamoured onto gear equippable at levels 1 thr
 ※Unaffected by item level (IL).
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2. The base item's class or role requirement is not compatible with that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Example: Tank-specific gear cannot be glamoured onto healer-specific gear.
-
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3. The base item's gear category does not match that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Example: Gear that affects the body and head cannot be glamoured onto gear that only affects the body."
+Example: Tank-specific gear cannot be glamoured onto healer-specific gear."
 1060,"Some glamours will only display as long as the character's level, class, race, and gender meet the requirements.
 Example: If a job-specific glamour is applied, the effect will no longer display when the character switches to a different job."
 1061,"Gear can be rendered invisible when glamoured with emperor's new items of the same gear category.
@@ -3236,7 +3239,9 @@ Select the Outfit icon, then select <UIForeground>F201FA</UIForeground><UIGlow>F
 The initial deposit consumes one <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>glamour prism<UIGlow>01</UIGlow><UIForeground>01</UIForeground> per item, but stored gear can be projected onto your equipment as many times as you like at no cost.
 
 If you wish to equip a stored item directly, you may retrieve it from the glamour dresser to restore it to its original form."
-1066,"To determine whether a given item can be stored in the glamour dresser, navigate to the item help window. If the glamour dresser icon in the upper right corner is lit up, the item can be stored."
+1066,"To determine whether a given item can be stored in the glamour dresser, navigate to the item help window. If the glamour dresser icon in the upper right corner is lit up, the item can be stored.
+
+※A “+” mark indicates the item can be used as part of an outfit glamour."
 1067,"Open the glamour dresser to access the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Glamour Creation<UIGlow>01</UIGlow><UIForeground>01</UIForeground> window, browse different gear categories, and select an item from your inventory or Armoury Chest. Gear with condition below 100% cannot be stored.
 
 Placing an item into the glamour dresser will reset its spiritbond to 0%, as well as remove customization including glamours, crests, signatures, materia, and most aetherial bonuses. The item will also be bound to you upon removal.
@@ -3342,3 +3347,167 @@ Calamity salvagers can be found in the following locations:
 ・Ul'dah, Steps of Thal
 ・Old Gridania
 "
+1101,"Basics of Combat"
+1102,"Attack Markers"
+1103,"Some enemy attacks will show an indication of where they will strike in the form of a marker. In most cases, you can avoid taking damage by moving outside of the highlighted area before it lands."
+1104,"These markers take many forms."
+1105,"Enmity"
+1106,"Enmity is the priority system by which an enemy chooses a target. All players entered into combat with the enemy generate enmity through dealing damage or healing allies.
+
+There are two ways to check your current enmity level:
+
+①The Enmity List
+The enmity list shows all enemies with whom you have generated enmity. The icon on the left indicates your current enmity level. The four levels are displayed below in order of greatest to least."
+1107,"②The Party List
+The party list shows each party member's enmity level with the currently selected enemy, as indicated in the lower left corner of the class/job icon.
+
+The player with the greatest enmity is marked with A, followed by 2, 3, and so on. The adjacent gauge shows the relative difference in enmity compared to the player with the most."
+1108,"During party combat, if you find that the enemies are swarming you instead of the tank, you may wish to withhold your attacks until the tank has regained enmity.
+
+■ Tank Stance
+Each tank job has a special action that helps to keep their enmity level high."
+1109,"With tank stance active, attacks dealt to enemies will generate significantly higher enmity, controlling the focus of enemy attacks and thereby helping to keep allies safe. This is a key aspect of playing as a tank in party combat."
+1110,"Enhancements and Enfeeblements"
+1111,"An enhancement is a status effect that strengthens the player, whereas an enfeeblement is one that weakens the player. The icons for enhancements and enfeeblements you receive will appear in the Status Effects element of your HUD layout."
+1112,"Enhancements have icons shaped like upward arrows, whereas enfeeblements are shaped like downward arrows. A white line across the top of the icon indicates that the enfeeblement can be removed with certain healing actions such as Esuna."
+1113,"Types of Markers"
+1114,"Targeting Markers"
+1115,"This marker indicates that you have been targeted with some manner of attack."
+1116,"The specifics of the ensuing attack will vary depending on the enemy and/or duty, but in all cases, it will involve you in some way."
+1117,"Area of Effect Markers"
+1118,"This marker indicates that you have been targeted with an area of effect attack. Targeted players should move away from their allies, and vice versa."
+1119,"Stack Markers"
+1120,"This marker indicates that a powerful area of effect attack is imminent. As a stack marker is all but impossible to survive alone, it is imperative that the targeted player stand with as many allies as possible to divide the damage evenly.
+
+Note that there are two different types of stack marker:
+
+■ Circle Stack"
+1121,"■ Line Stack"
+1122,"Lethal Attack Markers"
+1123,"This marker warns of an incredibly powerful attack. Typically, it targets the player with the most enmity, and because it deals tremendous damage, most non-tank jobs are unlikely to survive it.
+
+Should you be targeted, your defensive abilities can help keep you safe. For example, tanks can use Rampart to lower damage sustained as well as Reprisal to lower enemy damage output. For all other roles, check the Actions & Traits menu to see which defensive abilities your job can learn.
+
+Note that there are a few different markers, each with different areas of effect:"
+1124,"■ Solo Marker
+Depending on the enemy, these may inflict an area of effect attack."
+1125,"■ Area of Effect Marker"
+1126,"■ Line / Cleave Marker
+These attacks will strike the entire area behind the target."
+1127,"■ Stack Marker
+The spheres orbiting the center indicate how many players are needed to withstand the attack."
+1128,"Homing Area of Effect Markers"
+1129,"This marker indicates that you will be chased by a series of area of effect attacks targeting your current location.
+
+Because these attacks will strike rapidly and repeatedly, the best course of action is to stay on the move, away from your allies."
+1130,"Knockback Markers"
+1131,"This marker indicates that a knockback attack is imminent. When it strikes, you will be pushed a set distance away from the point of impact based on your relative location. Keep this in mind and either position yourself accordingly or use an action that nullifies knockback effects."
+1132,"Note that there are different types of knockback:
+
+■ Radial Knockback
+Players will be pushed outwards from the point of impact. If the marker is purple, like this one, it cannot be nullified by job actions."
+1133,"■ Directional Knockback
+Players will be pushed in a single set direction."
+1134,"Area of Effect Knockback Markers"
+1135,"This area of effect marker has an accompanying knockback effect. When it strikes, you will be pushed a set distance away from the point of impact based on your relative location. You will take damage if you stand inside its bounds, so you should position yourself along its outer edges."
+1136,"If the marker is purple, like this one, it cannot be nullified by job actions."
+1137,"Flare Markers"
+1138,"This marker indicates that a proximity-based area of effect attack is imminent. The closer you stand to its point of impact, the more damage you will take, so retreat as far as you can."
+1139,"Sometimes these proximity attacks will target a specific player. To minimize damage, the target should move away from the rest of their party, and vice versa. "
+1140,"Tower Markers"
+1141,"This marker indicates that a tower attack is imminent. If left unoccupied by at least one player, the entire party will take significant damage."
+1142,"Note that there are different tower markers with different effects:
+
+■ Tank Tower
+This type of tower hits especially hard. Only a tank should occupy it."
+1143,"■ Multi-player Towers
+Some towers require a specific number of players to fully absorb the attack. This number will be indicated by the marker. Displayed below are two examples of two-player towers."
+1144,"Proximity Tether Markers"
+1145,"This spiky marker indicates that you have been tethered to a hostile force. Remain in close proximity and you will receive some manner of negative effect, be it damage or an enfeeblement.
+
+Fortunately, this type of tether can be negated by moving away until the spikes disappear, like so:"
+1146,"Another type of proximity tether, also known as a chain, will continuously damage both players to whom it is connected so long as they remain in close proximity of one another. Affected players can break this tether by moving away from each other."
+1147,"Interceptible Tether Markers"
+1148,"This marker indicates that an attack will strike the current target. Depending on the situation, it may be necessary for a player to intercept it by physically blocking it from its target."
+1149,"Gaze Markers"
+1150,"This marker indicates that a gaze attack is imminent. Any player facing the enemy when this attack strikes will receive some manner of negative effect. Alternatively, sometimes the gaze marker will originate from a player instead.
+
+In both cases, it can be negated by facing away from its source before the attack strikes."
+1151,"Other Markers"
+1152,"Here you will find descriptions of other attack markers encountered in combat.
+
+■ Number Markers
+These markers indicate the order in which players will be attacked, starting with the player whose marker has the fewest orbs."
+1153,"■ Multi-player Markers
+This marker indicates the number of players who must stand together to survive the attack, as shown by the number of orbs."
+1154,"■ Countdown Markers
+These markers count down to an imminent attack, and if you are caught doing a forbidden action when it reaches zero, you will be penalized with damage or an enfeeblement.
+
+All countdown markers serve the same function regardless of enemy or duty, and over time you will learn the forbidden actions typically associated with each one."
+1155,"Playing with Character Voices"
+1156,"About Mahjong Character Voices"
+1157,"By enabling <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Mahjong Character Voices<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, one of several characters you've encountered on your adventures can be selected to cheer you on during your matches of mahjong.
+When in a position to call certain hands, or when match points are tallied, character portraits will display with accompanying voiced lines over the course of the match.
+※Characters selected by other players will not be shown."
+1158,"Character Voice Settings"
+1159,"Character voices can be enabled after acquiring special items purchased from <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><Sheet(ENpcResident,1044839,0)/><UIGlow>01</UIGlow><UIForeground>01</UIForeground> in Wonder Square.
+※Players must first complete the main scenario quest “<Sheet(Quest,67205,0)/>.”
+
+Once purchased, you can open the Gold Saucer menu and navigate to the Mahjong tab. Then, under Mahjong Character Voices, you can select your desired character to be used during matches. You may also select what attire will be used in the selected character's portrait, unlocking additional outfits as you progress through the main scenario."
+1160,"What Are Outfit Glamours?"
+1161,"Creating Outfit Glamours"
+1162,"Outfit Glamour-ready Gear"
+1163,"Items Comprising an Outfit Glamour"
+1164,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Outfit glamours<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are a means of projecting the appearance of specific item combinations onto an outfit that can be stored in the glamour dresser. Outfits stored in this manner only take up a single glamour slot.
+
+As with standard glamours, outfit glamours can be projected onto your gear or added to glamour plates.
+
+To create an outfit glamour, you must possess the corresponding combination of items of identical quality, and an equivalent number of glamour prisms."
+1165,"When opening the glamour dresser, outfit glamour-ready items are identified by the button displayed in the Glamour Creation window."
+1166,"Selecting this button will open the Outfit Glamour Creation window. Here you can select items from your Inventory and Armory Chest to include in the outfit glamour. Gear with condition below 100% cannot be used to form an outfit glamour.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Unlike standard glamours, the color of dyed gear is not transferred to an outfit glamour.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+※Outfit glamours can still be dyed after being projected onto gear or added to a glamour plate.
+
+When creating an outfit glamour, several items are combined as an ensemble and saved to the glamour dresser."
+1167,"You can check which items can be combined to form an outfit glamour by selecting the “View Outfit Glamour-ready Items” subcommand of an outfit glamour-ready item."
+1168,"Item combinations saved as outfit glamours can be viewed under the Outfits tab of the glamour dresser."
+1169,"In addition to viewing currently saved outfits under this tab, you can also inspect the individual items that form an outfit by selecting the “Inspect Outfit” subcommand. This subcommand is also accessible via each individual item.
+
+As with standard glamours, individual items that form part of an outfit glamour are displayed under their corresponding tab in the glamour dresser. These items are identified as such in the corresponding item details window.
+
+Restoring an outfit glamour will return each included item to its original form.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Specific items from an outfit glamour cannot be restored individually.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+1170,"Cast Bars"
+1171,"Some enemy attacks take time to cast before they strike. A progress bar will appear beside the name of the caster, and once this bar fills completely, the attack will be unleashed."
+1172,"Note that attacks with no cast time will not display a cast bar."
+1173,""
+1174,""
+1175,""
+1176,""
+1177,""
+1178,""
+1179,""
+1180,""
+1181,""
+1182,""
+1183,""
+1184,""
+1185,""
+1186,""
+1187,""
+1188,""
+1189,""
+1190,""
+1191,""
+1192,""
+1193,""
+1194,""
+1195,""
+1196,""
+1197,""
+1198,""
+1199,""
+1200,""

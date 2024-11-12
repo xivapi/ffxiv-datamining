@@ -61,7 +61,7 @@ If this character is master of a free company for which there is no eligible suc
 53,0,0,0,"<Switch(IntegerParameter(3))><Case(1)>1st</Case><Case(2)>2nd</Case><Case(3)>3rd</Case><Case(4)>4th</Case><Case(5)>5th</Case><Case(6)>6th</Case><Case(7)>7th</Case><Case(8)>8th</Case><Case(9)>9th</Case><Case(10)>10th</Case><Case(11)>11th</Case><Case(12)>12th</Case><Case(13)>13th</Case><Case(14)>14th</Case><Case(15)>15th</Case><Case(16)>16th</Case><Case(17)>17th</Case><Case(18)>18th</Case><Case(19)>19th</Case><Case(20)>20th</Case><Case(21)>21st</Case><Case(22)>22nd</Case><Case(23)>23rd</Case><Case(24)>24th</Case><Case(25)>25th</Case><Case(26)>26th</Case><Case(27)>27th</Case><Case(28)>28th</Case><Case(29)>29th</Case><Case(30)>30th</Case><Case(31)>31st</Case><Case(32)>32nd</Case></Switch> Sun of the <Switch(IntegerParameter(2))><Case(1)>1st Astral</Case><Case(2)>1st Umbral</Case><Case(3)>2nd Astral</Case><Case(4)>2nd Umbral</Case><Case(5)>3rd Astral</Case><Case(6)>3rd Umbral</Case><Case(7)>4th Astral</Case><Case(8)>4th Umbral</Case><Case(9)>5th Astral</Case><Case(10)>5th Umbral</Case><Case(11)>6th Astral</Case><Case(12)>6th Umbral</Case></Switch> Moon","",""
 54,0,0,0,"","",""
 55,0,0,0,"","",""
-56,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)></Case><Case(4)> (Legacy)</Case><Case(5)></Case><Case(6)> (Legacy)</Case><Case(7)></Case><Case(8)> (Legacy)</Case><Case(9)></Case></Switch>","",""
+56,0,0,0,"<Highlight>StringParameter(1)</Highlight><If(LessThan(IntegerParameter(2),7))><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)></Case><Case(4)> (Legacy)</Case><Case(5)></Case><Case(6)> (Legacy)</Case></Switch><Else/></If>","",""
 57,0,0,0,"Obtaining the World list...","",""
 58,0,0,0,"Unable to obtain the World list.","",""
 59,0,0,0,"Obtain updated World information. This feature can only be used once every <If(IntegerParameter(1))><If(LessThanOrEqualTo(IntegerParameter(1),10))><Switch(IntegerParameter(1))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(1)</Value></If><Else/><Value>IntegerParameter(1)</Value></If> <If(Equal(IntegerParameter(1),1))>minute<Else/>minutes</If>.","",""
@@ -372,7 +372,7 @@ have for countless generations."
 175,0,0,0,"The Matron","",""
 176,0,0,0,"Althyk","",""
 177,0,0,0,"The Keeper","",""
-178,0,76804,0,"Gladiator"," ","Gladiators specialize in the handling of all manner of one-handed
+178,0,230904,0,"Gladiator"," ","Gladiators specialize in the handling of all manner of one-handed
 blades, from daggers to longswords, be they single- or double-edged,
 straight or curved. A defining characteristic of the art is its emphasis
 on diverse combat tactics, training its members to bring their martial
@@ -384,7 +384,7 @@ makes the gladiator a formidable adversary in any encounter.
 
 Corresponding Job: Paladin"
 179,0,0,0,"","",""
-180,0,76805,0,"Pugilist"," ","The path of the pugilist is one of incessant training aimed at mastering
+180,0,230905,0,"Pugilist"," ","The path of the pugilist is one of incessant training aimed at mastering
 the traditional techniques of hand-to-hand combat. Though they
 command formidable power when unarmed, they are wont to use metal,
 leather, and bone weaponry to maximize their destructive potential.
@@ -396,7 +396,7 @@ better success in battle than does cumbersome plate or chain.
 
 Corresponding Job: Monk"
 181,0,0,0,"","",""
-182,0,76806,0,"Marauder"," ","The marauder is a combat specialist whose weapon of choice is
+182,0,230906,0,"Marauder"," ","The marauder is a combat specialist whose weapon of choice is
 the greataxe－a fearsome arm emblematic of Eorzea's pirates.
 Their approach to battle is one of brute force, relying on strength
 and steel to crush enemies and sunder weapons. They are highly
@@ -406,7 +406,7 @@ the tide of battle between warring nations.
 
 Corresponding Job: Warrior"
 183,0,0,0,"","",""
-184,0,76807,0,"Lancer"," ","The strategy of the lancers is to outrange and fluster opponents
+184,0,230907,0,"Lancer"," ","The strategy of the lancers is to outrange and fluster opponents
 with their long, two-handed polearms, peppering them with a barrage
 of thrusting attacks. They are trained with a number of weapons,
 giving a diversity to their attacks that makes them extremely
@@ -419,7 +419,7 @@ to include a variety of weaponry, such as the halberd and the trident.
 
 Corresponding Job: Dragoon"
 185,0,0,0,"","",""
-186,0,76808,0,"Archer"," ","The enduring popularity of the bow is a testament to its elegant
+186,0,230908,0,"Archer"," ","The enduring popularity of the bow is a testament to its elegant
 design, but this simple weapon would be of little worth without the
 surpassing skill of those who master it－the archers. Projectile
 techniques such as high-angle fire enable archers to assail their
@@ -434,7 +434,7 @@ most skilled with the bow.
 
 Corresponding Job: Bard"
 187,0,0,0,"","",""
-188,0,76809,0,"Conjurer"," ","Conjury calls upon elemental forces present in nature and concentrates
+188,0,230909,0,"Conjurer"," ","Conjury calls upon elemental forces present in nature and concentrates
 them to a potency at which spells can be woven. Through practiced
 meditation on the essences of creation, conjurers draw forth and
 absorb aether from their immediate surroundings. A wand or cane
@@ -445,7 +445,7 @@ said to be most powerful.
 
 Corresponding Job: White Mage"
 189,0,0,0,"","",""
-190,0,76810,0,"Thaumaturge"," ","In the hands of a skilled practitioner, thaumaturgy can be a force of
+190,0,230910,0,"Thaumaturge"," ","In the hands of a skilled practitioner, thaumaturgy can be a force of
 terrifying destruction. At the heart of this school of magic lies the
 ability to call forth and command the latent aether within oneself
 through deep introspection. To then mold that aether into sorcery,
@@ -454,7 +454,7 @@ housed a medium－a natural stone imbued with magical properties.
 
 Corresponding Job: Black Mage"
 191,0,0,0,"","",""
-192,0,76829,0,"Arcanist"," ","Adepts of the art of arcanum derive their might from symbols of power
+192,0,230929,0,"Arcanist"," ","Adepts of the art of arcanum derive their might from symbols of power
 born of geometric techniques hailing from across the southern seas.
 Held within occult grimoires, these symbols lend shape to the arcanist's
 aether, thereby allowing him to produce myriad powerful spells. Using
@@ -723,11 +723,11 @@ Corresponding Jobs: Summoner, Scholar"
 450,0,1200,0,"","",""
 451,0,0,0,"","",""
 452,0,1210,0,"","",""
-453,0,20,0,"","",""
+453,0,36020,0,"","",""
 454,0,1420,0,"","",""
-455,0,15,0,"","",""
+455,0,36015,0,"","",""
 456,0,930,0,"","",""
-457,0,2130,0,"","",""
+457,0,38130,0,"","",""
 458,0,0,0,"Hrothgar<Switch(IntegerParameter(1))><Case(1)> ©</Case><Case(2)> ®</Case><Case(3)></Case></Switch>","","Hailing from the distant shores of Ilsabard, the Hrothgar are a burly
 people of lionlike appearance—or the males are, at least. Females
 number staggeringly few among their population, and thus are
@@ -1035,23 +1035,24 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 642,0,0,0,"Requires <SheetEn(Item,1,IntegerParameter(1),1,1)/> or completion of the All Saints' Wake seasonal quests from “Affright and Delight” through “Yes We Cant” to unlock this face paint at the aesthetician.","",""
 643,0,0,0,"Requires <SheetEn(Item,1,IntegerParameter(1),1,1)/> to unlock this face paint at the aesthetician.","",""
 644,0,0,0,"","",""
-645,0,0,0,"","",""
-646,0,0,0,"","",""
-647,0,0,0,"","",""
-648,0,0,0,"","",""
-649,0,0,0,"","",""
-650,0,0,0,"","",""
-651,0,0,0,"","",""
-652,0,0,0,"","",""
-653,0,0,0,"","",""
-654,0,0,0,"","",""
-655,0,0,0,"","",""
-656,0,0,0,"","",""
+645,0,0,0,"Character was logged out or disconnected mid-duty. Unable to re-edit character.
+You must log in and leave the duty before trying again.","",""
+646,0,0,0,"Character is currently bound by duty. Changes to race, gender, and appearance cannot be made.","",""
+647,0,0,0,"Character is currently imprisoned in the Mordion Gaol. Unable to customize appearance.","",""
+648,0,0,0,"Currently unable to change character race, gender, or appearance.","",""
+649,0,0,0,"[ <Highlight>StringParameter(1)</Highlight> ]","",""
+650,0,0,0,"Disconnect from the <Highlight>StringParameter(1)</Highlight> data center and connect to the <Highlight>StringParameter(2)</Highlight> data center?","",""
+651,0,0,0,"Saved data pertaining to HUD/window layout and size settings, including certain window-specific settings.","HUD Layout",""
+652,0,1,0,"Saved data pertaining to hotbar/cross hotbar slot registration settings for all classes and jobs.","Hotbars",""
+653,0,2,0,"Saved data pertaining to gear sets.","Gear Sets",""
+654,0,3,0,"Saved data pertaining to character and control scheme settings, including keybinds and log filters.","Character Config",""
+655,0,4,0,"Saved data pertaining to individual character macros.","Individual Macros",""
+656,0,5,0,"Saved data pertaining to action change settings, favorites settings for the mount guide and other lists, as well as portrait settings, etc.","Others",""
 657,0,0,0,"","",""
 658,0,0,0,"","",""
 659,0,0,0,"","",""
-660,0,0,0,"","",""
-661,0,0,0,"","",""
+660,0,0,0,"Select Individually Select All","",""
+661,0,0,0,"<CommandIcon(8)/>Select Individually <CommandIcon(10)/>Select All","",""
 662,0,0,0,"","",""
 663,0,0,0,"","",""
 664,0,0,0,"","",""
@@ -1181,10 +1182,10 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 788,0,0,0,"","",""
 789,0,0,0,"","",""
 790,0,0,0,"","",""
-791,0,0,0,"","",""
-792,0,0,0,"","",""
-793,0,0,0,"","",""
-794,0,0,0,"","",""
+791,0,0,0,"Japanese Data Center","",""
+792,0,0,0,"North American Data Center","",""
+793,0,0,0,"European Data Center","",""
+794,0,0,0,"Oceanian Data Center","",""
 795,0,0,0,"","",""
 796,0,0,0,"","",""
 797,0,0,0,"","",""
@@ -1203,7 +1204,7 @@ Days Until Next Rank: <Format(IntegerParameter(2),FF022C)/></If>","",""
 <Else/></If>
 Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.<Else/>First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.</If>","",""
 807,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case><Case(7)> (OC)</Case><Case(8)> (OC Legacy)</Case><Case(9)></Case></Switch>","",""
-808,0,0,0,"Connecting to data center.","",""
+808,0,0,0,"Connecting to the <Highlight>StringParameter(1)</Highlight> data center.","",""
 809,0,0,0,"Acquiring character list.","",""
 810,0,0,0,"Proceed","",""
 811,0,0,0,"Cancel","",""
@@ -1220,13 +1221,15 @@ Once you have chosen a Home World, chances to move to another will be limited,
 so if you have made plans to play FINAL FANTASY XIV with friends, make
 certain that you all select the same one.
 
-Worlds are divided between nine different data centers based on the location of
-their servers. To ensure you encounter the fewest number of latency issues,
-it is recommended, but not required, that you select a data center that is
-closer to where you will be playing. Legacy Worlds (servers existing since the
-original launch) are indicated in parentheses.
+Worlds are divided between data centers based on the location of their servers.
+To ensure you encounter the fewest number of latency issues, it is recommended,
+but not required, that you select a data center that is geographically closer
+to you. If you do not see your preferred World displayed, please suspend character
+creation and select a different data center via the Character Selection screen
+or the Data Center menu option on the title screen. Legacy Worlds (servers existing
+since the original launch) are indicated in parentheses.
 
-<Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/>, this World's data center, is recommended for residents of <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>Japan</Case><Case(2)>North America</Case><Case(3)>Europe</Case><Case(4)>Oceania</Case><Case(5)></Case><Case(6)></Case><Case(7)>North America</Case></Switch><Else/></If>.<If(Equal(IntegerParameter(3),7))><UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>This data center is for cloud stress testing only. No connections can be made outside the test period.
+<If(Equal(IntegerParameter(3),7))><UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>This data center is for cloud stress testing only. No connections can be made outside the test period.
 <UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(Equal(IntegerParameter(2),1))>
 
 <Gui(99)/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EXP bonuses are currently being granted to all new players
@@ -1423,30 +1426,34 @@ It is strongly recommended that you save your data locally before attempting a b
 972,0,0,0,"Sharing backup settings data between Windows®/Mac® and PlayStation®4 play environments is currently resricted.","",""
 973,0,0,0,"Searching for data...","",""
 974,0,0,0,"Preparing download...","",""
-975,0,0,0,"","",""
-976,0,0,0,"","",""
+975,0,0,0,"Import Character Settings","",""
+976,0,0,0,"<Time(IntegerParameter(1))/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>:<TwoDigitValue>TopLevelParameter(216)</TwoDigitValue>","",""
 977,0,0,0,"","",""
 978,0,0,0,"","",""
-979,0,0,0,"","",""
-980,0,0,0,"","",""
-981,0,0,0,"","",""
-982,0,0,0,"","",""
-983,0,0,0,"","",""
-984,0,0,0,"","",""
-985,0,0,0,"","",""
+979,0,0,0,"Client Settings Data","",""
+980,0,0,0,"System Configuration Backup","",""
+981,0,0,0,"I understand.","",""
+982,0,0,0,"The last backup of <If(Equal(IntegerParameter(2),2))><Else/>client data <If(Equal(IntegerParameter(2),1))><Else/>and </If></If><If(Equal(IntegerParameter(2),1))><Else/>character data for the last character you logged in with in this play environment </If>was created <If(GreaterThanOrEqualTo(IntegerParameter(1),1))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>day<Else/>days</If><Else/>less than 1 day</If> ago.
+Creating routine backups is recommended.","",""
+983,0,0,0,"Notify after a set time has elapsed since the last backup.","",""
+984,0,0,0,"※Settings can be adjusted via System Configuration.","",""
+985,0,0,0,"OK","",""
 986,0,0,0,"","",""
-987,0,0,0,"","",""
+987,0,0,0,"The selected character's data will be copied.
+※Creating a backup of character settings is recommended.","",""
 988,0,0,0,"","",""
 989,0,0,0,"","",""
 990,0,0,0,"","",""
-991,0,0,0,"","",""
+991,0,0,0,"Game Manual","",""
 992,0,0,0,"","",""
-993,0,0,0,"","",""
-994,0,0,0,"","",""
-995,0,0,0,"","",""
-996,0,0,0,"","",""
-997,0,0,0,"","",""
-998,0,0,0,"","",""
+993,0,0,0,"Copy Character Settings","",""
+994,0,0,0,"Select the data you wish to copy from the selected character.","",""
+995,0,0,0,"Select the character you wish to copy HUD layout, hotbar configuration, and other settings from.
+※Up to 8 recently logged-in characters will be displayed.","",""
+996,0,0,0,"Searching for other character data...","",""
+997,0,0,0,"Applicable character data could not be found.","",""
+998,0,0,0,"Character settings copied.
+Settings will be applied the next time you log in with this character.","",""
 999,0,0,0,"","",""
 1000,0,0,0,"Tail Length","",""
 1001,0,0,0,"Tail Shape","",""
@@ -1617,9 +1624,9 @@ You must log in before a new request can be processed.","",""
 1160,0,0,0,"","",""
 1161,0,0,0,"Close","",""
 1162,0,0,0,"Select the data center and World you wish to visit.
-Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>","",""
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),120))>Less than 2 minutes<Else/><If(LessThan(IntegerParameter(1),180))>Less than 3 minutes<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If></If></If>","",""
 1163,0,0,0,"Returning to Home Data Center and Home World.
-Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>","",""
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),120))>Less than 2 minutes<Else/><If(LessThan(IntegerParameter(1),180))>Less than 3 minutes<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If></If></If>","",""
 1164,0,0,0,"DATA CENTER","",""
 1165,0,0,0,"WORLD","",""
 1166,0,0,0,"Confirm","",""
@@ -1627,7 +1634,7 @@ Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<
 1168,0,0,0,"❖<Highlight>StringParameter(1)</Highlight>","",""
 1169,0,0,0,"Retrieving World data...","",""
 1170,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> will now be transported to <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center.
-Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),120))>Less than 2 minutes<Else/><If(LessThan(IntegerParameter(1),180))>Less than 3 minutes<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If></If></If>
 
 <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Please note the following:
 ・This process may take several minutes to complete.
@@ -1638,7 +1645,7 @@ Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<
 1171,0,0,0,"Proceed","",""
 1172,0,0,0,"Previous Step","",""
 1173,0,0,0,"Your character is traveling between data centers. Please wait until they have reached their destination.
-Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>","",""
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),120))>Less than 2 minutes<Else/><If(LessThan(IntegerParameter(1),180))>Less than 3 minutes<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If></If></If>","",""
 1174,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> has arrived safely on <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center!","",""
 1175,0,0,0,"This character is currently visiting the <Highlight>StringParameter(1)</Highlight> data center.","",""
 1176,0,0,0,"A name change is required to log in with this character. Please return to your Home World to change your name.","",""
@@ -1658,7 +1665,7 @@ After changing names, logging in will place your character at the aetheryte of y
 1189,0,0,0,"Select World","",""
 1190,0,0,0,"Proceed","",""
 1191,0,0,0,"<Highlight>StringParameter(1)</Highlight><Gui(88)/><Highlight>StringParameter(2)</Highlight> will now be returned to Home World <Highlight>StringParameter(4)</Highlight> in the <Highlight>StringParameter(3)</Highlight> data center.
-Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If>
+Estimated Travel Time: <If(LessThan(IntegerParameter(1),60))>Less than 1 minute<Else/><If(LessThan(IntegerParameter(1),120))>Less than 2 minutes<Else/><If(LessThan(IntegerParameter(1),180))>Less than 3 minutes<Else/><If(LessThan(IntegerParameter(1),300))>Less than 5 minutes<Else/><If(LessThan(IntegerParameter(1),600))>Less than 10 minutes<Else/><If(LessThan(IntegerParameter(1),1200))>Less than 20 minutes<Else/>Unknown. Servers are currently congested.</If></If></If></If></If></If>
 
 <UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>Please note the following:
 ・This process may take several minutes to complete.
@@ -2295,13 +2302,13 @@ After returning to the title screen, please select <Highlight>StringParameter(2)
 1801,0,0,0,"You were automatically logged out due to extended inactivity.","",""
 1802,0,0,0,"<UIForeground>F201FE</UIForeground><UIGlow>F201FF</UIGlow>A registered license for <Sheet(ExVersion,IntegerParameter(1),0)/> is required to select this race.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 1803,0,0,0,"RGB: <Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>,<Value>IntegerParameter(3)</Value>","",""
-1804,0,76801,0,"Tank"," ","Stand as a bulwark in the face of danger.
+1804,0,230901,0,"Tank"," ","Stand as a bulwark in the face of danger.
 With superior defensive abilities, tanks protect their comrades
 by diverting enemy focus and bearing the brunt of battle.
 
 Begin your journey as a gladiator or marauder, and later master
 the jobs of paladin, warrior, dark knight, and gunbreaker."
-1805,0,76802,0,"Healer"," ","Provide succor to all in need.
+1805,0,230902,0,"Healer"," ","Provide succor to all in need.
 Though limited in their offensive abilities, healers replenish
 health and protect their comrades with myriad rejuvenating skills.
 
@@ -2309,7 +2316,7 @@ Begin your journey as a conjurer, and later master the jobs of
 white mage, scholar, astrologian, and sage.
 ※Please note that the job of scholar is unlocked via the 
 DPS class of arcanist."
-1806,0,76803,0,"DPS"," ","Decimate your foes.
+1806,0,230903,0,"DPS"," ","Decimate your foes.
 Possessing great talent for the offensive, DPS is a role whose sole
 focus is to rout the enemy with a diverse array of punishing attacks.
 
@@ -2621,7 +2628,7 @@ His two aspects lie in the east and west of the city."
 2075,0,0,0,"Midday","",""
 2076,0,0,0,"Evening","",""
 2077,0,0,0,"No Head/Facewear","",""
-2078,0,0,0,"View your character without gear equipped to the head or face.","",""
+2078,0,0,0,"View your character without gear equipped to the head, face, or neck.","",""
 2079,0,0,0,"","",""
 2080,0,0,0,"1","",""
 2081,0,0,0,"1","",""
