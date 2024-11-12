@@ -573,9 +573,9 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 389,"<CommandIcon(10)/> Subcommands"
 390,"<CommandIcon(12)/><CommandIcon(13)/> Select Class <CommandIcon(10)/> Subcommands"
 391,"<CommandIcon(12)/><CommandIcon(13)/> Select Class  <CommandIcon(8)/> Open Map"
-392,"<CommandIcon(5)/> Select Destination <CommandIcon(8)/> Teleport <CommandIcon(23)/> Navigate Map"
-393,"<CommandIcon(23)/> Scroll <CommandIcon(7)/> Return to List"
-394,"<CommandIcon(23)/> Scroll <CommandIcon(8)/> Teleport <CommandIcon(7)/> Return to List"
+392,"<CommandIcon(5)/> Select Destination <CommandIcon(8)/> Teleport <CommandIcon(11)/> Previous Location <CommandIcon(23)/> Navigate Map"
+393,"<CommandIcon(23)/> Scroll <CommandIcon(7)/> Return to List <CommandIcon(11)/> Previous Location"
+394,"<CommandIcon(23)/> Scroll <CommandIcon(8)/> Teleport <CommandIcon(11)/> Previous Location <CommandIcon(7)/> Return to List"
 395,"<CommandIcon(10)/> Cycle Between Roles <CommandIcon(8)/> Specify Class/Job  <CommandIcon(11)/> Execute Search"
 396,"<CommandIcon(10)/> Select/Deselect All  <CommandIcon(11)/> Execute Search"
 397,"<CommandIcon(10)/> Toggle Role or Single Class/Job"
@@ -776,19 +776,19 @@ Exit playback."
 470,"<CommandIcon(10)/> Subcommands <CommandIcon(24)/> Scroll"
 471,"<CommandIcon(11)/> Claim Reward <CommandIcon(10)/> Subcommands <CommandIcon(24)/> Scroll"
 472,"<CommandIcon(10)/> Subcommands"
-473,""
+473,"<CommandIcon(10)/> Subcommands"
 474,"<CommandIcon(11)/> Confirm"
 475,"<CommandIcon(10)/> Set to Hotbar  <CommandIcon(12)/><CommandIcon(13)/> Change Page"
 476,"<CommandIcon(12)/><CommandIcon(13)/> Change Page"
 477,"<CommandIcon(8)/> Display Locations"
 478,"<CommandIcon(10)/> Subcommands"
 479,"<CommandIcon(10)/> Subcommands"
-480,""
+480,"<CommandIcon(10)/> Subcommands"
 481,"<CommandIcon(18)/> Finish Placing Furnishing Glamours"
 482,"<Gui(13)/>+<Gui(20)/> Move <CommandIcon(14)/><CommandIcon(15)/> Rotate <CommandIcon(10)/> Subcommands <CommandIcon(11)/> <If(IntegerParameter(1))>Enable Grid Snap<Else/>Disable Grid Snap</If>"
 483,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Registered Glamours List"
 484,"<CommandIcon(10)/> Subcommands  <CommandIcon(11)/> Inventory<If(Equal(PlayerParameter(105),0))>  <CommandIcon(14)/><CommandIcon(15)/> Toggle Registered/Placed Glamours<Else/></If>"
-485,""
+485,"<CommandIcon(11)/> Apply"
 486,"<CommandIcon(10)/> Subcommands <CommandIcon(11)/> <If(IntegerParameter(1))>Enable Grid Snap<Else/>Disable Grid Snap</If>"
 487,"<CommandIcon(10)/> Subcommands"
 488,"<CommandIcon(18)/> Quit Coloring"
@@ -1005,12 +1005,26 @@ The following characters cannot be barred:
 ・Free company estate members
 ・Tenants in shared personal housing
 "
-1072,""
-1073,""
-1074,""
-1075,""
-1076,""
-1077,""
+1072,"Interior Design"
+1073,"Renovate an estate's interior with the interior design feature.
+
+From the Social menu, select “Housing,” followed by “Interior Design” to open the relevant window, from which you may select the desired interior style.
+
+Once applied, everything inside of the estate aside from the wallpaper, flooring, and ceiling lights will be changed. Please note that the floor layout, including the position of the stairs, may also be altered."
+1074,"Requirements"
+1075,"The interior design of cottages, houses, and mansions can be changed.
+
+To accommodate a newly applied interior style, all placed furnishings will be moved to the storeroom. The interior design process cannot be completed should the storeroom possess insufficient space.
+
+Additionally, interior design adjustments cannot be made within fifteen days of estate auto-demolition.
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※The interior design of apartments and private chambers cannot be changed.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+1076,"Authorization"
+1077,"Adjustment of an estate's interior design can only be performed by those granted the necessary authorization.
+
+Free Company estates: Members who have been granted both hall remodeling and furnishing placement authorization may change the estate's interior design.
+
+Private estates: In addition to the owners, tenants with authorization to add, remove, or change the position/color of estate furnishings or walls may change the estate's interior design."
 1078,""
 1079,""
 1080,""
