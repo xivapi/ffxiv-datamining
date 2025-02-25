@@ -11943,7 +11943,9 @@ The World Visit System allows you to travel from <If(Equal(IntegerParameter(1),0
 　・Others' ceremonies cannot be attended
 
 <UIForeground>F20202</UIForeground>Duties/Features<UIForeground>01</UIForeground>
-<If(GreaterThan(IntegerParameter(1),0))>　・Crystalline Conflict ranked matches cannot be entered
+<If(Equal(IntegerParameter(1),2))>　・Crystalline Conflict ranked matches can be entered if:
+　　・Your Home World is in the same physical data center
+　　・You participate via the hosting data center
 <Else/></If>　・Lord of Verminion tournaments cannot be entered
 　・Triple Triad tournaments cannot be entered
 　・Cactpot tickets cannot be purchased
