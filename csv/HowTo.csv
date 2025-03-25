@@ -11,7 +11,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 7,"Battle",True,150,151,152,153,0,190,191,192,193,153,4,1
 8,"Experience Points",True,1200,0,0,0,0,0,0,0,0,0,4,2
 9,"Handing Over Items",True,200,0,0,0,0,201,0,0,0,0,5,13
-10,"Changing Classes",True,110,111,0,0,0,0,0,0,0,0,2,8
+10,"Changing Classes",True,110,111,0,0,0,0,0,0,0,0,2,9
 11,"Collecting Rewards",False,15,0,0,0,0,16,0,0,0,0,5,5
 12,"Accepting Quests",False,10,0,0,0,0,11,0,0,0,0,5,2
 13,"Return",True,25,26,0,0,0,27,28,0,0,0,3,1
@@ -23,7 +23,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 19,"Aethernet",True,45,0,0,0,0,0,0,0,0,0,3,3
 20,"Shops",True,135,136,0,0,0,137,136,0,0,0,6,5
 21,"The Armoire",True,1320,1321,0,0,0,0,0,0,0,0,7,11
-22,"Moogle Delivery Service",True,40,41,0,0,0,40,42,0,0,0,2,7
+22,"Moogle Delivery Service",True,40,41,0,0,0,40,42,0,0,0,2,8
 23,"Finding Mature Trees",True,890,891,892,0,0,890,893,894,0,0,13,3
 24,"Gathering",True,900,901,902,0,0,0,0,0,0,0,13,4
 25,"Gathering Interface",True,910,911,912,0,0,0,0,0,0,0,13,5
@@ -37,7 +37,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 33,"Accepting Guildleves",True,500,501,0,0,0,0,0,0,0,0,9,1
 34,"Initiating Levequests",True,510,511,512,0,0,513,514,515,0,0,9,2
 35,"Levequest Difficulty",True,520,521,0,0,0,0,0,0,0,0,9,3
-36,"Sanctuaries",True,170,171,172,173,0,170,171,172,173,0,2,6
+36,"Sanctuaries",True,170,171,172,173,0,0,0,0,0,0,2,7
 37,"Armoury Chest",True,160,161,162,0,0,160,161,163,0,0,7,3
 38,"Unlocking Classes",True,115,116,0,0,0,0,0,0,0,0,2,4
 39,"Emotes",True,80,81,82,0,0,80,83,0,0,0,2,3
@@ -95,7 +95,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 91,"Free Companies",True,440,441,442,0,0,0,0,0,0,0,11,1
 92,"Limit Break",True,240,241,242,243,0,0,0,0,0,0,4,13
 93,"Level Sync",True,250,251,252,0,0,0,0,0,0,0,8,4
-94,"Jobs",True,260,261,262,0,0,0,0,0,0,0,2,9
+94,"Jobs",True,260,261,262,0,0,0,0,0,0,0,2,10
 95,"Dyeing",True,950,951,952,953,0,0,0,0,0,0,7,8
 96,"Fighting with Your Chocobo",True,360,361,0,0,0,0,0,0,0,0,4,21
 97,"Extracting Materia",True,960,961,962,0,0,0,0,0,0,0,7,21
@@ -148,7 +148,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 144,"Placards",True,1360,1361,0,0,0,0,0,0,0,0,2,17
 145,"Duties for Alliances",True,1370,1371,0,0,0,0,0,0,0,0,8,40
 146,"Weekly Reward Limits",True,1380,1381,1382,0,0,0,0,0,0,0,8,41
-147,"The Party Finder",True,1390,1391,1392,0,0,1393,1391,1392,0,0,2,5
+147,"The Party Finder",True,1390,1391,1392,0,0,1393,1391,1392,0,0,2,6
 148,"Hidden Items",True,1400,1401,0,0,0,0,0,0,0,0,13,19
 149,"Timeworn Maps",True,1410,1411,1412,0,0,0,0,0,0,0,6,31
 150,"Deciphering Timeworn Maps",True,1420,1421,0,0,0,0,0,0,0,0,6,32
@@ -205,7 +205,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 201,"The Manderville Gold Saucer",True,1940,1941,1942,0,0,0,0,0,0,0,15,1
 202,"Entering a Chocobo Race",True,1950,1951,1952,0,0,0,0,0,0,0,15,3
 203,"Specialists",True,1960,1961,0,0,0,0,0,0,0,0,12,21
-204,"Submitting Collectables",True,1970,0,0,0,0,0,0,0,0,0,6,41
+204,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 205,"Flying Mounts",True,1980,1981,0,0,0,1980,1982,0,0,0,3,20
 206,"",False,0,0,0,0,0,0,0,0,0,0,0,0
 207,"",False,0,0,0,0,0,0,0,0,0,0,0,0
@@ -245,7 +245,7 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 241,"Spearfishing",True,2340,0,0,0,0,0,0,0,0,0,14,30
 242,"Teeming Waters",True,2350,2351,2352,0,0,0,0,0,0,0,14,31
 243,"",False,0,0,0,0,0,0,0,0,0,0,0,0
-244,"Role Actions",True,2370,2371,0,0,0,2370,2371,0,0,0,4,10
+244,"Role Actions",True,2370,2371,0,0,0,0,0,0,0,0,4,10
 245,"Performance Actions",True,2380,0,0,0,0,0,0,0,0,0,2,45
 246,"The Fashion Report",True,2390,2391,2392,2393,0,0,0,0,0,0,7,30
 247,"Glamour Dressers",True,2400,2401,0,0,0,0,0,0,0,0,7,26
@@ -254,9 +254,9 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 250,"Using Glamour Plates",True,2430,0,0,0,0,0,0,0,0,0,7,29
 251,"Adventuring in Eureka",True,2440,2441,0,0,0,0,0,0,0,0,8,50
 252,"Chocobo Saddlebag",True,2450,2451,0,0,0,0,0,0,0,0,6,18
-253,"Duty Recorder",True,2460,2461,0,0,0,0,0,0,0,0,8,56
-254,"Recording Duties",True,2470,2471,2472,2473,0,2470,2471,2472,2474,0,8,57
-255,"Viewing Recorded Duties",True,2480,0,0,0,0,0,0,0,0,0,8,58
+253,"Duty Recorder",True,2460,2461,0,0,0,0,0,0,0,0,8,57
+254,"Recording Duties",True,2470,2471,2472,2473,0,2470,2471,2472,2474,0,8,58
+255,"Viewing Recorded Duties",True,2480,0,0,0,0,0,0,0,0,0,8,59
 256,"Happy Bunnies",True,2487,2488,0,0,0,0,0,0,0,0,8,51
 257,"Message Books",True,2481,2482,2483,2484,0,0,0,0,0,0,2,23
 258,"Companion Makeovers",True,2485,2486,0,0,0,0,0,0,0,0,8,61
@@ -289,3 +289,11 @@ int32,str,bit&01,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,HowToPage,How
 285,"Facewear",True,2574,2575,0,0,0,0,0,0,0,0,2,29
 286,"Scenario Guide",True,2576,2577,0,0,0,0,0,0,0,0,5,7
 287,"Special Recipes",True,2578,2579,0,0,0,0,0,0,0,0,12,22
+288,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+289,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+290,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+291,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+292,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+293,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+294,"",False,0,0,0,0,0,0,0,0,0,0,0,0
+295,"",False,0,0,0,0,0,0,0,0,0,0,0,0

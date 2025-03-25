@@ -98,7 +98,7 @@ Start your adventure by selecting an existing character, or creating a new one.
 You currently have <If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If> <If(Equal(IntegerParameter(1),1))>character<Else/>characters</If> on <Highlight>StringParameter(1)</Highlight>. To select another World, press the World button in the upper right of your screen.","",""
 87,0,0,0,"Proceed","",""
 88,0,0,0,"Select a World.","",""
-89,0,0,0,"Worlds are separated into two groups based on server location. Check their ping status to see which group is best for you.","",""
+89,0,0,0,"","",""
 90,0,900,0,"","",""
 91,0,900,0,"","",""
 92,0,0,0,"","",""
@@ -1203,7 +1203,7 @@ You must log in and leave the duty before trying again.","",""
 <If(Equal(IntegerParameter(1),7))><UIForeground>F20237</UIForeground><UIGlow>F20238</UIGlow>This data center is for cloud stress testing only. No connections can be made outside the test period.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 <Else/></If>
 Each data center contains several unique Worlds (servers). If you have already decided which World on which you are going to play, you should select the corresponding data center.<Else/>First choose your region, and then select your data center. All data centers within the same region offer the same quality of gameplay.</If>","",""
-807,0,0,0,"<Highlight>StringParameter(1)</Highlight><Switch(IntegerParameter(2))><Case(1)></Case><Case(2)> (Legacy)</Case><Case(3)> (NA)</Case><Case(4)> (NA Legacy)</Case><Case(5)> (EU)</Case><Case(6)> (EU Legacy)</Case><Case(7)> (OC)</Case><Case(8)> (OC Legacy)</Case><Case(9)></Case></Switch>","",""
+807,0,0,0,"","",""
 808,0,0,0,"Connecting to the <Highlight>StringParameter(1)</Highlight> data center.","",""
 809,0,0,0,"Acquiring character list.","",""
 810,0,0,0,"Proceed","",""
