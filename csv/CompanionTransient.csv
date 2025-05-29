@@ -702,7 +702,7 @@ rogues are there!?
    - Quimperain","Hellfire","Delivers an attack with a potency of 90 to all enemies within range.",85,35,3,False,False,False,False,False,1
 169,"Summon your wind-up Garuda minion. Hopefully she will not HEEHEE haha HEEE!!! too loudly in your ear.","Understandably, many in Gridania opposed the manufacture of an automaton depicting the Ixal's chosen primal. However, since the publication of an article in <Emphasis>The Raven</Emphasis> espousing the puppet's efficacy as a good-luck charm, production can barely keep up with demand.","Heehee HAHA hahaha
 HEEHEE haha HEEEEEE!!!
-    - Garuda","Airy Blast","Reduces action points of all enemies within range by 50% of the maximum value.",50,25,4,True,False,False,False,False,4
+    - Garuda","Airy Blast","Reduces action points of all enemies within range by 30% of the maximum value.",50,25,4,True,False,False,False,False,4
 170,"Summon your wind-up Titan minion. Placing this puppet on an elevated surface may compel it to knock everything else to the ground.","The second in the Weavers' Guild's popular series of primal automata. The guild consulted with Trachtoum─a master axeman from the Company of Heroes─whose firsthand account of his battle against “Tidus” formed the basis of this true-to-life design.","Aye, we defeated him─in the
 end─but he took from us some
 of our very best.
@@ -1981,7 +1981,7 @@ be ripped to shreds!
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",35,50,4,False,True,False,True,False,4
 525,"Summon your brushed-up Krile minion. She is not to be brushed off in the face of danger.","On the occasion of the anniversary of Eorzea's rebirth, the Adventurers' Guild commissioned a new mammet designed in Krile's likeness. With the hood of her pictomancer's attire drawn back to reveal her precious earring, she exudes a spirit of adventure and discovery.","I'm eager to put my
 pictomancy to the proof.
-   - Krile","Fancy Flourish","Reduces action points of all enemies within range by 50% of the maximum value.",50,35,2,False,False,False,True,False,4
+   - Krile","Fancy Flourish","Reduces action points of all enemies within range by 30% of the maximum value.",50,35,2,False,False,False,True,False,4
 526,"Summon your wind-up Zero minion. And thus she is returned.","A mammet inspired by a hero of the Thirteenth, who wandered alone for millennia after her world was consumed by Darkness. Sharing her taste in cuisine, the Hannish artisan responsible poured their heart into its creation and ensured accuracy in every detail, such as the scythe she wields from her days as an avatar.","I will let it burn,
 this fire in my breast.
    - Zero","Dark Scythe","Delivers 10 points of damage every second to all enemies within range.
@@ -2028,20 +2028,35 @@ Was that Themis?
 locomotive engineering!
    - Shenza","Express Train","Doubles the amount of HP restored to allies stationed in Gates.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 20s",35,20,3,False,False,False,True,False,9
-540,"","","","","",0,0,0,False,False,False,False,False,0
-541,"","","","","",0,0,0,False,False,False,False,False,0
-542,"","","","","",0,0,0,False,False,False,False,False,0
+540,"Summon your Psamathe minion. An entity born of the fire-wielding familiar Triton. That's the red one.","This peculiar entity appears to have manifested from Triton, the fire-wielding familiar that served among the collective of three that controlled the weather on the Occult Crescent. Though its intelligence has faded over the course of long years, in this diminutive state, it should largely be harmless.","You would be well advised to ask
+yourself: can I stand the heat?
+   - Charlys","Flame Fest","Delivers 5% damage to the nearest enemy Arcana Stone.",75,50,3,False,True,False,True,False,8
+541,"Summon your Naiad minion. An entity born of the ice-wielding familiar Nereid. That's the purple one.","This peculiar entity appears to have manifested from Nereid, the ice-wielding familiar that served among the collective of three that controlled the weather on the Occult Crescent. Though its sense of morality has faded over the course of long years, in this diminutive state, it should largely be harmless.","I have no doubt that it is capable
+of chilling victims to the bone!
+   - The Impresario","Snow Fest","Grants 10 action points to all allies within range who do not have similar actions.",50,65,2,False,False,True,True,False,3
+542,"Summon your Deimos minion. An entity born of the poison-wielding familiar Phobos. That's the green one.","This peculiar entity appears to have manifested from Phobos, the poison-wielding familiar that served among the collective of three that controlled the weather on the Occult Crescent. Though its sense of propriety has faded over the course of long years, in this diminutive state, it should largely be harmless.","Well, of course they'll be poisoned!
+How else would I gauge the efficacy
+of your work?
+   - Severian","Poison Fest","Delivers an attack with a potency of 120 and knocks back all enemies within range.",80,60,3,False,True,True,False,False,1
 543,"","","","","",0,0,0,False,False,False,False,False,0
 544,"Summon your clockwork oppressor. Painted a rugged shade of green, this miniature machina is a scale replica of the full-size model deployed in military training exercises.","An Ironworks machina enthusiast has replicated the Astragalos oppressor in tiny, toylike form. On account of its considerable bulk and heft, however, it failed to find willing merchants for distribution, and was ultimately repurposed as an allied training trophy.","We shall cast down the oppressors!
    - Chalteaufite","Detonating Trap","Sets a trap that, when triggered, delivers an attack with a potency of 260 to all enemies within range.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Activation Delay:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",30,85,1,False,False,False,True,False,2
-545,"","","","","",0,0,0,False,False,False,False,False,0
+545,"Summon your Ja Tiika leafkin minion. What lies beneath its glowing blue leaves is best left a mystery.","Among the blue leafkin that inhabit Yak T'el, this particular creature is friendly to men, and dwelled near a settlement in the Ja Tiika Heartland. While superstition persists that that their kind are Mamool Ja who have been cursed, some believe that they are in fact pure souls who were reborn as guardians of the forest.","Have you heard of blue leafkin?
+   - Prudent Hunter","Blue Leaf","Inflicts a weakness to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>monsters<UIGlow>01</UIGlow><UIForeground>01</UIForeground> on all enemies within range.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 15s",65,60,2,False,False,True,False,False,4
 546,"","","","","",0,0,0,False,False,False,False,False,0
-547,"Summon your micro rover minion. Won't be moving mountains, but can handle pebbles with aplomb.","This miniaturized model of a utility vehicle used in the Cosmic Exploration Initiative was produced for the amusement of young children. While it faithfully incorporates all the functions of the original machine and can perform various tasks, it lacks the power to move anything beyond pebbles.","Want a ride on the moon rover?
+547,"Summon your micro rover minion. Won't be moving mountains, but can handle pebbles with aplomb.","This miniaturized model of a utility vehicle used in the Cosmic Exploration Initiative was produced for the amusement of young children. While it faithfully incorporates all the functions of the original machine and can perform various tasks, it lacks the power to move anything beyond pebbles.","Looking for a ride on
+the burrow's best rover?
    - Drivingway","Forced Removal","Reduces action points of all enemies within range by 50% of the maximum value.",40,55,3,False,False,False,True,False,4
-548,"","","","","",0,0,0,False,False,False,False,False,0
+548,"Summon your tipping tortoise minion. Would be a generous tipper if its coins were real.","This tortoise possessed of a gleaming golden shell appears to be the offspring of the trade tortoise, the creature that sought to peddle cursed artifacts on the Occult Crescent. On account of its tender age, however, it is not yet permitted to handle legal tender, and must make do with imitation coins.","I'd almost forgotten what it was like to
+feel the weight of coins in my pocket...
+   - Eismon","Great Wealth","Reduces movement speed of all enemies within range by 70%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 5s",10,90,1,False,False,False,True,False,4
 549,"Summon your royal hound minion. As loyal as it is royal.","This bright-eyed canine is believed to be descended from hounds that were once bred by the royal family of Alexandria for hunting foxes and deer. Fiercely loyal by nature, it had long sought a worthy master to serve, and appears to have found one in you.","You've got the nose of a bloodhound.
    - Midnight Dew","Tail Wag","Renders all allies within range immune to attacks by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>monsters<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 10s",40,50,4,False,True,False,False,False,3
-550,"","","","","",0,0,0,False,False,False,False,False,0
+550,"Summon your Skallic uolosapa minion. A winsome bird with pure white feathers and a pink beak.","In ages past, the uolosapa was brought from the south sea isles to the nation of Skalla, where it quickly gained popularity as a pet. In the course of being bred in captivity, a specimen emerged that possessed pure white feathers, the descendants of which have been treated as a variety unto themselves to this day.","I seem to have made
+a feathered friend.
+   - Fufucha","Relentless Pecking","Delivers an attack with a potency of 230 to all enemies within range.",30,30,1,False,False,False,False,True,1
 551,"","","","","",0,0,0,False,False,False,False,False,0
