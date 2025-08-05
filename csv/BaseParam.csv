@@ -1,77 +1,77 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39
-#,PacketIndex,Name,Description,OrderPriority,1HWpn%,OH<%>,Head<%>,Chest<%>,Hands<%>,Waist<%>,Legs<%>,Feet<%>,Earring<%>,Necklace<%>,Bracelet<%>,Ring<%>,2HWpn<%>,UnderArmor<%>,ChestHead<%>,ChestHeadLegsFeet<%>,,LegsFeet<%>,HeadChestHandsLegsFeet<%>,ChestLegsGloves<%>,ChestLegsFeet<%>,,MeldParam[0],MeldParam[1],MeldParam[2],MeldParam[3],MeldParam[4],MeldParam[5],MeldParam[6],MeldParam[7],MeldParam[8],MeldParam[9],MeldParam[10],MeldParam[11],MeldParam[12],
-int32,sbyte,str,str,byte,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,bit&01
-0,-1,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-1,0,"Strength","Affects physical damage dealt by gladiator's arms, marauder's arms, dark knight's arms, gunbreaker's arms, pugilist's arms, lancer's arms, samurai's arms, reaper's arms, thaumaturge's arms, arcanist's arms, red mage's arms, pictomancer's arms, conjurer's arms, astrologian's arms, sage's arms, and blue mage's arms.",12,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,90,100,100,100,70,70,70,100,70,100,100,70,70,False
-2,1,"Dexterity","Affects physical damage dealt by rogue's arms, viper's arms, archer's arms, machinist's arms, and dancer's arms.",13,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,90,70,70,70,100,70,70,100,70,100,70,100,100,False
-3,2,"Vitality","Affects maximum HP.",14,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,90,100,100,100,100,90,90,100,90,100,100,100,100,False
-4,3,"Intelligence","Affects attack magic potency when role is DPS.",15,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,90,70,70,70,70,100,70,70,100,100,70,70,70,False
-5,4,"Mind","Affects healing magic potency. Also affects attack magic potency when role is Healer.",16,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,90,70,70,70,70,70,100,70,100,100,70,70,70,False
-6,5,"Piety","Affects MP regeneration. Regeneration rate is determined by piety. Only applicable when in battle and role is Healer.",25,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,90,70,70,70,70,70,100,70,70,100,70,70,70,False
-7,6,"HP","",48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-8,7,"MP","",49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-9,8,"TP","",50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-10,9,"GP","",35,20,20,20,20,20,0,20,40,250,250,250,130,20,20,40,80,0,40,100,60,60,40,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-11,10,"CP","",32,20,20,30,20,30,30,30,30,250,250,250,130,20,20,50,110,0,60,140,80,80,50,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-12,-1,"Physical Damage","",1,1000,0,0,0,0,0,0,0,0,0,0,0,1000,500,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,50,100,100,100,False
-13,-1,"Magic Damage","",2,1000,0,0,0,0,0,0,0,0,0,0,0,1000,500,0,0,0,0,0,0,0,0,50,50,50,50,50,100,100,50,100,30,50,50,50,False
-14,11,"Delay","",52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-15,-1,"Additional Effect: ","",51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-16,-1,"Attack Speed","",53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-17,-1,"Block Rate","",3,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,50,50,100,50,100,100,100,100,False
-18,-1,"Block Strength","",4,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,50,50,100,50,100,100,100,100,False
-19,12,"Tenacity","Affects the amount of physical and magic damage dealt and received, as well as HP restored. The higher the value, the more damage dealt, the more HP restored, and the less damage taken. Only applicable when role is Tank.",24,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-20,13,"Attack Power","Affects amount of damage dealt by physical attacks. The higher the value, the more damage dealt.",7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-21,14,"Defense","Affects the amount of damage taken by physical attacks. The higher the value, the less damage taken.",5,0,0,176,236,176,0,236,176,0,0,0,0,0,0,412,824,0,412,1000,648,648,412,66,100,70,55,55,40,40,100,40,33,55,55,55,False
-22,15,"Direct Hit Rate","Affects the rate at which your physical and magic attacks land direct hits, dealing slightly more damage than normal hits. The higher the value, the higher the frequency with which your hits will be direct. Higher values will also result in greater damage for actions which guarantee direct hits.",23,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-23,16,"Evasion","",26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-24,17,"Magic Defense","Affects the amount of damage taken by magic attacks. The higher the value, the less damage taken.",6,0,0,176,236,176,0,236,176,0,0,0,0,0,0,412,824,0,412,1000,648,648,412,33,100,55,55,55,70,70,100,70,66,55,55,55,False
-25,-1,"Critical Hit Power","",27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-26,-1,"Critical Hit Resilience","",28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-27,18,"Critical Hit","Affects the amount of physical and magic damage dealt, as well as HP restored. The higher the value, the higher the frequency with which your hits will be critical/higher the potency of critical hits.",19,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-28,-1,"Critical Hit Evasion","",29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-29,-1,"Slashing Resistance","Decreases damage done by slashing attacks.",43,0,0,0,0,0,0,0,0,200,200,200,200,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-30,-1,"Piercing Resistance","Decreases damage done by piercing attacks.",44,0,0,0,0,0,0,0,0,200,200,200,200,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-31,-1,"Blunt Resistance","Decreases damage done by blunt attacks.",45,0,0,0,0,0,0,0,0,200,200,200,200,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-32,-1,"Projectile Resistance","",46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-33,19,"Attack Magic Potency","Affects the amount of damage dealt by magic attacks.",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-34,20,"Healing Magic Potency","Affects the amount of HP restored via healing magic.",9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-35,-1,"Enhancement Magic Potency","",10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-36,21,"Elemental Bonus","",36,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-37,-1,"Fire Resistance","Decreases fire-aspected damage.",37,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-38,-1,"Ice Resistance","Decreases ice-aspected damage.",38,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-39,-1,"Wind Resistance","Decreases wind-aspected damage.",39,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-40,-1,"Earth Resistance","Decreases earth-aspected damage.",40,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-41,-1,"Lightning Resistance","Decreases lightning-aspected damage.",41,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-42,-1,"Water Resistance","Decreases water-aspected damage.",42,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-43,-1,"Magic Resistance","",47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-44,22,"Determination","Affects the amount of damage dealt by both physical and magic attacks, as well as the amount of HP restored by healing spells.",20,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-45,23,"Skill Speed","Affects both the casting and recast timers, as well as the damage over time potency for weaponskills and auto-attacks. The higher the value, the shorter the timers/higher the potency.",21,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-46,24,"Spell Speed","Affects both the casting and recast timers for spells. The higher the value, the shorter the timers. Also affects a spell's damage over time or healing over time potency.",22,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-47,25,"Haste","",17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,True
-48,-1,"Morale","In PvP, replaces physical and magical defense in determining damage inflicted by other players. Also influences the amount of damage dealt to other players.",73,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-49,-1,"Enmity","",57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-50,-1,"Enmity Reduction","",58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-51,-1,"Desynthesis Skill Gain","",55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-52,-1,"EXP Bonus","",54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-53,-1,"Regen","",59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-54,-1,"Special Attribute","",60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-55,-1,"Main Attribute","",11,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-56,-1,"Secondary Attribute","",18,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-57,-1,"Slow Resistance","Shortens the duration of slow.",61,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-58,-1,"Petrification Resistance","",62,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-59,-1,"Paralysis Resistance","",63,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-60,-1,"Silence Resistance","Shortens the duration of silence.",64,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-61,-1,"Blind Resistance","Shortens the duration of blind.",65,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-62,-1,"Poison Resistance","Shortens the duration of poison.",66,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-63,-1,"Stun Resistance","Shortens the duration of stun.",67,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-64,-1,"Sleep Resistance","Shortens the duration of sleep.",68,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-65,-1,"Bind Resistance","Shortens the duration of bind.",69,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-66,-1,"Heavy Resistance","Shortens the duration of heavy.",70,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-67,-1,"Doom Resistance","",71,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-68,-1,"Reduced Durability Loss","",72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-69,-1,"Increased Spiritbond Gain","",56,100,20,80,80,80,80,80,80,80,80,80,80,120,60,160,320,0,160,400,240,240,160,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-70,26,"Craftsmanship","Affects the amount of progress achieved in a single synthesis step.",30,350,350,20,300,20,20,20,20,20,20,20,30,350,350,320,360,0,40,380,340,340,320,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-71,27,"Control","Affects the amount of quality improved in a single synthesis step.",31,200,200,120,120,120,100,120,120,30,30,30,40,200,200,200,400,0,200,500,300,300,240,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-72,28,"Gathering","Affects the rate at which items are gathered.",33,350,200,20,200,150,0,100,10,10,10,10,10,350,350,210,460,0,110,470,450,310,350,100,100,100,100,100,100,100,100,100,100,100,100,100,False
-73,29,"Perception","Affects item yield when gathering as a botanist or miner, and the size of fish when fishing or spearfishing.",34,200,350,200,100,10,0,50,110,10,10,10,10,200,200,300,220,0,110,420,120,210,110,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40
+#,PacketIndex,Name,Description,OrderPriority,1HWpn%,OH<%>,Head<%>,Chest<%>,Hands<%>,Waist<%>,Legs<%>,Feet<%>,Earring<%>,Necklace<%>,Bracelet<%>,Ring<%>,2HWpn<%>,UnderArmor<%>,ChestHead<%>,ChestHeadLegsFeet<%>,,LegsFeet<%>,HeadChestHandsLegsFeet<%>,ChestLegsGloves<%>,ChestLegsFeet<%>,,MeldParam[0],MeldParam[1],MeldParam[2],MeldParam[3],MeldParam[4],MeldParam[5],MeldParam[6],MeldParam[7],MeldParam[8],MeldParam[9],MeldParam[10],MeldParam[11],MeldParam[12],,
+int32,sbyte,str,str,byte,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,uint16,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,byte,bit&01
+0,-1,"","",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+1,0,"Strength","Affects physical damage dealt by gladiator's arms, marauder's arms, dark knight's arms, gunbreaker's arms, pugilist's arms, lancer's arms, samurai's arms, reaper's arms, thaumaturge's arms, arcanist's arms, red mage's arms, pictomancer's arms, conjurer's arms, astrologian's arms, sage's arms, and blue mage's arms.",12,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,90,100,100,100,70,70,70,100,70,100,100,70,70,False
+2,1,"Dexterity","Affects physical damage dealt by rogue's arms, viper's arms, archer's arms, machinist's arms, and dancer's arms.",13,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,90,70,70,70,100,70,70,100,70,100,70,100,100,False
+3,2,"Vitality","Affects maximum HP.",14,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,90,100,100,100,100,90,90,100,90,100,100,100,100,False
+4,3,"Intelligence","Affects attack magic potency when role is DPS.",15,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,90,70,70,70,70,100,70,70,100,100,70,70,70,False
+5,4,"Mind","Affects healing magic potency. Also affects attack magic potency when role is Healer.",16,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,90,70,70,70,70,70,100,70,100,100,70,70,70,False
+6,5,"Piety","Affects MP regeneration. Regeneration rate is determined by piety. Only applicable when in battle and role is Healer.",25,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,90,70,70,70,70,70,100,70,70,100,70,70,70,False
+7,6,"HP","",48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+8,7,"MP","",49,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+9,8,"TP","",50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+10,9,"GP","",35,20,20,20,20,20,0,20,40,250,250,250,130,20,20,40,80,0,40,100,60,60,40,40,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+11,10,"CP","",32,20,20,30,20,30,30,30,30,250,250,250,130,20,20,50,110,0,60,140,80,80,50,50,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+12,-1,"Physical Damage","",1,1000,0,0,0,0,0,0,0,0,0,0,0,1000,500,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,50,100,100,100,False
+13,-1,"Magic Damage","",2,1000,0,0,0,0,0,0,0,0,0,0,0,1000,500,0,0,0,0,0,0,0,0,0,50,50,50,50,50,100,100,50,100,30,50,50,50,False
+14,11,"Delay","",52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+15,-1,"Additional Effect: ","",51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+16,-1,"Attack Speed","",53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+17,-1,"Block Rate","",3,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,50,50,100,50,100,100,100,100,False
+18,-1,"Block Strength","",4,0,1000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,50,50,100,50,100,100,100,100,False
+19,12,"Tenacity","Affects the amount of physical and magic damage dealt and received, as well as HP restored. The higher the value, the more damage dealt, the more HP restored, and the less damage taken. Only applicable when role is Tank.",24,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+20,13,"Attack Power","Affects amount of damage dealt by physical attacks. The higher the value, the more damage dealt.",7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+21,14,"Defense","Affects the amount of damage taken by physical attacks. The higher the value, the less damage taken.",5,0,0,176,236,176,0,236,176,0,0,0,0,0,0,412,824,0,412,1000,648,648,412,472,66,100,70,55,55,40,40,100,40,33,55,55,55,False
+22,15,"Direct Hit Rate","Affects the rate at which your physical and magic attacks land direct hits, dealing slightly more damage than normal hits. The higher the value, the higher the frequency with which your hits will be direct. Higher values will also result in greater damage for actions which guarantee direct hits.",23,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+23,16,"Evasion","",26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+24,17,"Magic Defense","Affects the amount of damage taken by magic attacks. The higher the value, the less damage taken.",6,0,0,176,236,176,0,236,176,0,0,0,0,0,0,412,824,0,412,1000,648,648,412,472,33,100,55,55,55,70,70,100,70,66,55,55,55,False
+25,-1,"Critical Hit Power","",27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+26,-1,"Critical Hit Resilience","",28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+27,18,"Critical Hit","Affects the amount of physical and magic damage dealt, as well as HP restored. The higher the value, the higher the frequency with which your hits will be critical/higher the potency of critical hits.",19,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+28,-1,"Critical Hit Evasion","",29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+29,-1,"Slashing Resistance","Decreases damage done by slashing attacks.",43,0,0,0,0,0,0,0,0,200,200,200,200,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+30,-1,"Piercing Resistance","Decreases damage done by piercing attacks.",44,0,0,0,0,0,0,0,0,200,200,200,200,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+31,-1,"Blunt Resistance","Decreases damage done by blunt attacks.",45,0,0,0,0,0,0,0,0,200,200,200,200,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+32,-1,"Projectile Resistance","",46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+33,19,"Attack Magic Potency","Affects the amount of damage dealt by magic attacks.",8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+34,20,"Healing Magic Potency","Affects the amount of HP restored via healing magic.",9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+35,-1,"Enhancement Magic Potency","",10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+36,21,"Elemental Bonus","",36,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+37,-1,"Fire Resistance","Decreases fire-aspected damage.",37,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+38,-1,"Ice Resistance","Decreases ice-aspected damage.",38,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+39,-1,"Wind Resistance","Decreases wind-aspected damage.",39,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+40,-1,"Earth Resistance","Decreases earth-aspected damage.",40,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+41,-1,"Lightning Resistance","Decreases lightning-aspected damage.",41,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+42,-1,"Water Resistance","Decreases water-aspected damage.",42,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+43,-1,"Magic Resistance","",47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+44,22,"Determination","Affects the amount of damage dealt by both physical and magic attacks, as well as the amount of HP restored by healing spells.",20,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+45,23,"Skill Speed","Affects both the casting and recast timers, as well as the damage over time potency for weaponskills and auto-attacks. The higher the value, the shorter the timers/higher the potency.",21,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+46,24,"Spell Speed","Affects both the casting and recast timers for spells. The higher the value, the shorter the timers. Also affects a spell's damage over time or healing over time potency.",22,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+47,25,"Haste","",17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,True
+48,-1,"Morale","In PvP, replaces physical and magical defense in determining damage inflicted by other players. Also influences the amount of damage dealt to other players.",73,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+49,-1,"Enmity","",57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+50,-1,"Enmity Reduction","",58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+51,-1,"Desynthesis Skill Gain","",55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+52,-1,"EXP Bonus","",54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+53,-1,"Regen","",59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+54,-1,"Special Attribute","",60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+55,-1,"Main Attribute","",11,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+56,-1,"Secondary Attribute","",18,100,40,85,135,85,0,135,85,67,67,67,67,140,70,220,440,0,220,525,355,355,220,270,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+57,-1,"Slow Resistance","Shortens the duration of slow.",61,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+58,-1,"Petrification Resistance","",62,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+59,-1,"Paralysis Resistance","",63,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+60,-1,"Silence Resistance","Shortens the duration of silence.",64,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+61,-1,"Blind Resistance","Shortens the duration of blind.",65,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+62,-1,"Poison Resistance","Shortens the duration of poison.",66,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+63,-1,"Stun Resistance","Shortens the duration of stun.",67,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+64,-1,"Sleep Resistance","Shortens the duration of sleep.",68,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+65,-1,"Bind Resistance","Shortens the duration of bind.",69,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+66,-1,"Heavy Resistance","Shortens the duration of heavy.",70,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+67,-1,"Doom Resistance","",71,140,0,172,172,172,0,172,172,0,0,0,0,140,140,344,688,0,344,860,516,516,344,344,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+68,-1,"Reduced Durability Loss","",72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+69,-1,"Increased Spiritbond Gain","",56,100,20,80,80,80,80,80,80,80,80,80,80,120,60,160,320,0,160,400,240,240,160,160,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+70,26,"Craftsmanship","Affects the amount of progress achieved in a single synthesis step.",30,350,350,20,300,20,20,20,20,20,20,20,30,350,350,320,360,0,40,380,340,340,320,320,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+71,27,"Control","Affects the amount of quality improved in a single synthesis step.",31,200,200,120,120,120,100,120,120,30,30,30,40,200,200,200,400,0,200,500,300,300,240,240,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+72,28,"Gathering","Affects the rate at which items are gathered.",33,350,200,20,200,150,0,100,10,10,10,10,10,350,350,210,460,0,110,470,450,310,350,300,100,100,100,100,100,100,100,100,100,100,100,100,100,False
+73,29,"Perception","Affects item yield when gathering as a botanist or miner, and the size of fish when fishing or spearfishing.",34,200,350,200,100,10,0,50,110,10,10,10,10,200,200,300,220,0,110,420,120,210,110,150,100,100,100,100,100,100,100,100,100,100,100,100,100,False
