@@ -46,8 +46,8 @@
 
 - Discords:
   - [XIVAPI](https://discord.gg/MFFVHWC)
-  - [GarlandTools](https://discord.gg/)
-  - [TeamCraft](https://discord.gg/493Z6pQ)
+  - [GarlandTools](https://discord.com/invite/hfzmApj)
+  - [TeamCraft](https://discord.com/invite/r6qxt6P)
   - [Sapphire](https://discord.gg/xxcdCER)
   - [Apkallu Falls](https://discord.gg/RNcV4eY)
 
