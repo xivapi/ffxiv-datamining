@@ -2458,7 +2458,7 @@ Proceed with the transaction?"
 2439,"Try on Retainer"
 2440,"Return"
 2441,"TRANSFIGURATION"
-2442,"変身キャラクター選択"
+2442,""
 2445,"Aether Currents"
 2446,""
 2447,"There is no information to display."
@@ -7780,6 +7780,7 @@ Current settings will be overwritten. Proceed?"
 8376,"Minion Search"
 8377,"Favorites"
 8378,"Mount Search"
+8379,"Treasure Acquired"
 8380,"One piece of gear or gear-enhancing material obtainable per week."
 8390,"Cross-world Linkshell [2]"
 8391,"Cross-world Linkshell [3]"
@@ -9845,7 +9846,7 @@ Yo-kai Medals can be obtained in select FATEs."
 10402,"Gear"
 10403,"Save Slot <Value>IntegerParameter(1)</Value>"
 10404,"Entrance"
-10405,"Floor <Value>IntegerParameter(1)</Value>"
+10405,"<Switch(IntegerParameter(2))><Case(1)>Floor <Value>IntegerParameter(1)</Value></Case><Case(2)>Floor <Value>IntegerParameter(1)</Value></Case><Case(3)>Stone <Value>IntegerParameter(1)</Value></Case></Switch>"
 10406,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D>
 <Highlight>StringParameter(2)</Highlight>"
 10407,"Character Info"
@@ -9855,17 +9856,17 @@ Yo-kai Medals can be obtained in select FATEs."
 
 Matched party save data still allows for the creation of preformed parties as long as the party is formed before returning to the deep dungeon, and the progression of all members is identical. Any open party slots will be filled automatically via the matching system.
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>All special items (pomanders) will be lost upon data conversion.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>All special items will be lost upon data conversion.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Scores will not be recorded for matched parties.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-<If(GreaterThan(IntegerParameter(1),0))><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Save data that has progressed to levels which require a fixed party cannot be converted to matched party save data.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<If(GreaterThan(IntegerParameter(1),0))><Else/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Save data that has progressed to <Switch(IntegerParameter(2))><Case(1)>floors</Case><Case(2)>floors</Case><Case(3)>areas</Case></Switch> which require a fixed party cannot be converted to matched party save data.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 </If><UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※Converted data cannot be restored to its original state.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10411,"Accept terms and convert data."
-10412,"Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from floor 1.
+10412,"Proceed and your save data will be deleted, allowing you reentry to the deep dungeon from <Switch(IntegerParameter(3))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>traverse stone</Case></Switch> 1.
 
-Floor progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
+Dungeon progression and character level will be reset, but aetherpool arm and gear strength will remain unchanged.
 
 <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>※Data cannot be restored once deleted.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 10413,"Accept terms and delete data."
@@ -9907,8 +9908,8 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10449,"Party"
 10450,"–-"
 10451,"Party KO: <Value>IntegerParameter(1)</Value>"
-10452,"The floors beyond remain sealed."
-10453,"These floors are only available when party KO count is at zero."
+10452,"The <Switch(IntegerParameter(1))><Case(1)>floors</Case><Case(2)>floors</Case><Case(3)>areas</Case></Switch> beyond remain sealed."
+10453,"These <Switch(IntegerParameter(1))><Case(1)>floors</Case><Case(2)>floors</Case><Case(3)>areas</Case></Switch> are only available when party KO count is at zero."
 10454,"Item Appraisal"
 10455,""
 10456,"Appraise <SheetEn(Item,2,IntegerParameter(1),1,1)/>?"
@@ -9922,19 +9923,23 @@ Floor progression and character level will be reset, but aetherpool arm and gear
 10464,"Select data to reset."
 10465,"Select party to disband."
 10466,"Access Ranking"
+10467,"Stone"
+10468,"Incense"
 10469,"<Unknown2D>FF1202280EFF09436C6173734A6F62E8020103</Unknown2D><If(GreaterThan(IntegerParameter(2),0))> / <Unknown2D>FF1202280EFF09436C6173734A6F62E8030103</Unknown2D><Else/></If>"
 10470,"None of the Accursed Hoard has been discovered."
 10471,"Current Deep Dungeon rankings can be viewed on the Lodestone!
 <Highlight>StringParameter(1)</Highlight>"
 10472,"<Unknown2D>FF07022903EA0203</Unknown2D>"
+10473,"Votive Candelabra"
+10474,"Next Area"
 10475,"Magicite"
-10476,"You detect the call of the Accursed Hoard on this floor."
+10476,"You detect the call of the Accursed Hoard."
 10477,"Beacon of Return"
 10478,"Beacon of Passage"
 10479,"Display progression required for Beacon of Return activation."
 10480,"Display progression required for Beacon of Passage activation."
 10481,"Floor"
-10482,"You are not starting from floor 1. 
+10482,"You are not starting from <Switch(IntegerParameter(1))><Case(1)>floor 1</Case><Case(2)>floor 1</Case><Case(3)>traverse stone 1</Case></Switch>. 
 Progress will not count towards solo completion achievements."
 10483,"Party KO count for this save data is more than zero. Later floors will not be accessible. Proceed?"
 10484,"Continue with current save data."
@@ -9945,6 +9950,11 @@ Progress will not count towards solo completion achievements."
 10489,"Demiclone Generator"
 10490,"Lodestone Playguide"
 10491,"View the deep dungeon guide."
+10492,"Altar of Return"
+10493,"Pylon of Passage"
+10494,"Progress toward Altar of Return activation."
+10495,"Progress toward Pylon of Passage activation."
+10496,"?"
 10500,"Register via Duty Support"
 10501,"Register via Trust"
 10507,"/"
@@ -10222,6 +10232,13 @@ Spectator Party: 1-8 players"
 10830,"Register from Home World"
 10831,"Ranked 1st Dan or Higher"
 10832,"Due to revisions being made to the PvP system, this duty is temporarily unavailable. Further announcements will be made in upcoming patch notes or similar."
+10834,"Sacramental Offerings"
+10835,"Total"
+10836,"Reward Bonus"
+10837,"<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><Value>IntegerParameter(1)</Value><UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><Value>IntegerParameter(1)</Value></If>"
+10838,"Summon"
+10839,"Return"
+10840,"Summon Eminent Grief with the Final Verse (Quantum)."
 10841,""
 10842,""
 10843,""
@@ -15000,7 +15017,7 @@ Lv. <Value>IntegerParameter(7)</Value>"
 15953,"<If(GreaterThan(IntegerParameter(1),0))>Masked Carnivale<Else/>???</If>"
 15954,"<If(GreaterThan(IntegerParameter(1),0))>Masked Carnivale<Else/>???</If>
 Lv. <Value>IntegerParameter(7)</Value>"
-15955,"Complete floor <Value>IntegerParameter(3)</Value> of <Highlight>StringParameter(1)</Highlight>. <Sheet(Addon,15957,0,IntegerParameter(4),IntegerParameter(3))/>"
+15955,"Clear <Switch(IntegerParameter(2))><Case(1)>floor <Value>IntegerParameter(3)</Value></Case><Case(2)>floor <Value>IntegerParameter(3)</Value></Case><Case(3)>area <Value>IntegerParameter(3)</Value></Case></Switch> of <Highlight>StringParameter(1)</Highlight>. <Sheet(Addon,15957,0,IntegerParameter(4),IntegerParameter(3))/>"
 15956,"※A fixed party is required to challenge floors 31 and beyond."
 15957,"<If(Equal(IntegerParameter(1),2))><If(GreaterThan(IntegerParameter(2),30))>
 <Sheet(Addon,15956,0,IntegerParameter(1))/><Else/></If><Else/></If>"
@@ -15925,6 +15942,7 @@ Lv. <Value>IntegerParameter(7)</Value>"
 17052,"Allied Society (<Sheet(BeastTribe,IntegerParameter(1),11)/>)"
 17053,"Adjust headgear settings."
 17054,"Show ears through headgear (select gear only)."
+17100,"Pilgrim's Traverse"
 17110,"Chat Bubble Settings"
 17111,""
 17112,"Mode-specific Settings"

@@ -2,41 +2,41 @@
 #,Icon,Singular,Adjective,Plural,PossessivePronoun,StartsWithVowel,,Pronoun,Article,Name,Tooltip,Action
 int32,Image,str,sbyte,str,sbyte,sbyte,sbyte,sbyte,sbyte,str,str,Action
 0,0,"",0,"",0,0,1,0,0,"","",0
-1,27901,"pomander of safety",0,"pomanders of safety",0,0,1,0,0,"Pomander of Safety","Removes all traps from the current floor.",6259
-2,27902,"pomander of sight",0,"pomanders of sight",0,0,1,0,0,"Pomander of Sight","Reveals the current floor's map and the location of all hidden traps.",6260
+1,27901,"pomander of safety",0,"pomanders of safety",0,0,1,0,0,"Pomander of Safety","Removes all traps from the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6259
+2,27902,"pomander of sight",0,"pomanders of sight",0,0,1,0,0,"Pomander of Sight","Reveals the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>'s map and the location of all hidden traps.",6260
 3,27903,"pomander of strength",0,"pomanders of strength",0,0,1,0,0,"Pomander of Strength","Increases damage dealt and HP recovered via healing magic by 30%.",6262
 4,27904,"pomander of steel",0,"pomanders of steel",0,0,1,0,0,"Pomander of Steel","Decreases damage received by 40%.",6263
-5,27905,"pomander of affluence",0,"pomanders of affluence",0,0,1,0,0,"Pomander of Affluence","Increases the number of treasure coffers on the next floor.",6264
-6,27906,"pomander of flight",0,"pomanders of flight",0,0,1,0,0,"Pomander of Flight","Decreases the number of enemies on the next floor.",6265
-7,27907,"pomander of alteration",0,"pomanders of alteration",0,0,1,0,0,"Pomander of Alteration","Changes the enemy occupying a random room on the next floor into a mimic or a mandragora.",6266
+5,27905,"pomander of affluence",0,"pomanders of affluence",0,0,1,0,0,"Pomander of Affluence","Increases the number of treasure coffers <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6264
+6,27906,"pomander of flight",0,"pomanders of flight",0,0,1,0,0,"Pomander of Flight","Decreases the number of enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6265
+7,27907,"pomander of alteration",0,"pomanders of alteration",0,0,1,0,0,"Pomander of Alteration","Changes the enemy occupying a random room <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch> into a mimic or a mandragora.",6266
 8,27908,"pomander of purity",0,"pomanders of purity",0,0,1,0,0,"Pomander of Purity","Removes the Pox status.",6267
-9,27909,"pomander of fortune",0,"pomanders of fortune",0,0,1,0,0,"Pomander of Fortune","Increases the chance enemies on the current floor will drop treasure coffers.",6268
+9,27909,"pomander of fortune",0,"pomanders of fortune",0,0,1,0,0,"Pomander of Fortune","Increases the chance enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch> will drop treasure coffers.",6268
 10,27910,"pomander of witching",0,"pomanders of witching",0,0,1,0,0,"Pomander of Witching","Transforms all targets within range into a frog, imp, or chicken.",6269
-11,27911,"pomander of serenity",0,"pomanders of serenity",0,0,1,0,0,"Pomander of Serenity","Removes all enchantments from the current floor.",6270
+11,27911,"pomander of serenity",0,"pomanders of serenity",0,0,1,0,0,"Pomander of Serenity","Removes all enchantments from the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6270
 12,27912,"pomander of rage",0,"pomanders of rage",0,0,1,0,0,"Pomander of Rage","Transforms user into a manticore.",6271
 13,27913,"pomander of lust",0,"pomanders of lust",0,0,1,0,0,"Pomander of Lust","Transforms user into a succubus.",6272
 14,27916,"pomander of intuition",0,"pomanders of intuition",0,0,1,0,0,"Pomander of Intuition","Reveals the current floor's hidden treasure.",6870
 15,27914,"pomander of raising",0,"pomanders of raising",0,0,1,0,0,"Pomander of Raising","Instantly raises the first party member to be KO'd.",6868
 16,27915,"pomander of resolution",0,"pomanders of resolution",0,0,1,0,0,"Pomander of Resolution","Transforms user into Kuribu.",6869
-17,27919,"pomander of frailty",0,"pomanders of frailty",0,0,1,0,0,"Pomander of Frailty","Weakens all enemies on current floor.",11275
+17,27919,"pomander of frailty",0,"pomanders of frailty",0,0,1,0,0,"Pomander of Frailty","Weakens all enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",11275
 18,27917,"pomander of concealment",0,"pomanders of concealment",0,0,1,0,0,"Pomander of Concealment","Renders party invisible to enemies and traps.",11276
-19,27918,"pomander of petrification",0,"pomanders of petrification",0,0,1,0,0,"Pomander of Petrification","Turns all enemies on current floor to stone.",11277
-20,27920,"protomander of lethargy",0,"protomanders of lethargy",0,0,1,0,0,"Protomander of Lethargy","Slows all enemies on the current floor.",32144
-21,27921,"protomander of storms",0,"protomanders of storms",0,0,1,0,0,"Protomander of Storms","Reduces the HP of all enemies on the current floor to a single digit.",32145
+19,27918,"pomander of petrification",0,"pomanders of petrification",0,0,1,0,0,"Pomander of Petrification","Turns all enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch> to stone.",11277
+20,27920,"protomander of lethargy",0,"protomanders of lethargy",0,0,1,0,0,"Protomander of Lethargy","Slows all enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",32144
+21,27921,"protomander of storms",0,"protomanders of storms",0,0,1,0,0,"Protomander of Storms","Reduces the HP of all enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch> to a single digit.",32145
 22,27922,"protomander of dread",0,"protomanders of dread",0,0,1,0,0,"Protomander of Dread","Transforms user into a dreadnaught.",32146
-23,27901,"protomander of safety",0,"protomanders of safety",0,0,1,0,0,"Protomander of Safety","Removes all traps from the current floor.",6259
-24,27902,"protomander of sight",0,"protomanders of sight",0,0,1,0,0,"Protomander of Sight","Reveals the current floor's map and the location of all hidden traps.",6260
+23,27901,"protomander of safety",0,"protomanders of safety",0,0,1,0,0,"Protomander of Safety","Removes all traps from the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6259
+24,27902,"protomander of sight",0,"protomanders of sight",0,0,1,0,0,"Protomander of Sight","Reveals the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>'s map and the location of all hidden traps.",6260
 25,27903,"protomander of strength",0,"protomanders of strength",0,0,1,0,0,"Protomander of Strength","Increases damage dealt and HP recovered via healing magic by 30%.",6262
 26,27904,"protomander of steel",0,"protomanders of steel",0,0,1,0,0,"Protomander of Steel","Decreases damage received by 40%.",6263
-27,27905,"protomander of affluence",0,"protomanders of affluence",0,0,1,0,0,"Protomander of Affluence","Increases the number of treasure coffers on the next floor.",6264
-28,27906,"protomander of flight",0,"protomanders of flight",0,0,1,0,0,"Protomander of Flight","Decreases the number of enemies on the next floor.",6265
-29,27907,"protomander of alteration",0,"protomanders of alteration",0,0,1,0,0,"Protomander of Alteration","Changes the enemy occupying a random room on the next floor into a mimic or a mandragora.",6266
+27,27905,"protomander of affluence",0,"protomanders of affluence",0,0,1,0,0,"Protomander of Affluence","Increases the number of treasure coffers <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6264
+28,27906,"protomander of flight",0,"protomanders of flight",0,0,1,0,0,"Protomander of Flight","Decreases the number of enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6265
+29,27907,"protomander of alteration",0,"protomanders of alteration",0,0,1,0,0,"Protomander of Alteration","Changes the enemy occupying a random room <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch> into a mimic or a mandragora.",6266
 30,27908,"protomander of purity",0,"protomanders of purity",0,0,1,0,0,"Protomander of Purity","Removes the Pox status.",6267
-31,27909,"protomander of fortune",0,"protomanders of fortune",0,0,1,0,0,"Protomander of Fortune","Increases the chance enemies on the current floor will drop treasure coffers.",6268
+31,27909,"protomander of fortune",0,"protomanders of fortune",0,0,1,0,0,"Protomander of Fortune","Increases the chance enemies <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch> will drop treasure coffers.",6268
 32,27910,"protomander of witching",0,"protomanders of witching",0,0,1,0,0,"Protomander of Witching","Transforms all targets within range into a frog, imp, or chicken.",6269
-33,27911,"protomander of serenity",0,"protomanders of serenity",0,0,1,0,0,"Protomander of Serenity","Removes all enchantments from the current floor.",6270
+33,27911,"protomander of serenity",0,"protomanders of serenity",0,0,1,0,0,"Protomander of Serenity","Removes all enchantments from the current <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",6270
 34,27916,"protomander of intuition",0,"protomanders of intuition",0,0,1,0,0,"Protomander of Intuition","Reveals the current floor's hidden treasure.",6870
 35,27914,"protomander of raising",0,"protomanders of raising",0,0,1,0,0,"Protomander of Raising","Instantly raises the first party member to be KO'd.",6868
-36,0,"",0,"",0,0,0,0,0,"","",0
-37,0,"",0,"",0,0,0,0,0,"","",0
-38,0,"",0,"",0,0,0,0,0,"","",0
+36,27923,"pomander of haste",0,"pomanders of haste",0,0,1,0,0,"Pomander of Haste","Renders party able to swiftly execute weaponskills, spells, and auto-attacks.",44616
+37,27924,"pomander of purification",0,"pomanders of purification",0,0,1,0,0,"Pomander of Purification","Removes all curable status ailments from the party, and erects a barrier against the next status ailment suffered.",44617
+38,27925,"pomander of devotion",0,"pomanders of devotion",0,0,1,0,0,"Pomander of Devotion","Guarantees a votive candelabra <If(Equal(PlayerParameter(109),4))>in<Else/>on</If> the next <Switch(PlayerParameter(109))><Case(1)>floor</Case><Case(2)>floor</Case><Case(3)>floor</Case><Case(4)>area</Case></Switch>.",44618
