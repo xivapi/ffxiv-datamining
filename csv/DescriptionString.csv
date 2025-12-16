@@ -598,7 +598,7 @@ Blue: Access permitted
 Yellow: Access denied
 "
 196,"15. Lighting"
-197,"The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Adjust Lighting” option in the Housing menu to choose from one of five levels of brightness.
+197,"The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Interior Settings” option in the Housing menu to choose from one of five levels of brightness.
 "
 198,"16. Estate Tags"
 199,"Estate tags tell potential visitors what they can expect to find on your property. From the Housing menu, select “Estate Tag Settings” to set up to three tags.
@@ -861,6 +861,7 @@ You may not commence or suspend a New Game+ chapter if you are currently:
 ・You will be allowed to select the difficulty of quest battles from your first time undertaking the quest.
 ・If you have enabled “Skip playback of previously viewed scenario cutscenes” under General in the Character Configuration menu, some cutscenes may not be displayed.
 ・Items submitted to complete quest objectives will not be removed from your inventory.
+・Certain delivery objectives will be completed automatically.
 
 ■ Quest Completion
 ・You will not receive rewards for completing quests in New Game+ mode.
@@ -936,7 +937,8 @@ A match lasts for 20 minutes.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Retaliation■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Incapacitated players will be returned to their Grand Company's landing, where they will be allowed to rejoin combat after a short delay. This will not incur a weakness penalty.
-Furthermore, players will be temporarily invulnerable when leaving their Grand Company's landing.
+Players will be granted invulnerability within their Grand Company's landing and for a short while after leaving.
+When infiltrating another team's Grand Company landing, players will be afflicted with the Outsider status effect which inflicts damage over time.
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Mounts■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 Players are free to use mounts during Frontline campaigns. However, players taking damage while mounted will be forced off and afflicted with the Hoofing It status effect for five seconds.
@@ -3233,14 +3235,14 @@ From the Cast Glamour window, select the glamoured item on the left, then select
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Dyes and company crests are also removed in the process.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 1059,"You will not be able to cast a glamour if:
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1. The base item's job level requirement is lower than that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Example: Level 100 gear cannot be glamoured onto gear equippable at levels 1 through 99.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1. The base item is of a different type than that of the glamour to be cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Example: A gladiator's arm cannot be glamoured onto an arcanist's grimoire.
 ※Unaffected by item level (IL).
 
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2. The base item's class or role requirement is not compatible with that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Example: Tank-specific gear cannot be glamoured onto healer-specific gear."
-1060,"Some glamours will only display as long as the character's level, class, race, and gender meet the requirements.
-Example: If a job-specific glamour is applied, the effect will no longer display when the character switches to a different job."
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2. The base item's race or gender requirement is not compatible with that of the glamour cast.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Example: Elezen-specific gear cannot be glamoured onto Hyur-specific gear."
+1060,"Some glamours will only display as long as the character's race, gender, and Grand Company meet the requirements.
+Example: If a race-specific glamour is applied, the effect will not be displayed."
 1061,"Gear can be rendered invisible when glamoured with emperor's new items of the same gear category.
 
 These invisible items can be purchased from Goberin in western Thanalan (X:12.1 Y:15.0) or Tataroga in Mor Dhona (X:22.1 Y:6.7) after completing the quest <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“Absolutely Glamourous”<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in western Thanalan (X:12.6 Y:14.3)."
@@ -3490,13 +3492,7 @@ To create an outfit glamour, you must possess the corresponding combination of i
 When creating an outfit glamour, several items are combined as an ensemble and saved to the glamour dresser."
 1167,"You can check which items can be combined to form an outfit glamour by selecting the “View Outfit Glamour-ready Items” subcommand of an outfit glamour-ready item."
 1168,"Item combinations saved as outfit glamours can be viewed under the Outfits tab of the glamour dresser."
-1169,"In addition to viewing currently saved outfits under this tab, you can also inspect the individual items that form an outfit by selecting the “Inspect Outfit” subcommand. This subcommand is also accessible via each individual item.
-
-As with standard glamours, individual items that form part of an outfit glamour are displayed under their corresponding tab in the glamour dresser. These items are identified as such in the corresponding item details window.
-
-Restoring an outfit glamour will return each included item to its original form.
-
-<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※Specific items from an outfit glamour cannot be restored individually.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+1169,"In addition to viewing currently saved outfits under this tab, you can also inspect the individual items that form an outfit by selecting the “Inspect Outfit” subcommand. This subcommand is also accessible via each individual item."
 1170,"Cast Bars"
 1171,"Some enemy attacks take time to cast before they strike. A progress bar will appear beside the name of the caster, and once this bar fills completely, the attack will be unleashed."
 1172,"Note that attacks with no cast time will not display a cast bar."
@@ -3964,19 +3960,8 @@ The difficulty of crafting and gathering missions, as well as the amount of expe
 ■GP Recovery
 Upon completing gathering missions, you will recover GP equal to the total amount spent during the mission. Furthermore, the recast timer of recovery items such as cordials will be reset.
 
-■Crafting and Gathering Restrictions
-During a stellar mission, crafting and gathering will not award experience, and spiritbond will accrue at a different rate.
-
-■Fishing Restrictions
-At the end of each stellar mission, your Angler's Art stacks will be reset, regardless of how many you have accrued.
-
-■Ground Support Bonuses
-Ground supporters who make sufficient contributions to a mech op will receive bonus credits for a certain number of subsequent missions, regardless of objective. These bonuses are as follows:
-
-Cosmocredits: +20
-Sector Credits: +10
-
-For the duration of the effect, an arrow symbol will be displayed on the Initiate button on the mission selection window."
+■Duty Actions
+Some stellar missions allow for the use of a unique duty action. This information is listed in the mission selection window."
 1404,"The cosmic class score refers to <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>the points individual players accrue by taking part in cosmic exploration, separated by class.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
 Whenever you complete a stellar mission, you will earn points for your chosen class. Reaching certain milestones will grant achievements and, in some cases, titles.
@@ -4038,13 +4023,13 @@ Your rating is determined by the size of fish caught. Some missions will evaluat
 
 ■Submitting Applications
 Once a mech op has been issued, those seeking to serve as pilots may do so by accessing the Mech Ops Registration menu via their exotablets."
-1430,"■Ground Supporter's Duty
-Resources gathered during mech ops must be fed into nearby field scanners. When sufficient resources have been gathered, the field scanners will activate, revealing targets for mech pilots to strike.
+1430,"■Field Scanners
+Resources gathered during mech ops must be fed into a nearby field scanner. When sufficient resources have been gathered, the scanner will activate, revealing targets for mech pilots to strike.
 
 ■Special Rewards
-As thanks for completion of missions as ground support, players who make sufficient contributions will receive a buff that increases the number of credits received when completing stellar missions.
+Ground supporters who make sufficient contributions will receive a buff that increases the number of credits received for a limited number of subsequent stellar missions.
 
-Further details can be found under “Stellar Mission Rules.”"
+Further details can be found under Stellar Mission Rules."
 1431,"Cosmic Exploration Tokens"
 1432,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Cosmic Exploration Tokens<UIGlow>01</UIGlow><UIForeground>01</UIForeground> are awarded upon successful completion of certain difficult stellar missions.
 
@@ -4145,44 +4130,84 @@ Sacramental offerings may occasionally be obtained by appraising pieces of the A
 
 Rewards are proportionate to the number of offerings used. Additionally, the player who selected offerings before entering the duty will receive more rewards than other party members."
 1485,"Votive Candelabras"
-1486,""
-1487,""
-1488,""
-1489,""
-1490,""
-1491,""
-1492,""
-1493,""
-1494,""
-1495,""
-1496,""
-1497,""
-1498,""
-1499,""
-1500,""
-1501,""
-1502,""
-1503,""
-1504,""
-1505,""
-1506,""
-1507,""
-1508,""
-1509,""
-1510,""
+1486,"Strategy Board"
+1487,"Overview"
+1488,"Strategy boards are created using a combination of icons, symbols, and markers to better coordinate with party members and overcome challenging duties."
+1489,"Strategy Board List"
+1490,"Saved List"
+1491,"Up to fifty strategy boards can be saved at a time, and they can be grouped and separated into folders for ease of organization.
+
+You may create up to fifty-five folders, each of which can hold up to ten strategy boards."
+1492,"Shared List"
+1493,"Strategy boards shared by other players may also be stored temporarily in a separate list.
+
+Up to twenty such strategy boards shared may be saved at a time, with the oldest being overwritten should this limit be exceeded. Please note, however, that shared strategy boards may be moved to the Saved List at any time."
+1494,"Strategy Board Interface"
+1495,"Reviewing Strategies"
+1496,"When reviewing strategies, you can freely adjust the size of the board and lock it to prevent it from being closed. The board can also be displayed while undertaking duties.
+
+The settings menu can be used to adjust the display of DPS icons, or highlight roles that are particularly important to your strategy."
+1497,"Using the Strategy Board"
+1498,"Select your desired strategy board from the list or its folder, then select Review Strategy Board from the subcommand menu to begin reviewing it.
+
+When reviewing strategy boards in a folder, the arrow buttons at the bottom right of the window can be used to cycle through them. There are also actions available under General in the Actions & Traits menu that can also be used to cycle through strategy boards."
+1499,"Customizing Strategy Boards"
+1500,"Editing"
+1501,"The editing of strategy boards is carried out primarily through the use of three menus:
+
+The Objects List window, where you can choose icons and symbols to add to the strategy board.
+The Object Layers window, where you can perform various functions such as hiding, locking, and copying objects.
+The Object Parameters window, where you can make finer adjustments such as changing the size, rotation, and transparency of objects.
+※By locking these windows, they will remain open when viewing the main editing window.
+
+When viewing the main window, you can also toggle gridlines, gridline snapping, and object snapping."
+1502,"Selecting Objects"
+1503,"When editing, you can freely select and move objects on the strategy board. You may also select multiple objects at once."
+1504,"Presets"
+1505,"When creating a new strategy board, you may choose from several preset configurations.
+
+Strategy boards created using these options can be used as they are, or serve as a starting point for further customization."
+1506,"Miscellaneous"
+1507,"■Lock and Hide Objects
+Any object placed onto the strategy board can be locked in place. You may also toggle their display on or off."
+1508,"■Grid Snap
+When gridlines are enabled, objects will automatically snap to these lines for easier positioning."
+1509,"Strategy Board Settings"
+1510,"The settings menu allows you to adjust the display of certain icons. Please note these options affect all strategy boards.
+
+■DPS Icon Display Type
+Choose to represent DPS jobs with a unified icon or those that distinguish between melee and ranged roles.
+
+■Icon Highlight
+Highlight a specified class or job icon.
+※This option only applies if the specified job icon appears on the strategy board."
 1511,""
 1512,""
 1513,""
-1514,""
-1515,""
-1516,""
-1517,""
-1518,""
-1519,""
-1520,""
-1521,""
-1522,""
-1523,""
+1514,"■Multiple Object Selection
+When using a mouse, hold Ctrl and left-click the icons you wish to select together.
+When using a <If(GreaterThan(PlayerParameter(75),0))>controller<Else/>gamepad</If>, press <CommandIcon(11)/> to select multiple objects. "
+1515,"■Object Snap
+When enabled, objects will automatically snap to other nearby objects."
+1516,"■Align Objects
+When multiple objects have been selected, the Align Objects subcommand can be used to align them either vertically or horizontally."
+1517,"Share Code"
+1518,"Using the Create Share Code subcommand on a selected strategy board, you can generate text-based codes to share with other players, which they can then enter when creating their own strategy board.
+
+※Exchanging codes via chat is not advised, as they may be affected by player chat filters. Furthermore, depending on the contents of a strategy board, the resulting share code may exceed the character limit for chat messages."
+1519,"Real-time Sharing"
+1520,"Real-time sharing allows you to modify a strategy board together with party members.
+
+While all players will be able to view the strategy board, only the player who initiated real-time sharing can make direct edits.
+
+Please note that real-time sharing will be suspended during combat or when players leave or join your party. However, any changes made to the strategy board will be saved automatically to the Shared List, where you can resume editing at a later time.
+
+Because real-time edits are overwritten periodically, you may wish to create a copy to preserve the original strategy board."
+1521,"Sharing Strategy Boards"
+1522,"Party Sharing"
+1523,"Single strategy boards or entire folders can be shared with party members via the Share with Party subcommand.
+
+Any strategy boards shared in this manner will be saved temporarily in the Shared List."
 1524,""
 1525,""
 1526,""
@@ -4223,7 +4248,7 @@ Missions are divided into three categories based on conditions of availability. 
 ・Critical Missions
 　Missions only available during red alerts."
 1553,"Traveling to Mission Sites"
-1554,"Critical missions require you to craft or procure materials at a designated location. On Phaenna, you may speak with Lefleda at Glassblowers' Beacon to travel directly to the mission site while a red alert is active."
+1554,"Critical missions require you to craft or procure materials at a designated location. Speak with Lefleda while a red alert is active to travel directly to the mission site."
 1555,"※Stellar missions will be automatically abandoned upon leaving the relevant exploration zone."
 1556,"The Final Verse"
 1557,"Entry"
@@ -4272,17 +4297,160 @@ The challenge log may be checked via the main menu or by speaking with Vanthau.
 
 <UIForeground>F20224</UIForeground>■The Blessed Hoard<UIForeground>01</UIForeground>
 Players can collect pieces of the Blessed Hoard by completing challenge log objectives or clearing related duties. Check the Blessed Hoard tab for more information."
-1573,""
-1574,""
-1575,""
-1576,""
-1577,""
-1578,""
-1579,""
-1580,""
-1581,""
-1582,""
-1583,""
-1584,""
-1585,""
-1586,""
+1573,"Sprig Cleaning"
+1574,"Overview"
+1575,"Special Actions"
+1576,"Scores"
+1577,"Unusual Leafkin"
+1578,"By participating in Sprig Cleaning, you will help clear away pests that are impeding Hatching-tide festivities."
+1579,"■基本情報
+スプリグ・クリーニングは、ソロでのみ遊べるコンテンツです。
+コンテンツの制限時間は3分です。
+
+ゲーム中は、専用アクションを駆使して魔物を刈り、
+より多くのスコアを獲得することが目的となります。
+
+■報酬
+ゲーム中に獲得したスコアの量に応じて、
+「スペシャル・トリコエッグ」を入手することできます。
+
+スペシャル・トリコエッグは、
+ミィ・ケット野外音楽堂の「エッグドリーマー」に渡すことで、
+装備品やアイテムと交換できます。"
+1580,"Three unique actions are available to you during Sprig Cleaning."
+1581,"■Pruning Pirouette
+A circular area of effect attack.
+
+■Roaring Eggscapade
+An attack that moves you swiftly forward, slicing down foes in your path.
+
+■The Spriganator
+A large circular area of effect attack that can only be executed upon attaining sufficient cleaning spirit, displayed in an instance-specific gauge."
+1582,"You may increase your score in the following ways:
+
+■Trimming Troublesome Traps
+You will earn points for each pesky leafkin that you cut down to size.
+
+■Reclaiming Archon Eggs
+Hidden amongst the troublesome traps are Archon eggs meant for egg hunt participants. Collecting gold, silver, and bronze Archon eggs will earn you a different number of points for each type.
+
+Your current score and high score will be displayed in the duty list."
+1583,"ゲーム中、特殊な魔物「フシギナ・トラップ」が出現することがあります。"
+1584,"このフシギナ・トラップを刈ると、
+以下の特殊な効果がランダムで発生します。
+
+・草刈り魂上昇
+「草刈り魂」が大幅に上昇します。
+
+・アルコンエッグ発見率上昇
+アルコンエッグを見つけやすくなります。
+
+・アルコンエッグ【金】率上昇
+見つけたアルコンエッグが、必ずアルコンエッグ【金】になります。"
+1585,"■Crafting and Gathering Restrictions
+During a stellar mission, crafting and gathering will not award experience, and spiritbond will accrue at a different rate.
+
+■Fishing Restrictions
+At the end of each stellar mission, your Angler's Art stacks will be reset, regardless of how many you have accrued.
+
+■Ground Support Bonuses
+Ground supporters who make sufficient contributions to a mech op will receive bonus credits for a set number of subsequent missions, regardless of objective. These bonuses are as follows:
+
+Cosmocredits: +20
+Sector Credits: +10
+
+For the duration of the effect, an arrow symbol will be displayed on the Initiate button on the mission selection window."
+1586,"Gold Count"
+1587,"Your <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gold count<UIGlow>01</UIGlow><UIForeground>01</UIForeground> refers to a special bonus that accrues as high-level missions are completed in succession.
+
+■Activation Conditions
+To start a gold count, consecutively attain gold stars in provisional or basic missions of class A or higher. Changing classes will not break this streak.
+
+Upon attaining another gold star after accruing 5 golds, you will achieve Super Star status and your gold count will reset to zero.
+
+Each cosmic exploration field has a separate gold count which will be retained even if you leave the area.
+
+■Bonus Effect
+An active gold count will yield increased rewards for stellar missions, with Super Star status offering the highest bonus. Gold count and Super Star bonuses affect all credit types, dronebits, and contributions to the Starward Standings. You can confirm your current gold count via the mission selection list."
+1588,"
+■Reset Conditions
+The following actions will break a gold count streak:
+・Initiating a class B, C, or D mission.
+・Completing a mission with a rating below Gold Star.
+・Abandoning a mission (unless the mission was automatically abandoned due to your mech ops pilot application having been selected).
+
+Conversely, the following actions will not break a gold count streak:
+・Taking part in mech ops.
+・Taking part in cosmic exploration projects.
+・Initiating and/or completing critical missions."
+1589,""
+1590,""
+1591,""
+1592,""
+1593,""
+1594,""
+1595,""
+1596,"The icon representing saved outfits will also indicate the number of individual items presently being used as part of the outfit glamour. An orange number indicates all parts have been stored together.
+
+As with standard glamours, outfit glamours will appear in each tab of the glamour dresser. Their item descriptions will also indicate they are part of an outfit glamour. It is worth noting that, when removing outfit glamours from the glamour dresser, they cannot be removed as individual pieces."
+1597,"Adding Outfit Gear"
+1598,"It is possible to add gear to incomplete outfit glamours stored in the glamour dresser, requiring the equivalent number of glamour prisms to do so.
+
+With the missing gear in your inventory or Armoury Chest, open the Outfits tab of the glamour dresser, choose an outfit glamour you wish to add gear to, then select “Add Missing Outfit Gear” from the subcommand menu.
+
+Gear can also be added via the Outfit Glamour button in the Glamour Creation window."
+1599,"If an outfit glamour matching the selected gear is available in the glamour dresser, pressing this button will automatically select that outfit for gear additions."
+1601,"Worqor Chirteh (Triumph)"
+1602,"Map Overview"
+1603,"Far to the west of Eorzea, across the Indigo Deep, lies the continent of Tural. Here, in the mountainous region of Worqor Chirteh, a great battle is said to have been waged by the Yok Huy of ancient times. The Grand Companies would borrow this battlefield of eld to test their mettle, and, under the watchful gaze of the snow spirits, the sounds of conflicts past and present echo through the mountainside once more."
+1604,"Victory Conditions"
+1605,"In Worqor Chirteh (Triumph), victory goes to the first alliance to reach the specified tactical rating, which is accumulated by:
+　1. Defeating enemy players
+　2. Claiming triumphs
+
+In the event that none of the three alliances reaches the specified tactical rating within the time limit, victory will be awarded to the alliance with the highest tactical rating."
+1606,"Triumphs"
+1607,"Across the field of battle, there are points of tactical importance known as triumphs. By laying claim to these locations, players can increase their team's tactical rating over time.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Triumph States■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+In the course of battle, triumphs will assume one of four states, in the following order:
+
+1. Inactive
+When inactive, a triumph cannot be claimed. All triumphs are inactive at the onset of battle, but as time passes, they will randomly begin activating."
+1608,"2. Activating
+When a triumph begins activating, a symbol will appear above it indicating the time remaining before it becomes unclaimed. The symbol will gradually take shape until it becomes complete, rendering the triumph unclaimed."
+1609,"3. Unclaimed
+When a triumph is unclaimed, several fields of triumph will appear around it. Once a single team secures all fields, they will claim the triumph for themselves."
+1610,"4. Claimed
+When claimed, a triumph gradually increases a team's tactical rating. A triumph that has been claimed cannot be seized by the opposition; however, after a certain amount of time has elapsed, it will revert to being inactive. When it does so, a triumph in a different location will become unclaimed."
+1611,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Triumph Rank■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+When a triumph begins activating, it will randomly be assigned a rank: B, A, or S, as indicated by the corresponding shape. While higher-ranked triumphs are rarer, they increase a team's tactical rating at a faster rate."
+1612,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Changes during Battle■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+As the battle progresses, the number of triumphs that can be simultaneously active will decrease. At the same time, the likelihood that they will activate at a higher rank will increase.
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Changes Due to Weather■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Certain weather conditions increase the likelihood that triumphs will activate at a higher rank."
+1613,"Fields of Triumph"
+1614,"Several fields of triumph will appear around an unclaimed triumph. Players can secure a field of triumph by remaining within the area for a set period of time. The number of players within the field does not affect the time required.
+
+The higher the rank of the triumph, the more fields will appear.
+
+Once a field of triumph has been secured, the opposition may attempt to seize it for themselves. Even though another team may have secured the field, the battle is far from over!"
+1615,"Snow"
+1616,"As time passes in a match, snow may begin to fall on Worqor Chirteh. While snow is falling, snow spirits will appear around the arena to engage in a bout of mischief-making."
+1617,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Snow Soldiers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+When snow spirits appear, they will cast Soldiers of 'Fridgeration to create snow troops of various sizes around the arena. These snow soldiers form obstacles that can be used to turn the tide of battle in your favor."
+1618,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>■Blessed Blast■<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+When snow spirits are present, they will repeatedly cast Blessed Blast. Players caught in this blast will be protected by a barrier that nullifies damage."
+1619,"Auroras"
+1620,"As time passes in a match, auroras may appear in the skies over Worqor Chirteh. This weather condition causes the following two effects:
+1. Increases the likelihood that triumphs will activate as a higher rank.
+2. Gradually fills the limit gauge of all players."
+1621,"Obtaining Aetherpool Weapons"
+1622,"You may use your illumed aetherpool weapon outside of Pilgrim's Traverse after clearing the area marked by stone 30 and completing the subsequent quest.
+
+However, you must first forge a sufficient number of illumed aetherpool grips by speaking with Ose Wyd in Wolekdorf. Forging one grip will reduce the strength of your illumed aetherpool arm and armor by 10.
+
+Once you have acquired enough illumed aetherpool grips, you may obtain a weapon of the First Light by speaking with Ose Wyd and selecting “Request to keep your aetherpool gear.”
+
+Once you clear the area marked by stone 100 and enhance your illumed aetherpool arm to +60 or above, sacramental weapons will also become available."
