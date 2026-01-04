@@ -1,6 +1,4 @@
-﻿key,0,1,2,3,4,5,6,7,8,9,10
-#,FriendlyVFX,StackVFX1Trigger,StackVFX1,StackVFX2Trigger,StackVFX2,HostileVFX,,,,,
-int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
+#,VFX[0],VFX[1],VFX[2],VFX[3],Unknown0,Unknown1,Unknown2,Unknown3,Unknown4,Unknown5,Unknown6
 0,0,0,0,0,0,0,0,2,False,True,False
 1,122,0,0,0,0,0,0,2,False,True,False
 2,125,0,0,0,0,0,0,2,False,True,False
@@ -38,7 +36,7 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 34,516,0,0,0,0,0,1,2,False,False,False
 35,509,0,0,0,0,0,0,2,False,True,False
 36,520,0,0,0,0,0,1,2,False,False,False
-37,0,4,538,7,539,0,0,2,False,True,False
+37,0,538,539,0,4,7,0,2,False,True,False
 38,539,0,0,0,0,0,0,2,False,True,False
 39,540,0,0,0,0,0,0,2,False,True,False
 40,542,0,0,0,0,0,0,2,False,True,False
@@ -63,8 +61,8 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 59,579,0,0,0,0,0,0,2,False,True,False
 60,584,0,0,0,0,0,0,2,True,True,False
 61,585,0,0,0,0,0,0,2,True,True,False
-62,587,3,588,5,589,0,0,2,True,True,False
-63,590,3,591,5,592,0,0,2,True,True,False
+62,587,588,589,0,3,5,0,2,True,True,False
+63,590,591,592,0,3,5,0,2,True,True,False
 64,599,0,0,0,0,0,0,2,False,True,False
 65,600,0,0,0,0,0,0,2,False,True,False
 66,601,0,0,0,0,0,0,2,False,True,False
@@ -196,7 +194,7 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 192,905,0,0,0,0,0,0,2,False,True,False
 193,906,0,0,0,0,0,0,2,False,True,False
 194,907,0,0,0,0,0,0,2,False,True,False
-195,915,2,916,0,0,0,0,2,False,True,False
+195,915,916,0,0,2,0,0,2,False,True,False
 196,910,0,0,0,0,0,0,2,False,True,False
 197,911,0,0,0,0,0,0,2,False,True,False
 198,912,0,0,0,0,0,0,2,False,True,False
@@ -414,7 +412,7 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 410,1371,0,0,0,0,0,0,3,False,True,False
 411,1372,0,0,0,0,0,0,2,False,True,False
 412,1373,0,0,0,0,0,0,2,False,True,False
-413,1377,0,0,0,0,1904,1,3,False,False,False
+413,1377,0,0,1904,0,0,1,3,False,False,False
 414,1378,0,0,0,0,0,1,2,False,False,True
 415,1379,0,0,0,0,0,1,2,False,False,True
 416,1381,0,0,0,0,0,0,2,False,True,False
@@ -618,7 +616,7 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 614,1778,0,0,0,0,0,0,2,False,True,False
 615,1779,0,0,0,0,0,0,2,False,True,False
 616,1780,0,0,0,0,0,0,2,False,True,False
-617,721,3,746,0,0,0,0,3,True,True,False
+617,721,746,0,0,3,0,0,3,True,True,False
 618,1788,0,0,0,0,0,0,2,False,True,False
 619,1789,0,0,0,0,0,0,2,False,True,False
 620,1792,0,0,0,0,0,1,2,False,True,False
@@ -662,7 +660,7 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 658,1902,0,0,0,0,0,0,2,False,True,False
 659,1903,0,0,0,0,0,0,2,False,True,False
 660,1908,0,0,0,0,0,0,2,False,True,False
-661,1905,0,0,0,0,1906,0,2,False,True,False
+661,1905,0,0,1906,0,0,0,2,False,True,False
 662,1909,0,0,0,0,0,0,2,False,True,False
 663,1921,0,0,0,0,0,0,2,True,True,False
 664,1922,0,0,0,0,0,0,2,True,True,False
@@ -848,13 +846,13 @@ int32,VFX,byte,VFX,byte,VFX,VFX,byte,byte,bit&01,bit&02,bit&04
 844,2361,0,0,0,0,0,0,2,False,True,False
 845,2362,0,0,0,0,0,0,2,False,True,False
 846,2367,0,0,0,0,0,0,2,False,True,False
-847,2369,2,2370,3,2371,0,0,2,False,True,False
+847,2369,2370,2371,0,2,3,0,2,False,True,False
 848,2394,0,0,0,0,0,1,2,False,True,False
 849,2395,0,0,0,0,0,1,2,False,True,False
 850,2380,0,0,0,0,0,1,2,False,True,False
 851,2387,0,0,0,0,0,0,2,False,True,False
 852,2388,0,0,0,0,0,0,2,False,True,False
-853,2390,0,0,0,0,2391,0,2,False,True,False
+853,2390,0,0,2391,0,0,0,2,False,True,False
 854,2391,0,0,0,0,0,0,2,False,True,False
 855,2393,0,0,0,0,0,0,2,False,True,False
 856,721,0,0,0,0,0,0,3,True,True,False

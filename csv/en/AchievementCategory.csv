@@ -1,86 +1,84 @@
-﻿key,0,1,2,3,4
-#,Name,AchievementKind,ShowComplete,HideCategory,Order
-int32,str,AchievementKind,bit&01,bit&02,byte
-0,"",0,True,False,0
-1,"General",1,True,False,1
-2,"Dungeons",1,True,False,2
-3,"Trials",1,True,False,3
-4,"Raids",1,True,False,4
-5,"The Hunt",1,True,False,5
-6,"Treasure Hunt",1,True,False,6
-7,"General",2,True,False,1
-8,"Ranking",2,True,True,2
-9,"The Wolves' Den",2,True,False,3
-10,"Frontline",2,True,False,4
-11,"Rival Wings",2,True,False,5
-12,"General",3,True,False,1
-13,"Disciples of War",3,True,False,2
-14,"Disciples of Magic",3,True,False,3
-15,"Disciples of the Hand",3,True,False,4
-16,"Disciples of the Land",3,True,False,5
-17,"Commendation",3,True,False,6
-18,"Gold Saucer",3,True,False,7
-19,"General",4,True,False,1
-20,"Currency",4,True,False,2
-21,"Desynthesis",4,True,False,3
-22,"Collectables",4,True,False,4
-23,"Materia",4,True,False,5
-24,"Carpenter",5,True,False,2
-25,"Blacksmith",5,True,False,3
-26,"Armorer",5,True,False,4
-27,"Goldsmith",5,True,False,5
-28,"Leatherworker",5,True,False,6
-29,"Weaver",5,True,False,7
-30,"Alchemist",5,True,False,8
-31,"Culinarian",5,True,False,9
-32,"Miner",5,True,False,10
-33,"Botanist",5,True,False,11
-34,"Fisher",5,True,False,12
-35,"General",8,True,False,1
-36,"Levequests",8,True,False,4
-37,"Allied Society Quests",8,True,False,5
-38,"Seasonal Events",8,True,True,99
-39,"Sightseeing Log",11,True,False,1
-40,"La Noscea",11,True,False,2
-41,"The Black Shroud",11,True,False,3
-42,"Thanalan",11,True,False,4
-43,"Coerthas",11,True,False,5
-44,"Mor Dhona",11,True,False,6
-45,"Abalathia's Spine",11,True,False,7
-46,"Dravania",11,True,False,8
-47,"Gyr Abania",11,True,False,9
-48,"Othard",11,True,False,10
-49,"Duty",11,True,False,100
-50,"General",12,True,False,1
-51,"Maelstrom",12,True,False,2
-52,"Order of the Twin Adder",12,True,False,3
-53,"Immortal Flames",12,True,False,4
-54,"Battle",13,True,False,1
-55,"Currency",13,True,False,2
-56,"Gathering",13,True,False,3
-57,"Quests",13,True,False,4
-58,"Seasonal Events",13,True,False,5
-59,"Dungeons",13,True,False,6
-60,"Exploration",13,True,False,7
-61,"Grand Company",13,True,False,8
-62,"Relic Weapons",4,True,False,6
-63,"Zodiac Weapons",4,True,False,7
-64,"Anima Weapons",4,True,False,8
-65,"Deep Dungeon Weapons",4,True,False,9
-66,"Eureka Weapons",4,True,False,10
-67,"Norvrandt",11,True,False,11
-68,"Resistance Weapons",4,True,False,11
-69,"All Disciplines",5,True,False,1
-70,"Skysteel Tools",4,True,False,51
-71,"Field Operations",1,True,False,7
-72,"The Northern Empty",11,True,False,12
-73,"Ilsabard",11,True,False,13
-74,"Other",11,True,False,99
-75,"Manderville Weapons",4,True,False,12
-76,"Main Scenario",8,True,False,2
-77,"Job/Role Quests",8,True,False,3
-78,"Splendorous Tools",4,True,False,52
-79,"Yok Tural",11,True,False,14
-80,"Xak Tural",11,True,False,15
-81,"Phantom Weapons",4,True,False,13
-82,"Cosmic Tools",4,True,False,53
+#,Name,AchievementKind,Order,ShowComplete,HideCategory
+0,,0,0,True,False
+1,General,1,1,True,False
+2,Dungeons,1,2,True,False
+3,Trials,1,3,True,False
+4,Raids,1,4,True,False
+5,The Hunt,1,5,True,False
+6,Treasure Hunt,1,6,True,False
+7,General,2,1,True,False
+8,Ranking,2,2,True,True
+9,The Wolves' Den,2,3,True,False
+10,Frontline,2,4,True,False
+11,Rival Wings,2,5,True,False
+12,General,3,1,True,False
+13,Disciples of War,3,2,True,False
+14,Disciples of Magic,3,3,True,False
+15,Disciples of the Hand,3,4,True,False
+16,Disciples of the Land,3,5,True,False
+17,Commendation,3,6,True,False
+18,Gold Saucer,3,7,True,False
+19,General,4,1,True,False
+20,Currency,4,2,True,False
+21,Desynthesis,4,3,True,False
+22,Collectables,4,4,True,False
+23,Materia,4,5,True,False
+24,Carpenter,5,2,True,False
+25,Blacksmith,5,3,True,False
+26,Armorer,5,4,True,False
+27,Goldsmith,5,5,True,False
+28,Leatherworker,5,6,True,False
+29,Weaver,5,7,True,False
+30,Alchemist,5,8,True,False
+31,Culinarian,5,9,True,False
+32,Miner,5,10,True,False
+33,Botanist,5,11,True,False
+34,Fisher,5,12,True,False
+35,General,8,1,True,False
+36,Levequests,8,4,True,False
+37,Allied Society Quests,8,5,True,False
+38,Seasonal Events,8,99,True,True
+39,Sightseeing Log,11,1,True,False
+40,La Noscea,11,2,True,False
+41,The Black Shroud,11,3,True,False
+42,Thanalan,11,4,True,False
+43,Coerthas,11,5,True,False
+44,Mor Dhona,11,6,True,False
+45,Abalathia's Spine,11,7,True,False
+46,Dravania,11,8,True,False
+47,Gyr Abania,11,9,True,False
+48,Othard,11,10,True,False
+49,Duty,11,100,True,False
+50,General,12,1,True,False
+51,Maelstrom,12,2,True,False
+52,Order of the Twin Adder,12,3,True,False
+53,Immortal Flames,12,4,True,False
+54,Battle,13,1,True,False
+55,Currency,13,2,True,False
+56,Gathering,13,3,True,False
+57,Quests,13,4,True,False
+58,Seasonal Events,13,5,True,False
+59,Dungeons,13,6,True,False
+60,Exploration,13,7,True,False
+61,Grand Company,13,8,True,False
+62,Relic Weapons,4,6,True,False
+63,Zodiac Weapons,4,7,True,False
+64,Anima Weapons,4,8,True,False
+65,Deep Dungeon Weapons,4,9,True,False
+66,Eureka Weapons,4,10,True,False
+67,Norvrandt,11,11,True,False
+68,Resistance Weapons,4,11,True,False
+69,All Disciplines,5,1,True,False
+70,Skysteel Tools,4,51,True,False
+71,Field Operations,1,7,True,False
+72,The Northern Empty,11,12,True,False
+73,Ilsabard,11,13,True,False
+74,Other,11,99,True,False
+75,Manderville Weapons,4,12,True,False
+76,Main Scenario,8,2,True,False
+77,Job/Role Quests,8,3,True,False
+78,Splendorous Tools,4,52,True,False
+79,Yok Tural,11,14,True,False
+80,Xak Tural,11,15,True,False
+81,Phantom Weapons,4,13,True,False
+82,Cosmic Tools,4,53,True,False
