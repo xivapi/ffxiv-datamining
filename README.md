@@ -12,15 +12,15 @@ This repository is to serve as a place to share data mining information related 
 
 ### CSVs
 
-This repository keeps a record of CSV's extracted via SaintCoinach using the command `rawexd`, this is so they can be easily linked and referenced when datamining, so we have a git history of changes and just to make life easier in some cases :)
+This repository keeps a record of CSV's extracted via [XIVData Oxidizer](https://github.com/mattantonelli/xiv-data-oxidizer), this is so they can be easily linked and referenced when datamining, so we have a git history of changes and just to make life easier in some cases :)
 
 - [Click here to view CSV files](csv/)
 
 ### Updating CSV files:
 
-- Download and open **SaintCoinach.cmd**
-- Run: `rawexd`
-- Copy all the contents in the folder: `<date>/rawexd/**` to the `/csv` folder
+- Download **XIVData Oxidizer**
+- Build and run: `cargo run -- "C:\Program Files (x86)\Square Enix\FINAL FANTASY XIV - A Realm Reborn"`
+- Copy all the contents in the folder: `output/**` to the `/csv` folder
 - Push a PR
 
 The idea is to maintain an easy diffing view of what has changed during a patch
@@ -69,3 +69,4 @@ Notable members that have contributed information in some way, If you're part of
 - Miu (TeamCraft)
 - Ioncannon (FFXIV Explorer)
 - Vekien (xivapi)
+- Raelys (XIVData Oxidizer)
