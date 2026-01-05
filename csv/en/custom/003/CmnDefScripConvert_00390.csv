@@ -1,0 +1,13 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNDEFSCRIPCONVERT_00390_TALK_GREETING_00000","Greetings, <If(PlayerParameter(4))>madam<Else/>sir</If>. If you have any <SheetEn(Item,3,IntegerParameter(1),2,1)/> or <SheetEn(Item,3,IntegerParameter(2),2,1)/>, I should be glad to offer you <SheetEn(Item,3,IntegerParameter(3),2,1)/> and <SheetEn(Item,3,IntegerParameter(4),2,1)/> respectively in exchange."
+1,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_Q000","Select the scrip you wish to exchange."
+2,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A001","<Unknown2D>FF1002310CFF054974656D04E802030203</Unknown2D>."
+3,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A002","<Unknown2D>FF1002310CFF054974656D04E802030203</Unknown2D>."
+4,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A003","Cancel."
+5,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_EXCHANGE_Q000","Exchange <If(Equal(IntegerParameter(2),1))><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),1,1)/><Else/><Value>IntegerParameter(2)</Value> <SheetEn(Item,3,IntegerParameter(1),IntegerParameter(2),1)/></If> for <If(Equal(IntegerParameter(4),1))><Value>IntegerParameter(4)</Value> <SheetEn(Item,3,IntegerParameter(3),1,1)/><Else/><Value>IntegerParameter(4)</Value> <SheetEn(Item,3,IntegerParameter(3),IntegerParameter(4),1)/></If>?"
+6,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_LIMIT_Q000","Warning: You will not be able to receive all <SheetEn(Item,2,IntegerParameter(1),2,1)/>. Do you still wish to proceed?"
+7,"TEXT_CMNDEFSCRIPCONVERT_00390_SYSTEM_EXCHANGE_00000","Exchange complete."
+8,"TEXT_CMNDEFSCRIPCONVERT_00390_TALK_NOTOBTAINABLE_00000","Oh? You don't appear to have any <SheetEn(Item,3,IntegerParameter(1),2,1)/>..."
+9,"TEXT_CMNDEFSCRIPCONVERT_00390_TALK_MAXIMUM_00000","Oh? It seems you already possess the maximum number of <SheetEn(Item,3,IntegerParameter(1),2,1)/> permitted..."

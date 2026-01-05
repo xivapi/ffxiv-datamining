@@ -1,0 +1,5842 @@
+#,Description,Alias,ShortAlias,Command,ShortCommand,Unknown0,Param,Unknown1,Unknown2,Unknown3,Unknown4,Unknown5
+0,,,,,,0,0,0,0,0,0,0
+1,"USAGE:
+　/record
+
+→Opens and closes the Duty Recorder interface.",/record,,/record,,0,32,1,0,0,0,0
+2,"USAGE:
+　/recordready [subcommand]
+
+→Opens and closes the Duty Recorder interface.
+
+>>Subcommands:
+　**[countdowntime]**
+　　Initiate a record ready check
+　　to begin recording a duty.
+　　When all party members
+　　consent to the recording,
+　　a countdown will start at
+　　the specified time.
+　　Subsequent uses of this
+　　command during the same
+　　duty will function as both a
+　　ready check and countdown.
+
+Opens the Duty Recorder interface when no subcommand is specified.",/recordready,,/recordready,,0,0,2,1,0,0,0
+3,"USAGE:
+　/pvpteamcmd
+
+→Opens and closes the PvP team menu.",,,/pvpteamcmd,,0,0,1,0,0,0,0
+4,"USAGE:
+　/saddlebag
+
+→Opens and closes your chocobo saddlebag.",/saddlebag,,/saddlebag,,0,0,1,0,0,0,0
+5,"USAGE:
+　/magiaright
+
+→Spins your magia board clockwise.",,,/magiaright,,0,0,1,0,0,0,0
+6,"USAGE:
+　/magialeft
+
+→Spins your magia board counterclockwise.",,,/magialeft,,0,0,1,0,0,0,0
+7,"ALIASES:
+　/cwlinkshellcmd, /cwlcmd
+USAGE:
+　/cwlinkshellcmd
+
+→Opens and closes the Cross-world Linkshell window.",/cwlinkshellcmd,/cwlcmd,/cwlinkshellcmd,/cwlcmd,0,0,1,0,0,0,0
+8,"ALIASES:
+　/quickchat, /qchat
+USAGE:
+　/quickchat [quick chat message]
+
+→Sends a Quick Chat message. Can only be used during Crystalline Conflict.
+
+>>Example:
+　/quickchat Charge <t>
+　(Sends the Quick Chat message
+　""Charge"" using a specified
+　target.)",/quickchat,/qchat,/quickchat,/qchat,0,1021,3,1,17,0,0
+9,"USAGE:
+　/bluespellbook [subcommand]
+
+→Open and register active actions in the Blue Magic Spellbook.
+
+>>Subcommands:
+　**set ""blue mage action"" on**
+　　Adds the specified blue
+　　mage action to the list
+　　of active actions in the
+　　current set.
+　** set ""blue mage action"" off**
+　　Removes the specified blue
+　　mage action from the list of
+　　active actions in the current
+　　set.
+　**preset [active set 1-5]**
+　　Load the specified set of
+　　active actions.
+　**clear**
+　　Remove all active actions
+　　from the current active
+　　action set.
+
+Opens the Blue Magic Spellbook when no subcommand is specified.
+
+>>Examples:
+　/bluespellbook set “Water Cannon”
+　(Sets the blue mage action
+　Water Cannon as an active
+　action in the current set.
+
+　/bluespellbook preset 2
+　(Loads active set 2.)",,,/bluespellbook,,0,36,4,3,2,18,2
+10,"USAGE:
+　/magiaattack [placeholder]
+
+→Spin the magia board to match the elemental weakness of the specified target. If no target is specified, matches based on current target.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/magiaattack,,0,0,2,1,2,0,0
+11,"USAGE:
+　/magiadefense [placeholder]
+
+→Spin the magia board to match the elemental affinity of the specified target. If no target is specified, matches based on current target.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/magiadefense,,0,0,2,1,2,0,0
+12,"USAGE:
+　/magiaauto [subcommand]
+
+→Set the magia board to automatically spin based on your current target.
+
+>>Subcommands:
+　**attack (atk)**
+　　Automatically spin the magia
+　　board to match the elemental
+　　weakness of current target.
+　**defense (def)**
+　　Automatically spin the magia
+　　board to match the elemental
+　　affinity of current target.
+　**off **
+　　Disable automatic spinning.
+
+Toggle between attack, defense, and off when no subcommand is specified.",,,/magiaauto,,0,0,2,1,2,0,0
+13,"ALIASES:
+　/cwlinkshell1, /cwl1
+USAGE:
+　/cwlinkshell1 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 1, regardless of their location. Typing /cwlinkshell1 or /cwl1 without a message switches the default chat mode to [Cross-world Linkshell 1].",,,/cwlinkshell1,/cwl1,0,1021,1,0,0,0,0
+14,"ALIASES:
+　/cwlinkshell2, /cwl2
+USAGE:
+　/cwlinkshell2 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 2, regardless of their location. Typing /cwlinkshell2 or /cwl2 without a message switches the default chat mode to [Cross-world Linkshell 2].",,,/cwlinkshell2,/cwl2,0,1021,1,0,0,0,0
+15,"ALIASES:
+　/cwlinkshell3, /cwl3
+USAGE:
+　/cwlinkshell3 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 3, regardless of their location. Typing /cwlinkshell3 or /cwl3 without a message switches the default chat mode to [Cross-world Linkshell 3].",,,/cwlinkshell3,/cwl3,0,1021,1,0,0,0,0
+16,"ALIASES:
+　/cwlinkshell4, /cwl4
+USAGE:
+　/cwlinkshell4 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 4, regardless of their location. Typing /cwlinkshell4 or /cwl4 without a message switches the default chat mode to [Cross-world Linkshell 4].",,,/cwlinkshell4,/cwl4,0,1021,1,0,0,0,0
+17,"ALIASES:
+　/cwlinkshell5, /cwl5
+USAGE:
+　/cwlinkshell5 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 5, regardless of their location. Typing /cwlinkshell5 or /cwl5 without a message switches the default chat mode to [Cross-world Linkshell 5].",,,/cwlinkshell5,/cwl5,0,1021,1,0,0,0,0
+18,"ALIASES:
+　/cwlinkshell6, /cwl6
+USAGE:
+　/cwlinkshell6 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 6, regardless of their location. Typing /cwlinkshell6 or /cwl6 without a message switches the default chat mode to [Cross-world Linkshell 6].",,,/cwlinkshell6,/cwl6,0,1021,1,0,0,0,0
+19,"ALIASES:
+　/cwlinkshell7, /cwl7
+USAGE:
+　/cwlinkshell7 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 7, regardless of their location. Typing /cwlinkshell7 or /cwl7 without a message switches the default chat mode to [Cross-world Linkshell 7].",,,/cwlinkshell7,/cwl7,0,1021,1,0,0,0,0
+20,"ALIASES:
+　/cwlinkshell8, /cwl8
+USAGE:
+　/cwlinkshell8 [message]
+
+→Sends a message to all members of the cross-world linkshell you have registered in cross-world linkshell slot 8, regardless of their location. Typing /cwlinkshell8 or /cwl8 without a message switches the default chat mode to [Cross-world Linkshell 8].",,,/cwlinkshell8,/cwl8,0,1021,1,0,0,0,0
+21,"ALIASES:
+　/graphicpresets, /gpresets
+USAGE:
+　/graphicpresets [preset
+　number]
+→Load one of several preset graphics configuration settings.
+
+>>Preset Configurations:
+　　1: Standard (Mac)
+　　2: Middle  (Mac)
+　　3: High (Mac)
+　　4: Extra-High (Mac)
+　　5: Maximum (Mac)
+
+>>Example:
+　　/graphicpresets 2
+　　=Sets graphics settings to
+ 　　preset 2.",,,/graphicpresets,/gpresets,0,993,2,0,0,0,0
+22,"ALIASES:
+　/fellowship, /fs
+USAGE:
+　/fellowship
+
+→Opens and closes the Fellowship interface.",,,/fellowship,/fs,0,32,1,0,0,0,0
+23,"ALIASES:
+　/fellowshipfinder, /fsfinder
+USAGE:
+　/fellowshipfinder
+
+→Opens and closes the Fellowship Finder interface.",,,/fellowshipfinder,/fsfinder,0,32,1,0,0,0,0
+24,"ALIASES:
+　/collection, /coll
+USAGE:
+　/collection
+
+→Opens and closes the Collection interface.",,,/collection,/coll,0,32,1,0,0,0,0
+25,"ALIASES:
+　/newgame+, /ng+
+USAGE:
+　/newgame+
+
+→Opens the New Game+ interface.",,,/newgame+,/ng+,0,32,1,0,0,0,0
+26,"USAGE:
+　/dice [chat mode] [subcommand]
+
+→Displays a random number between 0 and 999 in the specified chat channel. Displays in the current chat mode when no chat mode is specified.
+
+>>Chat Modes:
+　Party
+　　**party**, **p**
+　Alliance
+　　**alliance**, **al**
+　Free Company
+　　**freecompany**, **fc**
+　PvP Team
+　　**pvpteam**, **pt**
+　Linkshell
+　　**linkshell1-8**, **l1-8**
+　Cross-world Linkshell
+　　**cwlinkshell1-8**, **cwl1-8**
+
+>>Subcommands:
+　**[upper limit]**
+　　Set an upper limit to display a random number between 1 and the specified number. Displays a random number between 0 and 999 when no upper limit is specified.
+　　Upper limit range: 2-999
+
+>>Examples:
+　/dice
+　(Displays a random number
+　in the current chat mode.)
+
+　/dice 16
+　(Displays a random number
+　between 1 and 16 in the
+　current chat mode.)
+
+　/dice cwl1
+　(Displays a random number
+　in the Cross-world Linkshell 1
+　channel.)
+
+　/dice cwl1 16
+　(Displays a random number
+　between 1 and 16 in the
+　Cross-world Linkshell 1
+　channel.)",,,/dice,,1000,36,2,1,2,0,0
+27,"USAGE:
+　/nameplatetype [category] [setting number]
+
+→Change PC display type settings.
+
+>>Category:
+　All Players
+　　**all**
+　Your Character
+　　**self**
+　Party Members
+　　**party**
+　Other PCs
+　　**other**
+　Friends
+　　**friend**
+　Crystalline Conflict Opponents
+　　**feast**
+
+>>Setting Number
+　1: Full Name
+　2: Surname Abbreviated
+　3: Forename Abbreviated
+　4: Initials
+
+>>Example:
+　/nameplatetype all 4
+　(Set display names to
+　initials for all players.)",,,/nameplatetype,,0,36,3,1,2,0,0
+28,"USAGE:
+　/nameplatedisp [category] [setting number]
+
+→Change PC display name settings.
+
+>>Category:
+　All Players
+　　**all**
+　Your Character
+　　**self**
+　Party Members
+　　**party**
+　Other PCs
+　　**other**
+　Friends
+　　**friend**
+　Crystalline Conflict Opponents
+　　**feast**
+
+>>Setting Number
+　1: Always
+　2: During Battle
+　3: When Targeted
+　4: Never
+　5: Outside Battle
+
+>>Example:
+　/nameplatedisp all 4
+　(Set display names to never
+　display for all players.)",,,/nameplatedisp,,0,36,3,1,2,0,0
+29,"USAGE:
+　/fashion [accessory]
+
+→Equip a specified fashion accessory.
+
+>>Example:
+　/fashion “parasol”
+　(Equip the parasol accessory.)",,,/fashion,,0,36,2,1,20,0,0
+30,"USAGE:
+　/fashionguide
+
+→Opens and closes the Fashion Accessories interface.",/fashionguide,,/fashionguide,,0,32,1,0,0,0,0
+31,"ALIASES:
+　/officialsite, /site
+USAGE:
+　/officialsite
+
+→Opens and closes the Official Sites interface.",,,/officialsite,/site,0,32,1,0,0,0,0
+32,"//setGearset
+リアルイベント用コマンド。
+アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。",,,//setGearset,,0,32,1,0,0,0,0
+33,"ALIASES:
+　/petglamour, /petglam, /egiglamour
+USAGE:
+　/petglamour [summon] [glamour]
+
+→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
+
+>>Summon Name:
+　**Carbuncle**
+　**Garuda-Egi**
+　**Titan-Egi**
+　**Ifrit-Egi**
+　**Eos**
+
+>>Glamour:
+　**Carbuncle**
+　**Emerald Carbuncle**
+　**Topaz Carbuncle**
+　**Ruby Carbuncle**
+　**Garuda-Egi**
+　**Titan-Egi**
+　**Ifrit-Egi**
+　**Selene**
+
+The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
+
+>>Example:
+　/petglamour ""Garuda-Egi"" ""Ruby Carbuncle""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)",/petglamour,/petglam,/petmirage,,0,36,3,2,7,15,0
+34,"USAGE:
+　/petsize [summon] [size]
+
+→Alter the size of select summons. Command not applicable in PvP instances. These settings will not apply to other players.
+
+>>Egi Name:
+　Demi-Bahamut
+　Demi-Phoenix
+　Ruby Ifrit
+　Topaz Titan
+　Emerald Garuda
+　Solar Bahamut
+　all
+
+>>Size:
+　**large**
+　　Set summon size to large.
+　**medium**
+　　Set summon size to medium.
+　**small**
+　　Set summon size to small.
+
+Toggles between small, medium, and large when no size is specified. Returns an error when attempting to toggle using “all.”
+
+>>Example:
+　/petsize ""Ruby Ifrit"" ""small""
+　(Set Ruby Ifrit's size to small.)",,,/petsize,,0,36,3,2,7,2,0
+35,"USAGE:
+　/ridepillion [placeholder] [subcommand]
+
+→Ride pillion on a selected party member's mount.
+
+>>Subcommands:
+　**[seat number]**
+　　Select your desired seat on the mount.
+　　Available options: 1-7
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+If the desired seat is already selected, you will be placed in the next available seat. Seat 1 will be selected if unspecified.
+
+>>Example:
+　/ridepillion <2> 1
+　(Ride in seat 1 of party member 2.)",,,/ridepillion,,0,36,3,0,0,0,0
+36,"USAGE:
+　/patchnote
+
+→Opens the Patch Notes page on the official site.
+
+Launches using your default browser.",,,/patchnote,,1000,32,1,0,0,0,0
+37,"USAGE:
+　/portrait
+
+→Opens and closes the Portraits interface.",,,/portrait,,0,32,1,0,0,0,0
+38,"ALIASES:
+　/adventurerplate, /myplate
+USAGE:
+　/myplate
+
+→Opens and closes your adventurer plate.",,,/adventurerplate,/myplate,0,32,1,0,0,0,0
+39,"USAGE:
+　/rclickpc [subcommand]
+
+→Sets right-click selection to allow or ignore PC targets.
+
+>>Subcommands:
+　**on **
+　　Disables right-click selection for PCs.
+　**off **
+　　Enables right-click selection for PCs.
+
+Toggles between on and off when no subcommand is specified.",,,/rclickpc,,0,36,2,1,2,0,0
+40,"USAGE:
+　/rclickbattlenpc [subcommand]
+
+→Sets right-click selection to allow or ignore battle NPC targets.
+
+>>Subcommands:
+　**on **
+　　Disables right-click selection for battle NPCs.
+　**off **
+　　Enables right-click selection for battle NPCs.
+
+Toggles between on and off when no subcommand is specified.",,,/rclickbattlenpc,,0,36,2,1,2,0,0
+41,"USAGE:
+　/rclickminion [subcommand]
+
+→Sets right-click selection to allow or ignore minion targets.
+
+>>Subcommands:
+　**on **
+　　Disables right-click selection for minions.
+　**off **
+　　Enables right-click selection for minions.
+
+Toggles between on and off when no subcommand is specified.",,,/rclickminion,,0,36,2,1,2,0,0
+42,"USAGE:
+　/facewear [accessory]
+
+→Equip a specified face accessory.
+
+>>Example:
+　/facewear “oval spectacles”
+　(Equip the oval spectacles face accessory.)",/facewear,,/facewear,,0,36,2,1,21,0,0
+43,"USAGE:
+　/mutelist
+
+→Opens and closes the Mute List interface.",,,/mutelist,,0,32,1,0,0,0,0
+44,"USAGE:
+　/termfilter
+
+→Opens and closes the Term Filter interface.",/termfilter,,/termfilter,,0,32,1,0,0,0,0
+45,"USAGE:
+　/facewearlist
+
+→Opens and closes the Facewear interface.",/facewearlist,,/facewearlist,,0,32,1,0,0,0,0
+46,"USAGE:
+　/visualalerts [subcommand]
+
+→Change visual alerts settings.
+
+>>Subcommands:
+　**on **
+　　Enables visual alerts.
+　**off **
+　　Disable visual alerts.
+
+Toggles between on and off when no subcommand is specified.",,,/visualalerts,,0,509,2,1,2,0,0
+47,"USAGE:
+　/colorfiltering [subcommand]
+
+→Change color filtering settings.
+
+>>Subcommands:
+　**on **
+　　Enables color filtering.
+　**off **
+　　Disable color filtering.
+
+Toggles between on and off when no subcommand is specified.",,,/colorfiltering,,0,509,2,1,2,0,0
+48,"USAGE:
+　/autotargetpriority [subcommand]
+
+→Change auto-target priority settings.
+
+>>Subcommands:
+　**on **
+　　Enables auto-target priority.
+　**off **
+　　Disable auto-target priority.
+
+Toggles between on and off when no subcommand is specified.",,,/autotargetpriority,,0,36,2,1,2,0,0
+49,"ALIASES:
+　/vieraears, /vears
+USAGE:
+　/vieraears, /vears [subcommand]
+
+→Toggle the display of Viera ears on or off.
+※Only reflected on applicable headgear.
+
+>>Subcommands:
+**1**
+Display ears.
+
+**0**
+Hide ears.
+
+Toggles between on and off when no subcommand is specified.",,,/vieraears,/vears,0,36,2,1,2,0,0
+50,"ALIASES:
+　/commandpanel, /cmdpanel
+USAGE:
+　/commandpanel
+
+→Opens and closes your Command Panel.",/commandpanel,/cmdpanel,/quickpanel,,0,32,1,0,0,0,0
+51,"USAGE:
+　/strategyboard
+
+→Opens and closes the Strategy Board menu.",,,/strategyboard,,0,32,1,0,0,0,0
+52,,,,,,0,0,0,0,0,0,0
+53,,,,,,0,0,0,0,0,0,0
+54,,,,,,0,0,0,0,0,0,0
+55,,,,,,0,0,0,0,0,0,0
+56,,,,,,0,0,0,0,0,0,0
+57,,,,,,0,0,0,0,0,0,0
+58,,,,,,0,0,0,0,0,0,0
+59,,,,,,0,0,0,0,0,0,0
+60,,,,,,0,0,0,0,0,0,0
+61,,,,,,0,0,0,0,0,0,0
+62,,,,,,0,0,0,0,0,0,0
+63,,,,,,0,0,0,0,0,0,0
+64,,,,,,0,0,0,0,0,0,0
+65,,,,,,0,0,0,0,0,0,0
+66,,,,,,0,0,0,0,0,0,0
+67,,,,,,0,0,0,0,0,0,0
+68,,,,,,0,0,0,0,0,0,0
+69,,,,,,0,0,0,0,0,0,0
+70,,,,,,0,0,0,0,0,0,0
+71,,,,,,0,0,0,0,0,0,0
+72,,,,,,0,0,0,0,0,0,0
+73,,,,,,0,0,0,0,0,0,0
+74,,,,,,0,0,0,0,0,0,0
+75,,,,,,0,0,0,0,0,0,0
+76,,,,,,0,0,0,0,0,0,0
+77,,,,,,0,0,0,0,0,0,0
+78,,,,,,0,0,0,0,0,0,0
+79,,,,,,0,0,0,0,0,0,0
+80,,,,,,0,0,0,0,0,0,0
+81,,,,,,0,0,0,0,0,0,0
+82,,,,,,0,0,0,0,0,0,0
+83,,,,,,0,0,0,0,0,0,0
+84,,,,,,0,0,0,0,0,0,0
+85,,,,,,0,0,0,0,0,0,0
+86,,,,,,0,0,0,0,0,0,0
+87,,,,,,0,0,0,0,0,0,0
+88,,,,,,0,0,0,0,0,0,0
+89,,,,,,0,0,0,0,0,0,0
+90,,,,,,0,0,0,0,0,0,0
+91,"ALIASES:
+　/pvpteam, /pt
+USAGE:
+　/pvpteam [message]
+
+→Sends a message to all members of your PvP team, regardless of their location. Typing /pvpteam or /pt without a message switches the default chat mode to [PvP Team].
+
+>>Examples:
+　 /pvpteam Hello
+　(Sends the message ""Hello""
+　to your PvP team.)
+
+　/pvpteam
+　(Switches the default chat
+　mode to [PvP Team].)",,,/pvpteam,/pt,0,1021,1,0,0,0,0
+92,"ALIASES:
+　/cwlinkshell, /cwl
+USAGE:
+　/cwlinkshell [message]
+
+→Sends a message to all members of your active cross-world linkshell, regardless of their location. Typing /cwlinkshell or /cwl without a message switches the default chat mode to your active cross-world linkshell channel.",,,/cwlinkshell,/cwl,0,1021,1,0,0,0,0
+93,,,,,,0,0,0,0,0,0,0
+94,,,,,,0,0,0,0,0,0,0
+95,,,,,,0,0,0,0,0,0,0
+96,,,,,,0,0,0,0,0,0,0
+97,,,,,,0,0,0,0,0,0,0
+98,,,,,,0,0,0,0,0,0,0
+99,,,,,,0,0,0,0,0,0,0
+100,,,,,,0,0,0,0,0,0,0
+101,"ALIASES:
+　/novice, /n
+USAGE:
+　/novice [message]
+
+→Sends a message to the [Novice Network]. The message will not be displayed if a PC has deselected [Novice Network] in the chat filter. Typing /novice or /n without a message switches the default chat mode to [Novice Network].
+
+>>Examples:
+　 /novice Hello
+　(Sends the message ""Hello""
+　to the Novice Network.)
+
+　/novice
+　(Switches the default chat
+　mode to [Novice Network].)",/novice,/n,/beginner,/b,0,1021,1,0,0,0,0
+102,"ALIASES:
+　/say, /s
+USAGE:
+　/say [message]
+
+→Sends a message to all PCs within a small radius. The message will not be displayed if a PC has deselected [Say] in the chat filter. Typing /say or /s without a message switches the default chat mode to [Say].",,,/say,/s,0,1023,1,0,0,0,0
+103,"ALIASES:
+　/shout, /sh
+USAGE:
+　/shout [message]
+
+→Sends a message to all PCs in the same area. The message will not be displayed if a PC has deselected [Shout] in the chat filter.",,,/shout,/sh,0,1021,1,0,0,0,0
+104,"ALIASES:
+　/tell, /t
+USAGE:
+　/tell [PC name]@[World name] [message]
+
+→Sends a message to a specific PC on a specified World. When specifying a World other than your own, the message can only be sent to PCs that are on your friend list or recruiting party members via the Party Finder. This message cannot be seen by other PCs, and will not be displayed if [Tell] is deselected in the chat filter. Typing /tell or /t [PC name]@[World name] without a message switches the default chat mode to [Tell].
+
+>>Example:
+　/tell [PC name]@Bahamut Hello
+　(Sends the message ""Hello"" to
+　[PC name] on the World
+　Bahamut.)",,,/tell,/t,0,1021,3,0,0,0,0
+105,"ALIASES:
+　/party, /p
+USAGE:
+　/party [message]
+
+→Sends a message to all members of your current party, regardless of their location. The message will not be displayed if a PC has deselected [Party] in the chat filter. Typing /party or /p without a message switches the default chat mode to [Party].",,,/party,/p,0,1021,1,0,0,0,0
+106,"ALIASES:
+　/linkshell, /l
+USAGE:
+　/linkshell [message]
+
+→Sends a message to all members of your active linkshell, regardless of their location. Typing /linkshell or /l without a message switches the default chat mode to [Linkshell].",,,/linkshell,/l,0,1021,1,0,0,0,0
+107,"ALIASES:
+　/linkshell1, /l1
+USAGE:
+　/linkshell1 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 1, regardless of their location.",,,/linkshell1,/l1,0,1021,1,0,0,0,0
+108,"ALIASES:
+　/linkshell2, /l2
+USAGE:
+　/linkshell2 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 2, regardless of their location.",,,/linkshell2,/l2,0,1021,1,0,0,0,0
+109,"ALIASES:
+　/linkshell3, /l3
+USAGE:
+　/linkshell3 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 3, regardless of their location.",,,/linkshell3,/l3,0,1021,1,0,0,0,0
+110,"ALIASES:
+　/linkshell4, /l4
+USAGE:
+　/linkshell4 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 4, regardless of their location.",,,/linkshell4,/l4,0,1021,1,0,0,0,0
+111,"ALIASES:
+　/linkshell5, /l5
+USAGE:
+　/linkshell5 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 5, regardless of their location.",,,/linkshell5,/l5,0,1021,1,0,0,0,0
+112,"ALIASES:
+　/linkshell6, /l6
+USAGE:
+　/linkshell6 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 6, regardless of their location.",,,/linkshell6,/l6,0,1021,1,0,0,0,0
+113,"ALIASES:
+　/linkshell7, /l7
+USAGE:
+　/linkshell7 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 7, regardless of their location.",,,/linkshell7,/l7,0,1021,1,0,0,0,0
+114,"ALIASES:
+　/linkshell8, /l8
+USAGE:
+　/linkshell8 [message]
+
+→Sends a message to all members of the linkshell you have registered in linkshell slot 8, regardless of their location.",,,/linkshell8,/l8,0,1021,1,0,0,0,0
+115,"ALIASES:
+　/freecompany, /fc
+USAGE:
+　/freecompany [message]
+
+→Sends a message to all members of your free company, regardless of their location. Typing /freecompany or /fc without a message switches the default chat mode to [Free Company].",,,/freecompany,/fc,0,1021,1,0,0,0,0
+116,"ALIASES:
+　/echo, /e
+USAGE:
+　/echo [message]
+
+→Displays a message that only you can see.",,,/echo,/e,0,1021,1,0,0,0,0
+117,"ALIASES:
+　/yell, /y
+USAGE:
+　/yell [message]
+
+→Sends a message to all PCs within a large radius. The message will not be displayed if a PC has deselected [Yell] in the chat filter. Typing /yell or /y without a message switches the default chat mode to [Yell].",,,/yell,/y,0,1021,1,0,0,0,0
+118,"ALIASES:
+　/reply, /r
+USAGE:
+　/r [message]
+
+→Sends a message to the last player from whom you received a /tell.",,,/reply,/r,0,1021,1,0,0,0,0
+119,"ALIASES:
+　/alliance, /a
+USAGE:
+　/alliance [message]
+
+→Sends a message to all members of your current alliance, regardless of their location. The message will not be displayed if a PC has deselected [Alliance] in the chat filter. Typing /alliance or /a without a message switches the default chat mode to [Alliance].",,,/alliance,/a,0,1021,1,0,0,0,0
+120,,,,,,0,0,0,0,0,0,0
+121,"USAGE:
+　/join
+
+→Accepts a party invite.",,,/join,,0,4,1,0,0,0,0
+122,"USAGE:
+　/decline
+
+→Declines a party invite.",,,/decline,,0,4,1,0,0,0,0
+123,"USAGE:
+　/invite [placeholder]
+
+→Invites the specified PC to your party. Invites current target when no PC is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of Placeholders can be found on the Lodestone Play Guide.",,,/invite,,0,4,2,0,0,0,0
+124,"USAGE:
+　/kick [placeholder]
+
+→Kicks the specified PC from your party. Kicks current target when no PC is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/kick,,0,4,2,0,0,0,0
+125,"USAGE:
+　/leader [placeholder]
+
+→Promotes the specified PC to party leader. Promotes current target when no PC is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/leader,,0,4,2,0,0,0,0
+126,"USAGE:
+　/leave
+
+→Leave your current party.",,,/leave,,0,4,2,0,0,0,0
+127,,,,,,0,0,0,0,0,0,0
+128,,,,,,0,0,0,0,0,0,0
+129,,,,,,0,0,0,0,0,0,0
+130,,,,,,0,0,0,0,0,0,0
+131,"ALIASES:
+　/check, /c
+USAGE:
+　/check [placeholder]
+
+→Examines the specified PC. Examines current target when no PC is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/check,/c,0,160,2,0,0,0,0
+132,"USAGE:
+　/trade [placeholder]
+
+→Initiates a trade with the specified PC. Initiates a trade with your current target when no PC is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/trade,,0,32,2,0,0,0,0
+133,"USAGE:
+　/automove [subcommand]
+
+→Begin moving in the current direction you are facing.
+
+>>Subcommands:
+　**on **    Initiate automove.
+　**off **    Cancel automove.
+
+Toggle between on and off when no subcommand is specified.",,,/automove,,0,36,2,1,2,0,0
+134,"USAGE:
+　/follow
+
+→Automatically follow a specified PC. Follow current target when no PC is specified.",,,/follow,,0,36,2,0,0,0,0
+135,,,,,,0,0,0,0,0,0,0
+136,"USAGE:
+　/meldrequest [placeholder]
+
+→Sends a materia meld request to the specified PC. Sends request to current target when no PC is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/meldrequest,,0,32,2,0,0,0,0
+137,,,,,,0,0,0,0,0,0,0
+138,,,,,,0,0,0,0,0,0,0
+139,,,,,,0,0,0,0,0,0,0
+140,,,,,,0,0,0,0,0,0,0
+141,"ALIASES:
+　/character, /gear
+USAGE:
+　/character
+
+→Opens and closes the Character interface.",,,/character,/gear,0,32,1,0,0,0,0
+142,"USAGE:
+　/journal
+
+→Opens and closes the quest journal.",,,/journal,,0,32,1,0,0,0,0
+143,"ALIASES:
+　/dutyfinder, /finder
+USAGE:
+　/dutyfinder
+
+→Opens and closes the Duty Finder.",/dutyfinder,/finder,/dutyfinder,/dfinder,0,800,1,0,0,0,0
+144,"ALIASES:
+　/armourychest, /armoury
+USAGE: 
+　/armourychest
+
+→Opens and closes your Armoury Chest.",,,/armourychest,/armoury,0,32,1,0,0,0,0
+145,"ALIASES:
+　/huntinglog, /hlog
+USAGE:
+　/huntinglog
+
+→Opens and closes the hunting log.",,,/huntinglog,/hlog,0,32,1,0,0,0,0
+146,"ALIASES:
+　/craftinglog, /clog
+USAGE:
+　/craftinglog
+
+→Opens and closes the crafting log.",,,/craftinglog,/clog,0,0,1,0,0,0,0
+147,"ALIASES:
+　/gatheringlog, /glog
+USAGE:
+　/gatheringlog
+
+→Opens and closes the gathering log.",,,/gatheringlog,/glog,0,0,1,0,0,0,0
+148,"ALIASES:
+　/fishinglog, /flog
+USAGE:
+　/fishinglog
+
+→Opens and closes the fishing log.",,,/fishinglog,/flog,0,32,1,0,0,0,0
+149,"USAGE:
+　/achievements
+
+→Opens the list of in-game FINAL FANTASY XIV achievements.",,,/achievements,,0,32,1,0,0,0,0
+150,"ALIASES:
+　/partycmd, /pcmd
+USAGE:
+　/partycmd [subcommand]
+
+→Executes various party commands. Can only be used to display the Party menu or add party members when participating in a cross-world party.
+
+>>Subcommands:
+　**join**
+　　Accept a party invite.
+　**decline**
+　　Decline a party invite.
+　**add [placeholder]**
+　　Invite a PC to your party.
+　**leave**
+　　Leave your current party.
+　**kick [placeholder]**
+　　Oust a PC from your party.
+　**breakup **
+　　Dissolve your current party.
+
+Opens and closes the Party menu when no subcommand is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/partycmd,/pcmd,0,32,3,1,2,0,0
+151,"ALIASES:
+　/friendlist, /flist
+USAGE:
+　/friendlist [subcommand]
+
+→Executes various friend list commands.
+
+>>Subcommands:
+  **add [placeholder]**
+　　Send a PC a friend request.
+  **accept [placeholder]**
+　　Accept a friend request from
+　　a PC.
+  **deny [placeholder]**
+　　Deny a friend request from a
+　　PC.
+  **remove [placeholder]**
+　　Remove a PC from your
+　　friend list.
+
+Opens and closes friend list when no subcommand is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/friendlist,/flist,0,128,3,1,2,0,0
+152,"ALIASES:
+　/blacklist, /blist
+USAGE:
+　/blacklist [subcommand]
+
+→Executes various blacklist commands.
+
+>>Subcommands:
+　**add [placeholder]**
+　　Add an account tied to a
+　　designated PC to your
+　　blacklist.
+　**remove [placeholder]**
+　　Remove an account tied
+　　to a designated PC from
+　　your blacklist.
+
+Opens and closes blacklist when no subcommand is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/blacklist,/blist,0,0,3,1,2,0,0
+153,"ALIASES:
+　/search, /sea
+USAGE:
+　/search [condition]
+
+→Executes a player search based on the conditions given. Multiple conditions should be separated with a space. Conducts default search if no conditions are specified.
+
+>>Conditions:
+【PC Name】
+　**forename ""PC name""**
+　　Search for a specific first
+　　name.
+　**surname ""PC name""**
+　　Search for a specific last
+　　name.
+【Online Status】
+　**leader**, **away**, **busy**, **duty**,
+　**event**, **lookingforparty**, **recruit**,
+　**lookingtomeld**, **newadventurer**,
+　**mentor**, **tradementor**,
+　**pvementor**, **pvpmentor**,
+　**roleplay**, **returner**
+【Class & Job】
+　**GLA**, **PGL**, **MRD**, **LNC**, **ARC**,
+　**ROG**, **CNJ**, **THM**, **ACN**, **CRP**,
+　**BSM**, **ARM**, **GSM**, **LTW**, **WVR**,
+　**ALC**, **CUL**, **MIN**, **BTN**, **FSH**,
+　**PLD**, **MNK**, **WAR**, **DRG**, **BRD**,
+　**WHM**, **BLM**, **SMN**, **SCH**, **NIN**,
+　**DRK**, **MCH**, **AST**, **SAM**, **RDM**,
+　**BLU**, **GNB**, **DNC**, **SGE**, **RPR**,
+　**VPR**, **PCT**
+Searches all jobs and classes if none specified.
+【Level】
+　**[number]**
+　　Search for that level only.
+　**[number 1]-[number 2]**
+　　Search for players with
+　　levels between number 1
+　　and number 2.
+Searches all levels if none are specified.
+【Grand Company】
+　**""Maelstrom""**,
+　**""Immortal Flames""**,
+　**""Order of the Twin Adder""**
+【Location】
+　**""Limsa Lominsa""**, **""Gridania""**,
+　**""Ul'dah""**, **""Ishgard""**,
+　**""The Black Shroud""**, **""Thanalan""**,
+　**""La Noscea""**, **""Mor Dhona""**,
+　**""Coerthas""**, **""The Gold Saucer""**,
+　**""The Wolves' Den""**, **""Dravania""**,
+　**""Abalathia's Spine""**, **""Idyllshire""**
+　**""Kugane""**, **""Othard""**,
+　**""Gyr Abania""**, **""Rhalgr's Reach“**,
+　**""Old Sharlayan""**, **""Labyrinthos""**,
+　**""Radz-at-Han""**, **""Thavnair""**,
+　**""Garlemald""**, **""The Crystarium""**,
+　**""Eulmore""**, **""Norvrandt""**,
+　**""Elsewhere""**, **""Tuliyollal""**,
+　**""Yok Tural""**, **""Xak Tural""**,
+　**""Solution Nine""**
+Searches all locations if none are specified.
+【Language】
+　**JA**, **EN**, **FR**, **DE**
+Searches current language if none is specified.
+
+>>Example:
+　/sea GLA 20-30 ""La Noscea""
+　(Searches for all gladiators in
+　La Noscea between levels 20
+　and 30.)",,,/search,/sea,0,0,20,0,0,0,0
+154,"USAGE:
+　/map
+
+→Opens and closes the current area map.",,,/map,,0,104,1,0,0,0,0
+155,"USAGE:
+　/teleport
+
+→Opens the Teleport interface.",,,/teleport,,0,0,1,0,0,0,0
+156,"ALIASES:
+　/enemysign, /marking, /mk
+USAGE:
+　/enemysign [sign type] [placeholder]
+
+→Set a sign on the specified target. Uses current target when not specified.
+
+>>Sign Types:
+　**attack1-8**
+　**bind1-3**
+　**ignore1-2**
+　**circle**
+　**cross**
+　**square**
+　**triangle**
+**　off**/**clear**      Turns off sign.
+
+Opens and closes the Signs menu when no subcommand is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+　/marking attack2 <t>
+　(Assigns ""Target to Attack 2""
+　to target.)",/enemysign,,/marking,/mk,0,32,3,1,2,0,0
+157,"ALIASES:
+　/actionlist, /alist
+USAGE:
+　/actionlist
+
+→Opens and closes the Actions & Traits interface.",,,/actionlist,/alist,0,32,1,0,0,0,0
+158,"USAGE:
+　/timers
+
+→Opens and closes the Timers interface.",,,/timers,,0,32,1,0,0,0,0
+159,"USAGE:
+　/recommended
+
+→Opens and closes the Recommendations list.",,,/recommended,,0,32,1,0,0,0,0
+160,"ALIASES:
+　/inventory, /bag
+USAGE:
+　/inventory
+
+→Opens and closes your inventory.",,,/inventory,/bag,0,32,2,1,0,0,0
+161,"ALIASES:
+　/freecompanycmd, /fccmd
+USAGE:
+　/freecompanycmd
+
+→Opens and closes the free company interface.",,,/freecompanycmd,/fccmd,0,0,3,1,2,0,0
+162,"ALIASES:
+　/linkshellcmd, /lcmd
+USAGE:
+　/linkshellcmd
+
+→Opens and closes the linkshell menu.",,,/linkshellcmd,/lcmd,0,128,4,2,0,2,0
+163,"USAGE:
+　/return
+
+→Return to your current home point.",,,/return,,0,32,1,0,0,0,0
+164,"ALIASES:
+　/emotelist, /elist
+USAGE:
+　/emotelist
+
+→Opens and closes the list of available emotes.",,,/emotelist,/elist,0,33,1,0,0,0,0
+165,"USAGE:
+　/activehelp
+
+→Opens and closes the Active Help interface.",/activehelp,,/activehelp,,0,32,1,0,0,0,0
+166,"ALIASES:
+　/supportdesk, /support
+USAGE:
+　/supportdesk
+
+→Opens and closes the Support Desk interface.",,,/supportdesk,/support,0,32,1,0,0,0,0
+167,"ALIASES:
+　/characterconfig, /cconfig
+USAGE:
+　/characterconfig
+
+→Opens and closes the Character Configuration interface.",,,/characterconfig,/cconfig,0,32,1,0,0,0,0
+168,"ALIASES:
+　/systemconfig, /sconfig
+USAGE:
+　/systemconfig
+
+→Opens and closes the System Configuration interface.",,,/systemconfig,/sconfig,0,32,1,0,0,0,0
+169,"ALIASES:
+　/keybind, /keyconfig
+USAGE:
+　/keybind
+
+→Opens and closes the Keybind interface.",,,/keybind,/keyconfig,0,32,1,0,0,0,0
+170,"USAGE:
+　/macros
+
+→Opens and closes the user macro editor.",,,/macros,,0,32,1,0,0,0,0
+171,"USAGE:
+　/hudlayout [subcommand]
+
+→Opens and closes the HUD layout editor.
+
+>>Subcommands:
+　**""layout number""**
+　Switches to specified layout.
+
+Opens the HUD layout editor if no subcommand is specified.
+
+>>Example:
+　 /hudlayout 3
+　 (Switches to layout 3.)",,,/hudlayout,,0,32,2,0,0,0,0
+172,"USAGE:
+　/logout
+
+→Begins the logout process.",,,/logout,,0,32,1,0,0,0,0
+173,"USAGE:
+　/shutdown
+
+→Log out and close the game.",,,/shutdown,,0,32,1,0,0,0,0
+174,"ALIASES:
+　/partysort, /psort
+USAGE:
+　/partysort [subcommand]
+
+→Change the order of specified party members in the party list.
+
+>>Subcommand:
+　**[party member 1] [party member 2]**
+　Switch the position of party member 1 and party member 2 in the party list.
+
+>>Example:
+　/partysort 2 4
+　Switch the position of party member 2 and party member 4 in the party list.",,,/partysort,/psort,0,36,3,0,0,0,0
+175,"ALIASES:
+　/readycheck, /rcheck
+USAGE:
+　/readycheck
+
+→Initiate ready check.",,,/readycheck,/rcheck,0,32,1,0,0,0,0
+176,"ALIASES:
+　/ready, /rd
+USAGE:
+　/ready
+
+→Indicate that you are ready when a ready check has been initiated.",/ready,/rd,/ready,/rd,0,36,1,0,0,0,0
+177,"ALIASES:
+　/hold, /hd
+USAGE:
+　/hold
+
+→Indicate that you are not ready when a ready check has been initiated.",/hold,/hd,/notready,/nr,0,36,1,0,0,0,0
+178,"ALIASES:
+　/waymark, /wmark
+USAGE:
+　/wmark [subcommand] [placeholder]
+
+→Place a waymark on the ground below a target. If no target is specified, you will enter ground targeting mode ready to place a waymark.
+
+>>Subcommands:
+　**a **
+　　Place or remove waymark A. Overwrites existing waymark if target is specified.
+　**b **
+　　Place or remove waymark B. Overwrites existing waymark if target is specified.
+　**c **
+　　Place or remove waymark C. Overwrites existing waymark if target is specified.
+　**d**
+　　Place or remove waymark D. Overwrites existing waymark if target is specified.
+　**1**
+　　Place or remove waymark 1. Overwrites existing waymark if target is specified.
+　**2**
+　　Place or remove waymark 2. Overwrites existing waymark if target is specified.
+　**3**
+　　Place or remove waymark 3. Overwrites existing waymark if target is specified.
+　**4**
+　　Place or remove waymark 4. Overwrites existing waymark if target is specified.
+　** off**/**clear**
+　　Remove all waymarks.
+　**save 1-30**
+　　Save waymark placements to slots 1-30 of the Waymarks menu.
+　**preset 1-30**
+　　Load waymark placements from slots 1-30 of the Waymarks menu.
+
+You will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Examples:
+　/waymark A
+　(Enters ground targeting
+　mode ready to place
+　waymark A.)
+
+　/waymark A <t>
+　(Places waymark A at the
+　selected target's location.)
+
+　/waymark A gtoff
+　(Places waymark A at the
+　mouse cursor's location.)",/waymark,/wmark,/waymark,/wmark,0,32,3,2,2,2,0
+179,"ALIASES:
+　/fishguide, /fg
+USAGE:
+　/fishguide
+
+→Opens and closes the Fish Guide interface.",,,/fishguide,/fg,0,32,1,0,0,0,0
+180,"ALIASES:
+　/housing, /hou
+USAGE:
+　/housing
+
+→Opens and closes the Housing interface.",,,/housing,/hou,0,32,1,0,0,0,0
+181,"USAGE:
+　/minionguide
+
+→Opens and closes the Minion Guide interface. If the PC is playing Lord of Verminion, the command will open the Battle List.",/minionguide,,/minionguide,,0,48,1,0,0,0,0
+182,"USAGE:
+　/mountguide
+
+→Opens and closes the Mount Guide interface.",/mountguide,,/mountguide,,0,32,1,0,0,0,0
+183,"ALIASES:
+　/partyfinder, /pfinder
+USAGE:
+　/partyfinder
+
+→Opens and closes the Party Finder interface.",,,/partyfinder,/pfinder,0,0,1,0,0,0,0
+184,"ALIASES:
+　/pvpprofile, /pvpp
+USAGE:
+　/pvpprofile
+
+→Opens and closes the PvP Profile interface.",/pvpprofile,/pvpp,/pvpprofile,/pvppro,0,0,1,0,0,0,0
+185,"ALIASES:
+　/companion, /comp
+USAGE:
+　/companion
+
+→Opens and closes the Companion interface.",/companion,/comp,/companion,/comp,0,32,1,0,0,0,0
+186,"ALIASES:
+　/keyitem, /kitem
+USAGE:
+　/keyitem
+
+→Opens and closes the Key Item interface.",/keyitem,/kitem,/keyitem,/kitem,0,32,1,0,0,0,0
+187,"USAGE:
+　/challengelog
+
+→Opens and closes the Challenge Log interface.",,,/challengelog,,0,32,1,0,0,0,0
+188,"USAGE:
+　/sightseeinglog
+
+→Opens and closes the Sightseeing Log interface.",,,/sightseeinglog,,0,32,1,0,0,0,0
+189,"ALIASES:
+　/goldsaucer, /saucer
+USAGE:
+　/goldsaucer
+
+→Opens and closes the Gold Saucer interface.",,,/goldsaucer,/saucer,0,32,1,0,0,0,0
+190,"USAGE:
+　/currency
+
+→Opens and closes the Currency interface.",,,/currency,,0,32,1,0,0,0,0
+191,"ALIASES:
+　/aethercurrent, /acurrent
+USAGE:
+　/aethercurrent
+
+→Opens and closes the Aether Currents interface.",,,/aethercurrent,/acurrent,0,32,1,0,0,0,0
+192,"ALIASES:
+　/logcolor, /lcolor
+USAGE:
+　/logcolor
+
+→Opens and closes the Log Text Color interface.",,,/logcolor,/lcolor,0,32,1,0,0,0,0
+193,"ALIASES:
+　/playguide, /pguide
+USAGE:
+　/playguide
+
+→Opens and closes the Playguide interface.",,,/playguide,/pguide,0,32,1,0,0,0,0
+194,"ALIASES:
+　/generaldutykey, /gdutykey
+USAGE:
+　/generaldutykey
+
+→Activates the General Duty key. When near a FATE, this will level sync the player.",/generaldutykey,/gdutykey,/generaldutykey,/gdutykey,0,40,1,0,0,0,0
+195,"ALIASES:
+　/raidfinder, /rfinder
+USAGE:
+　/raidfinder
+
+→Opens and closes the Raid Finder interface.",,,/raidfinder,/rfinder,0,0,1,0,0,0,0
+196,"USAGE:
+　/orchestrion
+
+→Opens and closes the orchestrion list.",,,/orchestrion,,0,32,1,0,0,0,0
+197,"ALIASES:
+　/countdown, /cd
+USAGE:
+　/cd [subcommand]
+
+→Opens and closes the countdown interface.
+
+>>Subcommands:
+　**[countdown time]**
+　　Initiates a countdown starting
+　　at the specified time. Changes
+　　made via text commands will
+　　not be saved in the
+　　countdown interface. Also,
+　　notifications will not be
+　　displayed in the log window.
+
+Opens the countdown interface when no subcommand is specified.
+
+>>Example:
+　/countdown 10
+　Initiates a countdown starting
+　at ten seconds.",,,/countdown,/cd,0,32,2,1,0,0,0
+198,"USAGE:
+　/contactlist
+
+→Opens and closes the contact list.",,,/contactlist,,0,32,1,0,0,0,0
+199,"USAGE:
+　/mountspeed
+
+→Opens and closes the ground mount speed interface.",,,/mountspeed,,0,32,1,0,0,0,0
+200,,,,,,0,0,0,0,0,0,0
+201,"USAGE:
+　/? [text command]
+
+→Gives a detailed explanation of the specified text command.",,,/?,,0,189,2,1,1,0,0
+202,"USAGE:
+　/wait [wait time]
+
+→A macro command for adjusting the pause between commands. A wait time amount of 1 equals one second. The maximum wait time allowed is 60. If the wait time amount is over 60, it will be counted as 60.",,,/wait,,0,181,2,1,0,0,0
+203,,,,,,0,0,0,0,0,0,0
+204,"ALIASES:
+　/legacymark, /lmark
+USAGE:
+　/legacymark [subcommand]
+
+→Show or hide the Mark of the Twelve─a brand appearing on the back of the neck of all who survived the Calamity.
+
+>>Subcommands:
+　**on **      Show mark.
+　**off **     Hide mark.
+
+Toggle between shown and hidden when no subcommand is specified.",,,/legacymark,/lmark,0,60,2,1,2,0,0
+206,"USAGE:
+　/gcsalute [subcommand]
+
+→Perform the official salute of the Grand Company to which you belong.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gcsalute,,0,293,2,1,2,0,0
+207,"ALIASES:
+　/macroicon, /micon
+USAGE:
+　/micon ""icon name"" [category]
+
+→Displays the specified icon as a hotbar icon. If used twice in a single user macro, only the first instance will be recognized.
+
+>>Categories:
+　**action**
+　　If the icon name is an
+　　action, action recast time
+　　and required MP will
+　　be displayed with the icon.
+　**blueaction**
+　　If the icon name is a blue
+　　mage action, action recast
+　　time and required MP
+　　will be displayed with the
+　　icon.
+　**pvpaction**
+　　If the icon name is a
+　　PvP action, action recast
+　　time and required MP will
+　　be displayed with the icon.
+　**general**
+　　If the icon name is a
+　　general action, action
+　　recast time will be
+　　displayed with the icon.
+　**emote**
+　　If the icon name is an
+　　emote, its icon will be
+　　displayed.
+　**companion**
+　　If the icon name is a
+　　companion action, its icon
+　　will be displayed.
+　**pet**
+　　If the icon name is a
+　　pet action, its icon will
+　　be displayed
+　**minion**
+　　If the icon name is a
+　　minion, its icon will be
+　　displayed.
+　**mount**
+　　If the icon name is a
+　　mount, its icon will be
+　　displayed.
+　**enemysign**
+　　If the icon name is an
+　　enemy sign, its icon will
+　　be displayed.
+　**waymark**
+　　If the icon name is a
+　　waymark, its icon will
+　　be displayed.
+　**gearset**
+　　If the icon name is a
+　　gear set number, its
+　　icon will be displayed.
+　**classjob**
+　　If the icon name is a
+　　class or job, its icon
+　　will be displayed.
+　**quickchat**
+　　If the icon name is a
+　　Quick Chat message,
+　　its icon will be displayed.
+
+Category defaults to action when none is specified.",,,/macroicon,/micon,0,36,3,3,0,2,7
+208,"USAGE:
+　/recast ""action name""
+
+→Displays time remaining until the specified action can be used again.
+",,,/recast,,0,36,2,1,3,0,0
+209,"ALIASES:
+　/gearset, /gs
+USAGE:
+　/gearset [subcommand]
+
+→Execute gear set functions.
+
+>>Subcommands:
+　**change [number 1] [number 2] **
+　　Equip gear in slot [number].
+　　A gear set name can be
+　　specified in place of a slot
+　　number. If glamour plates
+　　are available, a plate
+　　number can also be
+　　specified.
+　**view [number] **
+　　List gear in slot [number].
+　　A gear set name can be
+　　specified in place of a slot
+　　number.
+　**save [number] **
+　　Save current gear to slot
+　　[number]. A gear set name
+　　can be specified in place
+　　of a slot number.
+　**delete [number] **
+　　Delete slot [number]. A
+　　gear set name can be
+　　specified in place of a slot
+　　number.
+
+First letter matching can be used when specifying gear sets by name.
+Gear sets will be searched in order from lowest slot number to highest.
+Gear set list will be displayed when no subcommand is specified.
+
+>>Example:
+　/gearset change 1 1
+　(Equip gear in slot 1 and
+　cast glamour from plate 1.)
+　/gearset change warrior
+　(Equip gear slot whose
+　name begins with warrior.)
+",,,/gearset,/gs,0,32,4,1,2,0,0
+210,"ALIASES:
+　　/itemsort, /isort
+USAGE:
+　　/itemsort [subcommand]
+
+→Sorts your inventory based on the conditions given. This command does not affect the Sort function.
+
+>>Subcommands:
+　**condition [Category]**
+　**[Condition] [Order]**
+　　Sets the items to be sorted
+　　along with sorting order.
+　**execute [Category]**
+　　Sorts the specified items
+　　based on the conditions
+　　given.
+　**clear [Category]**
+　　Clears sort conditions for the
+　　specified item category.
+
+>>Categories:
+　**inventory**, **retainer**, **armoury**,
+　**saddlebag**, **rightsaddlebag**, **mh**,
+　**oh**, **head**, **body**, **hands**,
+　**legs**, **feet**, **neck**, **ears**,
+　**wrists**, **rings**, **soul**
+
+>>Conditions:
+　**id**, **spiritbond**, **category**, **lv**, **ilv**,
+　**stack**, **hq**, **materia**, **pdamage**,
+　**mdamage**, **delay**, **autoattack**,
+　**blockrate**, **blockstrength**,
+　**defense**, **mdefense**,
+　**str**, **dex**, **vit**, **int**, **mnd**,
+　**craftsmanship**, **control**,
+　**gathering**, **perception**, **tab**
+
+>>Order:
+　**asc**, **des**
+
+Defaults to ascending if order is not specified. Retainer and saddlebag inventories must be open when specified as categories. Cannot be used if one of the conditions is ""tab"".
+
+>>Examples:
+　/isort condition mh lv asc
+　(Sets main arms to be sorted
+　by ascending equipping level.)
+
+　/itemsort condition mh ilv des
+　(Sets main arms to be sorted
+　by descending item level.)
+
+　/itemsort execute mh
+　(Sorts main arms based on
+　the above conditions.) ",,,/itemsort,/isort,0,36,4,2,2,2,0
+211,"USAGE:
+　/random [subcommand]
+
+→Displays within a /say radius a random number between 0 and 999.
+
+>>Subcommands:
+　**[upper limit]**
+　　Set an upper limit to display a random number between 1 and the specified number. Displays a random number between 0 and 999 when no upper limit is specified.
+　　Upper limit range: 2-999
+
+>>Examples:
+　/random
+　(Displays a random number
+　within a /say radius.)
+
+　/random 16
+　(Displays a random number
+　between 1 and 16 within a
+　/say radius.)",,,/random,,0,36,2,1,2,0,0
+212,"USAGE:
+　/instance
+
+　　　　→Displays whether or not your character is currently in an instanced area.",,,/instance,,0,60,1,0,0,0,0
+213,"ALIASES:
+　/cleartellhistory, /cth
+USAGE:
+　/cleartellhistory
+
+→Deletes all record of previous /tell messages.",,,/cleartellhistory,/cth,0,60,1,0,0,0,0
+214,"ALIASES:
+　/macrolock, /mlock
+USAGE:
+　/macrolock
+
+→Prevents the execution of any additional macros until all steps following /macrolock have been executed.",,,/macrolock,/mlock,0,36,1,0,0,0,0
+215,"ALIASES:
+　/macroerror, /merror
+USAGE:
+　/macroerror [subcommand]
+
+→Display or hide text command errors within a user macro. Any errors are displayed upon macro execution. Setting resets to **on **after macro is executed.
+
+>>Subcommands:
+　**on **   Displays error message.
+　**off **   Hides error message.
+
+Toggle between on and off when no subcommand is specified.",,,/macroerror,/merror,0,36,2,1,2,0,0
+216,"ALIASES:
+　/clearlog, /cl
+USAGE:
+　/clearlog
+
+→Delete all past messages from your entire chat log.",,,/clearlog,/cl,0,509,1,0,0,0,0
+217,"ALIASES:
+　/macrocancel, /mcancel
+USAGE:
+　/macrocancel
+
+→Cancel the currently executed macro. Cannot be used in a macro.",,,/macrocancel,/mcancel,0,165,0,0,0,0,0
+218,"ALIASES:
+　/playtime, /ptime
+USAGE:
+　/playtime
+
+→Displays your cumulative FINAL FANTASY XIV play time.",,,/playtime,/ptime,0,60,1,0,0,0,0
+219,"ALIASES:
+　/grouppose, /gpose
+USAGE:
+　/gpose
+
+→Pose as a group.
+
+>>Controls
+　Open the Camera Settings interface
+　, R, NUM*, Mouse Wheel
+
+　Toggle group view on camera
+　, spacebar
+
+　Toggle camera lighting
+　, X
+
+　Toggle all character motions
+　, 1 Key
+
+　Toggle target character motions
+　, 2 Key
+
+　Change focus of camera
+　, tab, shift+tab
+
+　Adjust frame composition
+ , W, A, S, D, Q, E
+
+　Reset frame composition
+　, Z",,,/grouppose,/gpose,0,160,1,0,0,0,0
+220,"ALIASES:
+　/itemsearch, /isearch
+USAGE:
+　/isearch [item name]
+
+→Conducts a complete search of your inventory for all items you own, including equipped gear, items held or equipped by retainers, and items stored in your Armoury Chest, saddlebag, armoire, and glamour dresser. Command cannot be used in a macro.
+
+>>Example:
+　/itemsearch ""Potion""
+　(Searches your inventory for
+　items containing the word
+　Potion.)",,,/itemsearch,/isearch,3000,32,2,0,0,0,0
+221,"ALIASES:
+　/idlingcamera, /icam
+USAGE:
+　/icam [placeholder]
+
+→Activate the idling camera. Target does not need to be specified. If a target is specified, the camera will switch between camera angles focusing on that target. If the specified target cannot be focused on, then a random subject will be chosen.
+
+>>Controls
+　Open the Camera Settings interface
+　, R, NUM*, Wheel Button
+
+　Pause/unpause camera
+　, NUM0, left-click
+
+　Skip scene
+　, Tab, Shift+Tab
+
+　Adjust frame composition
+　, W, A, S, D, Q, E
+
+　Reset frame composition
+　, Z
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/idlingcamera,/icam,0,40,2,0,0,0,0
+222,,,,,,0,0,0,0,0,0,0
+223,"USAGE:
+　/duelswitch [subcommand]
+
+→Allow or automatically deny challenges to duel from other players.
+
+>>Subcommands:
+　**on **
+　　Automatically refuse all challenges to duel.
+　**off **
+　　Allow players to challenge you to duel.
+
+Toggles between on and off when no subcommand is specified.",,,/duelswitch,,0,4,2,1,2,0,0
+224,"ALIASES:
+　/novicenetworkinvitation, /nnetworkinvitation
+USAGE:
+　/novicenetworkinvitation [subcommand]
+
+→Allow or automatically deny invitations to the Novice Network.
+
+>>Subcommands:
+　**on **
+　　Allow players to invite you to the Novice Network.
+　**off **
+　　Automatically refuse invitations to the Novice Network.
+
+Toggles between on and off when no subcommand is specified.",/novicenetworkinvitation,/nnetworkinvitation,/beginnerchannelinvitation,/bchannelinvitation,1000,189,2,1,2,0,0
+225,"ALIASES:
+　/novicenetworkleave, /nnetworkleave
+USAGE:
+　/novicenetworkleave
+
+→Leave the Novice Network.",/novicenetworkleave,/nnetworkleave,/beginnerchannelleave,/bchannelleave,1000,189,1,0,0,0,0
+226,"ALIASES:
+　/egiglamour, /egiglam, /petglamour
+USAGE:
+　/egiglamour [summon] [glamour]
+
+→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.
+
+>>Summon Name:
+　**Carbuncle**
+　**Garuda-Egi**
+　**Titan-Egi**
+　**Ifrit-Egi**
+　**Eos**
+
+>>Glamour:
+　**Carbuncle**
+　**Emerald Carbuncle**
+　**Topaz Carbuncle**
+　**Ruby Carbuncle**
+　**Garuda-Egi**
+　**Titan-Egi**
+　**Ifrit-Egi**
+　**Selene**
+
+The glamour will be removed when no glamour is specified.
+Displays pet glamour settings in chat log when no subcommand is specified.
+
+>>Example:
+　/egiglamour ""Garuda-Egi"" ""Ruby Carbuncle""
+　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)
+　/petglamour ""Garuda-Egi""
+　(Returns Garuda-Egi to default appearance.)
+　/petglamour
+　(Displays pet glamour settings.)",/egiglamour,/egiglam,/egiglamour,,0,36,3,2,7,15,0
+227,"USAGE:
+　/title [subcommand]
+
+→Change your currently selected title.
+
+>>Subcommands:
+　**set ""title""**
+　　Change your current title to ""title.""
+　**clear**
+　　Display no title.
+
+A random title will be set when none is specified.
+
+>>Example:
+　/title set ""The Heart of the Party""　(Set title as ""The Heart of the Party."")",,,/title,,1000,36,3,1,2,0,0
+228,"ALLEGED USAGE:
+　/bahamutsize [subcommand]
+
+Though mages well versed in the art of summoning know to use /petsize, ancient texts suggest this command was once used to alter the visage of the dread summon Demi-Bahamut.",,,/bahamutsize,,0,36,2,1,2,0,0
+229,"USAGE:
+　/alarm ""name"" [clock type] [repeat] [time] [reminder] [sound effect] [mute]
+
+→Set an alarm for a specified time using local, server, or Eorzea time.
+
+>>Clock Type:
+　**lt**
+　　Set the alarm using local time.
+　**st**
+　　Set the alarm using server
+　　time.
+　**et**
+　　Set the alarm using Eorzea
+　　time.
+
+>>Repeat:
+　Use ""repeat"" or ""rp"" to set an
+　hourly alarm.
+
+>>Time:
+　Times must be set using the 24-
+　hour clock.
+　Time values: 0000-2400
+　The hour must be omitted
+　when using the repeat
+　subcommand.
+
+>>Reminder:
+　A notification can be given up
+　to 60 minutes prior to the
+　alarm.
+　Time values: 0-60
+
+>>Sound Effect:
+　Play a designated sound effect.
+　Sound effect values: 00-05
+
+>>Mute:
+　Mute sound effects while
+　undertaking duties.
+
+The repeat, reminder, sound effect, and mute subcommands can be omitted.
+The ""clear"" subcommand can be used to delete all alarms.
+Opens the alarm interface when no subcommands are specified.
+
+>>Examples:
+　/alarm Raid lt 2000 10 se04
+　(Sets the ""Raid"" alarm for
+　20:00 local time, with a
+　notification given 10
+　minutes prior.)
+
+　/alarm Party lt rp 30 se05
+　(Sets the ""Party"" alarm as
+　an hourly alarm, 30 minutes
+　past the hour in local time.)",,,/alarm,,0,32,8,3,2,2,2
+230,,,,,,0,0,0,0,0,0,0
+231,"USAGE:
+　/busy [subcommand]
+
+→Set your online status to Busy/Online.
+
+>>Subcommands:
+　**on **    Set your status to Busy.
+　**off **    Set your status to Online.
+
+Toggle between Busy and Online when no subcommand is specified.",,,/busy,,0,36,2,1,2,0,0
+232,"ALIASES:
+　/away, /afk
+USAGE:
+　/away [subcommand]
+
+→Set your online status to Away/Online.
+
+>>Subcommands:
+　**on **     Set your status to Away.
+　**off **     Set your status to Online.
+
+Toggle between Away and Online when no subcommand is specified.",,,/away,/afk,0,36,2,1,2,0,0
+233,"ALIASES:
+　/lookingforparty, /lfp
+USAGE:
+　/lfp [subcommand] [class]
+
+→Set your online status to Looking for Party/Online.
+
+>>Subcommands:
+　**on **
+　　Set your status to Looking for
+　　Party.
+　**off **
+　　Set your status to Online.
+
+Toggle between Looking for Party and Online when no subcommand is specified.
+
+>>Classes/Jobs:
+　**PLD**, **GLA**, **WAR**, **MRD**, **DRK**,
+ **GNB**,　**WHM**, **CNJ**, **SCH**, **AST**,
+ **SGE**, **MNK**,　**PGL**, **DRG**, **LNC**,
+ **NIN**, **ROG**, **SAM**,　**RPR**, **VPR**,
+ **BRD**, **ARC**, **MCH**, **DNC**,　**BLM**,
+ **THM**, **SMN**, **ACN**, **RDM**, **PCT**,
+　**BLU**, **CRP**, **BSM**, **ARM**, **GSM**,
+ **LTW**,　**WVR**, **ALC**, **CUL**, **MIN**,
+ **BTN**, **FSH**
+
+Multiple classes/jobs─or none at all─may be specified.",,,/lookingforparty,/lfp,0,36,1,0,0,0,0
+234,"ALIASES:
+　/lookingtomeld, /ltm
+USAGE:
+　/lookingtomeld [subcommand]
+
+→Set your online status to Looking to Meld Materia/Online.
+
+>>Subcommands:
+　**on **
+　　Set your status to Looking to
+　　Meld Materia.
+　**off **
+　　Set your status to Online.
+
+Toggle between Looking to Meld Materia and Online when no subcommand is specified.",/lookingtomeld,/ltm,/lookingformeld,/lfm,0,36,2,1,2,0,0
+235,"ALIASES:
+　/searchcomment, /scomment
+USAGE:
+　/searchcomment [comment]
+
+→Change your search comment.",,,/searchcomment,/scomment,0,36,1,0,0,0,0
+236,"ALIASES:
+　/nastatus, /nas
+USAGE:
+　/nastatus [subcommand]
+
+→Toggle the New Adventurer status on/off. 
+
+>>Subcommands:
+　**on **
+　　Turns on New Adventurer status.
+　**off **
+　　Turns off New Adventurer status.
+
+Toggle the New Adventurer status on/off if no subcommand is specified.",/nastatus,/nas,/beginnerstatus,/bstatus,1000,36,2,1,2,0,0
+237,"ALIASES:
+　/novicenetwork, /nnetwork
+USAGE:
+　/nnetwork [subcommand]
+
+→Toggle auto-join settings for the Novice Network on and off.
+
+>>Subcommands:
+　**on ** 
+　　Turn on auto-join and  connect to the Novice Network.
+　**off ** 
+　　Turn off auto-join and leave the Novice Network.
+
+Toggle auto-join on and off if no subcommand is specified.",/novicenetwork,/nnetwork,/beginnerchannel,/bchannel,1000,36,2,1,2,0,0
+238,"USAGE:
+　/returnerstatusoff
+
+→Remove the Returner status.",/returnerstatusoff,,/returnerstatusoff,,1000,36,1,0,0,0,0
+239,"USAGE:
+　/roleplaying [subcommand]
+
+→Set your online status to Role-playing.
+
+>>Subcommands:
+　**on **    Set your status to Role-playing.
+　**off **    Set your status to Online.
+
+Toggle between Role-playing and Online when no subcommand is specified.",,,/roleplaying,,0,36,2,1,2,0,0
+240,,,,,,0,0,0,0,0,0,0
+241,,,,,,0,0,0,0,0,0,0
+242,,,,,,0,0,0,0,0,0,0
+243,,,,,,0,0,0,0,0,0,0
+244,,,,,,0,0,0,0,0,0,0
+245,,,,,,0,0,0,0,0,0,0
+246,,,,,,0,0,0,0,0,0,0
+247,,,,,,0,0,0,0,0,0,0
+248,,,,,,0,0,0,0,0,0,0
+249,,,,,,0,0,0,0,0,0,0
+250,,,,,,0,0,0,0,0,0,0
+251,"ALIASES:
+　/action, /ac
+USAGE:
+　/action ""action name"" [placeholder]
+
+→Uses an action on the specified PC. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Examples:
+　/action ""Heavy Swing"" <t>
+　(Executes Heavy Swing
+　on current target.)
+
+　/action ""Cure"" <2>
+　(Executes Cure on second
+　player in party list.)
+　/action ""Earthly Star"" gtoff
+　(Executes Earthly Star at
+　mouse cursor's location.)",,,/action,/ac,0,36,3,2,3,2,0
+252,"ALIASES:
+　/battlemode, /bm
+USAGE:
+　/battlemode [subcommand]
+
+→Toggle between active and passive mode.
+
+>>Subcommands:
+　**on **    Switch to active mode.
+　**off **    Switch to passive mode.
+
+Toggle between active and passive mode when no subcommand is specified.",,,/battlemode,/bm,0,36,2,1,2,0,0
+253,"ALIASES:
+　/target, /ta
+USAGE:
+　/target [placeholder]
+
+→Targets the specified PC. Target must be within a certain radius for this command to function.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+　/target <2>
+　(Targets second player
+　in player list.)",,,/target,/ta,0,36,2,0,0,0,0
+254,"ALIASES:
+　/targetpc, /tpc
+USAGE:
+　/targetpc
+
+→Targets the closest PC within a certain radius.",,,/targetpc,/tpc,0,36,1,0,0,0,0
+255,"ALIASES:
+　/targetnpc, /tnpc
+USAGE:
+　/targetnpc
+
+→Targets the closest NPC or object within a certain radius.",,,/targetnpc,/tnpc,0,36,1,0,0,0,0
+256,"ALIASES:
+　/targetenemy, /tenemy
+USAGE:
+　/targetenemy
+
+→Targets the closest enemy within a certain radius.",,,/targetenemy,/tenemy,0,36,1,0,0,0,0
+257,"ALIASES:
+　/battletarget, /bt
+USAGE:
+　/battletarget
+
+→Targets the closest enemy within a certain radius that is attacking you.",,,/battletarget,/bt,0,36,1,0,0,0,0
+258,"ALIASES:
+　/assist, /as
+USAGE:
+　/assist [placeholder]
+
+→Targets the target of another PC. Assists current target when none is specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.",,,/assist,/as,0,36,2,0,0,0,0
+259,"ALIASES:
+　/facetarget, /ft
+USAGE:
+　/facetarget
+
+→Immediately turns your PC in the direction of your current target.",,,/facetarget,/ft,0,36,1,0,0,0,0
+260,"ALIASES:
+　/nexttarget, /nt
+USAGE:
+　/nexttarget
+
+→Toggle clockwise through on-screen enemies.",,,/nexttarget,/nt,0,36,1,0,0,0,0
+261,"USAGE:
+　/previoustarget
+
+→Toggle counterclockwise through on-screen enemies.",,,/previoustarget,,0,36,1,0,0,0,0
+262,"ALIASES:
+　/targetlasttarget, /tlt
+USAGE:
+　/targetlasttarget
+
+→Re-target your last target.",,,/targetlasttarget,/tlt,0,36,1,0,0,0,0
+263,"ALIASES:
+　/targetlastenemy, /tle
+USAGE:
+　/targetlastenemy
+
+→Re-target the last enemy you targeted.",,,/targetlastenemy,/tle,0,36,1,0,0,0,0
+264,"ALIASES:
+　/lockon, /lo
+USAGE:
+　/lockon [subcommand]
+
+→Lock on/off current target.
+
+>>Subcommands:
+　**on **     Enable lock-on.
+　**off **    Disable lock-on.
+
+Toggle between on/off when no subcommand is specified.",,,/lockon,/lo,0,36,2,1,2,0,0
+265,"USAGE:
+　/focustarget [placeholder]
+
+→Makes the specified target your focus target. Makes current target your focus target when none specified.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+　/focustarget <t>
+　(Makes current target
+　your focus target.)",,,/focustarget,,0,36,2,0,0,0,0
+266,,,,,,0,0,0,0,0,0,0
+267,"ALIASES:
+　/petaction, /pac
+USAGE:
+　/pac ""pet action name"" [placeholder]
+
+→Uses a pet action on the specified target. Uses current target when not specified. Target does not need to be specified for certain pet actions. This cannot be used with pet actions you have not yet learned, or when restricted by other factors.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+ 　/pac ""Crimson Cyclone"" <t>
+　(Executes Crimson Cyclone
+　on current target.)",,,/petaction,/pac,0,36,3,2,5,2,0
+268,"ALIASES:
+　/companionaction, /cac
+USAGE:
+　/cac ""companion action name""
+
+→Uses a companion action. The target of companion actions cannot be specified. This cannot be used with companion actions you have not yet learned, or when restricted by other factors.
+
+>>Example:
+　/cac ""free stance""
+　(Companion will enter
+　free stance.)",/companionaction,/cac,/companionaction,/cac,0,36,2,1,6,0,0
+269,"ALIASES:
+　/facecamera, /fcam
+USAGE:
+　/facecamera
+
+→Gaze continuously at the camera. Execute command again to cancel.",,,/facecamera,/fcam,0,36,1,0,0,0,0
+270,"ALIASES:
+　/levelsync, /lsync
+USAGE:
+　/levelsync [subcommand]
+
+→Sync your level when the option is available, such as during FATEs.
+
+>>Subcommands:
+　**on **     Start level sync.
+　**off **    End level sync.
+
+Toggle between on and off when no subcommand is specified.",,,/levelsync,/lsync,0,36,2,1,2,0,0
+271,"USAGE:
+　/mount ""mount name""
+
+→Summon or dismiss the specified mount. Mount name is not necessary when dismissing.
+
+>>Example:
+　/mount ""Company Chocobo""
+　(Summons or dismisses your
+　company chocobo.)",,,/mount,,0,36,2,1,9,0,0
+272,"ALIASES:
+　/additionalaction, /aaction
+USAGE:
+　/aaction ""action name"" [subcommand]
+
+A command previously believed to set the specified action as an additional action for your current gatherer class.
+※This text command is no longer in use.",,,/additionalaction,/aaction,1000,36,3,2,3,2,0
+273,"ALIASES:
+　/generalaction, /gaction
+USAGE:
+　/gaction ""action name"" [placeholder]
+
+→Uses the specified general action on the specified target. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Examples:
+　/gaction ""Mount Roulette""
+　(Executes the Mount Roulette.)
+
+　/gaction “Duty Action I” <t>
+　(Executes a duty-specific action
+　on the specified target.)",,,/generalaction,/gaction,0,36,3,2,10,2,0
+274,"USAGE:
+　/minion ""minion name""
+
+→Summon or dismiss the specified minion. Minion name is not necessary when dismissing.
+
+>>Example:
+　/minion ""wayward hatchling""
+　(Summons or dismisses the
+　wayward hatchling minion.)",,,/minion,,0,36,2,1,8,0,0
+275,"USAGE:
+　/statusoff ""status""
+
+→Removes designated beneficial status.
+
+>>Example:
+　/statusoff ""Rampart""
+　(Removes Rampart.)",,,/statusoff,,0,36,2,0,0,0,0
+276,"ALIASES:
+　/addpvpaction, /apa
+A command previously believed to set specified actions as additional PvP actions.
+※This text command is no longer in use.",,,/addpvpaction,/apa,1000,36,3,0,0,0,0
+277,"ALIASES:
+　/pvpaction, /pvpac
+USAGE:
+　/pvpaction ""action name"" [placeholder]
+
+→Uses the specified PvP action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with PvP actions you have not yet learned or when restricted by other factors. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+　/pvpaction ""Storm's Path"" <t>
+　(Executes Storm's Path
+　on current target.)",,,/pvpaction,/pvpac,0,4,3,2,16,2,0
+278,,,,,,0,0,0,0,0,0,0
+279,"USAGE:
+　/blueaction “blue mage action” [placeholder]
+
+→Uses the specified blue magic action on the specified target. Uses current target when not specified. Target does not need to be specified for certain actions. This cannot be used with actions you have not yet learned, or when restricted by other factors. If action uses ground targeting, then the action will be executed according to the specified placeholder. If no placeholder is specified, then you will enter ground targeting mode.
+
+>>Common Placeholders:
+　<t>, <target>, <1>-<8>, gtoff
+
+A full list of placeholders can be found on the Lodestone Play Guide.
+
+>>Example:
+　/blueaction “Water Cannon” <t>
+　(Executes Water Cannon on
+　the specified target.)",,,/blueaction,,0,36,3,2,18,2,0
+280,,,,,,0,0,0,0,0,0,0
+281,,,,,,0,0,0,0,0,0,0
+282,,,,,,0,0,0,0,0,0,0
+283,,,,,,0,0,0,0,0,0,0
+284,,,,,,0,0,0,0,0,0,0
+285,,,,,,0,0,0,0,0,0,0
+286,,,,,,0,0,0,0,0,0,0
+287,,,,,,0,0,0,0,0,0,0
+288,,,,,,0,0,0,0,0,0,0
+289,,,,,,0,0,0,0,0,0,0
+290,,,,,,0,0,0,0,0,0,0
+291,,,,,,0,0,0,0,0,0,0
+292,,,,,,0,0,0,0,0,0,0
+293,,,,,,0,0,0,0,0,0,0
+294,,,,,,0,0,0,0,0,0,0
+295,,,,,,0,0,0,0,0,0,0
+296,,,,,,0,0,0,0,0,0,0
+297,,,,,,0,0,0,0,0,0,0
+298,,,,,,0,0,0,0,0,0,0
+299,,,,,,0,0,0,0,0,0,0
+300,,,,,,0,0,0,0,0,0,0
+301,"USAGE:
+　/autolockon [subcommand]
+
+→Automatically lock on target when initiating auto-attack.
+
+>>Subcommands:
+　**on **   Enable auto-lock on.
+　**off **   Disable auto-lock on.
+
+Toggle between on/off when no subcommand is specified.",,,/autolockon,,0,36,2,1,2,0,0
+302,"USAGE: 
+　/autofacetarget [subcommand]
+
+→Automatically face target when using action.
+
+>>Subcommands:
+　**on **       Enable auto-face.
+　**off **       Disable auto-face.
+
+Toggle between on/off when no subcommand is specified.",,,/autofacetarget,,0,36,2,1,2,0,0
+303,"USAGE:
+　/targetring [subcommand]
+
+→Hide/display target ring.
+
+>>Subcommands:
+　**on **      Display target ring.
+　**off **      Hide target ring.
+
+Toggle between on/off when no subcommand is specified.",,,/targetring,,0,36,2,1,2,0,0
+304,"USAGE:
+　/targetline [subcommand]
+
+→Hide/display target lines.
+
+>>Subcommands:
+　**on **      Display target lines.
+　**off **      Hide target lines.
+
+Toggle between on/off when no subcommand is specified.",,,/targetline,,0,36,2,1,2,0,0
+305,"USAGE:
+　/aggroline [subcommand]
+
+→Hide/display aggro lines.
+
+>>Subcommands:
+　**on **      Display aggro lines.
+　**off **      Hide aggro lines.
+
+Toggle between on/off when no subcommand is specified.",/aggroline,,/linkline,,0,36,2,1,2,0,0
+306,"USAGE:
+　/autotarget [subcommand]
+
+→Enable full auto-target.
+
+>>Subcommands:
+　**on **      Enable auto-target.
+　**off **      Disable auto-target.
+
+Toggle between on/off when no subcommand is specified.",,,/autotarget,,0,36,2,1,2,0,0
+307,"USAGE:
+　/displayhead [subcommand]
+
+→Hide/display headgear.
+
+>>Subcommands:
+　**on **      Display headgear.
+　**off **      Hide headgear.
+
+Toggle between on/off when no subcommand is specified.",,,/displayhead,,0,36,2,1,2,0,0
+308,"USAGE:
+　/displayarms [subcommand]
+
+→Hide/display main and off hand weapons when sheathed.
+
+>>Subcommands:
+　**on **      Display arms.
+　**off **      Hide arms.
+
+Toggle between on/off when no subcommand is specified.",,,/displayarms,,0,36,2,1,2,0,0
+309,"ALIASES:
+　/autosheathe, /asheathe
+USAGE:
+　/autosheathe [subcommand]
+
+→Auto-sheathe weapon when not in battle.
+
+>>Subcommands:
+　**on **      Enable auto-sheathe.
+　**off **      Disable auto-sheathe.
+
+Toggle between on/off when no subcommand is specified.",,,/autosheathe,/ashathe,0,36,2,1,2,0,0
+310,"USAGE:
+　/targetself [subcommand]
+
+→Enable/disable clicking on self.
+
+>>Subcommands:
+　**on **      Enable clicking on self.
+　**off **      Disable clicking on self.
+
+Toggle between on/off when no subcommand is specified.",,,/targetself,,0,36,2,1,2,0,0
+311,"USAGE:
+　/groundclick [subcommand]
+
+→Enable clicking on field to remove target.
+
+>>Subcommands:
+　**on **      Enable ground clicking.
+　**off **      Disable ground clicking.
+
+Toggle between on/off when no subcommand is specified.",,,/groundclick,,0,36,2,1,2,0,0
+312,"USAGE:
+　/chatlog [subcommand]
+
+→Configure log window settings.
+
+>>Subcommands:
+　**name [number 0-3]**
+　　Change the way names are
+　　displayed in your log window.
+　　　**0** Full Name
+　　　**1** Last Name Initialed
+　　　**2** First Name Initialed
+　　　**3** Initials Only
+　**fontsize [tab number] [number]**
+　　Adjust [tab number] log
+　　window font size to
+　　[number].
+　**time [tab number] on**
+　　Add time stamps to all
+　　messages on [tab number]
+　　log window.
+　**time [tab number] off**
+　　Remove time stamps from all
+　　messages on [tab number]
+　　log window.
+　**time [tab number]**
+　　Toggle time stamps on/off
+　　for all messages on
+　　[tab number] log window.
+　**time 12 **
+　　Set time display to 12-hour
+　　format.
+　**time 24 **
+　　Set time display to 24-hour
+　　format.
+　**time local **
+　　Set time stamp clock to local
+　　time.
+　**time server **
+　　Set time stamp clock to server
+　　time.
+　**call on **
+　　Play sound upon receiving
+　　/tell.
+　**call off **
+　　Play no sound upon receiving
+　　/tell.
+　**call [chat channel]**
+　　Toggle /tell sound on/off for
+　　the specified chat channel.
+　　　**emote** Emote
+　　　**t** Tell
+　　　**p** Party
+　　　**fc** Free Company
+　　　**al** Alliance
+　　　**l1-8** Linkshell 1-8
+　　　**new** Novice Network
+　　　**pvpteam** PvP Team
+　　　**cwl** Cross-world Linkshell",,,/chatlog,,0,36,4,3,2,2,2
+313,"ALIASES:
+　/battleeffect, /bfx
+USAGE:
+　/bfx [subcommand] [setting]
+
+→Configure battle effects settings.
+
+>>Subcommands:
+　**self **
+　　Configure own battle effects
+　　settings.
+　**party **
+　　Configure party members'
+　　battle effects settings.
+　**other **
+　　Configure other NPCs' battle
+　　effects settings.
+　**enemypc **
+　　Configure PvP combatants'
+　　battle effects settings.
+
+>>Settings:
+　**all **           Show all effects.
+　**simple **   Show limited effects.
+　**off **          Hide all effects.
+
+Toggles between all and off when no setting is specified.",/battleeffect,/bfx,/battleeffect,,0,228,3,2,2,2,0
+314,"USAGE:
+　/hud [UI element] [subcommand]
+
+→Toggle on/off various UI elements.
+
+>>UI Elements:
+　Target Bar
+　　**TargetBar**, **tbar**
+　Target Info (HP)
+　　**TInfoHP**, **tihp**
+　Target Info (Progress)
+　　**TInfoProgress**, **tiprog**
+　Target Info (Status)
+　　**TInfoStatus**, **tistat**
+　Focus Target Bar
+　　**FocusTarget**, **ftarget**
+　Party List
+　　**PartyList**, **plist**
+　Job Gauge 1
+　　**JobGauge1**
+　Job Gauge 2
+　　**JobGauge2**
+　Enmity List
+　　**EnmityList**, **elist**
+　Parameter Bar
+　　**ParamBar**, **param**
+　Minimap
+　　**Minimap**, **mmap**
+　Main Menu
+　　**MainMenu**, **mmenu**
+　Server Info
+　　**ServerInfo**, **server**
+　Gil
+　　**Gil**, **gil**
+　Inventory Grid
+　　**InventoryGrid**, **igrid**
+　Duty List
+　　**DutyList**, **dlist**
+　Item Help
+　　**ItemHelp**, **ihelp**
+　Action Help
+　　**ActionHelp**, **ahelp**
+　Limit Gauge
+　　**LimitGauge**, **lgauge**
+　Experience Bar
+　　**ExpBar**, **ebar**
+　Status Effects
+　　**StatusEffects**, **sfx**
+　Status Info (Enhancements)
+　　**SInfoEnhancements**, **sienh**
+　Status Info (Conditional
+　Enhancements)
+　　**SInfoConditional**
+　　**Enhancements**, **sicenh**
+　Status Info (Enfeeblements)
+　　**SInfoEnfeeblements**, **sienf**
+　Status Info (Other)
+　　**SInfoOther**, **siother**
+　Alliance List 1
+　　**AllianceList1**, **alist1**
+　Alliance List 2
+　　**AllianceList2**, **alist2**
+　　Cross Hotbar
+　　**Crosshotbar**
+　Scenario Guide
+　　**ScenarioGuide**
+　Compressed Aether
+　　**CompressedAether**
+　Cosmic Exploration Info
+　　**CosmicExplorationInfo**, **csmex**
+　PvP Battle Log
+　　**PvPLog**, **cclog**
+　Crystalline Conflict Progress
+　Gauge
+　　**CConflictProgress**, **ccprog**
+　Crystalline Conflict Ally Info
+　　**CConflictAlly**, **ccally**
+　Crystalline Conflict Enemy Info
+　　**CConflictEnemy**, **ccenemy**
+　Crystalline Conflict Map
+　　**CConflictMap**, **ccmap**
+　Battle High Gauge
+　　**BattleHighGauge**
+　Frontline Score Info
+　　**FrontlineScore**, **flscore**
+　Frontline Campaign Info
+　　**FrontlineCampaignInfo**, **flcamp**
+　Rival Wings Gauges
+　　**RWGauge**, **rwg**
+　Rival Wings Alliance List
+　　**RWAlliance**, **rwa**
+　Rival Wings Station Info
+　　**RWStation**, **rwst**
+　Rival Wings Mercenary Info
+　　**RWMerc**, **rwmrc**
+　Blunderville Objective
+　　**Blunder:Objective**
+　Blunderville Score
+　　**Blunder:Score**
+　Blunderville Status
+　　**Blunder:Status**
+　Blunderville Show Log
+　　**Blunder:ShowLog**
+
+>>Subcommands:
+　**on **        Show element.
+　**off **        Hide element.
+
+Toggle between on/off when no subcommand is specified.",,,/hud,,0,32,3,2,4,2,0
+315,"USAGE:
+　/hotbar [subcommand]
+
+→Edit and configure hotbar settings. Only available in PvE areas.
+
+>>Subcommands
+　**action ""action name"" [#1] [#2]**
+　　Set the specified action to slot [#2] in hotbar page [#1]. If ""current"" is entered for [#1], then the action will be set in the page displayed in hotbar 1. If [#2] is omitted, the action will be set to the lowest-numbered slot available. If both [#1] and [#2] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered hotbar available. This applies to all of the following subcommands.
+　**blueaction ""blue mage action name"" [#1] [#2]**
+　　Set the specified blue mage action to slot [#2] in hotbar [#1].
+ 　**general ""general action name"" [#1] [#2]**
+　　Set the specified general action to slot [#2] in hotbar [#1].
+　**item ""item name"" [#1] [#2]**
+　　Set the specified item to slot [#2] in hotbar [#1].
+　**emote ""emote name"" [#1] [#2]**
+　　Set the specified emote to slot [#2] in hotbar [#1].
+　**companion ""companion action name"" [#1] [#2]**
+　　Set the specified companion action to slot [#2] in hotbar [#1].
+　**pet ""action name"" [#1] [#2]**
+　　Set the specified pet action to slot [#2] in hotbar [#1].
+　**minion ""minion name"" [#1] [#2]**
+　　Set the specified minion to slot [#2] in hotbar [#1].
+　**mount ""mount name"" [#1] [#2]**
+　　Set the specified mount to slot [#2] in hotbar [#1].
+　**enemysign ""enemy sign name"" [#1] [#2]**
+　　Set the specified enemy sign to slot [#2] in hotbar [#1].
+　**waymark ""waymark name"" [#1] [#2]**
+　　Set the specified waymark to slot [#2] in hotbar [#1].
+　**change [number]**
+　　Replace current hotbar with hotbar [number].  If ""next"" or ""prev"" is entered in [number], then you can scroll through the pages of hotbar 1.
+　**copy [class 1] [#1] [class 2] [#2]**
+　　Copy the contents of [class 1] hotbar [#1] to the [class 2] hotbar [#2].
+　　The subcommand ""current"" can be used to specify your current class.
+　　The subcommand ""share"" can be used instead of a class to specify your shared hotbar.
+　**display [number] on**
+　　Display hotbar [number].
+　**display [number] off**
+　　Hide hotbar [number].
+　**display [number]**
+　　Toggle on/off hotbar [number].
+　**share [number] on**
+　　Make hotbar [number] shared.
+　**share [number] off**
+　　Unshare hotbar [number] and assign it to your current class/job.
+　**share [number]**
+　　Toggle between on/off.
+　**remove [#1] [#2]**
+　　Remove the action assigned to slot [#2] on hotbar [#1].
+　　Replace [#2] with ""all"" to remove all actions from hotbar [#1].
+
+>>Examples:
+　/hotbar action ""Mount
+　Roulette"" 1 1
+　(Places Mount Roulette in
+　slot [#1] on hotbar [#1].)
+
+　/hotbar change 2
+　(Replaces hotbar [#1] with
+　hotbar [#2].)",,,/hotbar,,0,36,6,3,2,3,7
+316,"ALIASES:
+　/crosshotbar, /chotbar
+USAGE:
+　/crosshotbar [subcommand]
+
+→Edit and configure cross hotbar settings. Only available in PvE areas.
+
+>>Subcommands
+　**set ""action name"" [number] [slot name]**
+　　Set the specified action to [slot name] in cross hotbar [number]. If ""current"" is entered for [number], the action will be set in the currently displayed hotbar. If [slot name] is omitted, the action will be set to the lowest-numbered slot available. If both [number] and [slot name] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered cross hotbar available. This applies to all of the following subcommands.
+　**blueaction ""blue mage action name"" [number] [slot name]**
+　　Set the specified blue mage action to [slot name] in cross hotbar [number].
+　**general ""general action name"" [number] [slot name]**
+　　Set the specified general action to [slot name] in cross hotbar [number].
+　**item ""item name"" [number] [slot name]**
+　　Set the specified item to [slot name] in cross hotbar [number].
+　**emote ""emote name"" [number] [slot name]**
+　　Set the specified emote to [slot name] in cross hotbar [number].
+　**companion ""companion action name"" [number] [slot name]**
+　　Set the specified companion action to [slot name] in cross hotbar [number].
+　**pet ""action name"" [number] [slot name]**
+　　Set the specified pet action to [slot name] in cross hotbar [number].
+　**minion ""minion name"" [number] [slot name]**
+　　Set the specified minion to [slot name] in cross hotbar [number].
+　**mount ""mount name"" [number] [slot name]**
+　　Set the specified mount to [slot name] in cross hotbar [number].
+　**enemysign ""enemy sign name"" [number] [slot name]**
+　　Set the specified enemy sign to [slot name] in cross hotbar [number].
+　**waymark ""waymark name"" [number] [slot name]**
+　　Set the specified waymark to [slot name] in cross hotbar [number].
+　**change [number]**
+　　Replace current cross hotbar with cross hotbar [number]. Enter ""prev"" or ""next"" for [number] to scroll through the cross hotbars.
+　**copy [class 1] [number 1] [class 2] [number 2]**
+　　Copy the contents of [class 1] cross hotbar [number 1] to the [class 2] cross hotbar [number 2].
+　　The subcommand ""current"" can be used to specify your current class.
+　　The subcommand ""share"" can be used instead of a class to specify your shared hotbar.
+　**share [number] on**
+　　Make cross hotbar [number] shared.
+　**share [number] off**
+　　Unshare cross hotbar [number] and assign it to your current class/job.
+　**share [number]**
+　　Toggle between on/off.
+　**remove [number] [slot name]**
+　　Remove the action assigned to [slot name] on cross hotbar [number]. Replace [slot name] with ""all"" to remove all actions from cross hotbar [number].
+
+>>Slot Names:
+　＋  **LDL (LD1) **
+　＋  **RDL (RD1)**
+　＋  **LDU (LD2) **
+　＋  **RDU (RD2)**
+　＋  **LDR (LD3) **
+　＋  **RDR (RD3)**
+　＋  **LDD (LD4) **
+　＋  **RDD (RD4)**
+　＋  **LAL (LA1) **
+　＋  **RAL (RA1)**
+　＋  **LAU (LA2) **
+　＋  **RAU (RA2)**
+　＋  **LAR (LA3) **
+　＋  **RAR (RA3)**
+　＋  **LAD (LA4) **
+　＋  **RAD (RA4)**",,/chotbar,/crosshotbar,/chotbar,0,36,6,3,2,3,7
+317,"USAGE:
+　/hudreset
+
+→Reverts the current HUD layout, size, and transparency to the default settings.",,,/hudreset,,0,32,1,0,0,0,0
+318,"USAGE:
+　/uireset
+
+→Reverts all HUD layouts to the default setting, and returns all windows to their default positions, sizes, and transparencies.",,,/uireset,,0,32,1,0,0,0,0
+319,"USAGE:
+　/uiscale [subcommand]
+
+→Resize current HUD elements and windows.
+
+>>Subcommands:
+　**[number] **      Resize all HUD elements and windows to the percentage equivalent to the number specified. Percentages available: 60, 80, 90, 100, 110, 120, 140.
+　**reset **      Reset all HUD elements to default size.
+
+>>Examples:
+　/uiscale 140
+　(All HUD elements become
+　40 percent larger than their
+　default size.)
+　/uiscale reset
+　(Restores all HUD elements
+　to their default size.)",,,/uiscale,,0,32,2,1,0,0,0
+320,"ALIASES:
+　/actionerror, /aerror
+USAGE:
+　/actionerror [subcommand]
+
+→Display error messages when actions fail.
+
+>>Subcommands:
+　**on **      Enable messages.
+　**off **      Disable messages.
+
+Toggle between on/off when no subcommand is specified.",,,/actionerror,/aerror,0,36,2,1,2,0,0
+321,"ALIASES:
+　/recasterror, /rerror
+USAGE:
+　/recasterror [subcommand]
+
+→Display recast timer error messages.
+
+>>Subcommands:
+　**on **      Enable messages.
+　**off **      Disable messages.
+
+Toggle between on/off when no subcommand is specified.",,,/recasterror,/rerror,0,36,2,1,2,0,0
+322,"USAGE:
+　/eventReset
+
+→Resets all in-game settings to default to prepare for a ""real event.""",,,//eventReset,,0,32,1,0,0,0,0
+323,"ALIASES:
+　/crosshotbartype, /chotbartype
+USAGE:
+　/chotbartype [subcommand]
+
+→Changes the cross hotbar control type.
+
+>>Subcommands:
+　**hold **      Enable Hold type.
+　**toggle **      Enable Toggle type.
+　**mix **      Enable Mixed type.
+",,,/crosshotbartype,/chotbartype,0,36,2,1,2,0,0
+324,"ALIASES:
+　/crosshotbardisplay, /chotbardisplay
+USAGE:
+　/chotbardisplay [subcommand]
+
+→Toggle on/off the display of the cross hotbar.
+
+>>Subcommands:
+　**on **　　Display cross hotbar.
+　**off **　　Hide cross hotbar.
+
+Toggle between on and off when no subcommand is specified.",,,/crosshotbardisplay,/chotbardisplay,0,36,2,1,2,0,0
+325,"USAGE:
+　/pvphotbar [subcommand]
+
+→Edit and configure hotbar settings. This command can only be used with the PvP hotbar.
+
+>>Subcommands
+　**action ""action name"" [#1] [#2]**
+　　Set the specified PvP action to slot [#2] in hotbar page [#1]. If ""current"" is entered for [#1], then the action will be set in the page displayed in hotbar 1. If [#2] is omitted, the action will be set to the lowest-numbered slot available. If both [#1] and [#2] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered hotbar available. This applies to all of the following subcommands.
+　**general ""general action name"" [#1] [#2]**
+　　Set the specified general action to slot [#2] in hotbar [#1].
+　**item ""item name"" [#1] [#2]**
+　　Set the specified item to slot [#2] in hotbar [#1].
+　**emote ""emote name"" [#1] [#2]**
+　　Set the specified emote to slot [#2] in hotbar [#1].
+　**companion ""companion action name"" [#1] [#2]**
+　　Set the specified companion action to slot [#2] in hotbar [#1].
+　**pet ""action name"" [#1] [#2]**
+　　Set the specified pet action to slot [#2] in hotbar [#1].
+　**minion ""minion name"" [#1] [#2]**
+　　Set the specified minion to slot [#2] in hotbar [#1].
+　**mount ""mount name"" [#1] [#2]**
+　　Set the specified mount to slot [#2] in hotbar [#1].
+　**enemysign ""enemy sign name"" [#1] [#2]**
+　　Set the specified enemy sign to slot [#2] in hotbar [#1].
+　**waymark ""waymark name"" [#1] [#2]**
+　　Set the specified waymark to slot [#2] in hotbar [#1].
+　**change [number]**
+　　Replace current hotbar with hotbar [number].  If ""next"" or ""prev"" is entered in [number], then you can scroll through the pages of hotbar 1.
+　**copy [job 1] [#1] [job 2] [#2]**
+　　Copy the contents of [job 1] hotbar [#1] to the [job 2] hotbar [#2].
+　　The subcommand ""current"" can be used to specify your current job.
+　　The subcommand ""share"" can be used instead of a job to specify your shared hotbar.
+　**display [number] on**
+　　Display hotbar [number].
+　**display [number] off**
+　　Hide hotbar [number].
+　**display [number]**
+　　Toggle on/off hotbar [number].
+　**share [number] on**
+　　Make hotbar [number] shared.
+　**share [number] off**
+　　Unshare hotbar [number] and assign it to your current job.
+　**share [number]**
+　　Toggle between on/off.
+　**remove [#1] [#2]**
+　　Remove the action assigned to slot [#2] on hotbar [#1].
+　　Replace [#2] with ""all"" to remove all actions from hotbar [#1].
+
+>>Examples:
+　/pvphotbar action ""Purify"" 1 1
+　(Places Purify in slot [#1]
+　on hotbar [#1].)
+
+　/pvphotbar change 2
+　(Replaces PvP hotbar [#1]
+　with PvP hotbar [#2].) ",,,/pvphotbar,,0,36,6,3,2,16,7
+326,"ALIASES:
+　/pvpcrosshotbar, /pvpchotbar
+USAGE:
+　/pvpcrosshotbar [subcommand]
+
+→Edit and configure cross hotbar settings. This command can only be used with the PvP cross hotbar.
+
+>>Subcommands
+　**set ""action name"" [number] [slot name]**
+　　Set the specified PvP action to [slot name] in cross hotbar [number]. If ""current"" is entered for [number], the action will be set in the currently displayed cross hotbar. If [slot name] is omitted, the action will be set to the lowest-numbered slot available. If both [number] and [slot name] are omitted, the action will be set to the lowest-numbered slot available on the lowest-numbered cross hotbar available. This applies to all of the following subcommands.
+　**general ""general action name"" [number] [slot name]**
+　　Set the specified general action to [slot name] in cross hotbar [number].
+　**item ""item name"" [number] [slot name]**
+　　Set the specified item to [slot name] in cross hotbar [number].
+　**emote ""emote name"" [number] [slot name]**
+　　Set the specified emote to [slot name] in cross hotbar [number].
+　**companion ""companion action name"" [number] [slot name]**
+　　Set the specified companion action to [slot name] in cross hotbar [number].
+　**pet ""action name"" [number] [slot name]**
+　　Set the specified pet action to [slot name] in cross hotbar [number].
+　**minion ""minion name"" [number] [slot name]**
+　　Set the specified minion to [slot name] in cross hotbar [number].
+　**mount ""mount name"" [number] [slot name]**
+　　Set the specified mount to [slot name] in cross hotbar [number].
+　**enemysign ""enemy sign name"" [number] [slot name]**
+　　Set the specified enemy sign to [slot name] in cross hotbar [number].
+　**waymark ""waymark name"" [number] [slot name]**
+　　Set the specified waymark to [slot name] in cross hotbar [number].
+　**change [number]**
+　　Replace current cross hotbar with cross hotbar [number]. Enter ""prev"" or ""next"" for [number] to scroll through the cross hotbars.
+　**copy [job 1] [number 1] [job 2] [number 2]**
+　　Copy the contents of [job 1] cross hotbar [number 1] to the [job 2] cross hotbar [number 2].
+　　The subcommand ""current"" can be used to specify your current job.
+　　The subcommand ""share"" can be used instead of a job to specify your shared cross hotbar.
+　**share [number] on**
+　　Make cross hotbar [number] shared.
+　**share [number] off**
+　　Unshare cross hotbar [number] and assign it to your current job.
+　**share [number]**
+　　Toggle between on/off.
+　**remove [number] [slot name]**
+　　Remove the action assigned to [slot name] on cross hotbar [number]. Replace [slot name] with ""all"" to remove all actions from cross hotbar [number].
+
+>>Slot Names:
+　＋  **LDL (LD1) **
+　＋  **RDL (RD1)**
+　＋  **LDU (LD2) **
+　＋  **RDU (RD2)**
+　＋  **LDR (LD3) **
+　＋  **RDR (RD3)**
+　＋  **LDD (LD4) **
+　＋  **RDD (RD4)**
+　＋  **LAL (LA1) **
+　＋  **RAL (RA1)**
+　＋  **LAU (LA2) **
+　＋  **RAU (RA2)**
+　＋  **LAR (LA3) **
+　＋  **RAR (RA3)**
+　＋  **LAD (LA4) **
+　＋  **RAD (RA4)**",,/pvpchotbar,/pvpcrosshotbar,/pvpchotbar,0,36,6,3,2,16,7
+327,"USAGE:
+　/emotelog [subcommand]
+
+→Toggle the display of log messages when using emotes.
+
+>>Subcommands:
+　**on **
+　　Enable the display of log messages when using emotes.
+　**off **
+　　Disable the display of log messages when using emotes.
+
+Toggles the display of log messages on and off when no subcommand is specified.",,,/emotelog,,0,36,2,1,2,0,0
+328,"USAGE:
+　/jobhudmode [subcommand]
+
+→Toggle job gauges between normal and simple mode.
+
+>>Subcommands:
+　**1**
+　　Toggle first job gauge between normal and simple mode.
+　**2**
+　　Toggle second job gauge between normal and simple mode.
+
+Toggles all active job gauges when no subcommand is specified.",,,/jobhudmode,,0,36,2,0,0,0,0
+329,"USAGE:
+　/mastervolume [subcommand]
+
+→Adjust master volume settings.
+
+>>Subcommands:
+　**[volume number]**
+　　Set master volume to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles mute on and off when no subcommand is specified.",,,/mastervolume,,0,229,2,0,0,0,0
+330,"USAGE:
+　/bgm [subcommand]
+
+→Adjust BGM volume settings.
+
+>>Subcommands:
+　**[volume number]**
+　　Set BGM to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles BGM on and off when no subcommand is specified.",,,/bgm,,0,229,2,0,0,0,0
+331,"USAGE:
+　/soundeffects [subcommand]
+
+→Adjust sound effects volume settings.
+
+>>Subcommands:
+　**[volume number]**
+　　Set sound effects to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles sound effects on and off when no subcommand is specified.",,,/soundeffects,,0,229,2,0,0,0,0
+332,"USAGE:
+　/voice [subcommand]
+
+→Adjust voice volume settings.
+
+>>Subcommands:
+　**[volume number]**
+　　Set voice to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles voice on and off when no subcommand is specified.",,,/voice,,0,229,2,0,0,0,0
+333,"USAGE:
+　/systemsounds [subcommand]
+
+→Adjust system sounds volume settings.
+
+>>Subcommands:
+　**[volume number]**
+　　Set system sounds to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles system sounds on and off when no subcommand is specified.",,,/systemsounds,,0,229,2,0,0,0,0
+334,"USAGE:
+　/ambientsounds [subcommand]
+
+→Adjust ambient sounds volume settings.
+
+>>Subcommands:
+　**[volume number]**
+　　Set ambient sounds to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles ambient sounds on and off when no subcommand is specified.",,,/ambientsounds,,0,229,2,0,0,0,0
+335,"USAGE:
+　/soundeffectsself [subcommand]
+
+→Adjust player effects volume settings for self.
+
+>>Subcommands:
+　**[volume number]**
+　　Set player effects for self to the specified volume level.
+　　Levels available: 0-100.",,,/soundeffectsself,,0,229,2,0,0,0,0
+336,"USAGE:
+　/soundeffectsparty [subcommand]
+
+→Adjust player effects volume settings for your party.
+
+>>Subcommands:
+　**[volume number]**
+　　Set player effects for your party to the specified volume level.
+　　Levels available: 0-100.",,,/soundeffectsparty,,0,229,2,0,0,0,0
+337,"USAGE:
+　/soundeffectsother [subcommand]
+
+→Adjust player effects volume settings for other PCs.
+
+>>Subcommands:
+　**[volume number]**
+　　Set player effects for other PCs to the specified volume level.
+　　Levels available: 0-100.
+",,,/soundeffectsother,,0,229,2,0,0,0,0
+338,"USAGE:
+　/systemsoundsspeaker [subcommand]
+
+→Adjust system volume settings for wireless controller speakers (for PlayStation®4, PlayStation®5, and Windows®).
+
+>>Subcommands:
+　**[volume number]**
+　　Set system speaker sounds to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles system speaker sounds on and off when no subcommand is specified.",,,/systemsoundsspeaker,,0,229,2,0,0,0,0
+339,"USAGE:
+　/tiltcamera [subcommand]
+
+→Adjust 3rd person camera angle settings.
+
+>>Subcommands:
+　**[angle number]**
+　　Set 3rd person camera angle to the specified setting.
+　　Settings available: 0-100.",,,/tiltcamera,,0,36,2,0,0,0,0
+340,"USAGE:
+　/mountbgm [subcommand]
+
+→Toggle the ""Play music when mounted"" setting on and off.
+
+>>Subcommands:
+　**on **    Turn on music when mounted.
+　**off **    Turn off music when mounted.
+
+Toggle between on and off when no subcommand is specified.",,,/mountbgm,,0,100,2,1,2,0,0
+341,"USAGE:
+　/performsounds [subcommand]
+
+→Adjust the volume settings for performance actions.
+
+>>Subcommands:
+　**[volume number]**
+　　Set performance actions to the specified volume level.
+　　Levels available: 0-100.
+
+Toggles system sounds on and off when no subcommand is specified.",,,/performsounds,,0,229,2,0,0,0,0
+342,,,,,,0,0,0,0,0,0,0
+343,,,,,,0,0,0,0,0,0,0
+344,,,,,,0,0,0,0,0,0,0
+345,,,,,,0,0,0,0,0,0,0
+346,,,,,,0,0,0,0,0,0,0
+347,,,,,,0,0,0,0,0,0,0
+348,,,,,,0,0,0,0,0,0,0
+349,,,,,,0,0,0,0,0,0,0
+350,,,,,,0,0,0,0,0,0,0
+351,,,,,,0,0,0,0,0,0,0
+352,,,,,,0,0,0,0,0,0,0
+353,,,,,,0,0,0,0,0,0,0
+354,,,,,,0,0,0,0,0,0,0
+355,,,,,,0,0,0,0,0,0,0
+356,,,,,,0,0,0,0,0,0,0
+357,,,,,,0,0,0,0,0,0,0
+358,,,,,,0,0,0,0,0,0,0
+359,,,,,,0,0,0,0,0,0,0
+360,,,,,,0,0,0,0,0,0,0
+361,,,,,,0,0,0,0,0,0,0
+362,,,,,,0,0,0,0,0,0,0
+363,,,,,,0,0,0,0,0,0,0
+364,,,,,,0,0,0,0,0,0,0
+365,,,,,,0,0,0,0,0,0,0
+366,,,,,,0,0,0,0,0,0,0
+367,,,,,,0,0,0,0,0,0,0
+368,,,,,,0,0,0,0,0,0,0
+369,,,,,,0,0,0,0,0,0,0
+370,,,,,,0,0,0,0,0,0,0
+371,,,,,,0,0,0,0,0,0,0
+372,,,,,,0,0,0,0,0,0,0
+373,,,,,,0,0,0,0,0,0,0
+374,,,,,,0,0,0,0,0,0,0
+375,,,,,,0,0,0,0,0,0,0
+376,,,,,,0,0,0,0,0,0,0
+377,,,,,,0,0,0,0,0,0,0
+378,,,,,,0,0,0,0,0,0,0
+379,,,,,,0,0,0,0,0,0,0
+380,,,,,,0,0,0,0,0,0,0
+381,,,,,,0,0,0,0,0,0,0
+382,,,,,,0,0,0,0,0,0,0
+383,,,,,,0,0,0,0,0,0,0
+384,,,,,,0,0,0,0,0,0,0
+385,,,,,,0,0,0,0,0,0,0
+386,,,,,,0,0,0,0,0,0,0
+387,,,,,,0,0,0,0,0,0,0
+388,,,,,,0,0,0,0,0,0,0
+389,,,,,,0,0,0,0,0,0,0
+390,,,,,,0,0,0,0,0,0,0
+391,,,,,,0,0,0,0,0,0,0
+392,,,,,,0,0,0,0,0,0,0
+393,,,,,,0,0,0,0,0,0,0
+394,,,,,,0,0,0,0,0,0,0
+395,,,,,,0,0,0,0,0,0,0
+396,,,,,,0,0,0,0,0,0,0
+397,,,,,,0,0,0,0,0,0,0
+398,,,,,,0,0,0,0,0,0,0
+399,,,,,,0,0,0,0,0,0,0
+400,,,,,,0,0,0,0,0,0,0
+401,"ALIASES:
+　/emote, /em
+USAGE:
+　/emote [message]
+
+→Sends your PC name and the message as an emote within a [Say] radius. This message will not be displayed if a PC has their **Custom Emotes** chat filter turned on.",,,/emote,/em,0,292,1,0,0,0,0
+402,"USAGE:
+　/surprised [subcommand]
+
+→Act surprised.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/surprised,,0,293,2,1,2,0,0
+403,"USAGE:
+　/angry [subcommand]
+
+→Be angry.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/angry,,0,293,2,1,2,0,0
+404,"USAGE:
+　/furious [subcommand]
+
+→Be furious.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/furious,,0,293,2,1,2,0,0
+405,"USAGE:
+　/blush [subcommand]
+
+→Blush with embarrassment.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/blush,,0,293,2,1,2,0,0
+406,"USAGE:
+　/bow [subcommand]
+
+→Perform a bow.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/bow,,0,293,2,1,2,0,0
+407,"USAGE:
+　/cheer [subcommand]
+
+→Cheer enthusiastically.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheer,,0,293,2,1,2,0,0
+408,"USAGE:
+　/clap [subcommand]
+
+→Applaud.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/clap,,0,293,2,1,2,0,0
+409,"USAGE:
+　/beckon [subcommand]
+
+→Make a beckoning motion.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/beckon,,0,293,2,1,2,0,0
+410,"USAGE:
+　/comfort [subcommand]
+
+→Make a consoling gesture.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/comfort,,0,293,2,1,2,0,0
+411,"USAGE:
+　/cry [subcommand]
+
+→Break into tears.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cry,,0,293,2,1,2,0,0
+412,"USAGE:
+　/dance [subcommand]
+
+→Start dancing.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/dance,,0,293,2,1,2,0,0
+413,"USAGE:
+　/doubt [subcommand]
+
+→Appear doubtful.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/doubt,,0,293,2,1,2,0,0
+414,"USAGE:
+　/doze [subcommand]
+
+→Start dozing off. If a bed is nearby, your character will sleep in it.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/doze,,0,293,2,1,2,0,0
+415,"USAGE:
+　/fume [subcommand]
+
+→Express annoyance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/fume,,0,293,2,1,2,0,0
+416,"USAGE:
+　/goodbye [subcommand]
+
+→Bid farewell.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/goodbye,,0,293,2,1,2,0,0
+417,"USAGE:
+　/wave [subcommand]
+
+→Wave your hand.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/wave,,0,293,2,1,2,0,0
+418,"USAGE:
+　/huh [subcommand]
+
+→Act bemused.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/huh,,0,293,2,1,2,0,0
+419,"USAGE:
+　/joy [subcommand]
+
+→Express joy.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/joy,,0,293,2,1,2,0,0
+420,"USAGE:
+　/kneel [subcommand]
+
+→Kneel in respect.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/kneel,,0,293,2,1,2,0,0
+421,"USAGE:
+　/chuckle [subcommand]
+
+→Chuckle in amusement.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/chuckle,,0,293,2,1,2,0,0
+422,"USAGE:
+　/laugh [subcommand]
+
+→Burst out laughing.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/laugh,,0,293,2,1,2,0,0
+423,"USAGE:
+　/lookout [subcommand]
+
+→Scan the area.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lookout,,0,293,2,1,2,0,0
+424,"USAGE:
+　/me [subcommand]
+
+→Motion to yourself.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/me,,0,293,2,1,2,0,0
+425,"USAGE:
+　/no [subcommand]
+
+→Disagree.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/no,,0,293,2,1,2,0,0
+426,"USAGE:
+　/deny [subcommand]
+
+→Strongly disagree.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/deny,,0,293,2,1,2,0,0
+427,"USAGE:
+　/panic [subcommand]
+
+→Start to panic.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/panic,,0,293,2,1,2,0,0
+428,"USAGE:
+　/point [subcommand]
+
+→Point at something.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/point,,0,293,2,1,2,0,0
+429,"USAGE:
+　/poke [subcommand]
+
+→Make a poking gesture.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/poke,,0,293,2,1,2,0,0
+430,"USAGE:
+　/congratulate [subcommand]
+
+→Offer congratulations.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/congratulate,,0,293,2,1,2,0,0
+431,"USAGE:
+　/psych [subcommand]
+
+→Psych yourself up.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/psych,,0,293,2,1,2,0,0
+432,"USAGE:
+　/salute [subcommand]
+
+→Perform a salute.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/salute,,0,293,2,1,2,0,0
+433,"USAGE:
+　/shocked [subcommand]
+
+→Act shocked.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/shocked,,0,293,2,1,2,0,0
+434,"USAGE:
+　/shrug [subcommand]
+
+→Shrug.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/shrug,,0,293,2,1,2,0,0
+435,"USAGE:
+　/rally [subcommand]
+
+→Give encouragement.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/rally,,0,293,2,1,2,0,0
+436,"USAGE:
+　/soothe [subcommand]
+
+→Make a comforting gesture.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/soothe,,0,293,2,1,2,0,0
+437,"USAGE:
+　/stagger [subcommand]
+
+→Stagger for a moment.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/stagger,,0,293,2,1,2,0,0
+438,"USAGE:
+　/stretch [subcommand]
+
+→Stretch.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/stretch,,0,293,2,1,2,0,0
+439,"USAGE:
+　/sulk [subcommand]
+
+→Wallow in self-pity.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/sulk,,0,293,2,1,2,0,0
+440,"USAGE:
+　/think [subcommand]
+
+→Become lost in thought.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/think,,0,293,2,1,2,0,0
+441,"USAGE:
+　/upset [subcommand]
+
+→Express disgust.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/upset,,0,293,2,1,2,0,0
+442,"USAGE:
+　/welcome [subcommand]
+
+→Make a welcoming gesture.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/welcome,,0,293,2,1,2,0,0
+443,"USAGE:
+　/yes [subcommand]
+
+→Nod in approval.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/yes,,0,293,2,1,2,0,0
+444,"USAGE:
+　/thumbsup [subcommand]
+
+→Strongly agree.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/thumbsup,,0,293,2,1,2,0,0
+445,"USAGE:
+　/examineself [subcommand]
+
+→Admire yourself.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/examineself,,0,293,2,1,2,0,0
+446,"USAGE:
+　/pose [subcommand]
+
+→Strike a pose.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/pose,,0,293,2,1,2,0,0
+447,"USAGE:
+　/blowkiss [subcommand]
+
+→Throw an airborne smooch in someone's general direction.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/blowkiss,,0,293,2,1,2,0,0
+448,"USAGE:
+　/grovel [subcommand]
+
+→Fall to your knees in unworthiness.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/grovel,,0,293,2,1,2,0,0
+449,"USAGE:
+　/happy [subcommand]
+
+→Display extreme happiness.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/happy,,0,293,2,1,2,0,0
+450,"USAGE:
+　/disappointed [subcommand]
+
+→Convey utter disappointment.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/disappointed,,0,293,2,1,2,0,0
+451,"ALIASES:
+　/sit, /lounge
+USAGE:
+　/sit
+
+→Assume a sitting position.
+
+Certain emotes have special sitting equivalents. Also sits your character in a chair if the chair is nearby.",/sit,/lounge,/lounge,/sit,0,37,1,0,0,0,0
+452,,,,,,0,0,0,0,0,0,0
+453,"USAGE:
+　/groundsit
+
+→Assume a sitting position.
+
+Certain emotes have special sitting equivalents. Does not sit your character in a chair even if the chair is nearby.",,,/groundsit,,0,37,1,0,0,0,0
+454,,,,,,0,0,0,0,0,0,0
+455,"USAGE:
+　/airquotes
+
+→Make air quotes with your fingers for added sarcasm, emphasis, etc. No system message is displayed with this emote.",,,/airquotes,,0,293,2,1,2,0,0
+456,"USAGE:
+　/gcsalute [subcommand]
+
+→Perform an official Maelstrom salute.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gcsalute,,0,293,2,1,2,0,0
+457,"USAGE:
+　/gcsalute [subcommand]
+
+→Perform an official Order of the Twin Adder salute.
+  
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gcsalute,,0,293,2,1,2,0,0
+458,"USAGE:
+　/gcsalute [subcommand]
+
+→Perform an official Immortal Flames salute.
+  
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gcsalute,,0,293,2,1,2,0,0
+459,"USAGE:
+　/pray [subcommand]
+
+→Offer solemn words of prayer to the Twelve or whatever gods it is you keep.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/pray,,0,293,2,1,2,0,0
+460,"USAGE:
+　/imperialsalute [subcommand]
+
+→Perform an Imperial Garlean Army salute.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/imperialsalute,,0,293,2,1,2,0,0
+461,"USAGE:
+　/visor
+
+→Open/close helm visor. This function can also be used to toggle on/off helms that light up.
+
+No system message is displayed with this emote.",,,/visor,,0,301,2,1,2,0,0
+462,,,,,,0,0,0,0,0,0,0
+463,"USAGE:
+　/megaflare [subcommand]
+
+→Cast Megaflare.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/megaflare,,0,293,2,1,2,0,0
+464,"USAGE:
+　/crimsonlotus [subcommand]
+
+→Practice the art of the crimson lotus.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/crimsonlotus,,0,293,2,1,2,0,0
+465,"USAGE:
+　/charmed [subcommand]
+
+→Fall into a lovestruck trance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/charmed,,0,293,2,1,2,0,0
+466,"ALIASES:
+　/cheeronblue, /cheerob
+USAGE:
+　/cheeronblue [subcommand]
+
+→Wave your hands enthusiastically with blue illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheeronblue,/cheerob,0,293,2,1,2,0,0
+467,"ALIASES:
+　/cheerwaveyellow, /cheerwy
+USAGE:
+　/cheerwaveyellow [subcommand]
+
+→Wave your hand in the air with a yellow illuminated rod.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/cheerwave,/hiphophurray,/cheerwaveyellow,/cheerwy,0,293,2,1,2,0,0
+468,"ALIASES:
+　/cheerjumpred, /cheerjr
+USAGE:
+　/cheerjumpred [subcommand]
+
+→Jump and cheer enthusiastically with red illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/cheerjump,/jumparound,/cheerjumpred,/cheerjr,0,293,2,1,2,0,0
+469,"ALIASES:
+　/straightface, /straight
+USAGE:
+　/straight [subcommand]
+
+→Restore your facial expression to a neutral state.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified.",,,/straightface,/straight,0,293,2,1,2,0,0
+470,"USAGE:
+　/smile [subcommand]
+
+→Beam with happiness.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/smile,,0,293,2,1,2,0,0
+471,"USAGE:
+　/grin [subcommand]
+
+→Beam with delight.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/grin,,0,293,2,1,2,0,0
+472,"USAGE:
+　/smirk [subcommand]
+
+→Smirk wryly.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/smirk,,0,293,2,1,2,0,0
+473,"USAGE:
+　/taunt [subcommand]
+
+→Put on a taunting grin.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/taunt,,0,293,2,1,2,0,0
+474,"ALIASES:
+　/shuteyes, /shut
+USAGE:
+/shuteyes [subcommand]
+
+→Shut your eyes.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/shuteyes,/shut,0,293,2,1,2,0,0
+475,"USAGE:
+　/sad [subcommand]
+
+→Frown.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/sad,,0,293,2,1,2,0,0
+476,"ALIASES:
+　/scared, /fear
+USAGE:
+　/scared [subcommand]
+
+→Stare in fear.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/scared,/fear,0,293,2,1,2,0,0
+477,"ALIASES:
+　/amazed, /awe
+USAGE:
+　/amazed [subcommand]
+
+→Stare in awe.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/amazed,/awe,0,293,2,1,2,0,0
+478,"ALIASES:
+　/ouch, /ow
+USAGE:
+　/ouch [subcommand]
+
+→Cringe in pain.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/ouch,/ow,0,293,2,1,2,0,0
+479,"ALIASES:
+　/annoyed, /annoy
+USAGE:
+　/annoyed [subcommand]
+
+→Furrow your brow.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/annoyed,/annoy,0,293,2,1,2,0,0
+480,"USAGE:
+　/alert [subcommand]
+
+→Sense something amiss.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/alert,,0,293,2,1,2,0,0
+481,"ALIASES:
+　/worried, /worry
+USAGE:
+　/worried [subcommand]
+
+→Appear worried.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/worried,/worry,0,293,2,1,2,0,0
+482,"USAGE:
+　/biggrin [subcommand]
+
+→Break into a broad smile.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/biggrin,,0,293,2,1,2,0,0
+483,"USAGE:
+　/reflect [subcommand]
+
+→Close your eyes and gather your thoughts.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/reflect,,0,293,2,1,2,0,0
+484,"USAGE:
+　/furrow [subcommand]
+
+→Furrow your eyebrows.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/furrow,,0,293,2,1,2,0,0
+485,"USAGE:
+　/scoff [subcommand]
+
+→Smile wryly.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/scoff,,0,293,2,1,2,0,0
+486,"USAGE:
+　/throw
+
+→Throw an object.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/throw,,0,293,2,1,2,0,0
+487,,,,,,0,0,0,0,0,0,0
+488,,,,,,0,0,0,0,0,0,0
+489,,,,,,0,0,0,0,0,0,0
+490,,,,,,0,0,0,0,0,0,0
+491,"ALIASES:
+　/changepose, /cpose
+USAGE:
+　/changepose
+
+→Assume the next pose in a series of idle stances.",,,/changepose,/cpose,0,37,2,1,2,0,0
+492,,,,,,0,0,0,0,0,0,0
+493,,,,,,0,0,0,0,0,0,0
+494,,,,,,0,0,0,0,0,0,0
+495,,,,,,0,0,0,0,0,0,0
+496,,,,,,0,0,0,0,0,0,0
+497,,,,,,0,0,0,0,0,0,0
+498,,,,,,0,0,0,0,0,0,0
+499,,,,,,0,0,0,0,0,0,0
+500,,,,,,0,0,0,0,0,0,0
+501,,,,,,0,0,0,0,0,0,0
+502,"ALIASES:
+　/stepdance, /sdance
+USAGE:
+　/stepdance [subcommand]
+
+→Perform a step dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/stepdance,/sdance,0,293,2,1,2,0,0
+503,"ALIASES:
+　/harvestdance, /hdance
+USAGE:
+　/harvestdance [subcommand]
+
+→Perform a harvest dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/harvestdance,/hdance,0,293,2,1,2,0,0
+504,"ALIASES:
+　/balldance, /bdance
+USAGE:
+　/balldance [subcommand]
+
+→Perform a ball dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/balldance,/bdance,0,293,2,1,2,0,0
+505,"ALIASES:
+　/mandervilledance, /mdance
+USAGE:
+　/mdance [subcommand]
+
+→Perform the Manderville dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/mandervilledance,/mdance,0,293,2,1,2,0,0
+506,"USAGE:
+　/pet [subcommand]
+
+→Take the love within your heart and focus it into your hand.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/pet,,/stroke,,0,293,2,1,2,0,0
+507,"USAGE:
+　/handover [subcommand]
+
+→Extend your hand in a giving gesture.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/handover,,0,293,2,1,2,0,0
+508,,,,,,0,0,0,0,0,0,0
+509,,,,,,0,0,0,0,0,0,0
+510,"USAGE:
+　/bombdance [subcommand]
+
+→Perform a bomb dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/bombdance,,0,293,2,1,2,0,0
+511,"ALIASES:
+　/huzzah, /hurray
+USAGE:
+　/huzzah [subcommand]
+
+→Give a hearty cheer.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/huzzah,,/hurray,,0,293,2,1,2,0,0
+512,"USAGE:
+　/slap [subcommand]
+
+→Let your hand do the talking.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/slap,,0,293,2,1,2,0,0
+513,"USAGE:
+　/hug [subcommand]
+
+→Give a warm hug.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/hug,,0,293,2,1,2,0,0
+514,"USAGE:
+　/embrace [subcommand]
+
+→Perform a loving embrace.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/embrace,,0,293,2,1,2,0,0
+515,"ALIASES:
+　/hildibrand, /hildy
+USAGE:
+　/hildy [subcommand]
+
+→Flex like a gentleman.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/hildibrand,/hildy,0,293,2,1,2,0,0
+516,"ALIASES:
+　/fistbump, /brofist
+USAGE:
+　/fistbump [subcommand]
+
+→Attempt a fistbump.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/fistbump,/brofist,/fistbump,/fist,0,293,2,1,2,0,0
+517,,,,,,0,0,0,0,0,0,0
+518,,,,,,0,0,0,0,0,0,0
+519,"ALIASES:
+　/thavdance, /tdance
+USAGE:
+　/tdance [subcommand]
+
+→Perform a Thavnairian dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/thavdance,/tdance,0,293,2,1,2,0,0
+520,"ALIASES:
+　/golddance, /gdance
+USAGE:
+　/gdance [subcommand]
+
+→Perform the Gold dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/golddance,/gdance,0,293,2,1,2,0,0
+521,"ALIASES:
+　/sundropdance, /sundance
+USAGE:
+　/sundance [subcommand]
+
+→Perform the sundrop dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/sundropdance,,/sundance,,0,293,2,1,2,0,0
+522,"ALIASES:
+　/battlestance, /bstance
+USAGE:
+　/bstance [subcommand]
+
+→Prepare yourself for battle.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/battlestance,/bstance,0,293,2,1,2,0,0
+523,"ALIASES:
+　/victorypose, /vpose
+USAGE:
+　/vpose [subcommand]
+
+→Celebrate victory.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/victorypose,/vpose,0,293,2,1,2,0,0
+524,"ALIASES:
+　/backflip, /bflip
+USAGE:
+　/bflip [subcommand]
+
+→Perform a backflip.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/backflip,/bflip,0,293,2,1,2,0,0
+525,"ALIASES:
+　/easterngreeting, /egreeting
+USAGE:
+　/egreeting [subcommand]
+
+→Perform a greeting common in the Far East.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/easterngreeting,/egreeting,0,293,2,1,2,0,0
+526,"USAGE:
+　/eureka [subcommand]
+
+→Experience a brief moment of enlightenment.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eureka,,0,293,2,1,2,0,0
+527,"USAGE:
+　/mogdance [subcommand]
+
+→Perform the moogle dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/mogdance,,0,293,2,1,2,0,0
+528,"ALIASES:
+　/haurchefant, /hknight
+USAGE:
+　/haurchefant [subcommand]
+
+→Express your fervent approval.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/haurchefant,/hknight,0,293,2,1,2,0,0
+529,"ALIASES:
+　/easternstretch, /estretch
+USAGE:
+　/estretch [subcommand]
+
+→Stretch your muscles in the Far Eastern fashion.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/easternstretch,,/easternstretch,/estretch,0,293,2,1,2,0,0
+530,"ALIASES:
+　/easterndance, /edance
+USAGE:
+　/edance [subcommand]
+
+→Perform a Far Eastern dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/easterndance,/edance,0,293,2,1,2,0,0
+531,"ALIASES:
+　/redrangerposea, /rrpa
+USAGE:
+　/rrpa [subcommand]
+
+→Do the Red Ranger pose A.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/redrangerposea,/rrpa,/rangerpose1r,/rpose1r,0,293,2,1,2,0,0
+532,"ALIASES:
+　/blackrangerposea, /brpa
+USAGE:
+　/brpa [subcommand]
+
+→Do the Black Ranger pose A.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/blackrangerposea,/brpa,/rangerpose2r,/rpose2r,0,293,2,1,2,0,0
+533,"ALIASES:
+　/yellowrangerposea, /yrpa
+USAGE:
+　/yrpa [subcommand]
+
+→Do the Yellow Ranger pose A.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/yellowrangerposea,/yrpa,/rangerpose3r,/rpose3r,0,293,2,1,2,0,0
+534,"ALIASES:
+　/rightwink, /wink
+USAGE:
+　/rightwink [subcommand]
+
+→Perform the wink emote with your right eye.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",/rightwink,/wink,/wink,/rightwink,0,293,2,1,2,0,0
+535,"ALIASES:
+　/redrangerposeb, /rrpb
+USAGE:
+　/rrpb [subcommand]
+
+→Do the Red Ranger pose B.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/redrangerposeb,/rrpb,/rangerpose1l,/rpose1l,0,293,2,1,2,0,0
+536,"ALIASES:
+　/blackrangerposeb, /brpb
+USAGE:
+　/brpb [subcommand]
+
+→Do the Black Ranger pose B.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/blackrangerposeb,/brpb,/rangerpose2l,/rpose2l,0,293,2,1,2,0,0
+537,"ALIASES:
+　/yellowrangerposeb, /yrpb
+USAGE:
+　/yrpb [subcommand]
+
+→Do the Yellow Ranger pose B.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",/yellowrangerposeb,/yrpb,/rangerpose3l,/rpose3l,0,293,2,1,2,0,0
+538,"USAGE:
+　/facepalm [subcommand]
+
+→Bury your head into your hands in frustration.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/facepalm,,0,293,2,1,2,0,0
+539,"ALIASES:
+　/zantetsuken, /ztk
+USAGE:
+　/zantetsuken [subcommand]
+
+→Perform the Zantetsuken attack.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/zantetsuken,/ztk,0,293,2,1,2,0,0
+540,"USAGE:
+　/flex [subcommand]
+
+→Flex your muscles.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/flex,,0,293,2,1,2,0,0
+541,"USAGE:
+　/respect [subcommand]
+
+→Offer up a silent prayer.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/respect,,0,293,2,1,2,0,0
+542,"USAGE:
+　/sneer [subcommand]
+
+→Sneer contemptuously.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/sneer,,0,293,2,1,2,0,0
+543,"ALIASES:
+　/prettyplease, /pplease
+USAGE:
+　/prettyplease [subcommand]
+
+→Make a pleading motion.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/prettyplease,/pplease,0,293,2,1,2,0,0
+544,"ALIASES:
+　/playdead, /pdead
+USAGE:
+　/playdead [subcommand]
+
+→Feign death.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/playdead,/pdead,0,293,2,1,2,0,0
+545,"USAGE:
+　/iceheart [subcommand]
+
+→Envelop yourself in diamond dust.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/iceheart,,0,293,2,1,2,0,0
+546,"USAGE:
+　/moonlift [subcommand]
+
+→Perform the moonlift dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/moonlift,,0,293,2,1,2,0,0
+547,"USAGE:
+　/dote [subcommand]
+
+→Throw a heartfelt kiss at your beloved.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/dote,,0,293,2,1,2,0,0
+548,,,,,,0,0,0,0,0,0,0
+549,"USAGE:
+　/spectacles [subcommand]
+
+→Adjust your spectacles.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/spectacles,,0,293,2,1,2,0,0
+550,"USAGE:
+　/songbird [subcommand]
+
+→Perform the Songbird's special dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/songbird,,0,293,2,1,2,0,0
+551,"USAGE:
+　/waterfloat
+
+→Perform a back float in water. No system message is displayed with this emote.",,,/waterfloat,,0,293,2,1,2,0,0
+552,"USAGE:
+　/waterflip
+
+→Perform a somersault underwater. No system message is displayed with this emote.",,,/waterflip,,0,293,2,1,2,0,0
+553,"USAGE:
+　/puckerup [subcommand]
+
+→Close your eyes and pucker your lips.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/puckerup,,0,293,2,1,2,0,0
+554,"USAGE:
+　/powerup [subcommand]
+
+→Put your true strength on display.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/powerup,,0,293,2,1,2,0,0
+555,"USAGE:
+　/easternbow [subcommand]
+
+→Perform a bow in the Far Eastern fashion.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/easternbow,/ebow,0,293,2,1,2,0,0
+556,"USAGE:
+　/squats [subcommand]
+
+→Do a set of squats.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/squats,,0,293,2,1,2,0,0
+557,"USAGE:
+　/pushups [subcommand]
+
+→Do a set of push-ups.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/pushups,,0,293,2,1,2,0,0
+558,"USAGE:
+　/situps [subcommand]
+
+→Do a set of sit-ups.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/situps,,0,293,2,1,2,0,0
+559,"USAGE:
+　/breathcontrol [subcommand]
+
+→Take a breath and relax.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/breathcontrol,,0,293,2,1,2,0,0
+560,"USAGE:
+　/converse [subcommand]
+
+→Strike up a conversation.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/converse,,0,293,2,1,2,0,0
+561,"USAGE:
+　/concentrate [subcommand]
+
+→Knit your brows in thought.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/concentrate,,0,293,2,1,2,0,0
+562,"USAGE:
+　/disturbed [subcommand]
+
+→Twist your face in confusion.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/disturbed,,0,293,2,1,2,0,0
+563,"USAGE:
+　/simper [subcommand]
+
+→Give a lazy smile.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/simper,,0,293,2,1,2,0,0
+564,"USAGE:
+　/beam [subcommand]
+
+→Grin from ear to ear.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/beam,,0,293,2,1,2,0,0
+565,"USAGE:
+　/attention [subcommand]
+
+→Stand at attention.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/attention,,0,293,2,1,2,0,0
+566,"USAGE:
+　/atease [subcommand]
+
+→Stand relaxed with your feet apart.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/atease,,0,293,2,1,2,0,0
+567,"USAGE:
+　/box [subcommand]
+
+→Put up your dukes.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/box,,0,293,2,1,2,0,0
+568,"USAGE:
+　/ritualprayer [subcommand]
+
+→Offer a prayer to the gods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/ritualprayer,,0,293,2,1,2,0,0
+569,,,,,,0,0,0,0,0,0,0
+570,"USAGE:
+　/tremble [subcommand]
+
+→Tremble with fear.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/tremble,,0,293,2,1,2,0,0
+571,"USAGE:
+　/winded [subcommand]
+
+→Fall to one knee, exhausted.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/winded,,0,293,2,1,2,0,0
+572,"USAGE:
+　/aback [subcommand]
+
+→Act taken aback.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/aback,,0,293,2,1,2,0,0
+573,"USAGE:
+　/greet [subcommand]
+
+→Wave your hand in greeting.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/greet,,0,293,2,1,2,0,0
+574,"USAGE:
+　/boxstep [subcommand]
+
+→Perform a box step dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,/2legit,/boxstep,,0,293,2,1,2,0,0
+575,"USAGE:
+　/sidestep [subcommand]
+
+→Perform a side step dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/sidestep,,0,293,2,1,2,0,0
+576,"USAGE:
+　/ultima [subcommand]
+
+→Unleash the savage might of Ultima!
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/ultima,,0,293,2,1,2,0,0
+577,"USAGE:
+　/yoldance [subcommand]
+
+→Perform the yol dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/yoldance,,0,293,2,1,2,0,0
+578,,,,,,0,0,0,0,0,0,0
+579,"USAGE:
+　/splash [subcommand]
+
+→Splash playfully when in water.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/splash,,0,293,2,1,2,0,0
+580,,,,,,0,0,0,0,0,0,0
+581,"USAGE:
+　/sweat [subcommand]
+
+→Wipe the sweat from your brow.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,/tillyoubleed,/sweat,,0,293,2,1,2,0,0
+582,"USAGE:
+　/shiver [subcommand]
+
+→Tremble from the cold.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/shiver,,0,293,2,1,2,0,0
+583,"USAGE:
+　/elucidate [subcommand]
+
+→Explain yourself to any who will listen.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/elucidate,,0,293,2,1,2,0,0
+584,"USAGE:
+　/ponder [subcommand]
+
+→Lose yourself in thought.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,/makeyougohmmm,/ponder,,0,293,2,1,2,0,0
+585,"USAGE:
+　/leftwink [subcommand]
+
+→Perform the wink emote with your left eye.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/leftwink,,0,293,2,1,2,0,0
+586,"USAGE:
+　/getfantasy [subcommand]
+
+→Perform the Get Fantasy dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/getfantasy,,0,293,2,1,2,0,0
+587,"USAGE:
+　/popotostep [subcommand]
+
+→Perform the popoto step.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/popotostep,,0,293,2,1,2,0,0
+588,"USAGE:
+　/hum [subcommand]
+
+→Swing your arms and hum a merry tune.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/hum,,0,293,2,1,2,0,0
+589,"USAGE:
+　/confirm [subcommand]
+
+→Make sure that all is as it should be.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/confirm,,0,293,2,1,2,0,0
+590,"USAGE:
+　/scheme [subcommand]
+
+→Spin a web of lies and deceit.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/scheme,,0,293,2,1,2,0,0
+591,"USAGE:
+　/endure [subcommand]
+
+→Grit your teeth and bear all that comes your way.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/endure,,0,293,2,1,2,0,0
+592,"USAGE:
+　/tomestone [subcommand]
+
+→Lovingly tap your tomestone.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/tomestone,,0,293,2,1,2,0,0
+593,"USAGE:
+　/heeltoe [subcommand]
+
+→Perform a slick heel toe dance step.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/heeltoe,,0,293,2,1,2,0,0
+594,"USAGE:
+　/goobbuedo [subcommand]
+
+→Perform the realm-famous ""goobbue do"" dance step.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,/mysterymachine,/goobbuedo,,0,293,2,1,2,0,0
+595,"USAGE:
+　/gratuity [subcommand]
+
+→Humbly scatter gold coins at the feet of your admirers.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,/makeithail,/gratuity,,0,293,2,1,2,0,0
+596,"USAGE:
+　/fistpump [subcommand]
+
+→Express an unbridled satisfaction at the crushing defeat of your enemies via a swift pumping motion of your arms.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/fistpump,,0,293,2,1,2,0,0
+597,"USAGE:
+　/reprimand [subcommand]
+
+→Let that special someone know what's for.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,/youknowyourname,/reprimand,,0,293,2,1,2,0,0
+598,"USAGE:
+　/sabotender [subcommand]
+
+→Do your finest impression of the Manderville Gold Saucer's mascot Senor Sabotender.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/sabotender,,0,293,2,1,2,0,0
+599,"ALIASES:
+　/mandervillemambo, /mmambo
+USAGE:
+　/mmambo [subcommand]
+
+→Perform the Manderville Mambo.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/mandervillemambo,/mmambo,0,293,2,1,2,0,0
+600,"USAGE:
+　/laliho [subcommand]
+
+→Perform a traditional dwarven greeting.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/laliho,,0,293,2,1,2,0,0
+601,"USAGE:
+　/simulationm [subcommand]
+
+→Synthesize a shimmering sword.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/simulationm,,0,293,2,1,2,0,0
+602,"USAGE:
+　/simulationf [subcommand]
+
+→Synthesize a shimmering spear.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/simulationf,,0,293,2,1,2,0,0
+603,"USAGE:
+　/toast [subcommand]
+
+→Raise a toast to those around you.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/toast,,0,293,2,1,2,0,0
+604,"USAGE:
+　/lean
+
+→Lean back and get comfortable. No system message is displayed with this emote.",,,/lean,,0,293,2,1,2,0,0
+605,"USAGE:
+　/headache [subcommand]
+
+→Reel from a terrible headache.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/headache,,0,293,2,1,2,0,0
+606,"USAGE:
+　/snap [subcommand]
+
+→Snap your fingers.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/snap,,0,293,2,1,2,0,0
+607,"ALIASES:
+　/breakfast, /bread
+USAGE:
+　/bread [subcommand]
+
+→Chow down on a piece of bread.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/breakfast,/bread,0,293,2,1,2,0,0
+608,"USAGE:
+　/read [subcommand]
+
+→Pore over a book.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/read,,0,293,2,1,2,0,0
+609,"USAGE:
+　/insist [subcommand]
+
+→Speak emphatically to get your point across.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/insist,,0,293,2,1,2,0,0
+610,"ALIASES:
+　/consider, /hmm
+USAGE:
+　/consider [subcommand]
+
+→Mull over a curious question.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/consider,/hmm,0,293,2,1,2,0,0
+611,"USAGE:
+　/wasshoi [subcommand]
+
+→Let out a joyous ""wasshoi.""
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/wasshoi,,0,293,2,1,2,0,0
+612,"ALIASES:
+　/flowershower, /petals
+USAGE:
+　/flowershower [subcommand]
+
+→Toss fragrant flower petals into the air.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/flowershower,/petals,0,293,2,1,2,0,0
+613,"USAGE:
+　/flamedance [subcommand]
+
+→Perform the flame dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/flamedance,,0,293,2,1,2,0,0
+614,"ALIASES:
+　/highfive, /hifive
+USAGE:
+　/highfive [subcommand]
+
+→Give someone a high five.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/highfive,/hifive,0,293,2,1,2,0,0
+615,"USAGE:
+　/guard [subcommand]
+
+→Keep watch over someone.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/guard,,0,293,2,1,2,0,0
+616,"USAGE:
+　/malevolence [subcommand]
+
+→Place a curse on someone.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/malevolence,,0,293,2,1,2,0,0
+617,"USAGE:
+　/beesknees [subcommand]
+
+→Perform the bee's knees dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/beesknees,,0,293,2,1,2,0,0
+618,"USAGE:
+　/lalihop [subcommand]
+
+→Perform the lali hop.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lalihop,,0,293,2,1,2,0,0
+621,"ALIASES:
+　/eatriceball, /riceball
+USAGE:
+　/eatriceball [subcommand]
+
+→Eat a rice ball.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eatriceball,/riceball,0,293,2,1,2,0,0
+622,"ALIASES:
+　/eatapple, /apple
+USAGE:
+　/eatapple [subcommand]
+
+→Bite into an apple.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eatapple,/apple,0,293,2,1,2,0,0
+623,"USAGE:
+　/wringhands [subcommand]
+
+→Wring your hands obsequiously.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/wringhands,,0,293,2,1,2,0,0
+624,"ALIASES:
+　/sweep, /broom
+USAGE:
+　/sweep [subcommand]
+
+→Sweep the floor.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/sweep,/broom,0,293,2,1,2,0,0
+625,"USAGE:
+　/paintblack [subcommand]
+
+→Swab the floor with black paint.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/paintblack,,0,293,2,1,2,0,0
+626,"USAGE:
+　/paintred [subcommand]
+
+→Swab the floor with red paint.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/paintred,,0,293,2,1,2,0,0
+627,"USAGE:
+　/paintyellow [subcommand]
+
+→Swab the floor with yellow paint.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/paintyellow,,0,293,2,1,2,0,0
+628,"USAGE:
+　/paintblue [subcommand]
+
+→Swab the floor with blue paint.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/paintblue,,0,293,2,1,2,0,0
+629,"USAGE:
+　/fakesmile [subcommand]
+
+→Force a smile.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/fakesmile,,0,293,2,1,2,0,0
+630,"ALIASES:
+　/pantomime, /mime
+USAGE:
+　/pantomime [subcommand]
+
+→Perform a pantomime.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/pantomime,/mime,0,293,2,1,2,0,0
+631,"USAGE:
+　/vexed [subcommand]
+
+→Appear visibly frustrated.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/vexed,,0,293,2,1,2,0,0
+632,"ALIASES:
+　/shush, /shh
+USAGE:
+　/shush [subcommand]
+
+→Gesture to be quiet.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/shush,/shh,0,293,2,1,2,0,0
+633,"ALIASES:
+　/eatpizza, /pizza
+USAGE:
+　/eatpizza [subcommand]
+
+→Snack on a slice of pizza.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eatpizza,/pizza,0,293,2,1,2,0,0
+634,"USAGE:
+　/clutchhead [subcommand]
+
+→Seize your head in pain or anguish.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/clutchhead,,0,293,2,1,2,0,0
+635,"ALIASES:
+　/eatchocolate, /choco
+USAGE:
+　/eatchocolate [subcommand]
+
+→Snack on Valentione's chocolate.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eatchocolate,/choco,0,293,2,1,2,0,0
+636,"ALIASES:
+　/eategg, /egg
+USAGE:
+　/eategg [subcommand]
+
+→Casually eat a boiled egg.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eategg,/egg,0,293,2,1,2,0,0
+637,"USAGE:
+　/content [subcommand]
+
+→Smile in warm satisfaction.
+
+>>Subcommands:
+　**motion**
+　　Display expression only.
+
+Both text and expression will be displayed when no subcommand is specified. Expression will return to normal after five seconds or by using the command /straightface.",,,/content,,0,293,2,1,2,0,0
+638,"USAGE:
+　/sheathe [subcommand]
+
+→Put away your weapon.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/sheathe,,0,293,2,1,2,0,0
+639,"USAGE:
+　/draw [subcommand]
+
+→Ready your weapon.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/draw,,0,293,2,1,2,0,0
+640,"USAGE:
+　/tea [subcommand]
+
+→Sip serenely from a teacup.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/tea,,0,293,2,1,2,0,0
+641,"USAGE:
+　/determined [subcommand]
+
+→Punch your own palm with readiness.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/determined,,0,293,2,1,2,0,0
+642,"USAGE:
+　/showright [subcommand]
+
+→Show off what's on your right.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/showright,,0,293,2,1,2,0,0
+643,"USAGE:
+　/showleft [subcommand]
+
+→Show off what's on your left.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/showleft,,0,293,2,1,2,0,0
+644,,,,,,0,0,0,0,0,0,0
+645,,,,,,0,0,0,0,0,0,0
+646,"ALIASES:
+　/deride, /pagaga
+USAGE:
+　/deride [subcommand]
+
+→Bare your teeth derisively.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/deride,/pagaga,0,293,2,1,2,0,0
+647,"USAGE:
+　/wow [subcommand]
+
+→Sparkle with amazement.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/wow,,0,293,2,1,2,0,0
+648,"ALIASES:
+　/eatpumpkincookie, /cookie
+USAGE:
+　/eatpumpkincookie [subcommand]
+
+→Nibble on a pumpkin cookie.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eatpumpkincookie,/cookie,0,293,2,1,2,0,0
+649,"USAGE:
+　/spirit [subcommand]
+
+→Show off your team spirit.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/spirit,,0,293,2,1,2,0,0
+650,"USAGE:
+　/magictrick [subcommand]
+
+→Perform a magic trick.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/magictrick,,0,293,2,1,2,0,0
+651,"ALIASES:
+　/littleladiesdance, /ladance
+USAGE:
+　/ladance [subcommand]
+
+→Perform the Little Ladies' Dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/littleladiesdance,/ladance,0,293,2,1,2,0,0
+652,"USAGE:
+　/linkpearl [subcommand]
+
+→Make a linkpearl call.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/linkpearl,,0,293,2,1,2,0,0
+653,"USAGE:
+　/earwiggle [subcommand]
+
+→Wiggle suddenly enormous ears.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/earwiggle,,0,293,2,1,2,0,0
+654,,,,,,0,0,0,0,0,0,0
+655,,,,,,0,0,0,0,0,0,0
+656,,,,,,0,0,0,0,0,0,0
+657,"USAGE:
+　/frighten [subcommand]
+
+→Attempt to appear menacing.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/frighten,,0,293,2,1,2,0,0
+658,"USAGE:
+　/adventoflight, /advent [subcommand]
+
+→Soar to the heavens, then make a suitably heroic landing.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/adventoflight,/advent,0,293,2,1,2,0,0
+659,"USAGE:
+　/jumpforjoy1, /jj1 [subcommand]
+
+→Jump happily for joy.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/jumpforjoy1,/jj1,0,293,2,1,2,0,0
+660,"USAGE:
+　/jumpforjoy2, /jj2 [subcommand]
+
+→Jump merrily for joy.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/jumpforjoy2,/jj2,0,293,2,1,2,0,0
+661,"USAGE:
+　/jumpforjoy3, /jj3 [subcommand]
+
+→Jump enthusiastically for joy.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/jumpforjoy3,/jj3,0,293,2,1,2,0,0
+662,"USAGE:
+　/jumpforjoy4, /jj4 [subcommand]
+
+→Jump cheerfully for joy.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/jumpforjoy4,/jj4,0,293,2,1,2,0,0
+663,"USAGE:
+　/jumpforjoy5, /jj5 [subcommand]
+
+→Jump for joy like a sabotender.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/jumpforjoy5,/jj5,0,293,2,1,2,0,0
+664,"USAGE:
+　/handtoheart [subcommand]
+
+→Gently place your hand on your heart.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/handtoheart,,0,293,2,1,2,0,0
+665,"ALIASES:
+　/cheeronbright, /cheerow
+USAGE:
+　/cheeronbright [subcommand]
+
+→Wave your hands enthusiastically with white illuminated rods.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheeronbright,/cheerow,0,293,2,1,2,0,0
+666,"ALIASES:
+　/cheerwaveviolet, /cheerwv
+USAGE:
+　/cheerwaveviolet [subcommand]
+
+→Wave your hand in the air with a violet illuminated rod.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerwaveviolet,/cheerwv,0,293,2,1,2,0,0
+667,"ALIASES:
+　/cheerjumpgreen, /cheerjg
+USAGE:
+　/cheerjumpgreen [subcommand]
+
+→Jump and cheer enthusiastically with green illuminated rods.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerjumpgreen,/cheerjg,0,293,2,1,2,0,0
+668,"USAGE:
+　/allsaintscharm [subcommand]
+
+→Swish and flick to cast a spell.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/allsaintscharm,,0,293,2,1,2,0,0
+669,,,,,,0,0,0,0,0,0,0
+670,"USAGE:
+　/lophop [subcommand]
+
+→Perform the Lop Hop.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lophop,,0,293,2,1,2,0,0
+671,"USAGE:
+　/reference [subcommand]
+
+→Consult literature.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/reference,,0,293,2,1,2,0,0
+672,"USAGE:
+　/eatchicken  [subcommand]
+
+→Snack on a piece of fried chicken.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/eatchicken,,0,293,2,1,2,0,0
+673,"ALIASES:
+　/sundering, /exodus
+USAGE:
+　/sundering [subcommand]
+
+→Perform Exodus and sunder the world.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/sundering,/exodus,0,293,2,1,2,0,0
+674,"USAGE:
+　/slump [subcommand]
+
+→Hang your head in defeat.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/slump,,0,293,2,1,2,0,0
+675,"ALIASES:
+　/loveheart, /heart
+USAGE:
+　/loveheart [subcommand]
+
+→Make a heart shape with your hands.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/loveheart,/heart,0,293,2,1,2,0,0
+676,"ALIASES:
+　/humbletriumph, /waitforit
+USAGE:
+　/humbletriumph [subcommand]
+
+→Strike a mildly triumphant pose.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/humbletriumph,/waitforit,0,293,2,1,2,0,0
+677,"ALIASES:
+　/victoryreveal, /vreveal
+USAGE:
+　/victoryreveal [subcommand]
+
+→Await news of your victory.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/victoryreveal,/vreveal,0,293,2,1,2,0,0
+678,"USAGE:
+　/fryegg [subcommand]
+
+→Fry an egg.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/fryegg,,0,293,2,1,2,0,0
+679,"ALIASES:
+　/uchiwasshoi, /bigfan
+USAGE:
+　/uchiwasshoi [subcommand]
+
+→Stir the air with a giant fan.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/uchiwasshoi,/bigfan,0,293,2,1,2,0,0
+680,"USAGE:
+　/attend [subcommand]
+
+→Await your next orders.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/attend,,0,293,2,1,2,0,0
+681,"USAGE:
+　/water [subcommand]
+
+→Sprinkle water over the ground.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/water,,0,293,2,1,2,0,0
+682,"USAGE:
+　/shakedrink [subcommand]
+
+→Shake up a refreshing cocktail.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/shakedrink,,0,293,2,1,2,0,0
+683,"ALIASES:
+　/poseoftheunbound, /unbound
+USAGE:
+　/poseoftheunbound [subcommand]
+
+→Pose as if freed from all inhibition and common sense.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/poseoftheunbound,/unbound,0,293,2,1,2,0,0
+684,"USAGE:
+　/bouquet [subcommand]
+
+→Bestow a beautiful bouquet.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/bouquet,,0,293,2,1,2,0,0
+685,"USAGE:
+　/blowbubbles [subcommand]
+
+→Blow bubbles into the air.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/blowbubbles,,0,293,2,1,2,0,0
+686,"USAGE:
+　/ohokaliy [subcommand]
+
+→Perform a proper Hanuhanu greeting.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/ohokaliy,,0,293,2,1,2,0,0
+687,"USAGE:
+　/visage [subcommand]
+
+→Capture your visage in your exotablet.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/visage,,0,293,2,1,2,0,0
+688,,,,,,0,0,0,0,0,0,0
+689,"USAGE:
+　/photograph [subcommand]
+
+→Take out your instant camera and snap a photo.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/photograph,,0,293,2,1,2,0,0
+690,,,,,,0,0,0,0,0,0,0
+691,,,,,,0,0,0,0,0,0,0
+692,"USAGE:
+　/overreact [subcommand]
+
+→Look on in absolute shock.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/overreact,,0,293,2,1,2,0,0
+693,"USAGE:
+　/twirl [subcommand]
+
+→Merrily spin around to flaunt your currently equipped attire.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/twirl,,0,293,2,1,2,0,0
+694,"USAGE:
+　/dazed [subcommand]
+
+→See stars as you stumble in a stupor.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/dazed,,0,293,2,1,2,0,0
+695,"USAGE:
+　/rage [subcommand]
+
+→Shake with rage.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/rage,,0,293,2,1,2,0,0
+696,"USAGE:
+　/tomescroll [subcommand]
+
+→Lovingly tap your tomestone in search of succor.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/tomescroll,,0,293,2,1,2,0,0
+697,"USAGE:
+　/study [subcommand]
+
+→Study intently.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/study,,0,293,2,1,2,0,0
+698,,,,,,0,0,0,0,0,0,0
+699,"USAGE:
+　/gridaniansip [subcommand]
+
+→Take a brief draught from a decorative mug of mulled Gridanian punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gridaniansip,,0,293,2,1,2,0,0
+700,"USAGE:
+　/uldahnsip [subcommand]
+
+→Take a brief draught from a decorative mug of mulled Ul'dahn punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/uldahnsip,,0,293,2,1,2,0,0
+701,"USAGE:
+　/lominsansip [subcommand]
+
+→Take a brief draught from a decorative mug of mulled Lominsan punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lominsansip,,0,293,2,1,2,0,0
+702,"USAGE:
+　/gridaniangulp [subcommand]
+
+→Continuously sip at a serving of mulled Gridanian punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/gridaniangulp,,0,293,2,1,2,0,0
+703,"USAGE:
+　/uldahngulp [subcommand]
+
+→Continuously sip at a serving of mulled Ul'dahn punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/uldahngulp,,0,293,2,1,2,0,0
+704,"USAGE:
+　/lominsangulp [subcommand]
+
+→Continuously sip at a serving of mulled Lominsan punch.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/lominsangulp,,0,293,2,1,2,0,0
+705,"ALIASES:
+　/limberup, /limber
+USAGE:
+　/limberup [subcommand]
+
+→Wind up your arm in a brisk stretch.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/limberup,/limber,0,293,2,1,2,0,0
+706,"ALIASES:
+　/drinkgreentea, /greentea
+USAGE:
+　/drinkgreentea [subcommand]
+
+→Sip at a soothing cup of green tea.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/drinkgreentea,/greentea,0,293,2,1,2,0,0
+707,"USAGE:
+　/savortea [subcommand]
+
+→Continuously sip at a cup of green tea while seated.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/savortea,,0,293,2,1,2,0,0
+708,"USAGE:
+　/pen [subcommand]
+
+→Scrawl down some notes with a quill pen.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/pen,,0,293,2,1,2,0,0
+709,,,,,,0,0,0,0,0,0,0
+710,,,,,,0,0,0,0,0,0,0
+711,"ALIASES:
+　/cheerrhythmred, /cheerrr
+USAGE:
+　/cheerrhythmred [subcommand]
+
+→Keep the beat enthusiastically with red illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerrhythmred,/cheerrr,0,293,2,1,2,0,0
+712,"ALIASES:
+　/cheerlightyellow, /cheerly
+USAGE:
+　/cheerlightyellow [subcommand]
+
+→Sway gently from side to side with yellow illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerlightyellow,/cheerly,0,293,2,1,2,0,0
+713,,,,,,0,0,0,0,0,0,0
+714,"ALIASES:
+　/runwaywalk, /runway
+USAGE:
+　/runwaywalk [subcommand]
+
+→Confidently strut your stuff.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/runwaywalk,/runway,0,293,2,1,2,0,0
+715,,,,,,0,0,0,0,0,0,0
+716,,,,,,0,0,0,0,0,0,0
+717,,,,,,0,0,0,0,0,0,0
+718,"USAGE:
+　/carrybook [subcommand]
+
+→Clasp a tome tight to your bosom.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/carrybook,,0,293,2,1,2,0,0
+719,"USAGE:
+　/divinearm [subcommand]
+
+→Send forth radiant light from the Divine Artifact upon your arm.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/divinearm,,0,293,2,1,2,0,0
+720,"USAGE:
+　/divinedisk [subcommand]
+
+→Send forth radiant light from the Divine Artifact around your neck.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/divinedisk,,0,293,2,1,2,0,0
+721,"USAGE:
+　/divinetiara [subcommand]
+
+→Send forth radiant light from the Divine Artifact atop your head.
+
+>>Subcommands:
+ 　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/divinetiara,,0,293,2,1,2,0,0
+722,"ALIASES:
+　/cheerrhythmviolet, /cheerrv
+USAGE:
+　/cheerrhythmviolet [subcommand]
+
+→Keep the beat enthusiastically with violet illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerrhythmviolet,/cheerrv,0,293,2,1,2,0,0
+723,"ALIASES:
+　/cheerrhythmbright, /cheerrw
+USAGE:
+　/cheerrhythmbright [subcommand]
+
+→Keep the beat enthusiastically with white illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerrhythmbright,/cheerrw,0,293,2,1,2,0,0
+724,"ALIASES:
+　/cheerlightblue, /cheerlb
+USAGE:
+　/cheerlightblue [subcommand]
+
+→Sway gently from side to side with blue illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerlightblue,/cheerlb,0,293,2,1,2,0,0
+725,"ALIASES:
+　/cheerlightgreen, /cheerlg
+USAGE:
+　/cheerlightgreen [subcommand]
+
+→Sway gently from side to side with green illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0
