@@ -1,0 +1,24 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_FESBKCRECOMPLETE_00716_SYSTEM_000_000","Saisonale Aufträge, die man bereits einmal durchgespielt hat, können zu bestimmten Zeiten erneut mit der Funktion „Wiederholung saisonaler Aufträge“ gespielt werden."
+1,"TEXT_FESBKCRECOMPLETE_00716_YESNO_000_001","Möchtest du einen saisonalen Auftrag wiederholen?"
+2,"TEXT_FESBKCRECOMPLETE_00716_YESNOCHECK_000_002","Bei der Nutzung der Funktion „Saisonalen Auftrag wiederholen“ werden die folgenden Aufträge zurückgesetzt:
+
+　　- <Sheet(Quest,IntegerParameter(1),0)/>
+<If(Equal(IntegerParameter(2),0))><Else/>　　- <Sheet(Quest,IntegerParameter(2),0)/>
+</If><If(Equal(IntegerParameter(3),0))><Else/>　　- <Sheet(Quest,IntegerParameter(3),0)/>
+</If><If(Equal(IntegerParameter(4),0))><Else/>
+Bis die Aufträge erneut erfüllt wurden, ist es nicht möglich, mit den folgenden NPCs zu handeln:
+
+　　- <Clickable(<Sheet(ENpcResident,IntegerParameter(4),0)/>)/>
+</If><If(Equal(IntegerParameter(5),0))><Else/>　　- <Clickable(<Sheet(ENpcResident,IntegerParameter(5),0)/>)/>
+</If><If(Equal(IntegerParameter(4),0))><Else/>
+Wenn bis zum Ende der Dauer des saisonalen Ereignisses die Aufträge nicht abgeschlossen werden, bleibt der Handel mit diesen NPCs weiterhin verwehrt.
+</If>
+Bitte stelle sicher, dass dir während des saisonalen Ereignisses ausreichend Zeit zur Verfügung steht, um den saisonalen Auftrag abzuschließen.
+
+Viel Spaß dabei!
+"
+3,"TEXT_FESBKCRECOMPLETE_00716_CHECKBOX_000_003","Saisonalen Auftrag wiederholen"
+4,"TEXT_FESBKCRECOMPLETE_00716_TALK_ACTOR","（★未使用／削除予定★）"

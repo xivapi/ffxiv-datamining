@@ -1,0 +1,52 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CTSIKDENTRANCE_00663_DRYSKTHOTA_000_000","ここでは、漁師ギルド運営の大型漁船、
+「エンデバー号」の乗船受付をしています。
+ご興味がありましたら、まずは漁師ギルドへどうぞ！"
+1,"TEXT_CTSIKDENTRANCE_00663_DRYSKTHOTA_000_010","ようこそ！　漁師ギルドが誇る大型漁船……
+「エンデバー号」への乗船希望ですか？"
+2,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_005","乗船受付中"
+3,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_010","乗船受付時間外
+次回の受付開始： <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>時間<If(GreaterThan(IntegerParameter(3),1))><Value>IntegerParameter(3)</Value>分<Else/></If>後<Else/><If(GreaterThan(IntegerParameter(3),1))><Value>IntegerParameter(3)</Value>分後<Else/>1分以内</If></If>"
+4,"TEXT_CTSIKDENTRANCE_00663_Q1_000_000","「乗船受付」を行う"
+5,"TEXT_CTSIKDENTRANCE_00663_Q1_000_001","「運行表」を見る"
+6,"TEXT_CTSIKDENTRANCE_00663_Q1_000_002","「オーシャンフィッシング」の詳細を確認する"
+7,"TEXT_CTSIKDENTRANCE_00663_Q1_000_003","キャンセル"
+8,"TEXT_CTSIKDENTRANCE_00663_STM_TITLE","どの航路に乗船する？"
+9,"TEXT_CTSIKDENTRANCE_00663_STM_001","「<Sheet(IKDRoute,IntegerParameter(1),11)/>」に乗船する。"
+10,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_020","「<Sheet(IKDRoute,IntegerParameter(1),11)/>」に乗船しますか？"
+11,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_025","「<Sheet(IKDRoute,IntegerParameter(1),11)/>」に乗船しますか？
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※メインクエスト「紅蓮のリベレーター」を、
+　コンプリートしていないパーティメンバーがいる場合、
+　この航路には乗船できません。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+12,"TEXT_CTSIKDENTRANCE_00663_DRYSKTHOTA_000_200","あら、釣り竿をどこかにお忘れですか？
+エンデバー号は、漁師専用の大型漁船となりますので、
+ぜひ、漁師としてご参加ください！"
+13,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_205","エンデバー号に乗船できるのは漁師のみとなります。
+「乗船受付」を行いたい場合は、漁師になってから、
+再度ドリスクトータに話しかけましょう。"
+14,"TEXT_CTSIKDENTRANCE_00663_DRYSKTHOTA_000_300","ごめんなさい！　乗船受付が間に合わず……。
+すでに出航となってしまいました。
+よければ、次回の航海にご参加ください。"
+15,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_305","「乗船受付」の受付時間が終了してしまったため、
+乗船ができませんでした。"
+16,"TEXT_CTSIKDENTRANCE_00663_DRYSKTHOTA_000_500","現在は、受付時間外となります！
+次回航海の受付時間をお待ちください。"
+17,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_505","「乗船受付」の受付時間外のため、受付が行えませんでした。
+次の受付開始時刻は、「運行表」から確認できます。"
+18,"TEXT_CTSIKDENTRANCE_00663_DRYSKTHOTA_000_600","ごめんなさい！
+条件が整っておらず、乗船いただけないようです。
+よければ、次回の航海にご参加ください。"
+19,"TEXT_CTSIKDENTRANCE_00663_SYSTEM_000_605","前回、オーシャンフィッシングから途中退出しているため、
+受付が行えませんでした。
+次の受付開始時刻は、「運行表」から確認できます。"
+20,"TEXT_CTSIKDENTRANCE_00663_TALK_ACTOR","（★未使用／削除予定★）"
+21,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_005","（★未使用／削除予定★）"
+22,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_010","（★未使用／削除予定★）"
+23,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_Q1_000","（★未使用／削除予定★）"
+24,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_Q1_001","（★未使用／削除予定★）"
+25,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_Q1_002","（★未使用／削除予定★）"
+26,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_Q1_010","（★未使用／削除予定★）"
+27,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_001","（★未使用／削除予定★）"
+28,"TEXT_CTSIKDENTRANCE_00663_PROG_TEST_000","●乗船受付時間外（次回の受付開始まで：<Value>IntegerParameter(1)</Value>s）"

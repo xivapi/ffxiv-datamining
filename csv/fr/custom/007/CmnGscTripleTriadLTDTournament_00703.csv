@@ -1,0 +1,29 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_000","Bienvenue au square des duellistes<Indent/>! Vous êtes dans le temple de Triple Triade, le jeu de cartes le plus populaire d'Éorzéa. Adressez-vous à la croupière pour commencer, elle sera ravie de vous apprendre toutes les règles<Indent/>!"
+1,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_001","Bienvenue au square des duellistes<Indent/>! Pour s'inscrire au tournoi officiel en cours, c'est ici que ça se passe<Indent/>!"
+2,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_002","Un tournoi officiel est en cours<Indent/>!"
+3,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_003","Le prochain tournoi officiel commence
+dans <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>heure<Else/>heures</If><If(GreaterThan(IntegerParameter(1),0))><If(GreaterThan(IntegerParameter(2),0))> et <Else/></If><Else/></If><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>minute<Else/>minutes</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>minute<Else/>minutes</If><Else/>moins d'une minute</If></If>."
+4,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_000","S'inscrire au tournoi officiel"
+5,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_001","Voir le calendrier des tournois officiels"
+6,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_002","Voir les ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions"
+7,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_003","Annuler"
+8,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_005","À l'exception de la règle Draft, aucune règle spéciale n'est en vigueur pour le tournoi en cours. Seule la compréhension des règles de base est nécessaire pour pour participer.
+
+Voulez-vous vous inscrire<Indent/>?"
+9,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_105","En plus de la règle Draft, <If(GreaterThan(IntegerParameter(2),0))>les règles spéciales suivantes sont<Else/>la règle spéciale suivante est</If> en vigueur pour le tournoi en cours<Indent/>:
+- <Sheet(TripleTriadRule,IntegerParameter(1),0)/>
+<If(GreaterThan(IntegerParameter(2),0))>- <Sheet(TripleTriadRule,IntegerParameter(2),0)/>
+<Else/></If><If(GreaterThan(IntegerParameter(3),0))>- <Sheet(TripleTriadRule,IntegerParameter(3),0)/>
+<Else/></If><If(GreaterThan(IntegerParameter(4),0))>- <Sheet(TripleTriadRule,IntegerParameter(4),0)/>
+<Else/></If>
+Voulez-vous vous inscrire<Indent/>?"
+10,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_006","Toutes mes excuses, les ins<SoftHyphen/>crip<SoftHyphen/>tions pour le tournoi officiel en cours sont closes. J'espère que vous nous ferez l'honneur de participer la prochaine fois<Indent/>!"
+11,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_007","J'ai le regret de vous annoncer que les ins<SoftHyphen/>crip<SoftHyphen/>tions sont ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment fermées."
+12,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_008","Si vous désirez savoir quand se déroulera le prochain tournoi, je vous invite à me reparler pour consulter le calendrier<Indent/>!"
+13,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_009","Les par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants à un tournoi officiel sont récompensés en fonction de leur classement. Je vous conseille de prévoir un peu de place dans vos sacs pour recevoir votre prix<Indent/>!"
+14,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_010","Impossible de vous inscrire au tournoi. Votre inventaire est plein. Faites de la place, puis adressez-vous de nouveau au guichet."
+15,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_PROG_TEST_000","（★未使用／削除予定★）"
+16,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_PROG_TEST_001","（★未使用／削除予定★）"

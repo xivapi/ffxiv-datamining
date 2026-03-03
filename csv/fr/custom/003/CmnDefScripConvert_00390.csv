@@ -1,0 +1,15 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNDEFSCRIPCONVERT_00390_TALK_GREETING_00000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If> aventuri<If(PlayerParameter(4))>ère<Else/>er</If><Indent/>! Je peux échanger vos <SheetFr(Item,12,IntegerParameter(1),2,1)/> et <SheetFr(Item,12,IntegerParameter(2),2,1)/> contre des <SheetFr(Item,12,IntegerParameter(3),2,1)/> ou des <SheetFr(Item,12,IntegerParameter(4),2,1)/>, si vous voulez."
+1,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_Q000","Quel type d'assignats voulez-vous échanger<Indent/>?"
+2,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A001","<Clickable(<SheetFr(Item,12,IntegerParameter(1),2,1)/>)/>"
+3,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A002","<Clickable(<SheetFr(Item,12,IntegerParameter(1),2,1)/>)/>"
+4,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_SCRIP_A003","Annuler"
+5,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_EXCHANGE_Q000","Échanger <Value>IntegerParameter(2)</Value> <SheetFr(Item,12,IntegerParameter(1),<Value>IntegerParameter(2)</Value>,1)/> contre <Value>IntegerParameter(4)</Value> <SheetFr(Item,12,IntegerParameter(3),<Value>IntegerParameter(4)</Value>,1)/><Indent/>?"
+6,"TEXT_CMNDEFSCRIPCONVERT_00390_ASK_LIMIT_Q000","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Attention<Indent/>: tous les <SheetFr(Item,12,IntegerParameter(1),2,1)/> au-delà de la limite ne pourront pas être obtenu<If(<Sheet(Item,IntegerParameter(1),6)/>)>e<Else/></If>s.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+Confirmer l'échange<Indent/>?"
+7,"TEXT_CMNDEFSCRIPCONVERT_00390_SYSTEM_EXCHANGE_00000","Vous avez obtenu <Value>IntegerParameter(4)</Value> <SheetFr(Item,12,IntegerParameter(3),<Value>IntegerParameter(4)</Value>,1)/> en échange de <Value>IntegerParameter(2)</Value> <SheetFr(Item,12,IntegerParameter(1),<Value>IntegerParameter(2)</Value>,1)/>."
+8,"TEXT_CMNDEFSCRIPCONVERT_00390_TALK_NOTOBTAINABLE_00000","Oh<Indent/>! Je crains que vous ne soyez pas en possession <SheetFr(Item,8,IntegerParameter(1),2,1)/>..."
+9,"TEXT_CMNDEFSCRIPCONVERT_00390_TALK_MAXIMUM_00000","Ch<If(PlayerParameter(4))>ère<Else/>er</If> client<If(PlayerParameter(4))>e<Else/></If>, je suis au regret de vous dire que vous ne pouvez pas détenir davantage <SheetFr(Item,8,IntegerParameter(1),2,1)/>..."

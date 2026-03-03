@@ -1,0 +1,66 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_000","Gerolt est prêt à forger notre arme du zodiaque<Indent/>? Parfait<Indent/>! C'est exactement ce que je voulais entendre."
+1,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_001","Si vous êtes toujours décidé<If(PlayerParameter(4))>e<Else/></If> à aller au bout de cette folle aventure, je vous propose de commencer sans plus attendre."
+2,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MENU_TITLE","Choisissez l'arme du zodiaque que vous voulez forger"
+3,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MENU_CHOICES","<If(Equal(IntegerParameter(1),9491))>Transformer <SheetFr(Item,12,8649,1,1)/> en <SheetFr(Item,12,9491,1,1)/> et <SheetFr(Item,2,8658,1,1)/> en <SheetFr(Item,12,9500,1,1)/><Else/>Transformer <SheetFr(Item,2,IntegerParameter(2),1,1)/> en <SheetFr(Item,12,IntegerParameter(1),1,1)/></If>"
+4,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MENU_CANCEL","Annuler"
+5,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_YESNO_MESSAGE","Voulez-vous vraiment forger <If(Equal(IntegerParameter(1),9491))><SheetFr(Item,12,9491,1,1)/> et <SheetFr(Item,12,9500,1,1)/><Else/><SheetFr(Item,2,IntegerParameter(1),1,1)/></If><Indent/>?"
+6,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_YESNO_YES","Oui"
+7,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_YESNO_NO","Non"
+8,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_030","Vous avez bien dit “<If(Equal(IntegerParameter(1),8649))><SheetFr(Item,12,8649,1,1)/> et <SheetFr(Item,2,8658,1,1)/><Else/><Sheet(Item,IntegerParameter(1),9)/></If>”<Indent/>? C'est étrange, je ne vois pas <If(Equal(IntegerParameter(1),8649))>ces équipements<Else/>cette arme</If> dans votre sac."
+9,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_031","Votre arme antique doit se trouver dans l'inventaire ou dans l'arsenal au moment où vous parlez à Jalzahn."
+10,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_040","Vous n'avez pas d'arme antique nexus dans vos bagages<Indent/>? Voilà qui est embêtant... Au cas où vous l'auriez oublié, nous en avons besoin pour créer la matéria spéciale qui nous permettra de forger notre arme du zodiaque."
+11,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_050","Flûte... Je suis vraiment désolé de devoir vous annoncer ça, mais il vous manque des matériaux. Je vous rappelle que nous en avons besoin de quatre en tout."
+12,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_051","Pour forger une arme du zodiaque, vous devez posséder les objets suivants<Indent/>: <SheetFr(Item,1,9506,1,1)/>, <SheetFr(Item,1,9507,1,1)/>, <SheetFr(Item,1,9508,1,1)/> et <SheetFr(Item,1,9509,1,1)/>."
+13,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_060","Vous savez, cette arme du zodiaque est ex<SoftHyphen/>cep<SoftHyphen/>tion<SoftHyphen/>nelle. Vous ne pouvez pas en posséder plusieurs exemplaires, je regrette."
+14,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_060","Vous possédez déjà <SheetFr(Item,2,IntegerParameter(1),1,1)/>."
+15,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_100_070","（★未使用／削除予定★）"
+16,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_100","Je crois que nous avons tout le nécessaire... à l'exception de cette fameuse matéria, bien sûr."
+17,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_101","Ne vous inquiétez pas, je me suis occupé de prévenir Mutamix et il devrait arriver d'ici quelques minutes."
+18,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_102","C'est moi qui ouvre le bal, c'est ça<Indent/>?
+Allez<Indent/>! Ouvrez grand vos mirettes, les nénettes, vous allez assister à un spectacle inédit qui restera à jamais gravé dans vos mémoires<Indent/>!"
+19,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_103","Ouf... Bon sang... J'en ai chié... (souffle) Mais admirez l'travail<Indent/>! Elle est pas belle... (souffle) mon arme du zodiaque<Indent/>?"
+20,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_104","Elle est parfaite<Indent/>! Et elle sera d'autant plus parfaite lorsque nous y aurons imprégné une âme. Messire Mutamix, si vous voulez bien nous faire l'honneur de matérialiser l'arme antique de <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>..."
+21,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_105","OooOoooh... L'arme de l'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> est très lourde... Mutamix sent le poids des âmes qui l'habitent<Indent/>! Pshhh..."
+22,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_106","L'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> a bien réfléchi<Indent/>? Mutamix va faire de son mieux, mais si par malheur il échoue, l'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> perdra son arme."
+23,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_107","Les chances de réussite de la matérialisation sont de <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1,4%<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+En cas d'échec, l'arme antique nexus sera <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>détruite<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+24,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_Q1_000_000","Voulez-vous matérialiser votre arme antique nexus<Indent/>?"
+25,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A1_000_001","Oui"
+26,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A1_000_002","Non"
+27,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_Q2_000_000","Les chances de réussite de la matérialisation sont de <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1,4%<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+En cas d'échec, l'arme antique nexus sera <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>détruite<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
+Voulez-vous vraiment continuer<Indent/>?"
+28,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A2_000_001","Oui"
+29,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A2_000_002","Non"
+30,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_Q3_000_000","Voulez-vous abandonner la forge des armes du zodiaque<Indent/>?"
+31,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A3_000_001","Oui"
+32,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A3_000_002","Non"
+33,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_110","Bravo<Indent/>! Tu t'es pas dégonflé<If(PlayerParameter(4))>e<Else/></If><Indent/>!
+Allez Mutamix, à toi de jouer... et t'as pas intérêt à foirer ton coup<Indent/>!"
+34,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_111","Raaah<Indent/>! Quelle mauviette<Indent/>! Dans la vie, faut savoir prendre des risques<Indent/>!
+Bon<Indent/>! Puisque c'est comme ça, j'vais choisir pour toi. Mutamix, j'te donne la permission de matérialiser l'arme de notre ami<If(PlayerParameter(4))>e<Else/></If><Indent/>! À toi de jouer<Indent/>!"
+35,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_112","Tu la veux ou pas, cette foutue arme du zodiaque<Indent/>?
+Bon, comme t'as l'air d'hésiter, j'vais décider pour toi. Mutamix, j'te donne la permission de matérialiser l'arme de notre ami<If(PlayerParameter(4))>e<Else/></If>. À toi de jouer<Indent/>!"
+36,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_113","Message reçu cinq sur cinq<Indent/>! Les dés sont jetés<Indent/>!
+Mutamix se concentre...
+NrrRRGHHhhh<Indent/>!!!"
+37,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_114","... OooOoooh<Indent/>! Mutamix a réussi<Indent/>! Sa méthode expérimentale a fonctionné<Indent/>! Quelle surprise<Indent/>! Psshhh..."
+38,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_115","Sacré Mumu<Indent/>! J'étais sûr que t'y arriverais<Indent/>!"
+39,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_116","J'ai envie de dire que le plus dur est fait. Il ne nous reste plus qu'à fixer cette matéria sur l'arme qu'a forgée Gerolt<Indent/>!"
+40,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_150","Il me semble que nous avons tout le nécessaire... Mettons-nous donc au travail."
+41,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_200","Bien<Indent/>! C'est à mon tour de m'illustrer, maintenant. Je vais utiliser ce parchemin zodiacal et cette alexandrite immaculée pour infuser le pouvoir de la matéria dans notre arme... Fermez les yeux, la lueur risque d'être aveuglante<Indent/>!"
+42,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_201","Admirez ces beautés<Indent/>! On raconte que le roi qui régnait autrefois sur le continent d'Ilsabard avait une affection toute par<SoftHyphen/>ti<SoftHyphen/>cu<SoftHyphen/>liè<SoftHyphen/>re pour cette épée."
+43,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_202","Ce souverain aussi respectable que respecté ne s'en séparait jamais, tout comme de ce bouclier que l'on disait être un cadeau des Dieux car indestructible. D'ailleurs, il..."
+44,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_203","Admirez cette beauté<Indent/>! On raconte que cette arme ornait les poings du régent Milza, le héros qui a protégé son peuple des forces du mal alors que le monde s'écroulait. D'après la légende, le modèle original était fabriqué à partir de véritables griffes de démon, subtilisées lors d'un..."
+45,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_204","Admirez cette beauté<Indent/>! D'après la légende, cette arme aurait été arrachée des griffes du roi des sept enfers par un héros des temps jadis. Fait ô combien surprenant, elle serait capable de changer de forme en fonction du style de combat de son détenteur. Initialement, il s'agissait d'un glaive mais depuis que les guerriers se la transmettent entre eux, elle garde l'apparence d'une hache. Autre détail intéressant, elle..."
+46,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_205","Admirez cette beauté<Indent/>! Selon la légende, cette arme appartenait autrefois à Longin, un soldat qui a été contraint de tuer un saint accusé d'hérésie. Ce n'est qu'après avoir accompli son acte funeste qu'il a réalisé qu'il venait de tuer un envoyé des Dieux. En effet, le sang qu'il venait de répandre avait non seulement pansé ses blessures, mais aussi conféré un pouvoir divin à sa lance. Dépité, il a entrepris un pèlerinage pour se repentir et..."
+47,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_206","Admirez cette beauté<Indent/>! Cet arc long appartenait jadis à un héros de l'Extrême-Orient. D'après la légende, son détenteur a réussi à abattre un dragon volant qui menaçait son village en lui décochant une flèche dans l'œil, et ce alors que la tempête faisait rage et qu'il se trouvait à plus de cinquante fulms de lui<Indent/>! Mais ce n'est pas tout, il a aussi..."
+48,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_207","Admirez cette beauté<Indent/>! Ce bâton appartenait autrefois à un grand prêtre du Proche-Orient qui a fini par atteindre un nouveau niveau de conscience au terme d'une vie d'ascétisme et d'errance. D'après la légende, les Dieux ont récompensé sa dévotion en donnant vie à son bâton et en le bénissant avec des pouvoirs incroyables. Bien sûr, il a..."
+49,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_208","Admirez cette beauté<Indent/>! Ce sceptre était autrefois celui d'une démone de l'au-delà que l'on surnommait le “Spectre de la nuit”. D'après la légende, elle s'est rendue dans le monde physique pour y imposer son règne, mais un archimage l'a vaincue et a récupéré son arme comme trophée. Depuis..."
+50,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_209","Admirez cette beauté<Indent/>! Ce livre interdit d'origine inconnue contient des versets codés sur les prophéties de la fin du monde. La légende raconte que plusieurs centaines d'arcanistes dont la conscience n'était pas suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment éveillée ont sombré dans la folie en essayant de le déchiffrer. C'est assurément un..."
+51,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_210","Admirez cette beauté<Indent/>! Ce grimoire légendaire s'est transmis de génération en génération au sein du corps des marins-soldats de Nym. La légende raconte que c'était l'arme fétiche du capitaine Golbas Rombas, le héros qui a sauvé d'innombrables vies lors du sixième fléau. D'ailleurs, il n'a pas hésité à..."
+52,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_211","Admirez ces beautés<Indent/>! Ces sabres courts appartenaient à l'origine à un ninja légendaire, un combattant au courage démesuré qui a libéré son peuple de l'oppression en éliminant des centaines d'adversaires à lui seul. Ses faits héroïques ont été célébrés par des poèmes qui ont étendu sa renommée dans tout le continent et ses poignards ont été pré<SoftHyphen/>cieu<SoftHyphen/>se<SoftHyphen/>ment transmis de génération en génération au sein de son clan. Fait amusant, cet homme était lui-même le petit-fils d'un célèbre..."
+53,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_212","Aheum<Indent/>! Je suppose que ma petite leçon d'histoire peut attendre. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, voici <SheetFr(Item,2,IntegerParameter(1),1,1)/>, l'arme du zodiaque pour laquelle vous avez lutté avec tant de courage<Indent/>! Puisse-t-elle vous permettre de réaliser vos rêves<Indent/>!"

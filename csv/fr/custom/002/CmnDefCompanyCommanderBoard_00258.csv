@@ -1,0 +1,58 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE_0","Veuillez enregistrer un aéronef."
+1,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE","Choisissez un aéronef.
+  Appareils expédiés<Indent/>: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>
+  Barils de céruleum<Indent/>: <Value>IntegerParameter(1)</Value>"
+2,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_ADD_NEW_AIRSHIP","Enregistrement d'un aéronef (requiert <Value>IntegerParameter(1)</Value> formulaire<If(LessThanOrEqualTo(IntegerParameter(1),1))><Else/>s</If>)"
+3,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(5)</Value>)<Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)> [Fin d'expédition dans <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>j <Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>h<Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(3)</Value>h<Else/></If></If><Value>IntegerParameter(4)</Value>m]</Case><Case(4)> [Fin de mission dans <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>j <Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>h<Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(3)</Value>h<Else/></If></If><Value>IntegerParameter(4)</Value>m]</Case><Case(5)> [Alliance en attente]</Case></Switch>"
+4,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_FINISH","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(5)</Value>)<Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)> [Expédition terminée]</Case><Case(4)> [Mission terminée]</Case></Switch>"
+5,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_EXIT","Annuler"
+6,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(3)</Value>)
+  Appareils expédiés<Indent/>: <Value>IntegerParameter(4)</Value>/<Value>IntegerParameter(5)</Value>
+  Barils de céruleum<Indent/>: <Value>IntegerParameter(2)</Value>"
+7,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_EXPEDITION","Expédier l'aéronef"
+8,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_RESULT","Consulter le journal de la précédente expédition"
+9,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_PARTS","Changer les éléments"
+10,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_REPAIR_PARTS","Réparer des éléments"
+11,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_SETTING","Paramètres de l'aéronef"
+12,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_COLOR","Teindre les éléments"
+13,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_NAME","Renommer l'aéronef"
+14,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_REMOVE","Démonter l'aéronef"
+15,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPEDITION","Explorer Le Diadème"
+16,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPEDITION",""
+17,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPD2","Explorer Le Diadème"
+18,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPD2",""
+19,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(2)</Value>)
+  Appareils expédiés<Indent/>: <Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value>
+  Retour<Indent/>: <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>j <Else/></If><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>h<Else/><If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(6)</Value>h<Else/></If></If><Value>IntegerParameter(7)</Value>m"
+20,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_COND","Rappeler l'aéronef"
+21,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_MAP","Vérifier la carte de la Mer de nuages"
+22,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_STATUS","Vérifier l'état de l'aéronef"
+23,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_TITLE","Donner un nouveau nom à l'aéronef."
+24,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_CAPTION","Nom de l'aéronef"
+25,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0","Le nom peut comprendre des lettres non accentuées, des chiffres, des espaces ou les symboles suivants<Indent/>:
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>'<Indent/>. ,<Indent/>:<Indent/>;<Indent/>!<Indent/>? & - _<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+- Deux espaces ou deux tirets bas ne peuvent pas se suivre.
+- Il ne peut pas commencer ou se terminer par une espace.
+- Il ne peut pas être composé uniquement de symboles."
+26,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE","L'aéronef “<Highlight>StringParameter(1)</Highlight>” va être démonté. Confirmer<Indent/>?
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Les éléments seront récupérés, mais les frais d'enregistrement, le rang et l'expérience seront perdus.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+27,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_CHECK","Démonter l'aéronef"
+28,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_1","Pour équiper et enregistrer un aéronef, vous devez être en possession des éléments nécessaires et d'un “formulaire d'enregistrement d'aéronef”."
+29,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_2","Les <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>formulaires d'enregistrement d'aéronef<UIGlow>01</UIGlow><UIForeground>01</UIForeground> peuvent être achetés auprès des officiers du logement contre des crédits de compagnie."
+30,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_3","Les <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>éléments d'aéronef<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (coque, gréement, proue et poupe) peuvent être construits dans l'atelier de compagnie."
+31,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_ENERGY","Vous ne pouvez pas expédier un aéronef de compagnie sans barils de céruleum. Ces derniers peuvent être achetés auprès des officiers du logement contre des crédits de compagnie."
+32,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_1","À la fin d'une expédition, le pantin de l'atelier vous remettra le <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>journal d'expédition<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+33,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_2","Les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions sur les événements survenus au cours de l'exploration peuvent s'avérer utiles pour de futures expéditions."
+34,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_3","Notez que seul le journal de la dernière expédition en date sera conservé."
+35,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REPAIR_ITEM","Pour réparer les éléments de votre aéronef, vous devez impérativement posséder des “kits de réparation d'appareil”."
+36,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_CONTENT_GUIDE","La voie aérienne vers “Le Diadème (brutal)” est désormais ouverte. Cette mission d'exploration est plus difficile, et les monstres y sont plus coriaces."
+37,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT_CAUTION",""
+38,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT_CANCEL",""
+39,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2",""
+40,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_CONFIRM",""
+41,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_YES",""
+42,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_NO",""
+43,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2","Des perturbations dans les vents éthérés se produisent ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment près de l'archipel du Diadème, empêchant toute liaison aérienne vers cet endroit. Les missions d'exploration sont suspendues en attendant que la situation se stabilise."
