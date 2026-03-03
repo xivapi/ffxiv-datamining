@@ -1,0 +1,65 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_TALK_ACTOR","0"
+1,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE_0","潜水艦を登録してください。"
+2,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_TITLE","潜水艦を選択してください。
+　探索機体数：<Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>機
+　保有燃料数：青燐水バレル　<Value>IntegerParameter(1)</Value>樽"
+3,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_ADD_NEW_SUBMARINE","潜水艦の新規登録（潜水艦登録手形×<Value>IntegerParameter(1)</Value>枚）"
+4,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME","<Highlight>StringParameter(1)</Highlight>  [Rank<Value>IntegerParameter(5)</Value>]  <Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)> [探索中:残り時間 <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>日<Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>時間<Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(3)</Value>時間<Else/></If></If><Value>IntegerParameter(4)</Value>分]</Case></Switch>"
+5,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_FINISH","<Highlight>StringParameter(1)</Highlight>  [Rank<Value>IntegerParameter(5)</Value>]  探索完了"
+6,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_SELECT_EXIT","やめる"
+7,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_TITLE","<Highlight>StringParameter(1)</Highlight> [Rank<Value>IntegerParameter(3)</Value>]
+　探索機体数：<Value>IntegerParameter(4)</Value>/<Value>IntegerParameter(5)</Value>機
+　保有燃料数：青燐水バレル　<Value>IntegerParameter(2)</Value>樽"
+8,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_EXPEDITION","ボイジャー出港"
+9,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_RESULT","前回のボイジャー報告"
+10,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_PARTS","パーツの変更"
+11,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_REPAIR_PARTS","パーツの修理"
+12,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CMD_SETTING","設定"
+13,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_COLOR","パーツの染色"
+14,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_NAME","名前の変更"
+15,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_CONF_REMOVE","解体"
+16,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_TITLE","<Highlight>StringParameter(1)</Highlight> [Rank<Value>IntegerParameter(2)</Value>]
+　探索機体数：<Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value>機
+　探索中:残り時間 <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value>日<Else/></If><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value>時間<Else/><If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(6)</Value>時間<Else/></If></If><Value>IntegerParameter(7)</Value>分"
+17,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_COND","探索の中止"
+18,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_MAP","海底図の確認"
+19,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_VOY_CUR_STATUS","潜水艦の確認"
+20,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_TITLE","潜水艦の名前を入力してください。"
+21,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_CAPTION","潜水艦の名前"
+22,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_SUBMARINE_NAME_MES_0","
+名前には、アルファベット・数字・スペースと
+以下の記号が使用できます。
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>‘. , : ; ! ? & - _<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+•スペースや_は2文字以上続けて使えません。
+•先頭や末尾にスペースがある名前は使えません。
+•記号だけの名前は使えません。"
+23,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_TITLE","潜水艦 <Highlight>StringParameter(1)</Highlight> を解体します。
+<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>装備中のアイテムは返還されますが、
+「潜水艦登録手形」は返還されません。
+潜水艦のランクなどの情報は、すべてクリアされます。
+<UIGlow>01</UIGlow><UIForeground>01</UIForeground>本当によろしいですか？"
+24,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_REMOVE_SUBMARINE_CHECK","潜水艦を解体する"
+25,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_1","潜水艦の登録には、
+「潜水艦登録手形」と「潜水艦パーツ」が必要です。"
+26,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_2","「潜水艦登録手形」は、居住区担当官から、
+カンパニークレジットと交換することで入手できます。"
+27,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REGISTRATION_3","「潜水艦パーツ」は、
+「艦体」「艦尾」「艦首」「艦橋」の4種類が必要です。
+これらは「カンパニー製作設備」で製作することで入手できます。"
+28,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_ENERGY","潜水艦の出港には、「青燐水バレル」が必要となります。
+「青燐水バレル」は、居住区担当官から、
+カンパニークレジットと交換することで入手できます。"
+29,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_1","潜水艦の探索が完了すると「ボイジャー報告」が発行され、
+各目的地での探索が、どのような結果となったのか、
+詳細を確認することができます。"
+30,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_2","「ボイジャー報告」には、探索のヒントとなる情報も載っています。
+より良い探索の攻略を目指し、
+潜水艦の装備を、工夫してみてください。"
+31,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_EXPLOG_3","また、「ボイジャー報告」は「過去1回分」が保存されるため、
+フリーカンパニーのメンバー同士で内容を確認しあい、
+次に製作する「潜水艦パーツ」を、一緒に考えてみましょう。"
+32,"TEXT_HOUFIXCOMPANYSUBMARINE_00447_NO_REPAIR_ITEM","「潜水艦パーツ」の修理には、
+「魔導機械修理材」が必要です。"

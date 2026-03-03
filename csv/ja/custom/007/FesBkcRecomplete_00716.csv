@@ -1,0 +1,29 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_FESBKCRECOMPLETE_00716_SYSTEM_000_000","「シーズナルクエストリプレイ」は、
+コンプリート済みのシーズナルクエストを、
+期間限定で、もう一度、体験することができる機能です。"
+1,"TEXT_FESBKCRECOMPLETE_00716_YESNO_000_001","「シーズナルクエストリプレイ」を実行しますか？"
+2,"TEXT_FESBKCRECOMPLETE_00716_YESNOCHECK_000_002","・「シーズナルクエストリプレイ」を実行すると、
+　以下のクエストが未コンプリート状態となります。
+　　「<Sheet(Quest,IntegerParameter(1),0)/>」
+<If(Equal(IntegerParameter(2),0))><Else/>　　「<Sheet(Quest,IntegerParameter(2),0)/>」
+</If><If(Equal(IntegerParameter(3),0))><Else/>　　「<Sheet(Quest,IntegerParameter(3),0)/>」
+</If><If(Equal(IntegerParameter(4),0))><Else/>・クエストをコンプリートするまで、以下のNPCから、
+　関連アイテムの購入・交換ができなくなります。
+　　「<Sheet(ENpcResident,IntegerParameter(4),0)/>」
+</If><If(Equal(IntegerParameter(5),0))><Else/>　　「<Sheet(ENpcResident,IntegerParameter(5),0)/>」
+</If><If(Equal(IntegerParameter(4),0))><Else/>・開催期間終了後に、
+　対象クエストが未コンプリートだった場合は、
+　関連アイテムの購入・交換ができないままとなります。
+</If>・シーズナルクエストリプレイ中は、
+　対象クエストで報酬を得ることができません。
+
+「シーズナルクエストリプレイ」をご利用いただく際は、
+開催期間内に、対象クエストをコンプリートできるよう、
+十分に時間を確保した上で、お楽しみください。
+
+"
+3,"TEXT_FESBKCRECOMPLETE_00716_CHECKBOX_000_003","「シーズナルクエストリプレイ」を実行する"
+4,"TEXT_FESBKCRECOMPLETE_00716_TALK_ACTOR","（★未使用／削除予定★）"

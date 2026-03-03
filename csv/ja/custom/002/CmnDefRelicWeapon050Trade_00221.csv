@@ -1,0 +1,121 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_000","「ゾディアックウェポン」を作るための準備が整ったようだな。
+さぁ、さっそく再創造を行おうではないか！"
+1,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_001","この「ゾディアックウェポン」は、かような力を持つであろう！
+決意が揺らがぬようであれば、さっそく再創造の作業に入るぞ！"
+2,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MENU_TITLE","再創造する「ゾディアックウェポン」を選択してください"
+3,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MENU_CHOICES","<If(Equal(IntegerParameter(1),9491))>「<Sheet(Item,8649,0)/>」から「<Sheet(Item,9491,0)/>」、「<Sheet(Item,8658,0)/>」から「<Sheet(Item,9500,0)/>」を再創造<Else/>「<Sheet(Item,IntegerParameter(2),0)/>」から「<Sheet(Item,IntegerParameter(1),0)/>」を再創造</If>"
+4,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MENU_CANCEL","キャンセル"
+5,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_YESNO_MESSAGE","<If(Equal(IntegerParameter(1),9491))>「<Sheet(Item,9491,0)/>」と「<Sheet(Item,9500,0)/>」を再創造しますか<Else/>「<Sheet(Item,IntegerParameter(1),0)/>」を再創造しますか</If>"
+6,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_YESNO_YES","はい"
+7,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_YESNO_NO","いいえ"
+8,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_030","ふむ、<If(Equal(IntegerParameter(1),8649))>「<Sheet(Item,8649,0)/>」と、
+「<Sheet(Item,8658,0)/>」<Else/>「<Sheet(Item,IntegerParameter(1),0)/>」</If>が見当たらぬようだ。
+マテリアにする武器がなければ、再創造はできぬぞ？"
+9,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_031","「ゾディアックウェポン」を作成するには、
+装備を外して「アーマリーチェスト」か「所持品」に収納し、
+ジャルザーンに話しかける必要があります。"
+10,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_040","ふむ、「古の武器・ネクサス」をひとつも持っていないようだ。
+マテリアにする武器がなければ、
+「ゾディアックウェポン」の作成はできぬぞ？"
+11,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_050","おや……準備が整っていない様子だな。
+すべての素材を揃えたら、私の元に持ってくるのだ。"
+12,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_051","ゾディアックウェポンの作成に必要な素材は、
+「<Sheet(Item,9506,0)/>」、「<Sheet(Item,9507,0)/>」、
+「<Sheet(Item,9508,0)/>」、「<Sheet(Item,9509,0)/>」です。"
+13,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_060","むう、この武器は特別な「ゾディアックウェポン」。
+……ふたつを持つことは叶わぬぞ。"
+14,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_060","すでに「<Sheet(Item,IntegerParameter(1),0)/>」を所持しています。"
+15,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_100_070","（★未使用／削除予定★）"
+16,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_100","……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>よ、よくぞここまで辿り着いた。
+ついに「ゾディアックウェポン」を再創造する時が来た！"
+17,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_101","さぁ、皆に協力を頼み、「ゾディアックウェポン」を作るぞ！
+すぐにミュタミクス氏にも連絡し、こちらに来ていただこう。"
+18,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_102","まずはオレの出番だな……。
+「ゾディアックウェポン」たる、最高の「器」を作ってやる。
+……よし、いくぜ！"
+19,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_103","はぁ、はぁ、はぁ……で、できたぞ……。
+器たる「ゾディアックウェポン」が……！
+あとは、魂を込めれば完成だ！"
+20,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_104","それでは、ミュタミクス氏……
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の「古の武器」を、
+マテリアに変えていただけますか？"
+21,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_105","シュコォ……シュコォ……。
+こいつは　すっごい　武器だぞな～！
+こもった　想いが　パンパンだ～！"
+22,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_106","マテリア　作るにゃ　リスクが高い～！
+もしも失敗　したのなら　武器ごとまるごと　消えちゃうぞ～！？
+わしは　保証が　できんぞな～！？"
+23,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_SYSTEM_000_107","対象の「古の武器・ネクサス」をマテリアにします。
+成功確率は、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1.4％<UIGlow>01</UIGlow><UIForeground>01</UIForeground>です。
+失敗すると「古の武器・ネクサス」を失います。"
+24,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_Q1_000_000","対象の「古の武器・ネクサス」をマテリアにしますか？"
+25,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A1_000_001","はい"
+26,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A1_000_002","いいえ"
+27,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_Q2_000_000","成功確率は、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1.4％<UIGlow>01</UIGlow><UIForeground>01</UIForeground>です。
+失敗すると「古の武器・ネクサス」を失います。
+本当によろしいですか？"
+28,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A2_000_001","はい"
+29,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A2_000_002","いいえ"
+30,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_Q3_000_000","「ゾディアックウェポン」の再創造を諦めますか？"
+31,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A3_000_001","はい"
+32,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_A3_000_002","いいえ"
+33,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_110","よく言った、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+ミュタミクスじいさんよ、ひと思いにやっちまってくれ！"
+34,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_111","オイ！　ここまで来て、尻尾巻いて逃げる気かぁ！？
+<If(PlayerParameter(4))>女<Else/>男</If>は度胸っつーだろうが！
+ミュタミクスじいさんよ、構わねぇ、ひと思いにやっちまえ！"
+35,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_112","オイ！　なぁにウジウジ悩んでンだ！
+「古の武器」のマテリアが必須だっつってンだろ！
+ミュタミクスじいさんよ、構わねぇ、ひと思いにやっちまえ！"
+36,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_113","言ったな　言ったな　やっちゃうぞ～！
+超絶　リスクの　難作業～！
+成功　失敗　運しだい～！"
+37,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_MUTAMIX_000_114","こいつは　おどろき　大成功～！
+やれば　なんとか　なるもんだ～！
+結果オーライ　万々歳～！"
+38,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_GEROLT_000_115","……っしゃあ！！
+さすがミュタミクスじいさん、なんとかなるもんだな！"
+39,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_116","さぁ、あとはゲロルトが作った「器」に、
+ミュタミクス氏が作ったマテリアの力を注入するだけだ！"
+40,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_150","さぁ、皆に協力を頼み、「ゾディアックウェポン」を作るぞ！
+すぐにミュタミクス氏にも連絡し、こちらに来ていただこう。"
+41,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_200","最後は私の番だな……。
+この<Sheet(Item,9508,0)/>に、<Sheet(Item,9509,0)/>を用い、
+マテリアとなった「古の武器」の力を流し込む……いくぞ！"
+42,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_201","古の昔に、イルサバードを支配した、
+偉大なる古の聖王の愛剣とされる存在……！"
+43,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_202","そして、偉大なる古の聖王は、
+不朽にして不壊の神楯も有していたという……！"
+44,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_203","かつて近東を災厄が襲った際に、民を悪鬼より守り抜き、
+やがて帝国を築いたとされる、護民帝ミルザが用いた闘器……。
+悪鬼の爪で造られていたといわれる存在……！"
+45,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_204","古の英雄が、異界「ヴォイド」の魔王から奪ったという品……。
+所有者の才覚に応じ、その姿を変化させるらしく、
+当初は大剣であったが、その後、戦斧に姿を変えた……！"
+46,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_205","聖人の処刑に携わったことを悔い、懺悔の旅に出た、
+古の英雄「ロンギヌス」の槍……。
+聖人の血を浴びたことで、神力を宿していたという……！"
+47,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_206","東方に伝わる伝説的な弓の名手、
+「ヨイチ」が愛用した長弓を再現したもの……。
+嵐の中でも、暴れ回る海竜の眼を射抜くことができるという……！"
+48,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_207","近東の偉大なる高僧が、所持していた木杖……。
+僧が苦行の果てに、新たな境地に辿り着いたとき、
+ただの枝に過ぎなかった杖に命が宿り、変化したという……！"
+49,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_208","妖異の女王「リリス」が所持していた魔杖……。
+物質界に現れたリリスを打ち倒した古の大魔道士が、
+戦利品として奪い取ったものだと伝えられている……！"
+50,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_209","古の時代に書き記された、著者不明の禁書……。
+この世の終わりについて、暗号で記されているらしく、
+心弱き者は一読しただけで、精神が破壊されるという……！"
+51,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_210","ニーム海兵団に伝わる、伝説の魔道書……。
+第六霊災の際、洪水から多くの民を守った海兵団長、
+ゴルバス・ロンバスが愛用した「最後の切り札」……！"
+52,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_211","民を圧政者から救った伝説の忍び「サスケ」の刀……。
+サスケは古の英雄の子孫とされ、その刀もまた、
+代々、一族に伝えられてきたもの……！"
+53,"TEXT_CMNDEFRELICWEAPON050TRADE_00221_JALZAHN_000_212","英雄の力を、魂の祝福を、星の輝きを、すべて受け取るがいい！
+これが「ゾディアックウェポン」にして、お主の新しい力……
+「<Sheet(Item,IntegerParameter(1),0)/>」だ！"

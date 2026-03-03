@@ -1,0 +1,52 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_COMARMGCARMYTRAINING_00344_MENU_YES","Ja"
+1,"TEXT_COMARMGCARMYTRAINING_00344_MENU_NO","Nein"
+2,"TEXT_COMARMGCARMYTRAINING_00344_MENU_CANCEL","Abbrechen"
+3,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_WAITING","Momentane Ausbildung:<Indent/>-"
+4,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_TRAINING","Momentane Ausbildung:
+<Sheet(GcArmyTraining,IntegerParameter(1),4)/>
+Voraussichtliches Ende:
+<If(GreaterThan(IntegerParameter(2),0))>Bereits beendet!<Else/>In <If(GreaterThan(IntegerParameter(4),0))><Value>IntegerParameter(4)</Value> Stunde<If(Equal(IntegerParameter(4),1))><Else/>n</If> <If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Minute<If(Equal(IntegerParameter(3),1))><Else/>n</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Minute<If(Equal(IntegerParameter(3),1))><Else/>n</If><Else/>weniger als 1 Minute</If></If></If>
+(<Time(IntegerParameter(5))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr)"
+5,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_EXPEDITION","（★未使用／削除予定★）"
+6,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_001","Ausbildungsplan einsehen"
+7,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_002","Momentane Aktivität abbrechen"
+8,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_003","Soldaten anzeigen"
+9,"TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_000","Momentan wird keine Ausbildung durchgeführt."
+10,"TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_010","Die Ausbildung wurde bereits beendet und kann nicht mehr abgebrochen werden."
+11,"TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT","<Sheet(GcArmyTraining,IntegerParameter(1),4)/>
+Voraussichtliches Ende:
+<If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Stunde<If(Equal(IntegerParameter(3),1))><Else/>n</If> <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> Minute<If(Equal(IntegerParameter(2),1))><Else/>n</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> Minute<If(Equal(IntegerParameter(2),1))><Else/>n</If><Else/>weniger als 1 Minute</If></If>
+(<Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr)
+Möchtest du die Ausbildung abbrechen?"
+12,"TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT_EXPEDITION","（★未使用／削除予定★）"
+13,"TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_000","（★未使用／削除予定★）"
+14,"TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_010","（★未使用／削除予定★）"
+15,"TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_020","（★未使用／削除予定★）"
+16,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_000","Unser Kommando ist bereit für die Ausbildung! Überlege dir gut, welche Eigenschaften deine Soldaten verbessern sollen, und ordne entsprechende Übungen an!"
+17,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_001","Bilde deine Soldaten in den Bereichen Kraft, Moral und Taktik aus, um die Schlagkraft deines Kommandos zu erhöhen."
+18,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_002","Es gibt verschiedene Übungen, um unter<SoftHyphen/>schied<SoftHyphen/>liche Bereiche zu steigern. Überlege dir, welche Übung deinem Kommando am meisten nutzt."
+19,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_003","Die Ausbildung dauert 1 Stunde (Erdenzeit). Die verbleibende Zeit kannst du im Timer (im Hauptmenü unter „Spielinhalte“) einsehen."
+20,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_004","Ab jetzt kannst du jederzeit den Ausbildungsplan einsehen, um Ausbildungserfolge zu überprüfen und neue Übungen anzuordnen."
+21,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_010","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+22,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_011","Die Schlagkraft hat ihren Höchstwert erreicht. Wenn ab jetzt Kraft, Moral oder Taktik verbessert werden, sinkt automatisch ein anderer Wert."
+23,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_012","Der Höchstwert kann nur gesteigert werden, indem dein Kommando im Rang aufsteigt. Dafür musst du bestimmte Einsätze bestehen, die mit einem ★ markiert sind."
+24,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_013","Allerdings sind die Qualifikationseinsätze zur Erhöhung des Rangs besonders schwierig. Sorge dafür, dass die Soldaten entsprechend ausgebildet sind und genug Routine gesammelt haben."
+25,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_020","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+26,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_021","Die Schlagkraft hat ihren Höchstwert erreicht. Wenn ab jetzt Kraft, Moral oder Taktik verbessert werden, sinkt automatisch ein anderer Wert."
+27,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_022","Der Höchstwert kann nur gesteigert werden, indem dein Kommando im Rang aufsteigt. Dafür musst du bestimmte Einsätze bestehen, die mit einem ★ markiert sind."
+28,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_023","Allerdings sind die Qualifikationseinsätze zur Erhöhung des Rangs besonders schwierig. Sorge dafür, dass die Soldaten entsprechend ausgebildet sind und genug Routine gesammelt haben."
+29,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_030","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+30,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_031","（★未使用／削除予定★）"
+31,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_000","Also dann, die Ausbildung kann beginnen. Überlege dir gut, welche Eigenschaften deine Soldaten verbessern sollen, und ordne entsprechende Übungen an!"
+32,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_010","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+33,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_020","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+34,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_030","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+35,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_031","（★未使用／削除予定★）"
+36,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_000","Also dann, die Ausbildung kann beginnen. Überlege dir gut, welche Eigenschaften deine Soldaten verbessern sollen, und ordne entsprechende Übungen an!"
+37,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_010","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+38,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_020","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+39,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_030","Unsere Soldaten schlagen sich gut und sammeln bei ihren Einsätzen und in der Ausbildung immer mehr Erfahrung. Weiter so!"
+40,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_031","（★未使用／削除予定★）"

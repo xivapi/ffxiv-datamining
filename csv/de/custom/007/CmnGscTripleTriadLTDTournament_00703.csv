@@ -1,0 +1,28 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_000","Willkommen im Kartenspiel-Salon, dem Paradies für alle Triple Triad-Begeisterten. Wenn du mehr über das glück- und gilbringende Spiel erfahren möchtest, wende dich bitte an die Triple Triad-Meisterin weiter hinten. "
+1,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_001","Willkommen im Kartenspiel-Salon. Wenn du dich für ein offizielles Manderville-Turnier anmelden möchtest, bist du bei mir genau an der richtigen Adresse."
+2,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_002","Es findet aktuell ein offizielles Manderville-Turnier statt."
+3,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_003","Aktuell findet kein Manderville-Turnier statt.
+Das nächste Turnier beginnt in <If(GreaterThan(IntegerParameter(1),0))><Value>IntegerParameter(1)</Value> <If(Equal(IntegerParameter(1),1))>Stunde<Else/>Stunden</If> <If(GreaterThan(IntegerParameter(2),1))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>Minute<Else/>Minuten</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(2),1))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>Minute<Else/>Minuten</If><Else/>weniger als 1 Minute</If></If>."
+4,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_000","Teilnehmen"
+5,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_001","Turnierzeiten einsehen"
+6,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_002","Erklärungen"
+7,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_Q1_003","Abbrechen"
+8,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_005","Abgesehen von Improvisation gelten für das aktuelle Turnier keine Sonderregeln.
+Mit der Teilnahme fortfahren?"
+9,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_105","Für das aktuelle Turnier gelten die folgenden Sonderregeln:
+- <Sheet(TripleTriadRule,IntegerParameter(1),0)/><If(GreaterThan(IntegerParameter(2),0))>
+- <Sheet(TripleTriadRule,IntegerParameter(2),0)/><Else/></If><If(GreaterThan(IntegerParameter(3),0))>
+- <Sheet(TripleTriadRule,IntegerParameter(3),0)/><Else/></If><If(GreaterThan(IntegerParameter(4),0))>
+- <Sheet(TripleTriadRule,IntegerParameter(4),0)/><Else/></If>
+
+Mit der Teilnahme fortfahren?"
+10,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_006","Es tut mir leid, aber das Turnier hat bereits begonnen. Bitte versuche es doch bei einem späteren Turnier wieder."
+11,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_007","Es tut mir leid, aber zurzeit findet kein Manderville-Turnier statt."
+12,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_008","Bitte versuch es doch später noch einmal. Wenn du wünschst, kann ich dir sagen, wann das nächste Turnier stattfindet."
+13,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_CARDTOURNAMENT_009","Wie ich sehe, hast du keinen Platz mehr für Preise, falls du einen gewinnen solltest. Bitte räume deine Tasche doch etwas auf, und melde dich dann noch einmal bei mir."
+14,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_SYSTEM_010","Du kannst an dem Turnier nicht teilnehmen, da du nicht genug Platz in deinem Inventar hast. Bitte mach Platz für mindestens einen Gegenstand und melde dich erneut an."
+15,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_PROG_TEST_000","（★未使用／削除予定★）"
+16,"TEXT_CMNGSCTRIPLETRIADLTDTOURNAMENT_00703_PROG_TEST_001","（★未使用／削除予定★）"

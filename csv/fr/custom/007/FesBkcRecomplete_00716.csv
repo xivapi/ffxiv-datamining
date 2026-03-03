@@ -1,0 +1,22 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_FESBKCRECOMPLETE_00716_SYSTEM_000_000","Le rappel événementiel vous permet, durant une période limitée, de rejouer des quêtes saisonnières/événementielles que vous avez déjà terminées."
+1,"TEXT_FESBKCRECOMPLETE_00716_YESNO_000_001","Lancer le rappel événementiel<Indent/>?"
+2,"TEXT_FESBKCRECOMPLETE_00716_YESNOCHECK_000_002","La ou les quêtes ci-dessous seront considérées comme non terminées<Indent/>:
+
+　　- <Sheet(Quest,IntegerParameter(1),0)/>
+<If(Equal(IntegerParameter(2),0))><Else/>　　- <Sheet(Quest,IntegerParameter(2),0)/>
+</If><If(Equal(IntegerParameter(3),0))><Else/>　　- <Sheet(Quest,IntegerParameter(3),0)/>
+</If><If(Equal(IntegerParameter(4),0))><Else/>
+Tant que vous ne les aurez pas accomplies de nouveau, vous ne pourrez pas acheter/échanger les objets associés auprès des PNJ suivants<Indent/>:
+
+　　- <Clickable(<Sheet(ENpcResident,IntegerParameter(4),0)/>)/>
+</If><If(Equal(IntegerParameter(5),0))><Else/>　　- <Clickable(<Sheet(ENpcResident,IntegerParameter(5),0)/>)/>
+</If><If(Equal(IntegerParameter(4),0))><Else/>
+Cette règle continuera de s'appliquer une fois la période de rappel expirée. Faites donc attention au temps dont vous disposez avant de lancer le rappel événementiel.
+</If>
+Vous n'obtiendrez pas de récompenses de quêtes durant le rappel événementiel.
+"
+3,"TEXT_FESBKCRECOMPLETE_00716_CHECKBOX_000_003","Lancer le rappel événementiel"
+4,"TEXT_FESBKCRECOMPLETE_00716_TALK_ACTOR",""

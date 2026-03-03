@@ -1,0 +1,49 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_000_001","Bist du bereit für eine spannende Partie Triple Triad? Wenn du willst, kann ich dir einen Gegner vermitteln. Also?"
+1,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q1_000_000","Was möchtest du machen?"
+2,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_001","Mir einen Gegner vermitteln lassen (reguläre Partie)."
+3,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_005","Mir einen Gegner vermitteln lassen (Turnierpartie)."
+4,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_002","Eine laufende Vermittlung abbrechen."
+5,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_003","Mir die Vermittlung erklären lassen."
+6,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_004","Nichts."
+7,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q2_000_000","Willst du über die Inhaltssuche einen Gegner für eine reguläre Partie suchen?"
+8,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_001","Ja"
+9,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_002","Nein"
+10,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q5_000_000","Willst du über die Inhaltssuche einen Gegner für eine Turnierpartie suchen?
+
+Aktuelle Punktzahl: <Format(IntegerParameter(1),FF022E)/>
+Preis: <If(NotEqual(IntegerParameter(3),0))><SheetDe(Item,5,IntegerParameter(3),1,1,1)/> x<Value>IntegerParameter(4)</Value><Else/>- </If>
+
+Nächster Punktebonus: <If(NotEqual(IntegerParameter(2),0))>ab <Format(IntegerParameter(2),FF022E)/> Punkten<Else/>- </If>
+Preis: <If(NotEqual(IntegerParameter(5),0))><SheetDe(Item,5,IntegerParameter(5),1,1,1)/> x<Value>IntegerParameter(6)</Value><Else/>- </If>"
+11,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_001","Ja"
+12,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_002","Nein"
+13,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_003","Die Gegnervermittlung wurde gestartet. Bitte warte im Weltensalon auf den Beginn der Partie."
+14,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_003","Die Gegnervermittlung wurde gestartet. Bitte warte im Weltensalon auf den Beginn der Turnierpartie."
+15,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q3_000_000","Willst du die Gegnervermittlung abbrechen?"
+16,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_001","Ja"
+17,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_002","Nein"
+18,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_003","Gut, dann eben ein anderes Mal wieder."
+19,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q4_000_000","Worüber möchtest du mehr erfahren?"
+20,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_001","Gegnervermittlung (reguläre Partie)"
+21,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_004","Gegnervermittlung (Turnierpartie)"
+22,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_002","Vorbereitung der Partie"
+23,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_003","Zurück"
+24,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_001","Hier im Weltensalon tummeln sich Kartenspieler aus allen Teilen Eorzeas, und ich kann dir helfen, einen Gegner für spannende Triple Triad-Partien zu suchen. Es gibt nur eine Regel: Du musst hier im Weltensalon bleiben. Es muss ja nicht jeder da draußen von unserer Spiel<SoftHyphen/>leiden<SoftHyphen/>schaft erfahren<Indent/>..."
+25,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_002","Nutze die Gegnervermittlung, um Triple Triad gegen Spieler und Spielerinnen anderer Welten zu spielen. Die Vermittlung geschieht über die Inhaltssuche."
+26,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_003","Während die Vermittlung läuft, kannst du keine weiteren Partien gegen andere Spieler starten. Reguläre Partien gegen NPC-Gegner sind aber möglich."
+27,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_004","Die Vermittlung bleibt auch nach einer Partie aktiv, damit du mehrere Partien nacheinander spielen kannst."
+28,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_005","Wenn du die Vermittlung abbrechen möchtest, sprich mit einem Salon-Häschen, oder wähle das Gold Saucer-Symbol in der Aufgabenliste und wähle „Abbrechen“."
+29,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_001","Bevor die Partien beginnen können, musst du zusammen mit deinem Gegner die Regeln festlegen. Jeder Spieler hat das Recht, eine Regel zu wählen."
+30,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_002","Manche Regelkombinationen sind nicht in derselben Partie durchführbar, wie zum Beispiel „Alle offen“ zusammen mit „Drei offen“. In diesem Fall werden beide Regeln zu „Zufällig“ geändert."
+31,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_003","Wenn du dich nicht innerhalb der festgelegten Zeit für eine Regel entscheiden kannst, verlierst du dein Recht, eine Regel zu bestimmen, und es wird keine Regel angewandt. Echte Kartenprofis aber wissen natürlich, wie sie die Regeln geschickt zu ihrem Vorteil verwenden können."
+32,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_004","Auch in Turnieren gibt es Regeln. Sie werden für jedes Turnier festgelegt und gelten in allen Partien, egal ob sie unter Abenteurern oder gegen Spieler hier im Gold Saucer gespielt werden."
+33,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_001","Wenn du an einem Turnier teilnimmst, kannst du dir von mir und meinen Kolleginnen natürlich auch einen anderen Abenteurer als Turniergegner vermitteln lassen! Sprich einfach ein Salon-Häschen an."
+34,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_002","Nachdem du dich für ein Turnier gemeldet hast, kannst du dich während der Turnierdauer mit anderen Spieler vermitteln lassen, die sich für das gleiche Turnier gemeldet haben, und Turnierpartien ausführen."
+35,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_003","Während die Vermittlung läuft, kannst du keine anderen Partien gegen andere Spieler starten. Reguläre Partien gegen NPC-Gegner sind aber möglich."
+36,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_004","Die Vermittlung bleibt auch nach einer Partie aktiv, damit du mehrere Partien nacheinander spielen kannst."
+37,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_005","Wenn du die Vermittlung abbrechen möchtest, sprich mit einem Salon-Häschen, oder wähle das Gold Saucer-Symbol in der Aufgabenliste und wähle „Abbrechen“."
+38,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_006","Um in die Turnierwertung aufgenommen zu werden, reicht es, eine Partie zu spielen. Verlasse den Weltensalon und sieh dir die Wertung im Kartenspiel-Salon an."
+39,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_007","15 Minuten vor Turnierende wirst du automatisch aus dem Weltensalon entfernt und zum Kartenspiel-Salon befördert."
