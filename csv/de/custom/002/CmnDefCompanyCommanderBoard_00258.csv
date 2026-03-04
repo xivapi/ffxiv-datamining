@@ -1,58 +1,55 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE_0","Registriere ein Luftschiff."
-1,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE","Wähle ein Luftschiff.
-Erkundungsfahrzeuge im Einsatz: <Value>IntegerParameter(2)</Value>/<Value>IntegerParameter(3)</Value>
-Erdseim-Fässer in Besitz: <Value>IntegerParameter(1)</Value>"
-2,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_ADD_NEW_AIRSHIP","Registrierung eines neuen Luftschiffs (<Value>IntegerParameter(1)</Value> Registriermarke<If(Equal(IntegerParameter(1),1))><Else/>n</If>)"
-3,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(5)</Value>) <Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)>(Noch <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value> Tag<If(Equal(IntegerParameter(6),1))><Else/>e</If> <Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Std <Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(3)</Value> Std <Else/></If></If><Value>IntegerParameter(4)</Value> Min auf Erkundung)</Case><Case(4)> (Noch <If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value> Tag<If(Equal(IntegerParameter(6),1))><Else/>e</If> <Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Std <Else/><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(3)</Value> Std <Else/></If></If><Value>IntegerParameter(4)</Value> Min auf Expedition)</Case><Case(5)> (Wartet auf Allianz)</Case></Switch>"
-4,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_FINISH","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(5)</Value>) <Switch(IntegerParameter(2))><Case(1)></Case><Case(2)></Case><Case(3)> (Erkundung abgeschlossen)</Case><Case(4)> (Expedition abgeschlossen)</Case></Switch>"
-5,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_EXIT","Nichts"
-6,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE","Einstellungen an <Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(3)</Value>) vornehmen
-Erkundungsfahrzeuge im Einsatz: <Value>IntegerParameter(4)</Value>/<Value>IntegerParameter(5)</Value>
-Erdseim-Fässer in Besitz: <Value>IntegerParameter(2)</Value>"
-7,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_EXPEDITION","Auf Erkundung gehen"
-8,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_RESULT","Bericht der letzten Erkundung"
-9,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_PARTS","Bauteile austauschen"
-10,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_REPAIR_PARTS","Bauteile reparieren"
-11,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_SETTING","Einstellungen"
-12,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_COLOR","Bauteile färben"
-13,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_NAME","Name ändern"
-14,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_REMOVE","Demontieren"
-15,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPEDITION","Zum Diadem fliegen"
-16,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPEDITION",""
-17,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPD2","Zum Diadem fliegen"
-18,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPD2",""
-19,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE","<Emphasis><Highlight>StringParameter(1)</Highlight></Emphasis> (Rang <Value>IntegerParameter(2)</Value>) auf Erkundung
-Erkundungsfahrzeuge im Einsatz: <Value>IntegerParameter(3)</Value>/<Value>IntegerParameter(4)</Value>
-Rückkehr: <If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(5)</Value> Tag<If(Equal(IntegerParameter(5),1))><Else/>e</If> <Else/></If><If(GreaterThan(IntegerParameter(6),0))><Value>IntegerParameter(6)</Value> Std <Else/><If(GreaterThan(IntegerParameter(5),0))><Value>IntegerParameter(6)</Value> Std <Else/></If></If><Value>IntegerParameter(7)</Value> Min"
-20,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_COND","Erkundung abbrechen"
-21,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_MAP","Luftkarte einsehen"
-22,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_STATUS","Luftschiff überprüfen"
-23,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_TITLE","Gib einen Namen für das Luftschiff ein."
-24,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_CAPTION","Name des Luftschiffs"
-25,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0","Du kannst Buchstaben, Ziffern, die Leertaste und folgende Zeichen verwenden:
-<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>'. , : ; ! ? & - _<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE_0,Registriere ein Luftschiff.
+1,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_TITLE,"Wähle ein Luftschiff.
+Erkundungsfahrzeuge im Einsatz: UNKNOWN/UNKNOWN
+Erdseim-Fässer in Besitz: UNKNOWN"
+2,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_ADD_NEW_AIRSHIP,Registrierung eines neuen Luftschiffs (UNKNOWN Registriermarke)
+3,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME,*UNKNOWN* (Rang UNKNOWN) 
+4,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_FINISH,*UNKNOWN* (Rang UNKNOWN) 
+5,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_SELECT_EXIT,Nichts
+6,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_TITLE,"Einstellungen an *UNKNOWN* (Rang UNKNOWN) vornehmen
+Erkundungsfahrzeuge im Einsatz: UNKNOWN/UNKNOWN
+Erdseim-Fässer in Besitz: UNKNOWN"
+7,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_EXPEDITION,Auf Erkundung gehen
+8,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_RESULT,Bericht der letzten Erkundung
+9,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_PARTS,Bauteile austauschen
+10,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_REPAIR_PARTS,Bauteile reparieren
+11,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_SETTING,Einstellungen
+12,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_COLOR,Bauteile färben
+13,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_NAME,Name ändern
+14,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CONF_REMOVE,Demontieren
+15,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPEDITION,Zum Diadem fliegen
+16,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPEDITION,
+17,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_B_EXPD2,Zum Diadem fliegen
+18,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_CMD_A_EXPD2,
+19,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_TITLE,"*UNKNOWN* (Rang UNKNOWN) auf Erkundung
+Erkundungsfahrzeuge im Einsatz: UNKNOWN/UNKNOWN
+Rückkehr: UNKNOWN Tag UNKNOWN Std UNKNOWN Min"
+20,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_COND,Erkundung abbrechen
+21,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_MAP,Luftkarte einsehen
+22,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_VOY_CUR_STATUS,Luftschiff überprüfen
+23,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_TITLE,Gib einen Namen für das Luftschiff ein.
+24,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_CAPTION,Name des Luftschiffs
+25,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AIRSHIP_NAME_MES_0,"Du kannst Buchstaben, Ziffern, die Leertaste und folgende Zeichen verwenden:
+**'. , : ; ! ? & - _**
 Zwei oder mehr aufeinanderfolgende Leerzeichen sind nicht möglich.
 Das erste und letzte Zeichen darf kein Leerzeichen sein.
 Ein Name nur aus Satzzeichen ist nicht möglich."
-26,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Achtung: Die Bauteile erhältst du zurück, nicht aber die Registriermarken. Daten wie der Rang des Luftschiffs werden nicht gespeichert.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+26,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_TITLE,"**Achtung: Die Bauteile erhältst du zurück, nicht aber die Registriermarken. Daten wie der Rang des Luftschiffs werden nicht gespeichert.**
 Das Luftschiff wirklich demontieren?"
-27,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_CHECK","Demontieren"
-28,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_1","Zur Registrierung sind Luftschiff-Bauteile sowie eine Gebühr in Form von Registriermarken erforderlich."
-29,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_2","Registriermarken können beim Unterkunftsbeamten mit Ge<SoftHyphen/>sell<SoftHyphen/>schaftstalern gekauft werden."
-30,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_3","Vier verschiedene Luftschiff-Bauteile sind nötig: Rumpf-, Takelage-, Bug- und Heckteile. Sie können in der Produktionsanlage der Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft hergestellt werden."
-31,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_ENERGY","Luftschiffe benötigen Erdseim als Treibstoff. Erdseim-Fässer können beim Unterkunftsbeamten mit Ge<SoftHyphen/>sell<SoftHyphen/>schaftstalern gekauft werden."
-32,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_1","Wenn eine Erkundung abgeschlossen ist, kann das Logbuch eingesehen werden, in dem alle Aktivitäten festgehalten sind."
-33,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_2","Dieses Logbuch liefert Hinweise für die nächste Erkundungsreise. So kann die Effizienz der Erkundungen immer mehr erhöht werden."
-34,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_3","Allerdings wird immer nur der letzte Logbucheintrag angezeigt. Wenn du ihn aber mit denen der Erkundungen anderer Mitglieder der Freien Ge<SoftHyphen/>sell<SoftHyphen/>schaft vergleichst, werdet ihr sicher herausfinden, wie ihr euer Luftschiff am besten ausstatten könnt."
-35,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REPAIR_ITEM","Luftschiff-Bauteile können mit speziellen Magitek-Reparaturkits repariert werden."
-36,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_CONTENT_GUIDE","Du hast eine Route zum Diadem (schwer) gefunden! Diese Luftschiffexpedition bringt dich zu schweren Gegnern."
-37,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT_CAUTION",""
-38,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT_CANCEL",""
-39,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2",""
-40,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_CONFIRM",""
-41,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_YES",""
-42,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_NO",""
-43,"TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2","Wegen stürmischer Winde sind momentan keine Flüge zum Diadem möglich. Bitte gedulde dich, bis sich die Situation beruhigt hat."
+27,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_REMOVE_AIRSHIP_CHECK,Demontieren
+28,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_1,Zur Registrierung sind Luftschiff-Bauteile sowie eine Gebühr in Form von Registriermarken erforderlich.
+29,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_2,Registriermarken können beim Unterkunftsbeamten mit Ge­sell­schaftstalern gekauft werden.
+30,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REGISTRATION_3,"Vier verschiedene Luftschiff-Bauteile sind nötig: Rumpf-, Takelage-, Bug- und Heckteile. Sie können in der Produktionsanlage der Freien Ge­sell­schaft hergestellt werden."
+31,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_ENERGY,Luftschiffe benötigen Erdseim als Treibstoff. Erdseim-Fässer können beim Unterkunftsbeamten mit Ge­sell­schaftstalern gekauft werden.
+32,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_1,"Wenn eine Erkundung abgeschlossen ist, kann das Logbuch eingesehen werden, in dem alle Aktivitäten festgehalten sind."
+33,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_2,Dieses Logbuch liefert Hinweise für die nächste Erkundungsreise. So kann die Effizienz der Erkundungen immer mehr erhöht werden.
+34,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_EXPLOG_3,"Allerdings wird immer nur der letzte Logbucheintrag angezeigt. Wenn du ihn aber mit denen der Erkundungen anderer Mitglieder der Freien Ge­sell­schaft vergleichst, werdet ihr sicher herausfinden, wie ihr euer Luftschiff am besten ausstatten könnt."
+35,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NO_REPAIR_ITEM,Luftschiff-Bauteile können mit speziellen Magitek-Reparaturkits repariert werden.
+36,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_CONTENT_GUIDE,Du hast eine Route zum Diadem (schwer) gefunden! Diese Luftschiffexpedition bringt dich zu schweren Gegnern.
+37,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT_CAUTION,
+38,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT_CANCEL,
+39,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2,
+40,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_CONFIRM,
+41,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_YES,
+42,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_AL_WAIT2_NO,
+43,TEXT_CMNDEFCOMPANYCOMMANDERBOARD_00258_NOT_IMPLEMENTED_SORA2,"Wegen stürmischer Winde sind momentan keine Flüge zum Diadem möglich. Bitte gedulde dich, bis sich die Situation beruhigt hat."

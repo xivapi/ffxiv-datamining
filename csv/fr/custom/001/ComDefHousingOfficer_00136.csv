@@ -1,160 +1,157 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If> et bienvenue à <Switch(IntegerParameter(1))><Case(1)>Brumée</Case><Case(2)>Lavandière</Case><Case(3)>La Coupe</Case><Case(4)>Shirogane</Case></Switch>. Je suis ici pour informer les aventuriers comme vous sur le logement."
-1,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2Q1_100_002","Sur quoi vous renseignez-vous<Indent/>?"
-2,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A11_111_002","Annuler"
-3,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A1_101_002","Les quartiers résidentiels en général"
-4,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_100_002","L'achat et la cession d'un terrain"
-5,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A2_102_002","Les types de terrains disponibles"
-6,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A3_103_002","L'achat d'un terrain"
-7,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_104_002","La cession d'un terrain"
-8,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_121_002","La cession automatique des terrains"
-9,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_101_002","La con<SoftHyphen/>struc<SoftHyphen/>tion et la personnalisation de l'extérieur d'une maison"
-10,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A5_105_002","La con<SoftHyphen/>struc<SoftHyphen/>tion d'une maison"
-11,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A6_106_002","La personnalisation de l'extérieur d'une maison"
-12,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A7_107_002","La disposition du mobilier de jardin"
-13,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_102_002","La personnalisation de l'intérieur d'une maison"
-14,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A8_108_002","La décoration de l'intérieur d'une maison"
-15,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A9_109_002","La disposition de meubles"
-16,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_122_002","Le réglage de la luminosité"
-17,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_110_002","Les restrictions sur les meubles usés"
-18,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_103_002","Les options disponibles dans une maison de compagnie libre"
-19,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A12_112_002","L'aménagement d'une chambre individuelle"
-20,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_113_002","La destruction d'une chambre individuelle"
-21,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_114_002","La récupération des objets d'une chambre détruite"
-22,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_115_002","Les tours éthéréens"
-23,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_116_002","La destruction d'un atelier de compagnie"
-24,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_117_002","L'aménagement d'un atelier de compagnie"
-25,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYQ1_100_000","Sur quoi vous renseignez-vous<Indent/>?"
-26,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYC1_100_000","Retour"
-27,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_120_002","L'affectation de servants sur un terrain"
-28,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_123_002","Le partage d'une maison individuelle"
-29,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_124_002","Les appartements"
-30,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_104_002","Le déménagement"
-31,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A25_125_002","Le déménagement"
-32,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A26_126_002","Le transfert des biens lors du déménagement"
-33,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A27_127_002","Remarque sur le déménagement"
-34,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A28_128_002","L'entrepôt"
-35,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_010","<Switch(IntegerParameter(1))><Case(1)>Le Maelstrom</Case><Case(2)>L'ordre des Deux Vipères</Case><Case(3)>Les Immortels</Case><Case(4)>La cité de Kugane</Case></Switch> <Switch(IntegerParameter(1))><Case(1)>a</Case><Case(2)>a</Case><Case(3)>ont</Case><Case(4)>a</Case></Switch> lancé un vaste plan d'action pour inciter les aventuriers à s'installer ici, <Switch(IntegerParameter(1))><Case(1)>dans la Noscea</Case><Case(2)>à Sombrelinceul</Case><Case(3)>dans le Thanalan</Case><Case(4)>à Shirogane</Case></Switch>."
-36,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_011","Pour cela, il a été jugé nécessaire de leur proposer un endroit qui puisse servir de base à leurs activités. Nous avons ainsi mis au point un système permettant d'acheter des terrains constructibles et des appartements."
-37,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_012","C'est ici, au quartier résidentiel de <Switch(IntegerParameter(1))><Case(1)>Brumée</Case><Case(2)>Lavandière</Case><Case(3)>La Coupe</Case><Case(4)>Shirogane</Case></Switch>, que vous pouvez donc acquérir votre parcelle et y bâtir une maison. Comprenez bien que c'est dans l'intérêt de notre cité que vous vous installiez ici."
-38,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_013","Sachez que diverses cités du monde mettent une zone d'habitation comme celle-ci à la disposition des aventuriers."
-39,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_014","L'achat de terrain et d'appartement n'est aucunement limité par votre allégeance. Vous êtes libre d'élire domicile à l'endroit qui vous plaît."
-40,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_015","Les quartiers résidentiels sont divisés en secteurs. Lorsque vous y accédez, vous devez d'abord choisir le secteur où vous désirez vous rendre."
-41,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_016","Les quartiers résidentiels sont composés de plusieurs zones parallèles. Par exemple, les secteurs 1 et 2 ont des structures et des paysages identiques, mais se trouvent à des endroits différents et à divers niveaux de développement."
-42,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_020","Afin de bâtir une maison, il vous faut d'abord acheter un terrain dans le quartier résidentiel."
-43,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_021","Il en existe de trois tailles différentes<Indent/>: petit, moyen et grand."
-44,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_022","De même, les maisons ont trois formats, qui correspondent aux types de terrain. Il est nécessaire de construire un logement à la taille de la parcelle."
-45,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_023","Le nombre de meubles qui peuvent être placés dans le jardin ou dans la maison varie en fonction de la taille du terrain. Ne l'oubliez pas lorsque vous déciderez d'en acheter un."
-46,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_030","Les conditions requises pour pouvoir acheter un terrain diffèrent selon qu'il s'agisse d'une acquisition à titre <Emphasis>individuel</Emphasis> ou pour le compte d'une <Emphasis>compagnie libre</Emphasis>."
-47,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_031","Afin d'acheter un terrain pour soi-même, il est nécessaire d'avoir atteint le niveau 50 dans une classe."
-48,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_101_031","Par ailleurs, votre personnage doit avoir le grade de sous-lieutenant dans votre grande compagnie d'allégeance."
-49,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_102_031","Si l'acquisition se fait au nom de la compagnie libre, il faut être à un rang de la hiérarchie ayant le droit de posséder un terrain pour pouvoir en acheter un."
-50,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_103_031","Pour acheter un terrain à Shirogane, il est nécessaire d'avoir préalablement terminé la quête de l'épopée “Une grande traversée”."
-51,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_031","Dans les deux cas, vous pouvez consulter le prix de vente des terrains en examinant les panneaux d'information qui se trouvent dans les quartiers résidentiels."
-52,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_032","Ce prix est en gils et baisse ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment toutes les 6 heures (temps réel) jusqu'à une valeur minimale déterminée."
-53,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_033","Si un terrain a été acheté par un autre joueur, il est retiré de la vente."
-54,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_040","Pour céder un terrain, il est nécessaire d'en retirer préalablement tous les meubles et de démolir la maison qui y a été bâtie."
-55,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_041","Une fois la maison démolie, il suffit de sélectionner l'option “Céder le terrain” dans le menu “Logement”."
-56,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_041","Notez toutefois que céder le terrain ne permet pas de récupérer les gils dépensés à l'achat."
-57,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_100_045","Afin de permettre au plus grand nombre d'aventuriers de jouir des bénéfices du logement, nous avons décidé que tout terrain qui n'a pas été utilisé pendant une longue période sera au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment cédé par son pro<SoftHyphen/>prié<SoftHyphen/>taire."
-58,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_182","Si un pro<SoftHyphen/>prié<SoftHyphen/>taire n'entre pas dans la maison qui est bâtie sur son terrain pendant 30 jours (temps réel) d'affilée, ce dernier sera soumis à une procédure de cession automatique."
-59,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_182","Cette opération sera effective après 45 jours (temps réel) d'inactivité."
-60,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_183","Dans le cas d'un terrain appartenant à une compagnie libre, tous les membres de celle-ci sont considérés comme “pro<SoftHyphen/>prié<SoftHyphen/>taires”."
-61,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_183","Dans le cas d'un terrain acheté à titre personnel, c'est le personnage à qui il appartient, et lui seul, qui est considéré comme “pro<SoftHyphen/>prié<SoftHyphen/>taire”."
-62,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_184","Il suffit qu'un personnage “pro<SoftHyphen/>prié<SoftHyphen/>taire” pénètre dans la maison avant échéance de la période de 45 jours (temps réel) d'inactivité pour que la cession automatique soit annulée."
-63,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_185","Si le terrain est cédé au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment, tout ce qui y était lié sera perdu, à l'exception de certains biens."
-64,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_186","Notez toutefois qu'une partie des meubles ainsi qu'un montant en gils équivalent à 80% du prix du terrain au moment de son achat pourront être récupérés auprès des officiers du logement pendant une période de 35 jours (temps réel) à partir de la date de cession."
-65,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_187","Dans le cas d'une maison de compagnie libre, seuls les membres ayant le droit d'acheter ou de céder un terrain seront en mesure de reprendre ces biens."
-66,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_188","Dans le cas d'une maison individuelle, le personnage à qui appartenait le terrain est le seul qui peut récupérer les gils et les objets."
-67,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_050","Pour bâtir une maison, il est nécessaire d'obtenir un “permis de construire”."
-68,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_051","Il en existe plusieurs types. Veuillez donc bien vérifier pour quelle taille de maison et pour quel quartier résidentiel ils sont faits."
-69,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_052","Si la taille de la maison ou le quartier du permis de construire diffère de celle ou celui du terrain possédé, il sera impossible d'y bâtir un logement."
-70,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_053","Une fois le permis de construire dans votre inventaire, allez sur votre terrain et ouvrez le menu “Logement”, puis choisissez “Construire une maison”."
-71,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_060","Une fois votre maison bâtie, vous pourrez la personnaliser à votre gré."
-72,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_061","L'extérieur d'une maison se compose de huit parties<Indent/>: le “toit”, la “façade”, les “fenêtres”, la “porte”, les “panneaux”, les “murets”, les “décorations de toit” et les “décorations de façade”."
-73,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_062","Pour pouvoir ajouter des éléments d'extérieur, vous devez les avoir dans votre inventaire. Ouvrez alors le menu “Logement” en étant sur votre terrain, puis choisissez l'option “Changer l'extérieur”."
-74,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_063","Attention<Indent/>: une fois placé, un élément d'extérieur disparaît de votre inventaire et ne peut plus être retiré."
-75,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_070","L'espace de votre terrain qui n'est pas occupé par la maison constitue votre “jardin”."
-76,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_071","Vous pouvez y disposer du “mobilier de jardin” afin de l'enjoliver."
-77,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_072","Pour pouvoir placer du mobilier de jardin, vous devez en avoir dans votre inventaire. Ouvrez alors le menu “Logement” en étant sur votre terrain, puis choisissez l'option “Mobilier de jardin”."
-78,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_080","Sachez qu'il est possible de changer le parquet et le revêtement des murs à l'intérieur de votre maison."
-79,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_081","L'intérieur de la maison est constitué de trois parties<Indent/>: les “murs”, le “plancher” et l'“éclairage”."
-80,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_082","Pour ajouter des éléments d'intérieur, vous devez les avoir dans votre inventaire. Ouvrez alors le menu “Logement” en étant sur votre terrain, puis choisissez l'option “Modifier l'intérieur”."
-81,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_083","Attention<Indent/>: une fois placé, un élément d'intérieur disparaît de votre inventaire et ne peut plus être retiré."
-82,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_090","Bien entendu, vous pouvez meubler votre logis comme bon vous semble. À vous d'ajouter votre touche personnelle à votre intérieur."
-83,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_091","Pour placer des meubles, vous devez au préalable les posséder dans votre inventaire. Rendez-vous ensuite sur votre terrain, puis ouvrez le menu “Logement” et choisissez l'option “Mobilier”."
-84,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_092","Certains éléments peuvent être disposés sur des meubles comme les tables, accrochés aux murs ou bien placés pour recouvrir le plancher."
-85,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_095","Vous aimez les espaces éclairés, ou bien vous préférez la pénombre<Indent/>? Dans tous les cas, n'hésitez pas à choisir la luminosité qui vous convient le mieux chez vous."
-86,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_191","Il est possible de régler la luminosité selon cinq degrés à l'intérieur des maisons, per<SoftHyphen/>son<SoftHyphen/>nelles ou de compagnie libre, et des chambres individuelles."
-87,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_192","Pour cela, il suffit d'utiliser l'option “Paramètres d'ambiance” dans le menu du logement."
-88,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_100","Une fois placés, le mobilier de jardin et les meubles deviennent liés et ne peuvent plus être échangés ou mis en vente."
-89,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_101","Par ailleurs, certains de ces objets dis<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent définitivement si on les retire après les avoir disposés."
-90,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_102","Un avertissement s'affichera à l'écran lorsque vous essaierez de retirer un de ces meubles."
-91,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_110","Les membres d'une compagnie libre ont la possibilité d'aménager chacun leur chambre individuelle dans la maison."
-92,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_111","Pour aménager votre chambre individuelle, vous devez vous acquitter des frais nécessaires et avoir atteint le niveau 50 dans une classe au moins."
-93,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_112","Vous devez également avoir au moins le grade de sous-lieutenant dans votre grande compagnie actuelle."
-94,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_113","Pour aller dans une chambre individuelle, il suffit d'utiliser la porte qui donne “accès vers les autres pièces”."
-95,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_120","Lorsqu'une chambre individuelle n'est plus utilisée, il est possible de la retirer."
-96,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_121","Pour détruire une chambre individuelle, vous devez être dans la maison ou sur son terrain et choisir l'option correspondante dans les réglages du menu “Logement”."
-97,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_122","Mais pour cela, il est nécessaire d'avoir préalablement retiré tous les meubles qui y étaient disposés."
-98,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_130","Si un membre qui a aménagé sa chambre individuelle dans la maison est ensuite exclu de la compagnie libre, cette pièce est au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment détruite."
-99,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_131","Tous les objets qui se trouvaient à l'intérieur de la chambre sont alors conservés ici pour une durée limitée."
-100,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_132","Pour récupérer les objets qui étaient dans la chambre individuelle, il est nécessaire de s'adresser à un officier du logement dans les 35 jours (temps réel) qui suivent la destruction de la chambre individuelle."
-101,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_133","Le nombre de jours restants peut être consulté à tout moment à partir du calendrier, dans le menu principal."
-102,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_134","Notez toutefois que les frais d'aménagement de la chambre individuelle, les éléments d'intérieur (plancher, murs et éclairage) et les meubles qui dis<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent lorsqu'ils sont retirés ne sont pas restitués."
-103,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_135","Veuillez bien prendre en compte ces points avant d'exclure un membre de la compagnie libre."
-104,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_140","Les tours éthéréens sont des cristaux spéciaux qui permettent de diffuser une énergie bénéfique relativement similaire à celle octroyée par ce que vous autres aventuriers appelez “bienfait de compagnie”."
-105,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_141","Vous pouvez vous en procurer dans les échoppes ou en fabriquer vous-même, notez cependant que leur utilisation nécessite un socle particulier pour les charger en éther."
-106,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_142","Il est possible de se procurer des bases de tours éthéréens auprès des quincailliers des quartiers résidentiels."
-107,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_143","Notez qu'il est nécessaire de charger les tours pour profiter de leurs effets."
-108,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_144","Pour cela, il suffit de les placer dans un orifice libre et de patienter un certain temps."
-109,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_150","Vous voulez affecter un servant sur votre terrain<Indent/>? C'est possible, en effet, mais il vous faut une au<SoftHyphen/>to<SoftHyphen/>ri<SoftHyphen/>sa<SoftHyphen/>tion spéciale pour ça."
-110,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_151","Il est possible de se procurer une au<SoftHyphen/>to<SoftHyphen/>ri<SoftHyphen/>sa<SoftHyphen/>tion de vente auprès des cantiniers des quartiers résidentiels. Il faut ensuite l'utiliser pour placer le servant dans le jardin."
-111,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_152","Une fois affecté sur le terrain, les joueurs peuvent lui acheter des objets directement, sans passer par les tableaux des ventes."
-112,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_153","Bien sûr, il est possible de remplacer à tout moment le servant affecté par un autre."
-113,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_154","Notez que si vous le renvoyez définitivement ou que vous (ou son maître) quittez/êtes exclu(e) de la compagnie libre, il ne sera pas révoqué au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment."
-114,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_155","Les servants indésirables doivent être congédiés manuellement par un membre disposant des droits nécessaires."
-115,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_155","Vous vous sentez un peu seul<If(PlayerParameter(4))>e<Else/></If> dans votre maison<Indent/>? Dans ce cas, pourquoi ne pas la partager avec des amis<Indent/>? Le règlement des quartiers résidentiels autorise la cohabitation dans les logements individuels."
-116,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_201","Le partage de la maison vous permet de faire bénéficier vos amis de certaines fonctions de votre logement."
-117,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_202","Ces derniers deviennent alors des “cohabitants”."
-118,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_203","Vous pouvez accepter jusqu'à trois cohabitants dans votre maison. À l'inverse, un personnage peut devenir le cohabitant d'au maximum deux maisons individuelles."
-119,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_204","Pour ajouter un cohabitant, utilisez l'option “Réglages de partage de la maison” après avoir sélectionné votre maison individuelle dans le menu du logement. Vous pourrez également choisir quels droits accorder à cet ami à cette occasion."
-120,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_205","Notez que le pro<SoftHyphen/>prié<SoftHyphen/>taire et le cohabitant peuvent chacun mettre fin à cette relation de partage de maison."
-121,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_170","Vous avez la possibilité d'aménager un atelier au sous-sol de votre maison de compagnie libre."
-122,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_171","Les ins<SoftHyphen/>tal<SoftHyphen/>la<SoftHyphen/>tions qu'il contient vous donneront la possibilité de construire divers objets avec vos camarades, dont des aéronefs qui pourront explorer des endroits inconnus de la Mer de nuages."
-123,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_172","Sachez toutefois que la fabrication de tels appareils est ex<SoftHyphen/>trê<SoftHyphen/>me<SoftHyphen/>ment ardue et requiert la coopération de plusieurs artisans chevronnés."
-124,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_173","L'aménagement de l'atelier nécessite d'acquitter des frais en gils."
-125,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_174","Une fois cela fait, il suffit d'utiliser la porte qui donne “accès vers les autres pièces” pour s'y rendre."
-126,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_175","Le pantin aventurier P014A qui se trouve dans l'atelier vous fournira diverses ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions sur l'utilisation des éléments qui y sont installés."
-127,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_160","Si jamais vous ne deviez plus avoir besoin de votre atelier, vous pouvez tout simplement le détruire."
-128,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_161","Notez néanmoins que vous perdrez alors le registre de toutes les activités que vous y aurez conduites. Réfléchissez-y donc à deux fois, avant de prendre cette décision."
-129,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_162","Pour détruire l'atelier de compagnie, il est nécessaire de terminer tout projet de con<SoftHyphen/>struc<SoftHyphen/>tion en cours et de démonter les aéronefs de compagnie."
-130,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_163","Sachez toutefois que les frais d'aménagement ne vous seront pas rendus. Par ailleurs, toutes les données des activités relatives à l'atelier seront perdues."
-131,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_164","Pour détruire l'atelier de compagnie, vous devez être dans la maison ou sur son terrain et choisir l'option correspondante dans les réglages du menu “Logement”."
-132,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_156","Les appartements sont des logements individuels que nous proposons aux aventuriers. Il en existe dans chaque quartier résidentiel, en marge des terrains constructibles."
-133,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_157","Vous trouverez des appartements à vendre au sein des résidences du Mât de hune à Brumée, de la Plaine-aux-Lys à Lavandière, du Souffle de la Sultane à La Coupe et de Kobai Goten à Shirogane."
-134,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_158","Pour en savoir plus sur l'achat d'appartement, rendez-vous dans l'une des résidences sus-citées et parlez à l'officier en charge."
-135,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_210","L'emplacement de votre logement vous lasse<Indent/>? Dans ce cas, réjouissez-vous<Indent/>! Vous pouvez le transférer vers un autre terrain."
-136,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_211","La fonction de déménagement vous permet de transférer l'intégralité de votre maison d'un terrain vers un autre, et ce, même en changeant de quartier résidentiel ou de taille de terrain."
-137,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_212","Pour cela, vous devez être <If(PlayerParameter(4))>la<Else/>le</If> pro<SoftHyphen/>prié<SoftHyphen/>taire dans le cas d'une maison individuelle, ou avoir le droit “Achat/Cession de terrain” s'il s'agit d'un logement de compagnie libre."
-138,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_213","Pour effectuer un déménagement, il vous suffit de consulter le <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>panneau d'information<UIGlow>01</UIGlow><UIForeground>01</UIForeground> d'un terrain libre, puis de choisir <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Acheter<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Si vous en possédez déjà un, vous verrez une option vous permettant de transférer votre logement vers la nouvelle parcelle."
-139,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_214","L'équivalent de 30% de la valeur minimale du terrain possédé sera soustrait au prix du nouveau."
-140,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_221","Lors d'un déménagement, tous les meubles (intérieur/jardin) sont au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment rangés dans l'entrepôt, à l'exception de l'écurie à chocobos et de l'éthérite privée, qui sont au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment placées dans le jardin du nouveau terrain."
-141,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_222","L'atelier de compagnie libre et les chambres individuelles sont transférées telles quelles lors du déménagement."
-142,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_224","Les éléments d'extérieur de la maison sont au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment changés en fonction du quartier résidentiel et de la taille du terrain vers lequel le déménagement se fait."
-143,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_225","L'intérieur est conservé dans l'état où il était avant le déménagement, mais il peut arriver que certains étages dis<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent en fonction de la destination, auquel cas les éléments correspondants sont perdus."
-144,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_231","Il est impossible d'effectuer un déménagement si aucun personnage pro<SoftHyphen/>prié<SoftHyphen/>taire n'est entré dans la maison au cours des 30 derniers jours (temps réel)."
-145,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_232","Notez que transférer un logement vers un nouveau terrain a pour effet de réinitialiser le décompte avant une éventuelle cession automatique, tout comme si un personnage pro<SoftHyphen/>prié<SoftHyphen/>taire avait pénétré dans la maison."
-146,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_240","Tous les logements, c'est-à-dire les maisons, chambres individuelles et appartements, sont pourvus d'un entrepôt permettant de ranger du mobilier. Les nombres maximums de meubles d'intérieur et de jardin pouvant respectivement y être remisés sont comme suit<Indent/>:"
-147,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_241","Maisonnettes<Indent/>: 200/20
-Pavillons<Indent/>: 300/30
-Villas<Indent/>: 400/40"
-148,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_242","L'entrepôt des chambres individuelles et appartements peut contenir jusqu'à 100 meubles."
-149,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_243","Notez toutefois que les écuries à chocobos et les éthérites privées ne peuvent pas être entreposées. Par ailleurs, une maison dont l'entrepôt contient des objets ne peut pas être démolie."
-150,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_244","Si un potager ou un pot de fleurs est rangé dans l'entrepôt, la croissance des végétaux qui y sont plantés est arrêtée. De même, le rechargement d'énergie opéré par les bases de tours éthéréens est interrompu."
-151,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_245","Lors d'un déménagement, tous les meubles (intérieur/jardin) sont au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment rangés dans l'entrepôt. S'il n'y a pas assez de place dedans, le déménagement ne pourra pas se faire."
-152,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_246","Si une maison a fait l'objet d'une cession automatique, les objets qui étaient dans l'entrepôt peuvent être récupérés auprès d'un officier du logement pendant une période de 35 jours suivant ladite cession."
-153,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_181","（★未使用／削除予定★）"
-154,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_193","（★未使用／削除予定★）"
+0,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_000,Bonsoir et bienvenue à Brumée. Je suis ici pour informer les aventuriers comme vous sur le logement.
+1,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2Q1_100_002,Sur quoi vous renseignez-vous ?
+2,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A11_111_002,Annuler
+3,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A1_101_002,Les quartiers résidentiels en général
+4,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_100_002,L'achat et la cession d'un terrain
+5,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A2_102_002,Les types de terrains disponibles
+6,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A3_103_002,L'achat d'un terrain
+7,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_104_002,La cession d'un terrain
+8,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_121_002,La cession automatique des terrains
+9,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_101_002,La con­struc­tion et la personnalisation de l'extérieur d'une maison
+10,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A5_105_002,La con­struc­tion d'une maison
+11,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A6_106_002,La personnalisation de l'extérieur d'une maison
+12,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A7_107_002,La disposition du mobilier de jardin
+13,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_102_002,La personnalisation de l'intérieur d'une maison
+14,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A8_108_002,La décoration de l'intérieur d'une maison
+15,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A9_109_002,La disposition de meubles
+16,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_122_002,Le réglage de la luminosité
+17,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_110_002,Les restrictions sur les meubles usés
+18,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_103_002,Les options disponibles dans une maison de compagnie libre
+19,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A12_112_002,L'aménagement d'une chambre individuelle
+20,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_113_002,La destruction d'une chambre individuelle
+21,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_114_002,La récupération des objets d'une chambre détruite
+22,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_115_002,Les tours éthéréens
+23,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_116_002,La destruction d'un atelier de compagnie
+24,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_117_002,L'aménagement d'un atelier de compagnie
+25,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYQ1_100_000,Sur quoi vous renseignez-vous ?
+26,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYC1_100_000,Retour
+27,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_120_002,L'affectation de servants sur un terrain
+28,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_123_002,Le partage d'une maison individuelle
+29,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_124_002,Les appartements
+30,TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_104_002,Le déménagement
+31,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A25_125_002,Le déménagement
+32,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A26_126_002,Le transfert des biens lors du déménagement
+33,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A27_127_002,Remarque sur le déménagement
+34,TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A28_128_002,L'entrepôt
+35,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_010,"Le Maelstrom a lancé un vaste plan d'action pour inciter les aventuriers à s'installer ici, dans la Noscea."
+36,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_011,"Pour cela, il a été jugé nécessaire de leur proposer un endroit qui puisse servir de base à leurs activités. Nous avons ainsi mis au point un système permettant d'acheter des terrains constructibles et des appartements."
+37,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_012,"C'est ici, au quartier résidentiel de Brumée, que vous pouvez donc acquérir votre parcelle et y bâtir une maison. Comprenez bien que c'est dans l'intérêt de notre cité que vous vous installiez ici."
+38,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_013,Sachez que diverses cités du monde mettent une zone d'habitation comme celle-ci à la disposition des aventuriers.
+39,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_014,L'achat de terrain et d'appartement n'est aucunement limité par votre allégeance. Vous êtes libre d'élire domicile à l'endroit qui vous plaît.
+40,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_015,"Les quartiers résidentiels sont divisés en secteurs. Lorsque vous y accédez, vous devez d'abord choisir le secteur où vous désirez vous rendre."
+41,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_016,"Les quartiers résidentiels sont composés de plusieurs zones parallèles. Par exemple, les secteurs 1 et 2 ont des structures et des paysages identiques, mais se trouvent à des endroits différents et à divers niveaux de développement."
+42,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_020,"Afin de bâtir une maison, il vous faut d'abord acheter un terrain dans le quartier résidentiel."
+43,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_021,"Il en existe de trois tailles différentes : petit, moyen et grand."
+44,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_022,"De même, les maisons ont trois formats, qui correspondent aux types de terrain. Il est nécessaire de construire un logement à la taille de la parcelle."
+45,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_023,Le nombre de meubles qui peuvent être placés dans le jardin ou dans la maison varie en fonction de la taille du terrain. Ne l'oubliez pas lorsque vous déciderez d'en acheter un.
+46,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_030,Les conditions requises pour pouvoir acheter un terrain diffèrent selon qu'il s'agisse d'une acquisition à titre *individuel* ou pour le compte d'une *compagnie libre*.
+47,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_031,"Afin d'acheter un terrain pour soi-même, il est nécessaire d'avoir atteint le niveau 50 dans une classe."
+48,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_101_031,"Par ailleurs, votre personnage doit avoir le grade de sous-lieutenant dans votre grande compagnie d'allégeance."
+49,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_102_031,"Si l'acquisition se fait au nom de la compagnie libre, il faut être à un rang de la hiérarchie ayant le droit de posséder un terrain pour pouvoir en acheter un."
+50,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_103_031,"Pour acheter un terrain à Shirogane, il est nécessaire d'avoir préalablement terminé la quête de l'épopée “Une grande traversée”."
+51,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_031,"Dans les deux cas, vous pouvez consulter le prix de vente des terrains en examinant les panneaux d'information qui se trouvent dans les quartiers résidentiels."
+52,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_032,Ce prix est en gils et baisse ré­gu­liè­re­ment toutes les 6 heures (temps réel) jusqu'à une valeur minimale déterminée.
+53,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_033,"Si un terrain a été acheté par un autre joueur, il est retiré de la vente."
+54,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_040,"Pour céder un terrain, il est nécessaire d'en retirer préalablement tous les meubles et de démolir la maison qui y a été bâtie."
+55,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_041,"Une fois la maison démolie, il suffit de sélectionner l'option “Céder le terrain” dans le menu “Logement”."
+56,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_041,Notez toutefois que céder le terrain ne permet pas de récupérer les gils dépensés à l'achat.
+57,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_100_045,"Afin de permettre au plus grand nombre d'aventuriers de jouir des bénéfices du logement, nous avons décidé que tout terrain qui n'a pas été utilisé pendant une longue période sera au­to­ma­ti­que­ment cédé par son pro­prié­taire."
+58,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_182,"Si un pro­prié­taire n'entre pas dans la maison qui est bâtie sur son terrain pendant 30 jours (temps réel) d'affilée, ce dernier sera soumis à une procédure de cession automatique."
+59,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_182,Cette opération sera effective après 45 jours (temps réel) d'inactivité.
+60,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_183,"Dans le cas d'un terrain appartenant à une compagnie libre, tous les membres de celle-ci sont considérés comme “pro­prié­taires”."
+61,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_183,"Dans le cas d'un terrain acheté à titre personnel, c'est le personnage à qui il appartient, et lui seul, qui est considéré comme “pro­prié­taire”."
+62,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_184,Il suffit qu'un personnage “pro­prié­taire” pénètre dans la maison avant échéance de la période de 45 jours (temps réel) d'inactivité pour que la cession automatique soit annulée.
+63,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_185,"Si le terrain est cédé au­to­ma­ti­que­ment, tout ce qui y était lié sera perdu, à l'exception de certains biens."
+64,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_186,Notez toutefois qu'une partie des meubles ainsi qu'un montant en gils équivalent à 80% du prix du terrain au moment de son achat pourront être récupérés auprès des officiers du logement pendant une période de 35 jours (temps réel) à partir de la date de cession.
+65,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_187,"Dans le cas d'une maison de compagnie libre, seuls les membres ayant le droit d'acheter ou de céder un terrain seront en mesure de reprendre ces biens."
+66,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_188,"Dans le cas d'une maison individuelle, le personnage à qui appartenait le terrain est le seul qui peut récupérer les gils et les objets."
+67,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_050,"Pour bâtir une maison, il est nécessaire d'obtenir un “permis de construire”."
+68,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_051,Il en existe plusieurs types. Veuillez donc bien vérifier pour quelle taille de maison et pour quel quartier résidentiel ils sont faits.
+69,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_052,"Si la taille de la maison ou le quartier du permis de construire diffère de celle ou celui du terrain possédé, il sera impossible d'y bâtir un logement."
+70,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_053,"Une fois le permis de construire dans votre inventaire, allez sur votre terrain et ouvrez le menu “Logement”, puis choisissez “Construire une maison”."
+71,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_060,"Une fois votre maison bâtie, vous pourrez la personnaliser à votre gré."
+72,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_061,"L'extérieur d'une maison se compose de huit parties : le “toit”, la “façade”, les “fenêtres”, la “porte”, les “panneaux”, les “murets”, les “décorations de toit” et les “décorations de façade”."
+73,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_062,"Pour pouvoir ajouter des éléments d'extérieur, vous devez les avoir dans votre inventaire. Ouvrez alors le menu “Logement” en étant sur votre terrain, puis choisissez l'option “Changer l'extérieur”."
+74,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_063,"Attention : une fois placé, un élément d'extérieur disparaît de votre inventaire et ne peut plus être retiré."
+75,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_070,L'espace de votre terrain qui n'est pas occupé par la maison constitue votre “jardin”.
+76,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_071,Vous pouvez y disposer du “mobilier de jardin” afin de l'enjoliver.
+77,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_072,"Pour pouvoir placer du mobilier de jardin, vous devez en avoir dans votre inventaire. Ouvrez alors le menu “Logement” en étant sur votre terrain, puis choisissez l'option “Mobilier de jardin”."
+78,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_080,Sachez qu'il est possible de changer le parquet et le revêtement des murs à l'intérieur de votre maison.
+79,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_081,"L'intérieur de la maison est constitué de trois parties : les “murs”, le “plancher” et l'“éclairage”."
+80,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_082,"Pour ajouter des éléments d'intérieur, vous devez les avoir dans votre inventaire. Ouvrez alors le menu “Logement” en étant sur votre terrain, puis choisissez l'option “Modifier l'intérieur”."
+81,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_083,"Attention : une fois placé, un élément d'intérieur disparaît de votre inventaire et ne peut plus être retiré."
+82,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_090,"Bien entendu, vous pouvez meubler votre logis comme bon vous semble. À vous d'ajouter votre touche personnelle à votre intérieur."
+83,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_091,"Pour placer des meubles, vous devez au préalable les posséder dans votre inventaire. Rendez-vous ensuite sur votre terrain, puis ouvrez le menu “Logement” et choisissez l'option “Mobilier”."
+84,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_092,"Certains éléments peuvent être disposés sur des meubles comme les tables, accrochés aux murs ou bien placés pour recouvrir le plancher."
+85,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_095,"Vous aimez les espaces éclairés, ou bien vous préférez la pénombre ? Dans tous les cas, n'hésitez pas à choisir la luminosité qui vous convient le mieux chez vous."
+86,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_191,"Il est possible de régler la luminosité selon cinq degrés à l'intérieur des maisons, per­son­nelles ou de compagnie libre, et des chambres individuelles."
+87,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_192,"Pour cela, il suffit d'utiliser l'option “Paramètres d'ambiance” dans le menu du logement."
+88,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_100,"Une fois placés, le mobilier de jardin et les meubles deviennent liés et ne peuvent plus être échangés ou mis en vente."
+89,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_101,"Par ailleurs, certains de ces objets dis­pa­rais­sent définitivement si on les retire après les avoir disposés."
+90,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_102,Un avertissement s'affichera à l'écran lorsque vous essaierez de retirer un de ces meubles.
+91,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_110,Les membres d'une compagnie libre ont la possibilité d'aménager chacun leur chambre individuelle dans la maison.
+92,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_111,"Pour aménager votre chambre individuelle, vous devez vous acquitter des frais nécessaires et avoir atteint le niveau 50 dans une classe au moins."
+93,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_112,Vous devez également avoir au moins le grade de sous-lieutenant dans votre grande compagnie actuelle.
+94,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_113,"Pour aller dans une chambre individuelle, il suffit d'utiliser la porte qui donne “accès vers les autres pièces”."
+95,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_120,"Lorsqu'une chambre individuelle n'est plus utilisée, il est possible de la retirer."
+96,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_121,"Pour détruire une chambre individuelle, vous devez être dans la maison ou sur son terrain et choisir l'option correspondante dans les réglages du menu “Logement”."
+97,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_122,"Mais pour cela, il est nécessaire d'avoir préalablement retiré tous les meubles qui y étaient disposés."
+98,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_130,"Si un membre qui a aménagé sa chambre individuelle dans la maison est ensuite exclu de la compagnie libre, cette pièce est au­to­ma­ti­que­ment détruite."
+99,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_131,Tous les objets qui se trouvaient à l'intérieur de la chambre sont alors conservés ici pour une durée limitée.
+100,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_132,"Pour récupérer les objets qui étaient dans la chambre individuelle, il est nécessaire de s'adresser à un officier du logement dans les 35 jours (temps réel) qui suivent la destruction de la chambre individuelle."
+101,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_133,"Le nombre de jours restants peut être consulté à tout moment à partir du calendrier, dans le menu principal."
+102,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_134,"Notez toutefois que les frais d'aménagement de la chambre individuelle, les éléments d'intérieur (plancher, murs et éclairage) et les meubles qui dis­pa­rais­sent lorsqu'ils sont retirés ne sont pas restitués."
+103,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_135,Veuillez bien prendre en compte ces points avant d'exclure un membre de la compagnie libre.
+104,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_140,Les tours éthéréens sont des cristaux spéciaux qui permettent de diffuser une énergie bénéfique relativement similaire à celle octroyée par ce que vous autres aventuriers appelez “bienfait de compagnie”.
+105,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_141,"Vous pouvez vous en procurer dans les échoppes ou en fabriquer vous-même, notez cependant que leur utilisation nécessite un socle particulier pour les charger en éther."
+106,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_142,Il est possible de se procurer des bases de tours éthéréens auprès des quincailliers des quartiers résidentiels.
+107,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_143,Notez qu'il est nécessaire de charger les tours pour profiter de leurs effets.
+108,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_144,"Pour cela, il suffit de les placer dans un orifice libre et de patienter un certain temps."
+109,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_150,"Vous voulez affecter un servant sur votre terrain ? C'est possible, en effet, mais il vous faut une au­to­ri­sa­tion spéciale pour ça."
+110,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_151,Il est possible de se procurer une au­to­ri­sa­tion de vente auprès des cantiniers des quartiers résidentiels. Il faut ensuite l'utiliser pour placer le servant dans le jardin.
+111,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_152,"Une fois affecté sur le terrain, les joueurs peuvent lui acheter des objets directement, sans passer par les tableaux des ventes."
+112,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_153,"Bien sûr, il est possible de remplacer à tout moment le servant affecté par un autre."
+113,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_154,"Notez que si vous le renvoyez définitivement ou que vous (ou son maître) quittez/êtes exclu(e) de la compagnie libre, il ne sera pas révoqué au­to­ma­ti­que­ment."
+114,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_155,Les servants indésirables doivent être congédiés manuellement par un membre disposant des droits nécessaires.
+115,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_155,"Vous vous sentez un peu seule dans votre maison ? Dans ce cas, pourquoi ne pas la partager avec des amis ? Le règlement des quartiers résidentiels autorise la cohabitation dans les logements individuels."
+116,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_201,Le partage de la maison vous permet de faire bénéficier vos amis de certaines fonctions de votre logement.
+117,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_202,Ces derniers deviennent alors des “cohabitants”.
+118,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_203,"Vous pouvez accepter jusqu'à trois cohabitants dans votre maison. À l'inverse, un personnage peut devenir le cohabitant d'au maximum deux maisons individuelles."
+119,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_204,"Pour ajouter un cohabitant, utilisez l'option “Réglages de partage de la maison” après avoir sélectionné votre maison individuelle dans le menu du logement. Vous pourrez également choisir quels droits accorder à cet ami à cette occasion."
+120,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_205,Notez que le pro­prié­taire et le cohabitant peuvent chacun mettre fin à cette relation de partage de maison.
+121,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_170,Vous avez la possibilité d'aménager un atelier au sous-sol de votre maison de compagnie libre.
+122,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_171,"Les ins­tal­la­tions qu'il contient vous donneront la possibilité de construire divers objets avec vos camarades, dont des aéronefs qui pourront explorer des endroits inconnus de la Mer de nuages."
+123,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_172,Sachez toutefois que la fabrication de tels appareils est ex­trê­me­ment ardue et requiert la coopération de plusieurs artisans chevronnés.
+124,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_173,L'aménagement de l'atelier nécessite d'acquitter des frais en gils.
+125,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_174,"Une fois cela fait, il suffit d'utiliser la porte qui donne “accès vers les autres pièces” pour s'y rendre."
+126,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_175,Le pantin aventurier P014A qui se trouve dans l'atelier vous fournira diverses ex­pli­ca­tions sur l'utilisation des éléments qui y sont installés.
+127,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_160,"Si jamais vous ne deviez plus avoir besoin de votre atelier, vous pouvez tout simplement le détruire."
+128,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_161,"Notez néanmoins que vous perdrez alors le registre de toutes les activités que vous y aurez conduites. Réfléchissez-y donc à deux fois, avant de prendre cette décision."
+129,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_162,"Pour détruire l'atelier de compagnie, il est nécessaire de terminer tout projet de con­struc­tion en cours et de démonter les aéronefs de compagnie."
+130,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_163,"Sachez toutefois que les frais d'aménagement ne vous seront pas rendus. Par ailleurs, toutes les données des activités relatives à l'atelier seront perdues."
+131,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_164,"Pour détruire l'atelier de compagnie, vous devez être dans la maison ou sur son terrain et choisir l'option correspondante dans les réglages du menu “Logement”."
+132,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_156,"Les appartements sont des logements individuels que nous proposons aux aventuriers. Il en existe dans chaque quartier résidentiel, en marge des terrains constructibles."
+133,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_157,"Vous trouverez des appartements à vendre au sein des résidences du Mât de hune à Brumée, de la Plaine-aux-Lys à Lavandière, du Souffle de la Sultane à La Coupe et de Kobai Goten à Shirogane."
+134,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_158,"Pour en savoir plus sur l'achat d'appartement, rendez-vous dans l'une des résidences sus-citées et parlez à l'officier en charge."
+135,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_210,"L'emplacement de votre logement vous lasse ? Dans ce cas, réjouissez-vous ! Vous pouvez le transférer vers un autre terrain."
+136,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_211,"La fonction de déménagement vous permet de transférer l'intégralité de votre maison d'un terrain vers un autre, et ce, même en changeant de quartier résidentiel ou de taille de terrain."
+137,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_212,"Pour cela, vous devez être la pro­prié­taire dans le cas d'une maison individuelle, ou avoir le droit “Achat/Cession de terrain” s'il s'agit d'un logement de compagnie libre."
+138,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_213,"Pour effectuer un déménagement, il vous suffit de consulter le **panneau d'information** d'un terrain libre, puis de choisir **Acheter**. Si vous en possédez déjà un, vous verrez une option vous permettant de transférer votre logement vers la nouvelle parcelle."
+139,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_214,L'équivalent de 30% de la valeur minimale du terrain possédé sera soustrait au prix du nouveau.
+140,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_221,"Lors d'un déménagement, tous les meubles (intérieur/jardin) sont au­to­ma­ti­que­ment rangés dans l'entrepôt, à l'exception de l'écurie à chocobos et de l'éthérite privée, qui sont au­to­ma­ti­que­ment placées dans le jardin du nouveau terrain."
+141,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_222,L'atelier de compagnie libre et les chambres individuelles sont transférées telles quelles lors du déménagement.
+142,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_224,Les éléments d'extérieur de la maison sont au­to­ma­ti­que­ment changés en fonction du quartier résidentiel et de la taille du terrain vers lequel le déménagement se fait.
+143,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_225,"L'intérieur est conservé dans l'état où il était avant le déménagement, mais il peut arriver que certains étages dis­pa­rais­sent en fonction de la destination, auquel cas les éléments correspondants sont perdus."
+144,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_231,Il est impossible d'effectuer un déménagement si aucun personnage pro­prié­taire n'est entré dans la maison au cours des 30 derniers jours (temps réel).
+145,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_232,"Notez que transférer un logement vers un nouveau terrain a pour effet de réinitialiser le décompte avant une éventuelle cession automatique, tout comme si un personnage pro­prié­taire avait pénétré dans la maison."
+146,TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_240,"Tous les logements, c'est-à-dire les maisons, chambres individuelles et appartements, sont pourvus d'un entrepôt permettant de ranger du mobilier. Les nombres maximums de meubles d'intérieur et de jardin pouvant respectivement y être remisés sont comme suit :"
+147,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_241,"Maisonnettes : 200/20
+Pavillons : 300/30
+Villas : 400/40"
+148,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_242,L'entrepôt des chambres individuelles et appartements peut contenir jusqu'à 100 meubles.
+149,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_243,"Notez toutefois que les écuries à chocobos et les éthérites privées ne peuvent pas être entreposées. Par ailleurs, une maison dont l'entrepôt contient des objets ne peut pas être démolie."
+150,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_244,"Si un potager ou un pot de fleurs est rangé dans l'entrepôt, la croissance des végétaux qui y sont plantés est arrêtée. De même, le rechargement d'énergie opéré par les bases de tours éthéréens est interrompu."
+151,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_245,"Lors d'un déménagement, tous les meubles (intérieur/jardin) sont au­to­ma­ti­que­ment rangés dans l'entrepôt. S'il n'y a pas assez de place dedans, le déménagement ne pourra pas se faire."
+152,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_246,"Si une maison a fait l'objet d'une cession automatique, les objets qui étaient dans l'entrepôt peuvent être récupérés auprès d'un officier du logement pendant une période de 35 jours suivant ladite cession."
+153,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_181,（★未使用／削除予定★）
+154,TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_193,（★未使用／削除予定★）

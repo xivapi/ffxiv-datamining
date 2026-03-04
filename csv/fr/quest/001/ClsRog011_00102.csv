@@ -1,87 +1,84 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CLSROG011_00102_SEQ_00","Lonwoerd désire s'assurer que vous êtes digne de rejoindre la guilde des surineurs."
-1,"TEXT_CLSROG011_00102_SEQ_01","Lonwoerd vous a envoyé<If(PlayerParameter(4))>e<Else/></If> voir Jacke, maître de guilde de son état, afin qu'il puisse juger si vous avez l'étoffe d'<If(PlayerParameter(4))>une vraie surineuse<Else/>un vrai surineur</If>. Allez lui parler à l'intérieur du bâtiment."
-2,"TEXT_CLSROG011_00102_SEQ_02","Vous avez affirmé avec conviction votre volonté de rejoindre la guilde des surineurs devant Jacke. Équipez-vous de votre nouvelle <SheetFr(Item,12,　7952,1,1)/> et parlez-lui à nouveau."
-3,"TEXT_CLSROG011_00102_SEQ_03",""
-4,"TEXT_CLSROG011_00102_SEQ_04",""
-5,"TEXT_CLSROG011_00102_SEQ_05",""
-6,"TEXT_CLSROG011_00102_SEQ_06",""
-7,"TEXT_CLSROG011_00102_SEQ_07",""
-8,"TEXT_CLSROG011_00102_SEQ_08",""
-9,"TEXT_CLSROG011_00102_SEQ_09",""
-10,"TEXT_CLSROG011_00102_SEQ_10",""
-11,"TEXT_CLSROG011_00102_SEQ_11",""
-12,"TEXT_CLSROG011_00102_SEQ_12",""
-13,"TEXT_CLSROG011_00102_SEQ_13",""
-14,"TEXT_CLSROG011_00102_SEQ_14",""
-15,"TEXT_CLSROG011_00102_SEQ_15",""
-16,"TEXT_CLSROG011_00102_SEQ_16",""
-17,"TEXT_CLSROG011_00102_SEQ_17",""
-18,"TEXT_CLSROG011_00102_SEQ_18",""
-19,"TEXT_CLSROG011_00102_SEQ_19",""
-20,"TEXT_CLSROG011_00102_SEQ_20",""
-21,"TEXT_CLSROG011_00102_SEQ_21",""
-22,"TEXT_CLSROG011_00102_SEQ_22",""
-23,"TEXT_CLSROG011_00102_SEQ_23",""
-24,"TEXT_CLSROG011_00102_TODO_00","Parler à Jacke"
-25,"TEXT_CLSROG011_00102_TODO_01",""
-26,"TEXT_CLSROG011_00102_TODO_02",""
-27,"TEXT_CLSROG011_00102_TODO_03",""
-28,"TEXT_CLSROG011_00102_TODO_04",""
-29,"TEXT_CLSROG011_00102_TODO_05",""
-30,"TEXT_CLSROG011_00102_TODO_06",""
-31,"TEXT_CLSROG011_00102_TODO_07",""
-32,"TEXT_CLSROG011_00102_TODO_08",""
-33,"TEXT_CLSROG011_00102_TODO_09",""
-34,"TEXT_CLSROG011_00102_TODO_10",""
-35,"TEXT_CLSROG011_00102_TODO_11",""
-36,"TEXT_CLSROG011_00102_TODO_12",""
-37,"TEXT_CLSROG011_00102_TODO_13",""
-38,"TEXT_CLSROG011_00102_TODO_14",""
-39,"TEXT_CLSROG011_00102_TODO_15",""
-40,"TEXT_CLSROG011_00102_TODO_16",""
-41,"TEXT_CLSROG011_00102_TODO_17",""
-42,"TEXT_CLSROG011_00102_TODO_18",""
-43,"TEXT_CLSROG011_00102_TODO_19",""
-44,"TEXT_CLSROG011_00102_TODO_20",""
-45,"TEXT_CLSROG011_00102_TODO_21",""
-46,"TEXT_CLSROG011_00102_TODO_22",""
-47,"TEXT_CLSROG011_00102_TODO_23",""
-48,"TEXT_CLSROG011_00102_LONWOERD_000_000","Je constate que ton courage n'a d'égal que ta réputation, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Je te souhaite donc la bienvenue dans la guilde des surineurs."
-49,"TEXT_CLSROG011_00102_LONWOERD_000_001","Bien, je pense qu'il est temps pour toi d'aller présenter tes respects à Jacke, notre maître de guilde. Tu le trouveras à l'intérieur du bâtiment."
-50,"TEXT_CLSROG011_00102_SYSTEM_000_002","Vous êtes désormais libre d'aller et venir dans le quartier général de la guilde des surineurs. Parlez à Lonwoerd pour y pénétrer."
-51,"TEXT_CLSROG011_00102_JACKE_000_010","... Oui, je suis bien Jacke, le maître de la guilde des surineurs. À qui ai-je l'honneur<Indent/>?"
-52,"TEXT_CLSROG011_00102_JACKE_000_011","<Highlight>ObjectParameter(1)</Highlight><Indent/>!? <If(PlayerParameter(4))>La<Else/>Le</If> légendaire <Highlight>ObjectParameter(1)</Highlight><Indent/>? Mazette, si quelqu'un m'avait dit que tu te porterais volontaire un jour pour faire partie de notre guilde, je lui aurais répondu qu'il ferait mieux d'arrêter les bières trop fortes<Indent/>!"
-53,"TEXT_CLSROG011_00102_JACKE_000_012","Pas étonnant que Lonwoerd t'ait permis de venir jusqu'à moi aussi facilement, car les Douze savent qu'on ne rentre pas ici comme dans un moulin, loin de là..."
-54,"TEXT_CLSROG011_00102_JACKE_000_013","Au fait, rassure-moi... Tu n'aurais pas rejoint une quelconque bande de pirates peu charitables, quand même<Indent/>? Tu es sûr<If(PlayerParameter(4))>e<Else/></If><Indent/>?"
-55,"TEXT_CLSROG011_00102_JACKE_000_014","Parfait, parfait<Indent/>! Désolé mais je suis obligé de prendre certaines précautions, on ne sait plus trop ce qui court les rues de nos jours... Permets-moi donc de te souhaiter la bienvenue au sein de la guilde des surineurs."
-56,"TEXT_CLSROG011_00102_JACKE_000_015","Les origines de notre guilde remontent aux temps immémoriaux de... euh... de qui déjà<Indent/>? Oh, peu importe. Tout ce que tu dois savoir, c'est que nous acceptons des <Emphasis>contrats</Emphasis> spéciaux qui ne peuvent être remplis par aucune autre or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion."
-57,"TEXT_CLSROG011_00102_JACKE_000_016","Connais-tu l'histoire de Limsa Lominsa<Indent/>? Sais-tu par exemple que notre belle ville portuaire a posé ses fondations autour d'un repaire de pirates<Indent/>?"
-58,"TEXT_CLSROG011_00102_JACKE_000_017","En apparence, ce sont des pilleurs sans foi ni loi qui refourguent leur butin au plus offrant, mais il faut savoir que les pirates sont liés entre eux par un code d'honneur secret depuis la nuit des temps."
-59,"TEXT_CLSROG011_00102_JACKE_000_018","Les Limséens, tu ne voleras point<Indent/>!
-Le butin, tu partageras avec soin<Indent/>!
-Les esclaves, tu laisseras hors des enclaves<Indent/>!
+0,TEXT_CLSROG011_00102_SEQ_00,Lonwoerd désire s'assurer que vous êtes digne de rejoindre la guilde des surineurs.
+1,TEXT_CLSROG011_00102_SEQ_01,"Lonwoerd vous a envoyée voir Jacke, maître de guilde de son état, afin qu'il puisse juger si vous avez l'étoffe d'une vraie surineuse. Allez lui parler à l'intérieur du bâtiment."
+2,TEXT_CLSROG011_00102_SEQ_02,Vous avez affirmé avec conviction votre volonté de rejoindre la guilde des surineurs devant Jacke. Équipez-vous de votre nouvelle  et parlez-lui à nouveau.
+3,TEXT_CLSROG011_00102_SEQ_03,
+4,TEXT_CLSROG011_00102_SEQ_04,
+5,TEXT_CLSROG011_00102_SEQ_05,
+6,TEXT_CLSROG011_00102_SEQ_06,
+7,TEXT_CLSROG011_00102_SEQ_07,
+8,TEXT_CLSROG011_00102_SEQ_08,
+9,TEXT_CLSROG011_00102_SEQ_09,
+10,TEXT_CLSROG011_00102_SEQ_10,
+11,TEXT_CLSROG011_00102_SEQ_11,
+12,TEXT_CLSROG011_00102_SEQ_12,
+13,TEXT_CLSROG011_00102_SEQ_13,
+14,TEXT_CLSROG011_00102_SEQ_14,
+15,TEXT_CLSROG011_00102_SEQ_15,
+16,TEXT_CLSROG011_00102_SEQ_16,
+17,TEXT_CLSROG011_00102_SEQ_17,
+18,TEXT_CLSROG011_00102_SEQ_18,
+19,TEXT_CLSROG011_00102_SEQ_19,
+20,TEXT_CLSROG011_00102_SEQ_20,
+21,TEXT_CLSROG011_00102_SEQ_21,
+22,TEXT_CLSROG011_00102_SEQ_22,
+23,TEXT_CLSROG011_00102_SEQ_23,
+24,TEXT_CLSROG011_00102_TODO_00,Parler à Jacke
+25,TEXT_CLSROG011_00102_TODO_01,
+26,TEXT_CLSROG011_00102_TODO_02,
+27,TEXT_CLSROG011_00102_TODO_03,
+28,TEXT_CLSROG011_00102_TODO_04,
+29,TEXT_CLSROG011_00102_TODO_05,
+30,TEXT_CLSROG011_00102_TODO_06,
+31,TEXT_CLSROG011_00102_TODO_07,
+32,TEXT_CLSROG011_00102_TODO_08,
+33,TEXT_CLSROG011_00102_TODO_09,
+34,TEXT_CLSROG011_00102_TODO_10,
+35,TEXT_CLSROG011_00102_TODO_11,
+36,TEXT_CLSROG011_00102_TODO_12,
+37,TEXT_CLSROG011_00102_TODO_13,
+38,TEXT_CLSROG011_00102_TODO_14,
+39,TEXT_CLSROG011_00102_TODO_15,
+40,TEXT_CLSROG011_00102_TODO_16,
+41,TEXT_CLSROG011_00102_TODO_17,
+42,TEXT_CLSROG011_00102_TODO_18,
+43,TEXT_CLSROG011_00102_TODO_19,
+44,TEXT_CLSROG011_00102_TODO_20,
+45,TEXT_CLSROG011_00102_TODO_21,
+46,TEXT_CLSROG011_00102_TODO_22,
+47,TEXT_CLSROG011_00102_TODO_23,
+48,TEXT_CLSROG011_00102_LONWOERD_000_000,"Je constate que ton courage n'a d'égal que ta réputation, Player. Je te souhaite donc la bienvenue dans la guilde des surineurs."
+49,TEXT_CLSROG011_00102_LONWOERD_000_001,"Bien, je pense qu'il est temps pour toi d'aller présenter tes respects à Jacke, notre maître de guilde. Tu le trouveras à l'intérieur du bâtiment."
+50,TEXT_CLSROG011_00102_SYSTEM_000_002,Vous êtes désormais libre d'aller et venir dans le quartier général de la guilde des surineurs. Parlez à Lonwoerd pour y pénétrer.
+51,TEXT_CLSROG011_00102_JACKE_000_010,"... Oui, je suis bien Jacke, le maître de la guilde des surineurs. À qui ai-je l'honneur ?"
+52,TEXT_CLSROG011_00102_JACKE_000_011,"Player Player !? La légendaire Player Player ? Mazette, si quelqu'un m'avait dit que tu te porterais volontaire un jour pour faire partie de notre guilde, je lui aurais répondu qu'il ferait mieux d'arrêter les bières trop fortes !"
+53,TEXT_CLSROG011_00102_JACKE_000_012,"Pas étonnant que Lonwoerd t'ait permis de venir jusqu'à moi aussi facilement, car les Douze savent qu'on ne rentre pas ici comme dans un moulin, loin de là..."
+54,TEXT_CLSROG011_00102_JACKE_000_013,"Au fait, rassure-moi... Tu n'aurais pas rejoint une quelconque bande de pirates peu charitables, quand même ? Tu es sûre ?"
+55,TEXT_CLSROG011_00102_JACKE_000_014,"Parfait, parfait ! Désolé mais je suis obligé de prendre certaines précautions, on ne sait plus trop ce qui court les rues de nos jours... Permets-moi donc de te souhaiter la bienvenue au sein de la guilde des surineurs."
+56,TEXT_CLSROG011_00102_JACKE_000_015,"Les origines de notre guilde remontent aux temps immémoriaux de... euh... de qui déjà ? Oh, peu importe. Tout ce que tu dois savoir, c'est que nous acceptons des *contrats* spéciaux qui ne peuvent être remplis par aucune autre or­ga­ni­sa­tion."
+57,TEXT_CLSROG011_00102_JACKE_000_016,Connais-tu l'histoire de Limsa Lominsa ? Sais-tu par exemple que notre belle ville portuaire a posé ses fondations autour d'un repaire de pirates ?
+58,TEXT_CLSROG011_00102_JACKE_000_017,"En apparence, ce sont des pilleurs sans foi ni loi qui refourguent leur butin au plus offrant, mais il faut savoir que les pirates sont liés entre eux par un code d'honneur secret depuis la nuit des temps."
+59,TEXT_CLSROG011_00102_JACKE_000_018,"Les Limséens, tu ne voleras point !
+Le butin, tu partageras avec soin !
+Les esclaves, tu laisseras hors des enclaves !
 Et... je ne me souviens plus de la suite."
-60,"TEXT_CLSROG011_00102_JACKE_000_019","Il est vrai que l'amirale Bloefhiswyn a interdit par décret toute activité de piraterie dans les environs, mais chaque civilisation a sa part d'ombre dans laquelle les sociétés secrètes se développent et perdurent... Qui douterait que le code d'honneur pirate n'y soit pas encore suivi de nos jours<Indent/>?"
-61,"TEXT_CLSROG011_00102_JACKE_000_020","Certainement pas moi, puisque notre guilde en perpétue la tradition, ha ha<Indent/>!"
-62,"TEXT_CLSROG011_00102_JACKE_000_021","Punir les violateurs du code et restituer les biens injustement subtilisés, telle est la mission principale des surineurs."
-63,"TEXT_CLSROG011_00102_JACKE_000_022","Voilà pourquoi nous avons mis au point des techniques de combat à nulle autre pareilles, qui nous permettent d'accomplir notre tâche sans nous faire remarquer."
-64,"TEXT_CLSROG011_00102_JACKE_000_023","Vois-tu, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, ces techniques ne mettent pas l'accent sur la puissance d'attaque ou la défense à proprement parler. Nous privilégions des moyens plus discrets tels que le poison, en prenant toujours garde à ne pas nous faire repérer par nos cibles. Rien de tel qu'une bonne petite embuscade pour arriver à ses fins en un minimum de temps<Indent/>!"
-65,"TEXT_CLSROG011_00102_JACKE_000_024","Mais tu m'as l'air pensi<If(PlayerParameter(4))>ve<Else/>f</If>... Te sens-tu toujours prêt<If(PlayerParameter(4))>e<Else/></If> à devenir l'un<If(PlayerParameter(4))>e<Else/></If> des nôtres<Indent/>?"
-66,"TEXT_CLSROG011_00102_Q1_000_030","Voulez-vous travailler pour le compte de la guilde des surineurs<Indent/>?"
-67,"TEXT_CLSROG011_00102_A1_000_031","Oui"
-68,"TEXT_CLSROG011_00102_A1_000_032","Non"
-69,"TEXT_CLSROG011_00102_JACKE_000_040","Parfait, parfait<Indent/>! Tout d'abord, place à la mode<Indent/>! En effet, nous allons devoir te vêtir con<SoftHyphen/>ve<SoftHyphen/>na<SoftHyphen/>ble<SoftHyphen/>ment."
-70,"TEXT_CLSROG011_00102_JACKE_000_041","Un surineur digne de ce nom doit rester léger en toutes cir<SoftHyphen/>cons<SoftHyphen/>tan<SoftHyphen/>ces afin de conserver un maximum de mobilité. Tu t'imagines poursuivre ta proie dans les couloirs étroits d'une cale de navire, au beau milieu de l'équipage vaquant à ses occupations, vêtu<If(PlayerParameter(4))>e<Else/></If> d'une armure lourde de paladin ou avec une énorme hache de guerrier entre les mains<Indent/>? Évidemment que non."
-71,"TEXT_CLSROG011_00102_JACKE_000_042","C'est la raison pour laquelle les surineurs suivent la voie de la double lame<Indent/>: une dague dans chaque main pour maintenir un équilibre parfait entre la puissance d'attaque et le poids de l'équipement."
-72,"TEXT_CLSROG011_00102_JACKE_000_043","J'ai donc l'honneur de te remettre ta première paire de dagues<Indent/>! Ce n'est qu'après les avoir équipées que ta carrière de surineu<If(PlayerParameter(4))>se<Else/>r</If> commencera pour de bon. Oh, et n'oublie pas la tenue, surtout<Indent/>! Il ne faudrait pas non plus négliger l'équilibre entre mobilité et décence, héhéhé..."
-73,"TEXT_CLSROG011_00102_JACKE_000_050","Dommage... Je dois avouer que je ne m'attendais pas à une telle réponse de ta part, surtout après être arrivé<If(PlayerParameter(4))>e<Else/></If> jusqu'ici, mais tu es libre de faire comme bon te semble."
-74,"TEXT_CLSROG011_00102_LONWOERD_000_900","Veux-tu entrer dans le quartier général des surineurs<Indent/>?"
-75,"TEXT_CLSROG011_00102_Q9_000_901","Entrer dans la guilde des surineurs<Indent/>?"
-76,"TEXT_CLSROG011_00102_A9_000_902","Oui"
-77,"TEXT_CLSROG011_00102_A9_000_903","Non"
-78,"TEXT_CLSROG011_00102_SYSTEM_000_060","Vous avez accès à une nouvelle classe<Indent/>! Pour en changer, il suffit de vous équiper de l'arme que vous venez de recevoir."
-79,"TEXT_CLSROG011_00102_SYSTEM_000_061","Après avoir changé de classe, pensez à enregistrer votre tenue<Indent/>! Cela vous permettra de modifier votre équipement en un éclair."
-80,"TEXT_CLSROG011_00102_SYSTEM_000_062","Vous pouvez enregistrer une tenue depuis la fenêtre de personnage, où est géré votre équipement."
+60,TEXT_CLSROG011_00102_JACKE_000_019,"Il est vrai que l'amirale Bloefhiswyn a interdit par décret toute activité de piraterie dans les environs, mais chaque civilisation a sa part d'ombre dans laquelle les sociétés secrètes se développent et perdurent... Qui douterait que le code d'honneur pirate n'y soit pas encore suivi de nos jours ?"
+61,TEXT_CLSROG011_00102_JACKE_000_020,"Certainement pas moi, puisque notre guilde en perpétue la tradition, ha ha !"
+62,TEXT_CLSROG011_00102_JACKE_000_021,"Punir les violateurs du code et restituer les biens injustement subtilisés, telle est la mission principale des surineurs."
+63,TEXT_CLSROG011_00102_JACKE_000_022,"Voilà pourquoi nous avons mis au point des techniques de combat à nulle autre pareilles, qui nous permettent d'accomplir notre tâche sans nous faire remarquer."
+64,TEXT_CLSROG011_00102_JACKE_000_023,"Vois-tu, Player, ces techniques ne mettent pas l'accent sur la puissance d'attaque ou la défense à proprement parler. Nous privilégions des moyens plus discrets tels que le poison, en prenant toujours garde à ne pas nous faire repérer par nos cibles. Rien de tel qu'une bonne petite embuscade pour arriver à ses fins en un minimum de temps !"
+65,TEXT_CLSROG011_00102_JACKE_000_024,Mais tu m'as l'air pensive... Te sens-tu toujours prête à devenir l'une des nôtres ?
+66,TEXT_CLSROG011_00102_Q1_000_030,Voulez-vous travailler pour le compte de la guilde des surineurs ?
+67,TEXT_CLSROG011_00102_A1_000_031,Oui
+68,TEXT_CLSROG011_00102_A1_000_032,Non
+69,TEXT_CLSROG011_00102_JACKE_000_040,"Parfait, parfait ! Tout d'abord, place à la mode ! En effet, nous allons devoir te vêtir con­ve­na­ble­ment."
+70,TEXT_CLSROG011_00102_JACKE_000_041,"Un surineur digne de ce nom doit rester léger en toutes cir­cons­tan­ces afin de conserver un maximum de mobilité. Tu t'imagines poursuivre ta proie dans les couloirs étroits d'une cale de navire, au beau milieu de l'équipage vaquant à ses occupations, vêtue d'une armure lourde de paladin ou avec une énorme hache de guerrier entre les mains ? Évidemment que non."
+71,TEXT_CLSROG011_00102_JACKE_000_042,C'est la raison pour laquelle les surineurs suivent la voie de la double lame : une dague dans chaque main pour maintenir un équilibre parfait entre la puissance d'attaque et le poids de l'équipement.
+72,TEXT_CLSROG011_00102_JACKE_000_043,"J'ai donc l'honneur de te remettre ta première paire de dagues ! Ce n'est qu'après les avoir équipées que ta carrière de surineuse commencera pour de bon. Oh, et n'oublie pas la tenue, surtout ! Il ne faudrait pas non plus négliger l'équilibre entre mobilité et décence, héhéhé..."
+73,TEXT_CLSROG011_00102_JACKE_000_050,"Dommage... Je dois avouer que je ne m'attendais pas à une telle réponse de ta part, surtout après être arrivée jusqu'ici, mais tu es libre de faire comme bon te semble."
+74,TEXT_CLSROG011_00102_LONWOERD_000_900,Veux-tu entrer dans le quartier général des surineurs ?
+75,TEXT_CLSROG011_00102_Q9_000_901,Entrer dans la guilde des surineurs ?
+76,TEXT_CLSROG011_00102_A9_000_902,Oui
+77,TEXT_CLSROG011_00102_A9_000_903,Non
+78,TEXT_CLSROG011_00102_SYSTEM_000_060,"Vous avez accès à une nouvelle classe ! Pour en changer, il suffit de vous équiper de l'arme que vous venez de recevoir."
+79,TEXT_CLSROG011_00102_SYSTEM_000_061,"Après avoir changé de classe, pensez à enregistrer votre tenue ! Cela vous permettra de modifier votre équipement en un éclair."
+80,TEXT_CLSROG011_00102_SYSTEM_000_062,"Vous pouvez enregistrer une tenue depuis la fenêtre de personnage, où est géré votre équipement."

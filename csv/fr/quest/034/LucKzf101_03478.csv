@@ -1,97 +1,94 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_LUCKZF101_03478_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Lanille a besoin d'aide pour l'or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion d'une cérémonie."
-1,"TEXT_LUCKZF101_03478_SEQ_01","<Emphasis>* Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
+0,TEXT_LUCKZF101_03478_SEQ_00,"**Règle spéciale :  synchronisation de quête**
+Lanille a besoin d'aide pour l'or­ga­ni­sa­tion d'une cérémonie."
+1,TEXT_LUCKZF101_03478_SEQ_01,"** Cette quête est ** synchronisée** avec votre niveau.*
 
 Lanille vous a demandé de rejoindre deux sœurs jumelles viis aux Étoiles du Matin pour les aider à procéder à une cérémonie d'offrandes rituelles. Allez-y tout de suite."
-2,"TEXT_LUCKZF101_03478_SEQ_02","Phyna et Ciuna vous ont expliqué le déroulement de la cérémonie. En tant que témoin, vous devrez vaincre la forme matérielle des esprits de la forêt afin de transmettre les prières des Viis aux dieux ronka. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment pour elles, les deux esprits qui ont fait leur apparition étaient de feu et de glace, deux éléments opposés, ce qui est connu pour être un mauvais présage... À vous de faire votre partie du travail."
-3,"TEXT_LUCKZF101_03478_SEQ_03","Vous avez terrassé les esprits de feu et de glace. Parlez à Phyna."
-4,"TEXT_LUCKZF101_03478_SEQ_04","Bien que vous ayez rempli votre rôle à la perfection, la cérémonie est toutefois un échec. Ciuna pense que c'est parce qu'un<If(PlayerParameter(4))>e<Else/></If> étrang<If(PlayerParameter(4))>ère<Else/>er</If> y a participé... Retournez auprès de Lanille à Fanow et racontez-lui votre expérience de témoin."
-5,"TEXT_LUCKZF101_03478_SEQ_05","Lanille s'inquiète pour les jumelles ainsi que pour la suite des opérations... La cérémonie pourra-t-elle être recommencée avec une conclusion favorable<Indent/>? Et quel est le sens de ce mauvais présage<Indent/>?"
-6,"TEXT_LUCKZF101_03478_SEQ_06",""
-7,"TEXT_LUCKZF101_03478_SEQ_07",""
-8,"TEXT_LUCKZF101_03478_SEQ_08",""
-9,"TEXT_LUCKZF101_03478_SEQ_09",""
-10,"TEXT_LUCKZF101_03478_SEQ_10",""
-11,"TEXT_LUCKZF101_03478_SEQ_11",""
-12,"TEXT_LUCKZF101_03478_SEQ_12",""
-13,"TEXT_LUCKZF101_03478_SEQ_13",""
-14,"TEXT_LUCKZF101_03478_SEQ_14",""
-15,"TEXT_LUCKZF101_03478_SEQ_15",""
-16,"TEXT_LUCKZF101_03478_SEQ_16",""
-17,"TEXT_LUCKZF101_03478_SEQ_17",""
-18,"TEXT_LUCKZF101_03478_SEQ_18",""
-19,"TEXT_LUCKZF101_03478_SEQ_19",""
-20,"TEXT_LUCKZF101_03478_SEQ_20",""
-21,"TEXT_LUCKZF101_03478_SEQ_21",""
-22,"TEXT_LUCKZF101_03478_SEQ_22",""
-23,"TEXT_LUCKZF101_03478_SEQ_23",""
-24,"TEXT_LUCKZF101_03478_TODO_00","Parler à Phyna, aux Étoiles du Matin"
-25,"TEXT_LUCKZF101_03478_TODO_01","Vaincre l'esprit de feu et l'esprit de glace"
-26,"TEXT_LUCKZF101_03478_TODO_02","Parler à Phyna"
-27,"TEXT_LUCKZF101_03478_TODO_03","Parler à Lanille, à Fanow"
-28,"TEXT_LUCKZF101_03478_TODO_04",""
-29,"TEXT_LUCKZF101_03478_TODO_05",""
-30,"TEXT_LUCKZF101_03478_TODO_06",""
-31,"TEXT_LUCKZF101_03478_TODO_07",""
-32,"TEXT_LUCKZF101_03478_TODO_08",""
-33,"TEXT_LUCKZF101_03478_TODO_09",""
-34,"TEXT_LUCKZF101_03478_TODO_10",""
-35,"TEXT_LUCKZF101_03478_TODO_11",""
-36,"TEXT_LUCKZF101_03478_TODO_12",""
-37,"TEXT_LUCKZF101_03478_TODO_13",""
-38,"TEXT_LUCKZF101_03478_TODO_14",""
-39,"TEXT_LUCKZF101_03478_TODO_15",""
-40,"TEXT_LUCKZF101_03478_TODO_16",""
-41,"TEXT_LUCKZF101_03478_TODO_17",""
-42,"TEXT_LUCKZF101_03478_TODO_18",""
-43,"TEXT_LUCKZF101_03478_TODO_19",""
-44,"TEXT_LUCKZF101_03478_TODO_20",""
-45,"TEXT_LUCKZF101_03478_TODO_21",""
-46,"TEXT_LUCKZF101_03478_TODO_22",""
-47,"TEXT_LUCKZF101_03478_TODO_23",""
-48,"TEXT_LUCKZF101_03478_LANILLE_000_001","C'est un honneur de vous recevoir à Fanow, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Je suis Lanille, une ancienne instructrice aujourd'hui à la retraite, et j'ai beaucoup entendu parler de vos exploits. Depuis le temps que nous attendons la venue des alliés de Ronka, en avoir <If(PlayerParameter(4))>une<Else/>un</If> de votre trempe est une bénédiction."
-49,"TEXT_LUCKZF101_03478_LANILLE_000_002","J'ai ouï dire que vous étiez sur le point de vous rendre à l'Enchevêtrement des Qitari. Une fois que vous aurez terrassé le grand purgateur, car je ne doute pas que vous y parviendrez, il se pourrait bien que notre rôle de gardiennes des vestiges ronka n'ait plus lieu d'être..."
-50,"TEXT_LUCKZF101_03478_LANILLE_000_003","J'ai ouï dire que l'empire vous avait béni<If(PlayerParameter(4))>e<Else/></If> de sa sagesse après votre victoire contre le grand purgateur. Je n'aurais jamais cru dire une chose pareille un jour, mais notre rôle de gardiennes des vestiges ronka n'a par conséquent plus vraiment lieu d'être..."
-51,"TEXT_LUCKZF101_03478_LANILLE_000_004","J'en éprouve un pincement au cœur, mais quoi qu'il en soit, vous êtes arrivé<If(PlayerParameter(4))>e<Else/></If> à temps, comme on a déjà dû vous le dire. Je suppose que vous avez également entendu parler de la réduction drastique de notre population depuis le déluge de Lumière..."
-52,"TEXT_LUCKZF101_03478_LANILLE_000_005","Il y a encore suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment de femmes pour garantir l'accomplissement des affaires courantes au sein du village, mais nous n'avons plus qu'une minuscule poignée d'hommes pour protéger la forêt... À ce rythme-là, nous risquons l'extinction pure et simple."
-53,"TEXT_LUCKZF101_03478_LANILLE_000_006","Qui plus est, je suis tout à fait consciente que ce ne sont pas les Viis âgées comme moi qui risquent de ré<SoftHyphen/>vo<SoftHyphen/>lu<SoftHyphen/>tion<SoftHyphen/>ner nos coutumes. J'ai été éduquée pour protéger les vestiges, et je resterai fidèle à Ronka jusqu'à ma mort, même si cela ne sert plus à grand-chose."
-54,"TEXT_LUCKZF101_03478_LANILLE_000_007","À ce propos, une cérémonie d'offrandes rituelles est organisée en ce moment même près des temples au nord de Fanow, pour renouveler nos liens avec les anciennes divinités de l'empire."
-55,"TEXT_LUCKZF101_03478_LANILLE_000_008","Que diriez-vous d'y participer en tant que témoin<Indent/>? Les dieux de Ronka ne pourront qu'être satisfaits de la présence d'un de leurs alliés."
-56,"TEXT_LUCKZF101_03478_LANILLE_000_009","Merci, vous êtes bien aimable. Ne vous attendez pas à quelque chose de pompeux, il s'agira d'une cérémonie très sobre et formelle. J'ose espérer qu'elle sera à votre goût."
-57,"TEXT_LUCKZF101_03478_LANILLE_000_010","Elle est organisée aux Étoiles du Matin, près de l'Astropole des K'mul. Vous y trouverez deux sœurs jumelles qui sont chargées de sa préparation et de son exécution. Adressez-vous à la dénommée Phyna et dites-lui que vous venez de ma part."
-58,"TEXT_LUCKZF101_03478_LANILLE_000_011","La cérémonie est organisée aux Étoiles du Matin, près de l'Astropole des K'mul. Vous y trouverez deux sœurs jumelles qui sont chargées de sa préparation et de son exécution. Adressez-vous à la dénommée Phyna et dites-lui que vous venez de ma part."
-59,"TEXT_LUCKZF101_03478_CIUNA_000_015","Excusez-moi, mais je suis en train de méditer avant d'entamer une cérémonie très importante. Pourriez-vous attendre un instant, s'il vous plaît<Indent/>?"
-60,"TEXT_LUCKZF101_03478_PHYNA_000_020","Peut-on vous demander ce que vous venez faire aux Étoiles du Matin<Indent/>? Il se trouve que nous attendons le témoin de notre cérémonie..."
-61,"TEXT_LUCKZF101_03478_PHYNA_000_021","Ah, je vois, c'est donc vous que Lanille a désigné<If(PlayerParameter(4))>e<Else/></If><Indent/>! Quel plaisir d'avoir un<If(PlayerParameter(4))>e<Else/></If> allié<If(PlayerParameter(4))>e<Else/></If> de Ronka pour nous épauler durant un événement aussi important<Indent/>! Tout Fanow ne parle plus que de vous et de vos amis, vous savez<Indent/>?"
-62,"TEXT_LUCKZF101_03478_PHYNA_000_022","Je m'appelle Phyna, et j'étais la disciple de Lanille du temps où elle officiait encore en tant qu'instructrice. Et voici ma sœur jumelle..."
-63,"TEXT_LUCKZF101_03478_CIUNA_000_023","... Ciuna. Enchantée de faire votre con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-64,"TEXT_LUCKZF101_03478_CIUNA_000_024","Écoute, Phyna, au risque de paraître impolie, je me demande si tout ceci est bien raisonnable. Cette cérémonie ancestrale est supposée consolider les liens entre les divinités ronka et les Viis, un point c'est tout. Il n'a jamais été question d'y faire participer des étrangers, que je sache."
-65,"TEXT_LUCKZF101_03478_PHYNA_000_025","Tu n'as pas tout à fait tort, mais n'oublie pas qu'il s'agit d'une décision de Lanille en personne. Et puis, notre témoin est tout de même un<If(PlayerParameter(4))>e<Else/></If> allié<If(PlayerParameter(4))>e<Else/></If> de Ronka, pas un<If(PlayerParameter(4))>e<Else/></If> voyageu<If(PlayerParameter(4))>se<Else/>r</If> rencontré<If(PlayerParameter(4))>e<Else/></If> au hasard dans la forêt<Indent/>!"
-66,"TEXT_LUCKZF101_03478_CIUNA_000_026","... Très bien, si tu le dis."
-67,"TEXT_LUCKZF101_03478_PHYNA_000_027","Ahem<Indent/>! Excusez-nous. À présent, laissez-moi vous donner quelques détails sur cette cérémonie."
-68,"TEXT_LUCKZF101_03478_PHYNA_000_028","Pour faire simple, notre but est évidemment d'adresser nos prières aux divinités ronka en leur faisant des offrandes, mais nos simples volontés humaines sont bien trop faibles pour y parvenir à elles seules. C'est pourquoi nous utilisons les esprits de la forêt en guise d'intermédiaires."
-69,"TEXT_LUCKZF101_03478_CIUNA_000_029","Au cours de la cérémonie, ils sont attirés par les prières que nous récitons, ce qui leur fait revêtir une forme physique. Il est alors du devoir du témoin de les vaincre. Les esprits s'en vont ensuite auprès des divinités et transmettent ainsi notre message."
-70,"TEXT_LUCKZF101_03478_PHYNA_000_030","Vous l'aurez compris, votre rôle en tant que témoin sera donc de combattre la forme matérielle des esprits et de la détruire pour achever le processus. Vous en sentez-vous capable<Indent/>?"
-71,"TEXT_LUCKZF101_03478_PHYNA_000_031","Magnifique, je n'en attendais pas moins de vous<Indent/>! Je sens que nous allons vivre tous ensemble un moment unique<Indent/>!"
-72,"TEXT_LUCKZF101_03478_CIUNA_000_032","Bien, commençons sans plus tarder. Fermez les yeux, et préparez-vous à déployer vos talents de combattant<If(PlayerParameter(4))>e<Else/></If><Indent/>!"
-73,"TEXT_LUCKZF101_03478_PHYNA_000_033","Ô dieux tutélaires de Ronka, vous qui nous procurez soutien et protection depuis des temps immémoriaux... Que vos noms soient sanctifiés, et que la forêt puisse se prévaloir de votre bénédiction jusqu'à la fin des temps..."
-74,"TEXT_LUCKZF101_03478_CIUNA_000_034","Que ces maigres offrandes vous transmettent l'assurance de notre fidélité et de notre dévotion sans cesse renouvelées... Et que les esprits de la forêt, dans leur grande bonté, puissent vous faire parvenir ces quelques mots..."
-75,"TEXT_LUCKZF101_03478_PHYNA_000_035","... Heiiin<Indent/>!?? Oh non..."
-76,"TEXT_LUCKZF101_03478_CIUNA_000_036","Regardez... Des esprits d'éléments contraires... D'après nos traditions, c'est le pire des mauvais présages..."
-77,"TEXT_LUCKZF101_03478_PHYNA_000_037","Nous aurons tout le temps de nous poser des questions plus tard. Pour le moment, nous devons achever la cérémonie en bonne et due forme, en renvoyant les esprits de la forêt auprès des divinités ronka. À vous de jouer, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-78,"TEXT_LUCKZF101_03478_CIUNA_000_040","Ô dieux de Ronka, recevez nos prières..."
-79,"TEXT_LUCKZF101_03478_PHYNA_000_041","Ô esprits de la forêt, transmettez nos prières..."
-80,"TEXT_LUCKZF101_03478_CIUNA_000_045","Un esprit de feu et un autre de glace... C'est mauvais signe..."
-81,"TEXT_LUCKZF101_03478_PHYNA_000_050","Merci infiniment pour votre aide, allié<If(PlayerParameter(4))>e<Else/></If> de Ronka. Vous avez été un témoin parfait<Indent/>! Hélas, on ne peut pas en dire autant de la cérémonie dans son ensemble..."
-82,"TEXT_LUCKZF101_03478_CIUNA_000_051","L'apparition de deux esprits d'éléments contraires est considérée comme un mauvais présage, car leur antagonisme naturel les pousse à se combattre à mort durant leur chemin vers les divinités, et à se détruire mu<SoftHyphen/>tuel<SoftHyphen/>le<SoftHyphen/>ment avant d'avoir atteint leur but."
-83,"TEXT_LUCKZF101_03478_CIUNA_000_052","Et si j'avais eu raison d'avoir des doutes, Phyna<Indent/>? Et si cet échec était dû à la présence d'un<If(PlayerParameter(4))>e<Else/></If> étrang<If(PlayerParameter(4))>ère<Else/>er</If><Indent/>? Je n'ai rien contre <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, bien au contraire, mais si nous devons recommencer, ce sera sans <If(PlayerParameter(4))>elle<Else/>lui</If> ou sans moi<Indent/>!"
-84,"TEXT_LUCKZF101_03478_PHYNA_000_053","Arrête, Ciuna, tu deviens franchement désagréable<Indent/>! Tu es injuste envers notre hôte, mais surtout, tu fais preuve d'un manque de respect total envers Lanille<Indent/>!"
-85,"TEXT_LUCKZF101_03478_PHYNA_000_054","Veuillez excuser encore une fois ma sœur, elle ne pensait pas à mal. Cela vous dérangerait-il de retourner à Fanow et de raconter ce qui s'est passé à Lanille pendant que nous nettoyons l'autel<Indent/>? Merci d'avance, et à très vite<Indent/>!"
-86,"TEXT_LUCKZF101_03478_PHYNA_000_055","Cela vous dérangerait-il de retourner à Fanow et de raconter ce qui s'est passé à Lanille pendant que nous nettoyons l'autel<Indent/>? Merci d'avance, et à très vite<Indent/>!"
-87,"TEXT_LUCKZF101_03478_CIUNA_000_056","... Peuh<Indent/>!"
-88,"TEXT_LUCKZF101_03478_LANILLE_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, vous êtes tout<If(PlayerParameter(4))>e<Else/></If> seul<If(PlayerParameter(4))>e<Else/></If><Indent/>? Les jumelles sont restées aux Étoiles du Matin<Indent/>?"
-89,"TEXT_LUCKZF101_03478_LANILLE_000_061","Un esprit de feu et un esprit de glace<Indent/>!? Deux éléments opposés... Voilà qui est inquiétant."
-90,"TEXT_LUCKZF101_03478_LANILLE_000_062","De toute évidence, il faudra recommencer cette cérémonie, mais pas avant d'avoir compris le sens de ce mauvais présage..."
+2,TEXT_LUCKZF101_03478_SEQ_02,"Phyna et Ciuna vous ont expliqué le déroulement de la cérémonie. En tant que témoin, vous devrez vaincre la forme matérielle des esprits de la forêt afin de transmettre les prières des Viis aux dieux ronka. Mal­heu­reu­se­ment pour elles, les deux esprits qui ont fait leur apparition étaient de feu et de glace, deux éléments opposés, ce qui est connu pour être un mauvais présage... À vous de faire votre partie du travail."
+3,TEXT_LUCKZF101_03478_SEQ_03,Vous avez terrassé les esprits de feu et de glace. Parlez à Phyna.
+4,TEXT_LUCKZF101_03478_SEQ_04,"Bien que vous ayez rempli votre rôle à la perfection, la cérémonie est toutefois un échec. Ciuna pense que c'est parce qu'une étrangère y a participé... Retournez auprès de Lanille à Fanow et racontez-lui votre expérience de témoin."
+5,TEXT_LUCKZF101_03478_SEQ_05,Lanille s'inquiète pour les jumelles ainsi que pour la suite des opérations... La cérémonie pourra-t-elle être recommencée avec une conclusion favorable ? Et quel est le sens de ce mauvais présage ?
+6,TEXT_LUCKZF101_03478_SEQ_06,
+7,TEXT_LUCKZF101_03478_SEQ_07,
+8,TEXT_LUCKZF101_03478_SEQ_08,
+9,TEXT_LUCKZF101_03478_SEQ_09,
+10,TEXT_LUCKZF101_03478_SEQ_10,
+11,TEXT_LUCKZF101_03478_SEQ_11,
+12,TEXT_LUCKZF101_03478_SEQ_12,
+13,TEXT_LUCKZF101_03478_SEQ_13,
+14,TEXT_LUCKZF101_03478_SEQ_14,
+15,TEXT_LUCKZF101_03478_SEQ_15,
+16,TEXT_LUCKZF101_03478_SEQ_16,
+17,TEXT_LUCKZF101_03478_SEQ_17,
+18,TEXT_LUCKZF101_03478_SEQ_18,
+19,TEXT_LUCKZF101_03478_SEQ_19,
+20,TEXT_LUCKZF101_03478_SEQ_20,
+21,TEXT_LUCKZF101_03478_SEQ_21,
+22,TEXT_LUCKZF101_03478_SEQ_22,
+23,TEXT_LUCKZF101_03478_SEQ_23,
+24,TEXT_LUCKZF101_03478_TODO_00,"Parler à Phyna, aux Étoiles du Matin"
+25,TEXT_LUCKZF101_03478_TODO_01,Vaincre l'esprit de feu et l'esprit de glace
+26,TEXT_LUCKZF101_03478_TODO_02,Parler à Phyna
+27,TEXT_LUCKZF101_03478_TODO_03,"Parler à Lanille, à Fanow"
+28,TEXT_LUCKZF101_03478_TODO_04,
+29,TEXT_LUCKZF101_03478_TODO_05,
+30,TEXT_LUCKZF101_03478_TODO_06,
+31,TEXT_LUCKZF101_03478_TODO_07,
+32,TEXT_LUCKZF101_03478_TODO_08,
+33,TEXT_LUCKZF101_03478_TODO_09,
+34,TEXT_LUCKZF101_03478_TODO_10,
+35,TEXT_LUCKZF101_03478_TODO_11,
+36,TEXT_LUCKZF101_03478_TODO_12,
+37,TEXT_LUCKZF101_03478_TODO_13,
+38,TEXT_LUCKZF101_03478_TODO_14,
+39,TEXT_LUCKZF101_03478_TODO_15,
+40,TEXT_LUCKZF101_03478_TODO_16,
+41,TEXT_LUCKZF101_03478_TODO_17,
+42,TEXT_LUCKZF101_03478_TODO_18,
+43,TEXT_LUCKZF101_03478_TODO_19,
+44,TEXT_LUCKZF101_03478_TODO_20,
+45,TEXT_LUCKZF101_03478_TODO_21,
+46,TEXT_LUCKZF101_03478_TODO_22,
+47,TEXT_LUCKZF101_03478_TODO_23,
+48,TEXT_LUCKZF101_03478_LANILLE_000_001,"C'est un honneur de vous recevoir à Fanow, Player. Je suis Lanille, une ancienne instructrice aujourd'hui à la retraite, et j'ai beaucoup entendu parler de vos exploits. Depuis le temps que nous attendons la venue des alliés de Ronka, en avoir une de votre trempe est une bénédiction."
+49,TEXT_LUCKZF101_03478_LANILLE_000_002,"J'ai ouï dire que vous étiez sur le point de vous rendre à l'Enchevêtrement des Qitari. Une fois que vous aurez terrassé le grand purgateur, car je ne doute pas que vous y parviendrez, il se pourrait bien que notre rôle de gardiennes des vestiges ronka n'ait plus lieu d'être..."
+50,TEXT_LUCKZF101_03478_LANILLE_000_003,"J'ai ouï dire que l'empire vous avait bénie de sa sagesse après votre victoire contre le grand purgateur. Je n'aurais jamais cru dire une chose pareille un jour, mais notre rôle de gardiennes des vestiges ronka n'a par conséquent plus vraiment lieu d'être..."
+51,TEXT_LUCKZF101_03478_LANILLE_000_004,"J'en éprouve un pincement au cœur, mais quoi qu'il en soit, vous êtes arrivée à temps, comme on a déjà dû vous le dire. Je suppose que vous avez également entendu parler de la réduction drastique de notre population depuis le déluge de Lumière..."
+52,TEXT_LUCKZF101_03478_LANILLE_000_005,"Il y a encore suf­fi­sam­ment de femmes pour garantir l'accomplissement des affaires courantes au sein du village, mais nous n'avons plus qu'une minuscule poignée d'hommes pour protéger la forêt... À ce rythme-là, nous risquons l'extinction pure et simple."
+53,TEXT_LUCKZF101_03478_LANILLE_000_006,"Qui plus est, je suis tout à fait consciente que ce ne sont pas les Viis âgées comme moi qui risquent de ré­vo­lu­tion­ner nos coutumes. J'ai été éduquée pour protéger les vestiges, et je resterai fidèle à Ronka jusqu'à ma mort, même si cela ne sert plus à grand-chose."
+54,TEXT_LUCKZF101_03478_LANILLE_000_007,"À ce propos, une cérémonie d'offrandes rituelles est organisée en ce moment même près des temples au nord de Fanow, pour renouveler nos liens avec les anciennes divinités de l'empire."
+55,TEXT_LUCKZF101_03478_LANILLE_000_008,Que diriez-vous d'y participer en tant que témoin ? Les dieux de Ronka ne pourront qu'être satisfaits de la présence d'un de leurs alliés.
+56,TEXT_LUCKZF101_03478_LANILLE_000_009,"Merci, vous êtes bien aimable. Ne vous attendez pas à quelque chose de pompeux, il s'agira d'une cérémonie très sobre et formelle. J'ose espérer qu'elle sera à votre goût."
+57,TEXT_LUCKZF101_03478_LANILLE_000_010,"Elle est organisée aux Étoiles du Matin, près de l'Astropole des K'mul. Vous y trouverez deux sœurs jumelles qui sont chargées de sa préparation et de son exécution. Adressez-vous à la dénommée Phyna et dites-lui que vous venez de ma part."
+58,TEXT_LUCKZF101_03478_LANILLE_000_011,"La cérémonie est organisée aux Étoiles du Matin, près de l'Astropole des K'mul. Vous y trouverez deux sœurs jumelles qui sont chargées de sa préparation et de son exécution. Adressez-vous à la dénommée Phyna et dites-lui que vous venez de ma part."
+59,TEXT_LUCKZF101_03478_CIUNA_000_015,"Excusez-moi, mais je suis en train de méditer avant d'entamer une cérémonie très importante. Pourriez-vous attendre un instant, s'il vous plaît ?"
+60,TEXT_LUCKZF101_03478_PHYNA_000_020,Peut-on vous demander ce que vous venez faire aux Étoiles du Matin ? Il se trouve que nous attendons le témoin de notre cérémonie...
+61,TEXT_LUCKZF101_03478_PHYNA_000_021,"Ah, je vois, c'est donc vous que Lanille a désignée ! Quel plaisir d'avoir une alliée de Ronka pour nous épauler durant un événement aussi important ! Tout Fanow ne parle plus que de vous et de vos amis, vous savez ?"
+62,TEXT_LUCKZF101_03478_PHYNA_000_022,"Je m'appelle Phyna, et j'étais la disciple de Lanille du temps où elle officiait encore en tant qu'instructrice. Et voici ma sœur jumelle..."
+63,TEXT_LUCKZF101_03478_CIUNA_000_023,"... Ciuna. Enchantée de faire votre con­nais­san­ce, Player."
+64,TEXT_LUCKZF101_03478_CIUNA_000_024,"Écoute, Phyna, au risque de paraître impolie, je me demande si tout ceci est bien raisonnable. Cette cérémonie ancestrale est supposée consolider les liens entre les divinités ronka et les Viis, un point c'est tout. Il n'a jamais été question d'y faire participer des étrangers, que je sache."
+65,TEXT_LUCKZF101_03478_PHYNA_000_025,"Tu n'as pas tout à fait tort, mais n'oublie pas qu'il s'agit d'une décision de Lanille en personne. Et puis, notre témoin est tout de même une alliée de Ronka, pas une voyageuse rencontrée au hasard dans la forêt !"
+66,TEXT_LUCKZF101_03478_CIUNA_000_026,"... Très bien, si tu le dis."
+67,TEXT_LUCKZF101_03478_PHYNA_000_027,"Ahem ! Excusez-nous. À présent, laissez-moi vous donner quelques détails sur cette cérémonie."
+68,TEXT_LUCKZF101_03478_PHYNA_000_028,"Pour faire simple, notre but est évidemment d'adresser nos prières aux divinités ronka en leur faisant des offrandes, mais nos simples volontés humaines sont bien trop faibles pour y parvenir à elles seules. C'est pourquoi nous utilisons les esprits de la forêt en guise d'intermédiaires."
+69,TEXT_LUCKZF101_03478_CIUNA_000_029,"Au cours de la cérémonie, ils sont attirés par les prières que nous récitons, ce qui leur fait revêtir une forme physique. Il est alors du devoir du témoin de les vaincre. Les esprits s'en vont ensuite auprès des divinités et transmettent ainsi notre message."
+70,TEXT_LUCKZF101_03478_PHYNA_000_030,"Vous l'aurez compris, votre rôle en tant que témoin sera donc de combattre la forme matérielle des esprits et de la détruire pour achever le processus. Vous en sentez-vous capable ?"
+71,TEXT_LUCKZF101_03478_PHYNA_000_031,"Magnifique, je n'en attendais pas moins de vous ! Je sens que nous allons vivre tous ensemble un moment unique !"
+72,TEXT_LUCKZF101_03478_CIUNA_000_032,"Bien, commençons sans plus tarder. Fermez les yeux, et préparez-vous à déployer vos talents de combattante !"
+73,TEXT_LUCKZF101_03478_PHYNA_000_033,"Ô dieux tutélaires de Ronka, vous qui nous procurez soutien et protection depuis des temps immémoriaux... Que vos noms soient sanctifiés, et que la forêt puisse se prévaloir de votre bénédiction jusqu'à la fin des temps..."
+74,TEXT_LUCKZF101_03478_CIUNA_000_034,"Que ces maigres offrandes vous transmettent l'assurance de notre fidélité et de notre dévotion sans cesse renouvelées... Et que les esprits de la forêt, dans leur grande bonté, puissent vous faire parvenir ces quelques mots..."
+75,TEXT_LUCKZF101_03478_PHYNA_000_035,... Heiiin !?? Oh non...
+76,TEXT_LUCKZF101_03478_CIUNA_000_036,"Regardez... Des esprits d'éléments contraires... D'après nos traditions, c'est le pire des mauvais présages..."
+77,TEXT_LUCKZF101_03478_PHYNA_000_037,"Nous aurons tout le temps de nous poser des questions plus tard. Pour le moment, nous devons achever la cérémonie en bonne et due forme, en renvoyant les esprits de la forêt auprès des divinités ronka. À vous de jouer, Player !"
+78,TEXT_LUCKZF101_03478_CIUNA_000_040,"Ô dieux de Ronka, recevez nos prières..."
+79,TEXT_LUCKZF101_03478_PHYNA_000_041,"Ô esprits de la forêt, transmettez nos prières..."
+80,TEXT_LUCKZF101_03478_CIUNA_000_045,Un esprit de feu et un autre de glace... C'est mauvais signe...
+81,TEXT_LUCKZF101_03478_PHYNA_000_050,"Merci infiniment pour votre aide, alliée de Ronka. Vous avez été un témoin parfait ! Hélas, on ne peut pas en dire autant de la cérémonie dans son ensemble..."
+82,TEXT_LUCKZF101_03478_CIUNA_000_051,"L'apparition de deux esprits d'éléments contraires est considérée comme un mauvais présage, car leur antagonisme naturel les pousse à se combattre à mort durant leur chemin vers les divinités, et à se détruire mu­tuel­le­ment avant d'avoir atteint leur but."
+83,TEXT_LUCKZF101_03478_CIUNA_000_052,"Et si j'avais eu raison d'avoir des doutes, Phyna ? Et si cet échec était dû à la présence d'une étrangère ? Je n'ai rien contre Player, bien au contraire, mais si nous devons recommencer, ce sera sans elle ou sans moi !"
+84,TEXT_LUCKZF101_03478_PHYNA_000_053,"Arrête, Ciuna, tu deviens franchement désagréable ! Tu es injuste envers notre hôte, mais surtout, tu fais preuve d'un manque de respect total envers Lanille !"
+85,TEXT_LUCKZF101_03478_PHYNA_000_054,"Veuillez excuser encore une fois ma sœur, elle ne pensait pas à mal. Cela vous dérangerait-il de retourner à Fanow et de raconter ce qui s'est passé à Lanille pendant que nous nettoyons l'autel ? Merci d'avance, et à très vite !"
+86,TEXT_LUCKZF101_03478_PHYNA_000_055,"Cela vous dérangerait-il de retourner à Fanow et de raconter ce qui s'est passé à Lanille pendant que nous nettoyons l'autel ? Merci d'avance, et à très vite !"
+87,TEXT_LUCKZF101_03478_CIUNA_000_056,... Peuh !
+88,TEXT_LUCKZF101_03478_LANILLE_000_060,"Player, vous êtes toute seule ? Les jumelles sont restées aux Étoiles du Matin ?"
+89,TEXT_LUCKZF101_03478_LANILLE_000_061,Un esprit de feu et un esprit de glace !? Deux éléments opposés... Voilà qui est inquiétant.
+90,TEXT_LUCKZF101_03478_LANILLE_000_062,"De toute évidence, il faudra recommencer cette cérémonie, mais pas avant d'avoir compris le sens de ce mauvais présage..."

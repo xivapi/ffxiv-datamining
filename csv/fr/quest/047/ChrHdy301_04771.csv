@@ -1,169 +1,166 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CHRHDY301_04771_SEQ_00","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Règle spéciale<Indent/>:  classe ou job fixe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_CHRHDY301_04771_SEQ_00,"**Règle spéciale :  classe ou job fixe**
 Gerolt a l'air d'être encore plus de mauvais poil que d'habitude."
-1,"TEXT_CHRHDY301_04771_SEQ_01","* <Emphasis>Cette quête fait l'objet de la règle spéciale <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow> classe ou job fixe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Il n'est possible de progresser qu'avec la classe ou le job qui a servi à la commencer.</Emphasis>
+1,TEXT_CHRHDY301_04771_SEQ_01,"* *Cette quête fait l'objet de la règle spéciale ** classe ou job fixe**. Il n'est possible de progresser qu'avec la classe ou le job qui a servi à la commencer.*
 
-Gerolt vous a reçu<If(PlayerParameter(4))>e<Else/></If> au Creuset de l'Al-Kimiya avec un ton plus bourru qu'à l'accoutumée. Godbert vous a ensuite rejoints pour partager les détails de la prochaine étape de l'amélioration des armes des Manderville. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, il semblerait qu'un différend oppose les deux artisans. Afin de briser la glace et permettre à Gerolt de s'exprimer... de tout son soûl, attendez à l'endroit indiqué au meyhane de Mehryde en vue de boire un verre ou deux... ou trois..."
-2,"TEXT_CHRHDY301_04771_SEQ_02","Après une joute verbale bien arrosée, durant laquelle Gerolt a pu vider son sac et ses verres, les deux compères artisans sont désormais prêts à attaquer l'étape de transmutation des armes des Manderville. Obtenez trois <SheetFr(Item,12,40322,2,1)/> et remettez-les à Gerolt en conservant votre arme actuelle dans votre inventaire.
-Vous pouvez obtenir <SheetFr(Item,1,40322,2,1)/> auprès de Jubrunnah sur la place de l'Éthérite."
-3,"TEXT_CHRHDY301_04771_SEQ_03","Gerolt est parvenu à transmuter votre arme grâce <SheetFr(Item,7,40322,2,1)/> que vous lui avez remis. En attendant que les préparatifs de l'ultime étape soient terminés, n'hésitez pas à aller la tester sur le champ de bataille."
-4,"TEXT_CHRHDY301_04771_SEQ_04",""
-5,"TEXT_CHRHDY301_04771_SEQ_05",""
-6,"TEXT_CHRHDY301_04771_SEQ_06",""
-7,"TEXT_CHRHDY301_04771_SEQ_07",""
-8,"TEXT_CHRHDY301_04771_SEQ_08",""
-9,"TEXT_CHRHDY301_04771_SEQ_09",""
-10,"TEXT_CHRHDY301_04771_SEQ_10",""
-11,"TEXT_CHRHDY301_04771_SEQ_11",""
-12,"TEXT_CHRHDY301_04771_SEQ_12",""
-13,"TEXT_CHRHDY301_04771_SEQ_13",""
-14,"TEXT_CHRHDY301_04771_SEQ_14",""
-15,"TEXT_CHRHDY301_04771_SEQ_15",""
-16,"TEXT_CHRHDY301_04771_SEQ_16",""
-17,"TEXT_CHRHDY301_04771_SEQ_17",""
-18,"TEXT_CHRHDY301_04771_SEQ_18",""
-19,"TEXT_CHRHDY301_04771_SEQ_19",""
-20,"TEXT_CHRHDY301_04771_SEQ_20",""
-21,"TEXT_CHRHDY301_04771_SEQ_21",""
-22,"TEXT_CHRHDY301_04771_SEQ_22",""
-23,"TEXT_CHRHDY301_04771_SEQ_23",""
-24,"TEXT_CHRHDY301_04771_TODO_00","Attendre à l'endroit indiqué"
-25,"TEXT_CHRHDY301_04771_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Obtenir <SheetFr(Item,2,40322,2,1)/><Else/>Se déséquiper <If(Equal(IntegerParameter(4),19))><SheetFr(Item,9,39144,1,1)/> et <SheetFr(Item,9,39163,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetFr(Item,9,39145,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetFr(Item,9,39146,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetFr(Item,9,39147,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetFr(Item,9,39148,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetFr(Item,9,39152,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetFr(Item,9,39153,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetFr(Item,9,39154,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetFr(Item,9,39155,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetFr(Item,9,39149,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetFr(Item,9,39151,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetFr(Item,9,39150,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetFr(Item,9,39156,1,1)/><Else/><If(Equal(IntegerParameter(4),34))><SheetFr(Item,9,39157,1,1)/><Else/><If(Equal(IntegerParameter(4),35))><SheetFr(Item,9,39158,1,1)/><Else/><If(Equal(IntegerParameter(4),37))><SheetFr(Item,9,39159,1,1)/><Else/><If(Equal(IntegerParameter(4),38))><SheetFr(Item,9,39160,1,1)/><Else/><If(Equal(IntegerParameter(4),39))><SheetFr(Item,9,39162,1,1)/><Else/><If(Equal(IntegerParameter(4),40))><SheetFr(Item,9,39161,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If></If></If></If></If></If></If> et remettre <SheetFr(Item,1,40322,2,1)/> à Gerolt</If>"
-26,"TEXT_CHRHDY301_04771_TODO_02",""
-27,"TEXT_CHRHDY301_04771_TODO_03",""
-28,"TEXT_CHRHDY301_04771_TODO_04",""
-29,"TEXT_CHRHDY301_04771_TODO_05",""
-30,"TEXT_CHRHDY301_04771_TODO_06",""
-31,"TEXT_CHRHDY301_04771_TODO_07",""
-32,"TEXT_CHRHDY301_04771_TODO_08",""
-33,"TEXT_CHRHDY301_04771_TODO_09",""
-34,"TEXT_CHRHDY301_04771_TODO_10",""
-35,"TEXT_CHRHDY301_04771_TODO_11",""
-36,"TEXT_CHRHDY301_04771_TODO_12",""
-37,"TEXT_CHRHDY301_04771_TODO_13",""
-38,"TEXT_CHRHDY301_04771_TODO_14",""
-39,"TEXT_CHRHDY301_04771_TODO_15",""
-40,"TEXT_CHRHDY301_04771_TODO_16",""
-41,"TEXT_CHRHDY301_04771_TODO_17",""
-42,"TEXT_CHRHDY301_04771_TODO_18",""
-43,"TEXT_CHRHDY301_04771_TODO_19",""
-44,"TEXT_CHRHDY301_04771_TODO_20",""
-45,"TEXT_CHRHDY301_04771_TODO_21",""
-46,"TEXT_CHRHDY301_04771_TODO_22",""
-47,"TEXT_CHRHDY301_04771_TODO_23",""
-48,"TEXT_CHRHDY301_04771_SYSTEM_000_000","Si vous commencez la quête “Quand les forgerons boivent, les armes trinquent” maintenant, l'arme des Manderville que vous pourrez fabriquer sera celle <If(Equal(PlayerParameter(4),0))><If(Equal(PlayerParameter(68),5))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),6))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),7))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),10))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),11))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),27))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),28))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/>de <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If></If></If></If></If></If><Else/><If(Equal(PlayerParameter(68),5))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),6))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),7))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),10))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),11))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),14))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),26))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),27))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),28))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),33))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/>de <Sheet(ClassJob,PlayerParameter(68),2)/></If></If></If></If></If></If></If></If></If></If></If>."
-49,"TEXT_CHRHDY301_04771_SYSTEM_000_001","Commencer la quête en restant <If(PlayerParameter(4))><Sheet(ClassJob,PlayerParameter(68),2)/><Else/><Sheet(ClassJob,PlayerParameter(68),0)/></If><Indent/>?"
-50,"TEXT_CHRHDY301_04771_Q4_000_001","Fabriquer l'arme des Manderville pour <If(PlayerParameter(4))><Sheet(ClassJob,PlayerParameter(68),2)/><Else/><Sheet(ClassJob,PlayerParameter(68),0)/></If><Indent/>?"
-51,"TEXT_CHRHDY301_04771_A4_000_002","Prendre le temps de réfléchir"
-52,"TEXT_CHRHDY301_04771_A4_000_003","Fabriquer l'arme des Manderville pour <If(PlayerParameter(4))><Sheet(ClassJob,PlayerParameter(68),2)/><Else/><Sheet(ClassJob,PlayerParameter(68),0)/></If>"
-53,"TEXT_CHRHDY301_04771_SYSTEM_000_005","Une fois la quête “Quand les forgerons boivent, les armes trinquent” commencée, vous ne pourrez transmuter l'arme des Manderville d'un autre job qu'en la terminant ou l'abandonnant."
-54,"TEXT_CHRHDY301_04771_SYSTEM_000_006","Sélectionnez le job de votre choix puis reparlez à Gerolt."
-55,"TEXT_CHRHDY301_04771_SYSTEM_000_007","Vous devez être en possession <SheetFr(Item,9,IntegerParameter(1),1,1)/> et <SheetFr(Item,9,IntegerParameter(2),1,1)/> pour pouvoir accepter cette quête."
-56,"TEXT_CHRHDY301_04771_SYSTEM_000_008","Vous devez être en possession <SheetFr(Item,9,IntegerParameter(1),1,1)/> pour pouvoir accepter cette quête."
-57,"TEXT_CHRHDY301_04771_GEROLT_000_010","Oh non, pas toi..."
-58,"TEXT_CHRHDY301_04771_GEROLT_000_011","Aah... C'est vrai que l'autre moustachu voulait encore triturer ses quincailleries des Manderville..."
-59,"TEXT_CHRHDY301_04771_CRAFTER04653_000_012","Sans plus attendre, je vais mander monsieur Manderville..."
-60,"TEXT_CHRHDY301_04771_GODBERT_000_013","Ho ho ho<Indent/>! <If(PlayerParameter(4))>Ma chère<Else/>Mon cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Tout d'abord, permettez-moi de vous exprimer à nouveau ma gratitude. Vos exploits avec nos armes sont une constante source d'inspiration<Indent/>!"
-61,"TEXT_CHRHDY301_04771_GODBERT_000_014","En étudiant plus en détail l'artefact incongru, nous avons enfin découvert les secrets qu'il renfermait pour transmuter les armes des Manderville."
-62,"TEXT_CHRHDY301_04771_GODBERT_000_015","Ces armes in<SoftHyphen/>croya<SoftHyphen/>ble<SoftHyphen/>ment puissantes que nous forgeons ne doivent pas tomber entre de mauvaises mains... C'est pour cette raison que notre ancêtre a caché le secret de l'étape de transmutation dans un dispositif complexe plutôt qu'un simple ouvrage manuscrit."
-63,"TEXT_CHRHDY301_04771_GODBERT_000_016","Rendez-vous compte, cette fois-ci, nous devrons revoir com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment la conception des armes si nous voulons atteindre le niveau de puissance attendu."
-64,"TEXT_CHRHDY301_04771_GODBERT_000_017","Et ce n'est pas tout<Indent/>! Notre vénéré aïeul, Godbrand, a aussi pensé à rendre possible l'ajustement des propriétés des armes selon les aspirations de leurs détenteurs."
-65,"TEXT_CHRHDY301_04771_GODBERT_000_018","Cerise sur le gâteau, avec notre revêtement nouvelle génération, l'huile de Maximanderville, leur conductivité éthéréenne devrait atteindre des niveaux inégalés<Indent/>!"
-66,"TEXT_CHRHDY301_04771_GEROLT_000_019","Pff... Encore une Mander-huile à la noix..."
-67,"TEXT_CHRHDY301_04771_GODBERT_000_020","Le procédé reste le même que précédemment. Afin de pouvoir synthétiser cette huile de Maximanderville, nous aurons besoin de roches météoritiques spécifiques, <SheetFr(Item,1,40322,2,1)/>."
-68,"TEXT_CHRHDY301_04771_GODBERT_000_021","Maintenant que nous savons que la technologie des armes des Manderville est d'origine extra-terrestre, la nécessité d'utiliser des minéraux exotiques prend tout son sens."
-69,"TEXT_CHRHDY301_04771_GEROLT_000_022","E-extra-terrestre<Indent/>!? Je comprends mieux pourquoi les techniques de forge mises en œuvre sont si peu orthodoxes..."
-70,"TEXT_CHRHDY301_04771_GODBERT_000_023","Comme d'habitude, je me charge de rassembler la plupart des matériaux nécessaires. J'aurais juste besoin que vous nous fournissiez ces fameux <SheetFr(Item,12,40322,2,1)/>."
-71,"TEXT_CHRHDY301_04771_GEROLT_000_024","Pff<Indent/>! Quel vieux grippe-sou<Indent/>! Avec tous les gils que tu brasses, tu veux nous faire croire que t'as pas les moyens de t'en procurer toi-même<Indent/>?"
-72,"TEXT_CHRHDY301_04771_GODBERT_000_025","J'ai essayé, croyez-moi... Or, ces météorites sont tellement rares qu'elles ne peuvent être échangées que contre des mémoquartz d'une valeur équivalente."
-73,"TEXT_CHRHDY301_04771_GODBERT_000_026","Il me peine de vous imposer cette corvée, <If(PlayerParameter(4))>ma bonne<Else/>mon bon</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, mais vous êtes <If(PlayerParameter(4))>la seule<Else/>le seul</If> capable de l'accomplir. Je compte donc une fois de plus sur votre concours."
-74,"TEXT_CHRHDY301_04771_GODBERT_000_027","Et vous l'aurez compris, mon brave Gerolt, vous allez avoir du pain sur la planche... Ou devrais-je plutôt dire du métal sur l'enclume, car nous allons devoir reforger totalement nos créations<Indent/>!"
-75,"TEXT_CHRHDY301_04771_GEROLT_000_028","Ouais... Ouais... J'vais te marteler tout ça..."
-76,"TEXT_CHRHDY301_04771_GODBERT_000_029","Hum... Mon cher Gerolt, j'ai comme l'impression que vous y mettez de la mauvaise volonté."
-77,"TEXT_CHRHDY301_04771_GEROLT_000_030","Pff... Tu l'as dit, papy<Indent/>!"
-78,"TEXT_CHRHDY301_04771_GEROLT_000_031","Figure-toi que tu me paies tellement au lance-pierre que j'ai dilapidé tout mon magot en une soirée au bar, l'autre jour<Indent/>! J'te rappelle que j'ai accepté ce boulot pour le fric, rien de plus<Indent/>!"
-79,"TEXT_CHRHDY301_04771_GODBERT_000_032","Hum... J'ai surtout l'impression que vous ne m'avez jamais vraiment porté dans votre cœur."
-80,"TEXT_CHRHDY301_04771_GODBERT_000_033","Nous n'avons que trop attendu. Il nous faut crever l'abcès dès maintenant, sinon j'ai peur que la qualité de notre travail finisse par trinquer..."
-81,"TEXT_CHRHDY301_04771_GODBERT_000_034","Mais oui, trinquons<Indent/>! Quoi de mieux qu'une petite discussion à bâtons rompus avec quelques pintes derrière la cravate<Indent/>! Bien sûr, je réglerai la douloureuse."
-82,"TEXT_CHRHDY301_04771_GEROLT_000_035","De la bibine à l'œil<Indent/>? Ça serait malpoli de refuser<Indent/>!"
-83,"TEXT_CHRHDY301_04771_GODBERT_000_036","Joignez-vous donc à nous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Vous aussi l'avez bien mérité. Retrouvons-nous au meyhane de Mehryde."
-84,"TEXT_CHRHDY301_04771_GEROLT_000_040","Hé hé hé... L'alcool est vraiment à volonté<Indent/>? J'vais tellement boire que le moustachu va finir sur la paille, lui aussi<Indent/>!"
-85,"TEXT_CHRHDY301_04771_GODBERT_000_200","Ho ho ho<Indent/>! Buvons tout notre soûl<Indent/>!"
-86,"TEXT_CHRHDY301_04771_GEROLT_000_201","Hé hé hé... C'toi qui paies, on est d'accord<Indent/>? Dans ce cas, je vais prendre de l'eau-de-vie de Radz-at-Han<Indent/>! La bouteille la plus chère de la carte<Indent/>!"
-87,"TEXT_CHRHDY301_04771_GODBERT_000_202","Et pour vous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>? Quelque chose d'alcoolisé également<Indent/>?"
-88,"TEXT_CHRHDY301_04771_Q1_000_000","Que répondez-vous<Indent/>?"
-89,"TEXT_CHRHDY301_04771_A1_000_001","Bien sûr<Indent/>!"
-90,"TEXT_CHRHDY301_04771_A1_000_002","Juste un doigt..."
-91,"TEXT_CHRHDY301_04771_A1_000_003","Je ne bois pas d'alcool."
-92,"TEXT_CHRHDY301_04771_GODBERT_000_203","Bien. Dans ce cas, ce sera de l'eau-de-vie pour tout le monde."
-93,"TEXT_CHRHDY301_04771_GODBERT_000_204","Bien. Dans ce cas, je suis certain que Mehryde saura vous satisfaire avec un de ses cocktails sans alcool. Et la fête sera plus folle<Indent/>!"
-94,"TEXT_CHRHDY301_04771_MIHLEEL_000_205","Et voilà <Indent/>! Vos boissons sont prêtes<Indent/>!"
-95,"TEXT_CHRHDY301_04771_GODBERT_000_206","À votre santé...<Indent/>!"
-96,"TEXT_CHRHDY301_04771_GEROLT_000_207","T'sais quoi...<Indent/>? J'ai jamais pu encadrer ta face de moustachu<Indent/>!"
-97,"TEXT_CHRHDY301_04771_GODBERT_000_208","Ho... Et pourquoi donc<Indent/>?"
-98,"TEXT_CHRHDY301_04771_GEROLT_000_209","J'vais te le dire... Un artisan digne de ce nom doit être dévoué à son ouvrage. C'est en forgeant qu'on devient forgeron, bon sang<Indent/>!"
-99,"TEXT_CHRHDY301_04771_GEROLT_000_210","Mais toi<Indent/>! T'as monté ta propre manufacture et tu fais même dans le divertissement des masses, maintenant<Indent/>!? T'es qu'un commerçant de la pire espèce<Indent/>!"
-100,"TEXT_CHRHDY301_04771_GODBERT_000_211","Je vois... Vous voulez dire que je ne suis qu'un opportuniste, c'est bien ça<Indent/>? Toutefois, pour s'adonner pleinement à son art, n'a-t-on pas besoin d'argent<Indent/>? N'avez-vous jamais abandonné une idée parce que vous n'aviez pas les moyens pour la réaliser<Indent/>?"
-101,"TEXT_CHRHDY301_04771_GODBERT_000_212","C'est justement grâce à mes revenus que je peux désormais explorer à loisir les possibilités infinies de l'orfèvrerie, qui me passionne tant."
-102,"TEXT_CHRHDY301_04771_GODBERT_000_213","Et puis... j'ai eu vent que vous-même, mon cher Gerolt, fabriquiez des bouilloires entre autres babioles afin de subvenir à vos besoins. Si vous concentriez vos efforts sur des projets plus profitables, vous aussi pourriez vous consacrer pleinement à votre art, non<Indent/>?"
-103,"TEXT_CHRHDY301_04771_GEROLT_000_214","M-mon verre est vide<Indent/>! Ramenez la binouze<Indent/>!!"
-104,"TEXT_CHRHDY301_04771_GEROLT_000_215","J'ai pété un câble le jour où t'as rejoint le Cartel des Scorpions... hic<Indent/>! Comment un sale politicard comme toi peut fabriquer quoi que ce soit de potable<Indent/>!?"
-105,"TEXT_CHRHDY301_04771_GODBERT_000_216","Ne vous en déplaise, mon expérience dans la politique uldienne m'a fait voir du pays, découvrir d'autres cultures... Cette existence cosmopolite a été pour moi une grande source d'inspiration en tant qu'artisan."
-106,"TEXT_CHRHDY301_04771_GEROLT_000_217","Cosmopo... quoi<Indent/>? De toute façon, j'peux pas piffer tous ces parvenus collet monté, c'tout<Indent/>!"
-107,"TEXT_CHRHDY301_04771_GEROLT_000_218","Putain... T'as vraiment réponse à tout..."
-108,"TEXT_CHRHDY301_04771_GEROLT_000_219","Comment est-ce qu'un vieux croûton poilu comme toi, né avec une cuillère en argent dans la bouche, pourrait m'comprendre<Indent/>!? Saleté d'exhibo, toujours à s'balader le bide à l'air<Indent/>!"
-109,"TEXT_CHRHDY301_04771_GODBERT_000_220","Ho ho ho<Indent/>! Si nous avons quelque chose en commun, c'est bien notre penchant pour les tenues légères<Indent/>!"
-110,"TEXT_CHRHDY301_04771_GEROLT_000_221","D'accord... D'accord... J'le reconnais... T'es un artisan de génie... Voilà, j'l'ai dit..."
-111,"TEXT_CHRHDY301_04771_GEROLT_000_222","Comparé à toi... J'suis un moins que rien... (sanglote)"
-112,"TEXT_CHRHDY301_04771_GEROLT_000_223","Ro... Rowena...<Indent/>!? Qu'est-ce que tu fous là<Indent/>?"
-113,"TEXT_CHRHDY301_04771_GEROLT_000_224","N-ne m'regarde pas comme ça... J'suis qu'un ouvrier raté... (sanglote)"
-114,"TEXT_CHRHDY301_04771_GODBERT_000_225","Hm... Il semblerait que ce bon Gerolt vous prenne pour quelqu'un d'autre... Peut-être sauriez-vous trouver les mots justes pour lui répondre<Indent/>?"
-115,"TEXT_CHRHDY301_04771_Q2_000_000","Que dites-vous<Indent/>?"
-116,"TEXT_CHRHDY301_04771_A2_000_001","Gerolt, tu as toujours été mon artisan favori<Indent/>!"
-117,"TEXT_CHRHDY301_04771_A2_000_002","T'es vraiment qu'un crâne d'œuf inutile<Indent/>!"
-118,"TEXT_CHRHDY301_04771_GEROLT_000_226","Tu... tu m'as jamais dit ça<Indent/>! T'es sincère<Indent/>!? Merci..."
-119,"TEXT_CHRHDY301_04771_GEROLT_000_227","J'sais que c'est ta façon de m'dire que tu m'aimes... Merci..."
-120,"TEXT_CHRHDY301_04771_GEROLT_000_228","Grâce à toi, j'me sens revigoré<Indent/>! M'en balance de l'oseille<Indent/>! J'vais mettre tout mon cœur et... hic<Indent/>! Toute mon âme dans ces satanées bouilloires... armes<Indent/>!!"
-121,"TEXT_CHRHDY301_04771_GODBERT_000_229","Je crois que cette petite tournée a mis fin à notre différend... Entre vous et moi, c'est bien la première fois que je vois quelqu'un devenir ivre mort avec du simple jus de carotte..."
-122,"TEXT_CHRHDY301_04771_GODBERT_000_230","M'inquiétant pour la santé de ce brave Gerolt, j'ai fait signe à Mihleel d'arrêter de mettre de l'alcool dans son verre. J'ai besoin qu'il soit en pleine possession de ses moyens pour le travail qui nous attend."
-123,"TEXT_CHRHDY301_04771_GODBERT_000_231","Fut un temps, moi aussi j'étais comme Gerolt, prompt à vivre de ma passion..."
-124,"TEXT_CHRHDY301_04771_GODBERT_000_232","Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, une grande manufacture appelant de grandes res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bi<SoftHyphen/>li<SoftHyphen/>tés, j'ai dû faire des concessions. Quelque part, j'envie Gerolt car il représente mon idéal en tant qu'artisan."
-125,"TEXT_CHRHDY301_04771_GODBERT_000_233","Restons-en là pour aujourd'hui. Je compte sur vous pour nous fournir les trois <SheetFr(Item,12,40322,2,1)/> nécessaires."
-126,"TEXT_CHRHDY301_04771_SYSTEM_000_240","Vous pouvez obtenir <SheetFr(Item,1,40322,2,1)/> auprès de Jubrunnah sur la place de l'Éthérite."
-127,"TEXT_CHRHDY301_04771_GEROLT_000_241","Uh... J'crois que j'suis rond comme une queue de pelle... Si t'as pas encore <SheetFr(Item,2,40322,2,1)/> va donc voir ailleurs si j'y suis<Indent/>!"
-128,"TEXT_CHRHDY301_04771_SYSTEM_000_242","Vous pouvez obtenir <SheetFr(Item,1,40322,2,1)/> auprès de Jubrunnah sur la place de l'Éthérite."
-129,"TEXT_CHRHDY301_04771_GEROLT_000_250","T'en mis le temps<Indent/>! T'as pas oublié la ritournelle<Indent/>? Déséquipe ton arme, si tu veux que je te la martèle<Indent/>!"
-130,"TEXT_CHRHDY301_04771_GEROLT_000_251","J'ai même pas la gueule de bois<Indent/>! Je m'impressionne moi-même. Allez, file-moi tes cailloux, là... Ouais <SheetFr(Item,2,40322,2,1)/>."
-131,"TEXT_CHRHDY301_04771_GEROLT_000_252","Tu vois quand tu veux<Indent/>! Allez, c'est parti<Indent/>! Tiens, au fait... j'me souviens plus ce qu'il s'est passé l'autre jour au bar, mais j'ai l'impression que Rowena était là..."
-132,"TEXT_CHRHDY301_04771_GEROLT_000_253","... Peu importe, il faut battre le fer tant qu'il est chaud<Indent/>! Dès que l'autre moustachu sera dans le coin, on va t'la transmuter comme jamais, ton arme<Indent/>!"
-133,"TEXT_CHRHDY301_04771_GODBERT_000_254","Très bien... Nous allons maintenant pouvoir enduire le tout d'huile de Maximanderville. En revanche, je vais avoir besoin de vos directives en tant qu'utilisat<If(PlayerParameter(4))>rice<Else/>eur</If>. Nous devrons adapter la préparation pour obtenir le résultat attendu."
-134,"TEXT_CHRHDY301_04771_GODBERT_000_255","Réfléchissez bien aux propriétés que vous souhaiteriez conférer à votre arme... Faites-nous signe lorsque vous serez prêt<If(PlayerParameter(4))>e<Else/></If>."
-135,"TEXT_CHRHDY301_04771_Q3_000_000","Que voulez-vous faire<Indent/>?"
-136,"TEXT_CHRHDY301_04771_A3_000_001","Ajuster les attributs de l'arme"
-137,"TEXT_CHRHDY301_04771_A3_000_002","En savoir plus sur cette opération"
-138,"TEXT_CHRHDY301_04771_A3_000_003","Annuler"
-139,"TEXT_CHRHDY301_04771_SYSTEM_000_260","Le revêtement à l'huile de Maximanderville permet de sélectionner manuellement trois attributs différents pour votre arme des Manderville. L'un des trois sera toujours inférieur aux deux autres."
-140,"TEXT_CHRHDY301_04771_SYSTEM_000_261","Une fois les valeurs con<SoftHyphen/>ve<SoftHyphen/>na<SoftHyphen/>ble<SoftHyphen/>ment sé<SoftHyphen/>lec<SoftHyphen/>tion<SoftHyphen/>nées, choisissez “Valider” pour lancer le processus de transmutation."
-141,"TEXT_CHRHDY301_04771_SYSTEM_000_262","Chaque réajustement des attributs requiert <SheetFr(Item,1,40322,1,1)/>. Prenez le temps de bien réfléchir avant de confirmer vos choix."
-142,"TEXT_CHRHDY301_04771_GODBERT_000_270","Excellent choix, <If(PlayerParameter(4))>ma chère amie<Else/>mon cher ami</If><Indent/>! Le moment est venu d'user de mes doigts de fée<Indent/>!!"
-143,"TEXT_CHRHDY301_04771_GODBERT_000_280","C'est un chef-d'œuvre, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-144,"TEXT_CHRHDY301_04771_GEROLT_000_281","J'y ai martelé toute mon âme d'artisan. Nous assistons à la naissance d'une arme des Manderville nouvelle génération..."
-145,"TEXT_CHRHDY301_04771_GEROLT_000_282","Admirez <SheetFr(Item,2,IntegerParameter(1),1,1)/> et <SheetFr(Item,5,IntegerParameter(2),1,1)/><Indent/>!"
-146,"TEXT_CHRHDY301_04771_GEROLT_000_283","Admirez <SheetFr(Item,2,IntegerParameter(1),1,1)/><Indent/>!"
-147,"TEXT_CHRHDY301_04771_GODBERT_000_284","Notre travail d'équipe a porté ses fruits<Indent/>! Si nous n'avions pas réglé notre différend au préalable, jamais nous n'aurions atteint un tel résultat<Indent/>!"
-148,"TEXT_CHRHDY301_04771_GEROLT_000_285","J'ai encore du mal à m'en souvenir... Tout ce que j'sais, c'est que j'étais vachement motivé après<Indent/>!"
-149,"TEXT_CHRHDY301_04771_GODBERT_000_286","Bien sûr, si d'aventure vous désiriez transmuter d'autres armes, n'hésitez pas à solliciter notre athlétique artisan des Manderville."
-150,"TEXT_CHRHDY301_04771_CRAFTER04653_000_287","Monsieur Godbert, veuillez me pardonner pour mon outrecuidance, mais j'ai bien peur d'être incapable de synthétiser l'huile de Maximanderville avec tant de brio, de dextérité et de grâce..."
-151,"TEXT_CHRHDY301_04771_GEROLT_000_288","Et moi, l'alchimie, c'pas mon truc<Indent/>! Donc pas la peine de me regarder avec ces yeux de merlan frit<Indent/>!"
-152,"TEXT_CHRHDY301_04771_GODBERT_000_289","Ho ho ho<Indent/>! Pas d'inquiétude, j'ai tout prévu<Indent/>! Figurez-vous que j'emploie aussi des alchimistes très capables."
-153,"TEXT_CHRHDY301_04771_GEROLT_000_290","Incroyable, il est pas à poil celui-là<Indent/>! Bon... par contre, il s'est sûrement habillé dans le noir ce matin..."
-154,"TEXT_CHRHDY301_04771_GODBERT_000_291","Au cas où vous désireriez transmuter d'autres armes, notre alchimiste des Manderville ici présent se chargera de répondre à tous vos besoins en huile de Maximanderville."
-155,"TEXT_CHRHDY301_04771_GODBERT_000_292","Il vous suffira de lui apporter <SheetFr(Item,2,40322,1,1)/> nécessaire, si d'aventure vous vouliez à nouveau modifier les attributs d'une arme après sa transmutation."
-156,"TEXT_CHRHDY301_04771_GODBERT_000_293","Ceci étant dit, nous ne devons pas nous reposer sur nos lauriers. Figurez-vous qu'il existe une toute dernière étape avant d'éveiller le plein potentiel des légendaires armes des Manderville<Indent/>!"
-157,"TEXT_CHRHDY301_04771_GEROLT_000_294","J'ai l'impression d'entendre un rouleau d'orchestrion rayé... Et tu vas nous dire qu'on doit poireauter avant de mettre la main à la pâte, c'est ça<Indent/>?"
-158,"TEXT_CHRHDY301_04771_GODBERT_000_295","On ne peut rien vous cacher<Indent/>! Navré, mais vous allez devoir vous armer de patience. Cet ultime labeur exige des préparatifs méticuleux."
-159,"TEXT_CHRHDY301_04771_GODBERT_000_296","Je vais d'ailleurs retourner les superviser de ce pas. Si vous voulez bien m'excuser."
-160,"TEXT_CHRHDY301_04771_SYSTEM_000_300","Vous avez désormais accès à une quête répétable auprès de l'alchimiste des Manderville. Elle vous permettra de modifier les attributs d'armes des Manderville déjà transmutées."
-161,"TEXT_CHRHDY301_04771_SYSTEM_000_301","En possession <SheetFr(Item,9,40322,1,1)/> nécessaire, équipez-vous de l'arme des Manderville que vous souhaitez réajuster puis parlez à l'artisan des Manderville."
+Gerolt vous a reçue au Creuset de l'Al-Kimiya avec un ton plus bourru qu'à l'accoutumée. Godbert vous a ensuite rejoints pour partager les détails de la prochaine étape de l'amélioration des armes des Manderville. Mal­heu­reu­se­ment, il semblerait qu'un différend oppose les deux artisans. Afin de briser la glace et permettre à Gerolt de s'exprimer... de tout son soûl, attendez à l'endroit indiqué au meyhane de Mehryde en vue de boire un verre ou deux... ou trois..."
+2,TEXT_CHRHDY301_04771_SEQ_02,"Après une joute verbale bien arrosée, durant laquelle Gerolt a pu vider son sac et ses verres, les deux compères artisans sont désormais prêts à attaquer l'étape de transmutation des armes des Manderville. Obtenez trois  et remettez-les à Gerolt en conservant votre arme actuelle dans votre inventaire.
+Vous pouvez obtenir  auprès de Jubrunnah sur la place de l'Éthérite."
+3,TEXT_CHRHDY301_04771_SEQ_03,"Gerolt est parvenu à transmuter votre arme grâce  que vous lui avez remis. En attendant que les préparatifs de l'ultime étape soient terminés, n'hésitez pas à aller la tester sur le champ de bataille."
+4,TEXT_CHRHDY301_04771_SEQ_04,
+5,TEXT_CHRHDY301_04771_SEQ_05,
+6,TEXT_CHRHDY301_04771_SEQ_06,
+7,TEXT_CHRHDY301_04771_SEQ_07,
+8,TEXT_CHRHDY301_04771_SEQ_08,
+9,TEXT_CHRHDY301_04771_SEQ_09,
+10,TEXT_CHRHDY301_04771_SEQ_10,
+11,TEXT_CHRHDY301_04771_SEQ_11,
+12,TEXT_CHRHDY301_04771_SEQ_12,
+13,TEXT_CHRHDY301_04771_SEQ_13,
+14,TEXT_CHRHDY301_04771_SEQ_14,
+15,TEXT_CHRHDY301_04771_SEQ_15,
+16,TEXT_CHRHDY301_04771_SEQ_16,
+17,TEXT_CHRHDY301_04771_SEQ_17,
+18,TEXT_CHRHDY301_04771_SEQ_18,
+19,TEXT_CHRHDY301_04771_SEQ_19,
+20,TEXT_CHRHDY301_04771_SEQ_20,
+21,TEXT_CHRHDY301_04771_SEQ_21,
+22,TEXT_CHRHDY301_04771_SEQ_22,
+23,TEXT_CHRHDY301_04771_SEQ_23,
+24,TEXT_CHRHDY301_04771_TODO_00,Attendre à l'endroit indiqué
+25,TEXT_CHRHDY301_04771_TODO_01,Obtenir 
+26,TEXT_CHRHDY301_04771_TODO_02,
+27,TEXT_CHRHDY301_04771_TODO_03,
+28,TEXT_CHRHDY301_04771_TODO_04,
+29,TEXT_CHRHDY301_04771_TODO_05,
+30,TEXT_CHRHDY301_04771_TODO_06,
+31,TEXT_CHRHDY301_04771_TODO_07,
+32,TEXT_CHRHDY301_04771_TODO_08,
+33,TEXT_CHRHDY301_04771_TODO_09,
+34,TEXT_CHRHDY301_04771_TODO_10,
+35,TEXT_CHRHDY301_04771_TODO_11,
+36,TEXT_CHRHDY301_04771_TODO_12,
+37,TEXT_CHRHDY301_04771_TODO_13,
+38,TEXT_CHRHDY301_04771_TODO_14,
+39,TEXT_CHRHDY301_04771_TODO_15,
+40,TEXT_CHRHDY301_04771_TODO_16,
+41,TEXT_CHRHDY301_04771_TODO_17,
+42,TEXT_CHRHDY301_04771_TODO_18,
+43,TEXT_CHRHDY301_04771_TODO_19,
+44,TEXT_CHRHDY301_04771_TODO_20,
+45,TEXT_CHRHDY301_04771_TODO_21,
+46,TEXT_CHRHDY301_04771_TODO_22,
+47,TEXT_CHRHDY301_04771_TODO_23,
+48,TEXT_CHRHDY301_04771_SYSTEM_000_000,"Si vous commencez la quête “Quand les forgerons boivent, les armes trinquent” maintenant, l'arme des Manderville que vous pourrez fabriquer sera celle d'."
+49,TEXT_CHRHDY301_04771_SYSTEM_000_001,Commencer la quête en restant  ?
+50,TEXT_CHRHDY301_04771_Q4_000_001,Fabriquer l'arme des Manderville pour  ?
+51,TEXT_CHRHDY301_04771_A4_000_002,Prendre le temps de réfléchir
+52,TEXT_CHRHDY301_04771_A4_000_003,Fabriquer l'arme des Manderville pour 
+53,TEXT_CHRHDY301_04771_SYSTEM_000_005,"Une fois la quête “Quand les forgerons boivent, les armes trinquent” commencée, vous ne pourrez transmuter l'arme des Manderville d'un autre job qu'en la terminant ou l'abandonnant."
+54,TEXT_CHRHDY301_04771_SYSTEM_000_006,Sélectionnez le job de votre choix puis reparlez à Gerolt.
+55,TEXT_CHRHDY301_04771_SYSTEM_000_007,Vous devez être en possession  et  pour pouvoir accepter cette quête.
+56,TEXT_CHRHDY301_04771_SYSTEM_000_008,Vous devez être en possession  pour pouvoir accepter cette quête.
+57,TEXT_CHRHDY301_04771_GEROLT_000_010,"Oh non, pas toi..."
+58,TEXT_CHRHDY301_04771_GEROLT_000_011,Aah... C'est vrai que l'autre moustachu voulait encore triturer ses quincailleries des Manderville...
+59,TEXT_CHRHDY301_04771_CRAFTER04653_000_012,"Sans plus attendre, je vais mander monsieur Manderville..."
+60,TEXT_CHRHDY301_04771_GODBERT_000_013,"Ho ho ho ! Ma chère Player ! Tout d'abord, permettez-moi de vous exprimer à nouveau ma gratitude. Vos exploits avec nos armes sont une constante source d'inspiration !"
+61,TEXT_CHRHDY301_04771_GODBERT_000_014,"En étudiant plus en détail l'artefact incongru, nous avons enfin découvert les secrets qu'il renfermait pour transmuter les armes des Manderville."
+62,TEXT_CHRHDY301_04771_GODBERT_000_015,Ces armes in­croya­ble­ment puissantes que nous forgeons ne doivent pas tomber entre de mauvaises mains... C'est pour cette raison que notre ancêtre a caché le secret de l'étape de transmutation dans un dispositif complexe plutôt qu'un simple ouvrage manuscrit.
+63,TEXT_CHRHDY301_04771_GODBERT_000_016,"Rendez-vous compte, cette fois-ci, nous devrons revoir com­plè­te­ment la conception des armes si nous voulons atteindre le niveau de puissance attendu."
+64,TEXT_CHRHDY301_04771_GODBERT_000_017,"Et ce n'est pas tout ! Notre vénéré aïeul, Godbrand, a aussi pensé à rendre possible l'ajustement des propriétés des armes selon les aspirations de leurs détenteurs."
+65,TEXT_CHRHDY301_04771_GODBERT_000_018,"Cerise sur le gâteau, avec notre revêtement nouvelle génération, l'huile de Maximanderville, leur conductivité éthéréenne devrait atteindre des niveaux inégalés !"
+66,TEXT_CHRHDY301_04771_GEROLT_000_019,Pff... Encore une Mander-huile à la noix...
+67,TEXT_CHRHDY301_04771_GODBERT_000_020,"Le procédé reste le même que précédemment. Afin de pouvoir synthétiser cette huile de Maximanderville, nous aurons besoin de roches météoritiques spécifiques, ."
+68,TEXT_CHRHDY301_04771_GODBERT_000_021,"Maintenant que nous savons que la technologie des armes des Manderville est d'origine extra-terrestre, la nécessité d'utiliser des minéraux exotiques prend tout son sens."
+69,TEXT_CHRHDY301_04771_GEROLT_000_022,E-extra-terrestre !? Je comprends mieux pourquoi les techniques de forge mises en œuvre sont si peu orthodoxes...
+70,TEXT_CHRHDY301_04771_GODBERT_000_023,"Comme d'habitude, je me charge de rassembler la plupart des matériaux nécessaires. J'aurais juste besoin que vous nous fournissiez ces fameux ."
+71,TEXT_CHRHDY301_04771_GEROLT_000_024,"Pff ! Quel vieux grippe-sou ! Avec tous les gils que tu brasses, tu veux nous faire croire que t'as pas les moyens de t'en procurer toi-même ?"
+72,TEXT_CHRHDY301_04771_GODBERT_000_025,"J'ai essayé, croyez-moi... Or, ces météorites sont tellement rares qu'elles ne peuvent être échangées que contre des mémoquartz d'une valeur équivalente."
+73,TEXT_CHRHDY301_04771_GODBERT_000_026,"Il me peine de vous imposer cette corvée, ma bonne Player, mais vous êtes la seule capable de l'accomplir. Je compte donc une fois de plus sur votre concours."
+74,TEXT_CHRHDY301_04771_GODBERT_000_027,"Et vous l'aurez compris, mon brave Gerolt, vous allez avoir du pain sur la planche... Ou devrais-je plutôt dire du métal sur l'enclume, car nous allons devoir reforger totalement nos créations !"
+75,TEXT_CHRHDY301_04771_GEROLT_000_028,Ouais... Ouais... J'vais te marteler tout ça...
+76,TEXT_CHRHDY301_04771_GODBERT_000_029,"Hum... Mon cher Gerolt, j'ai comme l'impression que vous y mettez de la mauvaise volonté."
+77,TEXT_CHRHDY301_04771_GEROLT_000_030,"Pff... Tu l'as dit, papy !"
+78,TEXT_CHRHDY301_04771_GEROLT_000_031,"Figure-toi que tu me paies tellement au lance-pierre que j'ai dilapidé tout mon magot en une soirée au bar, l'autre jour ! J'te rappelle que j'ai accepté ce boulot pour le fric, rien de plus !"
+79,TEXT_CHRHDY301_04771_GODBERT_000_032,Hum... J'ai surtout l'impression que vous ne m'avez jamais vraiment porté dans votre cœur.
+80,TEXT_CHRHDY301_04771_GODBERT_000_033,"Nous n'avons que trop attendu. Il nous faut crever l'abcès dès maintenant, sinon j'ai peur que la qualité de notre travail finisse par trinquer..."
+81,TEXT_CHRHDY301_04771_GODBERT_000_034,"Mais oui, trinquons ! Quoi de mieux qu'une petite discussion à bâtons rompus avec quelques pintes derrière la cravate ! Bien sûr, je réglerai la douloureuse."
+82,TEXT_CHRHDY301_04771_GEROLT_000_035,De la bibine à l'œil ? Ça serait malpoli de refuser !
+83,TEXT_CHRHDY301_04771_GODBERT_000_036,"Joignez-vous donc à nous, Player ! Vous aussi l'avez bien mérité. Retrouvons-nous au meyhane de Mehryde."
+84,TEXT_CHRHDY301_04771_GEROLT_000_040,"Hé hé hé... L'alcool est vraiment à volonté ? J'vais tellement boire que le moustachu va finir sur la paille, lui aussi !"
+85,TEXT_CHRHDY301_04771_GODBERT_000_200,Ho ho ho ! Buvons tout notre soûl !
+86,TEXT_CHRHDY301_04771_GEROLT_000_201,"Hé hé hé... C'toi qui paies, on est d'accord ? Dans ce cas, je vais prendre de l'eau-de-vie de Radz-at-Han ! La bouteille la plus chère de la carte !"
+87,TEXT_CHRHDY301_04771_GODBERT_000_202,"Et pour vous, Player ? Quelque chose d'alcoolisé également ?"
+88,TEXT_CHRHDY301_04771_Q1_000_000,Que répondez-vous ?
+89,TEXT_CHRHDY301_04771_A1_000_001,Bien sûr !
+90,TEXT_CHRHDY301_04771_A1_000_002,Juste un doigt...
+91,TEXT_CHRHDY301_04771_A1_000_003,Je ne bois pas d'alcool.
+92,TEXT_CHRHDY301_04771_GODBERT_000_203,"Bien. Dans ce cas, ce sera de l'eau-de-vie pour tout le monde."
+93,TEXT_CHRHDY301_04771_GODBERT_000_204,"Bien. Dans ce cas, je suis certain que Mehryde saura vous satisfaire avec un de ses cocktails sans alcool. Et la fête sera plus folle !"
+94,TEXT_CHRHDY301_04771_MIHLEEL_000_205,Et voilà  ! Vos boissons sont prêtes !
+95,TEXT_CHRHDY301_04771_GODBERT_000_206,À votre santé... !
+96,TEXT_CHRHDY301_04771_GEROLT_000_207,T'sais quoi... ? J'ai jamais pu encadrer ta face de moustachu !
+97,TEXT_CHRHDY301_04771_GODBERT_000_208,Ho... Et pourquoi donc ?
+98,TEXT_CHRHDY301_04771_GEROLT_000_209,"J'vais te le dire... Un artisan digne de ce nom doit être dévoué à son ouvrage. C'est en forgeant qu'on devient forgeron, bon sang !"
+99,TEXT_CHRHDY301_04771_GEROLT_000_210,"Mais toi ! T'as monté ta propre manufacture et tu fais même dans le divertissement des masses, maintenant !? T'es qu'un commerçant de la pire espèce !"
+100,TEXT_CHRHDY301_04771_GODBERT_000_211,"Je vois... Vous voulez dire que je ne suis qu'un opportuniste, c'est bien ça ? Toutefois, pour s'adonner pleinement à son art, n'a-t-on pas besoin d'argent ? N'avez-vous jamais abandonné une idée parce que vous n'aviez pas les moyens pour la réaliser ?"
+101,TEXT_CHRHDY301_04771_GODBERT_000_212,"C'est justement grâce à mes revenus que je peux désormais explorer à loisir les possibilités infinies de l'orfèvrerie, qui me passionne tant."
+102,TEXT_CHRHDY301_04771_GODBERT_000_213,"Et puis... j'ai eu vent que vous-même, mon cher Gerolt, fabriquiez des bouilloires entre autres babioles afin de subvenir à vos besoins. Si vous concentriez vos efforts sur des projets plus profitables, vous aussi pourriez vous consacrer pleinement à votre art, non ?"
+103,TEXT_CHRHDY301_04771_GEROLT_000_214,M-mon verre est vide ! Ramenez la binouze !!
+104,TEXT_CHRHDY301_04771_GEROLT_000_215,J'ai pété un câble le jour où t'as rejoint le Cartel des Scorpions... hic ! Comment un sale politicard comme toi peut fabriquer quoi que ce soit de potable !?
+105,TEXT_CHRHDY301_04771_GODBERT_000_216,"Ne vous en déplaise, mon expérience dans la politique uldienne m'a fait voir du pays, découvrir d'autres cultures... Cette existence cosmopolite a été pour moi une grande source d'inspiration en tant qu'artisan."
+106,TEXT_CHRHDY301_04771_GEROLT_000_217,"Cosmopo... quoi ? De toute façon, j'peux pas piffer tous ces parvenus collet monté, c'tout !"
+107,TEXT_CHRHDY301_04771_GEROLT_000_218,Putain... T'as vraiment réponse à tout...
+108,TEXT_CHRHDY301_04771_GEROLT_000_219,"Comment est-ce qu'un vieux croûton poilu comme toi, né avec une cuillère en argent dans la bouche, pourrait m'comprendre !? Saleté d'exhibo, toujours à s'balader le bide à l'air !"
+109,TEXT_CHRHDY301_04771_GODBERT_000_220,"Ho ho ho ! Si nous avons quelque chose en commun, c'est bien notre penchant pour les tenues légères !"
+110,TEXT_CHRHDY301_04771_GEROLT_000_221,"D'accord... D'accord... J'le reconnais... T'es un artisan de génie... Voilà, j'l'ai dit..."
+111,TEXT_CHRHDY301_04771_GEROLT_000_222,Comparé à toi... J'suis un moins que rien... (sanglote)
+112,TEXT_CHRHDY301_04771_GEROLT_000_223,Ro... Rowena... !? Qu'est-ce que tu fous là ?
+113,TEXT_CHRHDY301_04771_GEROLT_000_224,N-ne m'regarde pas comme ça... J'suis qu'un ouvrier raté... (sanglote)
+114,TEXT_CHRHDY301_04771_GODBERT_000_225,Hm... Il semblerait que ce bon Gerolt vous prenne pour quelqu'un d'autre... Peut-être sauriez-vous trouver les mots justes pour lui répondre ?
+115,TEXT_CHRHDY301_04771_Q2_000_000,Que dites-vous ?
+116,TEXT_CHRHDY301_04771_A2_000_001,"Gerolt, tu as toujours été mon artisan favori !"
+117,TEXT_CHRHDY301_04771_A2_000_002,T'es vraiment qu'un crâne d'œuf inutile !
+118,TEXT_CHRHDY301_04771_GEROLT_000_226,Tu... tu m'as jamais dit ça ! T'es sincère !? Merci...
+119,TEXT_CHRHDY301_04771_GEROLT_000_227,J'sais que c'est ta façon de m'dire que tu m'aimes... Merci...
+120,TEXT_CHRHDY301_04771_GEROLT_000_228,"Grâce à toi, j'me sens revigoré ! M'en balance de l'oseille ! J'vais mettre tout mon cœur et... hic ! Toute mon âme dans ces satanées bouilloires... armes !!"
+121,TEXT_CHRHDY301_04771_GODBERT_000_229,"Je crois que cette petite tournée a mis fin à notre différend... Entre vous et moi, c'est bien la première fois que je vois quelqu'un devenir ivre mort avec du simple jus de carotte..."
+122,TEXT_CHRHDY301_04771_GODBERT_000_230,"M'inquiétant pour la santé de ce brave Gerolt, j'ai fait signe à Mihleel d'arrêter de mettre de l'alcool dans son verre. J'ai besoin qu'il soit en pleine possession de ses moyens pour le travail qui nous attend."
+123,TEXT_CHRHDY301_04771_GODBERT_000_231,"Fut un temps, moi aussi j'étais comme Gerolt, prompt à vivre de ma passion..."
+124,TEXT_CHRHDY301_04771_GODBERT_000_232,"Mal­heu­reu­se­ment, une grande manufacture appelant de grandes res­pon­sa­bi­li­tés, j'ai dû faire des concessions. Quelque part, j'envie Gerolt car il représente mon idéal en tant qu'artisan."
+125,TEXT_CHRHDY301_04771_GODBERT_000_233,Restons-en là pour aujourd'hui. Je compte sur vous pour nous fournir les trois  nécessaires.
+126,TEXT_CHRHDY301_04771_SYSTEM_000_240,Vous pouvez obtenir  auprès de Jubrunnah sur la place de l'Éthérite.
+127,TEXT_CHRHDY301_04771_GEROLT_000_241,Uh... J'crois que j'suis rond comme une queue de pelle... Si t'as pas encore  va donc voir ailleurs si j'y suis !
+128,TEXT_CHRHDY301_04771_SYSTEM_000_242,Vous pouvez obtenir  auprès de Jubrunnah sur la place de l'Éthérite.
+129,TEXT_CHRHDY301_04771_GEROLT_000_250,"T'en mis le temps ! T'as pas oublié la ritournelle ? Déséquipe ton arme, si tu veux que je te la martèle !"
+130,TEXT_CHRHDY301_04771_GEROLT_000_251,"J'ai même pas la gueule de bois ! Je m'impressionne moi-même. Allez, file-moi tes cailloux, là... Ouais ."
+131,TEXT_CHRHDY301_04771_GEROLT_000_252,"Tu vois quand tu veux ! Allez, c'est parti ! Tiens, au fait... j'me souviens plus ce qu'il s'est passé l'autre jour au bar, mais j'ai l'impression que Rowena était là..."
+132,TEXT_CHRHDY301_04771_GEROLT_000_253,"... Peu importe, il faut battre le fer tant qu'il est chaud ! Dès que l'autre moustachu sera dans le coin, on va t'la transmuter comme jamais, ton arme !"
+133,TEXT_CHRHDY301_04771_GODBERT_000_254,"Très bien... Nous allons maintenant pouvoir enduire le tout d'huile de Maximanderville. En revanche, je vais avoir besoin de vos directives en tant qu'utilisatrice. Nous devrons adapter la préparation pour obtenir le résultat attendu."
+134,TEXT_CHRHDY301_04771_GODBERT_000_255,Réfléchissez bien aux propriétés que vous souhaiteriez conférer à votre arme... Faites-nous signe lorsque vous serez prête.
+135,TEXT_CHRHDY301_04771_Q3_000_000,Que voulez-vous faire ?
+136,TEXT_CHRHDY301_04771_A3_000_001,Ajuster les attributs de l'arme
+137,TEXT_CHRHDY301_04771_A3_000_002,En savoir plus sur cette opération
+138,TEXT_CHRHDY301_04771_A3_000_003,Annuler
+139,TEXT_CHRHDY301_04771_SYSTEM_000_260,Le revêtement à l'huile de Maximanderville permet de sélectionner manuellement trois attributs différents pour votre arme des Manderville. L'un des trois sera toujours inférieur aux deux autres.
+140,TEXT_CHRHDY301_04771_SYSTEM_000_261,"Une fois les valeurs con­ve­na­ble­ment sé­lec­tion­nées, choisissez “Valider” pour lancer le processus de transmutation."
+141,TEXT_CHRHDY301_04771_SYSTEM_000_262,Chaque réajustement des attributs requiert . Prenez le temps de bien réfléchir avant de confirmer vos choix.
+142,TEXT_CHRHDY301_04771_GODBERT_000_270,"Excellent choix, ma chère amie ! Le moment est venu d'user de mes doigts de fée !!"
+143,TEXT_CHRHDY301_04771_GODBERT_000_280,"C'est un chef-d'œuvre, Player !"
+144,TEXT_CHRHDY301_04771_GEROLT_000_281,J'y ai martelé toute mon âme d'artisan. Nous assistons à la naissance d'une arme des Manderville nouvelle génération...
+145,TEXT_CHRHDY301_04771_GEROLT_000_282,Admirez  et  !
+146,TEXT_CHRHDY301_04771_GEROLT_000_283,Admirez  !
+147,TEXT_CHRHDY301_04771_GODBERT_000_284,"Notre travail d'équipe a porté ses fruits ! Si nous n'avions pas réglé notre différend au préalable, jamais nous n'aurions atteint un tel résultat !"
+148,TEXT_CHRHDY301_04771_GEROLT_000_285,"J'ai encore du mal à m'en souvenir... Tout ce que j'sais, c'est que j'étais vachement motivé après !"
+149,TEXT_CHRHDY301_04771_GODBERT_000_286,"Bien sûr, si d'aventure vous désiriez transmuter d'autres armes, n'hésitez pas à solliciter notre athlétique artisan des Manderville."
+150,TEXT_CHRHDY301_04771_CRAFTER04653_000_287,"Monsieur Godbert, veuillez me pardonner pour mon outrecuidance, mais j'ai bien peur d'être incapable de synthétiser l'huile de Maximanderville avec tant de brio, de dextérité et de grâce..."
+151,TEXT_CHRHDY301_04771_GEROLT_000_288,"Et moi, l'alchimie, c'pas mon truc ! Donc pas la peine de me regarder avec ces yeux de merlan frit !"
+152,TEXT_CHRHDY301_04771_GODBERT_000_289,"Ho ho ho ! Pas d'inquiétude, j'ai tout prévu ! Figurez-vous que j'emploie aussi des alchimistes très capables."
+153,TEXT_CHRHDY301_04771_GEROLT_000_290,"Incroyable, il est pas à poil celui-là ! Bon... par contre, il s'est sûrement habillé dans le noir ce matin..."
+154,TEXT_CHRHDY301_04771_GODBERT_000_291,"Au cas où vous désireriez transmuter d'autres armes, notre alchimiste des Manderville ici présent se chargera de répondre à tous vos besoins en huile de Maximanderville."
+155,TEXT_CHRHDY301_04771_GODBERT_000_292,"Il vous suffira de lui apporter  nécessaire, si d'aventure vous vouliez à nouveau modifier les attributs d'une arme après sa transmutation."
+156,TEXT_CHRHDY301_04771_GODBERT_000_293,"Ceci étant dit, nous ne devons pas nous reposer sur nos lauriers. Figurez-vous qu'il existe une toute dernière étape avant d'éveiller le plein potentiel des légendaires armes des Manderville !"
+157,TEXT_CHRHDY301_04771_GEROLT_000_294,"J'ai l'impression d'entendre un rouleau d'orchestrion rayé... Et tu vas nous dire qu'on doit poireauter avant de mettre la main à la pâte, c'est ça ?"
+158,TEXT_CHRHDY301_04771_GODBERT_000_295,"On ne peut rien vous cacher ! Navré, mais vous allez devoir vous armer de patience. Cet ultime labeur exige des préparatifs méticuleux."
+159,TEXT_CHRHDY301_04771_GODBERT_000_296,Je vais d'ailleurs retourner les superviser de ce pas. Si vous voulez bien m'excuser.
+160,TEXT_CHRHDY301_04771_SYSTEM_000_300,Vous avez désormais accès à une quête répétable auprès de l'alchimiste des Manderville. Elle vous permettra de modifier les attributs d'armes des Manderville déjà transmutées.
+161,TEXT_CHRHDY301_04771_SYSTEM_000_301,"En possession  nécessaire, équipez-vous de l'arme des Manderville que vous souhaitez réajuster puis parlez à l'artisan des Manderville."

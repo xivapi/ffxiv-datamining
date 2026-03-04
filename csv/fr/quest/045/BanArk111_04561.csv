@@ -1,69 +1,66 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANARK111_04561_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis>
+0,TEXT_BANARK111_04561_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
+*Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.*
 
 Maru a une idée derrière la tête."
-1,"TEXT_BANARK111_04561_SEQ_01",""
-2,"TEXT_BANARK111_04561_SEQ_02",""
-3,"TEXT_BANARK111_04561_SEQ_03",""
-4,"TEXT_BANARK111_04561_SEQ_04",""
-5,"TEXT_BANARK111_04561_SEQ_05",""
-6,"TEXT_BANARK111_04561_SEQ_06",""
-7,"TEXT_BANARK111_04561_SEQ_07",""
-8,"TEXT_BANARK111_04561_SEQ_08",""
-9,"TEXT_BANARK111_04561_SEQ_09",""
-10,"TEXT_BANARK111_04561_SEQ_10",""
-11,"TEXT_BANARK111_04561_SEQ_11",""
-12,"TEXT_BANARK111_04561_SEQ_12",""
-13,"TEXT_BANARK111_04561_SEQ_13",""
-14,"TEXT_BANARK111_04561_SEQ_14",""
-15,"TEXT_BANARK111_04561_SEQ_15",""
-16,"TEXT_BANARK111_04561_SEQ_16",""
-17,"TEXT_BANARK111_04561_SEQ_17",""
-18,"TEXT_BANARK111_04561_SEQ_18",""
-19,"TEXT_BANARK111_04561_SEQ_19",""
-20,"TEXT_BANARK111_04561_SEQ_20",""
-21,"TEXT_BANARK111_04561_SEQ_21",""
-22,"TEXT_BANARK111_04561_SEQ_22",""
-23,"TEXT_BANARK111_04561_SEQ_23",""
-24,"TEXT_BANARK111_04561_TODO_00","Livrer <SheetFr(EventItem,2,2003417,2,1)/> et <SheetFr(EventItem,2,2003418,2,1)/> aux travailleurs dans la jungle"
-25,"TEXT_BANARK111_04561_TODO_01","Retourner voir Maru"
-26,"TEXT_BANARK111_04561_TODO_02",""
-27,"TEXT_BANARK111_04561_TODO_03",""
-28,"TEXT_BANARK111_04561_TODO_04",""
-29,"TEXT_BANARK111_04561_TODO_05",""
-30,"TEXT_BANARK111_04561_TODO_06",""
-31,"TEXT_BANARK111_04561_TODO_07",""
-32,"TEXT_BANARK111_04561_TODO_08",""
-33,"TEXT_BANARK111_04561_TODO_09",""
-34,"TEXT_BANARK111_04561_TODO_10",""
-35,"TEXT_BANARK111_04561_TODO_11",""
-36,"TEXT_BANARK111_04561_TODO_12",""
-37,"TEXT_BANARK111_04561_TODO_13",""
-38,"TEXT_BANARK111_04561_TODO_14",""
-39,"TEXT_BANARK111_04561_TODO_15",""
-40,"TEXT_BANARK111_04561_TODO_16",""
-41,"TEXT_BANARK111_04561_TODO_17",""
-42,"TEXT_BANARK111_04561_TODO_18",""
-43,"TEXT_BANARK111_04561_TODO_19",""
-44,"TEXT_BANARK111_04561_TODO_20",""
-45,"TEXT_BANARK111_04561_TODO_21",""
-46,"TEXT_BANARK111_04561_TODO_22",""
-47,"TEXT_BANARK111_04561_TODO_23",""
-48,"TEXT_BANARK111_04561_MARU_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Tu tombes bien, j'ai une tâche à te confier. J'ai préparé quelques paniers-repas et j'aimerais que tu ailles les distribuer aux travailleurs, près du temple dans la jungle des Sangha... Histoire de nous faire connaître."
-49,"TEXT_BANARK111_04561_MARU_000_001","C'est un endroit très important pour nous, et si les gens voient débarquer <Highlight>ObjectParameter(1)</Highlight> en personne pour leur livrer nos petits plats, je te laisse imaginer l'engouement que ça suscitera. Je t'ai aussi mis des amra en guise de desserts, n'oublie pas d'en donner un avec chaque panier-repas<Indent/>!"
-50,"TEXT_BANARK111_04561_RADIANTHOSTA04561_000_010","Vous ici<Indent/>? Il y a un problème dans le coin<Indent/>?"
-51,"TEXT_BANARK111_04561_RADIANTHOSTA04561_000_011","Comment<Indent/>!? C'est pour moi<Indent/>? Eh bien, c'est très gentil à vous."
-52,"TEXT_BANARK111_04561_RADIANTHOSTA04561_000_012","Les soldats de l'Ost rayonnant ont enfin retrouvé leur routine... Mais c'est bien la première fois qu'on m'offre un <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dîner<Else/>déjeuner</If><Else/><If(LessThan(PlayerParameter(11),17))>déjeuner<Else/>dîner</If></If> pendant le service<Indent/>!"
-53,"TEXT_BANARK111_04561_RADIANTHOSTA04561_000_013","Votre attention me touche beaucoup. Merci à vous et aux Hippotracteurs."
-54,"TEXT_BANARK111_04561_RADIANTHOSTB04561_000_014","Tiens, mais c'est <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Qu'est-ce qui vous amène ici<Indent/>?"
-55,"TEXT_BANARK111_04561_RADIANTHOSTB04561_000_015","Un panier-repas et un succulent dessert par dessus le marché<Indent/>!? J'avais justement l'estomac qui criait famine<Indent/>!"
-56,"TEXT_BANARK111_04561_RADIANTHOSTB04561_000_016","Et donc, les Hippotracteurs proposent désormais de livrer aussi de bons petits plats... C'est en effet bien pratique<Indent/>! Vous vous êtes fait une nouvelle cliente, pour sûr<Indent/>!"
-57,"TEXT_BANARK111_04561_ROOKIESTEWARD04561_000_020","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, je peux vous aider<Indent/>?"
-58,"TEXT_BANARK111_04561_ROOKIESTEWARD04561_000_021","Tout ça, pour moi<Indent/>? C'est bien généreux de votre part<Indent/>!"
-59,"TEXT_BANARK111_04561_ROOKIESTEWARD04561_000_022","Même si le pire est derrière nous, la vie n'a pas encore repris son cours normal ici. C'est ce qui m'a poussé à devenir gardien. Votre panier-repas bien alléchant arrive à point nommé pour me donner la force de finir ma <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>soirée<Else/>journée</If><Else/><If(LessThan(PlayerParameter(11),17))>journée<Else/>soirée</If></If><Indent/>!"
-60,"TEXT_BANARK111_04561_MARU_000_040","Alors<Indent/>? Ils ont bien aimé mes paniers-repas<Indent/>?"
-61,"TEXT_BANARK111_04561_MARU_000_041","Ah, tant mieux<Indent/>! Les soldats de l'Ost rayonnant et les gardiens font un travail vital dans cette jungle, je suis heureux d'avoir pu leur rendre un peu la pareille de cette manière."
-62,"TEXT_BANARK111_04561_MARU_000_042","Merci encore d'avoir accepté de m'aider. Voilà d'ailleurs pour ta peine. À bientôt<Indent/>!"
+1,TEXT_BANARK111_04561_SEQ_01,
+2,TEXT_BANARK111_04561_SEQ_02,
+3,TEXT_BANARK111_04561_SEQ_03,
+4,TEXT_BANARK111_04561_SEQ_04,
+5,TEXT_BANARK111_04561_SEQ_05,
+6,TEXT_BANARK111_04561_SEQ_06,
+7,TEXT_BANARK111_04561_SEQ_07,
+8,TEXT_BANARK111_04561_SEQ_08,
+9,TEXT_BANARK111_04561_SEQ_09,
+10,TEXT_BANARK111_04561_SEQ_10,
+11,TEXT_BANARK111_04561_SEQ_11,
+12,TEXT_BANARK111_04561_SEQ_12,
+13,TEXT_BANARK111_04561_SEQ_13,
+14,TEXT_BANARK111_04561_SEQ_14,
+15,TEXT_BANARK111_04561_SEQ_15,
+16,TEXT_BANARK111_04561_SEQ_16,
+17,TEXT_BANARK111_04561_SEQ_17,
+18,TEXT_BANARK111_04561_SEQ_18,
+19,TEXT_BANARK111_04561_SEQ_19,
+20,TEXT_BANARK111_04561_SEQ_20,
+21,TEXT_BANARK111_04561_SEQ_21,
+22,TEXT_BANARK111_04561_SEQ_22,
+23,TEXT_BANARK111_04561_SEQ_23,
+24,TEXT_BANARK111_04561_TODO_00,Livrer  et  aux travailleurs dans la jungle
+25,TEXT_BANARK111_04561_TODO_01,Retourner voir Maru
+26,TEXT_BANARK111_04561_TODO_02,
+27,TEXT_BANARK111_04561_TODO_03,
+28,TEXT_BANARK111_04561_TODO_04,
+29,TEXT_BANARK111_04561_TODO_05,
+30,TEXT_BANARK111_04561_TODO_06,
+31,TEXT_BANARK111_04561_TODO_07,
+32,TEXT_BANARK111_04561_TODO_08,
+33,TEXT_BANARK111_04561_TODO_09,
+34,TEXT_BANARK111_04561_TODO_10,
+35,TEXT_BANARK111_04561_TODO_11,
+36,TEXT_BANARK111_04561_TODO_12,
+37,TEXT_BANARK111_04561_TODO_13,
+38,TEXT_BANARK111_04561_TODO_14,
+39,TEXT_BANARK111_04561_TODO_15,
+40,TEXT_BANARK111_04561_TODO_16,
+41,TEXT_BANARK111_04561_TODO_17,
+42,TEXT_BANARK111_04561_TODO_18,
+43,TEXT_BANARK111_04561_TODO_19,
+44,TEXT_BANARK111_04561_TODO_20,
+45,TEXT_BANARK111_04561_TODO_21,
+46,TEXT_BANARK111_04561_TODO_22,
+47,TEXT_BANARK111_04561_TODO_23,
+48,TEXT_BANARK111_04561_MARU_000_000,"Bonsoir Player ! Tu tombes bien, j'ai une tâche à te confier. J'ai préparé quelques paniers-repas et j'aimerais que tu ailles les distribuer aux travailleurs, près du temple dans la jungle des Sangha... Histoire de nous faire connaître."
+49,TEXT_BANARK111_04561_MARU_000_001,"C'est un endroit très important pour nous, et si les gens voient débarquer Player Player en personne pour leur livrer nos petits plats, je te laisse imaginer l'engouement que ça suscitera. Je t'ai aussi mis des amra en guise de desserts, n'oublie pas d'en donner un avec chaque panier-repas !"
+50,TEXT_BANARK111_04561_RADIANTHOSTA04561_000_010,Vous ici ? Il y a un problème dans le coin ?
+51,TEXT_BANARK111_04561_RADIANTHOSTA04561_000_011,"Comment !? C'est pour moi ? Eh bien, c'est très gentil à vous."
+52,TEXT_BANARK111_04561_RADIANTHOSTA04561_000_012,Les soldats de l'Ost rayonnant ont enfin retrouvé leur routine... Mais c'est bien la première fois qu'on m'offre un dîner pendant le service !
+53,TEXT_BANARK111_04561_RADIANTHOSTA04561_000_013,Votre attention me touche beaucoup. Merci à vous et aux Hippotracteurs.
+54,TEXT_BANARK111_04561_RADIANTHOSTB04561_000_014,"Tiens, mais c'est Player ! Qu'est-ce qui vous amène ici ?"
+55,TEXT_BANARK111_04561_RADIANTHOSTB04561_000_015,Un panier-repas et un succulent dessert par dessus le marché !? J'avais justement l'estomac qui criait famine !
+56,TEXT_BANARK111_04561_RADIANTHOSTB04561_000_016,"Et donc, les Hippotracteurs proposent désormais de livrer aussi de bons petits plats... C'est en effet bien pratique ! Vous vous êtes fait une nouvelle cliente, pour sûr !"
+57,TEXT_BANARK111_04561_ROOKIESTEWARD04561_000_020,"Bonsoir, je peux vous aider ?"
+58,TEXT_BANARK111_04561_ROOKIESTEWARD04561_000_021,"Tout ça, pour moi ? C'est bien généreux de votre part !"
+59,TEXT_BANARK111_04561_ROOKIESTEWARD04561_000_022,"Même si le pire est derrière nous, la vie n'a pas encore repris son cours normal ici. C'est ce qui m'a poussé à devenir gardien. Votre panier-repas bien alléchant arrive à point nommé pour me donner la force de finir ma soirée !"
+60,TEXT_BANARK111_04561_MARU_000_040,Alors ? Ils ont bien aimé mes paniers-repas ?
+61,TEXT_BANARK111_04561_MARU_000_041,"Ah, tant mieux ! Les soldats de l'Ost rayonnant et les gardiens font un travail vital dans cette jungle, je suis heureux d'avoir pu leur rendre un peu la pareille de cette manière."
+62,TEXT_BANARK111_04561_MARU_000_042,Merci encore d'avoir accepté de m'aider. Voilà d'ailleurs pour ta peine. À bientôt !

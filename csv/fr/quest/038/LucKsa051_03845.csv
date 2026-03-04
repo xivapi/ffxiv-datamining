@@ -1,79 +1,76 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_LUCKSA051_03845_SEQ_00","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>Règle spéciale<Indent/>:  classe ou job fixe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_LUCKSA051_03845_SEQ_00,"**Règle spéciale :  classe ou job fixe**
 L'inventaire semble inquiéter Zlatan bien plus que Gerolt."
-1,"TEXT_LUCKSA051_03845_SEQ_01","* <Emphasis>Cette quête fait l'objet de la règle spéciale <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow> classe ou job fixe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Il n'est possible de progresser qu'avec la classe ou le job qui a servi à la commencer.</Emphasis>
+1,TEXT_LUCKSA051_03845_SEQ_01,"* *Cette quête fait l'objet de la règle spéciale ** classe ou job fixe**. Il n'est possible de progresser qu'avec la classe ou le job qui a servi à la commencer.*
 
 Zlatan a accepté de vous fournir les matériaux de base nécessaires à la fabrication d'une nouvelle arme de la résistance. Vous devrez toutefois vous procurer vous-même les écailles ombrales. Revenez voir l'aide de Gerolt lorsque vous en aurez récupéré quatre pincées."
-2,"TEXT_LUCKSA051_03845_SEQ_02","Gerolt et Zlatan ont fabriqué pour vous une nouvelle arme de la résistance grâce aux écailles ombrales que vous leur avez fournies. Distinguez-vous avec elle sur le champ de bataille pour hisser haut cet étendard de la rébellion."
-3,"TEXT_LUCKSA051_03845_SEQ_03",""
-4,"TEXT_LUCKSA051_03845_SEQ_04",""
-5,"TEXT_LUCKSA051_03845_SEQ_05",""
-6,"TEXT_LUCKSA051_03845_SEQ_06",""
-7,"TEXT_LUCKSA051_03845_SEQ_07",""
-8,"TEXT_LUCKSA051_03845_SEQ_08",""
-9,"TEXT_LUCKSA051_03845_SEQ_09",""
-10,"TEXT_LUCKSA051_03845_SEQ_10",""
-11,"TEXT_LUCKSA051_03845_SEQ_11",""
-12,"TEXT_LUCKSA051_03845_SEQ_12",""
-13,"TEXT_LUCKSA051_03845_SEQ_13",""
-14,"TEXT_LUCKSA051_03845_SEQ_14",""
-15,"TEXT_LUCKSA051_03845_SEQ_15",""
-16,"TEXT_LUCKSA051_03845_SEQ_16",""
-17,"TEXT_LUCKSA051_03845_SEQ_17",""
-18,"TEXT_LUCKSA051_03845_SEQ_18",""
-19,"TEXT_LUCKSA051_03845_SEQ_19",""
-20,"TEXT_LUCKSA051_03845_SEQ_20",""
-21,"TEXT_LUCKSA051_03845_SEQ_21",""
-22,"TEXT_LUCKSA051_03845_SEQ_22",""
-23,"TEXT_LUCKSA051_03845_SEQ_23",""
-24,"TEXT_LUCKSA051_03845_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Obtenir <SheetFr(Item,1,30273,2,1)/><Else/>Remettre <SheetFr(Item,2,30273,2,1)/> à Zlatan</If>"
-25,"TEXT_LUCKSA051_03845_TODO_01",""
-26,"TEXT_LUCKSA051_03845_TODO_02",""
-27,"TEXT_LUCKSA051_03845_TODO_03",""
-28,"TEXT_LUCKSA051_03845_TODO_04",""
-29,"TEXT_LUCKSA051_03845_TODO_05",""
-30,"TEXT_LUCKSA051_03845_TODO_06",""
-31,"TEXT_LUCKSA051_03845_TODO_07",""
-32,"TEXT_LUCKSA051_03845_TODO_08",""
-33,"TEXT_LUCKSA051_03845_TODO_09",""
-34,"TEXT_LUCKSA051_03845_TODO_10",""
-35,"TEXT_LUCKSA051_03845_TODO_11",""
-36,"TEXT_LUCKSA051_03845_TODO_12",""
-37,"TEXT_LUCKSA051_03845_TODO_13",""
-38,"TEXT_LUCKSA051_03845_TODO_14",""
-39,"TEXT_LUCKSA051_03845_TODO_15",""
-40,"TEXT_LUCKSA051_03845_TODO_16",""
-41,"TEXT_LUCKSA051_03845_TODO_17",""
-42,"TEXT_LUCKSA051_03845_TODO_18",""
-43,"TEXT_LUCKSA051_03845_TODO_19",""
-44,"TEXT_LUCKSA051_03845_TODO_20",""
-45,"TEXT_LUCKSA051_03845_TODO_21",""
-46,"TEXT_LUCKSA051_03845_TODO_22",""
-47,"TEXT_LUCKSA051_03845_TODO_23",""
-48,"TEXT_LUCKSA051_03845_SYSTEM_800_000","Si vous commencez la quête répétable “L'arsenal des résistants” maintenant, l'arme de la résistance que vous pourrez fabriquer sera celle <If(Equal(PlayerParameter(4),0))><If(Equal(PlayerParameter(68),5))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),6))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),7))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),10))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),11))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),27))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),28))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>d'<Sheet(ClassJob,PlayerParameter(68),0)/><Else/>de <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If></If></If></If></If></If><Else/><If(Equal(PlayerParameter(68),5))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),6))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),7))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),10))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),11))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),14))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),26))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),27))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),28))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/><If(Equal(PlayerParameter(68),33))>d'<Sheet(ClassJob,PlayerParameter(68),2)/><Else/>de <Sheet(ClassJob,PlayerParameter(68),2)/></If></If></If></If></If></If></If></If></If></If></If>."
-49,"TEXT_LUCKSA051_03845_SYSTEM_801_000","Commencer la quête en restant <If(PlayerParameter(4))><Sheet(ClassJob,PlayerParameter(68),2)/><Else/><Sheet(ClassJob,PlayerParameter(68),0)/></If><Indent/>?"
-50,"TEXT_LUCKSA051_03845_Q1_800_000","Fabriquer l'arme de la résistance pour <If(PlayerParameter(4))><Sheet(ClassJob,PlayerParameter(68),2)/><Else/><Sheet(ClassJob,PlayerParameter(68),0)/></If><Indent/>?"
-51,"TEXT_LUCKSA051_03845_A1_800_000","Prendre le temps de réfléchir"
-52,"TEXT_LUCKSA051_03845_A2_800_000","Fabriquer l'arme pour <If(PlayerParameter(4))><Sheet(ClassJob,PlayerParameter(68),2)/><Else/><Sheet(ClassJob,PlayerParameter(68),0)/></If>"
-53,"TEXT_LUCKSA051_03845_SYSTEM_800_001","Sélectionnez le job de votre choix puis reparlez à Zlatan afin qu'il fabrique l'arme que vous souhaitez."
-54,"TEXT_LUCKSA051_03845_SYSTEM_800_005","Vous possédez déjà <SheetFr(Item,2,IntegerParameter(1),1,1)/> et <SheetFr(Item,2,IntegerParameter(2),1,1)/>. Sélectionnez un autre job et reparlez à Zlatan."
-55,"TEXT_LUCKSA051_03845_SYSTEM_800_006","Vous possédez déjà <SheetFr(Item,2,IntegerParameter(1),1,1)/>. Sélectionnez un autre job et reparlez à Zlatan."
-56,"TEXT_LUCKSA051_03845_ZLATAN_000_000","Si vous désirez une deuxième arme de la résistance, nous avons tous les matériaux nécessaires. Enfin, sauf les écailles ombrales, bien sûr..."
-57,"TEXT_LUCKSA051_03845_ZLATAN_000_001","La résistance aurait financé leur achat avec plaisir, si elle en avait eu les moyens... Comprenez, nous devons armer nos soldats en priorité..."
-58,"TEXT_LUCKSA051_03845_ZLATAN_000_002","Désolé, je tourne autour du pot. Ce que j'essaie de vous dire, c'est que nous forgerons toutes les armes que vous voulez du moment que vous fournissez vous-même les écailles ombrales."
-59,"TEXT_LUCKSA051_03845_ZLATAN_000_003","<If(PlayerParameter(4))>Une aventurière<Else/>Un aventurier</If> aussi aguerri<If(PlayerParameter(4))>e<Else/></If> que vous n'aura aucun mal à obtenir ce que la maison des splendeurs désire en échange, j'imagine."
-60,"TEXT_LUCKSA051_03845_ZLATAN_000_010","Nous sommes malheureusement encore et toujours en manque d'écailles ombrales, ainsi que de fonds pour en obtenir davantage..."
-61,"TEXT_LUCKSA051_03845_ZLATAN_000_015","Pourriez-vous nous en fournir quelques pincées, comme la dernière fois<Indent/>? La maison des splendeurs de Rowena vous en échangera."
-62,"TEXT_LUCKSA051_03845_SYSTEM_000_020","Vous pouvez obtenir des <SheetFr(Item,12,30273,2,1)/> auprès d'Auriana au Glas des revenants, ainsi que de Hismena à Idyllée."
-63,"TEXT_LUCKSA051_03845_ZLATAN_000_030","Il ne nous manque que <SheetFr(Item,2,30273,2,1)/>. La maison des splendeurs de Rowena pourra vous en fournir. Désolé de ne pouvoir vous en offrir malgré tout ce que vous avez fait pour nous..."
-64,"TEXT_LUCKSA051_03845_SYSTEM_000_031","Vous pouvez obtenir des <SheetFr(Item,12,30273,2,1)/> auprès d'Auriana au Glas des revenants, ainsi que de Hismena à Idyllée."
-65,"TEXT_LUCKSA051_03845_ZLATAN_000_050","Avez-vous pu obtenir <SheetFr(Item,2,30273,2,1)/><Indent/>?"
-66,"TEXT_LUCKSA051_03845_ZLATAN_000_055","Merci beaucoup<Indent/>! Avec cela, nous allons pouvoir ajouter la touche finale<Indent/>!"
-67,"TEXT_LUCKSA051_03845_GEROLT_000_060","Et pendant ce temps, Rowena empoche l'oseille, pfff..."
-68,"TEXT_LUCKSA051_03845_GEROLT_000_061","Mais bon, on va pas se plaindre, hein<Indent/>? Tu vas avoir un nouveau joujou, c'est tout ce qui compte<Indent/>!"
-69,"TEXT_LUCKSA051_03845_GEROLT_000_062","Et voilà ta nouvelle arme de la résistance, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! <Clickable(<SheetFr(Item,2,IntegerParameter(1),1,1)/>)/><Indent/>!"
-70,"TEXT_LUCKSA051_03845_GEROLT_100_062","Et voilà ta nouvelle arme de la résistance, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, accompagnée de son bouclier<Indent/>! <Clickable(<SheetFr(Item,2,IntegerParameter(1),1,1)/>)/> et <SheetFr(Item,2,IntegerParameter(2),1,1)/><Indent/>!"
-71,"TEXT_LUCKSA051_03845_GEROLT_000_063","Paraît que les lames de Gunnhildr apportaient de légères mo<SoftHyphen/>di<SoftHyphen/>fi<SoftHyphen/>ca<SoftHyphen/>tions à leurs armes en fonction des ennemis auxquels ils faisaient face. Quelque chose me dit que nos répliques ont aussi le potentiel d'évoluer."
-72,"TEXT_LUCKSA051_03845_GEROLT_000_064","Oublie pas que c'est le symbole de la résistance bozjienne que tu tiens entre les mains. T'as intérêt à te montrer digne de ton arme en cassant un maximum de figures avec<Indent/>!"
+2,TEXT_LUCKSA051_03845_SEQ_02,Gerolt et Zlatan ont fabriqué pour vous une nouvelle arme de la résistance grâce aux écailles ombrales que vous leur avez fournies. Distinguez-vous avec elle sur le champ de bataille pour hisser haut cet étendard de la rébellion.
+3,TEXT_LUCKSA051_03845_SEQ_03,
+4,TEXT_LUCKSA051_03845_SEQ_04,
+5,TEXT_LUCKSA051_03845_SEQ_05,
+6,TEXT_LUCKSA051_03845_SEQ_06,
+7,TEXT_LUCKSA051_03845_SEQ_07,
+8,TEXT_LUCKSA051_03845_SEQ_08,
+9,TEXT_LUCKSA051_03845_SEQ_09,
+10,TEXT_LUCKSA051_03845_SEQ_10,
+11,TEXT_LUCKSA051_03845_SEQ_11,
+12,TEXT_LUCKSA051_03845_SEQ_12,
+13,TEXT_LUCKSA051_03845_SEQ_13,
+14,TEXT_LUCKSA051_03845_SEQ_14,
+15,TEXT_LUCKSA051_03845_SEQ_15,
+16,TEXT_LUCKSA051_03845_SEQ_16,
+17,TEXT_LUCKSA051_03845_SEQ_17,
+18,TEXT_LUCKSA051_03845_SEQ_18,
+19,TEXT_LUCKSA051_03845_SEQ_19,
+20,TEXT_LUCKSA051_03845_SEQ_20,
+21,TEXT_LUCKSA051_03845_SEQ_21,
+22,TEXT_LUCKSA051_03845_SEQ_22,
+23,TEXT_LUCKSA051_03845_SEQ_23,
+24,TEXT_LUCKSA051_03845_TODO_00,Obtenir 
+25,TEXT_LUCKSA051_03845_TODO_01,
+26,TEXT_LUCKSA051_03845_TODO_02,
+27,TEXT_LUCKSA051_03845_TODO_03,
+28,TEXT_LUCKSA051_03845_TODO_04,
+29,TEXT_LUCKSA051_03845_TODO_05,
+30,TEXT_LUCKSA051_03845_TODO_06,
+31,TEXT_LUCKSA051_03845_TODO_07,
+32,TEXT_LUCKSA051_03845_TODO_08,
+33,TEXT_LUCKSA051_03845_TODO_09,
+34,TEXT_LUCKSA051_03845_TODO_10,
+35,TEXT_LUCKSA051_03845_TODO_11,
+36,TEXT_LUCKSA051_03845_TODO_12,
+37,TEXT_LUCKSA051_03845_TODO_13,
+38,TEXT_LUCKSA051_03845_TODO_14,
+39,TEXT_LUCKSA051_03845_TODO_15,
+40,TEXT_LUCKSA051_03845_TODO_16,
+41,TEXT_LUCKSA051_03845_TODO_17,
+42,TEXT_LUCKSA051_03845_TODO_18,
+43,TEXT_LUCKSA051_03845_TODO_19,
+44,TEXT_LUCKSA051_03845_TODO_20,
+45,TEXT_LUCKSA051_03845_TODO_21,
+46,TEXT_LUCKSA051_03845_TODO_22,
+47,TEXT_LUCKSA051_03845_TODO_23,
+48,TEXT_LUCKSA051_03845_SYSTEM_800_000,"Si vous commencez la quête répétable “L'arsenal des résistants” maintenant, l'arme de la résistance que vous pourrez fabriquer sera celle d'."
+49,TEXT_LUCKSA051_03845_SYSTEM_801_000,Commencer la quête en restant  ?
+50,TEXT_LUCKSA051_03845_Q1_800_000,Fabriquer l'arme de la résistance pour  ?
+51,TEXT_LUCKSA051_03845_A1_800_000,Prendre le temps de réfléchir
+52,TEXT_LUCKSA051_03845_A2_800_000,Fabriquer l'arme pour 
+53,TEXT_LUCKSA051_03845_SYSTEM_800_001,Sélectionnez le job de votre choix puis reparlez à Zlatan afin qu'il fabrique l'arme que vous souhaitez.
+54,TEXT_LUCKSA051_03845_SYSTEM_800_005,Vous possédez déjà  et . Sélectionnez un autre job et reparlez à Zlatan.
+55,TEXT_LUCKSA051_03845_SYSTEM_800_006,Vous possédez déjà . Sélectionnez un autre job et reparlez à Zlatan.
+56,TEXT_LUCKSA051_03845_ZLATAN_000_000,"Si vous désirez une deuxième arme de la résistance, nous avons tous les matériaux nécessaires. Enfin, sauf les écailles ombrales, bien sûr..."
+57,TEXT_LUCKSA051_03845_ZLATAN_000_001,"La résistance aurait financé leur achat avec plaisir, si elle en avait eu les moyens... Comprenez, nous devons armer nos soldats en priorité..."
+58,TEXT_LUCKSA051_03845_ZLATAN_000_002,"Désolé, je tourne autour du pot. Ce que j'essaie de vous dire, c'est que nous forgerons toutes les armes que vous voulez du moment que vous fournissez vous-même les écailles ombrales."
+59,TEXT_LUCKSA051_03845_ZLATAN_000_003,"Une aventurière aussi aguerrie que vous n'aura aucun mal à obtenir ce que la maison des splendeurs désire en échange, j'imagine."
+60,TEXT_LUCKSA051_03845_ZLATAN_000_010,"Nous sommes malheureusement encore et toujours en manque d'écailles ombrales, ainsi que de fonds pour en obtenir davantage..."
+61,TEXT_LUCKSA051_03845_ZLATAN_000_015,"Pourriez-vous nous en fournir quelques pincées, comme la dernière fois ? La maison des splendeurs de Rowena vous en échangera."
+62,TEXT_LUCKSA051_03845_SYSTEM_000_020,"Vous pouvez obtenir des  auprès d'Auriana au Glas des revenants, ainsi que de Hismena à Idyllée."
+63,TEXT_LUCKSA051_03845_ZLATAN_000_030,Il ne nous manque que . La maison des splendeurs de Rowena pourra vous en fournir. Désolé de ne pouvoir vous en offrir malgré tout ce que vous avez fait pour nous...
+64,TEXT_LUCKSA051_03845_SYSTEM_000_031,"Vous pouvez obtenir des  auprès d'Auriana au Glas des revenants, ainsi que de Hismena à Idyllée."
+65,TEXT_LUCKSA051_03845_ZLATAN_000_050,Avez-vous pu obtenir  ?
+66,TEXT_LUCKSA051_03845_ZLATAN_000_055,"Merci beaucoup ! Avec cela, nous allons pouvoir ajouter la touche finale !"
+67,TEXT_LUCKSA051_03845_GEROLT_000_060,"Et pendant ce temps, Rowena empoche l'oseille, pfff..."
+68,TEXT_LUCKSA051_03845_GEROLT_000_061,"Mais bon, on va pas se plaindre, hein ? Tu vas avoir un nouveau joujou, c'est tout ce qui compte !"
+69,TEXT_LUCKSA051_03845_GEROLT_000_062,"Et voilà ta nouvelle arme de la résistance, Player !  !"
+70,TEXT_LUCKSA051_03845_GEROLT_100_062,"Et voilà ta nouvelle arme de la résistance, Player, accompagnée de son bouclier !  et  !"
+71,TEXT_LUCKSA051_03845_GEROLT_000_063,Paraît que les lames de Gunnhildr apportaient de légères mo­di­fi­ca­tions à leurs armes en fonction des ennemis auxquels ils faisaient face. Quelque chose me dit que nos répliques ont aussi le potentiel d'évoluer.
+72,TEXT_LUCKSA051_03845_GEROLT_000_064,Oublie pas que c'est le symbole de la résistance bozjienne que tu tiens entre les mains. T'as intérêt à te montrer digne de ton arme en cassant un maximum de figures avec !

@@ -1,67 +1,64 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI116_04622_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANOMI116_04622_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Stigma-4 hat einen Auftrag zur Beschaffung von Lebensmittelzutaten für die Ea."
-1,"TEXT_BANOMI116_04622_SEQ_01","Ware an den geschmacksinteressierten Ea liefern"
-2,"TEXT_BANOMI116_04622_SEQ_02","Stigma-4 Bericht erstatten"
-3,"TEXT_BANOMI116_04622_SEQ_03",""
-4,"TEXT_BANOMI116_04622_SEQ_04",""
-5,"TEXT_BANOMI116_04622_SEQ_05",""
-6,"TEXT_BANOMI116_04622_SEQ_06",""
-7,"TEXT_BANOMI116_04622_SEQ_07",""
-8,"TEXT_BANOMI116_04622_SEQ_08",""
-9,"TEXT_BANOMI116_04622_SEQ_09",""
-10,"TEXT_BANOMI116_04622_SEQ_10",""
-11,"TEXT_BANOMI116_04622_SEQ_11",""
-12,"TEXT_BANOMI116_04622_SEQ_12",""
-13,"TEXT_BANOMI116_04622_SEQ_13",""
-14,"TEXT_BANOMI116_04622_SEQ_14",""
-15,"TEXT_BANOMI116_04622_SEQ_15",""
-16,"TEXT_BANOMI116_04622_SEQ_16",""
-17,"TEXT_BANOMI116_04622_SEQ_17",""
-18,"TEXT_BANOMI116_04622_SEQ_18",""
-19,"TEXT_BANOMI116_04622_SEQ_19",""
-20,"TEXT_BANOMI116_04622_SEQ_20",""
-21,"TEXT_BANOMI116_04622_SEQ_21",""
-22,"TEXT_BANOMI116_04622_SEQ_22",""
-23,"TEXT_BANOMI116_04622_SEQ_23",""
-24,"TEXT_BANOMI116_04622_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Agrarsektor Elysiums <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> abbauen<Else/> <Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> beim geschmacksinteressierten Ea abliefern</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Agrarsektor Elysiums <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> einsammeln<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> beim geschmacksinteressierten Ea abliefern</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Agrarsektor Elysiums <SheetDe(Item,1,IntegerParameter(5),1,4,1)/> fangen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> beim geschmacksinteressierten Ea abliefern</If><Else/></If></If></If>"
-25,"TEXT_BANOMI116_04622_TODO_01","Stigma-4 Bericht erstatten"
-26,"TEXT_BANOMI116_04622_TODO_02",""
-27,"TEXT_BANOMI116_04622_TODO_03",""
-28,"TEXT_BANOMI116_04622_TODO_04",""
-29,"TEXT_BANOMI116_04622_TODO_05",""
-30,"TEXT_BANOMI116_04622_TODO_06",""
-31,"TEXT_BANOMI116_04622_TODO_07",""
-32,"TEXT_BANOMI116_04622_TODO_08",""
-33,"TEXT_BANOMI116_04622_TODO_09",""
-34,"TEXT_BANOMI116_04622_TODO_10",""
-35,"TEXT_BANOMI116_04622_TODO_11",""
-36,"TEXT_BANOMI116_04622_TODO_12",""
-37,"TEXT_BANOMI116_04622_TODO_13",""
-38,"TEXT_BANOMI116_04622_TODO_14",""
-39,"TEXT_BANOMI116_04622_TODO_15",""
-40,"TEXT_BANOMI116_04622_TODO_16",""
-41,"TEXT_BANOMI116_04622_TODO_17",""
-42,"TEXT_BANOMI116_04622_TODO_18",""
-43,"TEXT_BANOMI116_04622_TODO_19",""
-44,"TEXT_BANOMI116_04622_TODO_20",""
-45,"TEXT_BANOMI116_04622_TODO_21",""
-46,"TEXT_BANOMI116_04622_TODO_22",""
-47,"TEXT_BANOMI116_04622_TODO_23",""
-48,"TEXT_BANOMI116_04622_STIGMA4_000_001","Auftragsprotokoll wird referenziert. <biep><Indent/>... <zzzt><Indent/>... Einleitungsfloskeln werden geladen<Indent/>... Sei gegrüßt, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ea aus Ostrakon Tria haben kürzlich Kontakt mit dem Wiegenstern aufgenommen und neue Nahrungsproben aus Elysium angefordert."
-49,"TEXT_BANOMI116_04622_STIGMA4_000_002","<biep><Indent/>... Leider hat der übermäßig behaarte Gastwirt den Auftrag entgegen aller Vernunft angenommen, bevor die Nachricht die Sensoren von Stigma-4 zur Evaluierung erreichte. Nun ist eine Lieferung der geforderten Proben zwingend notwendig geworden. <bzzzt>"
-50,"TEXT_BANOMI116_04622_STIGMA4_000_003","Auftragsprotokoll wird referenziert. <biep><Indent/>... <bzzz><Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soll im Agrarsektor Elysiums drei Einheiten folgenden Gegenstands akquirieren >> <Sheet(Item,38290,9)/>."
-51,"TEXT_BANOMI116_04622_STIGMA4_000_004","Auftragsprotokoll wird referenziert. <biep><Indent/>... <bzzz><Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soll im Agrarsektor Elysiums drei Einheiten folgenden Gegenstands akquirieren >> <Sheet(Item,38314,9)/>."
-52,"TEXT_BANOMI116_04622_STIGMA4_000_005","Auftragsprotokoll wird referenziert. <biep><Indent/>... <bzzz><Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soll im Agrarsektor Elysiums <SheetDe(Item,1,38338,1,4,1)/> akquirieren."
-53,"TEXT_BANOMI116_04622_STIGMA4_000_006","Anschließend ist die Probe an den geschmacksinteressierten Ea in Ostrakon Tria auszuhändigen. <klick><Indent/>... <bzzz><Indent/>... Zur Steigerung der Zufriedenheit der Bewohner von Ultima Thule erwartet Stigma-4 deine uneingeschränkte Kooperation."
-54,"TEXT_BANOMI116_04622_EA04622_000_007","Oh, eine physische Manifestation!? Bist du gekommen, um meine bestellten Geschmacksproben zu liefern? Ich erkenne leider kein entsprechendes Gepäck bei dir<Indent/>... Auch wenn Zeit für einen Ea keine Rolle spielt, verspüre ich<Indent/>... <Emphasis>Ungeduld</Emphasis><Indent/>..."
-55,"TEXT_BANOMI116_04622_EA04622_000_008","Oh, eine physische Manifestation! Du bist gekommen, um meine bestellten Geschmacksproben zu liefern, nicht wahr?"
-56,"TEXT_BANOMI116_04622_EA04622_000_009","Ja, das ist es! Ich verspüre<Indent/>... <Emphasis>Vorfreude</Emphasis>! Ich danke dir, wandelndes Biomassegefäß. Damit kann ich nun die Erforschung neuronaler Geschmacksrezeptoren fortführen."
-57,"TEXT_BANOMI116_04622_EA04622_000_010","Die gallertartige Gedankenmasse zwischen deinen Ohren hat es vielleicht noch gespeichert: Wir Ea wollen all die Aspekte des Fühlens, deren ursprüngliche Wahrnehmungsform wir aufgegeben haben, neu entdecken. Darunter auch unseren <Emphasis>Geschmackssinn</Emphasis>. Dazu forsche ich und benötige ständig neue Proben."
-58,"TEXT_BANOMI116_04622_EA04622_000_011","Ich habe jüngst damit begonnen, Geschmacksorgane in einer Molekularretorte zu züchten und versuche nun, daraus Geschmacksinformationen zu extrahieren. Wenn ich Erfolg haben sollte, werden wir Ea uns fortan an allerlei Geschmacksdatensätzen erfreuen können, die normalerweise minderen biochemischen Organismen vorbehalten sind!"
-59,"TEXT_BANOMI116_04622_STIGMA4_000_012","Stigma-4 registriert Rückkehr von <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Fordere Missionsbericht über Warenlieferung an Ea<Indent/>..."
-60,"TEXT_BANOMI116_04622_STIGMA4_000_013","Missionsbericht wird protokolliert. <biep><Indent/>... <bzzz><Indent/>... Alle Simulationen von Stigma-4 deuten darauf hin, dass der erfolgreiche Abschluss deiner Mission mit hoher Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit zu einer statistisch signifikanten Zunahme von Ea im Café „Wiegenstern“ führen wird."
-61,"TEXT_BANOMI116_04622_STIGMA4_000_014","Sollte unser Auftraggeber Erfolg bei der Reproduktion von Geschmacksdaten haben, prognostiziert Stigma-4 zudem eine Zunahme von Lieferbestellungen für organische Speisen durch die Ea. <biep> ... <zzzt> ... Initiiere operative Planung künftiger Missionen für <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+1,TEXT_BANOMI116_04622_SEQ_01,Ware an den geschmacksinteressierten Ea liefern
+2,TEXT_BANOMI116_04622_SEQ_02,Stigma-4 Bericht erstatten
+3,TEXT_BANOMI116_04622_SEQ_03,
+4,TEXT_BANOMI116_04622_SEQ_04,
+5,TEXT_BANOMI116_04622_SEQ_05,
+6,TEXT_BANOMI116_04622_SEQ_06,
+7,TEXT_BANOMI116_04622_SEQ_07,
+8,TEXT_BANOMI116_04622_SEQ_08,
+9,TEXT_BANOMI116_04622_SEQ_09,
+10,TEXT_BANOMI116_04622_SEQ_10,
+11,TEXT_BANOMI116_04622_SEQ_11,
+12,TEXT_BANOMI116_04622_SEQ_12,
+13,TEXT_BANOMI116_04622_SEQ_13,
+14,TEXT_BANOMI116_04622_SEQ_14,
+15,TEXT_BANOMI116_04622_SEQ_15,
+16,TEXT_BANOMI116_04622_SEQ_16,
+17,TEXT_BANOMI116_04622_SEQ_17,
+18,TEXT_BANOMI116_04622_SEQ_18,
+19,TEXT_BANOMI116_04622_SEQ_19,
+20,TEXT_BANOMI116_04622_SEQ_20,
+21,TEXT_BANOMI116_04622_SEQ_21,
+22,TEXT_BANOMI116_04622_SEQ_22,
+23,TEXT_BANOMI116_04622_SEQ_23,
+24,TEXT_BANOMI116_04622_TODO_00,Im Agrarsektor Elysiums  abbauen
+25,TEXT_BANOMI116_04622_TODO_01,Stigma-4 Bericht erstatten
+26,TEXT_BANOMI116_04622_TODO_02,
+27,TEXT_BANOMI116_04622_TODO_03,
+28,TEXT_BANOMI116_04622_TODO_04,
+29,TEXT_BANOMI116_04622_TODO_05,
+30,TEXT_BANOMI116_04622_TODO_06,
+31,TEXT_BANOMI116_04622_TODO_07,
+32,TEXT_BANOMI116_04622_TODO_08,
+33,TEXT_BANOMI116_04622_TODO_09,
+34,TEXT_BANOMI116_04622_TODO_10,
+35,TEXT_BANOMI116_04622_TODO_11,
+36,TEXT_BANOMI116_04622_TODO_12,
+37,TEXT_BANOMI116_04622_TODO_13,
+38,TEXT_BANOMI116_04622_TODO_14,
+39,TEXT_BANOMI116_04622_TODO_15,
+40,TEXT_BANOMI116_04622_TODO_16,
+41,TEXT_BANOMI116_04622_TODO_17,
+42,TEXT_BANOMI116_04622_TODO_18,
+43,TEXT_BANOMI116_04622_TODO_19,
+44,TEXT_BANOMI116_04622_TODO_20,
+45,TEXT_BANOMI116_04622_TODO_21,
+46,TEXT_BANOMI116_04622_TODO_22,
+47,TEXT_BANOMI116_04622_TODO_23,
+48,TEXT_BANOMI116_04622_STIGMA4_000_001,"Auftragsprotokoll wird referenziert. <biep> ... <zzzt> ... Einleitungsfloskeln werden geladen ... Sei gegrüßt, Player. Ea aus Ostrakon Tria haben kürzlich Kontakt mit dem Wiegenstern aufgenommen und neue Nahrungsproben aus Elysium angefordert."
+49,TEXT_BANOMI116_04622_STIGMA4_000_002,"<biep> ... Leider hat der übermäßig behaarte Gastwirt den Auftrag entgegen aller Vernunft angenommen, bevor die Nachricht die Sensoren von Stigma-4 zur Evaluierung erreichte. Nun ist eine Lieferung der geforderten Proben zwingend notwendig geworden. <bzzzt>"
+50,TEXT_BANOMI116_04622_STIGMA4_000_003,Auftragsprotokoll wird referenziert. <biep> ... <bzzz> ... Player soll im Agrarsektor Elysiums drei Einheiten folgenden Gegenstands akquirieren >> .
+51,TEXT_BANOMI116_04622_STIGMA4_000_004,Auftragsprotokoll wird referenziert. <biep> ... <bzzz> ... Player soll im Agrarsektor Elysiums drei Einheiten folgenden Gegenstands akquirieren >> .
+52,TEXT_BANOMI116_04622_STIGMA4_000_005,Auftragsprotokoll wird referenziert. <biep> ... <bzzz> ... Player soll im Agrarsektor Elysiums  akquirieren.
+53,TEXT_BANOMI116_04622_STIGMA4_000_006,Anschließend ist die Probe an den geschmacksinteressierten Ea in Ostrakon Tria auszuhändigen. <klick> ... <bzzz> ... Zur Steigerung der Zufriedenheit der Bewohner von Ultima Thule erwartet Stigma-4 deine uneingeschränkte Kooperation.
+54,TEXT_BANOMI116_04622_EA04622_000_007,"Oh, eine physische Manifestation!? Bist du gekommen, um meine bestellten Geschmacksproben zu liefern? Ich erkenne leider kein entsprechendes Gepäck bei dir ... Auch wenn Zeit für einen Ea keine Rolle spielt, verspüre ich ... *Ungeduld* ..."
+55,TEXT_BANOMI116_04622_EA04622_000_008,"Oh, eine physische Manifestation! Du bist gekommen, um meine bestellten Geschmacksproben zu liefern, nicht wahr?"
+56,TEXT_BANOMI116_04622_EA04622_000_009,"Ja, das ist es! Ich verspüre ... *Vorfreude*! Ich danke dir, wandelndes Biomassegefäß. Damit kann ich nun die Erforschung neuronaler Geschmacksrezeptoren fortführen."
+57,TEXT_BANOMI116_04622_EA04622_000_010,"Die gallertartige Gedankenmasse zwischen deinen Ohren hat es vielleicht noch gespeichert: Wir Ea wollen all die Aspekte des Fühlens, deren ursprüngliche Wahrnehmungsform wir aufgegeben haben, neu entdecken. Darunter auch unseren *Geschmackssinn*. Dazu forsche ich und benötige ständig neue Proben."
+58,TEXT_BANOMI116_04622_EA04622_000_011,"Ich habe jüngst damit begonnen, Geschmacksorgane in einer Molekularretorte zu züchten und versuche nun, daraus Geschmacksinformationen zu extrahieren. Wenn ich Erfolg haben sollte, werden wir Ea uns fortan an allerlei Geschmacksdatensätzen erfreuen können, die normalerweise minderen biochemischen Organismen vorbehalten sind!"
+59,TEXT_BANOMI116_04622_STIGMA4_000_012,Stigma-4 registriert Rückkehr von Player. Fordere Missionsbericht über Warenlieferung an Ea ...
+60,TEXT_BANOMI116_04622_STIGMA4_000_013,"Missionsbericht wird protokolliert. <biep> ... <bzzz> ... Alle Simulationen von Stigma-4 deuten darauf hin, dass der erfolgreiche Abschluss deiner Mission mit hoher Wahr­schein­lich­keit zu einer statistisch signifikanten Zunahme von Ea im Café „Wiegenstern“ führen wird."
+61,TEXT_BANOMI116_04622_STIGMA4_000_014,"Sollte unser Auftraggeber Erfolg bei der Reproduktion von Geschmacksdaten haben, prognostiziert Stigma-4 zudem eine Zunahme von Lieferbestellungen für organische Speisen durch die Ea. <biep> ... <zzzt> ... Initiiere operative Planung künftiger Missionen für Player."

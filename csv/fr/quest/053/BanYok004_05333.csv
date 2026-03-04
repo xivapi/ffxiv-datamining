@@ -1,150 +1,147 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANYOK004_05333_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANYOK004_05333_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 Fahrafahr a du nouveau à vous annoncer."
-1,"TEXT_BANYOK004_05333_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis> 
+1,TEXT_BANYOK004_05333_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.* 
 
-Grâce à votre aide, Fahrafahr est parvenue à déchiffrer les ins<SoftHyphen/>crip<SoftHyphen/>tions de la tombe et des bas-reliefs environnants. Parlez-lui de nouveau près de la tombe anthume de Dartorgor pour qu'elle vous en dise plus."
-2,"TEXT_BANYOK004_05333_SEQ_02","Vous avez écouté at<SoftHyphen/>ten<SoftHyphen/>ti<SoftHyphen/>ve<SoftHyphen/>ment le récit de Fahrafahr, ce qui vous a permis d'en apprendre davantage sur la relation entre le clan de Dartorgor et les esprits des neiges, ainsi que sur la cérémonie des flocons. Retrouvez maintenant Kurbulur près du garde-manger pour lui communiquer vos découvertes."
-3,"TEXT_BANYOK004_05333_SEQ_03","Maintenant que Kurbulur s'occupe des offrandes pour la cérémonie, il vous faut désormais terminer la restauration de l'autel. Rendez-vous à L'Écho de Worlar pour inspecter le soldat de pierre qui devrait vous aider à terminer les travaux."
-4,"TEXT_BANYOK004_05333_SEQ_04","Manifestement, le soldat de pierre a été laissé à l'abandon trop longtemps et nécessite quelques réparations. Retournez au relais des Cimes et adressez-vous à Fahrafahr."
-5,"TEXT_BANYOK004_05333_SEQ_05","Vous avez accepté d'aider Fahrafahr, cette fois-ci en lui fournissant des éléments pour réparer le soldat de pierre. Parlez-lui de nouveau lorsque vous aurez synthétisé le nécessaire."
-6,"TEXT_BANYOK004_05333_SEQ_06","Grâce à votre con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion, le soldat de pierre a été réparé. La présence de ce bâtisseur infatigable dans les rangs des bienfaiteurs a grandement accéléré la restauration de la distillerie ainsi que du bâtiment principal de l'Autel de Zirgorteh. Vous pouvez être <If(PlayerParameter(4))>fière<Else/>fier</If> du travail accompli, mais vous savez d'ores et déjà que Fahrafahr et vos autres amis yok huy vont une dernière fois requérir votre aide pour les préparatifs en amont de la cérémonie des flocons."
-7,"TEXT_BANYOK004_05333_SEQ_07",""
-8,"TEXT_BANYOK004_05333_SEQ_08",""
-9,"TEXT_BANYOK004_05333_SEQ_09",""
-10,"TEXT_BANYOK004_05333_SEQ_10",""
-11,"TEXT_BANYOK004_05333_SEQ_11",""
-12,"TEXT_BANYOK004_05333_SEQ_12",""
-13,"TEXT_BANYOK004_05333_SEQ_13",""
-14,"TEXT_BANYOK004_05333_SEQ_14",""
-15,"TEXT_BANYOK004_05333_SEQ_15",""
-16,"TEXT_BANYOK004_05333_SEQ_16",""
-17,"TEXT_BANYOK004_05333_SEQ_17",""
-18,"TEXT_BANYOK004_05333_SEQ_18",""
-19,"TEXT_BANYOK004_05333_SEQ_19",""
-20,"TEXT_BANYOK004_05333_SEQ_20",""
-21,"TEXT_BANYOK004_05333_SEQ_21",""
-22,"TEXT_BANYOK004_05333_SEQ_22",""
-23,"TEXT_BANYOK004_05333_SEQ_23",""
-24,"TEXT_BANYOK004_05333_TODO_00","Parler à Fahrafahr, à l'Autel de Zirgorteh"
-25,"TEXT_BANYOK004_05333_TODO_01","Parler à Kurbulur"
-26,"TEXT_BANYOK004_05333_TODO_02","Inspecter le soldat de pierre, à L'Écho de Worlar"
-27,"TEXT_BANYOK004_05333_TODO_03","Parler à Fahrafahr"
-28,"TEXT_BANYOK004_05333_TODO_04","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> </If></If></If></If></If></If></If></If>"
-29,"TEXT_BANYOK004_05333_TODO_05",""
-30,"TEXT_BANYOK004_05333_TODO_06",""
-31,"TEXT_BANYOK004_05333_TODO_07",""
-32,"TEXT_BANYOK004_05333_TODO_08",""
-33,"TEXT_BANYOK004_05333_TODO_09",""
-34,"TEXT_BANYOK004_05333_TODO_10",""
-35,"TEXT_BANYOK004_05333_TODO_11",""
-36,"TEXT_BANYOK004_05333_TODO_12",""
-37,"TEXT_BANYOK004_05333_TODO_13",""
-38,"TEXT_BANYOK004_05333_TODO_14",""
-39,"TEXT_BANYOK004_05333_TODO_15",""
-40,"TEXT_BANYOK004_05333_TODO_16",""
-41,"TEXT_BANYOK004_05333_TODO_17",""
-42,"TEXT_BANYOK004_05333_TODO_18",""
-43,"TEXT_BANYOK004_05333_TODO_19",""
-44,"TEXT_BANYOK004_05333_TODO_20",""
-45,"TEXT_BANYOK004_05333_TODO_21",""
-46,"TEXT_BANYOK004_05333_TODO_22",""
-47,"TEXT_BANYOK004_05333_TODO_23",""
-48,"TEXT_BANYOK004_05333_FAHRAFAHR_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Quel PLAISIR de te revoir. En décodant les ins<SoftHyphen/>crip<SoftHyphen/>tions sur la tombe anthume de Dartorgor, je suis parvenue à apprendre des détails IMPORTANTS concernant la cérémonie des flocons."
-49,"TEXT_BANYOK004_05333_FAHRAFAHR_000_002","De plus, grâce à Kurbulur qui a parlé autour de lui de notre effort de RESTAURATION, davantage de villageois nous ont proposé leur aide."
-50,"TEXT_BANYOK004_05333_FAHRAFAHR_000_003","L'un d'entre eux est même prêt à nous offrir un SOLDAT DE PIERRE<Indent/>! C'est une sorte de sculpture mobile que mon peuple utilisait par le passé."
-51,"TEXT_BANYOK004_05333_FAHRAFAHR_100_003","C'est pas vraiment ma tasse de thé, mais j'ai entendu dire qu'autrefois les Yok Huy étaient doués pour enchanter des STATUES et les utiliser comme une main-d'œuvre tenace et inépuisable."
-52,"TEXT_BANYOK004_05333_FAHRAFAHR_000_004","On aime bien se vanter de notre FORCE, mais je ne connais aucun Yok Huy capable de transporter des rochers jour et nuit, sans interruption. Ce soldat de pierre va nous permettre d'avancer plus RAPIDEMENT que prévu dans nos travaux."
-53,"TEXT_BANYOK004_05333_FAHRAFAHR_000_005","Je pense avoir piqué ta curiosité. Un peu de patience... Comme il est très ANCIEN, son pro<SoftHyphen/>prié<SoftHyphen/>taire doit s'assurer qu'il est bien fonctionnel."
-54,"TEXT_BANYOK004_05333_FAHRAFAHR_000_006","En attendant, je te propose de me retrouver à l'Autel de Zirgorteh, devant la tombe anthume de Dartorgor. Ce sera plus SIMPLE pour te transmettre l'ensemble de mes découvertes concernant le rite."
-55,"TEXT_BANYOK004_05333_FAHRAFAHR_000_100","Comme je te l'avais expliqué précédemment, je suis parvenue à obtenir des in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions sur la cérémonie des flocons en déchiffrant les INSCRIPTIONS sur la tombe et les colonnes des alentours."
-56,"TEXT_BANYOK004_05333_FAHRAFAHR_000_101","Tout d'abord, j'ai appris que c'est un fait ANODIN qui a rapproché le clan de Dartorgor et les esprits."
-57,"TEXT_BANYOK004_05333_FAHRAFAHR_000_102","À l'époque, les Yok Huy avaient l'habitude de boire du “kirkahryar” pour tromper le froid. Cet ALCOOL de maïs aurait intrigué les esprits des neiges au plus haut point."
-58,"TEXT_BANYOK004_05333_FAHRAFAHR_000_103","Les ancêtres de Dartorgor ont donc essayé de leur déposer du kirkahryar en OFFRANDE. Ils ont constaté que les esprits, connus pour leurs occasionnels accès de violence, étaient sou<SoftHyphen/>dai<SoftHyphen/>ne<SoftHyphen/>ment devenus PAISIBLES."
-59,"TEXT_BANYOK004_05333_FAHRAFAHR_000_104","Mais ce n'est pas tout. Les esprits des neiges ont commencé à apparaître plus FRÉQUEMMENT et même à se montrer espiègles."
-60,"TEXT_BANYOK004_05333_FAHRAFAHR_000_105","Ainsi, les offrandes d'alcool de maïs déposées à l'autel lors de ce qui devint la cérémonie des flocons ont aussi CONTRIBUÉ à l'amitié entre les deux peuples."
-61,"TEXT_BANYOK004_05333_FAHRAFAHR_000_106","Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, la POPULATION du clan a commencé à décliner."
-62,"TEXT_BANYOK004_05333_FAHRAFAHR_000_107","Les Yok Huy qui vivaient dans ces montagnes ont progressivement DISPARU jusqu'à ce qu'il ne reste plus que Dartorgor, la dernière de sa lignée..."
-63,"TEXT_BANYOK004_05333_FAHRAFAHR_000_108","Mais elle ne se sentait pas SEULE, car ses parents vivaient toujours dans ses souvenirs et les esprits des neiges lui tenaient compagnie."
-64,"TEXT_BANYOK004_05333_FAHRAFAHR_000_109","Sur sa tombe anthume, on peut lire beaucoup d'histoires où Dartorgor et les esprits s'amusent dans la NEIGE et admirent ensemble le ciel étoilé les nuits de pleine lune."
-65,"TEXT_BANYOK004_05333_FAHRAFAHR_000_110","Quelques SYMBOLES re<SoftHyphen/>pré<SoftHyphen/>sen<SoftHyphen/>tent des campanules de glace, dont la beauté n'a d'égal que leur rareté. Avoir eu la chance d'en trouver est de toute évidence un SOUVENIR précieux pour elle."
-66,"TEXT_BANYOK004_05333_FAHRAFAHR_000_111","C'est la dernière INSCRIPTION de la tombe. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, Dartorgor n'a pas eu l'occasion d'en graver davantage..."
-67,"TEXT_BANYOK004_05333_FAHRAFAHR_000_112","Désolée, je ne devrais pas DÉPRIMER de la sorte. Dartorgor vit toujours grâce à mes souvenirs et c'est tout ce qui compte..."
-68,"TEXT_BANYOK004_05333_FAHRAFAHR_000_113","Grâce aux in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions de cette tombe, on sait désormais que la cérémonie des flocons consiste à placer une OFFRANDE d'alcool de maïs sur l'autel."
-69,"TEXT_BANYOK004_05333_FAHRAFAHR_000_114","Comme c'est en lien avec l'alimentaire, allons demander CONSEIL à Kurbulur. C'est lui qui s'occupe de la gestion du garde-manger."
-70,"TEXT_BANYOK004_05333_FAHRAFAHR_000_200","Je viens de résumer la SITUATION à Kurbulur. Écoutons ses conclusions."
-71,"TEXT_BANYOK004_05333_KURBULUR_000_300","Les esprits sont donc friands de kirkahryar... Je comprends mieux l'attachement de Dartorgor à son maïs au goût IMMONDE."
-72,"TEXT_BANYOK004_05333_KURBULUR_000_301","J'ai justement aperçu une salle de préparation dans un des bâtiments encore en ruines. Elle était sûrement utilisée pour distiller cet ALCOOL."
-73,"TEXT_BANYOK004_05333_FAHRAFAHR_000_302","Nos efforts pour décoder les ins<SoftHyphen/>crip<SoftHyphen/>tions de la tombe anthume ont porté leurs fruits. Maintenant, on peut RESTAURER le reste de l'autel<Indent/>!"
-74,"TEXT_BANYOK004_05333_FAHRAFAHR_100_302","D'ailleurs, le soldat de pierre devrait être bientôt PRÊT. Il faut qu'on aille le voir<Indent/>!"
-75,"TEXT_BANYOK004_05333_FAHRAFAHR_000_303","C'est une grande PREMIÈRE pour moi... J'ai trop hâte<Indent/>! En quelque sorte, c'est aussi grâce à Dartorgor<Indent/>!"
-76,"TEXT_BANYOK004_05333_KURBULUR_100_303","Ha ha ha<Indent/>! Je constate que Fahrafahr a repris du poil de la bête<Indent/>! Dartorgor doit être HEUREUSE qu'elle s'épanouisse de la sorte<Indent/>!"
-77,"TEXT_BANYOK004_05333_KURBULUR_110_303","Emboîte donc le pas à notre AMIE. Si mes in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions sont exactes, le soldat de pierre est encore à L'Écho de Worlar. Crois-moi, tu ne seras pas déçu<If(PlayerParameter(4))>e<Else/></If> du SPECTACLE<Indent/>!"
-78,"TEXT_BANYOK004_05333_KURBULUR_000_305","Tu sais quoi<Indent/>? J'avais trouvé des GRAINES de maïs dans le garde-manger et je prévoyais de les planter près de l'autel. C'est ce qui s'appelle avoir le nez CREUX<Indent/>! Ha ha ha<Indent/>!"
-79,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_310","Hm<Indent/>? C'est à moi que vous PARLEZ<Indent/>?"
-80,"TEXT_BANYOK004_05333_FAHRAFAHR_000_315","C'est donc ça un soldat de pierre... Ou plutôt un “bâtisseur de pierre”<Indent/>? Mais c'est ÉTRANGE, il ne bouge pas..."
-81,"TEXT_BANYOK004_05333_FAHRAFAHR_000_400","J'ai comme l'IMPRESSION que tu es <If(PlayerParameter(4))>familière<Else/>familier</If> avec cette invention... Je me trompe<Indent/>?"
-82,"TEXT_BANYOK004_05333_FAHRAFAHR_100_400","Alors comme ça, tu as déjà affronté un soldat de pierre similaire dans des ruines à Yak T'el<Indent/>! INCROYABLE<Indent/>! Ça ne fait pas si longtemps que tu es arrivé<If(PlayerParameter(4))>e<Else/></If>, mais tu connais déjà mieux le Tural que moi<Indent/>!"
-83,"TEXT_BANYOK004_05333_FAHRAFAHR_000_401","Normalement, il a été modifié pour accomplir des TRAVAUX de con<SoftHyphen/>struc<SoftHyphen/>tion, donc je pense qu'on n'a rien à craindre. Mais c'est BIZARRE, il n'a pas l'air de fonctionner..."
-84,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_402","Hum... Il manque un TRUC..."
-85,"TEXT_BANYOK004_05333_FAHRAFAHR_000_403","C'est la personne qui veut nous OFFRIR le soldat de pierre... Apparemment, il y a quelque chose qui cloche."
-86,"TEXT_BANYOK004_05333_FAHRAFAHR_100_403","Quel est ce “TRUC” qui vous fait défaut<Indent/>?"
-87,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_404","Un COMPOSANT nécessaire à son fonc<SoftHyphen/>tion<SoftHyphen/>ne<SoftHyphen/>ment. J'imagine que vous ne connaissez pas l'HISTOIRE des soldats de pierre yok huy<Indent/>?"
-88,"TEXT_BANYOK004_05333_FAHRAFAHR_000_405","Effectivement... mis à part que notre peuple les utilise depuis très LONGTEMPS. Ce qui est étrange, parce que j'en ai jamais vu un en état de MARCHE à L'Écho de Worlar."
-89,"TEXT_BANYOK004_05333_FAHRAFAHR_100_405","C'est l'occasion d'en APPRENDRE davantage sur l'histoire de mon peuple<Indent/>! Ça t'intéresse aussi, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>?"
-90,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_406","Tu dois savoir que certains Yok Huy sont capables d'insuffler une partie de leur énergie MAGIQUE dans des statues pour leur donner vie."
-91,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_100_406","Aujourd'hui, on les appelle VULGAIREMENT des “soldats de pierre”, mais initialement, ils ont été créés pour accomplir des tâches de manutention."
-92,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_407","Ils s'occupaient des travaux de voirie ou de la CONSTRUCTION de bâtiments. Ma lignée a développé cet art pour nous AIDER dans les tâches quotidiennes les plus pénibles."
-93,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_408","Mais durant notre période BELLIQUEUSE, nous leur avons ajouté de puissantes armes magiques, transformant ainsi ces paisibles travailleurs en instruments de MORT et de destruction."
-94,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_409","Après la guerre, des OUTILS plus pratiques et plus efficaces ont été privilégiés au détriment des soldats de pierre, qui sont tombés en désuétude. Celui-ci a donc DORMI dans ma réserve jusqu'à aujourd'hui."
-95,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_410","（★未使用／削除予定★）"
-96,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_411","Quand on m'a parlé de votre PROJET, je me suis dit que le moment était enfin venu de le dépoussiérer. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, il va avoir besoin de quelques RÉPARATIONS avant d'être de nouveau fonctionnel."
-97,"TEXT_BANYOK004_05333_FAHRAFAHR_000_412","Donc si j'ai bien compris, le “TRUC” qui vous manque... c'est une pièce de rechange<Indent/>?"
-98,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_413","Exactement<Indent/>! Mais la production de ces composants a été abandonnée depuis bien longtemps et ils sont aujourd'hui quasiment in<SoftHyphen/>trou<SoftHyphen/>va<SoftHyphen/>bles. Il faudrait que quelqu'un FABRIQUE de A à Z une pièce détachée."
-99,"TEXT_BANYOK004_05333_FAHRAFAHR_000_414","Si vous pouvez nous fournir toutes les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions nécessaires, je connais <If(PlayerParameter(4))>une ARTISANE talentueuse<Else/>un ARTISAN talentueux</If> qui pourrait s'en charger..."
-100,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_414","（★未使用／削除予定★）"
-101,"TEXT_BANYOK004_05333_Q1_000_000","Que dites-vous<Indent/>?"
-102,"TEXT_BANYOK004_05333_A1_000_001","Je m'en occupe<Indent/>!"
-103,"TEXT_BANYOK004_05333_A1_000_002","Promettez-moi de ne pas l'utiliser pour faire la guerre<Indent/>!"
-104,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_416","Ah, la fougue de la JEUNESSE<Indent/>! Sachez d'ailleurs que ce soldat de pierre est inoffensif. L'armement compatible a été détruit depuis belle lurette et, même si on voulait en faire de nouveau une machine de guerre, ce serait un travail TITANESQUE<Indent/>!"
-105,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_417","Vous avez ma PAROLE<Indent/>! De toute manière, l'armement compatible a été détruit depuis belle lurette. Même si je voulais en faire une machine de guerre, ce serait un travail TITANESQUE<Indent/>!"
-106,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_418","L'énergie MAGIQUE a du mal à se diffuser dans les différentes parties de son corps. J'aurai donc besoin de quelque chose capable d'améliorer la CONDUCTIVITÉ éthéréenne."
-107,"TEXT_BANYOK004_05333_FAHRAFAHR_000_419","Je pense que Wurfurtar devrait pouvoir nous fournir les MATÉRIAUX adéquats. Retournons au relais des Cimes pour lui demander."
-108,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_425","Si vous me donnez un TRUC capable d'améliorer la conductivité éthéréenne du soldat de pierre, je pense que j'arriverai à le réactiver. J'attends votre RETOUR."
-109,"TEXT_BANYOK004_05333_SYSTEM_000_430","Le soldat de pierre est inactif. Il a besoin de composants capables d'améliorer sa conductivité éthéréenne."
-110,"TEXT_BANYOK004_05333_FAHRAFAHR_000_500","Bonne NOUVELLE<Indent/>! Wurfurtar a réussi à nous dégotter ce dont on a besoin<Indent/>!"
-111,"TEXT_BANYOK004_05333_FAHRAFAHR_000_501","Est-ce que tu pourrais fabriquer des PLAQUES métalliques qui amélioreront la conductivité éthéréenne du soldat de pierre<Indent/>?"
-112,"TEXT_BANYOK004_05333_FAHRAFAHR_000_502","Est-ce que tu pourrais fabriquer des ÉLÉMENTS qui amélioreront la conductivité éthéréenne du soldat de pierre<Indent/>?"
-113,"TEXT_BANYOK004_05333_FAHRAFAHR_000_503","Est-ce que tu pourrais fabriquer du LUBRIFIANT qui améliorera la conductivité éthéréenne du soldat de pierre<Indent/>?"
-114,"TEXT_BANYOK004_05333_FAHRAFAHR_000_504","Comme d'habitude, je te donne le NÉCESSAIRE. S'il t'en faut davantage, Wurfurtar devrait pouvoir te dépanner."
-115,"TEXT_BANYOK004_05333_FAHRAFAHR_000_505","Il ne nous reste plus qu'à DISTILLER du kirkahryar et, une fois que le soldat de pierre sera opérationnel, à restaurer les dernières STRUCTURES de l'Autel de Zirgorteh. On y est presque, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Je compte sur toi<Indent/>!"
-116,"TEXT_BANYOK004_05333_FAHRAFAHR_000_510","S'il te faut davantage de MATÉRIAUX, Wurfurtar devrait pouvoir te dépanner."
-117,"TEXT_BANYOK004_05333_FAHRAFAHR_000_515","（★未使用／削除予定★）"
-118,"TEXT_BANYOK004_05333_FAHRAFAHR_000_520","（★未使用／削除予定★）"
-119,"TEXT_BANYOK004_05333_WURFURTAR_000_525","Hop hop<Indent/>! La réhabilitation de l'autel avance à GRANDS PAS<Indent/>! Comptez sur moi pour vous fournir tous les matériaux dont vous avez besoin."
-120,"TEXT_BANYOK004_05333_WURFURTAR_000_530","（★未使用／削除予定★）"
-121,"TEXT_BANYOK004_05333_WURFURTAR_000_535","（★未使用／削除予定★）"
-122,"TEXT_BANYOK004_05333_WURFURTAR_000_540","Vous avez besoin de matériaux<Indent/>? Je vais vous les FOURNIR dare-dare<Indent/>!"
-123,"TEXT_BANYOK004_05333_WURFURTAR_000_541","（★未使用／削除予定★）"
-124,"TEXT_BANYOK004_05333_WURFURTAR_000_542","（★未使用／削除予定★）"
-125,"TEXT_BANYOK004_05333_FAHRAFAHR_000_545","Je vois que tu n'es pas revenu<If(PlayerParameter(4))>e<Else/></If> les mains vides<Indent/>! Tu as déjà TERMINÉ<Indent/>?"
-126,"TEXT_BANYOK004_05333_FAHRAFAHR_000_546","Je pense que c'est EXACTEMENT ce dont on a besoin<Indent/>! Malgré le peu d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions dont on disposait, tu as réalisé un chef-d'œuvre<Indent/>! "
-127,"TEXT_BANYOK004_05333_FAHRAFAHR_000_547","De mon côté, j'ai trouvé quelques ROCHES qui pourraient être utiles aux réparations. Je vais les remettre à notre bienfaiteur avec ta création."
-128,"TEXT_BANYOK004_05333_FAHRAFAHR_000_548","Dès que le soldat de pierre sera opérationnel, on devrait pouvoir terminer les travaux plus TÔT que prévu<Indent/>!"
-129,"TEXT_BANYOK004_05333_FAHRAFAHR_000_550","Grâce à nos EFFORTS conjugués et à l'huile de coude de notre soldat de pierre, la restauration de l'autel est enfin terminée<Indent/>!"
-130,"TEXT_BANYOK004_05333_FAHRAFAHR_000_551","Il ne nous reste plus qu'à attendre que le kirkahryar soit DISTILLÉ pour pouvoir enfin organiser la cérémonie des flocons."
-131,"TEXT_BANYOK004_05333_FAHRAFAHR_100_551","Au fait, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, est-ce que ça t'arrive de boire de l'ALCOOL<Indent/>?"
-132,"TEXT_BANYOK004_05333_FAHRAFAHR_110_551","Il nous reste encore beaucoup à accomplir, mais lorsqu'on aura terminé, je serais heureuse de TRINQUER avec toi."
-133,"TEXT_BANYOK004_05333_SYSTEM_000_552","Avec la restauration de la distillerie et du bâtiment principal, l'Autel de Zirgorteh a retrouvé sa splendeur d'origine<Indent/>!"
-134,"TEXT_BANYOK004_05333_SYSTEM_000_553","Néanmoins, Fahrafahr a encore besoin de votre aide pour organiser la cérémonie des flocons et enfin apaiser les esprits des neiges<Indent/>!"
-135,"TEXT_BANYOK004_05333_SYSTEM_000_600","Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Émérite”."
-136,"TEXT_BANYOK004_05333_SYSTEM_000_601","Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
-137,"TEXT_BANYOK004_05333_SYSTEM_000_602","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Vuyargur, au relais des Cimes."
-138,"TEXT_BANYOK004_05333_SYSTEM_000_603","De plus, trois quêtes sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
-139,"TEXT_BANYOK004_05333_SYSTEM_000_604","Vuyargur vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang."
-140,"TEXT_BANYOK004_05333_SYSTEM_000_605","En outre, Rarkorgor vous propose maintenant les objets correspondant au rang “Émérite”. Faites-en bon usage au cours de vos aventures<Indent/>!"
-141,"TEXT_BANYOK004_05333_SYSTEM_000_700","Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
+Grâce à votre aide, Fahrafahr est parvenue à déchiffrer les ins­crip­tions de la tombe et des bas-reliefs environnants. Parlez-lui de nouveau près de la tombe anthume de Dartorgor pour qu'elle vous en dise plus."
+2,TEXT_BANYOK004_05333_SEQ_02,"Vous avez écouté at­ten­ti­ve­ment le récit de Fahrafahr, ce qui vous a permis d'en apprendre davantage sur la relation entre le clan de Dartorgor et les esprits des neiges, ainsi que sur la cérémonie des flocons. Retrouvez maintenant Kurbulur près du garde-manger pour lui communiquer vos découvertes."
+3,TEXT_BANYOK004_05333_SEQ_03,"Maintenant que Kurbulur s'occupe des offrandes pour la cérémonie, il vous faut désormais terminer la restauration de l'autel. Rendez-vous à L'Écho de Worlar pour inspecter le soldat de pierre qui devrait vous aider à terminer les travaux."
+4,TEXT_BANYOK004_05333_SEQ_04,"Manifestement, le soldat de pierre a été laissé à l'abandon trop longtemps et nécessite quelques réparations. Retournez au relais des Cimes et adressez-vous à Fahrafahr."
+5,TEXT_BANYOK004_05333_SEQ_05,"Vous avez accepté d'aider Fahrafahr, cette fois-ci en lui fournissant des éléments pour réparer le soldat de pierre. Parlez-lui de nouveau lorsque vous aurez synthétisé le nécessaire."
+6,TEXT_BANYOK004_05333_SEQ_06,"Grâce à votre con­tri­bu­tion, le soldat de pierre a été réparé. La présence de ce bâtisseur infatigable dans les rangs des bienfaiteurs a grandement accéléré la restauration de la distillerie ainsi que du bâtiment principal de l'Autel de Zirgorteh. Vous pouvez être fière du travail accompli, mais vous savez d'ores et déjà que Fahrafahr et vos autres amis yok huy vont une dernière fois requérir votre aide pour les préparatifs en amont de la cérémonie des flocons."
+7,TEXT_BANYOK004_05333_SEQ_07,
+8,TEXT_BANYOK004_05333_SEQ_08,
+9,TEXT_BANYOK004_05333_SEQ_09,
+10,TEXT_BANYOK004_05333_SEQ_10,
+11,TEXT_BANYOK004_05333_SEQ_11,
+12,TEXT_BANYOK004_05333_SEQ_12,
+13,TEXT_BANYOK004_05333_SEQ_13,
+14,TEXT_BANYOK004_05333_SEQ_14,
+15,TEXT_BANYOK004_05333_SEQ_15,
+16,TEXT_BANYOK004_05333_SEQ_16,
+17,TEXT_BANYOK004_05333_SEQ_17,
+18,TEXT_BANYOK004_05333_SEQ_18,
+19,TEXT_BANYOK004_05333_SEQ_19,
+20,TEXT_BANYOK004_05333_SEQ_20,
+21,TEXT_BANYOK004_05333_SEQ_21,
+22,TEXT_BANYOK004_05333_SEQ_22,
+23,TEXT_BANYOK004_05333_SEQ_23,
+24,TEXT_BANYOK004_05333_TODO_00,"Parler à Fahrafahr, à l'Autel de Zirgorteh"
+25,TEXT_BANYOK004_05333_TODO_01,Parler à Kurbulur
+26,TEXT_BANYOK004_05333_TODO_02,"Inspecter le soldat de pierre, à L'Écho de Worlar"
+27,TEXT_BANYOK004_05333_TODO_03,Parler à Fahrafahr
+28,TEXT_BANYOK004_05333_TODO_04,Fabriquer 
+29,TEXT_BANYOK004_05333_TODO_05,
+30,TEXT_BANYOK004_05333_TODO_06,
+31,TEXT_BANYOK004_05333_TODO_07,
+32,TEXT_BANYOK004_05333_TODO_08,
+33,TEXT_BANYOK004_05333_TODO_09,
+34,TEXT_BANYOK004_05333_TODO_10,
+35,TEXT_BANYOK004_05333_TODO_11,
+36,TEXT_BANYOK004_05333_TODO_12,
+37,TEXT_BANYOK004_05333_TODO_13,
+38,TEXT_BANYOK004_05333_TODO_14,
+39,TEXT_BANYOK004_05333_TODO_15,
+40,TEXT_BANYOK004_05333_TODO_16,
+41,TEXT_BANYOK004_05333_TODO_17,
+42,TEXT_BANYOK004_05333_TODO_18,
+43,TEXT_BANYOK004_05333_TODO_19,
+44,TEXT_BANYOK004_05333_TODO_20,
+45,TEXT_BANYOK004_05333_TODO_21,
+46,TEXT_BANYOK004_05333_TODO_22,
+47,TEXT_BANYOK004_05333_TODO_23,
+48,TEXT_BANYOK004_05333_FAHRAFAHR_000_001,"Player ! Quel PLAISIR de te revoir. En décodant les ins­crip­tions sur la tombe anthume de Dartorgor, je suis parvenue à apprendre des détails IMPORTANTS concernant la cérémonie des flocons."
+49,TEXT_BANYOK004_05333_FAHRAFAHR_000_002,"De plus, grâce à Kurbulur qui a parlé autour de lui de notre effort de RESTAURATION, davantage de villageois nous ont proposé leur aide."
+50,TEXT_BANYOK004_05333_FAHRAFAHR_000_003,L'un d'entre eux est même prêt à nous offrir un SOLDAT DE PIERRE ! C'est une sorte de sculpture mobile que mon peuple utilisait par le passé.
+51,TEXT_BANYOK004_05333_FAHRAFAHR_100_003,"C'est pas vraiment ma tasse de thé, mais j'ai entendu dire qu'autrefois les Yok Huy étaient doués pour enchanter des STATUES et les utiliser comme une main-d'œuvre tenace et inépuisable."
+52,TEXT_BANYOK004_05333_FAHRAFAHR_000_004,"On aime bien se vanter de notre FORCE, mais je ne connais aucun Yok Huy capable de transporter des rochers jour et nuit, sans interruption. Ce soldat de pierre va nous permettre d'avancer plus RAPIDEMENT que prévu dans nos travaux."
+53,TEXT_BANYOK004_05333_FAHRAFAHR_000_005,"Je pense avoir piqué ta curiosité. Un peu de patience... Comme il est très ANCIEN, son pro­prié­taire doit s'assurer qu'il est bien fonctionnel."
+54,TEXT_BANYOK004_05333_FAHRAFAHR_000_006,"En attendant, je te propose de me retrouver à l'Autel de Zirgorteh, devant la tombe anthume de Dartorgor. Ce sera plus SIMPLE pour te transmettre l'ensemble de mes découvertes concernant le rite."
+55,TEXT_BANYOK004_05333_FAHRAFAHR_000_100,"Comme je te l'avais expliqué précédemment, je suis parvenue à obtenir des in­for­ma­tions sur la cérémonie des flocons en déchiffrant les INSCRIPTIONS sur la tombe et les colonnes des alentours."
+56,TEXT_BANYOK004_05333_FAHRAFAHR_000_101,"Tout d'abord, j'ai appris que c'est un fait ANODIN qui a rapproché le clan de Dartorgor et les esprits."
+57,TEXT_BANYOK004_05333_FAHRAFAHR_000_102,"À l'époque, les Yok Huy avaient l'habitude de boire du “kirkahryar” pour tromper le froid. Cet ALCOOL de maïs aurait intrigué les esprits des neiges au plus haut point."
+58,TEXT_BANYOK004_05333_FAHRAFAHR_000_103,"Les ancêtres de Dartorgor ont donc essayé de leur déposer du kirkahryar en OFFRANDE. Ils ont constaté que les esprits, connus pour leurs occasionnels accès de violence, étaient sou­dai­ne­ment devenus PAISIBLES."
+59,TEXT_BANYOK004_05333_FAHRAFAHR_000_104,Mais ce n'est pas tout. Les esprits des neiges ont commencé à apparaître plus FRÉQUEMMENT et même à se montrer espiègles.
+60,TEXT_BANYOK004_05333_FAHRAFAHR_000_105,"Ainsi, les offrandes d'alcool de maïs déposées à l'autel lors de ce qui devint la cérémonie des flocons ont aussi CONTRIBUÉ à l'amitié entre les deux peuples."
+61,TEXT_BANYOK004_05333_FAHRAFAHR_000_106,"Mal­heu­reu­se­ment, la POPULATION du clan a commencé à décliner."
+62,TEXT_BANYOK004_05333_FAHRAFAHR_000_107,"Les Yok Huy qui vivaient dans ces montagnes ont progressivement DISPARU jusqu'à ce qu'il ne reste plus que Dartorgor, la dernière de sa lignée..."
+63,TEXT_BANYOK004_05333_FAHRAFAHR_000_108,"Mais elle ne se sentait pas SEULE, car ses parents vivaient toujours dans ses souvenirs et les esprits des neiges lui tenaient compagnie."
+64,TEXT_BANYOK004_05333_FAHRAFAHR_000_109,"Sur sa tombe anthume, on peut lire beaucoup d'histoires où Dartorgor et les esprits s'amusent dans la NEIGE et admirent ensemble le ciel étoilé les nuits de pleine lune."
+65,TEXT_BANYOK004_05333_FAHRAFAHR_000_110,"Quelques SYMBOLES re­pré­sen­tent des campanules de glace, dont la beauté n'a d'égal que leur rareté. Avoir eu la chance d'en trouver est de toute évidence un SOUVENIR précieux pour elle."
+66,TEXT_BANYOK004_05333_FAHRAFAHR_000_111,"C'est la dernière INSCRIPTION de la tombe. Mal­heu­reu­se­ment, Dartorgor n'a pas eu l'occasion d'en graver davantage..."
+67,TEXT_BANYOK004_05333_FAHRAFAHR_000_112,"Désolée, je ne devrais pas DÉPRIMER de la sorte. Dartorgor vit toujours grâce à mes souvenirs et c'est tout ce qui compte..."
+68,TEXT_BANYOK004_05333_FAHRAFAHR_000_113,"Grâce aux in­for­ma­tions de cette tombe, on sait désormais que la cérémonie des flocons consiste à placer une OFFRANDE d'alcool de maïs sur l'autel."
+69,TEXT_BANYOK004_05333_FAHRAFAHR_000_114,"Comme c'est en lien avec l'alimentaire, allons demander CONSEIL à Kurbulur. C'est lui qui s'occupe de la gestion du garde-manger."
+70,TEXT_BANYOK004_05333_FAHRAFAHR_000_200,Je viens de résumer la SITUATION à Kurbulur. Écoutons ses conclusions.
+71,TEXT_BANYOK004_05333_KURBULUR_000_300,Les esprits sont donc friands de kirkahryar... Je comprends mieux l'attachement de Dartorgor à son maïs au goût IMMONDE.
+72,TEXT_BANYOK004_05333_KURBULUR_000_301,J'ai justement aperçu une salle de préparation dans un des bâtiments encore en ruines. Elle était sûrement utilisée pour distiller cet ALCOOL.
+73,TEXT_BANYOK004_05333_FAHRAFAHR_000_302,"Nos efforts pour décoder les ins­crip­tions de la tombe anthume ont porté leurs fruits. Maintenant, on peut RESTAURER le reste de l'autel !"
+74,TEXT_BANYOK004_05333_FAHRAFAHR_100_302,"D'ailleurs, le soldat de pierre devrait être bientôt PRÊT. Il faut qu'on aille le voir !"
+75,TEXT_BANYOK004_05333_FAHRAFAHR_000_303,"C'est une grande PREMIÈRE pour moi... J'ai trop hâte ! En quelque sorte, c'est aussi grâce à Dartorgor !"
+76,TEXT_BANYOK004_05333_KURBULUR_100_303,Ha ha ha ! Je constate que Fahrafahr a repris du poil de la bête ! Dartorgor doit être HEUREUSE qu'elle s'épanouisse de la sorte !
+77,TEXT_BANYOK004_05333_KURBULUR_110_303,"Emboîte donc le pas à notre AMIE. Si mes in­for­ma­tions sont exactes, le soldat de pierre est encore à L'Écho de Worlar. Crois-moi, tu ne seras pas déçue du SPECTACLE !"
+78,TEXT_BANYOK004_05333_KURBULUR_000_305,Tu sais quoi ? J'avais trouvé des GRAINES de maïs dans le garde-manger et je prévoyais de les planter près de l'autel. C'est ce qui s'appelle avoir le nez CREUX ! Ha ha ha !
+79,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_310,Hm ? C'est à moi que vous PARLEZ ?
+80,TEXT_BANYOK004_05333_FAHRAFAHR_000_315,"C'est donc ça un soldat de pierre... Ou plutôt un “bâtisseur de pierre” ? Mais c'est ÉTRANGE, il ne bouge pas..."
+81,TEXT_BANYOK004_05333_FAHRAFAHR_000_400,J'ai comme l'IMPRESSION que tu es familière avec cette invention... Je me trompe ?
+82,TEXT_BANYOK004_05333_FAHRAFAHR_100_400,"Alors comme ça, tu as déjà affronté un soldat de pierre similaire dans des ruines à Yak T'el ! INCROYABLE ! Ça ne fait pas si longtemps que tu es arrivée, mais tu connais déjà mieux le Tural que moi !"
+83,TEXT_BANYOK004_05333_FAHRAFAHR_000_401,"Normalement, il a été modifié pour accomplir des TRAVAUX de con­struc­tion, donc je pense qu'on n'a rien à craindre. Mais c'est BIZARRE, il n'a pas l'air de fonctionner..."
+84,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_402,Hum... Il manque un TRUC...
+85,TEXT_BANYOK004_05333_FAHRAFAHR_000_403,"C'est la personne qui veut nous OFFRIR le soldat de pierre... Apparemment, il y a quelque chose qui cloche."
+86,TEXT_BANYOK004_05333_FAHRAFAHR_100_403,Quel est ce “TRUC” qui vous fait défaut ?
+87,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_404,Un COMPOSANT nécessaire à son fonc­tion­ne­ment. J'imagine que vous ne connaissez pas l'HISTOIRE des soldats de pierre yok huy ?
+88,TEXT_BANYOK004_05333_FAHRAFAHR_000_405,"Effectivement... mis à part que notre peuple les utilise depuis très LONGTEMPS. Ce qui est étrange, parce que j'en ai jamais vu un en état de MARCHE à L'Écho de Worlar."
+89,TEXT_BANYOK004_05333_FAHRAFAHR_100_405,"C'est l'occasion d'en APPRENDRE davantage sur l'histoire de mon peuple ! Ça t'intéresse aussi, Player ?"
+90,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_406,Tu dois savoir que certains Yok Huy sont capables d'insuffler une partie de leur énergie MAGIQUE dans des statues pour leur donner vie.
+91,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_100_406,"Aujourd'hui, on les appelle VULGAIREMENT des “soldats de pierre”, mais initialement, ils ont été créés pour accomplir des tâches de manutention."
+92,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_407,Ils s'occupaient des travaux de voirie ou de la CONSTRUCTION de bâtiments. Ma lignée a développé cet art pour nous AIDER dans les tâches quotidiennes les plus pénibles.
+93,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_408,"Mais durant notre période BELLIQUEUSE, nous leur avons ajouté de puissantes armes magiques, transformant ainsi ces paisibles travailleurs en instruments de MORT et de destruction."
+94,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_409,"Après la guerre, des OUTILS plus pratiques et plus efficaces ont été privilégiés au détriment des soldats de pierre, qui sont tombés en désuétude. Celui-ci a donc DORMI dans ma réserve jusqu'à aujourd'hui."
+95,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_410,（★未使用／削除予定★）
+96,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_411,"Quand on m'a parlé de votre PROJET, je me suis dit que le moment était enfin venu de le dépoussiérer. Mal­heu­reu­se­ment, il va avoir besoin de quelques RÉPARATIONS avant d'être de nouveau fonctionnel."
+97,TEXT_BANYOK004_05333_FAHRAFAHR_000_412,"Donc si j'ai bien compris, le “TRUC” qui vous manque... c'est une pièce de rechange ?"
+98,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_413,Exactement ! Mais la production de ces composants a été abandonnée depuis bien longtemps et ils sont aujourd'hui quasiment in­trou­va­bles. Il faudrait que quelqu'un FABRIQUE de A à Z une pièce détachée.
+99,TEXT_BANYOK004_05333_FAHRAFAHR_000_414,"Si vous pouvez nous fournir toutes les in­for­ma­tions nécessaires, je connais une ARTISANE talentueuse qui pourrait s'en charger..."
+100,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_414,（★未使用／削除予定★）
+101,TEXT_BANYOK004_05333_Q1_000_000,Que dites-vous ?
+102,TEXT_BANYOK004_05333_A1_000_001,Je m'en occupe !
+103,TEXT_BANYOK004_05333_A1_000_002,Promettez-moi de ne pas l'utiliser pour faire la guerre !
+104,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_416,"Ah, la fougue de la JEUNESSE ! Sachez d'ailleurs que ce soldat de pierre est inoffensif. L'armement compatible a été détruit depuis belle lurette et, même si on voulait en faire de nouveau une machine de guerre, ce serait un travail TITANESQUE !"
+105,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_417,"Vous avez ma PAROLE ! De toute manière, l'armement compatible a été détruit depuis belle lurette. Même si je voulais en faire une machine de guerre, ce serait un travail TITANESQUE !"
+106,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_418,L'énergie MAGIQUE a du mal à se diffuser dans les différentes parties de son corps. J'aurai donc besoin de quelque chose capable d'améliorer la CONDUCTIVITÉ éthéréenne.
+107,TEXT_BANYOK004_05333_FAHRAFAHR_000_419,Je pense que Wurfurtar devrait pouvoir nous fournir les MATÉRIAUX adéquats. Retournons au relais des Cimes pour lui demander.
+108,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_425,"Si vous me donnez un TRUC capable d'améliorer la conductivité éthéréenne du soldat de pierre, je pense que j'arriverai à le réactiver. J'attends votre RETOUR."
+109,TEXT_BANYOK004_05333_SYSTEM_000_430,Le soldat de pierre est inactif. Il a besoin de composants capables d'améliorer sa conductivité éthéréenne.
+110,TEXT_BANYOK004_05333_FAHRAFAHR_000_500,Bonne NOUVELLE ! Wurfurtar a réussi à nous dégotter ce dont on a besoin !
+111,TEXT_BANYOK004_05333_FAHRAFAHR_000_501,Est-ce que tu pourrais fabriquer des PLAQUES métalliques qui amélioreront la conductivité éthéréenne du soldat de pierre ?
+112,TEXT_BANYOK004_05333_FAHRAFAHR_000_502,Est-ce que tu pourrais fabriquer des ÉLÉMENTS qui amélioreront la conductivité éthéréenne du soldat de pierre ?
+113,TEXT_BANYOK004_05333_FAHRAFAHR_000_503,Est-ce que tu pourrais fabriquer du LUBRIFIANT qui améliorera la conductivité éthéréenne du soldat de pierre ?
+114,TEXT_BANYOK004_05333_FAHRAFAHR_000_504,"Comme d'habitude, je te donne le NÉCESSAIRE. S'il t'en faut davantage, Wurfurtar devrait pouvoir te dépanner."
+115,TEXT_BANYOK004_05333_FAHRAFAHR_000_505,"Il ne nous reste plus qu'à DISTILLER du kirkahryar et, une fois que le soldat de pierre sera opérationnel, à restaurer les dernières STRUCTURES de l'Autel de Zirgorteh. On y est presque, Player ! Je compte sur toi !"
+116,TEXT_BANYOK004_05333_FAHRAFAHR_000_510,"S'il te faut davantage de MATÉRIAUX, Wurfurtar devrait pouvoir te dépanner."
+117,TEXT_BANYOK004_05333_FAHRAFAHR_000_515,（★未使用／削除予定★）
+118,TEXT_BANYOK004_05333_FAHRAFAHR_000_520,（★未使用／削除予定★）
+119,TEXT_BANYOK004_05333_WURFURTAR_000_525,Hop hop ! La réhabilitation de l'autel avance à GRANDS PAS ! Comptez sur moi pour vous fournir tous les matériaux dont vous avez besoin.
+120,TEXT_BANYOK004_05333_WURFURTAR_000_530,（★未使用／削除予定★）
+121,TEXT_BANYOK004_05333_WURFURTAR_000_535,（★未使用／削除予定★）
+122,TEXT_BANYOK004_05333_WURFURTAR_000_540,Vous avez besoin de matériaux ? Je vais vous les FOURNIR dare-dare !
+123,TEXT_BANYOK004_05333_WURFURTAR_000_541,（★未使用／削除予定★）
+124,TEXT_BANYOK004_05333_WURFURTAR_000_542,（★未使用／削除予定★）
+125,TEXT_BANYOK004_05333_FAHRAFAHR_000_545,Je vois que tu n'es pas revenue les mains vides ! Tu as déjà TERMINÉ ?
+126,TEXT_BANYOK004_05333_FAHRAFAHR_000_546,"Je pense que c'est EXACTEMENT ce dont on a besoin ! Malgré le peu d'in­for­ma­tions dont on disposait, tu as réalisé un chef-d'œuvre ! "
+127,TEXT_BANYOK004_05333_FAHRAFAHR_000_547,"De mon côté, j'ai trouvé quelques ROCHES qui pourraient être utiles aux réparations. Je vais les remettre à notre bienfaiteur avec ta création."
+128,TEXT_BANYOK004_05333_FAHRAFAHR_000_548,"Dès que le soldat de pierre sera opérationnel, on devrait pouvoir terminer les travaux plus TÔT que prévu !"
+129,TEXT_BANYOK004_05333_FAHRAFAHR_000_550,"Grâce à nos EFFORTS conjugués et à l'huile de coude de notre soldat de pierre, la restauration de l'autel est enfin terminée !"
+130,TEXT_BANYOK004_05333_FAHRAFAHR_000_551,Il ne nous reste plus qu'à attendre que le kirkahryar soit DISTILLÉ pour pouvoir enfin organiser la cérémonie des flocons.
+131,TEXT_BANYOK004_05333_FAHRAFAHR_100_551,"Au fait, Player, est-ce que ça t'arrive de boire de l'ALCOOL ?"
+132,TEXT_BANYOK004_05333_FAHRAFAHR_110_551,"Il nous reste encore beaucoup à accomplir, mais lorsqu'on aura terminé, je serais heureuse de TRINQUER avec toi."
+133,TEXT_BANYOK004_05333_SYSTEM_000_552,"Avec la restauration de la distillerie et du bâtiment principal, l'Autel de Zirgorteh a retrouvé sa splendeur d'origine !"
+134,TEXT_BANYOK004_05333_SYSTEM_000_553,"Néanmoins, Fahrafahr a encore besoin de votre aide pour organiser la cérémonie des flocons et enfin apaiser les esprits des neiges !"
+135,TEXT_BANYOK004_05333_SYSTEM_000_600,Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Émérite”.
+136,TEXT_BANYOK004_05333_SYSTEM_000_601,"Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
+137,TEXT_BANYOK004_05333_SYSTEM_000_602,"Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Vuyargur, au relais des Cimes."
+138,TEXT_BANYOK004_05333_SYSTEM_000_603,"De plus, trois quêtes sup­plé­men­tai­res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
+139,TEXT_BANYOK004_05333_SYSTEM_000_604,Vuyargur vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang.
+140,TEXT_BANYOK004_05333_SYSTEM_000_605,"En outre, Rarkorgor vous propose maintenant les objets correspondant au rang “Émérite”. Faites-en bon usage au cours de vos aventures !"
+141,TEXT_BANYOK004_05333_SYSTEM_000_700,"Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."

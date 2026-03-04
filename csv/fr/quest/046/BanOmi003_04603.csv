@@ -1,271 +1,268 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI003_04603_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANOMI003_04603_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 N-7000 se réjouit de la réussite des Dernières Réminiscences."
-1,"TEXT_BANOMI003_04603_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis>
+1,TEXT_BANOMI003_04603_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.*
 
-N-7000 vous a fait savoir que les Grébuloff s'habituaient bien à leur nouvel habitat sur Élysée, et Jammingway vous a <If(PlayerParameter(4))>invitée<Else/>invité</If> à aller jauger l'ambiance aux Dernières Réminiscences. Rendez-vous sur place et parlez au Loporrite."
-2,"TEXT_BANOMI003_04603_SEQ_02","Aux Dernières Réminiscences, vous avez fait con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce avec les Nibiréens, les nouveaux invités recréés par Stigma-4. Après l'in<SoftHyphen/>ter<SoftHyphen/>ven<SoftHyphen/>tion de Jammingway pour les empêcher de répandre le désespoir, ils s'en sont allés à la rencontre des autres formes de vie peuplant Ultima Thulé. Le Loporrite a alors suggéré que les Éas étaient des candidats naturels pour être les prochains visiteurs du café. Rendez-vous à la demeure des Éas et parlez à N-7000."
-3,"TEXT_BANOMI003_04603_SEQ_03","Alors que N-7000 et Jammingway s'occupent du nord-est, vous avez été <If(PlayerParameter(4))>chargée<Else/>chargé</If> d'arpenter le sud à la recherche des prochains clients des Dernières Réminiscences. Adressez-vous aux Éas et invitez-les à visiter votre café."
-4,"TEXT_BANOMI003_04603_SEQ_04","Les Éas que vous avez rencontrés ne semblaient pas très réceptifs à l'idée de se rendre aux Dernières Réminiscences... Allez retrouver N-7000 et demandez-lui si lui et Jammingway ont eu plus de succès."
-5,"TEXT_BANOMI003_04603_SEQ_05","N-7000 et Jammingway se sont apparemment heurtés à la même fin de non-recevoir que vous. Après délibération, vous avez décidé de jouer le tout pour le tout en vous y mettant à trois pour tenter de convaincre les récalcitrants... Allez parler à l'Éa sophiste et essayez de le faire changer d'avis."
-6,"TEXT_BANOMI003_04603_SEQ_06","Vous avez réussi tant bien que mal à susciter l'intérêt de deux Éas pour votre café. Afin qu'ils fassent à nouveau l'expérience du goût qu'ils ont oublié depuis si longtemps, Jammingway a suggéré de préparer plusieurs plats que vous dégusterez avant que N-7000 leur transmette vos impressions. Commencez par aller récolter les ressources nécessaires et livrez-les à l'Omicron, aux Dernières Réminiscences."
-7,"TEXT_BANOMI003_04603_SEQ_07","Grâce aux ressources que vous avez fournies à N-7000, Jammingway a préparé plusieurs plats que vous vous êtes <If(PlayerParameter(4))>empressée<Else/>empressé</If> de goûter. L'Omicron a alors analysé votre réaction avant de la transmettre en pulsations éthérées aux Éas, qui ont pu se remémorer des sensations qu'ils avaient depuis longtemps oubliées. Il est fort possible que le dynamis ait réagi en conséquence... Rendez-vous au camp de base A-4 et parlez à N-7000 pour gagner Élysée."
-8,"TEXT_BANOMI003_04603_SEQ_08","En arrivant sur la jeune planète, vous avez pu découvrir le nouvel environnement né des sentiments des Éas. À votre grande surprise, celui-ci était habité par de petites créatures inconnues, vraisemblablement créées par le dynamis. Il ne tient désormais qu'à vous de découvrir et d'apprivoiser ces “miw miisv”, tout en poursuivant votre travail d'équipe avec N-7000 et Jammingway pour faire prospérer Les Dernières Réminiscences."
-9,"TEXT_BANOMI003_04603_SEQ_09",""
-10,"TEXT_BANOMI003_04603_SEQ_10",""
-11,"TEXT_BANOMI003_04603_SEQ_11",""
-12,"TEXT_BANOMI003_04603_SEQ_12",""
-13,"TEXT_BANOMI003_04603_SEQ_13",""
-14,"TEXT_BANOMI003_04603_SEQ_14",""
-15,"TEXT_BANOMI003_04603_SEQ_15",""
-16,"TEXT_BANOMI003_04603_SEQ_16",""
-17,"TEXT_BANOMI003_04603_SEQ_17",""
-18,"TEXT_BANOMI003_04603_SEQ_18",""
-19,"TEXT_BANOMI003_04603_SEQ_19",""
-20,"TEXT_BANOMI003_04603_SEQ_20",""
-21,"TEXT_BANOMI003_04603_SEQ_21",""
-22,"TEXT_BANOMI003_04603_SEQ_22",""
-23,"TEXT_BANOMI003_04603_SEQ_23",""
-24,"TEXT_BANOMI003_04603_TODO_00","Parler à Jammingway"
-25,"TEXT_BANOMI003_04603_TODO_01","Parler à N-7000, à la demeure des Éas"
-26,"TEXT_BANOMI003_04603_TODO_02","Parler aux Éas"
-27,"TEXT_BANOMI003_04603_TODO_03","Parler à N-7000"
-28,"TEXT_BANOMI003_04603_TODO_04","Parler à l'Éa sophiste"
-29,"TEXT_BANOMI003_04603_TODO_05","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Extraire <SheetFr(Item,1,IntegerParameter(5),2,1)/>, à l'ouest du Ragnarok<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à N-7000</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récolter <SheetFr(Item,1,IntegerParameter(5),2,1)/>, au sud de la base vitrifiée<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à N-7000</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Pêcher <SheetFr(Item,1,IntegerParameter(5),1,1)/>, dans la demeure des Éas<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à N-7000</If><Else/></If></If></If>"
-30,"TEXT_BANOMI003_04603_TODO_06","Parler à N-7000, au camp de base A-4"
-31,"TEXT_BANOMI003_04603_TODO_07",""
-32,"TEXT_BANOMI003_04603_TODO_08",""
-33,"TEXT_BANOMI003_04603_TODO_09",""
-34,"TEXT_BANOMI003_04603_TODO_10",""
-35,"TEXT_BANOMI003_04603_TODO_11",""
-36,"TEXT_BANOMI003_04603_TODO_12",""
-37,"TEXT_BANOMI003_04603_TODO_13",""
-38,"TEXT_BANOMI003_04603_TODO_14",""
-39,"TEXT_BANOMI003_04603_TODO_15",""
-40,"TEXT_BANOMI003_04603_TODO_16",""
-41,"TEXT_BANOMI003_04603_TODO_17",""
-42,"TEXT_BANOMI003_04603_TODO_18",""
-43,"TEXT_BANOMI003_04603_TODO_19",""
-44,"TEXT_BANOMI003_04603_TODO_20",""
-45,"TEXT_BANOMI003_04603_TODO_21",""
-46,"TEXT_BANOMI003_04603_TODO_22",""
-47,"TEXT_BANOMI003_04603_TODO_23",""
-48,"TEXT_BANOMI003_04603_N7000_000_001","Bip... Nous continuons à récolter de nombreuses ressources sur Élysée, et nos relations avec les Grébuloff vont pour le mieux. Les dernières mesures du dynamis environnant sont elles aussi encourageantes."
-49,"TEXT_BANOMI003_04603_N7000_000_002","D'autre part, grâce aux produits de la mer obtenus récemment, le menu des Dernières Réminiscences s'est étoffé de nouveaux plats qui remportent un franc succès. Pshhh..."
-50,"TEXT_BANOMI003_04603_JAMMINGWAY_000_003","Puisque les Grébuloff sont heureux, on peut dormir sur nos deux oreilles<Indent/>! Enfin pas trop quand même, on a encore du travail. Allons voir ce qui se passe dans notre café<Indent/>!"
-51,"TEXT_BANOMI003_04603_Q9_000_000","Aller aux Dernières Réminiscences<Indent/>?"
-52,"TEXT_BANOMI003_04603_N7000_000_010","Bip... Le café se développe conformément à nos attentes. Nous sommes sur la bonne voie, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-53,"TEXT_BANOMI003_04603_JAMMINGWAY_000_011","Les Grébuloff sont devenus accros à notre soupe au doux parfum marin<Indent/>! Quel plaisir de goûter à cette ambiance réjouissante dans notre café<Indent/>!"
-54,"TEXT_BANOMI003_04603_N7000_000_012","Bip... Je remarque que les in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions acquises au travers d'échanges amicaux sont différentes de celles obtenues lors d'une invasion..."
-55,"TEXT_BANOMI003_04603_JAMMINGWAY_000_013","Héhé<Indent/>! Est-ce que ça veut dire que tu es satisfait de t'être lancé dans cette entreprise<Indent/>?"
-56,"TEXT_BANOMI003_04603_N7000_100_014","Mon unique motivation reste la mission donnée aux Omicrons. Dans cette optique, j'ai déjà communiqué à Stigma-4 les données nécessaires pour la matérialisation de nouvelles entités, et Client N°5 comme N°6 sont déjà parmi nous. Pshhh..."
-57,"TEXT_BANOMI003_04603_JAMMINGWAY_000_014","Au moins, on ne peut pas te reprocher de ne pas mettre du cœur à l'ouvrage... Quoi qu'il en soit, j'ai hâte de voir à qui nous avons affaire cette fois-ci. Allons vite rencontrer nos nouveaux invités<Indent/>!"
-58,"TEXT_BANOMI003_04603_JAMMINGWAY_000_015","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If><Indent/>! Nous sommes ravis de vous accueillir aux Dernières Réminiscences<Indent/>!"
-59,"TEXT_BANOMI003_04603_NIBIRAENOMI_000_016","(-Être taciturne-)..."
-60,"TEXT_BANOMI003_04603_OMICRON04603_000_017","BiP... Bi<Emphasis>b</Emphasis>iBi<Emphasis>i</Emphasis>Iip... Nouvelle directive assimilée<Indent/>: la vie est dénuée de sens. Début de la procédure d'effacement de mémoire et d'extinction définitive..."
-61,"TEXT_BANOMI003_04603_NIBIRAENOMI_000_018","(-Être taciturne-)Être mécanique, tu as bien fait d'adopter notre conception de l'existence... Dans cet univers voué à disparaître, toute tentative de survie est inutile. Bientôt, tu ne feras qu'un avec les autres créatures de la galaxie en atteignant l'illumination..."
-62,"TEXT_BANOMI003_04603_JAMMINGWAY_000_019","Hein<Indent/>!? Mais-mais-mais, attendez un peu<Indent/>!!! Ça ne va pas du tout, ça<Indent/>!!! Qu'est-ce qu'on va devenir si vous mettez des idées pareilles dans la tête des gens<Indent/>!?"
-63,"TEXT_BANOMI003_04603_N7000_000_020","Bip... Les entités Client N°5 et Client N°6 sont des Nibiréens. Les êtres de cette civilisation sont parvenus à une entente mutuelle à propos de l'inutilité de concepts tels que la guerre ou la mort, ce qui leur a permis d'obtenir la vie éternelle."
-64,"TEXT_BANOMI003_04603_N7000_100_020","Cependant, en éliminant la peine et la souffrance de leur existence, ils se sont aussi privés de toute joie et de but à atteindre... Finalement, les Nibiréens se sont dotés d'un “système d'auto-extinction”, ce qui a abouti à leur ané<SoftHyphen/>an<SoftHyphen/>tis<SoftHyphen/>se<SoftHyphen/>ment."
-65,"TEXT_BANOMI003_04603_N7000_000_021","Bip... Interruption de la procédure de mise hors service et redémarrage en mode sans échec... Confirmation que les fonctions vitales et l'algorithme com<SoftHyphen/>por<SoftHyphen/>te<SoftHyphen/>mental de M-104 sont intacts."
-66,"TEXT_BANOMI003_04603_NIBIRAENOMI_000_022","Pourquoi entraver l'illumination de cet individu<Indent/>? Il était pourtant sur le point de <Emphasis>devenir l'Harmonie</Emphasis>, et de voir sa vie cueillie par Ra-la..."
-67,"TEXT_BANOMI003_04603_JAMMINGWAY_000_023","Euh, je respecte totalement votre vision des choses, mais si vous la transmettez ainsi à toutes les personnes présentes dans ce café, on va au-devant de graves con<SoftHyphen/>sé<SoftHyphen/>quen<SoftHyphen/>ces<Indent/>!"
-68,"TEXT_BANOMI003_04603_N7000_000_024","Bip... Saviez-vous que cet espace est peuplé d'entités recréées dans l'état qui était le leur avant de succomber au désespoir<Indent/>? En allant à leur rencontre, vous pourriez partager des points de vue similaires sur la vanité de l'existence."
-69,"TEXT_BANOMI003_04603_NIBIRAENOMI_000_025","Ta proposition est pour le moins intéressante, être mécanique. Nous serions curieux de rencontrer les habitants de planètes lointaines qui sont parvenus aux mêmes conclusions que les nôtres."
-70,"TEXT_BANOMI003_04603_N7000_000_026","Ultima Thulé est un lieu très particulier, notamment en raison de la présence de l'étoile morte en son centre. Prenez le temps nécessaire pour le visiter et méditer sur son imperfection. Pshhh..."
-71,"TEXT_BANOMI003_04603_NIBIRAENOMI_000_027","Tout ceci est véritablement passionnant... Avant que tu rencontres la fin inévitable qui t'attend, j'ai bon espoir que nous pourrons atteindre une entente mutuelle."
-72,"TEXT_BANOMI003_04603_Q1_000_000","Que dites-vous<Indent/>?"
-73,"TEXT_BANOMI003_04603_A1_000_001","Tu es sûr que c'est une bonne idée<Indent/>?"
-74,"TEXT_BANOMI003_04603_A1_000_002","Ils risquent de répandre le désespoir..."
-75,"TEXT_BANOMI003_04603_N7000_000_029","Bip... Entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, toi et tes compagnons avez montré aux entités recréées par Météion qu'il était possible de vaincre le désespoir. Pour cette raison, j'estime que nous n'avons rien à craindre."
-76,"TEXT_BANOMI003_04603_JAMMINGWAY_000_030","Tu veux dire que l'entraide serait la clef, un peu comme quand tu as sauvé M-104 tout à l'heure<Indent/>?"
-77,"TEXT_BANOMI003_04603_JAMMINGWAY_100_030","En tout cas, c'était vraiment moins une. Si les Nibiréens ne s'étaient pas éloignés pour rencontrer d'autres habitants, leurs pensées auraient pu avoir une influence néfaste sur Élysée<Indent/>!"
-78,"TEXT_BANOMI003_04603_JAMMINGWAY_000_031","Si seulement on pouvait leur redonner goût en la vie comme on l'a fait pour nos autres invités, Élysée poursuivrait peut-être son développement de manière favorable..."
-79,"TEXT_BANOMI003_04603_N7000_000_032","Bip... Des civilisations de ma base de données pouvant être recréées par Stigma-4, la nibiréenne était la dernière. En l'état, nous ne devrions assister à aucune évolution dans l'immédiat."
-80,"TEXT_BANOMI003_04603_JAMMINGWAY_000_033","Hmm... Ça serait dommage de nous arrêter sur notre lancée, après avoir remis du baume au cœur des Karelliens et des Grébuloff..."
-81,"TEXT_BANOMI003_04603_JAMMINGWAY_000_034","Je sais<Indent/>! Et si on conviait les Éas qu'on a croisés la dernière fois à manger aux Dernières Réminiscences<Indent/>?"
-82,"TEXT_BANOMI003_04603_JAMMINGWAY_100_034","Eux aussi sont plutôt du genre philosophe, donc ils pourraient nous aider à ôter ces idées noires de la tête des Nibiréens<Indent/>!"
-83,"TEXT_BANOMI003_04603_N7000_000_035","Bip... Outre leur aide dans notre tentative de séduction de ces pessimistes récalcitrants, les Éas sont en effet des candidats évidents pour devenir des habitués de notre café. Partons pour leur demeure afin de les inviter."
-84,"TEXT_BANOMI003_04603_JAMMINGWAY_000_038","Pourvu qu'ils acceptent notre invitation sans se lancer dans des élucubrations existentielles..."
-85,"TEXT_BANOMI003_04603_N7000_000_039","Bip... Convaincre les Éas de visiter notre café est une mission de la plus haute importance. Votre aide ne sera pas de trop, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-86,"TEXT_BANOMI003_04603_JAMMINGWAY_100_039","N-7000 et moi, on va tenter notre chance vers le nord-est. Allez au sud d'ici et tentez d'inviter les Éas que vous croiserez aux Dernières Réminiscences. On compte sur vous<Indent/>!"
-87,"TEXT_BANOMI003_04603_N7000_000_040","Bip... J'ai extrait de ma base de données les arguments les plus convaincants pour conquérir de nouveaux clients."
-88,"TEXT_BANOMI003_04603_JAMMINGWAY_000_041","Je me demande si les Éas seront réceptifs à notre concept de café où les re<SoftHyphen/>pré<SoftHyphen/>sen<SoftHyphen/>tants de civilisations disparues retrouvent l'espoir en mangeant de bons petits plats..."
-89,"TEXT_BANOMI003_04603_EAOMIA_000_042","J'ai récemment remarqué que des ressources étaient transportées vers l'Ostrakon Éna. C'était donc de cela qu'il s'agissait..."
-90,"TEXT_BANOMI003_04603_EAOMIA_000_043","Vous voulez que nous autres Éas, qui nous sommes affranchis de tout ce qui existe, allions converser d'espoir tout en contemplant une étoile morte<Indent/>? Il y a des limites à l'ironie..."
-91,"TEXT_BANOMI003_04603_EAOMIA_100_043","Je ne vois pas pourquoi nous autres Éas, qui nous sommes affranchis de tout ce qui existe, irions converser d'espoir tout en contemplant une étoile morte..."
-92,"TEXT_BANOMI003_04603_EAOMIB_000_044","Ce lieu que vous appelez “café” sert donc à se nourrir tout en opérant des échanges culturels... Autrefois, nous avions un éta<SoftHyphen/>blis<SoftHyphen/>se<SoftHyphen/>ment similaire que nous appelions “restaurant”."
-93,"TEXT_BANOMI003_04603_EAOMIB_000_045","Bien sûr, c'est un élément de notre culture que nous avons abandonné il y a bien longtemps, comme tous les autres... À quoi bon faire tant d'efforts pour varier son ali<SoftHyphen/>men<SoftHyphen/>ta<SoftHyphen/>tion et débattre de sujets futiles<Indent/>?"
-94,"TEXT_BANOMI003_04603_EAOMIB_100_045","Votre “café” me rappelle un élément de notre culture que nous avons abandonné il y a bien longtemps... À quoi bon faire tant d'efforts pour varier son ali<SoftHyphen/>men<SoftHyphen/>ta<SoftHyphen/>tion et débattre de sujets futiles<Indent/>?"
-95,"TEXT_BANOMI003_04603_JAMMINGWAY_000_050","Les Éas à qui nous avons parlé n'étaient pas intéressés le moins du monde par notre café. Et en plus, ils ne se sont pas gênés pour nous envoyer promener... De vrais malpolis<Indent/>!"
-96,"TEXT_BANOMI003_04603_N7000_000_051","Bip... Entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, partagez-vous les conclusions de la petite boule de poils<Indent/>?"
-97,"TEXT_BANOMI003_04603_JAMMINGWAY_000_052","Ça alors<Indent/>! Si même une invitation <If(PlayerParameter(4))>de la<Else/>du</If> célèbre <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> ne change pas la donne, les carottes sont cuites<Indent/>!"
-98,"TEXT_BANOMI003_04603_N7000_000_053","Après la complication des Nibiréens, ce sont maintenant les Éas qui nous posent problème. Les perspectives sur le développement d'Élysée sont au plus bas. Pshhh..."
-99,"TEXT_BANOMI003_04603_JAMMINGWAY_000_054","Grrr, je n'aime vraiment pas la façon dont les Éas nous ont éconduits... Hors de question d'en rester là<Indent/>! Ils visiteront Les Dernières Réminiscences, j'en fais une affaire personnelle<Indent/>!"
-100,"TEXT_BANOMI003_04603_JAMMINGWAY_000_055","Pour les amadouer, il va falloir leur faire une offre qu'ils ne pourront pas refuser... Et si on s'y mettait à trois en même temps pour les persuader<Indent/>?"
-101,"TEXT_BANOMI003_04603_N7000_000_056","Bip... La coopération semble en effet être la méthode la plus prometteuse pour arriver à nos fins."
-102,"TEXT_BANOMI003_04603_N7000_100_057","Si l'alliance d'<If(PlayerParameter(4))>une humaine<Else/>un humain</If>, d'un Loporrite et d'un Omicron ne suffit pas à convaincre un seul Éa, le cas des Nibiréens sera définitivement <Emphasis>désespéré</Emphasis>. Pshhh..."
-103,"TEXT_BANOMI003_04603_JAMMINGWAY_000_057","Espèce de vieux tas de ferraille, tu crois vraiment que c'est le moment de faire de l'esprit<Indent/>!? Entre les Éas et toi, je me demande qui est le plus désagréable<Indent/>!"
-104,"TEXT_BANOMI003_04603_JAMMINGWAY_000_058","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, il me semble que vous avez déjà fréquenté plusieurs de ces êtres lors de vos aventures à Ultima Thulé... Le concept de <Emphasis>nourriture</Emphasis> leur est familier, n'est-ce pas<Indent/>?"
-105,"TEXT_BANOMI003_04603_JAMMINGWAY_000_059","Je vois là une opportunité d'arriver à nos fins... Allons à la rencontre des Éas à qui vous avez parlé tout à l'heure, et ne rentrons pas aux Dernières Réminiscences sans eux<Indent/>!"
-106,"TEXT_BANOMI003_04603_JAMMINGWAY_000_070","C'est le moment ou jamais de nous montrer persuasifs<Indent/>!"
-107,"TEXT_BANOMI003_04603_N7000_000_071","Bip... Je suis prêt à mettre à jour en temps réel mon analyse des schémas logiques de réflexion des Éas."
-108,"TEXT_BANOMI003_04603_NIBIRAENOMI_000_072","Les sentiments, la mortalité... Tant de concepts futiles que nous avons délaissés. Les habitants de cet endroit nous ressemblent, ils vivent dans la plus grande simplicité."
-109,"TEXT_BANOMI003_04603_EAOMIA_000_073","Tiens, vous revoilà<Indent/>?"
-110,"TEXT_BANOMI003_04603_JAMMINGWAY_000_074","On a pas abandonné l'idée de vous inviter à notre café<Indent/>! Ça vous dérangerait de répondre à quelques questions sur la <Emphasis>nourriture</Emphasis><Indent/>?"
-111,"TEXT_BANOMI003_04603_EAOMIA_000_075","... Eh bien pourquoi pas, si cela peut me changer les idées. Je vais convier un camarade pour qu'il profite lui aussi du divertissement."
-112,"TEXT_BANOMI003_04603_JAMMINGWAY_000_076","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, on peut vous confier le soin de mener la discussion<Indent/>? Surtout, débrouillez-vous pour piquer leur curiosité<Indent/>!"
-113,"TEXT_BANOMI003_04603_SYSTEM_000_077","Choisissez vos mots avec soin pour susciter l'intérêt des Éas et leur donner envie de visiter Les Dernières Réminiscences<Indent/>!"
-114,"TEXT_BANOMI003_04603_SYSTEM_000_078","Veuillez vous assurer que vous disposez de suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment de temps avant de continuer."
-115,"TEXT_BANOMI003_04603_Q2_000_000","Commencer à questionner les Éas<Indent/>?"
-116,"TEXT_BANOMI003_04603_EAOMIA_000_079","Pour nous autres Éas, le questionnement est une activité très importante, car elle permet de travailler notre intellect tout en nous amusant. Pour commencer, que diriez-vous de 350 173 questions environ<Indent/>?"
-117,"TEXT_BANOMI003_04603_JAMMINGWAY_000_080","Non non non<Indent/>! Heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, ce ne sera pas aussi long<Indent/>!"
-118,"TEXT_BANOMI003_04603_EAOMIA_000_081","Ah... Soit, nous nous conformerons à vos règles. Allez-y, nous sommes tout ouïe."
-119,"TEXT_BANOMI003_04603_Q3_000_000","Que dites-vous<Indent/>?"
-120,"TEXT_BANOMI003_04603_A3_000_001","La nourriture est-elle importante pour les Éas<Indent/>?"
-121,"TEXT_BANOMI003_04603_A3_000_002","Le goût est-il important pour les Éas<Indent/>?"
-122,"TEXT_BANOMI003_04603_EAOMIA_000_083","Si vous voulez parler de l'éther que nous ingurgitons ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment, bien évidemment<Indent/>! Plus il est pur, plus il nous procure un plaisir intense."
-123,"TEXT_BANOMI003_04603_EAOMIB_000_084","C'est bien ce que vous nous avez proposé un peu plus tôt, n'est-ce pas<Indent/>? Puisque nous avons notre propre “restaurant”, nous ne voyons pas la nécessité de nous rendre à cet endroit que vous appelez “café”."
-124,"TEXT_BANOMI003_04603_JAMMINGWAY_000_085","J'ai l'impression qu'il y a un gros malentendu<Indent/>! La nourriture que nous proposons aux Dernières Réminiscences n'a rien à voir avec une séance d'absorption d'éther<Indent/>!"
-125,"TEXT_BANOMI003_04603_N7000_000_086","Bip... Entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je vous conseille d'orienter la discussion sur le fait que notre café proposera aux Éas une expérience totalement différente de ce à quoi ils sont habitués."
-126,"TEXT_BANOMI003_04603_EAOMIA_000_087","Au même titre que les autres expériences sensorielles, le goût est un concept que nous avons délaissé il y a bien longtemps. L'éther que nous ingurgitons ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment dans notre “restaurant” nous procure un plaisir différent."
-127,"TEXT_BANOMI003_04603_EAOMIB_000_088","La sensation provoquée suffit largement à nous satisfaire. Cependant, je trouve fascinant que des êtres primitifs aussi dissemblables se rendent dans votre “café” et s'accordent à apprécier les mêmes saveurs..."
-128,"TEXT_BANOMI003_04603_JAMMINGWAY_000_089","Je peux vous assurer que tous les visiteurs des Dernières Réminiscences sont absolument ravis<Indent/>! Dans notre café, vous découvrirez un bonheur tout autre que celui procuré par l'éther<Indent/>!"
-129,"TEXT_BANOMI003_04603_N7000_100_090","Bip... D'après le vocabulaire employé par nos sujets et leurs mimiques, je perçois une réaction favorable. Continuez comme ça, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-130,"TEXT_BANOMI003_04603_EAOMIA_100_091","À ce sujet, il me semble que votre sens du goût sert uniquement à vous apporter des in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions sur ce que vous avez en bouche. Pourquoi attachez-vous tant d'importance à une sensation aussi dérisoire<Indent/>?"
-131,"TEXT_BANOMI003_04603_Q4_000_000","Que répondez-vous<Indent/>?"
-132,"TEXT_BANOMI003_04603_A4_000_001","L'utilité du goût n'a rien à voir avec le plaisir qu'il procure."
-133,"TEXT_BANOMI003_04603_A4_000_002","Sans être pourvus de goût, vous ne pouvez pas comprendre."
-134,"TEXT_BANOMI003_04603_EAOMIA_100_093","Voulez-vous dire que la sa<SoftHyphen/>tis<SoftHyphen/>fac<SoftHyphen/>tion éprouvée par les visiteurs de votre éta<SoftHyphen/>blis<SoftHyphen/>se<SoftHyphen/>ment est indépendante de l'importance du goût en tant que fonction corporelle<Indent/>?"
-135,"TEXT_BANOMI003_04603_EAOMIB_100_094","Même si c'est le cas, les organes gustatifs de chaque individu sont différents, ce qui implique une disparité dans les sensations ressenties. Rien ne garantit que la nourriture de votre café nous comblera."
-136,"TEXT_BANOMI003_04603_JAMMINGWAY_100_095","Que voulez-vous que je vous dise<Indent/>? Dans la vie, on est jamais sûr de rien<Indent/>!"
-137,"TEXT_BANOMI003_04603_N7000_100_096","Bip... Le développement de cette discussion nous est défavorable... pour le moment. Réfléchissez bien à votre prochaine in<SoftHyphen/>ter<SoftHyphen/>ven<SoftHyphen/>tion, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-138,"TEXT_BANOMI003_04603_EAOMIA_100_097","Pardon<Indent/>!? En effet, dépourvus d'enveloppe corporelle tangible, nous ne sommes peut-être pas en mesure de saisir toute l'essence de ce que vous tentez de nous transmettre..."
-139,"TEXT_BANOMI003_04603_EAOMIB_100_098","Je dois avouer que nous n'avons conservé aucun souvenir ou archive concernant le goût et l'odorat. Il est donc fort possible que notre compréhension de ces sujets soit quelque peu datée."
-140,"TEXT_BANOMI003_04603_JAMMINGWAY_100_099","Raison de plus pour visiter notre café et vous remettre au <Emphasis>goût</Emphasis> du jour<Indent/>! Même si vous n'avez plus d'estomac à remplir, vous y trouverez de quoi satisfaire votre faim de con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce<Indent/>!"
-141,"TEXT_BANOMI003_04603_N7000_100_100","Bip... Je dénote une pointe de curiosité chez nos interlocuteurs. Continuez sur votre lancée, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-142,"TEXT_BANOMI003_04603_EAOMIA_000_101","J'ai bien conscience qu'il ne peut s'agir que d'une conjecture, mais... si vous aviez un moyen de nous faire ressentir ce fameux goût... Quel genre de nourriture nous serviriez-vous<Indent/>?"
-143,"TEXT_BANOMI003_04603_Q5_000_000","Que répondez-vous<Indent/>?"
-144,"TEXT_BANOMI003_04603_A5_000_001","Les plats les plus succulents de la galaxie<Indent/>!"
-145,"TEXT_BANOMI003_04603_A5_000_002","Les plats que vous aimiez autrefois<Indent/>!"
-146,"TEXT_BANOMI003_04603_EAOMIA_100_103","Voici une affirmation des plus subjectives, ne croyez-vous pas<Indent/>? Vous autres êtres primitifs avez des cultures variées et des préférences marquées, ce qui influence forcément vos choix."
-147,"TEXT_BANOMI003_04603_EAOMIB_100_104","Qui plus est, je doute que vos con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ces à notre sujet soient suffisantes pour pouvoir affirmer avec certitude que le menu de votre café saura nous combler."
-148,"TEXT_BANOMI003_04603_JAMMINGWAY_100_105","Ça, vous ne le saurez jamais à moins de nous donner une chance<Indent/>!"
-149,"TEXT_BANOMI003_04603_N7000_100_106","Bip... Malgré les arguments irréfutables des Éas, je perçois un certain intérêt de leur part. Puisque l'atout de notre café est son menu taillé sur mesure pour ses clients, je vous suggère de l'utiliser à notre avantage."
-150,"TEXT_BANOMI003_04603_EAOMIA_100_107","En effet, lorsque nous étions encore pourvus d'une enveloppe charnelle, nous avions assurément nos préférences en matière de nourriture."
-151,"TEXT_BANOMI003_04603_EAOMIB_100_108","Alors comme ça, vous servez à vos clients des plats taillés sur mesure en fonction de la civilisation qu'ils re<SoftHyphen/>pré<SoftHyphen/>sen<SoftHyphen/>tent<Indent/>? Quelle attention admirable<Indent/>! Moi aussi, j'aimerais goûter aux mets jadis adorés par mes semblables<Indent/>!"
-152,"TEXT_BANOMI003_04603_JAMMINGWAY_100_109","Mais bien sûr, tout le plaisir de vous servir sera pour nous<Indent/>! Si vous vous déplacez jusqu'aux Dernières Réminiscences, je vous garantis que vous ne le regretterez pas<Indent/>!"
-153,"TEXT_BANOMI003_04603_N7000_100_110","Bip<Indent/>! Les Éas sont de toute évidence curieux de découvrir la cuisine que leurs ancêtres appréciaient. Encore un petit effort, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, nous touchons au but."
-154,"TEXT_BANOMI003_04603_EAOMIA_000_111","Bon, admettons que nous soyons intéressés par les anciens goûts culinaires des Éas. Cela n'explique en rien pourquoi vous désirez <Emphasis>à ce point</Emphasis> notre présence dans votre café."
-155,"TEXT_BANOMI003_04603_Q6_000_000","Que dites-vous<Indent/>?"
-156,"TEXT_BANOMI003_04603_A6_000_001","Nous voulons rendre heureux les habitants d'Ultima Thulé."
-157,"TEXT_BANOMI003_04603_A6_000_002","Nous voulons faire renaître l'espoir chez les civilisations déchues."
-158,"TEXT_BANOMI003_04603_EAOMIA_000_113","Vous pensez à cette nouvelle planète que vous avez baptisée “Élysée”, n'est-ce pas<Indent/>? En influant de façon positive sur le dynamis, vous espérez qu'elle se développera conformément à vos attentes..."
-159,"TEXT_BANOMI003_04603_EAOMIB_000_114","J'ai comme l'impression que vous cherchez à nous impliquer dans votre projet, mais je dois avouer que celui-ci nous intéresserait presque davantage que votre cuisine. Nous sommes toujours amusés par ce que manigancent les êtres primitifs<Indent/>!"
-160,"TEXT_BANOMI003_04603_JAMMINGWAY_000_115","Eh bien, si c'est le com<SoftHyphen/>por<SoftHyphen/>te<SoftHyphen/>ment du dynamis et le futur d'Élysée qui vous motivent, pourquoi pas<Indent/>! On est ravis que notre projet vous intéresse<Indent/>!"
-161,"TEXT_BANOMI003_04603_N7000_000_116","Bip<Indent/>? Les Éas sont connus pour être des entités rationnelles, mais il semblerait que leur logique diffère radicalement de celle qui gouverne les schémas de pensée des Omicrons. Pshhh..."
-162,"TEXT_BANOMI003_04603_EAOMIA_000_117","Nous vous reconnaissons bien là, êtres primitifs<Indent/>! En ravivant la flamme de l'espoir chez les membres de civilisations disparues, vous espérez influencer de manière positive le dynamis, n'est-ce pas<Indent/>?"
-163,"TEXT_BANOMI003_04603_EAOMIB_000_118","Votre objectif est aussi louable que votre méthode pour l'atteindre<Indent/>! Si nous pouvons apporter notre pierre à cet édifice pour le bien de tous ceux présents à Ultima Thulé, c'est avec joie que nous le ferons."
-164,"TEXT_BANOMI003_04603_JAMMINGWAY_000_119","Vraiment<Indent/>!? Je suis tellement heureux que vous compreniez toute l'ampleur de notre projet<Indent/>! Les Dernières Réminiscences sont un lieu de joie et d'espérance, où tout le monde se régale en rêvant à un meilleur futur<Indent/>!"
-165,"TEXT_BANOMI003_04603_N7000_000_120","Bip... En passant sur le fait qu'ils nous considèrent comme “primitifs”, on dirait qu'ils soutiennent notre mission. Cela me conforte dans le bien-fondé des décisions prises jusqu'ici avec la petite boule de poils."
-166,"TEXT_BANOMI003_04603_N7000_000_121","Bip bip... Après cette pas<SoftHyphen/>sion<SoftHyphen/>nan<SoftHyphen/>te discussion, les Éas semblent intéressés au plus haut point par le menu de notre café, mais aussi par la finalité de ce que nous cherchons à accomplir. C'est un succès sur toute la ligne, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-167,"TEXT_BANOMI003_04603_N7000_000_122","Bip bip... Après cette discussion, les Éas semblent relativement intéressés par le menu de notre café, mais aussi par la finalité de ce que nous cherchons à accomplir. Beau travail, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-168,"TEXT_BANOMI003_04603_N7000_000_123","Bip bip... Malgré cette discussion chaotique, les Éas ont montré un léger intérêt pour le menu de notre café, mais aussi pour la finalité de ce que nous cherchons à accomplir... Merci pour vos efforts, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-169,"TEXT_BANOMI003_04603_EAOMIA_000_124","Eh bien, ces échanges nous ont mis l'eau à la bouche, si j'ose dire... Nous sommes impatients d'ex<SoftHyphen/>pé<SoftHyphen/>ri<SoftHyphen/>men<SoftHyphen/>ter les <Emphasis>qualia</Emphasis> du goût."
-170,"TEXT_BANOMI003_04603_JAMMINGWAY_000_125","Faites-nous confiance, vous ne serez pas déçus<Indent/>!"
-171,"TEXT_BANOMI003_04603_EAOMIB_000_127","À ce sujet, par quel moyen allez-vous nous communiquer la pleine essence de votre cuisine<Indent/>?"
-172,"TEXT_BANOMI003_04603_N7000_000_128","Bip... Pour cela, nous allons user des talents de l'entité <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Je peux moi-même attester qu'il s'agit d'un spécimen aux facultés supérieures."
-173,"TEXT_BANOMI003_04603_JAMMINGWAY_000_129","Mais oui<Indent/>! C'est exactement ce que j'avais en tête, moi aussi<Indent/>! Avec tout ce qu'<If(PlayerParameter(4))>elle<Else/>il</If> a goûté lors de ses nombreux voyages, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> possède une expérience incomparable..."
-174,"TEXT_BANOMI003_04603_JAMMINGWAY_000_130","Autrement dit, personne mieux <If(PlayerParameter(4))>qu'elle<Else/>que lui</If> ne saura décrire fidèlement les subtiles émotions que lui transmettront ses papilles<Indent/>!"
-175,"TEXT_BANOMI003_04603_JAMMINGWAY_000_131","Une fois qu'<If(PlayerParameter(4))>elle<Else/>il</If> aura dégusté les mets préparés pour les Éas, il suffira à N-7000 de <If(PlayerParameter(4))>la<Else/>le</If> scanner pour extraire ses in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions gustatives, avant de les transmettre aux Éas à l'aide du flux éthéré<Indent/>!"
-176,"TEXT_BANOMI003_04603_JAMMINGWAY_000_132","Même si on ignore ce qu'appréciaient autrefois les Éas, on devrait pouvoir s'en approcher en préparant des plats aux saveurs diverses et variées."
-177,"TEXT_BANOMI003_04603_JAMMINGWAY_000_133","Avec tous les bons légumes et fruits de mer qu'on a en réserve au café, plus mon précieux livre de recettes sharlayanaises, je vais nous concocter un menu <Emphasis>aux petits oignons</Emphasis><Indent/>!"
-178,"TEXT_BANOMI003_04603_N7000_000_134","Bip... Je doute que cela suffise à parer à toutes les éventualités. En l'absence de données sur les préférences des Éas, je suggère d'ajouter un condiment local pour relever le tout."
-179,"TEXT_BANOMI003_04603_N7000_000_135","D'après ma base de données des ressources présentes sur Ultima Thulé, j'ai déjà identifié plusieurs candidats sus<SoftHyphen/>cep<SoftHyphen/>ti<SoftHyphen/>bles de convenir. Pshhh..."
-180,"TEXT_BANOMI003_04603_N7000_000_136","À l'ouest du Ragnarok, on peut trouver des veines de calcite riches en carbonate de calcium. Allez y extraire quelques <SheetFr(Item,12,38278,2,1)/> qui nous serviront à assaisonner notre cuisine. Pshhh..."
-181,"TEXT_BANOMI003_04603_N7000_000_137","Au sud de la base vitrifiée, on peut trouver des plantes riches en éléments divers et variés. Allez y récolter quelques <SheetFr(Item,12,38302,2,1)/> qui serviront à donner un goût intense à notre cuisine. Pshhh..."
-182,"TEXT_BANOMI003_04603_N7000_000_138","Dans la demeure des Éas, on a observé des entités aquatiques à la composition corporelle remarquable. Allez y pêcher <SheetFr(Item,1,38326,1,1)/>, dont nous extrairons un bouillon au goût riche et profond."
-183,"TEXT_BANOMI003_04603_N7000_000_139","L'appât idéal pour ce poisson est une fois de plus <SheetFr(Item,2,36588,1,1)/>, que vous pourrez obtenir auprès de N-0598, au camp de base A-4. Pshhh..."
-184,"TEXT_BANOMI003_04603_JAMMINGWAY_000_140","J'aime beaucoup cette idée de donner une petite touche <Emphasis>ultima-thulesque</Emphasis> à nos pré<SoftHyphen/>pa<SoftHyphen/>ra<SoftHyphen/>tions. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, on compte sur vous pour nous trouver ça<Indent/>!"
-185,"TEXT_BANOMI003_04603_N7000_000_142","Bip... Nous vous attendrons aux Dernières Réminiscences tout en poursuivant notre discussion avec les Éas, afin d'avoir une idée plus précise de ce qui saura les satisfaire."
-186,"TEXT_BANOMI003_04603_JAMMINGWAY_000_150","Vous avez peur de souffrir à cause des condiments locaux<Indent/>? Un peu de courage, voyons, je suis sûr que votre langue et votre estomac en ont vu d'autres<Indent/>!"
-187,"TEXT_BANOMI003_04603_EAOMIA_000_151","Vous nous avez tellement vendu les mérites de votre café que nous sommes impatients de découvrir ce qui nous attend."
-188,"TEXT_BANOMI003_04603_EAOMIB_000_152","Même si ça ne dure qu'un instant, j'ai hâte de découvrir les <Emphasis>qualia</Emphasis> du goût auxquels nos ancêtres ont tourné le dos il y a si longtemps<Indent/>!"
-189,"TEXT_BANOMI003_04603_N7000_000_153","Bip<Indent/>! En vous attendant, j'ai posé un total de 81 120 questions aux Éas, qui sont d'ailleurs of<SoftHyphen/>fi<SoftHyphen/>ciel<SoftHyphen/>le<SoftHyphen/>ment devenus les entités Client N°7 et Client N°8. Au fait, avez-vous trouvé ce que je vous ai demandé<Indent/>?"
-190,"TEXT_BANOMI003_04603_N7000_000_154","Analyse de la livraison en cours... Composition nutritionnelle et parfum adaptés aux besoins identifiés."
-191,"TEXT_BANOMI003_04603_JAMMINGWAY_000_155","Super, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Maintenant, c'est le moment de préparer la popote<Indent/>!"
-192,"TEXT_BANOMI003_04603_JAMMINGWAY_000_156","Et voilà, trois nouvelles créations des Dernières Réminiscences, relevées aux condiments d'Ultima Thulé<Indent/>! À notre critique culinaire de goûter<Indent/>!"
-193,"TEXT_BANOMI003_04603_N7000_000_157","Bip Bip... Analyse corporelle complète terminée. Je suis prêt à enregistrer les moindres réactions gustatives de l'entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-194,"TEXT_BANOMI003_04603_Q7_000_000","Que dégustez-vous<Indent/>?"
-195,"TEXT_BANOMI003_04603_A7_000_001","L'assiette de pâtes al dente à la sauce tomate raffinée."
-196,"TEXT_BANOMI003_04603_A7_000_002","Le burger à la viande bien grillée et au fromage fondant."
-197,"TEXT_BANOMI003_04603_A7_000_003","Le poisson grillé... à la comestibilité douteuse."
-198,"TEXT_BANOMI003_04603_A7_000_004","S'arrêter de manger."
-199,"TEXT_BANOMI003_04603_SYSTEM_000_159","Ces pâtes cuites juste à point sont mélangées à une sauce composée de tomates bien mûres et d'herbes fraîches. Les Éas ap<SoftHyphen/>pré<SoftHyphen/>cie<SoftHyphen/>ront-ils leur goût riche et complexe<Indent/>?"
-200,"TEXT_BANOMI003_04603_SYSTEM_000_160","Ce burger n'est pas sans rappeler le sageburger du Dernier Rempart. La viande hachée juteuse et le fromage fondant sont relevés par une épice titillant le bout de la langue. Les Éas comprendront-ils cette sensation surprenante<Indent/>?"
-201,"TEXT_BANOMI003_04603_SYSTEM_000_161","Ce poisson semble vous fixer du regard, mais vous préférez ne pas y penser... Sa chair blanche est plus douce qu'elle n'y paraît, et l'as<SoftHyphen/>sai<SoftHyphen/>son<SoftHyphen/>ne<SoftHyphen/>ment a le mérite de dissimuler le goût de peau calcinée. Les Éas seront-ils sensibles à ce mets... unique<Indent/>?"
-202,"TEXT_BANOMI003_04603_N7000_000_162","Bip... Cette séance de dégustation m'a permis d'enregistrer des données captivantes. Début de la conversion en pulsations éthérées pour la transmission aux entités Client N°7 et N°8..."
-203,"TEXT_BANOMI003_04603_EAOMIA_000_163","Ooooh... C'est donc ça, le <Emphasis>goût</Emphasis><Indent/>!"
-204,"TEXT_BANOMI003_04603_EAOMIA_000_164","Le sucré, le salé, l'acide, l'amer, et même l'<Emphasis>umami</Emphasis>... Tant de sensations si différentes, c'est comme si j'étais envahi par un torrent d'émotions<Indent/>!"
-205,"TEXT_BANOMI003_04603_EAOMIA_000_165","Bien sûr, j'ignore si c'est ce qu'ont ressenti nos ancêtres à l'époque... Mais en partageant ainsi tes émotions, j'ai eu l'impression de retrouver une enveloppe corporelle, l'espace d'un instant."
-206,"TEXT_BANOMI003_04603_JAMMINGWAY_000_166","Nom d'une carotte, c'est formidable<Indent/>! Rien que pour cette réaction, ça valait le coup de vous inviter aux Dernières Réminiscences<Indent/>!"
-207,"TEXT_BANOMI003_04603_JAMMINGWAY_000_167","Au fait, quel goût avez-vous apprécié en particulier<Indent/>?"
-208,"TEXT_BANOMI003_04603_EAOMIB_000_168","Impossible de choisir... Chacune des sensations reçues de <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> était une source de plaisir intense<Indent/>! Veux-tu attirer notre attention sur un point spécifique<Indent/>?"
-209,"TEXT_BANOMI003_04603_JAMMINGWAY_000_169","En plus des ingrédients généreusement fournis par <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je me suis permis d'ajouter une petite épice maison<Indent/>! De la poudre de crevette météore, un crustacé élevé par les Grébuloff sur Élysée<Indent/>!"
-210,"TEXT_BANOMI003_04603_EAOMIB_000_170","Un crustacé<Indent/>!? C'est bien la dernière chose que je m'attendais à trouver dans une assiette... Le monde culinaire est décidément plein de surprises<Indent/>!"
-211,"TEXT_BANOMI003_04603_EAOMIA_000_171","Si vos plats nous ont plu à ce point, c'est peut-être car ils étaient proches de ce que nos ancêtres appréciaient autrefois."
-212,"TEXT_BANOMI003_04603_EAOMIA_000_172","Pourquoi avoir sciemment choisi d'abandonner une sensation aussi excitante<Indent/>? Je ne peux m'empêcher de penser que c'est regrettable... Quoi qu'il en soit, je suis heureux d'avoir pu en faire l'expérience."
-213,"TEXT_BANOMI003_04603_JAMMINGWAY_000_173","Mon petit doigt me dit que les Éas ne regrettent pas de s'être déplacés jusqu'aux Dernières Réminiscences... Et si c'est le cas, ça veut dire qu'il doit y avoir du changement sur Élysée<Indent/>!"
-214,"TEXT_BANOMI003_04603_N7000_000_174","Bip<Indent/>! Tu as raison, petite boule de poils. Emmenons les Éas et allons constater comment se porte notre petite planète."
-215,"TEXT_BANOMI003_04603_Q8_000_000","Aller au camp de base A-4<Indent/>?"
-216,"TEXT_BANOMI003_04603_JAMMINGWAY_000_176","Nos efforts auprès des Karelliens et des Grébuloff ont fait apparaître des champs et des mers... Et cette fois<Indent/>? Allons vite voir de quoi il retourne<Indent/>!"
-217,"TEXT_BANOMI003_04603_N7000_000_175","Bip... D'après les observations de Stigma-4, il y a bien eu des variations dans le dynamis, et celles-ci ont eu une influence sur Élysée. Les Éas sont partis devant, suivons-les."
-218,"TEXT_BANOMI003_04603_JAMMINGWAY_000_090","Ouah<Indent/>! L'évolution du paysage saute aux yeux, mais plus que ça... Vous avez vu ces bestioles<Indent/>? Il y a un air de ressemblance avec ces créatures gélatineuses qui vivent dans les mers d'Ætherys..."
-219,"TEXT_BANOMI003_04603_N7000_000_091","Bip... Aucun résultat correspondant dans ma base de données. En revanche, je peux confirmer que la composition cellulaire de ces entités est fondamentalement différente de celles recréées par Stigma-4."
-220,"TEXT_BANOMI003_04603_JAMMINGWAY_000_092","Dans ce cas, il n'y a qu'une seule explication... Une nouvelle forme de vie autochtone serait née sur Élysée<Indent/>!?"
-221,"TEXT_BANOMI003_04603_N7000_000_093","Avec les terres et la mer qui sont apparues il y a peu, l'écosystème est de toute évidence favorable à un tel phénomène."
-222,"TEXT_BANOMI003_04603_N7000_000_094","Je suppose que les aspirations des Éas pour leur ancienne enveloppe charnelle ont eu une incidence sur le dynamis, qui a ensuite engendré ces entités. Pshhh..."
-223,"TEXT_BANOMI003_04603_JAMMINGWAY_000_095","Incroyable... La matérialisation de formes de vie disparues était déjà un fait remarquable en soi, mais si on m'avait dit que j'allais assister à la naissance de créatures inconnues..."
-224,"TEXT_BANOMI003_04603_MIW04603_000_096","(-Créature ressemblant à une méduse-)Mimi, mimimi<Indent/>!"
-225,"TEXT_BANOMI003_04603_JAMMINGWAY_000_097","Hihihi, c'est qu'elles sont mignonnes, en plus<Indent/>! Elles sont un peu comme les enfants d'Élysée<Indent/>!"
-226,"TEXT_BANOMI003_04603_EAOMIA_000_098","Des <Emphasis>enfants</Emphasis>, hein... Cela fait une éternité que nous n'avions pas prononcé, ou même pensé à ce mot."
-227,"TEXT_BANOMI003_04603_EAOMIB_000_099","Si, comme vous le pensez, nos sentiments nostalgiques ont donné naissance à ces êtres... il est possible que leur apparence soit proche de la nôtre lorsque nous étions en bas âge."
-228,"TEXT_BANOMI003_04603_EAOMIA_000_100","Cela pourrait s'expliquer par les lointains souvenirs que nous conservons encore de notre enfance..."
-229,"TEXT_BANOMI003_04603_JAMMINGWAY_000_101","Alors ça ne fait aucun doute, ces adorables petites créatures sont bien nées de vos pensées<Indent/>! Que diriez-vous de les baptiser<Indent/>?"
-230,"TEXT_BANOMI003_04603_EAOMIB_100_102","Hmm... Je suppose qu'un nom semblable à ceux que nous portions autrefois serait approprié. Quelque chose comme... “miw miisv”, par exemple."
-231,"TEXT_BANOMI003_04603_EAOMIB_100_103","Ces noms que nous utilisions il y a une éternité ne sont aujourd'hui rien de plus qu'une suite de sons sans si<SoftHyphen/>gni<SoftHyphen/>fi<SoftHyphen/>ca<SoftHyphen/>tion... En appelant ainsi ces êtres tout juste venus au monde, j'espère qu'ils trouveront un sens nouveau."
-232,"TEXT_BANOMI003_04603_JAMMINGWAY_100_104","C'est un nom qui leur va à ravir<Indent/>!"
-233,"TEXT_BANOMI003_04603_BANOMIA_000_102","À l'avenir, nous observerons at<SoftHyphen/>ten<SoftHyphen/>ti<SoftHyphen/>ve<SoftHyphen/>ment ces miw miisv dans leur habitat naturel, en espérant que cette expérience ravive des souvenirs en nous."
-234,"TEXT_BANOMI003_04603_BANOMIA_000_103","Les <Emphasis>qualia</Emphasis> qui agrémentaient notre quotidien, l'aspect de notre ancienne enveloppe charnelle... Les enfants d'Élysée ont sans doute beaucoup à nous apprendre."
-235,"TEXT_BANOMI003_04603_SYSTEM_000_104","Grâce aux sentiments des Éas, une nouvelle forme de vie est apparue sur Élysée<Indent/>! Accompagnez les miw miisv dans leur quotidien et apprenez à les connaître pour révéler leurs secrets."
-236,"TEXT_BANOMI003_04603_SYSTEM_000_105","Cependant, il reste encore des parcelles rocheuses que le dynamis pourrait faire évoluer grâce à la force des sentiments. La jeune planète cache encore de nombreuses possibilités qu'il ne tient qu'à vous de découvrir<Indent/>!"
-237,"TEXT_BANOMI003_04603_JAMMINGWAY_000_200","La naissance d'une forme de vie inconnue... Un nouvel épisode mémorable dans la jeune histoire d'Élysée<Indent/>!"
-238,"TEXT_BANOMI003_04603_N7000_000_201","Bip... Inviter les Éas à la table des Dernières Réminiscences ne fut pas chose aisée. Entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je vous remercie pour votre précieuse con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion."
-239,"TEXT_BANOMI003_04603_N7000_000_204","Nos efforts nous ont permis d'assister à un phénomène passionnant, la création des miw miisv par le dynamis."
-240,"TEXT_BANOMI003_04603_N7000_000_205","On peut supposer que leur composition génétique est proche de celle des Éas, mais il s'agit bien d'une nouvelle espèce et non d'une recréation. Toute prévision sur leur développement futur est impossible. Pshhh..."
-241,"TEXT_BANOMI003_04603_JAMMINGWAY_000_206","Décidément, Ultima Thulé ne manque pas de surprises... Grâce au dynamis, les possibilités sur Élysée sont quasi infinies<Indent/>! C'est tellement excitant<Indent/>!"
-242,"TEXT_BANOMI003_04603_N7000_000_207","Bip... Je partage ton sentiment, petite boule de poils. Poursuivons nos efforts aux Dernières Réminiscences, pour la mission des Omicrons et pour le bien de tous."
-243,"TEXT_BANOMI003_04603_SYSTEM_100_110","Votre réputation auprès des Omicrons des Dernières Réminiscences est passée à “Respecté”. Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
-244,"TEXT_BANOMI003_04603_SYSTEM_100_111","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Stigma-4."
-245,"TEXT_BANOMI003_04603_SYSTEM_100_112","De plus, trois quêtes sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
-246,"TEXT_BANOMI003_04603_SYSTEM_100_113","Stigma-4 vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang."
-247,"TEXT_BANOMI003_04603_SYSTEM_100_114","En outre, N-0598 vous propose maintenant les objets correspondant au rang “Respecté”. Faites-en bon usage au cours de vos aventures<Indent/>!"
-248,"TEXT_BANOMI003_04603_EAOMIA_000_084","（★未使用／削除予定★）"
-249,"TEXT_BANOMI003_04603_EAOMIA_000_088","（★未使用／削除予定★）"
-250,"TEXT_BANOMI003_04603_EAOMIA_100_094","（★未使用／削除予定★）"
-251,"TEXT_BANOMI003_04603_EAOMIA_100_098","（★未使用／削除予定★）"
-252,"TEXT_BANOMI003_04603_EAOMIA_100_104","（★未使用／削除予定★）"
-253,"TEXT_BANOMI003_04603_EAOMIA_100_108","（★未使用／削除予定★）"
-254,"TEXT_BANOMI003_04603_EAOMIA_000_118","（★未使用／削除予定★）"
-255,"TEXT_BANOMI003_04603_EAOMIA_000_127","（★未使用／削除予定★）"
-256,"TEXT_BANOMI003_04603_JAMMINGWAY_000_203","（★未使用／削除予定★）"
-257,"TEXT_BANOMI003_04603_JAMMINGWAY_000_202","（★未使用／削除予定★）"
-258,"TEXT_BANOMI003_04603_A2_000_001","（★未使用／削除予定★）"
-259,"TEXT_BANOMI003_04603_A2_000_002","（★未使用／削除予定★）"
-260,"TEXT_BANOMI003_04603_JAMMINGWAY_000_141","（★未使用／削除予定★）"
-261,"TEXT_BANOMI003_04603_JAMMINGWAY_000_126","（★未使用／削除予定★）"
-262,"TEXT_BANOMI003_04603_JAMMINGWAY_000_134","（★未使用／削除予定★）"
+N-7000 vous a fait savoir que les Grébuloff s'habituaient bien à leur nouvel habitat sur Élysée, et Jammingway vous a invitée à aller jauger l'ambiance aux Dernières Réminiscences. Rendez-vous sur place et parlez au Loporrite."
+2,TEXT_BANOMI003_04603_SEQ_02,"Aux Dernières Réminiscences, vous avez fait con­nais­san­ce avec les Nibiréens, les nouveaux invités recréés par Stigma-4. Après l'in­ter­ven­tion de Jammingway pour les empêcher de répandre le désespoir, ils s'en sont allés à la rencontre des autres formes de vie peuplant Ultima Thulé. Le Loporrite a alors suggéré que les Éas étaient des candidats naturels pour être les prochains visiteurs du café. Rendez-vous à la demeure des Éas et parlez à N-7000."
+3,TEXT_BANOMI003_04603_SEQ_03,"Alors que N-7000 et Jammingway s'occupent du nord-est, vous avez été chargée d'arpenter le sud à la recherche des prochains clients des Dernières Réminiscences. Adressez-vous aux Éas et invitez-les à visiter votre café."
+4,TEXT_BANOMI003_04603_SEQ_04,Les Éas que vous avez rencontrés ne semblaient pas très réceptifs à l'idée de se rendre aux Dernières Réminiscences... Allez retrouver N-7000 et demandez-lui si lui et Jammingway ont eu plus de succès.
+5,TEXT_BANOMI003_04603_SEQ_05,"N-7000 et Jammingway se sont apparemment heurtés à la même fin de non-recevoir que vous. Après délibération, vous avez décidé de jouer le tout pour le tout en vous y mettant à trois pour tenter de convaincre les récalcitrants... Allez parler à l'Éa sophiste et essayez de le faire changer d'avis."
+6,TEXT_BANOMI003_04603_SEQ_06,"Vous avez réussi tant bien que mal à susciter l'intérêt de deux Éas pour votre café. Afin qu'ils fassent à nouveau l'expérience du goût qu'ils ont oublié depuis si longtemps, Jammingway a suggéré de préparer plusieurs plats que vous dégusterez avant que N-7000 leur transmette vos impressions. Commencez par aller récolter les ressources nécessaires et livrez-les à l'Omicron, aux Dernières Réminiscences."
+7,TEXT_BANOMI003_04603_SEQ_07,"Grâce aux ressources que vous avez fournies à N-7000, Jammingway a préparé plusieurs plats que vous vous êtes empressée de goûter. L'Omicron a alors analysé votre réaction avant de la transmettre en pulsations éthérées aux Éas, qui ont pu se remémorer des sensations qu'ils avaient depuis longtemps oubliées. Il est fort possible que le dynamis ait réagi en conséquence... Rendez-vous au camp de base A-4 et parlez à N-7000 pour gagner Élysée."
+8,TEXT_BANOMI003_04603_SEQ_08,"En arrivant sur la jeune planète, vous avez pu découvrir le nouvel environnement né des sentiments des Éas. À votre grande surprise, celui-ci était habité par de petites créatures inconnues, vraisemblablement créées par le dynamis. Il ne tient désormais qu'à vous de découvrir et d'apprivoiser ces “miw miisv”, tout en poursuivant votre travail d'équipe avec N-7000 et Jammingway pour faire prospérer Les Dernières Réminiscences."
+9,TEXT_BANOMI003_04603_SEQ_09,
+10,TEXT_BANOMI003_04603_SEQ_10,
+11,TEXT_BANOMI003_04603_SEQ_11,
+12,TEXT_BANOMI003_04603_SEQ_12,
+13,TEXT_BANOMI003_04603_SEQ_13,
+14,TEXT_BANOMI003_04603_SEQ_14,
+15,TEXT_BANOMI003_04603_SEQ_15,
+16,TEXT_BANOMI003_04603_SEQ_16,
+17,TEXT_BANOMI003_04603_SEQ_17,
+18,TEXT_BANOMI003_04603_SEQ_18,
+19,TEXT_BANOMI003_04603_SEQ_19,
+20,TEXT_BANOMI003_04603_SEQ_20,
+21,TEXT_BANOMI003_04603_SEQ_21,
+22,TEXT_BANOMI003_04603_SEQ_22,
+23,TEXT_BANOMI003_04603_SEQ_23,
+24,TEXT_BANOMI003_04603_TODO_00,Parler à Jammingway
+25,TEXT_BANOMI003_04603_TODO_01,"Parler à N-7000, à la demeure des Éas"
+26,TEXT_BANOMI003_04603_TODO_02,Parler aux Éas
+27,TEXT_BANOMI003_04603_TODO_03,Parler à N-7000
+28,TEXT_BANOMI003_04603_TODO_04,Parler à l'Éa sophiste
+29,TEXT_BANOMI003_04603_TODO_05,"Extraire , à l'ouest du Ragnarok"
+30,TEXT_BANOMI003_04603_TODO_06,"Parler à N-7000, au camp de base A-4"
+31,TEXT_BANOMI003_04603_TODO_07,
+32,TEXT_BANOMI003_04603_TODO_08,
+33,TEXT_BANOMI003_04603_TODO_09,
+34,TEXT_BANOMI003_04603_TODO_10,
+35,TEXT_BANOMI003_04603_TODO_11,
+36,TEXT_BANOMI003_04603_TODO_12,
+37,TEXT_BANOMI003_04603_TODO_13,
+38,TEXT_BANOMI003_04603_TODO_14,
+39,TEXT_BANOMI003_04603_TODO_15,
+40,TEXT_BANOMI003_04603_TODO_16,
+41,TEXT_BANOMI003_04603_TODO_17,
+42,TEXT_BANOMI003_04603_TODO_18,
+43,TEXT_BANOMI003_04603_TODO_19,
+44,TEXT_BANOMI003_04603_TODO_20,
+45,TEXT_BANOMI003_04603_TODO_21,
+46,TEXT_BANOMI003_04603_TODO_22,
+47,TEXT_BANOMI003_04603_TODO_23,
+48,TEXT_BANOMI003_04603_N7000_000_001,"Bip... Nous continuons à récolter de nombreuses ressources sur Élysée, et nos relations avec les Grébuloff vont pour le mieux. Les dernières mesures du dynamis environnant sont elles aussi encourageantes."
+49,TEXT_BANOMI003_04603_N7000_000_002,"D'autre part, grâce aux produits de la mer obtenus récemment, le menu des Dernières Réminiscences s'est étoffé de nouveaux plats qui remportent un franc succès. Pshhh..."
+50,TEXT_BANOMI003_04603_JAMMINGWAY_000_003,"Puisque les Grébuloff sont heureux, on peut dormir sur nos deux oreilles ! Enfin pas trop quand même, on a encore du travail. Allons voir ce qui se passe dans notre café !"
+51,TEXT_BANOMI003_04603_Q9_000_000,Aller aux Dernières Réminiscences ?
+52,TEXT_BANOMI003_04603_N7000_000_010,"Bip... Le café se développe conformément à nos attentes. Nous sommes sur la bonne voie, entité alliée Player."
+53,TEXT_BANOMI003_04603_JAMMINGWAY_000_011,Les Grébuloff sont devenus accros à notre soupe au doux parfum marin ! Quel plaisir de goûter à cette ambiance réjouissante dans notre café !
+54,TEXT_BANOMI003_04603_N7000_000_012,Bip... Je remarque que les in­for­ma­tions acquises au travers d'échanges amicaux sont différentes de celles obtenues lors d'une invasion...
+55,TEXT_BANOMI003_04603_JAMMINGWAY_000_013,Héhé ! Est-ce que ça veut dire que tu es satisfait de t'être lancé dans cette entreprise ?
+56,TEXT_BANOMI003_04603_N7000_100_014,"Mon unique motivation reste la mission donnée aux Omicrons. Dans cette optique, j'ai déjà communiqué à Stigma-4 les données nécessaires pour la matérialisation de nouvelles entités, et Client N°5 comme N°6 sont déjà parmi nous. Pshhh..."
+57,TEXT_BANOMI003_04603_JAMMINGWAY_000_014,"Au moins, on ne peut pas te reprocher de ne pas mettre du cœur à l'ouvrage... Quoi qu'il en soit, j'ai hâte de voir à qui nous avons affaire cette fois-ci. Allons vite rencontrer nos nouveaux invités !"
+58,TEXT_BANOMI003_04603_JAMMINGWAY_000_015,Bonsoir ! Nous sommes ravis de vous accueillir aux Dernières Réminiscences !
+59,TEXT_BANOMI003_04603_NIBIRAENOMI_000_016,(-Être taciturne-)...
+60,TEXT_BANOMI003_04603_OMICRON04603_000_017,BiP... Bi*b*iBi*i*Iip... Nouvelle directive assimilée : la vie est dénuée de sens. Début de la procédure d'effacement de mémoire et d'extinction définitive...
+61,TEXT_BANOMI003_04603_NIBIRAENOMI_000_018,"(-Être taciturne-)Être mécanique, tu as bien fait d'adopter notre conception de l'existence... Dans cet univers voué à disparaître, toute tentative de survie est inutile. Bientôt, tu ne feras qu'un avec les autres créatures de la galaxie en atteignant l'illumination..."
+62,TEXT_BANOMI003_04603_JAMMINGWAY_000_019,"Hein !? Mais-mais-mais, attendez un peu !!! Ça ne va pas du tout, ça !!! Qu'est-ce qu'on va devenir si vous mettez des idées pareilles dans la tête des gens !?"
+63,TEXT_BANOMI003_04603_N7000_000_020,"Bip... Les entités Client N°5 et Client N°6 sont des Nibiréens. Les êtres de cette civilisation sont parvenus à une entente mutuelle à propos de l'inutilité de concepts tels que la guerre ou la mort, ce qui leur a permis d'obtenir la vie éternelle."
+64,TEXT_BANOMI003_04603_N7000_100_020,"Cependant, en éliminant la peine et la souffrance de leur existence, ils se sont aussi privés de toute joie et de but à atteindre... Finalement, les Nibiréens se sont dotés d'un “système d'auto-extinction”, ce qui a abouti à leur ané­an­tis­se­ment."
+65,TEXT_BANOMI003_04603_N7000_000_021,Bip... Interruption de la procédure de mise hors service et redémarrage en mode sans échec... Confirmation que les fonctions vitales et l'algorithme com­por­te­mental de M-104 sont intacts.
+66,TEXT_BANOMI003_04603_NIBIRAENOMI_000_022,"Pourquoi entraver l'illumination de cet individu ? Il était pourtant sur le point de *devenir l'Harmonie*, et de voir sa vie cueillie par Ra-la..."
+67,TEXT_BANOMI003_04603_JAMMINGWAY_000_023,"Euh, je respecte totalement votre vision des choses, mais si vous la transmettez ainsi à toutes les personnes présentes dans ce café, on va au-devant de graves con­sé­quen­ces !"
+68,TEXT_BANOMI003_04603_N7000_000_024,"Bip... Saviez-vous que cet espace est peuplé d'entités recréées dans l'état qui était le leur avant de succomber au désespoir ? En allant à leur rencontre, vous pourriez partager des points de vue similaires sur la vanité de l'existence."
+69,TEXT_BANOMI003_04603_NIBIRAENOMI_000_025,"Ta proposition est pour le moins intéressante, être mécanique. Nous serions curieux de rencontrer les habitants de planètes lointaines qui sont parvenus aux mêmes conclusions que les nôtres."
+70,TEXT_BANOMI003_04603_N7000_000_026,"Ultima Thulé est un lieu très particulier, notamment en raison de la présence de l'étoile morte en son centre. Prenez le temps nécessaire pour le visiter et méditer sur son imperfection. Pshhh..."
+71,TEXT_BANOMI003_04603_NIBIRAENOMI_000_027,"Tout ceci est véritablement passionnant... Avant que tu rencontres la fin inévitable qui t'attend, j'ai bon espoir que nous pourrons atteindre une entente mutuelle."
+72,TEXT_BANOMI003_04603_Q1_000_000,Que dites-vous ?
+73,TEXT_BANOMI003_04603_A1_000_001,Tu es sûr que c'est une bonne idée ?
+74,TEXT_BANOMI003_04603_A1_000_002,Ils risquent de répandre le désespoir...
+75,TEXT_BANOMI003_04603_N7000_000_029,"Bip... Entité alliée Player, toi et tes compagnons avez montré aux entités recréées par Météion qu'il était possible de vaincre le désespoir. Pour cette raison, j'estime que nous n'avons rien à craindre."
+76,TEXT_BANOMI003_04603_JAMMINGWAY_000_030,"Tu veux dire que l'entraide serait la clef, un peu comme quand tu as sauvé M-104 tout à l'heure ?"
+77,TEXT_BANOMI003_04603_JAMMINGWAY_100_030,"En tout cas, c'était vraiment moins une. Si les Nibiréens ne s'étaient pas éloignés pour rencontrer d'autres habitants, leurs pensées auraient pu avoir une influence néfaste sur Élysée !"
+78,TEXT_BANOMI003_04603_JAMMINGWAY_000_031,"Si seulement on pouvait leur redonner goût en la vie comme on l'a fait pour nos autres invités, Élysée poursuivrait peut-être son développement de manière favorable..."
+79,TEXT_BANOMI003_04603_N7000_000_032,"Bip... Des civilisations de ma base de données pouvant être recréées par Stigma-4, la nibiréenne était la dernière. En l'état, nous ne devrions assister à aucune évolution dans l'immédiat."
+80,TEXT_BANOMI003_04603_JAMMINGWAY_000_033,"Hmm... Ça serait dommage de nous arrêter sur notre lancée, après avoir remis du baume au cœur des Karelliens et des Grébuloff..."
+81,TEXT_BANOMI003_04603_JAMMINGWAY_000_034,Je sais ! Et si on conviait les Éas qu'on a croisés la dernière fois à manger aux Dernières Réminiscences ?
+82,TEXT_BANOMI003_04603_JAMMINGWAY_100_034,"Eux aussi sont plutôt du genre philosophe, donc ils pourraient nous aider à ôter ces idées noires de la tête des Nibiréens !"
+83,TEXT_BANOMI003_04603_N7000_000_035,"Bip... Outre leur aide dans notre tentative de séduction de ces pessimistes récalcitrants, les Éas sont en effet des candidats évidents pour devenir des habitués de notre café. Partons pour leur demeure afin de les inviter."
+84,TEXT_BANOMI003_04603_JAMMINGWAY_000_038,Pourvu qu'ils acceptent notre invitation sans se lancer dans des élucubrations existentielles...
+85,TEXT_BANOMI003_04603_N7000_000_039,"Bip... Convaincre les Éas de visiter notre café est une mission de la plus haute importance. Votre aide ne sera pas de trop, entité alliée Player."
+86,TEXT_BANOMI003_04603_JAMMINGWAY_100_039,"N-7000 et moi, on va tenter notre chance vers le nord-est. Allez au sud d'ici et tentez d'inviter les Éas que vous croiserez aux Dernières Réminiscences. On compte sur vous !"
+87,TEXT_BANOMI003_04603_N7000_000_040,Bip... J'ai extrait de ma base de données les arguments les plus convaincants pour conquérir de nouveaux clients.
+88,TEXT_BANOMI003_04603_JAMMINGWAY_000_041,Je me demande si les Éas seront réceptifs à notre concept de café où les re­pré­sen­tants de civilisations disparues retrouvent l'espoir en mangeant de bons petits plats...
+89,TEXT_BANOMI003_04603_EAOMIA_000_042,J'ai récemment remarqué que des ressources étaient transportées vers l'Ostrakon Éna. C'était donc de cela qu'il s'agissait...
+90,TEXT_BANOMI003_04603_EAOMIA_000_043,"Vous voulez que nous autres Éas, qui nous sommes affranchis de tout ce qui existe, allions converser d'espoir tout en contemplant une étoile morte ? Il y a des limites à l'ironie..."
+91,TEXT_BANOMI003_04603_EAOMIA_100_043,"Je ne vois pas pourquoi nous autres Éas, qui nous sommes affranchis de tout ce qui existe, irions converser d'espoir tout en contemplant une étoile morte..."
+92,TEXT_BANOMI003_04603_EAOMIB_000_044,"Ce lieu que vous appelez “café” sert donc à se nourrir tout en opérant des échanges culturels... Autrefois, nous avions un éta­blis­se­ment similaire que nous appelions “restaurant”."
+93,TEXT_BANOMI003_04603_EAOMIB_000_045,"Bien sûr, c'est un élément de notre culture que nous avons abandonné il y a bien longtemps, comme tous les autres... À quoi bon faire tant d'efforts pour varier son ali­men­ta­tion et débattre de sujets futiles ?"
+94,TEXT_BANOMI003_04603_EAOMIB_100_045,Votre “café” me rappelle un élément de notre culture que nous avons abandonné il y a bien longtemps... À quoi bon faire tant d'efforts pour varier son ali­men­ta­tion et débattre de sujets futiles ?
+95,TEXT_BANOMI003_04603_JAMMINGWAY_000_050,"Les Éas à qui nous avons parlé n'étaient pas intéressés le moins du monde par notre café. Et en plus, ils ne se sont pas gênés pour nous envoyer promener... De vrais malpolis !"
+96,TEXT_BANOMI003_04603_N7000_000_051,"Bip... Entité alliée Player, partagez-vous les conclusions de la petite boule de poils ?"
+97,TEXT_BANOMI003_04603_JAMMINGWAY_000_052,"Ça alors ! Si même une invitation de la célèbre Player ne change pas la donne, les carottes sont cuites !"
+98,TEXT_BANOMI003_04603_N7000_000_053,"Après la complication des Nibiréens, ce sont maintenant les Éas qui nous posent problème. Les perspectives sur le développement d'Élysée sont au plus bas. Pshhh..."
+99,TEXT_BANOMI003_04603_JAMMINGWAY_000_054,"Grrr, je n'aime vraiment pas la façon dont les Éas nous ont éconduits... Hors de question d'en rester là ! Ils visiteront Les Dernières Réminiscences, j'en fais une affaire personnelle !"
+100,TEXT_BANOMI003_04603_JAMMINGWAY_000_055,"Pour les amadouer, il va falloir leur faire une offre qu'ils ne pourront pas refuser... Et si on s'y mettait à trois en même temps pour les persuader ?"
+101,TEXT_BANOMI003_04603_N7000_000_056,Bip... La coopération semble en effet être la méthode la plus prometteuse pour arriver à nos fins.
+102,TEXT_BANOMI003_04603_N7000_100_057,"Si l'alliance d'une humaine, d'un Loporrite et d'un Omicron ne suffit pas à convaincre un seul Éa, le cas des Nibiréens sera définitivement *désespéré*. Pshhh..."
+103,TEXT_BANOMI003_04603_JAMMINGWAY_000_057,"Espèce de vieux tas de ferraille, tu crois vraiment que c'est le moment de faire de l'esprit !? Entre les Éas et toi, je me demande qui est le plus désagréable !"
+104,TEXT_BANOMI003_04603_JAMMINGWAY_000_058,"Player, il me semble que vous avez déjà fréquenté plusieurs de ces êtres lors de vos aventures à Ultima Thulé... Le concept de *nourriture* leur est familier, n'est-ce pas ?"
+105,TEXT_BANOMI003_04603_JAMMINGWAY_000_059,"Je vois là une opportunité d'arriver à nos fins... Allons à la rencontre des Éas à qui vous avez parlé tout à l'heure, et ne rentrons pas aux Dernières Réminiscences sans eux !"
+106,TEXT_BANOMI003_04603_JAMMINGWAY_000_070,C'est le moment ou jamais de nous montrer persuasifs !
+107,TEXT_BANOMI003_04603_N7000_000_071,Bip... Je suis prêt à mettre à jour en temps réel mon analyse des schémas logiques de réflexion des Éas.
+108,TEXT_BANOMI003_04603_NIBIRAENOMI_000_072,"Les sentiments, la mortalité... Tant de concepts futiles que nous avons délaissés. Les habitants de cet endroit nous ressemblent, ils vivent dans la plus grande simplicité."
+109,TEXT_BANOMI003_04603_EAOMIA_000_073,"Tiens, vous revoilà ?"
+110,TEXT_BANOMI003_04603_JAMMINGWAY_000_074,On a pas abandonné l'idée de vous inviter à notre café ! Ça vous dérangerait de répondre à quelques questions sur la *nourriture* ?
+111,TEXT_BANOMI003_04603_EAOMIA_000_075,"... Eh bien pourquoi pas, si cela peut me changer les idées. Je vais convier un camarade pour qu'il profite lui aussi du divertissement."
+112,TEXT_BANOMI003_04603_JAMMINGWAY_000_076,"Player, on peut vous confier le soin de mener la discussion ? Surtout, débrouillez-vous pour piquer leur curiosité !"
+113,TEXT_BANOMI003_04603_SYSTEM_000_077,Choisissez vos mots avec soin pour susciter l'intérêt des Éas et leur donner envie de visiter Les Dernières Réminiscences !
+114,TEXT_BANOMI003_04603_SYSTEM_000_078,Veuillez vous assurer que vous disposez de suf­fi­sam­ment de temps avant de continuer.
+115,TEXT_BANOMI003_04603_Q2_000_000,Commencer à questionner les Éas ?
+116,TEXT_BANOMI003_04603_EAOMIA_000_079,"Pour nous autres Éas, le questionnement est une activité très importante, car elle permet de travailler notre intellect tout en nous amusant. Pour commencer, que diriez-vous de 350 173 questions environ ?"
+117,TEXT_BANOMI003_04603_JAMMINGWAY_000_080,"Non non non ! Heu­reu­se­ment, ce ne sera pas aussi long !"
+118,TEXT_BANOMI003_04603_EAOMIA_000_081,"Ah... Soit, nous nous conformerons à vos règles. Allez-y, nous sommes tout ouïe."
+119,TEXT_BANOMI003_04603_Q3_000_000,Que dites-vous ?
+120,TEXT_BANOMI003_04603_A3_000_001,La nourriture est-elle importante pour les Éas ?
+121,TEXT_BANOMI003_04603_A3_000_002,Le goût est-il important pour les Éas ?
+122,TEXT_BANOMI003_04603_EAOMIA_000_083,"Si vous voulez parler de l'éther que nous ingurgitons ré­gu­liè­re­ment, bien évidemment ! Plus il est pur, plus il nous procure un plaisir intense."
+123,TEXT_BANOMI003_04603_EAOMIB_000_084,"C'est bien ce que vous nous avez proposé un peu plus tôt, n'est-ce pas ? Puisque nous avons notre propre “restaurant”, nous ne voyons pas la nécessité de nous rendre à cet endroit que vous appelez “café”."
+124,TEXT_BANOMI003_04603_JAMMINGWAY_000_085,J'ai l'impression qu'il y a un gros malentendu ! La nourriture que nous proposons aux Dernières Réminiscences n'a rien à voir avec une séance d'absorption d'éther !
+125,TEXT_BANOMI003_04603_N7000_000_086,"Bip... Entité alliée Player, je vous conseille d'orienter la discussion sur le fait que notre café proposera aux Éas une expérience totalement différente de ce à quoi ils sont habitués."
+126,TEXT_BANOMI003_04603_EAOMIA_000_087,"Au même titre que les autres expériences sensorielles, le goût est un concept que nous avons délaissé il y a bien longtemps. L'éther que nous ingurgitons ré­gu­liè­re­ment dans notre “restaurant” nous procure un plaisir différent."
+127,TEXT_BANOMI003_04603_EAOMIB_000_088,"La sensation provoquée suffit largement à nous satisfaire. Cependant, je trouve fascinant que des êtres primitifs aussi dissemblables se rendent dans votre “café” et s'accordent à apprécier les mêmes saveurs..."
+128,TEXT_BANOMI003_04603_JAMMINGWAY_000_089,"Je peux vous assurer que tous les visiteurs des Dernières Réminiscences sont absolument ravis ! Dans notre café, vous découvrirez un bonheur tout autre que celui procuré par l'éther !"
+129,TEXT_BANOMI003_04603_N7000_100_090,"Bip... D'après le vocabulaire employé par nos sujets et leurs mimiques, je perçois une réaction favorable. Continuez comme ça, entité alliée Player."
+130,TEXT_BANOMI003_04603_EAOMIA_100_091,"À ce sujet, il me semble que votre sens du goût sert uniquement à vous apporter des in­for­ma­tions sur ce que vous avez en bouche. Pourquoi attachez-vous tant d'importance à une sensation aussi dérisoire ?"
+131,TEXT_BANOMI003_04603_Q4_000_000,Que répondez-vous ?
+132,TEXT_BANOMI003_04603_A4_000_001,L'utilité du goût n'a rien à voir avec le plaisir qu'il procure.
+133,TEXT_BANOMI003_04603_A4_000_002,"Sans être pourvus de goût, vous ne pouvez pas comprendre."
+134,TEXT_BANOMI003_04603_EAOMIA_100_093,Voulez-vous dire que la sa­tis­fac­tion éprouvée par les visiteurs de votre éta­blis­se­ment est indépendante de l'importance du goût en tant que fonction corporelle ?
+135,TEXT_BANOMI003_04603_EAOMIB_100_094,"Même si c'est le cas, les organes gustatifs de chaque individu sont différents, ce qui implique une disparité dans les sensations ressenties. Rien ne garantit que la nourriture de votre café nous comblera."
+136,TEXT_BANOMI003_04603_JAMMINGWAY_100_095,"Que voulez-vous que je vous dise ? Dans la vie, on est jamais sûr de rien !"
+137,TEXT_BANOMI003_04603_N7000_100_096,"Bip... Le développement de cette discussion nous est défavorable... pour le moment. Réfléchissez bien à votre prochaine in­ter­ven­tion, entité alliée Player."
+138,TEXT_BANOMI003_04603_EAOMIA_100_097,"Pardon !? En effet, dépourvus d'enveloppe corporelle tangible, nous ne sommes peut-être pas en mesure de saisir toute l'essence de ce que vous tentez de nous transmettre..."
+139,TEXT_BANOMI003_04603_EAOMIB_100_098,Je dois avouer que nous n'avons conservé aucun souvenir ou archive concernant le goût et l'odorat. Il est donc fort possible que notre compréhension de ces sujets soit quelque peu datée.
+140,TEXT_BANOMI003_04603_JAMMINGWAY_100_099,"Raison de plus pour visiter notre café et vous remettre au *goût* du jour ! Même si vous n'avez plus d'estomac à remplir, vous y trouverez de quoi satisfaire votre faim de con­nais­san­ce !"
+141,TEXT_BANOMI003_04603_N7000_100_100,"Bip... Je dénote une pointe de curiosité chez nos interlocuteurs. Continuez sur votre lancée, entité alliée Player !"
+142,TEXT_BANOMI003_04603_EAOMIA_000_101,"J'ai bien conscience qu'il ne peut s'agir que d'une conjecture, mais... si vous aviez un moyen de nous faire ressentir ce fameux goût... Quel genre de nourriture nous serviriez-vous ?"
+143,TEXT_BANOMI003_04603_Q5_000_000,Que répondez-vous ?
+144,TEXT_BANOMI003_04603_A5_000_001,Les plats les plus succulents de la galaxie !
+145,TEXT_BANOMI003_04603_A5_000_002,Les plats que vous aimiez autrefois !
+146,TEXT_BANOMI003_04603_EAOMIA_100_103,"Voici une affirmation des plus subjectives, ne croyez-vous pas ? Vous autres êtres primitifs avez des cultures variées et des préférences marquées, ce qui influence forcément vos choix."
+147,TEXT_BANOMI003_04603_EAOMIB_100_104,"Qui plus est, je doute que vos con­nais­san­ces à notre sujet soient suffisantes pour pouvoir affirmer avec certitude que le menu de votre café saura nous combler."
+148,TEXT_BANOMI003_04603_JAMMINGWAY_100_105,"Ça, vous ne le saurez jamais à moins de nous donner une chance !"
+149,TEXT_BANOMI003_04603_N7000_100_106,"Bip... Malgré les arguments irréfutables des Éas, je perçois un certain intérêt de leur part. Puisque l'atout de notre café est son menu taillé sur mesure pour ses clients, je vous suggère de l'utiliser à notre avantage."
+150,TEXT_BANOMI003_04603_EAOMIA_100_107,"En effet, lorsque nous étions encore pourvus d'une enveloppe charnelle, nous avions assurément nos préférences en matière de nourriture."
+151,TEXT_BANOMI003_04603_EAOMIB_100_108,"Alors comme ça, vous servez à vos clients des plats taillés sur mesure en fonction de la civilisation qu'ils re­pré­sen­tent ? Quelle attention admirable ! Moi aussi, j'aimerais goûter aux mets jadis adorés par mes semblables !"
+152,TEXT_BANOMI003_04603_JAMMINGWAY_100_109,"Mais bien sûr, tout le plaisir de vous servir sera pour nous ! Si vous vous déplacez jusqu'aux Dernières Réminiscences, je vous garantis que vous ne le regretterez pas !"
+153,TEXT_BANOMI003_04603_N7000_100_110,"Bip ! Les Éas sont de toute évidence curieux de découvrir la cuisine que leurs ancêtres appréciaient. Encore un petit effort, entité alliée Player, nous touchons au but."
+154,TEXT_BANOMI003_04603_EAOMIA_000_111,"Bon, admettons que nous soyons intéressés par les anciens goûts culinaires des Éas. Cela n'explique en rien pourquoi vous désirez *à ce point* notre présence dans votre café."
+155,TEXT_BANOMI003_04603_Q6_000_000,Que dites-vous ?
+156,TEXT_BANOMI003_04603_A6_000_001,Nous voulons rendre heureux les habitants d'Ultima Thulé.
+157,TEXT_BANOMI003_04603_A6_000_002,Nous voulons faire renaître l'espoir chez les civilisations déchues.
+158,TEXT_BANOMI003_04603_EAOMIA_000_113,"Vous pensez à cette nouvelle planète que vous avez baptisée “Élysée”, n'est-ce pas ? En influant de façon positive sur le dynamis, vous espérez qu'elle se développera conformément à vos attentes..."
+159,TEXT_BANOMI003_04603_EAOMIB_000_114,"J'ai comme l'impression que vous cherchez à nous impliquer dans votre projet, mais je dois avouer que celui-ci nous intéresserait presque davantage que votre cuisine. Nous sommes toujours amusés par ce que manigancent les êtres primitifs !"
+160,TEXT_BANOMI003_04603_JAMMINGWAY_000_115,"Eh bien, si c'est le com­por­te­ment du dynamis et le futur d'Élysée qui vous motivent, pourquoi pas ! On est ravis que notre projet vous intéresse !"
+161,TEXT_BANOMI003_04603_N7000_000_116,"Bip ? Les Éas sont connus pour être des entités rationnelles, mais il semblerait que leur logique diffère radicalement de celle qui gouverne les schémas de pensée des Omicrons. Pshhh..."
+162,TEXT_BANOMI003_04603_EAOMIA_000_117,"Nous vous reconnaissons bien là, êtres primitifs ! En ravivant la flamme de l'espoir chez les membres de civilisations disparues, vous espérez influencer de manière positive le dynamis, n'est-ce pas ?"
+163,TEXT_BANOMI003_04603_EAOMIB_000_118,"Votre objectif est aussi louable que votre méthode pour l'atteindre ! Si nous pouvons apporter notre pierre à cet édifice pour le bien de tous ceux présents à Ultima Thulé, c'est avec joie que nous le ferons."
+164,TEXT_BANOMI003_04603_JAMMINGWAY_000_119,"Vraiment !? Je suis tellement heureux que vous compreniez toute l'ampleur de notre projet ! Les Dernières Réminiscences sont un lieu de joie et d'espérance, où tout le monde se régale en rêvant à un meilleur futur !"
+165,TEXT_BANOMI003_04603_N7000_000_120,"Bip... En passant sur le fait qu'ils nous considèrent comme “primitifs”, on dirait qu'ils soutiennent notre mission. Cela me conforte dans le bien-fondé des décisions prises jusqu'ici avec la petite boule de poils."
+166,TEXT_BANOMI003_04603_N7000_000_121,"Bip bip... Après cette pas­sion­nan­te discussion, les Éas semblent intéressés au plus haut point par le menu de notre café, mais aussi par la finalité de ce que nous cherchons à accomplir. C'est un succès sur toute la ligne, entité alliée Player !"
+167,TEXT_BANOMI003_04603_N7000_000_122,"Bip bip... Après cette discussion, les Éas semblent relativement intéressés par le menu de notre café, mais aussi par la finalité de ce que nous cherchons à accomplir. Beau travail, entité alliée Player."
+168,TEXT_BANOMI003_04603_N7000_000_123,"Bip bip... Malgré cette discussion chaotique, les Éas ont montré un léger intérêt pour le menu de notre café, mais aussi pour la finalité de ce que nous cherchons à accomplir... Merci pour vos efforts, entité alliée Player."
+169,TEXT_BANOMI003_04603_EAOMIA_000_124,"Eh bien, ces échanges nous ont mis l'eau à la bouche, si j'ose dire... Nous sommes impatients d'ex­pé­ri­men­ter les *qualia* du goût."
+170,TEXT_BANOMI003_04603_JAMMINGWAY_000_125,"Faites-nous confiance, vous ne serez pas déçus !"
+171,TEXT_BANOMI003_04603_EAOMIB_000_127,"À ce sujet, par quel moyen allez-vous nous communiquer la pleine essence de votre cuisine ?"
+172,TEXT_BANOMI003_04603_N7000_000_128,"Bip... Pour cela, nous allons user des talents de l'entité Player. Je peux moi-même attester qu'il s'agit d'un spécimen aux facultés supérieures."
+173,TEXT_BANOMI003_04603_JAMMINGWAY_000_129,"Mais oui ! C'est exactement ce que j'avais en tête, moi aussi ! Avec tout ce qu'elle a goûté lors de ses nombreux voyages, Player possède une expérience incomparable..."
+174,TEXT_BANOMI003_04603_JAMMINGWAY_000_130,"Autrement dit, personne mieux qu'elle ne saura décrire fidèlement les subtiles émotions que lui transmettront ses papilles !"
+175,TEXT_BANOMI003_04603_JAMMINGWAY_000_131,"Une fois qu'elle aura dégusté les mets préparés pour les Éas, il suffira à N-7000 de la scanner pour extraire ses in­for­ma­tions gustatives, avant de les transmettre aux Éas à l'aide du flux éthéré !"
+176,TEXT_BANOMI003_04603_JAMMINGWAY_000_132,"Même si on ignore ce qu'appréciaient autrefois les Éas, on devrait pouvoir s'en approcher en préparant des plats aux saveurs diverses et variées."
+177,TEXT_BANOMI003_04603_JAMMINGWAY_000_133,"Avec tous les bons légumes et fruits de mer qu'on a en réserve au café, plus mon précieux livre de recettes sharlayanaises, je vais nous concocter un menu *aux petits oignons* !"
+178,TEXT_BANOMI003_04603_N7000_000_134,"Bip... Je doute que cela suffise à parer à toutes les éventualités. En l'absence de données sur les préférences des Éas, je suggère d'ajouter un condiment local pour relever le tout."
+179,TEXT_BANOMI003_04603_N7000_000_135,"D'après ma base de données des ressources présentes sur Ultima Thulé, j'ai déjà identifié plusieurs candidats sus­cep­ti­bles de convenir. Pshhh..."
+180,TEXT_BANOMI003_04603_N7000_000_136,"À l'ouest du Ragnarok, on peut trouver des veines de calcite riches en carbonate de calcium. Allez y extraire quelques  qui nous serviront à assaisonner notre cuisine. Pshhh..."
+181,TEXT_BANOMI003_04603_N7000_000_137,"Au sud de la base vitrifiée, on peut trouver des plantes riches en éléments divers et variés. Allez y récolter quelques  qui serviront à donner un goût intense à notre cuisine. Pshhh..."
+182,TEXT_BANOMI003_04603_N7000_000_138,"Dans la demeure des Éas, on a observé des entités aquatiques à la composition corporelle remarquable. Allez y pêcher , dont nous extrairons un bouillon au goût riche et profond."
+183,TEXT_BANOMI003_04603_N7000_000_139,"L'appât idéal pour ce poisson est une fois de plus , que vous pourrez obtenir auprès de N-0598, au camp de base A-4. Pshhh..."
+184,TEXT_BANOMI003_04603_JAMMINGWAY_000_140,"J'aime beaucoup cette idée de donner une petite touche *ultima-thulesque* à nos pré­pa­ra­tions. Player, on compte sur vous pour nous trouver ça !"
+185,TEXT_BANOMI003_04603_N7000_000_142,"Bip... Nous vous attendrons aux Dernières Réminiscences tout en poursuivant notre discussion avec les Éas, afin d'avoir une idée plus précise de ce qui saura les satisfaire."
+186,TEXT_BANOMI003_04603_JAMMINGWAY_000_150,"Vous avez peur de souffrir à cause des condiments locaux ? Un peu de courage, voyons, je suis sûr que votre langue et votre estomac en ont vu d'autres !"
+187,TEXT_BANOMI003_04603_EAOMIA_000_151,Vous nous avez tellement vendu les mérites de votre café que nous sommes impatients de découvrir ce qui nous attend.
+188,TEXT_BANOMI003_04603_EAOMIB_000_152,"Même si ça ne dure qu'un instant, j'ai hâte de découvrir les *qualia* du goût auxquels nos ancêtres ont tourné le dos il y a si longtemps !"
+189,TEXT_BANOMI003_04603_N7000_000_153,"Bip ! En vous attendant, j'ai posé un total de 81 120 questions aux Éas, qui sont d'ailleurs of­fi­ciel­le­ment devenus les entités Client N°7 et Client N°8. Au fait, avez-vous trouvé ce que je vous ai demandé ?"
+190,TEXT_BANOMI003_04603_N7000_000_154,Analyse de la livraison en cours... Composition nutritionnelle et parfum adaptés aux besoins identifiés.
+191,TEXT_BANOMI003_04603_JAMMINGWAY_000_155,"Super, Player ! Maintenant, c'est le moment de préparer la popote !"
+192,TEXT_BANOMI003_04603_JAMMINGWAY_000_156,"Et voilà, trois nouvelles créations des Dernières Réminiscences, relevées aux condiments d'Ultima Thulé ! À notre critique culinaire de goûter !"
+193,TEXT_BANOMI003_04603_N7000_000_157,Bip Bip... Analyse corporelle complète terminée. Je suis prêt à enregistrer les moindres réactions gustatives de l'entité alliée Player.
+194,TEXT_BANOMI003_04603_Q7_000_000,Que dégustez-vous ?
+195,TEXT_BANOMI003_04603_A7_000_001,L'assiette de pâtes al dente à la sauce tomate raffinée.
+196,TEXT_BANOMI003_04603_A7_000_002,Le burger à la viande bien grillée et au fromage fondant.
+197,TEXT_BANOMI003_04603_A7_000_003,Le poisson grillé... à la comestibilité douteuse.
+198,TEXT_BANOMI003_04603_A7_000_004,S'arrêter de manger.
+199,TEXT_BANOMI003_04603_SYSTEM_000_159,Ces pâtes cuites juste à point sont mélangées à une sauce composée de tomates bien mûres et d'herbes fraîches. Les Éas ap­pré­cie­ront-ils leur goût riche et complexe ?
+200,TEXT_BANOMI003_04603_SYSTEM_000_160,Ce burger n'est pas sans rappeler le sageburger du Dernier Rempart. La viande hachée juteuse et le fromage fondant sont relevés par une épice titillant le bout de la langue. Les Éas comprendront-ils cette sensation surprenante ?
+201,TEXT_BANOMI003_04603_SYSTEM_000_161,"Ce poisson semble vous fixer du regard, mais vous préférez ne pas y penser... Sa chair blanche est plus douce qu'elle n'y paraît, et l'as­sai­son­ne­ment a le mérite de dissimuler le goût de peau calcinée. Les Éas seront-ils sensibles à ce mets... unique ?"
+202,TEXT_BANOMI003_04603_N7000_000_162,Bip... Cette séance de dégustation m'a permis d'enregistrer des données captivantes. Début de la conversion en pulsations éthérées pour la transmission aux entités Client N°7 et N°8...
+203,TEXT_BANOMI003_04603_EAOMIA_000_163,"Ooooh... C'est donc ça, le *goût* !"
+204,TEXT_BANOMI003_04603_EAOMIA_000_164,"Le sucré, le salé, l'acide, l'amer, et même l'*umami*... Tant de sensations si différentes, c'est comme si j'étais envahi par un torrent d'émotions !"
+205,TEXT_BANOMI003_04603_EAOMIA_000_165,"Bien sûr, j'ignore si c'est ce qu'ont ressenti nos ancêtres à l'époque... Mais en partageant ainsi tes émotions, j'ai eu l'impression de retrouver une enveloppe corporelle, l'espace d'un instant."
+206,TEXT_BANOMI003_04603_JAMMINGWAY_000_166,"Nom d'une carotte, c'est formidable ! Rien que pour cette réaction, ça valait le coup de vous inviter aux Dernières Réminiscences !"
+207,TEXT_BANOMI003_04603_JAMMINGWAY_000_167,"Au fait, quel goût avez-vous apprécié en particulier ?"
+208,TEXT_BANOMI003_04603_EAOMIB_000_168,Impossible de choisir... Chacune des sensations reçues de Player était une source de plaisir intense ! Veux-tu attirer notre attention sur un point spécifique ?
+209,TEXT_BANOMI003_04603_JAMMINGWAY_000_169,"En plus des ingrédients généreusement fournis par Player, je me suis permis d'ajouter une petite épice maison ! De la poudre de crevette météore, un crustacé élevé par les Grébuloff sur Élysée !"
+210,TEXT_BANOMI003_04603_EAOMIB_000_170,Un crustacé !? C'est bien la dernière chose que je m'attendais à trouver dans une assiette... Le monde culinaire est décidément plein de surprises !
+211,TEXT_BANOMI003_04603_EAOMIA_000_171,"Si vos plats nous ont plu à ce point, c'est peut-être car ils étaient proches de ce que nos ancêtres appréciaient autrefois."
+212,TEXT_BANOMI003_04603_EAOMIA_000_172,"Pourquoi avoir sciemment choisi d'abandonner une sensation aussi excitante ? Je ne peux m'empêcher de penser que c'est regrettable... Quoi qu'il en soit, je suis heureux d'avoir pu en faire l'expérience."
+213,TEXT_BANOMI003_04603_JAMMINGWAY_000_173,"Mon petit doigt me dit que les Éas ne regrettent pas de s'être déplacés jusqu'aux Dernières Réminiscences... Et si c'est le cas, ça veut dire qu'il doit y avoir du changement sur Élysée !"
+214,TEXT_BANOMI003_04603_N7000_000_174,"Bip ! Tu as raison, petite boule de poils. Emmenons les Éas et allons constater comment se porte notre petite planète."
+215,TEXT_BANOMI003_04603_Q8_000_000,Aller au camp de base A-4 ?
+216,TEXT_BANOMI003_04603_JAMMINGWAY_000_176,Nos efforts auprès des Karelliens et des Grébuloff ont fait apparaître des champs et des mers... Et cette fois ? Allons vite voir de quoi il retourne !
+217,TEXT_BANOMI003_04603_N7000_000_175,"Bip... D'après les observations de Stigma-4, il y a bien eu des variations dans le dynamis, et celles-ci ont eu une influence sur Élysée. Les Éas sont partis devant, suivons-les."
+218,TEXT_BANOMI003_04603_JAMMINGWAY_000_090,"Ouah ! L'évolution du paysage saute aux yeux, mais plus que ça... Vous avez vu ces bestioles ? Il y a un air de ressemblance avec ces créatures gélatineuses qui vivent dans les mers d'Ætherys..."
+219,TEXT_BANOMI003_04603_N7000_000_091,"Bip... Aucun résultat correspondant dans ma base de données. En revanche, je peux confirmer que la composition cellulaire de ces entités est fondamentalement différente de celles recréées par Stigma-4."
+220,TEXT_BANOMI003_04603_JAMMINGWAY_000_092,"Dans ce cas, il n'y a qu'une seule explication... Une nouvelle forme de vie autochtone serait née sur Élysée !?"
+221,TEXT_BANOMI003_04603_N7000_000_093,"Avec les terres et la mer qui sont apparues il y a peu, l'écosystème est de toute évidence favorable à un tel phénomène."
+222,TEXT_BANOMI003_04603_N7000_000_094,"Je suppose que les aspirations des Éas pour leur ancienne enveloppe charnelle ont eu une incidence sur le dynamis, qui a ensuite engendré ces entités. Pshhh..."
+223,TEXT_BANOMI003_04603_JAMMINGWAY_000_095,"Incroyable... La matérialisation de formes de vie disparues était déjà un fait remarquable en soi, mais si on m'avait dit que j'allais assister à la naissance de créatures inconnues..."
+224,TEXT_BANOMI003_04603_MIW04603_000_096,"(-Créature ressemblant à une méduse-)Mimi, mimimi !"
+225,TEXT_BANOMI003_04603_JAMMINGWAY_000_097,"Hihihi, c'est qu'elles sont mignonnes, en plus ! Elles sont un peu comme les enfants d'Élysée !"
+226,TEXT_BANOMI003_04603_EAOMIA_000_098,"Des *enfants*, hein... Cela fait une éternité que nous n'avions pas prononcé, ou même pensé à ce mot."
+227,TEXT_BANOMI003_04603_EAOMIB_000_099,"Si, comme vous le pensez, nos sentiments nostalgiques ont donné naissance à ces êtres... il est possible que leur apparence soit proche de la nôtre lorsque nous étions en bas âge."
+228,TEXT_BANOMI003_04603_EAOMIA_000_100,Cela pourrait s'expliquer par les lointains souvenirs que nous conservons encore de notre enfance...
+229,TEXT_BANOMI003_04603_JAMMINGWAY_000_101,"Alors ça ne fait aucun doute, ces adorables petites créatures sont bien nées de vos pensées ! Que diriez-vous de les baptiser ?"
+230,TEXT_BANOMI003_04603_EAOMIB_100_102,"Hmm... Je suppose qu'un nom semblable à ceux que nous portions autrefois serait approprié. Quelque chose comme... “miw miisv”, par exemple."
+231,TEXT_BANOMI003_04603_EAOMIB_100_103,"Ces noms que nous utilisions il y a une éternité ne sont aujourd'hui rien de plus qu'une suite de sons sans si­gni­fi­ca­tion... En appelant ainsi ces êtres tout juste venus au monde, j'espère qu'ils trouveront un sens nouveau."
+232,TEXT_BANOMI003_04603_JAMMINGWAY_100_104,C'est un nom qui leur va à ravir !
+233,TEXT_BANOMI003_04603_BANOMIA_000_102,"À l'avenir, nous observerons at­ten­ti­ve­ment ces miw miisv dans leur habitat naturel, en espérant que cette expérience ravive des souvenirs en nous."
+234,TEXT_BANOMI003_04603_BANOMIA_000_103,"Les *qualia* qui agrémentaient notre quotidien, l'aspect de notre ancienne enveloppe charnelle... Les enfants d'Élysée ont sans doute beaucoup à nous apprendre."
+235,TEXT_BANOMI003_04603_SYSTEM_000_104,"Grâce aux sentiments des Éas, une nouvelle forme de vie est apparue sur Élysée ! Accompagnez les miw miisv dans leur quotidien et apprenez à les connaître pour révéler leurs secrets."
+236,TEXT_BANOMI003_04603_SYSTEM_000_105,"Cependant, il reste encore des parcelles rocheuses que le dynamis pourrait faire évoluer grâce à la force des sentiments. La jeune planète cache encore de nombreuses possibilités qu'il ne tient qu'à vous de découvrir !"
+237,TEXT_BANOMI003_04603_JAMMINGWAY_000_200,La naissance d'une forme de vie inconnue... Un nouvel épisode mémorable dans la jeune histoire d'Élysée !
+238,TEXT_BANOMI003_04603_N7000_000_201,"Bip... Inviter les Éas à la table des Dernières Réminiscences ne fut pas chose aisée. Entité alliée Player, je vous remercie pour votre précieuse con­tri­bu­tion."
+239,TEXT_BANOMI003_04603_N7000_000_204,"Nos efforts nous ont permis d'assister à un phénomène passionnant, la création des miw miisv par le dynamis."
+240,TEXT_BANOMI003_04603_N7000_000_205,"On peut supposer que leur composition génétique est proche de celle des Éas, mais il s'agit bien d'une nouvelle espèce et non d'une recréation. Toute prévision sur leur développement futur est impossible. Pshhh..."
+241,TEXT_BANOMI003_04603_JAMMINGWAY_000_206,"Décidément, Ultima Thulé ne manque pas de surprises... Grâce au dynamis, les possibilités sur Élysée sont quasi infinies ! C'est tellement excitant !"
+242,TEXT_BANOMI003_04603_N7000_000_207,"Bip... Je partage ton sentiment, petite boule de poils. Poursuivons nos efforts aux Dernières Réminiscences, pour la mission des Omicrons et pour le bien de tous."
+243,TEXT_BANOMI003_04603_SYSTEM_100_110,"Votre réputation auprès des Omicrons des Dernières Réminiscences est passée à “Respecté”. Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
+244,TEXT_BANOMI003_04603_SYSTEM_100_111,Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Stigma-4.
+245,TEXT_BANOMI003_04603_SYSTEM_100_112,"De plus, trois quêtes sup­plé­men­tai­res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
+246,TEXT_BANOMI003_04603_SYSTEM_100_113,Stigma-4 vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang.
+247,TEXT_BANOMI003_04603_SYSTEM_100_114,"En outre, N-0598 vous propose maintenant les objets correspondant au rang “Respecté”. Faites-en bon usage au cours de vos aventures !"
+248,TEXT_BANOMI003_04603_EAOMIA_000_084,（★未使用／削除予定★）
+249,TEXT_BANOMI003_04603_EAOMIA_000_088,（★未使用／削除予定★）
+250,TEXT_BANOMI003_04603_EAOMIA_100_094,（★未使用／削除予定★）
+251,TEXT_BANOMI003_04603_EAOMIA_100_098,（★未使用／削除予定★）
+252,TEXT_BANOMI003_04603_EAOMIA_100_104,（★未使用／削除予定★）
+253,TEXT_BANOMI003_04603_EAOMIA_100_108,（★未使用／削除予定★）
+254,TEXT_BANOMI003_04603_EAOMIA_000_118,（★未使用／削除予定★）
+255,TEXT_BANOMI003_04603_EAOMIA_000_127,（★未使用／削除予定★）
+256,TEXT_BANOMI003_04603_JAMMINGWAY_000_203,（★未使用／削除予定★）
+257,TEXT_BANOMI003_04603_JAMMINGWAY_000_202,（★未使用／削除予定★）
+258,TEXT_BANOMI003_04603_A2_000_001,（★未使用／削除予定★）
+259,TEXT_BANOMI003_04603_A2_000_002,（★未使用／削除予定★）
+260,TEXT_BANOMI003_04603_JAMMINGWAY_000_141,（★未使用／削除予定★）
+261,TEXT_BANOMI003_04603_JAMMINGWAY_000_126,（★未使用／削除予定★）
+262,TEXT_BANOMI003_04603_JAMMINGWAY_000_134,（★未使用／削除予定★）

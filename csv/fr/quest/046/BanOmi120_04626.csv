@@ -1,68 +1,65 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI120_04626_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<Emphasis>* Il n'est possible de progresser dans cette quête qu'avec la classe qui a servi à la commencer.</Emphasis>
+0,TEXT_BANOMI120_04626_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
+** Il n'est possible de progresser dans cette quête qu'avec la classe qui a servi à la commencer.*
 
 Stigma-4 a une demande des Éas à vous transmettre."
-1,"TEXT_BANOMI120_04626_SEQ_01","Livrer ce qui vous a été demandé à l'Omicron magasinier"
-2,"TEXT_BANOMI120_04626_SEQ_02","Retourner voir Stigma-4"
-3,"TEXT_BANOMI120_04626_SEQ_03",""
-4,"TEXT_BANOMI120_04626_SEQ_04",""
-5,"TEXT_BANOMI120_04626_SEQ_05",""
-6,"TEXT_BANOMI120_04626_SEQ_06",""
-7,"TEXT_BANOMI120_04626_SEQ_07",""
-8,"TEXT_BANOMI120_04626_SEQ_08",""
-9,"TEXT_BANOMI120_04626_SEQ_09",""
-10,"TEXT_BANOMI120_04626_SEQ_10",""
-11,"TEXT_BANOMI120_04626_SEQ_11",""
-12,"TEXT_BANOMI120_04626_SEQ_12",""
-13,"TEXT_BANOMI120_04626_SEQ_13",""
-14,"TEXT_BANOMI120_04626_SEQ_14",""
-15,"TEXT_BANOMI120_04626_SEQ_15",""
-16,"TEXT_BANOMI120_04626_SEQ_16",""
-17,"TEXT_BANOMI120_04626_SEQ_17",""
-18,"TEXT_BANOMI120_04626_SEQ_18",""
-19,"TEXT_BANOMI120_04626_SEQ_19",""
-20,"TEXT_BANOMI120_04626_SEQ_20",""
-21,"TEXT_BANOMI120_04626_SEQ_21",""
-22,"TEXT_BANOMI120_04626_SEQ_22",""
-23,"TEXT_BANOMI120_04626_SEQ_23",""
-24,"TEXT_BANOMI120_04626_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Extraire des <SheetFr(Item,12,IntegerParameter(5),2,1)/> aux terrains de jeu élyséens<Else/>Livrer les <SheetFr(Item,12,IntegerParameter(5),2,1)/> à l'Omicron magasinier</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récolter des <SheetFr(Item,12,IntegerParameter(5),2,1)/> aux terrains de jeu élyséens<Else/>Livrer les <SheetFr(Item,12,IntegerParameter(5),2,1)/> à l'Omicron magasinier</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Pêcher <SheetFr(Item,1,IntegerParameter(5),1,1)/> aux terrains de jeu élyséens<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à l'Omicron magasinier</If><Else/></If></If></If>"
-25,"TEXT_BANOMI120_04626_TODO_01","Retourner voir Stigma-4"
-26,"TEXT_BANOMI120_04626_TODO_02",""
-27,"TEXT_BANOMI120_04626_TODO_03",""
-28,"TEXT_BANOMI120_04626_TODO_04",""
-29,"TEXT_BANOMI120_04626_TODO_05",""
-30,"TEXT_BANOMI120_04626_TODO_06",""
-31,"TEXT_BANOMI120_04626_TODO_07",""
-32,"TEXT_BANOMI120_04626_TODO_08",""
-33,"TEXT_BANOMI120_04626_TODO_09",""
-34,"TEXT_BANOMI120_04626_TODO_10",""
-35,"TEXT_BANOMI120_04626_TODO_11",""
-36,"TEXT_BANOMI120_04626_TODO_12",""
-37,"TEXT_BANOMI120_04626_TODO_13",""
-38,"TEXT_BANOMI120_04626_TODO_14",""
-39,"TEXT_BANOMI120_04626_TODO_15",""
-40,"TEXT_BANOMI120_04626_TODO_16",""
-41,"TEXT_BANOMI120_04626_TODO_17",""
-42,"TEXT_BANOMI120_04626_TODO_18",""
-43,"TEXT_BANOMI120_04626_TODO_19",""
-44,"TEXT_BANOMI120_04626_TODO_20",""
-45,"TEXT_BANOMI120_04626_TODO_21",""
-46,"TEXT_BANOMI120_04626_TODO_22",""
-47,"TEXT_BANOMI120_04626_TODO_23",""
-48,"TEXT_BANOMI120_04626_STIGMA4_000_000","Bip bip... Pshhh... Depuis la naissance des miw miisv, les Éas s'occupent de les élever et de les étudier. Néanmoins, comme toute forme de vie corporelle, elles nécessitent d'absorber des nutriments."
-49,"TEXT_BANOMI120_04626_STIGMA4_000_001","Au café, nous cuisinons les ingrédients de manière à ce qu'ils soient suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment mous pour les nouveau-nés et ne leur causent aucune défaillance digestive. Bip bip... Entité alliée, nous nécessitons votre support dans l'approvisionnement des matières premières."
-50,"TEXT_BANOMI120_04626_STIGMA4_000_002","Rendez-vous aux terrains de jeu élyséens afin de vous procurer trois <SheetFr(Item,12,38293,2,1)/>. Livraison à l'Omicron magasinier aux Dernières Réminiscences."
-51,"TEXT_BANOMI120_04626_STIGMA4_000_003","Rendez-vous aux terrains de jeu élyséens afin de vous procurer trois <SheetFr(Item,12,38317,2,1)/>. Livraison à l'Omicron magasinier aux Dernières Réminiscences."
-52,"TEXT_BANOMI120_04626_STIGMA4_000_004","Rendez-vous aux terrains de jeu élyséens afin de vous procurer <SheetFr(Item,1,38341,1,1)/>. L'utilisation d'<SheetFr(Item,1,36588,1,1)/> comme appât est recommandée. Livraison à l'Omicron magasinier aux Dernières Réminiscences."
-53,"TEXT_BANOMI120_04626_STIGMA4_000_005","（★未使用／削除予定★）"
-54,"TEXT_BANOMI120_04626_STIGMA4_000_006","（★未使用／削除予定★）"
-55,"TEXT_BANOMI120_04626_STIGMA4_000_007","（★未使用／削除予定★）"
-56,"TEXT_BANOMI120_04626_DELIVERER04626_000_010","Recon<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce de l'entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>... Est-ce au sujet du colis alimentaire pour les miw miisv<Indent/>? Bip bip... Pshhh... Livraison non détectée. Veuillez renouveler l'opération après récupération des ingrédients nécessaires."
-57,"TEXT_BANOMI120_04626_DELIVERER04626_000_011","Recon<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce de l'entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>... Est-ce au sujet du colis alimentaire pour les miw miisv<Indent/>? Bip bip... Pshhh... Livraison détectée, transfert requis."
-58,"TEXT_BANOMI120_04626_DELIVERER04626_000_012","Réception terminée... Bip bip... Demande de livraison close, aucune anomalie détectée... Votre service est apprécié. Veuillez récupérer votre compensation auprès de Stigma-4."
-59,"TEXT_BANOMI120_04626_STIGMA4_000_020","Bip bip... Pshhh... Réception du rapport de l'Omicron magasinier... Entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion est évaluée “très satisfaisante”."
-60,"TEXT_BANOMI120_04626_STIGMA4_000_021","La naissance d'une forme de vie comme les miw miisv ne figurait pas dans nos équations. Nous sommes encore en cours d'analyse des données, mais les résultats préliminaires montrent un grand nombre de similitudes avec les Éas. Bip bip... Fascinant."
-61,"TEXT_BANOMI120_04626_STIGMA4_000_022","Préparez-vous à être de nouveau mis<If(PlayerParameter(4))>e<Else/></If> à con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion. Votre aide nous sera précieuse afin de percer les secrets de cette nouvelle forme de vie... Pshhh..."
+1,TEXT_BANOMI120_04626_SEQ_01,Livrer ce qui vous a été demandé à l'Omicron magasinier
+2,TEXT_BANOMI120_04626_SEQ_02,Retourner voir Stigma-4
+3,TEXT_BANOMI120_04626_SEQ_03,
+4,TEXT_BANOMI120_04626_SEQ_04,
+5,TEXT_BANOMI120_04626_SEQ_05,
+6,TEXT_BANOMI120_04626_SEQ_06,
+7,TEXT_BANOMI120_04626_SEQ_07,
+8,TEXT_BANOMI120_04626_SEQ_08,
+9,TEXT_BANOMI120_04626_SEQ_09,
+10,TEXT_BANOMI120_04626_SEQ_10,
+11,TEXT_BANOMI120_04626_SEQ_11,
+12,TEXT_BANOMI120_04626_SEQ_12,
+13,TEXT_BANOMI120_04626_SEQ_13,
+14,TEXT_BANOMI120_04626_SEQ_14,
+15,TEXT_BANOMI120_04626_SEQ_15,
+16,TEXT_BANOMI120_04626_SEQ_16,
+17,TEXT_BANOMI120_04626_SEQ_17,
+18,TEXT_BANOMI120_04626_SEQ_18,
+19,TEXT_BANOMI120_04626_SEQ_19,
+20,TEXT_BANOMI120_04626_SEQ_20,
+21,TEXT_BANOMI120_04626_SEQ_21,
+22,TEXT_BANOMI120_04626_SEQ_22,
+23,TEXT_BANOMI120_04626_SEQ_23,
+24,TEXT_BANOMI120_04626_TODO_00,Extraire des  aux terrains de jeu élyséens
+25,TEXT_BANOMI120_04626_TODO_01,Retourner voir Stigma-4
+26,TEXT_BANOMI120_04626_TODO_02,
+27,TEXT_BANOMI120_04626_TODO_03,
+28,TEXT_BANOMI120_04626_TODO_04,
+29,TEXT_BANOMI120_04626_TODO_05,
+30,TEXT_BANOMI120_04626_TODO_06,
+31,TEXT_BANOMI120_04626_TODO_07,
+32,TEXT_BANOMI120_04626_TODO_08,
+33,TEXT_BANOMI120_04626_TODO_09,
+34,TEXT_BANOMI120_04626_TODO_10,
+35,TEXT_BANOMI120_04626_TODO_11,
+36,TEXT_BANOMI120_04626_TODO_12,
+37,TEXT_BANOMI120_04626_TODO_13,
+38,TEXT_BANOMI120_04626_TODO_14,
+39,TEXT_BANOMI120_04626_TODO_15,
+40,TEXT_BANOMI120_04626_TODO_16,
+41,TEXT_BANOMI120_04626_TODO_17,
+42,TEXT_BANOMI120_04626_TODO_18,
+43,TEXT_BANOMI120_04626_TODO_19,
+44,TEXT_BANOMI120_04626_TODO_20,
+45,TEXT_BANOMI120_04626_TODO_21,
+46,TEXT_BANOMI120_04626_TODO_22,
+47,TEXT_BANOMI120_04626_TODO_23,
+48,TEXT_BANOMI120_04626_STIGMA4_000_000,"Bip bip... Pshhh... Depuis la naissance des miw miisv, les Éas s'occupent de les élever et de les étudier. Néanmoins, comme toute forme de vie corporelle, elles nécessitent d'absorber des nutriments."
+49,TEXT_BANOMI120_04626_STIGMA4_000_001,"Au café, nous cuisinons les ingrédients de manière à ce qu'ils soient suf­fi­sam­ment mous pour les nouveau-nés et ne leur causent aucune défaillance digestive. Bip bip... Entité alliée, nous nécessitons votre support dans l'approvisionnement des matières premières."
+50,TEXT_BANOMI120_04626_STIGMA4_000_002,Rendez-vous aux terrains de jeu élyséens afin de vous procurer trois . Livraison à l'Omicron magasinier aux Dernières Réminiscences.
+51,TEXT_BANOMI120_04626_STIGMA4_000_003,Rendez-vous aux terrains de jeu élyséens afin de vous procurer trois . Livraison à l'Omicron magasinier aux Dernières Réminiscences.
+52,TEXT_BANOMI120_04626_STIGMA4_000_004,Rendez-vous aux terrains de jeu élyséens afin de vous procurer . L'utilisation d' comme appât est recommandée. Livraison à l'Omicron magasinier aux Dernières Réminiscences.
+53,TEXT_BANOMI120_04626_STIGMA4_000_005,（★未使用／削除予定★）
+54,TEXT_BANOMI120_04626_STIGMA4_000_006,（★未使用／削除予定★）
+55,TEXT_BANOMI120_04626_STIGMA4_000_007,（★未使用／削除予定★）
+56,TEXT_BANOMI120_04626_DELIVERER04626_000_010,Recon­nais­san­ce de l'entité alliée Player... Est-ce au sujet du colis alimentaire pour les miw miisv ? Bip bip... Pshhh... Livraison non détectée. Veuillez renouveler l'opération après récupération des ingrédients nécessaires.
+57,TEXT_BANOMI120_04626_DELIVERER04626_000_011,"Recon­nais­san­ce de l'entité alliée Player... Est-ce au sujet du colis alimentaire pour les miw miisv ? Bip bip... Pshhh... Livraison détectée, transfert requis."
+58,TEXT_BANOMI120_04626_DELIVERER04626_000_012,"Réception terminée... Bip bip... Demande de livraison close, aucune anomalie détectée... Votre service est apprécié. Veuillez récupérer votre compensation auprès de Stigma-4."
+59,TEXT_BANOMI120_04626_STIGMA4_000_020,"Bip bip... Pshhh... Réception du rapport de l'Omicron magasinier... Entité alliée Player, votre con­tri­bu­tion est évaluée “très satisfaisante”."
+60,TEXT_BANOMI120_04626_STIGMA4_000_021,"La naissance d'une forme de vie comme les miw miisv ne figurait pas dans nos équations. Nous sommes encore en cours d'analyse des données, mais les résultats préliminaires montrent un grand nombre de similitudes avec les Éas. Bip bip... Fascinant."
+61,TEXT_BANOMI120_04626_STIGMA4_000_022,Préparez-vous à être de nouveau mise à con­tri­bu­tion. Votre aide nous sera précieuse afin de percer les secrets de cette nouvelle forme de vie... Pshhh...

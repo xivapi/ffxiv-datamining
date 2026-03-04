@@ -1,135 +1,132 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGLA105_04972_SEQ_00","Rral Soj n'a plus le moral."
-1,"TEXT_KINGLA105_04972_SEQ_01","Vous avez prêté une oreille attentive à une Rral Soj désemparée par la fuite de son employée. Se sentant coupable d'avoir été trop dure avec elle, la forgeronne vous a raconté les raisons qui l'ont poussée à ouvrir sa boutique : bien que motivée au départ pour façonner des pièces de haute qualité, elle a finalement dû accepter son manque de talent et a, en désespoir de cause, centré son travail sur la rapidité de livraison. Elle vous a avoué être admirative de Papawni, capable de créer des merveilles, quitte à trop prendre son temps... Vous avez alors expliqué à Rral Soj la nature de la relation entre Mobelins et mains-du-pot, ce qui lui a permis de comprendre les errements de son assistante, et l'a incitée à partir à sa recherche."
-2,"TEXT_KINGLA105_04972_SEQ_02","Sur place, vous avez retrouvé Papawni en train de discuter avec un de ses anciens employeurs mobelins, malheureusement trop occupé pour reprendre l'artisane sous son aile. Cependant, voyant la volonté de Rral Soj de faire revenir son assistante, il leur a proposé de travailler non pas chacune de leur côté, mais de façon complémentaire. Afin de leur prouver l'efficacité de sa méthode, il leur a demandé de réparer une balance dont le fléau est tordu. Parlez à Rral Soj pour savoir comment lui venir en aide."
-3,"TEXT_KINGLA105_04972_SEQ_03","Rral Soj vous a chargé<If(PlayerParameter(4))>e<Else/></If> de concevoir <SheetFr(ItemHQ,1,43907,1,1)/> pendant qu'elle et Papawni s'occuperont des autres éléments de la balance. Livrez votre ouvrage à Papawni lorsque vous aurez terminé.
+0,TEXT_KINGLA105_04972_SEQ_00,Rral Soj n'a plus le moral.
+1,TEXT_KINGLA105_04972_SEQ_01,"Vous avez prêté une oreille attentive à une Rral Soj désemparée par la fuite de son employée. Se sentant coupable d'avoir été trop dure avec elle, la forgeronne vous a raconté les raisons qui l'ont poussée à ouvrir sa boutique : bien que motivée au départ pour façonner des pièces de haute qualité, elle a finalement dû accepter son manque de talent et a, en désespoir de cause, centré son travail sur la rapidité de livraison. Elle vous a avoué être admirative de Papawni, capable de créer des merveilles, quitte à trop prendre son temps... Vous avez alors expliqué à Rral Soj la nature de la relation entre Mobelins et mains-du-pot, ce qui lui a permis de comprendre les errements de son assistante, et l'a incitée à partir à sa recherche."
+2,TEXT_KINGLA105_04972_SEQ_02,"Sur place, vous avez retrouvé Papawni en train de discuter avec un de ses anciens employeurs mobelins, malheureusement trop occupé pour reprendre l'artisane sous son aile. Cependant, voyant la volonté de Rral Soj de faire revenir son assistante, il leur a proposé de travailler non pas chacune de leur côté, mais de façon complémentaire. Afin de leur prouver l'efficacité de sa méthode, il leur a demandé de réparer une balance dont le fléau est tordu. Parlez à Rral Soj pour savoir comment lui venir en aide."
+3,TEXT_KINGLA105_04972_SEQ_03,"Rral Soj vous a chargée de concevoir  pendant qu'elle et Papawni s'occuperont des autres éléments de la balance. Livrez votre ouvrage à Papawni lorsque vous aurez terminé.
 * Si vous n'avez plus de matériaux, adressez-vous à Rral Soj pour en recevoir de nouveaux."
-4,"TEXT_KINGLA105_04972_SEQ_04","Papawni a récupéré le fléau que vous avez conçu, ce qui lui a permis de terminer la réparation de la balance. Le Mobelin s'est montré très satisfait du résultat, d'autant plus qu'il a ainsi pu prouver que Rral Soj et son assistante étaient bel et bien capables de travailler main dans la main. Heureuse de la sollicitude de sa patronne, Papawni a accepté de revenir chez elle. Retournez à la quincaillerie et adressez-vous à Rral Soj."
-5,"TEXT_KINGLA105_04972_SEQ_05","Les deux jeunes femmes sont maintenant prêtes à œuvrer ensemble, en se répartissant les tâches selon leurs talents respectifs. Il leur reste néanmoins à éprouver leur nouvelle méthode de travail. Restez encore un peu avec elles pour les accompagner."
-6,"TEXT_KINGLA105_04972_SEQ_06",""
-7,"TEXT_KINGLA105_04972_SEQ_07",""
-8,"TEXT_KINGLA105_04972_SEQ_08",""
-9,"TEXT_KINGLA105_04972_SEQ_09",""
-10,"TEXT_KINGLA105_04972_SEQ_10",""
-11,"TEXT_KINGLA105_04972_SEQ_11",""
-12,"TEXT_KINGLA105_04972_SEQ_12",""
-13,"TEXT_KINGLA105_04972_SEQ_13",""
-14,"TEXT_KINGLA105_04972_SEQ_14",""
-15,"TEXT_KINGLA105_04972_SEQ_15",""
-16,"TEXT_KINGLA105_04972_SEQ_16",""
-17,"TEXT_KINGLA105_04972_SEQ_17",""
-18,"TEXT_KINGLA105_04972_SEQ_18",""
-19,"TEXT_KINGLA105_04972_SEQ_19",""
-20,"TEXT_KINGLA105_04972_SEQ_20",""
-21,"TEXT_KINGLA105_04972_SEQ_21",""
-22,"TEXT_KINGLA105_04972_SEQ_22",""
-23,"TEXT_KINGLA105_04972_SEQ_23",""
-24,"TEXT_KINGLA105_04972_TODO_00","Parler à Rral Soj, à La Fournée"
-25,"TEXT_KINGLA105_04972_TODO_01","Reparler à Rral Soj"
-26,"TEXT_KINGLA105_04972_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(ItemHQ,1,43907,1,1)/><Else/>Livrer <SheetFr(ItemHQ,2,43907,1,1)/> à Papawni</If>"
-27,"TEXT_KINGLA105_04972_TODO_03","Parler à Rral Soj, à Tuliyollal"
-28,"TEXT_KINGLA105_04972_TODO_04",""
-29,"TEXT_KINGLA105_04972_TODO_05",""
-30,"TEXT_KINGLA105_04972_TODO_06",""
-31,"TEXT_KINGLA105_04972_TODO_07",""
-32,"TEXT_KINGLA105_04972_TODO_08",""
-33,"TEXT_KINGLA105_04972_TODO_09",""
-34,"TEXT_KINGLA105_04972_TODO_10",""
-35,"TEXT_KINGLA105_04972_TODO_11",""
-36,"TEXT_KINGLA105_04972_TODO_12",""
-37,"TEXT_KINGLA105_04972_TODO_13",""
-38,"TEXT_KINGLA105_04972_TODO_14",""
-39,"TEXT_KINGLA105_04972_TODO_15",""
-40,"TEXT_KINGLA105_04972_TODO_16",""
-41,"TEXT_KINGLA105_04972_TODO_17",""
-42,"TEXT_KINGLA105_04972_TODO_18",""
-43,"TEXT_KINGLA105_04972_TODO_19",""
-44,"TEXT_KINGLA105_04972_TODO_20",""
-45,"TEXT_KINGLA105_04972_TODO_21",""
-46,"TEXT_KINGLA105_04972_TODO_22",""
-47,"TEXT_KINGLA105_04972_TODO_23",""
-48,"TEXT_KINGLA105_04972_RRALSOJ_000_000","(soupire) Contente de voir que tu es toujours dans les parages. Il n'y a rien de pire que de déprimer seule dans son coin et de n'avoir personne à qui parler."
-49,"TEXT_KINGLA105_04972_RRALSOJ_000_001","Ça te dérange pas si on papote un moment ? J'ai besoin de ton aide pour m'éclaircir l'esprit, afin de savoir si je dois partir à la recherche de Papawni ou non..."
-50,"TEXT_KINGLA105_04972_RRALSOJ_000_002","Merci. Malgré ce que je lui ai dit, je t'assure que j'ai beaucoup d'estime pour elle."
-51,"TEXT_KINGLA105_04972_RRALSOJ_000_003","Lorsque Papawni est venue me voir la première fois, elle semblait très déprimée. Mais ça ne l'a pas empêchée de me dire qu'elle voulait absolument travailler pour moi. Et puis, je sentais aussi chez elle cette volonté de ne pas abandonner l'artisanat."
-52,"TEXT_KINGLA105_04972_RRALSOJ_000_004","Je ne pense pas m'être trompée, d'ailleurs. Je vois bien avec quelle passion elle s'investit dans sa tâche. Le problème, c'est que son besoin de perfectionnisme ne colle pas avec les impératifs de célérité que nécessitent mes commandes."
-53,"TEXT_KINGLA105_04972_RRALSOJ_000_005","Enfin, je dis ça... C'est vrai que je pourrais gérer mon commerce autrement... Mais j'ai fait ce choix puisque je me suis révélée incapable de proposer à la fois vitesse et qualité."
-54,"TEXT_KINGLA105_04972_RRALSOJ_000_006","Je t'admire, tu sais. Tu es capable de produire en un rien de temps de véritables œuvres d'art, sans faire la moindre concession. Con<SoftHyphen/>trai<SoftHyphen/>re<SoftHyphen/>ment à moi, qui me suis formée sur le tas..."
-55,"TEXT_KINGLA105_04972_RRALSOJ_000_007","C'est vrai que je ne t'ai pas beaucoup parlé de moi, jusqu'à maintenant..."
-56,"TEXT_KINGLA105_04972_RRALSOJ_000_008","Quand j'étais plus jeune, je fabriquais des outils de chasse dans un village éloigné. Avec le temps, je me suis dit que je voulais poursuivre dans cette voie. Alors je suis partie m'installer là où je pouvais croiser du monde, c'est-à-dire à Tuliyollal."
-57,"TEXT_KINGLA105_04972_RRALSOJ_000_009","Je me suis ensuite rapprochée des Mobelins pour me faire embaucher. Je savais qu'ils étaient réputés pour leurs ouvrages issus de la métallurgie, et j'espérais pouvoir parfaire mes techniques sous leur tutelle."
-58,"TEXT_KINGLA105_04972_RRALSOJ_100_009","À force de supplications, ils ont fini par accepter de me prendre... à une condition : celle de venir travailler à Kozama'uka."
-59,"TEXT_KINGLA105_04972_RRALSOJ_000_010","Je ne voulais pas, alors j'ai refusé. Je préférais rester près des gens pour qui je fabriquais des outils."
-60,"TEXT_KINGLA105_04972_RRALSOJ_000_011","Voilà comment, finalement, j'ai dû apprendre le métier sans l'aide des Mobelins et faire une croix sur leurs méthodes de création de pointe. J'ai ainsi ouvert mon commerce en me focalisant sur les outils du quotidien, avec pour credo la rapidité de fabrication."
-61,"TEXT_KINGLA105_04972_Q1_000_000","Que dites-vous ?"
-62,"TEXT_KINGLA105_04972_A1_000_001","Les Mobelins sont surtout doués pour l'approvisionnement, et pour s'occuper de leurs artisans..."
-63,"TEXT_KINGLA105_04972_A1_000_002","Ce ne sont pas les Mobelins qui fabriquent leurs produits, mais les mains-du-pot."
-64,"TEXT_KINGLA105_04972_RRALSOJ_000_012","Je ne suis pas sûre de bien comprendre... Papawni a dit quelque chose de semblable avant de partir en trombe. Tu veux bien m'expliquer ?"
-65,"TEXT_KINGLA105_04972_RRALSOJ_000_013","C'était donc ça... Et moi qui croyais que les Mobelins créaient toutes ces merveilles de leurs propres mains..."
-66,"TEXT_KINGLA105_04972_RRALSOJ_000_014","Alors s'ils m'ont demandé de partir avec eux à Kozama'uka à l'époque, c'était pour faire de moi une apprentie auprès d'une de leurs “mains-du-pot”, si je comprends bien."
-67,"TEXT_KINGLA105_04972_RRALSOJ_000_015","Et puisque Papawni était l'une d'entre elles, ça explique pourquoi elle n'avait jamais reçu de re<SoftHyphen/>mer<SoftHyphen/>cie<SoftHyphen/>ments de la part de ses clients jusqu'à maintenant..."
-68,"TEXT_KINGLA105_04972_RRALSOJ_000_016","Elle a dit qu'elle voulait retourner travailler auprès d'eux, pourtant il y a bien une raison pour laquelle elle les avait quittés, non ? Et puis, j'imagine qu'ils ne vont pas la réembaucher si facilement..."
-69,"TEXT_KINGLA105_04972_RRALSOJ_000_017","Je t'avoue que je m'inquiète un peu pour elle. Il faut que j'aille rendre visite aux Mobelins pour en avoir le cœur net. Tu veux bien m'accompagner jusqu'à leur village... La Fournée, c'est ça ?"
-70,"TEXT_KINGLA105_04972_RRALSOJ_000_030","Voilà donc à quoi ressemble le village où les Mobelins vivent avec leurs mains-du-pot ! Reste à retrouver Papawni..."
-71,"TEXT_KINGLA105_04972_PAPAWNI_000_031","Oui, je comprends... Vous avez trouvé quelqu'un d'autre..."
-72,"TEXT_KINGLA105_04972_PAPAWNI_000_032","Hein !? Madame Rral Soj, <If(PlayerParameter(4))>Madame<Else/>Monsieur</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>... Q-que faites-vous ici ?"
-73,"TEXT_KINGLA105_04972_RRALSOJ_000_033","<If(PlayerParameter(4))>Elle<Else/>Il</If> m'a tout raconté au sujet des Mobelins et de la relation avec leurs mains-du-pot. C'est ce qui m'a donné envie de partir à ta recherche."
-74,"TEXT_KINGLA105_04972_RRALSOJ_000_034","J'ai compris pourquoi la qualité de tes créations était si importante à tes yeux. C'est comme ça que tu as toujours travaillé, en donnant le meilleur de toi-même."
-75,"TEXT_KINGLA105_04972_RRALSOJ_000_035","Tu... Tu retournes chez les Mobelins, du coup ?"
-76,"TEXT_KINGLA105_04972_PAPAWNI_000_036","Eh bien, en fait... Je viens de discuter avec mon ancien employeur, mais il vient de me dire qu'il avait déjà signé un contrat avec une nouvelle main-du-pot, et qu'il était trop occupé pour s'occuper d'une autre..."
-77,"TEXT_KINGLA105_04972_RRALSOJ_000_037","Alors rien ne t'empêche de revenir bosser avec moi ! Avec l'expérience que tu as, je pourrais te filer des commandes qui mettent l'accent sur la qualité des produits et correspondent plus à ton profil."
-78,"TEXT_KINGLA105_04972_PAPAWNI_000_038","M-mais enfin, cela va à l'encontre de la façon dont vous fonctionnez !"
-79,"TEXT_KINGLA105_04972_PAPAWNI_000_039","J-je suis désolée, je ne peux pas accepter ! Je ne ferais que gêner votre commerce !"
-80,"TEXT_KINGLA105_04972_Q2_000_000","Que dites-vous ?"
-81,"TEXT_KINGLA105_04972_A2_000_001","Vous pourriez juste travailler de façon complémentaire..."
-82,"TEXT_KINGLA105_04972_A2_000_002","Parlez-vous et apprenez à vous connaître, bon sang de bois !"
-83,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_040","Bssshh... Bssshh... L'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> a raison. Il existe toutes sortes d'artisans, le Mobelin en sait quelque chose. Papawni et Rral Soj sont très différentes. Chakune a ses forces et faiblesses."
-84,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_042","Mais ce n'est pas forcément un handikap, au kontraire. L'une peut kombler les lakunes de l'autre. En s'entraidant, tout est possible. L'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> est d'akkord, n'est-ce pas ?"
-85,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_043","Bssshh... Bssshh... Pourquoi ne pas essayer un peu ? De travailler tous ensemble ?"
-86,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_044","Le Mobelin a justement besoin de quelqu'un pour réparer sa balance. Le fléau est tordu et les plateaux n'arrêtent pas de bouger, c'est trop difficile de mesurer avek !"
-87,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_045","Si tout le monde œuvre de koncert, elle pourra être remise en état ! Rral Soj travaillera les matériaux, et Papawni peaufinera l'ensemble !"
-88,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_046","L'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> sera aussi là pour aider ! <If(PlayerParameter(4))>Elle<Else/>Il</If> fera le lien entre les deux artisanes et leur permettra de reprendre konfiance l'une en l'autre !"
-89,"TEXT_KINGLA105_04972_RRALSOJ_000_047","Je vois... Plutôt que de laisser une seule personne s'occuper de la fabrication de bout en bout, on pourrait se répartir les tâches de façon complémentaire..."
-90,"TEXT_KINGLA105_04972_RRALSOJ_000_048","En effet, ça peut se tenter. D'autant plus si ça nous permet de dépanner un Mobelin. Tu veux bien qu'on essaie, Papawni ?"
-91,"TEXT_KINGLA105_04972_PAPAWNI_100_048","O-oui !"
-92,"TEXT_KINGLA105_04972_RRALSOJ_000_049","Parfait. Je vais m'occuper de réunir les matériaux nécessaires, si vous voulez bien m'attendre ici un moment."
-93,"TEXT_KINGLA105_04972_PAPAWNI_090_049","Se répartir les tâches... Je n'y avais pas pensé mais... je vais faire de mon mieux !"
-94,"TEXT_KINGLA105_04972_RRALSOJ_100_049","Me revoilà, j'ai pris ce qu'il nous faut. Si tu veux bien, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je te demanderai de te servir de ce que j'ai ramené pour fabriquer <SheetFr(Item,1,43907,1,1)/> de qualité supérieure."
-95,"TEXT_KINGLA105_04972_RRALSOJ_000_050","Ensuite, tu donneras ton ouvrage à Papawni, qui se chargera du rem<SoftHyphen/>pla<SoftHyphen/>ce<SoftHyphen/>ment des pièces dé<SoftHyphen/>fec<SoftHyphen/>tueuses et des finitions. Ça me paraît être la façon la plus efficace d'accomplir cette tâche."
-96,"TEXT_KINGLA105_04972_RRALSOJ_000_051","Si tu viens à manquer de matériaux, n'hésite pas à me demander. Je pourrai toujours t'en fournir d'autres."
-97,"TEXT_KINGLA105_04972_PAPAWNI_000_052","En attendant que vous ayez terminé, je vais examiner la balance à réparer et réfléchir à un moyen de la réajuster !"
-98,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_060","Bssshh... Bssshh... Si Rral Soj travaille les matériaux, Papawni peut peaufiner l'ensemble ! Ce serait dommage de rompre le kontrat maintenant... Très très dommage !"
-99,"TEXT_KINGLA105_04972_RRALSOJ_000_070","Je compte sur toi pour fabriquer <SheetFr(Item,1,43907,1,1)/> de qualité supérieure. Si tu as besoin d'autres matériaux, n'hésite pas."
-100,"TEXT_KINGLA105_04972_RRALSOJ_000_071","Tu as déjà terminé ? Décidément, tu ne lambines pas, toi ! Apporte-le vite à Papawni, elle a l'air d'avoir hâte de réparer cette balance."
-101,"TEXT_KINGLA105_04972_PAPAWNI_000_080","Je ne peux rien faire pour réparer cette balance tant que je n'ai pas de <SheetFr(Item,12,43907,1,1)/> de bonne qualité... <If(PlayerParameter(4))>Madame<Else/>Monsieur</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, vous avez avancé dessus... ?"
-102,"TEXT_KINGLA105_04972_PAPAWNI_000_081","Oh, m-merci ! Je vais pouvoir le remplacer avec le fléau actuel et me mettre au travail tout de suite !"
-103,"TEXT_KINGLA105_04972_PAPAWNI_000_090","Et voilà, une balance toute neuve ! L'ancien fléau avait dû se tordre à force d'utilisation... J'ai aussi huilé les parties amovibles, tout devrait fonctionner à merveille !"
-104,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_091","Bssshh... Bssshh... Splendide ! Une réparation rapide, minutieuse et précise ! Des matériaux parfaits, ouvragés par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment !"
-105,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_092","Le Mobelin est très kontent de sa nouvelle balance ! Merci, grand merci aux <If(PlayerParameter(4))>gentilles artisanes<Else/>gentils artisans</If> !"
-106,"TEXT_KINGLA105_04972_PAPAWNI_000_093","C'est moi qui vous remercie. Vraiment, quel plaisir de recevoir les compliments directement du client..."
-107,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_094","Le Mobelin est spécialisé dans la préparation d'environnements de travail, alors il sait que ces derniers doivent s'adapter à chaque ouvrier. Après tout, chakun a ses préférences !"
-108,"TEXT_KINGLA105_04972_CAREMOBLIN04972_100_094","Papawni a besoin d'entendre les re<SoftHyphen/>mer<SoftHyphen/>cie<SoftHyphen/>ments du klient, pas vrai ? Maintenant qu'elle a trouvé ce qui la motive, elle doit choisir l'endroit qui lui konvient le mieux pour s'épanouir ! Bssshh..."
-109,"TEXT_KINGLA105_04972_PAPAWNI_000_095","Eh bien... Si je peux recevoir des tâches qui me permettent de laisser parler mon attachement aux détails, alors..."
-110,"TEXT_KINGLA105_04972_PAPAWNI_100_095","J'aimerais travailler à nouveau avec vous, Madame Rral Soj !"
-111,"TEXT_KINGLA105_04972_RRALSOJ_000_096","Tu sais, Papawni... Tu incarnes le rêve que je n'ai jamais pu accomplir. Incapable de concevoir des outils de haute qualité, je m'étais résignée à baser les commandes de mon magasin sur la rapidité de livraison."
-112,"TEXT_KINGLA105_04972_RRALSOJ_000_097","Mais avec toi à mes côtés, je pourrais enfin allier les deux. Alors moi aussi, je te le demande : tu veux bien continuer de bosser pour moi ?"
-113,"TEXT_KINGLA105_04972_PAPAWNI_000_098","B-bien sûr... ! Avec plaisir !!"
-114,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_099","Bssshh... Tout est bien qui finit bien ! Papawni ne travaillera plus chez les Mobelins, mais elle va pouvoir donner le meilleur d'elle-même !"
-115,"TEXT_KINGLA105_04972_RRALSOJ_000_100","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>... Si j'ai pu discuter avec Papawni et lui dire ce que j'avais sur le cœur, c'est parce que tu as été là pour nous aider."
-116,"TEXT_KINGLA105_04972_RRALSOJ_000_101","Plus que jamais, je réalise que, pour un artisan, se confronter aux méthodes et aux talents des autres est le meilleur moyen d'évoluer. L'expérience des relations que tu as acquise au cours de tes voyages nous a bien dépannées, cette fois-ci."
-117,"TEXT_KINGLA105_04972_RRALSOJ_000_102","Je sais que je ne devrais pas te retenir plus longtemps... Mais j'ai encore besoin de ton aide, au moins jusqu'à ce qu'on arrive à trouver notre rythme de travail, Papawni et moi... !"
-118,"TEXT_KINGLA105_04972_RRALSOJ_000_103","Merci. Allez, retournons à la boutique."
-119,"TEXT_KINGLA105_04972_PAPAWNI_000_105","Je suis désolée de vous avoir causé du souci à cause de mon indécision... J'espère que vous me pardonnerez."
-120,"TEXT_KINGLA105_04972_PAPAWNI_000_106","J'étais loin de m'imaginer que madame Rral Soj avait développé un tel complexe d'infériorité vis-à-vis de mon travail, moi qui suis si lente... En tout cas, c'est un vrai bonheur qu'elle ait tenu à me réembaucher !"
-121,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_108","Le Mobelin soutient Papawni de tout son kœur ! Il sait que la jeune main-du-pot va akkomplir des mirakles sur son nouveau lieu de travail !"
-122,"TEXT_KINGLA105_04972_RRALSOJ_000_110","Être nourri, logé, choyé par les Mobelins, ce doit être une vie de rêve pour n'importe quel artisan... Mais moi, c'est quand même dans mon atelier que je me sens le mieux."
-123,"TEXT_KINGLA105_04972_PAPAWNI_000_111","Tout à fait. Travailler à La Fournée est plein d'avantages, mais votre boutique a ses bons côtés aussi !"
-124,"TEXT_KINGLA105_04972_PAPAWNI_000_112","J'ai beaucoup apprécié ma vie en tant que main-du-pot, je l'admets... Cependant, je crois qu'il est plus important pour moi d'être en relation directe avec les clients."
-125,"TEXT_KINGLA105_04972_RRALSOJ_000_113","Alors tu es la bienvenue ici, Papawni. Je compte sur toi à l'avenir."
-126,"TEXT_KINGLA105_04972_RRALSOJ_000_114","On va prendre le temps de se concerter un moment sur notre méthode de travail. Tu veux bien patienter un instant, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> ?"
-127,"TEXT_KINGLA105_04972_SYSTEM_000_120","Rral Soj propose la prochaine quête aux forgerons, armuriers ou orfèvres de niveau 98."
-128,"TEXT_KINGLA105_04972_SYSTEM_000_121","Il est nécessaire de terminer la quête de l'épopée “La force d'un peuple uni” pour entamer la suivante."
-129,"TEXT_KINGLA105_04972_SYSTEM_000_130","Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
-130,"TEXT_KINGLA105_04972_CAREMOBLIN04972_000_041",""
+4,TEXT_KINGLA105_04972_SEQ_04,"Papawni a récupéré le fléau que vous avez conçu, ce qui lui a permis de terminer la réparation de la balance. Le Mobelin s'est montré très satisfait du résultat, d'autant plus qu'il a ainsi pu prouver que Rral Soj et son assistante étaient bel et bien capables de travailler main dans la main. Heureuse de la sollicitude de sa patronne, Papawni a accepté de revenir chez elle. Retournez à la quincaillerie et adressez-vous à Rral Soj."
+5,TEXT_KINGLA105_04972_SEQ_05,"Les deux jeunes femmes sont maintenant prêtes à œuvrer ensemble, en se répartissant les tâches selon leurs talents respectifs. Il leur reste néanmoins à éprouver leur nouvelle méthode de travail. Restez encore un peu avec elles pour les accompagner."
+6,TEXT_KINGLA105_04972_SEQ_06,
+7,TEXT_KINGLA105_04972_SEQ_07,
+8,TEXT_KINGLA105_04972_SEQ_08,
+9,TEXT_KINGLA105_04972_SEQ_09,
+10,TEXT_KINGLA105_04972_SEQ_10,
+11,TEXT_KINGLA105_04972_SEQ_11,
+12,TEXT_KINGLA105_04972_SEQ_12,
+13,TEXT_KINGLA105_04972_SEQ_13,
+14,TEXT_KINGLA105_04972_SEQ_14,
+15,TEXT_KINGLA105_04972_SEQ_15,
+16,TEXT_KINGLA105_04972_SEQ_16,
+17,TEXT_KINGLA105_04972_SEQ_17,
+18,TEXT_KINGLA105_04972_SEQ_18,
+19,TEXT_KINGLA105_04972_SEQ_19,
+20,TEXT_KINGLA105_04972_SEQ_20,
+21,TEXT_KINGLA105_04972_SEQ_21,
+22,TEXT_KINGLA105_04972_SEQ_22,
+23,TEXT_KINGLA105_04972_SEQ_23,
+24,TEXT_KINGLA105_04972_TODO_00,"Parler à Rral Soj, à La Fournée"
+25,TEXT_KINGLA105_04972_TODO_01,Reparler à Rral Soj
+26,TEXT_KINGLA105_04972_TODO_02,Fabriquer 
+27,TEXT_KINGLA105_04972_TODO_03,"Parler à Rral Soj, à Tuliyollal"
+28,TEXT_KINGLA105_04972_TODO_04,
+29,TEXT_KINGLA105_04972_TODO_05,
+30,TEXT_KINGLA105_04972_TODO_06,
+31,TEXT_KINGLA105_04972_TODO_07,
+32,TEXT_KINGLA105_04972_TODO_08,
+33,TEXT_KINGLA105_04972_TODO_09,
+34,TEXT_KINGLA105_04972_TODO_10,
+35,TEXT_KINGLA105_04972_TODO_11,
+36,TEXT_KINGLA105_04972_TODO_12,
+37,TEXT_KINGLA105_04972_TODO_13,
+38,TEXT_KINGLA105_04972_TODO_14,
+39,TEXT_KINGLA105_04972_TODO_15,
+40,TEXT_KINGLA105_04972_TODO_16,
+41,TEXT_KINGLA105_04972_TODO_17,
+42,TEXT_KINGLA105_04972_TODO_18,
+43,TEXT_KINGLA105_04972_TODO_19,
+44,TEXT_KINGLA105_04972_TODO_20,
+45,TEXT_KINGLA105_04972_TODO_21,
+46,TEXT_KINGLA105_04972_TODO_22,
+47,TEXT_KINGLA105_04972_TODO_23,
+48,TEXT_KINGLA105_04972_RRALSOJ_000_000,(soupire) Contente de voir que tu es toujours dans les parages. Il n'y a rien de pire que de déprimer seule dans son coin et de n'avoir personne à qui parler.
+49,TEXT_KINGLA105_04972_RRALSOJ_000_001,"Ça te dérange pas si on papote un moment ? J'ai besoin de ton aide pour m'éclaircir l'esprit, afin de savoir si je dois partir à la recherche de Papawni ou non..."
+50,TEXT_KINGLA105_04972_RRALSOJ_000_002,"Merci. Malgré ce que je lui ai dit, je t'assure que j'ai beaucoup d'estime pour elle."
+51,TEXT_KINGLA105_04972_RRALSOJ_000_003,"Lorsque Papawni est venue me voir la première fois, elle semblait très déprimée. Mais ça ne l'a pas empêchée de me dire qu'elle voulait absolument travailler pour moi. Et puis, je sentais aussi chez elle cette volonté de ne pas abandonner l'artisanat."
+52,TEXT_KINGLA105_04972_RRALSOJ_000_004,"Je ne pense pas m'être trompée, d'ailleurs. Je vois bien avec quelle passion elle s'investit dans sa tâche. Le problème, c'est que son besoin de perfectionnisme ne colle pas avec les impératifs de célérité que nécessitent mes commandes."
+53,TEXT_KINGLA105_04972_RRALSOJ_000_005,"Enfin, je dis ça... C'est vrai que je pourrais gérer mon commerce autrement... Mais j'ai fait ce choix puisque je me suis révélée incapable de proposer à la fois vitesse et qualité."
+54,TEXT_KINGLA105_04972_RRALSOJ_000_006,"Je t'admire, tu sais. Tu es capable de produire en un rien de temps de véritables œuvres d'art, sans faire la moindre concession. Con­trai­re­ment à moi, qui me suis formée sur le tas..."
+55,TEXT_KINGLA105_04972_RRALSOJ_000_007,"C'est vrai que je ne t'ai pas beaucoup parlé de moi, jusqu'à maintenant..."
+56,TEXT_KINGLA105_04972_RRALSOJ_000_008,"Quand j'étais plus jeune, je fabriquais des outils de chasse dans un village éloigné. Avec le temps, je me suis dit que je voulais poursuivre dans cette voie. Alors je suis partie m'installer là où je pouvais croiser du monde, c'est-à-dire à Tuliyollal."
+57,TEXT_KINGLA105_04972_RRALSOJ_000_009,"Je me suis ensuite rapprochée des Mobelins pour me faire embaucher. Je savais qu'ils étaient réputés pour leurs ouvrages issus de la métallurgie, et j'espérais pouvoir parfaire mes techniques sous leur tutelle."
+58,TEXT_KINGLA105_04972_RRALSOJ_100_009,"À force de supplications, ils ont fini par accepter de me prendre... à une condition : celle de venir travailler à Kozama'uka."
+59,TEXT_KINGLA105_04972_RRALSOJ_000_010,"Je ne voulais pas, alors j'ai refusé. Je préférais rester près des gens pour qui je fabriquais des outils."
+60,TEXT_KINGLA105_04972_RRALSOJ_000_011,"Voilà comment, finalement, j'ai dû apprendre le métier sans l'aide des Mobelins et faire une croix sur leurs méthodes de création de pointe. J'ai ainsi ouvert mon commerce en me focalisant sur les outils du quotidien, avec pour credo la rapidité de fabrication."
+61,TEXT_KINGLA105_04972_Q1_000_000,Que dites-vous ?
+62,TEXT_KINGLA105_04972_A1_000_001,"Les Mobelins sont surtout doués pour l'approvisionnement, et pour s'occuper de leurs artisans..."
+63,TEXT_KINGLA105_04972_A1_000_002,"Ce ne sont pas les Mobelins qui fabriquent leurs produits, mais les mains-du-pot."
+64,TEXT_KINGLA105_04972_RRALSOJ_000_012,Je ne suis pas sûre de bien comprendre... Papawni a dit quelque chose de semblable avant de partir en trombe. Tu veux bien m'expliquer ?
+65,TEXT_KINGLA105_04972_RRALSOJ_000_013,C'était donc ça... Et moi qui croyais que les Mobelins créaient toutes ces merveilles de leurs propres mains...
+66,TEXT_KINGLA105_04972_RRALSOJ_000_014,"Alors s'ils m'ont demandé de partir avec eux à Kozama'uka à l'époque, c'était pour faire de moi une apprentie auprès d'une de leurs “mains-du-pot”, si je comprends bien."
+67,TEXT_KINGLA105_04972_RRALSOJ_000_015,"Et puisque Papawni était l'une d'entre elles, ça explique pourquoi elle n'avait jamais reçu de re­mer­cie­ments de la part de ses clients jusqu'à maintenant..."
+68,TEXT_KINGLA105_04972_RRALSOJ_000_016,"Elle a dit qu'elle voulait retourner travailler auprès d'eux, pourtant il y a bien une raison pour laquelle elle les avait quittés, non ? Et puis, j'imagine qu'ils ne vont pas la réembaucher si facilement..."
+69,TEXT_KINGLA105_04972_RRALSOJ_000_017,"Je t'avoue que je m'inquiète un peu pour elle. Il faut que j'aille rendre visite aux Mobelins pour en avoir le cœur net. Tu veux bien m'accompagner jusqu'à leur village... La Fournée, c'est ça ?"
+70,TEXT_KINGLA105_04972_RRALSOJ_000_030,Voilà donc à quoi ressemble le village où les Mobelins vivent avec leurs mains-du-pot ! Reste à retrouver Papawni...
+71,TEXT_KINGLA105_04972_PAPAWNI_000_031,"Oui, je comprends... Vous avez trouvé quelqu'un d'autre..."
+72,TEXT_KINGLA105_04972_PAPAWNI_000_032,"Hein !? Madame Rral Soj, Madame Player... Q-que faites-vous ici ?"
+73,TEXT_KINGLA105_04972_RRALSOJ_000_033,Elle m'a tout raconté au sujet des Mobelins et de la relation avec leurs mains-du-pot. C'est ce qui m'a donné envie de partir à ta recherche.
+74,TEXT_KINGLA105_04972_RRALSOJ_000_034,"J'ai compris pourquoi la qualité de tes créations était si importante à tes yeux. C'est comme ça que tu as toujours travaillé, en donnant le meilleur de toi-même."
+75,TEXT_KINGLA105_04972_RRALSOJ_000_035,"Tu... Tu retournes chez les Mobelins, du coup ?"
+76,TEXT_KINGLA105_04972_PAPAWNI_000_036,"Eh bien, en fait... Je viens de discuter avec mon ancien employeur, mais il vient de me dire qu'il avait déjà signé un contrat avec une nouvelle main-du-pot, et qu'il était trop occupé pour s'occuper d'une autre..."
+77,TEXT_KINGLA105_04972_RRALSOJ_000_037,"Alors rien ne t'empêche de revenir bosser avec moi ! Avec l'expérience que tu as, je pourrais te filer des commandes qui mettent l'accent sur la qualité des produits et correspondent plus à ton profil."
+78,TEXT_KINGLA105_04972_PAPAWNI_000_038,"M-mais enfin, cela va à l'encontre de la façon dont vous fonctionnez !"
+79,TEXT_KINGLA105_04972_PAPAWNI_000_039,"J-je suis désolée, je ne peux pas accepter ! Je ne ferais que gêner votre commerce !"
+80,TEXT_KINGLA105_04972_Q2_000_000,Que dites-vous ?
+81,TEXT_KINGLA105_04972_A2_000_001,Vous pourriez juste travailler de façon complémentaire...
+82,TEXT_KINGLA105_04972_A2_000_002,"Parlez-vous et apprenez à vous connaître, bon sang de bois !"
+83,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_040,"Bssshh... Bssshh... L'aventurière a raison. Il existe toutes sortes d'artisans, le Mobelin en sait quelque chose. Papawni et Rral Soj sont très différentes. Chakune a ses forces et faiblesses."
+84,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_042,"Mais ce n'est pas forcément un handikap, au kontraire. L'une peut kombler les lakunes de l'autre. En s'entraidant, tout est possible. L'aventurière est d'akkord, n'est-ce pas ?"
+85,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_043,Bssshh... Bssshh... Pourquoi ne pas essayer un peu ? De travailler tous ensemble ?
+86,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_044,"Le Mobelin a justement besoin de quelqu'un pour réparer sa balance. Le fléau est tordu et les plateaux n'arrêtent pas de bouger, c'est trop difficile de mesurer avek !"
+87,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_045,"Si tout le monde œuvre de koncert, elle pourra être remise en état ! Rral Soj travaillera les matériaux, et Papawni peaufinera l'ensemble !"
+88,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_046,L'aventurière sera aussi là pour aider ! Elle fera le lien entre les deux artisanes et leur permettra de reprendre konfiance l'une en l'autre !
+89,TEXT_KINGLA105_04972_RRALSOJ_000_047,"Je vois... Plutôt que de laisser une seule personne s'occuper de la fabrication de bout en bout, on pourrait se répartir les tâches de façon complémentaire..."
+90,TEXT_KINGLA105_04972_RRALSOJ_000_048,"En effet, ça peut se tenter. D'autant plus si ça nous permet de dépanner un Mobelin. Tu veux bien qu'on essaie, Papawni ?"
+91,TEXT_KINGLA105_04972_PAPAWNI_100_048,O-oui !
+92,TEXT_KINGLA105_04972_RRALSOJ_000_049,"Parfait. Je vais m'occuper de réunir les matériaux nécessaires, si vous voulez bien m'attendre ici un moment."
+93,TEXT_KINGLA105_04972_PAPAWNI_090_049,Se répartir les tâches... Je n'y avais pas pensé mais... je vais faire de mon mieux !
+94,TEXT_KINGLA105_04972_RRALSOJ_100_049,"Me revoilà, j'ai pris ce qu'il nous faut. Si tu veux bien, Player, je te demanderai de te servir de ce que j'ai ramené pour fabriquer  de qualité supérieure."
+95,TEXT_KINGLA105_04972_RRALSOJ_000_050,"Ensuite, tu donneras ton ouvrage à Papawni, qui se chargera du rem­pla­ce­ment des pièces dé­fec­tueuses et des finitions. Ça me paraît être la façon la plus efficace d'accomplir cette tâche."
+96,TEXT_KINGLA105_04972_RRALSOJ_000_051,"Si tu viens à manquer de matériaux, n'hésite pas à me demander. Je pourrai toujours t'en fournir d'autres."
+97,TEXT_KINGLA105_04972_PAPAWNI_000_052,"En attendant que vous ayez terminé, je vais examiner la balance à réparer et réfléchir à un moyen de la réajuster !"
+98,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_060,"Bssshh... Bssshh... Si Rral Soj travaille les matériaux, Papawni peut peaufiner l'ensemble ! Ce serait dommage de rompre le kontrat maintenant... Très très dommage !"
+99,TEXT_KINGLA105_04972_RRALSOJ_000_070,"Je compte sur toi pour fabriquer  de qualité supérieure. Si tu as besoin d'autres matériaux, n'hésite pas."
+100,TEXT_KINGLA105_04972_RRALSOJ_000_071,"Tu as déjà terminé ? Décidément, tu ne lambines pas, toi ! Apporte-le vite à Papawni, elle a l'air d'avoir hâte de réparer cette balance."
+101,TEXT_KINGLA105_04972_PAPAWNI_000_080,"Je ne peux rien faire pour réparer cette balance tant que je n'ai pas de  de bonne qualité... Madame Player, vous avez avancé dessus... ?"
+102,TEXT_KINGLA105_04972_PAPAWNI_000_081,"Oh, m-merci ! Je vais pouvoir le remplacer avec le fléau actuel et me mettre au travail tout de suite !"
+103,TEXT_KINGLA105_04972_PAPAWNI_000_090,"Et voilà, une balance toute neuve ! L'ancien fléau avait dû se tordre à force d'utilisation... J'ai aussi huilé les parties amovibles, tout devrait fonctionner à merveille !"
+104,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_091,"Bssshh... Bssshh... Splendide ! Une réparation rapide, minutieuse et précise ! Des matériaux parfaits, ouvragés par­fai­te­ment !"
+105,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_092,"Le Mobelin est très kontent de sa nouvelle balance ! Merci, grand merci aux gentilles artisanes !"
+106,TEXT_KINGLA105_04972_PAPAWNI_000_093,"C'est moi qui vous remercie. Vraiment, quel plaisir de recevoir les compliments directement du client..."
+107,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_094,"Le Mobelin est spécialisé dans la préparation d'environnements de travail, alors il sait que ces derniers doivent s'adapter à chaque ouvrier. Après tout, chakun a ses préférences !"
+108,TEXT_KINGLA105_04972_CAREMOBLIN04972_100_094,"Papawni a besoin d'entendre les re­mer­cie­ments du klient, pas vrai ? Maintenant qu'elle a trouvé ce qui la motive, elle doit choisir l'endroit qui lui konvient le mieux pour s'épanouir ! Bssshh..."
+109,TEXT_KINGLA105_04972_PAPAWNI_000_095,"Eh bien... Si je peux recevoir des tâches qui me permettent de laisser parler mon attachement aux détails, alors..."
+110,TEXT_KINGLA105_04972_PAPAWNI_100_095,"J'aimerais travailler à nouveau avec vous, Madame Rral Soj !"
+111,TEXT_KINGLA105_04972_RRALSOJ_000_096,"Tu sais, Papawni... Tu incarnes le rêve que je n'ai jamais pu accomplir. Incapable de concevoir des outils de haute qualité, je m'étais résignée à baser les commandes de mon magasin sur la rapidité de livraison."
+112,TEXT_KINGLA105_04972_RRALSOJ_000_097,"Mais avec toi à mes côtés, je pourrais enfin allier les deux. Alors moi aussi, je te le demande : tu veux bien continuer de bosser pour moi ?"
+113,TEXT_KINGLA105_04972_PAPAWNI_000_098,B-bien sûr... ! Avec plaisir !!
+114,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_099,"Bssshh... Tout est bien qui finit bien ! Papawni ne travaillera plus chez les Mobelins, mais elle va pouvoir donner le meilleur d'elle-même !"
+115,TEXT_KINGLA105_04972_RRALSOJ_000_100,"Player... Si j'ai pu discuter avec Papawni et lui dire ce que j'avais sur le cœur, c'est parce que tu as été là pour nous aider."
+116,TEXT_KINGLA105_04972_RRALSOJ_000_101,"Plus que jamais, je réalise que, pour un artisan, se confronter aux méthodes et aux talents des autres est le meilleur moyen d'évoluer. L'expérience des relations que tu as acquise au cours de tes voyages nous a bien dépannées, cette fois-ci."
+117,TEXT_KINGLA105_04972_RRALSOJ_000_102,"Je sais que je ne devrais pas te retenir plus longtemps... Mais j'ai encore besoin de ton aide, au moins jusqu'à ce qu'on arrive à trouver notre rythme de travail, Papawni et moi... !"
+118,TEXT_KINGLA105_04972_RRALSOJ_000_103,"Merci. Allez, retournons à la boutique."
+119,TEXT_KINGLA105_04972_PAPAWNI_000_105,Je suis désolée de vous avoir causé du souci à cause de mon indécision... J'espère que vous me pardonnerez.
+120,TEXT_KINGLA105_04972_PAPAWNI_000_106,"J'étais loin de m'imaginer que madame Rral Soj avait développé un tel complexe d'infériorité vis-à-vis de mon travail, moi qui suis si lente... En tout cas, c'est un vrai bonheur qu'elle ait tenu à me réembaucher !"
+121,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_108,Le Mobelin soutient Papawni de tout son kœur ! Il sait que la jeune main-du-pot va akkomplir des mirakles sur son nouveau lieu de travail !
+122,TEXT_KINGLA105_04972_RRALSOJ_000_110,"Être nourri, logé, choyé par les Mobelins, ce doit être une vie de rêve pour n'importe quel artisan... Mais moi, c'est quand même dans mon atelier que je me sens le mieux."
+123,TEXT_KINGLA105_04972_PAPAWNI_000_111,"Tout à fait. Travailler à La Fournée est plein d'avantages, mais votre boutique a ses bons côtés aussi !"
+124,TEXT_KINGLA105_04972_PAPAWNI_000_112,"J'ai beaucoup apprécié ma vie en tant que main-du-pot, je l'admets... Cependant, je crois qu'il est plus important pour moi d'être en relation directe avec les clients."
+125,TEXT_KINGLA105_04972_RRALSOJ_000_113,"Alors tu es la bienvenue ici, Papawni. Je compte sur toi à l'avenir."
+126,TEXT_KINGLA105_04972_RRALSOJ_000_114,"On va prendre le temps de se concerter un moment sur notre méthode de travail. Tu veux bien patienter un instant, Player ?"
+127,TEXT_KINGLA105_04972_SYSTEM_000_120,"Rral Soj propose la prochaine quête aux forgerons, armuriers ou orfèvres de niveau 98."
+128,TEXT_KINGLA105_04972_SYSTEM_000_121,Il est nécessaire de terminer la quête de l'épopée “La force d'un peuple uni” pour entamer la suivante.
+129,TEXT_KINGLA105_04972_SYSTEM_000_130,"Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
+130,TEXT_KINGLA105_04972_CAREMOBLIN04972_000_041,

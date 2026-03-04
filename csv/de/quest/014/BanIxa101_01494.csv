@@ -1,81 +1,78 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANIXA101_01494_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANIXA101_01494_SEQ_00,"** Schwierigkeitsanpassung**
 ※ Dieser Auftrag wird für Charaktere ab Stufe 41 als Krieger oder Magier und ab Stufe 1 als Handwerker empfohlen.
 
 In Ehcatl hat Yazel Ahuatan einen dringenden Auftrag für dich."
-1,"TEXT_BANIXA101_01494_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
+1,TEXT_BANIXA101_01494_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
 
-Yazel Ahuatan hat dich mit der Herstellung <SheetDe(Item,1,　8091,1,2,1)/> beauftragt. Bitte Dametta in Mühlenhain um Erlaubnis, ihre Arbeitsstätte nutzen zu dürfen."
-2,"TEXT_BANIXA101_01494_SEQ_02","Für die Nutzung ihrer Arbeitsstätte hat dir Dametta eine Bedingung gestellt. Benutze <SheetDe(EventItem,2,2001374,1,4,1)/> an <SheetDe(EObj,1,2004452,1,3,1)/> im Wald als Köder und besiege den so angelockten <SheetDe(BNpcName,5,2984,1,4,1)/>!"
-3,"TEXT_BANIXA101_01494_SEQ_03","Du hast Damettas Wunsch erfüllt. Bring ihr zum Beweis <SheetDe(EventItem,2,2001375,1,4,1)/> zusammen mit <SheetDe(EventItem,2,2001373,1,3,1)/>."
-4,"TEXT_BANIXA101_01494_SEQ_04","Dametta hat dir erlaubt, ihre Arbeitsstätte zu benutzen. Verarbeite <SheetDe(Item,2,　8052,1,4,1)/> zu <SheetDe(Item,1,　8091,1,3,1)/> und bringe es zu Yazel Ahuatan in Ehcatl.
+Yazel Ahuatan hat dich mit der Herstellung  beauftragt. Bitte Dametta in Mühlenhain um Erlaubnis, ihre Arbeitsstätte nutzen zu dürfen."
+2,TEXT_BANIXA101_01494_SEQ_02,Für die Nutzung ihrer Arbeitsstätte hat dir Dametta eine Bedingung gestellt. Benutze  an  im Wald als Köder und besiege den so angelockten !
+3,TEXT_BANIXA101_01494_SEQ_03,Du hast Damettas Wunsch erfüllt. Bring ihr zum Beweis  zusammen mit .
+4,TEXT_BANIXA101_01494_SEQ_04,"Dametta hat dir erlaubt, ihre Arbeitsstätte zu benutzen. Verarbeite  zu  und bringe es zu Yazel Ahuatan in Ehcatl.
 
-※ Sollte der Status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Arbeitsstätte: Herstellung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> enden oder <SheetDe(Item,2,　8052,1,1,1)/> verloren gehen, kannst du Dametta erneut um Hilfe bitten. Sie wird dir dann das Material und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
-5,"TEXT_BANIXA101_01494_SEQ_05","Du hast <SheetDe(Item,2,　8091,1,4,1)/> bei Yazel Ahuatan abgeliefert. Ganz offensichtlich war er früher einsam und ausgestoßen, doch unter der Großen Schwinge hat er seine Bestimmung gefunden: den Traum vom Fliegen zu verwirklichen. Dafür arbeiten er und seine Stammesbrüdern eifrig an der <Emphasis>Dezul Qualan</Emphasis>."
-6,"TEXT_BANIXA101_01494_SEQ_06",""
-7,"TEXT_BANIXA101_01494_SEQ_07",""
-8,"TEXT_BANIXA101_01494_SEQ_08",""
-9,"TEXT_BANIXA101_01494_SEQ_09",""
-10,"TEXT_BANIXA101_01494_SEQ_10",""
-11,"TEXT_BANIXA101_01494_SEQ_11",""
-12,"TEXT_BANIXA101_01494_SEQ_12",""
-13,"TEXT_BANIXA101_01494_SEQ_13",""
-14,"TEXT_BANIXA101_01494_SEQ_14",""
-15,"TEXT_BANIXA101_01494_SEQ_15",""
-16,"TEXT_BANIXA101_01494_SEQ_16",""
-17,"TEXT_BANIXA101_01494_SEQ_17",""
-18,"TEXT_BANIXA101_01494_SEQ_18",""
-19,"TEXT_BANIXA101_01494_SEQ_19",""
-20,"TEXT_BANIXA101_01494_SEQ_20",""
-21,"TEXT_BANIXA101_01494_SEQ_21",""
-22,"TEXT_BANIXA101_01494_SEQ_22",""
-23,"TEXT_BANIXA101_01494_SEQ_23",""
-24,"TEXT_BANIXA101_01494_TODO_00","Mit Dametta in Mühlenhain sprechen"
-25,"TEXT_BANIXA101_01494_TODO_01","An <SheetDe(EObj,1,2004452,1,3,1)/> <SheetDe(BNpcName,2,2984,1,4,1)/> anlocken und erlegen"
-26,"TEXT_BANIXA101_01494_TODO_02","Dametta in Mühlenhain <SheetDe(EventItem,2,2001375,1,4,1)/> und <SheetDe(EventItem,2,2001373,1,4,1)/> geben"
-27,"TEXT_BANIXA101_01494_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Handwerker-Notizbuch (Freundesvölker) St.1: <SheetDe(Item,1,　8091,1,4,1)/> herstellen<Else/>Yazel Ahuatan <SheetDe(Item,2,　8091,1,4,1)/> bringen</If>"
-28,"TEXT_BANIXA101_01494_TODO_04",""
-29,"TEXT_BANIXA101_01494_TODO_05",""
-30,"TEXT_BANIXA101_01494_TODO_06",""
-31,"TEXT_BANIXA101_01494_TODO_07",""
-32,"TEXT_BANIXA101_01494_TODO_08",""
-33,"TEXT_BANIXA101_01494_TODO_09",""
-34,"TEXT_BANIXA101_01494_TODO_10",""
-35,"TEXT_BANIXA101_01494_TODO_11",""
-36,"TEXT_BANIXA101_01494_TODO_12",""
-37,"TEXT_BANIXA101_01494_TODO_13",""
-38,"TEXT_BANIXA101_01494_TODO_14",""
-39,"TEXT_BANIXA101_01494_TODO_15",""
-40,"TEXT_BANIXA101_01494_TODO_16",""
-41,"TEXT_BANIXA101_01494_TODO_17",""
-42,"TEXT_BANIXA101_01494_TODO_18",""
-43,"TEXT_BANIXA101_01494_TODO_19",""
-44,"TEXT_BANIXA101_01494_TODO_20",""
-45,"TEXT_BANIXA101_01494_TODO_21",""
-46,"TEXT_BANIXA101_01494_TODO_22",""
-47,"TEXT_BANIXA101_01494_TODO_23",""
-48,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_000","Khaa, khaa! Federlose<If(PlayerParameter(4))><Else/>r</If>, machst du mir <SheetDe(Item,1,　8091,1,4,1)/>? Geb ich dir Material dafür."
-49,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_010","Und zwar brauchen ich ein Druckventil, verstehst du? Um Flughöhe zu senken, muss man Gas ablassen. Is' klar, khaa!"
-50,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_020","Und zwar brauchen ich gutes Gerbmittel, verstehst du? Ballonhaut machen wir aus ganz dünnem Leder, khaa!"
-51,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_030","Und zwar brauchen ich Stoff oder Leder für Ballonhülle, verstehst du? Großem Druck muss Hülle standhalten, sonst sie platzen und großes Unglück passieren, khaa!"
-52,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_040","In Mühlenhain geben gute Arbeitsstätte. Bei federlose Dametta. Khaa! Gehst du zu ihr und machst Bauteil, khaa!"
-53,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_050","Machst du in Mühlenhain <SheetDe(Item,2,　8091,1,4,1)/>, khaa. Dametta hat gute Arbeitsstätte."
-54,"TEXT_BANIXA101_01494_DAMETTA_000_060","Du möchtest meine Arbeitsstätte benutzen? Das kann ich gut verstehen. Der Steintisch ist robust und hat genau die richtige Höhe, um bequem im Stehen arbeiten zu können."
-55,"TEXT_BANIXA101_01494_DAMETTA_000_061","Kannst du mir vorher einen klitzekleinen Gefallen tun? Ein besonders hungriger Opo-Opo klaut mir sämtliche Bohnen aus der Vorratskammer. Bitte, leg dem Dieb das Handwerk!"
-56,"TEXT_BANIXA101_01494_DAMETTA_000_062","Sein Revier liegt in der Nähe von E-Tatts Wachturm. An einer Reviermarkierung kannst du ihn mit reifen Mun-Tuy-Bohnen anlocken. Hier, ich geb dir einen Sack davon mit. Wenn du ihn erlegt hast, bring mir seine Klaue als Trophäe!"
-57,"TEXT_BANIXA101_01494_DAMETTA_000_070","Wie du ihn anlocken kannst? Na, mit schön reifen Mun-Tuy-Bohnen natürlich! Ich hab dir doch einen Sack voll Bohnen mitgegeben. Vergiss nicht, mir <SheetDe(EventItem,2,2001375,1,4,1)/> als Trophäe zu bringen!"
-58,"TEXT_BANIXA101_01494_DAMETTA_000_071","Willst du gleich schon los? Oder hast du noch kurz Zeit für ein kleines Schwätzchen?"
-59,"TEXT_BANIXA101_01494_DAMETTA_000_072","Ach, in Mühlenhain ist es ja so schön ... und die Gaben des Waldes ... Ach, ja, und die Mun-Tuy-Bohnen ... <blablabla>"
-60,"TEXT_BANIXA101_01494_DAMETTA_000_073","Dann habe ich natürlich sofort ... und überhaupt ... und noch mehr Mun-Tuy-Bohnen ...<blablabla>"
-61,"TEXT_BANIXA101_01494_SYSTEM_100_073","Dametta redet ... und redet ... und redet ..."
-62,"TEXT_BANIXA101_01494_POP_MESSAGE","Der hungrige Opo-Opo ist in deine Falle getappt!"
-63,"TEXT_BANIXA101_01494_DAMETTA_000_090","Bringst du mir <SheetDe(EventItem,2,2001375,1,4,1)/>? Zeig doch mal her! Dann kannst du gerne meine Arbeitsstätte benutzen. Ach ja, gib mir auch das Material, dass du verarbeiten willst, damit ich alles vorbereiten kann."
-64,"TEXT_BANIXA101_01494_DAMETTA_000_091","Nicht schlecht! Das Material taugt etwas, keine Frage. Hier, nimm dir, so viel du brauchst. Den Rest verwahre ich für dich. Bitte, fang ruhig an! Die Arbeitsstätte ist bereit!"
-65,"TEXT_BANIXA101_01494_DAMETTA_000_100","Falls das Material nicht reicht oder du mit der Arbeitsstätte nicht zurechtkommst, dann frag mich einfach. Ich bin sicher, wir kriegen das hin."
-66,"TEXT_BANIXA101_01494_DAMETTA_100_100","Na, bist du fertig mit der Arbeit? Dann lass deinen Auftraggeber nicht länger warten! Falls du den Gegenstand verlieren solltest und neu anfertigen musst, kannst du dich gerne wieder bei mir melden."
-67,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_130","Khaa, wie sieht aus? Bringst du mir <SheetDe(Item,2,　8091,1,4,1)/>?"
-68,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_131","Danke, khaa! Wirklich nett für <If(PlayerParameter(4))>eine Federlose<Else/>einen Federlosen</If>! Fast so großartig wie Große Schwinge!"
-69,"TEXT_BANIXA101_01494_YAZELAHUATAN_000_132","Hat mich Große Schwinge aufgenommen, als ich ganz allein war. Jetzt wir leben für Traum vom Fliegen. Bringst du uns einen Schritt weiter, khaa! Mir kommen Tränen, khaa ..."
-70,"TEXT_BANIXA101_01494_POPMESSAGE_000_200","Die Arbeitsstätte steht dir jetzt zur Verfügung."
+※ Sollte der Status **Arbeitsstätte: Herstellung** enden oder  verloren gehen, kannst du Dametta erneut um Hilfe bitten. Sie wird dir dann das Material und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
+5,TEXT_BANIXA101_01494_SEQ_05,"Du hast  bei Yazel Ahuatan abgeliefert. Ganz offensichtlich war er früher einsam und ausgestoßen, doch unter der Großen Schwinge hat er seine Bestimmung gefunden: den Traum vom Fliegen zu verwirklichen. Dafür arbeiten er und seine Stammesbrüdern eifrig an der *Dezul Qualan*."
+6,TEXT_BANIXA101_01494_SEQ_06,
+7,TEXT_BANIXA101_01494_SEQ_07,
+8,TEXT_BANIXA101_01494_SEQ_08,
+9,TEXT_BANIXA101_01494_SEQ_09,
+10,TEXT_BANIXA101_01494_SEQ_10,
+11,TEXT_BANIXA101_01494_SEQ_11,
+12,TEXT_BANIXA101_01494_SEQ_12,
+13,TEXT_BANIXA101_01494_SEQ_13,
+14,TEXT_BANIXA101_01494_SEQ_14,
+15,TEXT_BANIXA101_01494_SEQ_15,
+16,TEXT_BANIXA101_01494_SEQ_16,
+17,TEXT_BANIXA101_01494_SEQ_17,
+18,TEXT_BANIXA101_01494_SEQ_18,
+19,TEXT_BANIXA101_01494_SEQ_19,
+20,TEXT_BANIXA101_01494_SEQ_20,
+21,TEXT_BANIXA101_01494_SEQ_21,
+22,TEXT_BANIXA101_01494_SEQ_22,
+23,TEXT_BANIXA101_01494_SEQ_23,
+24,TEXT_BANIXA101_01494_TODO_00,Mit Dametta in Mühlenhain sprechen
+25,TEXT_BANIXA101_01494_TODO_01,An   anlocken und erlegen
+26,TEXT_BANIXA101_01494_TODO_02,Dametta in Mühlenhain  und  geben
+27,TEXT_BANIXA101_01494_TODO_03,Handwerker-Notizbuch (Freundesvölker) St.1:  herstellen
+28,TEXT_BANIXA101_01494_TODO_04,
+29,TEXT_BANIXA101_01494_TODO_05,
+30,TEXT_BANIXA101_01494_TODO_06,
+31,TEXT_BANIXA101_01494_TODO_07,
+32,TEXT_BANIXA101_01494_TODO_08,
+33,TEXT_BANIXA101_01494_TODO_09,
+34,TEXT_BANIXA101_01494_TODO_10,
+35,TEXT_BANIXA101_01494_TODO_11,
+36,TEXT_BANIXA101_01494_TODO_12,
+37,TEXT_BANIXA101_01494_TODO_13,
+38,TEXT_BANIXA101_01494_TODO_14,
+39,TEXT_BANIXA101_01494_TODO_15,
+40,TEXT_BANIXA101_01494_TODO_16,
+41,TEXT_BANIXA101_01494_TODO_17,
+42,TEXT_BANIXA101_01494_TODO_18,
+43,TEXT_BANIXA101_01494_TODO_19,
+44,TEXT_BANIXA101_01494_TODO_20,
+45,TEXT_BANIXA101_01494_TODO_21,
+46,TEXT_BANIXA101_01494_TODO_22,
+47,TEXT_BANIXA101_01494_TODO_23,
+48,TEXT_BANIXA101_01494_YAZELAHUATAN_000_000,"Khaa, khaa! Federlose, machst du mir ? Geb ich dir Material dafür."
+49,TEXT_BANIXA101_01494_YAZELAHUATAN_000_010,"Und zwar brauchen ich ein Druckventil, verstehst du? Um Flughöhe zu senken, muss man Gas ablassen. Is' klar, khaa!"
+50,TEXT_BANIXA101_01494_YAZELAHUATAN_000_020,"Und zwar brauchen ich gutes Gerbmittel, verstehst du? Ballonhaut machen wir aus ganz dünnem Leder, khaa!"
+51,TEXT_BANIXA101_01494_YAZELAHUATAN_000_030,"Und zwar brauchen ich Stoff oder Leder für Ballonhülle, verstehst du? Großem Druck muss Hülle standhalten, sonst sie platzen und großes Unglück passieren, khaa!"
+52,TEXT_BANIXA101_01494_YAZELAHUATAN_000_040,"In Mühlenhain geben gute Arbeitsstätte. Bei federlose Dametta. Khaa! Gehst du zu ihr und machst Bauteil, khaa!"
+53,TEXT_BANIXA101_01494_YAZELAHUATAN_000_050,"Machst du in Mühlenhain , khaa. Dametta hat gute Arbeitsstätte."
+54,TEXT_BANIXA101_01494_DAMETTA_000_060,"Du möchtest meine Arbeitsstätte benutzen? Das kann ich gut verstehen. Der Steintisch ist robust und hat genau die richtige Höhe, um bequem im Stehen arbeiten zu können."
+55,TEXT_BANIXA101_01494_DAMETTA_000_061,"Kannst du mir vorher einen klitzekleinen Gefallen tun? Ein besonders hungriger Opo-Opo klaut mir sämtliche Bohnen aus der Vorratskammer. Bitte, leg dem Dieb das Handwerk!"
+56,TEXT_BANIXA101_01494_DAMETTA_000_062,"Sein Revier liegt in der Nähe von E-Tatts Wachturm. An einer Reviermarkierung kannst du ihn mit reifen Mun-Tuy-Bohnen anlocken. Hier, ich geb dir einen Sack davon mit. Wenn du ihn erlegt hast, bring mir seine Klaue als Trophäe!"
+57,TEXT_BANIXA101_01494_DAMETTA_000_070,"Wie du ihn anlocken kannst? Na, mit schön reifen Mun-Tuy-Bohnen natürlich! Ich hab dir doch einen Sack voll Bohnen mitgegeben. Vergiss nicht, mir  als Trophäe zu bringen!"
+58,TEXT_BANIXA101_01494_DAMETTA_000_071,Willst du gleich schon los? Oder hast du noch kurz Zeit für ein kleines Schwätzchen?
+59,TEXT_BANIXA101_01494_DAMETTA_000_072,"Ach, in Mühlenhain ist es ja so schön ... und die Gaben des Waldes ... Ach, ja, und die Mun-Tuy-Bohnen ... <blablabla>"
+60,TEXT_BANIXA101_01494_DAMETTA_000_073,Dann habe ich natürlich sofort ... und überhaupt ... und noch mehr Mun-Tuy-Bohnen ...<blablabla>
+61,TEXT_BANIXA101_01494_SYSTEM_100_073,Dametta redet ... und redet ... und redet ...
+62,TEXT_BANIXA101_01494_POP_MESSAGE,Der hungrige Opo-Opo ist in deine Falle getappt!
+63,TEXT_BANIXA101_01494_DAMETTA_000_090,"Bringst du mir ? Zeig doch mal her! Dann kannst du gerne meine Arbeitsstätte benutzen. Ach ja, gib mir auch das Material, dass du verarbeiten willst, damit ich alles vorbereiten kann."
+64,TEXT_BANIXA101_01494_DAMETTA_000_091,"Nicht schlecht! Das Material taugt etwas, keine Frage. Hier, nimm dir, so viel du brauchst. Den Rest verwahre ich für dich. Bitte, fang ruhig an! Die Arbeitsstätte ist bereit!"
+65,TEXT_BANIXA101_01494_DAMETTA_000_100,"Falls das Material nicht reicht oder du mit der Arbeitsstätte nicht zurechtkommst, dann frag mich einfach. Ich bin sicher, wir kriegen das hin."
+66,TEXT_BANIXA101_01494_DAMETTA_100_100,"Na, bist du fertig mit der Arbeit? Dann lass deinen Auftraggeber nicht länger warten! Falls du den Gegenstand verlieren solltest und neu anfertigen musst, kannst du dich gerne wieder bei mir melden."
+67,TEXT_BANIXA101_01494_YAZELAHUATAN_000_130,"Khaa, wie sieht aus? Bringst du mir ?"
+68,TEXT_BANIXA101_01494_YAZELAHUATAN_000_131,"Danke, khaa! Wirklich nett für eine Federlose! Fast so großartig wie Große Schwinge!"
+69,TEXT_BANIXA101_01494_YAZELAHUATAN_000_132,"Hat mich Große Schwinge aufgenommen, als ich ganz allein war. Jetzt wir leben für Traum vom Fliegen. Bringst du uns einen Schritt weiter, khaa! Mir kommen Tränen, khaa ..."
+70,TEXT_BANIXA101_01494_POPMESSAGE_000_200,Die Arbeitsstätte steht dir jetzt zur Verfügung.

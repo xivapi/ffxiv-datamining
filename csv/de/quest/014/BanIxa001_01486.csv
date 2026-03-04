@@ -1,96 +1,93 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANIXA001_01486_SEQ_00","※ Dieser Auftrag wird für Charaktere ab Stufe 41 als Krieger oder Magier und ab Stufe 1 als Handwerker empfohlen.
+0,TEXT_BANIXA001_01486_SEQ_00,"※ Dieser Auftrag wird für Charaktere ab Stufe 41 als Krieger oder Magier und ab Stufe 1 als Handwerker empfohlen.
 
 Schlangenpriesterin Scarlet macht eine ernste Miene und schaut dich erwartungsvoll an."
-1,"TEXT_BANIXA001_01486_SEQ_01","Nachdem sie dir die Neuigkeiten über den Angriff durch einen Panzerballon der Ixal berichtet hat, bittet Scarlet dich, den Soldaten bei E-Tatts Wachturm unter die Arme zu greifen. Begib dich in den Nordwald und melde dich bei Guithrit."
-2,"TEXT_BANIXA001_01486_SEQ_02","Du hast von Guithrit erfahren, dass ein gut platzierter Pfeil den Panzerballon der Ixal zum Absturz gebracht hat. Suche im Friedensgarten nach dem Wrack und stelle sicher, dass das Fluggerät des Wilden Stammes keinen Schaden mehr anrichten kann. "
-3,"TEXT_BANIXA001_01486_SEQ_03","Bei der Unter<SoftHyphen/>such<SoftHyphen/>ung der Absturzstelle entdeckst du ein wichtig aussehendes Teil des Kriegsballons. Kehre zu E-Tatts Wachturm zurück und lasse es von Guithrit in Augenschein nehmen."
-4,"TEXT_BANIXA001_01486_SEQ_04","Guithrit untersucht <SheetDe(EventItem,2,2001363,1,4,1)/>, aber er ist sich nicht sicher, welche Funktion das Ballonteil gehabt haben könnte. Er nimmt jedoch zufrieden zur Kenntnis, dass der Ballon der Ixal in der Tat außer Gefecht gesetzt ist, und bittet dich darum, an die Absturzstelle zurückzukehren, um nach Ixal Ausschau zu halten, die sich noch immer in der Gegend befinden könnten."
-5,"TEXT_BANIXA001_01486_SEQ_05","Nachdem du unweit von der Absturzstelle einen Haufen zerlegter Ballonteile entdeckt hast, siehst du dich plötzlich mit zwei ungewöhnlichen Ixal konfrontiert. Anstatt dich jedoch anzugreifen, schlägt ihr Häuptling, ein gewisser Sezul Totoloq, dir einen Handel vor: Er möchte das Ballonteil von seinem abgestürzten Fluggerät erwerben. Gehe durch das nahegelegene Holztor und übergib <SheetDe(EventItem,2,2001363,1,4,1)/> an den Anführer des Wilden Stammes."
-6,"TEXT_BANIXA001_01486_SEQ_06","Häuptling Sezul heißt dich in seinem Lager willkommen und stellt dir seine Kameraden vor. Es handelt sich um eine Gruppe von Ausgestoßenen, die nicht dem Primae Garuda huldigen, sondern lediglich ihren Traum vom Fliegen verfolgen wollen ..."
-7,"TEXT_BANIXA001_01486_SEQ_07",""
-8,"TEXT_BANIXA001_01486_SEQ_08",""
-9,"TEXT_BANIXA001_01486_SEQ_09",""
-10,"TEXT_BANIXA001_01486_SEQ_10",""
-11,"TEXT_BANIXA001_01486_SEQ_11",""
-12,"TEXT_BANIXA001_01486_SEQ_12",""
-13,"TEXT_BANIXA001_01486_SEQ_13",""
-14,"TEXT_BANIXA001_01486_SEQ_14",""
-15,"TEXT_BANIXA001_01486_SEQ_15",""
-16,"TEXT_BANIXA001_01486_SEQ_16",""
-17,"TEXT_BANIXA001_01486_SEQ_17",""
-18,"TEXT_BANIXA001_01486_SEQ_18",""
-19,"TEXT_BANIXA001_01486_SEQ_19",""
-20,"TEXT_BANIXA001_01486_SEQ_20",""
-21,"TEXT_BANIXA001_01486_SEQ_21",""
-22,"TEXT_BANIXA001_01486_SEQ_22",""
-23,"TEXT_BANIXA001_01486_SEQ_23",""
-24,"TEXT_BANIXA001_01486_TODO_00","Mit Guithrit an E-Tatts Wachturm sprechen"
-25,"TEXT_BANIXA001_01486_TODO_01","Die Absturzstelle des Panzerballons untersuchen"
-26,"TEXT_BANIXA001_01486_TODO_02","Guithrit <SheetDe(EventItem,2,2001363,1,4,1)/> zeigen"
-27,"TEXT_BANIXA001_01486_TODO_03","Die Absturzstelle des Panzerballons genauer untersuchen"
-28,"TEXT_BANIXA001_01486_TODO_04","<Clickable(<SheetDe(EventItem,2,2001363,1,4,1)/>)/> bei Sezul Totoloq abliefern"
-29,"TEXT_BANIXA001_01486_TODO_05",""
-30,"TEXT_BANIXA001_01486_TODO_06",""
-31,"TEXT_BANIXA001_01486_TODO_07",""
-32,"TEXT_BANIXA001_01486_TODO_08",""
-33,"TEXT_BANIXA001_01486_TODO_09",""
-34,"TEXT_BANIXA001_01486_TODO_10",""
-35,"TEXT_BANIXA001_01486_TODO_11",""
-36,"TEXT_BANIXA001_01486_TODO_12",""
-37,"TEXT_BANIXA001_01486_TODO_13",""
-38,"TEXT_BANIXA001_01486_TODO_14",""
-39,"TEXT_BANIXA001_01486_TODO_15",""
-40,"TEXT_BANIXA001_01486_TODO_16",""
-41,"TEXT_BANIXA001_01486_TODO_17",""
-42,"TEXT_BANIXA001_01486_TODO_18",""
-43,"TEXT_BANIXA001_01486_TODO_19",""
-44,"TEXT_BANIXA001_01486_TODO_20",""
-45,"TEXT_BANIXA001_01486_TODO_21",""
-46,"TEXT_BANIXA001_01486_TODO_22",""
-47,"TEXT_BANIXA001_01486_TODO_23",""
-48,"TEXT_BANIXA001_01486_SCARLET_000_000","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><If(GreaterThan(PlayerParameter(53),0))><If(GreaterThan(PlayerParameter(52),0))><If(PlayerParameter(4))><Sheet(GCRankLimsaFemaleText,PlayerParameter(52),0)/><Else/><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/></If><Else/><If(GreaterThan(PlayerParameter(53),0))><If(PlayerParameter(4))><Sheet(GCRankGridaniaFemaleText,PlayerParameter(53),0)/><Else/><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/></If><Else/><If(GreaterThan(PlayerParameter(54),0))><If(PlayerParameter(4))><Sheet(GCRankUldahFemaleText,PlayerParameter(54),0)/><Else/><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/></If><Else/></If></If></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If></If>, wir haben ein ernstes Problem."
-49,"TEXT_BANIXA001_01486_SCARLET_000_001","Uns erreichen Berichte von Aufklärern an E-Tatts Wachturm, denen zufolge sie von Ixal angegriffen werden."
-50,"TEXT_BANIXA001_01486_SCARLET_000_002","Anscheinend wurden sie von einem Panzerballon des Vogelstammes attackiert, wobei es zu hohen Verlusten kam."
-51,"TEXT_BANIXA001_01486_SCARLET_000_003","Hast du schon einmal ein Luftschiff dieses Wilden Stammes zu Gesicht bekommen? Die Ixal statten sie mit explosiver Munition aus und lassen einen wahren Feuerregen über ihren Zielen niedergehen."
-52,"TEXT_BANIXA001_01486_SCARLET_000_004","Sie fliegen zwar in relativ niedriger Höhe und damit in Reichweite unserer Bogenschützen, aber die Außenhaut des Ballons ist dick und schwer zu durchdringen ... was jedoch nicht unmöglich ist."
-53,"TEXT_BANIXA001_01486_SCARLET_000_005","Darum haben wir überall im Finsterwald Wachtürme zur Verteidigung gegen Angriffe aus der Luft errichtet. Leider sind sie aufgrund anderer Konflikte derzeit chronisch unterbesetzt."
-54,"TEXT_BANIXA001_01486_SCARLET_000_006","Ich bitte dich, sofort in den Nordwald aufzubrechen und unsere Garnison an E-Tatts Wachturm zu unterstützen. Ich bin mir sicher, Guithrit weiß deine Hilfe zu schätzen."
-55,"TEXT_BANIXA001_01486_SCARLET_000_007","Melde dich bei Guithrit an E-Tatts Wachturm und unterstütze die Soldaten dort bei der Verteidigung. Wir können nicht zulassen, dass die Ixal unseren Vorposten im Nordwald ausschalten!"
-56,"TEXT_BANIXA001_01486_GUITHRIT_000_010","Schlangenpriesterin Scarlet schickt dich? Nophica sei Dank! Ich glaube zwar, dass wir das Schlimmste überstanden haben, aber meine Männer sind verwundet und erschöpft."
-57,"TEXT_BANIXA001_01486_GUITHRIT_000_011","Ein gut platzierter Schuss war unsere Rettung. Der Pfeil eines Novizen hat ein Loch in die Luftkammer des Ballons geschlagen und das Gefährt der Ixal zum Absturz gebracht. Ha! Das Gekreische konnte man bis hierhin hören!"
-58,"TEXT_BANIXA001_01486_GUITHRIT_000_012","Ich hatte schon Angst, der Panzerballon könnte an uns vorbeiziehen und über Gridania Unheil stiften ... Aber dank der Zwölf - und eines gewissen Novizen - ist uns dieses Schicksal erspart geblieben."
-59,"TEXT_BANIXA001_01486_GUITHRIT_000_013","Nichtsdestotrotz befinden wir uns in einem bedauerlichen Zustand und hätten einem weiteren Angriff der Ixal nicht viel entgegenzusetzen. Bitte brich Richtung Norden zum Friedensgarten auf und sieh nach, was aus ihrem abgestürzten Ballon geworden ist."
-60,"TEXT_BANIXA001_01486_GUITHRIT_000_015","Ich habe mir sagen lassen, dass diese Ballons der Ixal mit einer Art Gas gefüllt sind, das ihnen Auftrieb verleiht. Wir sollten Kreaturen, die zu solch genialen Erfindungen in der Lage sind, lieber nicht unter<SoftHyphen/>schätzen ..."
-61,"TEXT_BANIXA001_01486_GUITHRIT_000_030","Hast du den abgestürzten Ballon gefunden? War er noch intakt?"
-62,"TEXT_BANIXA001_01486_GUITHRIT_000_031","Hmm ... Ich bin mir nicht sicher, ob dieses Teil von dem Fluggerät stammt oder vielleicht einem ganz anderen Zweck dient. Es lässt sich jedoch mit Sicherheit sagen, dass es von den Ixal entworfen wurde."
-63,"TEXT_BANIXA001_01486_GUITHRIT_000_032","Panzerballons wurden von den Ixal erfunden, um ihre Hoheit über die Lüfte sicherzustellen. Mit diesen Gefährten sind sie in der Lage, sich unseren Bodentruppen zu entziehen und ungestraft tief in den Finsterwald vorzudringen."
-64,"TEXT_BANIXA001_01486_GUITHRIT_000_033","Sie setzen sie jedoch nicht nur zu kriegerischen Zwecken ein, sondern beförden damit auch Baumstämme, die bei ihren zunehmenden Abholzungsaktivitäten anfallen."
-65,"TEXT_BANIXA001_01486_GUITHRIT_000_034","Um dieser unwillkommenen und zerstörerischen Präsenz etwas entgegenzusetzen, errichteten wir überall im Wald Wachtürme. Ich kann mir gut vorstellen, dass die Ixal über diese Verstärkung unserer Grenzen nicht gerade erfreut sind."
-66,"TEXT_BANIXA001_01486_GUITHRIT_000_035","Vermutlich war das Ziel des jüngsten Angriffes gar die Zerstörung von E-Tatts Wachturm. Ich bin hin- und hergerissen, <If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><If(GreaterThan(PlayerParameter(53),0))><If(GreaterThan(PlayerParameter(52),0))><If(PlayerParameter(4))><Sheet(GCRankLimsaFemaleText,PlayerParameter(52),0)/><Else/><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/></If><Else/><If(GreaterThan(PlayerParameter(53),0))><If(PlayerParameter(4))><Sheet(GCRankGridaniaFemaleText,PlayerParameter(53),0)/><Else/><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/></If><Else/><If(GreaterThan(PlayerParameter(54),0))><If(PlayerParameter(4))><Sheet(GCRankUldahFemaleText,PlayerParameter(54),0)/><Else/><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/></If><Else/></If></If></If><Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If></If>. Wir dürfen unsere Verteidigungslinie hier nicht schwächen, aber ich würde auch gerne sicherstellen, dass der Feind nicht in der Nähe lauert und auf eine günstige Gelegenheit für Sabotageakte wartet."
-67,"TEXT_BANIXA001_01486_GUITHRIT_000_036","Daher würde ich gerne dich darum bitten, die Absturzstelle erneut aufzusuchen und nach unseren Feinden Ausschau zu halten. Ich hoffe jedoch, dass meine Sorgen gänzlich unbegründet sind ..."
-68,"TEXT_BANIXA001_01486_GUITHRIT_000_037","Bitte kehre zur Absturzstelle des Ixal-Ballons zurück und halte nach den Vogelwesen Ausschau. Ich hoffe jedoch für uns beide, dass du dort nicht fündig wirst ..."
-69,"TEXT_BANIXA001_01486_IXAL01486_000_040","(-Widerspenstiger Ixal-)Khaa! Gehst du weg da, Federlose<If(PlayerParameter(4))><Else/>r</If>! Zerlegen wir Kriegsballon!"
-70,"TEXT_BANIXA001_01486_IXAL01486_000_041","(-Widerspenstiger Ixal-)Nicht anfassen, was nicht gehört! Bergungsrecht, ja? Alles uns!"
-71,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_042","(-???-)Genug jetzt! Was sollen Gekrächze und Gekreische!?"
-72,"TEXT_BANIXA001_01486_IXAL01486_000_043","(-Widerspenstiger Ixal-)Khaa! Siehst du, Große Schwinge Totoloq!"
-73,"TEXT_BANIXA001_01486_IXAL01486_100_043","(-Widerspenstiger Ixal-)Hat Federlose<If(PlayerParameter(4))><Else/>r</If> gesuchtes Teil! Wir umsonst Wrack durchsucht!"
-74,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_044","Dünnhäutiges Küken! Beruhigst du dich! Red ich mit Federlose<If(PlayerParameter(4))>r<Else/>m</If>."
-75,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_045","Hmm ... Könntest du sein Handwerker? Nein, Kleidung ist falsch. Keine Kleidung für ehrliche Arbeit."
-76,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_046","Khaa! Lässt du Waffe stecken! Wir Ixal, aber nicht gleiche Art wie Turm angreifen welche."
-77,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_047","Du genommen Ballonteil ... Nichts wert sein für dich, ja? Wir möchten haben."
-78,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_048","Nicht mit Gewalt, nein! Und nicht umsonst. Machen wir Handel, gut? Kommst du ins Lager. Zeigen dir unsere Arbeit!"
-79,"TEXT_BANIXA001_01486_IXAL01486_000_049","(-Widerspenstiger Ixal-)Aber, Große Schwinge! Federlose<If(PlayerParameter(4))><Else/>n</If> lieber nicht in Lager lassen! Unsere Geheimnisse verraten sonst!"
-80,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_050","Khaa! Stellst du meine Befehle nicht in Frage! Ist Entscheidung von Sezul! Hältst du krächzenden Schnabel, sonst aufhängen am nächste Baum!"
-81,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_051","Federlose<If(PlayerParameter(4))><Else/>r</If> habt scharfen Blick. Freu ich mich auf nächstes Treffen."
-82,"TEXT_BANIXA001_01486_IXAL01486_000_052","(-Widerspenstiger Ixal-)Hörst du gut zu, Federlose<If(PlayerParameter(4))><Else/>r</If>. Wenn du Vertrauen von Sezul verrätst, ich dir Haut von wertlose Knochen abziehe!"
-83,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_060","Kommst du in Höhle von Ixal? Mutig, mutig. Nicht gewusst, dass solche Lager geben, hä? Nun Sezul hätte gern Ballonteil und dein Name ..."
-84,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_061","Ja, ja! Khaa! Lange danach gesucht haben! Danke, <If(PlayerParameter(4))>Kollegin<Else/>Kollege</If>!"
-85,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_062","Weißt du, was das ist, hm? Ist Spezialstein. Zum Machen Instrument für Messen von Windgeschwindigkeit. Nur zu finden in Xelphatol, sehr selten! Sogar ich nicht Instrumente ohne bauen kann, obwohl ziemlich schlau!"
-86,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_063","Khaa? Scheinst du verwirrt zu sein, was? Fragst dich, warum ich nicht gehe nach Xelphatol, um Nachschub holen, ja?"
-87,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_064","Hörst du gut zu! Wir nicht wie Ixal von Natalan und anderswo. Nicht kämpfen mit Waldleuten. Sind Ausgestoßene!"
-88,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_065","Nennst du uns „Wolkengleiter von Ehcatl“! Klingt super, oder? Majestätisch und so ..."
-89,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_066","Haben wir nur ein Ziel: fliegen frei wie Wind!"
-90,"TEXT_BANIXA001_01486_SEZULTOTOLOC_000_067","Wir nicht interessieren für Krieg mit Leuten oder Göttin anbeten! Unsere Augen auf Himmel gerichtet!"
+1,TEXT_BANIXA001_01486_SEQ_01,"Nachdem sie dir die Neuigkeiten über den Angriff durch einen Panzerballon der Ixal berichtet hat, bittet Scarlet dich, den Soldaten bei E-Tatts Wachturm unter die Arme zu greifen. Begib dich in den Nordwald und melde dich bei Guithrit."
+2,TEXT_BANIXA001_01486_SEQ_02,"Du hast von Guithrit erfahren, dass ein gut platzierter Pfeil den Panzerballon der Ixal zum Absturz gebracht hat. Suche im Friedensgarten nach dem Wrack und stelle sicher, dass das Fluggerät des Wilden Stammes keinen Schaden mehr anrichten kann. "
+3,TEXT_BANIXA001_01486_SEQ_03,Bei der Unter­such­ung der Absturzstelle entdeckst du ein wichtig aussehendes Teil des Kriegsballons. Kehre zu E-Tatts Wachturm zurück und lasse es von Guithrit in Augenschein nehmen.
+4,TEXT_BANIXA001_01486_SEQ_04,"Guithrit untersucht , aber er ist sich nicht sicher, welche Funktion das Ballonteil gehabt haben könnte. Er nimmt jedoch zufrieden zur Kenntnis, dass der Ballon der Ixal in der Tat außer Gefecht gesetzt ist, und bittet dich darum, an die Absturzstelle zurückzukehren, um nach Ixal Ausschau zu halten, die sich noch immer in der Gegend befinden könnten."
+5,TEXT_BANIXA001_01486_SEQ_05,"Nachdem du unweit von der Absturzstelle einen Haufen zerlegter Ballonteile entdeckt hast, siehst du dich plötzlich mit zwei ungewöhnlichen Ixal konfrontiert. Anstatt dich jedoch anzugreifen, schlägt ihr Häuptling, ein gewisser Sezul Totoloq, dir einen Handel vor: Er möchte das Ballonteil von seinem abgestürzten Fluggerät erwerben. Gehe durch das nahegelegene Holztor und übergib  an den Anführer des Wilden Stammes."
+6,TEXT_BANIXA001_01486_SEQ_06,"Häuptling Sezul heißt dich in seinem Lager willkommen und stellt dir seine Kameraden vor. Es handelt sich um eine Gruppe von Ausgestoßenen, die nicht dem Primae Garuda huldigen, sondern lediglich ihren Traum vom Fliegen verfolgen wollen ..."
+7,TEXT_BANIXA001_01486_SEQ_07,
+8,TEXT_BANIXA001_01486_SEQ_08,
+9,TEXT_BANIXA001_01486_SEQ_09,
+10,TEXT_BANIXA001_01486_SEQ_10,
+11,TEXT_BANIXA001_01486_SEQ_11,
+12,TEXT_BANIXA001_01486_SEQ_12,
+13,TEXT_BANIXA001_01486_SEQ_13,
+14,TEXT_BANIXA001_01486_SEQ_14,
+15,TEXT_BANIXA001_01486_SEQ_15,
+16,TEXT_BANIXA001_01486_SEQ_16,
+17,TEXT_BANIXA001_01486_SEQ_17,
+18,TEXT_BANIXA001_01486_SEQ_18,
+19,TEXT_BANIXA001_01486_SEQ_19,
+20,TEXT_BANIXA001_01486_SEQ_20,
+21,TEXT_BANIXA001_01486_SEQ_21,
+22,TEXT_BANIXA001_01486_SEQ_22,
+23,TEXT_BANIXA001_01486_SEQ_23,
+24,TEXT_BANIXA001_01486_TODO_00,Mit Guithrit an E-Tatts Wachturm sprechen
+25,TEXT_BANIXA001_01486_TODO_01,Die Absturzstelle des Panzerballons untersuchen
+26,TEXT_BANIXA001_01486_TODO_02,Guithrit  zeigen
+27,TEXT_BANIXA001_01486_TODO_03,Die Absturzstelle des Panzerballons genauer untersuchen
+28,TEXT_BANIXA001_01486_TODO_04, bei Sezul Totoloq abliefern
+29,TEXT_BANIXA001_01486_TODO_05,
+30,TEXT_BANIXA001_01486_TODO_06,
+31,TEXT_BANIXA001_01486_TODO_07,
+32,TEXT_BANIXA001_01486_TODO_08,
+33,TEXT_BANIXA001_01486_TODO_09,
+34,TEXT_BANIXA001_01486_TODO_10,
+35,TEXT_BANIXA001_01486_TODO_11,
+36,TEXT_BANIXA001_01486_TODO_12,
+37,TEXT_BANIXA001_01486_TODO_13,
+38,TEXT_BANIXA001_01486_TODO_14,
+39,TEXT_BANIXA001_01486_TODO_15,
+40,TEXT_BANIXA001_01486_TODO_16,
+41,TEXT_BANIXA001_01486_TODO_17,
+42,TEXT_BANIXA001_01486_TODO_18,
+43,TEXT_BANIXA001_01486_TODO_19,
+44,TEXT_BANIXA001_01486_TODO_20,
+45,TEXT_BANIXA001_01486_TODO_21,
+46,TEXT_BANIXA001_01486_TODO_22,
+47,TEXT_BANIXA001_01486_TODO_23,
+48,TEXT_BANIXA001_01486_SCARLET_000_000,"Player, wir haben ein ernstes Problem."
+49,TEXT_BANIXA001_01486_SCARLET_000_001,"Uns erreichen Berichte von Aufklärern an E-Tatts Wachturm, denen zufolge sie von Ixal angegriffen werden."
+50,TEXT_BANIXA001_01486_SCARLET_000_002,"Anscheinend wurden sie von einem Panzerballon des Vogelstammes attackiert, wobei es zu hohen Verlusten kam."
+51,TEXT_BANIXA001_01486_SCARLET_000_003,Hast du schon einmal ein Luftschiff dieses Wilden Stammes zu Gesicht bekommen? Die Ixal statten sie mit explosiver Munition aus und lassen einen wahren Feuerregen über ihren Zielen niedergehen.
+52,TEXT_BANIXA001_01486_SCARLET_000_004,"Sie fliegen zwar in relativ niedriger Höhe und damit in Reichweite unserer Bogenschützen, aber die Außenhaut des Ballons ist dick und schwer zu durchdringen ... was jedoch nicht unmöglich ist."
+53,TEXT_BANIXA001_01486_SCARLET_000_005,Darum haben wir überall im Finsterwald Wachtürme zur Verteidigung gegen Angriffe aus der Luft errichtet. Leider sind sie aufgrund anderer Konflikte derzeit chronisch unterbesetzt.
+54,TEXT_BANIXA001_01486_SCARLET_000_006,"Ich bitte dich, sofort in den Nordwald aufzubrechen und unsere Garnison an E-Tatts Wachturm zu unterstützen. Ich bin mir sicher, Guithrit weiß deine Hilfe zu schätzen."
+55,TEXT_BANIXA001_01486_SCARLET_000_007,"Melde dich bei Guithrit an E-Tatts Wachturm und unterstütze die Soldaten dort bei der Verteidigung. Wir können nicht zulassen, dass die Ixal unseren Vorposten im Nordwald ausschalten!"
+56,TEXT_BANIXA001_01486_GUITHRIT_000_010,"Schlangenpriesterin Scarlet schickt dich? Nophica sei Dank! Ich glaube zwar, dass wir das Schlimmste überstanden haben, aber meine Männer sind verwundet und erschöpft."
+57,TEXT_BANIXA001_01486_GUITHRIT_000_011,Ein gut platzierter Schuss war unsere Rettung. Der Pfeil eines Novizen hat ein Loch in die Luftkammer des Ballons geschlagen und das Gefährt der Ixal zum Absturz gebracht. Ha! Das Gekreische konnte man bis hierhin hören!
+58,TEXT_BANIXA001_01486_GUITHRIT_000_012,"Ich hatte schon Angst, der Panzerballon könnte an uns vorbeiziehen und über Gridania Unheil stiften ... Aber dank der Zwölf - und eines gewissen Novizen - ist uns dieses Schicksal erspart geblieben."
+59,TEXT_BANIXA001_01486_GUITHRIT_000_013,"Nichtsdestotrotz befinden wir uns in einem bedauerlichen Zustand und hätten einem weiteren Angriff der Ixal nicht viel entgegenzusetzen. Bitte brich Richtung Norden zum Friedensgarten auf und sieh nach, was aus ihrem abgestürzten Ballon geworden ist."
+60,TEXT_BANIXA001_01486_GUITHRIT_000_015,"Ich habe mir sagen lassen, dass diese Ballons der Ixal mit einer Art Gas gefüllt sind, das ihnen Auftrieb verleiht. Wir sollten Kreaturen, die zu solch genialen Erfindungen in der Lage sind, lieber nicht unter­schätzen ..."
+61,TEXT_BANIXA001_01486_GUITHRIT_000_030,Hast du den abgestürzten Ballon gefunden? War er noch intakt?
+62,TEXT_BANIXA001_01486_GUITHRIT_000_031,"Hmm ... Ich bin mir nicht sicher, ob dieses Teil von dem Fluggerät stammt oder vielleicht einem ganz anderen Zweck dient. Es lässt sich jedoch mit Sicherheit sagen, dass es von den Ixal entworfen wurde."
+63,TEXT_BANIXA001_01486_GUITHRIT_000_032,"Panzerballons wurden von den Ixal erfunden, um ihre Hoheit über die Lüfte sicherzustellen. Mit diesen Gefährten sind sie in der Lage, sich unseren Bodentruppen zu entziehen und ungestraft tief in den Finsterwald vorzudringen."
+64,TEXT_BANIXA001_01486_GUITHRIT_000_033,"Sie setzen sie jedoch nicht nur zu kriegerischen Zwecken ein, sondern beförden damit auch Baumstämme, die bei ihren zunehmenden Abholzungsaktivitäten anfallen."
+65,TEXT_BANIXA001_01486_GUITHRIT_000_034,"Um dieser unwillkommenen und zerstörerischen Präsenz etwas entgegenzusetzen, errichteten wir überall im Wald Wachtürme. Ich kann mir gut vorstellen, dass die Ixal über diese Verstärkung unserer Grenzen nicht gerade erfreut sind."
+66,TEXT_BANIXA001_01486_GUITHRIT_000_035,"Vermutlich war das Ziel des jüngsten Angriffes gar die Zerstörung von E-Tatts Wachturm. Ich bin hin- und hergerissen, Player. Wir dürfen unsere Verteidigungslinie hier nicht schwächen, aber ich würde auch gerne sicherstellen, dass der Feind nicht in der Nähe lauert und auf eine günstige Gelegenheit für Sabotageakte wartet."
+67,TEXT_BANIXA001_01486_GUITHRIT_000_036,"Daher würde ich gerne dich darum bitten, die Absturzstelle erneut aufzusuchen und nach unseren Feinden Ausschau zu halten. Ich hoffe jedoch, dass meine Sorgen gänzlich unbegründet sind ..."
+68,TEXT_BANIXA001_01486_GUITHRIT_000_037,"Bitte kehre zur Absturzstelle des Ixal-Ballons zurück und halte nach den Vogelwesen Ausschau. Ich hoffe jedoch für uns beide, dass du dort nicht fündig wirst ..."
+69,TEXT_BANIXA001_01486_IXAL01486_000_040,"(-Widerspenstiger Ixal-)Khaa! Gehst du weg da, Federlose! Zerlegen wir Kriegsballon!"
+70,TEXT_BANIXA001_01486_IXAL01486_000_041,"(-Widerspenstiger Ixal-)Nicht anfassen, was nicht gehört! Bergungsrecht, ja? Alles uns!"
+71,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_042,(-???-)Genug jetzt! Was sollen Gekrächze und Gekreische!?
+72,TEXT_BANIXA001_01486_IXAL01486_000_043,"(-Widerspenstiger Ixal-)Khaa! Siehst du, Große Schwinge Totoloq!"
+73,TEXT_BANIXA001_01486_IXAL01486_100_043,(-Widerspenstiger Ixal-)Hat Federlose gesuchtes Teil! Wir umsonst Wrack durchsucht!
+74,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_044,Dünnhäutiges Küken! Beruhigst du dich! Red ich mit Federloser.
+75,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_045,"Hmm ... Könntest du sein Handwerker? Nein, Kleidung ist falsch. Keine Kleidung für ehrliche Arbeit."
+76,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_046,"Khaa! Lässt du Waffe stecken! Wir Ixal, aber nicht gleiche Art wie Turm angreifen welche."
+77,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_047,"Du genommen Ballonteil ... Nichts wert sein für dich, ja? Wir möchten haben."
+78,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_048,"Nicht mit Gewalt, nein! Und nicht umsonst. Machen wir Handel, gut? Kommst du ins Lager. Zeigen dir unsere Arbeit!"
+79,TEXT_BANIXA001_01486_IXAL01486_000_049,"(-Widerspenstiger Ixal-)Aber, Große Schwinge! Federlose lieber nicht in Lager lassen! Unsere Geheimnisse verraten sonst!"
+80,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_050,"Khaa! Stellst du meine Befehle nicht in Frage! Ist Entscheidung von Sezul! Hältst du krächzenden Schnabel, sonst aufhängen am nächste Baum!"
+81,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_051,Federlose habt scharfen Blick. Freu ich mich auf nächstes Treffen.
+82,TEXT_BANIXA001_01486_IXAL01486_000_052,"(-Widerspenstiger Ixal-)Hörst du gut zu, Federlose. Wenn du Vertrauen von Sezul verrätst, ich dir Haut von wertlose Knochen abziehe!"
+83,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_060,"Kommst du in Höhle von Ixal? Mutig, mutig. Nicht gewusst, dass solche Lager geben, hä? Nun Sezul hätte gern Ballonteil und dein Name ..."
+84,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_061,"Ja, ja! Khaa! Lange danach gesucht haben! Danke, Kollegin!"
+85,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_062,"Weißt du, was das ist, hm? Ist Spezialstein. Zum Machen Instrument für Messen von Windgeschwindigkeit. Nur zu finden in Xelphatol, sehr selten! Sogar ich nicht Instrumente ohne bauen kann, obwohl ziemlich schlau!"
+86,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_063,"Khaa? Scheinst du verwirrt zu sein, was? Fragst dich, warum ich nicht gehe nach Xelphatol, um Nachschub holen, ja?"
+87,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_064,Hörst du gut zu! Wir nicht wie Ixal von Natalan und anderswo. Nicht kämpfen mit Waldleuten. Sind Ausgestoßene!
+88,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_065,"Nennst du uns „Wolkengleiter von Ehcatl“! Klingt super, oder? Majestätisch und so ..."
+89,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_066,Haben wir nur ein Ziel: fliegen frei wie Wind!
+90,TEXT_BANIXA001_01486_SEZULTOTOLOC_000_067,Wir nicht interessieren für Krieg mit Leuten oder Göttin anbeten! Unsere Augen auf Himmel gerichtet!

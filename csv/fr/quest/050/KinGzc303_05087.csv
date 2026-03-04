@@ -1,68 +1,65 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGZC303_05087_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_KINGZC303_05087_SEQ_00,"**Règle spéciale :  synchronisation de quête**
 Movamuq est impatiente de partir à la recherche du matériau dont elle a besoin."
-1,"TEXT_KINGZC303_05087_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
+1,TEXT_KINGZC303_05087_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
 
 Movamuq vous a affirmé savoir exactement ce qu'il lui faut comme matériau, et que celui-ci peut être obtenu à Maints-Feux. Retrouvez-la sur place."
-2,"TEXT_KINGZC303_05087_SEQ_02","Le matériau dont a besoin Movamuq est une lanière de cuir. Toutefois, n'ayant pas pu s'en procurer auprès d'un des marchands habituels du village, elle vous a demandé de lui apporter <SheetFr(EventItem,1,2003675,1,1)/>. Partez donc chasser des <SheetFr(BNpcName,12,12948,2,1)/>, au sud-est de Maints-Feux."
-3,"TEXT_KINGZC303_05087_SEQ_03","Vous avez obtenu <SheetFr(EventItem,2,2003675,1,1)/>. Apportez-<If(<Sheet(EventItem,2003675,6)/>)>la<Else/>le</If> à Movamuq, à Maints-Feux."
-4,"TEXT_KINGZC303_05087_SEQ_04","La Mobeline s'est réjouie lorsque vous lui avez donné <SheetFr(EventItem,2,2003675,1,1)/>. Grâce à vous, elle va enfin pouvoir fabriquer le cadeau qu'elle souhaite offrir à Anfroy en re<SoftHyphen/>mer<SoftHyphen/>cie<SoftHyphen/>ment de ses nombreuses années de service. Rejoignez Movamuq à La Fournée."
-5,"TEXT_KINGZC303_05087_SEQ_05","Lorsque vous êtes arrivé<If(PlayerParameter(4))>e<Else/></If> au village, vous avez découvert une Movamuq com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment affolée. Il semblerait en effet qu'Anfroy soit parti seul du village et la pauvre Mobeline s'inquiète énormément pour lui."
-6,"TEXT_KINGZC303_05087_SEQ_06",""
-7,"TEXT_KINGZC303_05087_SEQ_07",""
-8,"TEXT_KINGZC303_05087_SEQ_08",""
-9,"TEXT_KINGZC303_05087_SEQ_09",""
-10,"TEXT_KINGZC303_05087_SEQ_10",""
-11,"TEXT_KINGZC303_05087_SEQ_11",""
-12,"TEXT_KINGZC303_05087_SEQ_12",""
-13,"TEXT_KINGZC303_05087_SEQ_13",""
-14,"TEXT_KINGZC303_05087_SEQ_14",""
-15,"TEXT_KINGZC303_05087_SEQ_15",""
-16,"TEXT_KINGZC303_05087_SEQ_16",""
-17,"TEXT_KINGZC303_05087_SEQ_17",""
-18,"TEXT_KINGZC303_05087_SEQ_18",""
-19,"TEXT_KINGZC303_05087_SEQ_19",""
-20,"TEXT_KINGZC303_05087_SEQ_20",""
-21,"TEXT_KINGZC303_05087_SEQ_21",""
-22,"TEXT_KINGZC303_05087_SEQ_22",""
-23,"TEXT_KINGZC303_05087_SEQ_23",""
-24,"TEXT_KINGZC303_05087_TODO_00","Parler à Movamuq"
-25,"TEXT_KINGZC303_05087_TODO_01","Obtenir <SheetFr(EventItem,1,2003675,1,1)/> sur <SheetFr(BNpcName,1,12948,1,1)/>"
-26,"TEXT_KINGZC303_05087_TODO_02","Donner <SheetFr(EventItem,2,2003675,1,1)/> à Movamuq"
-27,"TEXT_KINGZC303_05087_TODO_03","Parler à Movamuq"
-28,"TEXT_KINGZC303_05087_TODO_04",""
-29,"TEXT_KINGZC303_05087_TODO_05",""
-30,"TEXT_KINGZC303_05087_TODO_06",""
-31,"TEXT_KINGZC303_05087_TODO_07",""
-32,"TEXT_KINGZC303_05087_TODO_08",""
-33,"TEXT_KINGZC303_05087_TODO_09",""
-34,"TEXT_KINGZC303_05087_TODO_10",""
-35,"TEXT_KINGZC303_05087_TODO_11",""
-36,"TEXT_KINGZC303_05087_TODO_12",""
-37,"TEXT_KINGZC303_05087_TODO_13",""
-38,"TEXT_KINGZC303_05087_TODO_14",""
-39,"TEXT_KINGZC303_05087_TODO_15",""
-40,"TEXT_KINGZC303_05087_TODO_16",""
-41,"TEXT_KINGZC303_05087_TODO_17",""
-42,"TEXT_KINGZC303_05087_TODO_18",""
-43,"TEXT_KINGZC303_05087_TODO_19",""
-44,"TEXT_KINGZC303_05087_TODO_20",""
-45,"TEXT_KINGZC303_05087_TODO_21",""
-46,"TEXT_KINGZC303_05087_TODO_22",""
-47,"TEXT_KINGZC303_05087_TODO_23",""
-48,"TEXT_KINGZC303_05087_ANFROY_000_000","Bon, il faut que je trouve un endroit où travailler en toute discrétion. Même si Movamuq sort du village, je ne peux pas prendre le risque que les autres Mobelins découvrent ce que je fabrique."
-49,"TEXT_KINGZC303_05087_MOVAMUQ_000_010","Bssshhh... Bssshhh... Movamuq est impatiente de partir chercher le matériau<Indent/>! Pour ça, il faut aller à Maints-Feux, à l'est du village<Indent/>! La gentille Mobeline expliquera plus en détail à <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> une fois sur place<Indent/>!"
-50,"TEXT_KINGZC303_05087_MOVAMUQ_000_020","Bssshhhah<Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> est arrivé<If(PlayerParameter(4))>e<Else/></If><Indent/>! Movamuq va tout lui expliquer<Indent/>! Il y a pas longtemps, la gentille Mobeline avait demandé à Tarnotik de lui fournir une lanière en quir robuste. C'est un des marchands habituels qui devait l'apporter<Indent/>!"
-51,"TEXT_KINGZC303_05087_MOVAMUQ_000_021","Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, à qause de la grande tempête, le marchand n'a pas pu s'en proqurer<Indent/>! Alors, à la place, Movamuq aimerait que <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> abatte quelques qréatures des environs<Indent/>! Leur peau permet d'obtenir un quir de très bonne qualité<Indent/>!"
-52,"TEXT_KINGZC303_05087_MOVAMUQ_000_022","La gentille Mobeline sait exaqtement quels monstres il faut chasser<Indent/>! Il s'agit <SheetFr(BNpcName,1,12948,2,1)/><Indent/>! Il devrait y en avoir au sud-est d'ici<Indent/>! Bssshhh..."
-53,"TEXT_KINGZC303_05087_MOVAMUQ_000_030","Bssshhh... Bssshhh... Movamuq qompte sur <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> pour chasser quelques <SheetFr(BNpcName,12,12948,2,1)/><Indent/>! Il devrait y en avoir au sud-est d'ici<Indent/>! S'il fallait obtenir des pierres précieuses, Movamuq pourrait le faire elle-même, qar les Mobelins sont d'excellents mineurs<Indent/>!"
-54,"TEXT_KINGZC303_05087_MOVAMUQ_000_050","Bssshhhoh<Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> a obtenu <SheetFr(EventItem,2,2003675,1,1)/> dont Movamuq a besoin<Indent/>?"
-55,"TEXT_KINGZC303_05087_MOVAMUQ_000_060","Bssshhhoh, merci, merci<Indent/>! Cette peau est très belle<Indent/>! Aveq ça, la gentille Mobeline a tout ce qu'il lui faut<Indent/>! Il lui reste plus qu'à fabriquer le qadeau pour Anfroy<Indent/>!"
-56,"TEXT_KINGZC303_05087_MOVAMUQ_000_061","Normalement, ce sont les mains-du-pot qui se chargent de ce genre de travail, mais les Mobelins sont pas maladroits de leurs mains non plus<Indent/>! Movamuq va donq faire de son mieux afin de transmettre toute sa gratitude à Anfroy<Indent/>!"
-57,"TEXT_KINGZC303_05087_MOVAMUQ_000_062","Bssshhh... Bssshhh... À vrai dire, c'est très rare qu'une main-du-pot prenne sa retraite à qause de son âge. Tous les ans, quelques artisans mettent fin à leur qontrat aveq les Mobelins, qar ils veulent travailler ailleurs ou bien tout seuls, ou alors pour rentrer dans leur village natal..."
-58,"TEXT_KINGZC303_05087_MOVAMUQ_000_063","Mais Anfroy, lui, a qontinué d'œuvrer toutes ces années à La Fournée sans jamais se plaindre... En tant que mécène, Movamuq en est très fière<Indent/>!"
-59,"TEXT_KINGZC303_05087_MOVAMUQ_000_064","Bien, la gentille Mobeline pense qu'il est temps de rentrer au village<Indent/>! Elle va faire en sorte de préparer son qadeau disqrètement pour qu'Anfroy le déqouvre pas<Indent/>! Bssshhh..."
-60,"TEXT_KINGZC303_05087_MOVAMUQ_000_080","Bssshhhaaah<Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! C'est terrible<Indent/>! Movamuq sait pas quoi faire<Indent/>! En tout qas, elle a pas le temps de fabriquer le qadeau<Indent/>!"
-61,"TEXT_KINGZC303_05087_MOVAMUQ_000_081","La pauvre Mobeline est très inquiète<Indent/>! Elle trouve Anfroy nulle part<Indent/>! On dirait qu'il est parti du village<Indent/>! Il a disparu<Indent/>! Bssshhh..."
+2,TEXT_KINGZC303_05087_SEQ_02,"Le matériau dont a besoin Movamuq est une lanière de cuir. Toutefois, n'ayant pas pu s'en procurer auprès d'un des marchands habituels du village, elle vous a demandé de lui apporter . Partez donc chasser des , au sud-est de Maints-Feux."
+3,TEXT_KINGZC303_05087_SEQ_03,"Vous avez obtenu . Apportez-le à Movamuq, à Maints-Feux."
+4,TEXT_KINGZC303_05087_SEQ_04,"La Mobeline s'est réjouie lorsque vous lui avez donné . Grâce à vous, elle va enfin pouvoir fabriquer le cadeau qu'elle souhaite offrir à Anfroy en re­mer­cie­ment de ses nombreuses années de service. Rejoignez Movamuq à La Fournée."
+5,TEXT_KINGZC303_05087_SEQ_05,"Lorsque vous êtes arrivée au village, vous avez découvert une Movamuq com­plè­te­ment affolée. Il semblerait en effet qu'Anfroy soit parti seul du village et la pauvre Mobeline s'inquiète énormément pour lui."
+6,TEXT_KINGZC303_05087_SEQ_06,
+7,TEXT_KINGZC303_05087_SEQ_07,
+8,TEXT_KINGZC303_05087_SEQ_08,
+9,TEXT_KINGZC303_05087_SEQ_09,
+10,TEXT_KINGZC303_05087_SEQ_10,
+11,TEXT_KINGZC303_05087_SEQ_11,
+12,TEXT_KINGZC303_05087_SEQ_12,
+13,TEXT_KINGZC303_05087_SEQ_13,
+14,TEXT_KINGZC303_05087_SEQ_14,
+15,TEXT_KINGZC303_05087_SEQ_15,
+16,TEXT_KINGZC303_05087_SEQ_16,
+17,TEXT_KINGZC303_05087_SEQ_17,
+18,TEXT_KINGZC303_05087_SEQ_18,
+19,TEXT_KINGZC303_05087_SEQ_19,
+20,TEXT_KINGZC303_05087_SEQ_20,
+21,TEXT_KINGZC303_05087_SEQ_21,
+22,TEXT_KINGZC303_05087_SEQ_22,
+23,TEXT_KINGZC303_05087_SEQ_23,
+24,TEXT_KINGZC303_05087_TODO_00,Parler à Movamuq
+25,TEXT_KINGZC303_05087_TODO_01,Obtenir  sur 
+26,TEXT_KINGZC303_05087_TODO_02,Donner  à Movamuq
+27,TEXT_KINGZC303_05087_TODO_03,Parler à Movamuq
+28,TEXT_KINGZC303_05087_TODO_04,
+29,TEXT_KINGZC303_05087_TODO_05,
+30,TEXT_KINGZC303_05087_TODO_06,
+31,TEXT_KINGZC303_05087_TODO_07,
+32,TEXT_KINGZC303_05087_TODO_08,
+33,TEXT_KINGZC303_05087_TODO_09,
+34,TEXT_KINGZC303_05087_TODO_10,
+35,TEXT_KINGZC303_05087_TODO_11,
+36,TEXT_KINGZC303_05087_TODO_12,
+37,TEXT_KINGZC303_05087_TODO_13,
+38,TEXT_KINGZC303_05087_TODO_14,
+39,TEXT_KINGZC303_05087_TODO_15,
+40,TEXT_KINGZC303_05087_TODO_16,
+41,TEXT_KINGZC303_05087_TODO_17,
+42,TEXT_KINGZC303_05087_TODO_18,
+43,TEXT_KINGZC303_05087_TODO_19,
+44,TEXT_KINGZC303_05087_TODO_20,
+45,TEXT_KINGZC303_05087_TODO_21,
+46,TEXT_KINGZC303_05087_TODO_22,
+47,TEXT_KINGZC303_05087_TODO_23,
+48,TEXT_KINGZC303_05087_ANFROY_000_000,"Bon, il faut que je trouve un endroit où travailler en toute discrétion. Même si Movamuq sort du village, je ne peux pas prendre le risque que les autres Mobelins découvrent ce que je fabrique."
+49,TEXT_KINGZC303_05087_MOVAMUQ_000_010,"Bssshhh... Bssshhh... Movamuq est impatiente de partir chercher le matériau ! Pour ça, il faut aller à Maints-Feux, à l'est du village ! La gentille Mobeline expliquera plus en détail à Player une fois sur place !"
+50,TEXT_KINGZC303_05087_MOVAMUQ_000_020,"Bssshhhah ! Player est arrivée ! Movamuq va tout lui expliquer ! Il y a pas longtemps, la gentille Mobeline avait demandé à Tarnotik de lui fournir une lanière en quir robuste. C'est un des marchands habituels qui devait l'apporter !"
+51,TEXT_KINGZC303_05087_MOVAMUQ_000_021,"Mal­heu­reu­se­ment, à qause de la grande tempête, le marchand n'a pas pu s'en proqurer ! Alors, à la place, Movamuq aimerait que Player abatte quelques qréatures des environs ! Leur peau permet d'obtenir un quir de très bonne qualité !"
+52,TEXT_KINGZC303_05087_MOVAMUQ_000_022,La gentille Mobeline sait exaqtement quels monstres il faut chasser ! Il s'agit  ! Il devrait y en avoir au sud-est d'ici ! Bssshhh...
+53,TEXT_KINGZC303_05087_MOVAMUQ_000_030,"Bssshhh... Bssshhh... Movamuq qompte sur Player pour chasser quelques  ! Il devrait y en avoir au sud-est d'ici ! S'il fallait obtenir des pierres précieuses, Movamuq pourrait le faire elle-même, qar les Mobelins sont d'excellents mineurs !"
+54,TEXT_KINGZC303_05087_MOVAMUQ_000_050,Bssshhhoh ! Player a obtenu  dont Movamuq a besoin ?
+55,TEXT_KINGZC303_05087_MOVAMUQ_000_060,"Bssshhhoh, merci, merci ! Cette peau est très belle ! Aveq ça, la gentille Mobeline a tout ce qu'il lui faut ! Il lui reste plus qu'à fabriquer le qadeau pour Anfroy !"
+56,TEXT_KINGZC303_05087_MOVAMUQ_000_061,"Normalement, ce sont les mains-du-pot qui se chargent de ce genre de travail, mais les Mobelins sont pas maladroits de leurs mains non plus ! Movamuq va donq faire de son mieux afin de transmettre toute sa gratitude à Anfroy !"
+57,TEXT_KINGZC303_05087_MOVAMUQ_000_062,"Bssshhh... Bssshhh... À vrai dire, c'est très rare qu'une main-du-pot prenne sa retraite à qause de son âge. Tous les ans, quelques artisans mettent fin à leur qontrat aveq les Mobelins, qar ils veulent travailler ailleurs ou bien tout seuls, ou alors pour rentrer dans leur village natal..."
+58,TEXT_KINGZC303_05087_MOVAMUQ_000_063,"Mais Anfroy, lui, a qontinué d'œuvrer toutes ces années à La Fournée sans jamais se plaindre... En tant que mécène, Movamuq en est très fière !"
+59,TEXT_KINGZC303_05087_MOVAMUQ_000_064,"Bien, la gentille Mobeline pense qu'il est temps de rentrer au village ! Elle va faire en sorte de préparer son qadeau disqrètement pour qu'Anfroy le déqouvre pas ! Bssshhh..."
+60,TEXT_KINGZC303_05087_MOVAMUQ_000_080,"Bssshhhaaah ! Player ! C'est terrible ! Movamuq sait pas quoi faire ! En tout qas, elle a pas le temps de fabriquer le qadeau !"
+61,TEXT_KINGZC303_05087_MOVAMUQ_000_081,La pauvre Mobeline est très inquiète ! Elle trouve Anfroy nulle part ! On dirait qu'il est parti du village ! Il a disparu ! Bssshhh...

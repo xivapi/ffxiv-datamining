@@ -1,137 +1,134 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANDWA002_03897_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANDWA002_03897_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Ronitt braucht deinen Rat."
-1,"TEXT_BANDWA002_03897_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)
+1,TEXT_BANDWA002_03897_SEQ_01,"**** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)
 
-Ronitt sieht sich vor die Heraus<SoftHyphen/>forde<SoftHyphen/>rung gestellt, einen geeigneten Treibstoff für den Zwergenpanzer zu finden. Er berät sich mit dir und den anderen Fachkumpels über das Problem, als auf einmal Ozogg auftaucht, eine Zwergin aus der verfeindeten Sippe der Goggs, die wie Ronitt von sich behauptet, in direkter Linie von dem legendären Schmied Watts abzustammen. Obwohl sie es nicht lassen kann, Ronitt ständig zu beleidigen, ist sie vom Projekt „Zwergenpanzer“ viel zu fasziniert, um ihre Hilfe zu verwehren. Gegen ein Fass Bier will sie euch die Lösung zum Treibstoffproblem verraten und ist sogar bereit, beim Bau einer Brauerei zu helfen, denn ohne Brauerei kein Bier<Indent/>...
+Ronitt sieht sich vor die Heraus­forde­rung gestellt, einen geeigneten Treibstoff für den Zwergenpanzer zu finden. Er berät sich mit dir und den anderen Fachkumpels über das Problem, als auf einmal Ozogg auftaucht, eine Zwergin aus der verfeindeten Sippe der Goggs, die wie Ronitt von sich behauptet, in direkter Linie von dem legendären Schmied Watts abzustammen. Obwohl sie es nicht lassen kann, Ronitt ständig zu beleidigen, ist sie vom Projekt „Zwergenpanzer“ viel zu fasziniert, um ihre Hilfe zu verwehren. Gegen ein Fass Bier will sie euch die Lösung zum Treibstoffproblem verraten und ist sogar bereit, beim Bau einer Brauerei zu helfen, denn ohne Brauerei kein Bier ...
 Sprich mit Ozogg auf der Anhöhe, wo die Brauerei errichtet werden soll."
-2,"TEXT_BANDWA002_03897_SEQ_02","Ozogg bittet dich um Hilfe bei der Herstellung einiger Komponenten für die Brauerei. Nach anfänglicher Skepsis scheint sie nun Vertrauen zu dir gefasst zu haben. Geh zum Materialbeschaffer-Eisenbart, um das für den Bau der Brauerei notwendige Material zu erhalten."
-3,"TEXT_BANDWA002_03897_SEQ_03","Der Materialbeschaffer-Eisenbart hat dich mit dem notwendigen Material ausgestattet. Beweise nun, dass Ozogg mit ihrer Einschätzung deiner handwerklichen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten nicht falsch lag, und präsentiere ihr die Früchte deiner Arbeit."
-4,"TEXT_BANDWA002_03897_SEQ_04","Die Brauerei steht und alle lassen sich das Zwergenbräu schmecken, außer Ronitt, der noch zu klein ist, um Bier zu trinken. Er will lieber an der Entwicklung des Zwergenpanzers weiterarbeiten. Sprich nochmals mit Ozogg."
-5,"TEXT_BANDWA002_03897_SEQ_05","Auch Ozogg ist vom Zwergenbräu begeistert. Doch wo bleibt die Lösung für das Treibstoffproblem, die sie im Gegenzug versprochen hat? Ronitt will sie bereits der Prahlerei bezichtigen, als sie ihn auf einen außer<SoftHyphen/>ge<SoftHyphen/>wöhn<SoftHyphen/>lichen Tank in der Brauerei hinweist: ein Raffiniergerät für Zwergensprit, mit dem sich aus getrocknetem Gras hochprozentiger Treibstoff herstellen lässt!  "
-6,"TEXT_BANDWA002_03897_SEQ_06",""
-7,"TEXT_BANDWA002_03897_SEQ_07",""
-8,"TEXT_BANDWA002_03897_SEQ_08",""
-9,"TEXT_BANDWA002_03897_SEQ_09",""
-10,"TEXT_BANDWA002_03897_SEQ_10",""
-11,"TEXT_BANDWA002_03897_SEQ_11",""
-12,"TEXT_BANDWA002_03897_SEQ_12",""
-13,"TEXT_BANDWA002_03897_SEQ_13",""
-14,"TEXT_BANDWA002_03897_SEQ_14",""
-15,"TEXT_BANDWA002_03897_SEQ_15",""
-16,"TEXT_BANDWA002_03897_SEQ_16",""
-17,"TEXT_BANDWA002_03897_SEQ_17",""
-18,"TEXT_BANDWA002_03897_SEQ_18",""
-19,"TEXT_BANDWA002_03897_SEQ_19",""
-20,"TEXT_BANDWA002_03897_SEQ_20",""
-21,"TEXT_BANDWA002_03897_SEQ_21",""
-22,"TEXT_BANDWA002_03897_SEQ_22",""
-23,"TEXT_BANDWA002_03897_SEQ_23",""
-24,"TEXT_BANDWA002_03897_TODO_00","Mit Ozogg sprechen"
-25,"TEXT_BANDWA002_03897_TODO_01","Mit dem Materialbeschaffer-Eisenbart sprechen"
-26,"TEXT_BANDWA002_03897_TODO_02","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Ozogg abliefern</If><Else/></If></If></If></If></If></If></If></If>"
-27,"TEXT_BANDWA002_03897_TODO_03","Mit Ozogg sprechen"
-28,"TEXT_BANDWA002_03897_TODO_04",""
-29,"TEXT_BANDWA002_03897_TODO_05",""
-30,"TEXT_BANDWA002_03897_TODO_06",""
-31,"TEXT_BANDWA002_03897_TODO_07",""
-32,"TEXT_BANDWA002_03897_TODO_08",""
-33,"TEXT_BANDWA002_03897_TODO_09",""
-34,"TEXT_BANDWA002_03897_TODO_10",""
-35,"TEXT_BANDWA002_03897_TODO_11",""
-36,"TEXT_BANDWA002_03897_TODO_12",""
-37,"TEXT_BANDWA002_03897_TODO_13",""
-38,"TEXT_BANDWA002_03897_TODO_14",""
-39,"TEXT_BANDWA002_03897_TODO_15",""
-40,"TEXT_BANDWA002_03897_TODO_16",""
-41,"TEXT_BANDWA002_03897_TODO_17",""
-42,"TEXT_BANDWA002_03897_TODO_18",""
-43,"TEXT_BANDWA002_03897_TODO_19",""
-44,"TEXT_BANDWA002_03897_TODO_20",""
-45,"TEXT_BANDWA002_03897_TODO_21",""
-46,"TEXT_BANDWA002_03897_TODO_22",""
-47,"TEXT_BANDWA002_03897_TODO_23",""
-48,"TEXT_BANDWA002_03897_RONITT_000_000","Man nennt mich zwar den großen Ronitt, aber zusammen ist man größer, nicht wahr? Ohne dich hätte ich das alles nicht geschafft. Danke, Kumpel!"
-49,"TEXT_BANDWA002_03897_RONITT_000_001","Doch die eigentliche Arbeit fängt erst jetzt an. So ein Panzerwagen besteht ja aus vielen Teilen: einer Karosserie, einem Motor, einem Getriebe ... "
-50,"TEXT_BANDWA002_03897_RONITT_000_002","Am meisten Kopfzerbrechen bereitet mir der Treibstoff. Ich wollte mich deswegen gerade mit den anderen Fachkumpels beraten. Warum nimmst du nicht auch an der Sitzung teil?"
-51,"TEXT_BANDWA002_03897_RONITT_000_010","Wenn meine Berechnungen stimmen, und ich irre mich selten<Indent/>- eigentlich nie<Indent/>-, dann reicht der Verbrennungswirkungsgrad des gewöhnlichen Brennstoffs für Arbeitsgeister hinten und vorne nicht, um ein so schweres Gefährt wie den Zwergenpanzer anzutreiben."
-52,"TEXT_BANDWA002_03897_KARUTT_000_011","Aber wenn der Panzer Angriffen der Sünden<SoftHyphen/>ver<SoftHyphen/>tilger standhalten und auch noch über ausreichend Ladekapazität verfügen soll, dann dürfen wir bei der Karosserie nicht allzu viele Abstriche machen. Es ist zum Barthaare raufen!"
-53,"TEXT_BANDWA002_03897_KARUTT_000_012","... <schnüff> Riecht ihr das auch? <schnupper> Es riecht nach Grubentran, oder viel mehr nach<Indent/>..."
-54,"TEXT_BANDWA002_03897_REGITT_000_013","... Hobgoblin!"
-55,"TEXT_BANDWA002_03897_OZOGG_000_014","(-???-)Ich, ein Hobgoblin?! Ich zieh dir gleich den jämmerlichen Kinnlappen lang!"
-56,"TEXT_BANDWA002_03897_OZOGG_000_015","Ronitt, du pupsiges Flaumgesicht! Ozogg von den Goggs, direkte Nachfahrin des legendären Schmieds Watts, fordert dich zum Handwerkerwettstreit heraus! Ich wette Watts' Hammer, dass du es nicht schaffst, mich zu besiegen!"
-57,"TEXT_BANDWA002_03897_RONITT_000_016","Wie bitte, du nasenhaarige Kloakenwurst?! Der einzige direkte Nachfahre von Watts bin ich, der große Ronitt! Geht das in dein Hobgoblingehirn?!"
-58,"TEXT_BANDWA002_03897_RONITT_000_020","Außerdem arbeite ich an einem wichtigen Projekt, der Entwicklung des Zwergenpanzers. Ich habe keine Zeit, um mich mit einem albernen Gartenzwerg wie dir abzugeben!"
-59,"TEXT_BANDWA002_03897_OZOGG_000_021","Zwergenpanzer? Ohhh ... das klingt aufregend ..."
-60,"TEXT_BANDWA002_03897_OZOGG_000_022","A-Also nicht, dass ich mich für eure lächerlichen Projekte interessieren würde. Und überhaupt, du willst dich doch bloß vor dem Wettkampf drücken, Ronitt! Wenn du wirklich ein Nachfahre von Watts bist und kein feiger Milchbart, dann stell dich meiner Heraus<SoftHyphen/>forde<SoftHyphen/>rung!"
-61,"TEXT_BANDWA002_03897_RONITT_000_024","Ich, mich drücken? Ha, ich lasse es mir doch nicht nehmen, einer zottelbärtigen Goggvisage die Nase plattzudrücken! Aber das hat Zeit, bis der Zwergenpanzer fertiggestellt ist. "
-62,"TEXT_BANDWA002_03897_OZOGG_000_027","Was willst du damit sagen? ... Ach so, na klar<Indent/>... Jetzt verstehe ich!"
-63,"TEXT_BANDWA002_03897_OZOGG_000_028","Ihr bittet mich, die größte Handwerkerin der Goggs, um Hilfe bei der Entwicklung dieses Zwergenpanzers!"
-64,"TEXT_BANDWA002_03897_OZOGG_000_029","Naaa gut, von mir aus. Projekt Zwergenpanzer, das klingt span... äh, ich meine, Watts würde wollen, dass ich euch helfe."
-65,"TEXT_BANDWA002_03897_KARUTT_000_030","Das ist ja noch mal gut gegangen<Indent/>..."
-66,"TEXT_BANDWA002_03897_RONITT_000_031","Das ist nett von dir, danke, aber traust du dir das wirklich zu?"
-67,"TEXT_BANDWA002_03897_OZOGG_000_032","Holladri-Waldfee, nun mal langsam! Willst du damit etwa sagen, dass Ozogg von den Goggs, direkte Nachfahrin des legendären Schmieds Watts, zwar ein geschicktes Mundwerk, aber zwei linke Hände hat?! Was braucht ihr? Einen geeigneten Treibstoff für euren Zwergenpanzer? Pah, mit meinem Fachwissen habe ich den noch vor dem Frühstücksbier hergestellt!"
-68,"TEXT_BANDWA002_03897_OZOGG_000_033","Obwohl ... nach einem Fässchen Zwergenbräu geht einem die Arbeit schon leichter von der Hand<Indent/>... Und überhaupt, für wie dumm haltet ihr mich, dass ich euch mein Wissen umsonst anbiete? Nein, nein, ich verlange schon eine Gegenleistung<Indent/>... Bier! Ich will, dass ihr mich als Gegenleistung mit leckerem Bier bewirtet!"
-69,"TEXT_BANDWA002_03897_KARUTT_000_035","Wo sie Recht hat, hat sie Recht. So ein Fässchen Bier steigert die Leistung und fördert die Motivation. Ich kenne auch ein leckeres Rezept für Zwergenbräu."
-70,"TEXT_BANDWA002_03897_KARUTT_000_036","Aber dazu brauchen wir erst eine Brauerei mit den entsprechenden Geräten<Indent/>..."
-71,"TEXT_BANDWA002_03897_OZOGG_000_037","Überlass das mir, Kleiner! Ich sorge für die Anlage, und du kümmerst dich um das Bier!"
-72,"TEXT_BANDWA002_03897_OZOGG_000_038","He, du da! Mach dich gefälligst nützlich!"
-73,"TEXT_BANDWA002_03897_RONITT_000_039","Entschuldige, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Goggs sprechen nun einmal so, wie ihnen der Zottelbart gewachsen ist. Würdest du trotzdem beim Bau der Brauerei helfen? Ich werde unterdessen mit der Entwicklung des Zwergenpanzers fortfahren."
-74,"TEXT_BANDWA002_03897_OZOGG_000_040","Eine Brauerei errichtet man am besten an erhöhter Stelle, so soll es Watts zumindest einmal gesagt haben. Ich fange schon mal an mit der Planung. Du kommst nach, sobald du deinen inneren Hobgoblin überwunden hast ..."
-75,"TEXT_BANDWA002_03897_OZOGG_000_050","Da bist du ja tatsächlich! Mag sein, dass ich dich falsch eingeschätzt habe. Ich habe dich ein wenig aus der Ferne beobachtet und du scheinst wirklich etwas von deinem Handwerk zu verstehen."
-76,"TEXT_BANDWA002_03897_OZOGG_000_051","Mit schlechten Geräten lässt sich kein gutes Zwergenbräu herstellen, das ist so sicher wie die Zahnlücken eines Hobgoblins! Daher kann ich den Bau der Vorrichtungen nicht einfach irgendeinem Dilettanten anvertrauen."
-77,"TEXT_BANDWA002_03897_OZOGG_000_052","Doch du bist kein Laie, das ist mir klar geworden. Ich bitte dich daher, mir Eisenbottiche zum Kochen der Bierwürze zu schmieden."
-78,"TEXT_BANDWA002_03897_OZOGG_000_053","Doch du bist kein Laie, das ist mir klar geworden. Was noch fehlt, ist ein Sieb, um Verunreinigungen zu entfernen, sowie Fässer zur Reifung und Nachgärung des Biers. Ich kann mich doch auf dich verlassen, oder?"
-79,"TEXT_BANDWA002_03897_OZOGG_000_054","Doch du bist kein Laie, das ist mir klar geworden. Ich bitte dich daher, Hefestämme zu züchten. Wie Watts es einmal gesagt haben soll: Die Hefe macht das Bier!"
-80,"TEXT_BANDWA002_03897_OZOGG_000_055","Was das Material für die Herstellung anbelangt ... Hm, lass mich mal überlegen<Indent/>... "
-81,"TEXT_BANDWA002_03897_KARUTT_000_056","Da steht ein Materialbeschaffer-Eisenbart unten im Lager! Du kannst dich jederzeit an ihn wenden, wenn du Nachschub benötigst."
-82,"TEXT_BANDWA002_03897_OZOGG_000_057","Dann wäre ja alles geklärt. Diese Brauerei wird so genial werden, niemand wird mehr meine Abstammung von Watts anzweifeln, geschweige denn es wagen, mich einen Hobgoblin zu schimpfen!"
-83,"TEXT_BANDWA002_03897_KARUTT_000_058","Und das Zwergenbräu, das ich in der Brauerei brauen werde, wird als das beste Bier in die Geschichte der Zwerge eingehen!"
-84,"TEXT_BANDWA002_03897_OZOGG_000_059","Du brauchst noch mehr Material? Warst du schon beim Materialbeschaffer-Eisenbart?"
-85,"TEXT_BANDWA002_03897_OZOGG_000_060","Du brauchst noch mehr Material? Warst du schon beim Materialbeschaffer-Eisenbart?"
-86,"TEXT_BANDWA002_03897_OZOGG_000_061","Du brauchst noch mehr Material? Warst du schon beim Materialbeschaffer-Eisenbart?"
-87,"TEXT_BANDWA002_03897_KARUTT_000_062","Es gibt nichts Schöneres, als Bier zu brauen ... und zu trinken ... Beides ist einfach wunderbar!"
-88,"TEXT_BANDWA002_03897_AUTOMATON_000_070","<biep> ... <ratter> ... "
-89,"TEXT_BANDWA002_03897_AUTOMATON_000_071","<biep> ... <ratter> ... "
-90,"TEXT_BANDWA002_03897_AUTOMATON_000_072","<biep> ... <ratter> ... "
-91,"TEXT_BANDWA002_03897_AUTOMATON_000_073","<biep> ... Material wird benötigt? <biep> ... Positiv - wird ausgehändigt ...
+2,TEXT_BANDWA002_03897_SEQ_02,"Ozogg bittet dich um Hilfe bei der Herstellung einiger Komponenten für die Brauerei. Nach anfänglicher Skepsis scheint sie nun Vertrauen zu dir gefasst zu haben. Geh zum Materialbeschaffer-Eisenbart, um das für den Bau der Brauerei notwendige Material zu erhalten."
+3,TEXT_BANDWA002_03897_SEQ_03,"Der Materialbeschaffer-Eisenbart hat dich mit dem notwendigen Material ausgestattet. Beweise nun, dass Ozogg mit ihrer Einschätzung deiner handwerklichen Fä­hig­kei­ten nicht falsch lag, und präsentiere ihr die Früchte deiner Arbeit."
+4,TEXT_BANDWA002_03897_SEQ_04,"Die Brauerei steht und alle lassen sich das Zwergenbräu schmecken, außer Ronitt, der noch zu klein ist, um Bier zu trinken. Er will lieber an der Entwicklung des Zwergenpanzers weiterarbeiten. Sprich nochmals mit Ozogg."
+5,TEXT_BANDWA002_03897_SEQ_05,"Auch Ozogg ist vom Zwergenbräu begeistert. Doch wo bleibt die Lösung für das Treibstoffproblem, die sie im Gegenzug versprochen hat? Ronitt will sie bereits der Prahlerei bezichtigen, als sie ihn auf einen außer­ge­wöhn­lichen Tank in der Brauerei hinweist: ein Raffiniergerät für Zwergensprit, mit dem sich aus getrocknetem Gras hochprozentiger Treibstoff herstellen lässt!  "
+6,TEXT_BANDWA002_03897_SEQ_06,
+7,TEXT_BANDWA002_03897_SEQ_07,
+8,TEXT_BANDWA002_03897_SEQ_08,
+9,TEXT_BANDWA002_03897_SEQ_09,
+10,TEXT_BANDWA002_03897_SEQ_10,
+11,TEXT_BANDWA002_03897_SEQ_11,
+12,TEXT_BANDWA002_03897_SEQ_12,
+13,TEXT_BANDWA002_03897_SEQ_13,
+14,TEXT_BANDWA002_03897_SEQ_14,
+15,TEXT_BANDWA002_03897_SEQ_15,
+16,TEXT_BANDWA002_03897_SEQ_16,
+17,TEXT_BANDWA002_03897_SEQ_17,
+18,TEXT_BANDWA002_03897_SEQ_18,
+19,TEXT_BANDWA002_03897_SEQ_19,
+20,TEXT_BANDWA002_03897_SEQ_20,
+21,TEXT_BANDWA002_03897_SEQ_21,
+22,TEXT_BANDWA002_03897_SEQ_22,
+23,TEXT_BANDWA002_03897_SEQ_23,
+24,TEXT_BANDWA002_03897_TODO_00,Mit Ozogg sprechen
+25,TEXT_BANDWA002_03897_TODO_01,Mit dem Materialbeschaffer-Eisenbart sprechen
+26,TEXT_BANDWA002_03897_TODO_02,Spezialrezept:  herstellen
+27,TEXT_BANDWA002_03897_TODO_03,Mit Ozogg sprechen
+28,TEXT_BANDWA002_03897_TODO_04,
+29,TEXT_BANDWA002_03897_TODO_05,
+30,TEXT_BANDWA002_03897_TODO_06,
+31,TEXT_BANDWA002_03897_TODO_07,
+32,TEXT_BANDWA002_03897_TODO_08,
+33,TEXT_BANDWA002_03897_TODO_09,
+34,TEXT_BANDWA002_03897_TODO_10,
+35,TEXT_BANDWA002_03897_TODO_11,
+36,TEXT_BANDWA002_03897_TODO_12,
+37,TEXT_BANDWA002_03897_TODO_13,
+38,TEXT_BANDWA002_03897_TODO_14,
+39,TEXT_BANDWA002_03897_TODO_15,
+40,TEXT_BANDWA002_03897_TODO_16,
+41,TEXT_BANDWA002_03897_TODO_17,
+42,TEXT_BANDWA002_03897_TODO_18,
+43,TEXT_BANDWA002_03897_TODO_19,
+44,TEXT_BANDWA002_03897_TODO_20,
+45,TEXT_BANDWA002_03897_TODO_21,
+46,TEXT_BANDWA002_03897_TODO_22,
+47,TEXT_BANDWA002_03897_TODO_23,
+48,TEXT_BANDWA002_03897_RONITT_000_000,"Man nennt mich zwar den großen Ronitt, aber zusammen ist man größer, nicht wahr? Ohne dich hätte ich das alles nicht geschafft. Danke, Kumpel!"
+49,TEXT_BANDWA002_03897_RONITT_000_001,"Doch die eigentliche Arbeit fängt erst jetzt an. So ein Panzerwagen besteht ja aus vielen Teilen: einer Karosserie, einem Motor, einem Getriebe ... "
+50,TEXT_BANDWA002_03897_RONITT_000_002,Am meisten Kopfzerbrechen bereitet mir der Treibstoff. Ich wollte mich deswegen gerade mit den anderen Fachkumpels beraten. Warum nimmst du nicht auch an der Sitzung teil?
+51,TEXT_BANDWA002_03897_RONITT_000_010,"Wenn meine Berechnungen stimmen, und ich irre mich selten - eigentlich nie -, dann reicht der Verbrennungswirkungsgrad des gewöhnlichen Brennstoffs für Arbeitsgeister hinten und vorne nicht, um ein so schweres Gefährt wie den Zwergenpanzer anzutreiben."
+52,TEXT_BANDWA002_03897_KARUTT_000_011,"Aber wenn der Panzer Angriffen der Sünden­ver­tilger standhalten und auch noch über ausreichend Ladekapazität verfügen soll, dann dürfen wir bei der Karosserie nicht allzu viele Abstriche machen. Es ist zum Barthaare raufen!"
+53,TEXT_BANDWA002_03897_KARUTT_000_012,"... <schnüff> Riecht ihr das auch? <schnupper> Es riecht nach Grubentran, oder viel mehr nach ..."
+54,TEXT_BANDWA002_03897_REGITT_000_013,... Hobgoblin!
+55,TEXT_BANDWA002_03897_OZOGG_000_014,"(-???-)Ich, ein Hobgoblin?! Ich zieh dir gleich den jämmerlichen Kinnlappen lang!"
+56,TEXT_BANDWA002_03897_OZOGG_000_015,"Ronitt, du pupsiges Flaumgesicht! Ozogg von den Goggs, direkte Nachfahrin des legendären Schmieds Watts, fordert dich zum Handwerkerwettstreit heraus! Ich wette Watts' Hammer, dass du es nicht schaffst, mich zu besiegen!"
+57,TEXT_BANDWA002_03897_RONITT_000_016,"Wie bitte, du nasenhaarige Kloakenwurst?! Der einzige direkte Nachfahre von Watts bin ich, der große Ronitt! Geht das in dein Hobgoblingehirn?!"
+58,TEXT_BANDWA002_03897_RONITT_000_020,"Außerdem arbeite ich an einem wichtigen Projekt, der Entwicklung des Zwergenpanzers. Ich habe keine Zeit, um mich mit einem albernen Gartenzwerg wie dir abzugeben!"
+59,TEXT_BANDWA002_03897_OZOGG_000_021,Zwergenpanzer? Ohhh ... das klingt aufregend ...
+60,TEXT_BANDWA002_03897_OZOGG_000_022,"A-Also nicht, dass ich mich für eure lächerlichen Projekte interessieren würde. Und überhaupt, du willst dich doch bloß vor dem Wettkampf drücken, Ronitt! Wenn du wirklich ein Nachfahre von Watts bist und kein feiger Milchbart, dann stell dich meiner Heraus­forde­rung!"
+61,TEXT_BANDWA002_03897_RONITT_000_024,"Ich, mich drücken? Ha, ich lasse es mir doch nicht nehmen, einer zottelbärtigen Goggvisage die Nase plattzudrücken! Aber das hat Zeit, bis der Zwergenpanzer fertiggestellt ist. "
+62,TEXT_BANDWA002_03897_OZOGG_000_027,"Was willst du damit sagen? ... Ach so, na klar ... Jetzt verstehe ich!"
+63,TEXT_BANDWA002_03897_OZOGG_000_028,"Ihr bittet mich, die größte Handwerkerin der Goggs, um Hilfe bei der Entwicklung dieses Zwergenpanzers!"
+64,TEXT_BANDWA002_03897_OZOGG_000_029,"Naaa gut, von mir aus. Projekt Zwergenpanzer, das klingt span... äh, ich meine, Watts würde wollen, dass ich euch helfe."
+65,TEXT_BANDWA002_03897_KARUTT_000_030,Das ist ja noch mal gut gegangen ...
+66,TEXT_BANDWA002_03897_RONITT_000_031,"Das ist nett von dir, danke, aber traust du dir das wirklich zu?"
+67,TEXT_BANDWA002_03897_OZOGG_000_032,"Holladri-Waldfee, nun mal langsam! Willst du damit etwa sagen, dass Ozogg von den Goggs, direkte Nachfahrin des legendären Schmieds Watts, zwar ein geschicktes Mundwerk, aber zwei linke Hände hat?! Was braucht ihr? Einen geeigneten Treibstoff für euren Zwergenpanzer? Pah, mit meinem Fachwissen habe ich den noch vor dem Frühstücksbier hergestellt!"
+68,TEXT_BANDWA002_03897_OZOGG_000_033,"Obwohl ... nach einem Fässchen Zwergenbräu geht einem die Arbeit schon leichter von der Hand ... Und überhaupt, für wie dumm haltet ihr mich, dass ich euch mein Wissen umsonst anbiete? Nein, nein, ich verlange schon eine Gegenleistung ... Bier! Ich will, dass ihr mich als Gegenleistung mit leckerem Bier bewirtet!"
+69,TEXT_BANDWA002_03897_KARUTT_000_035,"Wo sie Recht hat, hat sie Recht. So ein Fässchen Bier steigert die Leistung und fördert die Motivation. Ich kenne auch ein leckeres Rezept für Zwergenbräu."
+70,TEXT_BANDWA002_03897_KARUTT_000_036,Aber dazu brauchen wir erst eine Brauerei mit den entsprechenden Geräten ...
+71,TEXT_BANDWA002_03897_OZOGG_000_037,"Überlass das mir, Kleiner! Ich sorge für die Anlage, und du kümmerst dich um das Bier!"
+72,TEXT_BANDWA002_03897_OZOGG_000_038,"He, du da! Mach dich gefälligst nützlich!"
+73,TEXT_BANDWA002_03897_RONITT_000_039,"Entschuldige, Player. Goggs sprechen nun einmal so, wie ihnen der Zottelbart gewachsen ist. Würdest du trotzdem beim Bau der Brauerei helfen? Ich werde unterdessen mit der Entwicklung des Zwergenpanzers fortfahren."
+74,TEXT_BANDWA002_03897_OZOGG_000_040,"Eine Brauerei errichtet man am besten an erhöhter Stelle, so soll es Watts zumindest einmal gesagt haben. Ich fange schon mal an mit der Planung. Du kommst nach, sobald du deinen inneren Hobgoblin überwunden hast ..."
+75,TEXT_BANDWA002_03897_OZOGG_000_050,"Da bist du ja tatsächlich! Mag sein, dass ich dich falsch eingeschätzt habe. Ich habe dich ein wenig aus der Ferne beobachtet und du scheinst wirklich etwas von deinem Handwerk zu verstehen."
+76,TEXT_BANDWA002_03897_OZOGG_000_051,"Mit schlechten Geräten lässt sich kein gutes Zwergenbräu herstellen, das ist so sicher wie die Zahnlücken eines Hobgoblins! Daher kann ich den Bau der Vorrichtungen nicht einfach irgendeinem Dilettanten anvertrauen."
+77,TEXT_BANDWA002_03897_OZOGG_000_052,"Doch du bist kein Laie, das ist mir klar geworden. Ich bitte dich daher, mir Eisenbottiche zum Kochen der Bierwürze zu schmieden."
+78,TEXT_BANDWA002_03897_OZOGG_000_053,"Doch du bist kein Laie, das ist mir klar geworden. Was noch fehlt, ist ein Sieb, um Verunreinigungen zu entfernen, sowie Fässer zur Reifung und Nachgärung des Biers. Ich kann mich doch auf dich verlassen, oder?"
+79,TEXT_BANDWA002_03897_OZOGG_000_054,"Doch du bist kein Laie, das ist mir klar geworden. Ich bitte dich daher, Hefestämme zu züchten. Wie Watts es einmal gesagt haben soll: Die Hefe macht das Bier!"
+80,TEXT_BANDWA002_03897_OZOGG_000_055,"Was das Material für die Herstellung anbelangt ... Hm, lass mich mal überlegen ... "
+81,TEXT_BANDWA002_03897_KARUTT_000_056,"Da steht ein Materialbeschaffer-Eisenbart unten im Lager! Du kannst dich jederzeit an ihn wenden, wenn du Nachschub benötigst."
+82,TEXT_BANDWA002_03897_OZOGG_000_057,"Dann wäre ja alles geklärt. Diese Brauerei wird so genial werden, niemand wird mehr meine Abstammung von Watts anzweifeln, geschweige denn es wagen, mich einen Hobgoblin zu schimpfen!"
+83,TEXT_BANDWA002_03897_KARUTT_000_058,"Und das Zwergenbräu, das ich in der Brauerei brauen werde, wird als das beste Bier in die Geschichte der Zwerge eingehen!"
+84,TEXT_BANDWA002_03897_OZOGG_000_059,Du brauchst noch mehr Material? Warst du schon beim Materialbeschaffer-Eisenbart?
+85,TEXT_BANDWA002_03897_OZOGG_000_060,Du brauchst noch mehr Material? Warst du schon beim Materialbeschaffer-Eisenbart?
+86,TEXT_BANDWA002_03897_OZOGG_000_061,Du brauchst noch mehr Material? Warst du schon beim Materialbeschaffer-Eisenbart?
+87,TEXT_BANDWA002_03897_KARUTT_000_062,"Es gibt nichts Schöneres, als Bier zu brauen ... und zu trinken ... Beides ist einfach wunderbar!"
+88,TEXT_BANDWA002_03897_AUTOMATON_000_070,<biep> ... <ratter> ... 
+89,TEXT_BANDWA002_03897_AUTOMATON_000_071,<biep> ... <ratter> ... 
+90,TEXT_BANDWA002_03897_AUTOMATON_000_072,<biep> ... <ratter> ... 
+91,TEXT_BANDWA002_03897_AUTOMATON_000_073,"<biep> ... Material wird benötigt? <biep> ... Positiv - wird ausgehändigt ...
 H-Holladrio! <ratter>"
-92,"TEXT_BANDWA002_03897_AUTOMATON_000_074","<biep> ... Material wird benötigt? <biep> ... Positiv - wird ausgehändigt ...
+92,TEXT_BANDWA002_03897_AUTOMATON_000_074,"<biep> ... Material wird benötigt? <biep> ... Positiv - wird ausgehändigt ...
 H-Holladrio! <ratter>"
-93,"TEXT_BANDWA002_03897_AUTOMATON_000_075","<biep> ... Material wird benötigt? <biep> ... Positiv - wird ausgehändigt ...
+93,TEXT_BANDWA002_03897_AUTOMATON_000_075,"<biep> ... Material wird benötigt? <biep> ... Positiv - wird ausgehändigt ...
 H-Holladrio! <ratter>"
-94,"TEXT_BANDWA002_03897_OZOGG_000_080","U-Um Watts' Willen, du kannst unmöglich schon fertig sein!"
-95,"TEXT_BANDWA002_03897_OZOGG_000_081","Beim Barte des großen Zwergs! Auf meine Instinkte als Talentsucherin ist eben Verlass. Das wird die best ausgestattete Brauerei, die je ein Zwerg zu Gesicht bekommen hat!"
-96,"TEXT_BANDWA002_03897_KARUTT_000_082","Ich kann es kaum erwarten, mich ans Brauen zu machen! Mir ist ein leckeres Bierrezept mit lokalen Zutaten eingefallen, das ich unbedingt ausprobieren möchte."
-97,"TEXT_BANDWA002_03897_OZOGG_000_084","Oh, darüber musst du mir später unbedingt mehr erzählen. Vielleicht bei einem Bier ... Doch jetzt sollte ich mich an die Arbeit machen. Die Brauerei errichtet sich nicht von selbst!"
-98,"TEXT_BANDWA002_03897_OZOGG_000_085","（★未使用／削除予定★）"
-99,"TEXT_BANDWA002_03897_RONITT_000_091","（★未使用／削除予定★）"
-100,"TEXT_BANDWA002_03897_REGITT_000_100","(-Regitt und Karutt-)♪ Holladriooo, wir sind vergnügt und froh ♪
+94,TEXT_BANDWA002_03897_OZOGG_000_080,"U-Um Watts' Willen, du kannst unmöglich schon fertig sein!"
+95,TEXT_BANDWA002_03897_OZOGG_000_081,"Beim Barte des großen Zwergs! Auf meine Instinkte als Talentsucherin ist eben Verlass. Das wird die best ausgestattete Brauerei, die je ein Zwerg zu Gesicht bekommen hat!"
+96,TEXT_BANDWA002_03897_KARUTT_000_082,"Ich kann es kaum erwarten, mich ans Brauen zu machen! Mir ist ein leckeres Bierrezept mit lokalen Zutaten eingefallen, das ich unbedingt ausprobieren möchte."
+97,TEXT_BANDWA002_03897_OZOGG_000_084,"Oh, darüber musst du mir später unbedingt mehr erzählen. Vielleicht bei einem Bier ... Doch jetzt sollte ich mich an die Arbeit machen. Die Brauerei errichtet sich nicht von selbst!"
+98,TEXT_BANDWA002_03897_OZOGG_000_085,（★未使用／削除予定★）
+99,TEXT_BANDWA002_03897_RONITT_000_091,（★未使用／削除予定★）
+100,TEXT_BANDWA002_03897_REGITT_000_100,"(-Regitt und Karutt-)♪ Holladriooo, wir sind vergnügt und froh ♪
 ♪ Wir trinken Bier, nicht eins, nicht zwei, sondern drei oder vieeer ♪"
-101,"TEXT_BANDWA002_03897_SYSTEM_000_101","Dank Ozogg verfügt die Watts-Werkstatt für Hammerprojekte nun über ihre eigene Brauerei."
-102,"TEXT_BANDWA002_03897_SYSTEM_000_102","Angetrieben vom Zwergenbräu machen Ronitt und seine Kumpels große Fortschritte bei der Entwicklung des Zwergenpanzers. Doch das Treibstoffproblem bleibt ungelöst ..."
-103,"TEXT_BANDWA002_03897_OZOGG_100_110","Auf diese Brauerei wäre sogar Watts stolz gewesen! Das Feierabendbier haben wir uns verdient. Hat nicht Karutt etwas von einem neuen Rezept gesagt?"
-104,"TEXT_BANDWA002_03897_OZOGG_000_110","Leck mich einer am Bart! Das schmeckt ja richtig lecker! Sogar besser als unser Bier aus Komra!"
-105,"TEXT_BANDWA002_03897_KARUTT_000_111","Schön süffig, oder? Aber ohne Brauerei hätte ich kein Bier brauen können. Und auch nicht trinken. <hicks>"
-106,"TEXT_BANDWA002_03897_RONITT_000_112","He, Ozogg! Was ist denn nun mit dem Treibstoff? Hast du nicht geprahlt, du wüsstest eine Lösung für unser Spritproblem?"
-107,"TEXT_BANDWA002_03897_OZOGG_000_113","Geprahlt? Hast du dir die Brauerei einmal genauer angesehen?"
-108,"TEXT_BANDWA002_03897_REGITT_000_114","Wofür genau ist noch einmal dieser Brennkessel hier?"
-109,"TEXT_BANDWA002_03897_OZOGG_000_115","Du bist klüger, als du aussiehst. Darf ich vorstellen? Das neueste Raffiniergerät für Zwergensprit, entwickelt von Ozogg von den Goggs, der direkten Nachfahrin des legendären Schmieds Watts!"
-110,"TEXT_BANDWA002_03897_OZOGG_000_116","Getrocknetes Gras wird vergoren und durch mehrmaliges Destillieren in hochprozentigen Treibstoff umgewandelt!"
-111,"TEXT_BANDWA002_03897_OZOGG_000_117","Na, pupsiges Flaumgesicht? Hat's dir die Sprache verschlagen?"
-112,"TEXT_BANDWA002_03897_RONITT_000_118","D-Das hast du von Anfang an geplant? Du bist einfach ... genial!"
-113,"TEXT_BANDWA002_03897_REGITT_000_119","Ich habe dich unterschätzt, Ozogg. Vielleicht stammst du ja tatsächlich vom legendären Schmied Watts ab, so wie Ronitt. Dann seid ihr so etwas wie Bruder und Schwester."
-114,"TEXT_BANDWA002_03897_OZOGG_000_120","L-Lass das sentimentale Gesülze. Jedenfalls ist der Verbrennungswirkungsgrad des Zwergensprits um ein Vielfaches höher als der des Brennstoffs für Arbeitsgeister. Der Zwergenpanzer wird abdüsen wie eine Rakete, sag ich dir!"
-115,"TEXT_BANDWA002_03897_RONITT_000_121","Das werden wir sehen, wenn wir ihn ausprobiert haben. Aber wir sind der Realisierung des Zwergenpanzers ein gutes Stück näher gekommen. Danke!"
-116,"TEXT_BANDWA002_03897_OZOGG_000_122","Danken musst du auch <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ohne <If(PlayerParameter(4))>ihre<Else/>seine</If> Unterstützung hätte ich das nicht geschafft."
-117,"TEXT_BANDWA002_03897_RONITT_000_123","Helm ab, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ich danke dir."
-118,"TEXT_BANDWA002_03897_KARUTT_000_086","Der erste Tropfen aus einem neuen Fass ist so köstlich wie der erste Tautropfen im Frühlingsbart!"
-119,"TEXT_BANDWA002_03897_OZOGG_000_087","（★未使用／削除予定★）"
-120,"TEXT_BANDWA002_03897_SYSTEM_000_130","Du hast dir durch deine tatkräftige Hilfe beim Bau der Brauerei das Vertrauen der Zwerge erworben. Dein Verhältnis zu ihnen ist nun „Vertraut“. "
-121,"TEXT_BANDWA002_03897_SYSTEM_000_131","Du kannst ab jetzt neue Nebenaufträge der Zwerge von Regitt in der Watts-Werkstatt für Hammerprojekte annehmen, die du täglich wiederholen kannst."
-122,"TEXT_BANDWA002_03897_SYSTEM_000_132","Ferner bietet dir Regitt als Zeichen seines Vertrauens nur heute drei zusätzliche Aufträge an."
-123,"TEXT_BANDWA002_03897_SYSTEM_000_133","Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Zwergen-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
-124,"TEXT_BANDWA002_03897_SYSTEM_000_134","Außerdem kannst du nun von Mizutt neue Waren für den Verbundenheitsrang „Vertraut“ erwerben."
+101,TEXT_BANDWA002_03897_SYSTEM_000_101,Dank Ozogg verfügt die Watts-Werkstatt für Hammerprojekte nun über ihre eigene Brauerei.
+102,TEXT_BANDWA002_03897_SYSTEM_000_102,Angetrieben vom Zwergenbräu machen Ronitt und seine Kumpels große Fortschritte bei der Entwicklung des Zwergenpanzers. Doch das Treibstoffproblem bleibt ungelöst ...
+103,TEXT_BANDWA002_03897_OZOGG_100_110,Auf diese Brauerei wäre sogar Watts stolz gewesen! Das Feierabendbier haben wir uns verdient. Hat nicht Karutt etwas von einem neuen Rezept gesagt?
+104,TEXT_BANDWA002_03897_OZOGG_000_110,Leck mich einer am Bart! Das schmeckt ja richtig lecker! Sogar besser als unser Bier aus Komra!
+105,TEXT_BANDWA002_03897_KARUTT_000_111,"Schön süffig, oder? Aber ohne Brauerei hätte ich kein Bier brauen können. Und auch nicht trinken. <hicks>"
+106,TEXT_BANDWA002_03897_RONITT_000_112,"He, Ozogg! Was ist denn nun mit dem Treibstoff? Hast du nicht geprahlt, du wüsstest eine Lösung für unser Spritproblem?"
+107,TEXT_BANDWA002_03897_OZOGG_000_113,Geprahlt? Hast du dir die Brauerei einmal genauer angesehen?
+108,TEXT_BANDWA002_03897_REGITT_000_114,Wofür genau ist noch einmal dieser Brennkessel hier?
+109,TEXT_BANDWA002_03897_OZOGG_000_115,"Du bist klüger, als du aussiehst. Darf ich vorstellen? Das neueste Raffiniergerät für Zwergensprit, entwickelt von Ozogg von den Goggs, der direkten Nachfahrin des legendären Schmieds Watts!"
+110,TEXT_BANDWA002_03897_OZOGG_000_116,Getrocknetes Gras wird vergoren und durch mehrmaliges Destillieren in hochprozentigen Treibstoff umgewandelt!
+111,TEXT_BANDWA002_03897_OZOGG_000_117,"Na, pupsiges Flaumgesicht? Hat's dir die Sprache verschlagen?"
+112,TEXT_BANDWA002_03897_RONITT_000_118,D-Das hast du von Anfang an geplant? Du bist einfach ... genial!
+113,TEXT_BANDWA002_03897_REGITT_000_119,"Ich habe dich unterschätzt, Ozogg. Vielleicht stammst du ja tatsächlich vom legendären Schmied Watts ab, so wie Ronitt. Dann seid ihr so etwas wie Bruder und Schwester."
+114,TEXT_BANDWA002_03897_OZOGG_000_120,"L-Lass das sentimentale Gesülze. Jedenfalls ist der Verbrennungswirkungsgrad des Zwergensprits um ein Vielfaches höher als der des Brennstoffs für Arbeitsgeister. Der Zwergenpanzer wird abdüsen wie eine Rakete, sag ich dir!"
+115,TEXT_BANDWA002_03897_RONITT_000_121,"Das werden wir sehen, wenn wir ihn ausprobiert haben. Aber wir sind der Realisierung des Zwergenpanzers ein gutes Stück näher gekommen. Danke!"
+116,TEXT_BANDWA002_03897_OZOGG_000_122,Danken musst du auch Player. Ohne ihre Unterstützung hätte ich das nicht geschafft.
+117,TEXT_BANDWA002_03897_RONITT_000_123,"Helm ab, Player. Ich danke dir."
+118,TEXT_BANDWA002_03897_KARUTT_000_086,Der erste Tropfen aus einem neuen Fass ist so köstlich wie der erste Tautropfen im Frühlingsbart!
+119,TEXT_BANDWA002_03897_OZOGG_000_087,（★未使用／削除予定★）
+120,TEXT_BANDWA002_03897_SYSTEM_000_130,Du hast dir durch deine tatkräftige Hilfe beim Bau der Brauerei das Vertrauen der Zwerge erworben. Dein Verhältnis zu ihnen ist nun „Vertraut“. 
+121,TEXT_BANDWA002_03897_SYSTEM_000_131,"Du kannst ab jetzt neue Nebenaufträge der Zwerge von Regitt in der Watts-Werkstatt für Hammerprojekte annehmen, die du täglich wiederholen kannst."
+122,TEXT_BANDWA002_03897_SYSTEM_000_132,Ferner bietet dir Regitt als Zeichen seines Vertrauens nur heute drei zusätzliche Aufträge an.
+123,TEXT_BANDWA002_03897_SYSTEM_000_133,"Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Zwergen-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
+124,TEXT_BANDWA002_03897_SYSTEM_000_134,Außerdem kannst du nun von Mizutt neue Waren für den Verbundenheitsrang „Vertraut“ erwerben.

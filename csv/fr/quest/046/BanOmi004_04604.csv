@@ -1,188 +1,185 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI004_04604_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANOMI004_04604_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 Après vos succès récents, le moral de N-7000 est au beau fixe."
-1,"TEXT_BANOMI004_04604_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis>
+1,TEXT_BANOMI004_04604_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.*
 
 N-7000 n'a aucun problème à signaler du côté des Dernières Réminiscences, où tout semble se passer pour le mieux. Rendez-vous sur place et parlez à Jammingway pour savoir ce qu'il prévoit désormais."
-2,"TEXT_BANOMI004_04604_SEQ_02","Cette fois, votre compère loporrite a suggéré d'inviter d'autres résidents de longue date d'Ultima Thulé, les dragons<Indent/>! Malgré les réticences de N-7000, c'est bien à ces créatures terrifiantes, qui haïssent les Omicrons plus que tout, que vous allez devoir vous adresser. Rendez-vous à Reah Tahra et parlez à N-7000."
-3,"TEXT_BANOMI004_04604_SEQ_03","En dépit de nombreux efforts, vous n'avez pas réussi à provoquer de franche réaction chez le dragon avec qui vous et vos acolytes vous êtes entretenus. Au pied du mur, vous avez ainsi décidé de retourner sur Ætherys pour demander conseil à une de vos vieilles con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ces... Partez pour Annexe Trine et parlez à Vidofnir."
-4,"TEXT_BANOMI004_04604_SEQ_04","La dragonne vous a suggéré de raviver le souvenir de leur planète bien-aimée chez ses congénères d'Ultima Thulé. Jammingway a alors eu l'idée de s'inspirer d'une recette de gâteau à l'image de Sohm Al qui pourrait évoquer l'ancienne montagne sacrée des dragons. Récoltez le type d'ingrédient conseillé par Vidofnir et allez ensuite trouver N-7000, aux Dernières Réminiscences."
-5,"TEXT_BANOMI004_04604_SEQ_05","Les gâteaux préparés par Jammingway ont pro<SoftHyphen/>fon<SoftHyphen/>dé<SoftHyphen/>ment touché votre invité dragon. Plus que leur aspect censé évoquer les paysages de sa terre natale, c'est la délicate attention que vous et vos amis avez eue à son égard qui a fait naître en lui un sentiment d'espoir... Nul doute que le dynamis n'est pas resté insensible à ce nouvel épisode émouvant survenu dans votre café. Rendez-vous au camp de base A-4 et parlez à N-7000 pour découvrir ensemble ce qui se passe sur Élysée."
-6,"TEXT_BANOMI004_04604_SEQ_06","Le regain d'espoir des dragons d'Ultima Thulé a eu pour effet de faire pousser des montagnes sur la jeune planète. Rassuré quant à la normalisation des relations entre les Omicrons et les dragons, N-7000 s'est réjoui à sa manière de votre succès avant d'être grondé par Jammingway qui ne serait pas contre un peu plus de spontanéité de sa part. Même s'ils n'ont pas manqué une nouvelle occasion de se chamailler, vos deux amis réfléchissent déjà à quelles bonnes œuvres ils pourront accomplir grâce aux Dernières Réminiscences. Continuez à les encourager<Indent/>!"
-7,"TEXT_BANOMI004_04604_SEQ_07",""
-8,"TEXT_BANOMI004_04604_SEQ_08",""
-9,"TEXT_BANOMI004_04604_SEQ_09",""
-10,"TEXT_BANOMI004_04604_SEQ_10",""
-11,"TEXT_BANOMI004_04604_SEQ_11",""
-12,"TEXT_BANOMI004_04604_SEQ_12",""
-13,"TEXT_BANOMI004_04604_SEQ_13",""
-14,"TEXT_BANOMI004_04604_SEQ_14",""
-15,"TEXT_BANOMI004_04604_SEQ_15",""
-16,"TEXT_BANOMI004_04604_SEQ_16",""
-17,"TEXT_BANOMI004_04604_SEQ_17",""
-18,"TEXT_BANOMI004_04604_SEQ_18",""
-19,"TEXT_BANOMI004_04604_SEQ_19",""
-20,"TEXT_BANOMI004_04604_SEQ_20",""
-21,"TEXT_BANOMI004_04604_SEQ_21",""
-22,"TEXT_BANOMI004_04604_SEQ_22",""
-23,"TEXT_BANOMI004_04604_SEQ_23",""
-24,"TEXT_BANOMI004_04604_TODO_00","Parler à Jammingway"
-25,"TEXT_BANOMI004_04604_TODO_01","Parler à N-7000"
-26,"TEXT_BANOMI004_04604_TODO_02","Parler à Vidofnir, à Annexe Trine"
-27,"TEXT_BANOMI004_04604_TODO_03","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Extraire <SheetFr(Item,1,IntegerParameter(5),2,1)/>, au sud-ouest d'Annexe Trine<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à N-7000</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récolter <SheetFr(Item,1,IntegerParameter(5),2,1)/>, au nord-est d'Annexe Trine<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à N-7000</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Pêcher <SheetFr(Item,1,IntegerParameter(5),1,1)/>, à L'Eurée feste<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à N-7000</If><Else/></If></If></If>"
-28,"TEXT_BANOMI004_04604_TODO_04","Parler à N-7000, au camp de base A-4"
-29,"TEXT_BANOMI004_04604_TODO_05",""
-30,"TEXT_BANOMI004_04604_TODO_06",""
-31,"TEXT_BANOMI004_04604_TODO_07",""
-32,"TEXT_BANOMI004_04604_TODO_08",""
-33,"TEXT_BANOMI004_04604_TODO_09",""
-34,"TEXT_BANOMI004_04604_TODO_10",""
-35,"TEXT_BANOMI004_04604_TODO_11",""
-36,"TEXT_BANOMI004_04604_TODO_12",""
-37,"TEXT_BANOMI004_04604_TODO_13",""
-38,"TEXT_BANOMI004_04604_TODO_14",""
-39,"TEXT_BANOMI004_04604_TODO_15",""
-40,"TEXT_BANOMI004_04604_TODO_16",""
-41,"TEXT_BANOMI004_04604_TODO_17",""
-42,"TEXT_BANOMI004_04604_TODO_18",""
-43,"TEXT_BANOMI004_04604_TODO_19",""
-44,"TEXT_BANOMI004_04604_TODO_20",""
-45,"TEXT_BANOMI004_04604_TODO_21",""
-46,"TEXT_BANOMI004_04604_TODO_22",""
-47,"TEXT_BANOMI004_04604_TODO_23",""
-48,"TEXT_BANOMI004_04604_N7000_000_001","Bip... Les ressources élyséennes continuent à affluer et tout se passe pour le mieux au café. Côté dynamis, aucun développement anormal à signaler."
-49,"TEXT_BANOMI004_04604_JAMMINGWAY_000_002","Quant aux Éas, ils continuent à observer de près le com<SoftHyphen/>por<SoftHyphen/>te<SoftHyphen/>ment des miw miisv. Et ils ne sont pas les seuls, tout le monde adore ces curieuses bestioles<Indent/>!"
-50,"TEXT_BANOMI004_04604_JAMMINGWAY_000_003","Dites, et si on allait faire un tour aux Dernières Réminiscences<Indent/>? Avec tous les habitués, on ne risque pas de s'ennuyer<Indent/>!"
-51,"TEXT_BANOMI004_04604_Q5_000_000","Aller aux Dernières Réminiscences<Indent/>?"
-52,"TEXT_BANOMI004_04604_N7000_000_010","Bip... Il devient de plus en plus difficile de trouver une table libre, ces derniers temps. Je me demande si certains de nos clients ne dorment pas sur place..."
-53,"TEXT_BANOMI004_04604_JAMMINGWAY_000_011","Depuis l'arrivée des Éas et des miw miisv, notre café n'a jamais été aussi animé<Indent/>!"
-54,"TEXT_BANOMI004_04604_N7000_000_012","Bip... La situation me paraît propice aux préparatifs pour l'accueil de nos prochains clients."
-55,"TEXT_BANOMI004_04604_JAMMINGWAY_000_013","Justement, à ce sujet<Indent/>! J'ai une idée à vous proposer<Indent/>!"
-56,"TEXT_BANOMI004_04604_JAMMINGWAY_000_014","Écoute-moi avant de critiquer<Indent/>! Je pensais à d'autres habitants d'Ultima Thulé... les dragons<Indent/>! Puisqu'on a invité les Éas, ça ne serait pas chic de les ignorer<Indent/>!"
-57,"TEXT_BANOMI004_04604_N7000_000_015","Bip<Indent/>!? Au cas où tu ne le saurais pas, petite boule de poils, nous autres Omicrons sommes les ennemis jurés des dragons. Tu veux qu'on se fasse exterminer<Indent/>!?"
-58,"TEXT_BANOMI004_04604_JAMMINGWAY_000_016","Qu'est-ce qui t'arrive, tas de ferraille<Indent/>? Tu trembles des boulons<Indent/>?"
-59,"TEXT_BANOMI004_04604_JAMMINGWAY_000_017","Par contre, si les dragons vous en veulent toujours, on risque une influence néfaste sur le dynamis... Avant de les faire venir ici, il vaudrait mieux aller à leur rencontre pour en avoir le cœur net."
-60,"TEXT_BANOMI004_04604_N7000_000_018","Je m'oppose fermement à cette proposition. En ma présence, on prendrait le risque de provoquer une réaction violente qui mettrait nos vies en danger. Pshhh..."
-61,"TEXT_BANOMI004_04604_JAMMINGWAY_000_019","Toi alors, tu imagines toujours le pire... Au contraire, c'est précisément parce que tu es un Omicron qu'on pourra être fixés sur leurs intentions<Indent/>!"
-62,"TEXT_BANOMI004_04604_JAMMINGWAY_000_020","Bien sûr, on ne peut pas effacer les ravages causés par les tiens sur la planète des dragons... Mais tu ne crois pas que ça serait une bonne occasion de renouer des liens<Indent/>?"
-63,"TEXT_BANOMI004_04604_N7000_000_021","Effectivement, on pourrait faire <Emphasis>d'une pierre deux coups</Emphasis>, comme disent les humains... Très bien, proposition acceptée. Pshhh..."
-64,"TEXT_BANOMI004_04604_JAMMINGWAY_000_022","Ne t'en fais pas, si ça tourne au vinaigre, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> sera là pour apaiser les esprits<Indent/>! Allez, partons pour Reah Tahra et cherchons un dragon qui acceptera de nous écouter<Indent/>!"
-65,"TEXT_BANOMI004_04604_JAMMINGWAY_000_030","E-enchanté... N-nous représentons le c-café “Les Dernières Réminiscences” et n-nous..."
-66,"TEXT_BANOMI004_04604_NIBIRAENOMI_000_031","Cette région est des plus in<SoftHyphen/>té<SoftHyphen/>res<SoftHyphen/>santes... On y ressent la résignation face à l'absurdité de l'existence, et il y résonne l'écho de lamentations pour une planète-mère déchue... Mais qui ose donc troubler cette tran<SoftHyphen/>quil<SoftHyphen/>li<SoftHyphen/>té...<Indent/>?"
-67,"TEXT_BANOMI004_04604_DRAGONOMI_000_029","..."
-68,"TEXT_BANOMI004_04604_N7000_000_032","Jammingway est entré en phase de négociations avec ce dragon. Les premiers échanges ne sont pas très encourageants... Pshhh..."
-69,"TEXT_BANOMI004_04604_JAMMINGWAY_000_033","N-nous aimerions vous inviter à v-visiter notre café, et... Euh... Vous m'entendez<Indent/>!?"
-70,"TEXT_BANOMI004_04604_JAMMINGWAY_000_034","(Ne te laisse pas démonter Jammi...)
-Allô, il y a quelqu'un<Indent/>???"
-71,"TEXT_BANOMI004_04604_DRAGONOMI_000_035","Mais dis-moi, petit être aussi minuscule que bruyant... Ne serais-tu pas accompagné de <If(PlayerParameter(4))>celle<Else/>celui</If> qui a dissipé la brume qui nous aveuglait<Indent/>?"
-72,"TEXT_BANOMI004_04604_DRAGONOMI_000_036","Même si notre ciel s'est éclairci, nous ne voulons pas moins demeurer dans un profond sommeil en ces lieux... Pour quel futile motif osez-vous entraver mon repos<Indent/>?"
-73,"TEXT_BANOMI004_04604_JAMMINGWAY_000_037","Permettez-moi de vous expliquer<Indent/>! Nous avons créé Les Dernières Réminiscences, un lieu de ras<SoftHyphen/>sem<SoftHyphen/>ble<SoftHyphen/>ment et de partage pour les habitants d'Ultima Thulé, et nous aimerions vous y inviter<Indent/>!"
-74,"TEXT_BANOMI004_04604_JAMMINGWAY_000_038","Nous sommes conscients des relations tendues que vous entretenez avec les Omicrons, mais c'est aussi une des raisons pour lesquelles nous voudrions vous accueillir<Indent/>!"
-75,"TEXT_BANOMI004_04604_DRAGONOMI_000_039","Notre défaite face aux soldats d'acier n'est plus qu'un vague souvenir de temps immémoriaux... Malgré la présence de l'un d'eux sous mes yeux, je n'ai pas la moindre larme de douleur ou de regret à verser..."
-76,"TEXT_BANOMI004_04604_DRAGONOMI_000_040","La seule pensée qui m'anime est de reprendre ma léthargie éternelle, en attendant que mon corps tombe en décrépitude..."
-77,"TEXT_BANOMI004_04604_N7000_000_041","Bip... Si vous n'attendez plus que la mort, cela signifie-t-il que vous n'éprouvez plus aucun sentiment de rancœur à l'encontre de nous autres Omicrons<Indent/>?"
-78,"TEXT_BANOMI004_04604_N7000_000_042","Avant d'affirmer que votre haine envers nous a disparu, que diriez-vous d'essayer un acte de vengeance sur moi<Indent/>? Si cette expérience peut vous soulager, je suis prêt à servir de sujet de test."
-79,"TEXT_BANOMI004_04604_DRAGONOMI_000_043","T'éliminer ici et maintenant ne rimerait à rien. Notre histoire est déjà écrite, et il est bien trop tard pour y changer quoi que ce soit..."
-80,"TEXT_BANOMI004_04604_DRAGONOMI_000_044","Ce “café” dont vous parlez, il m'évoque un lieu où nous autres dragons nous réunissions jadis pour partager nos chants, au pied d'une montagne sacrée."
-81,"TEXT_BANOMI004_04604_DRAGONOMI_000_045","Nous nous sommes tant lamentés d'avoir perdu ce qui nous était si cher... Mais aujourd'hui, même ces regrets semblent remonter à une éternité..."
-82,"TEXT_BANOMI004_04604_N7000_000_046","Bip... Il me paraît difficile d'inviter un dragon si nous parvenons à peine à communiquer... Comme nous l'avons fait pour les Nibiréens, je propose que nous revoyions notre plan."
-83,"TEXT_BANOMI004_04604_JAMMINGWAY_000_047","Hmm... Je refuse de baisser les bras<Indent/>! Pense aux Karelliens, qui cultivent aujourd'hui leurs champs main dans la main sur Élysée alors qu'ils se sont entretués autrefois<Indent/>!"
-84,"TEXT_BANOMI004_04604_JAMMINGWAY_000_048","Puisqu'on a déjà réussi plus d'une fois à transmettre notre message d'espoir à travers Les Dernières Réminiscences, je ne vois pas pourquoi ça ne marcherait pas avec les dragons<Indent/>!"
-85,"TEXT_BANOMI004_04604_JAMMINGWAY_000_049","Sans compter qu'on a <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> de notre côté, <If(PlayerParameter(4))>l'héroïne<Else/>le héros</If> qui a mis un terme à la Guerre du chant des dragons<Indent/>! Si quelqu'un sait leur parler, c'est bien <If(PlayerParameter(4))>elle<Else/>lui</If><Indent/>!"
-86,"TEXT_BANOMI004_04604_JAMMINGWAY_000_050","À moins que je me trompe, il y a bien des dragons qui ont voyagé à travers l'espace pour recommencer une vie après la destruction de leur planète, non<Indent/>? Et aujourd'hui, ils habitent Ætherys<Indent/>!"
-87,"TEXT_BANOMI004_04604_JAMMINGWAY_000_051","Qu'en dites-vous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>? Je suis sûr que vous comptez parmi vos con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ces des dragons qui accepteraient de prêter l'oreille à notre cause<Indent/>!"
-88,"TEXT_BANOMI004_04604_Q1_000_000","Que répondez-vous<Indent/>?"
-89,"TEXT_BANOMI004_04604_A1_000_001","Je pourrais demander à Vrtra, qui cohabite avec les humains."
-90,"TEXT_BANOMI004_04604_A1_000_002","Vidofnir est la dragonne la plus aimable que je connaisse."
-91,"TEXT_BANOMI004_04604_JAMMINGWAY_100_053","Vrtra, le satrape de Radz-at-Han... C'est une idée, mais il est si occupé que je préférerais éviter de le déranger. Que faire...<Indent/>?"
-92,"TEXT_BANOMI004_04604_JAMMINGWAY_000_053","La vénérable Vidofnir, qui réside dans l'Avant-pays dravanien... En tant que fille du grand Hraesvelgr, l'un des sept dragons anciens, son influence sur ses semblables est loin d'être négligeable."
-93,"TEXT_BANOMI004_04604_JAMMINGWAY_000_054","Puisqu'elle a déjà démontré à de multiples reprises sa position favorable vis-à-vis de la paix entre les races, je suis sûr qu'elle entendra notre requête<Indent/>!"
-94,"TEXT_BANOMI004_04604_N7000_000_055","Bip... L'histoire récente de votre planète et de son satellite est absente de ma base de données, donc je ne peux que m'associer au choix de cette opportunité que vous considérez si prometteuse."
-95,"TEXT_BANOMI004_04604_N7000_100_056","Plus que la normalisation des relations entre les Omicrons et les dragons, c'est désormais de raviver la flamme chez ces derniers qui sera ma priorité<Indent/>!"
-96,"TEXT_BANOMI004_04604_JAMMINGWAY_000_057","J'aime quand tu parles comme ça<Indent/>! Dans ce cas, ne perdons pas de temps et allons retrouver Vidofnir à Annexe Trine."
-97,"TEXT_BANOMI004_04604_N7000_000_058","Comme je ne peux pas vous accompagner, je vous confie un terminal miniature qui nous permettra de communiquer. Aucune inquiétude pour le café, je m'en occuperai en votre absence. Pshhh..."
-98,"TEXT_BANOMI004_04604_JAMMINGWAY_000_059","Très bien<Indent/>! Ætherys, nous voilà<Indent/>!"
-99,"TEXT_BANOMI004_04604_DRAGONOMI_000_060","Aaaah, les vents de la montagne sacrée... Si je pouvais ne serait-ce que me rappeler la sensation de leur caresse sur mes écailles..."
-100,"TEXT_BANOMI004_04604_N7000_000_061","Bip... La situation aux Dernières Réminiscences est sous contrôle. Rassurez-vous, le terminal miniature que je vous ai confié me permettra de vous assister pendant votre séjour sur Ætherys."
-101,"TEXT_BANOMI004_04604_VIDOFNIR_000_070","Tiens donc, regardez qui voilà... Tu m'as l'air bien <If(PlayerParameter(4))>occupée<Else/>occupé</If>, brave <If(PlayerParameter(4))>humaine<Else/>humain</If>. Ne devrais-tu pas te reposer, après avoir sauvé notre planète de l'apocalypse qui la menaçait<Indent/>?"
-102,"TEXT_BANOMI004_04604_VIDOFNIR_000_071","Oh, je comprends mieux pourquoi tu es <If(PlayerParameter(4))>accompagné<Else/>accompagné</If> d'un des petits serviteurs d'Hydaelyn, mais aussi... d'un Omicron<Indent/>?"
-103,"TEXT_BANOMI004_04604_VIDOFNIR_000_072","Quelle surprise de te voir fréquenter un des êtres métalliques qui ont détruit notre planète-mère, il y a une éternité... J'ai l'impression d'avoir sous les yeux une relique d'un autre temps."
-104,"TEXT_BANOMI004_04604_VIDOFNIR_100_072","Tu ne cesseras jamais de me surprendre... Mais si tu juges bon d'avoir un tel allié à tes côtés, c'est cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment que tu as d'excellentes raisons, et je ne me permettrais pas de les remettre en cause."
-105,"TEXT_BANOMI004_04604_VIDOFNIR_000_073","Quelle pitié... Que des congénères souffrent aux confins de l'univers, condamnés à se lamenter éter<SoftHyphen/>nel<SoftHyphen/>le<SoftHyphen/>ment sur leur funeste destinée... S'il m'est possible de contribuer à apaiser leur mal, je suis à ton entière disposition."
-106,"TEXT_BANOMI004_04604_N7000_000_074","Bip bip... La différence avec les dragons d'Ultima Thulé est frappante. Alors que ces derniers sont moroses et résignés, Vidofnir semble embrasser son existence éternelle avec la plus grande sérénité."
-107,"TEXT_BANOMI004_04604_N7000_000_075","Pendant le trajet depuis Ultima Thulé, Jammingway m'a appris tout ce qu'il savait au sujet de l'histoire commune entre les humains et les dragons sur Ætherys."
-108,"TEXT_BANOMI004_04604_N7000_000_076","J'ai compris qu'il existait une profonde confiance mutuelle entre vous et l'entité Vidofnir... Le fait de combattre côte à côte en caressant un espoir commun pour le futur peut vraiment tout changer. Pshhh..."
-109,"TEXT_BANOMI004_04604_JAMMINGWAY_000_077","Pourriez-vous nous dire comment aborder les dragons d'Ultima Thulé<Indent/>? Nous n'avons pas su trouver les mots justes pour éveiller le moindre intérêt chez eux..."
-110,"TEXT_BANOMI004_04604_VIDOFNIR_000_078","D'après ce que vous m'avez décrit, les pauvres sont exténués à force de se lamenter. L'image de notre planète-mère est très cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment présente dans leur esprit, mais ils sont trop affaiblis pour se la remémorer..."
-111,"TEXT_BANOMI004_04604_VIDOFNIR_000_079","D'après mon père Hraesvelgr, Midgardsormr lui décrivait souvent les paysages qui ont vu naître nos ancêtres."
-112,"TEXT_BANOMI004_04604_VIDOFNIR_100_079","Ce sont ces récits qui l'ont incité à voyager pour trouver, en compagnie de Nidhogg, un lieu semblable à notre ancienne montagne sacrée... Ils ont finalement décidé de s'installer à Sohm Al, qui est ainsi devenu notre foyer."
-113,"TEXT_BANOMI004_04604_VIDOFNIR_000_080","Si vous arriviez à balayer les nuages qui dissimulent les fières cimes de notre montagne sacrée dans l'esprit de mes congénères sur Ultima Thulé, peut-être parviendriez-vous à faire renaître l'espoir en eux..."
-114,"TEXT_BANOMI004_04604_JAMMINGWAY_000_081","Vous suggérez donc de raviver des souvenirs oubliés... Ça ne pouvait pas mieux tomber<Indent/>! Dans notre café aux confins de l'univers, nous sommes passés maîtres dans l'exercice<Indent/>!"
-115,"TEXT_BANOMI004_04604_N7000_000_082","Bip... Après analyse de l'historique des Dernières Réminiscences, je confirme qu'il s'agit de la méthode la plus à même de solutionner notre problème."
-116,"TEXT_BANOMI004_04604_N7000_000_083","En revanche, je ne trouve aucune donnée sur une éventuelle culture culinaire des dragons... À l'instar de notre expérience avec la mer et les Grébuloff, je suggère de leur proposer un menu qui évoquera certains aspects de leur montagne sacrée. Pshhh..."
-117,"TEXT_BANOMI004_04604_JAMMINGWAY_000_084","Il va nous falloir trouver quelques astuces pour réussir, mais... j'ai ma petite idée<Indent/>!"
-118,"TEXT_BANOMI004_04604_JAMMINGWAY_000_085","Parmi la tonz de recettes que j'ai empruntées à Sharlayan, il y en a une pour un gâteau ishgardais à l'image de Sohm Al. Partons de cette base et apportons-y quelques mo<SoftHyphen/>di<SoftHyphen/>fi<SoftHyphen/>ca<SoftHyphen/>tions de notre cru<Indent/>!"
-119,"TEXT_BANOMI004_04604_VIDOFNIR_000_086","Voilà encore une entreprise bien excentrique... Si c'est pour le bien de mes frères et sœurs en détresse, je peux vous indiquer quelques ressources locales qui devraient vous être utiles."
-120,"TEXT_BANOMI004_04604_VIDOFNIR_000_087","Au sud-ouest d'Annexe Trine, il y a des veines de minéraux d'un magnifique vert émeraude. Extrayez ceux que les humains appellent <SheetFr(Item,1,38279,2,1)/>... D'après mon père, leur éclat rappelle notre montagne sacrée."
-121,"TEXT_BANOMI004_04604_VIDOFNIR_000_088","Au nord-est d'Annexe Trine, on peut trouver des fleurs d'un blanc immaculé. Cueillez celles que les humains appellent <SheetFr(Item,1,38303,2,1)/>... D'après mon père, elles rappellent les cimes enneigées de notre montagne sacrée."
-122,"TEXT_BANOMI004_04604_VIDOFNIR_000_089","À L'Eurée feste, on aperçoit parfois des poissons dont les écailles sont semblables à des cristaux. Vous devriez aller attraper un de ceux que les humains appellent <SheetFr(Item,12,38327,1,1)/>... D'après mon père, leur éclat rappelle notre montagne sacrée."
-123,"TEXT_BANOMI004_04604_VIDOFNIR_000_090","Vous autres humains vous servez d'un appât accroché au bout d'un fil, n'est-ce pas<Indent/>? Il me semble que ces poissons ont une fâcheuse tendance à se nourrir des œufs de leurs congénères, donc c'est ce que je vous conseille d'utiliser."
-124,"TEXT_BANOMI004_04604_N7000_100_091","Bip... D'après les re<SoftHyphen/>com<SoftHyphen/>man<SoftHyphen/>da<SoftHyphen/>tions de l'entité Vidofnir, <SheetFr(Item,1,36588,1,1)/> devrait vous permettre de pêcher aisément ce poisson. Si besoin, vous pouvez en obtenir auprès de N-0598, au camp de base A-4."
-125,"TEXT_BANOMI004_04604_JAMMINGWAY_000_091","J'imagine déjà le plat incroyable qu'on va pouvoir préparer avec un ingrédient aussi exotique<Indent/>! Merci infiniment d'avoir partagé votre savoir avec nous, vénérable Vidofnir<Indent/>!"
-126,"TEXT_BANOMI004_04604_N7000_000_092","Lorsque vous aurez obtenu le nécessaire, venez me le livrer au café. J'adorerais poursuivre notre exploration de Sohm Al, mais les capacités du terminal que je vous ai confié sont limitées... Pshhh..."
-127,"TEXT_BANOMI004_04604_VIDOFNIR_000_095","Tu as maintes fois prouvé que le salut ne réside pas dans la force seule... Poursuis cette voie que tu as toi-même tracée, brave <If(PlayerParameter(4))>humaine<Else/>humain</If>, je serai là pour te soutenir."
-128,"TEXT_BANOMI004_04604_JAMMINGWAY_000_100","C'est la première fois que nous allons tout miser sur l'aspect d'un de nos plats<Indent/>! J'espère que nos amis dragons d'Ultima Thulé sauront y voir l'image de leur ancienne planète..."
-129,"TEXT_BANOMI004_04604_N7000_000_101","Bip... Je me suis permis de rapatrier le terminal que je vous avais confié. De votre côté, avez-vous trouvé le type de ressource que l'entité Vidofnir vous a indiqué<Indent/>?"
-130,"TEXT_BANOMI004_04604_N7000_000_102","Analyse en cours... Bip bip... Beau travail, entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Je détecte comme prévu des similarités avec les repré<SoftHyphen/>sen<SoftHyphen/>ta<SoftHyphen/>tions de la planète sacrée des dragons présentes dans la base de données omicron."
-131,"TEXT_BANOMI004_04604_JAMMINGWAY_000_103","Merci, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Faites-moi confiance, je vais dorloter ces précieux ingrédients pour préparer un plat que les dragons d'Ultima Thulé ne seront pas près d'oublier<Indent/>!"
-132,"TEXT_BANOMI004_04604_DRAGONOMI_000_104","Jamais je n'aurais cru me trouver en un lieu peuplé de soldats d'acier... Mais puisque vous êtes allés requérir le conseil de mes congénères au bout de l'univers, demeurer dans mon apathie aurait été une insulte à leur égard..."
-133,"TEXT_BANOMI004_04604_JAMMINGWAY_000_105","Merci d'avoir répondu favorablement à notre invitation<Indent/>! Par ici, s'il vous plaît<Indent/>!"
-134,"TEXT_BANOMI004_04604_DRAGONOMI_000_106","Ces aliments si sophistiqués... Pour moi...<Indent/>?"
-135,"TEXT_BANOMI004_04604_JAMMINGWAY_000_107","Tout à fait<Indent/>! Ces gâteaux sont à l'image de votre montagne sacrée, d'après les suggestions de Vidofnir, une éminente dragonne vivant sur Ætherys. Nous les avons préparés rien que pour vous<Indent/>!"
-136,"TEXT_BANOMI004_04604_JAMMINGWAY_000_108","... A-alors<Indent/>? Q-qu'en pensez-vous...<Indent/>?"
-137,"TEXT_BANOMI004_04604_DRAGONOMI_000_109","..."
-138,"TEXT_BANOMI004_04604_DRAGONOMI_000_110","Il y a longtemps que je n'ai pas eu en bouche un aliment doté d'une saveur quelconque... Pour être honnête, je serais bien incapable de vous dire si cette expérience gustative est plaisante ou non."
-139,"TEXT_BANOMI004_04604_DRAGONOMI_000_111","Cependant, à la vue de ces mets préparés mé<SoftHyphen/>ti<SoftHyphen/>cu<SoftHyphen/>leu<SoftHyphen/>se<SoftHyphen/>ment à mon attention, je sens poindre du fond de mon âme une sensation enfouie depuis une éternité..."
-140,"TEXT_BANOMI004_04604_DRAGONOMI_000_112","C'est comme si j'étais dominé par notre majestueuse montagne sacrée, sa cime transperçant la mer de nuages émeraude... Je pourrais presque ressentir la caresse de ses vents glacés sur mes ailes..."
-141,"TEXT_BANOMI004_04604_DRAGONOMI_000_113","Ce lieu que vous appelez “café” reste un mystère pour moi... En revanche, je suis touché que vous ayez fait un si long voyage et fourni tant d'efforts pour me proposer ce repas..."
-142,"TEXT_BANOMI004_04604_DRAGONOMI_000_114","Plus que ces gâteaux, ce sont bien les <Emphasis>attentions</Emphasis> de votre part à mon égard qui ont ravivé le souvenir des jours heureux passés sur mes terres natales..."
-143,"TEXT_BANOMI004_04604_Q2_000_000","Que dites-vous<Indent/>?"
-144,"TEXT_BANOMI004_04604_A2_000_001","Que vous évoquent ces réminiscences de votre planète<Indent/>?"
-145,"TEXT_BANOMI004_04604_A2_000_002","Chacun chérit plus que tout les souvenirs de son pays natal."
-146,"TEXT_BANOMI004_04604_DRAGONOMI_000_115","Le bonheur de voir se dessiner ces paysages disparus me saisit jusqu'aux entrailles... Que notre planète était belle<Indent/>! J'ai du mal à en croire mes yeux..."
-147,"TEXT_BANOMI004_04604_DRAGONOMI_000_116","Il faut absolument que mes frères et sœurs languissant de rendre leur dernier souffle à Reah Tahra connaissent cette émotion. Pour que notre pénible agonie soit désormais un doux sommeil empreint de nostalgie..."
-148,"TEXT_BANOMI004_04604_N7000_000_117","Bip... Vos congénères sont les bienvenus aux Dernières Réminiscences. Mais avant de les inviter, j'ai une remarque à formuler..."
-149,"TEXT_BANOMI004_04604_N7000_000_118","Comme vous l'avez constaté, de nombreux Omicrons sont présents dans l'éta<SoftHyphen/>blis<SoftHyphen/>se<SoftHyphen/>ment. Êtes-vous sûr que cela ne posera pas de problème aux autres dragons<Indent/>?"
-150,"TEXT_BANOMI004_04604_DRAGONOMI_000_119","Soldat d'acier... Toi et tes compagnons ici n'avez rien à voir avec notre misérable destinée. Vous m'avez suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment prouvé que vos intentions étaient tout sauf belliqueuses, aussi les miens ne montreront ni leurs crocs, ni leurs griffes."
-151,"TEXT_BANOMI004_04604_DRAGONOMI_000_120","Même le plus rancunier des dragons de Reah Tahra ne pourrait rester insensible à la vue d'un endroit aussi accueillant et cosmopolite..."
-152,"TEXT_BANOMI004_04604_N7000_000_121","Bip... Tout risque que la situation dégénère semble écarté. L'influence de cet espace sur les sentiments des formes de vie pensantes et les fluctuations qui en résultent sont décidément pas<SoftHyphen/>sion<SoftHyphen/>nan<SoftHyphen/>tes..."
-153,"TEXT_BANOMI004_04604_N7000_000_122","D'après mes premières impressions, la visite des dragons aux Dernières Réminiscences est un succès, mais un aspect inconnu améliore encore davantage mon évaluation... Je dois poursuivre mon analyse avant de me prononcer. Pshhh..."
-154,"TEXT_BANOMI004_04604_JAMMINGWAY_000_123","Voilà que le tas de ferraille recommence avec ses formulations tarabiscotées... Ça te rouillerait de dire que tu es <Emphasis>content</Emphasis>, des fois<Indent/>?"
-155,"TEXT_BANOMI004_04604_N7000_000_124","Bip... Depuis quand te permets-tu de me commander, petite boule de poils<Indent/>!? Puisque c'est comme ça... Arrêt des procédures en cours... Mise en veille... Pshhh..."
-156,"TEXT_BANOMI004_04604_JAMMINGWAY_000_125","Hé<Indent/>! On avait dit pas la mise en veille<Indent/>!"
-157,"TEXT_BANOMI004_04604_JAMMINGWAY_000_126","... Quoi qu'il en soit, on a réussi à faire bonne impression aux dragons grâce aux Dernières Réminiscences<Indent/>! Vite, direction le téléporteur pour découvrir ce qui se passe sur Élysée<Indent/>!"
-158,"TEXT_BANOMI004_04604_Q4_000_000","Aller au camp de base A-4<Indent/>?"
-159,"TEXT_BANOMI004_04604_JAMMINGWAY_000_128","Avec toutes les ondes positives venant de notre café, aucun doute que le dynamis s'est emballé<Indent/>! Vite, vite, vers Élysée<Indent/>!"
-160,"TEXT_BANOMI004_04604_N7000_000_127","Bip... Pour l'Omicron que je suis, parvenir à un tel niveau de compréhension et de cohabitation avec les dragons est tout bonnement inespéré. Allons constater le résultat de nos progrès sur le dynamis."
-161,"TEXT_BANOMI004_04604_DRAGONOMI_000_300","Même si ces montagnes sont nées de nos souvenirs... Le vent qui souffle depuis leur sommet est bien réel, sur cette petite planète..."
-162,"TEXT_BANOMI004_04604_SYSTEM_000_301","Grâce aux émotions des dragons, des montagnes escarpées sont apparues sur Élysée<Indent/>! Comme les autres civilisations auparavant, eux aussi possèdent désormais un espace privilégié où caresser de nouveaux espoirs pour le futur."
-163,"TEXT_BANOMI004_04604_SYSTEM_000_302","Cependant, il reste encore des parcelles rocheuses que le dynamis pourrait faire évoluer grâce à la force des sentiments. La jeune planète cache encore de nombreuses possibilités qu'il ne tient qu'à vous de découvrir<Indent/>!"
-164,"TEXT_BANOMI004_04604_JAMMINGWAY_000_140","Oh là là<Indent/>! Vous avez vu ces imposantes montagnes à la cime majestueuse<Indent/>?"
-165,"TEXT_BANOMI004_04604_N7000_000_141","Bip... Ces escarpements sont le symbole de l'espoir retrouvé des dragons. Nous avons accompli des progrès remarquables, aujourd'hui."
-166,"TEXT_BANOMI004_04604_JAMMINGWAY_000_142","Oui, ça valait le coup d'aller jusqu'à Ætherys pour rencontrer Vidofnir et de préparer ces gâteaux élaborés<Indent/>! Je n'ai jamais été aussi fier du travail fourni aux Dernières Réminiscences<Indent/>!"
-167,"TEXT_BANOMI004_04604_N7000_000_143","Dans toute l'histoire de l'univers, jamais les dragons et les Omicrons n'étaient parvenus à l'entente... Je dirais que les propriétés d'Ultima Thulé et le pouvoir du dynamis ont joué un rôle déterminant dans ce tour de force. Pshhh..."
-168,"TEXT_BANOMI004_04604_JAMMINGWAY_000_144","Oh, ne commence pas à jouer sur les mots, hein<Indent/>! Notre café et tous les efforts qu'on consacre à ce projet sont bien réels, et je t'interdis de dire que ce qui se passe sur Élysée n'est que virtuel<Indent/>!"
-169,"TEXT_BANOMI004_04604_JAMMINGWAY_000_145","Et d'ailleurs, toi, N-7000, tu es là aussi, non<Indent/>? Tu observes, analyses et évalues les événements dont tu es toi-même acteur... c'est exactement en ligne avec l'ordre que tu as reçu de <Emphasis>vivre</Emphasis>, il me semble."
-170,"TEXT_BANOMI004_04604_N7000_000_146","... Petite boule de poils, je te prierai d'éviter de donner ton avis sur des sujets que tu ne maîtrises pas. Remettons plutôt cette discussion à une autre fois. Pshhh..."
-171,"TEXT_BANOMI004_04604_JAMMINGWAY_000_147","En tout cas, on peut dire que <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> nous a sauvé la mise grâce aux liens solides qu'<If(PlayerParameter(4))>elle<Else/>il</If> a tissés avec les dragons d'Ætherys<Indent/>! Des liens qui ont fait renaître l'espoir chez leurs congénères, aux confins de l'univers... Quelle belle histoire<Indent/>!"
-172,"TEXT_BANOMI004_04604_SYSTEM_000_148","Votre réputation auprès des Omicrons des Dernières Réminiscences est passée à “Émérite”. Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
-173,"TEXT_BANOMI004_04604_SYSTEM_000_149","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Stigma-4."
-174,"TEXT_BANOMI004_04604_SYSTEM_000_150","De plus, trois quêtes sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
-175,"TEXT_BANOMI004_04604_SYSTEM_000_151","Stigma-4 vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang."
-176,"TEXT_BANOMI004_04604_SYSTEM_000_152","En outre, N-0598 vous propose maintenant les objets correspondant au rang “Émérite”. Faites-en bon usage au cours de vos aventures<Indent/>!"
-177,"TEXT_BANOMI004_04604_N7000_000_056","（★未使用／削除予定★）"
-178,"TEXT_BANOMI004_04604_JAMMINGWAY_100_091","（★未使用／削除予定★）"
+2,TEXT_BANOMI004_04604_SEQ_02,"Cette fois, votre compère loporrite a suggéré d'inviter d'autres résidents de longue date d'Ultima Thulé, les dragons ! Malgré les réticences de N-7000, c'est bien à ces créatures terrifiantes, qui haïssent les Omicrons plus que tout, que vous allez devoir vous adresser. Rendez-vous à Reah Tahra et parlez à N-7000."
+3,TEXT_BANOMI004_04604_SEQ_03,"En dépit de nombreux efforts, vous n'avez pas réussi à provoquer de franche réaction chez le dragon avec qui vous et vos acolytes vous êtes entretenus. Au pied du mur, vous avez ainsi décidé de retourner sur Ætherys pour demander conseil à une de vos vieilles con­nais­san­ces... Partez pour Annexe Trine et parlez à Vidofnir."
+4,TEXT_BANOMI004_04604_SEQ_04,"La dragonne vous a suggéré de raviver le souvenir de leur planète bien-aimée chez ses congénères d'Ultima Thulé. Jammingway a alors eu l'idée de s'inspirer d'une recette de gâteau à l'image de Sohm Al qui pourrait évoquer l'ancienne montagne sacrée des dragons. Récoltez le type d'ingrédient conseillé par Vidofnir et allez ensuite trouver N-7000, aux Dernières Réminiscences."
+5,TEXT_BANOMI004_04604_SEQ_05,"Les gâteaux préparés par Jammingway ont pro­fon­dé­ment touché votre invité dragon. Plus que leur aspect censé évoquer les paysages de sa terre natale, c'est la délicate attention que vous et vos amis avez eue à son égard qui a fait naître en lui un sentiment d'espoir... Nul doute que le dynamis n'est pas resté insensible à ce nouvel épisode émouvant survenu dans votre café. Rendez-vous au camp de base A-4 et parlez à N-7000 pour découvrir ensemble ce qui se passe sur Élysée."
+6,TEXT_BANOMI004_04604_SEQ_06,"Le regain d'espoir des dragons d'Ultima Thulé a eu pour effet de faire pousser des montagnes sur la jeune planète. Rassuré quant à la normalisation des relations entre les Omicrons et les dragons, N-7000 s'est réjoui à sa manière de votre succès avant d'être grondé par Jammingway qui ne serait pas contre un peu plus de spontanéité de sa part. Même s'ils n'ont pas manqué une nouvelle occasion de se chamailler, vos deux amis réfléchissent déjà à quelles bonnes œuvres ils pourront accomplir grâce aux Dernières Réminiscences. Continuez à les encourager !"
+7,TEXT_BANOMI004_04604_SEQ_07,
+8,TEXT_BANOMI004_04604_SEQ_08,
+9,TEXT_BANOMI004_04604_SEQ_09,
+10,TEXT_BANOMI004_04604_SEQ_10,
+11,TEXT_BANOMI004_04604_SEQ_11,
+12,TEXT_BANOMI004_04604_SEQ_12,
+13,TEXT_BANOMI004_04604_SEQ_13,
+14,TEXT_BANOMI004_04604_SEQ_14,
+15,TEXT_BANOMI004_04604_SEQ_15,
+16,TEXT_BANOMI004_04604_SEQ_16,
+17,TEXT_BANOMI004_04604_SEQ_17,
+18,TEXT_BANOMI004_04604_SEQ_18,
+19,TEXT_BANOMI004_04604_SEQ_19,
+20,TEXT_BANOMI004_04604_SEQ_20,
+21,TEXT_BANOMI004_04604_SEQ_21,
+22,TEXT_BANOMI004_04604_SEQ_22,
+23,TEXT_BANOMI004_04604_SEQ_23,
+24,TEXT_BANOMI004_04604_TODO_00,Parler à Jammingway
+25,TEXT_BANOMI004_04604_TODO_01,Parler à N-7000
+26,TEXT_BANOMI004_04604_TODO_02,"Parler à Vidofnir, à Annexe Trine"
+27,TEXT_BANOMI004_04604_TODO_03,"Extraire , au sud-ouest d'Annexe Trine"
+28,TEXT_BANOMI004_04604_TODO_04,"Parler à N-7000, au camp de base A-4"
+29,TEXT_BANOMI004_04604_TODO_05,
+30,TEXT_BANOMI004_04604_TODO_06,
+31,TEXT_BANOMI004_04604_TODO_07,
+32,TEXT_BANOMI004_04604_TODO_08,
+33,TEXT_BANOMI004_04604_TODO_09,
+34,TEXT_BANOMI004_04604_TODO_10,
+35,TEXT_BANOMI004_04604_TODO_11,
+36,TEXT_BANOMI004_04604_TODO_12,
+37,TEXT_BANOMI004_04604_TODO_13,
+38,TEXT_BANOMI004_04604_TODO_14,
+39,TEXT_BANOMI004_04604_TODO_15,
+40,TEXT_BANOMI004_04604_TODO_16,
+41,TEXT_BANOMI004_04604_TODO_17,
+42,TEXT_BANOMI004_04604_TODO_18,
+43,TEXT_BANOMI004_04604_TODO_19,
+44,TEXT_BANOMI004_04604_TODO_20,
+45,TEXT_BANOMI004_04604_TODO_21,
+46,TEXT_BANOMI004_04604_TODO_22,
+47,TEXT_BANOMI004_04604_TODO_23,
+48,TEXT_BANOMI004_04604_N7000_000_001,"Bip... Les ressources élyséennes continuent à affluer et tout se passe pour le mieux au café. Côté dynamis, aucun développement anormal à signaler."
+49,TEXT_BANOMI004_04604_JAMMINGWAY_000_002,"Quant aux Éas, ils continuent à observer de près le com­por­te­ment des miw miisv. Et ils ne sont pas les seuls, tout le monde adore ces curieuses bestioles !"
+50,TEXT_BANOMI004_04604_JAMMINGWAY_000_003,"Dites, et si on allait faire un tour aux Dernières Réminiscences ? Avec tous les habitués, on ne risque pas de s'ennuyer !"
+51,TEXT_BANOMI004_04604_Q5_000_000,Aller aux Dernières Réminiscences ?
+52,TEXT_BANOMI004_04604_N7000_000_010,"Bip... Il devient de plus en plus difficile de trouver une table libre, ces derniers temps. Je me demande si certains de nos clients ne dorment pas sur place..."
+53,TEXT_BANOMI004_04604_JAMMINGWAY_000_011,"Depuis l'arrivée des Éas et des miw miisv, notre café n'a jamais été aussi animé !"
+54,TEXT_BANOMI004_04604_N7000_000_012,Bip... La situation me paraît propice aux préparatifs pour l'accueil de nos prochains clients.
+55,TEXT_BANOMI004_04604_JAMMINGWAY_000_013,"Justement, à ce sujet ! J'ai une idée à vous proposer !"
+56,TEXT_BANOMI004_04604_JAMMINGWAY_000_014,"Écoute-moi avant de critiquer ! Je pensais à d'autres habitants d'Ultima Thulé... les dragons ! Puisqu'on a invité les Éas, ça ne serait pas chic de les ignorer !"
+57,TEXT_BANOMI004_04604_N7000_000_015,"Bip !? Au cas où tu ne le saurais pas, petite boule de poils, nous autres Omicrons sommes les ennemis jurés des dragons. Tu veux qu'on se fasse exterminer !?"
+58,TEXT_BANOMI004_04604_JAMMINGWAY_000_016,"Qu'est-ce qui t'arrive, tas de ferraille ? Tu trembles des boulons ?"
+59,TEXT_BANOMI004_04604_JAMMINGWAY_000_017,"Par contre, si les dragons vous en veulent toujours, on risque une influence néfaste sur le dynamis... Avant de les faire venir ici, il vaudrait mieux aller à leur rencontre pour en avoir le cœur net."
+60,TEXT_BANOMI004_04604_N7000_000_018,"Je m'oppose fermement à cette proposition. En ma présence, on prendrait le risque de provoquer une réaction violente qui mettrait nos vies en danger. Pshhh..."
+61,TEXT_BANOMI004_04604_JAMMINGWAY_000_019,"Toi alors, tu imagines toujours le pire... Au contraire, c'est précisément parce que tu es un Omicron qu'on pourra être fixés sur leurs intentions !"
+62,TEXT_BANOMI004_04604_JAMMINGWAY_000_020,"Bien sûr, on ne peut pas effacer les ravages causés par les tiens sur la planète des dragons... Mais tu ne crois pas que ça serait une bonne occasion de renouer des liens ?"
+63,TEXT_BANOMI004_04604_N7000_000_021,"Effectivement, on pourrait faire *d'une pierre deux coups*, comme disent les humains... Très bien, proposition acceptée. Pshhh..."
+64,TEXT_BANOMI004_04604_JAMMINGWAY_000_022,"Ne t'en fais pas, si ça tourne au vinaigre, Player sera là pour apaiser les esprits ! Allez, partons pour Reah Tahra et cherchons un dragon qui acceptera de nous écouter !"
+65,TEXT_BANOMI004_04604_JAMMINGWAY_000_030,E-enchanté... N-nous représentons le c-café “Les Dernières Réminiscences” et n-nous...
+66,TEXT_BANOMI004_04604_NIBIRAENOMI_000_031,"Cette région est des plus in­té­res­santes... On y ressent la résignation face à l'absurdité de l'existence, et il y résonne l'écho de lamentations pour une planète-mère déchue... Mais qui ose donc troubler cette tran­quil­li­té... ?"
+67,TEXT_BANOMI004_04604_DRAGONOMI_000_029,...
+68,TEXT_BANOMI004_04604_N7000_000_032,Jammingway est entré en phase de négociations avec ce dragon. Les premiers échanges ne sont pas très encourageants... Pshhh...
+69,TEXT_BANOMI004_04604_JAMMINGWAY_000_033,"N-nous aimerions vous inviter à v-visiter notre café, et... Euh... Vous m'entendez !?"
+70,TEXT_BANOMI004_04604_JAMMINGWAY_000_034,"(Ne te laisse pas démonter Jammi...)
+Allô, il y a quelqu'un ???"
+71,TEXT_BANOMI004_04604_DRAGONOMI_000_035,"Mais dis-moi, petit être aussi minuscule que bruyant... Ne serais-tu pas accompagné de celle qui a dissipé la brume qui nous aveuglait ?"
+72,TEXT_BANOMI004_04604_DRAGONOMI_000_036,"Même si notre ciel s'est éclairci, nous ne voulons pas moins demeurer dans un profond sommeil en ces lieux... Pour quel futile motif osez-vous entraver mon repos ?"
+73,TEXT_BANOMI004_04604_JAMMINGWAY_000_037,"Permettez-moi de vous expliquer ! Nous avons créé Les Dernières Réminiscences, un lieu de ras­sem­ble­ment et de partage pour les habitants d'Ultima Thulé, et nous aimerions vous y inviter !"
+74,TEXT_BANOMI004_04604_JAMMINGWAY_000_038,"Nous sommes conscients des relations tendues que vous entretenez avec les Omicrons, mais c'est aussi une des raisons pour lesquelles nous voudrions vous accueillir !"
+75,TEXT_BANOMI004_04604_DRAGONOMI_000_039,"Notre défaite face aux soldats d'acier n'est plus qu'un vague souvenir de temps immémoriaux... Malgré la présence de l'un d'eux sous mes yeux, je n'ai pas la moindre larme de douleur ou de regret à verser..."
+76,TEXT_BANOMI004_04604_DRAGONOMI_000_040,"La seule pensée qui m'anime est de reprendre ma léthargie éternelle, en attendant que mon corps tombe en décrépitude..."
+77,TEXT_BANOMI004_04604_N7000_000_041,"Bip... Si vous n'attendez plus que la mort, cela signifie-t-il que vous n'éprouvez plus aucun sentiment de rancœur à l'encontre de nous autres Omicrons ?"
+78,TEXT_BANOMI004_04604_N7000_000_042,"Avant d'affirmer que votre haine envers nous a disparu, que diriez-vous d'essayer un acte de vengeance sur moi ? Si cette expérience peut vous soulager, je suis prêt à servir de sujet de test."
+79,TEXT_BANOMI004_04604_DRAGONOMI_000_043,"T'éliminer ici et maintenant ne rimerait à rien. Notre histoire est déjà écrite, et il est bien trop tard pour y changer quoi que ce soit..."
+80,TEXT_BANOMI004_04604_DRAGONOMI_000_044,"Ce “café” dont vous parlez, il m'évoque un lieu où nous autres dragons nous réunissions jadis pour partager nos chants, au pied d'une montagne sacrée."
+81,TEXT_BANOMI004_04604_DRAGONOMI_000_045,"Nous nous sommes tant lamentés d'avoir perdu ce qui nous était si cher... Mais aujourd'hui, même ces regrets semblent remonter à une éternité..."
+82,TEXT_BANOMI004_04604_N7000_000_046,"Bip... Il me paraît difficile d'inviter un dragon si nous parvenons à peine à communiquer... Comme nous l'avons fait pour les Nibiréens, je propose que nous revoyions notre plan."
+83,TEXT_BANOMI004_04604_JAMMINGWAY_000_047,"Hmm... Je refuse de baisser les bras ! Pense aux Karelliens, qui cultivent aujourd'hui leurs champs main dans la main sur Élysée alors qu'ils se sont entretués autrefois !"
+84,TEXT_BANOMI004_04604_JAMMINGWAY_000_048,"Puisqu'on a déjà réussi plus d'une fois à transmettre notre message d'espoir à travers Les Dernières Réminiscences, je ne vois pas pourquoi ça ne marcherait pas avec les dragons !"
+85,TEXT_BANOMI004_04604_JAMMINGWAY_000_049,"Sans compter qu'on a Player de notre côté, l'héroïne qui a mis un terme à la Guerre du chant des dragons ! Si quelqu'un sait leur parler, c'est bien elle !"
+86,TEXT_BANOMI004_04604_JAMMINGWAY_000_050,"À moins que je me trompe, il y a bien des dragons qui ont voyagé à travers l'espace pour recommencer une vie après la destruction de leur planète, non ? Et aujourd'hui, ils habitent Ætherys !"
+87,TEXT_BANOMI004_04604_JAMMINGWAY_000_051,"Qu'en dites-vous, Player ? Je suis sûr que vous comptez parmi vos con­nais­san­ces des dragons qui accepteraient de prêter l'oreille à notre cause !"
+88,TEXT_BANOMI004_04604_Q1_000_000,Que répondez-vous ?
+89,TEXT_BANOMI004_04604_A1_000_001,"Je pourrais demander à Vrtra, qui cohabite avec les humains."
+90,TEXT_BANOMI004_04604_A1_000_002,Vidofnir est la dragonne la plus aimable que je connaisse.
+91,TEXT_BANOMI004_04604_JAMMINGWAY_100_053,"Vrtra, le satrape de Radz-at-Han... C'est une idée, mais il est si occupé que je préférerais éviter de le déranger. Que faire... ?"
+92,TEXT_BANOMI004_04604_JAMMINGWAY_000_053,"La vénérable Vidofnir, qui réside dans l'Avant-pays dravanien... En tant que fille du grand Hraesvelgr, l'un des sept dragons anciens, son influence sur ses semblables est loin d'être négligeable."
+93,TEXT_BANOMI004_04604_JAMMINGWAY_000_054,"Puisqu'elle a déjà démontré à de multiples reprises sa position favorable vis-à-vis de la paix entre les races, je suis sûr qu'elle entendra notre requête !"
+94,TEXT_BANOMI004_04604_N7000_000_055,"Bip... L'histoire récente de votre planète et de son satellite est absente de ma base de données, donc je ne peux que m'associer au choix de cette opportunité que vous considérez si prometteuse."
+95,TEXT_BANOMI004_04604_N7000_100_056,"Plus que la normalisation des relations entre les Omicrons et les dragons, c'est désormais de raviver la flamme chez ces derniers qui sera ma priorité !"
+96,TEXT_BANOMI004_04604_JAMMINGWAY_000_057,"J'aime quand tu parles comme ça ! Dans ce cas, ne perdons pas de temps et allons retrouver Vidofnir à Annexe Trine."
+97,TEXT_BANOMI004_04604_N7000_000_058,"Comme je ne peux pas vous accompagner, je vous confie un terminal miniature qui nous permettra de communiquer. Aucune inquiétude pour le café, je m'en occuperai en votre absence. Pshhh..."
+98,TEXT_BANOMI004_04604_JAMMINGWAY_000_059,"Très bien ! Ætherys, nous voilà !"
+99,TEXT_BANOMI004_04604_DRAGONOMI_000_060,"Aaaah, les vents de la montagne sacrée... Si je pouvais ne serait-ce que me rappeler la sensation de leur caresse sur mes écailles..."
+100,TEXT_BANOMI004_04604_N7000_000_061,"Bip... La situation aux Dernières Réminiscences est sous contrôle. Rassurez-vous, le terminal miniature que je vous ai confié me permettra de vous assister pendant votre séjour sur Ætherys."
+101,TEXT_BANOMI004_04604_VIDOFNIR_000_070,"Tiens donc, regardez qui voilà... Tu m'as l'air bien occupée, brave humaine. Ne devrais-tu pas te reposer, après avoir sauvé notre planète de l'apocalypse qui la menaçait ?"
+102,TEXT_BANOMI004_04604_VIDOFNIR_000_071,"Oh, je comprends mieux pourquoi tu es accompagné d'un des petits serviteurs d'Hydaelyn, mais aussi... d'un Omicron ?"
+103,TEXT_BANOMI004_04604_VIDOFNIR_000_072,"Quelle surprise de te voir fréquenter un des êtres métalliques qui ont détruit notre planète-mère, il y a une éternité... J'ai l'impression d'avoir sous les yeux une relique d'un autre temps."
+104,TEXT_BANOMI004_04604_VIDOFNIR_100_072,"Tu ne cesseras jamais de me surprendre... Mais si tu juges bon d'avoir un tel allié à tes côtés, c'est cer­tai­ne­ment que tu as d'excellentes raisons, et je ne me permettrais pas de les remettre en cause."
+105,TEXT_BANOMI004_04604_VIDOFNIR_000_073,"Quelle pitié... Que des congénères souffrent aux confins de l'univers, condamnés à se lamenter éter­nel­le­ment sur leur funeste destinée... S'il m'est possible de contribuer à apaiser leur mal, je suis à ton entière disposition."
+106,TEXT_BANOMI004_04604_N7000_000_074,"Bip bip... La différence avec les dragons d'Ultima Thulé est frappante. Alors que ces derniers sont moroses et résignés, Vidofnir semble embrasser son existence éternelle avec la plus grande sérénité."
+107,TEXT_BANOMI004_04604_N7000_000_075,"Pendant le trajet depuis Ultima Thulé, Jammingway m'a appris tout ce qu'il savait au sujet de l'histoire commune entre les humains et les dragons sur Ætherys."
+108,TEXT_BANOMI004_04604_N7000_000_076,J'ai compris qu'il existait une profonde confiance mutuelle entre vous et l'entité Vidofnir... Le fait de combattre côte à côte en caressant un espoir commun pour le futur peut vraiment tout changer. Pshhh...
+109,TEXT_BANOMI004_04604_JAMMINGWAY_000_077,Pourriez-vous nous dire comment aborder les dragons d'Ultima Thulé ? Nous n'avons pas su trouver les mots justes pour éveiller le moindre intérêt chez eux...
+110,TEXT_BANOMI004_04604_VIDOFNIR_000_078,"D'après ce que vous m'avez décrit, les pauvres sont exténués à force de se lamenter. L'image de notre planète-mère est très cer­tai­ne­ment présente dans leur esprit, mais ils sont trop affaiblis pour se la remémorer..."
+111,TEXT_BANOMI004_04604_VIDOFNIR_000_079,"D'après mon père Hraesvelgr, Midgardsormr lui décrivait souvent les paysages qui ont vu naître nos ancêtres."
+112,TEXT_BANOMI004_04604_VIDOFNIR_100_079,"Ce sont ces récits qui l'ont incité à voyager pour trouver, en compagnie de Nidhogg, un lieu semblable à notre ancienne montagne sacrée... Ils ont finalement décidé de s'installer à Sohm Al, qui est ainsi devenu notre foyer."
+113,TEXT_BANOMI004_04604_VIDOFNIR_000_080,"Si vous arriviez à balayer les nuages qui dissimulent les fières cimes de notre montagne sacrée dans l'esprit de mes congénères sur Ultima Thulé, peut-être parviendriez-vous à faire renaître l'espoir en eux..."
+114,TEXT_BANOMI004_04604_JAMMINGWAY_000_081,"Vous suggérez donc de raviver des souvenirs oubliés... Ça ne pouvait pas mieux tomber ! Dans notre café aux confins de l'univers, nous sommes passés maîtres dans l'exercice !"
+115,TEXT_BANOMI004_04604_N7000_000_082,"Bip... Après analyse de l'historique des Dernières Réminiscences, je confirme qu'il s'agit de la méthode la plus à même de solutionner notre problème."
+116,TEXT_BANOMI004_04604_N7000_000_083,"En revanche, je ne trouve aucune donnée sur une éventuelle culture culinaire des dragons... À l'instar de notre expérience avec la mer et les Grébuloff, je suggère de leur proposer un menu qui évoquera certains aspects de leur montagne sacrée. Pshhh..."
+117,TEXT_BANOMI004_04604_JAMMINGWAY_000_084,"Il va nous falloir trouver quelques astuces pour réussir, mais... j'ai ma petite idée !"
+118,TEXT_BANOMI004_04604_JAMMINGWAY_000_085,"Parmi la tonz de recettes que j'ai empruntées à Sharlayan, il y en a une pour un gâteau ishgardais à l'image de Sohm Al. Partons de cette base et apportons-y quelques mo­di­fi­ca­tions de notre cru !"
+119,TEXT_BANOMI004_04604_VIDOFNIR_000_086,"Voilà encore une entreprise bien excentrique... Si c'est pour le bien de mes frères et sœurs en détresse, je peux vous indiquer quelques ressources locales qui devraient vous être utiles."
+120,TEXT_BANOMI004_04604_VIDOFNIR_000_087,"Au sud-ouest d'Annexe Trine, il y a des veines de minéraux d'un magnifique vert émeraude. Extrayez ceux que les humains appellent ... D'après mon père, leur éclat rappelle notre montagne sacrée."
+121,TEXT_BANOMI004_04604_VIDOFNIR_000_088,"Au nord-est d'Annexe Trine, on peut trouver des fleurs d'un blanc immaculé. Cueillez celles que les humains appellent ... D'après mon père, elles rappellent les cimes enneigées de notre montagne sacrée."
+122,TEXT_BANOMI004_04604_VIDOFNIR_000_089,"À L'Eurée feste, on aperçoit parfois des poissons dont les écailles sont semblables à des cristaux. Vous devriez aller attraper un de ceux que les humains appellent ... D'après mon père, leur éclat rappelle notre montagne sacrée."
+123,TEXT_BANOMI004_04604_VIDOFNIR_000_090,"Vous autres humains vous servez d'un appât accroché au bout d'un fil, n'est-ce pas ? Il me semble que ces poissons ont une fâcheuse tendance à se nourrir des œufs de leurs congénères, donc c'est ce que je vous conseille d'utiliser."
+124,TEXT_BANOMI004_04604_N7000_100_091,"Bip... D'après les re­com­man­da­tions de l'entité Vidofnir,  devrait vous permettre de pêcher aisément ce poisson. Si besoin, vous pouvez en obtenir auprès de N-0598, au camp de base A-4."
+125,TEXT_BANOMI004_04604_JAMMINGWAY_000_091,"J'imagine déjà le plat incroyable qu'on va pouvoir préparer avec un ingrédient aussi exotique ! Merci infiniment d'avoir partagé votre savoir avec nous, vénérable Vidofnir !"
+126,TEXT_BANOMI004_04604_N7000_000_092,"Lorsque vous aurez obtenu le nécessaire, venez me le livrer au café. J'adorerais poursuivre notre exploration de Sohm Al, mais les capacités du terminal que je vous ai confié sont limitées... Pshhh..."
+127,TEXT_BANOMI004_04604_VIDOFNIR_000_095,"Tu as maintes fois prouvé que le salut ne réside pas dans la force seule... Poursuis cette voie que tu as toi-même tracée, brave humaine, je serai là pour te soutenir."
+128,TEXT_BANOMI004_04604_JAMMINGWAY_000_100,C'est la première fois que nous allons tout miser sur l'aspect d'un de nos plats ! J'espère que nos amis dragons d'Ultima Thulé sauront y voir l'image de leur ancienne planète...
+129,TEXT_BANOMI004_04604_N7000_000_101,"Bip... Je me suis permis de rapatrier le terminal que je vous avais confié. De votre côté, avez-vous trouvé le type de ressource que l'entité Vidofnir vous a indiqué ?"
+130,TEXT_BANOMI004_04604_N7000_000_102,"Analyse en cours... Bip bip... Beau travail, entité alliée Player. Je détecte comme prévu des similarités avec les repré­sen­ta­tions de la planète sacrée des dragons présentes dans la base de données omicron."
+131,TEXT_BANOMI004_04604_JAMMINGWAY_000_103,"Merci, Player ! Faites-moi confiance, je vais dorloter ces précieux ingrédients pour préparer un plat que les dragons d'Ultima Thulé ne seront pas près d'oublier !"
+132,TEXT_BANOMI004_04604_DRAGONOMI_000_104,"Jamais je n'aurais cru me trouver en un lieu peuplé de soldats d'acier... Mais puisque vous êtes allés requérir le conseil de mes congénères au bout de l'univers, demeurer dans mon apathie aurait été une insulte à leur égard..."
+133,TEXT_BANOMI004_04604_JAMMINGWAY_000_105,"Merci d'avoir répondu favorablement à notre invitation ! Par ici, s'il vous plaît !"
+134,TEXT_BANOMI004_04604_DRAGONOMI_000_106,Ces aliments si sophistiqués... Pour moi... ?
+135,TEXT_BANOMI004_04604_JAMMINGWAY_000_107,"Tout à fait ! Ces gâteaux sont à l'image de votre montagne sacrée, d'après les suggestions de Vidofnir, une éminente dragonne vivant sur Ætherys. Nous les avons préparés rien que pour vous !"
+136,TEXT_BANOMI004_04604_JAMMINGWAY_000_108,... A-alors ? Q-qu'en pensez-vous... ?
+137,TEXT_BANOMI004_04604_DRAGONOMI_000_109,...
+138,TEXT_BANOMI004_04604_DRAGONOMI_000_110,"Il y a longtemps que je n'ai pas eu en bouche un aliment doté d'une saveur quelconque... Pour être honnête, je serais bien incapable de vous dire si cette expérience gustative est plaisante ou non."
+139,TEXT_BANOMI004_04604_DRAGONOMI_000_111,"Cependant, à la vue de ces mets préparés mé­ti­cu­leu­se­ment à mon attention, je sens poindre du fond de mon âme une sensation enfouie depuis une éternité..."
+140,TEXT_BANOMI004_04604_DRAGONOMI_000_112,"C'est comme si j'étais dominé par notre majestueuse montagne sacrée, sa cime transperçant la mer de nuages émeraude... Je pourrais presque ressentir la caresse de ses vents glacés sur mes ailes..."
+141,TEXT_BANOMI004_04604_DRAGONOMI_000_113,"Ce lieu que vous appelez “café” reste un mystère pour moi... En revanche, je suis touché que vous ayez fait un si long voyage et fourni tant d'efforts pour me proposer ce repas..."
+142,TEXT_BANOMI004_04604_DRAGONOMI_000_114,"Plus que ces gâteaux, ce sont bien les *attentions* de votre part à mon égard qui ont ravivé le souvenir des jours heureux passés sur mes terres natales..."
+143,TEXT_BANOMI004_04604_Q2_000_000,Que dites-vous ?
+144,TEXT_BANOMI004_04604_A2_000_001,Que vous évoquent ces réminiscences de votre planète ?
+145,TEXT_BANOMI004_04604_A2_000_002,Chacun chérit plus que tout les souvenirs de son pays natal.
+146,TEXT_BANOMI004_04604_DRAGONOMI_000_115,Le bonheur de voir se dessiner ces paysages disparus me saisit jusqu'aux entrailles... Que notre planète était belle ! J'ai du mal à en croire mes yeux...
+147,TEXT_BANOMI004_04604_DRAGONOMI_000_116,Il faut absolument que mes frères et sœurs languissant de rendre leur dernier souffle à Reah Tahra connaissent cette émotion. Pour que notre pénible agonie soit désormais un doux sommeil empreint de nostalgie...
+148,TEXT_BANOMI004_04604_N7000_000_117,"Bip... Vos congénères sont les bienvenus aux Dernières Réminiscences. Mais avant de les inviter, j'ai une remarque à formuler..."
+149,TEXT_BANOMI004_04604_N7000_000_118,"Comme vous l'avez constaté, de nombreux Omicrons sont présents dans l'éta­blis­se­ment. Êtes-vous sûr que cela ne posera pas de problème aux autres dragons ?"
+150,TEXT_BANOMI004_04604_DRAGONOMI_000_119,"Soldat d'acier... Toi et tes compagnons ici n'avez rien à voir avec notre misérable destinée. Vous m'avez suf­fi­sam­ment prouvé que vos intentions étaient tout sauf belliqueuses, aussi les miens ne montreront ni leurs crocs, ni leurs griffes."
+151,TEXT_BANOMI004_04604_DRAGONOMI_000_120,Même le plus rancunier des dragons de Reah Tahra ne pourrait rester insensible à la vue d'un endroit aussi accueillant et cosmopolite...
+152,TEXT_BANOMI004_04604_N7000_000_121,Bip... Tout risque que la situation dégénère semble écarté. L'influence de cet espace sur les sentiments des formes de vie pensantes et les fluctuations qui en résultent sont décidément pas­sion­nan­tes...
+153,TEXT_BANOMI004_04604_N7000_000_122,"D'après mes premières impressions, la visite des dragons aux Dernières Réminiscences est un succès, mais un aspect inconnu améliore encore davantage mon évaluation... Je dois poursuivre mon analyse avant de me prononcer. Pshhh..."
+154,TEXT_BANOMI004_04604_JAMMINGWAY_000_123,"Voilà que le tas de ferraille recommence avec ses formulations tarabiscotées... Ça te rouillerait de dire que tu es *content*, des fois ?"
+155,TEXT_BANOMI004_04604_N7000_000_124,"Bip... Depuis quand te permets-tu de me commander, petite boule de poils !? Puisque c'est comme ça... Arrêt des procédures en cours... Mise en veille... Pshhh..."
+156,TEXT_BANOMI004_04604_JAMMINGWAY_000_125,Hé ! On avait dit pas la mise en veille !
+157,TEXT_BANOMI004_04604_JAMMINGWAY_000_126,"... Quoi qu'il en soit, on a réussi à faire bonne impression aux dragons grâce aux Dernières Réminiscences ! Vite, direction le téléporteur pour découvrir ce qui se passe sur Élysée !"
+158,TEXT_BANOMI004_04604_Q4_000_000,Aller au camp de base A-4 ?
+159,TEXT_BANOMI004_04604_JAMMINGWAY_000_128,"Avec toutes les ondes positives venant de notre café, aucun doute que le dynamis s'est emballé ! Vite, vite, vers Élysée !"
+160,TEXT_BANOMI004_04604_N7000_000_127,"Bip... Pour l'Omicron que je suis, parvenir à un tel niveau de compréhension et de cohabitation avec les dragons est tout bonnement inespéré. Allons constater le résultat de nos progrès sur le dynamis."
+161,TEXT_BANOMI004_04604_DRAGONOMI_000_300,"Même si ces montagnes sont nées de nos souvenirs... Le vent qui souffle depuis leur sommet est bien réel, sur cette petite planète..."
+162,TEXT_BANOMI004_04604_SYSTEM_000_301,"Grâce aux émotions des dragons, des montagnes escarpées sont apparues sur Élysée ! Comme les autres civilisations auparavant, eux aussi possèdent désormais un espace privilégié où caresser de nouveaux espoirs pour le futur."
+163,TEXT_BANOMI004_04604_SYSTEM_000_302,"Cependant, il reste encore des parcelles rocheuses que le dynamis pourrait faire évoluer grâce à la force des sentiments. La jeune planète cache encore de nombreuses possibilités qu'il ne tient qu'à vous de découvrir !"
+164,TEXT_BANOMI004_04604_JAMMINGWAY_000_140,Oh là là ! Vous avez vu ces imposantes montagnes à la cime majestueuse ?
+165,TEXT_BANOMI004_04604_N7000_000_141,"Bip... Ces escarpements sont le symbole de l'espoir retrouvé des dragons. Nous avons accompli des progrès remarquables, aujourd'hui."
+166,TEXT_BANOMI004_04604_JAMMINGWAY_000_142,"Oui, ça valait le coup d'aller jusqu'à Ætherys pour rencontrer Vidofnir et de préparer ces gâteaux élaborés ! Je n'ai jamais été aussi fier du travail fourni aux Dernières Réminiscences !"
+167,TEXT_BANOMI004_04604_N7000_000_143,"Dans toute l'histoire de l'univers, jamais les dragons et les Omicrons n'étaient parvenus à l'entente... Je dirais que les propriétés d'Ultima Thulé et le pouvoir du dynamis ont joué un rôle déterminant dans ce tour de force. Pshhh..."
+168,TEXT_BANOMI004_04604_JAMMINGWAY_000_144,"Oh, ne commence pas à jouer sur les mots, hein ! Notre café et tous les efforts qu'on consacre à ce projet sont bien réels, et je t'interdis de dire que ce qui se passe sur Élysée n'est que virtuel !"
+169,TEXT_BANOMI004_04604_JAMMINGWAY_000_145,"Et d'ailleurs, toi, N-7000, tu es là aussi, non ? Tu observes, analyses et évalues les événements dont tu es toi-même acteur... c'est exactement en ligne avec l'ordre que tu as reçu de *vivre*, il me semble."
+170,TEXT_BANOMI004_04604_N7000_000_146,"... Petite boule de poils, je te prierai d'éviter de donner ton avis sur des sujets que tu ne maîtrises pas. Remettons plutôt cette discussion à une autre fois. Pshhh..."
+171,TEXT_BANOMI004_04604_JAMMINGWAY_000_147,"En tout cas, on peut dire que Player nous a sauvé la mise grâce aux liens solides qu'elle a tissés avec les dragons d'Ætherys ! Des liens qui ont fait renaître l'espoir chez leurs congénères, aux confins de l'univers... Quelle belle histoire !"
+172,TEXT_BANOMI004_04604_SYSTEM_000_148,"Votre réputation auprès des Omicrons des Dernières Réminiscences est passée à “Émérite”. Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
+173,TEXT_BANOMI004_04604_SYSTEM_000_149,Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Stigma-4.
+174,TEXT_BANOMI004_04604_SYSTEM_000_150,"De plus, trois quêtes sup­plé­men­tai­res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
+175,TEXT_BANOMI004_04604_SYSTEM_000_151,Stigma-4 vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang.
+176,TEXT_BANOMI004_04604_SYSTEM_000_152,"En outre, N-0598 vous propose maintenant les objets correspondant au rang “Émérite”. Faites-en bon usage au cours de vos aventures !"
+177,TEXT_BANOMI004_04604_N7000_000_056,（★未使用／削除予定★）
+178,TEXT_BANOMI004_04604_JAMMINGWAY_100_091,（★未使用／削除予定★）

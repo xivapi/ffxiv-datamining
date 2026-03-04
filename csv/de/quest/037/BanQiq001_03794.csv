@@ -1,197 +1,194 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANQIQ001_03794_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANQIQ001_03794_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
-Der besorgten Mutter steht ihre Ver<SoftHyphen/>zweif<SoftHyphen/>lung ins Gesicht geschrieben. Sucht sie jemanden?"
-1,"TEXT_BANQIQ001_03794_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst und die Klasse (der Job) darf nicht gewechselt werden.
+Der besorgten Mutter steht ihre Ver­zweif­lung ins Gesicht geschrieben. Sucht sie jemanden?"
+1,TEXT_BANQIQ001_03794_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst und die Klasse (der Job) darf nicht gewechselt werden.
 
 Die besorgte Mutter bittet dich, nach ihrem Hals über Kopf davongerannten Sohn Valan und seinem Freund Quinfort Ausschau zu halten. Die beiden sollen in Richtung Fanow aufgebrochen sein."
-2,"TEXT_BANQIQ001_03794_SEQ_02","Du hast Valan und Quinfort in Fanow eingeholt. Doch nach einer kurzen Diskussion nimmt der manische Magier erneut Reißaus. Du heftest dich zusammen mit Valan erneut an seine Fersen. Haltet im Wald nahe der Ox'Dalan-Spalte nach ihm Ausschau."
-3,"TEXT_BANQIQ001_03794_SEQ_03","Viis-Jägerinnen haben zwei rattenhafte Gestalten gestellt, die der herbeieilende Quinfort als Diener von Ronka, Hüter des alten Wissens, vorstellt. Die Qitari, wie das Volk von alters her genannt wird, entpuppen sich als Vater und Sohn, die auf der Suche nach den sogenannten Gedenksteinen ihrer Sippe sind. Den Legenden zufolge liegen diese in uralten Tunneln versteckt, deren Eingang von einem alten Qitari namens Hopl mit einem Siegelstein verschlossen wurde. Die Qitari werden von einer Inkarnation der Wasserschlange von Ronka begleitet, die euch den Weg zu dem Siegelstein weist."
-4,"TEXT_BANQIQ001_03794_SEQ_04","Die Qitari bitten dich um deine Hilfe. Qitarl Natl glaubt, das Siegel mit einem Glitzerstein öffnen zu können, doch da keiner zur Hand ist, sollst du einen im Großen Wald suchen gehen. Sprich ihn an, wenn du bereit bist, tiefer in die Geschichte um das Freundesvolk der Qitari einzutauchen."
-5,"TEXT_BANQIQ001_03794_SEQ_05","Quinfort deutet das Fiepen der Wasserschlange und ihre Musterung so, dass etwas anderes, das den Glanz des Waldes in sich trägt, ebenso gut zur Öffnung des Siegels geeignet sein sollte. Er hat dir auch einen Tipp gegeben, was du sammeln könntest."
-6,"TEXT_BANQIQ001_03794_SEQ_06","Mithilfe deines Fundes öffnet Chaqurl Qhotl das Siegel und legt den Eingang zu den uralten Tunneln frei. Andere Qitari treffen ein, um das Lager für die „Grabenden Pfoten“ zu errichten, den für diese Aufgabe gegründeten Grabungstrupp. Die Erkundung kann beginnen!"
-7,"TEXT_BANQIQ001_03794_SEQ_07",""
-8,"TEXT_BANQIQ001_03794_SEQ_08",""
-9,"TEXT_BANQIQ001_03794_SEQ_09",""
-10,"TEXT_BANQIQ001_03794_SEQ_10",""
-11,"TEXT_BANQIQ001_03794_SEQ_11",""
-12,"TEXT_BANQIQ001_03794_SEQ_12",""
-13,"TEXT_BANQIQ001_03794_SEQ_13",""
-14,"TEXT_BANQIQ001_03794_SEQ_14",""
-15,"TEXT_BANQIQ001_03794_SEQ_15",""
-16,"TEXT_BANQIQ001_03794_SEQ_16",""
-17,"TEXT_BANQIQ001_03794_SEQ_17",""
-18,"TEXT_BANQIQ001_03794_SEQ_18",""
-19,"TEXT_BANQIQ001_03794_SEQ_19",""
-20,"TEXT_BANQIQ001_03794_SEQ_20",""
-21,"TEXT_BANQIQ001_03794_SEQ_21",""
-22,"TEXT_BANQIQ001_03794_SEQ_22",""
-23,"TEXT_BANQIQ001_03794_SEQ_23",""
-24,"TEXT_BANQIQ001_03794_TODO_00","Valan in Fanow suchen"
-25,"TEXT_BANQIQ001_03794_TODO_01","Nach Quinfort Ausschau halten"
-26,"TEXT_BANQIQ001_03794_TODO_02","Der Wasserschlange mit Schlapphut folgen und mit Chaqurl Qhotl sprechen"
-27,"TEXT_BANQIQ001_03794_TODO_03","Mit Qitarl Natl sprechen"
-28,"TEXT_BANQIQ001_03794_TODO_04","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<Sheet(Item,IntegerParameter(5),9)/>)/> in Yx'Maja abbauen<Else/><Clickable(<Sheet(Item,IntegerParameter(5),9)/>)/> bei Chaqurl Qhotl abliefern</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<Sheet(Item,IntegerParameter(5),9)/>)/> in Yx'Maja ernten<Else/><Clickable(<Sheet(Item,IntegerParameter(5),9)/>)/> bei Chaqurl Qhotl abliefern</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> im Süden von Mjrls Sehnsucht fangen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Chaqurl Qhotl abliefern</If><Else/></If></If></If>"
-29,"TEXT_BANQIQ001_03794_TODO_05",""
-30,"TEXT_BANQIQ001_03794_TODO_06",""
-31,"TEXT_BANQIQ001_03794_TODO_07",""
-32,"TEXT_BANQIQ001_03794_TODO_08",""
-33,"TEXT_BANQIQ001_03794_TODO_09",""
-34,"TEXT_BANQIQ001_03794_TODO_10",""
-35,"TEXT_BANQIQ001_03794_TODO_11",""
-36,"TEXT_BANQIQ001_03794_TODO_12",""
-37,"TEXT_BANQIQ001_03794_TODO_13",""
-38,"TEXT_BANQIQ001_03794_TODO_14",""
-39,"TEXT_BANQIQ001_03794_TODO_15",""
-40,"TEXT_BANQIQ001_03794_TODO_16",""
-41,"TEXT_BANQIQ001_03794_TODO_17",""
-42,"TEXT_BANQIQ001_03794_TODO_18",""
-43,"TEXT_BANQIQ001_03794_TODO_19",""
-44,"TEXT_BANQIQ001_03794_TODO_20",""
-45,"TEXT_BANQIQ001_03794_TODO_21",""
-46,"TEXT_BANQIQ001_03794_TODO_22",""
-47,"TEXT_BANQIQ001_03794_TODO_23",""
-48,"TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_001","Nanu? Du bist doch <If(PlayerParameter(4))>eine Bekannte<Else/>ein Bekannter</If> der Hexe Matoya, oder? Was für ein Glück, dass ich dich treffe! Wenn ich mich nicht täusche, kennst du meinen Sohn. Ich habe euch hier schon mal zusammen gesehen. Sein Name ist Valan."
-49,"TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_002","Erinnerst du dich? Sein Freund ist dieser etwas<Indent/>... exzentrische Magier, Quinfort. Der ist gerade wie besessen nach draußen in den Wald gestürmt und mein Sohn ist ihm natürlich hinterher."
-50,"TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_003","Ich hörte den Kauz noch rufen, dass er nach Fanow wolle. Vor den Viis braucht man keine Angst zu haben, aber trotzdem mache ich mir schreckliche Sorgen. Man weiß ja nie, was da draußen im Wald alles passieren kann."
-51,"TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_004","Bitte, geh nach Fanow! Sag meinem Sohn, dass er keine dummen Sachen anstellen und schnell wieder nach Hause kommen soll."
-52,"TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_005","Bitte, geh nach Fanow und finde meinen Sohn Valan. Die Sünden<SoftHyphen/>ver<SoftHyphen/>tilger sind zwar weg, aber es ist gefährlich, sich allzu weit raus in den Wald zu wagen."
-53,"TEXT_BANQIQ001_03794_QUINFORT_000_006","Wie oft soll ich es noch sagen? Ich bin im Auftrag der Schuppigen Wohltäterin unterwegs!"
-54,"TEXT_BANQIQ001_03794_VALAN_000_010","Das ist aber kein Grund, jedes Mal einfach so wie wild draufloszustürmen! Erklär mir wenigstens, um was es geht."
-55,"TEXT_BANQIQ001_03794_QUINFORT_000_011","Warum? Was gibt es da noch zu erklären? Als Wahrträumer ist mein Platz da, wohin die Vision der Großen Schlange mich leitet."
-56,"TEXT_BANQIQ001_03794_VALAN_000_012","Nanu? <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Was treibt dich denn hierher? Der Zufall?"
-57,"TEXT_BANQIQ001_03794_VALAN_000_013","Ach so, es war meine Mutter. Tut mir echt leid. Aber Quinfort ist schon wieder einfach so losgestiefelt, da hatte ich keine Zeit, ihr Bescheid zu sagen."
-58,"TEXT_BANQIQ001_03794_VALAN_000_014","So schnell ist der Tagträumer durch den Wald gehastet, dass ich ihn erst hier eingeholt habe. Wie zwei Verrückte sind wir hier reingestürmt. Ein peinlicher Auftritt war das, das kann ich dir sagen<Indent/>... Ein Glück, dass wir bei den Viis einigermaßen wohlgelitten sind."
-59,"TEXT_BANQIQ001_03794_VALAN_000_015","Ach, übrigens! Hast du die <Emphasis>Große Wasserschlange von Ronka</Emphasis> mal wieder in ihrer Miniaturgestalt durch den Wald kriechen sehen?"
-60,"TEXT_BANQIQ001_03794_QUINFORT_000_016","Wag es nicht, so von der Großen Schlange zu sprechen! Die Würdige Sich-Winderin tat es in ihrer grenzenlosen Weisheit, um sich im Wald zu verstecken. Ich weiß es, denn Die-mit-den-sechsundsechzig-Namen hat es mir in einer Vision verraten."
-61,"TEXT_BANQIQ001_03794_TSUCHINOKO_000_017","Quiep!"
-62,"TEXT_BANQIQ001_03794_QUINFORT_000_018","O Inkarnation der Großen Wasserschlange, du bist erschienen! Sag, warum hast du mich gerufen? Ich werde dir jeden Wunsch erfüllen!"
-63,"TEXT_BANQIQ001_03794_VALAN_000_019","Inkarnation der Großen Schlange? Ihm zuliebe werde ich darauf verzichten, von einem Wasserwürmchen zu sprechen. Aber er scheint sich seiner Sache sehr sicher zu sein. <seufz> Ich kann es nicht erwarten, seinen endlosen Ausführungen über Ronka-Legenden oder Zitaten aus seinem selbstverfassten Hymnus der Beschützerin lauschen zu dürfen."
-64,"TEXT_BANQIQ001_03794_VALAN_000_020","Allerdings hat er auch schon richtig gelegen mit seinen Visionen. Selbst die Viis erkennen sein besonderes Talent an. Wenn seine Träume also diesmal auch mehr sind als das wahnsinnige Gefasel eines religiösen Fanatikers<Indent/>..."
-65,"TEXT_BANQIQ001_03794_QUINFORT_100_021","Hihihahaha ... Der Wald ist im Begriff, seine Wurzeln in eine neue, tausend Jahre währende Epoche des Friedens zu strecken. So verkündet es die Kaltblütige Kriecherin, und so ist das Kommen der alten Diener von Ronka zu deuten."
-66,"TEXT_BANQIQ001_03794_QUINFORT_100_022","Es besteht kein Zweifel. Sie sind wieder hier! Die, die das alte Wissen bewahren. Denn die Schlängelnde Seherin hat es mir offenbart! Hihihahaha!"
-67,"TEXT_BANQIQ001_03794_VALAN_100_023","Verdammt! Hört er mit dem Geseier etwa nie auf? Und wo will er schon wieder so hastig hin?"
-68,"TEXT_BANQIQ001_03794_VALAN_100_024","Tut mir ja leid, aber würdest du mir helfen, ihn zu suchen? Weit kann er noch nicht sein."
-69,"TEXT_BANQIQ001_03794_VALAN_100_030","Das ist der einzige Weg, Abzweigungen gibt es keine. Er muss hier irgendwo sein."
-70,"TEXT_BANQIQ001_03794_VALAN_100_031","Da, auf der Blumenwiese ist jemand ... Sieh nur, da ist doch irgendwas los!"
-71,"TEXT_BANQIQ001_03794_VIISGUARDA_000_021","Zurück mit euch. Sprechende Ratten haben zu diesem Teil des Waldes keinen Zutritt."
-72,"TEXT_BANQIQ001_03794_QITARLNATL_000_022","(-Verängstigter Rattenmann-)A-Aber wir ... Wir sind doch keine ..."
-73,"TEXT_BANQIQ001_03794_QUINFORT_000_023","Halt! Sie haben ein Recht darauf, hier zu sein! Sie sind ein Volk des alten Ronka-Reichs."
-74,"TEXT_BANQIQ001_03794_VIISGUARDB_000_024","Was machst du hier? Bist du nicht ein Untertan der Nacht aus Schlangenzweig?"
-75,"TEXT_BANQIQ001_03794_VALAN_000_025","Und wieder ist er kopfüber in irgendeinen Schlamassel reingerannt<Indent/>... Typisch."
-76,"TEXT_BANQIQ001_03794_VALAN_000_026","Hüterinnen des Waldes, bitte entschuldigt das überstürzte Verhalten meines Freundes. Es war sicherlich nicht seine Absicht, euch bei euren Pflichten zu stören."
-77,"TEXT_BANQIQ001_03794_VIISGUARDA_000_027","<If(PlayerParameter(4))>Die da. Sie<Else/>Der da. Er</If> hat sich doch als Verbündete<If(PlayerParameter(4))><Else/>r</If> von Ronka ausgewiesen. <If(PlayerParameter(4))>Eine Trägerin<Else/>Ein Träger</If> des Siegels. Hören wir, was <If(PlayerParameter(4))>ihre<Else/>seine</If> Begleiter zu sagen haben."
-78,"TEXT_BANQIQ001_03794_VIISGUARDB_000_028","Sprich. Was meinst du damit, dass diese Rattenleute ein <Emphasis>Recht</Emphasis> darauf haben, hier zu sein?"
-79,"TEXT_BANQIQ001_03794_QUINFORT_000_029","Die Beschützerin des Waldes selbst, die Zerstörerin mit der Gespaltenen Zunge, die Große Wasserschlange von Ronka, hat mir ihr Kommen in meinen Träumen angekündigt."
-80,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_030","(-Wasserschlange mit Schlapphut-)Quiiiep!"
-81,"TEXT_BANQIQ001_03794_TSUCHINOKO_000_031","Quiep!"
-82,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_032","(-Rattenkind-)Gibt ja noch mehr von lieben Wasserschlangen!"
-83,"TEXT_BANQIQ001_03794_Q1_000_000","Was sagst du?"
-84,"TEXT_BANQIQ001_03794_A1_000_001","Qiqirn? Hier? Wie ist das möglich!"
-85,"TEXT_BANQIQ001_03794_A1_000_002","Zwei heilige Wasserschlangen? Wie ist das möglich!"
-86,"TEXT_BANQIQ001_03794_QITARLNATL_000_034","(-Rattenmann-)Kikirn? Verwechselst du mit jemandem, ja? Wissen nur wenig. Haben Versteck im Wald so lange nicht verlassen."
-87,"TEXT_BANQIQ001_03794_QITARLNATL_000_035","(-Rattenmann-)Hast auch Schlange mit dabei, ja? Ist verwunderlich, sehr verwunderlich."
-88,"TEXT_BANQIQ001_03794_QUINFORT_000_036","Ein denkwürdiges Treffen, eingefädelt von der Weitsichtigen Schicksalsweberin<Indent/>... Sagt, Diener von Ronka, wie nennt man euer Volk?"
-89,"TEXT_BANQIQ001_03794_QITARLNATL_000_037","(-Rattenmann-)Qitari. Namen haben alte Bewohner von Ronka gegeben, jaja."
-90,"TEXT_BANQIQ001_03794_VIISGUARDA_000_038","Qitari, sagst du? Es gibt keine Viis, die diesen Namen nicht kennt. Ein Volk, das schon zu Zeiten des alten Ronka-Kaiserreiches im Wald hauste und vor gut einhundert Jahren verschwand."
-91,"TEXT_BANQIQ001_03794_VIISGUARDA_000_039","Ich und meine Schwestern wurden nach der Lichtflut geboren und haben nie einen Qitari zu Gesicht bekommen. Wie kann es sein, dass ihr hier und jetzt<Indent/>..."
-92,"TEXT_BANQIQ001_03794_VIISGUARDB_000_040","Wir sollten den Dienern von Ronka nicht mit Feindschaft begegnen. Stecken wir unsere Waffen weg, mutige Jägerin."
-93,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_050","(-Qitari-Kind-)Qitari suchen wichtige Steine. Ahnen haben sie in Tunneln tief unter Wald versteckt."
-94,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_051","(-Wasserschlange mit Schlapphut-)Quiep!"
-95,"TEXT_BANQIQ001_03794_QITARLNATL_000_052","(-Qitari-Mann-)Chaqurl! Erst vorstellen, wenn man mit Fremden quasselt!"
-96,"TEXT_BANQIQ001_03794_QITARLNATL_000_053","Heiße Qitarl Natl, von Sippe namens 'rl. Kleiner hier ist Chaqurl Qhotl."
-97,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_054","La-hee!"
-98,"TEXT_BANQIQ001_03794_QITARLNATL_000_055","Seit einhundert Jahren wohnen Qitari in Irrungen, in gesegneter Höhle, jawohl. Um zu verstecken vor weißem Licht, das von großem Wasserfall kam."
-99,"TEXT_BANQIQ001_03794_QITARLNATL_000_056","Aber früher wohnte Sippe hier im Wald, so haben Ältesten gesagt. Als Himmel plötzlich hell wurde, haben sie schnell Schatz im Wald verbuddelt. Damit Waldgott ihn beschützt, für junge Qitari. Und da liegt Schatz noch heute."
-100,"TEXT_BANQIQ001_03794_QITARLNATL_000_057","Suchen jetzt Schatz von früher. Ist nicht Münze oder Edelstein, ist Gedenksteine von Qitari! Ahnen haben Geschichte und Wissen von Stamm hineingeritzt."
-101,"TEXT_BANQIQ001_03794_QUINFORT_000_058","Hahaaa! Das sind sie! Habe ich es nicht gesagt? „Die, die das alte Wissen bewahren.“ Es ist genau, wie die Kaltblütige Kriecherin es mir offenbart hat!"
-102,"TEXT_BANQIQ001_03794_QITARLNATL_000_059","Ja, sind Bewahrer von Wissen und Geschichte. Qitari haben Ronka-Kaiser gedient, als fleißige Aufschreiber."
-103,"TEXT_BANQIQ001_03794_QITARLNATL_000_060","Können gut Geschichten schreiben. Qitari leben nicht lang und müssen alles festhalten, was wichtig für andere Generationen ist. Damit nichts verloren geht, ja?"
-104,"TEXT_BANQIQ001_03794_QITARLNATL_000_061","Ahnen haben Wissen in große Steine geritzt. Steine sind Schatz für Qitari, Wegweiser durch Geschichte von Stamm 'rl."
-105,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_062","Chaqurl wollte immer Gedenksteine von Qitari finden. Habe sie in Träumen gesehen. Aber Qitari hatten Angst vor hellem Licht. Haben sich im Wald verkrochen und trauten sich nicht heraus."
-106,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_063","Doch dann wurde Himmel plötzlich dunkel! Qitari waren völlig baff. Dann ist Wasserschlange zu Chaqurl gekommen. Sie hat Chaqurl Weg durch Irrungen gezeigt."
-107,"TEXT_BANQIQ001_03794_QITARLNATL_000_064","Sind als erste Qitari gegangen, aber viele starke Ungeheuer und Tiere wollten uns mampfen, ja? Haben große Angst bekommen und andere Qitari gerufen."
-108,"TEXT_BANQIQ001_03794_VIISGUARDA_000_065","Wir sahen sie durch den Wald tapsen und da wir nicht wussten, mit wem wir es tun haben, hielten wir es für das Beste, sie festzusetzen und ihnen aufs Zahnfleisch zu fühlen. Es tut uns leid, wenn wir euch belästigt haben."
-109,"TEXT_BANQIQ001_03794_VIISGUARDB_000_066","Wir werden unseren Schwestern im Dorf Bescheid sagen, dass sich Diener von Ronka im Wald befinden. Wir wollen ja nicht, dass sich der Pfeil einer Jägerin ins falsche Ziel verirrt."
-110,"TEXT_BANQIQ001_03794_QITARLNATL_000_067","Puh ... Qitarl dachte, dass Viis uns aufspießen! Kleiner Chaqurl ist sehr unvorsichtig und kann nicht alleine durch Wald gehen. Besser, wenn Qitarl auf ihn aufpasst."
-111,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_068","Papa behandelt Chaqurl immer wie Kind! Dabei ist Chaqurl schon drei!"
-112,"TEXT_BANQIQ001_03794_VALAN_000_069","Drei? Das ist aber wirklich etwas jung, um alleine durch den Wald zu tapsen."
-113,"TEXT_BANQIQ001_03794_QITARLNATL_000_070","Qitari werden schnell alt und leben selten länger als zwanzig Winter. Mit fünf sind Qitari schon erwachsen."
-114,"TEXT_BANQIQ001_03794_QITARLNATL_000_071","Übrigens. Kennt ihr Wald gut, ja? Gedenksteine sind in unterirdischen Tunneln versteckt. Eingang ist am Rand von Ox'Dalan-Spalte. Wisst ihr vielleicht? "
-115,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_072","(-Wasserschlange mit Schlapphut-)Qui-Quiep!"
-116,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_073","He! Wasserschlange!"
-117,"TEXT_BANQIQ001_03794_QUINFORT_000_074","Ich bin mir sicher, dass sich unsere Pfade durch eine Fügung der Schlängelnden Seherin gekreuzt haben. Denn sie offenbarte mir euer Kommen. Ich weiß, was ich zu tun habe: Ich werde euch helfen."
-118,"TEXT_BANQIQ001_03794_QITARLNATL_000_075","Oh, ist sehr nett von dir! Kommt, alle folgen Wasserschlange!"
-119,"TEXT_BANQIQ001_03794_QUINFORT_100_080","Ist es nicht erhebend? Zu sehen, wie die Inkarnation der Großen Wasserschlange die Diener von Ronka durch diesen uralten Wald führt? Es ist, als würde man inmitten einer Legende spazieren gehen."
-120,"TEXT_BANQIQ001_03794_VALAN_100_081","Hm? Jaja, ganz recht. Wirklich legendär."
-121,"TEXT_BANQIQ001_03794_QITARLNATL_100_082","Einhundert Jahre lang hat kein Qitari Boden hier betreten<Indent/>..."
-122,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_100_083","Quiep!"
-123,"TEXT_BANQIQ001_03794_SYSTEM_100_084","Die Wasserschlange windet und schlängelt sich in freudiger Erwartung darauf, was hinter dem versiegelten Eingang liegen mag."
-124,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_090","Hier sind Gedenksteine von Ahnen verbuddelt, ja?"
-125,"TEXT_BANQIQ001_03794_QITARLNATL_000_091","Eingang zu Tunneln ist verschlossen. Mit steinernem Siegel, von Urahn mit Namen Hopl."
-126,"TEXT_BANQIQ001_03794_QITARLNATL_000_092","Qitari glauben an Ox'Dalan, Gott von Unterwelt. Ahnen gaben ihm Gedenksteine zum Aufpassen, versteckt in Tunneln tief unter Erde."
-127,"TEXT_BANQIQ001_03794_QUINFORT_000_093","Wie kommt es, dass du dich so gut mit den alten Traditionen auskennst?"
-128,"TEXT_BANQIQ001_03794_QITARLNATL_000_094","In Nähe von Wasserfall sind viele Ruinen. Qitari haben dort viel gegraben, auf Suche nach Erinnerungen an Ahnen. Qitari waren immer Teil von Ronka."
-129,"TEXT_BANQIQ001_03794_QUINFORT_000_095","Nach der Lichtflut habe ich mich den Untertanen der Nacht angeschlossen, aber ich interessiere mich sehr für den Glauben der alten Ronka."
-130,"TEXT_BANQIQ001_03794_QUINFORT_000_096","Eigentlich bin ich Nachkomme einer Priesterfamilie, die über das Heiligtum von Dwatl wachte."
-131,"TEXT_BANQIQ001_03794_QUINFORT_100_096","Und <If(PlayerParameter(4))>die Reisende<Else/>der Reisende</If> hier ist sogar <If(PlayerParameter(4))>eine ausgewiesene Verbündete<Else/>ein ausgewiesener Verbündeter</If> von Ronka, <If(PlayerParameter(4))>eine Trägerin<Else/>ein Träger</If> des Siegels, einbestellt vom letzten Herrscher des Ronka-Kaiserreiches. Das haben die Viis mir alles erzählt."
-132,"TEXT_BANQIQ001_03794_QITARLNATL_000_097","Oh! Ist wirklich glückliche Fügung, so erhabene Person wie dich zu treffen, Priestermann!"
-133,"TEXT_BANQIQ001_03794_VALAN_000_098","Ahaha ... Dann solltest du dir mal anhören, was <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> schon alles geleistet hat!"
-134,"TEXT_BANQIQ001_03794_QITARLNATL_000_099","Qitarl weiß. <If(PlayerParameter(4))>Verbündete<Else/>Verbündeter</If> von Ronka hat Lichtmonster mit drei Köpfen erschlagen. Qitari haben gesehen, versteckt hinter Stämmen, Ästen und Wurzeln. Du hast Wald gerettet, ja?"
-135,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_100","Chaqurl hat auch gesehen! Hat geweint vor Glück und Aufregung!"
-136,"TEXT_BANQIQ001_03794_QITARLNATL_000_101","Wollen Tunnel erforschen, aber Eingang ist mit Siegel verschlossen."
-137,"TEXT_BANQIQ001_03794_QITARLNATL_000_102","Müssen Siegel mit magischer Kraft füttern. Dann weiß Siegel, dass Qitari zurück sind und gibt Eingang frei. Magische Kraft kommt aus Glitzerstein."
-138,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_103","Papa, Chaqurl findet Glitzerstein! Schaffe es ganz sicher, bin schon fast erwachsen!"
-139,"TEXT_BANQIQ001_03794_QITARLNATL_000_104","Kleiner hat Mut wie zehn erwachsene Qitari<Indent/>... Du kennst Wald gut. Aber denk nur an hungrige Ungeheuer!"
-140,"TEXT_BANQIQ001_03794_QITARLNATL_000_105","Besser, wenn jemand hilft. Vielleicht erfahrener Sammler von Glitzerdingen. Qitarl lässt dich nicht alleine gehen."
-141,"TEXT_BANQIQ001_03794_Q2_000_000","Was antwortest du?"
-142,"TEXT_BANQIQ001_03794_A2_000_001","Ich bin <If(Equal(PlayerParameter(4),0))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><Sheet(ClassJob,PlayerParameter(68),2)/></If>, und zwar <If(PlayerParameter(4))><If(Equal(PlayerParameter(68),19))>ein ziemlich guter<Else/><If(Equal(PlayerParameter(68),20))>ein ziemlich guter<Else/>eine ziemlich gute</If></If><Else/>ein ziemlich guter</If>."
-143,"TEXT_BANQIQ001_03794_A2_000_002","Ich kenn den Großen Wald Rak'tika wie meine Satteltasche."
-144,"TEXT_BANQIQ001_03794_QITARLNATL_000_106","Wenn <If(PlayerParameter(4))>Besiegerin<Else/>Besieger</If> von Lichtmonster mit drei Köpfen hilft, hat Qitarl keine Angst. Findet Glitzerstein bestimmt!"
-145,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_107","Unglaublich! Bist also nicht nur stark wie Tarichuk, sondern auch gut im Sammeln!"
-146,"TEXT_BANQIQ001_03794_QITARLNATL_000_108","Wenn Eingang zu Tunnel frei ist, kommen andere Qitari von Sippe der 'rl. Bringen Grabungstrupp mit, heißt Grabende Pfoten, und bauen Lager. Dann beginnt Grabung nach Gedenksteinen!"
-147,"TEXT_BANQIQ001_03794_QITARLNATL_000_109","Du hilfst doch bestimmt auch bei Erkundung von Tunneln, ja? Grabende Pfoten der 'rl brauchen dich!"
-148,"TEXT_BANQIQ001_03794_QITARLNATL_000_110","Du kannst auch später zusagen. Aber behalte jetzt Bitte von Qitarl in deinem Herzen und vergiss sie nicht, ja?"
-149,"TEXT_BANQIQ001_03794_QUINFORT_100_110","Welches verborgene Wissen der Ronka mag wohl in den Köpfen der Qitari schlummern? Oder in den alten Stein gemeißelt sein, der irgendwo unter unseren Füßen liegt? Es ist an der Zeit, die jahrtausendealten Weisheiten ans Licht zu bringen."
-150,"TEXT_BANQIQ001_03794_VALAN_100_111","Ich wusste nicht, welche Talente in dir stecken. Kein Wunder, dass die Hexe Matoya so große Stücke auf dich hält."
-151,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_100_112","Chaqurl wird nie Augenblick vergessen, als Himmel auf einmal dunkel wurde. Wald war<Indent/>... so still."
-152,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_100_113","Quiep!"
-153,"TEXT_BANQIQ001_03794_QITARLNATL_000_114","Hast du über Bitte von Qitarl nachgedacht? Willst du Grabenden Pfoten helfen, ja? Natürlich bekommst du auch etwas für deine Hilfe."
-154,"TEXT_BANQIQ001_03794_Q3_000_000","Was antwortest du?"
-155,"TEXT_BANQIQ001_03794_A3_000_001","Als <If(PlayerParameter(4))>Verbündete<Else/>Verbündeter</If> von Ronka werde ich euch selbst<SoftHyphen/>verständ<SoftHyphen/>lich helfen."
-156,"TEXT_BANQIQ001_03794_A3_000_002","Es tut mir leid. Ich möchte mir nicht die Pfoten, äh, Hände dreckig machen."
-157,"TEXT_BANQIQ001_03794_QITARLNATL_000_116","Hach, schade ... Aber <If(PlayerParameter(4))>Verbündete<Else/>Verbündeter</If> von Ronka hat bestimmt viel zu tun. Bitte, behalte meinen Wunsch im Herzen und sag mir, wenn du Meinung änderst, ja?"
-158,"TEXT_BANQIQ001_03794_QUINFORT_000_117","Der Ronka-Kaiser hat sich seine Verbündeten weise ausgewählt! Wir werden dich natürlich unterstützen, wie wir nur können."
-159,"TEXT_BANQIQ001_03794_QITARLNATL_000_118","Gut. Wo soll Suche nach Glitzersteinen bloß beginnen?"
-160,"TEXT_BANQIQ001_03794_QUINFORT_000_119","Es würde mich doch sehr wundern, wenn die Schlüpfrige Schlangengöttin nicht bereits eine Lösung für uns parat hätte. Hm, seht euch doch mal das Muster auf ihrem Körper an. Fällt euch daran nichts auf?"
-161,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_120","Quiep, quiep!"
-162,"TEXT_BANQIQ001_03794_QUINFORT_000_121","Da! Das sieht mir aus wie eine Stelle im Wald<Indent/>... ein Ort namens „Glanz des Waldes“. Natürlich! Wo sonst!"
-163,"TEXT_BANQIQ001_03794_QUINFORT_000_122","Es ist die Stelle am nordwestlichen Rand des Ungesehenen Waldes von Yx'Maja, wo sich die Ätherströme verdichten. Wenn man dort etwas einsammeln würde, das den Glanz des Waldes in sich trägt<Indent/>... zum Beispiel etwas <Sheet(Item,29512,9)/>. Ja, das könnte als Glitzerstein dienen und das Siegel öffnen."
-164,"TEXT_BANQIQ001_03794_QUINFORT_100_122","Natürlich, es ist die Stelle am nordwestlichen Rand des Ungesehenen Waldes von Yx'Maja, wo sich die Ätherströme verdichten. Wenn man dort etwas einsammeln würde, das den Glanz des Waldes in sich trägt<Indent/>... zum Beispiel etwas <Sheet(Item,29538,9)/>. Ja, das könnte als Glitzerstein dienen und das Siegel öffnen."
-165,"TEXT_BANQIQ001_03794_QUINFORT_200_122","Natürlich, im Süden von Mjrls Sehnsucht, wo sich die Ätherströme verdichten. Wenn man dort etwas einsammeln würde, das den Glanz des Waldes in sich trägt<Indent/>... zum Beispiel <SheetDe(Item,1,29564,1,4,1)/> fangen würde<Indent/>. Ja, der könnte als Glitzerstein dienen und das Siegel öffnen."
-166,"TEXT_BANQIQ001_03794_QUINFORT_300_122","Benutze als Köder <SheetDe(Item,1,27582,1,4,1)/>, um diesen uralten Fisch zu fangen. Darauf fliegen eigentlich alle Süßwasserfische."
-167,"TEXT_BANQIQ001_03794_QITARLNATL_000_123","Hört, hört, Priestermann hat gesprochen! Wenn Qitari tun, was Priestermann sagt, wird sich Siegel öffnen!"
-168,"TEXT_BANQIQ001_03794_QITARLNATL_000_124","Bringst du Glitzerding bitte zuerst zu Chaqurl? Er soll Geheimnisse von Ahnen mit eigenen Pfoten spüren."
-169,"TEXT_BANQIQ001_03794_QITARLNATL_000_130","Hast du gefunden? Dann bring zu Chaqurl. Grabende Pfoten sind gerade dabei, Lager aufzubauen."
-170,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_131","Wenn <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> hilft, brauchen Qitari vor gar nichts Angst zu haben!"
-171,"TEXT_BANQIQ001_03794_VALAN_000_132","Ich will Quinfort ja nicht dazwischenquatschen, aber ich frage mich, ob das Siegel wirklich so leicht mit irgendeinem Glitzerding zu öffnen ist."
-172,"TEXT_BANQIQ001_03794_QUINFORT_000_133","Die Haarlose Herrscherin hat gesprochen! Sie hat uns den Weg gewiesen und wir werden ihren Zeichen folgen!"
-173,"TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_134","Quiep, quiep!"
-174,"TEXT_BANQIQ001_03794_SYSTEM_000_135","Die Wasserschlange der Qitari fiept mit hoher Stimme, als wollte sie Quinfort Recht geben."
-175,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_150","Und? Hast du gefunden, was Glitzerkraft in sich hat, ja?"
-176,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_151","Ist ... Ist wunderschön! Chaqurl dankt dir von ganzem Herzen. Jetzt aber schnell! Chaqurl will sofort ausprobieren!"
-177,"TEXT_BANQIQ001_03794_QITARLNATL_000_080","Da! Eingang zu Tunneln von Ahnen!"
-178,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_081","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> hat geschafft! Eingang zu Tunneln ist offen!"
-179,"TEXT_BANQIQ001_03794_QITARLNATL_000_082","Einhundert Jahre hat kein Qitari Gedenksteine von Ahnen gesehen<Indent/>..."
-180,"TEXT_BANQIQ001_03794_QITARLNATL_000_083","Bald wird alle Pfoten voll zu tun geben. Qitarl ruft andere Qitari aus Versteck im tiefen Wald. Zusammen bauen 'rl hier Lager für Grabende Pfoten."
-181,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_084","Werden jeden Stein umdrehen, jeden Flecken Erde umgraben, um Wissen von Ahnen zu lernen! Werden fleißig und mutig sein wie <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-182,"TEXT_BANQIQ001_03794_SYSTEM_000_085","Der Eingang zu den uralten Tunneln ist geöffnet. Angeführt von Qitarl Natl haben die Grabenden Pfoten dort ihr Lager aufgeschlagen, um mit den Ausgrabungsarbeiten zu beginnen."
-183,"TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_086","Meine Mama ist auch gekommen. Heißt Qhoterl Pasol."
-184,"TEXT_BANQIQ001_03794_QHOTERLPASOL_000_087","Qhoterl kümmert sich um anfallende Arbeiten. Wenn du helfen möchtest, komm bitte zu Qhoterl, dann bekommst du Auftrag."
-185,"TEXT_BANQIQ001_03794_SYSTEM_000_088","Wird der kleine Chaqurl Qhotl die Gedenksteine seiner Ahnen finden? Die Antwort kennt nur der Wille des Waldes<Indent/>... und eine gewisse Wasserschlange mit Schlapphut."
-186,"TEXT_BANQIQ001_03794_TSUCHINOKO_000_089","Quiep!"
-187,"TEXT_BANQIQ001_03794_SYSTEM_000_160","Dein Verhältnis zu den Grabenden Pfoten der Qitari ist nun „Freundlich“. Damit hast du eine neue Auftragsreihe der Freundesvölker freigeschaltet!"
-188,"TEXT_BANQIQ001_03794_SYSTEM_000_161","Qhoterl Pasol wird dir Nebenaufträge der Freundesvölker anbieten, die du täglich wiederholen kannst."
-189,"TEXT_BANQIQ001_03794_SYSTEM_000_162","Außerdem kannst du bei Yuqurl Manl neue Waren der Freundesvölker erwerben, die dir sicherlich bei deinen Abenteuern von Nutzen sein werden!"
+2,TEXT_BANQIQ001_03794_SEQ_02,Du hast Valan und Quinfort in Fanow eingeholt. Doch nach einer kurzen Diskussion nimmt der manische Magier erneut Reißaus. Du heftest dich zusammen mit Valan erneut an seine Fersen. Haltet im Wald nahe der Ox'Dalan-Spalte nach ihm Ausschau.
+3,TEXT_BANQIQ001_03794_SEQ_03,"Viis-Jägerinnen haben zwei rattenhafte Gestalten gestellt, die der herbeieilende Quinfort als Diener von Ronka, Hüter des alten Wissens, vorstellt. Die Qitari, wie das Volk von alters her genannt wird, entpuppen sich als Vater und Sohn, die auf der Suche nach den sogenannten Gedenksteinen ihrer Sippe sind. Den Legenden zufolge liegen diese in uralten Tunneln versteckt, deren Eingang von einem alten Qitari namens Hopl mit einem Siegelstein verschlossen wurde. Die Qitari werden von einer Inkarnation der Wasserschlange von Ronka begleitet, die euch den Weg zu dem Siegelstein weist."
+4,TEXT_BANQIQ001_03794_SEQ_04,"Die Qitari bitten dich um deine Hilfe. Qitarl Natl glaubt, das Siegel mit einem Glitzerstein öffnen zu können, doch da keiner zur Hand ist, sollst du einen im Großen Wald suchen gehen. Sprich ihn an, wenn du bereit bist, tiefer in die Geschichte um das Freundesvolk der Qitari einzutauchen."
+5,TEXT_BANQIQ001_03794_SEQ_05,"Quinfort deutet das Fiepen der Wasserschlange und ihre Musterung so, dass etwas anderes, das den Glanz des Waldes in sich trägt, ebenso gut zur Öffnung des Siegels geeignet sein sollte. Er hat dir auch einen Tipp gegeben, was du sammeln könntest."
+6,TEXT_BANQIQ001_03794_SEQ_06,"Mithilfe deines Fundes öffnet Chaqurl Qhotl das Siegel und legt den Eingang zu den uralten Tunneln frei. Andere Qitari treffen ein, um das Lager für die „Grabenden Pfoten“ zu errichten, den für diese Aufgabe gegründeten Grabungstrupp. Die Erkundung kann beginnen!"
+7,TEXT_BANQIQ001_03794_SEQ_07,
+8,TEXT_BANQIQ001_03794_SEQ_08,
+9,TEXT_BANQIQ001_03794_SEQ_09,
+10,TEXT_BANQIQ001_03794_SEQ_10,
+11,TEXT_BANQIQ001_03794_SEQ_11,
+12,TEXT_BANQIQ001_03794_SEQ_12,
+13,TEXT_BANQIQ001_03794_SEQ_13,
+14,TEXT_BANQIQ001_03794_SEQ_14,
+15,TEXT_BANQIQ001_03794_SEQ_15,
+16,TEXT_BANQIQ001_03794_SEQ_16,
+17,TEXT_BANQIQ001_03794_SEQ_17,
+18,TEXT_BANQIQ001_03794_SEQ_18,
+19,TEXT_BANQIQ001_03794_SEQ_19,
+20,TEXT_BANQIQ001_03794_SEQ_20,
+21,TEXT_BANQIQ001_03794_SEQ_21,
+22,TEXT_BANQIQ001_03794_SEQ_22,
+23,TEXT_BANQIQ001_03794_SEQ_23,
+24,TEXT_BANQIQ001_03794_TODO_00,Valan in Fanow suchen
+25,TEXT_BANQIQ001_03794_TODO_01,Nach Quinfort Ausschau halten
+26,TEXT_BANQIQ001_03794_TODO_02,Der Wasserschlange mit Schlapphut folgen und mit Chaqurl Qhotl sprechen
+27,TEXT_BANQIQ001_03794_TODO_03,Mit Qitarl Natl sprechen
+28,TEXT_BANQIQ001_03794_TODO_04, in Yx'Maja abbauen
+29,TEXT_BANQIQ001_03794_TODO_05,
+30,TEXT_BANQIQ001_03794_TODO_06,
+31,TEXT_BANQIQ001_03794_TODO_07,
+32,TEXT_BANQIQ001_03794_TODO_08,
+33,TEXT_BANQIQ001_03794_TODO_09,
+34,TEXT_BANQIQ001_03794_TODO_10,
+35,TEXT_BANQIQ001_03794_TODO_11,
+36,TEXT_BANQIQ001_03794_TODO_12,
+37,TEXT_BANQIQ001_03794_TODO_13,
+38,TEXT_BANQIQ001_03794_TODO_14,
+39,TEXT_BANQIQ001_03794_TODO_15,
+40,TEXT_BANQIQ001_03794_TODO_16,
+41,TEXT_BANQIQ001_03794_TODO_17,
+42,TEXT_BANQIQ001_03794_TODO_18,
+43,TEXT_BANQIQ001_03794_TODO_19,
+44,TEXT_BANQIQ001_03794_TODO_20,
+45,TEXT_BANQIQ001_03794_TODO_21,
+46,TEXT_BANQIQ001_03794_TODO_22,
+47,TEXT_BANQIQ001_03794_TODO_23,
+48,TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_001,"Nanu? Du bist doch eine Bekannte der Hexe Matoya, oder? Was für ein Glück, dass ich dich treffe! Wenn ich mich nicht täusche, kennst du meinen Sohn. Ich habe euch hier schon mal zusammen gesehen. Sein Name ist Valan."
+49,TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_002,"Erinnerst du dich? Sein Freund ist dieser etwas ... exzentrische Magier, Quinfort. Der ist gerade wie besessen nach draußen in den Wald gestürmt und mein Sohn ist ihm natürlich hinterher."
+50,TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_003,"Ich hörte den Kauz noch rufen, dass er nach Fanow wolle. Vor den Viis braucht man keine Angst zu haben, aber trotzdem mache ich mir schreckliche Sorgen. Man weiß ja nie, was da draußen im Wald alles passieren kann."
+51,TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_004,"Bitte, geh nach Fanow! Sag meinem Sohn, dass er keine dummen Sachen anstellen und schnell wieder nach Hause kommen soll."
+52,TEXT_BANQIQ001_03794_WORRYINGMOTHER_000_005,"Bitte, geh nach Fanow und finde meinen Sohn Valan. Die Sünden­ver­tilger sind zwar weg, aber es ist gefährlich, sich allzu weit raus in den Wald zu wagen."
+53,TEXT_BANQIQ001_03794_QUINFORT_000_006,Wie oft soll ich es noch sagen? Ich bin im Auftrag der Schuppigen Wohltäterin unterwegs!
+54,TEXT_BANQIQ001_03794_VALAN_000_010,"Das ist aber kein Grund, jedes Mal einfach so wie wild draufloszustürmen! Erklär mir wenigstens, um was es geht."
+55,TEXT_BANQIQ001_03794_QUINFORT_000_011,"Warum? Was gibt es da noch zu erklären? Als Wahrträumer ist mein Platz da, wohin die Vision der Großen Schlange mich leitet."
+56,TEXT_BANQIQ001_03794_VALAN_000_012,Nanu? Player! Was treibt dich denn hierher? Der Zufall?
+57,TEXT_BANQIQ001_03794_VALAN_000_013,"Ach so, es war meine Mutter. Tut mir echt leid. Aber Quinfort ist schon wieder einfach so losgestiefelt, da hatte ich keine Zeit, ihr Bescheid zu sagen."
+58,TEXT_BANQIQ001_03794_VALAN_000_014,"So schnell ist der Tagträumer durch den Wald gehastet, dass ich ihn erst hier eingeholt habe. Wie zwei Verrückte sind wir hier reingestürmt. Ein peinlicher Auftritt war das, das kann ich dir sagen ... Ein Glück, dass wir bei den Viis einigermaßen wohlgelitten sind."
+59,TEXT_BANQIQ001_03794_VALAN_000_015,"Ach, übrigens! Hast du die *Große Wasserschlange von Ronka* mal wieder in ihrer Miniaturgestalt durch den Wald kriechen sehen?"
+60,TEXT_BANQIQ001_03794_QUINFORT_000_016,"Wag es nicht, so von der Großen Schlange zu sprechen! Die Würdige Sich-Winderin tat es in ihrer grenzenlosen Weisheit, um sich im Wald zu verstecken. Ich weiß es, denn Die-mit-den-sechsundsechzig-Namen hat es mir in einer Vision verraten."
+61,TEXT_BANQIQ001_03794_TSUCHINOKO_000_017,Quiep!
+62,TEXT_BANQIQ001_03794_QUINFORT_000_018,"O Inkarnation der Großen Wasserschlange, du bist erschienen! Sag, warum hast du mich gerufen? Ich werde dir jeden Wunsch erfüllen!"
+63,TEXT_BANQIQ001_03794_VALAN_000_019,"Inkarnation der Großen Schlange? Ihm zuliebe werde ich darauf verzichten, von einem Wasserwürmchen zu sprechen. Aber er scheint sich seiner Sache sehr sicher zu sein. <seufz> Ich kann es nicht erwarten, seinen endlosen Ausführungen über Ronka-Legenden oder Zitaten aus seinem selbstverfassten Hymnus der Beschützerin lauschen zu dürfen."
+64,TEXT_BANQIQ001_03794_VALAN_000_020,Allerdings hat er auch schon richtig gelegen mit seinen Visionen. Selbst die Viis erkennen sein besonderes Talent an. Wenn seine Träume also diesmal auch mehr sind als das wahnsinnige Gefasel eines religiösen Fanatikers ...
+65,TEXT_BANQIQ001_03794_QUINFORT_100_021,"Hihihahaha ... Der Wald ist im Begriff, seine Wurzeln in eine neue, tausend Jahre währende Epoche des Friedens zu strecken. So verkündet es die Kaltblütige Kriecherin, und so ist das Kommen der alten Diener von Ronka zu deuten."
+66,TEXT_BANQIQ001_03794_QUINFORT_100_022,"Es besteht kein Zweifel. Sie sind wieder hier! Die, die das alte Wissen bewahren. Denn die Schlängelnde Seherin hat es mir offenbart! Hihihahaha!"
+67,TEXT_BANQIQ001_03794_VALAN_100_023,Verdammt! Hört er mit dem Geseier etwa nie auf? Und wo will er schon wieder so hastig hin?
+68,TEXT_BANQIQ001_03794_VALAN_100_024,"Tut mir ja leid, aber würdest du mir helfen, ihn zu suchen? Weit kann er noch nicht sein."
+69,TEXT_BANQIQ001_03794_VALAN_100_030,"Das ist der einzige Weg, Abzweigungen gibt es keine. Er muss hier irgendwo sein."
+70,TEXT_BANQIQ001_03794_VALAN_100_031,"Da, auf der Blumenwiese ist jemand ... Sieh nur, da ist doch irgendwas los!"
+71,TEXT_BANQIQ001_03794_VIISGUARDA_000_021,Zurück mit euch. Sprechende Ratten haben zu diesem Teil des Waldes keinen Zutritt.
+72,TEXT_BANQIQ001_03794_QITARLNATL_000_022,(-Verängstigter Rattenmann-)A-Aber wir ... Wir sind doch keine ...
+73,TEXT_BANQIQ001_03794_QUINFORT_000_023,"Halt! Sie haben ein Recht darauf, hier zu sein! Sie sind ein Volk des alten Ronka-Reichs."
+74,TEXT_BANQIQ001_03794_VIISGUARDB_000_024,Was machst du hier? Bist du nicht ein Untertan der Nacht aus Schlangenzweig?
+75,TEXT_BANQIQ001_03794_VALAN_000_025,Und wieder ist er kopfüber in irgendeinen Schlamassel reingerannt ... Typisch.
+76,TEXT_BANQIQ001_03794_VALAN_000_026,"Hüterinnen des Waldes, bitte entschuldigt das überstürzte Verhalten meines Freundes. Es war sicherlich nicht seine Absicht, euch bei euren Pflichten zu stören."
+77,TEXT_BANQIQ001_03794_VIISGUARDA_000_027,"Die da. Sie hat sich doch als Verbündete von Ronka ausgewiesen. Eine Trägerin des Siegels. Hören wir, was ihre Begleiter zu sagen haben."
+78,TEXT_BANQIQ001_03794_VIISGUARDB_000_028,"Sprich. Was meinst du damit, dass diese Rattenleute ein *Recht* darauf haben, hier zu sein?"
+79,TEXT_BANQIQ001_03794_QUINFORT_000_029,"Die Beschützerin des Waldes selbst, die Zerstörerin mit der Gespaltenen Zunge, die Große Wasserschlange von Ronka, hat mir ihr Kommen in meinen Träumen angekündigt."
+80,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_030,(-Wasserschlange mit Schlapphut-)Quiiiep!
+81,TEXT_BANQIQ001_03794_TSUCHINOKO_000_031,Quiep!
+82,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_032,(-Rattenkind-)Gibt ja noch mehr von lieben Wasserschlangen!
+83,TEXT_BANQIQ001_03794_Q1_000_000,Was sagst du?
+84,TEXT_BANQIQ001_03794_A1_000_001,Qiqirn? Hier? Wie ist das möglich!
+85,TEXT_BANQIQ001_03794_A1_000_002,Zwei heilige Wasserschlangen? Wie ist das möglich!
+86,TEXT_BANQIQ001_03794_QITARLNATL_000_034,"(-Rattenmann-)Kikirn? Verwechselst du mit jemandem, ja? Wissen nur wenig. Haben Versteck im Wald so lange nicht verlassen."
+87,TEXT_BANQIQ001_03794_QITARLNATL_000_035,"(-Rattenmann-)Hast auch Schlange mit dabei, ja? Ist verwunderlich, sehr verwunderlich."
+88,TEXT_BANQIQ001_03794_QUINFORT_000_036,"Ein denkwürdiges Treffen, eingefädelt von der Weitsichtigen Schicksalsweberin ... Sagt, Diener von Ronka, wie nennt man euer Volk?"
+89,TEXT_BANQIQ001_03794_QITARLNATL_000_037,"(-Rattenmann-)Qitari. Namen haben alte Bewohner von Ronka gegeben, jaja."
+90,TEXT_BANQIQ001_03794_VIISGUARDA_000_038,"Qitari, sagst du? Es gibt keine Viis, die diesen Namen nicht kennt. Ein Volk, das schon zu Zeiten des alten Ronka-Kaiserreiches im Wald hauste und vor gut einhundert Jahren verschwand."
+91,TEXT_BANQIQ001_03794_VIISGUARDA_000_039,"Ich und meine Schwestern wurden nach der Lichtflut geboren und haben nie einen Qitari zu Gesicht bekommen. Wie kann es sein, dass ihr hier und jetzt ..."
+92,TEXT_BANQIQ001_03794_VIISGUARDB_000_040,"Wir sollten den Dienern von Ronka nicht mit Feindschaft begegnen. Stecken wir unsere Waffen weg, mutige Jägerin."
+93,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_050,(-Qitari-Kind-)Qitari suchen wichtige Steine. Ahnen haben sie in Tunneln tief unter Wald versteckt.
+94,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_051,(-Wasserschlange mit Schlapphut-)Quiep!
+95,TEXT_BANQIQ001_03794_QITARLNATL_000_052,"(-Qitari-Mann-)Chaqurl! Erst vorstellen, wenn man mit Fremden quasselt!"
+96,TEXT_BANQIQ001_03794_QITARLNATL_000_053,"Heiße Qitarl Natl, von Sippe namens 'rl. Kleiner hier ist Chaqurl Qhotl."
+97,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_054,La-hee!
+98,TEXT_BANQIQ001_03794_QITARLNATL_000_055,"Seit einhundert Jahren wohnen Qitari in Irrungen, in gesegneter Höhle, jawohl. Um zu verstecken vor weißem Licht, das von großem Wasserfall kam."
+99,TEXT_BANQIQ001_03794_QITARLNATL_000_056,"Aber früher wohnte Sippe hier im Wald, so haben Ältesten gesagt. Als Himmel plötzlich hell wurde, haben sie schnell Schatz im Wald verbuddelt. Damit Waldgott ihn beschützt, für junge Qitari. Und da liegt Schatz noch heute."
+100,TEXT_BANQIQ001_03794_QITARLNATL_000_057,"Suchen jetzt Schatz von früher. Ist nicht Münze oder Edelstein, ist Gedenksteine von Qitari! Ahnen haben Geschichte und Wissen von Stamm hineingeritzt."
+101,TEXT_BANQIQ001_03794_QUINFORT_000_058,"Hahaaa! Das sind sie! Habe ich es nicht gesagt? „Die, die das alte Wissen bewahren.“ Es ist genau, wie die Kaltblütige Kriecherin es mir offenbart hat!"
+102,TEXT_BANQIQ001_03794_QITARLNATL_000_059,"Ja, sind Bewahrer von Wissen und Geschichte. Qitari haben Ronka-Kaiser gedient, als fleißige Aufschreiber."
+103,TEXT_BANQIQ001_03794_QITARLNATL_000_060,"Können gut Geschichten schreiben. Qitari leben nicht lang und müssen alles festhalten, was wichtig für andere Generationen ist. Damit nichts verloren geht, ja?"
+104,TEXT_BANQIQ001_03794_QITARLNATL_000_061,"Ahnen haben Wissen in große Steine geritzt. Steine sind Schatz für Qitari, Wegweiser durch Geschichte von Stamm 'rl."
+105,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_062,Chaqurl wollte immer Gedenksteine von Qitari finden. Habe sie in Träumen gesehen. Aber Qitari hatten Angst vor hellem Licht. Haben sich im Wald verkrochen und trauten sich nicht heraus.
+106,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_063,Doch dann wurde Himmel plötzlich dunkel! Qitari waren völlig baff. Dann ist Wasserschlange zu Chaqurl gekommen. Sie hat Chaqurl Weg durch Irrungen gezeigt.
+107,TEXT_BANQIQ001_03794_QITARLNATL_000_064,"Sind als erste Qitari gegangen, aber viele starke Ungeheuer und Tiere wollten uns mampfen, ja? Haben große Angst bekommen und andere Qitari gerufen."
+108,TEXT_BANQIQ001_03794_VIISGUARDA_000_065,"Wir sahen sie durch den Wald tapsen und da wir nicht wussten, mit wem wir es tun haben, hielten wir es für das Beste, sie festzusetzen und ihnen aufs Zahnfleisch zu fühlen. Es tut uns leid, wenn wir euch belästigt haben."
+109,TEXT_BANQIQ001_03794_VIISGUARDB_000_066,"Wir werden unseren Schwestern im Dorf Bescheid sagen, dass sich Diener von Ronka im Wald befinden. Wir wollen ja nicht, dass sich der Pfeil einer Jägerin ins falsche Ziel verirrt."
+110,TEXT_BANQIQ001_03794_QITARLNATL_000_067,"Puh ... Qitarl dachte, dass Viis uns aufspießen! Kleiner Chaqurl ist sehr unvorsichtig und kann nicht alleine durch Wald gehen. Besser, wenn Qitarl auf ihn aufpasst."
+111,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_068,Papa behandelt Chaqurl immer wie Kind! Dabei ist Chaqurl schon drei!
+112,TEXT_BANQIQ001_03794_VALAN_000_069,"Drei? Das ist aber wirklich etwas jung, um alleine durch den Wald zu tapsen."
+113,TEXT_BANQIQ001_03794_QITARLNATL_000_070,Qitari werden schnell alt und leben selten länger als zwanzig Winter. Mit fünf sind Qitari schon erwachsen.
+114,TEXT_BANQIQ001_03794_QITARLNATL_000_071,"Übrigens. Kennt ihr Wald gut, ja? Gedenksteine sind in unterirdischen Tunneln versteckt. Eingang ist am Rand von Ox'Dalan-Spalte. Wisst ihr vielleicht? "
+115,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_072,(-Wasserschlange mit Schlapphut-)Qui-Quiep!
+116,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_073,He! Wasserschlange!
+117,TEXT_BANQIQ001_03794_QUINFORT_000_074,"Ich bin mir sicher, dass sich unsere Pfade durch eine Fügung der Schlängelnden Seherin gekreuzt haben. Denn sie offenbarte mir euer Kommen. Ich weiß, was ich zu tun habe: Ich werde euch helfen."
+118,TEXT_BANQIQ001_03794_QITARLNATL_000_075,"Oh, ist sehr nett von dir! Kommt, alle folgen Wasserschlange!"
+119,TEXT_BANQIQ001_03794_QUINFORT_100_080,"Ist es nicht erhebend? Zu sehen, wie die Inkarnation der Großen Wasserschlange die Diener von Ronka durch diesen uralten Wald führt? Es ist, als würde man inmitten einer Legende spazieren gehen."
+120,TEXT_BANQIQ001_03794_VALAN_100_081,"Hm? Jaja, ganz recht. Wirklich legendär."
+121,TEXT_BANQIQ001_03794_QITARLNATL_100_082,Einhundert Jahre lang hat kein Qitari Boden hier betreten ...
+122,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_100_083,Quiep!
+123,TEXT_BANQIQ001_03794_SYSTEM_100_084,"Die Wasserschlange windet und schlängelt sich in freudiger Erwartung darauf, was hinter dem versiegelten Eingang liegen mag."
+124,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_090,"Hier sind Gedenksteine von Ahnen verbuddelt, ja?"
+125,TEXT_BANQIQ001_03794_QITARLNATL_000_091,"Eingang zu Tunneln ist verschlossen. Mit steinernem Siegel, von Urahn mit Namen Hopl."
+126,TEXT_BANQIQ001_03794_QITARLNATL_000_092,"Qitari glauben an Ox'Dalan, Gott von Unterwelt. Ahnen gaben ihm Gedenksteine zum Aufpassen, versteckt in Tunneln tief unter Erde."
+127,TEXT_BANQIQ001_03794_QUINFORT_000_093,"Wie kommt es, dass du dich so gut mit den alten Traditionen auskennst?"
+128,TEXT_BANQIQ001_03794_QITARLNATL_000_094,"In Nähe von Wasserfall sind viele Ruinen. Qitari haben dort viel gegraben, auf Suche nach Erinnerungen an Ahnen. Qitari waren immer Teil von Ronka."
+129,TEXT_BANQIQ001_03794_QUINFORT_000_095,"Nach der Lichtflut habe ich mich den Untertanen der Nacht angeschlossen, aber ich interessiere mich sehr für den Glauben der alten Ronka."
+130,TEXT_BANQIQ001_03794_QUINFORT_000_096,"Eigentlich bin ich Nachkomme einer Priesterfamilie, die über das Heiligtum von Dwatl wachte."
+131,TEXT_BANQIQ001_03794_QUINFORT_100_096,"Und die Reisende hier ist sogar eine ausgewiesene Verbündete von Ronka, eine Trägerin des Siegels, einbestellt vom letzten Herrscher des Ronka-Kaiserreiches. Das haben die Viis mir alles erzählt."
+132,TEXT_BANQIQ001_03794_QITARLNATL_000_097,"Oh! Ist wirklich glückliche Fügung, so erhabene Person wie dich zu treffen, Priestermann!"
+133,TEXT_BANQIQ001_03794_VALAN_000_098,"Ahaha ... Dann solltest du dir mal anhören, was Player schon alles geleistet hat!"
+134,TEXT_BANQIQ001_03794_QITARLNATL_000_099,"Qitarl weiß. Verbündete von Ronka hat Lichtmonster mit drei Köpfen erschlagen. Qitari haben gesehen, versteckt hinter Stämmen, Ästen und Wurzeln. Du hast Wald gerettet, ja?"
+135,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_100,Chaqurl hat auch gesehen! Hat geweint vor Glück und Aufregung!
+136,TEXT_BANQIQ001_03794_QITARLNATL_000_101,"Wollen Tunnel erforschen, aber Eingang ist mit Siegel verschlossen."
+137,TEXT_BANQIQ001_03794_QITARLNATL_000_102,"Müssen Siegel mit magischer Kraft füttern. Dann weiß Siegel, dass Qitari zurück sind und gibt Eingang frei. Magische Kraft kommt aus Glitzerstein."
+138,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_103,"Papa, Chaqurl findet Glitzerstein! Schaffe es ganz sicher, bin schon fast erwachsen!"
+139,TEXT_BANQIQ001_03794_QITARLNATL_000_104,Kleiner hat Mut wie zehn erwachsene Qitari ... Du kennst Wald gut. Aber denk nur an hungrige Ungeheuer!
+140,TEXT_BANQIQ001_03794_QITARLNATL_000_105,"Besser, wenn jemand hilft. Vielleicht erfahrener Sammler von Glitzerdingen. Qitarl lässt dich nicht alleine gehen."
+141,TEXT_BANQIQ001_03794_Q2_000_000,Was antwortest du?
+142,TEXT_BANQIQ001_03794_A2_000_001,"Ich bin , und zwar ein ziemlich guter."
+143,TEXT_BANQIQ001_03794_A2_000_002,Ich kenn den Großen Wald Rak'tika wie meine Satteltasche.
+144,TEXT_BANQIQ001_03794_QITARLNATL_000_106,"Wenn Besiegerin von Lichtmonster mit drei Köpfen hilft, hat Qitarl keine Angst. Findet Glitzerstein bestimmt!"
+145,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_107,"Unglaublich! Bist also nicht nur stark wie Tarichuk, sondern auch gut im Sammeln!"
+146,TEXT_BANQIQ001_03794_QITARLNATL_000_108,"Wenn Eingang zu Tunnel frei ist, kommen andere Qitari von Sippe der 'rl. Bringen Grabungstrupp mit, heißt Grabende Pfoten, und bauen Lager. Dann beginnt Grabung nach Gedenksteinen!"
+147,TEXT_BANQIQ001_03794_QITARLNATL_000_109,"Du hilfst doch bestimmt auch bei Erkundung von Tunneln, ja? Grabende Pfoten der 'rl brauchen dich!"
+148,TEXT_BANQIQ001_03794_QITARLNATL_000_110,"Du kannst auch später zusagen. Aber behalte jetzt Bitte von Qitarl in deinem Herzen und vergiss sie nicht, ja?"
+149,TEXT_BANQIQ001_03794_QUINFORT_100_110,"Welches verborgene Wissen der Ronka mag wohl in den Köpfen der Qitari schlummern? Oder in den alten Stein gemeißelt sein, der irgendwo unter unseren Füßen liegt? Es ist an der Zeit, die jahrtausendealten Weisheiten ans Licht zu bringen."
+150,TEXT_BANQIQ001_03794_VALAN_100_111,"Ich wusste nicht, welche Talente in dir stecken. Kein Wunder, dass die Hexe Matoya so große Stücke auf dich hält."
+151,TEXT_BANQIQ001_03794_CHAQURLQHOTL_100_112,"Chaqurl wird nie Augenblick vergessen, als Himmel auf einmal dunkel wurde. Wald war ... so still."
+152,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_100_113,Quiep!
+153,TEXT_BANQIQ001_03794_QITARLNATL_000_114,"Hast du über Bitte von Qitarl nachgedacht? Willst du Grabenden Pfoten helfen, ja? Natürlich bekommst du auch etwas für deine Hilfe."
+154,TEXT_BANQIQ001_03794_Q3_000_000,Was antwortest du?
+155,TEXT_BANQIQ001_03794_A3_000_001,Als Verbündete von Ronka werde ich euch selbst­verständ­lich helfen.
+156,TEXT_BANQIQ001_03794_A3_000_002,"Es tut mir leid. Ich möchte mir nicht die Pfoten, äh, Hände dreckig machen."
+157,TEXT_BANQIQ001_03794_QITARLNATL_000_116,"Hach, schade ... Aber Verbündete von Ronka hat bestimmt viel zu tun. Bitte, behalte meinen Wunsch im Herzen und sag mir, wenn du Meinung änderst, ja?"
+158,TEXT_BANQIQ001_03794_QUINFORT_000_117,"Der Ronka-Kaiser hat sich seine Verbündeten weise ausgewählt! Wir werden dich natürlich unterstützen, wie wir nur können."
+159,TEXT_BANQIQ001_03794_QITARLNATL_000_118,Gut. Wo soll Suche nach Glitzersteinen bloß beginnen?
+160,TEXT_BANQIQ001_03794_QUINFORT_000_119,"Es würde mich doch sehr wundern, wenn die Schlüpfrige Schlangengöttin nicht bereits eine Lösung für uns parat hätte. Hm, seht euch doch mal das Muster auf ihrem Körper an. Fällt euch daran nichts auf?"
+161,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_120,"Quiep, quiep!"
+162,TEXT_BANQIQ001_03794_QUINFORT_000_121,Da! Das sieht mir aus wie eine Stelle im Wald ... ein Ort namens „Glanz des Waldes“. Natürlich! Wo sonst!
+163,TEXT_BANQIQ001_03794_QUINFORT_000_122,"Es ist die Stelle am nordwestlichen Rand des Ungesehenen Waldes von Yx'Maja, wo sich die Ätherströme verdichten. Wenn man dort etwas einsammeln würde, das den Glanz des Waldes in sich trägt ... zum Beispiel etwas . Ja, das könnte als Glitzerstein dienen und das Siegel öffnen."
+164,TEXT_BANQIQ001_03794_QUINFORT_100_122,"Natürlich, es ist die Stelle am nordwestlichen Rand des Ungesehenen Waldes von Yx'Maja, wo sich die Ätherströme verdichten. Wenn man dort etwas einsammeln würde, das den Glanz des Waldes in sich trägt ... zum Beispiel etwas . Ja, das könnte als Glitzerstein dienen und das Siegel öffnen."
+165,TEXT_BANQIQ001_03794_QUINFORT_200_122,"Natürlich, im Süden von Mjrls Sehnsucht, wo sich die Ätherströme verdichten. Wenn man dort etwas einsammeln würde, das den Glanz des Waldes in sich trägt ... zum Beispiel  fangen würde . Ja, der könnte als Glitzerstein dienen und das Siegel öffnen."
+166,TEXT_BANQIQ001_03794_QUINFORT_300_122,"Benutze als Köder , um diesen uralten Fisch zu fangen. Darauf fliegen eigentlich alle Süßwasserfische."
+167,TEXT_BANQIQ001_03794_QITARLNATL_000_123,"Hört, hört, Priestermann hat gesprochen! Wenn Qitari tun, was Priestermann sagt, wird sich Siegel öffnen!"
+168,TEXT_BANQIQ001_03794_QITARLNATL_000_124,Bringst du Glitzerding bitte zuerst zu Chaqurl? Er soll Geheimnisse von Ahnen mit eigenen Pfoten spüren.
+169,TEXT_BANQIQ001_03794_QITARLNATL_000_130,"Hast du gefunden? Dann bring zu Chaqurl. Grabende Pfoten sind gerade dabei, Lager aufzubauen."
+170,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_131,"Wenn Player hilft, brauchen Qitari vor gar nichts Angst zu haben!"
+171,TEXT_BANQIQ001_03794_VALAN_000_132,"Ich will Quinfort ja nicht dazwischenquatschen, aber ich frage mich, ob das Siegel wirklich so leicht mit irgendeinem Glitzerding zu öffnen ist."
+172,TEXT_BANQIQ001_03794_QUINFORT_000_133,Die Haarlose Herrscherin hat gesprochen! Sie hat uns den Weg gewiesen und wir werden ihren Zeichen folgen!
+173,TEXT_BANQIQ001_03794_BOUSHITSUCHINOKO_000_134,"Quiep, quiep!"
+174,TEXT_BANQIQ001_03794_SYSTEM_000_135,"Die Wasserschlange der Qitari fiept mit hoher Stimme, als wollte sie Quinfort Recht geben."
+175,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_150,"Und? Hast du gefunden, was Glitzerkraft in sich hat, ja?"
+176,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_151,Ist ... Ist wunderschön! Chaqurl dankt dir von ganzem Herzen. Jetzt aber schnell! Chaqurl will sofort ausprobieren!
+177,TEXT_BANQIQ001_03794_QITARLNATL_000_080,Da! Eingang zu Tunneln von Ahnen!
+178,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_081,Player hat geschafft! Eingang zu Tunneln ist offen!
+179,TEXT_BANQIQ001_03794_QITARLNATL_000_082,Einhundert Jahre hat kein Qitari Gedenksteine von Ahnen gesehen ...
+180,TEXT_BANQIQ001_03794_QITARLNATL_000_083,Bald wird alle Pfoten voll zu tun geben. Qitarl ruft andere Qitari aus Versteck im tiefen Wald. Zusammen bauen 'rl hier Lager für Grabende Pfoten.
+181,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_084,"Werden jeden Stein umdrehen, jeden Flecken Erde umgraben, um Wissen von Ahnen zu lernen! Werden fleißig und mutig sein wie Player!"
+182,TEXT_BANQIQ001_03794_SYSTEM_000_085,"Der Eingang zu den uralten Tunneln ist geöffnet. Angeführt von Qitarl Natl haben die Grabenden Pfoten dort ihr Lager aufgeschlagen, um mit den Ausgrabungsarbeiten zu beginnen."
+183,TEXT_BANQIQ001_03794_CHAQURLQHOTL_000_086,Meine Mama ist auch gekommen. Heißt Qhoterl Pasol.
+184,TEXT_BANQIQ001_03794_QHOTERLPASOL_000_087,"Qhoterl kümmert sich um anfallende Arbeiten. Wenn du helfen möchtest, komm bitte zu Qhoterl, dann bekommst du Auftrag."
+185,TEXT_BANQIQ001_03794_SYSTEM_000_088,Wird der kleine Chaqurl Qhotl die Gedenksteine seiner Ahnen finden? Die Antwort kennt nur der Wille des Waldes ... und eine gewisse Wasserschlange mit Schlapphut.
+186,TEXT_BANQIQ001_03794_TSUCHINOKO_000_089,Quiep!
+187,TEXT_BANQIQ001_03794_SYSTEM_000_160,Dein Verhältnis zu den Grabenden Pfoten der Qitari ist nun „Freundlich“. Damit hast du eine neue Auftragsreihe der Freundesvölker freigeschaltet!
+188,TEXT_BANQIQ001_03794_SYSTEM_000_161,"Qhoterl Pasol wird dir Nebenaufträge der Freundesvölker anbieten, die du täglich wiederholen kannst."
+189,TEXT_BANQIQ001_03794_SYSTEM_000_162,"Außerdem kannst du bei Yuqurl Manl neue Waren der Freundesvölker erwerben, die dir sicherlich bei deinen Abenteuern von Nutzen sein werden!"

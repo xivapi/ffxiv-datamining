@@ -1,143 +1,140 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_AKTKLA405_04157_SEQ_00","Les recherches auxquelles participe Hinageshi semblent la remplir de joie."
-1,"TEXT_AKTKLA405_04157_SEQ_01","Attendre à l'endroit indiqué sur la jetée n°2"
-2,"TEXT_AKTKLA405_04157_SEQ_02","Parler à Tankin                              "
-3,"TEXT_AKTKLA405_04157_SEQ_03","Trouver quelqu'un qui aurait pu apercevoir Hinageshi"
-4,"TEXT_AKTKLA405_04157_SEQ_04","Observer ce qu'il se passe à l'endroit indiqué"
-5,"TEXT_AKTKLA405_04157_SEQ_05","Livrer <SheetFr(Item,2,35847,1,1)/> à Tankin"
-6,"TEXT_AKTKLA405_04157_SEQ_06","Parler à Tankin"
-7,"TEXT_AKTKLA405_04157_SEQ_07","Parler à Hinageshi dans l'aile des Collectionneurs"
-8,"TEXT_AKTKLA405_04157_SEQ_08",""
-9,"TEXT_AKTKLA405_04157_SEQ_09",""
-10,"TEXT_AKTKLA405_04157_SEQ_10",""
-11,"TEXT_AKTKLA405_04157_SEQ_11",""
-12,"TEXT_AKTKLA405_04157_SEQ_12",""
-13,"TEXT_AKTKLA405_04157_SEQ_13",""
-14,"TEXT_AKTKLA405_04157_SEQ_14",""
-15,"TEXT_AKTKLA405_04157_SEQ_15",""
-16,"TEXT_AKTKLA405_04157_SEQ_16",""
-17,"TEXT_AKTKLA405_04157_SEQ_17",""
-18,"TEXT_AKTKLA405_04157_SEQ_18",""
-19,"TEXT_AKTKLA405_04157_SEQ_19",""
-20,"TEXT_AKTKLA405_04157_SEQ_20",""
-21,"TEXT_AKTKLA405_04157_SEQ_21",""
-22,"TEXT_AKTKLA405_04157_SEQ_22",""
-23,"TEXT_AKTKLA405_04157_SEQ_23",""
-24,"TEXT_AKTKLA405_04157_TODO_00","Attendre à l'endroit indiqué sur la jetée n°2"
-25,"TEXT_AKTKLA405_04157_TODO_01","Parler à Tankin"
-26,"TEXT_AKTKLA405_04157_TODO_02","Trouver quelqu'un qui aurait pu apercevoir Hinageshi"
-27,"TEXT_AKTKLA405_04157_TODO_03","Observer ce qu'il se passe à l'endroit indiqué"
-28,"TEXT_AKTKLA405_04157_TODO_04","<If(Equal(PlayerParameter(68),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récupérer <SheetFr(Item,1,35847,1,1)/> au Couvercle des enfers dans la Mer de Rubis<Else/>Donner <SheetFr(Item,2,35847,1,1)/> à Tankin</If><Else/><If(Equal(PlayerParameter(68),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récupérer <SheetFr(Item,1,35847,1,1)/> à Onokoro dans la Mer de Rubis<Else/>Donner <SheetFr(Item,2,35847,1,1)/> à Tankin</If><Else/><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Changer de classe pour devenir mineur ou botaniste puis récupérer <SheetFr(Item,1,35847,1,1)/><Else/>Changer de classe pour devenir mineur ou botaniste puis donner <SheetFr(Item,2,35847,1,1)/> à Tankin</If></If></If>"
-29,"TEXT_AKTKLA405_04157_TODO_05","Parler à Tankin"
-30,"TEXT_AKTKLA405_04157_TODO_06","Parler à Hinageshi dans l'aile des Collectionneurs"
-31,"TEXT_AKTKLA405_04157_TODO_07",""
-32,"TEXT_AKTKLA405_04157_TODO_08",""
-33,"TEXT_AKTKLA405_04157_TODO_09",""
-34,"TEXT_AKTKLA405_04157_TODO_10",""
-35,"TEXT_AKTKLA405_04157_TODO_11",""
-36,"TEXT_AKTKLA405_04157_TODO_12",""
-37,"TEXT_AKTKLA405_04157_TODO_13",""
-38,"TEXT_AKTKLA405_04157_TODO_14",""
-39,"TEXT_AKTKLA405_04157_TODO_15",""
-40,"TEXT_AKTKLA405_04157_TODO_16",""
-41,"TEXT_AKTKLA405_04157_TODO_17",""
-42,"TEXT_AKTKLA405_04157_TODO_18",""
-43,"TEXT_AKTKLA405_04157_TODO_19",""
-44,"TEXT_AKTKLA405_04157_TODO_20",""
-45,"TEXT_AKTKLA405_04157_TODO_21",""
-46,"TEXT_AKTKLA405_04157_TODO_22",""
-47,"TEXT_AKTKLA405_04157_TODO_23",""
-48,"TEXT_AKTKLA405_04157_HINAGESHI_000_010","Je me demande bien sur quelle culture nous allons nous pencher, à présent. Tout semble envisageable, maintenant que nous savons qu'il est possible de vivre sur la lune."
-49,"TEXT_AKTKLA405_04157_TANKIN_000_020","J'ai une bonne nouvelle à vous annoncer. On nous a accordé la permission de voyager au-delà de ces terres<Indent/>!"
-50,"TEXT_AKTKLA405_04157_TANKIN_000_021","Nous allons en profiter pour sortir de Sharlayan et aller directement à la rencontre d'autres cultures."
-51,"TEXT_AKTKLA405_04157_HINAGESHI_000_022","Vraiment<Indent/>!? Génial<Indent/>! Et où irons-nous<Indent/>?"
-52,"TEXT_AKTKLA405_04157_TANKIN_000_023","Nous irons à Kugane, localité d'un lointain pays d'Orient que l'on nomme Hingashi."
-53,"TEXT_AKTKLA405_04157_HINAGESHI_000_024","Entendu<Indent/>! Je sens qu'il y a beaucoup à apprendre là-bas<Indent/>!"
-54,"TEXT_AKTKLA405_04157_TANKIN_000_025","Nous sommes autorisés à voyager, mais pas longtemps. Tâchons donc de découvrir un maximum de choses pour rentabiliser notre séjour."
-55,"TEXT_AKTKLA405_04157_TANKIN_000_026","Tu me sembles bien connaître l'Orient, n'est-ce pas, <If(PlayerParameter(4))>aventurière<Else/>aventurier</If><Indent/>?"
-56,"TEXT_AKTKLA405_04157_TANKIN_100_026","C'est bien ce que je pensais<Indent/>! Dans ce cas, accepterais-tu de nous servir de guide<Indent/>?"
-57,"TEXT_AKTKLA405_04157_TANKIN_000_027","Je te remercie. "
-58,"TEXT_AKTKLA405_04157_TANKIN_100_027","Nous n'allons pas arriver tout de suite. En revanche, comme nous connaissons l'endroit où nous débarquerons à Kugane, à savoir la jetée n°2, je propose que nous nous y retrouvions."
-59,"TEXT_AKTKLA405_04157_TANKIN_000_030","L'utilisation des éthérites raccourcirait sûrement la durée de notre voyage. Quoi qu'il en soit, je te demanderais de partir devant et de nous attendre sur place."
-60,"TEXT_AKTKLA405_04157_HINAGESHI_000_031","Je vais partir en voyage avec le professeur<Indent/>!! Je suis si excitée... mais il ne faut pas que je rate mon coup. "
-61,"TEXT_AKTKLA405_04157_SYSTEM_000_040","Un peu plus tard..."
-62,"TEXT_AKTKLA405_04157_TANKIN_000_041","Nous avons finalement voyagé avec une éthérite expérimentale. Et comme nous sommes arrivés un peu plus tôt que prévu, nous en avons profité pour emprunter ces tenues tra<SoftHyphen/>di<SoftHyphen/>tion<SoftHyphen/>nel<SoftHyphen/>les. Tu devrais t'en prendre une, toi aussi. Nous ferons ainsi tous couleur locale."
-63,"TEXT_AKTKLA405_04157_HINAGESHI_000_042","Je n'arrive toujours pas à croire que je suis en voyage à l'étranger avec le professeur..."
-64,"TEXT_AKTKLA405_04157_TANKIN_000_043","Cherchons à présent le Château de Kugane."
-65,"TEXT_AKTKLA405_04157_TANKIN_000_044","On ne voit pas bien, d'ici. N'y aurait-il pas un endroit avec une vue plus dégagée<Indent/>?"
-66,"TEXT_AKTKLA405_04157_Q1_000_000","Que dites-vous<Indent/>?"
-67,"TEXT_AKTKLA405_04157_A1_000_001","Grimpons sur le toit de l'auberge du Shiokaze<Indent/>!"
-68,"TEXT_AKTKLA405_04157_A1_000_002","Le pont Tasogare est tout près."
-69,"TEXT_AKTKLA405_04157_TANKIN_000_045","Attends une seconde<Indent/>! En tant que touristes, je ne suis pas certain que nous ayons le droit de monter sur ce toit... Et puis c'est dangereux<Indent/>! Je ne voudrais pas que ce panorama soit le dernier que nous voyions."
-70,"TEXT_AKTKLA405_04157_TANKIN_000_046","Je crois qu'il existe un endroit que l'on nomme le pont Tasogare. Allons-y."
-71,"TEXT_AKTKLA405_04157_TANKIN_000_047","Le pont Tasogare<Indent/>? En voilà, un beau nom. Allons-y<Indent/>!"
-72,"TEXT_AKTKLA405_04157_TANKIN_000_048","Voilà le Château de Kugane. Cet endroit a beau être une île comme Sharlayan, il faut bien avouer que la ressemblance s'arrête là."
-73,"TEXT_AKTKLA405_04157_TANKIN_000_049","Kugane est la seule ville de tout Hingashi dont le port est ouvert aux étrangers."
-74,"TEXT_AKTKLA405_04157_TANKIN_000_050","D'ici à penser que le gouvernement place ici en vitrine l'image qu'il veut donner de tout le pays, il n'y a qu'un pas."
-75,"TEXT_AKTKLA405_04157_TANKIN_100_050","Ne nous contentons pas d'observer, allons à la rencontre des gens du cru pour savoir de quoi il retourne."
-76,"TEXT_AKTKLA405_04157_TANKIN_000_051","Je suis sûr qu'échanger avec ces derniers nous offrira un meilleur aperçu de leur mode de vie atypique... Et, peut-être aussi, comprendre pourquoi le calme semble régner alors même que l'apocalypse nous guette."
-77,"TEXT_AKTKLA405_04157_TANKIN_100_051","La “vitrine” que nous voyons est peut-être un moyen pour les gouvernants de Hingashi de contrôler ce qu'ils montrent aux rares étrangers autorisés à entrer dans Kugane. Mais peut-être ont-ils confiance en leur capacité à vivre en autarcie."
-78,"TEXT_AKTKLA405_04157_TANKIN_110_051","Je crois qu'il s'agit d'un exemple très singulier de culture, et il se pourrait bien qu'il nous aide à trouver celle qui nous conviendrait le mieux. Croyez-moi, nous avons bien fait de traverser les océans pour nous retrouver ici<Indent/>!"
-79,"TEXT_AKTKLA405_04157_HINAGESHI_000_052","Professeur, j'aimerais beaucoup aller à la maison de thé Umineko<Indent/>! Il paraît que les gâteaux qu'ils servent avec le thé sont délicieux<Indent/>!"
-80,"TEXT_AKTKLA405_04157_TANKIN_000_053","N'oublie pas pourquoi nous sommes ici, Hinageshi. Nous ne sommes pas des touristes mais des chercheurs. Concentre-toi sur l'essentiel, je te prie<Indent/>! "
-81,"TEXT_AKTKLA405_04157_HINAGESHI_000_054","Excusez-moi, Professeur..."
-82,"TEXT_AKTKLA405_04157_TANKIN_000_055","Au contraire, pardonne-moi car j'ai eu tort de m'emporter. Toi, tu as vu l'aspect touristique de notre objet d'étude, et c'est très bien ainsi. Continue sur cette lancée sans te départir de ta sensibilité."
-83,"TEXT_AKTKLA405_04157_HINAGESHI_000_056","Hum... Je pense que j'ai compris..."
-84,"TEXT_AKTKLA405_04157_TANKIN_000_057","Allons à la jetée n°1 admirer l'architecture des grands entrepôts et visiter les forges de Kokajiya."
-85,"TEXT_AKTKLA405_04157_TANKIN_000_060","Quelle chaleur<Indent/>! C'est l'occasion unique de voir en vrai comment on fabrique ces sabres au tranchant unique au monde."
-86,"TEXT_AKTKLA405_04157_TANKIN_000_061","Zut, je crois que je me suis laissé emporter par mon enthousiasme... Et moi qui te faisais la leçon, Hinageshi."
-87,"TEXT_AKTKLA405_04157_TANKIN_000_062","Hinageshi<Indent/>? Mais où est-elle passée<Indent/>?"
-88,"TEXT_AKTKLA405_04157_TANKIN_000_063","Fichtre... J'étais tellement fasciné par ce que j'ai vu que je ne saurais dire ni à quel moment, ni où, nous l'avons perdue."
-89,"TEXT_AKTKLA405_04157_TANKIN_000_064","Voici ce que nous allons faire<Indent/>: je vais la chercher à Kogane-dori. Pendant ce temps, j'aimerais que tu ailles au quartier des Ijin et que tu demandes aux passants s'ils ne l'ont pas vue."
-90,"TEXT_AKTKLA405_04157_SEKISEIGUMIBLADE_000_080","Vous dites que vous cherchez une jeune femme<Indent/>?"
-91,"TEXT_AKTKLA405_04157_SEKISEIGUMIBLADE_000_081","Vous feriez mieux d'aller au Château de Kugane. Là, vous dominerez toute la ville, et si vous avez de bons yeux vous l'apercevrez peut-être."
-92,"TEXT_AKTKLA405_04157_SEKISEIGUMIBLADE_000_082","Je vous laisse car je dois reprendre ma ronde."
-93,"TEXT_AKTKLA405_04157_TANKIN_000_090","Hinageshi<Indent/>!"
-94,"TEXT_AKTKLA405_04157_HINAGESHI_000_091","Vous voilà, Professeur<Indent/>! Et vous aussi<Indent/>!"
-95,"TEXT_AKTKLA405_04157_HINAGESHI_000_092","Je suis soulagée... Mais bon, je me disais bien que vous finiriez par passer par ici, Professeur."
-96,"TEXT_AKTKLA405_04157_TANKIN_000_093","Il est vrai que le Château de Kugane était sur notre itinéraire de visite. Je constate que tu connaissais à l'avance tous les détails de notre voyage, Hinageshi<Indent/>!"
-97,"TEXT_AKTKLA405_04157_TANKIN_000_094","Malgré tout, je n'arrive pas à déterminer où exactement nous avons été séparés."
-98,"TEXT_AKTKLA405_04157_HINAGESHI_000_095","Sur le chemin menant à la jetée n°1, j'ai été sollicitée par un marchand de Kogane-dori. J'ai eu à peine le temps de m'en débarrasser que vous aviez déjà disparus..."
-99,"TEXT_AKTKLA405_04157_HINAGESHI_000_096","Ceci, juste après que vous m'avez réprimandée par rapport au fait que nous n'étions pas ici en tant que touristes..."
-100,"TEXT_AKTKLA405_04157_TANKIN_000_097","Ne dis pas ça. Je t'ai laissée seule et je m'en veux ter<SoftHyphen/>ri<SoftHyphen/>ble<SoftHyphen/>ment. J'étais tellement absorbé par mes recherches que j'en oubliais tout le reste."
-101,"TEXT_AKTKLA405_04157_TANKIN_000_098","Pour être honnête, j'étais ter<SoftHyphen/>ri<SoftHyphen/>ble<SoftHyphen/>ment inquiet à ton sujet. Je t'imaginais toute seule et livrée à toi-même dans cette ville étrangère..."
-102,"TEXT_AKTKLA405_04157_TANKIN_000_099","Tu n'imagines même pas le soulagement que j'ai éprouvé lorsque j'ai aperçu ton visage... mais je n'ose imaginer la terreur que tu as ressentie lorsque tu t'es aperçue que nous n'étions plus à tes côtés."
-103,"TEXT_AKTKLA405_04157_HINAGESHI_000_100","O-oui, j'étais horrifiée<Indent/>!"
-104,"TEXT_AKTKLA405_04157_TANKIN_100_100","Que faire dans une telle situation...<Indent/>?"
-105,"TEXT_AKTKLA405_04157_TANKIN_110_100","Je sais<Indent/>!"
-106,"TEXT_AKTKLA405_04157_TANKIN_000_101","Je suis confus de te demander cela, mais pourrais-tu me trouver du matériau pour kanzashi<Indent/>?"
-107,"TEXT_AKTKLA405_04157_TANKIN_100_101","J'ai ouï dire qu'on peut en trouver dans la Mer de Rubis. Espérons que ça lui redonne de l'entrain..."
-108,"TEXT_AKTKLA405_04157_TANKIN_000_102","Je te remercie<Indent/>! Pour ma part, je ne veux pas laisser Hinageshi seule. Nous t'attendrons donc ici."
-109,"TEXT_AKTKLA405_04157_SYSTEM_100_102","Le matériau pour kanzashi se trouve au Couvercle des enfers, dans la Mer de Rubis."
-110,"TEXT_AKTKLA405_04157_SYSTEM_110_102","Le matériau pour kanzashi se trouve à Onokoro, dans la Mer de Rubis."
-111,"TEXT_AKTKLA405_04157_HINAGESHI_000_110","Nous n'avions pas beaucoup de temps, et il a été gâché par ma faute... Je suis tellement navrée de m'être perdue..."
-112,"TEXT_AKTKLA405_04157_TANKIN_000_120","J'ai entendu dire que les ressources naturelles abondent dans la Mer de Rubis, notamment sous la forme de magnifiques matériaux. Je suis sûr que tu y trouveras ce dont j'ai besoin."
-113,"TEXT_AKTKLA405_04157_TANKIN_000_130","Quelle splendeur<Indent/>!"
-114,"TEXT_AKTKLA405_04157_TANKIN_100_130","Je vais de ce pas le confier à un artisan. Pendant ce temps, pourrais-tu tenir compagnie à Hinageshi<Indent/>?"
-115,"TEXT_AKTKLA405_04157_HINAGESHI_000_131","Je vois que je ne fais que gêner le professeur. Comme assistante, je ne vaux pas grand-chose..."
-116,"TEXT_AKTKLA405_04157_TANKIN_000_132","Navré d'avoir disparu ainsi, Hinageshi, mais je voulais te donner ceci."
-117,"TEXT_AKTKLA405_04157_HINAGESHI_000_133","Une épingle à cheveux<Indent/>? Et cette fleur, ça ne serait pas...<Indent/>?"
-118,"TEXT_AKTKLA405_04157_TANKIN_000_134","Si, il s'agit bien de la fleur que les gens de ce pays appellent “Hinageshi”. Entre nous, je me suis dit que ce serait le comble pour les chercheurs que nous sommes de se trouver en terre étrangère et ne récolter aucun matériau."
-119,"TEXT_AKTKLA405_04157_TANKIN_000_135","Est-ce que cela te plaît<Indent/>?"
-120,"TEXT_AKTKLA405_04157_HINAGESHI_000_136","Je..."
-121,"TEXT_AKTKLA405_04157_HINAGESHI_000_137","Merci, Professeur<Indent/>! J'en prendrai soin jusqu'à ma mort<Indent/>!"
-122,"TEXT_AKTKLA405_04157_TANKIN_000_138","Étrange... J'ai beau me trouver en terre étrangère, je me sens comme chez moi quand tu es à mes côtés, Hinageshi. C'est un sentiment très apaisant, mais je me demande ce qui l'a fait naître en moi."
-123,"TEXT_AKTKLA405_04157_TANKIN_000_139","Mais nous n'avons pas le temps de réfléchir à ce genre de choses<Indent/>! Finissons plutôt de visiter la ville. Nous irons d'abord au quartier de Rakuza, puis nous nous rendrons à l'auberge du Bokairo."
-124,"TEXT_AKTKLA405_04157_TANKIN_000_140","J'allais oublier<Indent/>! Avant toute chose, nous devons absolument nous arrêter à la maison de thé Umineko pour y goûter leur thé et leurs gâteaux."
-125,"TEXT_AKTKLA405_04157_HINAGESHI_000_141","Ça me fait tellement plaisir, Professeur. Merci<Indent/>!!"
-126,"TEXT_AKTKLA405_04157_HINAGESHI_000_150","J'ai parlé avec des baigneurs du coin dans une source thermale. Vous savez, j'ai vraiment eu le sentiment d'avoir vécu dans ma chair la culture de Kugane."
-127,"TEXT_AKTKLA405_04157_TANKIN_000_160","L'eau chaude du bain m'a fait beaucoup de bien<Indent/>! Et, ce qui ne gâche rien, la vue sur la mer était magnifique<Indent/>!"
-128,"TEXT_AKTKLA405_04157_TANKIN_000_161","J'ai du mal à imaginer que de l'autre côté de cette mer se trouvent Doma ainsi que la Steppe d'Azim, la terre de mes ancêtres."
-129,"TEXT_AKTKLA405_04157_TANKIN_000_162","Un jour, j'aimerais partir à la rencontre des peuplades nomades. Je voudrais tant voir en vrai de quelle façon ces gens vivent."
-130,"TEXT_AKTKLA405_04157_HINAGESHI_000_163","Nous irons voir ce qu'il est en est, Professeur<Indent/>! Nous avons encore tant à découvrir..."
-131,"TEXT_AKTKLA405_04157_TANKIN_000_164","Oui, nous irons<Indent/>!"
-132,"TEXT_AKTKLA405_04157_TANKIN_000_165","Mais toutes les bonnes choses ont une fin<Indent/>: nous devons retourner à Sharlayan."
-133,"TEXT_AKTKLA405_04157_TANKIN_000_166","<If(PlayerParameter(4))>Aventurière<Else/>Aventurier</If>, n'oublie pas de te rendre à l'aile des Collectionneurs lorsque nous serons de retour. Tu y obtiendras ta récompense."
-134,"TEXT_AKTKLA405_04157_TANKIN_000_170","Ce voyage nous a beaucoup appris. Quant à ce sentiment de paix intérieure que j'ai ressenti là-bas... J'ai l'intuition que déterminer sa nature et sa cause permettrait de faire grandement avancer nos recherches."
-135,"TEXT_AKTKLA405_04157_HINAGESHI_000_180","Qu'il est bon d'être chez soi<Indent/>! J'ai beau adorer découvrir toutes ces cultures, voyager trop longuement me fatigue et je sens que j'ai besoin de me ressourcer ici."
-136,"TEXT_AKTKLA405_04157_HINAGESHI_000_181","Tout le monde a un lieu qu'il considère comme son “chez-soi”. Vous aussi, j'imagine<Indent/>?"
-137,"TEXT_AKTKLA405_04157_HINAGESHI_000_182","Nous ferions mieux de sauvegarder nos découvertes. Je vous contacterai à nouveau pour vous révéler notre prochain sujet d'étude<Indent/>!"
-138,"TEXT_AKTKLA405_04157_SYSTEM_000_190","Hinageshi propose la prochaine quête aux mineurs ou aux botanistes de niveau 88."
-139,"TEXT_AKTKLA405_04157_SYSTEM_000_200","Il est nécessaire de terminer la quête de l'épopée “Le jardin aux horreurs” pour entamer la suivante."
+0,TEXT_AKTKLA405_04157_SEQ_00,Les recherches auxquelles participe Hinageshi semblent la remplir de joie.
+1,TEXT_AKTKLA405_04157_SEQ_01,Attendre à l'endroit indiqué sur la jetée n°2
+2,TEXT_AKTKLA405_04157_SEQ_02,Parler à Tankin                              
+3,TEXT_AKTKLA405_04157_SEQ_03,Trouver quelqu'un qui aurait pu apercevoir Hinageshi
+4,TEXT_AKTKLA405_04157_SEQ_04,Observer ce qu'il se passe à l'endroit indiqué
+5,TEXT_AKTKLA405_04157_SEQ_05,Livrer  à Tankin
+6,TEXT_AKTKLA405_04157_SEQ_06,Parler à Tankin
+7,TEXT_AKTKLA405_04157_SEQ_07,Parler à Hinageshi dans l'aile des Collectionneurs
+8,TEXT_AKTKLA405_04157_SEQ_08,
+9,TEXT_AKTKLA405_04157_SEQ_09,
+10,TEXT_AKTKLA405_04157_SEQ_10,
+11,TEXT_AKTKLA405_04157_SEQ_11,
+12,TEXT_AKTKLA405_04157_SEQ_12,
+13,TEXT_AKTKLA405_04157_SEQ_13,
+14,TEXT_AKTKLA405_04157_SEQ_14,
+15,TEXT_AKTKLA405_04157_SEQ_15,
+16,TEXT_AKTKLA405_04157_SEQ_16,
+17,TEXT_AKTKLA405_04157_SEQ_17,
+18,TEXT_AKTKLA405_04157_SEQ_18,
+19,TEXT_AKTKLA405_04157_SEQ_19,
+20,TEXT_AKTKLA405_04157_SEQ_20,
+21,TEXT_AKTKLA405_04157_SEQ_21,
+22,TEXT_AKTKLA405_04157_SEQ_22,
+23,TEXT_AKTKLA405_04157_SEQ_23,
+24,TEXT_AKTKLA405_04157_TODO_00,Attendre à l'endroit indiqué sur la jetée n°2
+25,TEXT_AKTKLA405_04157_TODO_01,Parler à Tankin
+26,TEXT_AKTKLA405_04157_TODO_02,Trouver quelqu'un qui aurait pu apercevoir Hinageshi
+27,TEXT_AKTKLA405_04157_TODO_03,Observer ce qu'il se passe à l'endroit indiqué
+28,TEXT_AKTKLA405_04157_TODO_04,Récupérer  au Couvercle des enfers dans la Mer de Rubis
+29,TEXT_AKTKLA405_04157_TODO_05,Parler à Tankin
+30,TEXT_AKTKLA405_04157_TODO_06,Parler à Hinageshi dans l'aile des Collectionneurs
+31,TEXT_AKTKLA405_04157_TODO_07,
+32,TEXT_AKTKLA405_04157_TODO_08,
+33,TEXT_AKTKLA405_04157_TODO_09,
+34,TEXT_AKTKLA405_04157_TODO_10,
+35,TEXT_AKTKLA405_04157_TODO_11,
+36,TEXT_AKTKLA405_04157_TODO_12,
+37,TEXT_AKTKLA405_04157_TODO_13,
+38,TEXT_AKTKLA405_04157_TODO_14,
+39,TEXT_AKTKLA405_04157_TODO_15,
+40,TEXT_AKTKLA405_04157_TODO_16,
+41,TEXT_AKTKLA405_04157_TODO_17,
+42,TEXT_AKTKLA405_04157_TODO_18,
+43,TEXT_AKTKLA405_04157_TODO_19,
+44,TEXT_AKTKLA405_04157_TODO_20,
+45,TEXT_AKTKLA405_04157_TODO_21,
+46,TEXT_AKTKLA405_04157_TODO_22,
+47,TEXT_AKTKLA405_04157_TODO_23,
+48,TEXT_AKTKLA405_04157_HINAGESHI_000_010,"Je me demande bien sur quelle culture nous allons nous pencher, à présent. Tout semble envisageable, maintenant que nous savons qu'il est possible de vivre sur la lune."
+49,TEXT_AKTKLA405_04157_TANKIN_000_020,J'ai une bonne nouvelle à vous annoncer. On nous a accordé la permission de voyager au-delà de ces terres !
+50,TEXT_AKTKLA405_04157_TANKIN_000_021,Nous allons en profiter pour sortir de Sharlayan et aller directement à la rencontre d'autres cultures.
+51,TEXT_AKTKLA405_04157_HINAGESHI_000_022,Vraiment !? Génial ! Et où irons-nous ?
+52,TEXT_AKTKLA405_04157_TANKIN_000_023,"Nous irons à Kugane, localité d'un lointain pays d'Orient que l'on nomme Hingashi."
+53,TEXT_AKTKLA405_04157_HINAGESHI_000_024,Entendu ! Je sens qu'il y a beaucoup à apprendre là-bas !
+54,TEXT_AKTKLA405_04157_TANKIN_000_025,"Nous sommes autorisés à voyager, mais pas longtemps. Tâchons donc de découvrir un maximum de choses pour rentabiliser notre séjour."
+55,TEXT_AKTKLA405_04157_TANKIN_000_026,"Tu me sembles bien connaître l'Orient, n'est-ce pas, aventurière ?"
+56,TEXT_AKTKLA405_04157_TANKIN_100_026,"C'est bien ce que je pensais ! Dans ce cas, accepterais-tu de nous servir de guide ?"
+57,TEXT_AKTKLA405_04157_TANKIN_000_027,Je te remercie. 
+58,TEXT_AKTKLA405_04157_TANKIN_100_027,"Nous n'allons pas arriver tout de suite. En revanche, comme nous connaissons l'endroit où nous débarquerons à Kugane, à savoir la jetée n°2, je propose que nous nous y retrouvions."
+59,TEXT_AKTKLA405_04157_TANKIN_000_030,"L'utilisation des éthérites raccourcirait sûrement la durée de notre voyage. Quoi qu'il en soit, je te demanderais de partir devant et de nous attendre sur place."
+60,TEXT_AKTKLA405_04157_HINAGESHI_000_031,Je vais partir en voyage avec le professeur !! Je suis si excitée... mais il ne faut pas que je rate mon coup. 
+61,TEXT_AKTKLA405_04157_SYSTEM_000_040,Un peu plus tard...
+62,TEXT_AKTKLA405_04157_TANKIN_000_041,"Nous avons finalement voyagé avec une éthérite expérimentale. Et comme nous sommes arrivés un peu plus tôt que prévu, nous en avons profité pour emprunter ces tenues tra­di­tion­nel­les. Tu devrais t'en prendre une, toi aussi. Nous ferons ainsi tous couleur locale."
+63,TEXT_AKTKLA405_04157_HINAGESHI_000_042,Je n'arrive toujours pas à croire que je suis en voyage à l'étranger avec le professeur...
+64,TEXT_AKTKLA405_04157_TANKIN_000_043,Cherchons à présent le Château de Kugane.
+65,TEXT_AKTKLA405_04157_TANKIN_000_044,"On ne voit pas bien, d'ici. N'y aurait-il pas un endroit avec une vue plus dégagée ?"
+66,TEXT_AKTKLA405_04157_Q1_000_000,Que dites-vous ?
+67,TEXT_AKTKLA405_04157_A1_000_001,Grimpons sur le toit de l'auberge du Shiokaze !
+68,TEXT_AKTKLA405_04157_A1_000_002,Le pont Tasogare est tout près.
+69,TEXT_AKTKLA405_04157_TANKIN_000_045,"Attends une seconde ! En tant que touristes, je ne suis pas certain que nous ayons le droit de monter sur ce toit... Et puis c'est dangereux ! Je ne voudrais pas que ce panorama soit le dernier que nous voyions."
+70,TEXT_AKTKLA405_04157_TANKIN_000_046,Je crois qu'il existe un endroit que l'on nomme le pont Tasogare. Allons-y.
+71,TEXT_AKTKLA405_04157_TANKIN_000_047,"Le pont Tasogare ? En voilà, un beau nom. Allons-y !"
+72,TEXT_AKTKLA405_04157_TANKIN_000_048,"Voilà le Château de Kugane. Cet endroit a beau être une île comme Sharlayan, il faut bien avouer que la ressemblance s'arrête là."
+73,TEXT_AKTKLA405_04157_TANKIN_000_049,Kugane est la seule ville de tout Hingashi dont le port est ouvert aux étrangers.
+74,TEXT_AKTKLA405_04157_TANKIN_000_050,"D'ici à penser que le gouvernement place ici en vitrine l'image qu'il veut donner de tout le pays, il n'y a qu'un pas."
+75,TEXT_AKTKLA405_04157_TANKIN_100_050,"Ne nous contentons pas d'observer, allons à la rencontre des gens du cru pour savoir de quoi il retourne."
+76,TEXT_AKTKLA405_04157_TANKIN_000_051,"Je suis sûr qu'échanger avec ces derniers nous offrira un meilleur aperçu de leur mode de vie atypique... Et, peut-être aussi, comprendre pourquoi le calme semble régner alors même que l'apocalypse nous guette."
+77,TEXT_AKTKLA405_04157_TANKIN_100_051,La “vitrine” que nous voyons est peut-être un moyen pour les gouvernants de Hingashi de contrôler ce qu'ils montrent aux rares étrangers autorisés à entrer dans Kugane. Mais peut-être ont-ils confiance en leur capacité à vivre en autarcie.
+78,TEXT_AKTKLA405_04157_TANKIN_110_051,"Je crois qu'il s'agit d'un exemple très singulier de culture, et il se pourrait bien qu'il nous aide à trouver celle qui nous conviendrait le mieux. Croyez-moi, nous avons bien fait de traverser les océans pour nous retrouver ici !"
+79,TEXT_AKTKLA405_04157_HINAGESHI_000_052,"Professeur, j'aimerais beaucoup aller à la maison de thé Umineko ! Il paraît que les gâteaux qu'ils servent avec le thé sont délicieux !"
+80,TEXT_AKTKLA405_04157_TANKIN_000_053,"N'oublie pas pourquoi nous sommes ici, Hinageshi. Nous ne sommes pas des touristes mais des chercheurs. Concentre-toi sur l'essentiel, je te prie ! "
+81,TEXT_AKTKLA405_04157_HINAGESHI_000_054,"Excusez-moi, Professeur..."
+82,TEXT_AKTKLA405_04157_TANKIN_000_055,"Au contraire, pardonne-moi car j'ai eu tort de m'emporter. Toi, tu as vu l'aspect touristique de notre objet d'étude, et c'est très bien ainsi. Continue sur cette lancée sans te départir de ta sensibilité."
+83,TEXT_AKTKLA405_04157_HINAGESHI_000_056,Hum... Je pense que j'ai compris...
+84,TEXT_AKTKLA405_04157_TANKIN_000_057,Allons à la jetée n°1 admirer l'architecture des grands entrepôts et visiter les forges de Kokajiya.
+85,TEXT_AKTKLA405_04157_TANKIN_000_060,Quelle chaleur ! C'est l'occasion unique de voir en vrai comment on fabrique ces sabres au tranchant unique au monde.
+86,TEXT_AKTKLA405_04157_TANKIN_000_061,"Zut, je crois que je me suis laissé emporter par mon enthousiasme... Et moi qui te faisais la leçon, Hinageshi."
+87,TEXT_AKTKLA405_04157_TANKIN_000_062,Hinageshi ? Mais où est-elle passée ?
+88,TEXT_AKTKLA405_04157_TANKIN_000_063,"Fichtre... J'étais tellement fasciné par ce que j'ai vu que je ne saurais dire ni à quel moment, ni où, nous l'avons perdue."
+89,TEXT_AKTKLA405_04157_TANKIN_000_064,"Voici ce que nous allons faire : je vais la chercher à Kogane-dori. Pendant ce temps, j'aimerais que tu ailles au quartier des Ijin et que tu demandes aux passants s'ils ne l'ont pas vue."
+90,TEXT_AKTKLA405_04157_SEKISEIGUMIBLADE_000_080,Vous dites que vous cherchez une jeune femme ?
+91,TEXT_AKTKLA405_04157_SEKISEIGUMIBLADE_000_081,"Vous feriez mieux d'aller au Château de Kugane. Là, vous dominerez toute la ville, et si vous avez de bons yeux vous l'apercevrez peut-être."
+92,TEXT_AKTKLA405_04157_SEKISEIGUMIBLADE_000_082,Je vous laisse car je dois reprendre ma ronde.
+93,TEXT_AKTKLA405_04157_TANKIN_000_090,Hinageshi !
+94,TEXT_AKTKLA405_04157_HINAGESHI_000_091,"Vous voilà, Professeur ! Et vous aussi !"
+95,TEXT_AKTKLA405_04157_HINAGESHI_000_092,"Je suis soulagée... Mais bon, je me disais bien que vous finiriez par passer par ici, Professeur."
+96,TEXT_AKTKLA405_04157_TANKIN_000_093,"Il est vrai que le Château de Kugane était sur notre itinéraire de visite. Je constate que tu connaissais à l'avance tous les détails de notre voyage, Hinageshi !"
+97,TEXT_AKTKLA405_04157_TANKIN_000_094,"Malgré tout, je n'arrive pas à déterminer où exactement nous avons été séparés."
+98,TEXT_AKTKLA405_04157_HINAGESHI_000_095,"Sur le chemin menant à la jetée n°1, j'ai été sollicitée par un marchand de Kogane-dori. J'ai eu à peine le temps de m'en débarrasser que vous aviez déjà disparus..."
+99,TEXT_AKTKLA405_04157_HINAGESHI_000_096,"Ceci, juste après que vous m'avez réprimandée par rapport au fait que nous n'étions pas ici en tant que touristes..."
+100,TEXT_AKTKLA405_04157_TANKIN_000_097,Ne dis pas ça. Je t'ai laissée seule et je m'en veux ter­ri­ble­ment. J'étais tellement absorbé par mes recherches que j'en oubliais tout le reste.
+101,TEXT_AKTKLA405_04157_TANKIN_000_098,"Pour être honnête, j'étais ter­ri­ble­ment inquiet à ton sujet. Je t'imaginais toute seule et livrée à toi-même dans cette ville étrangère..."
+102,TEXT_AKTKLA405_04157_TANKIN_000_099,Tu n'imagines même pas le soulagement que j'ai éprouvé lorsque j'ai aperçu ton visage... mais je n'ose imaginer la terreur que tu as ressentie lorsque tu t'es aperçue que nous n'étions plus à tes côtés.
+103,TEXT_AKTKLA405_04157_HINAGESHI_000_100,"O-oui, j'étais horrifiée !"
+104,TEXT_AKTKLA405_04157_TANKIN_100_100,Que faire dans une telle situation... ?
+105,TEXT_AKTKLA405_04157_TANKIN_110_100,Je sais !
+106,TEXT_AKTKLA405_04157_TANKIN_000_101,"Je suis confus de te demander cela, mais pourrais-tu me trouver du matériau pour kanzashi ?"
+107,TEXT_AKTKLA405_04157_TANKIN_100_101,J'ai ouï dire qu'on peut en trouver dans la Mer de Rubis. Espérons que ça lui redonne de l'entrain...
+108,TEXT_AKTKLA405_04157_TANKIN_000_102,"Je te remercie ! Pour ma part, je ne veux pas laisser Hinageshi seule. Nous t'attendrons donc ici."
+109,TEXT_AKTKLA405_04157_SYSTEM_100_102,"Le matériau pour kanzashi se trouve au Couvercle des enfers, dans la Mer de Rubis."
+110,TEXT_AKTKLA405_04157_SYSTEM_110_102,"Le matériau pour kanzashi se trouve à Onokoro, dans la Mer de Rubis."
+111,TEXT_AKTKLA405_04157_HINAGESHI_000_110,"Nous n'avions pas beaucoup de temps, et il a été gâché par ma faute... Je suis tellement navrée de m'être perdue..."
+112,TEXT_AKTKLA405_04157_TANKIN_000_120,"J'ai entendu dire que les ressources naturelles abondent dans la Mer de Rubis, notamment sous la forme de magnifiques matériaux. Je suis sûr que tu y trouveras ce dont j'ai besoin."
+113,TEXT_AKTKLA405_04157_TANKIN_000_130,Quelle splendeur !
+114,TEXT_AKTKLA405_04157_TANKIN_100_130,"Je vais de ce pas le confier à un artisan. Pendant ce temps, pourrais-tu tenir compagnie à Hinageshi ?"
+115,TEXT_AKTKLA405_04157_HINAGESHI_000_131,"Je vois que je ne fais que gêner le professeur. Comme assistante, je ne vaux pas grand-chose..."
+116,TEXT_AKTKLA405_04157_TANKIN_000_132,"Navré d'avoir disparu ainsi, Hinageshi, mais je voulais te donner ceci."
+117,TEXT_AKTKLA405_04157_HINAGESHI_000_133,"Une épingle à cheveux ? Et cette fleur, ça ne serait pas... ?"
+118,TEXT_AKTKLA405_04157_TANKIN_000_134,"Si, il s'agit bien de la fleur que les gens de ce pays appellent “Hinageshi”. Entre nous, je me suis dit que ce serait le comble pour les chercheurs que nous sommes de se trouver en terre étrangère et ne récolter aucun matériau."
+119,TEXT_AKTKLA405_04157_TANKIN_000_135,Est-ce que cela te plaît ?
+120,TEXT_AKTKLA405_04157_HINAGESHI_000_136,Je...
+121,TEXT_AKTKLA405_04157_HINAGESHI_000_137,"Merci, Professeur ! J'en prendrai soin jusqu'à ma mort !"
+122,TEXT_AKTKLA405_04157_TANKIN_000_138,"Étrange... J'ai beau me trouver en terre étrangère, je me sens comme chez moi quand tu es à mes côtés, Hinageshi. C'est un sentiment très apaisant, mais je me demande ce qui l'a fait naître en moi."
+123,TEXT_AKTKLA405_04157_TANKIN_000_139,"Mais nous n'avons pas le temps de réfléchir à ce genre de choses ! Finissons plutôt de visiter la ville. Nous irons d'abord au quartier de Rakuza, puis nous nous rendrons à l'auberge du Bokairo."
+124,TEXT_AKTKLA405_04157_TANKIN_000_140,"J'allais oublier ! Avant toute chose, nous devons absolument nous arrêter à la maison de thé Umineko pour y goûter leur thé et leurs gâteaux."
+125,TEXT_AKTKLA405_04157_HINAGESHI_000_141,"Ça me fait tellement plaisir, Professeur. Merci !!"
+126,TEXT_AKTKLA405_04157_HINAGESHI_000_150,"J'ai parlé avec des baigneurs du coin dans une source thermale. Vous savez, j'ai vraiment eu le sentiment d'avoir vécu dans ma chair la culture de Kugane."
+127,TEXT_AKTKLA405_04157_TANKIN_000_160,"L'eau chaude du bain m'a fait beaucoup de bien ! Et, ce qui ne gâche rien, la vue sur la mer était magnifique !"
+128,TEXT_AKTKLA405_04157_TANKIN_000_161,"J'ai du mal à imaginer que de l'autre côté de cette mer se trouvent Doma ainsi que la Steppe d'Azim, la terre de mes ancêtres."
+129,TEXT_AKTKLA405_04157_TANKIN_000_162,"Un jour, j'aimerais partir à la rencontre des peuplades nomades. Je voudrais tant voir en vrai de quelle façon ces gens vivent."
+130,TEXT_AKTKLA405_04157_HINAGESHI_000_163,"Nous irons voir ce qu'il est en est, Professeur ! Nous avons encore tant à découvrir..."
+131,TEXT_AKTKLA405_04157_TANKIN_000_164,"Oui, nous irons !"
+132,TEXT_AKTKLA405_04157_TANKIN_000_165,Mais toutes les bonnes choses ont une fin : nous devons retourner à Sharlayan.
+133,TEXT_AKTKLA405_04157_TANKIN_000_166,"Aventurière, n'oublie pas de te rendre à l'aile des Collectionneurs lorsque nous serons de retour. Tu y obtiendras ta récompense."
+134,TEXT_AKTKLA405_04157_TANKIN_000_170,Ce voyage nous a beaucoup appris. Quant à ce sentiment de paix intérieure que j'ai ressenti là-bas... J'ai l'intuition que déterminer sa nature et sa cause permettrait de faire grandement avancer nos recherches.
+135,TEXT_AKTKLA405_04157_HINAGESHI_000_180,"Qu'il est bon d'être chez soi ! J'ai beau adorer découvrir toutes ces cultures, voyager trop longuement me fatigue et je sens que j'ai besoin de me ressourcer ici."
+136,TEXT_AKTKLA405_04157_HINAGESHI_000_181,"Tout le monde a un lieu qu'il considère comme son “chez-soi”. Vous aussi, j'imagine ?"
+137,TEXT_AKTKLA405_04157_HINAGESHI_000_182,Nous ferions mieux de sauvegarder nos découvertes. Je vous contacterai à nouveau pour vous révéler notre prochain sujet d'étude !
+138,TEXT_AKTKLA405_04157_SYSTEM_000_190,Hinageshi propose la prochaine quête aux mineurs ou aux botanistes de niveau 88.
+139,TEXT_AKTKLA405_04157_SYSTEM_000_200,Il est nécessaire de terminer la quête de l'épopée “Le jardin aux horreurs” pour entamer la suivante.

@@ -1,92 +1,89 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGLA103_04970_SEQ_00","Rral Soj a déjà reçu une nouvelle commande."
-1,"TEXT_KINGLA103_04970_SEQ_01","Rral Soj vous a informé<If(PlayerParameter(4))>e<Else/></If> qu'elle avait reçu une nouvelle commande venant de Tiisol Ja, la vendeuse de tacos. Fabriquez 6 <SheetFr(ItemMP,12,43888,2,1)/> et livrez-les-lui une fois qu'elles seront prêtes.
+0,TEXT_KINGLA103_04970_SEQ_00,Rral Soj a déjà reçu une nouvelle commande.
+1,TEXT_KINGLA103_04970_SEQ_01,"Rral Soj vous a informée qu'elle avait reçu une nouvelle commande venant de Tiisol Ja, la vendeuse de tacos. Fabriquez 6  et livrez-les-lui une fois qu'elles seront prêtes.
 
 * La valeur de collection minimale requise pour la livraison est de 210. Les objets ayant une valeur supérieure ou égale à 430 rapportent une plus grande récompense."
-2,"TEXT_KINGLA103_04970_SEQ_02","Vous avez livré <SheetFr(ItemMP,2,43888,2,1)/> à Rral Soj, qui les a remises à Tiisol Ja. Mais de son côté, Papawni a voulu à tout prix rendre les outils faciles d'utilisation, et n'a eu le temps d'en fabriquer qu'une seule... Ses efforts seront-ils suffisants pour permettre à Rral Soj de faire tourner sa boutique ?"
-3,"TEXT_KINGLA103_04970_SEQ_03",""
-4,"TEXT_KINGLA103_04970_SEQ_04",""
-5,"TEXT_KINGLA103_04970_SEQ_05",""
-6,"TEXT_KINGLA103_04970_SEQ_06",""
-7,"TEXT_KINGLA103_04970_SEQ_07",""
-8,"TEXT_KINGLA103_04970_SEQ_08",""
-9,"TEXT_KINGLA103_04970_SEQ_09",""
-10,"TEXT_KINGLA103_04970_SEQ_10",""
-11,"TEXT_KINGLA103_04970_SEQ_11",""
-12,"TEXT_KINGLA103_04970_SEQ_12",""
-13,"TEXT_KINGLA103_04970_SEQ_13",""
-14,"TEXT_KINGLA103_04970_SEQ_14",""
-15,"TEXT_KINGLA103_04970_SEQ_15",""
-16,"TEXT_KINGLA103_04970_SEQ_16",""
-17,"TEXT_KINGLA103_04970_SEQ_17",""
-18,"TEXT_KINGLA103_04970_SEQ_18",""
-19,"TEXT_KINGLA103_04970_SEQ_19",""
-20,"TEXT_KINGLA103_04970_SEQ_20",""
-21,"TEXT_KINGLA103_04970_SEQ_21",""
-22,"TEXT_KINGLA103_04970_SEQ_22",""
-23,"TEXT_KINGLA103_04970_SEQ_23",""
-24,"TEXT_KINGLA103_04970_TODO_00","Fabriquer et livrer <SheetFr(ItemMP,1,43888,2,1)/> à Rral Soj"
-25,"TEXT_KINGLA103_04970_TODO_01",""
-26,"TEXT_KINGLA103_04970_TODO_02",""
-27,"TEXT_KINGLA103_04970_TODO_03",""
-28,"TEXT_KINGLA103_04970_TODO_04",""
-29,"TEXT_KINGLA103_04970_TODO_05",""
-30,"TEXT_KINGLA103_04970_TODO_06",""
-31,"TEXT_KINGLA103_04970_TODO_07",""
-32,"TEXT_KINGLA103_04970_TODO_08",""
-33,"TEXT_KINGLA103_04970_TODO_09",""
-34,"TEXT_KINGLA103_04970_TODO_10",""
-35,"TEXT_KINGLA103_04970_TODO_11",""
-36,"TEXT_KINGLA103_04970_TODO_12",""
-37,"TEXT_KINGLA103_04970_TODO_13",""
-38,"TEXT_KINGLA103_04970_TODO_14",""
-39,"TEXT_KINGLA103_04970_TODO_15",""
-40,"TEXT_KINGLA103_04970_TODO_16",""
-41,"TEXT_KINGLA103_04970_TODO_17",""
-42,"TEXT_KINGLA103_04970_TODO_18",""
-43,"TEXT_KINGLA103_04970_TODO_19",""
-44,"TEXT_KINGLA103_04970_TODO_20",""
-45,"TEXT_KINGLA103_04970_TODO_21",""
-46,"TEXT_KINGLA103_04970_TODO_22",""
-47,"TEXT_KINGLA103_04970_TODO_23",""
-48,"TEXT_KINGLA103_04970_PAPAWNI_000_000","Si seulement j'avais su plus tôt à quel point c'est agréable d'être remerciée directement par la personne qui utilise mes créations... !!"
-49,"TEXT_KINGLA103_04970_RRALSOJ_000_010","Salut, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Heureuse de te revoir."
-50,"TEXT_KINGLA103_04970_RRALSOJ_000_011","Il faut croire que la cliente hanu hanu était vraiment très satisfaite de nos faux, parce qu'elle raconte à qui veut l'entendre que je livre rapidement ! Grâce à la super publicité qu'elle nous fait, j'ai reçu une nouvelle commande conséquente... Tu veux bien me filer un nouveau coup de main ?"
-51,"TEXT_KINGLA103_04970_PAPAWNI_000_013","En quoi consiste notre requête du jour, exactement ?"
-52,"TEXT_KINGLA103_04970_RRALSOJ_000_014","... À fabriquer des <SheetFr(Item,12,43888,2,1)/> pour Tiisol."
-53,"TEXT_KINGLA103_04970_PAPAWNI_000_015","Tiisol... ? Qui est-ce ?"
-54,"TEXT_KINGLA103_04970_RRALSOJ_000_016","Tu ne connais pas les “Tacos de Tiisol” ? Elle est pourtant sur le podium des cantines les plus réputées de Tuliyollal... et pas sur la troisième marche, si tu vois ce que je veux dire."
-55,"TEXT_KINGLA103_04970_PAPAWNI_000_017","D'accord... Cependant, je ne crois pas que con<SoftHyphen/>fec<SoftHyphen/>tion<SoftHyphen/>ner des tortillas nécessite toute une batterie d'appareils, si ? À moins que je ne sois simplement pas au courant des méthodes en ville..."
-56,"TEXT_KINGLA103_04970_RRALSOJ_000_018","Elle m'a dit vouloir renouveler son matériel de cuisine, en prévoyant aussi des ustensiles de rechange. C'est pour ça qu'elle en a besoin d'une certaine quantité."
-57,"TEXT_KINGLA103_04970_RRALSOJ_100_018","De ton côté, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, si tu pouvais en fabriquer, disons... six, ce serait pas mal. On s'occupera du reste, Papawni et moi."
-58,"TEXT_KINGLA103_04970_RRALSOJ_000_019","La cliente nous a choisi<If(PlayerParameter(4))>es<Else/>s</If> après avoir eu vent de la rapidité de notre travail, alors je vous demanderai de faire aussi vite que vous le pouvez."
-59,"TEXT_KINGLA103_04970_PAPAWNI_000_020","Reçu cinq sur cinq ! Si je peux rendre une autre cliente heureuse, j'ai bien l'intention de me donner à fond pour y arriver !"
-60,"TEXT_KINGLA103_04970_PAPAWNI_000_030","Il paraît que le plus important pour une presse à tortilla est qu'elle puisse leur donner l'épaisseur parfaite ! Je sens que nous allons devoir déployer nos meilleurs talents de métallurgistes !"
-61,"TEXT_KINGLA103_04970_RRALSOJ_000_040","Je compte sur toi pour les presses de Tiisol. J'en fabriquerai moi-même quelques-unes quand j'aurai un peu de temps libre avec la boutique."
-62,"TEXT_KINGLA103_04970_RRALSOJ_000_050","Ah, super, tu as fait vite. Je pense que ce sera parfait pour con<SoftHyphen/>fec<SoftHyphen/>tion<SoftHyphen/>ner de bonnes tortillas."
-63,"TEXT_KINGLA103_04970_RRALSOJ_000_051","Ah, super, tu as fait vite. Et je vois que tu n'as pas lésiné non plus sur la qualité : c'est pile-poil la bonne épaisseur, et le fond est par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment lisse... Si avec ça, Tiisol ne prépare pas les meilleures tortillas du monde, je sais pas ce qu'il lui faut !"
-64,"TEXT_KINGLA103_04970_RRALSOJ_000_060","Puisqu'on a terminé les commandes, je me suis permis de prévenir Tiisol dans la foulée."
-65,"TEXT_KINGLA103_04970_TIISOLJA_000_061","Coucou tout le monde ! Tiisol Ja, gérante des “Tacos de Tiisol”, pour vous servir ! Merci beaucoup pour les presses à tortillas, ja !"
-66,"TEXT_KINGLA103_04970_TIISOLJA_000_062","J'utilisais jusqu'ici une presse en bois, mais j'ai un peu trop forcé la dernière fois et je l'ai com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment démolie, hihi ! Avec des presses en métal, ce genre de mésaventure ne risque plus d'arriver !"
-67,"TEXT_KINGLA103_04970_RRALSOJ_100_062","T'inquiète, ma grande, tu vas pouvoir t'en donner à cœur joie avec celles-ci."
-68,"TEXT_KINGLA103_04970_TIISOLJA_000_063","C'est bien mon intention, ja ! Je sais que je peux me fournir rapidement chez toi, alors tu peux compter sur moi pour te commander d'autres outils !"
-69,"TEXT_KINGLA103_04970_TIISOLJA_000_064","Bon, je préfère ne pas trop traîner et apporter tout ça à ma boutique, alors je vous laisse ! J'espère que vous viendrez me voir pour goûter à mes délicieux tacos !"
-70,"TEXT_KINGLA103_04970_RRALSOJ_000_065","Une fois de plus, tu nous as sauvé la mise, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Grâce à toi, j'ai pu livrer la commande sans encombre."
-71,"TEXT_KINGLA103_04970_PAPAWNI_000_066","Madame Rral Soj, <If(PlayerParameter(4))>Madame<Else/>Monsieur</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je... je suis sincèrement désolée... Malgré toute ma volonté, je n'ai pas été assez rapide et je n'ai réussi à en fabriquer qu'une seule..."
-72,"TEXT_KINGLA103_04970_RRALSOJ_000_067","Papawni... Je sais que tu veux bien faire et que tu te donnes à fond sur ton boulot. J'en ai par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment conscience."
-73,"TEXT_KINGLA103_04970_RRALSOJ_000_068","Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, ta motivation seule ne va pas suffire si tu veux continuer de travailler avec moi. Il faudra à terme que tu parviennes au même rendement que <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, sans quoi ça va être problématique pour la suite."
-74,"TEXT_KINGLA103_04970_RRALSOJ_000_069","De ce que j'ai pu voir en t'observant faire, tu sembles t'attarder trop longtemps sur la fabrication d'un seul produit..."
-75,"TEXT_KINGLA103_04970_PAPAWNI_000_070","T-toutes mes excuses ! C'est que j'étais tellement heureuse d'avoir été félicitée la dernière fois... Je voulais redoubler d'efforts dans l'espoir de satisfaire encore plus la cliente..."
-76,"TEXT_KINGLA103_04970_PAPAWNI_000_071","Alors j'ai beaucoup réfléchi sur la façon de concevoir un objet durable et facile à manier, et au moyen d'éviter autant que possible les imperfections et aspérités... Au final, je n'ai pas vu le temps passer..."
-77,"TEXT_KINGLA103_04970_RRALSOJ_000_072","Je sais bien que tu veux fabriquer le meilleur produit possible, et c'est tout à ton honneur. Mais tu dois garder en tête que ce que mes clients recherchent avant tout, ce sont des outils basiques et fonctionnels dont ils peuvent disposer im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment. Penses-y la prochaine fois, d'accord ?"
-78,"TEXT_KINGLA103_04970_RRALSOJ_000_073","J'aimerais ne pas avoir à me reposer sur toi, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>... Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, je risque d'avoir besoin de tes services encore quelque temps. J'espère que je peux toujours compter sur ton aide."
-79,"TEXT_KINGLA103_04970_SYSTEM_000_080","Votre rang de con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion a changé. Rral Soj vous considère maintenant comme <If(PlayerParameter(4))>une<Else/>un</If> métallurgiste digne de confiance<Indent/>!"
-80,"TEXT_KINGLA103_04970_SYSTEM_000_090","Rral Soj propose la prochaine quête aux forgerons, armuriers ou orfèvres de niveau 95."
-81,"TEXT_KINGLA103_04970_RRALSOJ_000_012",""
-82,"TEXT_KINGLA103_04970_SYSTEM_000_021",""
-83,"TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_061",""
-84,"TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_062",""
-85,"TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_063",""
-86,"TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_064",""
+2,TEXT_KINGLA103_04970_SEQ_02,"Vous avez livré  à Rral Soj, qui les a remises à Tiisol Ja. Mais de son côté, Papawni a voulu à tout prix rendre les outils faciles d'utilisation, et n'a eu le temps d'en fabriquer qu'une seule... Ses efforts seront-ils suffisants pour permettre à Rral Soj de faire tourner sa boutique ?"
+3,TEXT_KINGLA103_04970_SEQ_03,
+4,TEXT_KINGLA103_04970_SEQ_04,
+5,TEXT_KINGLA103_04970_SEQ_05,
+6,TEXT_KINGLA103_04970_SEQ_06,
+7,TEXT_KINGLA103_04970_SEQ_07,
+8,TEXT_KINGLA103_04970_SEQ_08,
+9,TEXT_KINGLA103_04970_SEQ_09,
+10,TEXT_KINGLA103_04970_SEQ_10,
+11,TEXT_KINGLA103_04970_SEQ_11,
+12,TEXT_KINGLA103_04970_SEQ_12,
+13,TEXT_KINGLA103_04970_SEQ_13,
+14,TEXT_KINGLA103_04970_SEQ_14,
+15,TEXT_KINGLA103_04970_SEQ_15,
+16,TEXT_KINGLA103_04970_SEQ_16,
+17,TEXT_KINGLA103_04970_SEQ_17,
+18,TEXT_KINGLA103_04970_SEQ_18,
+19,TEXT_KINGLA103_04970_SEQ_19,
+20,TEXT_KINGLA103_04970_SEQ_20,
+21,TEXT_KINGLA103_04970_SEQ_21,
+22,TEXT_KINGLA103_04970_SEQ_22,
+23,TEXT_KINGLA103_04970_SEQ_23,
+24,TEXT_KINGLA103_04970_TODO_00,Fabriquer et livrer  à Rral Soj
+25,TEXT_KINGLA103_04970_TODO_01,
+26,TEXT_KINGLA103_04970_TODO_02,
+27,TEXT_KINGLA103_04970_TODO_03,
+28,TEXT_KINGLA103_04970_TODO_04,
+29,TEXT_KINGLA103_04970_TODO_05,
+30,TEXT_KINGLA103_04970_TODO_06,
+31,TEXT_KINGLA103_04970_TODO_07,
+32,TEXT_KINGLA103_04970_TODO_08,
+33,TEXT_KINGLA103_04970_TODO_09,
+34,TEXT_KINGLA103_04970_TODO_10,
+35,TEXT_KINGLA103_04970_TODO_11,
+36,TEXT_KINGLA103_04970_TODO_12,
+37,TEXT_KINGLA103_04970_TODO_13,
+38,TEXT_KINGLA103_04970_TODO_14,
+39,TEXT_KINGLA103_04970_TODO_15,
+40,TEXT_KINGLA103_04970_TODO_16,
+41,TEXT_KINGLA103_04970_TODO_17,
+42,TEXT_KINGLA103_04970_TODO_18,
+43,TEXT_KINGLA103_04970_TODO_19,
+44,TEXT_KINGLA103_04970_TODO_20,
+45,TEXT_KINGLA103_04970_TODO_21,
+46,TEXT_KINGLA103_04970_TODO_22,
+47,TEXT_KINGLA103_04970_TODO_23,
+48,TEXT_KINGLA103_04970_PAPAWNI_000_000,Si seulement j'avais su plus tôt à quel point c'est agréable d'être remerciée directement par la personne qui utilise mes créations... !!
+49,TEXT_KINGLA103_04970_RRALSOJ_000_010,"Salut, Player. Heureuse de te revoir."
+50,TEXT_KINGLA103_04970_RRALSOJ_000_011,"Il faut croire que la cliente hanu hanu était vraiment très satisfaite de nos faux, parce qu'elle raconte à qui veut l'entendre que je livre rapidement ! Grâce à la super publicité qu'elle nous fait, j'ai reçu une nouvelle commande conséquente... Tu veux bien me filer un nouveau coup de main ?"
+51,TEXT_KINGLA103_04970_PAPAWNI_000_013,"En quoi consiste notre requête du jour, exactement ?"
+52,TEXT_KINGLA103_04970_RRALSOJ_000_014,... À fabriquer des  pour Tiisol.
+53,TEXT_KINGLA103_04970_PAPAWNI_000_015,Tiisol... ? Qui est-ce ?
+54,TEXT_KINGLA103_04970_RRALSOJ_000_016,"Tu ne connais pas les “Tacos de Tiisol” ? Elle est pourtant sur le podium des cantines les plus réputées de Tuliyollal... et pas sur la troisième marche, si tu vois ce que je veux dire."
+55,TEXT_KINGLA103_04970_PAPAWNI_000_017,"D'accord... Cependant, je ne crois pas que con­fec­tion­ner des tortillas nécessite toute une batterie d'appareils, si ? À moins que je ne sois simplement pas au courant des méthodes en ville..."
+56,TEXT_KINGLA103_04970_RRALSOJ_000_018,"Elle m'a dit vouloir renouveler son matériel de cuisine, en prévoyant aussi des ustensiles de rechange. C'est pour ça qu'elle en a besoin d'une certaine quantité."
+57,TEXT_KINGLA103_04970_RRALSOJ_100_018,"De ton côté, Player, si tu pouvais en fabriquer, disons... six, ce serait pas mal. On s'occupera du reste, Papawni et moi."
+58,TEXT_KINGLA103_04970_RRALSOJ_000_019,"La cliente nous a choisies après avoir eu vent de la rapidité de notre travail, alors je vous demanderai de faire aussi vite que vous le pouvez."
+59,TEXT_KINGLA103_04970_PAPAWNI_000_020,"Reçu cinq sur cinq ! Si je peux rendre une autre cliente heureuse, j'ai bien l'intention de me donner à fond pour y arriver !"
+60,TEXT_KINGLA103_04970_PAPAWNI_000_030,Il paraît que le plus important pour une presse à tortilla est qu'elle puisse leur donner l'épaisseur parfaite ! Je sens que nous allons devoir déployer nos meilleurs talents de métallurgistes !
+61,TEXT_KINGLA103_04970_RRALSOJ_000_040,Je compte sur toi pour les presses de Tiisol. J'en fabriquerai moi-même quelques-unes quand j'aurai un peu de temps libre avec la boutique.
+62,TEXT_KINGLA103_04970_RRALSOJ_000_050,"Ah, super, tu as fait vite. Je pense que ce sera parfait pour con­fec­tion­ner de bonnes tortillas."
+63,TEXT_KINGLA103_04970_RRALSOJ_000_051,"Ah, super, tu as fait vite. Et je vois que tu n'as pas lésiné non plus sur la qualité : c'est pile-poil la bonne épaisseur, et le fond est par­fai­te­ment lisse... Si avec ça, Tiisol ne prépare pas les meilleures tortillas du monde, je sais pas ce qu'il lui faut !"
+64,TEXT_KINGLA103_04970_RRALSOJ_000_060,"Puisqu'on a terminé les commandes, je me suis permis de prévenir Tiisol dans la foulée."
+65,TEXT_KINGLA103_04970_TIISOLJA_000_061,"Coucou tout le monde ! Tiisol Ja, gérante des “Tacos de Tiisol”, pour vous servir ! Merci beaucoup pour les presses à tortillas, ja !"
+66,TEXT_KINGLA103_04970_TIISOLJA_000_062,"J'utilisais jusqu'ici une presse en bois, mais j'ai un peu trop forcé la dernière fois et je l'ai com­plè­te­ment démolie, hihi ! Avec des presses en métal, ce genre de mésaventure ne risque plus d'arriver !"
+67,TEXT_KINGLA103_04970_RRALSOJ_100_062,"T'inquiète, ma grande, tu vas pouvoir t'en donner à cœur joie avec celles-ci."
+68,TEXT_KINGLA103_04970_TIISOLJA_000_063,"C'est bien mon intention, ja ! Je sais que je peux me fournir rapidement chez toi, alors tu peux compter sur moi pour te commander d'autres outils !"
+69,TEXT_KINGLA103_04970_TIISOLJA_000_064,"Bon, je préfère ne pas trop traîner et apporter tout ça à ma boutique, alors je vous laisse ! J'espère que vous viendrez me voir pour goûter à mes délicieux tacos !"
+70,TEXT_KINGLA103_04970_RRALSOJ_000_065,"Une fois de plus, tu nous as sauvé la mise, Player. Grâce à toi, j'ai pu livrer la commande sans encombre."
+71,TEXT_KINGLA103_04970_PAPAWNI_000_066,"Madame Rral Soj, Madame Player, je... je suis sincèrement désolée... Malgré toute ma volonté, je n'ai pas été assez rapide et je n'ai réussi à en fabriquer qu'une seule..."
+72,TEXT_KINGLA103_04970_RRALSOJ_000_067,Papawni... Je sais que tu veux bien faire et que tu te donnes à fond sur ton boulot. J'en ai par­fai­te­ment conscience.
+73,TEXT_KINGLA103_04970_RRALSOJ_000_068,"Mal­heu­reu­se­ment, ta motivation seule ne va pas suffire si tu veux continuer de travailler avec moi. Il faudra à terme que tu parviennes au même rendement que Player, sans quoi ça va être problématique pour la suite."
+74,TEXT_KINGLA103_04970_RRALSOJ_000_069,"De ce que j'ai pu voir en t'observant faire, tu sembles t'attarder trop longtemps sur la fabrication d'un seul produit..."
+75,TEXT_KINGLA103_04970_PAPAWNI_000_070,T-toutes mes excuses ! C'est que j'étais tellement heureuse d'avoir été félicitée la dernière fois... Je voulais redoubler d'efforts dans l'espoir de satisfaire encore plus la cliente...
+76,TEXT_KINGLA103_04970_PAPAWNI_000_071,"Alors j'ai beaucoup réfléchi sur la façon de concevoir un objet durable et facile à manier, et au moyen d'éviter autant que possible les imperfections et aspérités... Au final, je n'ai pas vu le temps passer..."
+77,TEXT_KINGLA103_04970_RRALSOJ_000_072,"Je sais bien que tu veux fabriquer le meilleur produit possible, et c'est tout à ton honneur. Mais tu dois garder en tête que ce que mes clients recherchent avant tout, ce sont des outils basiques et fonctionnels dont ils peuvent disposer im­mé­dia­te­ment. Penses-y la prochaine fois, d'accord ?"
+78,TEXT_KINGLA103_04970_RRALSOJ_000_073,"J'aimerais ne pas avoir à me reposer sur toi, Player... Mal­heu­reu­se­ment, je risque d'avoir besoin de tes services encore quelque temps. J'espère que je peux toujours compter sur ton aide."
+79,TEXT_KINGLA103_04970_SYSTEM_000_080,Votre rang de con­tri­bu­tion a changé. Rral Soj vous considère maintenant comme une métallurgiste digne de confiance !
+80,TEXT_KINGLA103_04970_SYSTEM_000_090,"Rral Soj propose la prochaine quête aux forgerons, armuriers ou orfèvres de niveau 95."
+81,TEXT_KINGLA103_04970_RRALSOJ_000_012,
+82,TEXT_KINGLA103_04970_SYSTEM_000_021,
+83,TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_061,
+84,TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_062,
+85,TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_063,
+86,TEXT_KINGLA103_04970_TACOSHOPEMPLOYEE04970_000_064,

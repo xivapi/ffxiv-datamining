@@ -1,68 +1,65 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI124_04630_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANOMI124_04630_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Stigma-4 hat einen neuen Auftrag zur Materialbeschaffung für dich."
-1,"TEXT_BANOMI124_04630_SEQ_01","Mit dem Nährstofftechnik-Omikron sprechen"
-2,"TEXT_BANOMI124_04630_SEQ_02","Zutaten an den Nährstofftechnik-Omikron liefern"
-3,"TEXT_BANOMI124_04630_SEQ_03","Stigma-4 Bericht erstatten"
-4,"TEXT_BANOMI124_04630_SEQ_04",""
-5,"TEXT_BANOMI124_04630_SEQ_05",""
-6,"TEXT_BANOMI124_04630_SEQ_06",""
-7,"TEXT_BANOMI124_04630_SEQ_07",""
-8,"TEXT_BANOMI124_04630_SEQ_08",""
-9,"TEXT_BANOMI124_04630_SEQ_09",""
-10,"TEXT_BANOMI124_04630_SEQ_10",""
-11,"TEXT_BANOMI124_04630_SEQ_11",""
-12,"TEXT_BANOMI124_04630_SEQ_12",""
-13,"TEXT_BANOMI124_04630_SEQ_13",""
-14,"TEXT_BANOMI124_04630_SEQ_14",""
-15,"TEXT_BANOMI124_04630_SEQ_15",""
-16,"TEXT_BANOMI124_04630_SEQ_16",""
-17,"TEXT_BANOMI124_04630_SEQ_17",""
-18,"TEXT_BANOMI124_04630_SEQ_18",""
-19,"TEXT_BANOMI124_04630_SEQ_19",""
-20,"TEXT_BANOMI124_04630_SEQ_20",""
-21,"TEXT_BANOMI124_04630_SEQ_21",""
-22,"TEXT_BANOMI124_04630_SEQ_22",""
-23,"TEXT_BANOMI124_04630_SEQ_23",""
-24,"TEXT_BANOMI124_04630_TODO_00","Im Vergnügungssektor Elysiums mit dem Nährstofftechnik-Omikron sprechen"
-25,"TEXT_BANOMI124_04630_TODO_01","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Vergnügungssektor Elysiums <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> abbauen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> beim Nährstofftechnik-Omikron abliefern</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Vergnügungssektor Elysiums <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> einsammeln<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> beim Nährstofftechnik-Omikron abliefern</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Vergnügungssektor Elysiums <SheetDe(Item,1,IntegerParameter(5),1,4,1)/> fangen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> beim Nährstofftechnik-Omikron abliefern</If><Else/></If></If></If>"
-26,"TEXT_BANOMI124_04630_TODO_02","Stigma-4 Bericht erstatten"
-27,"TEXT_BANOMI124_04630_TODO_03",""
-28,"TEXT_BANOMI124_04630_TODO_04",""
-29,"TEXT_BANOMI124_04630_TODO_05",""
-30,"TEXT_BANOMI124_04630_TODO_06",""
-31,"TEXT_BANOMI124_04630_TODO_07",""
-32,"TEXT_BANOMI124_04630_TODO_08",""
-33,"TEXT_BANOMI124_04630_TODO_09",""
-34,"TEXT_BANOMI124_04630_TODO_10",""
-35,"TEXT_BANOMI124_04630_TODO_11",""
-36,"TEXT_BANOMI124_04630_TODO_12",""
-37,"TEXT_BANOMI124_04630_TODO_13",""
-38,"TEXT_BANOMI124_04630_TODO_14",""
-39,"TEXT_BANOMI124_04630_TODO_15",""
-40,"TEXT_BANOMI124_04630_TODO_16",""
-41,"TEXT_BANOMI124_04630_TODO_17",""
-42,"TEXT_BANOMI124_04630_TODO_18",""
-43,"TEXT_BANOMI124_04630_TODO_19",""
-44,"TEXT_BANOMI124_04630_TODO_20",""
-45,"TEXT_BANOMI124_04630_TODO_21",""
-46,"TEXT_BANOMI124_04630_TODO_22",""
-47,"TEXT_BANOMI124_04630_TODO_23",""
-48,"TEXT_BANOMI124_04630_STIGMA4_000_000","<biep><Indent/>... Einleitungsfloskeln werden geladen >> Willkommen, hilfsbereite Arbeitsdrohne. Zur Erhöhung der Profitabilität des Wiegensterns entwickeln die Omikron im Auftrag des übermäßig behaarten Gastwirts neue Speisen für die Drachen. Analysen meiner Datenbanken haben ergeben, dass eine Imitation von Geschmäckern ihres Heimatplaneten mit 67,4<Indent/>%iger Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit der effektivste Weg ist, das angestrebte Ziel zu erreichen. <bzzz><Indent/>..."
-49,"TEXT_BANOMI124_04630_STIGMA4_000_001","Auftragsprotokoll wird referenziert. <biep><Indent/>... Begib dich in den Vergnügungssektor Elysiums und kontaktiere den Nährstofftechnik-Omikron, der dir weitere Instruktionen erteilen wird. <biep>"
-50,"TEXT_BANOMI124_04630_DELIVERER04630_000_010","<ratter> <ratter> <biep> Organische Lebensform als <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> identifiziert."
-51,"TEXT_BANOMI124_04630_DELIVERER04630_000_011","<ratter> <ratter> Auftragsprotokoll wird referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> <SheetDe(Item,5,38296,2,1,1)/>. "
-52,"TEXT_BANOMI124_04630_DELIVERER04630_000_012","<ratter> <ratter> Auftragsprotokoll wird referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> <SheetDe(Item,5,38320,2,1,1)/>. "
-53,"TEXT_BANOMI124_04630_DELIVERER04630_000_013","<ratter> <ratter> Auftragsprotokoll wird referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> <SheetDe(Item,5,38344,1,1,1)/>. Verwendung von <SheetDe(Item,5,36588,1,3,1)/> als Köder wird empfohlen."
-54,"TEXT_BANOMI124_04630_DELIVERER04630_000_014","<ratter> <ratter> Auftragsprotokoll wird erneut referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> <SheetDe(Item,5,38296,1,1,1)/>. "
-55,"TEXT_BANOMI124_04630_DELIVERER04630_000_015","<ratter> <ratter> Auftragsprotokoll wird erneut referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> <SheetDe(Item,5,38320,1,1,1)/>. "
-56,"TEXT_BANOMI124_04630_DELIVERER04630_000_016","<ratter> <ratter> Auftragsprotokoll wird erneut referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> <SheetDe(Item,5,38344,1,1,1)/>. Verwendung von <SheetDe(Item,5,36588,1,3,1)/> als Köder wird empfohlen."
-57,"TEXT_BANOMI124_04630_DELIVERER04630_000_020","<ratter> <ratter> <biep> Organische Lebensform als <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> identifiziert. Bist du gekommen, um die geforderte Ware zu liefern?"
-58,"TEXT_BANOMI124_04630_DELIVERER04630_000_021","<ratter> <ratter> Ware wird identifiziert<Indent/>... In Auftrag gegebenes Objekt bestätigt. Danke. Belohnung wird durch Stigma-4 ausgegeben. <biep>"
-59,"TEXT_BANOMI124_04630_DELIVERER04630_000_022","（★未使用／削除予定★）"
-60,"TEXT_BANOMI124_04630_STIGMA4_000_030","<biep> ... <zzzt> ... Missionsbericht des Nährstofftechnik-Omikron wird referenziert. Zutaten für Drachengericht wurden geliefert. Missionsziel wurde somit erfüllt. "
-61,"TEXT_BANOMI124_04630_STIGMA4_000_031","<zzzt> ... Echte Nahrungsproben vom Planet der Drachen zu akquirieren, ist mit großen Schwie<SoftHyphen/>rig<SoftHyphen/>keiten verbunden. Mittels gezielter Forschung und Entwicklung sollte sich jedoch eine authentische Drachennahrung rekreieren lassen."
-62,"TEXT_BANOMI124_04630_STIGMA4_000_032","<biep> ... Auch bei Erfolg stellt sich allerdings ein Problem >> Die Drachenspezies vertilgt eine große Menge an Nahrung. Deine Unterstützung wird daher auch in Zukunft vonnöten sein. <zzzt> Initiiere Abschiedsfloskel >> Bleibe funktionsfähig und produktiv. <biep>"
+1,TEXT_BANOMI124_04630_SEQ_01,Mit dem Nährstofftechnik-Omikron sprechen
+2,TEXT_BANOMI124_04630_SEQ_02,Zutaten an den Nährstofftechnik-Omikron liefern
+3,TEXT_BANOMI124_04630_SEQ_03,Stigma-4 Bericht erstatten
+4,TEXT_BANOMI124_04630_SEQ_04,
+5,TEXT_BANOMI124_04630_SEQ_05,
+6,TEXT_BANOMI124_04630_SEQ_06,
+7,TEXT_BANOMI124_04630_SEQ_07,
+8,TEXT_BANOMI124_04630_SEQ_08,
+9,TEXT_BANOMI124_04630_SEQ_09,
+10,TEXT_BANOMI124_04630_SEQ_10,
+11,TEXT_BANOMI124_04630_SEQ_11,
+12,TEXT_BANOMI124_04630_SEQ_12,
+13,TEXT_BANOMI124_04630_SEQ_13,
+14,TEXT_BANOMI124_04630_SEQ_14,
+15,TEXT_BANOMI124_04630_SEQ_15,
+16,TEXT_BANOMI124_04630_SEQ_16,
+17,TEXT_BANOMI124_04630_SEQ_17,
+18,TEXT_BANOMI124_04630_SEQ_18,
+19,TEXT_BANOMI124_04630_SEQ_19,
+20,TEXT_BANOMI124_04630_SEQ_20,
+21,TEXT_BANOMI124_04630_SEQ_21,
+22,TEXT_BANOMI124_04630_SEQ_22,
+23,TEXT_BANOMI124_04630_SEQ_23,
+24,TEXT_BANOMI124_04630_TODO_00,Im Vergnügungssektor Elysiums mit dem Nährstofftechnik-Omikron sprechen
+25,TEXT_BANOMI124_04630_TODO_01,Im Vergnügungssektor Elysiums  abbauen
+26,TEXT_BANOMI124_04630_TODO_02,Stigma-4 Bericht erstatten
+27,TEXT_BANOMI124_04630_TODO_03,
+28,TEXT_BANOMI124_04630_TODO_04,
+29,TEXT_BANOMI124_04630_TODO_05,
+30,TEXT_BANOMI124_04630_TODO_06,
+31,TEXT_BANOMI124_04630_TODO_07,
+32,TEXT_BANOMI124_04630_TODO_08,
+33,TEXT_BANOMI124_04630_TODO_09,
+34,TEXT_BANOMI124_04630_TODO_10,
+35,TEXT_BANOMI124_04630_TODO_11,
+36,TEXT_BANOMI124_04630_TODO_12,
+37,TEXT_BANOMI124_04630_TODO_13,
+38,TEXT_BANOMI124_04630_TODO_14,
+39,TEXT_BANOMI124_04630_TODO_15,
+40,TEXT_BANOMI124_04630_TODO_16,
+41,TEXT_BANOMI124_04630_TODO_17,
+42,TEXT_BANOMI124_04630_TODO_18,
+43,TEXT_BANOMI124_04630_TODO_19,
+44,TEXT_BANOMI124_04630_TODO_20,
+45,TEXT_BANOMI124_04630_TODO_21,
+46,TEXT_BANOMI124_04630_TODO_22,
+47,TEXT_BANOMI124_04630_TODO_23,
+48,TEXT_BANOMI124_04630_STIGMA4_000_000,"<biep> ... Einleitungsfloskeln werden geladen >> Willkommen, hilfsbereite Arbeitsdrohne. Zur Erhöhung der Profitabilität des Wiegensterns entwickeln die Omikron im Auftrag des übermäßig behaarten Gastwirts neue Speisen für die Drachen. Analysen meiner Datenbanken haben ergeben, dass eine Imitation von Geschmäckern ihres Heimatplaneten mit 67,4 %iger Wahr­schein­lich­keit der effektivste Weg ist, das angestrebte Ziel zu erreichen. <bzzz> ..."
+49,TEXT_BANOMI124_04630_STIGMA4_000_001,"Auftragsprotokoll wird referenziert. <biep> ... Begib dich in den Vergnügungssektor Elysiums und kontaktiere den Nährstofftechnik-Omikron, der dir weitere Instruktionen erteilen wird. <biep>"
+50,TEXT_BANOMI124_04630_DELIVERER04630_000_010,<ratter> <ratter> <biep> Organische Lebensform als Player identifiziert.
+51,TEXT_BANOMI124_04630_DELIVERER04630_000_011,<ratter> <ratter> Auftragsprotokoll wird referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> . 
+52,TEXT_BANOMI124_04630_DELIVERER04630_000_012,<ratter> <ratter> Auftragsprotokoll wird referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> . 
+53,TEXT_BANOMI124_04630_DELIVERER04630_000_013,<ratter> <ratter> Auftragsprotokoll wird referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> . Verwendung von  als Köder wird empfohlen.
+54,TEXT_BANOMI124_04630_DELIVERER04630_000_014,<ratter> <ratter> Auftragsprotokoll wird erneut referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> . 
+55,TEXT_BANOMI124_04630_DELIVERER04630_000_015,<ratter> <ratter> Auftragsprotokoll wird erneut referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> . 
+56,TEXT_BANOMI124_04630_DELIVERER04630_000_016,<ratter> <ratter> Auftragsprotokoll wird erneut referenziert. <biep> Erbitte Beschaffung und Lieferung folgender Zutaten typischer Drachenkost aus dem Vergnügungssektor Elysiums >> . Verwendung von  als Köder wird empfohlen.
+57,TEXT_BANOMI124_04630_DELIVERER04630_000_020,"<ratter> <ratter> <biep> Organische Lebensform als Player identifiziert. Bist du gekommen, um die geforderte Ware zu liefern?"
+58,TEXT_BANOMI124_04630_DELIVERER04630_000_021,<ratter> <ratter> Ware wird identifiziert ... In Auftrag gegebenes Objekt bestätigt. Danke. Belohnung wird durch Stigma-4 ausgegeben. <biep>
+59,TEXT_BANOMI124_04630_DELIVERER04630_000_022,（★未使用／削除予定★）
+60,TEXT_BANOMI124_04630_STIGMA4_000_030,<biep> ... <zzzt> ... Missionsbericht des Nährstofftechnik-Omikron wird referenziert. Zutaten für Drachengericht wurden geliefert. Missionsziel wurde somit erfüllt. 
+61,TEXT_BANOMI124_04630_STIGMA4_000_031,"<zzzt> ... Echte Nahrungsproben vom Planet der Drachen zu akquirieren, ist mit großen Schwie­rig­keiten verbunden. Mittels gezielter Forschung und Entwicklung sollte sich jedoch eine authentische Drachennahrung rekreieren lassen."
+62,TEXT_BANOMI124_04630_STIGMA4_000_032,<biep> ... Auch bei Erfolg stellt sich allerdings ein Problem >> Die Drachenspezies vertilgt eine große Menge an Nahrung. Deine Unterstützung wird daher auch in Zukunft vonnöten sein. <zzzt> Initiiere Abschiedsfloskel >> Bleibe funktionsfähig und produktiv. <biep>

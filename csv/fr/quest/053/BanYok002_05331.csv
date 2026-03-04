@@ -1,142 +1,139 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANYOK002_05331_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANYOK002_05331_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 Fahrafahr souhaite vous exprimer sa gratitude."
-1,"TEXT_BANYOK002_05331_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis> 
+1,TEXT_BANYOK002_05331_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.* 
 
 Vous avez parlé avec Fahrafahr du progrès des réparations de l'Autel de Zirgorteh, et elle s'est montrée enthousiaste à l'idée de mettre en place un atelier de sculpture. Cependant, vous avez appris que l'un des artistes est en difficulté. Rejoignez Fahrafahr à l'autel pour vous entretenir avec lui et tenter de comprendre l'origine de son trouble."
-2,"TEXT_BANYOK002_05331_SEQ_02","Vous avez rencontré Girzorhor à proximité de l'atelier de sculpture, mais son affolement vous empêche d'en apprendre davantage sur lui. Essayez de l'<Emphasis>apaiser</Emphasis> avant de poursuivre votre échange."
-3,"TEXT_BANYOK002_05331_SEQ_03","Grâce à votre in<SoftHyphen/>ter<SoftHyphen/>ven<SoftHyphen/>tion, Girzorhor a retrouvé son calme. Il vous a confié avoir été attaqué par des esprits des neiges, ce qui l'a poussé à abandonner le projet. Cependant, Fahrafahr vous a informé<If(PlayerParameter(4))>e<Else/></If> que les compétences de cet artiste sont cruciales pour restaurer les bas-reliefs de l'autel. Retrouvez donc Girzorhor à L'Écho de Worlar pour le persuader de revenir sur sa décision."
-4,"TEXT_BANYOK002_05331_SEQ_04","Vous avez convaincu Girzorhor de poursuivre son travail à l'Autel de Zirgorteh, mais il vous a révélé avoir perdu une partie de son matériel en fuyant les esprits des neiges. Préparez un nécessaire de sculpture et remettez-le-lui."
-5,"TEXT_BANYOK002_05331_SEQ_05","Girzorhor a accepté avec enthousiasme votre nécessaire de sculpture avant de regagner son atelier. Retournez au relais des Cimes pour faire le point avec Fahrafahr."
-6,"TEXT_BANYOK002_05331_SEQ_06","Une partie des bas-reliefs de l'Autel de Zirgorteh a été restaurée. Girzorhor et les autres sculpteurs pourront s'inspirer de ces motifs traditionnels yok huy pour continuer de réparer l'édifice. Cependant, votre aide sera cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment requise pour d'autres aspects du projet."
-7,"TEXT_BANYOK002_05331_SEQ_07",""
-8,"TEXT_BANYOK002_05331_SEQ_08",""
-9,"TEXT_BANYOK002_05331_SEQ_09",""
-10,"TEXT_BANYOK002_05331_SEQ_10",""
-11,"TEXT_BANYOK002_05331_SEQ_11",""
-12,"TEXT_BANYOK002_05331_SEQ_12",""
-13,"TEXT_BANYOK002_05331_SEQ_13",""
-14,"TEXT_BANYOK002_05331_SEQ_14",""
-15,"TEXT_BANYOK002_05331_SEQ_15",""
-16,"TEXT_BANYOK002_05331_SEQ_16",""
-17,"TEXT_BANYOK002_05331_SEQ_17",""
-18,"TEXT_BANYOK002_05331_SEQ_18",""
-19,"TEXT_BANYOK002_05331_SEQ_19",""
-20,"TEXT_BANYOK002_05331_SEQ_20",""
-21,"TEXT_BANYOK002_05331_SEQ_21",""
-22,"TEXT_BANYOK002_05331_SEQ_22",""
-23,"TEXT_BANYOK002_05331_SEQ_23",""
-24,"TEXT_BANYOK002_05331_TODO_00","Parler à Fahrafahr, à l'Autel de Zirgorteh"
-25,"TEXT_BANYOK002_05331_TODO_01","<Emphasis>/apaiser</Emphasis> Girzorhor"
-26,"TEXT_BANYOK002_05331_TODO_02","Parler à Girzorhor, à L'Écho de Worlar"
-27,"TEXT_BANYOK002_05331_TODO_03","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> <If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Girzorhor</If><Else/> </If></If></If></If></If></If></If></If>"
-28,"TEXT_BANYOK002_05331_TODO_04","Parler à Fahrafahr"
-29,"TEXT_BANYOK002_05331_TODO_05",""
-30,"TEXT_BANYOK002_05331_TODO_06",""
-31,"TEXT_BANYOK002_05331_TODO_07",""
-32,"TEXT_BANYOK002_05331_TODO_08",""
-33,"TEXT_BANYOK002_05331_TODO_09",""
-34,"TEXT_BANYOK002_05331_TODO_10",""
-35,"TEXT_BANYOK002_05331_TODO_11",""
-36,"TEXT_BANYOK002_05331_TODO_12",""
-37,"TEXT_BANYOK002_05331_TODO_13",""
-38,"TEXT_BANYOK002_05331_TODO_14",""
-39,"TEXT_BANYOK002_05331_TODO_15",""
-40,"TEXT_BANYOK002_05331_TODO_16",""
-41,"TEXT_BANYOK002_05331_TODO_17",""
-42,"TEXT_BANYOK002_05331_TODO_18",""
-43,"TEXT_BANYOK002_05331_TODO_19",""
-44,"TEXT_BANYOK002_05331_TODO_20",""
-45,"TEXT_BANYOK002_05331_TODO_21",""
-46,"TEXT_BANYOK002_05331_TODO_22",""
-47,"TEXT_BANYOK002_05331_TODO_23",""
-48,"TEXT_BANYOK002_05331_FAHRAFAHR_000_001","Contente de te REVOIR, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Quand tu es dans le coin, ça nous donne toujours du courage<Indent/>!"
-49,"TEXT_BANYOK002_05331_FAHRAFAHR_000_002","Maintenant que le premier bâtiment a été COMPLÈTEMENT réparé, on prévoit d'aménager un atelier de sculpture."
-50,"TEXT_BANYOK002_05331_FAHRAFAHR_100_002","Plusieurs parties de l'AUTEL ont été endommagées et chaque pierre manquante devra être retaillée."
-51,"TEXT_BANYOK002_05331_FAHRAFAHR_000_003","Les statues et gravures TRADITIONNELLES sont importantes pour un monument comme celui-ci. Les motifs sont souvent très fins, il est donc préférable de les réaliser sur place plutôt que de prendre le risque de les abîmer durant leur TRANSPORT."
-52,"TEXT_BANYOK002_05331_FAHRAFAHR_000_004","J'ai laissé un SCULPTEUR expérimenté superviser l'atelier. On m'avait dit que tout se passait sans encombre, mais je viens d'apprendre qu'un problème est survenu."
-53,"TEXT_BANYOK002_05331_FAHRAFAHR_000_005","Tu veux bien m'accompagner<Indent/>? Je comptais justement me rendre à l'AUTEL pour savoir de quoi il retourne."
-54,"TEXT_BANYOK002_05331_GIRZORHOR_000_010","ASSEZ<Indent/>! Je veux PARTIR<Indent/>!"
-55,"TEXT_BANYOK002_05331_FAHRAFAHR_000_100","C'est Girzorhor, l'un de nos meilleurs SCULPTEURS... Mais il n'a pas l'air dans son état normal."
-56,"TEXT_BANYOK002_05331_FAHRAFAHR_000_101","Il refuse de m'écouter, tout ce qu'il répète in<SoftHyphen/>las<SoftHyphen/>sa<SoftHyphen/>ble<SoftHyphen/>ment c'est “Je veux PARTIR”. On ne peut rien faire tant qu'on ne sait pas ce qui lui est arrivé."
-57,"TEXT_BANYOK002_05331_FAHRAFAHR_000_102","Navrée de t'imposer ça, mais tu voudrais bien nous aider à <Emphasis>APAISER</Emphasis> Girzorhor<Indent/>?"
-58,"TEXT_BANYOK002_05331_GIRZORHOR_000_105","ASSEZ<Indent/>! J'ai dit que je veux PARTIR<Indent/>!"
-59,"TEXT_BANYOK002_05331_SYSTEM_000_110","Girzorhor est trop affolé pour parler. Essayez de l'<Emphasis>apaiser</Emphasis> pour qu'il retrouve ses esprits."
-60,"TEXT_BANYOK002_05331_FAHRAFAHR_000_115","Navrée de t'imposer ça, mais tu voudrais bien nous aider à <Emphasis>APAISER</Emphasis> Girzorhor<Indent/>?"
-61,"TEXT_BANYOK002_05331_GIRZORHOR_000_200","Aah... Aah... J-je m'excuse pour mon com<SoftHyphen/>por<SoftHyphen/>te<SoftHyphen/>ment... J'étais PANIQUÉ... Grâce à vous, j'ai retrouvé mon CALME..."
-62,"TEXT_BANYOK002_05331_GIRZORHOR_000_201","Je taillais TRANQUILLEMENT mes pierres quand des esprits sont apparus. Ils avaient l'air de vouloir s'amuser, donc je les ai laissés s'approcher... Sauf qu'ils se sont mis à lancer des SORTS de glace sans crier gare<Indent/>!"
-63,"TEXT_BANYOK002_05331_GIRZORHOR_000_202","J'ai pris mes jambes à mon cou, sans quoi j'aurais pu être transpercé par leurs ATTAQUES... Je ne pensais pas que ce travail serait aussi PÉRILLEUX. Dans ces conditions, vous comprenez que je ne peux pas rester<Indent/>!"
-64,"TEXT_BANYOK002_05331_FAHRAFAHR_000_203","On a pourtant averti tout le monde de se MÉFIER des esprits des neiges. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, certains ne semblent pas avoir compris à quel point ils peuvent être DANGEREUX."
-65,"TEXT_BANYOK002_05331_FAHRAFAHR_000_204","Je comprends que Girzorhor soit EFFRAYÉ, mais on a besoin de lui pour réparer l'autel. Si on n'apaise pas les esprits, ils feront cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment d'autres VICTIMES."
-66,"TEXT_BANYOK002_05331_FAHRAFAHR_000_205","Je pense qu'il est retourné à L'Écho de Worlar. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, tu veux bien m'accompagner<Indent/>? On doit ABSOLUMENT le convaincre de revenir nous aider."
-67,"TEXT_BANYOK002_05331_FAHRAFAHR_000_210","Rien à faire, Girzorhor ne veut rien ENTENDRE... Peut-être que tu arriveras à trouver les mots pour le convaincre de revenir nous aider à restaurer l'autel<Indent/>?"
-68,"TEXT_BANYOK002_05331_GIRZORHOR_000_300","Merci de m'avoir aidé à me remettre de mes ÉMOTIONS... Mais je vous ai déjà dit que je ne voulais pas retourner sur cette fichue montagne<Indent/>!"
-69,"TEXT_BANYOK002_05331_Q2_000_000","Que dites-vous<Indent/>?"
-70,"TEXT_BANYOK002_05331_A2_000_001","Qu'est-ce que tu as pensé des esprits des neiges<Indent/>?"
-71,"TEXT_BANYOK002_05331_A2_000_002","Est-ce que tu sais pourquoi on veut réparer l'autel<Indent/>?"
-72,"TEXT_BANYOK002_05331_GIRZORHOR_100_300","Au début, j'ai trouvé les esprits plutôt mignons. Mais quand ils ont commencé à se montrer AGRESSIFS, ça m'a com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment pris au dépourvu."
-73,"TEXT_BANYOK002_05331_GIRZORHOR_110_300","... Je pense savoir où vous voulez en venir. C'est justement pour éviter qu'ils fassent d'autres VICTIMES que nous devons restaurer l'Autel de Zirgorteh et accomplir la cérémonie des flocons. J'ai vu juste<Indent/>?"
-74,"TEXT_BANYOK002_05331_GIRZORHOR_120_300","Hum... Si j'ai bien compris, nous devons réparer l'Autel de Zirgorteh pour ACCOMPLIR la cérémonie des flocons."
-75,"TEXT_BANYOK002_05331_GIRZORHOR_130_300","D'autres personnes pourraient se laisser berner par l'apparence INOFFENSIVE des esprits des neiges, c'est pour cela que nous cherchons à les apaiser. J'ai vu juste<Indent/>?"
-76,"TEXT_BANYOK002_05331_GIRZORHOR_000_301","Vous m'avez ouvert les yeux sur l'importance de ce projet de réhabilitation... Mais je n'arrive pas à chasser la PEUR de mon esprit."
-77,"TEXT_BANYOK002_05331_FAHRAFAHR_000_302","Pour ma part, peu importe le danger, j'ai décidé de MARCHER dans les pas de Dartorgor."
-78,"TEXT_BANYOK002_05331_GIRZORHOR_000_303","J'ai déjà entendu ce nom... C'était la Yok Huy qui vivait seule dans la MONTAGNE, c'est bien ça<Indent/>?"
-79,"TEXT_BANYOK002_05331_FAHRAFAHR_000_304","Exactement. Elle m'a raconté que les esprits occupaient ces SOMMETS depuis la nuit des temps, et avaient pour habitude de jouer de vilains TOURS aux humains."
-80,"TEXT_BANYOK002_05331_FAHRAFAHR_000_305","Lorsque les Yok Huy se sont installés à Urqopacha, ils ont construit l'Autel de Zirgorteh pour y organiser la cérémonie des flocons et ainsi dissuader les esprits de provoquer des tempêtes de neige ou d'autres CATASTROPHES."
-81,"TEXT_BANYOK002_05331_FAHRAFAHR_000_306","Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, on a oublié le rôle in<SoftHyphen/>dis<SoftHyphen/>pen<SoftHyphen/>sa<SoftHyphen/>ble que ce lieu et ce rite jouent dans les LIENS qui unissent nos deux peuples."
-82,"TEXT_BANYOK002_05331_FAHRAFAHR_000_307","Dire que Dartorgor a endossé cette LOURDE res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bi<SoftHyphen/>li<SoftHyphen/>té année après année pour nous protéger en secret. Maintenant qu'elle ne peut plus s'en charger, quelqu'un... non... <Emphasis>je</Emphasis> dois prendre sa relève<Indent/>!"
-83,"TEXT_BANYOK002_05331_GIRZORHOR_000_308","Tu veux dire que malgré les risques, c'est ton sens du DEVOIR qui t'a poussée à entreprendre la restauration de l'autel<Indent/>?"
-84,"TEXT_BANYOK002_05331_FAHRAFAHR_000_309","Je pense que c'est ce que SOUHAITE Dartorgor. Elle venait toujours me rendre VISITE lorsqu'elle descendait de sa montagne. Je m'en souviens comme si c'était HIER..."
-85,"TEXT_BANYOK002_05331_DARTORGOR_000_310","(-Dartorgor-)Ryoqor Terteh et ses amis ADORENT la cérémonie des flocons. Sans ça, va savoir quelles bêtises ils iraient commettre<Indent/>!"
-86,"TEXT_BANYOK002_05331_DARTORGOR_000_311","(-Dartorgor-)Ma LIGNÉE s'est toujours occupée de l'Autel de Zirgorteh, mais elle s'éteindra avec moi... Bien que je sois encore jeune, je ne dois pas tarder à TROUVER quelqu'un pour me succéder<Indent/>!"
-87,"TEXT_BANYOK002_05331_DARTORGOR_000_312","(-Dartorgor-)Qu'est-ce que tu en dis, Fahrafahr<Indent/>? Ça ne te dit pas d'aller VIVRE dans la montagne avec moi<Indent/>? Ha ha ha<Indent/>! Ne fais pas cette tête<Indent/>! Je RIGOLE, bien sûr<Indent/>!"
-88,"TEXT_BANYOK002_05331_FAHRAFAHR_000_313","C'était notre dernière con<SoftHyphen/>ver<SoftHyphen/>sa<SoftHyphen/>tion avant que Dartorgor ne fasse une chute MORTELLE en retournant à l'autel..."
-89,"TEXT_BANYOK002_05331_FAHRAFAHR_000_314","Si on n'avait pas oublié l'importance de la cérémonie, les sentiers auraient été mieux ENTRETENUS, et elle n'y aurait peut-être pas perdu la VIE... C'est notre négligence qui a causé cette série d'événements tragiques."
-90,"TEXT_BANYOK002_05331_FAHRAFAHR_100_314","Mais aujourd'hui, j'ai la CHANCE d'avoir <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> à mes côtés pour me soutenir. C'est <If(PlayerParameter(4))>l'héroïne<Else/>le héros</If> qui a tenu tête à VALIGARMANDA..."
-91,"TEXT_BANYOK002_05331_GIRZORHOR_000_315","Oh<Indent/>! <If(PlayerParameter(4))>Celle<Else/>Celui</If> qui a VAINCU la calamité incarnée<Indent/>!"
-92,"TEXT_BANYOK002_05331_GIRZORHOR_000_316","Difficile de rester les bras croisés, surtout en présence d'une personne qui n'a pas hésité à mettre sa vie en DANGER pour le Tural."
-93,"TEXT_BANYOK002_05331_GIRZORHOR_000_317","Cependant, je ne possède pas vos compétences martiales. Si je me faisais de nouveau ATTAQUER par les esprits, je ne saurais pas comment réagir."
-94,"TEXT_BANYOK002_05331_Q1_000_000","Que dites-vous<Indent/>?"
-95,"TEXT_BANYOK002_05331_A1_000_001","Réfugie-toi au chaud, à l'intérieur du gîte<Indent/>!"
-96,"TEXT_BANYOK002_05331_A1_000_002","Je suis là pour vous protéger<Indent/>!"
-97,"TEXT_BANYOK002_05331_FAHRAFAHR_000_319","Bonne idée. Les esprits des neiges évitent les endroits CHAUFFÉS, comme le gîte des Bienfaiteurs. De plus, ils réfléchiront à deux fois avant de s'attaquer à plusieurs personnes réunies en un même lieu."
-98,"TEXT_BANYOK002_05331_FAHRAFAHR_000_320","C'est GENTIL, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, mais je pense qu'on devrait trouver un moyen de se défendre sans exciter davantage les esprits..."
-99,"TEXT_BANYOK002_05331_FAHRAFAHR_100_320","Je sais<Indent/>! Les esprits des neiges évitent les endroits CHAUDS. Donc, si on se réfugie au gîte des Bienfaiteurs, ils finiront bien par abandonner."
-100,"TEXT_BANYOK002_05331_GIRZORHOR_000_321","... Bon, d'accord. Je vais essayer de SURMONTER mon appréhension et reprendre mon travail."
-101,"TEXT_BANYOK002_05331_GIRZORHOR_000_322","Par contre... J'ai HONTE de l'avouer, mais j'ai perdu une partie de mon matériel en cherchant à fuir les esprits. J'ai besoin de produits de très grande QUALITÉ, et je ne suis pas certain de pouvoir m'en procurer dans un avenir proche."
-102,"TEXT_BANYOK002_05331_FAHRAFAHR_000_323","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, si je te fournis les matériaux, pourrais-tu FABRIQUER un nécessaire de sculpture avec des gradines et des pointerolles<Indent/>?"
-103,"TEXT_BANYOK002_05331_FAHRAFAHR_000_324","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, si je te fournis les matériaux, pourrais-tu FABRIQUER un nécessaire de sculpture avec des appareils de mesure<Indent/>?"
-104,"TEXT_BANYOK002_05331_FAHRAFAHR_000_325","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, si je te fournis les ingrédients, pourrais-tu FABRIQUER un nécessaire de sculpture avec des matériaux comme du mastic de retouche<Indent/>?"
-105,"TEXT_BANYOK002_05331_GIRZORHOR_000_326","Parfait<Indent/>! Venez me livrer vos CRÉATIONS dès que possible, je pourrai me remettre au travail plus rapidement."
-106,"TEXT_BANYOK002_05331_GIRZORHOR_000_330","J'attends avec IMPATIENCE votre nécessaire de sculpture. Si vous manquez de matériaux, Fahrafahr devrait pouvoir vous en FOURNIR davantage."
-107,"TEXT_BANYOK002_05331_GIRZORHOR_000_335","（★未使用／削除予定★）"
-108,"TEXT_BANYOK002_05331_GIRZORHOR_000_340","（★未使用／削除予定★）"
-109,"TEXT_BANYOK002_05331_FAHRAFAHR_000_345","Reviens me voir si tu tombes à court de MATÉRIAUX... Mais je vois que tu as tout ce qu'il te faut<Indent/>!"
-110,"TEXT_BANYOK002_05331_FAHRAFAHR_000_350","（★未使用／削除予定★）"
-111,"TEXT_BANYOK002_05331_FAHRAFAHR_000_355","（★未使用／削除予定★）"
-112,"TEXT_BANYOK002_05331_FAHRAFAHR_000_360","Il te faut encore des matériaux<Indent/>? Pas de problème, j'en ai encore en RÉSERVE. Je compte sur toi<Indent/>!"
-113,"TEXT_BANYOK002_05331_FAHRAFAHR_000_365","（★未使用／削除予定★）"
-114,"TEXT_BANYOK002_05331_FAHRAFAHR_000_370","（★未使用／削除予定★）"
-115,"TEXT_BANYOK002_05331_GIRZORHOR_000_400","Oh<Indent/>! Mais qu'est-ce que je VOIS<Indent/>? C'est pour moi, tout ça<Indent/>?"
-116,"TEXT_BANYOK002_05331_GIRZORHOR_000_401","C'est PARFAIT<Indent/>! Équipé de la sorte, je devrais pouvoir terminer mes sculptures plus tôt que prévu. Vous n'avez pas volé votre RÉPUTATION<Indent/>!"
-117,"TEXT_BANYOK002_05331_GIRZORHOR_000_402","Comptez sur moi pour en faire bon usage<Indent/>! Je me remets im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment au TRAVAIL<Indent/>! "
-118,"TEXT_BANYOK002_05331_FAHRAFAHR_000_403","Ouf... Grâce à toi, Girzorhor a choisi de revenir à l'autel, plus MOTIVÉ que jamais<Indent/>!"
-119,"TEXT_BANYOK002_05331_FAHRAFAHR_000_404","Moi aussi, je dois retourner à mes OBLIGATIONS. Si tu me cherches, je serai au relais des Cimes."
-120,"TEXT_BANYOK002_05331_FAHRAFAHR_000_500","Encore merci de m'avoir aidée à CONVAINCRE Girzorhor. J'aurais été triste de perdre un compagnon si investi dans la restauration de l'autel."
-121,"TEXT_BANYOK002_05331_FAHRAFAHR_000_501","Je l'ai vu GRAVIR la montagne d'un pas décidé, donc je pense qu'il n'y a plus lieu de s'inquiéter pour lui."
-122,"TEXT_BANYOK002_05331_FAHRAFAHR_000_502","Tout bien considéré, c'est aussi grâce aux PAROLES de Dartorgor que nous avons réussi à résoudre cette situation épineuse... Je suis heureuse qu'elle ait pu nous apporter son SOUTIEN."
-123,"TEXT_BANYOK002_05331_FAHRAFAHR_000_550","Maintenant que l'ATELIER est opérationnel, on va pouvoir sculpter des pierres et des bas-reliefs qui serviront à réparer l'autel comme il se doit<Indent/>!"
-124,"TEXT_BANYOK002_05331_GIRZORHOR_000_551","Ce sont des SYMBOLES yok huy traditionnels. Lorsque je m'occupais de les restaurer, j'ai constaté que beaucoup sont liés aux esprits des neiges... J'en ai profité pour apprendre à les DÉCHIFFRER."
-125,"TEXT_BANYOK002_05331_FAHRAFAHR_000_552","Dans mon cœur, j'ai le sentiment que Dartorgor est elle aussi emplie de GRATITUDE."
-126,"TEXT_BANYOK002_05331_FAHRAFAHR_100_552","Il nous reste encore beaucoup de travail à accomplir, mais je suis convaincue qu'ensemble, on arrivera à rendre à l'Autel de Zirgorteh sa SPLENDEUR passée<Indent/>!"
-127,"TEXT_BANYOK002_05331_SYSTEM_000_553","Grâce à vos efforts, la restauration de l'Autel de Zirgorteh a encore progressé avec la création d'un atelier de sculpture. Fahrafahr et vos autres amis yok huy comptent sur vous pour la suite des travaux<Indent/>!"
-128,"TEXT_BANYOK002_05331_SYSTEM_000_600","Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Estimé”."
-129,"TEXT_BANYOK002_05331_SYSTEM_000_601","Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
-130,"TEXT_BANYOK002_05331_SYSTEM_000_602","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Vuyargur, au relais des Cimes."
-131,"TEXT_BANYOK002_05331_SYSTEM_000_603","De plus, trois quêtes sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
-132,"TEXT_BANYOK002_05331_SYSTEM_000_604","Vuyargur vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang."
-133,"TEXT_BANYOK002_05331_SYSTEM_000_605","En outre, Rarkorgor vous propose maintenant les objets correspondant au rang “Estimé”. Faites-en bon usage au cours de vos aventures<Indent/>!"
+2,TEXT_BANYOK002_05331_SEQ_02,"Vous avez rencontré Girzorhor à proximité de l'atelier de sculpture, mais son affolement vous empêche d'en apprendre davantage sur lui. Essayez de l'*apaiser* avant de poursuivre votre échange."
+3,TEXT_BANYOK002_05331_SEQ_03,"Grâce à votre in­ter­ven­tion, Girzorhor a retrouvé son calme. Il vous a confié avoir été attaqué par des esprits des neiges, ce qui l'a poussé à abandonner le projet. Cependant, Fahrafahr vous a informée que les compétences de cet artiste sont cruciales pour restaurer les bas-reliefs de l'autel. Retrouvez donc Girzorhor à L'Écho de Worlar pour le persuader de revenir sur sa décision."
+4,TEXT_BANYOK002_05331_SEQ_04,"Vous avez convaincu Girzorhor de poursuivre son travail à l'Autel de Zirgorteh, mais il vous a révélé avoir perdu une partie de son matériel en fuyant les esprits des neiges. Préparez un nécessaire de sculpture et remettez-le-lui."
+5,TEXT_BANYOK002_05331_SEQ_05,Girzorhor a accepté avec enthousiasme votre nécessaire de sculpture avant de regagner son atelier. Retournez au relais des Cimes pour faire le point avec Fahrafahr.
+6,TEXT_BANYOK002_05331_SEQ_06,"Une partie des bas-reliefs de l'Autel de Zirgorteh a été restaurée. Girzorhor et les autres sculpteurs pourront s'inspirer de ces motifs traditionnels yok huy pour continuer de réparer l'édifice. Cependant, votre aide sera cer­tai­ne­ment requise pour d'autres aspects du projet."
+7,TEXT_BANYOK002_05331_SEQ_07,
+8,TEXT_BANYOK002_05331_SEQ_08,
+9,TEXT_BANYOK002_05331_SEQ_09,
+10,TEXT_BANYOK002_05331_SEQ_10,
+11,TEXT_BANYOK002_05331_SEQ_11,
+12,TEXT_BANYOK002_05331_SEQ_12,
+13,TEXT_BANYOK002_05331_SEQ_13,
+14,TEXT_BANYOK002_05331_SEQ_14,
+15,TEXT_BANYOK002_05331_SEQ_15,
+16,TEXT_BANYOK002_05331_SEQ_16,
+17,TEXT_BANYOK002_05331_SEQ_17,
+18,TEXT_BANYOK002_05331_SEQ_18,
+19,TEXT_BANYOK002_05331_SEQ_19,
+20,TEXT_BANYOK002_05331_SEQ_20,
+21,TEXT_BANYOK002_05331_SEQ_21,
+22,TEXT_BANYOK002_05331_SEQ_22,
+23,TEXT_BANYOK002_05331_SEQ_23,
+24,TEXT_BANYOK002_05331_TODO_00,"Parler à Fahrafahr, à l'Autel de Zirgorteh"
+25,TEXT_BANYOK002_05331_TODO_01,*/apaiser* Girzorhor
+26,TEXT_BANYOK002_05331_TODO_02,"Parler à Girzorhor, à L'Écho de Worlar"
+27,TEXT_BANYOK002_05331_TODO_03,Fabriquer 
+28,TEXT_BANYOK002_05331_TODO_04,Parler à Fahrafahr
+29,TEXT_BANYOK002_05331_TODO_05,
+30,TEXT_BANYOK002_05331_TODO_06,
+31,TEXT_BANYOK002_05331_TODO_07,
+32,TEXT_BANYOK002_05331_TODO_08,
+33,TEXT_BANYOK002_05331_TODO_09,
+34,TEXT_BANYOK002_05331_TODO_10,
+35,TEXT_BANYOK002_05331_TODO_11,
+36,TEXT_BANYOK002_05331_TODO_12,
+37,TEXT_BANYOK002_05331_TODO_13,
+38,TEXT_BANYOK002_05331_TODO_14,
+39,TEXT_BANYOK002_05331_TODO_15,
+40,TEXT_BANYOK002_05331_TODO_16,
+41,TEXT_BANYOK002_05331_TODO_17,
+42,TEXT_BANYOK002_05331_TODO_18,
+43,TEXT_BANYOK002_05331_TODO_19,
+44,TEXT_BANYOK002_05331_TODO_20,
+45,TEXT_BANYOK002_05331_TODO_21,
+46,TEXT_BANYOK002_05331_TODO_22,
+47,TEXT_BANYOK002_05331_TODO_23,
+48,TEXT_BANYOK002_05331_FAHRAFAHR_000_001,"Contente de te REVOIR, Player. Quand tu es dans le coin, ça nous donne toujours du courage !"
+49,TEXT_BANYOK002_05331_FAHRAFAHR_000_002,"Maintenant que le premier bâtiment a été COMPLÈTEMENT réparé, on prévoit d'aménager un atelier de sculpture."
+50,TEXT_BANYOK002_05331_FAHRAFAHR_100_002,Plusieurs parties de l'AUTEL ont été endommagées et chaque pierre manquante devra être retaillée.
+51,TEXT_BANYOK002_05331_FAHRAFAHR_000_003,"Les statues et gravures TRADITIONNELLES sont importantes pour un monument comme celui-ci. Les motifs sont souvent très fins, il est donc préférable de les réaliser sur place plutôt que de prendre le risque de les abîmer durant leur TRANSPORT."
+52,TEXT_BANYOK002_05331_FAHRAFAHR_000_004,"J'ai laissé un SCULPTEUR expérimenté superviser l'atelier. On m'avait dit que tout se passait sans encombre, mais je viens d'apprendre qu'un problème est survenu."
+53,TEXT_BANYOK002_05331_FAHRAFAHR_000_005,Tu veux bien m'accompagner ? Je comptais justement me rendre à l'AUTEL pour savoir de quoi il retourne.
+54,TEXT_BANYOK002_05331_GIRZORHOR_000_010,ASSEZ ! Je veux PARTIR !
+55,TEXT_BANYOK002_05331_FAHRAFAHR_000_100,"C'est Girzorhor, l'un de nos meilleurs SCULPTEURS... Mais il n'a pas l'air dans son état normal."
+56,TEXT_BANYOK002_05331_FAHRAFAHR_000_101,"Il refuse de m'écouter, tout ce qu'il répète in­las­sa­ble­ment c'est “Je veux PARTIR”. On ne peut rien faire tant qu'on ne sait pas ce qui lui est arrivé."
+57,TEXT_BANYOK002_05331_FAHRAFAHR_000_102,"Navrée de t'imposer ça, mais tu voudrais bien nous aider à *APAISER* Girzorhor ?"
+58,TEXT_BANYOK002_05331_GIRZORHOR_000_105,ASSEZ ! J'ai dit que je veux PARTIR !
+59,TEXT_BANYOK002_05331_SYSTEM_000_110,Girzorhor est trop affolé pour parler. Essayez de l'*apaiser* pour qu'il retrouve ses esprits.
+60,TEXT_BANYOK002_05331_FAHRAFAHR_000_115,"Navrée de t'imposer ça, mais tu voudrais bien nous aider à *APAISER* Girzorhor ?"
+61,TEXT_BANYOK002_05331_GIRZORHOR_000_200,"Aah... Aah... J-je m'excuse pour mon com­por­te­ment... J'étais PANIQUÉ... Grâce à vous, j'ai retrouvé mon CALME..."
+62,TEXT_BANYOK002_05331_GIRZORHOR_000_201,"Je taillais TRANQUILLEMENT mes pierres quand des esprits sont apparus. Ils avaient l'air de vouloir s'amuser, donc je les ai laissés s'approcher... Sauf qu'ils se sont mis à lancer des SORTS de glace sans crier gare !"
+63,TEXT_BANYOK002_05331_GIRZORHOR_000_202,"J'ai pris mes jambes à mon cou, sans quoi j'aurais pu être transpercé par leurs ATTAQUES... Je ne pensais pas que ce travail serait aussi PÉRILLEUX. Dans ces conditions, vous comprenez que je ne peux pas rester !"
+64,TEXT_BANYOK002_05331_FAHRAFAHR_000_203,"On a pourtant averti tout le monde de se MÉFIER des esprits des neiges. Mal­heu­reu­se­ment, certains ne semblent pas avoir compris à quel point ils peuvent être DANGEREUX."
+65,TEXT_BANYOK002_05331_FAHRAFAHR_000_204,"Je comprends que Girzorhor soit EFFRAYÉ, mais on a besoin de lui pour réparer l'autel. Si on n'apaise pas les esprits, ils feront cer­tai­ne­ment d'autres VICTIMES."
+66,TEXT_BANYOK002_05331_FAHRAFAHR_000_205,"Je pense qu'il est retourné à L'Écho de Worlar. Player, tu veux bien m'accompagner ? On doit ABSOLUMENT le convaincre de revenir nous aider."
+67,TEXT_BANYOK002_05331_FAHRAFAHR_000_210,"Rien à faire, Girzorhor ne veut rien ENTENDRE... Peut-être que tu arriveras à trouver les mots pour le convaincre de revenir nous aider à restaurer l'autel ?"
+68,TEXT_BANYOK002_05331_GIRZORHOR_000_300,Merci de m'avoir aidé à me remettre de mes ÉMOTIONS... Mais je vous ai déjà dit que je ne voulais pas retourner sur cette fichue montagne !
+69,TEXT_BANYOK002_05331_Q2_000_000,Que dites-vous ?
+70,TEXT_BANYOK002_05331_A2_000_001,Qu'est-ce que tu as pensé des esprits des neiges ?
+71,TEXT_BANYOK002_05331_A2_000_002,Est-ce que tu sais pourquoi on veut réparer l'autel ?
+72,TEXT_BANYOK002_05331_GIRZORHOR_100_300,"Au début, j'ai trouvé les esprits plutôt mignons. Mais quand ils ont commencé à se montrer AGRESSIFS, ça m'a com­plè­te­ment pris au dépourvu."
+73,TEXT_BANYOK002_05331_GIRZORHOR_110_300,... Je pense savoir où vous voulez en venir. C'est justement pour éviter qu'ils fassent d'autres VICTIMES que nous devons restaurer l'Autel de Zirgorteh et accomplir la cérémonie des flocons. J'ai vu juste ?
+74,TEXT_BANYOK002_05331_GIRZORHOR_120_300,"Hum... Si j'ai bien compris, nous devons réparer l'Autel de Zirgorteh pour ACCOMPLIR la cérémonie des flocons."
+75,TEXT_BANYOK002_05331_GIRZORHOR_130_300,"D'autres personnes pourraient se laisser berner par l'apparence INOFFENSIVE des esprits des neiges, c'est pour cela que nous cherchons à les apaiser. J'ai vu juste ?"
+76,TEXT_BANYOK002_05331_GIRZORHOR_000_301,Vous m'avez ouvert les yeux sur l'importance de ce projet de réhabilitation... Mais je n'arrive pas à chasser la PEUR de mon esprit.
+77,TEXT_BANYOK002_05331_FAHRAFAHR_000_302,"Pour ma part, peu importe le danger, j'ai décidé de MARCHER dans les pas de Dartorgor."
+78,TEXT_BANYOK002_05331_GIRZORHOR_000_303,"J'ai déjà entendu ce nom... C'était la Yok Huy qui vivait seule dans la MONTAGNE, c'est bien ça ?"
+79,TEXT_BANYOK002_05331_FAHRAFAHR_000_304,"Exactement. Elle m'a raconté que les esprits occupaient ces SOMMETS depuis la nuit des temps, et avaient pour habitude de jouer de vilains TOURS aux humains."
+80,TEXT_BANYOK002_05331_FAHRAFAHR_000_305,"Lorsque les Yok Huy se sont installés à Urqopacha, ils ont construit l'Autel de Zirgorteh pour y organiser la cérémonie des flocons et ainsi dissuader les esprits de provoquer des tempêtes de neige ou d'autres CATASTROPHES."
+81,TEXT_BANYOK002_05331_FAHRAFAHR_000_306,"Mal­heu­reu­se­ment, on a oublié le rôle in­dis­pen­sa­ble que ce lieu et ce rite jouent dans les LIENS qui unissent nos deux peuples."
+82,TEXT_BANYOK002_05331_FAHRAFAHR_000_307,"Dire que Dartorgor a endossé cette LOURDE res­pon­sa­bi­li­té année après année pour nous protéger en secret. Maintenant qu'elle ne peut plus s'en charger, quelqu'un... non... *je* dois prendre sa relève !"
+83,TEXT_BANYOK002_05331_GIRZORHOR_000_308,"Tu veux dire que malgré les risques, c'est ton sens du DEVOIR qui t'a poussée à entreprendre la restauration de l'autel ?"
+84,TEXT_BANYOK002_05331_FAHRAFAHR_000_309,Je pense que c'est ce que SOUHAITE Dartorgor. Elle venait toujours me rendre VISITE lorsqu'elle descendait de sa montagne. Je m'en souviens comme si c'était HIER...
+85,TEXT_BANYOK002_05331_DARTORGOR_000_310,"(-Dartorgor-)Ryoqor Terteh et ses amis ADORENT la cérémonie des flocons. Sans ça, va savoir quelles bêtises ils iraient commettre !"
+86,TEXT_BANYOK002_05331_DARTORGOR_000_311,"(-Dartorgor-)Ma LIGNÉE s'est toujours occupée de l'Autel de Zirgorteh, mais elle s'éteindra avec moi... Bien que je sois encore jeune, je ne dois pas tarder à TROUVER quelqu'un pour me succéder !"
+87,TEXT_BANYOK002_05331_DARTORGOR_000_312,"(-Dartorgor-)Qu'est-ce que tu en dis, Fahrafahr ? Ça ne te dit pas d'aller VIVRE dans la montagne avec moi ? Ha ha ha ! Ne fais pas cette tête ! Je RIGOLE, bien sûr !"
+88,TEXT_BANYOK002_05331_FAHRAFAHR_000_313,C'était notre dernière con­ver­sa­tion avant que Dartorgor ne fasse une chute MORTELLE en retournant à l'autel...
+89,TEXT_BANYOK002_05331_FAHRAFAHR_000_314,"Si on n'avait pas oublié l'importance de la cérémonie, les sentiers auraient été mieux ENTRETENUS, et elle n'y aurait peut-être pas perdu la VIE... C'est notre négligence qui a causé cette série d'événements tragiques."
+90,TEXT_BANYOK002_05331_FAHRAFAHR_100_314,"Mais aujourd'hui, j'ai la CHANCE d'avoir Player à mes côtés pour me soutenir. C'est l'héroïne qui a tenu tête à VALIGARMANDA..."
+91,TEXT_BANYOK002_05331_GIRZORHOR_000_315,Oh ! Celle qui a VAINCU la calamité incarnée !
+92,TEXT_BANYOK002_05331_GIRZORHOR_000_316,"Difficile de rester les bras croisés, surtout en présence d'une personne qui n'a pas hésité à mettre sa vie en DANGER pour le Tural."
+93,TEXT_BANYOK002_05331_GIRZORHOR_000_317,"Cependant, je ne possède pas vos compétences martiales. Si je me faisais de nouveau ATTAQUER par les esprits, je ne saurais pas comment réagir."
+94,TEXT_BANYOK002_05331_Q1_000_000,Que dites-vous ?
+95,TEXT_BANYOK002_05331_A1_000_001,"Réfugie-toi au chaud, à l'intérieur du gîte !"
+96,TEXT_BANYOK002_05331_A1_000_002,Je suis là pour vous protéger !
+97,TEXT_BANYOK002_05331_FAHRAFAHR_000_319,"Bonne idée. Les esprits des neiges évitent les endroits CHAUFFÉS, comme le gîte des Bienfaiteurs. De plus, ils réfléchiront à deux fois avant de s'attaquer à plusieurs personnes réunies en un même lieu."
+98,TEXT_BANYOK002_05331_FAHRAFAHR_000_320,"C'est GENTIL, Player, mais je pense qu'on devrait trouver un moyen de se défendre sans exciter davantage les esprits..."
+99,TEXT_BANYOK002_05331_FAHRAFAHR_100_320,"Je sais ! Les esprits des neiges évitent les endroits CHAUDS. Donc, si on se réfugie au gîte des Bienfaiteurs, ils finiront bien par abandonner."
+100,TEXT_BANYOK002_05331_GIRZORHOR_000_321,"... Bon, d'accord. Je vais essayer de SURMONTER mon appréhension et reprendre mon travail."
+101,TEXT_BANYOK002_05331_GIRZORHOR_000_322,"Par contre... J'ai HONTE de l'avouer, mais j'ai perdu une partie de mon matériel en cherchant à fuir les esprits. J'ai besoin de produits de très grande QUALITÉ, et je ne suis pas certain de pouvoir m'en procurer dans un avenir proche."
+102,TEXT_BANYOK002_05331_FAHRAFAHR_000_323,"Player, si je te fournis les matériaux, pourrais-tu FABRIQUER un nécessaire de sculpture avec des gradines et des pointerolles ?"
+103,TEXT_BANYOK002_05331_FAHRAFAHR_000_324,"Player, si je te fournis les matériaux, pourrais-tu FABRIQUER un nécessaire de sculpture avec des appareils de mesure ?"
+104,TEXT_BANYOK002_05331_FAHRAFAHR_000_325,"Player, si je te fournis les ingrédients, pourrais-tu FABRIQUER un nécessaire de sculpture avec des matériaux comme du mastic de retouche ?"
+105,TEXT_BANYOK002_05331_GIRZORHOR_000_326,"Parfait ! Venez me livrer vos CRÉATIONS dès que possible, je pourrai me remettre au travail plus rapidement."
+106,TEXT_BANYOK002_05331_GIRZORHOR_000_330,"J'attends avec IMPATIENCE votre nécessaire de sculpture. Si vous manquez de matériaux, Fahrafahr devrait pouvoir vous en FOURNIR davantage."
+107,TEXT_BANYOK002_05331_GIRZORHOR_000_335,（★未使用／削除予定★）
+108,TEXT_BANYOK002_05331_GIRZORHOR_000_340,（★未使用／削除予定★）
+109,TEXT_BANYOK002_05331_FAHRAFAHR_000_345,Reviens me voir si tu tombes à court de MATÉRIAUX... Mais je vois que tu as tout ce qu'il te faut !
+110,TEXT_BANYOK002_05331_FAHRAFAHR_000_350,（★未使用／削除予定★）
+111,TEXT_BANYOK002_05331_FAHRAFAHR_000_355,（★未使用／削除予定★）
+112,TEXT_BANYOK002_05331_FAHRAFAHR_000_360,"Il te faut encore des matériaux ? Pas de problème, j'en ai encore en RÉSERVE. Je compte sur toi !"
+113,TEXT_BANYOK002_05331_FAHRAFAHR_000_365,（★未使用／削除予定★）
+114,TEXT_BANYOK002_05331_FAHRAFAHR_000_370,（★未使用／削除予定★）
+115,TEXT_BANYOK002_05331_GIRZORHOR_000_400,"Oh ! Mais qu'est-ce que je VOIS ? C'est pour moi, tout ça ?"
+116,TEXT_BANYOK002_05331_GIRZORHOR_000_401,"C'est PARFAIT ! Équipé de la sorte, je devrais pouvoir terminer mes sculptures plus tôt que prévu. Vous n'avez pas volé votre RÉPUTATION !"
+117,TEXT_BANYOK002_05331_GIRZORHOR_000_402,Comptez sur moi pour en faire bon usage ! Je me remets im­mé­dia­te­ment au TRAVAIL ! 
+118,TEXT_BANYOK002_05331_FAHRAFAHR_000_403,"Ouf... Grâce à toi, Girzorhor a choisi de revenir à l'autel, plus MOTIVÉ que jamais !"
+119,TEXT_BANYOK002_05331_FAHRAFAHR_000_404,"Moi aussi, je dois retourner à mes OBLIGATIONS. Si tu me cherches, je serai au relais des Cimes."
+120,TEXT_BANYOK002_05331_FAHRAFAHR_000_500,Encore merci de m'avoir aidée à CONVAINCRE Girzorhor. J'aurais été triste de perdre un compagnon si investi dans la restauration de l'autel.
+121,TEXT_BANYOK002_05331_FAHRAFAHR_000_501,"Je l'ai vu GRAVIR la montagne d'un pas décidé, donc je pense qu'il n'y a plus lieu de s'inquiéter pour lui."
+122,TEXT_BANYOK002_05331_FAHRAFAHR_000_502,"Tout bien considéré, c'est aussi grâce aux PAROLES de Dartorgor que nous avons réussi à résoudre cette situation épineuse... Je suis heureuse qu'elle ait pu nous apporter son SOUTIEN."
+123,TEXT_BANYOK002_05331_FAHRAFAHR_000_550,"Maintenant que l'ATELIER est opérationnel, on va pouvoir sculpter des pierres et des bas-reliefs qui serviront à réparer l'autel comme il se doit !"
+124,TEXT_BANYOK002_05331_GIRZORHOR_000_551,"Ce sont des SYMBOLES yok huy traditionnels. Lorsque je m'occupais de les restaurer, j'ai constaté que beaucoup sont liés aux esprits des neiges... J'en ai profité pour apprendre à les DÉCHIFFRER."
+125,TEXT_BANYOK002_05331_FAHRAFAHR_000_552,"Dans mon cœur, j'ai le sentiment que Dartorgor est elle aussi emplie de GRATITUDE."
+126,TEXT_BANYOK002_05331_FAHRAFAHR_100_552,"Il nous reste encore beaucoup de travail à accomplir, mais je suis convaincue qu'ensemble, on arrivera à rendre à l'Autel de Zirgorteh sa SPLENDEUR passée !"
+127,TEXT_BANYOK002_05331_SYSTEM_000_553,"Grâce à vos efforts, la restauration de l'Autel de Zirgorteh a encore progressé avec la création d'un atelier de sculpture. Fahrafahr et vos autres amis yok huy comptent sur vous pour la suite des travaux !"
+128,TEXT_BANYOK002_05331_SYSTEM_000_600,Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Estimé”.
+129,TEXT_BANYOK002_05331_SYSTEM_000_601,"Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
+130,TEXT_BANYOK002_05331_SYSTEM_000_602,"Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Vuyargur, au relais des Cimes."
+131,TEXT_BANYOK002_05331_SYSTEM_000_603,"De plus, trois quêtes sup­plé­men­tai­res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
+132,TEXT_BANYOK002_05331_SYSTEM_000_604,Vuyargur vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang.
+133,TEXT_BANYOK002_05331_SYSTEM_000_605,"En outre, Rarkorgor vous propose maintenant les objets correspondant au rang “Estimé”. Faites-en bon usage au cours de vos aventures !"

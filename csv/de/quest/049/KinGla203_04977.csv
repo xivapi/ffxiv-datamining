@@ -1,85 +1,82 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGLA203_04977_SEQ_00","Pameka scheint eine besondere Idee für den zweiten Band von Zemowenis Geschichten zu haben."
-1,"TEXT_KINGLA203_04977_SEQ_01","Wie von Zemoweni angekündigt soll das Thema des nächsten Bandes ein Volksmärchen der Pelupelu sein. Zu diesem Anlass schlägt Pameka vor, den Einband aus Materialien herzustellen, die nur in Urqopacha, der Heimatregion der Pelupelu, zu finden sind. Besorge die benötigten <SheetDe(ItemMP,5,43892,2,4,1)/> und bringe sie zu Pameka, sobald du bereit bist.
+0,TEXT_KINGLA203_04977_SEQ_00,Pameka scheint eine besondere Idee für den zweiten Band von Zemowenis Geschichten zu haben.
+1,TEXT_KINGLA203_04977_SEQ_01,"Wie von Zemoweni angekündigt soll das Thema des nächsten Bandes ein Volksmärchen der Pelupelu sein. Zu diesem Anlass schlägt Pameka vor, den Einband aus Materialien herzustellen, die nur in Urqopacha, der Heimatregion der Pelupelu, zu finden sind. Besorge die benötigten  und bringe sie zu Pameka, sobald du bereit bist.
 
 ※ Die Gegenstände können ab einem Sammlerwert von 210 abgegeben werden. Ab einem Sammlerwert von 430 erhältst du jedoch zusätzliche Belohnungen."
-2,"TEXT_KINGLA203_04977_SEQ_02","Zemoweni erzählt euch die Geschichte des jungen Pelupelu Cibli und dessen Entdeckung des Mate-Tees, der bis heute eines der absoluten Lieblingsgetränke der Pelupelu ist. Die Geschichte des tapferen Cibli inspiriert dich zu einem passenden und individuellen Einband für das neue Buch, mit dem auch Zemoweni äußerst zufrieden zu sein scheint. Daraufhin verlässt euch Zemoweni vorerst wieder, aber nicht ohne euch einen kleinen Hinweis auf die nächste Erzählung gegeben zu haben."
-3,"TEXT_KINGLA203_04977_SEQ_03",""
-4,"TEXT_KINGLA203_04977_SEQ_04",""
-5,"TEXT_KINGLA203_04977_SEQ_05",""
-6,"TEXT_KINGLA203_04977_SEQ_06",""
-7,"TEXT_KINGLA203_04977_SEQ_07",""
-8,"TEXT_KINGLA203_04977_SEQ_08",""
-9,"TEXT_KINGLA203_04977_SEQ_09",""
-10,"TEXT_KINGLA203_04977_SEQ_10",""
-11,"TEXT_KINGLA203_04977_SEQ_11",""
-12,"TEXT_KINGLA203_04977_SEQ_12",""
-13,"TEXT_KINGLA203_04977_SEQ_13",""
-14,"TEXT_KINGLA203_04977_SEQ_14",""
-15,"TEXT_KINGLA203_04977_SEQ_15",""
-16,"TEXT_KINGLA203_04977_SEQ_16",""
-17,"TEXT_KINGLA203_04977_SEQ_17",""
-18,"TEXT_KINGLA203_04977_SEQ_18",""
-19,"TEXT_KINGLA203_04977_SEQ_19",""
-20,"TEXT_KINGLA203_04977_SEQ_20",""
-21,"TEXT_KINGLA203_04977_SEQ_21",""
-22,"TEXT_KINGLA203_04977_SEQ_22",""
-23,"TEXT_KINGLA203_04977_SEQ_23",""
-24,"TEXT_KINGLA203_04977_TODO_00","Pameka <SheetDe(ItemMP,2,43892,2,4,1)/> bringen"
-25,"TEXT_KINGLA203_04977_TODO_01",""
-26,"TEXT_KINGLA203_04977_TODO_02",""
-27,"TEXT_KINGLA203_04977_TODO_03",""
-28,"TEXT_KINGLA203_04977_TODO_04",""
-29,"TEXT_KINGLA203_04977_TODO_05",""
-30,"TEXT_KINGLA203_04977_TODO_06",""
-31,"TEXT_KINGLA203_04977_TODO_07",""
-32,"TEXT_KINGLA203_04977_TODO_08",""
-33,"TEXT_KINGLA203_04977_TODO_09",""
-34,"TEXT_KINGLA203_04977_TODO_10",""
-35,"TEXT_KINGLA203_04977_TODO_11",""
-36,"TEXT_KINGLA203_04977_TODO_12",""
-37,"TEXT_KINGLA203_04977_TODO_13",""
-38,"TEXT_KINGLA203_04977_TODO_14",""
-39,"TEXT_KINGLA203_04977_TODO_15",""
-40,"TEXT_KINGLA203_04977_TODO_16",""
-41,"TEXT_KINGLA203_04977_TODO_17",""
-42,"TEXT_KINGLA203_04977_TODO_18",""
-43,"TEXT_KINGLA203_04977_TODO_19",""
-44,"TEXT_KINGLA203_04977_TODO_20",""
-45,"TEXT_KINGLA203_04977_TODO_21",""
-46,"TEXT_KINGLA203_04977_TODO_22",""
-47,"TEXT_KINGLA203_04977_TODO_23",""
-48,"TEXT_KINGLA203_04977_PAMEKA_000_001","Guten <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Abend<Else/>Morgen</If><Else/><If(LessThan(PlayerParameter(11),17))>Tag<Else/>Abend</If></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Wie schön, dich wiederzusehen! Ich bin im Moment noch mit einem anderen Auftrag beschäftigt, aber nutze gerne die Zeit, um alles für die nächste Sitzung mit Zemoweni vorzubereiten."
-49,"TEXT_KINGLA203_04977_PAMEKA_000_002","Ich kann es kaum erwarten, die Geschichten seines Pelupelu-Kunden zu hören, die er uns letztes Mal angekündigt hat!"
-50,"TEXT_KINGLA203_04977_PAMEKA_000_003","Ich habe übrigens ein wenig nachgedacht und mir ist eine Idee gekommen<Indent/>... Was hältst du davon, den Einband mit Materialien aus der Region herzustellen, aus der die Pelupelu stammen? Das würde dem Buch eine noch persönlichere Note verleihen, finde ich."
-51,"TEXT_KINGLA203_04977_PAMEKA_100_003","Ein Buch aus den feinsten Materialien, die wir in ihrer Heimat Urqopacha erworben haben, um die Geschichten eines bemerkenswerten Händlervolks festzuhalten. Das wäre doch äußerst passend, findest du nicht auch?"
-52,"TEXT_KINGLA203_04977_PAMEKA_000_004","Es freut mich, dass dir die Idee ebenso gut gefällt wie mir! Gut, dann würde ich dich darum bitten, die besagten Materialien zu besorgen."
-53,"TEXT_KINGLA203_04977_SYSTEM_000_005","（★未使用／削除予定★）"
-54,"TEXT_KINGLA203_04977_PAMEKA_000_100","Es wäre lieb, wenn du <SheetDe(ItemMP,2,43892,2,4,1)/> besorgen könntest. Ich freue mich schon darauf, den Pelupelu mit unserem Vorhaben eine besondere Ehre zu erweisen!"
-55,"TEXT_KINGLA203_04977_PAMEKA_000_101","Oh, ja! Wenn ich diese Materialien sehe, fühle ich mich direkt in die Berge von Urqopacha versetzt! Gute Arbeit, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ich habe keine Zweifel daran, dass wir damit ein besonders schönes Buch anfertigen können!"
-56,"TEXT_KINGLA203_04977_PAMEKA_000_102","Mir fehlen die Worte<Indent/>...! Diese edle Textur! Diese exquisite Qualität! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, du hast dich selbst übertroffen, wenn ich das so sagen darf! Ich freue mich schon darauf, das fertige Buch in den Händen zu halten und über den Einband zu streichen!"
-57,"TEXT_KINGLA203_04977_ZEMOWENI_000_103","Ähem, nun gut. Heute will ich euch eine Geschichte erzählen, die von den Pelupelu handelt. Dieses gewitzte Volk von Händlern ist für seinen scharfen Geschäftssinn bekannt und durchstreift auf der Suche nach den besten Waren jeden noch so abgelegenen Winkel Turals. Allerdings war das nicht immer so."
-58,"TEXT_KINGLA203_04977_ZEMOWENI_000_104","Diese Geschichte beginnt vor langer, langer Zeit, noch vor der Gründung des Königreichs Tuliyollal. Damals lebten die Pelupelu in aller Abgeschiedenheit in den Bergen von Urqopacha und wagten sich nur selten aus der Sicherheit ihrer Heimat heraus."
-59,"TEXT_KINGLA203_04977_ZEMOWENI_000_105","In einem ihrer einsamen Dörfer lebte ein Pelupelu namens Cibli. Er war nicht nur sehr klein, selbst im Vergleich zu seinen zierlichen Mitbürgern, sondern kraftlos und bei schlechter Gesundheit."
-60,"TEXT_KINGLA203_04977_ZEMOWENI_000_106","Aufgrund seiner schwächlichen Verfassung war er für die schwere Feldarbeit ungeeignet und konnte sich auch nicht um die Alpakas kümmern."
-61,"TEXT_KINGLA203_04977_ZEMOWENI_000_107","Aber seine gutherzigen Landsleute ließen ihn deswegen noch lange nicht im Stich. Sie gaben ihm Aufgaben, die er ohne körperliche Anstrengung erledigen konnte, und pflegten ihn liebevoll, wenn er krank war. Cibli war ihnen von Herzen dankbar, aber wünschte sich insgeheim nichts mehr, als seinem Volk besser dienen zu können."
-62,"TEXT_KINGLA203_04977_ZEMOWENI_000_108","Leider sind gut gemeinte Wünsche nicht genug, um Unglück abzuwenden. Das zeigte sich besonders in jenem Sommer, als die Berge von Urqopacha von einer für die Jahreszeit ungewöhnlichen Kältewelle heimgesucht wurden. Die Ernte fiel schlecht aus und das Vieh begann, gefährlich abzumagern."
-63,"TEXT_KINGLA203_04977_ZEMOWENI_000_109","Die Pelupelu mussten auf ihre Vorräte zurückgreifen und schließlich sogar einige ihrer Tiere opfern, um den größten Hunger zu stillen. Cibli konnte es nicht länger ertragen, seine Familie und liebsten Freunde leiden und hungern zu sehen. Letztlich entschloss er sich, im Schutz der Nacht heimlich aus dem Dorf zu verschwinden<Indent/>..."
-64,"TEXT_KINGLA203_04977_ZEMOWENI_000_110","Er erhoffte sich davon, wenigstens einen kleinen Beitrag leisten zu können, indem das Dorf nun einen leeren Magen weniger zu füllen hatte. Er wusste, dass das nur ein Tropfen auf den heißen Stein sein würde, aber es war alles, was er für sie tun konnte."
-65,"TEXT_KINGLA203_04977_ZEMOWENI_100_110","Und so machte er sich ganz alleine auf den Weg zum heiligen Berg, um dort zu sterben<Indent/>..."
-66,"TEXT_KINGLA203_04977_ZEMOWENI_000_111","Doch kaum hatte er begonnen, den Berg zu erklimmen, erschien vor ihm ein Geist, der ihm den Weg versperrte und ihm den Zugang zu diesem heiligen Ort verwehrte. Cibli erklärte ihm seine Lage und flehte ihn an, ihn friedlich aus dem Leben scheiden zu lassen."
-67,"TEXT_KINGLA203_04977_ZEMOWENI_000_112","Tief berührt von Ciblis tapferem und selbstlosem Vorhaben reichte der Geist ihm eine Handvoll geheimnisvoller Blätter und gab ihm folgende Anweisung: „Kehre in dein Dorf zurück, koche diese Blätter und stille mit dem Gebräu den Hunger deiner Leute.“"
-68,"TEXT_KINGLA203_04977_ZEMOWENI_000_113","Cibli tat, wie der Geist ihn angewiesen hatte. Die Dorfbewohner teilten sich das Gebräu und wie durch ein Wunder verschwand ihr Hunger! Ihre Bäuche blieben bis zum nächsten Frühling voll, und alle freuten sich über dieses wundersame Getränk, das ein wichtiger Bestandteil ihres Alltags werden sollte: Mate-Tee!"
-69,"TEXT_KINGLA203_04977_ZEMOWENI_000_114","Vielen Dank für eure unermüdliche Arbeit. Dieser kunstvoll gefertigte Einband ist wirklich einzigartig! Ich bin sehr froh, euch mit diesem Projekt betraut zu haben!"
-70,"TEXT_KINGLA203_04977_Q1_000_000","Was sagst du?"
-71,"TEXT_KINGLA203_04977_A1_000_001","Ist diese Geschichte wirklich wahr?"
-72,"TEXT_KINGLA203_04977_A1_000_002","Gab es den Geist tatsächlich?"
-73,"TEXT_KINGLA203_04977_ZEMOWENI_000_116","Wer weiß das schon? Aber eines kann ich dir zumindest versichern: Mate-Tee ist wirklich sehr reich an Nährstoffen und stillt den Hunger. Es ist also nicht ausgeschlossen, dass sich die Geschichte so<Indent/>... oder zumindest so ähnlich ereignet haben könnte!"
-74,"TEXT_KINGLA203_04977_ZEMOWENI_000_117","Das habe ich mich anfangs auch gefragt, aber weißt du<Indent/>... Legende bleibt Legende, und nach so vielen Generationen der Überlieferung lässt sich nicht immer genau sagen, was an einer Geschichte wahr ist und was nicht. Was wirklich zählt, ist, dass sie einen wichtigen Platz in der Kultur der Pelupelu einnimmt!"
-75,"TEXT_KINGLA203_04977_PAMEKA_000_118","Ich persönlich interpretiere diese Geschichte als eine Botschaft über die wahre Kraft der Gemeinschaft. Wenn man sich gegenseitig unterstützt und füreinander sorgt, kann man selbst die schwersten Zeiten und die größten Hindernisse überwinden!"
-76,"TEXT_KINGLA203_04977_ZEMOWENI_000_119","Es freut mich, dass euch diese Geschichte so gut gefallen hat! Ihr könnt euch schon mal auf die nächste freuen, die mir von einem besonders redseligen Moblin erzählt wurde. Jetzt muss ich mich aber erst wieder etwas dem Lesen und Schreiben widmen. Bis dann!"
-77,"TEXT_KINGLA203_04977_PAMEKA_000_120","Na, das hört sich doch so an, als ob uns eine weitere unterhaltsame Geschichte erwartet! Ein Grund mehr, sich gut auf das nächste Werk vorzubereiten!"
-78,"TEXT_KINGLA203_04977_SYSTEM_000_121","Dein Beitragsrang in Pamekas Briefwerkstatt ist gestiegen! Pameka ist äußerst angetan von deiner guten Arbeit und hält dich jetzt für <If(PlayerParameter(4))>eine raffinierte Buchbinderin<Else/>einen raffinierten Buchbinder</If>!"
-79,"TEXT_KINGLA203_04977_SYSTEM_000_122","Sobald du als <If(PlayerParameter(4))>Zimmerin<Else/>Zimmerer</If>, <If(PlayerParameter(4))>Gerberin<Else/>Gerber</If> oder <If(PlayerParameter(4))>Weberin<Else/>Weber</If> Stufe 95 erreicht hast, kannst du von Pameka einen neuen Auftrag erhalten."
+2,TEXT_KINGLA203_04977_SEQ_02,"Zemoweni erzählt euch die Geschichte des jungen Pelupelu Cibli und dessen Entdeckung des Mate-Tees, der bis heute eines der absoluten Lieblingsgetränke der Pelupelu ist. Die Geschichte des tapferen Cibli inspiriert dich zu einem passenden und individuellen Einband für das neue Buch, mit dem auch Zemoweni äußerst zufrieden zu sein scheint. Daraufhin verlässt euch Zemoweni vorerst wieder, aber nicht ohne euch einen kleinen Hinweis auf die nächste Erzählung gegeben zu haben."
+3,TEXT_KINGLA203_04977_SEQ_03,
+4,TEXT_KINGLA203_04977_SEQ_04,
+5,TEXT_KINGLA203_04977_SEQ_05,
+6,TEXT_KINGLA203_04977_SEQ_06,
+7,TEXT_KINGLA203_04977_SEQ_07,
+8,TEXT_KINGLA203_04977_SEQ_08,
+9,TEXT_KINGLA203_04977_SEQ_09,
+10,TEXT_KINGLA203_04977_SEQ_10,
+11,TEXT_KINGLA203_04977_SEQ_11,
+12,TEXT_KINGLA203_04977_SEQ_12,
+13,TEXT_KINGLA203_04977_SEQ_13,
+14,TEXT_KINGLA203_04977_SEQ_14,
+15,TEXT_KINGLA203_04977_SEQ_15,
+16,TEXT_KINGLA203_04977_SEQ_16,
+17,TEXT_KINGLA203_04977_SEQ_17,
+18,TEXT_KINGLA203_04977_SEQ_18,
+19,TEXT_KINGLA203_04977_SEQ_19,
+20,TEXT_KINGLA203_04977_SEQ_20,
+21,TEXT_KINGLA203_04977_SEQ_21,
+22,TEXT_KINGLA203_04977_SEQ_22,
+23,TEXT_KINGLA203_04977_SEQ_23,
+24,TEXT_KINGLA203_04977_TODO_00,Pameka  bringen
+25,TEXT_KINGLA203_04977_TODO_01,
+26,TEXT_KINGLA203_04977_TODO_02,
+27,TEXT_KINGLA203_04977_TODO_03,
+28,TEXT_KINGLA203_04977_TODO_04,
+29,TEXT_KINGLA203_04977_TODO_05,
+30,TEXT_KINGLA203_04977_TODO_06,
+31,TEXT_KINGLA203_04977_TODO_07,
+32,TEXT_KINGLA203_04977_TODO_08,
+33,TEXT_KINGLA203_04977_TODO_09,
+34,TEXT_KINGLA203_04977_TODO_10,
+35,TEXT_KINGLA203_04977_TODO_11,
+36,TEXT_KINGLA203_04977_TODO_12,
+37,TEXT_KINGLA203_04977_TODO_13,
+38,TEXT_KINGLA203_04977_TODO_14,
+39,TEXT_KINGLA203_04977_TODO_15,
+40,TEXT_KINGLA203_04977_TODO_16,
+41,TEXT_KINGLA203_04977_TODO_17,
+42,TEXT_KINGLA203_04977_TODO_18,
+43,TEXT_KINGLA203_04977_TODO_19,
+44,TEXT_KINGLA203_04977_TODO_20,
+45,TEXT_KINGLA203_04977_TODO_21,
+46,TEXT_KINGLA203_04977_TODO_22,
+47,TEXT_KINGLA203_04977_TODO_23,
+48,TEXT_KINGLA203_04977_PAMEKA_000_001,"Guten Abend, Player! Wie schön, dich wiederzusehen! Ich bin im Moment noch mit einem anderen Auftrag beschäftigt, aber nutze gerne die Zeit, um alles für die nächste Sitzung mit Zemoweni vorzubereiten."
+49,TEXT_KINGLA203_04977_PAMEKA_000_002,"Ich kann es kaum erwarten, die Geschichten seines Pelupelu-Kunden zu hören, die er uns letztes Mal angekündigt hat!"
+50,TEXT_KINGLA203_04977_PAMEKA_000_003,"Ich habe übrigens ein wenig nachgedacht und mir ist eine Idee gekommen ... Was hältst du davon, den Einband mit Materialien aus der Region herzustellen, aus der die Pelupelu stammen? Das würde dem Buch eine noch persönlichere Note verleihen, finde ich."
+51,TEXT_KINGLA203_04977_PAMEKA_100_003,"Ein Buch aus den feinsten Materialien, die wir in ihrer Heimat Urqopacha erworben haben, um die Geschichten eines bemerkenswerten Händlervolks festzuhalten. Das wäre doch äußerst passend, findest du nicht auch?"
+52,TEXT_KINGLA203_04977_PAMEKA_000_004,"Es freut mich, dass dir die Idee ebenso gut gefällt wie mir! Gut, dann würde ich dich darum bitten, die besagten Materialien zu besorgen."
+53,TEXT_KINGLA203_04977_SYSTEM_000_005,（★未使用／削除予定★）
+54,TEXT_KINGLA203_04977_PAMEKA_000_100,"Es wäre lieb, wenn du  besorgen könntest. Ich freue mich schon darauf, den Pelupelu mit unserem Vorhaben eine besondere Ehre zu erweisen!"
+55,TEXT_KINGLA203_04977_PAMEKA_000_101,"Oh, ja! Wenn ich diese Materialien sehe, fühle ich mich direkt in die Berge von Urqopacha versetzt! Gute Arbeit, Player. Ich habe keine Zweifel daran, dass wir damit ein besonders schönes Buch anfertigen können!"
+56,TEXT_KINGLA203_04977_PAMEKA_000_102,"Mir fehlen die Worte ...! Diese edle Textur! Diese exquisite Qualität! Player, du hast dich selbst übertroffen, wenn ich das so sagen darf! Ich freue mich schon darauf, das fertige Buch in den Händen zu halten und über den Einband zu streichen!"
+57,TEXT_KINGLA203_04977_ZEMOWENI_000_103,"Ähem, nun gut. Heute will ich euch eine Geschichte erzählen, die von den Pelupelu handelt. Dieses gewitzte Volk von Händlern ist für seinen scharfen Geschäftssinn bekannt und durchstreift auf der Suche nach den besten Waren jeden noch so abgelegenen Winkel Turals. Allerdings war das nicht immer so."
+58,TEXT_KINGLA203_04977_ZEMOWENI_000_104,"Diese Geschichte beginnt vor langer, langer Zeit, noch vor der Gründung des Königreichs Tuliyollal. Damals lebten die Pelupelu in aller Abgeschiedenheit in den Bergen von Urqopacha und wagten sich nur selten aus der Sicherheit ihrer Heimat heraus."
+59,TEXT_KINGLA203_04977_ZEMOWENI_000_105,"In einem ihrer einsamen Dörfer lebte ein Pelupelu namens Cibli. Er war nicht nur sehr klein, selbst im Vergleich zu seinen zierlichen Mitbürgern, sondern kraftlos und bei schlechter Gesundheit."
+60,TEXT_KINGLA203_04977_ZEMOWENI_000_106,Aufgrund seiner schwächlichen Verfassung war er für die schwere Feldarbeit ungeeignet und konnte sich auch nicht um die Alpakas kümmern.
+61,TEXT_KINGLA203_04977_ZEMOWENI_000_107,"Aber seine gutherzigen Landsleute ließen ihn deswegen noch lange nicht im Stich. Sie gaben ihm Aufgaben, die er ohne körperliche Anstrengung erledigen konnte, und pflegten ihn liebevoll, wenn er krank war. Cibli war ihnen von Herzen dankbar, aber wünschte sich insgeheim nichts mehr, als seinem Volk besser dienen zu können."
+62,TEXT_KINGLA203_04977_ZEMOWENI_000_108,"Leider sind gut gemeinte Wünsche nicht genug, um Unglück abzuwenden. Das zeigte sich besonders in jenem Sommer, als die Berge von Urqopacha von einer für die Jahreszeit ungewöhnlichen Kältewelle heimgesucht wurden. Die Ernte fiel schlecht aus und das Vieh begann, gefährlich abzumagern."
+63,TEXT_KINGLA203_04977_ZEMOWENI_000_109,"Die Pelupelu mussten auf ihre Vorräte zurückgreifen und schließlich sogar einige ihrer Tiere opfern, um den größten Hunger zu stillen. Cibli konnte es nicht länger ertragen, seine Familie und liebsten Freunde leiden und hungern zu sehen. Letztlich entschloss er sich, im Schutz der Nacht heimlich aus dem Dorf zu verschwinden ..."
+64,TEXT_KINGLA203_04977_ZEMOWENI_000_110,"Er erhoffte sich davon, wenigstens einen kleinen Beitrag leisten zu können, indem das Dorf nun einen leeren Magen weniger zu füllen hatte. Er wusste, dass das nur ein Tropfen auf den heißen Stein sein würde, aber es war alles, was er für sie tun konnte."
+65,TEXT_KINGLA203_04977_ZEMOWENI_100_110,"Und so machte er sich ganz alleine auf den Weg zum heiligen Berg, um dort zu sterben ..."
+66,TEXT_KINGLA203_04977_ZEMOWENI_000_111,"Doch kaum hatte er begonnen, den Berg zu erklimmen, erschien vor ihm ein Geist, der ihm den Weg versperrte und ihm den Zugang zu diesem heiligen Ort verwehrte. Cibli erklärte ihm seine Lage und flehte ihn an, ihn friedlich aus dem Leben scheiden zu lassen."
+67,TEXT_KINGLA203_04977_ZEMOWENI_000_112,"Tief berührt von Ciblis tapferem und selbstlosem Vorhaben reichte der Geist ihm eine Handvoll geheimnisvoller Blätter und gab ihm folgende Anweisung: „Kehre in dein Dorf zurück, koche diese Blätter und stille mit dem Gebräu den Hunger deiner Leute.“"
+68,TEXT_KINGLA203_04977_ZEMOWENI_000_113,"Cibli tat, wie der Geist ihn angewiesen hatte. Die Dorfbewohner teilten sich das Gebräu und wie durch ein Wunder verschwand ihr Hunger! Ihre Bäuche blieben bis zum nächsten Frühling voll, und alle freuten sich über dieses wundersame Getränk, das ein wichtiger Bestandteil ihres Alltags werden sollte: Mate-Tee!"
+69,TEXT_KINGLA203_04977_ZEMOWENI_000_114,"Vielen Dank für eure unermüdliche Arbeit. Dieser kunstvoll gefertigte Einband ist wirklich einzigartig! Ich bin sehr froh, euch mit diesem Projekt betraut zu haben!"
+70,TEXT_KINGLA203_04977_Q1_000_000,Was sagst du?
+71,TEXT_KINGLA203_04977_A1_000_001,Ist diese Geschichte wirklich wahr?
+72,TEXT_KINGLA203_04977_A1_000_002,Gab es den Geist tatsächlich?
+73,TEXT_KINGLA203_04977_ZEMOWENI_000_116,"Wer weiß das schon? Aber eines kann ich dir zumindest versichern: Mate-Tee ist wirklich sehr reich an Nährstoffen und stillt den Hunger. Es ist also nicht ausgeschlossen, dass sich die Geschichte so ... oder zumindest so ähnlich ereignet haben könnte!"
+74,TEXT_KINGLA203_04977_ZEMOWENI_000_117,"Das habe ich mich anfangs auch gefragt, aber weißt du ... Legende bleibt Legende, und nach so vielen Generationen der Überlieferung lässt sich nicht immer genau sagen, was an einer Geschichte wahr ist und was nicht. Was wirklich zählt, ist, dass sie einen wichtigen Platz in der Kultur der Pelupelu einnimmt!"
+75,TEXT_KINGLA203_04977_PAMEKA_000_118,"Ich persönlich interpretiere diese Geschichte als eine Botschaft über die wahre Kraft der Gemeinschaft. Wenn man sich gegenseitig unterstützt und füreinander sorgt, kann man selbst die schwersten Zeiten und die größten Hindernisse überwinden!"
+76,TEXT_KINGLA203_04977_ZEMOWENI_000_119,"Es freut mich, dass euch diese Geschichte so gut gefallen hat! Ihr könnt euch schon mal auf die nächste freuen, die mir von einem besonders redseligen Moblin erzählt wurde. Jetzt muss ich mich aber erst wieder etwas dem Lesen und Schreiben widmen. Bis dann!"
+77,TEXT_KINGLA203_04977_PAMEKA_000_120,"Na, das hört sich doch so an, als ob uns eine weitere unterhaltsame Geschichte erwartet! Ein Grund mehr, sich gut auf das nächste Werk vorzubereiten!"
+78,TEXT_KINGLA203_04977_SYSTEM_000_121,Dein Beitragsrang in Pamekas Briefwerkstatt ist gestiegen! Pameka ist äußerst angetan von deiner guten Arbeit und hält dich jetzt für eine raffinierte Buchbinderin!
+79,TEXT_KINGLA203_04977_SYSTEM_000_122,"Sobald du als Zimmerin, Gerberin oder Weberin Stufe 95 erreicht hast, kannst du von Pameka einen neuen Auftrag erhalten."

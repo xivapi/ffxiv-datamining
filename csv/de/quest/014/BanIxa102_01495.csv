@@ -1,83 +1,80 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANIXA102_01495_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANIXA102_01495_SEQ_00,"** Schwierigkeitsanpassung**
 ※ Dieser Auftrag wird für Charaktere ab Stufe 41 als Krieger oder Magier und ab Stufe 1 als Handwerker empfohlen.
 
 In Ehcatl hat Yazel Ahuatan einen dringenden Auftrag für dich."
-1,"TEXT_BANIXA102_01495_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
+1,TEXT_BANIXA102_01495_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
 
-Yazel Ahuatan hat dich mit der Herstellung <SheetDe(Item,1,　8092,1,2,1)/> beauftragt. Bitte Dametta in Mühlenhain um Erlaubnis, ihre Arbeitsstätte nutzen zu dürfen."
-2,"TEXT_BANIXA102_01495_SEQ_02","Für die Benutzung ihrer Arbeitsstätte hat dich Dametta um einen Gefallen gebeten. Bringe <SheetDe(EventItem,5,2001377,1,4,1)/> zu Paulemont an E-Tatts Wachturm!"
-3,"TEXT_BANIXA102_01495_SEQ_03","Paulemont hat sich sehr über das Proviantpaket gefreut und dir dafür das leere Paket der letzten Lieferung mitgegeben. Bringe <SheetDe(EventItem,2,2001378,1,4,1)/> zu Dametta zurück und gib ihr auch <SheetDe(EventItem,2,2001376,1,4,1)/>."
-4,"TEXT_BANIXA102_01495_SEQ_04","Dametta hat dir erlaubt, ihre Arbeitsstätte zu benutzen. Verarbeite <SheetDe(Item,2,　8053,1,4,1)/> zu <SheetDe(Item,1,　8092,1,3,1)/> und bringe es zu Yazel Ahuatan in Ehcatl.
+Yazel Ahuatan hat dich mit der Herstellung  beauftragt. Bitte Dametta in Mühlenhain um Erlaubnis, ihre Arbeitsstätte nutzen zu dürfen."
+2,TEXT_BANIXA102_01495_SEQ_02,Für die Benutzung ihrer Arbeitsstätte hat dich Dametta um einen Gefallen gebeten. Bringe  zu Paulemont an E-Tatts Wachturm!
+3,TEXT_BANIXA102_01495_SEQ_03,Paulemont hat sich sehr über das Proviantpaket gefreut und dir dafür das leere Paket der letzten Lieferung mitgegeben. Bringe  zu Dametta zurück und gib ihr auch .
+4,TEXT_BANIXA102_01495_SEQ_04,"Dametta hat dir erlaubt, ihre Arbeitsstätte zu benutzen. Verarbeite  zu  und bringe es zu Yazel Ahuatan in Ehcatl.
 
-※ Sollte der Status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Arbeitsstätte: Herstellung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> enden oder <SheetDe(Item,2,　8053,1,1,1)/> verloren gehen, kannst du Dametta erneut um Hilfe bitten. Sie wird dir dann das Material und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
-5,"TEXT_BANIXA102_01495_SEQ_05","Du hast <SheetDe(Item,2,　8092,1,4,1)/> bei Yazel Ahuatan abgeliefert. Gerade noch rechtzeitig, bevor Methuli Cattlan die Geduld verloren und dem armen Yazel die Schwanzfedern gestutzt hätte. Wenn es um ihren Traum vom Fliegen geht, verstehen die Wolkengleiter von Ehcatl wirklich keinen Spaß."
-6,"TEXT_BANIXA102_01495_SEQ_06",""
-7,"TEXT_BANIXA102_01495_SEQ_07",""
-8,"TEXT_BANIXA102_01495_SEQ_08",""
-9,"TEXT_BANIXA102_01495_SEQ_09",""
-10,"TEXT_BANIXA102_01495_SEQ_10",""
-11,"TEXT_BANIXA102_01495_SEQ_11",""
-12,"TEXT_BANIXA102_01495_SEQ_12",""
-13,"TEXT_BANIXA102_01495_SEQ_13",""
-14,"TEXT_BANIXA102_01495_SEQ_14",""
-15,"TEXT_BANIXA102_01495_SEQ_15",""
-16,"TEXT_BANIXA102_01495_SEQ_16",""
-17,"TEXT_BANIXA102_01495_SEQ_17",""
-18,"TEXT_BANIXA102_01495_SEQ_18",""
-19,"TEXT_BANIXA102_01495_SEQ_19",""
-20,"TEXT_BANIXA102_01495_SEQ_20",""
-21,"TEXT_BANIXA102_01495_SEQ_21",""
-22,"TEXT_BANIXA102_01495_SEQ_22",""
-23,"TEXT_BANIXA102_01495_SEQ_23",""
-24,"TEXT_BANIXA102_01495_TODO_00","Mit Dametta in Mühlenhain sprechen"
-25,"TEXT_BANIXA102_01495_TODO_01","Paulemont an E-Tatts Wachturm <SheetDe(EventItem,5,2001377,1,4,1)/> bringen "
-26,"TEXT_BANIXA102_01495_TODO_02","Dametta in Mühlenhain <SheetDe(EventItem,2,2001378,1,4,1)/> und <SheetDe(EventItem,2,2001376,1,4,1)/> geben"
-27,"TEXT_BANIXA102_01495_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Handwerker-Notizbuch (Freundesvölker) St.1: <SheetDe(Item,1,　8092,1,4,1)/> herstellen<Else/>Yazel Ahuatan <SheetDe(Item,2,　8092,1,4,1)/> bringen</If>"
-28,"TEXT_BANIXA102_01495_TODO_04",""
-29,"TEXT_BANIXA102_01495_TODO_05",""
-30,"TEXT_BANIXA102_01495_TODO_06",""
-31,"TEXT_BANIXA102_01495_TODO_07",""
-32,"TEXT_BANIXA102_01495_TODO_08",""
-33,"TEXT_BANIXA102_01495_TODO_09",""
-34,"TEXT_BANIXA102_01495_TODO_10",""
-35,"TEXT_BANIXA102_01495_TODO_11",""
-36,"TEXT_BANIXA102_01495_TODO_12",""
-37,"TEXT_BANIXA102_01495_TODO_13",""
-38,"TEXT_BANIXA102_01495_TODO_14",""
-39,"TEXT_BANIXA102_01495_TODO_15",""
-40,"TEXT_BANIXA102_01495_TODO_16",""
-41,"TEXT_BANIXA102_01495_TODO_17",""
-42,"TEXT_BANIXA102_01495_TODO_18",""
-43,"TEXT_BANIXA102_01495_TODO_19",""
-44,"TEXT_BANIXA102_01495_TODO_20",""
-45,"TEXT_BANIXA102_01495_TODO_21",""
-46,"TEXT_BANIXA102_01495_TODO_22",""
-47,"TEXT_BANIXA102_01495_TODO_23",""
-48,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_000","Khaaa, khaaa! Stutzt Methuli Cattlan mir Schwanzfedern, wenn ich nicht besorg <SheetDe(Item,5,　8092,1,4,1)/>. Hilfst du mir, <If(PlayerParameter(4))>Federlose<Else/>Federloser</If>?"
-49,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_010","Pass auf! Um Ballonhülle zu stärken, wir müssen Metallring in Mitte setzen. Ich geb dir Material, khaa, und du machst Ring, klar?"
-50,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_020","Pass auf! Brauchen wir Mittel zum Einwachsen der Ballonhülle, um sie gegen Wasser und Wind abzudichten. Geb ich dir Material, khaa, und du fertigst Wachs, klar?"
-51,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_030","Pass auf! Um Ballonhülle zu stärken, wir brauchen Stoff- und Lederteil. Geb ich dir Material, khaa, und du machst Bauteil, klar?"
-52,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_040","Gehst du nach Mühlenhain und fragst federlose Dametta nach ihrer Arbeitsstätte. Die ist genau richtig für Herstellung von <SheetDe(Item,5,　8092,1,3,1)/>. Schnell, schnell, meine Schwanzfedern sind in Gefahr!"
-53,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_050","Khaa, gehst du nach Mühlenhain und machst <SheetDe(Item,5,　8092,1,3,1)/> bei Damettas Arbeitsstätte. Khaa, khaa, schnell, meine Schwanzfedern sind in Gefahr!"
-54,"TEXT_BANIXA102_01495_DAMETTA_000_060","Ja, aber natürlich kannst du meine Arbeitsstätte benutzen."
-55,"TEXT_BANIXA102_01495_DAMETTA_000_061","Darf ich dich vorher um einen kleinen Gefallen bitten? Ich müsste dringend ein Proviantpaket ausliefern, aber neuerdings kann sich eine alte Frau ja nicht mehr alleine in den Wald trauen."
-56,"TEXT_BANIXA102_01495_DAMETTA_000_062","Sei so gut und bring das Proviantpaket für mich zu Paulemont an E-Tatts Wachturm. Er wird dir bestimmt <SheetDe(EventItem,2,2001378,1,4,1)/> von der letzten Lieferung mitgeben. Bring es mir bitte zurück, ja?"
-57,"TEXT_BANIXA102_01495_DAMETTA_000_070","Ach, du möchtest noch ein Schwätzchen halten? Aber gerne doch! Die Proviantlieferung eilt ja nicht."
-58,"TEXT_BANIXA102_01495_DAMETTA_000_071","Paulemont ist ja so ein fleißiger Soldat. Unermüdlich hält er vor dem Turm Wache, als müsste er niemals schlafen. Zur Stärkung mache ich ihm immer leckeres Essen und frische Mun-Tuy-Milch."
-59,"TEXT_BANIXA102_01495_DAMETTA_000_072","Beides schmeckt ihm immer so gut und gibt ihm Kraft! Ach, was für ein Prachtkerl. Viel stattlicher als mein Mann, der alte Tunichtgut!"
-60,"TEXT_BANIXA102_01495_DAMETTA_000_073","Ach ja, und die Opo-Opos mal wieder ... ganz schön frech, die Biester ... kann man sich ja nicht bieten lassen ... und überhaupt ... <blablabla>"
-61,"TEXT_BANIXA102_01495_SYSTEM_100_073","Dametta redet ... und redet ... und redet ..."
-62,"TEXT_BANIXA102_01495_PAULEMONT_000_080","Entschuldige mein lautes Magenknurren. Ich warte auf Proviant von Dametta. Diesmal lässt sie ganz schön auf sich warten. Sie ist ja eine herzensgute Frau, aber leider auch sehr geschwätzig. Vermutlich kann sie sich mal wieder nicht losreißen."
-63,"TEXT_BANIXA102_01495_PAULEMONT_000_081","Ach, das ist ja klasse! Endlich etwas zu essen! Kannst du das leere Proviantpaket vom letzten Mal gleich mitnehmen und zu Dametta bringen?"
-64,"TEXT_BANIXA102_01495_PAULEMONT_000_090","Danke für das Essen! Bring bitte das leere Proviantpaket zu Dametta, ja?"
-65,"TEXT_BANIXA102_01495_DAMETTA_000_100","Und, hat es dem guten Jungen geschmeckt? Hoffentlich hat er dir <SheetDe(EventItem,2,2001378,1,4,1)/> mitgegeben. Gib es mir bitte, ja? Ach ja, zeig mir bitte auch das Material, das du verarbeiten möchtest! Dann bereite ich die Arbeitsstätte vor."
-66,"TEXT_BANIXA102_01495_DAMETTA_000_101","Ja, das Material taugt etwas, keine Frage. Bitte, fang ruhig an! Die Arbeitsstätte ist bereit!"
-67,"TEXT_BANIXA102_01495_DAMETTA_000_110","Falls das Material nicht reicht oder du mit der Arbeitsstätte nicht zurechtkommst, dann frag mich einfach. Ich bin sicher, wir kriegen das hin."
-68,"TEXT_BANIXA102_01495_DAMETTA_100_100","Na, bist du fertig mit der Arbeit? Dann lass deinen Auftraggeber nicht länger warten! Falls du den Gegenstand verlieren solltest und neu anfertigen musst, kannst du dich gerne wieder bei mir melden."
-69,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_130","Khaa, khaa, hast du <SheetDe(Item,2,　8092,1,4,1)/>? Zeig her!"
-70,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_131","Danke! Meine Schwanzfedern sind gerettet. Methuli wird sie mir nicht mehr stutzen vor Ungeduld!"
-71,"TEXT_BANIXA102_01495_YAZELAHUATAN_000_132","Mit Methuli ist nicht zu spaßen, wirklich nicht! Vor allem, wenn's um unseren Traum geht!"
-72,"TEXT_BANIXA102_01495_POPMESSAGE_000_200","Die Arbeitsstätte steht dir jetzt zur Verfügung."
+※ Sollte der Status **Arbeitsstätte: Herstellung** enden oder  verloren gehen, kannst du Dametta erneut um Hilfe bitten. Sie wird dir dann das Material und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
+5,TEXT_BANIXA102_01495_SEQ_05,"Du hast  bei Yazel Ahuatan abgeliefert. Gerade noch rechtzeitig, bevor Methuli Cattlan die Geduld verloren und dem armen Yazel die Schwanzfedern gestutzt hätte. Wenn es um ihren Traum vom Fliegen geht, verstehen die Wolkengleiter von Ehcatl wirklich keinen Spaß."
+6,TEXT_BANIXA102_01495_SEQ_06,
+7,TEXT_BANIXA102_01495_SEQ_07,
+8,TEXT_BANIXA102_01495_SEQ_08,
+9,TEXT_BANIXA102_01495_SEQ_09,
+10,TEXT_BANIXA102_01495_SEQ_10,
+11,TEXT_BANIXA102_01495_SEQ_11,
+12,TEXT_BANIXA102_01495_SEQ_12,
+13,TEXT_BANIXA102_01495_SEQ_13,
+14,TEXT_BANIXA102_01495_SEQ_14,
+15,TEXT_BANIXA102_01495_SEQ_15,
+16,TEXT_BANIXA102_01495_SEQ_16,
+17,TEXT_BANIXA102_01495_SEQ_17,
+18,TEXT_BANIXA102_01495_SEQ_18,
+19,TEXT_BANIXA102_01495_SEQ_19,
+20,TEXT_BANIXA102_01495_SEQ_20,
+21,TEXT_BANIXA102_01495_SEQ_21,
+22,TEXT_BANIXA102_01495_SEQ_22,
+23,TEXT_BANIXA102_01495_SEQ_23,
+24,TEXT_BANIXA102_01495_TODO_00,Mit Dametta in Mühlenhain sprechen
+25,TEXT_BANIXA102_01495_TODO_01,Paulemont an E-Tatts Wachturm  bringen 
+26,TEXT_BANIXA102_01495_TODO_02,Dametta in Mühlenhain  und  geben
+27,TEXT_BANIXA102_01495_TODO_03,Handwerker-Notizbuch (Freundesvölker) St.1:  herstellen
+28,TEXT_BANIXA102_01495_TODO_04,
+29,TEXT_BANIXA102_01495_TODO_05,
+30,TEXT_BANIXA102_01495_TODO_06,
+31,TEXT_BANIXA102_01495_TODO_07,
+32,TEXT_BANIXA102_01495_TODO_08,
+33,TEXT_BANIXA102_01495_TODO_09,
+34,TEXT_BANIXA102_01495_TODO_10,
+35,TEXT_BANIXA102_01495_TODO_11,
+36,TEXT_BANIXA102_01495_TODO_12,
+37,TEXT_BANIXA102_01495_TODO_13,
+38,TEXT_BANIXA102_01495_TODO_14,
+39,TEXT_BANIXA102_01495_TODO_15,
+40,TEXT_BANIXA102_01495_TODO_16,
+41,TEXT_BANIXA102_01495_TODO_17,
+42,TEXT_BANIXA102_01495_TODO_18,
+43,TEXT_BANIXA102_01495_TODO_19,
+44,TEXT_BANIXA102_01495_TODO_20,
+45,TEXT_BANIXA102_01495_TODO_21,
+46,TEXT_BANIXA102_01495_TODO_22,
+47,TEXT_BANIXA102_01495_TODO_23,
+48,TEXT_BANIXA102_01495_YAZELAHUATAN_000_000,"Khaaa, khaaa! Stutzt Methuli Cattlan mir Schwanzfedern, wenn ich nicht besorg . Hilfst du mir, Federlose?"
+49,TEXT_BANIXA102_01495_YAZELAHUATAN_000_010,"Pass auf! Um Ballonhülle zu stärken, wir müssen Metallring in Mitte setzen. Ich geb dir Material, khaa, und du machst Ring, klar?"
+50,TEXT_BANIXA102_01495_YAZELAHUATAN_000_020,"Pass auf! Brauchen wir Mittel zum Einwachsen der Ballonhülle, um sie gegen Wasser und Wind abzudichten. Geb ich dir Material, khaa, und du fertigst Wachs, klar?"
+51,TEXT_BANIXA102_01495_YAZELAHUATAN_000_030,"Pass auf! Um Ballonhülle zu stärken, wir brauchen Stoff- und Lederteil. Geb ich dir Material, khaa, und du machst Bauteil, klar?"
+52,TEXT_BANIXA102_01495_YAZELAHUATAN_000_040,"Gehst du nach Mühlenhain und fragst federlose Dametta nach ihrer Arbeitsstätte. Die ist genau richtig für Herstellung von . Schnell, schnell, meine Schwanzfedern sind in Gefahr!"
+53,TEXT_BANIXA102_01495_YAZELAHUATAN_000_050,"Khaa, gehst du nach Mühlenhain und machst  bei Damettas Arbeitsstätte. Khaa, khaa, schnell, meine Schwanzfedern sind in Gefahr!"
+54,TEXT_BANIXA102_01495_DAMETTA_000_060,"Ja, aber natürlich kannst du meine Arbeitsstätte benutzen."
+55,TEXT_BANIXA102_01495_DAMETTA_000_061,"Darf ich dich vorher um einen kleinen Gefallen bitten? Ich müsste dringend ein Proviantpaket ausliefern, aber neuerdings kann sich eine alte Frau ja nicht mehr alleine in den Wald trauen."
+56,TEXT_BANIXA102_01495_DAMETTA_000_062,"Sei so gut und bring das Proviantpaket für mich zu Paulemont an E-Tatts Wachturm. Er wird dir bestimmt  von der letzten Lieferung mitgeben. Bring es mir bitte zurück, ja?"
+57,TEXT_BANIXA102_01495_DAMETTA_000_070,"Ach, du möchtest noch ein Schwätzchen halten? Aber gerne doch! Die Proviantlieferung eilt ja nicht."
+58,TEXT_BANIXA102_01495_DAMETTA_000_071,"Paulemont ist ja so ein fleißiger Soldat. Unermüdlich hält er vor dem Turm Wache, als müsste er niemals schlafen. Zur Stärkung mache ich ihm immer leckeres Essen und frische Mun-Tuy-Milch."
+59,TEXT_BANIXA102_01495_DAMETTA_000_072,"Beides schmeckt ihm immer so gut und gibt ihm Kraft! Ach, was für ein Prachtkerl. Viel stattlicher als mein Mann, der alte Tunichtgut!"
+60,TEXT_BANIXA102_01495_DAMETTA_000_073,"Ach ja, und die Opo-Opos mal wieder ... ganz schön frech, die Biester ... kann man sich ja nicht bieten lassen ... und überhaupt ... <blablabla>"
+61,TEXT_BANIXA102_01495_SYSTEM_100_073,Dametta redet ... und redet ... und redet ...
+62,TEXT_BANIXA102_01495_PAULEMONT_000_080,"Entschuldige mein lautes Magenknurren. Ich warte auf Proviant von Dametta. Diesmal lässt sie ganz schön auf sich warten. Sie ist ja eine herzensgute Frau, aber leider auch sehr geschwätzig. Vermutlich kann sie sich mal wieder nicht losreißen."
+63,TEXT_BANIXA102_01495_PAULEMONT_000_081,"Ach, das ist ja klasse! Endlich etwas zu essen! Kannst du das leere Proviantpaket vom letzten Mal gleich mitnehmen und zu Dametta bringen?"
+64,TEXT_BANIXA102_01495_PAULEMONT_000_090,"Danke für das Essen! Bring bitte das leere Proviantpaket zu Dametta, ja?"
+65,TEXT_BANIXA102_01495_DAMETTA_000_100,"Und, hat es dem guten Jungen geschmeckt? Hoffentlich hat er dir  mitgegeben. Gib es mir bitte, ja? Ach ja, zeig mir bitte auch das Material, das du verarbeiten möchtest! Dann bereite ich die Arbeitsstätte vor."
+66,TEXT_BANIXA102_01495_DAMETTA_000_101,"Ja, das Material taugt etwas, keine Frage. Bitte, fang ruhig an! Die Arbeitsstätte ist bereit!"
+67,TEXT_BANIXA102_01495_DAMETTA_000_110,"Falls das Material nicht reicht oder du mit der Arbeitsstätte nicht zurechtkommst, dann frag mich einfach. Ich bin sicher, wir kriegen das hin."
+68,TEXT_BANIXA102_01495_DAMETTA_100_100,"Na, bist du fertig mit der Arbeit? Dann lass deinen Auftraggeber nicht länger warten! Falls du den Gegenstand verlieren solltest und neu anfertigen musst, kannst du dich gerne wieder bei mir melden."
+69,TEXT_BANIXA102_01495_YAZELAHUATAN_000_130,"Khaa, khaa, hast du ? Zeig her!"
+70,TEXT_BANIXA102_01495_YAZELAHUATAN_000_131,Danke! Meine Schwanzfedern sind gerettet. Methuli wird sie mir nicht mehr stutzen vor Ungeduld!
+71,TEXT_BANIXA102_01495_YAZELAHUATAN_000_132,"Mit Methuli ist nicht zu spaßen, wirklich nicht! Vor allem, wenn's um unseren Traum geht!"
+72,TEXT_BANIXA102_01495_POPMESSAGE_000_200,Die Arbeitsstätte steht dir jetzt zur Verfügung.

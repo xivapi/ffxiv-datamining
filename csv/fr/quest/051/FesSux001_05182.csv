@@ -1,135 +1,132 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_FESSUX001_05182_SEQ_00","* <Emphasis>Cette quête est un événement à durée limitée.</Emphasis>
+0,TEXT_FESSUX001_05182_SEQ_00,"* *Cette quête est un événement à durée limitée.*
 
 Mayaru Moyaru est tout feu tout flamme à l'idée de vous parler des Feux de la Mort."
-1,"TEXT_FESSUX001_05182_SEQ_01","Cette quête ne peut être commencée et effectuée que pendant la durée de l'événement saisonnier correspondant. Pour plus de détails, veuillez consulter The Lodestone.
+1,TEXT_FESSUX001_05182_SEQ_01,"Cette quête ne peut être commencée et effectuée que pendant la durée de l'événement saisonnier correspondant. Pour plus de détails, veuillez consulter The Lodestone.
 
 Mayaru Moyaru vous a proposé de participer à la fête des Feux de la Mort, qui se tient cette année encore à Costa del Sol. Si l'événement vous intéresse, rendez-vous sur place et adressez-vous à Haermaga."
-2,"TEXT_FESSUX001_05182_SEQ_02","Alors que vous vous entreteniez avec Haermaga, vous avez entendu résonner un cri perçant parmi la foule. Il semblerait qu'une créature dangereuse menace la sécurité des par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants. Interrogez la festivalière apeurée pour savoir de quoi il retourne."
-3,"TEXT_FESSUX001_05182_SEQ_03","La festivalière apeurée vous a raconté qu'elle avait vu une créature étrange s'enfuir vers l'est. Tentez de trouver des indices dans cette direction."
-4,"TEXT_FESSUX001_05182_SEQ_04","Selon le festivalier enjoué, la mystérieuse créature était verte et dansait tellement furieusement qu'elle en a laissé tomber quelque chose. Examinez l'objet en question pour continuer votre enquête."
-5,"TEXT_FESSUX001_05182_SEQ_05","Vous vous êtes vite rendu compte que l'objet laissé par la créature était une aiguille verte. Beaudefoin et P'obyano en ont conclu qu'elle appartenait très cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment à un pampa. Cette information a été confirmée par une Memeja affolée quelques instants plus tard. En effet, ses pampas de compagnie se seraient enfuis sans raison. Essayez de les retrouver avant qu'ils ne causent trop de dégâts."
-6,"TEXT_FESSUX001_05182_SEQ_06","Vous avez trouvé un pampa, et grâce à un coup d'éventail, réussi à le calmer. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, il en reste encore six autres à attraper... Travaillez à présent en équipe afin de tous les arrêter grâce à l'éventail que Beaudefoin vous a remis."
-7,"TEXT_FESSUX001_05182_SEQ_07",""
-8,"TEXT_FESSUX001_05182_SEQ_08",""
-9,"TEXT_FESSUX001_05182_SEQ_09",""
-10,"TEXT_FESSUX001_05182_SEQ_10",""
-11,"TEXT_FESSUX001_05182_SEQ_11",""
-12,"TEXT_FESSUX001_05182_SEQ_12",""
-13,"TEXT_FESSUX001_05182_SEQ_13",""
-14,"TEXT_FESSUX001_05182_SEQ_14",""
-15,"TEXT_FESSUX001_05182_SEQ_15",""
-16,"TEXT_FESSUX001_05182_SEQ_16",""
-17,"TEXT_FESSUX001_05182_SEQ_17",""
-18,"TEXT_FESSUX001_05182_SEQ_18",""
-19,"TEXT_FESSUX001_05182_SEQ_19",""
-20,"TEXT_FESSUX001_05182_SEQ_20",""
-21,"TEXT_FESSUX001_05182_SEQ_21",""
-22,"TEXT_FESSUX001_05182_SEQ_22",""
-23,"TEXT_FESSUX001_05182_SEQ_23",""
-24,"TEXT_FESSUX001_05182_TODO_00","Parler à Haermaga, à Costa del Sol"
-25,"TEXT_FESSUX001_05182_TODO_01","Trouver la provenance du cri"
-26,"TEXT_FESSUX001_05182_TODO_02","Obtenir des indices"
-27,"TEXT_FESSUX001_05182_TODO_03","Examiner l'endroit indiqué"
-28,"TEXT_FESSUX001_05182_TODO_04","Trouver le pampa énervé"
-29,"TEXT_FESSUX001_05182_TODO_05",""
-30,"TEXT_FESSUX001_05182_TODO_06",""
-31,"TEXT_FESSUX001_05182_TODO_07",""
-32,"TEXT_FESSUX001_05182_TODO_08",""
-33,"TEXT_FESSUX001_05182_TODO_09",""
-34,"TEXT_FESSUX001_05182_TODO_10",""
-35,"TEXT_FESSUX001_05182_TODO_11",""
-36,"TEXT_FESSUX001_05182_TODO_12",""
-37,"TEXT_FESSUX001_05182_TODO_13",""
-38,"TEXT_FESSUX001_05182_TODO_14",""
-39,"TEXT_FESSUX001_05182_TODO_15",""
-40,"TEXT_FESSUX001_05182_TODO_16",""
-41,"TEXT_FESSUX001_05182_TODO_17",""
-42,"TEXT_FESSUX001_05182_TODO_18",""
-43,"TEXT_FESSUX001_05182_TODO_19",""
-44,"TEXT_FESSUX001_05182_TODO_20",""
-45,"TEXT_FESSUX001_05182_TODO_21",""
-46,"TEXT_FESSUX001_05182_TODO_22",""
-47,"TEXT_FESSUX001_05182_TODO_23",""
-48,"TEXT_FESSUX001_05182_MAYARUMOYARU_000_000","Mais je vous reconnais, <If(PlayerParameter(4))>ma chère<Else/>mon cher</If> aventuri<If(PlayerParameter(4))>ère<Else/>er</If><Indent/>! Il fait encore très chaud, cette année, pas vrai<Indent/>? C'est déjà la saison des Feux de la Mort, rendez-vous compte<Indent/>!"
-49,"TEXT_FESSUX001_05182_MAYARUMOYARU_000_001","Bien le <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>bonsoir<Else/>bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>bonjour<Else/>bonsoir</If></If> chez vous, aventuri<If(PlayerParameter(4))>ère<Else/>er</If><Indent/>! La température ne fait que monter, vous ne trouvez pas<Indent/>? Quoi de plus normal, puisque c'est la saison des Feux de la Mort<Indent/>!"
-50,"TEXT_FESSUX001_05182_MAYARUMOYARU_000_002","Cette fête permet de promouvoir la guilde des aventuriers, alors je compte m'assurer de son succès. J'espère que la par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pa<SoftHyphen/>tion <If(PlayerParameter(4))>d'une héroïne<Else/>d'un héros</If> comme vous donnera envie aux visiteurs de s'informer sur cette or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion<Indent/>!"
-51,"TEXT_FESSUX001_05182_MAYARUMOYARU_000_003","Bien entendu, l'événement principal est notre parcours athlétique de “Pas dans l'tas”<Indent/>! Il y a déjà du monde à Costa del Sol, tous doivent avoir très hâte d'y participer<Indent/>!"
-52,"TEXT_FESSUX001_05182_MAYARUMOYARU_000_004","Autant vous dire que nous avons besoin de toute l'aide possible<Indent/>! Si jamais le cœur vous en dit, allez voir Haermaga à Costa del Sol, c'est l'organisateur en chef."
-53,"TEXT_FESSUX001_05182_MAYARUMOYARU_000_005","Autant vous dire que nous avons besoin de toute l'aide possible<Indent/>! Si jamais le cœur vous en dit, allez voir Haermaga à Costa del Sol, c'est l'organisateur en chef."
-54,"TEXT_FESSUX001_05182_HAERMAGA_000_010","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! C'est Mayaru Moyaru qui t'envoie pour nous aider, j'imagine<Indent/>?"
-55,"TEXT_FESSUX001_05182_HAERMAGA_000_011","Bienvenue aux Feux de la Mort de Costa del Sol<Indent/>! Tu n'es pas d'ici toi, ça se voit. Tu serais pas aventuri<If(PlayerParameter(4))>ère<Else/>er</If>, par hasard<Indent/>? Mais si tu es là pour me proposer ton aide, c'est avec plaisir que j'accepte<Indent/>!"
-56,"TEXT_FESSUX001_05182_HAERMAGA_000_012","Cette année encore, on va tout donner pour que les Feux de la Mort soient une réussite<Indent/>! Laisse-moi t'expliquer ce que nous avons prévu comme programme, d'accord<Indent/>?"
-57,"TEXT_FESSUX001_05182_HAERMAGA_000_013","J'imagine que tu peux entendre les cris de nos valeureux par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants au parcours des héros, “Pas dans l'tas”. T'inquiète pas, tout se passe sans doute bien pour eux<Indent/>!"
-58,"TEXT_FESSUX001_05182_HAERMAGA_000_014","Et une fois que la chaleur sera devenue in<SoftHyphen/>sup<SoftHyphen/>por<SoftHyphen/>ta<SoftHyphen/>ble, nos délicieux sorbets rafraîchiront petits et grands<Indent/>! Nous avons même fait venir des ours blancs très mignons<Indent/>!"
-59,"TEXT_FESSUX001_05182_HAERMAGA_000_015","Ce n'est pas tout<Indent/>! Cette année, on a ajouté une petite touche venue de la culture orientale. Là-bas, ils utilisent de grands éventails pour chasser les mauvais esprits, il paraît."
-60,"TEXT_FESSUX001_05182_HAERMAGA_000_016","Et pour qu'ils soient com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment authentiques, nous avons demandé à des artisans namazu de nous en fabriquer quelques-uns. Ils sont grands et rouges, et re<SoftHyphen/>pré<SoftHyphen/>sen<SoftHyphen/>tent par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment la cérémonie des Feux de la Mort."
-61,"TEXT_FESSUX001_05182_HAERMAGA_000_017","Et pour qu'ils soient com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment authentiques, nous avons demandé à des artisans d'Orient de nous en fabriquer quelques-uns. Ils sont grands et rouges, et re<SoftHyphen/>pré<SoftHyphen/>sen<SoftHyphen/>tent par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment la cérémonie des Feux de la Mort."
-62,"TEXT_FESSUX001_05182_HAERMAGA_000_018","À l'origine, ce festival servait à chasser les bombardos, alors un éventail géant porte-bonheur sera l'accessoire parfait pour que nos visiteurs se souviennent longtemps de ce jour<Indent/>!"
-63,"TEXT_FESSUX001_05182_HAERMAGA_000_019","Nous sommes ravis de voir autant de monde, d'ailleurs<Indent/>! Par contre, comme nous n'avions pas anticipé cette foule, nous manquons de personnel pour assurer la sécurité."
-64,"TEXT_FESSUX001_05182_HAERMAGA_000_020","On a donc de la chance que tu sois là<Indent/>! Personne n'était disponible pour partir en urgence si un problème arrivait..."
-65,"TEXT_FESSUX001_05182_WOMANA05182_000_022","(-Cri de femme-)Aaah<Indent/>! Cette créature est devenue folle<Indent/>! À l'aide<Indent/>!!!"
-66,"TEXT_FESSUX001_05182_HAERMAGA_000_023","T'as entendu<Indent/>? C'est terrible<Indent/>! Il ne faut pas que la panique se répande parmi les visiteurs<Indent/>!"
-67,"TEXT_FESSUX001_05182_HAERMAGA_000_024","Vite, il faut faire quelque chose<Indent/>! Je me charge de calmer les gens ici, alors va voir vers le nord pour essayer de trouver la source de ces cris, s'il te plaît<Indent/>!"
-68,"TEXT_FESSUX001_05182_HAERMAGA_000_030","Désolé de te demander ça, mais va vite vers le nord pour régler ce problème, s'il te plaît<Indent/>! Il faut savoir ce qu'il se passe et calmer la situation."
-69,"TEXT_FESSUX001_05182_MANA05182_000_031","La chaleur de l'été me met du baume au cœur<Indent/>!"
-70,"TEXT_FESSUX001_05182_WOMANA05182_000_040","Il y avait une créature terrible, ici<Indent/>! Je vous promets que je n'ai pas rêvé<Indent/>! Elle me fixait, cachée derrière ce rocher, et elle bougeait bizarrement. Elle est partie vers l'est<Indent/>!"
-71,"TEXT_FESSUX001_05182_WOMANA05182_000_041","Et si elle nous attaquait maintenant... Oh non, je veux même pas y penser<Indent/>! Je crois que j'ai besoin d'aller m'allonger..."
-72,"TEXT_FESSUX001_05182_MANA05182_000_050","Hah... hah... Comment c'est possible que ce truc... sache mieux danser que moi...<Indent/>!"
-73,"TEXT_FESSUX001_05182_MANA05182_000_051","J'étais en train de m'entraîner tran<SoftHyphen/>quil<SoftHyphen/>le<SoftHyphen/>ment, quand cette espèce de monstre vert est venu me défier à un duel de danse<Indent/>! Il s'est trémoussé comme un beau diable, et il est reparti aussi vite qu'il est arrivé, une vraie tornade<Indent/>!"
-74,"TEXT_FESSUX001_05182_MANA05182_000_052","Aucune idée de la direction qu'il a prise, mais j'ai eu l'impression qu'il avait fait tomber un truc pendant qu'il dansait..."
-75,"TEXT_FESSUX001_05182_MANA05182_000_053","Enfin bref, peu importe. La mer m'appelle, je vais pas rester ici à attendre que l'été se finisse<Indent/>!"
-76,"TEXT_FESSUX001_05182_MANA05182_000_054","Ah, et tu devrais récupérer ce que la créature a laissé tomber, ça t'aidera peut-être à la retrouver. Allez, salut<Indent/>!"
-77,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_059","(-???-)Ouf, c'est pas trop tôt<Indent/>! On t'a cherché<If(PlayerParameter(4))>e<Else/></If> partout<Indent/>!"
-78,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_060","Ravi de te revoir, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Haermaga nous a demandé de t'aider, alors nous voilà<Indent/>!"
-79,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_061","Je me présente<Indent/>: Beaudefoin, et voici P'obyano. Tu es bien l'aventuri<If(PlayerParameter(4))>ère<Else/>er</If> embauché<If(PlayerParameter(4))>e<Else/></If> par Haermaga pour la sécurité<Indent/>? Il nous a dit que tu aurais sûrement besoin d'aide, alors nous voilà<Indent/>!"
-80,"TEXT_FESSUX001_05182_POBYANO_000_062","Il semble qu'une créature verrrte sème la pagaille dans le festival, as-tu déjà réussi à récolter plus d'in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions à ce sujet<Indent/>?"
-81,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_064","Ah bon, elle a laissé tomber quelque chose<Indent/>? C'est... une aiguille<Indent/>?"
-82,"TEXT_FESSUX001_05182_Q1_000_000","Que dites-vous<Indent/>?"
-83,"TEXT_FESSUX001_05182_A1_000_001","Sûrement un pampa."
-84,"TEXT_FESSUX001_05182_A1_000_002","Peut-être un couturier passionné par la danse."
-85,"TEXT_FESSUX001_05182_BEAUDEFOIN_100_064","Euh, on nous a parlé d'un monstre, pas d'un couturier... Et cette aiguille verte me fait plutôt penser à un pampa, moi."
-86,"TEXT_FESSUX001_05182_POBYANO_000_065","Quoi<Indent/>? Mais qu'est-ce que des pampas feraient dans la Noscea<Indent/>? Ce n'est pas du tout leurrr habitat naturel<Indent/>!"
-87,"TEXT_FESSUX001_05182_MEMEJA_000_066","(-???-)Je... Je suis désolée<Indent/>!"
-88,"TEXT_FESSUX001_05182_POBYANO_000_067","Vous êtes une amie du seigneur Gegeruju, si je ne m'abuse<Indent/>? Je crrrois me souvenir que vous étiez sur la liste des invités."
-89,"TEXT_FESSUX001_05182_MEMEJA_000_068","C'est exact... Je m'appelle Memeja, et j'arrive d'Ul'dah. J'ai été ravie de recevoir votre invitation, mais je ne pouvais pas laisser mes petits seuls à la maison, les pauvres<Indent/>!"
-90,"TEXT_FESSUX001_05182_MEMEJA_000_069","Je suis donc venue avec mes pampas adorés, mais je ne pensais pas qu'ils allaient s'enfuir ainsi<Indent/>!"
-91,"TEXT_FESSUX001_05182_MEMEJA_100_069","Ils ont été très sages quand nous sommes allés saluer Gegeruju, et il était très content de les voir<Indent/>! Il les adore<Indent/>!"
-92,"TEXT_FESSUX001_05182_MEMEJA_000_070","Comme j'ai vu qu'ils se tenaient tranquilles, j'ai voulu en profiter pour aller me chercher une boisson... Mais ils se sont sou<SoftHyphen/>dai<SoftHyphen/>ne<SoftHyphen/>ment mis à galoper dans tous les sens et Gegeruju n'a pas réussi à les retenir."
-93,"TEXT_FESSUX001_05182_MEMEJA_000_071","C'est la première fois qu'ils se comportent de cette façon<Indent/>! Et lorsque je suis revenue, ils avaient tous disparu..."
-94,"TEXT_FESSUX001_05182_POBYANO_000_072","Voilà qui explique comment des pampas ont pu se retrouver dans la Noscea. Néanmoins, notre mission est de prrrotéger les visiteurs du festival. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment... si vos animaux de compagnie menacent leur sécurité, nous n'aurons pas d'autre choix que de les abattre."
-95,"TEXT_FESSUX001_05182_MEMEJA_000_073","Comment ça, les abattre<Indent/>!? M-mais ils ne feraient pas de mal à une mouche<Indent/>! Je les élève depuis qu'ils ne sont que des bulbes, ils ont l'habitude des humains, je vous le promets<Indent/>!"
-96,"TEXT_FESSUX001_05182_POBYANO_000_074","Je comprends, Madame, mais... Écoutez, vous êtes une amie du seigneur Gegeruju, et puisque c'est grâce à lui que les Feux de la Mort peuvent être tenus ici, j'aimerais bien entendu que nous réglions le prrroblème sans en arriver à de telles extrémités."
-97,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_075","Je vous promets que nous ferons tout ce qui est en notre pouvoir pour ne pas devoir les éliminer."
-98,"TEXT_FESSUX001_05182_POBYANO_000_076","Oui, et puis, nous préférons éviter de semer la panique parmi les visiteurs et d'énerrrver les pampas encore plus. Peut-être qu'il serait plus intelligent de s'occuper de ça dis<SoftHyphen/>crè<SoftHyphen/>te<SoftHyphen/>ment, en petit groupe."
-99,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_077","Bien dit<Indent/>! On va régler ce problème de pampas en folie avec calme et panache<Indent/>!"
-100,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_078","Ils n'ont sûrement pas eu le temps de partir bien loin. Séparons-nous, ce sera plus efficace. Je te laisse chercher du côté ouest, d'accord<Indent/>?"
-101,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_090","T'inquiète pas, je m'occupe des environs<Indent/>! Va chercher du côté ouest, s'il te plaît."
-102,"TEXT_FESSUX001_05182_POBYANO_000_091","Mais où est-ce qu'ils sont...<Indent/>? Des pampas en furie ne devraient pourtant pas être difficiles à trrrouver, dans le coin..."
-103,"TEXT_FESSUX001_05182_MEMEJA_000_092","C'est affreux<Indent/>! Je ne sais pas où ils sont, mes pauvres pampas d'amour...<Indent/>!"
-104,"TEXT_FESSUX001_05182_HAERMAGA_000_093","P'obyano m'a informé que des pampas sont en train de semer la pagaille dans le festival. Désolé, mais je compte sur toi pour les attraper."
-105,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_100","Hé, te revoilà<Indent/>! T'en as trouvé un, merveilleux<Indent/>!"
-106,"TEXT_FESSUX001_05182_POBYANO_000_101","Par contre, comment on s'en approche pour pouvoir l'attrrraper<Indent/>?"
-107,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_102","C'est la première fois que je vois un pampa aussi énervé... On dirait qu'il est entouré d'une aura bizarre..."
-108,"TEXT_FESSUX001_05182_MEMEJA_000_103","Ils ne sont pas du tout comme ça, d'habitude<Indent/>! Mais maintenant que j'y pense, Gegeruju m'a dit qu'il avait l'impression qu'ils avaient sou<SoftHyphen/>dai<SoftHyphen/>ne<SoftHyphen/>ment été “possédés”..."
-109,"TEXT_FESSUX001_05182_POBYANO_000_104","Peut-être que c'est à cause de cette espèce de brume, non<Indent/>? Si ça se trouve, ils redeviendront norrrmaux si on les en débarrasse<Indent/>!"
-110,"TEXT_FESSUX001_05182_Q2_000_000","Que dites-vous<Indent/>?"
-111,"TEXT_FESSUX001_05182_A2_000_001","On pourrait utiliser un éventail<Indent/>?"
-112,"TEXT_FESSUX001_05182_A2_000_002","Il faut quelque chose pour chasser cette fumée..."
-113,"TEXT_FESSUX001_05182_POBYANO_000_106","Mais bien sûr<Indent/>! En Orient, c'est avec un éventail qu'ils purifient les mauvais esprits. Peut-être que ceux que Haermaga a fait fabrrriquer pourraient fonctionner<Indent/>!"
-114,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_107","Je m'en charge<Indent/>! Haermaga m'en a justement donné un<Indent/>! Attention aux courants d'air<Indent/>!"
-115,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_108","Hyaaa<Indent/>!!! Alors, t'apprécies la petite brise, hein<Indent/>!?"
-116,"TEXT_FESSUX001_05182_POBYANO_000_109","Génial<Indent/>! Eh ben, c'était facile, finalement."
-117,"TEXT_FESSUX001_05182_MEMEJA_000_110","Euh, pardonnez-moi, mais..."
-118,"TEXT_FESSUX001_05182_MEMEJA_000_111","Vous en avez sauvé un... il y en a six autres à retrouver<Indent/>!"
-119,"TEXT_FESSUX001_05182_MEMEJA_000_112","Celui-ci, c'est Pampinou. Il faut encore retrouver Pampina, Pampinette, Pampipou, et aussi..."
-120,"TEXT_FESSUX001_05182_POBYANO_000_113","Quoi, tant que ça<Indent/>!? J'ai bien peur que nous n'en ayons pas fini avec cette histoirrre..."
-121,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_114","Mais on a déjà fouillé toute l'île... Nous allons devoir aller chercher sur les côtes..."
-122,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_115","Pas le choix. Vous allez chacun prendre un éventail, que vous utiliserez pour calmer les pampas survoltés."
-123,"TEXT_FESSUX001_05182_SYSTEM_000_120","Vous avez appris l'emote <Emphasis>Grand éventail</Emphasis><Indent/>!"
-124,"TEXT_FESSUX001_05182_HAERMAGA_000_021","（★未使用／削除予定★）"
-125,"TEXT_FESSUX001_05182_WOMANAXXXXX_000_022","（★未使用／削除予定★）"
-126,"TEXT_FESSUX001_05182_SYSTEM_000_042","（★未使用／削除予定★）"
-127,"TEXT_FESSUX001_05182_BEAUDEFOIN_000_105","（★未使用／削除予定★）"
+2,TEXT_FESSUX001_05182_SEQ_02,"Alors que vous vous entreteniez avec Haermaga, vous avez entendu résonner un cri perçant parmi la foule. Il semblerait qu'une créature dangereuse menace la sécurité des par­ti­ci­pants. Interrogez la festivalière apeurée pour savoir de quoi il retourne."
+3,TEXT_FESSUX001_05182_SEQ_03,La festivalière apeurée vous a raconté qu'elle avait vu une créature étrange s'enfuir vers l'est. Tentez de trouver des indices dans cette direction.
+4,TEXT_FESSUX001_05182_SEQ_04,"Selon le festivalier enjoué, la mystérieuse créature était verte et dansait tellement furieusement qu'elle en a laissé tomber quelque chose. Examinez l'objet en question pour continuer votre enquête."
+5,TEXT_FESSUX001_05182_SEQ_05,"Vous vous êtes vite rendu compte que l'objet laissé par la créature était une aiguille verte. Beaudefoin et P'obyano en ont conclu qu'elle appartenait très cer­tai­ne­ment à un pampa. Cette information a été confirmée par une Memeja affolée quelques instants plus tard. En effet, ses pampas de compagnie se seraient enfuis sans raison. Essayez de les retrouver avant qu'ils ne causent trop de dégâts."
+6,TEXT_FESSUX001_05182_SEQ_06,"Vous avez trouvé un pampa, et grâce à un coup d'éventail, réussi à le calmer. Mal­heu­reu­se­ment, il en reste encore six autres à attraper... Travaillez à présent en équipe afin de tous les arrêter grâce à l'éventail que Beaudefoin vous a remis."
+7,TEXT_FESSUX001_05182_SEQ_07,
+8,TEXT_FESSUX001_05182_SEQ_08,
+9,TEXT_FESSUX001_05182_SEQ_09,
+10,TEXT_FESSUX001_05182_SEQ_10,
+11,TEXT_FESSUX001_05182_SEQ_11,
+12,TEXT_FESSUX001_05182_SEQ_12,
+13,TEXT_FESSUX001_05182_SEQ_13,
+14,TEXT_FESSUX001_05182_SEQ_14,
+15,TEXT_FESSUX001_05182_SEQ_15,
+16,TEXT_FESSUX001_05182_SEQ_16,
+17,TEXT_FESSUX001_05182_SEQ_17,
+18,TEXT_FESSUX001_05182_SEQ_18,
+19,TEXT_FESSUX001_05182_SEQ_19,
+20,TEXT_FESSUX001_05182_SEQ_20,
+21,TEXT_FESSUX001_05182_SEQ_21,
+22,TEXT_FESSUX001_05182_SEQ_22,
+23,TEXT_FESSUX001_05182_SEQ_23,
+24,TEXT_FESSUX001_05182_TODO_00,"Parler à Haermaga, à Costa del Sol"
+25,TEXT_FESSUX001_05182_TODO_01,Trouver la provenance du cri
+26,TEXT_FESSUX001_05182_TODO_02,Obtenir des indices
+27,TEXT_FESSUX001_05182_TODO_03,Examiner l'endroit indiqué
+28,TEXT_FESSUX001_05182_TODO_04,Trouver le pampa énervé
+29,TEXT_FESSUX001_05182_TODO_05,
+30,TEXT_FESSUX001_05182_TODO_06,
+31,TEXT_FESSUX001_05182_TODO_07,
+32,TEXT_FESSUX001_05182_TODO_08,
+33,TEXT_FESSUX001_05182_TODO_09,
+34,TEXT_FESSUX001_05182_TODO_10,
+35,TEXT_FESSUX001_05182_TODO_11,
+36,TEXT_FESSUX001_05182_TODO_12,
+37,TEXT_FESSUX001_05182_TODO_13,
+38,TEXT_FESSUX001_05182_TODO_14,
+39,TEXT_FESSUX001_05182_TODO_15,
+40,TEXT_FESSUX001_05182_TODO_16,
+41,TEXT_FESSUX001_05182_TODO_17,
+42,TEXT_FESSUX001_05182_TODO_18,
+43,TEXT_FESSUX001_05182_TODO_19,
+44,TEXT_FESSUX001_05182_TODO_20,
+45,TEXT_FESSUX001_05182_TODO_21,
+46,TEXT_FESSUX001_05182_TODO_22,
+47,TEXT_FESSUX001_05182_TODO_23,
+48,TEXT_FESSUX001_05182_MAYARUMOYARU_000_000,"Mais je vous reconnais, ma chère aventurière ! Il fait encore très chaud, cette année, pas vrai ? C'est déjà la saison des Feux de la Mort, rendez-vous compte !"
+49,TEXT_FESSUX001_05182_MAYARUMOYARU_000_001,"Bien le bonsoir chez vous, aventurière ! La température ne fait que monter, vous ne trouvez pas ? Quoi de plus normal, puisque c'est la saison des Feux de la Mort !"
+50,TEXT_FESSUX001_05182_MAYARUMOYARU_000_002,"Cette fête permet de promouvoir la guilde des aventuriers, alors je compte m'assurer de son succès. J'espère que la par­ti­ci­pa­tion d'une héroïne comme vous donnera envie aux visiteurs de s'informer sur cette or­ga­ni­sa­tion !"
+51,TEXT_FESSUX001_05182_MAYARUMOYARU_000_003,"Bien entendu, l'événement principal est notre parcours athlétique de “Pas dans l'tas” ! Il y a déjà du monde à Costa del Sol, tous doivent avoir très hâte d'y participer !"
+52,TEXT_FESSUX001_05182_MAYARUMOYARU_000_004,"Autant vous dire que nous avons besoin de toute l'aide possible ! Si jamais le cœur vous en dit, allez voir Haermaga à Costa del Sol, c'est l'organisateur en chef."
+53,TEXT_FESSUX001_05182_MAYARUMOYARU_000_005,"Autant vous dire que nous avons besoin de toute l'aide possible ! Si jamais le cœur vous en dit, allez voir Haermaga à Costa del Sol, c'est l'organisateur en chef."
+54,TEXT_FESSUX001_05182_HAERMAGA_000_010,"Oh, Player ! C'est Mayaru Moyaru qui t'envoie pour nous aider, j'imagine ?"
+55,TEXT_FESSUX001_05182_HAERMAGA_000_011,"Bienvenue aux Feux de la Mort de Costa del Sol ! Tu n'es pas d'ici toi, ça se voit. Tu serais pas aventurière, par hasard ? Mais si tu es là pour me proposer ton aide, c'est avec plaisir que j'accepte !"
+56,TEXT_FESSUX001_05182_HAERMAGA_000_012,"Cette année encore, on va tout donner pour que les Feux de la Mort soient une réussite ! Laisse-moi t'expliquer ce que nous avons prévu comme programme, d'accord ?"
+57,TEXT_FESSUX001_05182_HAERMAGA_000_013,"J'imagine que tu peux entendre les cris de nos valeureux par­ti­ci­pants au parcours des héros, “Pas dans l'tas”. T'inquiète pas, tout se passe sans doute bien pour eux !"
+58,TEXT_FESSUX001_05182_HAERMAGA_000_014,"Et une fois que la chaleur sera devenue in­sup­por­ta­ble, nos délicieux sorbets rafraîchiront petits et grands ! Nous avons même fait venir des ours blancs très mignons !"
+59,TEXT_FESSUX001_05182_HAERMAGA_000_015,"Ce n'est pas tout ! Cette année, on a ajouté une petite touche venue de la culture orientale. Là-bas, ils utilisent de grands éventails pour chasser les mauvais esprits, il paraît."
+60,TEXT_FESSUX001_05182_HAERMAGA_000_016,"Et pour qu'ils soient com­plè­te­ment authentiques, nous avons demandé à des artisans namazu de nous en fabriquer quelques-uns. Ils sont grands et rouges, et re­pré­sen­tent par­fai­te­ment la cérémonie des Feux de la Mort."
+61,TEXT_FESSUX001_05182_HAERMAGA_000_017,"Et pour qu'ils soient com­plè­te­ment authentiques, nous avons demandé à des artisans d'Orient de nous en fabriquer quelques-uns. Ils sont grands et rouges, et re­pré­sen­tent par­fai­te­ment la cérémonie des Feux de la Mort."
+62,TEXT_FESSUX001_05182_HAERMAGA_000_018,"À l'origine, ce festival servait à chasser les bombardos, alors un éventail géant porte-bonheur sera l'accessoire parfait pour que nos visiteurs se souviennent longtemps de ce jour !"
+63,TEXT_FESSUX001_05182_HAERMAGA_000_019,"Nous sommes ravis de voir autant de monde, d'ailleurs ! Par contre, comme nous n'avions pas anticipé cette foule, nous manquons de personnel pour assurer la sécurité."
+64,TEXT_FESSUX001_05182_HAERMAGA_000_020,On a donc de la chance que tu sois là ! Personne n'était disponible pour partir en urgence si un problème arrivait...
+65,TEXT_FESSUX001_05182_WOMANA05182_000_022,(-Cri de femme-)Aaah ! Cette créature est devenue folle ! À l'aide !!!
+66,TEXT_FESSUX001_05182_HAERMAGA_000_023,T'as entendu ? C'est terrible ! Il ne faut pas que la panique se répande parmi les visiteurs !
+67,TEXT_FESSUX001_05182_HAERMAGA_000_024,"Vite, il faut faire quelque chose ! Je me charge de calmer les gens ici, alors va voir vers le nord pour essayer de trouver la source de ces cris, s'il te plaît !"
+68,TEXT_FESSUX001_05182_HAERMAGA_000_030,"Désolé de te demander ça, mais va vite vers le nord pour régler ce problème, s'il te plaît ! Il faut savoir ce qu'il se passe et calmer la situation."
+69,TEXT_FESSUX001_05182_MANA05182_000_031,La chaleur de l'été me met du baume au cœur !
+70,TEXT_FESSUX001_05182_WOMANA05182_000_040,"Il y avait une créature terrible, ici ! Je vous promets que je n'ai pas rêvé ! Elle me fixait, cachée derrière ce rocher, et elle bougeait bizarrement. Elle est partie vers l'est !"
+71,TEXT_FESSUX001_05182_WOMANA05182_000_041,"Et si elle nous attaquait maintenant... Oh non, je veux même pas y penser ! Je crois que j'ai besoin d'aller m'allonger..."
+72,TEXT_FESSUX001_05182_MANA05182_000_050,Hah... hah... Comment c'est possible que ce truc... sache mieux danser que moi... !
+73,TEXT_FESSUX001_05182_MANA05182_000_051,"J'étais en train de m'entraîner tran­quil­le­ment, quand cette espèce de monstre vert est venu me défier à un duel de danse ! Il s'est trémoussé comme un beau diable, et il est reparti aussi vite qu'il est arrivé, une vraie tornade !"
+74,TEXT_FESSUX001_05182_MANA05182_000_052,"Aucune idée de la direction qu'il a prise, mais j'ai eu l'impression qu'il avait fait tomber un truc pendant qu'il dansait..."
+75,TEXT_FESSUX001_05182_MANA05182_000_053,"Enfin bref, peu importe. La mer m'appelle, je vais pas rester ici à attendre que l'été se finisse !"
+76,TEXT_FESSUX001_05182_MANA05182_000_054,"Ah, et tu devrais récupérer ce que la créature a laissé tomber, ça t'aidera peut-être à la retrouver. Allez, salut !"
+77,TEXT_FESSUX001_05182_BEAUDEFOIN_000_059,"(-???-)Ouf, c'est pas trop tôt ! On t'a cherchée partout !"
+78,TEXT_FESSUX001_05182_BEAUDEFOIN_000_060,"Ravi de te revoir, Player ! Haermaga nous a demandé de t'aider, alors nous voilà !"
+79,TEXT_FESSUX001_05182_BEAUDEFOIN_000_061,"Je me présente : Beaudefoin, et voici P'obyano. Tu es bien l'aventurière embauchée par Haermaga pour la sécurité ? Il nous a dit que tu aurais sûrement besoin d'aide, alors nous voilà !"
+80,TEXT_FESSUX001_05182_POBYANO_000_062,"Il semble qu'une créature verrrte sème la pagaille dans le festival, as-tu déjà réussi à récolter plus d'in­for­ma­tions à ce sujet ?"
+81,TEXT_FESSUX001_05182_BEAUDEFOIN_000_064,"Ah bon, elle a laissé tomber quelque chose ? C'est... une aiguille ?"
+82,TEXT_FESSUX001_05182_Q1_000_000,Que dites-vous ?
+83,TEXT_FESSUX001_05182_A1_000_001,Sûrement un pampa.
+84,TEXT_FESSUX001_05182_A1_000_002,Peut-être un couturier passionné par la danse.
+85,TEXT_FESSUX001_05182_BEAUDEFOIN_100_064,"Euh, on nous a parlé d'un monstre, pas d'un couturier... Et cette aiguille verte me fait plutôt penser à un pampa, moi."
+86,TEXT_FESSUX001_05182_POBYANO_000_065,Quoi ? Mais qu'est-ce que des pampas feraient dans la Noscea ? Ce n'est pas du tout leurrr habitat naturel !
+87,TEXT_FESSUX001_05182_MEMEJA_000_066,(-???-)Je... Je suis désolée !
+88,TEXT_FESSUX001_05182_POBYANO_000_067,"Vous êtes une amie du seigneur Gegeruju, si je ne m'abuse ? Je crrrois me souvenir que vous étiez sur la liste des invités."
+89,TEXT_FESSUX001_05182_MEMEJA_000_068,"C'est exact... Je m'appelle Memeja, et j'arrive d'Ul'dah. J'ai été ravie de recevoir votre invitation, mais je ne pouvais pas laisser mes petits seuls à la maison, les pauvres !"
+90,TEXT_FESSUX001_05182_MEMEJA_000_069,"Je suis donc venue avec mes pampas adorés, mais je ne pensais pas qu'ils allaient s'enfuir ainsi !"
+91,TEXT_FESSUX001_05182_MEMEJA_100_069,"Ils ont été très sages quand nous sommes allés saluer Gegeruju, et il était très content de les voir ! Il les adore !"
+92,TEXT_FESSUX001_05182_MEMEJA_000_070,"Comme j'ai vu qu'ils se tenaient tranquilles, j'ai voulu en profiter pour aller me chercher une boisson... Mais ils se sont sou­dai­ne­ment mis à galoper dans tous les sens et Gegeruju n'a pas réussi à les retenir."
+93,TEXT_FESSUX001_05182_MEMEJA_000_071,"C'est la première fois qu'ils se comportent de cette façon ! Et lorsque je suis revenue, ils avaient tous disparu..."
+94,TEXT_FESSUX001_05182_POBYANO_000_072,"Voilà qui explique comment des pampas ont pu se retrouver dans la Noscea. Néanmoins, notre mission est de prrrotéger les visiteurs du festival. Mal­heu­reu­se­ment... si vos animaux de compagnie menacent leur sécurité, nous n'aurons pas d'autre choix que de les abattre."
+95,TEXT_FESSUX001_05182_MEMEJA_000_073,"Comment ça, les abattre !? M-mais ils ne feraient pas de mal à une mouche ! Je les élève depuis qu'ils ne sont que des bulbes, ils ont l'habitude des humains, je vous le promets !"
+96,TEXT_FESSUX001_05182_POBYANO_000_074,"Je comprends, Madame, mais... Écoutez, vous êtes une amie du seigneur Gegeruju, et puisque c'est grâce à lui que les Feux de la Mort peuvent être tenus ici, j'aimerais bien entendu que nous réglions le prrroblème sans en arriver à de telles extrémités."
+97,TEXT_FESSUX001_05182_BEAUDEFOIN_000_075,Je vous promets que nous ferons tout ce qui est en notre pouvoir pour ne pas devoir les éliminer.
+98,TEXT_FESSUX001_05182_POBYANO_000_076,"Oui, et puis, nous préférons éviter de semer la panique parmi les visiteurs et d'énerrrver les pampas encore plus. Peut-être qu'il serait plus intelligent de s'occuper de ça dis­crè­te­ment, en petit groupe."
+99,TEXT_FESSUX001_05182_BEAUDEFOIN_000_077,Bien dit ! On va régler ce problème de pampas en folie avec calme et panache !
+100,TEXT_FESSUX001_05182_BEAUDEFOIN_000_078,"Ils n'ont sûrement pas eu le temps de partir bien loin. Séparons-nous, ce sera plus efficace. Je te laisse chercher du côté ouest, d'accord ?"
+101,TEXT_FESSUX001_05182_BEAUDEFOIN_000_090,"T'inquiète pas, je m'occupe des environs ! Va chercher du côté ouest, s'il te plaît."
+102,TEXT_FESSUX001_05182_POBYANO_000_091,"Mais où est-ce qu'ils sont... ? Des pampas en furie ne devraient pourtant pas être difficiles à trrrouver, dans le coin..."
+103,TEXT_FESSUX001_05182_MEMEJA_000_092,"C'est affreux ! Je ne sais pas où ils sont, mes pauvres pampas d'amour... !"
+104,TEXT_FESSUX001_05182_HAERMAGA_000_093,"P'obyano m'a informé que des pampas sont en train de semer la pagaille dans le festival. Désolé, mais je compte sur toi pour les attraper."
+105,TEXT_FESSUX001_05182_BEAUDEFOIN_000_100,"Hé, te revoilà ! T'en as trouvé un, merveilleux !"
+106,TEXT_FESSUX001_05182_POBYANO_000_101,"Par contre, comment on s'en approche pour pouvoir l'attrrraper ?"
+107,TEXT_FESSUX001_05182_BEAUDEFOIN_000_102,C'est la première fois que je vois un pampa aussi énervé... On dirait qu'il est entouré d'une aura bizarre...
+108,TEXT_FESSUX001_05182_MEMEJA_000_103,"Ils ne sont pas du tout comme ça, d'habitude ! Mais maintenant que j'y pense, Gegeruju m'a dit qu'il avait l'impression qu'ils avaient sou­dai­ne­ment été “possédés”..."
+109,TEXT_FESSUX001_05182_POBYANO_000_104,"Peut-être que c'est à cause de cette espèce de brume, non ? Si ça se trouve, ils redeviendront norrrmaux si on les en débarrasse !"
+110,TEXT_FESSUX001_05182_Q2_000_000,Que dites-vous ?
+111,TEXT_FESSUX001_05182_A2_000_001,On pourrait utiliser un éventail ?
+112,TEXT_FESSUX001_05182_A2_000_002,Il faut quelque chose pour chasser cette fumée...
+113,TEXT_FESSUX001_05182_POBYANO_000_106,"Mais bien sûr ! En Orient, c'est avec un éventail qu'ils purifient les mauvais esprits. Peut-être que ceux que Haermaga a fait fabrrriquer pourraient fonctionner !"
+114,TEXT_FESSUX001_05182_BEAUDEFOIN_000_107,Je m'en charge ! Haermaga m'en a justement donné un ! Attention aux courants d'air !
+115,TEXT_FESSUX001_05182_BEAUDEFOIN_000_108,"Hyaaa !!! Alors, t'apprécies la petite brise, hein !?"
+116,TEXT_FESSUX001_05182_POBYANO_000_109,"Génial ! Eh ben, c'était facile, finalement."
+117,TEXT_FESSUX001_05182_MEMEJA_000_110,"Euh, pardonnez-moi, mais..."
+118,TEXT_FESSUX001_05182_MEMEJA_000_111,Vous en avez sauvé un... il y en a six autres à retrouver !
+119,TEXT_FESSUX001_05182_MEMEJA_000_112,"Celui-ci, c'est Pampinou. Il faut encore retrouver Pampina, Pampinette, Pampipou, et aussi..."
+120,TEXT_FESSUX001_05182_POBYANO_000_113,"Quoi, tant que ça !? J'ai bien peur que nous n'en ayons pas fini avec cette histoirrre..."
+121,TEXT_FESSUX001_05182_BEAUDEFOIN_000_114,Mais on a déjà fouillé toute l'île... Nous allons devoir aller chercher sur les côtes...
+122,TEXT_FESSUX001_05182_BEAUDEFOIN_000_115,"Pas le choix. Vous allez chacun prendre un éventail, que vous utiliserez pour calmer les pampas survoltés."
+123,TEXT_FESSUX001_05182_SYSTEM_000_120,Vous avez appris l'emote *Grand éventail* !
+124,TEXT_FESSUX001_05182_HAERMAGA_000_021,（★未使用／削除予定★）
+125,TEXT_FESSUX001_05182_WOMANAXXXXX_000_022,（★未使用／削除予定★）
+126,TEXT_FESSUX001_05182_SYSTEM_000_042,（★未使用／削除予定★）
+127,TEXT_FESSUX001_05182_BEAUDEFOIN_000_105,（★未使用／削除予定★）

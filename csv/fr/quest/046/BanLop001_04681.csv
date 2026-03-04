@@ -1,237 +1,234 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANLOP001_04681_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANLOP001_04681_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
-Dreamingway semble vous avoir cherché<If(PlayerParameter(4))>e<Else/></If> dans tout Sharlayan."
-1,"TEXT_BANLOP001_04681_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis> 
+Dreamingway semble vous avoir cherchée dans tout Sharlayan."
+1,TEXT_BANLOP001_04681_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.* 
 
-Vous avez été <If(PlayerParameter(4))>informée<Else/>informé</If> d'une baisse de moral chez les Loporrites. Afin de savoir de quoi il retourne, rejoignez Dreamingway au halot de Bestway."
-2,"TEXT_BANLOP001_04681_SEQ_02","Dreamingway vous a exposé la situation. Adressez-vous aux Loporrites apathiques et recueillez leurs impressions."
-3,"TEXT_BANLOP001_04681_SEQ_03","Les Loporrites apathiques se sont confiés à vous. Retrouvez Dreamingway au halot de Bestway pour lui en faire part."
-4,"TEXT_BANLOP001_04681_SEQ_04","Dreamingway a pris en compte vos in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions et vous avez désormais un plan. En vue d'obtenir les au<SoftHyphen/>to<SoftHyphen/>ri<SoftHyphen/>sa<SoftHyphen/>tions nécessaires auprès de Livingway, retournez voir Dreamingway au halot de Bestway lorsque vous serez <If(PlayerParameter(4))>prête<Else/>prêt</If>."
-5,"TEXT_BANLOP001_04681_SEQ_05","Avec l'aide de Dreamingway, vous êtes parvenus à convaincre Livingway de valider votre plan. Retrouvez Dreamingway au Berceau des espoirs dans le halot de Bestway."
-6,"TEXT_BANLOP001_04681_SEQ_06","Après votre con<SoftHyphen/>ver<SoftHyphen/>sa<SoftHyphen/>tion avec Dreamingway, il vous faut maintenant rassembler les matériaux nécessaires à la première étape de votre projet. Une fois en votre possession, remettez-les à Managingway au Berceau des espoirs."
-7,"TEXT_BANLOP001_04681_SEQ_07","Managingway a bien reçu votre livraison de matériaux. Grâce à vous, Dreamingway et ses amis peuvent commencer à développer cet endroit qu'ils ont appelé les “Ateliers Dreaming”. Les Loporrites, qui vous considèrent comme l'un<If(PlayerParameter(4))>e<Else/></If> des leurs, comptent sur vous pour aménager ensemble ce lieu ludique propice à la concrétisation de tous les rêves."
-8,"TEXT_BANLOP001_04681_SEQ_08",""
-9,"TEXT_BANLOP001_04681_SEQ_09",""
-10,"TEXT_BANLOP001_04681_SEQ_10",""
-11,"TEXT_BANLOP001_04681_SEQ_11",""
-12,"TEXT_BANLOP001_04681_SEQ_12",""
-13,"TEXT_BANLOP001_04681_SEQ_13",""
-14,"TEXT_BANLOP001_04681_SEQ_14",""
-15,"TEXT_BANLOP001_04681_SEQ_15",""
-16,"TEXT_BANLOP001_04681_SEQ_16",""
-17,"TEXT_BANLOP001_04681_SEQ_17",""
-18,"TEXT_BANLOP001_04681_SEQ_18",""
-19,"TEXT_BANLOP001_04681_SEQ_19",""
-20,"TEXT_BANLOP001_04681_SEQ_20",""
-21,"TEXT_BANLOP001_04681_SEQ_21",""
-22,"TEXT_BANLOP001_04681_SEQ_22",""
-23,"TEXT_BANLOP001_04681_SEQ_23",""
-24,"TEXT_BANLOP001_04681_TODO_00","Parler à Dreamingway, au halot de Bestway"
-25,"TEXT_BANLOP001_04681_TODO_01","Parler aux Loporrites apathiques"
-26,"TEXT_BANLOP001_04681_TODO_02","Retourner voir Dreamingway"
-27,"TEXT_BANLOP001_04681_TODO_03","Parler à Dreamingway"
-28,"TEXT_BANLOP001_04681_TODO_04","Reparler à Dreamingway"
-29,"TEXT_BANLOP001_04681_TODO_05","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Managingway</If><Else/></If></If></If></If></If></If></If></If>"
-30,"TEXT_BANLOP001_04681_TODO_06",""
-31,"TEXT_BANLOP001_04681_TODO_07",""
-32,"TEXT_BANLOP001_04681_TODO_08",""
-33,"TEXT_BANLOP001_04681_TODO_09",""
-34,"TEXT_BANLOP001_04681_TODO_10",""
-35,"TEXT_BANLOP001_04681_TODO_11",""
-36,"TEXT_BANLOP001_04681_TODO_12",""
-37,"TEXT_BANLOP001_04681_TODO_13",""
-38,"TEXT_BANLOP001_04681_TODO_14",""
-39,"TEXT_BANLOP001_04681_TODO_15",""
-40,"TEXT_BANLOP001_04681_TODO_16",""
-41,"TEXT_BANLOP001_04681_TODO_17",""
-42,"TEXT_BANLOP001_04681_TODO_18",""
-43,"TEXT_BANLOP001_04681_TODO_19",""
-44,"TEXT_BANLOP001_04681_TODO_20",""
-45,"TEXT_BANLOP001_04681_TODO_21",""
-46,"TEXT_BANLOP001_04681_TODO_22",""
-47,"TEXT_BANLOP001_04681_TODO_23",""
-48,"TEXT_BANLOP001_04681_DREAMINGWAY_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!! Enfin, vous voilà<Indent/>! Je vous cherchais partout<Indent/>!"
-49,"TEXT_BANLOP001_04681_DREAMINGWAY_000_001","Merci encore pour votre aide l'autre fois, au halot de Bestway. C'est moi, Dreamingway, est-ce que vous me remettez<Indent/>?"
-50,"TEXT_BANLOP001_04681_DREAMINGWAY_000_002","（★未使用／削除予定★）"
-51,"TEXT_BANLOP001_04681_Q1_000_000","Que répondez-vous<Indent/>?"
-52,"TEXT_BANLOP001_04681_A1_000_001","Quelle question, bien sûr que je me souviens de toi<Indent/>!"
-53,"TEXT_BANLOP001_04681_A1_000_002","À vrai dire, j'ai du mal à distinguer les Loporrites entre eux..."
-54,"TEXT_BANLOP001_04681_DREAMINGWAY_000_003","Je reconnais bien là votre perspicacité légendaire<Indent/>! Vous ne pouviez pas m'avoir oublié, c'est l'évidence même<Indent/>!"
-55,"TEXT_BANLOP001_04681_DREAMINGWAY_000_004","<If(PlayerParameter(4))> Sacrée<Else/>Sacré</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Vous me faites marcher<Indent/>! C'est tout de même grâce à vous que j'ai trouvé un sens concret à mon nom, et que je me suis découvert une passion pour la musique<Indent/>!"
-56,"TEXT_BANLOP001_04681_DREAMINGWAY_100_004","Je vois que j'ai réussi à vous rafraîchir la mémoire<Indent/>!? Quel soulagement<Indent/>!"
-57,"TEXT_BANLOP001_04681_DREAMINGWAY_000_005","Quoi qu'il en soit, je suis venu vous chercher sur Ætherys, car j'ai encore une fois besoin de votre aide. C'est une longue histoire, mais j'espère que vous aurez la gentillesse de m'écouter jusqu'au bout<Indent/>!"
-58,"TEXT_BANLOP001_04681_DREAMINGWAY_000_006","（★未使用／削除予定★）"
-59,"TEXT_BANLOP001_04681_DREAMINGWAY_000_007","Depuis leur naissance, les Loporrites se sont voués à aménager la lune pour accueillir les êtres humains, en prévision de l'apocalypse à venir."
-60,"TEXT_BANLOP001_04681_DREAMINGWAY_000_008","Mais grâce à vous et à vos compagnons, l'ultime catastrophe a été évitée... Et ne vous méprenez pas, nous sommes tous vraiment très heureux de cette tournure des événements<Indent/>!"
-61,"TEXT_BANLOP001_04681_DREAMINGWAY_000_009","Néanmoins, votre victoire s'est également traduite par l'abandon de notre projet d'arche destinée à sauver l'humanité..."
-62,"TEXT_BANLOP001_04681_DREAMINGWAY_000_010","Nous partageons tous votre joie face à ce dénouement inespéré... Mais de plus en plus de Loporrites ont le sentiment d'avoir perdu leur raison d'être, et certains d'entre nous sont depuis tombés dans l'indolence la plus totale..."
-63,"TEXT_BANLOP001_04681_DREAMINGWAY_000_011","Pour ma part, je compte bien poursuivre mon rêve et me consacrer à cet art merveilleux qu'est la musique. D'ailleurs, je vous remercie encore de m'avoir ouvert les yeux et surtout les oreilles, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-64,"TEXT_BANLOP001_04681_DREAMINGWAY_000_012","Si je n'avais pas eu la chance de vous rencontrer, je serais cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment moi aussi devenu un Loporrite tout mollasson à l'heure qu'il est. Je ne peux donc pas rester les bras croisés, je dois absolument offrir cette même opportunité à mes congénères<Indent/>!"
-65,"TEXT_BANLOP001_04681_DREAMINGWAY_000_013","（★未使用／削除予定★）"
-66,"TEXT_BANLOP001_04681_DREAMINGWAY_000_014","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je vous en prie<Indent/>! Vous voulez bien m'aider à remonter le moral des miens<Indent/>?"
-67,"TEXT_BANLOP001_04681_DREAMINGWAY_000_015","Youpi<Indent/>! J'étais certain que vous accepteriez de nous prêter main-forte une fois de plus<Indent/>!"
-68,"TEXT_BANLOP001_04681_DREAMINGWAY_000_016","Mais avant toute chose, je pense qu'il serait judicieux que vous constatiez la situation par vous-même... On se retrouve au halot de Bestway<Indent/>?"
-69,"TEXT_BANLOP001_04681_DREAMINGWAY_000_017","Super<Indent/>! Je pars devant. À très vite, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Et merci encore d'avoir bien voulu nous porter assistance, je vous attends là-haut<Indent/>!"
-70,"TEXT_BANLOP001_04681_DREAMINGWAY_000_020","Merci d'être <If(PlayerParameter(4))>venue<Else/>venu</If> si vite, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Comme convenu, vous voulez bien aller juger par vous-même du moral de mes semblables<Indent/>?"
-71,"TEXT_BANLOP001_04681_DREAMINGWAY_000_021","Je suis certain que vous n'aurez aucun mal à repérer des Loporrites apathiques en faisant un petit tour du halot de Bestway. N'hésitez pas à leur adresser la parole quand vous les débusquerez<Indent/>!"
-72,"TEXT_BANLOP001_04681_DREAMINGWAY_000_022","（★未使用／削除予定★）"
-73,"TEXT_BANLOP001_04681_DREAMINGWAY_000_023","Retrouvons-nous ici même quand vous aurez terminé<Indent/>! Je compte sur vous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-74,"TEXT_BANLOP001_04681_DREAMINGWAY_000_024","Retrouvons-nous ici même quand vous aurez terminé<Indent/>! Je compte sur vous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-75,"TEXT_BANLOP001_04681_LOPORRITA04681_000_030","Vous trouvez que je n'ai pas bonne mine<Indent/>? Comment pourrais-je avoir le moral en sachant que je me suis tué à la tâche pour rien<Indent/>!"
-76,"TEXT_BANLOP001_04681_LOPORRITA04681_000_031","Oui, j'ai bien entendu parler du projet de Livingway consistant à archiver le savoir d'Ætherys sur la lune."
-77,"TEXT_BANLOP001_04681_LOPORRITA04681_000_032","J'ai ef<SoftHyphen/>fec<SoftHyphen/>ti<SoftHyphen/>ve<SoftHyphen/>ment aperçu quelques humains dans les parages, mais ce n'était qu'une infime partie de la population estimée..."
-78,"TEXT_BANLOP001_04681_LOPORRITA04681_000_033","Donc j'imagine que, contrairement à nos attentes, nous n'aurons pas d'afflux massif de visiteurs prêts à s'installer sur la lune, n'est-ce pas<Indent/>? Laisser à l'abandon le secteur d'habitation que nous avons passé tant de temps à construire, ça me file un de ces bourdons..."
-79,"TEXT_BANLOP001_04681_LOPORRITA04681_000_034","（★未使用／削除予定★）"
-80,"TEXT_BANLOP001_04681_LOPORRITA04681_000_035","Apparemment, Livingway aimerait reconvertir la lune à d'autres usages... Mais j'imagine que la probabilité d'avoir un afflux massif de visiteurs prêts à s'y installer reste faible, n'est-ce pas<Indent/>? "
-81,"TEXT_BANLOP001_04681_LOPORRITA04681_000_036","Pendant toutes ces années, nous nous sommes préparés au mieux à l'arrivée des humains. La simple idée que le secteur d'habitation ainsi que tout ce qu'il contient resteront à l'abandon m'est in<SoftHyphen/>sup<SoftHyphen/>por<SoftHyphen/>ta<SoftHyphen/>ble..."
-82,"TEXT_BANLOP001_04681_LOPORRITA04681_000_037","（★未使用／削除予定★）"
-83,"TEXT_BANLOP001_04681_LOPORRITB04681_000_038","（★未使用／削除予定★）"
-84,"TEXT_BANLOP001_04681_LOPORRITB04681_000_039","（★未使用／削除予定★）"
-85,"TEXT_BANLOP001_04681_LOPORRITB04681_000_040","（★未使用／削除予定★）"
-86,"TEXT_BANLOP001_04681_LOPORRITB04681_100_040","（★未使用／削除予定★）"
-87,"TEXT_BANLOP001_04681_LOPORRITB04681_000_041","(soupire)... À quoi bon produire toutes ces carottes, si nous ne pouvons pas les partager avec les habitants d'Ætherys<Indent/>?"
-88,"TEXT_BANLOP001_04681_LOPORRITB04681_000_042","Jour après jour, nous allons cultiver des carottes, les manger, puis cultiver d'autres carottes et les manger aussi... Encore et encore, comme un cycle sans fin."
-89,"TEXT_BANLOP001_04681_LOPORRITB04681_000_043","Comme si l'existence des Loporrites se résumait aux carottes, bon sang<Indent/>!"
-90,"TEXT_BANLOP001_04681_LOPORRITC04681_000_044","（★未使用／削除予定★）"
-91,"TEXT_BANLOP001_04681_LOPORRITC04681_000_045","（★未使用／削除予定★）"
-92,"TEXT_BANLOP001_04681_LOPORRITC04681_000_046","（★未使用／削除予定★）"
-93,"TEXT_BANLOP001_04681_LOPORRITC04681_000_047","Vous vous êtes déjà senti<If(PlayerParameter(4))>e<Else/></If> empli<If(PlayerParameter(4))>e<Else/></If> d'une grande tristesse, sans pour autant en comprendre la cause<Indent/>? Ces temps-ci, je me surprends parfois à essuyer des larmes qui se mettent inopinément à couler sur mes joues..."
-94,"TEXT_BANLOP001_04681_LOPORRITC04681_000_048","Pourtant, mes semblables sont toujours à mes côtés, ce n'est pas comme si j'étais livré à moi-même... C'est étrange, vous ne trouvez pas<Indent/>?"
-95,"TEXT_BANLOP001_04681_LOPORRITC04681_000_049","（★未使用／削除予定★）"
-96,"TEXT_BANLOP001_04681_LOPORRITA04681_000_050","Tout le secteur d'habitation que nous avons passé tant de temps à construire avec amour, laissé ainsi à l'abandon..."
-97,"TEXT_BANLOP001_04681_LOPORRITB04681_000_051","Jour après jour, nous allons cultiver des carottes, les manger, puis cultiver d'autres carottes et les manger aussi... Encore et encore, comme un cycle sans fin."
-98,"TEXT_BANLOP001_04681_LOPORRITC04681_000_052","Mes semblables sont toujours à mes côtés, ce n'est pas comme si j'étais livré à moi-même... C'est étrange, vous ne trouvez pas<Indent/>?"
-99,"TEXT_BANLOP001_04681_LOPORRITA04681_000_053","Pendant toutes ces années, nous nous sommes préparés au mieux à l'arrivée des humains. La simple idée que le secteur d'habitation ainsi que tout ce qu'il contient resteront à l'abandon m'est in<SoftHyphen/>sup<SoftHyphen/>por<SoftHyphen/>ta<SoftHyphen/>ble..."
-100,"TEXT_BANLOP001_04681_LOPORRITB04681_000_054","（★未使用／削除予定★）"
-101,"TEXT_BANLOP001_04681_LOPORRITC04681_000_055","（★未使用／削除予定★）"
-102,"TEXT_BANLOP001_04681_DREAMINGWAY_000_060","Oh, vous revoilà<Indent/>! Vous êtes <If(PlayerParameter(4))>parvenue<Else/>parvenu</If> à jauger le moral des troupes<Indent/>?"
-103,"TEXT_BANLOP001_04681_DREAMINGWAY_000_061","Je sais que d'autres Loporrites sont également dans un état lamentable... Une idée pour leur redonner du poil de la bête<Indent/>?"
-104,"TEXT_BANLOP001_04681_Q2_000_000","Que répondez-vous<Indent/>?"
-105,"TEXT_BANLOP001_04681_A2_000_001","Et si nous les aidions à rêver tous ensemble<Indent/>?"
-106,"TEXT_BANLOP001_04681_A2_000_002","Et si tu les incluais dans ton rêve<Indent/>?"
-107,"TEXT_BANLOP001_04681_DREAMINGWAY_000_062","Les aider à rêver tous ensemble... J'ai comme une sensation de déjà-vu..."
-108,"TEXT_BANLOP001_04681_DREAMINGWAY_000_063","Les inclure dans mon rêve... C'est comme si..."
-109,"TEXT_BANLOP001_04681_DREAMINGWAY_000_064","Aah<Indent/>! Je vois<Indent/>! Les Loporrites apathiques sont dans le même état que moi avant que je vous rencontre et que je découvre mon engouement pour la musique<Indent/>!"
-110,"TEXT_BANLOP001_04681_DREAMINGWAY_000_065","（★未使用／削除予定★）"
-111,"TEXT_BANLOP001_04681_DREAMINGWAY_000_066","（★未使用／削除予定★）"
-112,"TEXT_BANLOP001_04681_DREAMINGWAY_000_067","（★未使用／削除予定★）"
-113,"TEXT_BANLOP001_04681_DREAMINGWAY_000_068","Donc idéalement, il leur faudrait le même déclic... À savoir, dénicher une activité favorite<Indent/>!"
-114,"TEXT_BANLOP001_04681_DREAMINGWAY_000_069","J'ai peut-être une idée, vous allez me dire ce que vous en pensez..."
-115,"TEXT_BANLOP001_04681_DREAMINGWAY_000_070","Nous pourrions essayer de rassembler tous les Loporrites qui ont déjà une passion et leur offrir un lieu où ils seraient libres de l'exprimer..."
-116,"TEXT_BANLOP001_04681_DREAMINGWAY_000_071","Cette initiative pourrait pousser certains à les rejoindre, ou peut-être même inspirer de nouvelles vocations à d'autres<Indent/>!"
-117,"TEXT_BANLOP001_04681_DREAMINGWAY_000_072","Mais si nous voulons créer cet espace, nous ne pourrons pas nous passer de l'au<SoftHyphen/>to<SoftHyphen/>ri<SoftHyphen/>sa<SoftHyphen/>tion de Livingway..."
-118,"TEXT_BANLOP001_04681_DREAMINGWAY_000_073","Je pense qu'elle devrait se trouver au niveau supérieur... V-vous voulez bien m'accompagner, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>?"
-119,"TEXT_BANLOP001_04681_DREAMINGWAY_100_080","Ah<Indent/>! Livingway est là<Indent/>!"
-120,"TEXT_BANLOP001_04681_LIVINGWAY_110_080","N'est-ce pas là <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, <If(PlayerParameter(4))>ma collaboratrice favorite<Else/>mon collaborateur favori</If><Indent/>! Bien le bonjour<Indent/>!"
-121,"TEXT_BANLOP001_04681_LIVINGWAY_000_080","Je vois que Dreamingway vous accompagne. Mon petit doigt me dit que vous avez quelque chose à me demander, je me trompe<Indent/>?"
-122,"TEXT_BANLOP001_04681_DREAMINGWAY_000_081","En fait... Euh... Oui<Indent/>! Il y a bien un point que nous aimerions aborder avec toi..."
-123,"TEXT_BANLOP001_04681_DREAMINGWAY_000_082","（★未使用／削除予定★）"
-124,"TEXT_BANLOP001_04681_LIVINGWAY_000_083","Je vois, je vois... Ton plan tombe vraiment à pic, car j'avais moi aussi remarqué une récente baisse de la motivation de nos collègues, et j'étais justement en train de me creuser la tête afin de trouver une solution durable à ce problème épineux..."
-125,"TEXT_BANLOP001_04681_LIVINGWAY_000_084","（★未使用／削除予定★）"
-126,"TEXT_BANLOP001_04681_LIVINGWAY_000_085","C'est décidé<Indent/>! Dreamingway, je te laisse carte blanche. Tu as mon aval<Indent/>!"
-127,"TEXT_BANLOP001_04681_LIVINGWAY_000_086","（★未使用／削除予定★）"
-128,"TEXT_BANLOP001_04681_LIVINGWAY_000_087","D'ailleurs, ne perdons pas de temps. Je connais justement des Loporrites passionnés et prêts à partager leurs aspirations, conformément à votre projet. Un instant, je vais les chercher."
-129,"TEXT_BANLOP001_04681_LIVINGWAY_000_088","Merci de nous avoir attendus. Permettez-moi de faire les pré<SoftHyphen/>sen<SoftHyphen/>ta<SoftHyphen/>tions."
-130,"TEXT_BANLOP001_04681_LIVINGWAY_000_089","Coiningway est notre expert agréé en matière d'économie. Son rêve est d'un jour pouvoir frapper sa propre monnaie."
-131,"TEXT_BANLOP001_04681_LIVINGWAY_000_090","Nous devons récompenser ceux qui vont nous prêter patte forte, et c'est Coiningway qui s'en chargera<Indent/>!"
-132,"TEXT_BANLOP001_04681_LIVINGWAY_000_091","（★未使用／削除予定★）"
-133,"TEXT_BANLOP001_04681_COININGWAY_000_091","Hé hé... Le temps est enfin venu de vous montrer de quoi je suis capable<Indent/>! Une fois que j'aurai mis en place mon écosystème économique adapté à la lune, qui m'occupe depuis quelque temps déjà, les investisseurs se bousculeront à nos portes<Indent/>!"
-134,"TEXT_BANLOP001_04681_LIVINGWAY_000_092","Et voici Managingway, qui s'occupait jusqu'à présent de l'attribution des ressources du projet d'adaptation de l'environnement lunaire, ainsi que du suivi de l'avancement des tâches de chacun."
-135,"TEXT_BANLOP001_04681_LIVINGWAY_000_093","Mais l'heureux dénouement de l'apocalypse a mis un terme à cette entreprise. Désœuvré, il ne savait plus comment canaliser son énergie débordante, et je suis certaine que votre projet est idéal pour lui remettre le pied à l'étrier."
-136,"TEXT_BANLOP001_04681_MANAGINGWAY_000_094","D'après mon expertise, sans gestion rigoureuse, vos plans sont voués à un échec certain... Heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment pour vous, je suis le Loporrite de la situation<Indent/>!"
-137,"TEXT_BANLOP001_04681_MANAGINGWAY_100_094","（★未使用／削除予定★）"
-138,"TEXT_BANLOP001_04681_DREAMINGWAY_000_095","Oooh<Indent/>! Je me sens entre de bonnes pattes avec ces deux incroyables compères à mes côtés. Merci beaucoup, Livingway<Indent/>!"
-139,"TEXT_BANLOP001_04681_DREAMINGWAY_000_096","（★未使用／削除予定★）"
-140,"TEXT_BANLOP001_04681_DREAMINGWAY_100_096","Ah, et j'allais oublier<Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, j'ai aussi une faveur à vous demander<Indent/>!"
-141,"TEXT_BANLOP001_04681_DREAMINGWAY_000_097","Je peux compter sur vous pour continuer de suivre de près ce projet<Indent/>? J'ai le sentiment que tôt ou tard, nous nous heurterons à un problème que nous n'arriverons pas à régler par nous-mêmes... Je serais plus rassuré si vous étiez dans les parages<Indent/>!"
-142,"TEXT_BANLOP001_04681_MANAGINGWAY_100_097","... Ahem<Indent/>!"
-143,"TEXT_BANLOP001_04681_MANAGINGWAY_110_097","Permettez-moi d'intervenir à ce sujet et de préciser notre besoin. Afin de fabriquer de toutes pièces un lieu propice à la pré<SoftHyphen/>sen<SoftHyphen/>ta<SoftHyphen/>tion du rêve de chacun, l'aide d'<If(PlayerParameter(4))>une<Else/>un</If> artisan<If(PlayerParameter(4))>e<Else/></If> chevronné<If(PlayerParameter(4))>e<Else/></If> est in<SoftHyphen/>dis<SoftHyphen/>pen<SoftHyphen/>sa<SoftHyphen/>ble."
-144,"TEXT_BANLOP001_04681_MANAGINGWAY_120_097","Et qui n'a jamais entendu parler du doigté légendaire de l'incroyable <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> ici <If(PlayerParameter(4))>présente<Else/>présent</If><Indent/>? J'ose espérer que nous pourrons donc compter sur vos talents manuels<Indent/>!"
-145,"TEXT_BANLOP001_04681_Q3_000_000","Que répondez-vous<Indent/>?"
-146,"TEXT_BANLOP001_04681_A3_000_001","（★未使用／削除予定★）"
-147,"TEXT_BANLOP001_04681_A3_000_002","Pas de souci mes p'tits lapins, comptez sur moi<Indent/>!"
-148,"TEXT_BANLOP001_04681_A3_000_003","Je viens de me souvenir que j'ai laissé des carottes sur le feu..."
-149,"TEXT_BANLOP001_04681_DREAMINGWAY_000_098","Youpi<Indent/>! Je savais qu'on pouvait compter sur vous<Indent/>!"
-150,"TEXT_BANLOP001_04681_DREAMINGWAY_000_099","Ah... Oui, c'est manifestement un cas de force majeure..."
-151,"TEXT_BANLOP001_04681_DREAMINGWAY_000_100","Mais... Qu-quooooi<Indent/>!? "
-152,"TEXT_BANLOP001_04681_DREAMINGWAY_000_101","Comment pouvez-vous dire des choses pareilles, après tout ce qu'on a vécu ensemble<Indent/>? Je vous en supplie, <Highlight>ObjectParameter(1)</Highlight>, vous êtes mon seul espoir<Indent/>!"
-153,"TEXT_BANLOP001_04681_DREAMINGWAY_100_101","Youpi<Indent/>! Merci beaucoup<Indent/>!"
-154,"TEXT_BANLOP001_04681_LIVINGWAY_100_102","Bien sûr, Dreamingway, tu feras bien attention à ne pas abuser de la gentillesse de notre <If(PlayerParameter(4))>amie<Else/>ami</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, est-ce bien compris<Indent/>?"
-155,"TEXT_BANLOP001_04681_LIVINGWAY_000_102","Ceci étant dit... Sachez que j'ai d'ores et déjà trouvé un endroit qui me semble par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment adapté à vos futures activités."
-156,"TEXT_BANLOP001_04681_LIVINGWAY_000_103","Derrière cette porte se trouve une pièce qui nous sert de remise. Elle est à vous maintenant, vous pouvez l'utiliser comme bon vous semble<Indent/>!"
-157,"TEXT_BANLOP001_04681_LIVINGWAY_000_104","（★未使用／削除予定★）"
-158,"TEXT_BANLOP001_04681_DREAMINGWAY_000_105","Merci Livingway<Indent/>! Je n'aurais pas <Emphasis>rêvé</Emphasis> mieux<Indent/>!"
-159,"TEXT_BANLOP001_04681_DREAMINGWAY_000_106","Allez, les amis<Indent/>! Allons de ce pas jeter un œil à notre repaire<Indent/>!"
-160,"TEXT_BANLOP001_04681_LIVINGWAY_000_107","(Je serais vraiment heureuse si cela pouvait d'une manière ou d'une autre contribuer à <Emphasis>son</Emphasis> retour parmi nous...)"
-161,"TEXT_BANLOP001_04681_MANAGINGWAY_000_108","C'est donc ici que nous allons laisser la magie opérer... Je me sens empli d'une énergie nouvelle<Indent/>!"
-162,"TEXT_BANLOP001_04681_COININGWAY_000_109","Hmm... C'est même plus grand que ce que j'imaginais<Indent/>!"
-163,"TEXT_BANLOP001_04681_SUPPORTER_000_110","Enchantée<Indent/>! Ma dénomination est “unité d'assistance onirique”. Je suis chargée d'épauler Dreamingway dans sa tâche."
-164,"TEXT_BANLOP001_04681_DREAMINGWAY_000_120","Oooh<Indent/>! Ainsi donc c'est ici que nos rêves vont prendre forme<Indent/>!"
-165,"TEXT_BANLOP001_04681_DREAMINGWAY_000_121","Allez, les amis<Indent/>! Il est temps de retrousser nos manches et de transformer cet endroit en une véritable fabrique à rêves<Indent/>!"
-166,"TEXT_BANLOP001_04681_MANAGINGWAY_000_122","... Ahem<Indent/>!"
-167,"TEXT_BANLOP001_04681_MANAGINGWAY_000_123","Avant de commencer à construire quoi que ce soit, nous devons établir une vision claire du projet et la partager avec tous ses acteurs. Cette démarche devrait nous éviter de commettre des erreurs et par conséquent, de gaspiller du temps et de l'énergie."
-168,"TEXT_BANLOP001_04681_DREAMINGWAY_000_124","A-ah oui, c'est pas faux... Dans ce cas, comme ma passion est la musique, je voudrais installer une scène pour en faire profiter un maximum de monde<Indent/>!"
-169,"TEXT_BANLOP001_04681_COININGWAY_000_126","Et que diriez-vous d'une boutique vendant des produits dérivés<Indent/>? Nous pourrions proposer une vaste gamme d'articles en échange de cette nouvelle monnaie que je compte frapper<Indent/>?"
-170,"TEXT_BANLOP001_04681_COININGWAY_100_126","（★未使用／削除予定★）"
-171,"TEXT_BANLOP001_04681_DREAMINGWAY_110_126","O-oui, c'est bien aussi, j'imagine<Indent/>!"
-172,"TEXT_BANLOP001_04681_COININGWAY_000_127","Très bien, je vais donc me pencher sur la mise en circulation de cette devise et définir le prix des mar<SoftHyphen/>chan<SoftHyphen/>di<SoftHyphen/>ses."
-173,"TEXT_BANLOP001_04681_MANAGINGWAY_000_128","De mon côté, je vais aller m'assurer de l'entière coopération de Buildingway. Son système de con<SoftHyphen/>struc<SoftHyphen/>tion nous sera in<SoftHyphen/>dis<SoftHyphen/>pen<SoftHyphen/>sa<SoftHyphen/>ble pour aménager ces lieux."
-174,"TEXT_BANLOP001_04681_DREAMINGWAY_000_129","（★未使用／削除予定★）"
-175,"TEXT_BANLOP001_04681_DREAMINGWAY_000_130","（★未使用／削除予定★）"
-176,"TEXT_BANLOP001_04681_MANAGINGWAY_000_131","（★未使用／削除予定★）"
-177,"TEXT_BANLOP001_04681_MANAGINGWAY_000_132","（★未使用／削除予定★）"
-178,"TEXT_BANLOP001_04681_DREAMINGWAY_000_133","（★未使用／削除予定★）"
-179,"TEXT_BANLOP001_04681_MANAGINGWAY_000_134","Néanmoins, nous aurons besoin de matériaux de grande qualité, façonnés par <If(PlayerParameter(4))>une<Else/>un</If> artisan<If(PlayerParameter(4))>e<Else/></If> expérimenté<If(PlayerParameter(4))>e<Else/></If>. Nous pouvons toujours compter sur vous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>?"
-180,"TEXT_BANLOP001_04681_MANAGINGWAY_100_134","（★未使用／削除予定★）"
-181,"TEXT_BANLOP001_04681_MANAGINGWAY_110_134","Fort bien<Indent/>! Laissez-moi donc vous donner tous les détails."
-182,"TEXT_BANLOP001_04681_MANAGINGWAY_000_135","<If(PlayerParameter(4))>Très chère<Else/>Très cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, pourriez-vous déployer tout votre savoir-faire et fabriquer une armature métallique avec ces matériaux<Indent/>?"
-183,"TEXT_BANLOP001_04681_MANAGINGWAY_000_136","<If(PlayerParameter(4))>Très chère<Else/>Très cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, pourriez-vous déployer tout votre savoir-faire et fabriquer des coussinets absorbant les chocs avec ces matériaux<Indent/>?"
-184,"TEXT_BANLOP001_04681_MANAGINGWAY_000_137","<If(PlayerParameter(4))>Très chère<Else/>Très cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, pourriez-vous déployer tout votre savoir-faire et synthétiser un revêtement adapté avec ces matériaux<Indent/>?"
-185,"TEXT_BANLOP001_04681_MANAGINGWAY_000_138","Je me suis chargé de rassembler tous les éléments nécessaires à votre travail. Les voici, d'ailleurs."
-186,"TEXT_BANLOP001_04681_MANAGINGWAY_000_139","Si jamais il vous faut davantage de ressources, n'hésitez pas à solliciter l'unité d'assistance onirique. Je lui ai confié un stock important afin qu'elle puisse vous servir de fournisseur. Maintenant, veuillez m'excuser, mais j'ai moi aussi des carottes sur la planche<Indent/>!"
-187,"TEXT_BANLOP001_04681_MANAGINGWAY_000_140","Comment<Indent/>? Il vous faut davantage de matériaux<Indent/>? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
-188,"TEXT_BANLOP001_04681_MANAGINGWAY_000_141","Comment<Indent/>? Il vous faut davantage de matériaux<Indent/>? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
-189,"TEXT_BANLOP001_04681_MANAGINGWAY_000_142","Comment<Indent/>? Il vous faut davantage de matériaux<Indent/>? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
-190,"TEXT_BANLOP001_04681_SUPPORTER_000_143","Un instant, je vous prie... Accès au stock... Erreur<Indent/>! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession<Indent/>!"
-191,"TEXT_BANLOP001_04681_SUPPORTER_000_144","Un instant, je vous prie... Accès au stock... Erreur<Indent/>! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession<Indent/>!"
-192,"TEXT_BANLOP001_04681_SUPPORTER_000_145","Un instant, je vous prie... Accès au stock... Erreur<Indent/>! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession<Indent/>!"
-193,"TEXT_BANLOP001_04681_SUPPORTER_000_146","Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage<Indent/>!"
-194,"TEXT_BANLOP001_04681_SUPPORTER_000_147","Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage<Indent/>!"
-195,"TEXT_BANLOP001_04681_SUPPORTER_000_148","Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage<Indent/>!"
-196,"TEXT_BANLOP001_04681_DREAMINGWAY_000_149","Comme vous l'a expliqué Managingway, nous avons besoin de vos talents d'artisan<If(PlayerParameter(4))>e<Else/></If>. J'ai hâte de voir le fruit de votre travail<Indent/>!"
-197,"TEXT_BANLOP001_04681_COININGWAY_100_149","Comptez sur moi, je me charge de mettre en circulation une nouvelle devise et de définir le prix des produits que nous proposerons ici<Indent/>!"
-198,"TEXT_BANLOP001_04681_MANAGINGWAY_000_150","Êtes-vous parvenu<If(PlayerParameter(4))>e<Else/></If> à réaliser ce que je vous avais demandé<Indent/>?"
-199,"TEXT_BANLOP001_04681_MANAGINGWAY_000_151","Je n'en attendais pas moins <If(PlayerParameter(4))>de la légendaire<Else/>du légendaire</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Le niveau de détail est tout bonnement im<SoftHyphen/>pres<SoftHyphen/>sion<SoftHyphen/>nant<Indent/>!"
-200,"TEXT_BANLOP001_04681_MANAGINGWAY_000_152","J'ai moi aussi terminé mes préparatifs. Allons de ce pas apporter la touche finale à la scène et à l'échoppe<Indent/>!"
-201,"TEXT_BANLOP001_04681_DREAMINGWAY_000_160","Et voici, sous vos yeux ébahis, la scène où s'épanouira mon rêve musical<Indent/>! La <Emphasis>station Musicking</Emphasis> est désormais une réalité<Indent/>!"
-202,"TEXT_BANLOP001_04681_DREAMINGWAY_000_161","Hé hé<Indent/>! C'est pas la classe<Indent/>!?"
-203,"TEXT_BANLOP001_04681_DREAMINGWAY_000_162","Sans plus attendre, envoyez la musique<Indent/>!"
-204,"TEXT_BANLOP001_04681_DREAMINGWAY_000_163","Ici, je peux monter le volume à fond les ballons<Indent/>! Il est impossible de ne pas se mettre à danser en entendant ça<Indent/>!"
-205,"TEXT_BANLOP001_04681_MANAGINGWAY_000_164","C'est la première fois que nous créons un espace consacré aux Loporrites. Qui aurait cru que cela ressemblerait à... ça..."
-206,"TEXT_BANLOP001_04681_COININGWAY_000_165","La boutique est prête, elle aussi. Dès maintenant, vous pouvez acheter tout un tas de produits dérivés avec la nouvelle monnaie que j'ai toujours rêvé d'inaugurer<Indent/>: le <Emphasis>carotus</Emphasis><Indent/>!"
-207,"TEXT_BANLOP001_04681_MANAGINGWAY_000_166","C-ce toboggan aussi est à vendre<Indent/>!? Parviendrons-nous à trouver des clients assez candides pour venir acheter ce genre d'articles<Indent/>?"
-208,"TEXT_BANLOP001_04681_COININGWAY_000_167","Hmm... Sans transition, je me suis également permis de préparer un petit quelque chose de spécial alors que je développais la gamme de mar<SoftHyphen/>chan<SoftHyphen/>di<SoftHyphen/>ses de notre échoppe. Dreamingway, Managingway, si vous voulez bien me suivre..."
-209,"TEXT_BANLOP001_04681_COININGWAY_000_168","Alors<Indent/>? Ne trouvez-vous pas qu'un uniforme génère un plus grand sentiment d'appartenance et d'unité<Indent/>?"
-210,"TEXT_BANLOP001_04681_MANAGINGWAY_000_169","Effectivement, je sens comme un flot de motivation me submerger<Indent/>!"
-211,"TEXT_BANLOP001_04681_COININGWAY_000_170","J'ai préparé des lunettes de soleil juste pour toi, Dreamingway. J'ai entendu dire que les musiciens et les bardes d'Ætherys ont l'habitude de porter des tenues voyantes. Ainsi, tout le monde saura que c'est toi le patron ici<Indent/>!"
-212,"TEXT_BANLOP001_04681_DREAMINGWAY_000_171","Merci infiniment, Coiningway<Indent/>! Je ne sais pas si j'ai l'étoffe d'un chef, mais j'ai vraiment l'impression d'en être un, maintenant<Indent/>!"
-213,"TEXT_BANLOP001_04681_LOPORRIT04681_000_172","J'ai été comme irrésistiblement attiré par cette musique endiablée... Vous faites quoi de beau par ici<Indent/>?"
-214,"TEXT_BANLOP001_04681_DREAMINGWAY_000_173","Merci d'être venu<Indent/>! Vous êtes dans des ateliers où les Loporrites peuvent partager leurs rêves et en découvrir de nouveaux..."
-215,"TEXT_BANLOP001_04681_DREAMINGWAY_000_174","Bienvenue dans les <Emphasis>Ateliers Dreaming</Emphasis><Indent/>! Tant que vous êtes là, laissez-vous donc emporter par cette musique entraînante de mon cru<Indent/>!"
-216,"TEXT_BANLOP001_04681_LOPORRIT04681_000_175","Nos... rêves... Ça a l'air très amusant, mais que sommes-nous supposés faire<Indent/>? Qu'est-ce que vous nous conseillez<Indent/>?"
-217,"TEXT_BANLOP001_04681_MANAGINGWAY_000_176","Hé hé<Indent/>! C'est là que j'entre en piste<Indent/>!"
-218,"TEXT_BANLOP001_04681_DREAMINGWAY_000_177","J'ai été dans la même situation qu'eux autrefois. Ils ne le savent pas encore, mais dans leur for intérieur, il y a quelque chose qui leur tient vraiment à cœur, et qu'ils souhaitent accomplir à tout prix. J'espère que ce Loporrite parviendra lui aussi à trouver sa voie..."
-219,"TEXT_BANLOP001_04681_DREAMINGWAY_000_178","C'est un petit pas pour les Ateliers Dreaming, mais un grand pas pour les Loporrites<Indent/>! Ne nous reposons pas sur nos lauriers, nous venons à peine de commencer..."
-220,"TEXT_BANLOP001_04681_DREAMINGWAY_000_179","Nous devons rassembler davantage de nos semblables et leur montrer une myriade d'activités, afin que leur passion ultime se révèle au grand jour<Indent/>!"
-221,"TEXT_BANLOP001_04681_DREAMINGWAY_000_180","Mais rien ne sera possible sans votre aide précieuse, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Je compte également sur vous à l'avenir, d'accord<Indent/>?"
-222,"TEXT_BANLOP001_04681_TALKINGWAY_000_181","(-???-)(Ils ont l'air de bien s'amuser en petit comité. Pfff, quels imbéciles... Tant de futilités...)"
-223,"TEXT_BANLOP001_04681_SYSTEM_000_182","Les Ateliers Dreaming ont vu le jour avec la création de la station Musicking et de la station boutique<Indent/>!"
-224,"TEXT_BANLOP001_04681_SYSTEM_100_182","Continuez de participer à son développement afin de permettre à un plus grand nombre de Loporrites de découvrir leurs rêves<Indent/>!"
-225,"TEXT_BANLOP001_04681_SYSTEM_000_183","Votre réputation auprès des Loporrites des Ateliers Dreaming est passée à “Ami”."
-226,"TEXT_BANLOP001_04681_SYSTEM_000_184","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Managingway."
-227,"TEXT_BANLOP001_04681_SYSTEM_000_185","En outre, vous pouvez aussi acquérir divers articles auprès de Coiningway. Faites-en bon usage au cours de vos aventures<Indent/>!"
-228,"TEXT_BANLOP001_04681_SYSTEM_000_186","Enfin, le téléporteur du halot de Bestway est activé. Il vous permet désormais de vous rendre directement aux Ateliers Dreaming."
+Vous avez été informée d'une baisse de moral chez les Loporrites. Afin de savoir de quoi il retourne, rejoignez Dreamingway au halot de Bestway."
+2,TEXT_BANLOP001_04681_SEQ_02,Dreamingway vous a exposé la situation. Adressez-vous aux Loporrites apathiques et recueillez leurs impressions.
+3,TEXT_BANLOP001_04681_SEQ_03,Les Loporrites apathiques se sont confiés à vous. Retrouvez Dreamingway au halot de Bestway pour lui en faire part.
+4,TEXT_BANLOP001_04681_SEQ_04,"Dreamingway a pris en compte vos in­for­ma­tions et vous avez désormais un plan. En vue d'obtenir les au­to­ri­sa­tions nécessaires auprès de Livingway, retournez voir Dreamingway au halot de Bestway lorsque vous serez prête."
+5,TEXT_BANLOP001_04681_SEQ_05,"Avec l'aide de Dreamingway, vous êtes parvenus à convaincre Livingway de valider votre plan. Retrouvez Dreamingway au Berceau des espoirs dans le halot de Bestway."
+6,TEXT_BANLOP001_04681_SEQ_06,"Après votre con­ver­sa­tion avec Dreamingway, il vous faut maintenant rassembler les matériaux nécessaires à la première étape de votre projet. Une fois en votre possession, remettez-les à Managingway au Berceau des espoirs."
+7,TEXT_BANLOP001_04681_SEQ_07,"Managingway a bien reçu votre livraison de matériaux. Grâce à vous, Dreamingway et ses amis peuvent commencer à développer cet endroit qu'ils ont appelé les “Ateliers Dreaming”. Les Loporrites, qui vous considèrent comme l'une des leurs, comptent sur vous pour aménager ensemble ce lieu ludique propice à la concrétisation de tous les rêves."
+8,TEXT_BANLOP001_04681_SEQ_08,
+9,TEXT_BANLOP001_04681_SEQ_09,
+10,TEXT_BANLOP001_04681_SEQ_10,
+11,TEXT_BANLOP001_04681_SEQ_11,
+12,TEXT_BANLOP001_04681_SEQ_12,
+13,TEXT_BANLOP001_04681_SEQ_13,
+14,TEXT_BANLOP001_04681_SEQ_14,
+15,TEXT_BANLOP001_04681_SEQ_15,
+16,TEXT_BANLOP001_04681_SEQ_16,
+17,TEXT_BANLOP001_04681_SEQ_17,
+18,TEXT_BANLOP001_04681_SEQ_18,
+19,TEXT_BANLOP001_04681_SEQ_19,
+20,TEXT_BANLOP001_04681_SEQ_20,
+21,TEXT_BANLOP001_04681_SEQ_21,
+22,TEXT_BANLOP001_04681_SEQ_22,
+23,TEXT_BANLOP001_04681_SEQ_23,
+24,TEXT_BANLOP001_04681_TODO_00,"Parler à Dreamingway, au halot de Bestway"
+25,TEXT_BANLOP001_04681_TODO_01,Parler aux Loporrites apathiques
+26,TEXT_BANLOP001_04681_TODO_02,Retourner voir Dreamingway
+27,TEXT_BANLOP001_04681_TODO_03,Parler à Dreamingway
+28,TEXT_BANLOP001_04681_TODO_04,Reparler à Dreamingway
+29,TEXT_BANLOP001_04681_TODO_05,Fabriquer 
+30,TEXT_BANLOP001_04681_TODO_06,
+31,TEXT_BANLOP001_04681_TODO_07,
+32,TEXT_BANLOP001_04681_TODO_08,
+33,TEXT_BANLOP001_04681_TODO_09,
+34,TEXT_BANLOP001_04681_TODO_10,
+35,TEXT_BANLOP001_04681_TODO_11,
+36,TEXT_BANLOP001_04681_TODO_12,
+37,TEXT_BANLOP001_04681_TODO_13,
+38,TEXT_BANLOP001_04681_TODO_14,
+39,TEXT_BANLOP001_04681_TODO_15,
+40,TEXT_BANLOP001_04681_TODO_16,
+41,TEXT_BANLOP001_04681_TODO_17,
+42,TEXT_BANLOP001_04681_TODO_18,
+43,TEXT_BANLOP001_04681_TODO_19,
+44,TEXT_BANLOP001_04681_TODO_20,
+45,TEXT_BANLOP001_04681_TODO_21,
+46,TEXT_BANLOP001_04681_TODO_22,
+47,TEXT_BANLOP001_04681_TODO_23,
+48,TEXT_BANLOP001_04681_DREAMINGWAY_000_000,"Player ! Player !! Enfin, vous voilà ! Je vous cherchais partout !"
+49,TEXT_BANLOP001_04681_DREAMINGWAY_000_001,"Merci encore pour votre aide l'autre fois, au halot de Bestway. C'est moi, Dreamingway, est-ce que vous me remettez ?"
+50,TEXT_BANLOP001_04681_DREAMINGWAY_000_002,（★未使用／削除予定★）
+51,TEXT_BANLOP001_04681_Q1_000_000,Que répondez-vous ?
+52,TEXT_BANLOP001_04681_A1_000_001,"Quelle question, bien sûr que je me souviens de toi !"
+53,TEXT_BANLOP001_04681_A1_000_002,"À vrai dire, j'ai du mal à distinguer les Loporrites entre eux..."
+54,TEXT_BANLOP001_04681_DREAMINGWAY_000_003,"Je reconnais bien là votre perspicacité légendaire ! Vous ne pouviez pas m'avoir oublié, c'est l'évidence même !"
+55,TEXT_BANLOP001_04681_DREAMINGWAY_000_004," Sacrée Player ! Vous me faites marcher ! C'est tout de même grâce à vous que j'ai trouvé un sens concret à mon nom, et que je me suis découvert une passion pour la musique !"
+56,TEXT_BANLOP001_04681_DREAMINGWAY_100_004,Je vois que j'ai réussi à vous rafraîchir la mémoire !? Quel soulagement !
+57,TEXT_BANLOP001_04681_DREAMINGWAY_000_005,"Quoi qu'il en soit, je suis venu vous chercher sur Ætherys, car j'ai encore une fois besoin de votre aide. C'est une longue histoire, mais j'espère que vous aurez la gentillesse de m'écouter jusqu'au bout !"
+58,TEXT_BANLOP001_04681_DREAMINGWAY_000_006,（★未使用／削除予定★）
+59,TEXT_BANLOP001_04681_DREAMINGWAY_000_007,"Depuis leur naissance, les Loporrites se sont voués à aménager la lune pour accueillir les êtres humains, en prévision de l'apocalypse à venir."
+60,TEXT_BANLOP001_04681_DREAMINGWAY_000_008,"Mais grâce à vous et à vos compagnons, l'ultime catastrophe a été évitée... Et ne vous méprenez pas, nous sommes tous vraiment très heureux de cette tournure des événements !"
+61,TEXT_BANLOP001_04681_DREAMINGWAY_000_009,"Néanmoins, votre victoire s'est également traduite par l'abandon de notre projet d'arche destinée à sauver l'humanité..."
+62,TEXT_BANLOP001_04681_DREAMINGWAY_000_010,"Nous partageons tous votre joie face à ce dénouement inespéré... Mais de plus en plus de Loporrites ont le sentiment d'avoir perdu leur raison d'être, et certains d'entre nous sont depuis tombés dans l'indolence la plus totale..."
+63,TEXT_BANLOP001_04681_DREAMINGWAY_000_011,"Pour ma part, je compte bien poursuivre mon rêve et me consacrer à cet art merveilleux qu'est la musique. D'ailleurs, je vous remercie encore de m'avoir ouvert les yeux et surtout les oreilles, Player."
+64,TEXT_BANLOP001_04681_DREAMINGWAY_000_012,"Si je n'avais pas eu la chance de vous rencontrer, je serais cer­tai­ne­ment moi aussi devenu un Loporrite tout mollasson à l'heure qu'il est. Je ne peux donc pas rester les bras croisés, je dois absolument offrir cette même opportunité à mes congénères !"
+65,TEXT_BANLOP001_04681_DREAMINGWAY_000_013,（★未使用／削除予定★）
+66,TEXT_BANLOP001_04681_DREAMINGWAY_000_014,"Player, je vous en prie ! Vous voulez bien m'aider à remonter le moral des miens ?"
+67,TEXT_BANLOP001_04681_DREAMINGWAY_000_015,Youpi ! J'étais certain que vous accepteriez de nous prêter main-forte une fois de plus !
+68,TEXT_BANLOP001_04681_DREAMINGWAY_000_016,"Mais avant toute chose, je pense qu'il serait judicieux que vous constatiez la situation par vous-même... On se retrouve au halot de Bestway ?"
+69,TEXT_BANLOP001_04681_DREAMINGWAY_000_017,"Super ! Je pars devant. À très vite, Player ! Et merci encore d'avoir bien voulu nous porter assistance, je vous attends là-haut !"
+70,TEXT_BANLOP001_04681_DREAMINGWAY_000_020,"Merci d'être venue si vite, Player ! Comme convenu, vous voulez bien aller juger par vous-même du moral de mes semblables ?"
+71,TEXT_BANLOP001_04681_DREAMINGWAY_000_021,Je suis certain que vous n'aurez aucun mal à repérer des Loporrites apathiques en faisant un petit tour du halot de Bestway. N'hésitez pas à leur adresser la parole quand vous les débusquerez !
+72,TEXT_BANLOP001_04681_DREAMINGWAY_000_022,（★未使用／削除予定★）
+73,TEXT_BANLOP001_04681_DREAMINGWAY_000_023,"Retrouvons-nous ici même quand vous aurez terminé ! Je compte sur vous, Player !"
+74,TEXT_BANLOP001_04681_DREAMINGWAY_000_024,"Retrouvons-nous ici même quand vous aurez terminé ! Je compte sur vous, Player !"
+75,TEXT_BANLOP001_04681_LOPORRITA04681_000_030,Vous trouvez que je n'ai pas bonne mine ? Comment pourrais-je avoir le moral en sachant que je me suis tué à la tâche pour rien !
+76,TEXT_BANLOP001_04681_LOPORRITA04681_000_031,"Oui, j'ai bien entendu parler du projet de Livingway consistant à archiver le savoir d'Ætherys sur la lune."
+77,TEXT_BANLOP001_04681_LOPORRITA04681_000_032,"J'ai ef­fec­ti­ve­ment aperçu quelques humains dans les parages, mais ce n'était qu'une infime partie de la population estimée..."
+78,TEXT_BANLOP001_04681_LOPORRITA04681_000_033,"Donc j'imagine que, contrairement à nos attentes, nous n'aurons pas d'afflux massif de visiteurs prêts à s'installer sur la lune, n'est-ce pas ? Laisser à l'abandon le secteur d'habitation que nous avons passé tant de temps à construire, ça me file un de ces bourdons..."
+79,TEXT_BANLOP001_04681_LOPORRITA04681_000_034,（★未使用／削除予定★）
+80,TEXT_BANLOP001_04681_LOPORRITA04681_000_035,"Apparemment, Livingway aimerait reconvertir la lune à d'autres usages... Mais j'imagine que la probabilité d'avoir un afflux massif de visiteurs prêts à s'y installer reste faible, n'est-ce pas ? "
+81,TEXT_BANLOP001_04681_LOPORRITA04681_000_036,"Pendant toutes ces années, nous nous sommes préparés au mieux à l'arrivée des humains. La simple idée que le secteur d'habitation ainsi que tout ce qu'il contient resteront à l'abandon m'est in­sup­por­ta­ble..."
+82,TEXT_BANLOP001_04681_LOPORRITA04681_000_037,（★未使用／削除予定★）
+83,TEXT_BANLOP001_04681_LOPORRITB04681_000_038,（★未使用／削除予定★）
+84,TEXT_BANLOP001_04681_LOPORRITB04681_000_039,（★未使用／削除予定★）
+85,TEXT_BANLOP001_04681_LOPORRITB04681_000_040,（★未使用／削除予定★）
+86,TEXT_BANLOP001_04681_LOPORRITB04681_100_040,（★未使用／削除予定★）
+87,TEXT_BANLOP001_04681_LOPORRITB04681_000_041,"(soupire)... À quoi bon produire toutes ces carottes, si nous ne pouvons pas les partager avec les habitants d'Ætherys ?"
+88,TEXT_BANLOP001_04681_LOPORRITB04681_000_042,"Jour après jour, nous allons cultiver des carottes, les manger, puis cultiver d'autres carottes et les manger aussi... Encore et encore, comme un cycle sans fin."
+89,TEXT_BANLOP001_04681_LOPORRITB04681_000_043,"Comme si l'existence des Loporrites se résumait aux carottes, bon sang !"
+90,TEXT_BANLOP001_04681_LOPORRITC04681_000_044,（★未使用／削除予定★）
+91,TEXT_BANLOP001_04681_LOPORRITC04681_000_045,（★未使用／削除予定★）
+92,TEXT_BANLOP001_04681_LOPORRITC04681_000_046,（★未使用／削除予定★）
+93,TEXT_BANLOP001_04681_LOPORRITC04681_000_047,"Vous vous êtes déjà sentie emplie d'une grande tristesse, sans pour autant en comprendre la cause ? Ces temps-ci, je me surprends parfois à essuyer des larmes qui se mettent inopinément à couler sur mes joues..."
+94,TEXT_BANLOP001_04681_LOPORRITC04681_000_048,"Pourtant, mes semblables sont toujours à mes côtés, ce n'est pas comme si j'étais livré à moi-même... C'est étrange, vous ne trouvez pas ?"
+95,TEXT_BANLOP001_04681_LOPORRITC04681_000_049,（★未使用／削除予定★）
+96,TEXT_BANLOP001_04681_LOPORRITA04681_000_050,"Tout le secteur d'habitation que nous avons passé tant de temps à construire avec amour, laissé ainsi à l'abandon..."
+97,TEXT_BANLOP001_04681_LOPORRITB04681_000_051,"Jour après jour, nous allons cultiver des carottes, les manger, puis cultiver d'autres carottes et les manger aussi... Encore et encore, comme un cycle sans fin."
+98,TEXT_BANLOP001_04681_LOPORRITC04681_000_052,"Mes semblables sont toujours à mes côtés, ce n'est pas comme si j'étais livré à moi-même... C'est étrange, vous ne trouvez pas ?"
+99,TEXT_BANLOP001_04681_LOPORRITA04681_000_053,"Pendant toutes ces années, nous nous sommes préparés au mieux à l'arrivée des humains. La simple idée que le secteur d'habitation ainsi que tout ce qu'il contient resteront à l'abandon m'est in­sup­por­ta­ble..."
+100,TEXT_BANLOP001_04681_LOPORRITB04681_000_054,（★未使用／削除予定★）
+101,TEXT_BANLOP001_04681_LOPORRITC04681_000_055,（★未使用／削除予定★）
+102,TEXT_BANLOP001_04681_DREAMINGWAY_000_060,"Oh, vous revoilà ! Vous êtes parvenue à jauger le moral des troupes ?"
+103,TEXT_BANLOP001_04681_DREAMINGWAY_000_061,Je sais que d'autres Loporrites sont également dans un état lamentable... Une idée pour leur redonner du poil de la bête ?
+104,TEXT_BANLOP001_04681_Q2_000_000,Que répondez-vous ?
+105,TEXT_BANLOP001_04681_A2_000_001,Et si nous les aidions à rêver tous ensemble ?
+106,TEXT_BANLOP001_04681_A2_000_002,Et si tu les incluais dans ton rêve ?
+107,TEXT_BANLOP001_04681_DREAMINGWAY_000_062,Les aider à rêver tous ensemble... J'ai comme une sensation de déjà-vu...
+108,TEXT_BANLOP001_04681_DREAMINGWAY_000_063,Les inclure dans mon rêve... C'est comme si...
+109,TEXT_BANLOP001_04681_DREAMINGWAY_000_064,Aah ! Je vois ! Les Loporrites apathiques sont dans le même état que moi avant que je vous rencontre et que je découvre mon engouement pour la musique !
+110,TEXT_BANLOP001_04681_DREAMINGWAY_000_065,（★未使用／削除予定★）
+111,TEXT_BANLOP001_04681_DREAMINGWAY_000_066,（★未使用／削除予定★）
+112,TEXT_BANLOP001_04681_DREAMINGWAY_000_067,（★未使用／削除予定★）
+113,TEXT_BANLOP001_04681_DREAMINGWAY_000_068,"Donc idéalement, il leur faudrait le même déclic... À savoir, dénicher une activité favorite !"
+114,TEXT_BANLOP001_04681_DREAMINGWAY_000_069,"J'ai peut-être une idée, vous allez me dire ce que vous en pensez..."
+115,TEXT_BANLOP001_04681_DREAMINGWAY_000_070,Nous pourrions essayer de rassembler tous les Loporrites qui ont déjà une passion et leur offrir un lieu où ils seraient libres de l'exprimer...
+116,TEXT_BANLOP001_04681_DREAMINGWAY_000_071,"Cette initiative pourrait pousser certains à les rejoindre, ou peut-être même inspirer de nouvelles vocations à d'autres !"
+117,TEXT_BANLOP001_04681_DREAMINGWAY_000_072,"Mais si nous voulons créer cet espace, nous ne pourrons pas nous passer de l'au­to­ri­sa­tion de Livingway..."
+118,TEXT_BANLOP001_04681_DREAMINGWAY_000_073,"Je pense qu'elle devrait se trouver au niveau supérieur... V-vous voulez bien m'accompagner, Player ?"
+119,TEXT_BANLOP001_04681_DREAMINGWAY_100_080,Ah ! Livingway est là !
+120,TEXT_BANLOP001_04681_LIVINGWAY_110_080,"N'est-ce pas là Player, ma collaboratrice favorite ! Bien le bonjour !"
+121,TEXT_BANLOP001_04681_LIVINGWAY_000_080,"Je vois que Dreamingway vous accompagne. Mon petit doigt me dit que vous avez quelque chose à me demander, je me trompe ?"
+122,TEXT_BANLOP001_04681_DREAMINGWAY_000_081,En fait... Euh... Oui ! Il y a bien un point que nous aimerions aborder avec toi...
+123,TEXT_BANLOP001_04681_DREAMINGWAY_000_082,（★未使用／削除予定★）
+124,TEXT_BANLOP001_04681_LIVINGWAY_000_083,"Je vois, je vois... Ton plan tombe vraiment à pic, car j'avais moi aussi remarqué une récente baisse de la motivation de nos collègues, et j'étais justement en train de me creuser la tête afin de trouver une solution durable à ce problème épineux..."
+125,TEXT_BANLOP001_04681_LIVINGWAY_000_084,（★未使用／削除予定★）
+126,TEXT_BANLOP001_04681_LIVINGWAY_000_085,"C'est décidé ! Dreamingway, je te laisse carte blanche. Tu as mon aval !"
+127,TEXT_BANLOP001_04681_LIVINGWAY_000_086,（★未使用／削除予定★）
+128,TEXT_BANLOP001_04681_LIVINGWAY_000_087,"D'ailleurs, ne perdons pas de temps. Je connais justement des Loporrites passionnés et prêts à partager leurs aspirations, conformément à votre projet. Un instant, je vais les chercher."
+129,TEXT_BANLOP001_04681_LIVINGWAY_000_088,Merci de nous avoir attendus. Permettez-moi de faire les pré­sen­ta­tions.
+130,TEXT_BANLOP001_04681_LIVINGWAY_000_089,Coiningway est notre expert agréé en matière d'économie. Son rêve est d'un jour pouvoir frapper sa propre monnaie.
+131,TEXT_BANLOP001_04681_LIVINGWAY_000_090,"Nous devons récompenser ceux qui vont nous prêter patte forte, et c'est Coiningway qui s'en chargera !"
+132,TEXT_BANLOP001_04681_LIVINGWAY_000_091,（★未使用／削除予定★）
+133,TEXT_BANLOP001_04681_COININGWAY_000_091,"Hé hé... Le temps est enfin venu de vous montrer de quoi je suis capable ! Une fois que j'aurai mis en place mon écosystème économique adapté à la lune, qui m'occupe depuis quelque temps déjà, les investisseurs se bousculeront à nos portes !"
+134,TEXT_BANLOP001_04681_LIVINGWAY_000_092,"Et voici Managingway, qui s'occupait jusqu'à présent de l'attribution des ressources du projet d'adaptation de l'environnement lunaire, ainsi que du suivi de l'avancement des tâches de chacun."
+135,TEXT_BANLOP001_04681_LIVINGWAY_000_093,"Mais l'heureux dénouement de l'apocalypse a mis un terme à cette entreprise. Désœuvré, il ne savait plus comment canaliser son énergie débordante, et je suis certaine que votre projet est idéal pour lui remettre le pied à l'étrier."
+136,TEXT_BANLOP001_04681_MANAGINGWAY_000_094,"D'après mon expertise, sans gestion rigoureuse, vos plans sont voués à un échec certain... Heu­reu­se­ment pour vous, je suis le Loporrite de la situation !"
+137,TEXT_BANLOP001_04681_MANAGINGWAY_100_094,（★未使用／削除予定★）
+138,TEXT_BANLOP001_04681_DREAMINGWAY_000_095,"Oooh ! Je me sens entre de bonnes pattes avec ces deux incroyables compères à mes côtés. Merci beaucoup, Livingway !"
+139,TEXT_BANLOP001_04681_DREAMINGWAY_000_096,（★未使用／削除予定★）
+140,TEXT_BANLOP001_04681_DREAMINGWAY_100_096,"Ah, et j'allais oublier ! Player, j'ai aussi une faveur à vous demander !"
+141,TEXT_BANLOP001_04681_DREAMINGWAY_000_097,"Je peux compter sur vous pour continuer de suivre de près ce projet ? J'ai le sentiment que tôt ou tard, nous nous heurterons à un problème que nous n'arriverons pas à régler par nous-mêmes... Je serais plus rassuré si vous étiez dans les parages !"
+142,TEXT_BANLOP001_04681_MANAGINGWAY_100_097,... Ahem !
+143,TEXT_BANLOP001_04681_MANAGINGWAY_110_097,"Permettez-moi d'intervenir à ce sujet et de préciser notre besoin. Afin de fabriquer de toutes pièces un lieu propice à la pré­sen­ta­tion du rêve de chacun, l'aide d'une artisane chevronnée est in­dis­pen­sa­ble."
+144,TEXT_BANLOP001_04681_MANAGINGWAY_120_097,Et qui n'a jamais entendu parler du doigté légendaire de l'incroyable Player ici présente ? J'ose espérer que nous pourrons donc compter sur vos talents manuels !
+145,TEXT_BANLOP001_04681_Q3_000_000,Que répondez-vous ?
+146,TEXT_BANLOP001_04681_A3_000_001,（★未使用／削除予定★）
+147,TEXT_BANLOP001_04681_A3_000_002,"Pas de souci mes p'tits lapins, comptez sur moi !"
+148,TEXT_BANLOP001_04681_A3_000_003,Je viens de me souvenir que j'ai laissé des carottes sur le feu...
+149,TEXT_BANLOP001_04681_DREAMINGWAY_000_098,Youpi ! Je savais qu'on pouvait compter sur vous !
+150,TEXT_BANLOP001_04681_DREAMINGWAY_000_099,"Ah... Oui, c'est manifestement un cas de force majeure..."
+151,TEXT_BANLOP001_04681_DREAMINGWAY_000_100,Mais... Qu-quooooi !? 
+152,TEXT_BANLOP001_04681_DREAMINGWAY_000_101,"Comment pouvez-vous dire des choses pareilles, après tout ce qu'on a vécu ensemble ? Je vous en supplie, Player Player, vous êtes mon seul espoir !"
+153,TEXT_BANLOP001_04681_DREAMINGWAY_100_101,Youpi ! Merci beaucoup !
+154,TEXT_BANLOP001_04681_LIVINGWAY_100_102,"Bien sûr, Dreamingway, tu feras bien attention à ne pas abuser de la gentillesse de notre amie Player, est-ce bien compris ?"
+155,TEXT_BANLOP001_04681_LIVINGWAY_000_102,Ceci étant dit... Sachez que j'ai d'ores et déjà trouvé un endroit qui me semble par­fai­te­ment adapté à vos futures activités.
+156,TEXT_BANLOP001_04681_LIVINGWAY_000_103,"Derrière cette porte se trouve une pièce qui nous sert de remise. Elle est à vous maintenant, vous pouvez l'utiliser comme bon vous semble !"
+157,TEXT_BANLOP001_04681_LIVINGWAY_000_104,（★未使用／削除予定★）
+158,TEXT_BANLOP001_04681_DREAMINGWAY_000_105,Merci Livingway ! Je n'aurais pas *rêvé* mieux !
+159,TEXT_BANLOP001_04681_DREAMINGWAY_000_106,"Allez, les amis ! Allons de ce pas jeter un œil à notre repaire !"
+160,TEXT_BANLOP001_04681_LIVINGWAY_000_107,(Je serais vraiment heureuse si cela pouvait d'une manière ou d'une autre contribuer à *son* retour parmi nous...)
+161,TEXT_BANLOP001_04681_MANAGINGWAY_000_108,C'est donc ici que nous allons laisser la magie opérer... Je me sens empli d'une énergie nouvelle !
+162,TEXT_BANLOP001_04681_COININGWAY_000_109,Hmm... C'est même plus grand que ce que j'imaginais !
+163,TEXT_BANLOP001_04681_SUPPORTER_000_110,Enchantée ! Ma dénomination est “unité d'assistance onirique”. Je suis chargée d'épauler Dreamingway dans sa tâche.
+164,TEXT_BANLOP001_04681_DREAMINGWAY_000_120,Oooh ! Ainsi donc c'est ici que nos rêves vont prendre forme !
+165,TEXT_BANLOP001_04681_DREAMINGWAY_000_121,"Allez, les amis ! Il est temps de retrousser nos manches et de transformer cet endroit en une véritable fabrique à rêves !"
+166,TEXT_BANLOP001_04681_MANAGINGWAY_000_122,... Ahem !
+167,TEXT_BANLOP001_04681_MANAGINGWAY_000_123,"Avant de commencer à construire quoi que ce soit, nous devons établir une vision claire du projet et la partager avec tous ses acteurs. Cette démarche devrait nous éviter de commettre des erreurs et par conséquent, de gaspiller du temps et de l'énergie."
+168,TEXT_BANLOP001_04681_DREAMINGWAY_000_124,"A-ah oui, c'est pas faux... Dans ce cas, comme ma passion est la musique, je voudrais installer une scène pour en faire profiter un maximum de monde !"
+169,TEXT_BANLOP001_04681_COININGWAY_000_126,Et que diriez-vous d'une boutique vendant des produits dérivés ? Nous pourrions proposer une vaste gamme d'articles en échange de cette nouvelle monnaie que je compte frapper ?
+170,TEXT_BANLOP001_04681_COININGWAY_100_126,（★未使用／削除予定★）
+171,TEXT_BANLOP001_04681_DREAMINGWAY_110_126,"O-oui, c'est bien aussi, j'imagine !"
+172,TEXT_BANLOP001_04681_COININGWAY_000_127,"Très bien, je vais donc me pencher sur la mise en circulation de cette devise et définir le prix des mar­chan­di­ses."
+173,TEXT_BANLOP001_04681_MANAGINGWAY_000_128,"De mon côté, je vais aller m'assurer de l'entière coopération de Buildingway. Son système de con­struc­tion nous sera in­dis­pen­sa­ble pour aménager ces lieux."
+174,TEXT_BANLOP001_04681_DREAMINGWAY_000_129,（★未使用／削除予定★）
+175,TEXT_BANLOP001_04681_DREAMINGWAY_000_130,（★未使用／削除予定★）
+176,TEXT_BANLOP001_04681_MANAGINGWAY_000_131,（★未使用／削除予定★）
+177,TEXT_BANLOP001_04681_MANAGINGWAY_000_132,（★未使用／削除予定★）
+178,TEXT_BANLOP001_04681_DREAMINGWAY_000_133,（★未使用／削除予定★）
+179,TEXT_BANLOP001_04681_MANAGINGWAY_000_134,"Néanmoins, nous aurons besoin de matériaux de grande qualité, façonnés par une artisane expérimentée. Nous pouvons toujours compter sur vous, Player ?"
+180,TEXT_BANLOP001_04681_MANAGINGWAY_100_134,（★未使用／削除予定★）
+181,TEXT_BANLOP001_04681_MANAGINGWAY_110_134,Fort bien ! Laissez-moi donc vous donner tous les détails.
+182,TEXT_BANLOP001_04681_MANAGINGWAY_000_135,"Très chère Player, pourriez-vous déployer tout votre savoir-faire et fabriquer une armature métallique avec ces matériaux ?"
+183,TEXT_BANLOP001_04681_MANAGINGWAY_000_136,"Très chère Player, pourriez-vous déployer tout votre savoir-faire et fabriquer des coussinets absorbant les chocs avec ces matériaux ?"
+184,TEXT_BANLOP001_04681_MANAGINGWAY_000_137,"Très chère Player, pourriez-vous déployer tout votre savoir-faire et synthétiser un revêtement adapté avec ces matériaux ?"
+185,TEXT_BANLOP001_04681_MANAGINGWAY_000_138,"Je me suis chargé de rassembler tous les éléments nécessaires à votre travail. Les voici, d'ailleurs."
+186,TEXT_BANLOP001_04681_MANAGINGWAY_000_139,"Si jamais il vous faut davantage de ressources, n'hésitez pas à solliciter l'unité d'assistance onirique. Je lui ai confié un stock important afin qu'elle puisse vous servir de fournisseur. Maintenant, veuillez m'excuser, mais j'ai moi aussi des carottes sur la planche !"
+187,TEXT_BANLOP001_04681_MANAGINGWAY_000_140,"Comment ? Il vous faut davantage de matériaux ? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
+188,TEXT_BANLOP001_04681_MANAGINGWAY_000_141,"Comment ? Il vous faut davantage de matériaux ? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
+189,TEXT_BANLOP001_04681_MANAGINGWAY_000_142,"Comment ? Il vous faut davantage de matériaux ? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
+190,TEXT_BANLOP001_04681_SUPPORTER_000_143,"Un instant, je vous prie... Accès au stock... Erreur ! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession !"
+191,TEXT_BANLOP001_04681_SUPPORTER_000_144,"Un instant, je vous prie... Accès au stock... Erreur ! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession !"
+192,TEXT_BANLOP001_04681_SUPPORTER_000_145,"Un instant, je vous prie... Accès au stock... Erreur ! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession !"
+193,TEXT_BANLOP001_04681_SUPPORTER_000_146,"Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage !"
+194,TEXT_BANLOP001_04681_SUPPORTER_000_147,"Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage !"
+195,TEXT_BANLOP001_04681_SUPPORTER_000_148,"Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage !"
+196,TEXT_BANLOP001_04681_DREAMINGWAY_000_149,"Comme vous l'a expliqué Managingway, nous avons besoin de vos talents d'artisane. J'ai hâte de voir le fruit de votre travail !"
+197,TEXT_BANLOP001_04681_COININGWAY_100_149,"Comptez sur moi, je me charge de mettre en circulation une nouvelle devise et de définir le prix des produits que nous proposerons ici !"
+198,TEXT_BANLOP001_04681_MANAGINGWAY_000_150,Êtes-vous parvenue à réaliser ce que je vous avais demandé ?
+199,TEXT_BANLOP001_04681_MANAGINGWAY_000_151,Je n'en attendais pas moins de la légendaire Player. Le niveau de détail est tout bonnement im­pres­sion­nant !
+200,TEXT_BANLOP001_04681_MANAGINGWAY_000_152,J'ai moi aussi terminé mes préparatifs. Allons de ce pas apporter la touche finale à la scène et à l'échoppe !
+201,TEXT_BANLOP001_04681_DREAMINGWAY_000_160,"Et voici, sous vos yeux ébahis, la scène où s'épanouira mon rêve musical ! La *station Musicking* est désormais une réalité !"
+202,TEXT_BANLOP001_04681_DREAMINGWAY_000_161,Hé hé ! C'est pas la classe !?
+203,TEXT_BANLOP001_04681_DREAMINGWAY_000_162,"Sans plus attendre, envoyez la musique !"
+204,TEXT_BANLOP001_04681_DREAMINGWAY_000_163,"Ici, je peux monter le volume à fond les ballons ! Il est impossible de ne pas se mettre à danser en entendant ça !"
+205,TEXT_BANLOP001_04681_MANAGINGWAY_000_164,C'est la première fois que nous créons un espace consacré aux Loporrites. Qui aurait cru que cela ressemblerait à... ça...
+206,TEXT_BANLOP001_04681_COININGWAY_000_165,"La boutique est prête, elle aussi. Dès maintenant, vous pouvez acheter tout un tas de produits dérivés avec la nouvelle monnaie que j'ai toujours rêvé d'inaugurer : le *carotus* !"
+207,TEXT_BANLOP001_04681_MANAGINGWAY_000_166,C-ce toboggan aussi est à vendre !? Parviendrons-nous à trouver des clients assez candides pour venir acheter ce genre d'articles ?
+208,TEXT_BANLOP001_04681_COININGWAY_000_167,"Hmm... Sans transition, je me suis également permis de préparer un petit quelque chose de spécial alors que je développais la gamme de mar­chan­di­ses de notre échoppe. Dreamingway, Managingway, si vous voulez bien me suivre..."
+209,TEXT_BANLOP001_04681_COININGWAY_000_168,Alors ? Ne trouvez-vous pas qu'un uniforme génère un plus grand sentiment d'appartenance et d'unité ?
+210,TEXT_BANLOP001_04681_MANAGINGWAY_000_169,"Effectivement, je sens comme un flot de motivation me submerger !"
+211,TEXT_BANLOP001_04681_COININGWAY_000_170,"J'ai préparé des lunettes de soleil juste pour toi, Dreamingway. J'ai entendu dire que les musiciens et les bardes d'Ætherys ont l'habitude de porter des tenues voyantes. Ainsi, tout le monde saura que c'est toi le patron ici !"
+212,TEXT_BANLOP001_04681_DREAMINGWAY_000_171,"Merci infiniment, Coiningway ! Je ne sais pas si j'ai l'étoffe d'un chef, mais j'ai vraiment l'impression d'en être un, maintenant !"
+213,TEXT_BANLOP001_04681_LOPORRIT04681_000_172,J'ai été comme irrésistiblement attiré par cette musique endiablée... Vous faites quoi de beau par ici ?
+214,TEXT_BANLOP001_04681_DREAMINGWAY_000_173,Merci d'être venu ! Vous êtes dans des ateliers où les Loporrites peuvent partager leurs rêves et en découvrir de nouveaux...
+215,TEXT_BANLOP001_04681_DREAMINGWAY_000_174,"Bienvenue dans les *Ateliers Dreaming* ! Tant que vous êtes là, laissez-vous donc emporter par cette musique entraînante de mon cru !"
+216,TEXT_BANLOP001_04681_LOPORRIT04681_000_175,"Nos... rêves... Ça a l'air très amusant, mais que sommes-nous supposés faire ? Qu'est-ce que vous nous conseillez ?"
+217,TEXT_BANLOP001_04681_MANAGINGWAY_000_176,Hé hé ! C'est là que j'entre en piste !
+218,TEXT_BANLOP001_04681_DREAMINGWAY_000_177,"J'ai été dans la même situation qu'eux autrefois. Ils ne le savent pas encore, mais dans leur for intérieur, il y a quelque chose qui leur tient vraiment à cœur, et qu'ils souhaitent accomplir à tout prix. J'espère que ce Loporrite parviendra lui aussi à trouver sa voie..."
+219,TEXT_BANLOP001_04681_DREAMINGWAY_000_178,"C'est un petit pas pour les Ateliers Dreaming, mais un grand pas pour les Loporrites ! Ne nous reposons pas sur nos lauriers, nous venons à peine de commencer..."
+220,TEXT_BANLOP001_04681_DREAMINGWAY_000_179,"Nous devons rassembler davantage de nos semblables et leur montrer une myriade d'activités, afin que leur passion ultime se révèle au grand jour !"
+221,TEXT_BANLOP001_04681_DREAMINGWAY_000_180,"Mais rien ne sera possible sans votre aide précieuse, Player ! Je compte également sur vous à l'avenir, d'accord ?"
+222,TEXT_BANLOP001_04681_TALKINGWAY_000_181,"(-???-)(Ils ont l'air de bien s'amuser en petit comité. Pfff, quels imbéciles... Tant de futilités...)"
+223,TEXT_BANLOP001_04681_SYSTEM_000_182,Les Ateliers Dreaming ont vu le jour avec la création de la station Musicking et de la station boutique !
+224,TEXT_BANLOP001_04681_SYSTEM_100_182,Continuez de participer à son développement afin de permettre à un plus grand nombre de Loporrites de découvrir leurs rêves !
+225,TEXT_BANLOP001_04681_SYSTEM_000_183,Votre réputation auprès des Loporrites des Ateliers Dreaming est passée à “Ami”.
+226,TEXT_BANLOP001_04681_SYSTEM_000_184,Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Managingway.
+227,TEXT_BANLOP001_04681_SYSTEM_000_185,"En outre, vous pouvez aussi acquérir divers articles auprès de Coiningway. Faites-en bon usage au cours de vos aventures !"
+228,TEXT_BANLOP001_04681_SYSTEM_000_186,"Enfin, le téléporteur du halot de Bestway est activé. Il vous permet désormais de vous rendre directement aux Ateliers Dreaming."

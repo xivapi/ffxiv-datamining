@@ -1,160 +1,157 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANYOK001_05330_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANYOK001_05330_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
-Fahrafahr cherche dé<SoftHyphen/>ses<SoftHyphen/>pé<SoftHyphen/>ré<SoftHyphen/>ment quelqu'un capable de lui venir en aide."
-1,"TEXT_BANYOK001_05330_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis> 
+Fahrafahr cherche dé­ses­pé­ré­ment quelqu'un capable de lui venir en aide."
+1,TEXT_BANYOK001_05330_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.* 
 
-Fahrafahr vous a révélé que, récemment, les esprits des neiges se montraient anormalement agressifs et étaient res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bles d'avalanches dévastatrices. Retrouvez-la au relais des Cimes, au sud de L'Écho de Worlar, afin de constater les dégâts."
-2,"TEXT_BANYOK001_05330_SEQ_02","Vous avez accepté de prêter main-forte à Fahrafahr afin de restaurer l'Autel de Zirgorteh. Cependant, face à l'ampleur de cette tâche, vous avez convenu de recruter davantage de travailleurs. Parcourez donc L'Écho de Worlar à la recherche d'habitants prêts à vous aider."
-3,"TEXT_BANYOK001_05330_SEQ_03","De nombreux travailleurs ont accepté de se joindre à vous. Retournez au sud de L'Écho de Worlar pour annoncer la bonne nouvelle à Fahrafahr."
-4,"TEXT_BANYOK001_05330_SEQ_04","Grâce à vos efforts, les travaux de restauration ont pu commencer, mais Fahrafahr a également exprimé son souhait de faire appel à vos talents d'artisan<If(PlayerParameter(4))>e<Else/></If>. Adressez-lui de nouveau la parole lorsque vous serez disposé<If(PlayerParameter(4))>e<Else/></If> à l'aider."
-5,"TEXT_BANYOK001_05330_SEQ_05","Fahrafahr vous a demandé de fabriquer des éléments clefs pour la restauration du gîte de l'Autel de Zirgorteh. Livrez-lui les objets nécessaires, au sud de L'Écho de Worlar."
-6,"TEXT_BANYOK001_05330_SEQ_06","Vous avez remis à Fahrafahr le fruit de votre labeur. Grâce à vous, l'effort de restauration a ainsi franchi une étape décisive, à travers la réparation du gîte qui servira à la fois de logement pour les travailleurs et de centre décisionnel pour le projet. Néanmoins, les esprits des neiges ne pourront pas être apaisés tant que les travaux ne seront pas terminés, et votre aide est plus que jamais cruciale pour permettre aux Yok Huy d'y parvenir<Indent/>!"
-7,"TEXT_BANYOK001_05330_SEQ_07",""
-8,"TEXT_BANYOK001_05330_SEQ_08",""
-9,"TEXT_BANYOK001_05330_SEQ_09",""
-10,"TEXT_BANYOK001_05330_SEQ_10",""
-11,"TEXT_BANYOK001_05330_SEQ_11",""
-12,"TEXT_BANYOK001_05330_SEQ_12",""
-13,"TEXT_BANYOK001_05330_SEQ_13",""
-14,"TEXT_BANYOK001_05330_SEQ_14",""
-15,"TEXT_BANYOK001_05330_SEQ_15",""
-16,"TEXT_BANYOK001_05330_SEQ_16",""
-17,"TEXT_BANYOK001_05330_SEQ_17",""
-18,"TEXT_BANYOK001_05330_SEQ_18",""
-19,"TEXT_BANYOK001_05330_SEQ_19",""
-20,"TEXT_BANYOK001_05330_SEQ_20",""
-21,"TEXT_BANYOK001_05330_SEQ_21",""
-22,"TEXT_BANYOK001_05330_SEQ_22",""
-23,"TEXT_BANYOK001_05330_SEQ_23",""
-24,"TEXT_BANYOK001_05330_TODO_00","Parler à Fahrafahr"
-25,"TEXT_BANYOK001_05330_TODO_01","Demander de l'aide aux habitants de L'Écho de Worlar"
-26,"TEXT_BANYOK001_05330_TODO_02","Parler à Fahrafahr"
-27,"TEXT_BANYOK001_05330_TODO_03","Reparler à Fahrafahr"
-28,"TEXT_BANYOK001_05330_TODO_04","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Fahrafahr</If><Else/> </If></If></If></If></If></If></If></If>"
-29,"TEXT_BANYOK001_05330_TODO_05",""
-30,"TEXT_BANYOK001_05330_TODO_06",""
-31,"TEXT_BANYOK001_05330_TODO_07",""
-32,"TEXT_BANYOK001_05330_TODO_08",""
-33,"TEXT_BANYOK001_05330_TODO_09",""
-34,"TEXT_BANYOK001_05330_TODO_10",""
-35,"TEXT_BANYOK001_05330_TODO_11",""
-36,"TEXT_BANYOK001_05330_TODO_12",""
-37,"TEXT_BANYOK001_05330_TODO_13",""
-38,"TEXT_BANYOK001_05330_TODO_14",""
-39,"TEXT_BANYOK001_05330_TODO_15",""
-40,"TEXT_BANYOK001_05330_TODO_16",""
-41,"TEXT_BANYOK001_05330_TODO_17",""
-42,"TEXT_BANYOK001_05330_TODO_18",""
-43,"TEXT_BANYOK001_05330_TODO_19",""
-44,"TEXT_BANYOK001_05330_TODO_20",""
-45,"TEXT_BANYOK001_05330_TODO_21",""
-46,"TEXT_BANYOK001_05330_TODO_22",""
-47,"TEXT_BANYOK001_05330_TODO_23",""
-48,"TEXT_BANYOK001_05330_FAHRAFAHR_000_001","Ravie de faire ta CONNAISSANCE, étrang<If(PlayerParameter(4))>ère<Else/>er</If>. Je m'appelle Fahrafahr."
-49,"TEXT_BANYOK001_05330_FAHRAFAHR_000_002","Je suis bien EMBÊTÉE, car je ne trouve personne capable de m'aider. Tu ne connaîtrais pas quelqu'un habile de ses MAINS, par hasard<Indent/>?"
-50,"TEXT_BANYOK001_05330_FAHRAFAHR_000_003","Toi<Indent/>? Quelle heureuse coïncidence. Il se trouve que nos montagnes sont en GRAVE DANGER... Tu veux bien m'accorder un moment pour que je t'explique la situation<Indent/>?"
-51,"TEXT_BANYOK001_05330_FAHRAFAHR_000_004","Merci. Récemment, un ancien village, perché sur des SOMMETS ENNEIGÉS proches d'ici, a été dévasté par une violente avalanche."
-52,"TEXT_BANYOK001_05330_FAHRAFAHR_000_005","... Et tout porte à croire que les ESPRITS DES NEIGES d'Urqopacha sont res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bles de cette catastrophe."
-53,"TEXT_BANYOK001_05330_FAHRAFAHR_000_006","D'ordinaire, ils sont très SOCIABLES, et mon peuple les a toujours traités avec amour et respect. Mais pour des raisons qui nous échappent, ils ne DÉCOLÈRENT pas et refusent le dialogue."
-54,"TEXT_BANYOK001_05330_FAHRAFAHR_000_007","On m'a dit qu'il existe un moyen de les APAISER en ac<SoftHyphen/>com<SoftHyphen/>plis<SoftHyphen/>sant la cérémonie des flocons à l'Autel de Zirgorteh..."
-55,"TEXT_BANYOK001_05330_FAHRAFAHR_000_008","Mais ce lieu sacré a lui aussi été VICTIME de la fureur des esprits... Il a été recouvert de neige par une grosse AVALANCHE, ce qui l'a gravement endommagé."
-56,"TEXT_BANYOK001_05330_FAHRAFAHR_000_009","Tant que nous ne réparons pas l'autel, la cérémonie ne peut pas avoir lieu... Et si nous n'intervenons pas RAPIDEMENT, c'est toute la région qui risque d'être touchée. Tu veux bien nous prêter MAIN-FORTE pour calmer les esprits<Indent/>?"
-57,"TEXT_BANYOK001_05330_Q2_000_000","Que répondez-vous<Indent/>?"
-58,"TEXT_BANYOK001_05330_A2_000_001","Bien sûr, mais je dois d'abord constater l'étendue des dégâts."
-59,"TEXT_BANYOK001_05330_A2_000_002","J'ai du mal à me faire une idée de la situation..."
-60,"TEXT_BANYOK001_05330_FAHRAFAHR_000_011","Je comprends... Dans ce cas, dirigeons-nous vers l'Autel de Zirgorteh. Je pourrai te montrer con<SoftHyphen/>crè<SoftHyphen/>te<SoftHyphen/>ment ce dont on a BESOIN."
-61,"TEXT_BANYOK001_05330_FAHRAFAHR_000_012","Pour t'y rendre, il te suffit de gravir les MARCHES au sud de L'Écho de Worlar. Ne t'inquiète pas pour les gardes, je vais leur demander de te laisser passer. J'attends ta venue avec IMPATIENCE<Indent/>!"
-62,"TEXT_BANYOK001_05330_FAHRAFAHR_000_100","Merci d'être venu<If(PlayerParameter(4))>e<Else/></If>, <If(PlayerParameter(4))>chère ARTISANE<Else/>cher ARTISAN</If>. Tiens, j'y pense... Avant qu'on continue, tu veux bien me dire comment tu t'appelles<Indent/>?"
-63,"TEXT_BANYOK001_05330_FAHRAFAHR_000_101","“<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>”...<Indent/>? <If(PlayerParameter(4))>Celle<Else/>Celui</If> qui a TERRASSÉ Valigarmanda<Indent/>!? On te doit une fière chandelle<Indent/>! EXCUSE-MOI de ne pas t'avoir reconnu<If(PlayerParameter(4))>e<Else/></If> plus tôt<Indent/>!"
-64,"TEXT_BANYOK001_05330_FAHRAFAHR_000_102","Je suis HONORÉE que quelqu'un comme toi accepte de me venir en aide. Retrouvons-nous à l'AUTEL pour que je puisse te montrer l'ampleur des rénovations à effectuer."
-65,"TEXT_BANYOK001_05330_FAHRAFAHR_000_200","Comme tu peux le constater, l'accumulation soudaine de neige causée par les récentes tempêtes s'est terminée en une AVALANCHE qui a sé<SoftHyphen/>rieu<SoftHyphen/>se<SoftHyphen/>ment endommagé les bâtiments. De mémoire de Yok Huy, on n'avait jamais vu cet endroit dans un état aussi DÉPLORABLE..."
-66,"TEXT_BANYOK001_05330_FAHRAFAHR_100_200","On m'a raconté que le CLAN qui vivait ici s'occupait d'organiser la cérémonie des flocons, mais l'autel ravagé par la neige est devenu méconnaissable..."
-67,"TEXT_BANYOK001_05330_FAHRAFAHR_000_201","Attends... J'ai comme un mauvais PRESSENTIMENT<Indent/>!"
-68,"TEXT_BANYOK001_05330_RYOQORTERTEH_000_202","Grrrrr...<Indent/>!!"
-69,"TEXT_BANYOK001_05330_FAHRAFAHR_000_203","Ouf... Ils sont partis sans demander leur reste... Je ne pensais pas qu'on tomberait NEZ À NEZ avec des esprits."
-70,"TEXT_BANYOK001_05330_FAHRAFAHR_000_204","Ce sont les res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bles de tout ce REMUE-MÉNAGE. On aurait dit qu'ils se méfiaient de toi... Tu les as déjà rencontrés<Indent/>?"
-71,"TEXT_BANYOK001_05330_FAHRAFAHR_000_205","Alors comme ça, tu les as VAINCUS sur les cimes sacrées de Worqor Zormor lors de l'épreuve des tombes<Indent/>! Sachant que tu as triomphé de Valigarmanda, ça ne m'étonne pas<Indent/>! Tes faits d'armes nous ont évité une ALTERCATION malvenue."
-72,"TEXT_BANYOK001_05330_FAHRAFAHR_000_206","Mais on ne se débarrasse pas si facilement des ESPRITS, car même vaincus, ils res<SoftHyphen/>sur<SoftHyphen/>gis<SoftHyphen/>sent à la première chute de NEIGE."
-73,"TEXT_BANYOK001_05330_FAHRAFAHR_000_207","La seule SOLUTION est de les apaiser en ac<SoftHyphen/>com<SoftHyphen/>plis<SoftHyphen/>sant la cérémonie des flocons. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, les lieux sont in<SoftHyphen/>uti<SoftHyphen/>li<SoftHyphen/>sa<SoftHyphen/>bles en l'état."
-74,"TEXT_BANYOK001_05330_FAHRAFAHR_000_208","Mon amie, Dartorgor, était la dernière DESCENDANTE du clan qui vivait dans ces montagnes. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, elle a perdu son corps avant l'avalanche... Ce qui signifie que, même si elle vit toujours dans mes SOUVENIRS, il lui est désormais impossible d'accomplir ce rituel..."
-75,"TEXT_BANYOK001_05330_FAHRAFAHR_100_208","Elle m'a beaucoup PARLÉ de la cérémonie des flocons, mais comme je ne me sentais pas concernée, je ne l'écoutais qu'à moitié. Je m'en veux de ne pas avoir prêté ATTENTION à ses ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions."
-76,"TEXT_BANYOK001_05330_FAHRAFAHR_110_208","J'espère donc en apprendre davantage sur ce RITE et ainsi parvenir à prendre sa relève pour rendre aux esprits des neiges leur CALME habituel."
-77,"TEXT_BANYOK001_05330_FAHRAFAHR_000_209","Je dois lui succéder... C'est à mon tour de PROTÉGER Urqopacha<Indent/>!"
-78,"TEXT_BANYOK001_05330_FAHRAFAHR_000_210","Voilà, tu sais tout ce qu'il y a à savoir. Ta seule présence REPOUSSE les esprits et il se trouve que tu es <If(PlayerParameter(4))>une artisane chevronnée<Else/>un artisan chevronné</If>... Tu veux bien m'aider à restaurer ce lieu SACRÉ<Indent/>?"
-79,"TEXT_BANYOK001_05330_Q1_000_000","Que répondez-vous<Indent/>?"
-80,"TEXT_BANYOK001_05330_A1_000_001","Moi aussi, je veux en apprendre davantage sur la cérémonie des flocons<Indent/>!"
-81,"TEXT_BANYOK001_05330_A1_000_002","Je ne peux pas ignorer ce nouvel appel des esprits<Indent/>!"
-82,"TEXT_BANYOK001_05330_FAHRAFAHR_000_212","（★未使用／削除予定★）"
-83,"TEXT_BANYOK001_05330_FAHRAFAHR_000_213","Merci BEAUCOUP<Indent/>! Je savais que tu accepterais."
-84,"TEXT_BANYOK001_05330_FAHRAFAHR_100_213","Je pense qu'on doit COMMENCER la rénovation du site par le bâtiment où vivait Dartorgor."
-85,"TEXT_BANYOK001_05330_FAHRAFAHR_110_213","Il a été détruit par l'avalanche, mais une fois RECONSTRUIT, ce gîte pourra nous servir de logement, voire même de centre décisionnel."
-86,"TEXT_BANYOK001_05330_FAHRAFAHR_000_214","Bien sûr, on ne peut pas mener à bien ce projet de grande ENVERGURE juste à deux. Il faut recruter d'autres Yok Huy pour nous aider."
-87,"TEXT_BANYOK001_05330_FAHRAFAHR_000_215","Je te propose qu'on PARCOURE L'Écho de Worlar chacun<If(PlayerParameter(4))>e<Else/></If> de notre côté pour informer les habitants de nos intentions. Retrouve-moi ici quand tu auras TERMINÉ."
-88,"TEXT_BANYOK001_05330_NOPLI_000_220","Hop hop<Indent/>! Ça fait un moment qu'on s'était pas vus<Indent/>!"
-89,"TEXT_BANYOK001_05330_MUSCLEYOKHUY05330_000_300","L'Autel de Zirgorteh<Indent/>? Si mes souvenirs sont exacts, il y avait un CLAN yok huy qui s'en occupait."
-90,"TEXT_BANYOK001_05330_MUSCLEYOKHUY05330_000_301","On dit qu'ils vivaient en ermites dans la MONTAGNE et ne se montraient que rarement à L'Écho de Worlar."
-91,"TEXT_BANYOK001_05330_MUSCLEYOKHUY05330_000_302","Mais il paraît que ce clan s'est ÉTEINT récemment quand la dernière d'entre eux a perdu son corps... Si vous avez besoin de moi pour réparer l'autel, vous pouvez compter sur mes gros BISCOTOS<Indent/>!"
-92,"TEXT_BANYOK001_05330_DIGGINGYOKHUY05330_000_303","Maintenant que vous le dites, c'est vrai que les esprits des neiges nous mènent la VIE DURE en ce moment. On a l'habitude de leurs FARCES, mais s'ils attaquent des marchands innocents, c'est très mauvais pour les affaires<Indent/>!"
-93,"TEXT_BANYOK001_05330_DIGGINGYOKHUY05330_000_304","Aussi loin que je me souvienne, les esprits ont toujours été de petites créatures FACÉTIEUSES qui nous invitent à jouer avec elles les jours de neige. Ça ne leur ressemble pas..."
-94,"TEXT_BANYOK001_05330_DIGGINGYOKHUY05330_000_305","Tout le village souffre de leurs accès de violence... Donc s'il suffit de restaurer quelques bâtiments pour les calmer, je suis prêt à vous tailler toutes les PIERRES nécessaires<Indent/>!"
-95,"TEXT_BANYOK001_05330_MURFURLUR_000_306","Ô <If(PlayerParameter(4))>grande<Else/>grand</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, c'est un HONNEUR de vous revoir. Nopli et moi venons à peine d'arriver et nous nous interrogions justement... Avez-vous une idée de ce qui provoque une telle AGITATION dans le village<Indent/>?"
-96,"TEXT_BANYOK001_05330_MURFURLUR_000_307","Hum... La FUREUR inexpliquée des esprits des neiges... Cela me rappelle que nous en avons récemment fait les frais. Alors que nous parcourions un chemin de montagne, ils ont utilisé leur magie de GLACE pour faire tomber d'énormes grêlons à la place des flocons de neige."
-97,"TEXT_BANYOK001_05330_MURFURLUR_000_308","Pour défendre ce cher Nopli de leur assaut violent, j'ai dû riposter à CONTRECŒUR. Mais je ne comprends pas... Nous avons toujours COEXISTÉ pacifiquement."
-98,"TEXT_BANYOK001_05330_NOPLI_000_309","Hop hop<Indent/>! Vous avez donc besoin d'aide pour résoudre cette affaire délicate. Comme d'habitude, vous êtes toujours prêt<If(PlayerParameter(4))>e<Else/></If> à rendre service. C'est très noble de votre part<Indent/>!"
-99,"TEXT_BANYOK001_05330_NOPLI_000_310","Comme nous sommes des marchands itinérants, nous ne pouvons pas rester pour vous aider... Mais je connais quelqu'un qui pourra vous dépanner dare-dare<Indent/>!"
-100,"TEXT_BANYOK001_05330_NOPLI_000_311","Allons tout de suite lui expliquer la situation. Hop hop<Indent/>! C'est parti, Murfurlur<Indent/>!"
-101,"TEXT_BANYOK001_05330_VUYARGUR_000_312","Je vois... Il y a quelques années, j'en ai DISCUTÉ avec Dartorgor. C'est elle qui s'occupait de l'autel à l'époque."
-102,"TEXT_BANYOK001_05330_VUYARGUR_000_313","Elle m'a raconté qu'elle vivait SEULE dans la montagne. La solitude n'avait pas l'air de lui peser, au contraire, c'était une personne SYMPATHIQUE et pleine de vie."
-103,"TEXT_BANYOK001_05330_VUYARGUR_000_314","J'ai appris qu'elle a récemment perdu son corps suite à une CHUTE MORTELLE. Cet accident malheureux nous a privés du réconfort de sa voix."
-104,"TEXT_BANYOK001_05330_VUYARGUR_000_315","Je ne l'ai rencontrée qu'une fois, mais elle continuera de VIVRE tant que je me souviendrai d'elle. Laissez-moi vous prêter main-forte pour honorer sa MÉMOIRE."
-105,"TEXT_BANYOK001_05330_VUYARGUR_000_316","Je m'occupe déjà des demandes en MENUISERIE du coin, mais je suis prêt à m'investir dans ce projet de restauration. Je vais en DISCUTER de ce pas avec Fahrafahr."
-106,"TEXT_BANYOK001_05330_VUYARGUR_000_317","Les autres bienfaiteurs sont déjà en route vers l'Autel de Zirgorteh. Pour ma part, je veux d'abord DISCUTER avec Fahrafahr."
-107,"TEXT_BANYOK001_05330_FAHRAFAHR_000_400","Tu sais te montrer très CONVAINCANT<If(PlayerParameter(4))>E<Else/></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Plusieurs personnes, dont Vuyargur, sont venues me trouver après t'avoir PARLÉ."
-108,"TEXT_BANYOK001_05330_VUYARGUR_000_401","Fahrafahr, pour un projet d'une telle AMPLEUR, il va falloir que quelqu'un se charge de coordonner les TRAVAUX. Tu voudrais bien me confier cette res<SoftHyphen/>pon<SoftHyphen/>sa<SoftHyphen/>bi<SoftHyphen/>li<SoftHyphen/>té<Indent/>?"
-109,"TEXT_BANYOK001_05330_VUYARGUR_000_402","Libre à toi de décider des grandes lignes du plan de RÉNOVATION. Je m'occuperai de distribuer les tâches aux personnes qualifiées, pour que nous soyons aussi efficaces que possible. Tu peux me faire confiance, j'ai eu l'occasion de gérer des PROJETS similaires durant ma carrière de menuisier."
-110,"TEXT_BANYOK001_05330_FAHRAFAHR_000_403","Merci pour ta PROPOSITION, Vuyargur. J'accepte avec plaisir<Indent/>!"
-111,"TEXT_BANYOK001_05330_VUYARGUR_000_404","Tu peux compter sur moi...<Indent/>! Avant de commencer, sais-tu où se trouve la TOMBE ANTHUME de Dartorgor<Indent/>?"
-112,"TEXT_BANYOK001_05330_VUYARGUR_000_405","Conformément à nos TRADITIONS, elle y a cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment inscrit son parcours de vie. On y trouvera peut-être quelques in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions UTILES concernant les esprits des neiges."
-113,"TEXT_BANYOK001_05330_FAHRAFAHR_000_406","Sa SÉPULTURE devrait être située à proximité de l'autel, mais je crains qu'elle ait été recouverte par une épaisse couche de neige..."
-114,"TEXT_BANYOK001_05330_FAHRAFAHR_000_407","（★未使用／削除予定★）"
-115,"TEXT_BANYOK001_05330_VUYARGUR_000_408","De toute manière, la réparation de l'autel ne pourra pas commencer tant que la NEIGE n'aura pas été déblayée. Je vais demander aux travailleurs d'ouvrir l'œil et de nous prévenir s'ils tombent dessus."
-116,"TEXT_BANYOK001_05330_WURFURTAR_000_409","Ah, enfin je vous trouve<Indent/>! Moi, c'est Wurfurtar<Indent/>! Nopli m'a dit que vous aviez besoin d'aide pour retaper un vieux bâtiment dans la MONTAGNE, donc me voilà<Indent/>!"
-117,"TEXT_BANYOK001_05330_WURFURTAR_000_410","Quand j'ai aperçu Nopli pour la première fois, ce petit Pelupelu menait une négociation MUSCLÉE avec les gros bras de Chirwagur. Impressionné par son courage, j'ai donc fait des pieds et des mains pour le convaincre de m'apprendre DARE-DARE les ficelles du métier de commerçant."
-118,"TEXT_BANYOK001_05330_WURFURTAR_000_411","Pour moi, c'est l'occasion rêvée de marcher dans les pas de mon mentor. HOP HOP<Indent/>! Comptez sur moi pour négocier avec les commerçants et gérer la chaîne d'approvisionnement<Indent/>!"
-119,"TEXT_BANYOK001_05330_VUYARGUR_000_412","Nopli s'est forgé une solide RÉPUTATION dans le coin, on est entre de bonnes mains."
-120,"TEXT_BANYOK001_05330_FAHRAFAHR_000_413","C'est FORMIDABLE<Indent/>! Je ne m'attendais pas à ce qu'autant de gens répondent à l'appel. Commençons par réhabiliter le gîte où vivait Dartorgor. On pourra y LOGER nos bienfaiteurs et l'utiliser comme centre décisionnel<Indent/>!"
-121,"TEXT_BANYOK001_05330_FAHRAFAHR_000_414","（★未使用／削除予定★）"
-122,"TEXT_BANYOK001_05330_FAHRAFAHR_000_415","Maintenant, on va avoir besoin que tu nous montres tes talents d'artisan<If(PlayerParameter(4))>e<Else/></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Préviens-moi quand tu seras prêt<If(PlayerParameter(4))>e<Else/></If>."
-123,"TEXT_BANYOK001_05330_WURFURTAR_000_420","Nopli ne tarit pas d'ÉLOGES à votre sujet<Indent/>! Si je peux vous aider d'une quelconque manière, n'hésitez pas à me le faire savoir<Indent/>!"
-124,"TEXT_BANYOK001_05330_VUYARGUR_000_425","（★未使用／削除予定★）"
-125,"TEXT_BANYOK001_05330_FAHRAFAHR_000_500","On va donc d'abord RÉNOVER le gîte qui nous servira de base d'opérations. Compte sur nous pour le gros œuvre, c'est la spécialité des Yok Huy<Indent/>! Par contre, on a besoin de MATÉRIEL spécifique. Tu veux bien nous prêter main-forte<Indent/>?"
-126,"TEXT_BANYOK001_05330_FAHRAFAHR_000_501","On a besoin de remplacer les revêtements de sol pour mieux conserver la CHALEUR du gîte, pourrais-tu fabriquer des éléments isolants et les inclure dans un nécessaire de rénovation adéquat<Indent/>?"
-127,"TEXT_BANYOK001_05330_FAHRAFAHR_000_502","On a besoin de remplacer les revêtements de sol pour mieux conserver la CHALEUR du gîte, pourrais-tu fabriquer des éléments isolants et les inclure dans un nécessaire de rénovation adéquat<Indent/>?"
-128,"TEXT_BANYOK001_05330_FAHRAFAHR_000_503","On a besoin de remplacer les revêtements de sol pour mieux conserver la CHALEUR du gîte, pourrais-tu synthétiser une matière isolante et l'inclure dans un nécessaire de rénovation adéquat<Indent/>?"
-129,"TEXT_BANYOK001_05330_FAHRAFAHR_000_504","Voici des matériaux. Si besoin, Wurfurtar pourra t'en fournir DAVANTAGE."
-130,"TEXT_BANYOK001_05330_FAHRAFAHR_000_505","En attendant ta con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion au PROJET, je vais continuer de planifier l'ensemble des travaux. À très vite, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-131,"TEXT_BANYOK001_05330_FAHRAFAHR_000_510","Tu es tombé<If(PlayerParameter(4))>e<Else/></If> à court de matériaux<Indent/>? Dans ce cas, Wurfurtar se fera un PLAISIR de t'en fournir davantage."
-132,"TEXT_BANYOK001_05330_FAHRAFAHR_000_515","（★未使用／削除予定★）"
-133,"TEXT_BANYOK001_05330_FAHRAFAHR_000_520","（★未使用／削除予定★）"
-134,"TEXT_BANYOK001_05330_WURFURTAR_000_525","Nopli ne tarit pas d'ÉLOGES à votre sujet<Indent/>! Si je peux vous aider d'une quelconque manière, n'hésitez pas à me le faire savoir<Indent/>!"
-135,"TEXT_BANYOK001_05330_WURFURTAR_000_530","（★未使用／削除予定★）"
-136,"TEXT_BANYOK001_05330_WURFURTAR_000_535","（★未使用／削除予定★）"
-137,"TEXT_BANYOK001_05330_WURFURTAR_000_540","Ah, vous avez besoin de MATÉRIAUX<Indent/>! Nopli avait raison, il faut toujours commander du rab<Indent/>! Voilà pour vous<Indent/>!"
-138,"TEXT_BANYOK001_05330_WURFURTAR_000_545","（★未使用／削除予定★）"
-139,"TEXT_BANYOK001_05330_WURFURTAR_000_550","（★未使用／削除予定★）"
-140,"TEXT_BANYOK001_05330_FAHRAFAHR_000_600","Tu as DÉJÀ terminé<Indent/>?"
-141,"TEXT_BANYOK001_05330_FAHRAFAHR_000_601","Oh<Indent/>! Je ne m'attendais pas à une telle QUALITÉ<Indent/>! Je ne regrette pas d'avoir fait appel à tes services."
-142,"TEXT_BANYOK001_05330_FAHRAFAHR_000_602","Je vais m'empresser de remettre le fruit de ton labeur aux travailleurs, ils vont être RAVIS<Indent/>! On va terminer la rénovation en un rien de temps<Indent/>!"
-143,"TEXT_BANYOK001_05330_FAHRAFAHR_000_650","EXCELLENT travail. Grâce à toi, l'isolation est parfaite<Indent/>! Avec un logement aussi confortable, on va vite oublier qu'on est en pleine MONTAGNE."
-144,"TEXT_BANYOK001_05330_FAHRAFAHR_000_651","Merci pour ton aide PRÉCIEUSE dans cette première étape, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Je compte sur toi pour la suite<Indent/>!"
-145,"TEXT_BANYOK001_05330_FAHRAFAHR_000_652","Ne t'inquiète pas, Dartorgor... Une fois que l'autel sera réparé, on trouvera bien un moyen d'apaiser les esprits des neiges..."
-146,"TEXT_BANYOK001_05330_SYSTEM_000_653","Les travaux ont commencé, et le gîte a été rénové pour abriter les bienfaiteurs de Zirgorteh<Indent/>!"
-147,"TEXT_BANYOK001_05330_SYSTEM_000_654","Néanmoins, Fahrafahr et les autres travailleurs yok huy ont encore besoin de votre aide pour réparer l'ensemble des dégâts avant de pouvoir espérer calmer les esprits des neiges<Indent/>!"
-148,"TEXT_BANYOK001_05330_SYSTEM_000_700","Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Ami”."
-149,"TEXT_BANYOK001_05330_SYSTEM_000_701","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Vuyargur, au relais des Cimes."
-150,"TEXT_BANYOK001_05330_SYSTEM_000_702","En outre, vous pouvez aussi acquérir divers articles auprès de Rarkorgor. Faites-en bon usage au cours de vos aventures<Indent/>!"
-151,"TEXT_BANYOK001_05330_SYSTEM_100_702","Notez enfin que vous pouvez désormais utiliser vos montures à l'Autel de Zirgorteh<Indent/>! La vitesse des montures est la même que celle d'Urqopacha."
+Fahrafahr vous a révélé que, récemment, les esprits des neiges se montraient anormalement agressifs et étaient res­pon­sa­bles d'avalanches dévastatrices. Retrouvez-la au relais des Cimes, au sud de L'Écho de Worlar, afin de constater les dégâts."
+2,TEXT_BANYOK001_05330_SEQ_02,"Vous avez accepté de prêter main-forte à Fahrafahr afin de restaurer l'Autel de Zirgorteh. Cependant, face à l'ampleur de cette tâche, vous avez convenu de recruter davantage de travailleurs. Parcourez donc L'Écho de Worlar à la recherche d'habitants prêts à vous aider."
+3,TEXT_BANYOK001_05330_SEQ_03,De nombreux travailleurs ont accepté de se joindre à vous. Retournez au sud de L'Écho de Worlar pour annoncer la bonne nouvelle à Fahrafahr.
+4,TEXT_BANYOK001_05330_SEQ_04,"Grâce à vos efforts, les travaux de restauration ont pu commencer, mais Fahrafahr a également exprimé son souhait de faire appel à vos talents d'artisane. Adressez-lui de nouveau la parole lorsque vous serez disposée à l'aider."
+5,TEXT_BANYOK001_05330_SEQ_05,"Fahrafahr vous a demandé de fabriquer des éléments clefs pour la restauration du gîte de l'Autel de Zirgorteh. Livrez-lui les objets nécessaires, au sud de L'Écho de Worlar."
+6,TEXT_BANYOK001_05330_SEQ_06,"Vous avez remis à Fahrafahr le fruit de votre labeur. Grâce à vous, l'effort de restauration a ainsi franchi une étape décisive, à travers la réparation du gîte qui servira à la fois de logement pour les travailleurs et de centre décisionnel pour le projet. Néanmoins, les esprits des neiges ne pourront pas être apaisés tant que les travaux ne seront pas terminés, et votre aide est plus que jamais cruciale pour permettre aux Yok Huy d'y parvenir !"
+7,TEXT_BANYOK001_05330_SEQ_07,
+8,TEXT_BANYOK001_05330_SEQ_08,
+9,TEXT_BANYOK001_05330_SEQ_09,
+10,TEXT_BANYOK001_05330_SEQ_10,
+11,TEXT_BANYOK001_05330_SEQ_11,
+12,TEXT_BANYOK001_05330_SEQ_12,
+13,TEXT_BANYOK001_05330_SEQ_13,
+14,TEXT_BANYOK001_05330_SEQ_14,
+15,TEXT_BANYOK001_05330_SEQ_15,
+16,TEXT_BANYOK001_05330_SEQ_16,
+17,TEXT_BANYOK001_05330_SEQ_17,
+18,TEXT_BANYOK001_05330_SEQ_18,
+19,TEXT_BANYOK001_05330_SEQ_19,
+20,TEXT_BANYOK001_05330_SEQ_20,
+21,TEXT_BANYOK001_05330_SEQ_21,
+22,TEXT_BANYOK001_05330_SEQ_22,
+23,TEXT_BANYOK001_05330_SEQ_23,
+24,TEXT_BANYOK001_05330_TODO_00,Parler à Fahrafahr
+25,TEXT_BANYOK001_05330_TODO_01,Demander de l'aide aux habitants de L'Écho de Worlar
+26,TEXT_BANYOK001_05330_TODO_02,Parler à Fahrafahr
+27,TEXT_BANYOK001_05330_TODO_03,Reparler à Fahrafahr
+28,TEXT_BANYOK001_05330_TODO_04,Fabriquer 
+29,TEXT_BANYOK001_05330_TODO_05,
+30,TEXT_BANYOK001_05330_TODO_06,
+31,TEXT_BANYOK001_05330_TODO_07,
+32,TEXT_BANYOK001_05330_TODO_08,
+33,TEXT_BANYOK001_05330_TODO_09,
+34,TEXT_BANYOK001_05330_TODO_10,
+35,TEXT_BANYOK001_05330_TODO_11,
+36,TEXT_BANYOK001_05330_TODO_12,
+37,TEXT_BANYOK001_05330_TODO_13,
+38,TEXT_BANYOK001_05330_TODO_14,
+39,TEXT_BANYOK001_05330_TODO_15,
+40,TEXT_BANYOK001_05330_TODO_16,
+41,TEXT_BANYOK001_05330_TODO_17,
+42,TEXT_BANYOK001_05330_TODO_18,
+43,TEXT_BANYOK001_05330_TODO_19,
+44,TEXT_BANYOK001_05330_TODO_20,
+45,TEXT_BANYOK001_05330_TODO_21,
+46,TEXT_BANYOK001_05330_TODO_22,
+47,TEXT_BANYOK001_05330_TODO_23,
+48,TEXT_BANYOK001_05330_FAHRAFAHR_000_001,"Ravie de faire ta CONNAISSANCE, étrangère. Je m'appelle Fahrafahr."
+49,TEXT_BANYOK001_05330_FAHRAFAHR_000_002,"Je suis bien EMBÊTÉE, car je ne trouve personne capable de m'aider. Tu ne connaîtrais pas quelqu'un habile de ses MAINS, par hasard ?"
+50,TEXT_BANYOK001_05330_FAHRAFAHR_000_003,Toi ? Quelle heureuse coïncidence. Il se trouve que nos montagnes sont en GRAVE DANGER... Tu veux bien m'accorder un moment pour que je t'explique la situation ?
+51,TEXT_BANYOK001_05330_FAHRAFAHR_000_004,"Merci. Récemment, un ancien village, perché sur des SOMMETS ENNEIGÉS proches d'ici, a été dévasté par une violente avalanche."
+52,TEXT_BANYOK001_05330_FAHRAFAHR_000_005,... Et tout porte à croire que les ESPRITS DES NEIGES d'Urqopacha sont res­pon­sa­bles de cette catastrophe.
+53,TEXT_BANYOK001_05330_FAHRAFAHR_000_006,"D'ordinaire, ils sont très SOCIABLES, et mon peuple les a toujours traités avec amour et respect. Mais pour des raisons qui nous échappent, ils ne DÉCOLÈRENT pas et refusent le dialogue."
+54,TEXT_BANYOK001_05330_FAHRAFAHR_000_007,On m'a dit qu'il existe un moyen de les APAISER en ac­com­plis­sant la cérémonie des flocons à l'Autel de Zirgorteh...
+55,TEXT_BANYOK001_05330_FAHRAFAHR_000_008,"Mais ce lieu sacré a lui aussi été VICTIME de la fureur des esprits... Il a été recouvert de neige par une grosse AVALANCHE, ce qui l'a gravement endommagé."
+56,TEXT_BANYOK001_05330_FAHRAFAHR_000_009,"Tant que nous ne réparons pas l'autel, la cérémonie ne peut pas avoir lieu... Et si nous n'intervenons pas RAPIDEMENT, c'est toute la région qui risque d'être touchée. Tu veux bien nous prêter MAIN-FORTE pour calmer les esprits ?"
+57,TEXT_BANYOK001_05330_Q2_000_000,Que répondez-vous ?
+58,TEXT_BANYOK001_05330_A2_000_001,"Bien sûr, mais je dois d'abord constater l'étendue des dégâts."
+59,TEXT_BANYOK001_05330_A2_000_002,J'ai du mal à me faire une idée de la situation...
+60,TEXT_BANYOK001_05330_FAHRAFAHR_000_011,"Je comprends... Dans ce cas, dirigeons-nous vers l'Autel de Zirgorteh. Je pourrai te montrer con­crè­te­ment ce dont on a BESOIN."
+61,TEXT_BANYOK001_05330_FAHRAFAHR_000_012,"Pour t'y rendre, il te suffit de gravir les MARCHES au sud de L'Écho de Worlar. Ne t'inquiète pas pour les gardes, je vais leur demander de te laisser passer. J'attends ta venue avec IMPATIENCE !"
+62,TEXT_BANYOK001_05330_FAHRAFAHR_000_100,"Merci d'être venue, chère ARTISANE. Tiens, j'y pense... Avant qu'on continue, tu veux bien me dire comment tu t'appelles ?"
+63,TEXT_BANYOK001_05330_FAHRAFAHR_000_101,“Player”... ? Celle qui a TERRASSÉ Valigarmanda !? On te doit une fière chandelle ! EXCUSE-MOI de ne pas t'avoir reconnue plus tôt !
+64,TEXT_BANYOK001_05330_FAHRAFAHR_000_102,Je suis HONORÉE que quelqu'un comme toi accepte de me venir en aide. Retrouvons-nous à l'AUTEL pour que je puisse te montrer l'ampleur des rénovations à effectuer.
+65,TEXT_BANYOK001_05330_FAHRAFAHR_000_200,"Comme tu peux le constater, l'accumulation soudaine de neige causée par les récentes tempêtes s'est terminée en une AVALANCHE qui a sé­rieu­se­ment endommagé les bâtiments. De mémoire de Yok Huy, on n'avait jamais vu cet endroit dans un état aussi DÉPLORABLE..."
+66,TEXT_BANYOK001_05330_FAHRAFAHR_100_200,"On m'a raconté que le CLAN qui vivait ici s'occupait d'organiser la cérémonie des flocons, mais l'autel ravagé par la neige est devenu méconnaissable..."
+67,TEXT_BANYOK001_05330_FAHRAFAHR_000_201,Attends... J'ai comme un mauvais PRESSENTIMENT !
+68,TEXT_BANYOK001_05330_RYOQORTERTEH_000_202,Grrrrr... !!
+69,TEXT_BANYOK001_05330_FAHRAFAHR_000_203,Ouf... Ils sont partis sans demander leur reste... Je ne pensais pas qu'on tomberait NEZ À NEZ avec des esprits.
+70,TEXT_BANYOK001_05330_FAHRAFAHR_000_204,Ce sont les res­pon­sa­bles de tout ce REMUE-MÉNAGE. On aurait dit qu'ils se méfiaient de toi... Tu les as déjà rencontrés ?
+71,TEXT_BANYOK001_05330_FAHRAFAHR_000_205,"Alors comme ça, tu les as VAINCUS sur les cimes sacrées de Worqor Zormor lors de l'épreuve des tombes ! Sachant que tu as triomphé de Valigarmanda, ça ne m'étonne pas ! Tes faits d'armes nous ont évité une ALTERCATION malvenue."
+72,TEXT_BANYOK001_05330_FAHRAFAHR_000_206,"Mais on ne se débarrasse pas si facilement des ESPRITS, car même vaincus, ils res­sur­gis­sent à la première chute de NEIGE."
+73,TEXT_BANYOK001_05330_FAHRAFAHR_000_207,"La seule SOLUTION est de les apaiser en ac­com­plis­sant la cérémonie des flocons. Mal­heu­reu­se­ment, les lieux sont in­uti­li­sa­bles en l'état."
+74,TEXT_BANYOK001_05330_FAHRAFAHR_000_208,"Mon amie, Dartorgor, était la dernière DESCENDANTE du clan qui vivait dans ces montagnes. Mal­heu­reu­se­ment, elle a perdu son corps avant l'avalanche... Ce qui signifie que, même si elle vit toujours dans mes SOUVENIRS, il lui est désormais impossible d'accomplir ce rituel..."
+75,TEXT_BANYOK001_05330_FAHRAFAHR_100_208,"Elle m'a beaucoup PARLÉ de la cérémonie des flocons, mais comme je ne me sentais pas concernée, je ne l'écoutais qu'à moitié. Je m'en veux de ne pas avoir prêté ATTENTION à ses ex­pli­ca­tions."
+76,TEXT_BANYOK001_05330_FAHRAFAHR_110_208,J'espère donc en apprendre davantage sur ce RITE et ainsi parvenir à prendre sa relève pour rendre aux esprits des neiges leur CALME habituel.
+77,TEXT_BANYOK001_05330_FAHRAFAHR_000_209,Je dois lui succéder... C'est à mon tour de PROTÉGER Urqopacha !
+78,TEXT_BANYOK001_05330_FAHRAFAHR_000_210,"Voilà, tu sais tout ce qu'il y a à savoir. Ta seule présence REPOUSSE les esprits et il se trouve que tu es une artisane chevronnée... Tu veux bien m'aider à restaurer ce lieu SACRÉ ?"
+79,TEXT_BANYOK001_05330_Q1_000_000,Que répondez-vous ?
+80,TEXT_BANYOK001_05330_A1_000_001,"Moi aussi, je veux en apprendre davantage sur la cérémonie des flocons !"
+81,TEXT_BANYOK001_05330_A1_000_002,Je ne peux pas ignorer ce nouvel appel des esprits !
+82,TEXT_BANYOK001_05330_FAHRAFAHR_000_212,（★未使用／削除予定★）
+83,TEXT_BANYOK001_05330_FAHRAFAHR_000_213,Merci BEAUCOUP ! Je savais que tu accepterais.
+84,TEXT_BANYOK001_05330_FAHRAFAHR_100_213,Je pense qu'on doit COMMENCER la rénovation du site par le bâtiment où vivait Dartorgor.
+85,TEXT_BANYOK001_05330_FAHRAFAHR_110_213,"Il a été détruit par l'avalanche, mais une fois RECONSTRUIT, ce gîte pourra nous servir de logement, voire même de centre décisionnel."
+86,TEXT_BANYOK001_05330_FAHRAFAHR_000_214,"Bien sûr, on ne peut pas mener à bien ce projet de grande ENVERGURE juste à deux. Il faut recruter d'autres Yok Huy pour nous aider."
+87,TEXT_BANYOK001_05330_FAHRAFAHR_000_215,Je te propose qu'on PARCOURE L'Écho de Worlar chacune de notre côté pour informer les habitants de nos intentions. Retrouve-moi ici quand tu auras TERMINÉ.
+88,TEXT_BANYOK001_05330_NOPLI_000_220,Hop hop ! Ça fait un moment qu'on s'était pas vus !
+89,TEXT_BANYOK001_05330_MUSCLEYOKHUY05330_000_300,"L'Autel de Zirgorteh ? Si mes souvenirs sont exacts, il y avait un CLAN yok huy qui s'en occupait."
+90,TEXT_BANYOK001_05330_MUSCLEYOKHUY05330_000_301,On dit qu'ils vivaient en ermites dans la MONTAGNE et ne se montraient que rarement à L'Écho de Worlar.
+91,TEXT_BANYOK001_05330_MUSCLEYOKHUY05330_000_302,"Mais il paraît que ce clan s'est ÉTEINT récemment quand la dernière d'entre eux a perdu son corps... Si vous avez besoin de moi pour réparer l'autel, vous pouvez compter sur mes gros BISCOTOS !"
+92,TEXT_BANYOK001_05330_DIGGINGYOKHUY05330_000_303,"Maintenant que vous le dites, c'est vrai que les esprits des neiges nous mènent la VIE DURE en ce moment. On a l'habitude de leurs FARCES, mais s'ils attaquent des marchands innocents, c'est très mauvais pour les affaires !"
+93,TEXT_BANYOK001_05330_DIGGINGYOKHUY05330_000_304,"Aussi loin que je me souvienne, les esprits ont toujours été de petites créatures FACÉTIEUSES qui nous invitent à jouer avec elles les jours de neige. Ça ne leur ressemble pas..."
+94,TEXT_BANYOK001_05330_DIGGINGYOKHUY05330_000_305,"Tout le village souffre de leurs accès de violence... Donc s'il suffit de restaurer quelques bâtiments pour les calmer, je suis prêt à vous tailler toutes les PIERRES nécessaires !"
+95,TEXT_BANYOK001_05330_MURFURLUR_000_306,"Ô grande Player, c'est un HONNEUR de vous revoir. Nopli et moi venons à peine d'arriver et nous nous interrogions justement... Avez-vous une idée de ce qui provoque une telle AGITATION dans le village ?"
+96,TEXT_BANYOK001_05330_MURFURLUR_000_307,"Hum... La FUREUR inexpliquée des esprits des neiges... Cela me rappelle que nous en avons récemment fait les frais. Alors que nous parcourions un chemin de montagne, ils ont utilisé leur magie de GLACE pour faire tomber d'énormes grêlons à la place des flocons de neige."
+97,TEXT_BANYOK001_05330_MURFURLUR_000_308,"Pour défendre ce cher Nopli de leur assaut violent, j'ai dû riposter à CONTRECŒUR. Mais je ne comprends pas... Nous avons toujours COEXISTÉ pacifiquement."
+98,TEXT_BANYOK001_05330_NOPLI_000_309,"Hop hop ! Vous avez donc besoin d'aide pour résoudre cette affaire délicate. Comme d'habitude, vous êtes toujours prête à rendre service. C'est très noble de votre part !"
+99,TEXT_BANYOK001_05330_NOPLI_000_310,"Comme nous sommes des marchands itinérants, nous ne pouvons pas rester pour vous aider... Mais je connais quelqu'un qui pourra vous dépanner dare-dare !"
+100,TEXT_BANYOK001_05330_NOPLI_000_311,"Allons tout de suite lui expliquer la situation. Hop hop ! C'est parti, Murfurlur !"
+101,TEXT_BANYOK001_05330_VUYARGUR_000_312,"Je vois... Il y a quelques années, j'en ai DISCUTÉ avec Dartorgor. C'est elle qui s'occupait de l'autel à l'époque."
+102,TEXT_BANYOK001_05330_VUYARGUR_000_313,"Elle m'a raconté qu'elle vivait SEULE dans la montagne. La solitude n'avait pas l'air de lui peser, au contraire, c'était une personne SYMPATHIQUE et pleine de vie."
+103,TEXT_BANYOK001_05330_VUYARGUR_000_314,J'ai appris qu'elle a récemment perdu son corps suite à une CHUTE MORTELLE. Cet accident malheureux nous a privés du réconfort de sa voix.
+104,TEXT_BANYOK001_05330_VUYARGUR_000_315,"Je ne l'ai rencontrée qu'une fois, mais elle continuera de VIVRE tant que je me souviendrai d'elle. Laissez-moi vous prêter main-forte pour honorer sa MÉMOIRE."
+105,TEXT_BANYOK001_05330_VUYARGUR_000_316,"Je m'occupe déjà des demandes en MENUISERIE du coin, mais je suis prêt à m'investir dans ce projet de restauration. Je vais en DISCUTER de ce pas avec Fahrafahr."
+106,TEXT_BANYOK001_05330_VUYARGUR_000_317,"Les autres bienfaiteurs sont déjà en route vers l'Autel de Zirgorteh. Pour ma part, je veux d'abord DISCUTER avec Fahrafahr."
+107,TEXT_BANYOK001_05330_FAHRAFAHR_000_400,"Tu sais te montrer très CONVAINCANTE, Player. Plusieurs personnes, dont Vuyargur, sont venues me trouver après t'avoir PARLÉ."
+108,TEXT_BANYOK001_05330_VUYARGUR_000_401,"Fahrafahr, pour un projet d'une telle AMPLEUR, il va falloir que quelqu'un se charge de coordonner les TRAVAUX. Tu voudrais bien me confier cette res­pon­sa­bi­li­té ?"
+109,TEXT_BANYOK001_05330_VUYARGUR_000_402,"Libre à toi de décider des grandes lignes du plan de RÉNOVATION. Je m'occuperai de distribuer les tâches aux personnes qualifiées, pour que nous soyons aussi efficaces que possible. Tu peux me faire confiance, j'ai eu l'occasion de gérer des PROJETS similaires durant ma carrière de menuisier."
+110,TEXT_BANYOK001_05330_FAHRAFAHR_000_403,"Merci pour ta PROPOSITION, Vuyargur. J'accepte avec plaisir !"
+111,TEXT_BANYOK001_05330_VUYARGUR_000_404,"Tu peux compter sur moi... ! Avant de commencer, sais-tu où se trouve la TOMBE ANTHUME de Dartorgor ?"
+112,TEXT_BANYOK001_05330_VUYARGUR_000_405,"Conformément à nos TRADITIONS, elle y a cer­tai­ne­ment inscrit son parcours de vie. On y trouvera peut-être quelques in­for­ma­tions UTILES concernant les esprits des neiges."
+113,TEXT_BANYOK001_05330_FAHRAFAHR_000_406,"Sa SÉPULTURE devrait être située à proximité de l'autel, mais je crains qu'elle ait été recouverte par une épaisse couche de neige..."
+114,TEXT_BANYOK001_05330_FAHRAFAHR_000_407,（★未使用／削除予定★）
+115,TEXT_BANYOK001_05330_VUYARGUR_000_408,"De toute manière, la réparation de l'autel ne pourra pas commencer tant que la NEIGE n'aura pas été déblayée. Je vais demander aux travailleurs d'ouvrir l'œil et de nous prévenir s'ils tombent dessus."
+116,TEXT_BANYOK001_05330_WURFURTAR_000_409,"Ah, enfin je vous trouve ! Moi, c'est Wurfurtar ! Nopli m'a dit que vous aviez besoin d'aide pour retaper un vieux bâtiment dans la MONTAGNE, donc me voilà !"
+117,TEXT_BANYOK001_05330_WURFURTAR_000_410,"Quand j'ai aperçu Nopli pour la première fois, ce petit Pelupelu menait une négociation MUSCLÉE avec les gros bras de Chirwagur. Impressionné par son courage, j'ai donc fait des pieds et des mains pour le convaincre de m'apprendre DARE-DARE les ficelles du métier de commerçant."
+118,TEXT_BANYOK001_05330_WURFURTAR_000_411,"Pour moi, c'est l'occasion rêvée de marcher dans les pas de mon mentor. HOP HOP ! Comptez sur moi pour négocier avec les commerçants et gérer la chaîne d'approvisionnement !"
+119,TEXT_BANYOK001_05330_VUYARGUR_000_412,"Nopli s'est forgé une solide RÉPUTATION dans le coin, on est entre de bonnes mains."
+120,TEXT_BANYOK001_05330_FAHRAFAHR_000_413,C'est FORMIDABLE ! Je ne m'attendais pas à ce qu'autant de gens répondent à l'appel. Commençons par réhabiliter le gîte où vivait Dartorgor. On pourra y LOGER nos bienfaiteurs et l'utiliser comme centre décisionnel !
+121,TEXT_BANYOK001_05330_FAHRAFAHR_000_414,（★未使用／削除予定★）
+122,TEXT_BANYOK001_05330_FAHRAFAHR_000_415,"Maintenant, on va avoir besoin que tu nous montres tes talents d'artisane, Player ! Préviens-moi quand tu seras prête."
+123,TEXT_BANYOK001_05330_WURFURTAR_000_420,"Nopli ne tarit pas d'ÉLOGES à votre sujet ! Si je peux vous aider d'une quelconque manière, n'hésitez pas à me le faire savoir !"
+124,TEXT_BANYOK001_05330_VUYARGUR_000_425,（★未使用／削除予定★）
+125,TEXT_BANYOK001_05330_FAHRAFAHR_000_500,"On va donc d'abord RÉNOVER le gîte qui nous servira de base d'opérations. Compte sur nous pour le gros œuvre, c'est la spécialité des Yok Huy ! Par contre, on a besoin de MATÉRIEL spécifique. Tu veux bien nous prêter main-forte ?"
+126,TEXT_BANYOK001_05330_FAHRAFAHR_000_501,"On a besoin de remplacer les revêtements de sol pour mieux conserver la CHALEUR du gîte, pourrais-tu fabriquer des éléments isolants et les inclure dans un nécessaire de rénovation adéquat ?"
+127,TEXT_BANYOK001_05330_FAHRAFAHR_000_502,"On a besoin de remplacer les revêtements de sol pour mieux conserver la CHALEUR du gîte, pourrais-tu fabriquer des éléments isolants et les inclure dans un nécessaire de rénovation adéquat ?"
+128,TEXT_BANYOK001_05330_FAHRAFAHR_000_503,"On a besoin de remplacer les revêtements de sol pour mieux conserver la CHALEUR du gîte, pourrais-tu synthétiser une matière isolante et l'inclure dans un nécessaire de rénovation adéquat ?"
+129,TEXT_BANYOK001_05330_FAHRAFAHR_000_504,"Voici des matériaux. Si besoin, Wurfurtar pourra t'en fournir DAVANTAGE."
+130,TEXT_BANYOK001_05330_FAHRAFAHR_000_505,"En attendant ta con­tri­bu­tion au PROJET, je vais continuer de planifier l'ensemble des travaux. À très vite, Player !"
+131,TEXT_BANYOK001_05330_FAHRAFAHR_000_510,"Tu es tombée à court de matériaux ? Dans ce cas, Wurfurtar se fera un PLAISIR de t'en fournir davantage."
+132,TEXT_BANYOK001_05330_FAHRAFAHR_000_515,（★未使用／削除予定★）
+133,TEXT_BANYOK001_05330_FAHRAFAHR_000_520,（★未使用／削除予定★）
+134,TEXT_BANYOK001_05330_WURFURTAR_000_525,"Nopli ne tarit pas d'ÉLOGES à votre sujet ! Si je peux vous aider d'une quelconque manière, n'hésitez pas à me le faire savoir !"
+135,TEXT_BANYOK001_05330_WURFURTAR_000_530,（★未使用／削除予定★）
+136,TEXT_BANYOK001_05330_WURFURTAR_000_535,（★未使用／削除予定★）
+137,TEXT_BANYOK001_05330_WURFURTAR_000_540,"Ah, vous avez besoin de MATÉRIAUX ! Nopli avait raison, il faut toujours commander du rab ! Voilà pour vous !"
+138,TEXT_BANYOK001_05330_WURFURTAR_000_545,（★未使用／削除予定★）
+139,TEXT_BANYOK001_05330_WURFURTAR_000_550,（★未使用／削除予定★）
+140,TEXT_BANYOK001_05330_FAHRAFAHR_000_600,Tu as DÉJÀ terminé ?
+141,TEXT_BANYOK001_05330_FAHRAFAHR_000_601,Oh ! Je ne m'attendais pas à une telle QUALITÉ ! Je ne regrette pas d'avoir fait appel à tes services.
+142,TEXT_BANYOK001_05330_FAHRAFAHR_000_602,"Je vais m'empresser de remettre le fruit de ton labeur aux travailleurs, ils vont être RAVIS ! On va terminer la rénovation en un rien de temps !"
+143,TEXT_BANYOK001_05330_FAHRAFAHR_000_650,"EXCELLENT travail. Grâce à toi, l'isolation est parfaite ! Avec un logement aussi confortable, on va vite oublier qu'on est en pleine MONTAGNE."
+144,TEXT_BANYOK001_05330_FAHRAFAHR_000_651,"Merci pour ton aide PRÉCIEUSE dans cette première étape, Player. Je compte sur toi pour la suite !"
+145,TEXT_BANYOK001_05330_FAHRAFAHR_000_652,"Ne t'inquiète pas, Dartorgor... Une fois que l'autel sera réparé, on trouvera bien un moyen d'apaiser les esprits des neiges..."
+146,TEXT_BANYOK001_05330_SYSTEM_000_653,"Les travaux ont commencé, et le gîte a été rénové pour abriter les bienfaiteurs de Zirgorteh !"
+147,TEXT_BANYOK001_05330_SYSTEM_000_654,"Néanmoins, Fahrafahr et les autres travailleurs yok huy ont encore besoin de votre aide pour réparer l'ensemble des dégâts avant de pouvoir espérer calmer les esprits des neiges !"
+148,TEXT_BANYOK001_05330_SYSTEM_000_700,Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Ami”.
+149,TEXT_BANYOK001_05330_SYSTEM_000_701,"Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Vuyargur, au relais des Cimes."
+150,TEXT_BANYOK001_05330_SYSTEM_000_702,"En outre, vous pouvez aussi acquérir divers articles auprès de Rarkorgor. Faites-en bon usage au cours de vos aventures !"
+151,TEXT_BANYOK001_05330_SYSTEM_100_702,Notez enfin que vous pouvez désormais utiliser vos montures à l'Autel de Zirgorteh ! La vitesse des montures est la même que celle d'Urqopacha.

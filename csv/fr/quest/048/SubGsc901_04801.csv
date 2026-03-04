@@ -1,85 +1,82 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_SUBGSC901_04801_SEQ_00","* <Emphasis>Cette quête est un événement à durée limitée.</Emphasis>
+0,TEXT_SUBGSC901_04801_SEQ_00,"* *Cette quête est un événement à durée limitée.*
 
 Lewena semble fébrile."
-1,"TEXT_SUBGSC901_04801_SEQ_01","Cette quête ne peut être commencée et effectuée que pendant la durée de l'événement saisonnier correspondant. Pour plus de détails, veuillez consulter The Lodestone.
+1,TEXT_SUBGSC901_04801_SEQ_01,"Cette quête ne peut être commencée et effectuée que pendant la durée de l'événement saisonnier correspondant. Pour plus de détails, veuillez consulter The Lodestone.
 
 Lewena vous a parlé du Blunderville, une toute nouvelle attraction du Gold Saucer proposant des courses d'obstacles farfelues. Adressez-vous à Wy, au square des merveilles, pour vous rendre dans la zone accueillant cette nouveauté."
-2,"TEXT_SUBGSC901_04801_SEQ_02","Vous êtes <If(PlayerParameter(4))>arrivée<Else/>arrivé</If> au square du Blunderville, où règne une atmosphère déjantée."
-3,"TEXT_SUBGSC901_04801_SEQ_03","Vous avez pris le temps d'observer les environs. Parlez maintenant à la réceptionniste pour tout savoir de la nouvelle attraction."
-4,"TEXT_SUBGSC901_04801_SEQ_04","D'après la réceptionniste, le square et les émissions du Blunderville ont été conçus en s'inspirant des haricots, des petits bonhommes mous et colorés apparus du jour au lendemain au Gold Saucer. Ces derniers passeraient le plus clair de leur temps à courir partout dans un joyeux bazar. Voilà qui promet une attraction... à tomber par terre<Indent/>!"
-5,"TEXT_SUBGSC901_04801_SEQ_05",""
-6,"TEXT_SUBGSC901_04801_SEQ_06",""
-7,"TEXT_SUBGSC901_04801_SEQ_07",""
-8,"TEXT_SUBGSC901_04801_SEQ_08",""
-9,"TEXT_SUBGSC901_04801_SEQ_09",""
-10,"TEXT_SUBGSC901_04801_SEQ_10",""
-11,"TEXT_SUBGSC901_04801_SEQ_11",""
-12,"TEXT_SUBGSC901_04801_SEQ_12",""
-13,"TEXT_SUBGSC901_04801_SEQ_13",""
-14,"TEXT_SUBGSC901_04801_SEQ_14",""
-15,"TEXT_SUBGSC901_04801_SEQ_15",""
-16,"TEXT_SUBGSC901_04801_SEQ_16",""
-17,"TEXT_SUBGSC901_04801_SEQ_17",""
-18,"TEXT_SUBGSC901_04801_SEQ_18",""
-19,"TEXT_SUBGSC901_04801_SEQ_19",""
-20,"TEXT_SUBGSC901_04801_SEQ_20",""
-21,"TEXT_SUBGSC901_04801_SEQ_21",""
-22,"TEXT_SUBGSC901_04801_SEQ_22",""
-23,"TEXT_SUBGSC901_04801_SEQ_23",""
-24,"TEXT_SUBGSC901_04801_TODO_00","Parler à Wy, au square des merveilles"
-25,"TEXT_SUBGSC901_04801_TODO_01","Parler à Wy, au square des merveilles"
-26,"TEXT_SUBGSC901_04801_TODO_02","Parler à la réceptionniste"
-27,"TEXT_SUBGSC901_04801_TODO_03",""
-28,"TEXT_SUBGSC901_04801_TODO_04",""
-29,"TEXT_SUBGSC901_04801_TODO_05",""
-30,"TEXT_SUBGSC901_04801_TODO_06",""
-31,"TEXT_SUBGSC901_04801_TODO_07",""
-32,"TEXT_SUBGSC901_04801_TODO_08",""
-33,"TEXT_SUBGSC901_04801_TODO_09",""
-34,"TEXT_SUBGSC901_04801_TODO_10",""
-35,"TEXT_SUBGSC901_04801_TODO_11",""
-36,"TEXT_SUBGSC901_04801_TODO_12",""
-37,"TEXT_SUBGSC901_04801_TODO_13",""
-38,"TEXT_SUBGSC901_04801_TODO_14",""
-39,"TEXT_SUBGSC901_04801_TODO_15",""
-40,"TEXT_SUBGSC901_04801_TODO_16",""
-41,"TEXT_SUBGSC901_04801_TODO_17",""
-42,"TEXT_SUBGSC901_04801_TODO_18",""
-43,"TEXT_SUBGSC901_04801_TODO_19",""
-44,"TEXT_SUBGSC901_04801_TODO_20",""
-45,"TEXT_SUBGSC901_04801_TODO_21",""
-46,"TEXT_SUBGSC901_04801_TODO_22",""
-47,"TEXT_SUBGSC901_04801_TODO_23",""
-48,"TEXT_SUBGSC901_04801_LEWENA_000_000","Combien de temps reste-t-il avant la prochaine émission...<Indent/>? Je ferais peut-être bien de me préparer, moi..."
-49,"TEXT_SUBGSC901_04801_LEWENA_000_001","... Oh, <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>bonsoir<Else/>bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>bonjour<Else/>bonsoir</If></If> toi. Tiens, tu as vu qu'il y avait une nouvelle attraction, le Blunderville<Indent/>?"
-50,"TEXT_SUBGSC901_04801_LEWENA_000_002","Il s'agit de participer à des “émissions” – con<SoftHyphen/>crè<SoftHyphen/>te<SoftHyphen/>ment, des courses d'obstacles com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment folles, avec à la clef de fabuleuses récompenses."
-51,"TEXT_SUBGSC901_04801_LEWENA_000_003","Franchement, ce serait dommage de passer à côté<Indent/>! Va voir Wy, au square des merveilles. Il te conduira dans la zone correspondante."
-52,"TEXT_SUBGSC901_04801_LEWENA_000_004","Si le Blunderville t'intéresse, adresse-toi à Wy, au square des merveilles. Il te conduira dans la zone correspondante."
-53,"TEXT_SUBGSC901_04801_FGSENTRANCEMAN04801_000_010","Bien le <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>bonsoir<Else/>bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>bonjour<Else/>bonsoir</If></If><Indent/>! Derrière cette porte se trouve le square du Blunderville. Vous voulez y faire un tour<Indent/>?"
-54,"TEXT_SUBGSC901_04801_SYSTEM_000_011","Aller au square du Blunderville<Indent/>?"
-55,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_020","Bienvenue au square du Blunderville<Indent/>! Je suis ici pour vous accueillir. C'est votre première visite<Indent/>?"
-56,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_021","Dans ce cas, je dois vous expliquer certaines choses, à commencer par le concept même de l'attraction. En résumé, il s'agit, tenez-vous bien, d'une série de courses d'obstacles façon bataille royale<Indent/>!"
-57,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_022","Chaque émission peut accueillir jusqu'à vingt-quatre concurrents, et se joue en trois manches avec qualifications successives. Rassurez-vous, même si vous êtes <If(PlayerParameter(4))>éliminée<Else/>éliminé</If> en cours de route, vous serez <If(PlayerParameter(4))>récompensée<Else/>récompensé</If> à hauteur de votre parcours."
-58,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_120_022","Surmontez les embûches, éclipsez tous vos adversaires et décrochez la couronne réservée aux vainqueurs... Vous allez trébucher, vous allez dégringoler, mais vaille que vaille, vous allez triompher<Indent/>!"
-59,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_023","Pour ce qui est des règles plus précises, je vais y venir... mais d'abord, jetez un œil autour de vous. N'avez-vous pas remarqué quelque chose<Indent/>?"
-60,"TEXT_SUBGSC901_04801_Q1_000_000","Que répondez-vous<Indent/>? "
-61,"TEXT_SUBGSC901_04801_A1_000_001","L'ambiance est loufoque par ici..."
-62,"TEXT_SUBGSC901_04801_A1_000_002","J'aperçois de curieuses créatures..."
-63,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_024","Comme vous le dites, ce square est unique en son genre. En fait, son décor et son atmosphère colorés sont tout droit inspirés des petits êtres que vous voyez autour de nous, les haricots. "
-64,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_025","Vous voulez parler des haricots. Figurez-vous que le décor et l'atmosphère colorés de ce square sont tout droit inspirés de leur apparence."
-65,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_027","Ça peut sembler surprenant, mais ces drôles de bonhommes sont apparus du jour au lendemain au Gold Saucer. Leur corps est mou comme de la gelée, et leur silhouette ressemble à celle d'un haricot, d'où leur appellation."
-66,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_028","Comme vous pouvez le voir et l'entendre, ils courent partout en poussant de petits couinements. Qui sont-ils et que veulent-ils exactement<Indent/>? Nul ne le sait."
-67,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_029","Toujours est-il que notre directeur s'est im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment pris d'affection pour eux. Il s'est mis en tête de leur faire la con<SoftHyphen/>ver<SoftHyphen/>sa<SoftHyphen/>tion, à grand renfort de gesticulations et de “Ho ho ho<Indent/>!”. "
-68,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_030","Contre toute attente, les haricots ont alors rameuté leurs semblables, pour s'adonner à une sorte de course de vitesse<Indent/>!"
-69,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_031","Imaginez un peu le spectacle, tous ces joyeux drilles qui se tirent la bourre à qui arrivera le premier, dans le bazar le plus total... Il n'en fallait pas plus pour inspirer à monsieur Godbert une nouvelle attraction."
-70,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_032","C'est ainsi qu'est né le Blunderville. En attendant, nous ne savons ni ce que sont les haricots ni ce qu'ils fabriquent en Éorzéa... Mais au fond qu'importe, tant qu'on rigole<Indent/>!"
-71,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_033","Bref, n'hésitez pas à venir vous amuser <If(PlayerParameter(4))>seule<Else/>seul</If> ou entre amis. L'important, c'est de participer, comme on dit<Indent/>!"
-72,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_034","Mon collègue s'occupe des ins<SoftHyphen/>crip<SoftHyphen/>tions. Dès qu'il y aura suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment de par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants, nous vous conduirons sur le lieu des émissions."
-73,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_035","Je reste en outre à votre disposition si vous avez besoin de précisions concernant le fonc<SoftHyphen/>tion<SoftHyphen/>ne<SoftHyphen/>ment de l'attraction."
-74,"TEXT_SUBGSC901_04801_SYSTEM_000_036","Un ATH spécial s'affichera dans le square et durant les épreuves du Blunderville."
-75,"TEXT_SUBGSC901_04801_SYSTEM_000_037","Vous pouvez modifier la disposition et la taille de ses éléments depuis le menu principal > Système > ATH."
-76,"TEXT_SUBGSC901_04801_A1_000_003","（★未使用／削除予定★）"
-77,"TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_026","（★未使用／削除予定★）"
+2,TEXT_SUBGSC901_04801_SEQ_02,"Vous êtes arrivée au square du Blunderville, où règne une atmosphère déjantée."
+3,TEXT_SUBGSC901_04801_SEQ_03,Vous avez pris le temps d'observer les environs. Parlez maintenant à la réceptionniste pour tout savoir de la nouvelle attraction.
+4,TEXT_SUBGSC901_04801_SEQ_04,"D'après la réceptionniste, le square et les émissions du Blunderville ont été conçus en s'inspirant des haricots, des petits bonhommes mous et colorés apparus du jour au lendemain au Gold Saucer. Ces derniers passeraient le plus clair de leur temps à courir partout dans un joyeux bazar. Voilà qui promet une attraction... à tomber par terre !"
+5,TEXT_SUBGSC901_04801_SEQ_05,
+6,TEXT_SUBGSC901_04801_SEQ_06,
+7,TEXT_SUBGSC901_04801_SEQ_07,
+8,TEXT_SUBGSC901_04801_SEQ_08,
+9,TEXT_SUBGSC901_04801_SEQ_09,
+10,TEXT_SUBGSC901_04801_SEQ_10,
+11,TEXT_SUBGSC901_04801_SEQ_11,
+12,TEXT_SUBGSC901_04801_SEQ_12,
+13,TEXT_SUBGSC901_04801_SEQ_13,
+14,TEXT_SUBGSC901_04801_SEQ_14,
+15,TEXT_SUBGSC901_04801_SEQ_15,
+16,TEXT_SUBGSC901_04801_SEQ_16,
+17,TEXT_SUBGSC901_04801_SEQ_17,
+18,TEXT_SUBGSC901_04801_SEQ_18,
+19,TEXT_SUBGSC901_04801_SEQ_19,
+20,TEXT_SUBGSC901_04801_SEQ_20,
+21,TEXT_SUBGSC901_04801_SEQ_21,
+22,TEXT_SUBGSC901_04801_SEQ_22,
+23,TEXT_SUBGSC901_04801_SEQ_23,
+24,TEXT_SUBGSC901_04801_TODO_00,"Parler à Wy, au square des merveilles"
+25,TEXT_SUBGSC901_04801_TODO_01,"Parler à Wy, au square des merveilles"
+26,TEXT_SUBGSC901_04801_TODO_02,Parler à la réceptionniste
+27,TEXT_SUBGSC901_04801_TODO_03,
+28,TEXT_SUBGSC901_04801_TODO_04,
+29,TEXT_SUBGSC901_04801_TODO_05,
+30,TEXT_SUBGSC901_04801_TODO_06,
+31,TEXT_SUBGSC901_04801_TODO_07,
+32,TEXT_SUBGSC901_04801_TODO_08,
+33,TEXT_SUBGSC901_04801_TODO_09,
+34,TEXT_SUBGSC901_04801_TODO_10,
+35,TEXT_SUBGSC901_04801_TODO_11,
+36,TEXT_SUBGSC901_04801_TODO_12,
+37,TEXT_SUBGSC901_04801_TODO_13,
+38,TEXT_SUBGSC901_04801_TODO_14,
+39,TEXT_SUBGSC901_04801_TODO_15,
+40,TEXT_SUBGSC901_04801_TODO_16,
+41,TEXT_SUBGSC901_04801_TODO_17,
+42,TEXT_SUBGSC901_04801_TODO_18,
+43,TEXT_SUBGSC901_04801_TODO_19,
+44,TEXT_SUBGSC901_04801_TODO_20,
+45,TEXT_SUBGSC901_04801_TODO_21,
+46,TEXT_SUBGSC901_04801_TODO_22,
+47,TEXT_SUBGSC901_04801_TODO_23,
+48,TEXT_SUBGSC901_04801_LEWENA_000_000,"Combien de temps reste-t-il avant la prochaine émission... ? Je ferais peut-être bien de me préparer, moi..."
+49,TEXT_SUBGSC901_04801_LEWENA_000_001,"... Oh, bonsoir toi. Tiens, tu as vu qu'il y avait une nouvelle attraction, le Blunderville ?"
+50,TEXT_SUBGSC901_04801_LEWENA_000_002,"Il s'agit de participer à des “émissions” – con­crè­te­ment, des courses d'obstacles com­plè­te­ment folles, avec à la clef de fabuleuses récompenses."
+51,TEXT_SUBGSC901_04801_LEWENA_000_003,"Franchement, ce serait dommage de passer à côté ! Va voir Wy, au square des merveilles. Il te conduira dans la zone correspondante."
+52,TEXT_SUBGSC901_04801_LEWENA_000_004,"Si le Blunderville t'intéresse, adresse-toi à Wy, au square des merveilles. Il te conduira dans la zone correspondante."
+53,TEXT_SUBGSC901_04801_FGSENTRANCEMAN04801_000_010,Bien le bonsoir ! Derrière cette porte se trouve le square du Blunderville. Vous voulez y faire un tour ?
+54,TEXT_SUBGSC901_04801_SYSTEM_000_011,Aller au square du Blunderville ?
+55,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_020,Bienvenue au square du Blunderville ! Je suis ici pour vous accueillir. C'est votre première visite ?
+56,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_021,"Dans ce cas, je dois vous expliquer certaines choses, à commencer par le concept même de l'attraction. En résumé, il s'agit, tenez-vous bien, d'une série de courses d'obstacles façon bataille royale !"
+57,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_022,"Chaque émission peut accueillir jusqu'à vingt-quatre concurrents, et se joue en trois manches avec qualifications successives. Rassurez-vous, même si vous êtes éliminée en cours de route, vous serez récompensée à hauteur de votre parcours."
+58,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_120_022,"Surmontez les embûches, éclipsez tous vos adversaires et décrochez la couronne réservée aux vainqueurs... Vous allez trébucher, vous allez dégringoler, mais vaille que vaille, vous allez triompher !"
+59,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_023,"Pour ce qui est des règles plus précises, je vais y venir... mais d'abord, jetez un œil autour de vous. N'avez-vous pas remarqué quelque chose ?"
+60,TEXT_SUBGSC901_04801_Q1_000_000,Que répondez-vous ? 
+61,TEXT_SUBGSC901_04801_A1_000_001,L'ambiance est loufoque par ici...
+62,TEXT_SUBGSC901_04801_A1_000_002,J'aperçois de curieuses créatures...
+63,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_024,"Comme vous le dites, ce square est unique en son genre. En fait, son décor et son atmosphère colorés sont tout droit inspirés des petits êtres que vous voyez autour de nous, les haricots. "
+64,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_025,Vous voulez parler des haricots. Figurez-vous que le décor et l'atmosphère colorés de ce square sont tout droit inspirés de leur apparence.
+65,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_027,"Ça peut sembler surprenant, mais ces drôles de bonhommes sont apparus du jour au lendemain au Gold Saucer. Leur corps est mou comme de la gelée, et leur silhouette ressemble à celle d'un haricot, d'où leur appellation."
+66,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_028,"Comme vous pouvez le voir et l'entendre, ils courent partout en poussant de petits couinements. Qui sont-ils et que veulent-ils exactement ? Nul ne le sait."
+67,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_029,"Toujours est-il que notre directeur s'est im­mé­dia­te­ment pris d'affection pour eux. Il s'est mis en tête de leur faire la con­ver­sa­tion, à grand renfort de gesticulations et de “Ho ho ho !”. "
+68,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_030,"Contre toute attente, les haricots ont alors rameuté leurs semblables, pour s'adonner à une sorte de course de vitesse !"
+69,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_031,"Imaginez un peu le spectacle, tous ces joyeux drilles qui se tirent la bourre à qui arrivera le premier, dans le bazar le plus total... Il n'en fallait pas plus pour inspirer à monsieur Godbert une nouvelle attraction."
+70,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_032,"C'est ainsi qu'est né le Blunderville. En attendant, nous ne savons ni ce que sont les haricots ni ce qu'ils fabriquent en Éorzéa... Mais au fond qu'importe, tant qu'on rigole !"
+71,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_033,"Bref, n'hésitez pas à venir vous amuser seule ou entre amis. L'important, c'est de participer, comme on dit !"
+72,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_034,"Mon collègue s'occupe des ins­crip­tions. Dès qu'il y aura suf­fi­sam­ment de par­ti­ci­pants, nous vous conduirons sur le lieu des émissions."
+73,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_035,Je reste en outre à votre disposition si vous avez besoin de précisions concernant le fonc­tion­ne­ment de l'attraction.
+74,TEXT_SUBGSC901_04801_SYSTEM_000_036,Un ATH spécial s'affichera dans le square et durant les épreuves du Blunderville.
+75,TEXT_SUBGSC901_04801_SYSTEM_000_037,Vous pouvez modifier la disposition et la taille de ses éléments depuis le menu principal > Système > ATH.
+76,TEXT_SUBGSC901_04801_A1_000_003,（★未使用／削除予定★）
+77,TEXT_SUBGSC901_04801_FGSCOUNTERMAN04801_000_026,（★未使用／削除予定★）

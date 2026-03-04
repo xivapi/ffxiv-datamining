@@ -1,394 +1,391 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_1","Einen wunderschönen guten <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Abend<Else/>Morgen</If><Else/><If(LessThan(PlayerParameter(11),17))>Tag<Else/>Abend</If></If>. Wie kann ich behilflich sein?"
-1,"TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_2","Gehilfen erleichtern vielbeschäftigten Abenteurern das Leben beträchtlich. Sie helfen ihnen bei der Verwaltung ihres Inventars."
-2,"TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_3","Es tut mir wirklich sehr leid, aber so <If(PlayerParameter(4))>einem jungen Mädchen<Else/>einem jungen Spund</If> wie dir kann ich noch keinen Gehilfen vermitteln.  "
-3,"TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_4","Sieh dich erst mal etwas in der Stadt um, erledige ein paar Arbeiten für die Bürger und mach dir einen Namen als Abenteurer<If(PlayerParameter(4))>in<Else/></If>, dann sehen wir, ob ich jemand Passenden für dich finden kann."
-4,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TITLE","Was möchtest du tun?"
-5,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TALK","Plaudern"
-6,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CREATE","Einen Gehilfen anstellen"
-7,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMOVE","Einen Gehilfen entlassen"
-8,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMAKE","Aussehen und Namen eines Gehilfen ändern"
-9,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION","Mir erklären lassen, wofür Gehilfen gut sind"
-10,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_JOBCHANGE","Erfahren, wie man Gehilfen einen Job zuteilen kann"
-11,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CHECK_CASHBACK","Erfahren, wo die Steuern zurzeit niedrig sind"
-12,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CANCEL","Nichts"
-13,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_LIMSA","Einen Gehilfen in die Marktbezirke von Limsa Lominsa schicken"
-14,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_GRIDANIA","Einen Gehilfen in die Marktbezirke von Gridania schicken"
-15,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ULDAH","Einen Gehilfen in die Marktbezirke von Ul'dah schicken"
-16,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ISHGARD","Einen Gehilfen in die Marktbezirke von Ishgard schicken"
-17,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_TOWN40","Einen Gehilfen in die Marktbezirke von Kugane schicken"
-18,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_OLDSHARLAYAN","Einen Gehilfen in die Marktbezirke von Alt-Sharlayan schicken."
-19,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_VER70","Einen Gehilfen in die Marktbezirke von Tuliyollal schicken."
-20,"TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_TITLE","Was möchtest du wissen?"
-21,"TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_WHAT_IS","Wobei hilft mir denn ein Gehilfe?"
-22,"TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_ABOUT","Was kann ein Gehilfe genau?"
-23,"TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_CALL","Wie rufe ich meinen Gehilfen, wenn ich ihn brauche?"
-24,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_BACK","Zurück."
-25,"TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_01","Ein Gehilfe hilft dir beim Verwalten deines Gepäcks - all das Zeug, das du im Laufe deiner zweifellos abenteuerlichen Streifzüge im Nu anhäufst und nicht wegwerfen, aber auch nicht tragen willst."
-26,"TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_02","Das Beste daran ist, dass die Aben<SoftHyphen/>teurer<SoftHyphen/>gilde deinen Gehilfen bezahlt. Was sagst du jetzt? Du siehst, die Gilde ist mehr als nur ein Vorwand, Abenteurer ins Hexenstübchen zu locken, damit sie dort versumpfen."
-27,"TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_01","Bei deinem Gehilfen kannst du Gegenstände und Gil hinterlegen, und er verkauft alles, was du nicht brauchst, auf dem Markt an andere Dum... Abenteurer."
-28,"TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_02","Den Markt kann ich dir jetzt nicht in allen Feinheiten erklären. Es geht schneller, wenn du einfach selbst mal reinschaust. Gleich hier nebenan ist das Marktbrett, der Zugang zu den Marktbezirken."
-29,"TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_01","Mit der Krämerklingel kannst du deinen Gehilfen sofort herbeirufen und Waren oder Gil mit ihm austauschen."
-30,"TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_02","In der Nähe des Marktbretts siehst du so eine Klingel. Es gibt auch welche in den Herbergen - an Orten eben, wo sich Abenteurer oft aufhalten."
-31,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TITLE","Steuersenkungen"
-32,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA","Limsa Lominsa: Steuern gesenkt"
-33,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA_NONE","Limsa Lominsa: Steuern nicht gesenkt"
-34,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA","Gridania: Steuern gesenkt"
-35,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA_NONE","Gridania: Steuern nicht gesenkt"
-36,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH","Ul'dah: Steuern gesenkt"
-37,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH_NONE","Ul'dah: Steuern nicht gesenkt"
-38,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD","Ishgard: Steuern gesenkt"
-39,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD_NONE","Ishgard: Steuern nicht gesenkt"
-40,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40","Kugane: Steuern gesenkt"
-41,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40_NONE","Kugane: Steuern nicht gesenkt"
-42,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK","<Sheet(Town,IntegerParameter(1),0)/>: Steuern gesenkt"
-43,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_NONE","<Sheet(Town,IntegerParameter(1),0)/>: Steuern nicht gesenkt"
-44,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_LIMSA","In Limsa Lominsa ist bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> die Steuer um <Value>IntegerParameter(1)</Value> Prozentpunkte gesenkt. Sie beträgt aktuell <Value>IntegerParameter(2)</Value> % des Verkaufspreises."
-45,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_GRIDANIA","In Gridania ist bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> die Steuer um <Value>IntegerParameter(1)</Value> Prozentpunkte gesenkt. Sie beträgt aktuell <Value>IntegerParameter(2)</Value> % des Verkaufspreises."
-46,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ULDAH","In Ul'dah ist bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> die Steuer um <Value>IntegerParameter(1)</Value> Prozentpunkte gesenkt. Sie beträgt aktuell <Value>IntegerParameter(2)</Value> % des Verkaufspreises."
-47,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ISHGARD","In Ishgard ist bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> die Steuer um <Value>IntegerParameter(1)</Value> Prozentpunkte gesenkt. Sie beträgt aktuell <Value>IntegerParameter(2)</Value> % des Verkaufspreises."
-48,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_TOWN40","In Kugane ist bis <Time(IntegerParameter(3))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> die Steuer um <Value>IntegerParameter(1)</Value> Prozentpunkte gesenkt. Sie beträgt aktuell <Value>IntegerParameter(2)</Value> % des Verkaufspreises."
-49,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK","In <Sheet(Town,IntegerParameter(1),0)/> ist bis <Time(IntegerParameter(2))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> die Steuer um <Value>IntegerParameter(3)</Value> Prozentpunkte gesenkt. Sie beträgt aktuell <Value>IntegerParameter(4)</Value><Indent/>% des Verkaufspreises."
-50,"TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_LIMSA","Momentan gibt es in Limsa Lominsa keine Steuersenkung. Die Steuer beträgt <Value>IntegerParameter(1)</Value> % des Verkaufspreises."
-51,"TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_GRIDANIA","Momentan gibt es in Gridania keine Steuersenkung. Die Steuer beträgt <Value>IntegerParameter(1)</Value> % des Verkaufspreises."
-52,"TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ULDAH","Momentan gibt es in Ul'dah keine Steuersenkung. Die Steuer beträgt <Value>IntegerParameter(1)</Value> % des Verkaufspreises."
-53,"TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ISHGARD","Momentan gibt es in Ishgard keine Steuersenkung. Die Steuer beträgt <Value>IntegerParameter(1)</Value> % des Verkaufspreises."
-54,"TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_TOWN40","Momentan gibt es in Kugane keine Steuersenkung. Die Steuer beträgt <Value>IntegerParameter(1)</Value> % des Verkaufspreises."
-55,"TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK","Momentan gibt es in <Sheet(Town,IntegerParameter(1),0)/> keine Steuersenkung. Die Steuer beträgt <Value>IntegerParameter(2)</Value><Indent/>% des Verkaufspreises."
-56,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ABOUT","Steuersenkungen"
-57,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_EXPLANATION","Stadt<SoftHyphen/>staaten, in denen nur wenige Gehilfen Gegenstände verkaufen, reduzieren die Verkaufssteuer, um die Wirtschaft anzukurbeln."
-58,"TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_CAUTION","Es ist möglich, dass die Steuersenkung vor dem angekündigten Endtermin aufgehoben wird. Die Finanzminister bitten um Ihr Verständnis."
-59,"TEXT_CMNDEFRETAINERDESK_00009_CREATE_TALK_01","Eine gute Entscheidung. Ich muss darauf hinweisen, dass du nicht mehr als <Value>IntegerParameter(1)</Value> einstellen kannst. Lass mich kurz in den Unterlagen nachsehen ..."
-60,"TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_TALK","Ja, du hast momentan keinen Gehilfen angestellt."
-61,"TEXT_CMNDEFRETAINERDESK_00009_HAVE_RETAINERS_TALK","Du hast momentan <If(Equal(IntegerParameter(1),1))>einen<Else/><Value>IntegerParameter(1)</Value></If> Gehilfen angestellt."
-62,"TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_WARNING","Während du Änderungen an deinem Gehilfen vornimmst, kannst du nicht mit anderen Spielern sprechen oder anderen Aktivitäten nachgehen."
-63,"TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_TALK","Ausgezeichnet. Wir haben verschiedene Männer und Frauen zur Auswahl, daher solltest du mir deine Wünsche so genau wie möglich beschreiben."
-64,"TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_WARNING","Wenn du mit dem Einstellungsvorgang für einen Gehilfen beginnst, wird deine derzeitige Inhaltssuche abgebrochen."
-65,"TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM","Inhaltssuche abbrechen und einen Gehilfen anheuern?"
-66,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK","Es gibt verschiedene Gehilfen, die gut für dich geeignet wären. Seltsamerweise sind sie sehr unter<SoftHyphen/>schied<SoftHyphen/>liche Charaktere. Es wäre daher sehr hilfreich, wenn du mir deine Vorlieben mitteilen könntest."
-67,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TITLE","Wähle einen Charakter für deinen Gehilfen."
-68,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CHEERFUL","Höflich"
-69,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_WILD","Ungehobelt"
-70,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_COOLHEADED","Ernst"
-71,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CAREFREE","Sorglos"
-72,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PROBLEMATIC","Eigenwillig"
-73,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PLAYFUL","Lebhaft"
-74,"TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_ENTER","Nun denn, ich habe da jemanden im Auge. Wenn die Person herbeigerufen wird, wirst du folgendermaßen begrüßt:"
-75,"TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_LEAVE","Wenn die Person fortgeschickt wird, wirst du folgendermaßen verabschiedet:"
-76,"TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM","Diesen Gehilfen anheuern?"
-77,"TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK","Ausgezeichnet. Es ist zudem Brauch, einem Gehilfen eine individuelle Bezeichnung zu geben - einen Rufnamen, wenn du so willst. Dies soll das Band zwischen unseren Kunden und ihren Gehilfen stärken."
-78,"TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_TITLE","Rufname des Gehilfen"
-79,"TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE0","Gib deinem Gehilfen einen Rufnamen."
-80,"TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE1","Der Gehilfenname kann aus Buchstaben, Apostrophen und Bindestrichen bestehen. Er muss mindestens 3 Zeichen lang sein, und Apostroph und Bindestrich dürfen nicht in Folge benutzt werden."
-81,"TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_HEAD","Rufname des Gehilfen"
-82,"TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM","Möchtest du den Einstellungsvorgang beenden?"
-83,"TEXT_CMNDEFRETAINERDESK_00009_CREATE_CONFIRM","„<Highlight>StringParameter(1)</Highlight>“ anstellen?"
-84,"TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE","Willst du einen neuen Gehilfen anstellen?"
-85,"TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_YES","Ja"
-86,"TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_NO","Nein"
-87,"TEXT_CMNDEFRETAINERDESK_00009_CREATING_RETAINER","Sehr wohl. Ich trage dich nur schnell ins Register ein, warte bitte einen Moment."
-88,"TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_01","Du hast <Highlight>StringParameter(1)</Highlight> als deinen Gehilfen angestellt."
-89,"TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_02","Mit der Krämerklingel kannst du deinen neuen Gehilfen jederzeit herbeirufen."
-90,"TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_03","Du findest eine Klingel gleich in der Nähe des Marktbretts. Probier doch bitte gleich aus, ob alles ordnungsgemäß funktioniert."
-91,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED_NAME","Dieser Rufname ist nicht möglich. Bitte gib deinem Gehilfen einen anderen Rufnamen."
-92,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FULL","Warum sagst du das nicht gleich? Tut mir leid, aber du kannst keine weiteren Gehilfen einstellen."
-93,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_CANCEL","Du willst vorerst keinen neuen Gehilfen registrieren, habe ich das richtig verstanden? Wenn du doch einen brauchst, komm einfach wieder vorbei."
-94,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_LIMSA_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Limsa Lominsa schicken soll."
-95,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_LIMSA","<Highlight>StringParameter(1)</Highlight> auf den Markt von Limsa Lominsa schicken?"
-96,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_LIMSA","<Highlight>StringParameter(1)</Highlight> wurde auf den Markt von Limsa Lominsa geschickt."
-97,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_LIMSA","Dieser Gehilfe ist bereits auf dem Markt von Limsa Lominsa."
-98,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_GRIDANIA_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den gridanischen Markt schicken soll."
-99,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_GRIDANIA","<Highlight>StringParameter(1)</Highlight> auf den Markt von Gridania schicken?"
-100,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_GRIDANIA","<Highlight>StringParameter(1)</Highlight> wurde auf den Markt von Gridania geschickt."
-101,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_GRIDANIA","Dieser Gehilfe ist bereits auf dem Markt von Gridania."
-102,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ULDAH_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Ul'dah schicken soll."
-103,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ULDAH","<Highlight>StringParameter(1)</Highlight> auf den Markt von Ul'dah schicken?"
-104,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ULDAH","<Highlight>StringParameter(1)</Highlight> wurde erfolgreich auf den Markt von Ul'dah geschickt."
-105,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ULDAH","Dieser Gehilfe ist bereits auf dem Markt von Ul'dah."
-106,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ISHGARD_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Ishgard schicken soll."
-107,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ISHGARD","<Highlight>StringParameter(1)</Highlight> auf den Markt von Ishgard schicken?"
-108,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ISHGARD","<Highlight>StringParameter(1)</Highlight> wurde erfolgreich auf den Markt von Ishgard geschickt."
-109,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ISHGARD","Dieser Gehilfe ist bereits auf dem Markt von Ishgard."
-110,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_TOWN40_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Kugane schicken soll."
-111,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_TOWN40","<Highlight>StringParameter(1)</Highlight> auf den Markt von Kugane schicken?"
-112,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_TOWN40","<Highlight>StringParameter(1)</Highlight> wurde erfolgreich auf den Markt von Kugane geschickt."
-113,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_TOWN40","Dieser Gehilfe ist bereits auf dem Markt von Kugane."
-114,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_OLDSHARLAYAN_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Alt-Sharlayan schicken soll."
-115,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_OLDSHARLAYAN","<Highlight>StringParameter(1)</Highlight> auf den Markt von Alt-Sharlayan schicken?"
-116,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_OLDSHARLAYAN","<Highlight>StringParameter(1)</Highlight> wurde erfolgreich auf den Markt von Alt-Sharlayan geschickt."
-117,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_OLDSHARLAYAN","Dieser Gehilfe ist bereits auf dem Markt von Alt-Sharlayan."
-118,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_VER70_01","Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Tuliyollal schicken soll."
-119,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_VER70","<Highlight>StringParameter(1)</Highlight> auf den Markt von Tuliyollal schicken?"
-120,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_VER70","<Highlight>StringParameter(1)</Highlight> wurde erfolgreich auf den Markt von Tuliyollal geschickt."
-121,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_VER70","Dieser Gehilfe ist bereits auf dem Markt von Tuliyollal."
-122,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_YES","Ja"
-123,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_NO","Nein"
-124,"TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_EXPLANATION","Wenn du den Namen eines Gehilfen ändern möchtest oder meinst, dass er dem Kosmetiker einen Besuch abstatten sollte - kein Problem, das ist jederzeit möglich. Und wenn du mit einem Gehilfen oder seiner Persönlichkeit überhaupt nicht zufrieden bist, kannst du an seiner Stelle einen neuen einstellen."
-125,"TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_TALK","Welchen Gehilfen möchtest du ändern?"
-126,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE","<Clickable(<Highlight>StringParameter(1)</Highlight>)/> ändern?"
-127,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_YES","Ja"
-128,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_NO","Nein"
-129,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_CANCEL","Dann ist also doch alles in Ordnung? Um so besser. Aber sprich mich einfach wieder an, wenn du unzufrieden bist."
-130,"TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM_REMAKE","Den Gehilfen überarbeiten?"
-131,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_TALK","Gut, dann wollen wir doch mal sehen, was wir tun können. Was genau möchtest du denn geändert haben?"
-132,"TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK_REMAKE","Verstehe. Jetzt sag mir doch bitte noch, was für eine Persönlichkeit der Gehilfe haben soll."
-133,"TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_REMAKE_ENTER","Nur um sicher zu gehen ... Ist es dir recht, wenn dein Gehilfe dich wie folgt anspricht?"
-134,"TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM_REMAKE","Bist du mit dieser Persönlichkeit zufrieden?"
-135,"TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK_REMAKE","Ausgezeichnet. Und welchen Rufnamen möchtest du dem Gehilfen geben? Du kannst natürlich den alten Namen beibehalten."
-136,"TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM_REMAKE","Möchtest du die Bearbeitung abbrechen?"
-137,"TEXT_CMNDEFRETAINERDESK_00009_REMAKE_CONFIRM","Die Bearbeitung von <Highlight>StringParameter(1)</Highlight> beenden?"
-138,"TEXT_CMNDEFRETAINERDESK_00009_REMEKE_RETAINER","Einen Moment, bitte. Ich werde alles Nötige veranlassen."
-139,"TEXT_CMNDEFRETAINERDESK_00009_EQUIP_HAVE_RETAINER","Bevor du einen Gehilfen bearbeitest, musst du ihm seine ganze Ausrüstung bis auf die der Haupthand abnehmen."
-140,"TEXT_CMNDEFRETAINERDESK_00009_VENTURE_RETAINER","Du kannst diesen Gehilfen nicht bearbeiten, weil er sich gerade auf einer Unternehmung befindet."
-141,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_FAILED","Die Bearbeitung konnte nicht durchgeführt werden."
-142,"TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_01","<Clickable(<Highlight>StringParameter(1)</Highlight>)/> wurde bearbeitet."
-143,"TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_02","Du kannst ihn oder sie nun mit der Klingel dort rufen."
-144,"TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_EXPLANATION","Du möchtest einen Gehilfen entlassen, sehr wohl. Ich frage gar nicht, was vorgefallen ist. Warte kurz, ich prüfe nur schnell deine Unterlagen."
-145,"TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_AVAILABLE","Du hast momentan gar keinen Gehilfen."
-146,"TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_TALK","Wen möchtest du entlassen?"
-147,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE","Willst du den Gehilfen „<Highlight>StringParameter(1)</Highlight>“ entlassen?"
-148,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_HASHOUSE","<Clickable(<Highlight>StringParameter(1)</Highlight>)/> entlassen?
+0,TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_1,Einen wunderschönen guten Abend. Wie kann ich behilflich sein?
+1,TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_2,Gehilfen erleichtern vielbeschäftigten Abenteurern das Leben beträchtlich. Sie helfen ihnen bei der Verwaltung ihres Inventars.
+2,TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_3,"Es tut mir wirklich sehr leid, aber so einem jungen Mädchen wie dir kann ich noch keinen Gehilfen vermitteln.  "
+3,TEXT_CMNDEFRETAINERDESK_00009_DEFAULT_TALK_4,"Sieh dich erst mal etwas in der Stadt um, erledige ein paar Arbeiten für die Bürger und mach dir einen Namen als Abenteurerin, dann sehen wir, ob ich jemand Passenden für dich finden kann."
+4,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TITLE,Was möchtest du tun?
+5,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_TALK,Plaudern
+6,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CREATE,Einen Gehilfen anstellen
+7,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMOVE,Einen Gehilfen entlassen
+8,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REMAKE,Aussehen und Namen eines Gehilfen ändern
+9,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION,"Mir erklären lassen, wofür Gehilfen gut sind"
+10,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_JOBCHANGE,"Erfahren, wie man Gehilfen einen Job zuteilen kann"
+11,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CHECK_CASHBACK,"Erfahren, wo die Steuern zurzeit niedrig sind"
+12,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_CANCEL,Nichts
+13,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_LIMSA,Einen Gehilfen in die Marktbezirke von Limsa Lominsa schicken
+14,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_GRIDANIA,Einen Gehilfen in die Marktbezirke von Gridania schicken
+15,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ULDAH,Einen Gehilfen in die Marktbezirke von Ul'dah schicken
+16,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_ISHGARD,Einen Gehilfen in die Marktbezirke von Ishgard schicken
+17,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_TOWN40,Einen Gehilfen in die Marktbezirke von Kugane schicken
+18,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_OLDSHARLAYAN,Einen Gehilfen in die Marktbezirke von Alt-Sharlayan schicken.
+19,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_REGISTER_VER70,Einen Gehilfen in die Marktbezirke von Tuliyollal schicken.
+20,TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_TITLE,Was möchtest du wissen?
+21,TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_WHAT_IS,Wobei hilft mir denn ein Gehilfe?
+22,TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_ABOUT,Was kann ein Gehilfe genau?
+23,TEXT_CMNDEFRETAINERDESK_00009_EXPLANATION_MENU_CALL,"Wie rufe ich meinen Gehilfen, wenn ich ihn brauche?"
+24,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_BACK,Zurück.
+25,TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_01,"Ein Gehilfe hilft dir beim Verwalten deines Gepäcks - all das Zeug, das du im Laufe deiner zweifellos abenteuerlichen Streifzüge im Nu anhäufst und nicht wegwerfen, aber auch nicht tragen willst."
+26,TEXT_CMNDEFRETAINERDESK_00009_ABOUT_TALK_02,"Das Beste daran ist, dass die Aben­teurer­gilde deinen Gehilfen bezahlt. Was sagst du jetzt? Du siehst, die Gilde ist mehr als nur ein Vorwand, Abenteurer ins Hexenstübchen zu locken, damit sie dort versumpfen."
+27,TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_01,"Bei deinem Gehilfen kannst du Gegenstände und Gil hinterlegen, und er verkauft alles, was du nicht brauchst, auf dem Markt an andere Dum... Abenteurer."
+28,TEXT_CMNDEFRETAINERDESK_00009_ITEMS_GIL_TALK_02,"Den Markt kann ich dir jetzt nicht in allen Feinheiten erklären. Es geht schneller, wenn du einfach selbst mal reinschaust. Gleich hier nebenan ist das Marktbrett, der Zugang zu den Marktbezirken."
+29,TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_01,Mit der Krämerklingel kannst du deinen Gehilfen sofort herbeirufen und Waren oder Gil mit ihm austauschen.
+30,TEXT_CMNDEFRETAINERDESK_00009_CALL_TALK_02,"In der Nähe des Marktbretts siehst du so eine Klingel. Es gibt auch welche in den Herbergen - an Orten eben, wo sich Abenteurer oft aufhalten."
+31,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TITLE,Steuersenkungen
+32,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA,Limsa Lominsa: Steuern gesenkt
+33,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_LIMSA_NONE,Limsa Lominsa: Steuern nicht gesenkt
+34,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA,Gridania: Steuern gesenkt
+35,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_GRIDANIA_NONE,Gridania: Steuern nicht gesenkt
+36,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH,Ul'dah: Steuern gesenkt
+37,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ULDAH_NONE,Ul'dah: Steuern nicht gesenkt
+38,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD,Ishgard: Steuern gesenkt
+39,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ISHGARD_NONE,Ishgard: Steuern nicht gesenkt
+40,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40,Kugane: Steuern gesenkt
+41,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_TOWN40_NONE,Kugane: Steuern nicht gesenkt
+42,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK,: Steuern gesenkt
+43,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_NONE,: Steuern nicht gesenkt
+44,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_LIMSA,In Limsa Lominsa ist bis 27.8.2013 die Steuer um UNKNOWN Prozentpunkte gesenkt. Sie beträgt aktuell UNKNOWN % des Verkaufspreises.
+45,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_GRIDANIA,In Gridania ist bis 27.8.2013 die Steuer um UNKNOWN Prozentpunkte gesenkt. Sie beträgt aktuell UNKNOWN % des Verkaufspreises.
+46,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ULDAH,In Ul'dah ist bis 27.8.2013 die Steuer um UNKNOWN Prozentpunkte gesenkt. Sie beträgt aktuell UNKNOWN % des Verkaufspreises.
+47,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ISHGARD,In Ishgard ist bis 27.8.2013 die Steuer um UNKNOWN Prozentpunkte gesenkt. Sie beträgt aktuell UNKNOWN % des Verkaufspreises.
+48,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_TOWN40,In Kugane ist bis 27.8.2013 die Steuer um UNKNOWN Prozentpunkte gesenkt. Sie beträgt aktuell UNKNOWN % des Verkaufspreises.
+49,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK,In  ist bis 27.8.2013 die Steuer um UNKNOWN Prozentpunkte gesenkt. Sie beträgt aktuell UNKNOWN % des Verkaufspreises.
+50,TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_LIMSA,Momentan gibt es in Limsa Lominsa keine Steuersenkung. Die Steuer beträgt UNKNOWN % des Verkaufspreises.
+51,TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_GRIDANIA,Momentan gibt es in Gridania keine Steuersenkung. Die Steuer beträgt UNKNOWN % des Verkaufspreises.
+52,TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ULDAH,Momentan gibt es in Ul'dah keine Steuersenkung. Die Steuer beträgt UNKNOWN % des Verkaufspreises.
+53,TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_ISHGARD,Momentan gibt es in Ishgard keine Steuersenkung. Die Steuer beträgt UNKNOWN % des Verkaufspreises.
+54,TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK_TOWN40,Momentan gibt es in Kugane keine Steuersenkung. Die Steuer beträgt UNKNOWN % des Verkaufspreises.
+55,TEXT_CMNDEFRETAINERDESK_00009_NO_CASHBACK,Momentan gibt es in  keine Steuersenkung. Die Steuer beträgt UNKNOWN % des Verkaufspreises.
+56,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_ASK_ABOUT,Steuersenkungen
+57,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_EXPLANATION,"Stadt­staaten, in denen nur wenige Gehilfen Gegenstände verkaufen, reduzieren die Verkaufssteuer, um die Wirtschaft anzukurbeln."
+58,TEXT_CMNDEFRETAINERDESK_00009_CASHBACK_CAUTION,"Es ist möglich, dass die Steuersenkung vor dem angekündigten Endtermin aufgehoben wird. Die Finanzminister bitten um Ihr Verständnis."
+59,TEXT_CMNDEFRETAINERDESK_00009_CREATE_TALK_01,"Eine gute Entscheidung. Ich muss darauf hinweisen, dass du nicht mehr als UNKNOWN einstellen kannst. Lass mich kurz in den Unterlagen nachsehen ..."
+60,TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_TALK,"Ja, du hast momentan keinen Gehilfen angestellt."
+61,TEXT_CMNDEFRETAINERDESK_00009_HAVE_RETAINERS_TALK,Du hast momentan einen Gehilfen angestellt.
+62,TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_WARNING,"Während du Änderungen an deinem Gehilfen vornimmst, kannst du nicht mit anderen Spielern sprechen oder anderen Aktivitäten nachgehen."
+63,TEXT_CMNDEFRETAINERDESK_00009_CUSTOMIZE_TALK,"Ausgezeichnet. Wir haben verschiedene Männer und Frauen zur Auswahl, daher solltest du mir deine Wünsche so genau wie möglich beschreiben."
+64,TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_WARNING,"Wenn du mit dem Einstellungsvorgang für einen Gehilfen beginnst, wird deine derzeitige Inhaltssuche abgebrochen."
+65,TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM,Inhaltssuche abbrechen und einen Gehilfen anheuern?
+66,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK,"Es gibt verschiedene Gehilfen, die gut für dich geeignet wären. Seltsamerweise sind sie sehr unter­schied­liche Charaktere. Es wäre daher sehr hilfreich, wenn du mir deine Vorlieben mitteilen könntest."
+67,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TITLE,Wähle einen Charakter für deinen Gehilfen.
+68,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CHEERFUL,Höflich
+69,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_WILD,Ungehobelt
+70,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_COOLHEADED,Ernst
+71,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_CAREFREE,Sorglos
+72,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PROBLEMATIC,Eigenwillig
+73,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_PLAYFUL,Lebhaft
+74,TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_ENTER,"Nun denn, ich habe da jemanden im Auge. Wenn die Person herbeigerufen wird, wirst du folgendermaßen begrüßt:"
+75,TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_LEAVE,"Wenn die Person fortgeschickt wird, wirst du folgendermaßen verabschiedet:"
+76,TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM,Diesen Gehilfen anheuern?
+77,TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK,"Ausgezeichnet. Es ist zudem Brauch, einem Gehilfen eine individuelle Bezeichnung zu geben - einen Rufnamen, wenn du so willst. Dies soll das Band zwischen unseren Kunden und ihren Gehilfen stärken."
+78,TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_TITLE,Rufname des Gehilfen
+79,TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE0,Gib deinem Gehilfen einen Rufnamen.
+80,TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_MESSAGE1,"Der Gehilfenname kann aus Buchstaben, Apostrophen und Bindestrichen bestehen. Er muss mindestens 3 Zeichen lang sein, und Apostroph und Bindestrich dürfen nicht in Folge benutzt werden."
+81,TEXT_CMNDEFRETAINERDESK_00009_NAME_PROMPT_HEAD,Rufname des Gehilfen
+82,TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM,Möchtest du den Einstellungsvorgang beenden?
+83,TEXT_CMNDEFRETAINERDESK_00009_CREATE_CONFIRM,„UNKNOWN“ anstellen?
+84,TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE,Willst du einen neuen Gehilfen anstellen?
+85,TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_YES,Ja
+86,TEXT_CMNDEFRETAINERDESK_00009_ASK_CREATE_NO,Nein
+87,TEXT_CMNDEFRETAINERDESK_00009_CREATING_RETAINER,"Sehr wohl. Ich trage dich nur schnell ins Register ein, warte bitte einen Moment."
+88,TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_01,Du hast UNKNOWN als deinen Gehilfen angestellt.
+89,TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_02,Mit der Krämerklingel kannst du deinen neuen Gehilfen jederzeit herbeirufen.
+90,TEXT_CMNDEFRETAINERDESK_00009_CREATE_SUCCESS_03,"Du findest eine Klingel gleich in der Nähe des Marktbretts. Probier doch bitte gleich aus, ob alles ordnungsgemäß funktioniert."
+91,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED_NAME,Dieser Rufname ist nicht möglich. Bitte gib deinem Gehilfen einen anderen Rufnamen.
+92,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FULL,"Warum sagst du das nicht gleich? Tut mir leid, aber du kannst keine weiteren Gehilfen einstellen."
+93,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_CANCEL,"Du willst vorerst keinen neuen Gehilfen registrieren, habe ich das richtig verstanden? Wenn du doch einen brauchst, komm einfach wieder vorbei."
+94,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_LIMSA_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Limsa Lominsa schicken soll."
+95,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_LIMSA,UNKNOWN auf den Markt von Limsa Lominsa schicken?
+96,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_LIMSA,UNKNOWN wurde auf den Markt von Limsa Lominsa geschickt.
+97,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_LIMSA,Dieser Gehilfe ist bereits auf dem Markt von Limsa Lominsa.
+98,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_GRIDANIA_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den gridanischen Markt schicken soll."
+99,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_GRIDANIA,UNKNOWN auf den Markt von Gridania schicken?
+100,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_GRIDANIA,UNKNOWN wurde auf den Markt von Gridania geschickt.
+101,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_GRIDANIA,Dieser Gehilfe ist bereits auf dem Markt von Gridania.
+102,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ULDAH_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Ul'dah schicken soll."
+103,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ULDAH,UNKNOWN auf den Markt von Ul'dah schicken?
+104,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ULDAH,UNKNOWN wurde erfolgreich auf den Markt von Ul'dah geschickt.
+105,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ULDAH,Dieser Gehilfe ist bereits auf dem Markt von Ul'dah.
+106,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_ISHGARD_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Ishgard schicken soll."
+107,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_ISHGARD,UNKNOWN auf den Markt von Ishgard schicken?
+108,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_ISHGARD,UNKNOWN wurde erfolgreich auf den Markt von Ishgard geschickt.
+109,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_ISHGARD,Dieser Gehilfe ist bereits auf dem Markt von Ishgard.
+110,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_TOWN40_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Kugane schicken soll."
+111,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_TOWN40,UNKNOWN auf den Markt von Kugane schicken?
+112,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_TOWN40,UNKNOWN wurde erfolgreich auf den Markt von Kugane geschickt.
+113,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_TOWN40,Dieser Gehilfe ist bereits auf dem Markt von Kugane.
+114,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_OLDSHARLAYAN_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Alt-Sharlayan schicken soll."
+115,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_OLDSHARLAYAN,UNKNOWN auf den Markt von Alt-Sharlayan schicken?
+116,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_OLDSHARLAYAN,UNKNOWN wurde erfolgreich auf den Markt von Alt-Sharlayan geschickt.
+117,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_OLDSHARLAYAN,Dieser Gehilfe ist bereits auf dem Markt von Alt-Sharlayan.
+118,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_TALK_VER70_01,"Dann sag mir doch bitte schnell, welchen Gehilfen ich auf den Markt von Tuliyollal schicken soll."
+119,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_VER70,UNKNOWN auf den Markt von Tuliyollal schicken?
+120,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_SUCCESS_VER70,UNKNOWN wurde erfolgreich auf den Markt von Tuliyollal geschickt.
+121,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ALREADY_VER70,Dieser Gehilfe ist bereits auf dem Markt von Tuliyollal.
+122,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_YES,Ja
+123,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_ASK_NO,Nein
+124,TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_EXPLANATION,"Wenn du den Namen eines Gehilfen ändern möchtest oder meinst, dass er dem Kosmetiker einen Besuch abstatten sollte - kein Problem, das ist jederzeit möglich. Und wenn du mit einem Gehilfen oder seiner Persönlichkeit überhaupt nicht zufrieden bist, kannst du an seiner Stelle einen neuen einstellen."
+125,TEXT_CMNDEFRETAINERDESK_00009_REMAKE_RETAINER_TALK,Welchen Gehilfen möchtest du ändern?
+126,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE,UNKNOWN ändern?
+127,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_YES,Ja
+128,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMAKE_NO,Nein
+129,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_CANCEL,"Dann ist also doch alles in Ordnung? Um so besser. Aber sprich mich einfach wieder an, wenn du unzufrieden bist."
+130,TEXT_CMNDEFRETAINERDESK_00009_DUTY_FINDER_CONFIRM_REMAKE,Den Gehilfen überarbeiten?
+131,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_TALK,"Gut, dann wollen wir doch mal sehen, was wir tun können. Was genau möchtest du denn geändert haben?"
+132,TEXT_CMNDEFRETAINERDESK_00009_PERSONALITY_TALK_REMAKE,"Verstehe. Jetzt sag mir doch bitte noch, was für eine Persönlichkeit der Gehilfe haben soll."
+133,TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_REMAKE_ENTER,"Nur um sicher zu gehen ... Ist es dir recht, wenn dein Gehilfe dich wie folgt anspricht?"
+134,TEXT_CMNDEFRETAINERDESK_00009_CHECK_PERSONALITY_CONFIRM_REMAKE,Bist du mit dieser Persönlichkeit zufrieden?
+135,TEXT_CMNDEFRETAINERDESK_00009_NAME_ASK_REMAKE,Ausgezeichnet. Und welchen Rufnamen möchtest du dem Gehilfen geben? Du kannst natürlich den alten Namen beibehalten.
+136,TEXT_CMNDEFRETAINERDESK_00009_CANCEL_CONFIRM_REMAKE,Möchtest du die Bearbeitung abbrechen?
+137,TEXT_CMNDEFRETAINERDESK_00009_REMAKE_CONFIRM,Die Bearbeitung von UNKNOWN beenden?
+138,TEXT_CMNDEFRETAINERDESK_00009_REMEKE_RETAINER,"Einen Moment, bitte. Ich werde alles Nötige veranlassen."
+139,TEXT_CMNDEFRETAINERDESK_00009_EQUIP_HAVE_RETAINER,"Bevor du einen Gehilfen bearbeitest, musst du ihm seine ganze Ausrüstung bis auf die der Haupthand abnehmen."
+140,TEXT_CMNDEFRETAINERDESK_00009_VENTURE_RETAINER,"Du kannst diesen Gehilfen nicht bearbeiten, weil er sich gerade auf einer Unternehmung befindet."
+141,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMAKE_FAILED,Die Bearbeitung konnte nicht durchgeführt werden.
+142,TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_01,UNKNOWN wurde bearbeitet.
+143,TEXT_CMNDEFRETAINERDESK_00009_REMAKE_SUCCESS_02,Du kannst ihn oder sie nun mit der Klingel dort rufen.
+144,TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_EXPLANATION,"Du möchtest einen Gehilfen entlassen, sehr wohl. Ich frage gar nicht, was vorgefallen ist. Warte kurz, ich prüfe nur schnell deine Unterlagen."
+145,TEXT_CMNDEFRETAINERDESK_00009_NO_RETAINERS_AVAILABLE,Du hast momentan gar keinen Gehilfen.
+146,TEXT_CMNDEFRETAINERDESK_00009_REMOVE_RETAINER_TALK,Wen möchtest du entlassen?
+147,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE,Willst du den Gehilfen „UNKNOWN“ entlassen?
+148,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_HASHOUSE,"UNKNOWN entlassen?
 Bitte beachte, dass in einem Garten platzierte Gehilfen nicht automatisch entfernt werden."
-149,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_YES","Ja"
-150,"TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_NO","Nein"
-151,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_SUCCESS","Du hast <Highlight>StringParameter(1)</Highlight> entlassen."
-152,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY","Dein Gehilfe hat noch Ausrüstung, Gegenstände oder Gil von dir in Verwahrung oder bietet noch Gegenstände auf dem Markt an und kann deshalb nicht entlassen werden."
-153,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY2","Nimm ihm zuerst alle Gegenstände ab, einschließlich Kristallen und Gil."
-154,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_CANCEL","Du hast die Entlassung abgebrochen. Falls du dich anders entschließt, komm einfach wieder zu mir."
-155,"TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_TITLE","Was möchtest du?"
-156,"TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_HOWTO","Wie kann ich den Job eines Gehilfen festlegen?"
-157,"TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_RELATION","Was ist das Verhältnis zwischen Klasse und Job eines Gehilfen?"
-158,"TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_OBTAIN","Ich möchte <SheetDe(Item,1,IntegerParameter(1),1,4,1)/>."
-159,"TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_CANCEL","Nichts."
-160,"TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_01","Wenn du einen Job beherrschst, kannst du in <SheetDe(Item,1,IntegerParameter(1),1,3,1)/> eintragen, wie man die entsprechende Ausrüstung benutzt, und so dein Wissen mit Gehilfen teilen."
-161,"TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_02","<Clickable(<SheetDe(Item,2,IntegerParameter(1),1,1,1)/>)/> kannst du für 40 Wertmarken erstehen."
-162,"TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_03","Außerdem musst du Stufe 50 des Jobs erreicht haben, um dein Wissen darüber mit Gehilfen zu teilen. Gehilfen können keinen beschränkten Job ausüben."
-163,"TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_04","Wenn Gehilfen einen Job ausübt und du ihnen später eine neue Klasse bzw. einen neuen Job zuweisen möchtest, musst du die Klasse bzw. den Job zurücksetzen."
-164,"TEXT_CMNDEFRETAINERDESK_00009_RELATION_TALK_01","Um einem Gehilfen dein Wissen über einen bestimmten Job zu vermitteln, müssen verschiedene Voraus<SoftHyphen/>setzungen erfüllt sein."
-165,"TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_TITLE","Aktuelle Klasse des Gehilfen"
-166,"TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CLASS","<Sheet(ClassJob,IntegerParameter(1),0)/>"
-167,"TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CANCEL","Zurück"
-168,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_01","Der Gehilfe kann einen der folgenden Jobs ausüben."
-169,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_TITLE","Gewünschter Job"
-170,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CLASS","<Sheet(ClassJob,IntegerParameter(1),0)/>"
-171,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CANCEL","Zurück"
-172,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_10","Um deinem Gehilfen den Job „<Sheet(ClassJob,IntegerParameter(1),0)/>“ zuzuweisen, musst du mindestens Stufe 50 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Stufe 30 der Klasse „<Sheet(ClassJob,IntegerParameter(2),0)/>“ erreicht haben."
-173,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_20","Um deinem Gehilfen den Job „<Sheet(ClassJob,IntegerParameter(1),0)/>“ zuzuweisen, musst du mindestens Stufe 50 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 50 sein."
-174,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_30","Um deinem Gehilfen den Job „<Sheet(ClassJob,IntegerParameter(1),0)/>“ zuzuweisen, musst du mindestens Stufe 60 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 60 sein."
-175,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_40","Um deinem Gehilfen den Job „<Sheet(ClassJob,IntegerParameter(1),0)/>“ zuzuweisen, musst du mindestens Stufe 70 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 70 sein."
-176,"TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_50","Um deinem Gehilfen den Job „<Sheet(ClassJob,IntegerParameter(1),0)/>“ zuzuweisen, musst du mindestens Stufe 70 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 80 sein."
-177,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_HAS_ALREADY","Du hast ja bereits <SheetDe(Item,1,IntegerParameter(1),1,4,1)/>!"
-178,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_01","Rufe nun den Gehilfen mit der Krämerklingel und wähle „Job festlegen“."
-179,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_02","　"
-180,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_03","　"
-181,"TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_TRADE","<Clickable(<SheetDe(Item,1,IntegerParameter(1),1,1,1)/>)/> kostet 40 Wertmarken. Bist du einverstanden, den Preis zu zahlen?"
-182,"TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_YES","Ja"
-183,"TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_NO","Nein"
-184,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_FULL_BAG","Du konntest <SheetDe(Item,2,IntegerParameter(1),1,4,1)/> nicht erwerben, da du keinen Platz im Inventar hast."
-185,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_COIN","Du konntest <SheetDe(Item,2,IntegerParameter(1),1,4,1)/> nicht erwerben, da du nicht genug Wertmarken besitzt."
-186,"TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_EXCHANGE_GUIDE","Wenn du Wertmarken-Scheine besitzt, musst du diese erst bei einem Fundsachen-Verwalter in Wertmarken umtauschen."
-187,"TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_01","Du hast <SheetDe(Item,1,IntegerParameter(1),1,4,1)/> für 40 Wertmarken erworben."
-188,"TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_02","Rufe nun den Gehilfen mit der Krämerklingel und wähle „Job festlegen“."
-189,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE1","(-Höflicher Hyuran-)Da bin ich, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>."
-190,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE2","(-Ungehobelter Hyuran-)Kein Grund zur Hektik! Da bin ich doch."
-191,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE3","(-Ernster Hyuran-)Du hast gerufen?"
-192,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE4","(-Sorgloser Hyuran-)Ja, bitte? <seufz> Ich hoffe, das dauert nicht allzu lang ..."
-193,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE5","(-Eigenwilliger Hyuran-)Du möchtest sehen, wie ein Meister die Märkte im Griff hat?"
-194,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE6","(-Lebhafter Hyuran-)Hallo, hallo! Du hast gerufen?"
-195,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE1","(-Höfliche Hyuran-)Zu Diensten, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-196,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE2","(-Ungehobelte Hyuran-)Was gibt es diesmal, <If(PlayerParameter(4))>Süße<Else/>Süßer</If>?"
-197,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE3","(-Ernste Hyuran-)Was ist dein Begehr?"
-198,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE4","(-Sorglose Hyuran-)Hab ich dich warten lassen? 'tschuldigung."
-199,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE5","(-Eigenwillige Hyuran-)Beeilung, ich hab noch andere Dinge zu erledigen."
-200,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE6","(-Lebhafte Hyuran-)Wenn das nicht <If(PlayerParameter(4))>meine Lieblingsauftraggeberin<Else/>mein Lieblingsauftraggeber</If> ist! Ist mir wie immer ein Vergnügen, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>!"
-201,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE1","(-Höflicher Elezen-)Ja, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>? Wie kann ich Euch behilflich sein?"
-202,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE2","(-Ungehobelter Elezen-)Was steht an, <If(PlayerParameter(4))>Chefin<Else/>Boss</If>? Ein paar arme Tölpel um ihre schwer verdienten Gil bringen?"
-203,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE3","(-Ernster Elezen-)Hier bin ich. Nennt Euer Begehr."
-204,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE4","(-Sorgloser Elezen-)Oh, hallo. Warum beehrt Ihr mich?"
-205,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE5","(-Eigenwilliger Elezen-)Ich bin geschäftlich hier, rein geschäftlich."
-206,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE6","(-Lebhafter Elezen-)Ihr seht blendend aus, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>. Wie kann ich Euch helfen?"
-207,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE1","(-Höfliche Elezen-)Was möchtet Ihr mir auftragen, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>?"
-208,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE2","(-Ungehobelte Elezen-)Normalerweise rufe <Emphasis>ich</Emphasis> Leute herbei und lasse <Emphasis>andere</Emphasis> warten."
-209,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE3","(-Ernste Elezen-)Gibt es etwas, bei dem ich Euch helfen kann?"
-210,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE4","(-Sorglose Elezen-)Och nö, warum musst du mich zu solch einer Unzeit herbeirufen ...?"
-211,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE5","(-Eigenwillige Elezen-)Ich bin mir sicher, Ihr habt einen guten Grund für Euer Rufen."
-212,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE6","(-Lebhafte Elezen-)He, ich wusste, dass Ihr mich rufen würdet. Seid versichert, dass für mich kein Auftrag zu schwer ist."
-213,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE1","(-Höflicher Lalafell-)Seid gegrüßt, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>. Euer treuer Diener hat Euer Rufen erhört."
-214,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE2","(-Ungehobelter Lalafell-)Ja, bitte? Sag mir, was du willst, und ich werde sehen, was ich tun kann."
-215,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE3","(-Ernster Lalafell-)Ich habe mich schon gefragt, wann du mich rufen würdest."
-216,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE4","(-Sorgloser Lalafell-)Können wir das kurz halten? Ich habe da noch etwas zu erledigen."
-217,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE5","(-Eigenwilliger Lalafell-)Was willst du?"
-218,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE6","(-Lebhafter Lalafell-)Ich bin hier, ich bin hier!"
-219,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE1","(-Höfliche Lalafell-)Hier bin ich, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>. Stets zu Diensten."
-220,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE2","(-Ungehobelte Lalafell-)He, <If(PlayerParameter(4))>Süße<Else/>Süßer</If>. Was steht an?"
-221,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE3","(-Ernste Lalafell-)Ich lasse mir keine Gelegenheit entgehen, mir die Taschen zu füllen."
-222,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE4","(-Sorglose Lalafell-)Nun, das kommt unerwartet! Was gibt's?"
-223,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE5","(-Eigenwillige Lalafell-)Was ist denn nun schon wieder?"
-224,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE6","(-Lebhafte Lalafell-)Hier bin ich! Hallooo!"
-225,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE1","(-Höflicher Miqo'te-)Wie kann ich Euch zu Diensten sein, <If(PlayerParameter(4))>Frrräulein<Else/>Herrrr</If>?"
-226,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE2","(-Ungehobelter Miqo'te-)Da draußen ist Krieg, <If(PlayerParameter(4))>Mädel<Else/>Junge</If>. Du hast ja keine Ahnung."
-227,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE3","(-Ernster Miqo'te-)... Was gibt es?"
-228,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE4","(-Sorgloser Miqo'te-)Geschäftlich oder privat?"
-229,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE5","(-Eigenwilliger Miqo'te-)Ich nehme an, du hast mich nicht gerufen, weil dir langweilig ist."
-230,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE6","(-Lebhafter Miqo'te-)Genau <If(PlayerParameter(4))>die schöne junge Frau<Else/>der hübsche junge Mann</If>, auf <If(PlayerParameter(4))>die<Else/>den</If> ich gewartet habe! Was kann ich für dich tun?"
-231,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE1","(-Höfliche Miqo'te-)Ich hoffe, ich werde Euch zufriedenstellen können."
-232,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE2","(-Ungehobelte Miqo'te-)Du hast gerufen, <If(PlayerParameter(4))>Mädchen<Else/>Junge</If>?"
-233,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE3","(-Ernste Miqo'te-)Meinen Katzenohren entgeht nichts - schon gar nicht dein Rufen."
-234,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE4","(-Sorglose Miqo'te-)Die Neugier ruft die Katze herbei. Was kann ich heute für dich tun?"
-235,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE5","(-Eigenwillige Miqo'te-)Ich wär so weit."
-236,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE6","(-Lebhafte Miqo'te-)He, ich habe gerade an dich gedacht!"
-237,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE1","(-Höflicher Roegadyn-)Welches Anliegen habt Ihr heute, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>?"
-238,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE2","(-Ungehobelter Roegadyn-)Harhar! Du hast was zu erledigen? Spuck's nur aus."
-239,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE3","(-Ernster Roegadyn-)Da bin ich. Was liegt an?"
-240,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE4","(-Sorgloser Roegadyn-)Hallo ... <hicks> ... <If(PlayerParameter(4))>Kleines<Else/>mein Freund</If>! Trinken wir einen zusammen?"
-241,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE5","(-Eigenwilliger Roegadyn-)Schneller konnte ich nicht kommen. Gibt's Arbeit?"
-242,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE6","(-Lebhafter Roegadyn-)Ich bin sofort losgerannt, als ich die Glocke hörte! Brauchst du etwas?"
-243,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE1","(-Höfliche Roegadyn-)Ich stehe Euch zu Diensten, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-244,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE2","(-Ungehobelte Roegadyn-)Hast du was für mich, Käpt'n?"
-245,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE3","(-Ernste Roegadyn-)Melde mich zum Dienst, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-246,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE4","(-Sorglose Roegadyn-)Lass uns die Sache schnell erledigen, ja?"
-247,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE5","(-Eigenwillige Roegadyn-)Das wäre nicht nötig, wenn du deine Finanzen <Emphasis>mir</Emphasis> überlassen würdest."
-248,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE6","(-Lebhafte Roegadyn-)Also ... verkaufen, kaufen, trinken? Was steht heute an?"
-249,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE1","(-Höflicher Au Ra-)Wie kann ich Euch zu Diensten sein, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>?"
-250,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE2","(-Ungehobelter Au Ra-)Sag, was Sache ist, dann bin ich wieder weg."
-251,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE3","(-Ernster Au Ra-)Kann ich etwas für Euch erledigen, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>?"
-252,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE4","(-Sorgloser Au Ra-)Schöner Tag heute, nicht wahr? Perfekt für eine Unternehmung."
-253,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE5","(-Eigenwilliger Au Ra-)Was ist denn nun schon wieder? Ich wollte mir gerade einen Becher Reiswein einschenken ..."
-254,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE6","(-Lebhafter Au Ra-)Schön, Euch zu sehen! Was liegt an?"
-255,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE1","(-Höfliche Au Ra-)Wie kann ich Euch zu Diensten sein, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>?"
-256,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE2","(-Ungehobelte Au Ra-)Fass dich kurz, ich hab schon genug um die Ohren."
-257,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE3","(-Ernste Au Ra-)Bitte, sprecht. Was habt Ihr auf dem Herzen?"
-258,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE4","(-Sorglose Au Ra-)Hallöchen, was steht an, was steht an?"
-259,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE5","(-Eigenwillige Au Ra-)Hab ich da was klingeln gehört?"
-260,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE6","(-Lebhafte Au Ra-)Na, hast du mich vermisst, <If(PlayerParameter(4))>Kleine<Else/>Kleiner</If>?"
-261,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE1","(-Höflicher Hrothgar-)Stets zu Diensten, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>. Was liegt Euch auf dem Herzen?"
-262,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE2","(-Ungehobelter Hrothgar-)Was willst du von mir? Bild dir nicht ein, dass ich dir den Diener mach, <If(PlayerParameter(4))>Kleine<Else/>Kleiner</If>."
-263,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE3","(-Ernster Hrothgar-)Oh, ein Auftrag<Indent/>...<Indent/>? Ich hoffe, es is wichtig."
-264,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE4","(-Sorgloser Hrothgar-)Also dann, <If(PlayerParameter(4))>Frau Abenteurerin<Else/>Herr Abenteurer</If>. Was kann ich denn für dich tun?"
-265,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE5","(-Eigenwilliger Hrothgar-)Hm, was? Hast du nach mir gerufen? Hätte ich fast nicht mitbekommen."
-266,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE6","(-Lebhafter Hrothgar-)Grrrahaha! Na, spuck schon aus, was steht an?"
-267,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE1","(-Höfliche Viera-)Na, Herzchen? Was darf ich denn heute für dich tun, hm?"
-268,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE2","(-Ungehobelte Viera-)Ein Auftrag? Bah, kannst du nicht jemand anderen fragen<Indent/>...?"
-269,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE3","(-Ernste Viera-)Zu Diensten. Bitte komm zur Sache, ich bin reichlich beschäftigt."
-270,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE4","(-Sorglose Viera-)Oh, ich wurde gerufen! Wie aufregend! Endlich ein bisschen Abwechslung."
-271,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE5","(-Eigenwillige Viera-)Ja ja, anwesend. Was gibt's?"
-272,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE6","(-Lebhafte Viera-)Ich?! O-Oh, ja, hier! Darf ich mich nützlich machen?"
-273,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE1","(-Höflicher Viera-)Ich hatte schon geahnt, dass du mich an diesem wundervollen <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Abend<Else/>Morgen</If><Else/><If(LessThan(PlayerParameter(11),17))>Tag<Else/>Abend</If></If> rufen würdest! Was kann ich für dich tun?"
-274,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE2","(-Ungehobelter Viera-)<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>'n Abend<Else/>Moin</If><Else/><If(LessThan(PlayerParameter(11),17))>Tach<Else/>'n Abend</If></If>, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>. Was gibt's?"
-275,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE3","(-Ernster Viera-)Ihr verlangt nach mir, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>?"
-276,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE4","(-Sorgloser Viera-)War das grad - <hick> - die Klingel?"
-277,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE5","(-Eigenwilliger Viera-)Du hast mich gerufen? Also gut. Wie lautet der nächste Auftrag?"
-278,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE6","(-Lebhafter Viera-)Ich bin ganz Ohr, <If(PlayerParameter(4))>meine treueste Dame<Else/>mein treuster Herr</If>. Dein Wunsch ist mir Befehl!"
-279,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE1","(-Höfliche Hrothgar-)Guten <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Abend<Else/>Morgen</If><Else/><If(LessThan(PlayerParameter(11),17))>Tag<Else/>Abend</If></If>, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>. Wie darf ich heute zu Diensten sein?"
-280,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE2","(-Ungehobelte Hrothgar-)Was ist denn jetzt schon wieder? Muss ich dir denn wirklich bei jeder Unternehmung die Hand halten?"
-281,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE3","(-Ernste Hrothgar-)Du hast mich gerufen? Worum geht es?"
-282,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE4","(-Sorglose Hrothgar-)Ah, <If(PlayerParameter(4))>meine Beste<Else/>mein Bester</If>! Na, alles gut?"
-283,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE5","(-Eigenwillige Hrothgar-)Ein Schmetterling hat meine Frühstücksmilch gestohlen<Indent/>..."
-284,"TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE6","(-Lebhafte Hrothgar-)Jawohlja, schon zur Stelle! Und, was stellen wir heute Spannendes an?"
-285,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE1","(-Höflicher Hyuran-)Wenn das alles ist, werde ich mich nun verabschieden, <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>."
-286,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE2","(-Ungehobelter Hyuran-)Ich soll auf mich aufpassen? Wer bist du, meine Mutter?"
-287,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE3","(-Ernster Hyuran-)Bis zum nächsten Mal."
-288,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE4","(-Sorgloser Hyuran-)Nun, wurde ja auch Zeit. Wieder<SoftHyphen/>sehen!"
-289,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE5","(-Eigenwilliger Hyuran-)Ich denke, ein Dank wäre angebracht."
-290,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE6","(-Lebhafter Hyuran-)Ich geh dann mal!"
-291,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE1","(-Höfliche Hyuran-)Mit Eurer Erlaubnis, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-292,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE2","(-Ungehobelte Hyuran-)Mach dir keinen Kopf. Ich regel das."
-293,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE3","(-Ernste Hyuran-)Leb wohl."
-294,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE4","(-Sorglose Hyuran-)Wenn sonst nichts anliegt, breche ich dann mal auf."
-295,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE5","(-Eigenwillige Hyuran-)Ist das alles? Gut, dann bis zum nächsten Mal."
-296,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE6","(-Lebhafte Hyuran-)Oh, war's das für heute? Nun, versprich mir, bald wiederzukommen!"
-297,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE1","(-Höflicher Elezen-)Es war mir wie immer eine Ehre und ein Vergnügen, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-298,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE2","(-Ungehobelter Elezen-)Du kannst auf mich zählen, <If(PlayerParameter(4))>Chefin<Else/>Boss</If> - ich weiß, wie der Hase hier läuft."
-299,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE3","(-Ernster Elezen-)Meldet Euch mal wieder."
-300,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE4","(-Sorgloser Elezen-)Ich schwöre, ich werd's erledigen. Irgendwann mal."
-301,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE5","(-Eigenwilliger Elezen-)Wie Ihr wünscht."
-302,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE6","(-Lebhafter Elezen-)Großartig! Ich werde mich sofort drum kümmern."
-303,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE1","(-Höfliche Elezen-)Ich werde auf Euer nächstes Rufen warten, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-304,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE2","(-Ungehobelte Elezen-)Lass mich nicht zu lang allein, hörst du?"
-305,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE3","(-Ernste Elezen-)War mir wie immer ein Vergnügen."
-306,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE4","(-Sorglose Elezen-)Das wäre alles? Wenn du mich dann entschuldigen würdest ..."
-307,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE5","(-Eigenwillige Elezen-)Ich denke, damit ist unser Handel fürs Erste erledigt."
-308,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE6","(-Lebhafte Elezen-)Seid Ihr sicher, dass Ihr sonst nichts braucht? Wirklich? Gut, mit Verlaub ..."
-309,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE1","(-Höflicher Lalafell-)Eure Anliegen werden zügig und mit größter Sorgfalt erledigt."
-310,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE2","(-Ungehobelter Lalafell-)Ich geh dann mal."
-311,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE3","(-Ernster Lalafell-)Sollte nicht lange dauern, <If(PlayerParameter(4))>Chefin<Else/>Boss</If>."
-312,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE4","(-Sorgloser Lalafell-)Den Göttern sei Dank, dass wir hier fertig sind. Ich hab noch so einiges zu erledigen ..."
-313,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE5","(-Eigenwilliger Lalafell-)Mach's gut."
-314,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE6","(-Lebhafter Lalafell-)Ich bin dann mal weg, tschüssi!"
-315,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE1","(-Höfliche Lalafell-)Einen schönen Tag wünsche ich Euch noch."
-316,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE2","(-Ungehobelte Lalafell-)Möge Nald'thal unsere Taschen mit klingender Münze füllen!"
-317,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE3","(-Ernste Lalafell-)Der Segen der Zwölf sei mit dir."
-318,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE4","(-Sorglose Lalafell-)Sehr gut! Dein Wunsch ist mir Befehl und so."
-319,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE5","(-Eigenwillige Lalafell-)Du weißt ja, wie du mich findest."
-320,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE6","(-Lebhafte Lalafell-)Oh, schon Zeit für den Abschied? Du wirst mir fehlen ..."
-321,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE1","(-Höflicher Miqo'te-)Ich werde Euer Anliegen umgehend erledigen."
-322,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE2","(-Ungehobelter Miqo'te-)Die Märkte sind ein verdammtes Schlachtfeld, aber ich bin ein Vollblutsoldat. Du kannst auf mich zählen."
-323,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE3","(-Ernster Miqo'te-)... Ich geh."
-324,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE4","(-Sorgloser Miqo'te-)Warum denn so errrnst? <seufz> Dann mal los."
-325,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE5","(-Eigenwilliger Miqo'te-)Dafür hätte es mich nicht gebraucht, aber nun ist es wohl zu spät."
-326,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE6","(-Lebhafter Miqo'te-)Dann bist du also zufrieden? Ausgezeichnet! Ich freue mich, dass ich dir helfen konnte."
-327,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE1","(-Höfliche Miqo'te-)Auf Wieder<SoftHyphen/>sehen, Abenteurrrer<If(PlayerParameter(4))>in<Else/></If>."
-328,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE2","(-Ungehobelte Miqo'te-)Alles klar, dann mal los!"
-329,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE3","(-Ernste Miqo'te-)Es gibt keinen Grund zur Sorrrge."
-330,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE4","(-Sorglose Miqo'te-)Ist <If(PlayerParameter(4))>die Meisterin<Else/>der Meister</If> aus dem Haus, tanzt die Katze auf dem Tisch."
-331,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE5","(-Eigenwillige Miqo'te-)Bei den Göttern, das ist ermüdend ..."
-332,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE6","(-Lebhafte Miqo'te-)Du benötigst mich nicht mehr? <schnüff>"
-333,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE1","(-Höflicher Roegadyn-)Ich werde Eure Anweisungen genauestens befolgen, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>."
-334,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE2","(-Ungehobelter Roegadyn-)Harhar! Auf zum Markt, um die Sachen zu verscheuern!"
-335,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE3","(-Ernster Roegadyn-)Ich werde dann mal gehen."
-336,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE4","(-Sorgloser Roegadyn-)Och, schade. Ich mach mich dann wohl mal an die Arbeit ..."
-337,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE5","(-Eigenwilliger Roegadyn-)Ich mag keine Verabschiedungen."
-338,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE6","(-Lebhafter Roegadyn-)Gönn dir mal 'ne Mütze Schlaf, <If(PlayerParameter(4))>Chefin<Else/>Boss</If>. Du siehst furchtbar aus!"
-339,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE1","(-Höfliche Roegadyn-)Wäre das alles für heute, <If(PlayerParameter(4))>meine Dame<Else/>mein Herr</If>? Dann ziehe ich mich zurück."
-340,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE2","(-Ungehobelte Roegadyn-)Aye, aye, Käpt'n."
-341,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE3","(-Ernste Roegadyn-)Hab's notiert."
-342,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE4","(-Sorglose Roegadyn-)Das hatte ich heute eigentlich nicht vor, aber es hilft wohl alles nicht."
-343,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE5","(-Eigenwillige Roegadyn-)Wir überlegen nicht lang, wir packen an."
-344,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE6","(-Lebhafte Roegadyn-)Wie immer rein geschäftlich, wie ich sehe. Bis zum nächsten Mal dann."
-345,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE1","(-Höflicher Au Ra-)Dann werde ich mich nun zurückziehen. Mit Verlaub ..."
-346,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE2","(-Ungehobelter Au Ra-)Wenn's das alles war, verzieh ich mich mal wieder."
-347,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE3","(-Ernster Au Ra-)Es war mir eine Freude, Euch wiederzusehen."
-348,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE4","(-Sorgloser Au Ra-)Dann flitz ich mal los."
-349,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE5","(-Eigenwilliger Au Ra-)Wenn das mal gut geht ..."
-350,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE6","(-Lebhafter Au Ra-)Dann mal in die Hände gespuckt!"
-351,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE1","(-Höfliche Au Ra-)Mit Eurer Erlaubnis ziehe ich mich zurück."
-352,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE2","(-Ungehobelte Au Ra-)Und dafür breche ich mein Schönheitsbad ab? Ts ..."
-353,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE3","(-Ernste Au Ra-)Ich wünsche noch einen schönen Tag."
-354,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE4","(-Sorglose Au Ra-)Gern geschehen. Bis dann!"
-355,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE5","(-Eigenwillige Au Ra-)Ich geh dann mal ..."
-356,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE6","(-Lebhafte Au Ra-)Bis zum nächsten Mal! <zwinker>"
-357,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE1","(-Höflicher Hrothgar-)Zögert nicht, jederzeit wieder nach mir zu rufen,  <If(PlayerParameter(4))>Meisterin<Else/>Meister</If>."
-358,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE2","(-Ungehobelter Hrothgar-)... Dass ich dafür überhaupt aufgestanden bin. Nächstes Mal hast du hoffentlich was Spannenderes für mich, <If(PlayerParameter(4))>Kleine<Else/>Kleiner</If>."
-359,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE3","(-Ernster Hrothgar-)Wenn das alles war, dann ziehe ich mich jetzt zurück."
-360,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE4","(-Sorgloser Hrothgar-)<If(PlayerParameter(4))>Frau Abenteurerin<Else/>Herr Abenteurer</If>, man sieht sich. <zwinker>"
-361,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE5","(-Eigenwilliger Hrothgar-)Also dann<Indent/>... <gähn> Vielleicht reißt mich diese Klingel diesmal nicht aus meinen Träumen."
-362,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE6","(-Lebhafter Hrothgar-)Verstanden, verstanden. Lange kannst du ja sowieso nicht auf mich verzichten! Har!"
-363,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE1","(-Höfliche Viera-)Nun denn, bis zum nächsten Mal, Herzchen."
-364,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE2","(-Ungehobelte Viera-)Endlich fertig hier. Denk nicht mal dran, sofort wieder nach mir zu klingeln, hörst du?!"
-365,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE3","(-Ernste Viera-)Ich ziehe mich zurück. Auf bald."
-366,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE4","(-Sorglose Viera-)Schon fertig hier? Na schön. Zögere nicht, nach mir zu rufen!"
-367,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE5","(-Eigenwillige Viera-)Kann ich jetzt gehen?"
-368,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE6","(-Lebhafte Viera-)<If(PlayerParameter(4))>Meisterin<Else/>Meister</If>, ich bin immer hier, wenn Ihr mich braucht!"
-369,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE1","(-Höflicher Viera-)Zögere nicht, mich erneut zu rufen, wenn dir der Sinn danach steht. Und alles Gute auf deinen Abenteuern!"
-370,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE2","(-Ungehobelter Viera-)Ein Wort und ich bin zur Stelle, Eure Meisterlichkeit. Is' klar, ne?"
-371,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE3","(-Ernster Viera-)Wenn das dann alles wäre<Indent/>..."
-372,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE4","(-Sorgloser Viera-)Dann genehmige ich mir derweil noch ein Gläschen. Du weißt ja, wo du mich findest<Indent/>..."
-373,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE5","(-Eigenwilliger Viera-)Wie, das war's schon? Meinetwegen. Wenn du noch einen Auftrag hast, melde dich."
-374,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE6","(-Lebhafter Viera-)Nichts weiter, also? Wie bedauerlich. Dann hoppel' ich eben davon<Indent/>..."
-375,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE1","(-Höfliche Hrothgar-)Es ist mir eine Freude, dir zur Hand gehen zu dürfen, also zögere nicht, nach mir zu rufen. Ich werde sofort zur Stelle sein."
-376,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE2","(-Ungehobelte Hrothgar-)Bah, ein Danke bekommt man hier auch nie zu hören<Indent/>..."
-377,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE3","(-Ernste Hrothgar-)Nichts weiter also? Nun gut, bis zum nächsten Mal."
-378,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE4","(-Sorglose Hrothgar-)Soll mir recht sein, dann feile ich meine Krallen weiter!"
-379,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE5","(-Eigenwillige Hrothgar-)Hm? War das wirklich schon alles? Worüber haben wir überhaupt gerade gesprochen?"
-380,"TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE6","(-Lebhafte Hrothgar-)Alles erledigt soweit? Fein, ich freu mich aufs nächste Abenteuer!"
-381,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_ORDER_FAILED_NO_CHARGE","Du kannst keinen weiteren Gehilfen anstellen, weil der Vertrag ausgelaufen ist."
-382,"TEXT_CMNDEFRETAINERDESK_00009_REMOVE_INVENTORY_EXPLANATION","Gehilfen können nur entlassen werden, nachdem du alle Gegenstände und Gil in dein Inventar zurückgenommen hast."
-383,"TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION_01","Mit welchen Auskünften kann ich dir behilflich sein?"
-384,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED","Der Gehilfe konnte nicht entlassen werden."
-385,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED","Der Gehilfe konnte nicht angestellt werden."
-386,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CALL_FAILED","Der Gehilfe konnte nicht herbeigerufen werden."
-387,"TEXT_CMNDEFRETAINERDESK_00009_REGISTER_MARKET_FAILED","Der Gehilfe konnte nicht auf den Markt geschickt werden."
-388,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_NAME_TOO_SHORT","Der Name muss zwischen 3 und 20 Zeichen lang sein."
-389,"TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CONTRACT_ENDED","Der Vertrag dieses Gehilfen ist abgelaufen."
+149,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_YES,Ja
+150,TEXT_CMNDEFRETAINERDESK_00009_ASK_REMOVE_NO,Nein
+151,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_SUCCESS,Du hast UNKNOWN entlassen.
+152,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY,"Dein Gehilfe hat noch Ausrüstung, Gegenstände oder Gil von dir in Verwahrung oder bietet noch Gegenstände auf dem Markt an und kann deshalb nicht entlassen werden."
+153,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED_INVENTORY2,"Nimm ihm zuerst alle Gegenstände ab, einschließlich Kristallen und Gil."
+154,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_CANCEL,"Du hast die Entlassung abgebrochen. Falls du dich anders entschließt, komm einfach wieder zu mir."
+155,TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_TITLE,Was möchtest du?
+156,TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_HOWTO,Wie kann ich den Job eines Gehilfen festlegen?
+157,TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_RELATION,Was ist das Verhältnis zwischen Klasse und Job eines Gehilfen?
+158,TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_OBTAIN,Ich möchte .
+159,TEXT_CMNDEFRETAINERDESK_00009_JOB_MENU_CANCEL,Nichts.
+160,TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_01,"Wenn du einen Job beherrschst, kannst du in  eintragen, wie man die entsprechende Ausrüstung benutzt, und so dein Wissen mit Gehilfen teilen."
+161,TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_02, kannst du für 40 Wertmarken erstehen.
+162,TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_03,"Außerdem musst du Stufe 50 des Jobs erreicht haben, um dein Wissen darüber mit Gehilfen zu teilen. Gehilfen können keinen beschränkten Job ausüben."
+163,TEXT_CMNDEFRETAINERDESK_00009_JOB_HOWTO_TALK_04,"Wenn Gehilfen einen Job ausübt und du ihnen später eine neue Klasse bzw. einen neuen Job zuweisen möchtest, musst du die Klasse bzw. den Job zurücksetzen."
+164,TEXT_CMNDEFRETAINERDESK_00009_RELATION_TALK_01,"Um einem Gehilfen dein Wissen über einen bestimmten Job zu vermitteln, müssen verschiedene Voraus­setzungen erfüllt sein."
+165,TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_TITLE,Aktuelle Klasse des Gehilfen
+166,TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CLASS,
+167,TEXT_CMNDEFRETAINERDESK_00009_RELATION_MENU_CANCEL,Zurück
+168,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_01,Der Gehilfe kann einen der folgenden Jobs ausüben.
+169,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_TITLE,Gewünschter Job
+170,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CLASS,
+171,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_MENU_CANCEL,Zurück
+172,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_10,"Um deinem Gehilfen den Job „“ zuzuweisen, musst du mindestens Stufe 50 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Stufe 30 der Klasse „“ erreicht haben."
+173,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_20,"Um deinem Gehilfen den Job „“ zuzuweisen, musst du mindestens Stufe 50 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 50 sein."
+174,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_30,"Um deinem Gehilfen den Job „“ zuzuweisen, musst du mindestens Stufe 60 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 60 sein."
+175,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_40,"Um deinem Gehilfen den Job „“ zuzuweisen, musst du mindestens Stufe 70 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 70 sein."
+176,TEXT_CMNDEFRETAINERDESK_00009_CONDITIONS_TALK_50,"Um deinem Gehilfen den Job „“ zuzuweisen, musst du mindestens Stufe 70 des gleichen Jobs erreicht haben und der Gehilfe muss mindestens Krieger oder Magier der Stufe 80 sein."
+177,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_HAS_ALREADY,Du hast ja bereits !
+178,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_01,Rufe nun den Gehilfen mit der Krämerklingel und wähle „Job festlegen“.
+179,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_02,　
+180,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_TALK_03,　
+181,TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_TRADE," kostet 40 Wertmarken. Bist du einverstanden, den Preis zu zahlen?"
+182,TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_YES,Ja
+183,TEXT_CMNDEFRETAINERDESK_00009_ASK_SCROLL_NO,Nein
+184,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_FULL_BAG,"Du konntest  nicht erwerben, da du keinen Platz im Inventar hast."
+185,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_COIN,"Du konntest  nicht erwerben, da du nicht genug Wertmarken besitzt."
+186,TEXT_CMNDEFRETAINERDESK_00009_SCROLL_SHORTAGE_EXCHANGE_GUIDE,"Wenn du Wertmarken-Scheine besitzt, musst du diese erst bei einem Fundsachen-Verwalter in Wertmarken umtauschen."
+187,TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_01,Du hast  für 40 Wertmarken erworben.
+188,TEXT_CMNDEFRETAINERDESK_00009_TRADE_TALK_02,Rufe nun den Gehilfen mit der Krämerklingel und wähle „Job festlegen“.
+189,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE1,"(-Höflicher Hyuran-)Da bin ich, Meisterin."
+190,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE2,(-Ungehobelter Hyuran-)Kein Grund zur Hektik! Da bin ich doch.
+191,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE3,(-Ernster Hyuran-)Du hast gerufen?
+192,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE4,"(-Sorgloser Hyuran-)Ja, bitte? <seufz> Ich hoffe, das dauert nicht allzu lang ..."
+193,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE5,"(-Eigenwilliger Hyuran-)Du möchtest sehen, wie ein Meister die Märkte im Griff hat?"
+194,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_MALE_TYPE6,"(-Lebhafter Hyuran-)Hallo, hallo! Du hast gerufen?"
+195,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE1,"(-Höfliche Hyuran-)Zu Diensten, meine Dame."
+196,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE2,"(-Ungehobelte Hyuran-)Was gibt es diesmal, Süße?"
+197,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE3,(-Ernste Hyuran-)Was ist dein Begehr?
+198,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE4,(-Sorglose Hyuran-)Hab ich dich warten lassen? 'tschuldigung.
+199,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE5,"(-Eigenwillige Hyuran-)Beeilung, ich hab noch andere Dinge zu erledigen."
+200,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HYURAN_FEMALE_TYPE6,"(-Lebhafte Hyuran-)Wenn das nicht meine Lieblingsauftraggeberin ist! Ist mir wie immer ein Vergnügen, meine Dame!"
+201,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE1,"(-Höflicher Elezen-)Ja, meine Dame? Wie kann ich Euch behilflich sein?"
+202,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE2,"(-Ungehobelter Elezen-)Was steht an, Chefin? Ein paar arme Tölpel um ihre schwer verdienten Gil bringen?"
+203,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE3,(-Ernster Elezen-)Hier bin ich. Nennt Euer Begehr.
+204,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE4,"(-Sorgloser Elezen-)Oh, hallo. Warum beehrt Ihr mich?"
+205,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE5,"(-Eigenwilliger Elezen-)Ich bin geschäftlich hier, rein geschäftlich."
+206,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_MALE_TYPE6,"(-Lebhafter Elezen-)Ihr seht blendend aus, meine Dame. Wie kann ich Euch helfen?"
+207,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE1,"(-Höfliche Elezen-)Was möchtet Ihr mir auftragen, meine Dame?"
+208,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE2,(-Ungehobelte Elezen-)Normalerweise rufe *ich* Leute herbei und lasse *andere* warten.
+209,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE3,"(-Ernste Elezen-)Gibt es etwas, bei dem ich Euch helfen kann?"
+210,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE4,"(-Sorglose Elezen-)Och nö, warum musst du mich zu solch einer Unzeit herbeirufen ...?"
+211,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE5,"(-Eigenwillige Elezen-)Ich bin mir sicher, Ihr habt einen guten Grund für Euer Rufen."
+212,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ELEZEN_FEMALE_TYPE6,"(-Lebhafte Elezen-)He, ich wusste, dass Ihr mich rufen würdet. Seid versichert, dass für mich kein Auftrag zu schwer ist."
+213,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE1,"(-Höflicher Lalafell-)Seid gegrüßt, meine Dame. Euer treuer Diener hat Euer Rufen erhört."
+214,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE2,"(-Ungehobelter Lalafell-)Ja, bitte? Sag mir, was du willst, und ich werde sehen, was ich tun kann."
+215,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE3,"(-Ernster Lalafell-)Ich habe mich schon gefragt, wann du mich rufen würdest."
+216,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE4,(-Sorgloser Lalafell-)Können wir das kurz halten? Ich habe da noch etwas zu erledigen.
+217,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE5,(-Eigenwilliger Lalafell-)Was willst du?
+218,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_MALE_TYPE6,"(-Lebhafter Lalafell-)Ich bin hier, ich bin hier!"
+219,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE1,"(-Höfliche Lalafell-)Hier bin ich, Meisterin. Stets zu Diensten."
+220,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE2,"(-Ungehobelte Lalafell-)He, Süße. Was steht an?"
+221,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE3,"(-Ernste Lalafell-)Ich lasse mir keine Gelegenheit entgehen, mir die Taschen zu füllen."
+222,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE4,"(-Sorglose Lalafell-)Nun, das kommt unerwartet! Was gibt's?"
+223,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE5,(-Eigenwillige Lalafell-)Was ist denn nun schon wieder?
+224,TEXT_CMNDEFRETAINERDESK_00009_ENTER_LALAFELL_FEMALE_TYPE6,(-Lebhafte Lalafell-)Hier bin ich! Hallooo!
+225,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE1,"(-Höflicher Miqo'te-)Wie kann ich Euch zu Diensten sein, Frrräulein?"
+226,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE2,"(-Ungehobelter Miqo'te-)Da draußen ist Krieg, Mädel. Du hast ja keine Ahnung."
+227,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE3,(-Ernster Miqo'te-)... Was gibt es?
+228,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE4,(-Sorgloser Miqo'te-)Geschäftlich oder privat?
+229,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE5,"(-Eigenwilliger Miqo'te-)Ich nehme an, du hast mich nicht gerufen, weil dir langweilig ist."
+230,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_MALE_TYPE6,"(-Lebhafter Miqo'te-)Genau die schöne junge Frau, auf die ich gewartet habe! Was kann ich für dich tun?"
+231,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE1,"(-Höfliche Miqo'te-)Ich hoffe, ich werde Euch zufriedenstellen können."
+232,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE2,"(-Ungehobelte Miqo'te-)Du hast gerufen, Mädchen?"
+233,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE3,(-Ernste Miqo'te-)Meinen Katzenohren entgeht nichts - schon gar nicht dein Rufen.
+234,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE4,(-Sorglose Miqo'te-)Die Neugier ruft die Katze herbei. Was kann ich heute für dich tun?
+235,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE5,(-Eigenwillige Miqo'te-)Ich wär so weit.
+236,TEXT_CMNDEFRETAINERDESK_00009_ENTER_MIQOTE_FEMALE_TYPE6,"(-Lebhafte Miqo'te-)He, ich habe gerade an dich gedacht!"
+237,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE1,"(-Höflicher Roegadyn-)Welches Anliegen habt Ihr heute, meine Dame?"
+238,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE2,(-Ungehobelter Roegadyn-)Harhar! Du hast was zu erledigen? Spuck's nur aus.
+239,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE3,(-Ernster Roegadyn-)Da bin ich. Was liegt an?
+240,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE4,(-Sorgloser Roegadyn-)Hallo ... <hicks> ... Kleines! Trinken wir einen zusammen?
+241,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE5,(-Eigenwilliger Roegadyn-)Schneller konnte ich nicht kommen. Gibt's Arbeit?
+242,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_MALE_TYPE6,"(-Lebhafter Roegadyn-)Ich bin sofort losgerannt, als ich die Glocke hörte! Brauchst du etwas?"
+243,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE1,"(-Höfliche Roegadyn-)Ich stehe Euch zu Diensten, meine Dame."
+244,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE2,"(-Ungehobelte Roegadyn-)Hast du was für mich, Käpt'n?"
+245,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE3,"(-Ernste Roegadyn-)Melde mich zum Dienst, meine Dame."
+246,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE4,"(-Sorglose Roegadyn-)Lass uns die Sache schnell erledigen, ja?"
+247,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE5,"(-Eigenwillige Roegadyn-)Das wäre nicht nötig, wenn du deine Finanzen *mir* überlassen würdest."
+248,TEXT_CMNDEFRETAINERDESK_00009_ENTER_ROEGADYN_FEMALE_TYPE6,"(-Lebhafte Roegadyn-)Also ... verkaufen, kaufen, trinken? Was steht heute an?"
+249,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE1,"(-Höflicher Au Ra-)Wie kann ich Euch zu Diensten sein, Meisterin?"
+250,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE2,"(-Ungehobelter Au Ra-)Sag, was Sache ist, dann bin ich wieder weg."
+251,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE3,"(-Ernster Au Ra-)Kann ich etwas für Euch erledigen, meine Dame?"
+252,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE4,"(-Sorgloser Au Ra-)Schöner Tag heute, nicht wahr? Perfekt für eine Unternehmung."
+253,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE5,(-Eigenwilliger Au Ra-)Was ist denn nun schon wieder? Ich wollte mir gerade einen Becher Reiswein einschenken ...
+254,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_MALE_TYPE6,"(-Lebhafter Au Ra-)Schön, Euch zu sehen! Was liegt an?"
+255,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE1,"(-Höfliche Au Ra-)Wie kann ich Euch zu Diensten sein, Meisterin?"
+256,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE2,"(-Ungehobelte Au Ra-)Fass dich kurz, ich hab schon genug um die Ohren."
+257,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE3,"(-Ernste Au Ra-)Bitte, sprecht. Was habt Ihr auf dem Herzen?"
+258,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE4,"(-Sorglose Au Ra-)Hallöchen, was steht an, was steht an?"
+259,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE5,(-Eigenwillige Au Ra-)Hab ich da was klingeln gehört?
+260,TEXT_CMNDEFRETAINERDESK_00009_ENTER_AURA_FEMALE_TYPE6,"(-Lebhafte Au Ra-)Na, hast du mich vermisst, Kleine?"
+261,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE1,"(-Höflicher Hrothgar-)Stets zu Diensten, Meisterin. Was liegt Euch auf dem Herzen?"
+262,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE2,"(-Ungehobelter Hrothgar-)Was willst du von mir? Bild dir nicht ein, dass ich dir den Diener mach, Kleine."
+263,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE3,"(-Ernster Hrothgar-)Oh, ein Auftrag ... ? Ich hoffe, es is wichtig."
+264,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE4,"(-Sorgloser Hrothgar-)Also dann, Frau Abenteurerin. Was kann ich denn für dich tun?"
+265,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE5,"(-Eigenwilliger Hrothgar-)Hm, was? Hast du nach mir gerufen? Hätte ich fast nicht mitbekommen."
+266,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_MALE_TYPE6,"(-Lebhafter Hrothgar-)Grrrahaha! Na, spuck schon aus, was steht an?"
+267,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE1,"(-Höfliche Viera-)Na, Herzchen? Was darf ich denn heute für dich tun, hm?"
+268,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE2,"(-Ungehobelte Viera-)Ein Auftrag? Bah, kannst du nicht jemand anderen fragen ...?"
+269,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE3,"(-Ernste Viera-)Zu Diensten. Bitte komm zur Sache, ich bin reichlich beschäftigt."
+270,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE4,"(-Sorglose Viera-)Oh, ich wurde gerufen! Wie aufregend! Endlich ein bisschen Abwechslung."
+271,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE5,"(-Eigenwillige Viera-)Ja ja, anwesend. Was gibt's?"
+272,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_FEMALE_TYPE6,"(-Lebhafte Viera-)Ich?! O-Oh, ja, hier! Darf ich mich nützlich machen?"
+273,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE1,"(-Höflicher Viera-)Ich hatte schon geahnt, dass du mich an diesem wundervollen Abend rufen würdest! Was kann ich für dich tun?"
+274,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE2,"(-Ungehobelter Viera-)'n Abend, Meisterin. Was gibt's?"
+275,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE3,"(-Ernster Viera-)Ihr verlangt nach mir, Meisterin?"
+276,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE4,(-Sorgloser Viera-)War das grad - <hick> - die Klingel?
+277,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE5,(-Eigenwilliger Viera-)Du hast mich gerufen? Also gut. Wie lautet der nächste Auftrag?
+278,TEXT_CMNDEFRETAINERDESK_00009_ENTER_VIERA_MALE_TYPE6,"(-Lebhafter Viera-)Ich bin ganz Ohr, meine treueste Dame. Dein Wunsch ist mir Befehl!"
+279,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE1,"(-Höfliche Hrothgar-)Guten Abend, meine Dame. Wie darf ich heute zu Diensten sein?"
+280,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE2,(-Ungehobelte Hrothgar-)Was ist denn jetzt schon wieder? Muss ich dir denn wirklich bei jeder Unternehmung die Hand halten?
+281,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE3,(-Ernste Hrothgar-)Du hast mich gerufen? Worum geht es?
+282,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE4,"(-Sorglose Hrothgar-)Ah, meine Beste! Na, alles gut?"
+283,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE5,(-Eigenwillige Hrothgar-)Ein Schmetterling hat meine Frühstücksmilch gestohlen ...
+284,TEXT_CMNDEFRETAINERDESK_00009_ENTER_HROTHGAR_FEMALE_TYPE6,"(-Lebhafte Hrothgar-)Jawohlja, schon zur Stelle! Und, was stellen wir heute Spannendes an?"
+285,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE1,"(-Höflicher Hyuran-)Wenn das alles ist, werde ich mich nun verabschieden, Meisterin."
+286,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE2,"(-Ungehobelter Hyuran-)Ich soll auf mich aufpassen? Wer bist du, meine Mutter?"
+287,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE3,(-Ernster Hyuran-)Bis zum nächsten Mal.
+288,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE4,"(-Sorgloser Hyuran-)Nun, wurde ja auch Zeit. Wieder­sehen!"
+289,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE5,"(-Eigenwilliger Hyuran-)Ich denke, ein Dank wäre angebracht."
+290,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_MALE_TYPE6,(-Lebhafter Hyuran-)Ich geh dann mal!
+291,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE1,"(-Höfliche Hyuran-)Mit Eurer Erlaubnis, meine Dame."
+292,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE2,(-Ungehobelte Hyuran-)Mach dir keinen Kopf. Ich regel das.
+293,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE3,(-Ernste Hyuran-)Leb wohl.
+294,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE4,"(-Sorglose Hyuran-)Wenn sonst nichts anliegt, breche ich dann mal auf."
+295,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE5,"(-Eigenwillige Hyuran-)Ist das alles? Gut, dann bis zum nächsten Mal."
+296,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HYURAN_FEMALE_TYPE6,"(-Lebhafte Hyuran-)Oh, war's das für heute? Nun, versprich mir, bald wiederzukommen!"
+297,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE1,"(-Höflicher Elezen-)Es war mir wie immer eine Ehre und ein Vergnügen, meine Dame."
+298,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE2,"(-Ungehobelter Elezen-)Du kannst auf mich zählen, Chefin - ich weiß, wie der Hase hier läuft."
+299,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE3,(-Ernster Elezen-)Meldet Euch mal wieder.
+300,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE4,"(-Sorgloser Elezen-)Ich schwöre, ich werd's erledigen. Irgendwann mal."
+301,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE5,(-Eigenwilliger Elezen-)Wie Ihr wünscht.
+302,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_MALE_TYPE6,(-Lebhafter Elezen-)Großartig! Ich werde mich sofort drum kümmern.
+303,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE1,"(-Höfliche Elezen-)Ich werde auf Euer nächstes Rufen warten, meine Dame."
+304,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE2,"(-Ungehobelte Elezen-)Lass mich nicht zu lang allein, hörst du?"
+305,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE3,(-Ernste Elezen-)War mir wie immer ein Vergnügen.
+306,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE4,(-Sorglose Elezen-)Das wäre alles? Wenn du mich dann entschuldigen würdest ...
+307,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE5,"(-Eigenwillige Elezen-)Ich denke, damit ist unser Handel fürs Erste erledigt."
+308,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ELEZEN_FEMALE_TYPE6,"(-Lebhafte Elezen-)Seid Ihr sicher, dass Ihr sonst nichts braucht? Wirklich? Gut, mit Verlaub ..."
+309,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE1,(-Höflicher Lalafell-)Eure Anliegen werden zügig und mit größter Sorgfalt erledigt.
+310,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE2,(-Ungehobelter Lalafell-)Ich geh dann mal.
+311,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE3,"(-Ernster Lalafell-)Sollte nicht lange dauern, Chefin."
+312,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE4,"(-Sorgloser Lalafell-)Den Göttern sei Dank, dass wir hier fertig sind. Ich hab noch so einiges zu erledigen ..."
+313,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE5,(-Eigenwilliger Lalafell-)Mach's gut.
+314,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_MALE_TYPE6,"(-Lebhafter Lalafell-)Ich bin dann mal weg, tschüssi!"
+315,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE1,(-Höfliche Lalafell-)Einen schönen Tag wünsche ich Euch noch.
+316,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE2,(-Ungehobelte Lalafell-)Möge Nald'thal unsere Taschen mit klingender Münze füllen!
+317,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE3,(-Ernste Lalafell-)Der Segen der Zwölf sei mit dir.
+318,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE4,(-Sorglose Lalafell-)Sehr gut! Dein Wunsch ist mir Befehl und so.
+319,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE5,"(-Eigenwillige Lalafell-)Du weißt ja, wie du mich findest."
+320,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_LALAFELL_FEMALE_TYPE6,"(-Lebhafte Lalafell-)Oh, schon Zeit für den Abschied? Du wirst mir fehlen ..."
+321,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE1,(-Höflicher Miqo'te-)Ich werde Euer Anliegen umgehend erledigen.
+322,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE2,"(-Ungehobelter Miqo'te-)Die Märkte sind ein verdammtes Schlachtfeld, aber ich bin ein Vollblutsoldat. Du kannst auf mich zählen."
+323,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE3,(-Ernster Miqo'te-)... Ich geh.
+324,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE4,(-Sorgloser Miqo'te-)Warum denn so errrnst? <seufz> Dann mal los.
+325,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE5,"(-Eigenwilliger Miqo'te-)Dafür hätte es mich nicht gebraucht, aber nun ist es wohl zu spät."
+326,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_MALE_TYPE6,"(-Lebhafter Miqo'te-)Dann bist du also zufrieden? Ausgezeichnet! Ich freue mich, dass ich dir helfen konnte."
+327,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE1,"(-Höfliche Miqo'te-)Auf Wieder­sehen, Abenteurrrerin."
+328,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE2,"(-Ungehobelte Miqo'te-)Alles klar, dann mal los!"
+329,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE3,(-Ernste Miqo'te-)Es gibt keinen Grund zur Sorrrge.
+330,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE4,"(-Sorglose Miqo'te-)Ist die Meisterin aus dem Haus, tanzt die Katze auf dem Tisch."
+331,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE5,"(-Eigenwillige Miqo'te-)Bei den Göttern, das ist ermüdend ..."
+332,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_MIQOTE_FEMALE_TYPE6,(-Lebhafte Miqo'te-)Du benötigst mich nicht mehr? <schnüff>
+333,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE1,"(-Höflicher Roegadyn-)Ich werde Eure Anweisungen genauestens befolgen, meine Dame."
+334,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE2,"(-Ungehobelter Roegadyn-)Harhar! Auf zum Markt, um die Sachen zu verscheuern!"
+335,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE3,(-Ernster Roegadyn-)Ich werde dann mal gehen.
+336,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE4,"(-Sorgloser Roegadyn-)Och, schade. Ich mach mich dann wohl mal an die Arbeit ..."
+337,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE5,(-Eigenwilliger Roegadyn-)Ich mag keine Verabschiedungen.
+338,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_MALE_TYPE6,"(-Lebhafter Roegadyn-)Gönn dir mal 'ne Mütze Schlaf, Chefin. Du siehst furchtbar aus!"
+339,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE1,"(-Höfliche Roegadyn-)Wäre das alles für heute, meine Dame? Dann ziehe ich mich zurück."
+340,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE2,"(-Ungehobelte Roegadyn-)Aye, aye, Käpt'n."
+341,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE3,(-Ernste Roegadyn-)Hab's notiert.
+342,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE4,"(-Sorglose Roegadyn-)Das hatte ich heute eigentlich nicht vor, aber es hilft wohl alles nicht."
+343,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE5,"(-Eigenwillige Roegadyn-)Wir überlegen nicht lang, wir packen an."
+344,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_ROEGADYN_FEMALE_TYPE6,"(-Lebhafte Roegadyn-)Wie immer rein geschäftlich, wie ich sehe. Bis zum nächsten Mal dann."
+345,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE1,(-Höflicher Au Ra-)Dann werde ich mich nun zurückziehen. Mit Verlaub ...
+346,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE2,"(-Ungehobelter Au Ra-)Wenn's das alles war, verzieh ich mich mal wieder."
+347,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE3,"(-Ernster Au Ra-)Es war mir eine Freude, Euch wiederzusehen."
+348,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE4,(-Sorgloser Au Ra-)Dann flitz ich mal los.
+349,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE5,(-Eigenwilliger Au Ra-)Wenn das mal gut geht ...
+350,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_MALE_TYPE6,(-Lebhafter Au Ra-)Dann mal in die Hände gespuckt!
+351,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE1,(-Höfliche Au Ra-)Mit Eurer Erlaubnis ziehe ich mich zurück.
+352,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE2,(-Ungehobelte Au Ra-)Und dafür breche ich mein Schönheitsbad ab? Ts ...
+353,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE3,(-Ernste Au Ra-)Ich wünsche noch einen schönen Tag.
+354,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE4,(-Sorglose Au Ra-)Gern geschehen. Bis dann!
+355,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE5,(-Eigenwillige Au Ra-)Ich geh dann mal ...
+356,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_AURA_FEMALE_TYPE6,(-Lebhafte Au Ra-)Bis zum nächsten Mal! <zwinker>
+357,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE1,"(-Höflicher Hrothgar-)Zögert nicht, jederzeit wieder nach mir zu rufen,  Meisterin."
+358,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE2,"(-Ungehobelter Hrothgar-)... Dass ich dafür überhaupt aufgestanden bin. Nächstes Mal hast du hoffentlich was Spannenderes für mich, Kleine."
+359,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE3,"(-Ernster Hrothgar-)Wenn das alles war, dann ziehe ich mich jetzt zurück."
+360,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE4,"(-Sorgloser Hrothgar-)Frau Abenteurerin, man sieht sich. <zwinker>"
+361,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE5,(-Eigenwilliger Hrothgar-)Also dann ... <gähn> Vielleicht reißt mich diese Klingel diesmal nicht aus meinen Träumen.
+362,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_MALE_TYPE6,"(-Lebhafter Hrothgar-)Verstanden, verstanden. Lange kannst du ja sowieso nicht auf mich verzichten! Har!"
+363,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE1,"(-Höfliche Viera-)Nun denn, bis zum nächsten Mal, Herzchen."
+364,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE2,"(-Ungehobelte Viera-)Endlich fertig hier. Denk nicht mal dran, sofort wieder nach mir zu klingeln, hörst du?!"
+365,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE3,(-Ernste Viera-)Ich ziehe mich zurück. Auf bald.
+366,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE4,"(-Sorglose Viera-)Schon fertig hier? Na schön. Zögere nicht, nach mir zu rufen!"
+367,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE5,(-Eigenwillige Viera-)Kann ich jetzt gehen?
+368,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_FEMALE_TYPE6,"(-Lebhafte Viera-)Meisterin, ich bin immer hier, wenn Ihr mich braucht!"
+369,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE1,"(-Höflicher Viera-)Zögere nicht, mich erneut zu rufen, wenn dir der Sinn danach steht. Und alles Gute auf deinen Abenteuern!"
+370,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE2,"(-Ungehobelter Viera-)Ein Wort und ich bin zur Stelle, Eure Meisterlichkeit. Is' klar, ne?"
+371,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE3,(-Ernster Viera-)Wenn das dann alles wäre ...
+372,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE4,"(-Sorgloser Viera-)Dann genehmige ich mir derweil noch ein Gläschen. Du weißt ja, wo du mich findest ..."
+373,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE5,"(-Eigenwilliger Viera-)Wie, das war's schon? Meinetwegen. Wenn du noch einen Auftrag hast, melde dich."
+374,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_VIERA_MALE_TYPE6,"(-Lebhafter Viera-)Nichts weiter, also? Wie bedauerlich. Dann hoppel' ich eben davon ..."
+375,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE1,"(-Höfliche Hrothgar-)Es ist mir eine Freude, dir zur Hand gehen zu dürfen, also zögere nicht, nach mir zu rufen. Ich werde sofort zur Stelle sein."
+376,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE2,"(-Ungehobelte Hrothgar-)Bah, ein Danke bekommt man hier auch nie zu hören ..."
+377,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE3,"(-Ernste Hrothgar-)Nichts weiter also? Nun gut, bis zum nächsten Mal."
+378,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE4,"(-Sorglose Hrothgar-)Soll mir recht sein, dann feile ich meine Krallen weiter!"
+379,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE5,(-Eigenwillige Hrothgar-)Hm? War das wirklich schon alles? Worüber haben wir überhaupt gerade gesprochen?
+380,TEXT_CMNDEFRETAINERDESK_00009_LEAVE_HROTHGAR_FEMALE_TYPE6,"(-Lebhafte Hrothgar-)Alles erledigt soweit? Fein, ich freu mich aufs nächste Abenteuer!"
+381,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_ORDER_FAILED_NO_CHARGE,"Du kannst keinen weiteren Gehilfen anstellen, weil der Vertrag ausgelaufen ist."
+382,TEXT_CMNDEFRETAINERDESK_00009_REMOVE_INVENTORY_EXPLANATION,"Gehilfen können nur entlassen werden, nachdem du alle Gegenstände und Gil in dein Inventar zurückgenommen hast."
+383,TEXT_CMNDEFRETAINERDESK_00009_MAIN_MENU_EXPLANATION_01,Mit welchen Auskünften kann ich dir behilflich sein?
+384,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_REMOVE_FAILED,Der Gehilfe konnte nicht entlassen werden.
+385,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CREATE_FAILED,Der Gehilfe konnte nicht angestellt werden.
+386,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CALL_FAILED,Der Gehilfe konnte nicht herbeigerufen werden.
+387,TEXT_CMNDEFRETAINERDESK_00009_REGISTER_MARKET_FAILED,Der Gehilfe konnte nicht auf den Markt geschickt werden.
+388,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_NAME_TOO_SHORT,Der Name muss zwischen 3 und 20 Zeichen lang sein.
+389,TEXT_CMNDEFRETAINERDESK_00009_RETAINER_CONTRACT_ENDED,Der Vertrag dieses Gehilfen ist abgelaufen.

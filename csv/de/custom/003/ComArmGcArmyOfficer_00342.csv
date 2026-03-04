@@ -1,370 +1,367 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_COMARMGCARMYOFFICER_00342_MENU_YES","Ja"
-1,"TEXT_COMARMGCARMYOFFICER_00342_MENU_NO","Nein"
-2,"TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL","Abbrechen"
-3,"TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2","<If(GreaterThan(IntegerParameter(1),0))><Gui(69)/><Else/></If>Abbrechen"
-4,"TEXT_COMARMGCARMYOFFICER_00342_RANK_UP","Kommandorang<Indent/><Value>IntegerParameter(1)</Value>"
-5,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_WAITING","Momentaner Einsatz:<Indent/>-"
-6,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION","Momentaner Einsatz:
-<Sheet(GcArmyExpeditionType,<Sheet(GcArmyExpedition,IntegerParameter(1),7)/>,0)/>: <Sheet(GcArmyExpedition,IntegerParameter(1),8)/>
+0,TEXT_COMARMGCARMYOFFICER_00342_MENU_YES,Ja
+1,TEXT_COMARMGCARMYOFFICER_00342_MENU_NO,Nein
+2,TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL,Abbrechen
+3,TEXT_COMARMGCARMYOFFICER_00342_MENU_CANCEL2,Abbrechen
+4,TEXT_COMARMGCARMYOFFICER_00342_RANK_UP,Kommandorang UNKNOWN
+5,TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_WAITING,Momentaner Einsatz: -
+6,TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_EXPEDITION,"Momentaner Einsatz:
+: 
 Voraussichtliches Ende:
-<If(GreaterThan(IntegerParameter(2),0))>Bereits beendet!<Else/>In <If(GreaterThan(IntegerParameter(4),0))><Value>IntegerParameter(4)</Value> Stunde<If(Equal(IntegerParameter(4),1))><Else/>n</If> <If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Minute<If(Equal(IntegerParameter(3),1))><Else/>n</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> Minute<If(Equal(IntegerParameter(3),1))><Else/>n</If><Else/>weniger als 1 Minute</If></If></If>
-(<Time(IntegerParameter(5))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr)"
-7,"TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING","（★未使用／削除予定★）"
-8,"TEXT_COMARMGCARMYOFFICER_00342_MENU_001","<If(GreaterThan(IntegerParameter(1),0))><Gui(69)/><Else/></If>Einsatzbefehle einsehen"
-9,"TEXT_COMARMGCARMYOFFICER_00342_MENU_002","<If(GreaterThan(IntegerParameter(1),0))><Gui(69)/><Else/></If>Momentane Aktivität abbrechen"
-10,"TEXT_COMARMGCARMYOFFICER_00342_MENU_003","<If(GreaterThan(IntegerParameter(1),0))><Gui(69)/><Else/></If>Erklärungen wiederholen"
-11,"TEXT_COMARMGCARMYOFFICER_00342_MENU_004","<If(GreaterThan(IntegerParameter(1),0))><Gui(101)/><Else/></If>Erklärung zu Operationen erhalten"
-12,"TEXT_COMARMGCARMYOFFICER_00342_MENU_005","Operationen einsehen"
-13,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_000","Das Kommando ist momentan nicht im Einsatz."
-14,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_010","Das Kommando ist momentan nicht im Einsatz."
-15,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_020","Du kannst die Vergütung nicht annehmen, da nicht genug Platz im Inventar ist oder die Höchstgrenze für Kristalle erreicht ist. Bitte schaff Platz und sprich den Offizier erneut an."
-16,"TEXT_COMARMGCARMYOFFICER_00342_OBTAIN_TITLE","Du kannst die folgende Vergütung nicht annehmen, weil du bereits die maximale Anzahl besitzt. Möchtest du trotzdem fortfahren?
-<If(GreaterThan(IntegerParameter(1),0))>
-- Staatstaler<Else/></If><If(GreaterThan(IntegerParameter(2),0))>
-- Manderville-Goldsaucer-Punkte<Else/></If><If(GreaterThan(IntegerParameter(3),0))>
-- <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,1,1)/>)/><Else/></If><If(GreaterThan(IntegerParameter(4),0))>
-- <Clickable(<SheetDe(Item,5,IntegerParameter(6),2,1,1)/>)/><Else/></If>"
-17,"TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO","<Sheet(GcArmyExpeditionType,<Sheet(GcArmyExpedition,IntegerParameter(1),7)/>,0)/>: <Sheet(GcArmyExpedition,IntegerParameter(1),8)/>
+Bereits beendet!
+(27.8.2013 um 8:00 Uhr)"
+7,TEXT_COMARMGCARMYOFFICER_00342_MENU_TITLE_TRAINING,（★未使用／削除予定★）
+8,TEXT_COMARMGCARMYOFFICER_00342_MENU_001,Einsatzbefehle einsehen
+9,TEXT_COMARMGCARMYOFFICER_00342_MENU_002,Momentane Aktivität abbrechen
+10,TEXT_COMARMGCARMYOFFICER_00342_MENU_003,Erklärungen wiederholen
+11,TEXT_COMARMGCARMYOFFICER_00342_MENU_004,Erklärung zu Operationen erhalten
+12,TEXT_COMARMGCARMYOFFICER_00342_MENU_005,Operationen einsehen
+13,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_000,Das Kommando ist momentan nicht im Einsatz.
+14,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_010,Das Kommando ist momentan nicht im Einsatz.
+15,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_020,"Du kannst die Vergütung nicht annehmen, da nicht genug Platz im Inventar ist oder die Höchstgrenze für Kristalle erreicht ist. Bitte schaff Platz und sprich den Offizier erneut an."
+16,TEXT_COMARMGCARMYOFFICER_00342_OBTAIN_TITLE,"Du kannst die folgende Vergütung nicht annehmen, weil du bereits die maximale Anzahl besitzt. Möchtest du trotzdem fortfahren?
+
+- Staatstaler
+- Manderville-Goldsaucer-Punkte
+- 
+- "
+17,TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO,": 
 Voraussichtliches Ende:
-<If(GreaterThan(IntegerParameter(3),0))>In <Value>IntegerParameter(3)</Value> Stunde<If(Equal(IntegerParameter(3),1))><Else/>n</If> <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> Minute<If(Equal(IntegerParameter(2),1))><Else/>n</If><Else/></If><Else/>In <If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> Minute<If(Equal(IntegerParameter(2),1))><Else/>n</If><Else/>In weniger als 1 Minute</If></If>
-(<Time(IntegerParameter(4))/><Value>TopLevelParameter(219)</Value>.<Value>TopLevelParameter(221)</Value>.<Value>TopLevelParameter(222)</Value> um <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue> Uhr)
+In UNKNOWN Stunde UNKNOWN Minute
+(27.8.2013 um 8:00 Uhr)
 
 Möchtest du den Einsatz abbrechen?"
-18,"TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO_TRAINING","（★未使用／削除予定★）"
-19,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_TITLE","Welche Erklärung möchtest du noch einmal erhalten?"
-20,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_001","Einsätze"
-21,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_002","Ausbildung"
-22,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_003","Neue Anwärter finden"
-23,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_004","Anwärter einstellen"
-24,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_005","Höchstgrenze der Schlagkraft"
-25,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_006","Klassenwechsel"
-26,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_007","Kameradenbonus"
-27,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_008","Kommandobonus"
-28,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_009","Operationen"
-29,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_010","Strategien"
-30,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_011","Projektionen"
-31,"TEXT_COMARMGCARMYOFFICER_00342_GUIDE_CANCEL","Abbrechen"
-32,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_270","（★未使用／削除予定★）"
-33,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_270","（★未使用／削除予定★）"
-34,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_270","（★未使用／削除予定★）"
-35,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_280","（★未使用／削除予定★）"
-36,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_280","（★未使用／削除予定★）"
-37,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_280","（★未使用／削除予定★）"
-38,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_281","Manchmal, wenn du bestimmte Aufgaben der Aktuellen Agenda absolvierst, inspirierst du NPCs dazu, sich für dein Kommando zu bewerben."
-39,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_282","Sobald es einen neuen Anwärter gibt, wirst du mit einer Bildschirmnachricht darüber informiert."
-40,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_283","Außerdem kannst du auch jederzeit im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen, ob aktuell Bewerbungen vorliegen."
-41,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_284","Sieh dir in der Wachstube den Stapel Bewerbungsschreiben an, um neue Bewerbungen zu sichten und einen Anwärter zu rekrutieren."
-42,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_290","（★未使用／削除予定★）"
-43,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_291","（★未使用／削除予定★）"
-44,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_292","Sieh dir in der Wachstube den Stapel Bewerbungsschreiben an, um neue Bewerbungen zu sichten und einen Anwärter zu rekrutieren."
-45,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_100_292","Du kannst nicht mehr als acht Soldaten in deinem Kommando haben. Wenn dein Kommando acht Soldaten umfasst und du einen neuen Soldaten rekrutieren möchtest, musst du einen anderen Soldaten entlassen."
-46,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_290","（★未使用／削除予定★）"
-47,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_291","（★未使用／削除予定★）"
-48,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_290","（★未使用／削除予定★）"
-49,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_291","（★未使用／削除予定★）"
-50,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_200_292","（★未使用／削除予定★）"
-51,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_300","（★未使用／削除予定★）"
-52,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_301","（★未使用／削除予定★）"
-53,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_300","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Führung der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Führung der Legion<Else/></If> beauftragt dich mit strategisch wichtigen Einsätzen, die erledigt werden müssen. Als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> stellst du ein Kommando aus vier geeigneten Soldaten zusammen und schickst sie auf einen Einsatz, um den Befehl auszuführen."
-54,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_301","Deine Soldaten müssen mit Staatstalern bezahlt werden, und sie bestehen auf Vorauskasse."
-55,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_302","Ein Einsatz dauert 18 Stunden (Erdenzeit). Die verbleibende Zeit kannst du im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen."
-56,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_303","Nach Rückkehr des Kommandos informiert dich der <If(GreaterThan(PlayerParameter(52),0))>Sturmmaat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Schlangenjünger<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Legionsgefreite<Else/></If> über den Ausgang des Einsatzes."
-57,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_304","Jeder Einsatzbefehl kann einmal pro Woche absolviert werden. Die Rücksetzung der Einsätze und ihrer Erfordernisse erfolgt jeden <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00 Uhr (Erdenzeit)."
-58,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_302","（★未使用／削除予定★）"
-59,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_305","（★未使用／削除予定★）"
-60,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_300","（★未使用／削除予定★）"
-61,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_301","（★未使用／削除予定★）"
-62,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_302","（★未使用／削除予定★）"
-63,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_300","（★未使用／削除予定★）"
-64,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_301","（★未使用／削除予定★）"
-65,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_302","（★未使用／削除予定★）"
-66,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_310","（★未使用／削除予定★）"
-67,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_311","（★未使用／削除予定★）"
-68,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_312","Bilde deine Soldaten in den Bereichen Kraft, Moral und Taktik aus, um die Schlagkraft deines Kommandos zu erhöhen."
-69,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_313","Es gibt verschiedene Übungen, um unter<SoftHyphen/>schied<SoftHyphen/>liche Bereiche zu steigern. Überlege dir, welche Übung deinem Kommando am meisten nutzt."
-70,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_314","Die Ausbildung dauert 1 Stunde (Erdenzeit). Die verbleibende Zeit kannst du im Timer (im Hauptmenü unter „Spielinhalte“) einsehen."
-71,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_315","Nach Abschluss kannst du dich am Ausbildungsplan in der Wachstube über das Ergebnis der Ausbildung informieren."
-72,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_316","Jeden Tag können bis zu drei Ausbildungseinheiten angeordnet werden. Das Limit wird jeden Tag um <ResetTime>06</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00 Uhr (Erdenzeit) zurückgesetzt."
-73,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_310","（★未使用／削除予定★） "
-74,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_311","（★未使用／削除予定★）"
-75,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_310","（★未使用／削除予定★）"
-76,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_311","（★未使用／削除予定★）"
-77,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_310","Die Schlagkraft deines Kommandos hat einen vom Kommandorang abhängigen Höchstwert. Wenn die Summe aus Kraft, Moral und Taktik diesen Höchstwert erreicht hat und du trotzdem einen Bereich weiter verbessern willst, wird ein anderer Bereich entsprechend reduziert."
-78,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_311","Der Höchstwert kann nur gesteigert werden, indem dein Kommando im Rang aufsteigt. Dafür musst du bestimmte Einsätze bestehen, die mit einem ★ markiert sind."
-79,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_320","Du kannst mithilfe bestimmter Gegenstände die Klasse eines Soldaten ändern."
-80,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_321","Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Klasse ändern“. "
-81,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_330","（★未使用／削除予定★）"
-82,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_331","（★未使用／削除予定★）"
-83,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_330","Manchmal erwerben Soldaten auf einem Einsatz einen Kameradenbonus."
-84,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_331","Dieser Bonus gibt Zuschläge auf die Schlagkraft oder die Vergütung. Damit er wirkt, müssen bestimmte Bedingungen erfüllt sein, die oft die Zusammensetzung des Kommandos betreffen."
-85,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_332","Du kannst Änderungen am Kameradenbonus vornehmen. Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Kameradenbonus ändern“."
-86,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_333","Kameradenboni müssen vor dem nächsten Einsatz eingesetzt werden und verschwinden danach. Vergiss also nicht, den Kameradenbonus richtig einzustellen."
-87,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_340","Der Kommandobonus verschafft bestimmten Völkern und Klassen einen Zuschlag auf ihre Schlagkraft. "
-88,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_341","Der Kommandobonus kann besonders bei schwierigeren Einsätzen einen entscheidenden Unterschied ausmachen. Es lohnt sich also, das Kommando entsprechend aufzustellen."
-89,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_342","Der Kommandobonus ändert sich jeden <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00 Uhr (Erdenzeit)."
-90,"TEXT_COMARMGCARMYOFFICER_00342_021_000_GRD","（★未使用／削除予定★）"
-91,"TEXT_COMARMGCARMYOFFICER_00342_021_001_GRD","（★未使用／削除予定★）"
-92,"TEXT_COMARMGCARMYOFFICER_00342_021_002_GRD","（★未使用／削除予定★）"
-93,"TEXT_COMARMGCARMYOFFICER_00342_021_003_GRD","（★未使用／削除予定★）"
-94,"TEXT_COMARMGCARMYOFFICER_00342_021_000_LIM","（★未使用／削除予定★）"
-95,"TEXT_COMARMGCARMYOFFICER_00342_021_001_LIM","（★未使用／削除予定★）"
-96,"TEXT_COMARMGCARMYOFFICER_00342_021_002_LIM","（★未使用／削除予定★）"
-97,"TEXT_COMARMGCARMYOFFICER_00342_021_003_LIM","（★未使用／削除予定★）"
-98,"TEXT_COMARMGCARMYOFFICER_00342_021_000_ULD","（★未使用／削除予定★）"
-99,"TEXT_COMARMGCARMYOFFICER_00342_021_001_ULD","（★未使用／削除予定★）"
-100,"TEXT_COMARMGCARMYOFFICER_00342_021_002_ULD","（★未使用／削除予定★）"
-101,"TEXT_COMARMGCARMYOFFICER_00342_021_003_ULD","（★未使用／削除予定★）"
-102,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_340","Operationen sind Einsätze, bei denen du die Führung über das Kommando in einem Inhalt übernimmst."
-103,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_341","Du entscheidest, welche deiner Soldaten dich begleiten, aber beachte die übliche Rollenverteilung für Leichte Trupps (1 Verteidiger, 1 Heiler, 2 Angreifer), wenn du deinen Kommandotrupp zusammenstellst."
-104,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_342","Deine Soldaten handeln während der Operation eigenständig, aber du kannst ihr Verhalten mit Befehlen und Strategien beeinflussen."
-105,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_343","Es gibt drei Befehle: Angriff, Rückzug und Limitrausch, die von einer eigenen Leiste aus aktiviert werden können."
-106,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_344","Mit „Angriff“ befiehlst du deinen Soldaten, einen anvisierten Gegner anzugreifen."
-107,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_345","Mit „Rückzug“ befiehlst du deinen Soldaten, den Kampf abzubrechen und sich in deiner Nähe zu sammeln."
-108,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_346","Sobald du den Befehl zum Rückzug gibst, verwandelt sich der Befehl zu „Rückzug beenden“."
-109,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_347","Du kannst den Rückzug beenden, indem du den entsprechenden Befehl erteilst oder wieder zum Angriff bläst."
-110,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_348","Mit „Limitrausch“ richtet dein Kommandotrupp großen Schaden bei einem Gegner an und der ausgeteilte Schaden deiner Soldaten wird erhöht."
-111,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_349","Der Befehl löst Stufe 1 des Limitrausch-Balkens aus. Auch wenn beide Stufen gefüllt sind, wird nur eine verbraucht."
-112,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_350","Die Befehle können auch im Kommandomenü abgelegt werden. "
-113,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_351","Operationen können beim <If(GreaterThan(PlayerParameter(52),0))>Sturmmaat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Schlangenjünger<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Legionsgefreiten<Else/></If> gestartet und abgeschlossen werden."
-114,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_360","Bestimme eine Strategie für deine Kommando<SoftHyphen/>soldaten, um ihr generelles Verhalten und ihre Schlagkraft während Operationen zu beeinflussen."
-115,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_361","Anfangs steht nur die Strategie „Frei“ zur Verfügung, aber deine Soldaten lernen durch das Absolvieren von Operationen neue Strategien."
-116,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_362","Wähle eine der drei Strategien (Offensiv, Defensiv, Ausgeglichen), um das Verhalten deiner Soldaten festzulegen und einen entsprechenden positiven Status auszulösen."
-117,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_363","Mit dem Abschließen von Operationen kannst du Strategien im Rang steigern, um die Wirkung des entsprechenden Status zu verbessern."
-118,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_364","Die Strategie lässt sich für jeden Soldaten einzeln in seinem Untermenü einstellen und ändern."
-119,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_370","Sobald ein Soldat Stufe 51 erreicht hat, kann er Projektionen erhalten. Wähle die entsprechende Option über das Untermenü eines Soldaten aus, um die Erscheinung seiner Ausrüstung zu ändern."
-120,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_371","Für das Anwenden von Projektionen sind Katalysatoren erforderlich, die bei dem Prozess verbraucht werden."
-121,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_100","Ich habe dich erwartet, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Heute ist dein erster Tag im Dienst, und ich bin hier, um dir bei der Erfüllung deiner neuen Aufgabe zu helfen."
-122,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_136","Zuallererst: Dein Kommando besteht jetzt aus nur drei Soldaten. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
-123,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_137","Wenn du dich als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If> hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
-124,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_138","Manchmal, wenn du bestimmte Aufgaben der Aktuellen Agenda absolvierst, inspirierst du NPCs dazu, sich für dein Kommando zu bewerben."
-125,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_139","Sobald es einen neuen Anwärter gibt, wirst du mit einer Bildschirmnachricht darüber informiert."
-126,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_140","Außerdem kannst du auch jederzeit im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen, ob aktuell Bewerbungen vorliegen."
-127,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_141","Sieh dir in der Wachstube den Stapel Bewerbungsschreiben an, um neue Bewerbungen zu sichten und einen Anwärter zu rekrutieren."
-128,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_110","（★未使用／削除予定★）"
-129,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_111","（★未使用／削除予定★）"
-130,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_101","（★未使用／削除予定★）"
-131,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_102","（★未使用／削除予定★）"
-132,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_110","Es geht also los! Dein erster Einsatz!"
-133,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_111","Normalerweise <If(GreaterThan(PlayerParameter(52),0))>hat das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>haben die Schlangenpriester im Abaton<Else/></If><If(GreaterThan(PlayerParameter(54),0))>haben die Stabsoffiziere in der Ewigen Halle<Else/></If> eine Reihe von Einsatzbefehlen ausgegeben, die erledigt werden müssen. Aber fürs Erste habe ich eine ganz einfache Aufgabe für dich ausgesucht."
-134,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_112","Stelle einen Kommandotrupp aus den verfügbaren Soldaten zusammen und gib den Befehl, den Einsatz zu beginnen!"
-135,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_113","Ein Kommandotrupp besteht immer aus vier Soldaten. Im Laufe des Spiels kannst du deine Soldaten auf bis zu acht aufstocken. Suche immer die geeignetsten für den Kommandotrupp aus."
-136,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_120","Alles bereit? Normalerweise musst du deine Soldaten vor Beginn des Einsatzes mit Staatstalern bezahlen, aber heute übernimmt das Oberkommando diese Kosten."
-137,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_121","Stelle dich darauf ein, dass du als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> für die Bezahlung deiner Soldaten verantwortlich bist."
-138,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_122","So, der Kommandotrupp ist unterwegs und wird eine gewisse Zeit benötigen, bis er zurückkehrt. Dann werde ich dich über das Ergebnis des Einsatzes informieren."
-139,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_124","（★未使用／削除予定★）"
-140,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_125","（★未使用／削除予定★）"
-141,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_126","Wenn du nach einem Einsatz mit dem <If(GreaterThan(PlayerParameter(52),0))>Sturmmaat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Schlangenjünger<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Legionsgefreiten<Else/></If> sprichst, wird er dich über den Ausgang des Einsatzes informieren."
-142,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_123","Wann dein Kommando von einem Einsatz zurückkehrt, kannst du im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen."
-143,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_130","Der erste Einsatz war ein Erfolg! Aber es handelte sich ja auch nur um einen einfachen Stadtrundgang ..."
-144,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_131","Deine Soldaten haben wertvolle Erfahrungen gesammelt. Mit steigender Erfahrung verbessert sich die Schlagkraft deiner Soldaten. Damit steigt auch die Chance, dass ein Einsatz Erfolg hat."
-145,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_132","（★未使用／削除予定★）"
-146,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_133","（★未使用／削除予定★）"
-147,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_134","Sprich von nun an mit dem <If(GreaterThan(PlayerParameter(52),0))>Sturmmaat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Schlangenjünger<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Legionsgefreiten<Else/></If>, um dein Kommando auf Einsätze zu schicken und nach seiner Rückkehr das Ergebnis zu überprüfen."
-148,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_135","Jeder Einsatzbefehl kann einmal pro Woche absolviert werden. Die Rücksetzung der Einsätze erfolgt jeden <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00 Uhr (Erdenzeit)."
-149,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_136","Dann lass mich jetzt zum Thema Ausbildung kommen. Dadurch kannst du die individuellen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten der Soldaten verbessern und die Schlagkraft des ganzen Kommandos erhöhen."
-150,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_137","Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen."
-151,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_138","Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit <If(GreaterThan(PlayerParameter(52),0))>des Mahlstroms<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Legion<Else/></If> entwickeln."
-152,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_139","Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht."
-153,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_150","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando ist<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Schlangenpriester im Abaton sind<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere in der Ewigen Halle sind<Else/></If> auf dich und dein Kommando aufmerksam geworden. Sie wollen dir wichtigere Missionen anvertrauen. Aber du musst dich zuerst an einem schwierigen Einsatz beweisen."
-154,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_151","Einer deiner Soldaten hat Stufe 20 erreicht. Damit hast du einen Einsatz freigespielt, mit dem du den Kommandorang erhöhen und neue Einsatzbefehle freispielen kannst."
-155,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_152","Der Einsatz ist mit einem ★ gekennzeichnet. Er ist besonders schwer, also stelle sicher, dass du deine Soldaten ausreichend auf die Heraus<SoftHyphen/>forde<SoftHyphen/>rung vorbereitest."
-156,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_160","Du hast es geschafft! Dein Name wird heute beim Oberkommando die Runde machen, da habe ich keinen Zweifel. Ich gratuliere dir zu diesem Erfolg, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
-157,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_161","Dein Kommando ist auf Rang 2 gestiegen und kann nun schwierigere Einsätze als bisher annehmen. Wähle über der Liste der Einsatzbefehle das orangefarbene Symbol, um „gewöhnliche Einsätze“ anzeigen zu lassen."
-158,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_162","Zur Belohnung erhältst du <SheetDe(Item,1,15772,1,4,1)/>, mit dem du die Klasse eines Soldaten ändern kannst."
-159,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_163","Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Klasse ändern“. "
-160,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_170","Soldaten müssen zusammenhalten. Jeder Einsatz schweißt dein Kommando weiter zusammen. Und je besser die Kameraden zu<SoftHyphen/>sammen<SoftHyphen/>arbeiten, desto höher ist ihre Schlagkraft auf einem Einsatz."
-161,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_171","Manche Soldaten arbeiten besser mit anderen zusammen. Bedenke das, wenn du dein Kommando zusammenstellst."
-162,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_172","Manchmal erwerben Soldaten auf einem Einsatz einen Kameradenbonus."
-163,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_173","Dieser Bonus gibt Zuschläge auf die Schlagkraft oder die Vergütung. Damit er wirkt, müssen bestimmte Bedingungen erfüllt sein, die oft die Zusammensetzung des Kommandos betreffen."
-164,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_174","Du kannst Änderungen am Kameradenbonus vornehmen. Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Kameradenbonus ändern“."
-165,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_175","Kameradenboni müssen vor dem nächsten Einsatz eingesetzt werden und verschwinden danach. Vergiss also nicht, den Kameradenbonus richtig einzustellen."
-166,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_180","Du leistest ganze Arbeit als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Deine Soldaten werden immer stärker. Das <If(GreaterThan(PlayerParameter(52),0))>hat auch das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>haben auch die Schlangenpriester im Abaton<Else/></If><If(GreaterThan(PlayerParameter(54),0))>haben auch die Stabsoffiziere in der Ewigen Halle<Else/></If> bemerkt. <If(GreaterThan(PlayerParameter(52),0))>Es gibt<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Sie geben<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sie geben<Else/></If> dir nun die Chance, dich mit einem besonders schwierigen Einsatz zu behaupten."
-167,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_181","Einer deiner Soldaten hat Stufe 40 erreicht. Damit hast du einen Einsatz freigespielt, mit dem du den Kommandorang erhöhen und neue Einsätze freispielen kannst."
-168,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_182","Der Einsatz ist mit einem ★ gekennzeichnet. Er ist äußerst schwer, also stelle sicher, dass du deine Soldaten ausreichend auf die Heraus<SoftHyphen/>forde<SoftHyphen/>rung vorbereitest."
-169,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_190","<Highlight>ObjectParameter(1)</Highlight>! Mir kommt die besondere Ehre zuteil, dich im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> für deinen letzten Erfolg zu loben. Auch unsere Verbündeten zeigen sich beeindruckt von deinen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>. Ich gratuliere!"
-170,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_191","Dein Kommando ist auf Rang 3 gestiegen und kann nun schwierigere Einsätze als bisher annehmen. Wähle über der Liste der Einsatzbefehle das violette Symbol, um „riskante Einsätze“ anzeigen zu lassen."
-171,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_192","Diese Einsätze geben dir Zugang zu besonderen Belohnungen. Viel Erfolg!"
-172,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_193","Wenn ein riskanter Einsatz absolviert wurde, kann bis zur Zurücksetzung der Einsatzbefehle kein anderer riskanter Einsatz gespielt werden."
-173,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_194","Die Rücksetzung erfolgt jeden <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sonntag</Case><Case(2)>Montag</Case><Case(3)>Dienstag</Case><Case(4)>Mittwoch</Case><Case(5)>Donnerstag</Case><Case(6)>Freitag</Case><Case(7)>Samstag</Case></Switch> um <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>13</Case><Case(14)>14</Case><Case(15)>15</Case><Case(16)>16</Case><Case(17)>17</Case><Case(18)>18</Case><Case(19)>19</Case><Case(20)>20</Case><Case(21)>21</Case><Case(22)>22</Case><Case(23)>23</Case></Switch><Else/>0</If>:00 Uhr (Erdenzeit)."
-174,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_195","Doch damit nicht genug. <räusper>"
-175,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_196","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Es ist mir eine Ehre, dir im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> folgende Nachricht zu überbringen:"
-176,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_197","<Emphasis>„In Anerkennung <If(PlayerParameter(4))>ihrer<Else/>seiner</If> Dienste für <If(GreaterThan(PlayerParameter(52),0))>den Mahlstrom und alle Bürger Limsa Lominsas<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Bruderschaft der Morgenviper und alle Bewohner Gridanias<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Legion der Unsterblichen und alle Bürger Ul'dahs<Else/></If> soll vom heutigen Tage an <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight> in den Rang des <If(GreaterThan(PlayerParameter(52),0))>Ersten Sturmbootsmanns<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Ersten Schlangenpriesters<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Ersten Legionsfähnrichs<Else/></If> erhoben werden.
-Gezeichnet <Emphasis2><If(GreaterThan(PlayerParameter(52),0))>Admiral Merlwyb Bloefhiswyn<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Saatseherin Kan-E-Senna<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sultana Nanamo Ul Namo<Else/></If></Emphasis2>“</Emphasis>"
-177,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_198","Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
-178,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_330","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Es ist eine dringende Nachricht <If(GreaterThan(PlayerParameter(52),0))>aus dem Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>von der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> eingetroffen. Ich lese sie dir vor."
-179,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_331","<Emphasis>„Mit sofortiger Wirkung wird <If(GreaterThan(PlayerParameter(52),0))><If(PlayerParameter(4))><Sheet(GCRankLimsaFemaleText,PlayerParameter(52),0)/><Else/><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><If(PlayerParameter(4))><Sheet(GCRankGridaniaFemaleText,PlayerParameter(53),0)/><Else/><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><If(PlayerParameter(4))><Sheet(GCRankUldahFemaleText,PlayerParameter(54),0)/><Else/><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/></If><Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> ermächtigt, <If(PlayerParameter(4))>ihr<Else/>sein</If> Kommando auf Operationen zu führen. 
-Gezeichnet: <If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Der Oberbefehlshaber<Else/></If>“</Emphasis>"
-180,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_332","Operationen! Sie werden dich an die gefährlichsten Orte von ganz Eorzea führen, vielleicht sogar in noch entferntere Regionen. Ich gratuliere."
-181,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_333","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando setzt<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Priesterschaft setzt<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere setzen<Else/></If> großes Vertrauen in deine Führungsqualitäten. Ich empfehle, dass du gleich eine Operation startest und deine Eignung unter Beweis stellst. Viel Erfolg!"
-182,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_334","Du hast Kommandooperationen freigespielt! Führe deinen Trupp in bestimmte Inhalte und kämpfe mit ihnen Seite an Seite."
-183,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_335","Erfolgreiche Operationen werden mit besonderen Vergütungen belohnt. Sprich mit dem <If(GreaterThan(PlayerParameter(52),0))>Sturmmaat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Schlangenjünger<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Legionsgefreiten<Else/></If> und wähle „Operationen einsehen“, um eine Operation zu starten."
-184,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_336","Erklärungen zu den Operationen kannst du jederzeit beim <If(GreaterThan(PlayerParameter(52),0))>Sturmmaat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Schlangenjünger<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Legionsgefreiten<Else/></If> erhalten."
-185,"TEXT_COMARMGCARMYOFFICER_00342_CAPTURE_UNLOCK","（★未使用／削除予定★）
+18,TEXT_COMARMGCARMYOFFICER_00342_ABORT_YESNO_TRAINING,（★未使用／削除予定★）
+19,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_TITLE,Welche Erklärung möchtest du noch einmal erhalten?
+20,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_001,Einsätze
+21,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_002,Ausbildung
+22,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_003,Neue Anwärter finden
+23,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_004,Anwärter einstellen
+24,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_005,Höchstgrenze der Schlagkraft
+25,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_006,Klassenwechsel
+26,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_007,Kameradenbonus
+27,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_008,Kommandobonus
+28,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_009,Operationen
+29,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_010,Strategien
+30,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_011,Projektionen
+31,TEXT_COMARMGCARMYOFFICER_00342_GUIDE_CANCEL,Abbrechen
+32,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_270,（★未使用／削除予定★）
+33,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_270,（★未使用／削除予定★）
+34,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_270,（★未使用／削除予定★）
+35,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_280,（★未使用／削除予定★）
+36,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_280,（★未使用／削除予定★）
+37,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_280,（★未使用／削除予定★）
+38,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_281,"Manchmal, wenn du bestimmte Aufgaben der Aktuellen Agenda absolvierst, inspirierst du NPCs dazu, sich für dein Kommando zu bewerben."
+39,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_282,"Sobald es einen neuen Anwärter gibt, wirst du mit einer Bildschirmnachricht darüber informiert."
+40,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_283,"Außerdem kannst du auch jederzeit im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen, ob aktuell Bewerbungen vorliegen."
+41,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_284,"Sieh dir in der Wachstube den Stapel Bewerbungsschreiben an, um neue Bewerbungen zu sichten und einen Anwärter zu rekrutieren."
+42,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_290,（★未使用／削除予定★）
+43,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_291,（★未使用／削除予定★）
+44,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_292,"Sieh dir in der Wachstube den Stapel Bewerbungsschreiben an, um neue Bewerbungen zu sichten und einen Anwärter zu rekrutieren."
+45,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_100_292,"Du kannst nicht mehr als acht Soldaten in deinem Kommando haben. Wenn dein Kommando acht Soldaten umfasst und du einen neuen Soldaten rekrutieren möchtest, musst du einen anderen Soldaten entlassen."
+46,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_290,（★未使用／削除予定★）
+47,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_291,（★未使用／削除予定★）
+48,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_290,（★未使用／削除予定★）
+49,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_291,（★未使用／削除予定★）
+50,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_200_292,（★未使用／削除予定★）
+51,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_300,（★未使用／削除予定★）
+52,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_301,（★未使用／削除予定★）
+53,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_300,"Das Flotten­kommandoDie Führung der BruderschaftDie Führung der Legion beauftragt dich mit strategisch wichtigen Einsätzen, die erledigt werden müssen. Als Kommandoführerin stellst du ein Kommando aus vier geeigneten Soldaten zusammen und schickst sie auf einen Einsatz, um den Befehl auszuführen."
+54,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_301,"Deine Soldaten müssen mit Staatstalern bezahlt werden, und sie bestehen auf Vorauskasse."
+55,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_302,Ein Einsatz dauert 18 Stunden (Erdenzeit). Die verbleibende Zeit kannst du im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen.
+56,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_303,Nach Rückkehr des Kommandos informiert dich der SturmmaatSchlangenjüngerLegionsgefreite über den Ausgang des Einsatzes.
+57,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_304,Jeder Einsatzbefehl kann einmal pro Woche absolviert werden. Die Rücksetzung der Einsätze und ihrer Erfordernisse erfolgt jeden Dienstag um 17:00 Uhr (Erdenzeit).
+58,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_302,（★未使用／削除予定★）
+59,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_305,（★未使用／削除予定★）
+60,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_300,（★未使用／削除予定★）
+61,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_301,（★未使用／削除予定★）
+62,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_302,（★未使用／削除予定★）
+63,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_300,（★未使用／削除予定★）
+64,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_301,（★未使用／削除予定★）
+65,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_302,（★未使用／削除予定★）
+66,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_310,（★未使用／削除予定★）
+67,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_311,（★未使用／削除予定★）
+68,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_312,"Bilde deine Soldaten in den Bereichen Kraft, Moral und Taktik aus, um die Schlagkraft deines Kommandos zu erhöhen."
+69,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_313,"Es gibt verschiedene Übungen, um unter­schied­liche Bereiche zu steigern. Überlege dir, welche Übung deinem Kommando am meisten nutzt."
+70,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_314,Die Ausbildung dauert 1 Stunde (Erdenzeit). Die verbleibende Zeit kannst du im Timer (im Hauptmenü unter „Spielinhalte“) einsehen.
+71,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_315,Nach Abschluss kannst du dich am Ausbildungsplan in der Wachstube über das Ergebnis der Ausbildung informieren.
+72,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_316,Jeden Tag können bis zu drei Ausbildungseinheiten angeordnet werden. Das Limit wird jeden Tag um 5:00 Uhr (Erdenzeit) zurückgesetzt.
+73,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_310,（★未使用／削除予定★） 
+74,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_311,（★未使用／削除予定★）
+75,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_310,（★未使用／削除予定★）
+76,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_311,（★未使用／削除予定★）
+77,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_310,"Die Schlagkraft deines Kommandos hat einen vom Kommandorang abhängigen Höchstwert. Wenn die Summe aus Kraft, Moral und Taktik diesen Höchstwert erreicht hat und du trotzdem einen Bereich weiter verbessern willst, wird ein anderer Bereich entsprechend reduziert."
+78,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_311,"Der Höchstwert kann nur gesteigert werden, indem dein Kommando im Rang aufsteigt. Dafür musst du bestimmte Einsätze bestehen, die mit einem ★ markiert sind."
+79,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_320,Du kannst mithilfe bestimmter Gegenstände die Klasse eines Soldaten ändern.
+80,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_321,"Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Klasse ändern“. "
+81,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_330,（★未使用／削除予定★）
+82,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_331,（★未使用／削除予定★）
+83,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_330,Manchmal erwerben Soldaten auf einem Einsatz einen Kameradenbonus.
+84,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_331,"Dieser Bonus gibt Zuschläge auf die Schlagkraft oder die Vergütung. Damit er wirkt, müssen bestimmte Bedingungen erfüllt sein, die oft die Zusammensetzung des Kommandos betreffen."
+85,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_332,"Du kannst Änderungen am Kameradenbonus vornehmen. Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Kameradenbonus ändern“."
+86,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_333,"Kameradenboni müssen vor dem nächsten Einsatz eingesetzt werden und verschwinden danach. Vergiss also nicht, den Kameradenbonus richtig einzustellen."
+87,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_340,Der Kommandobonus verschafft bestimmten Völkern und Klassen einen Zuschlag auf ihre Schlagkraft. 
+88,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_341,"Der Kommandobonus kann besonders bei schwierigeren Einsätzen einen entscheidenden Unterschied ausmachen. Es lohnt sich also, das Kommando entsprechend aufzustellen."
+89,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_010_342,Der Kommandobonus ändert sich jeden Dienstag um 17:00 Uhr (Erdenzeit).
+90,TEXT_COMARMGCARMYOFFICER_00342_021_000_GRD,（★未使用／削除予定★）
+91,TEXT_COMARMGCARMYOFFICER_00342_021_001_GRD,（★未使用／削除予定★）
+92,TEXT_COMARMGCARMYOFFICER_00342_021_002_GRD,（★未使用／削除予定★）
+93,TEXT_COMARMGCARMYOFFICER_00342_021_003_GRD,（★未使用／削除予定★）
+94,TEXT_COMARMGCARMYOFFICER_00342_021_000_LIM,（★未使用／削除予定★）
+95,TEXT_COMARMGCARMYOFFICER_00342_021_001_LIM,（★未使用／削除予定★）
+96,TEXT_COMARMGCARMYOFFICER_00342_021_002_LIM,（★未使用／削除予定★）
+97,TEXT_COMARMGCARMYOFFICER_00342_021_003_LIM,（★未使用／削除予定★）
+98,TEXT_COMARMGCARMYOFFICER_00342_021_000_ULD,（★未使用／削除予定★）
+99,TEXT_COMARMGCARMYOFFICER_00342_021_001_ULD,（★未使用／削除予定★）
+100,TEXT_COMARMGCARMYOFFICER_00342_021_002_ULD,（★未使用／削除予定★）
+101,TEXT_COMARMGCARMYOFFICER_00342_021_003_ULD,（★未使用／削除予定★）
+102,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_340,"Operationen sind Einsätze, bei denen du die Führung über das Kommando in einem Inhalt übernimmst."
+103,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_341,"Du entscheidest, welche deiner Soldaten dich begleiten, aber beachte die übliche Rollenverteilung für Leichte Trupps (1 Verteidiger, 1 Heiler, 2 Angreifer), wenn du deinen Kommandotrupp zusammenstellst."
+104,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_342,"Deine Soldaten handeln während der Operation eigenständig, aber du kannst ihr Verhalten mit Befehlen und Strategien beeinflussen."
+105,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_343,"Es gibt drei Befehle: Angriff, Rückzug und Limitrausch, die von einer eigenen Leiste aus aktiviert werden können."
+106,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_344,"Mit „Angriff“ befiehlst du deinen Soldaten, einen anvisierten Gegner anzugreifen."
+107,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_345,"Mit „Rückzug“ befiehlst du deinen Soldaten, den Kampf abzubrechen und sich in deiner Nähe zu sammeln."
+108,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_346,"Sobald du den Befehl zum Rückzug gibst, verwandelt sich der Befehl zu „Rückzug beenden“."
+109,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_347,"Du kannst den Rückzug beenden, indem du den entsprechenden Befehl erteilst oder wieder zum Angriff bläst."
+110,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_348,Mit „Limitrausch“ richtet dein Kommandotrupp großen Schaden bei einem Gegner an und der ausgeteilte Schaden deiner Soldaten wird erhöht.
+111,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_349,"Der Befehl löst Stufe 1 des Limitrausch-Balkens aus. Auch wenn beide Stufen gefüllt sind, wird nur eine verbraucht."
+112,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_350,Die Befehle können auch im Kommandomenü abgelegt werden. 
+113,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_351,Operationen können beim SturmmaatSchlangenjüngerLegionsgefreiten gestartet und abgeschlossen werden.
+114,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_360,"Bestimme eine Strategie für deine Kommando­soldaten, um ihr generelles Verhalten und ihre Schlagkraft während Operationen zu beeinflussen."
+115,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_361,"Anfangs steht nur die Strategie „Frei“ zur Verfügung, aber deine Soldaten lernen durch das Absolvieren von Operationen neue Strategien."
+116,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_362,"Wähle eine der drei Strategien (Offensiv, Defensiv, Ausgeglichen), um das Verhalten deiner Soldaten festzulegen und einen entsprechenden positiven Status auszulösen."
+117,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_363,"Mit dem Abschließen von Operationen kannst du Strategien im Rang steigern, um die Wirkung des entsprechenden Status zu verbessern."
+118,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_364,Die Strategie lässt sich für jeden Soldaten einzeln in seinem Untermenü einstellen und ändern.
+119,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_370,"Sobald ein Soldat Stufe 51 erreicht hat, kann er Projektionen erhalten. Wähle die entsprechende Option über das Untermenü eines Soldaten aus, um die Erscheinung seiner Ausrüstung zu ändern."
+120,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_371,"Für das Anwenden von Projektionen sind Katalysatoren erforderlich, die bei dem Prozess verbraucht werden."
+121,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_100,"Ich habe dich erwartet, Kommandoführerin . Heute ist dein erster Tag im Dienst, und ich bin hier, um dir bei der Erfüllung deiner neuen Aufgabe zu helfen."
+122,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_136,"Zuallererst: Dein Kommando besteht jetzt aus nur drei Soldaten. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
+123,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_137,"Wenn du dich als Abenteurerin hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
+124,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_138,"Manchmal, wenn du bestimmte Aufgaben der Aktuellen Agenda absolvierst, inspirierst du NPCs dazu, sich für dein Kommando zu bewerben."
+125,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_139,"Sobald es einen neuen Anwärter gibt, wirst du mit einer Bildschirmnachricht darüber informiert."
+126,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_140,"Außerdem kannst du auch jederzeit im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen, ob aktuell Bewerbungen vorliegen."
+127,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_141,"Sieh dir in der Wachstube den Stapel Bewerbungsschreiben an, um neue Bewerbungen zu sichten und einen Anwärter zu rekrutieren."
+128,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_110,（★未使用／削除予定★）
+129,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_111,（★未使用／削除予定★）
+130,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_101,（★未使用／削除予定★）
+131,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_102,（★未使用／削除予定★）
+132,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_110,Es geht also los! Dein erster Einsatz!
+133,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_111,"Normalerweise hat das Flotten­kommandohaben die Schlangenpriester im Abatonhaben die Stabsoffiziere in der Ewigen Halle eine Reihe von Einsatzbefehlen ausgegeben, die erledigt werden müssen. Aber fürs Erste habe ich eine ganz einfache Aufgabe für dich ausgesucht."
+134,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_112,"Stelle einen Kommandotrupp aus den verfügbaren Soldaten zusammen und gib den Befehl, den Einsatz zu beginnen!"
+135,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_113,Ein Kommandotrupp besteht immer aus vier Soldaten. Im Laufe des Spiels kannst du deine Soldaten auf bis zu acht aufstocken. Suche immer die geeignetsten für den Kommandotrupp aus.
+136,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_120,"Alles bereit? Normalerweise musst du deine Soldaten vor Beginn des Einsatzes mit Staatstalern bezahlen, aber heute übernimmt das Oberkommando diese Kosten."
+137,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_121,"Stelle dich darauf ein, dass du als Kommandoführerin für die Bezahlung deiner Soldaten verantwortlich bist."
+138,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_122,"So, der Kommandotrupp ist unterwegs und wird eine gewisse Zeit benötigen, bis er zurückkehrt. Dann werde ich dich über das Ergebnis des Einsatzes informieren."
+139,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_124,（★未使用／削除予定★）
+140,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_125,（★未使用／削除予定★）
+141,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_126,"Wenn du nach einem Einsatz mit dem SturmmaatSchlangenjüngerLegionsgefreiten sprichst, wird er dich über den Ausgang des Einsatzes informieren."
+142,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_123,"Wann dein Kommando von einem Einsatz zurückkehrt, kannst du im Timer (im Hauptmenü unter „Spielinhalte“) überprüfen."
+143,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_130,Der erste Einsatz war ein Erfolg! Aber es handelte sich ja auch nur um einen einfachen Stadtrundgang ...
+144,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_131,"Deine Soldaten haben wertvolle Erfahrungen gesammelt. Mit steigender Erfahrung verbessert sich die Schlagkraft deiner Soldaten. Damit steigt auch die Chance, dass ein Einsatz Erfolg hat."
+145,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_132,（★未使用／削除予定★）
+146,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_133,（★未使用／削除予定★）
+147,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_134,"Sprich von nun an mit dem SturmmaatSchlangenjüngerLegionsgefreiten, um dein Kommando auf Einsätze zu schicken und nach seiner Rückkehr das Ergebnis zu überprüfen."
+148,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_135,Jeder Einsatzbefehl kann einmal pro Woche absolviert werden. Die Rücksetzung der Einsätze erfolgt jeden Dienstag um 17:00 Uhr (Erdenzeit).
+149,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_136,Dann lass mich jetzt zum Thema Ausbildung kommen. Dadurch kannst du die individuellen Fä­hig­kei­ten der Soldaten verbessern und die Schlagkraft des ganzen Kommandos erhöhen.
+150,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_137,Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen.
+151,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_138,"Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit des Mahlstromsder Bruderschaftder Legion entwickeln."
+152,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_010_139,Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht.
+153,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_150,Das Flotten­kommando istDie Schlangenpriester im Abaton sindDie Stabsoffiziere in der Ewigen Halle sind auf dich und dein Kommando aufmerksam geworden. Sie wollen dir wichtigere Missionen anvertrauen. Aber du musst dich zuerst an einem schwierigen Einsatz beweisen.
+154,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_151,"Einer deiner Soldaten hat Stufe 20 erreicht. Damit hast du einen Einsatz freigespielt, mit dem du den Kommandorang erhöhen und neue Einsatzbefehle freispielen kannst."
+155,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_152,"Der Einsatz ist mit einem ★ gekennzeichnet. Er ist besonders schwer, also stelle sicher, dass du deine Soldaten ausreichend auf die Heraus­forde­rung vorbereitest."
+156,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_160,"Du hast es geschafft! Dein Name wird heute beim Oberkommando die Runde machen, da habe ich keinen Zweifel. Ich gratuliere dir zu diesem Erfolg, Kommandoführerin ."
+157,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_161,"Dein Kommando ist auf Rang 2 gestiegen und kann nun schwierigere Einsätze als bisher annehmen. Wähle über der Liste der Einsatzbefehle das orangefarbene Symbol, um „gewöhnliche Einsätze“ anzeigen zu lassen."
+158,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_162,"Zur Belohnung erhältst du , mit dem du die Klasse eines Soldaten ändern kannst."
+159,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_163,"Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Klasse ändern“. "
+160,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_170,"Soldaten müssen zusammenhalten. Jeder Einsatz schweißt dein Kommando weiter zusammen. Und je besser die Kameraden zu­sammen­arbeiten, desto höher ist ihre Schlagkraft auf einem Einsatz."
+161,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_171,"Manche Soldaten arbeiten besser mit anderen zusammen. Bedenke das, wenn du dein Kommando zusammenstellst."
+162,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_172,Manchmal erwerben Soldaten auf einem Einsatz einen Kameradenbonus.
+163,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_173,"Dieser Bonus gibt Zuschläge auf die Schlagkraft oder die Vergütung. Damit er wirkt, müssen bestimmte Bedingungen erfüllt sein, die oft die Zusammensetzung des Kommandos betreffen."
+164,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_174,"Du kannst Änderungen am Kameradenbonus vornehmen. Wähle dazu am Ausbildungsplan „Soldaten anzeigen“, suche den Soldaten aus und wähle im Untermenü „Kameradenbonus ändern“."
+165,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_175,"Kameradenboni müssen vor dem nächsten Einsatz eingesetzt werden und verschwinden danach. Vergiss also nicht, den Kameradenbonus richtig einzustellen."
+166,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_180,"Du leistest ganze Arbeit als Kommandoführerin, . Deine Soldaten werden immer stärker. Das hat auch das Flotten­kommandohaben auch die Schlangenpriester im Abatonhaben auch die Stabsoffiziere in der Ewigen Halle bemerkt. Es gibtSie gebenSie geben dir nun die Chance, dich mit einem besonders schwierigen Einsatz zu behaupten."
+167,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_181,"Einer deiner Soldaten hat Stufe 40 erreicht. Damit hast du einen Einsatz freigespielt, mit dem du den Kommandorang erhöhen und neue Einsätze freispielen kannst."
+168,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_182,"Der Einsatz ist mit einem ★ gekennzeichnet. Er ist äußerst schwer, also stelle sicher, dass du deine Soldaten ausreichend auf die Heraus­forde­rung vorbereitest."
+169,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_190,"Player Player! Mir kommt die besondere Ehre zuteil, dich im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere für deinen letzten Erfolg zu loben. Auch unsere Verbündeten zeigen sich beeindruckt von deinen Leistungen als Kommandoführerin. Ich gratuliere!"
+170,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_191,"Dein Kommando ist auf Rang 3 gestiegen und kann nun schwierigere Einsätze als bisher annehmen. Wähle über der Liste der Einsatzbefehle das violette Symbol, um „riskante Einsätze“ anzeigen zu lassen."
+171,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_192,Diese Einsätze geben dir Zugang zu besonderen Belohnungen. Viel Erfolg!
+172,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_193,"Wenn ein riskanter Einsatz absolviert wurde, kann bis zur Zurücksetzung der Einsatzbefehle kein anderer riskanter Einsatz gespielt werden."
+173,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_194,Die Rücksetzung erfolgt jeden Dienstag um 17:00 Uhr (Erdenzeit).
+174,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_195,Doch damit nicht genug. <räusper>
+175,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_196,"Kommandoführerin . Es ist mir eine Ehre, dir im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere folgende Nachricht zu überbringen:"
+176,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_197,"*„In Anerkennung ihrer Dienste für den Mahlstrom und alle Bürger Limsa Lominsasdie Bruderschaft der Morgenviper und alle Bewohner Gridaniasdie Legion der Unsterblichen und alle Bürger Ul'dahs soll vom heutigen Tage an Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player in den Rang des Ersten SturmbootsmannsErsten SchlangenpriestersErsten Legionsfähnrichs erhoben werden.
+Gezeichnet **Admiral Merlwyb BloefhiswynSaatseherin Kan-E-SennaSultana Nanamo Ul Namo**“*"
+177,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_198,"Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
+178,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_330,Kommandoführerin ! Es ist eine dringende Nachricht aus dem Flotten­kommandovon der Priesterschaftder Stabsoffiziere eingetroffen. Ich lese sie dir vor.
+179,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_331,"*„Mit sofortiger Wirkung wird   ermächtigt, ihr Kommando auf Operationen zu führen. 
+Gezeichnet: Das Flotten­kommandoDie PriesterschaftDer Oberbefehlshaber“*"
+180,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_332,"Operationen! Sie werden dich an die gefährlichsten Orte von ganz Eorzea führen, vielleicht sogar in noch entferntere Regionen. Ich gratuliere."
+181,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_333,"Das Flotten­kommando setztDie Priesterschaft setztDie Stabsoffiziere setzen großes Vertrauen in deine Führungsqualitäten. Ich empfehle, dass du gleich eine Operation startest und deine Eignung unter Beweis stellst. Viel Erfolg!"
+182,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_334,Du hast Kommandooperationen freigespielt! Führe deinen Trupp in bestimmte Inhalte und kämpfe mit ihnen Seite an Seite.
+183,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_335,"Erfolgreiche Operationen werden mit besonderen Vergütungen belohnt. Sprich mit dem SturmmaatSchlangenjüngerLegionsgefreiten und wähle „Operationen einsehen“, um eine Operation zu starten."
+184,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_336,Erklärungen zu den Operationen kannst du jederzeit beim SturmmaatSchlangenjüngerLegionsgefreiten erhalten.
+185,TEXT_COMARMGCARMYOFFICER_00342_CAPTURE_UNLOCK,"（★未使用／削除予定★）
 ●攻略任務解放しますー"
-186,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_210","Das Kommando ist von dem Einsatz zurückgekehrt. Alles bereit zum Rapport."
-187,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_220","Doch damit nicht genug. <räusper>"
-188,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_221","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Es ist mir eine Ehre, dir im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> folgende Nachricht zu überbringen:"
-189,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_222","<Emphasis>„In Anerkennung <If(PlayerParameter(4))>ihrer<Else/>seiner</If> Dienste für <If(GreaterThan(PlayerParameter(52),0))>den Mahlstrom und alle Bürger Limsa Lominsas<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Bruderschaft der Morgenviper und alle Bewohner Gridanias<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Legion der Unsterblichen und alle Bürger Ul'dahs<Else/></If> soll vom heutigen Tage an <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight> in den Rang des <If(GreaterThan(PlayerParameter(52),0))>Ersten Sturmbootsmanns<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Ersten Schlangenpriesters<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Ersten Legionsfähnrichs<Else/></If> erhoben werden.
-Gezeichnet <Emphasis2><If(GreaterThan(PlayerParameter(52),0))>Admiral Merlwyb Bloefhiswyn<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Saatseherin Kan-E-Senna<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sultana Nanamo Ul Namo<Else/></If></Emphasis2>“</Emphasis>"
-190,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_223","Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
-191,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_230","Dein Kommando steht bereit. Wie lauten deine Befehle?"
-192,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_240","Dein Kommando steht bereit. Schicke es auf einen Einsatz oder bilde es aus!"
-193,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_250","Es ist noch Platz in der Wachstube. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
-194,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_251","Wenn du dich als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If> hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
-195,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_252","Manchmal, wenn du bestimmte Aufgaben der Aktuellen Agenda absolvierst, inspirierst du NPCs dazu, sich für dein Kommando zu bewerben."
-196,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_260","Lass dein Kommando eine Ausbildung absolvieren, um die individuellen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten der Soldaten zu verbessern und die Schlagkraft des ganzen Kommandos zu erhöhen."
-197,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_261","Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen."
-198,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_262","Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit <If(GreaterThan(PlayerParameter(52),0))>des Mahlstroms<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Legion<Else/></If> entwickeln."
-199,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_263","Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht."
-200,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_320","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando ist<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Schlangenpriester im Abaton sind<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere in der Ewigen Halle sind<Else/></If> beeindruckt von deinen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>, <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight>."
-201,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_321","<If(GreaterThan(PlayerParameter(52),0))>Es hat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Sie haben<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sie haben<Else/></If> Einsatzbefehle für einen besonders wichtigen Einsatz geschickt. Vielleicht ist es ein Zeichen des Vertrauens, vielleicht ein Test. Jedenfalls solltest du <If(GreaterThan(PlayerParameter(52),0))>das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Stabsoffiziere<Else/></If> nicht enttäuschen."
-202,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_322","Du hast einen besonders wichtigen Einsatz freigespielt. Wenn du ihn bestehst, steigt dein Kommando im Rang."
-203,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_100","Ich habe dich erwartet, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Heute ist dein erster Tag im Dienst, und ich bin hier, um dir bei der Erfüllung deiner neuen Aufgabe zu helfen."
-204,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_136","Zuallererst: Dein Kommando besteht jetzt aus nur drei Soldaten. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
-205,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_137","Wenn du dich als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If> hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
-206,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_110","（★未使用／削除予定★）"
-207,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_111","（★未使用／削除予定★）"
-208,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_101","（★未使用／削除予定★）"
-209,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_110","Es geht also los! Dein erster Einsatz!"
-210,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_111","Normalerweise <If(GreaterThan(PlayerParameter(52),0))>hat das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>haben die Schlangenpriester im Abaton<Else/></If><If(GreaterThan(PlayerParameter(54),0))>haben die Stabsoffiziere in der Ewigen Halle<Else/></If> eine Reihe von Einsatzbefehlen ausgegeben, die erledigt werden müssen. Aber fürs Erste habe ich eine ganz einfache Aufgabe für dich ausgesucht."
-211,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_112","Stelle einen Kommandotrupp aus den verfügbaren Soldaten zusammen und gib den Befehl, den Einsatz zu beginnen!"
-212,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_120","Alles bereit? Normalerweise musst du deine Soldaten vor Beginn des Einsatzes mit Staatstalern bezahlen, aber heute übernimmt das Oberkommando diese Kosten."
-213,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_121","Stelle dich darauf ein, dass du als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> für die Bezahlung deiner Soldaten verantwortlich bist."
-214,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_122","So, der Kommandotrupp ist unterwegs und wird eine gewisse Zeit benötigen, bis er zurückkehrt. Dann werde ich dich über das Ergebnis des Einsatzes informieren."
-215,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_124","（★未使用／削除予定★）"
-216,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_125","（★未使用／削除予定★）"
-217,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_130","Der erste Einsatz war ein Erfolg! Aber es handelte sich ja auch nur um einen einfachen Stadtrundgang ..."
-218,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_131","Deine Soldaten haben wertvolle Erfahrungen gesammelt. Mit steigender Erfahrung verbessert sich die Schlagkraft deiner Soldaten. Damit steigt auch die Chance, dass ein Einsatz Erfolg hat."
-219,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_132","（★未使用／削除予定★）"
-220,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_133","（★未使用／削除予定★）"
-221,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_136","Dann lass mich jetzt zum Thema Ausbildung kommen. Dadurch kannst du die individuellen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten der Soldaten verbessern und die Schlagkraft des ganzen Kommandos erhöhen."
-222,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_137","Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen."
-223,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_138","Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit <If(GreaterThan(PlayerParameter(52),0))>des Mahlstroms<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Legion<Else/></If> entwickeln."
-224,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_139","Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht."
-225,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_150","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando ist<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Schlangenpriester im Abaton sind<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere in der Ewigen Halle sind<Else/></If> auf dich und dein Kommando aufmerksam geworden. Sie wollen dir wichtigere Missionen anvertrauen. Aber du musst dich zuerst an einem schwierigen Einsatz beweisen."
-226,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_160","Du hast es geschafft! Dein Name wird heute beim Oberkommando die Runde machen, da habe ich keinen Zweifel. Ich gratuliere dir zu diesem Erfolg, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
-227,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_170","Soldaten müssen zusammenhalten. Jeder Einsatz schweißt dein Kommando weiter zusammen. Und je besser die Kameraden zu<SoftHyphen/>sammen<SoftHyphen/>arbeiten, desto höher ist ihre Schlagkraft auf einem Einsatz."
-228,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_171","Manche Soldaten arbeiten besser mit anderen zusammen. Bedenke das, wenn du dein Kommando zusammenstellst."
-229,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_180","Du leistest ganze Arbeit als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Deine Soldaten werden immer stärker. Das <If(GreaterThan(PlayerParameter(52),0))>hat auch das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>haben auch die Schlangenpriester im Abaton<Else/></If><If(GreaterThan(PlayerParameter(54),0))>haben auch die Stabsoffiziere in der Ewigen Halle<Else/></If> bemerkt. <If(GreaterThan(PlayerParameter(52),0))>Es gibt<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Sie geben<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sie geben<Else/></If> dir nun die Chance, dich mit einem besonders schwierigen Einsatz zu behaupten."
-230,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_190","<Highlight>ObjectParameter(1)</Highlight>! Mir kommt die besondere Ehre zuteil, dich im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> für deinen letzten Erfolg zu loben. Auch unsere Verbündeten zeigen sich beeindruckt von deinen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>. Ich gratuliere!"
-231,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_195","Doch damit nicht genug. <räusper>"
-232,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_196","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Es ist mir eine Ehre, dir im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> folgende Nachricht zu überbringen:"
-233,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_197","<Emphasis>„In Anerkennung <If(PlayerParameter(4))>ihrer<Else/>seiner</If> Dienste für <If(GreaterThan(PlayerParameter(52),0))>den Mahlstrom und alle Bürger Limsa Lominsas<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Bruderschaft der Morgenviper und alle Bewohner Gridanias<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Legion der Unsterblichen und alle Bürger Ul'dahs<Else/></If> soll vom heutigen Tage an <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight> in den Rang des <If(GreaterThan(PlayerParameter(52),0))>Ersten Sturmbootsmanns<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Ersten Schlangenpriesters<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Ersten Legionsfähnrichs<Else/></If> erhoben werden.
-Gezeichnet <Emphasis2><If(GreaterThan(PlayerParameter(52),0))>Admiral Merlwyb Bloefhiswyn<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Saatseherin Kan-E-Senna<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sultana Nanamo Ul Namo<Else/></If></Emphasis2>“</Emphasis>"
-234,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_198","Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
-235,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_330","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Es ist eine dringende Nachricht <If(GreaterThan(PlayerParameter(52),0))>aus dem Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>von der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> eingetroffen. Ich lese sie dir vor."
-236,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_331","<Emphasis>„Mit sofortiger Wirkung wird <If(GreaterThan(PlayerParameter(52),0))><If(PlayerParameter(4))><Sheet(GCRankLimsaFemaleText,PlayerParameter(52),0)/><Else/><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><If(PlayerParameter(4))><Sheet(GCRankGridaniaFemaleText,PlayerParameter(53),0)/><Else/><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><If(PlayerParameter(4))><Sheet(GCRankUldahFemaleText,PlayerParameter(54),0)/><Else/><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/></If><Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> ermächtigt, <If(PlayerParameter(4))>ihr<Else/>sein</If> Kommando auf Operationen zu führen. 
-Gezeichnet: <If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Der Oberbefehlshaber<Else/></If>“</Emphasis>"
-237,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_332","Operationen! Sie werden dich an die gefährlichsten Orte von ganz Eorzea führen, vielleicht sogar in noch entferntere Regionen. Ich gratuliere."
-238,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_333","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando setzt<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Priesterschaft setzt<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere setzen<Else/></If> großes Vertrauen in deine Führungsqualitäten. Ich empfehle, dass du gleich eine Operation startest und deine Eignung unter Beweis stellst. Viel Erfolg!"
-239,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_210","Dein Kommandotrupp ist zurückgekehrt. Alles fertig zum Rapport."
-240,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_220","Doch damit nicht genug. <räusper>"
-241,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_221","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Es ist mir eine Ehre, dir im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> folgende Nachricht zu überbringen:"
-242,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_222","<Emphasis>„In Anerkennung <If(PlayerParameter(4))>ihrer<Else/>seiner</If> Dienste für <If(GreaterThan(PlayerParameter(52),0))>den Mahlstrom und alle Bürger Limsa Lominsas<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Bruderschaft der Morgenviper und alle Bewohner Gridanias<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Legion der Unsterblichen und alle Bürger Ul'dahs<Else/></If> soll vom heutigen Tage an <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight> in den Rang des <If(GreaterThan(PlayerParameter(52),0))>Ersten Sturmbootsmanns<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Ersten Schlangenpriesters<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Ersten Legionsfähnrichs<Else/></If> erhoben werden.
-Gezeichnet <Emphasis2><If(GreaterThan(PlayerParameter(52),0))>Admiral Merlwyb Bloefhiswyn<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Saatseherin Kan-E-Senna<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sultana Nanamo Ul Namo<Else/></If></Emphasis2>“</Emphasis>"
-243,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_223","Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
-244,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_230","Dein Kommando steht bereit. Wie lauten deine Befehle?"
-245,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_240","Dein Kommando steht bereit. Schicke es auf einen Einsatz oder bilde es aus!"
-246,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_250","Es ist noch Platz in der Wachstube. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
-247,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_251","Wenn du dich als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If> hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
-248,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_260","Lass dein Kommando eine Ausbildung absolvieren, um die individuellen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten der Soldaten zu verbessern und die Schlagkraft des ganzen Kommandos zu erhöhen."
-249,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_261","Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen."
-250,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_262","Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit <If(GreaterThan(PlayerParameter(52),0))>des Mahlstroms<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Legion<Else/></If> entwickeln."
-251,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_263","Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht."
-252,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_320","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando ist<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Schlangenpriester im Abaton sind<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere in der Ewigen Halle sind<Else/></If> beeindruckt von deinen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>, <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight>."
-253,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_321","<If(GreaterThan(PlayerParameter(52),0))>Es hat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Sie haben<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sie haben<Else/></If> Einsatzbefehle für einen besonders wichtigen Einsatz geschickt. Vielleicht ist es ein Zeichen des Vertrauens, vielleicht ein Test. Jedenfalls solltest du <If(GreaterThan(PlayerParameter(52),0))>das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Stabsoffiziere<Else/></If> nicht enttäuschen."
-254,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_100","Ich habe dich erwartet, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Heute ist dein erster Tag im Dienst, und ich bin hier, um dir bei der Erfüllung deiner neuen Aufgabe zu helfen."
-255,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_136","Zuallererst: Dein Kommando besteht jetzt aus nur drei Soldaten. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
-256,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_137","Wenn du dich als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If> hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
-257,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_110","（★未使用／削除予定★）"
-258,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_111","（★未使用／削除予定★）"
-259,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_101","（★未使用／削除予定★）"
-260,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_110","Es geht also los! Dein erster Einsatz!"
-261,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_111","Normalerweise <If(GreaterThan(PlayerParameter(52),0))>hat das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>haben die Schlangenpriester im Abaton<Else/></If><If(GreaterThan(PlayerParameter(54),0))>haben die Stabsoffiziere in der Ewigen Halle<Else/></If> eine Reihe von Einsatzbefehlen ausgegeben, die erledigt werden müssen. Aber fürs Erste habe ich eine ganz einfache Aufgabe für dich ausgesucht."
-262,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_112","Stelle einen Kommandotrupp aus den verfügbaren Soldaten zusammen und gib den Befehl, den Einsatz zu beginnen!"
-263,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_120","Alles bereit? Normalerweise musst du deine Soldaten vor Beginn des Einsatzes mit Staatstalern bezahlen, aber heute übernimmt das Oberkommando diese Kosten."
-264,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_121","Stelle dich darauf ein, dass du als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> für die Bezahlung deiner Soldaten verantwortlich bist."
-265,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_122","So, der Kommandotrupp ist unterwegs und wird eine gewisse Zeit benötigen, bis er zurückkehrt. Dann werde ich dich über das Ergebnis des Einsatzes informieren."
-266,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_124","（★未使用／削除予定★）"
-267,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_125","（★未使用／削除予定★）"
-268,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_130","Der erste Einsatz war ein Erfolg! Aber es handelte sich ja auch nur um einen einfachen Stadtrundgang ..."
-269,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_131","Deine Soldaten haben wertvolle Erfahrungen gesammelt. Mit steigender Erfahrung verbessert sich die Schlagkraft deiner Soldaten. Damit steigt auch die Chance, dass ein Einsatz Erfolg hat."
-270,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_132","（★未使用／削除予定★）"
-271,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_133","（★未使用／削除予定★）"
-272,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_136","Dann lass mich jetzt zum Thema Ausbildung kommen. Dadurch kannst du die individuellen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten der Soldaten verbessern und die Schlagkraft des ganzen Kommandos erhöhen."
-273,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_137","Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen."
-274,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_138","Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit <If(GreaterThan(PlayerParameter(52),0))>des Mahlstroms<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Legion<Else/></If> entwickeln."
-275,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_139","Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht."
-276,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_150","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando ist<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Schlangenpriester im Abaton sind<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere in der Ewigen Halle sind<Else/></If> auf dich und dein Kommando aufmerksam geworden. Sie wollen dir wichtigere Missionen anvertrauen. Aber du musst dich zuerst an einem schwierigen Einsatz beweisen."
-277,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_160","Du hast es geschafft! Dein Name wird heute beim Oberkommando die Runde machen, da habe ich keinen Zweifel. Ich gratuliere dir zu diesem Erfolg, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
-278,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_170","Soldaten müssen zusammenhalten. Jeder Einsatz schweißt dein Kommando weiter zusammen. Und je besser die Kameraden zu<SoftHyphen/>sammen<SoftHyphen/>arbeiten, desto höher ist ihre Schlagkraft auf einem Einsatz."
-279,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_171","Manche Soldaten arbeiten besser mit anderen zusammen. Bedenke das, wenn du dein Kommando zusammenstellst."
-280,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_180","Du leistest ganze Arbeit als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Deine Soldaten werden immer stärker. Das <If(GreaterThan(PlayerParameter(52),0))>hat auch das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>haben auch die Schlangenpriester im Abaton<Else/></If><If(GreaterThan(PlayerParameter(54),0))>haben auch die Stabsoffiziere in der Ewigen Halle<Else/></If> bemerkt. <If(GreaterThan(PlayerParameter(52),0))>Es gibt<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Sie geben<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sie geben<Else/></If> dir nun die Chance, dich mit einem besonders schwierigen Einsatz zu behaupten."
-281,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_190","<Highlight>ObjectParameter(1)</Highlight>! Mir kommt die besondere Ehre zuteil, dich im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> für deinen letzten Erfolg zu loben. Auch unsere Verbündeten zeigen sich beeindruckt von deinen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>. Ich gratuliere!"
-282,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_195","Doch damit nicht genug. <räusper>"
-283,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_196","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Es ist mir eine Ehre, dir im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> folgende Nachricht zu überbringen:"
-284,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_197","<Emphasis>„In Anerkennung <If(PlayerParameter(4))>ihrer<Else/>seiner</If> Dienste für <If(GreaterThan(PlayerParameter(52),0))>den Mahlstrom und alle Bürger Limsa Lominsas<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Bruderschaft der Morgenviper und alle Bewohner Gridanias<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Legion der Unsterblichen und alle Bürger Ul'dahs<Else/></If> soll vom heutigen Tage an <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight> in den Rang des <If(GreaterThan(PlayerParameter(52),0))>Ersten Sturmbootsmanns<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Ersten Schlangenpriesters<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Ersten Legionsfähnrichs<Else/></If> erhoben werden.
-Gezeichnet <Emphasis2><If(GreaterThan(PlayerParameter(52),0))>Admiral Merlwyb Bloefhiswyn<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Saatseherin Kan-E-Senna<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sultana Nanamo Ul Namo<Else/></If></Emphasis2>“</Emphasis>"
-285,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_198","Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
-286,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_330","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Es ist eine dringende Nachricht <If(GreaterThan(PlayerParameter(52),0))>aus dem Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>von der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> eingetroffen. Ich lese sie dir vor."
-287,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_331","<Emphasis>„Mit sofortiger Wirkung wird <If(GreaterThan(PlayerParameter(52),0))><If(PlayerParameter(4))><Sheet(GCRankLimsaFemaleText,PlayerParameter(52),0)/><Else/><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><If(PlayerParameter(4))><Sheet(GCRankGridaniaFemaleText,PlayerParameter(53),0)/><Else/><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><If(PlayerParameter(4))><Sheet(GCRankUldahFemaleText,PlayerParameter(54),0)/><Else/><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/></If><Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> ermächtigt, <If(PlayerParameter(4))>ihr<Else/>sein</If> Kommando auf Operationen zu führen. 
-Gezeichnet: <If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Der Oberbefehlshaber<Else/></If>“</Emphasis>"
-288,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_332","Operationen! Sie werden dich an die gefährlichsten Orte von ganz Eorzea führen, vielleicht sogar in noch entferntere Regionen. Ich gratuliere."
-289,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_333","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando setzt<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Priesterschaft setzt<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere setzen<Else/></If> großes Vertrauen in deine Führungsqualitäten. Ich empfehle, dass du gleich eine Operation startest und deine Eignung unter Beweis stellst. Viel Erfolg!"
-290,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_210","Dein Kommandotrupp ist zurückgekehrt. Alles fertig zum Rapport."
-291,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_220","Doch damit nicht genug. <räusper>"
-292,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_221","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Es ist mir eine Ehre, dir im Namen <If(GreaterThan(PlayerParameter(52),0))>des Flotten<SoftHyphen/>kommandos<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Stabsoffiziere<Else/></If> folgende Nachricht zu überbringen:"
-293,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_222","<Emphasis>„In Anerkennung <If(PlayerParameter(4))>ihrer<Else/>seiner</If> Dienste für <If(GreaterThan(PlayerParameter(52),0))>den Mahlstrom und alle Bürger Limsa Lominsas<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Bruderschaft der Morgenviper und alle Bewohner Gridanias<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Legion der Unsterblichen und alle Bürger Ul'dahs<Else/></If> soll vom heutigen Tage an <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight> in den Rang des <If(GreaterThan(PlayerParameter(52),0))>Ersten Sturmbootsmanns<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Ersten Schlangenpriesters<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Ersten Legionsfähnrichs<Else/></If> erhoben werden.
-Gezeichnet <Emphasis2><If(GreaterThan(PlayerParameter(52),0))>Admiral Merlwyb Bloefhiswyn<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Saatseherin Kan-E-Senna<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sultana Nanamo Ul Namo<Else/></If></Emphasis2>“</Emphasis>"
-294,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_223","Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
-295,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_230","Dein Kommando steht bereit. Wie lauten deine Befehle?"
-296,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_240","Dein Kommando steht bereit. Schicke es auf einen Einsatz oder bilde es aus!"
-297,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_250","Es ist noch Platz in der Wachstube. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
-298,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_251","Wenn du dich als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If> hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
-299,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_260","Lass dein Kommando eine Ausbildung absolvieren, um die individuellen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten der Soldaten zu verbessern und die Schlagkraft des ganzen Kommandos zu erhöhen."
-300,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_261","Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen."
-301,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_262","Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit <If(GreaterThan(PlayerParameter(52),0))>des Mahlstroms<Else/></If><If(GreaterThan(PlayerParameter(53),0))>der Bruderschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>der Legion<Else/></If> entwickeln."
-302,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_263","Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht."
-303,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_320","<If(GreaterThan(PlayerParameter(52),0))>Das Flotten<SoftHyphen/>kommando ist<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Die Schlangenpriester im Abaton sind<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Die Stabsoffiziere in der Ewigen Halle sind<Else/></If> beeindruckt von deinen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If>, <If(GreaterThan(PlayerParameter(52),0))>Zweiter Sturmbootsmann<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Zweiter Schlangenpriester<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Zweiter Legionsfähnrich<Else/></If> <Highlight>ObjectParameter(1)</Highlight>."
-304,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_321","<If(GreaterThan(PlayerParameter(52),0))>Es hat<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Sie haben<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Sie haben<Else/></If> Einsatzbefehle für einen besonders wichtigen Einsatz geschickt. Vielleicht ist es ein Zeichen des Vertrauens, vielleicht ein Test. Jedenfalls solltest du <If(GreaterThan(PlayerParameter(52),0))>das Flotten<SoftHyphen/>kommando<Else/></If><If(GreaterThan(PlayerParameter(53),0))>die Priesterschaft<Else/></If><If(GreaterThan(PlayerParameter(54),0))>die Stabsoffiziere<Else/></If> nicht enttäuschen."
-305,"TEXT_COMARMGCARMYOFFICER_00342_006_001_LIM","（★未使用／削除予定★）"
-306,"TEXT_COMARMGCARMYOFFICER_00342_006_001_GRD","（★未使用／削除予定★）"
-307,"TEXT_COMARMGCARMYOFFICER_00342_006_001_ULD","（★未使用／削除予定★）"
-308,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_400","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, wir haben einen neuen Einsatzbefehl aus dem Abaton der Bruderschaft erhalten. Er klingt ganz schön schwierig, aber wenn wir ihn schaffen, wird unser Kommando bestimmt ausgezeichnet."
-309,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_401","Durch erfolgreiche Kommandoeinsätze an fünf verschiedenen Orten hast du den Zugang zu einem Spezialeinsatz erhalten."
-310,"TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_402","Aufgrund des besonders hohen Schwie<SoftHyphen/>rig<SoftHyphen/>keits<SoftHyphen/>grades wird empfohlen, vorher die Eigenschaften deiner Kommando<SoftHyphen/>soldaten möglichst weit zu steigern."
-311,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_410","Herzlichen Glückwunsch, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Ich wusste, unser Kommando hat das Zeug dazu, aber jetzt bin ich doch ganz schön erleichtert und glücklich."
-312,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_411","Oh, anscheinend haben wir Besuch. Bitte, herein!"
-313,"TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_412","(-???-)Ist dies die Wachstube von <If(PlayerParameter(4))>Erste Schlangenpriesterin<Else/>Erster Schlangenpriester</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> und <If(PlayerParameter(4))>ihren<Else/>seinen</If> mutigen Männern und Frauen?"
-314,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_413","Swethryk Brookstone! Was verschafft uns die Ehre?"
-315,"TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_414","Ich habe gehört, dass Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> gerade von <If(PlayerParameter(4))>ihrem<Else/>seinem</If> Einsatz zurückgekehrt ist. Die Gelegenheit möchte ich nutzen, um persönlich mit <If(PlayerParameter(4))>unserer Heldin<Else/>unserem Helden</If> zu sprechen."
-316,"TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_415","Wir leben in finsteren Zeiten, aber der Heldenmut, den du und deine Kommando<SoftHyphen/>soldaten an den Tag legen, ist ein Hoffnungs<SoftHyphen/>schimmer."
-317,"TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_416","In Anbetracht deiner außer<SoftHyphen/>ordent<SoftHyphen/>lichen Leistungen wird es höchste Zeit, dir eine kleine Anerkennung zu<SoftHyphen/>teil<SoftHyphen/>werden zu lassen."
-318,"TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_417","<Emphasis>Für <If(PlayerParameter(4))>ihre<Else/>seine</If> außer<SoftHyphen/>ordent<SoftHyphen/>lichen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> wird <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> <If(PlayerParameter(4))>zur Erleuchteten Schlangenpriesterin<Else/>zum Erleuchteten Schlangenpriester</If> ernannt. Mögen die Gebieter auch in Zukunft über <If(PlayerParameter(4))>sie<Else/>ihn</If> wachen!</Emphasis>"
-319,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_418","Ha, die Beförderung hast du dir aber auch wirklich verdient! Ich kann nur kaum glauben, dass dir die gute Nachricht vom Auge der Schlange höchst<SoftHyphen/>persön<SoftHyphen/>lich überbracht wurde!"
-320,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_419","Gratulation, Kommandoführer<If(PlayerParameter(4))>in<Else/></If>! Du hast wieder einmal bewiesen, dass unter deiner Führung kein Einsatz zu schwer für unser Kommando ist."
-321,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_400","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, wir haben einen neuen Einsatzbefehl aus dem Mahlstrom-Kommando erhalten. Er klingt ganz schön schwierig, aber wenn wir ihn schaffen, wird unser Kommando bestimmt ausgezeichnet."
-322,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_410","Herzlichen Glückwunsch, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Ich wusste, unser Kommando hat das Zeug dazu, aber jetzt bin ich doch ganz schön erleichtert und glücklich."
-323,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_411","Oh, anscheinend haben wir Besuch. Bitte, herein!"
-324,"TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_412","(-???-)Hallo, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Ich hoffe, ich störe nicht."
-325,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_413","Konteradmiral Eynzahr Slafyrsyn! Was verschafft uns die Ehre?"
-326,"TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_414","Ich habe gehört, dass <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> gerade von <If(PlayerParameter(4))>ihrem<Else/>seinem</If> Einsatz zurückgekehrt ist, und ich möchte die Gelegenheit nutzen, <If(PlayerParameter(4))>ihr<Else/>ihm</If> persönlich zu gratulieren."
-327,"TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_415","Wir leben in finsteren Zeiten, aber der Heldenmut, den du und deine Kommando<SoftHyphen/>soldaten an den Tag legen, ist ein Hoffnungs<SoftHyphen/>schimmer."
-328,"TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_416","Das Mahlstrom-Kommando hat beschlossen, dich für deine großartigen Verdienste auszuzeichnen, und ich möchte dir unseren Beschluss gerne vorlesen. "
-329,"TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_417","<Emphasis>Für <If(PlayerParameter(4))>ihre<Else/>seine</If> außer<SoftHyphen/>ordent<SoftHyphen/>lichen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> wird <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> zum Großsturmbootsmann ernannt. Für die Zukunft wünschen wir <If(PlayerParameter(4))>ihr<Else/>ihm</If> stets frischen Wind in den Segeln!</Emphasis>"
-330,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_418","Ha, die Beförderung hast du dir aber auch wirklich verdient! Und was für eine große Ehre, dass dir die gute Nachricht vom Konteradmiral höchst<SoftHyphen/>persön<SoftHyphen/>lich überbracht wurde!"
-331,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_419","Gratulation, Kommandoführer<If(PlayerParameter(4))>in<Else/></If>! Du hast wieder einmal bewiesen, dass unter deiner Führung kein Einsatz zu schwer für unser Kommando ist."
-332,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_400","Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, wir haben einen neuen Einsatzbefehl aus der Ewigen Halle erhalten. Er klingt ganz schön schwierig, aber wenn wir ihn schaffen, wird unser Kommando bestimmt ausgezeichnet."
-333,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_410","Herzlichen Glückwunsch, Kommandoführer<If(PlayerParameter(4))>in<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Ich wusste, unser Kommando hat das Zeug dazu, aber jetzt bin ich doch ganz schön erleichtert und glücklich."
-334,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_411","Oh, anscheinend haben wir Besuch. Bitte, herein!"
-335,"TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_412","(-???-)Erster Legionsfähnrich <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, bitte entschuldige die Störung."
-336,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_413","General Ruhiger Fluss! Was verschafft uns die Ehre?"
-337,"TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_414","Ich habe von dem erfolgreichen Einsatz gehört und möchte gerne persönlich gratulieren."
-338,"TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_415","Wir leben in finsteren Zeiten, doch euer Heldenmut ist ein Hoffnungs<SoftHyphen/>schimmer."
-339,"TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_416","<Highlight>ObjectParameter(1)</Highlight>, es wird höchste Zeit, deine großartigen Verdienste zu würdigen. Ich bitte um Aufmerksamkeit<Indent/>..."
-340,"TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_417","<Emphasis>Für <If(PlayerParameter(4))>ihre<Else/>seine</If> außer<SoftHyphen/>ordent<SoftHyphen/>lichen Leistungen als Kommandoführer<If(PlayerParameter(4))>in<Else/></If> wird <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> zum Phönixfähnrich ernannt. Möge <If(PlayerParameter(4))>ihr<Else/>sein</If> Feuer ewig brennen!</Emphasis>"
-341,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_418","Ha, die Beförderung hast du dir aber auch wirklich verdient! Und was für eine große Ehre, dass dir die gute Nachricht vom General der Legion höchst<SoftHyphen/>persön<SoftHyphen/>lich überbracht wurde!"
-342,"TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_419","Gratulation, Kommandoführer<If(PlayerParameter(4))>in<Else/></If>! Du hast wieder einmal bewiesen, dass unter deiner Führung kein Einsatz zu schwer für unser Kommando ist."
+186,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_210,Das Kommando ist von dem Einsatz zurückgekehrt. Alles bereit zum Rapport.
+187,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_220,Doch damit nicht genug. <räusper>
+188,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_221,"Kommandoführerin . Es ist mir eine Ehre, dir im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere folgende Nachricht zu überbringen:"
+189,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_222,"*„In Anerkennung ihrer Dienste für den Mahlstrom und alle Bürger Limsa Lominsasdie Bruderschaft der Morgenviper und alle Bewohner Gridaniasdie Legion der Unsterblichen und alle Bürger Ul'dahs soll vom heutigen Tage an Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player in den Rang des Ersten SturmbootsmannsErsten SchlangenpriestersErsten Legionsfähnrichs erhoben werden.
+Gezeichnet **Admiral Merlwyb BloefhiswynSaatseherin Kan-E-SennaSultana Nanamo Ul Namo**“*"
+190,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_223,"Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
+191,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_230,Dein Kommando steht bereit. Wie lauten deine Befehle?
+192,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_240,Dein Kommando steht bereit. Schicke es auf einen Einsatz oder bilde es aus!
+193,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_250,"Es ist noch Platz in der Wachstube. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
+194,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_251,"Wenn du dich als Abenteurerin hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
+195,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_252,"Manchmal, wenn du bestimmte Aufgaben der Aktuellen Agenda absolvierst, inspirierst du NPCs dazu, sich für dein Kommando zu bewerben."
+196,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_260,"Lass dein Kommando eine Ausbildung absolvieren, um die individuellen Fä­hig­kei­ten der Soldaten zu verbessern und die Schlagkraft des ganzen Kommandos zu erhöhen."
+197,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_261,Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen.
+198,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_262,"Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit des Mahlstromsder Bruderschaftder Legion entwickeln."
+199,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_263,Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht.
+200,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_320,"Das Flotten­kommando istDie Schlangenpriester im Abaton sindDie Stabsoffiziere in der Ewigen Halle sind beeindruckt von deinen Leistungen als Kommandoführerin, Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player."
+201,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_321,"Es hatSie habenSie haben Einsatzbefehle für einen besonders wichtigen Einsatz geschickt. Vielleicht ist es ein Zeichen des Vertrauens, vielleicht ein Test. Jedenfalls solltest du das Flotten­kommandodie Schlangenpriesterdie Stabsoffiziere nicht enttäuschen."
+202,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_322,"Du hast einen besonders wichtigen Einsatz freigespielt. Wenn du ihn bestehst, steigt dein Kommando im Rang."
+203,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_100,"Ich habe dich erwartet, Kommandoführerin . Heute ist dein erster Tag im Dienst, und ich bin hier, um dir bei der Erfüllung deiner neuen Aufgabe zu helfen."
+204,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_136,"Zuallererst: Dein Kommando besteht jetzt aus nur drei Soldaten. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
+205,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_137,"Wenn du dich als Abenteurerin hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
+206,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_110,（★未使用／削除予定★）
+207,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_111,（★未使用／削除予定★）
+208,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_101,（★未使用／削除予定★）
+209,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_110,Es geht also los! Dein erster Einsatz!
+210,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_111,"Normalerweise hat das Flotten­kommandohaben die Schlangenpriester im Abatonhaben die Stabsoffiziere in der Ewigen Halle eine Reihe von Einsatzbefehlen ausgegeben, die erledigt werden müssen. Aber fürs Erste habe ich eine ganz einfache Aufgabe für dich ausgesucht."
+211,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_112,"Stelle einen Kommandotrupp aus den verfügbaren Soldaten zusammen und gib den Befehl, den Einsatz zu beginnen!"
+212,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_120,"Alles bereit? Normalerweise musst du deine Soldaten vor Beginn des Einsatzes mit Staatstalern bezahlen, aber heute übernimmt das Oberkommando diese Kosten."
+213,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_121,"Stelle dich darauf ein, dass du als Kommandoführerin für die Bezahlung deiner Soldaten verantwortlich bist."
+214,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_122,"So, der Kommandotrupp ist unterwegs und wird eine gewisse Zeit benötigen, bis er zurückkehrt. Dann werde ich dich über das Ergebnis des Einsatzes informieren."
+215,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_124,（★未使用／削除予定★）
+216,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_125,（★未使用／削除予定★）
+217,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_130,Der erste Einsatz war ein Erfolg! Aber es handelte sich ja auch nur um einen einfachen Stadtrundgang ...
+218,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_131,"Deine Soldaten haben wertvolle Erfahrungen gesammelt. Mit steigender Erfahrung verbessert sich die Schlagkraft deiner Soldaten. Damit steigt auch die Chance, dass ein Einsatz Erfolg hat."
+219,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_132,（★未使用／削除予定★）
+220,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_133,（★未使用／削除予定★）
+221,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_136,Dann lass mich jetzt zum Thema Ausbildung kommen. Dadurch kannst du die individuellen Fä­hig­kei­ten der Soldaten verbessern und die Schlagkraft des ganzen Kommandos erhöhen.
+222,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_137,Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen.
+223,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_138,"Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit des Mahlstromsder Bruderschaftder Legion entwickeln."
+224,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_110_139,Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht.
+225,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_150,Das Flotten­kommando istDie Schlangenpriester im Abaton sindDie Stabsoffiziere in der Ewigen Halle sind auf dich und dein Kommando aufmerksam geworden. Sie wollen dir wichtigere Missionen anvertrauen. Aber du musst dich zuerst an einem schwierigen Einsatz beweisen.
+226,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_160,"Du hast es geschafft! Dein Name wird heute beim Oberkommando die Runde machen, da habe ich keinen Zweifel. Ich gratuliere dir zu diesem Erfolg, Kommandoführerin ."
+227,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_170,"Soldaten müssen zusammenhalten. Jeder Einsatz schweißt dein Kommando weiter zusammen. Und je besser die Kameraden zu­sammen­arbeiten, desto höher ist ihre Schlagkraft auf einem Einsatz."
+228,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_171,"Manche Soldaten arbeiten besser mit anderen zusammen. Bedenke das, wenn du dein Kommando zusammenstellst."
+229,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_180,"Du leistest ganze Arbeit als Kommandoführerin, . Deine Soldaten werden immer stärker. Das hat auch das Flotten­kommandohaben auch die Schlangenpriester im Abatonhaben auch die Stabsoffiziere in der Ewigen Halle bemerkt. Es gibtSie gebenSie geben dir nun die Chance, dich mit einem besonders schwierigen Einsatz zu behaupten."
+230,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_190,"Player Player! Mir kommt die besondere Ehre zuteil, dich im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere für deinen letzten Erfolg zu loben. Auch unsere Verbündeten zeigen sich beeindruckt von deinen Leistungen als Kommandoführerin. Ich gratuliere!"
+231,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_195,Doch damit nicht genug. <räusper>
+232,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_196,"Kommandoführerin . Es ist mir eine Ehre, dir im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere folgende Nachricht zu überbringen:"
+233,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_197,"*„In Anerkennung ihrer Dienste für den Mahlstrom und alle Bürger Limsa Lominsasdie Bruderschaft der Morgenviper und alle Bewohner Gridaniasdie Legion der Unsterblichen und alle Bürger Ul'dahs soll vom heutigen Tage an Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player in den Rang des Ersten SturmbootsmannsErsten SchlangenpriestersErsten Legionsfähnrichs erhoben werden.
+Gezeichnet **Admiral Merlwyb BloefhiswynSaatseherin Kan-E-SennaSultana Nanamo Ul Namo**“*"
+234,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_198,"Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
+235,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_330,Kommandoführerin ! Es ist eine dringende Nachricht aus dem Flotten­kommandovon der Priesterschaftder Stabsoffiziere eingetroffen. Ich lese sie dir vor.
+236,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_331,"*„Mit sofortiger Wirkung wird   ermächtigt, ihr Kommando auf Operationen zu führen. 
+Gezeichnet: Das Flotten­kommandoDie PriesterschaftDer Oberbefehlshaber“*"
+237,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_332,"Operationen! Sie werden dich an die gefährlichsten Orte von ganz Eorzea führen, vielleicht sogar in noch entferntere Regionen. Ich gratuliere."
+238,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_333,"Das Flotten­kommando setztDie Priesterschaft setztDie Stabsoffiziere setzen großes Vertrauen in deine Führungsqualitäten. Ich empfehle, dass du gleich eine Operation startest und deine Eignung unter Beweis stellst. Viel Erfolg!"
+239,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_210,Dein Kommandotrupp ist zurückgekehrt. Alles fertig zum Rapport.
+240,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_220,Doch damit nicht genug. <räusper>
+241,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_221,"Kommandoführerin . Es ist mir eine Ehre, dir im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere folgende Nachricht zu überbringen:"
+242,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_222,"*„In Anerkennung ihrer Dienste für den Mahlstrom und alle Bürger Limsa Lominsasdie Bruderschaft der Morgenviper und alle Bewohner Gridaniasdie Legion der Unsterblichen und alle Bürger Ul'dahs soll vom heutigen Tage an Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player in den Rang des Ersten SturmbootsmannsErsten SchlangenpriestersErsten Legionsfähnrichs erhoben werden.
+Gezeichnet **Admiral Merlwyb BloefhiswynSaatseherin Kan-E-SennaSultana Nanamo Ul Namo**“*"
+243,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_223,"Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
+244,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_230,Dein Kommando steht bereit. Wie lauten deine Befehle?
+245,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_240,Dein Kommando steht bereit. Schicke es auf einen Einsatz oder bilde es aus!
+246,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_250,"Es ist noch Platz in der Wachstube. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
+247,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_251,"Wenn du dich als Abenteurerin hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
+248,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_260,"Lass dein Kommando eine Ausbildung absolvieren, um die individuellen Fä­hig­kei­ten der Soldaten zu verbessern und die Schlagkraft des ganzen Kommandos zu erhöhen."
+249,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_261,Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen.
+250,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_262,"Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit des Mahlstromsder Bruderschaftder Legion entwickeln."
+251,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_263,Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht.
+252,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_320,"Das Flotten­kommando istDie Schlangenpriester im Abaton sindDie Stabsoffiziere in der Ewigen Halle sind beeindruckt von deinen Leistungen als Kommandoführerin, Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player."
+253,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_321,"Es hatSie habenSie haben Einsatzbefehle für einen besonders wichtigen Einsatz geschickt. Vielleicht ist es ein Zeichen des Vertrauens, vielleicht ein Test. Jedenfalls solltest du das Flotten­kommandodie Priesterschaftdie Stabsoffiziere nicht enttäuschen."
+254,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_100,"Ich habe dich erwartet, Kommandoführerin . Heute ist dein erster Tag im Dienst, und ich bin hier, um dir bei der Erfüllung deiner neuen Aufgabe zu helfen."
+255,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_136,"Zuallererst: Dein Kommando besteht jetzt aus nur drei Soldaten. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
+256,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_137,"Wenn du dich als Abenteurerin hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
+257,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_110,（★未使用／削除予定★）
+258,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_111,（★未使用／削除予定★）
+259,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_101,（★未使用／削除予定★）
+260,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_110,Es geht also los! Dein erster Einsatz!
+261,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_111,"Normalerweise hat das Flotten­kommandohaben die Schlangenpriester im Abatonhaben die Stabsoffiziere in der Ewigen Halle eine Reihe von Einsatzbefehlen ausgegeben, die erledigt werden müssen. Aber fürs Erste habe ich eine ganz einfache Aufgabe für dich ausgesucht."
+262,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_112,"Stelle einen Kommandotrupp aus den verfügbaren Soldaten zusammen und gib den Befehl, den Einsatz zu beginnen!"
+263,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_120,"Alles bereit? Normalerweise musst du deine Soldaten vor Beginn des Einsatzes mit Staatstalern bezahlen, aber heute übernimmt das Oberkommando diese Kosten."
+264,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_121,"Stelle dich darauf ein, dass du als Kommandoführerin für die Bezahlung deiner Soldaten verantwortlich bist."
+265,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_122,"So, der Kommandotrupp ist unterwegs und wird eine gewisse Zeit benötigen, bis er zurückkehrt. Dann werde ich dich über das Ergebnis des Einsatzes informieren."
+266,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_124,（★未使用／削除予定★）
+267,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_125,（★未使用／削除予定★）
+268,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_130,Der erste Einsatz war ein Erfolg! Aber es handelte sich ja auch nur um einen einfachen Stadtrundgang ...
+269,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_131,"Deine Soldaten haben wertvolle Erfahrungen gesammelt. Mit steigender Erfahrung verbessert sich die Schlagkraft deiner Soldaten. Damit steigt auch die Chance, dass ein Einsatz Erfolg hat."
+270,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_132,（★未使用／削除予定★）
+271,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_133,（★未使用／削除予定★）
+272,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_136,Dann lass mich jetzt zum Thema Ausbildung kommen. Dadurch kannst du die individuellen Fä­hig­kei­ten der Soldaten verbessern und die Schlagkraft des ganzen Kommandos erhöhen.
+273,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_137,Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen.
+274,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_138,"Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit des Mahlstromsder Bruderschaftder Legion entwickeln."
+275,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_210_139,Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht.
+276,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_150,Das Flotten­kommando istDie Schlangenpriester im Abaton sindDie Stabsoffiziere in der Ewigen Halle sind auf dich und dein Kommando aufmerksam geworden. Sie wollen dir wichtigere Missionen anvertrauen. Aber du musst dich zuerst an einem schwierigen Einsatz beweisen.
+277,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_160,"Du hast es geschafft! Dein Name wird heute beim Oberkommando die Runde machen, da habe ich keinen Zweifel. Ich gratuliere dir zu diesem Erfolg, Kommandoführerin ."
+278,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_170,"Soldaten müssen zusammenhalten. Jeder Einsatz schweißt dein Kommando weiter zusammen. Und je besser die Kameraden zu­sammen­arbeiten, desto höher ist ihre Schlagkraft auf einem Einsatz."
+279,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_171,"Manche Soldaten arbeiten besser mit anderen zusammen. Bedenke das, wenn du dein Kommando zusammenstellst."
+280,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_180,"Du leistest ganze Arbeit als Kommandoführerin, . Deine Soldaten werden immer stärker. Das hat auch das Flotten­kommandohaben auch die Schlangenpriester im Abatonhaben auch die Stabsoffiziere in der Ewigen Halle bemerkt. Es gibtSie gebenSie geben dir nun die Chance, dich mit einem besonders schwierigen Einsatz zu behaupten."
+281,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_190,"Player Player! Mir kommt die besondere Ehre zuteil, dich im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere für deinen letzten Erfolg zu loben. Auch unsere Verbündeten zeigen sich beeindruckt von deinen Leistungen als Kommandoführerin. Ich gratuliere!"
+282,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_195,Doch damit nicht genug. <räusper>
+283,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_196,"Kommandoführerin . Es ist mir eine Ehre, dir im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere folgende Nachricht zu überbringen:"
+284,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_197,"*„In Anerkennung ihrer Dienste für den Mahlstrom und alle Bürger Limsa Lominsasdie Bruderschaft der Morgenviper und alle Bewohner Gridaniasdie Legion der Unsterblichen und alle Bürger Ul'dahs soll vom heutigen Tage an Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player in den Rang des Ersten SturmbootsmannsErsten SchlangenpriestersErsten Legionsfähnrichs erhoben werden.
+Gezeichnet **Admiral Merlwyb BloefhiswynSaatseherin Kan-E-SennaSultana Nanamo Ul Namo**“*"
+285,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_198,"Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
+286,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_330,Kommandoführerin ! Es ist eine dringende Nachricht aus dem Flotten­kommandovon der Priesterschaftder Stabsoffiziere eingetroffen. Ich lese sie dir vor.
+287,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_331,"*„Mit sofortiger Wirkung wird   ermächtigt, ihr Kommando auf Operationen zu führen. 
+Gezeichnet: Das Flotten­kommandoDie PriesterschaftDer Oberbefehlshaber“*"
+288,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_332,"Operationen! Sie werden dich an die gefährlichsten Orte von ganz Eorzea führen, vielleicht sogar in noch entferntere Regionen. Ich gratuliere."
+289,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_333,"Das Flotten­kommando setztDie Priesterschaft setztDie Stabsoffiziere setzen großes Vertrauen in deine Führungsqualitäten. Ich empfehle, dass du gleich eine Operation startest und deine Eignung unter Beweis stellst. Viel Erfolg!"
+290,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_210,Dein Kommandotrupp ist zurückgekehrt. Alles fertig zum Rapport.
+291,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_220,Doch damit nicht genug. <räusper>
+292,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_221,"Kommandoführerin . Es ist mir eine Ehre, dir im Namen des Flotten­kommandosder Priesterschaftder Stabsoffiziere folgende Nachricht zu überbringen:"
+293,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_222,"*„In Anerkennung ihrer Dienste für den Mahlstrom und alle Bürger Limsa Lominsasdie Bruderschaft der Morgenviper und alle Bewohner Gridaniasdie Legion der Unsterblichen und alle Bürger Ul'dahs soll vom heutigen Tage an Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player in den Rang des Ersten SturmbootsmannsErsten SchlangenpriestersErsten Legionsfähnrichs erhoben werden.
+Gezeichnet **Admiral Merlwyb BloefhiswynSaatseherin Kan-E-SennaSultana Nanamo Ul Namo**“*"
+294,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_223,"Du hast richtig gehört, du bist befördert worden. Meinen herzlichen Glückwunsch! Ich bin wirklich sehr stolz auf dich."
+295,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_230,Dein Kommando steht bereit. Wie lauten deine Befehle?
+296,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_240,Dein Kommando steht bereit. Schicke es auf einen Einsatz oder bilde es aus!
+297,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_250,"Es ist noch Platz in der Wachstube. Du solltest so schnell wie möglich einen vierten Soldaten finden, um dein Kommando zu vervollständigen."
+298,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_251,"Wenn du dich als Abenteurerin hervortust, wirst du andere dazu inspirieren, deinem Kommando beizutreten. Es werden Bewerbungen von neuen Anwärtern eingehen, aus denen du neue Soldaten rekrutieren kannst. Und je mehr Soldaten du hast, desto besser kannst du die richtigen für einen Einsatz auswählen. Also vergiss nicht, regelmäßig auf Abenteuer zu gehen!"
+299,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_260,"Lass dein Kommando eine Ausbildung absolvieren, um die individuellen Fä­hig­kei­ten der Soldaten zu verbessern und die Schlagkraft des ganzen Kommandos zu erhöhen."
+300,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_261,Die zur Verfügung stehenden Übungen und ihre Wirkung kannst du am Ausbildungsplan ansehen.
+301,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_262,"Was jetzt noch eine bunt zusammengewürfelte Gruppe wagemutiger Abenteurer ist, kann sich unter deiner Führung zu einer Eliteeinheit des Mahlstromsder Bruderschaftder Legion entwickeln."
+302,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_263,Schwierige Einsätze wirst du ohne gründliche Ausbildung nicht bestehen können. Also unterschätze diesen Aspekt nicht.
+303,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_320,"Das Flotten­kommando istDie Schlangenpriester im Abaton sindDie Stabsoffiziere in der Ewigen Halle sind beeindruckt von deinen Leistungen als Kommandoführerin, Zweiter SturmbootsmannZweiter SchlangenpriesterZweiter Legionsfähnrich Player Player."
+304,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_321,"Es hatSie habenSie haben Einsatzbefehle für einen besonders wichtigen Einsatz geschickt. Vielleicht ist es ein Zeichen des Vertrauens, vielleicht ein Test. Jedenfalls solltest du das Flotten­kommandodie Priesterschaftdie Stabsoffiziere nicht enttäuschen."
+305,TEXT_COMARMGCARMYOFFICER_00342_006_001_LIM,（★未使用／削除予定★）
+306,TEXT_COMARMGCARMYOFFICER_00342_006_001_GRD,（★未使用／削除予定★）
+307,TEXT_COMARMGCARMYOFFICER_00342_006_001_ULD,（★未使用／削除予定★）
+308,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_400,"Kommandoführerin , wir haben einen neuen Einsatzbefehl aus dem Abaton der Bruderschaft erhalten. Er klingt ganz schön schwierig, aber wenn wir ihn schaffen, wird unser Kommando bestimmt ausgezeichnet."
+309,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_401,Durch erfolgreiche Kommandoeinsätze an fünf verschiedenen Orten hast du den Zugang zu einem Spezialeinsatz erhalten.
+310,TEXT_COMARMGCARMYOFFICER_00342_SYSTEM_000_402,"Aufgrund des besonders hohen Schwie­rig­keits­grades wird empfohlen, vorher die Eigenschaften deiner Kommando­soldaten möglichst weit zu steigern."
+311,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_410,"Herzlichen Glückwunsch, Kommandoführerin ! Ich wusste, unser Kommando hat das Zeug dazu, aber jetzt bin ich doch ganz schön erleichtert und glücklich."
+312,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_411,"Oh, anscheinend haben wir Besuch. Bitte, herein!"
+313,TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_412,(-???-)Ist dies die Wachstube von Erste Schlangenpriesterin  und ihren mutigen Männern und Frauen?
+314,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_413,Swethryk Brookstone! Was verschafft uns die Ehre?
+315,TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_414,"Ich habe gehört, dass Kommandoführerin  gerade von ihrem Einsatz zurückgekehrt ist. Die Gelegenheit möchte ich nutzen, um persönlich mit unserer Heldin zu sprechen."
+316,TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_415,"Wir leben in finsteren Zeiten, aber der Heldenmut, den du und deine Kommando­soldaten an den Tag legen, ist ein Hoffnungs­schimmer."
+317,TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_416,"In Anbetracht deiner außer­ordent­lichen Leistungen wird es höchste Zeit, dir eine kleine Anerkennung zu­teil­werden zu lassen."
+318,TEXT_COMARMGCARMYOFFICER_00342_SWETHRYKBROOKSTONE_000_417,*Für ihre außer­ordent­lichen Leistungen als Kommandoführerin wird  zur Erleuchteten Schlangenpriesterin ernannt. Mögen die Gebieter auch in Zukunft über sie wachen!*
+319,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_418,"Ha, die Beförderung hast du dir aber auch wirklich verdient! Ich kann nur kaum glauben, dass dir die gute Nachricht vom Auge der Schlange höchst­persön­lich überbracht wurde!"
+320,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_000_419,"Gratulation, Kommandoführerin! Du hast wieder einmal bewiesen, dass unter deiner Führung kein Einsatz zu schwer für unser Kommando ist."
+321,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_400,"Kommandoführerin , wir haben einen neuen Einsatzbefehl aus dem Mahlstrom-Kommando erhalten. Er klingt ganz schön schwierig, aber wenn wir ihn schaffen, wird unser Kommando bestimmt ausgezeichnet."
+322,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_410,"Herzlichen Glückwunsch, Kommandoführerin ! Ich wusste, unser Kommando hat das Zeug dazu, aber jetzt bin ich doch ganz schön erleichtert und glücklich."
+323,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_411,"Oh, anscheinend haben wir Besuch. Bitte, herein!"
+324,TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_412,"(-???-)Hallo, Player! Ich hoffe, ich störe nicht."
+325,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_413,Konteradmiral Eynzahr Slafyrsyn! Was verschafft uns die Ehre?
+326,TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_414,"Ich habe gehört, dass Player gerade von ihrem Einsatz zurückgekehrt ist, und ich möchte die Gelegenheit nutzen, ihr persönlich zu gratulieren."
+327,TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_415,"Wir leben in finsteren Zeiten, aber der Heldenmut, den du und deine Kommando­soldaten an den Tag legen, ist ein Hoffnungs­schimmer."
+328,TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_416,"Das Mahlstrom-Kommando hat beschlossen, dich für deine großartigen Verdienste auszuzeichnen, und ich möchte dir unseren Beschluss gerne vorlesen. "
+329,TEXT_COMARMGCARMYOFFICER_00342_EYNZAHRSLAFYRSYN_100_417,*Für ihre außer­ordent­lichen Leistungen als Kommandoführerin wird  zum Großsturmbootsmann ernannt. Für die Zukunft wünschen wir ihr stets frischen Wind in den Segeln!*
+330,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_418,"Ha, die Beförderung hast du dir aber auch wirklich verdient! Und was für eine große Ehre, dass dir die gute Nachricht vom Konteradmiral höchst­persön­lich überbracht wurde!"
+331,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_100_419,"Gratulation, Kommandoführerin! Du hast wieder einmal bewiesen, dass unter deiner Führung kein Einsatz zu schwer für unser Kommando ist."
+332,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_400,"Kommandoführerin , wir haben einen neuen Einsatzbefehl aus der Ewigen Halle erhalten. Er klingt ganz schön schwierig, aber wenn wir ihn schaffen, wird unser Kommando bestimmt ausgezeichnet."
+333,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_410,"Herzlichen Glückwunsch, Kommandoführerin ! Ich wusste, unser Kommando hat das Zeug dazu, aber jetzt bin ich doch ganz schön erleichtert und glücklich."
+334,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_411,"Oh, anscheinend haben wir Besuch. Bitte, herein!"
+335,TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_412,"(-???-)Erster Legionsfähnrich , bitte entschuldige die Störung."
+336,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_413,General Ruhiger Fluss! Was verschafft uns die Ehre?
+337,TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_414,Ich habe von dem erfolgreichen Einsatz gehört und möchte gerne persönlich gratulieren.
+338,TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_415,"Wir leben in finsteren Zeiten, doch euer Heldenmut ist ein Hoffnungs­schimmer."
+339,TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_416,"Player Player, es wird höchste Zeit, deine großartigen Verdienste zu würdigen. Ich bitte um Aufmerksamkeit ..."
+340,TEXT_COMARMGCARMYOFFICER_00342_STILLRIVER_200_417,*Für ihre außer­ordent­lichen Leistungen als Kommandoführerin wird  zum Phönixfähnrich ernannt. Möge ihr Feuer ewig brennen!*
+341,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_418,"Ha, die Beförderung hast du dir aber auch wirklich verdient! Und was für eine große Ehre, dass dir die gute Nachricht vom General der Legion höchst­persön­lich überbracht wurde!"
+342,TEXT_COMARMGCARMYOFFICER_00342_PLATOONINSTRUCTOR_200_419,"Gratulation, Kommandoführerin! Du hast wieder einmal bewiesen, dass unter deiner Führung kein Einsatz zu schwer für unser Kommando ist."

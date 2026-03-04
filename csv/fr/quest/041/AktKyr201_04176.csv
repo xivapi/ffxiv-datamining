@@ -1,68 +1,65 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_AKTKYR201_04176_SEQ_00","Ce glaneur menu semble vous avoir reconnu. Que peut-il bien vous vouloir<Indent/>?"
-1,"TEXT_AKTKYR201_04176_SEQ_01",""
-2,"TEXT_AKTKYR201_04176_SEQ_02",""
-3,"TEXT_AKTKYR201_04176_SEQ_03",""
-4,"TEXT_AKTKYR201_04176_SEQ_04",""
-5,"TEXT_AKTKYR201_04176_SEQ_05",""
-6,"TEXT_AKTKYR201_04176_SEQ_06",""
-7,"TEXT_AKTKYR201_04176_SEQ_07",""
-8,"TEXT_AKTKYR201_04176_SEQ_08",""
-9,"TEXT_AKTKYR201_04176_SEQ_09",""
-10,"TEXT_AKTKYR201_04176_SEQ_10",""
-11,"TEXT_AKTKYR201_04176_SEQ_11",""
-12,"TEXT_AKTKYR201_04176_SEQ_12",""
-13,"TEXT_AKTKYR201_04176_SEQ_13",""
-14,"TEXT_AKTKYR201_04176_SEQ_14",""
-15,"TEXT_AKTKYR201_04176_SEQ_15",""
-16,"TEXT_AKTKYR201_04176_SEQ_16",""
-17,"TEXT_AKTKYR201_04176_SEQ_17",""
-18,"TEXT_AKTKYR201_04176_SEQ_18",""
-19,"TEXT_AKTKYR201_04176_SEQ_19",""
-20,"TEXT_AKTKYR201_04176_SEQ_20",""
-21,"TEXT_AKTKYR201_04176_SEQ_21",""
-22,"TEXT_AKTKYR201_04176_SEQ_22",""
-23,"TEXT_AKTKYR201_04176_SEQ_23",""
-24,"TEXT_AKTKYR201_04176_TODO_00","Trouver une certaine Northota au péristyle"
-25,"TEXT_AKTKYR201_04176_TODO_01",""
-26,"TEXT_AKTKYR201_04176_TODO_02",""
-27,"TEXT_AKTKYR201_04176_TODO_03",""
-28,"TEXT_AKTKYR201_04176_TODO_04",""
-29,"TEXT_AKTKYR201_04176_TODO_05",""
-30,"TEXT_AKTKYR201_04176_TODO_06",""
-31,"TEXT_AKTKYR201_04176_TODO_07",""
-32,"TEXT_AKTKYR201_04176_TODO_08",""
-33,"TEXT_AKTKYR201_04176_TODO_09",""
-34,"TEXT_AKTKYR201_04176_TODO_10",""
-35,"TEXT_AKTKYR201_04176_TODO_11",""
-36,"TEXT_AKTKYR201_04176_TODO_12",""
-37,"TEXT_AKTKYR201_04176_TODO_13",""
-38,"TEXT_AKTKYR201_04176_TODO_14",""
-39,"TEXT_AKTKYR201_04176_TODO_15",""
-40,"TEXT_AKTKYR201_04176_TODO_16",""
-41,"TEXT_AKTKYR201_04176_TODO_17",""
-42,"TEXT_AKTKYR201_04176_TODO_18",""
-43,"TEXT_AKTKYR201_04176_TODO_19",""
-44,"TEXT_AKTKYR201_04176_TODO_20",""
-45,"TEXT_AKTKYR201_04176_TODO_21",""
-46,"TEXT_AKTKYR201_04176_TODO_22",""
-47,"TEXT_AKTKYR201_04176_TODO_23",""
-48,"TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_001","Vous, là<Indent/>! Vous ne seriez pas... <Highlight>ObjectParameter(1)</Highlight>, par hasard...<Indent/>?"
-49,"TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_002","J'en étais sûr<Indent/>! Nous cherchons des aventuriers rompus au combat comme vous, alors j'attendais là dans l'espoir de vous mettre la main dessus<Indent/>!"
-50,"TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_003","Je travaille pour le collège des glaneurs, un groupe qui centralise les livraisons que nous devons honorer. Nous nous sommes récemment inspirés du système éorzéen pour mettre en place nos propres contrats de chasse<Indent/>!"
-51,"TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_004","Des récompenses sont à la clef, bien évidemment. Si j'ai piqué votre curiosité, je vous prierai de vous renseigner auprès de Northota, ma collègue au péristyle."
-52,"TEXT_AKTKYR201_04176_NORTHOTA_000_010","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>. Que puis-je faire pour vous<Indent/>? Vous souhaitez établir un contrat de chasse avec le collège des glaneurs, peut-être<Indent/>?"
-53,"TEXT_AKTKYR201_04176_NORTHOTA_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>? Aaah, mes efforts paient enfin<Indent/>! Ça fait un moment que je vous cherche, vous savez<Indent/>? J'avais demandé à quelques collègues de garder l'œil ouvert et de vous guider jusqu'à moi s'ils vous rencontraient. Permettez-moi de vous expliquer pourquoi, vous allez vite comprendre."
-54,"TEXT_AKTKYR201_04176_NORTHOTA_000_012","Les glaneurs doivent der<SoftHyphen/>niè<SoftHyphen/>re<SoftHyphen/>ment faire face à une avalanche de commandes. Nous avons donc décidé de prendre les devants en organisant une chasse au monstre."
-55,"TEXT_AKTKYR201_04176_NORTHOTA_000_013","Toutefois, nous sommes loin d'être tous rompus au combat, et nous manquons de combattants aguerris pour s'occuper des livraisons les plus périlleuses..."
-56,"TEXT_AKTKYR201_04176_NORTHOTA_000_014","Vous avez déjà fait vos preuves en Éorzéa, si on m'a bien informée. Quand j'ai appris que quelqu'un comme vous avait débarqué à Sharlayan, j'ai tout de suite su que je devais vous recruter avant que quelqu'un d'autre le fasse<Indent/>!"
-57,"TEXT_AKTKYR201_04176_NORTHOTA_000_015","Vous ne serez pas dépaysé<If(PlayerParameter(4))>e<Else/></If>. Nos contrats fonctionnent de la même façon que partout ailleurs. Vous abattez une cible, vous nous rapportez l'objet trouvé sur elle, et vous empochez la récompense."
-58,"TEXT_AKTKYR201_04176_NORTHOTA_000_016","En revanche, je dois vous prévenir. Les scien<SoftHyphen/>ti<SoftHyphen/>fi<SoftHyphen/>ques et autres chercheurs de l'académie constituent la majorité de nos clients, donc il se peut que certaines de vos proies vous surprennent, une fois nez à nez avec elles..."
-59,"TEXT_AKTKYR201_04176_NORTHOTA_000_017","Enfin... vous savez de quoi je parle. Entre glaneurs et aventuriers, on se comprend, pas vrai<Indent/>? Et puis, du moment qu'on est payés..."
-60,"TEXT_AKTKYR201_04176_NORTHOTA_000_018","De toute façon, rassurez-vous. Vous débuterez par des cibles faciles. On ne vous demandera pas la lune dès le début<Indent/>! Encore que..."
-61,"TEXT_AKTKYR201_04176_SYSTEM_000_019","Vous pouvez désormais remplir les contrats de chasse de niveau débutant du collège des glaneurs. Ils sont proposés sur les tableaux du collège des glaneurs de Vieille Sharlayan et de Radz-at-Han."
-62,"TEXT_AKTKYR201_04176_SYSTEM_000_020","Chaque contrat rempli vous octroie des insignes que vous pouvez ensuite échanger contre des récompenses. "
-63,"TEXT_AKTKYR201_04176_SYSTEM_000_021","Pour échanger des insignes, adressez-vous à J'lakshai à Vieille Sharlayan, ou à Wilmetta à Radz-at-Han."
-64,"TEXT_AKTKYR201_04176_SYSTEM_000_017","Lorsque vous aurez atteint le niveau 83 et progressé jusqu'à une étape donnée de l'épopée, Northota proposera une nouvelle quête."
+0,TEXT_AKTKYR201_04176_SEQ_00,Ce glaneur menu semble vous avoir reconnu. Que peut-il bien vous vouloir ?
+1,TEXT_AKTKYR201_04176_SEQ_01,
+2,TEXT_AKTKYR201_04176_SEQ_02,
+3,TEXT_AKTKYR201_04176_SEQ_03,
+4,TEXT_AKTKYR201_04176_SEQ_04,
+5,TEXT_AKTKYR201_04176_SEQ_05,
+6,TEXT_AKTKYR201_04176_SEQ_06,
+7,TEXT_AKTKYR201_04176_SEQ_07,
+8,TEXT_AKTKYR201_04176_SEQ_08,
+9,TEXT_AKTKYR201_04176_SEQ_09,
+10,TEXT_AKTKYR201_04176_SEQ_10,
+11,TEXT_AKTKYR201_04176_SEQ_11,
+12,TEXT_AKTKYR201_04176_SEQ_12,
+13,TEXT_AKTKYR201_04176_SEQ_13,
+14,TEXT_AKTKYR201_04176_SEQ_14,
+15,TEXT_AKTKYR201_04176_SEQ_15,
+16,TEXT_AKTKYR201_04176_SEQ_16,
+17,TEXT_AKTKYR201_04176_SEQ_17,
+18,TEXT_AKTKYR201_04176_SEQ_18,
+19,TEXT_AKTKYR201_04176_SEQ_19,
+20,TEXT_AKTKYR201_04176_SEQ_20,
+21,TEXT_AKTKYR201_04176_SEQ_21,
+22,TEXT_AKTKYR201_04176_SEQ_22,
+23,TEXT_AKTKYR201_04176_SEQ_23,
+24,TEXT_AKTKYR201_04176_TODO_00,Trouver une certaine Northota au péristyle
+25,TEXT_AKTKYR201_04176_TODO_01,
+26,TEXT_AKTKYR201_04176_TODO_02,
+27,TEXT_AKTKYR201_04176_TODO_03,
+28,TEXT_AKTKYR201_04176_TODO_04,
+29,TEXT_AKTKYR201_04176_TODO_05,
+30,TEXT_AKTKYR201_04176_TODO_06,
+31,TEXT_AKTKYR201_04176_TODO_07,
+32,TEXT_AKTKYR201_04176_TODO_08,
+33,TEXT_AKTKYR201_04176_TODO_09,
+34,TEXT_AKTKYR201_04176_TODO_10,
+35,TEXT_AKTKYR201_04176_TODO_11,
+36,TEXT_AKTKYR201_04176_TODO_12,
+37,TEXT_AKTKYR201_04176_TODO_13,
+38,TEXT_AKTKYR201_04176_TODO_14,
+39,TEXT_AKTKYR201_04176_TODO_15,
+40,TEXT_AKTKYR201_04176_TODO_16,
+41,TEXT_AKTKYR201_04176_TODO_17,
+42,TEXT_AKTKYR201_04176_TODO_18,
+43,TEXT_AKTKYR201_04176_TODO_19,
+44,TEXT_AKTKYR201_04176_TODO_20,
+45,TEXT_AKTKYR201_04176_TODO_21,
+46,TEXT_AKTKYR201_04176_TODO_22,
+47,TEXT_AKTKYR201_04176_TODO_23,
+48,TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_001,"Vous, là ! Vous ne seriez pas... Player Player, par hasard... ?"
+49,TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_002,"J'en étais sûr ! Nous cherchons des aventuriers rompus au combat comme vous, alors j'attendais là dans l'espoir de vous mettre la main dessus !"
+50,TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_003,"Je travaille pour le collège des glaneurs, un groupe qui centralise les livraisons que nous devons honorer. Nous nous sommes récemment inspirés du système éorzéen pour mettre en place nos propres contrats de chasse !"
+51,TEXT_AKTKYR201_04176_LITTLEGLEANER04176_000_004,"Des récompenses sont à la clef, bien évidemment. Si j'ai piqué votre curiosité, je vous prierai de vous renseigner auprès de Northota, ma collègue au péristyle."
+52,TEXT_AKTKYR201_04176_NORTHOTA_000_010,"Bonsoir. Que puis-je faire pour vous ? Vous souhaitez établir un contrat de chasse avec le collège des glaneurs, peut-être ?"
+53,TEXT_AKTKYR201_04176_NORTHOTA_000_011,"Player ? Aaah, mes efforts paient enfin ! Ça fait un moment que je vous cherche, vous savez ? J'avais demandé à quelques collègues de garder l'œil ouvert et de vous guider jusqu'à moi s'ils vous rencontraient. Permettez-moi de vous expliquer pourquoi, vous allez vite comprendre."
+54,TEXT_AKTKYR201_04176_NORTHOTA_000_012,Les glaneurs doivent der­niè­re­ment faire face à une avalanche de commandes. Nous avons donc décidé de prendre les devants en organisant une chasse au monstre.
+55,TEXT_AKTKYR201_04176_NORTHOTA_000_013,"Toutefois, nous sommes loin d'être tous rompus au combat, et nous manquons de combattants aguerris pour s'occuper des livraisons les plus périlleuses..."
+56,TEXT_AKTKYR201_04176_NORTHOTA_000_014,"Vous avez déjà fait vos preuves en Éorzéa, si on m'a bien informée. Quand j'ai appris que quelqu'un comme vous avait débarqué à Sharlayan, j'ai tout de suite su que je devais vous recruter avant que quelqu'un d'autre le fasse !"
+57,TEXT_AKTKYR201_04176_NORTHOTA_000_015,"Vous ne serez pas dépaysée. Nos contrats fonctionnent de la même façon que partout ailleurs. Vous abattez une cible, vous nous rapportez l'objet trouvé sur elle, et vous empochez la récompense."
+58,TEXT_AKTKYR201_04176_NORTHOTA_000_016,"En revanche, je dois vous prévenir. Les scien­ti­fi­ques et autres chercheurs de l'académie constituent la majorité de nos clients, donc il se peut que certaines de vos proies vous surprennent, une fois nez à nez avec elles..."
+59,TEXT_AKTKYR201_04176_NORTHOTA_000_017,"Enfin... vous savez de quoi je parle. Entre glaneurs et aventuriers, on se comprend, pas vrai ? Et puis, du moment qu'on est payés..."
+60,TEXT_AKTKYR201_04176_NORTHOTA_000_018,"De toute façon, rassurez-vous. Vous débuterez par des cibles faciles. On ne vous demandera pas la lune dès le début ! Encore que..."
+61,TEXT_AKTKYR201_04176_SYSTEM_000_019,Vous pouvez désormais remplir les contrats de chasse de niveau débutant du collège des glaneurs. Ils sont proposés sur les tableaux du collège des glaneurs de Vieille Sharlayan et de Radz-at-Han.
+62,TEXT_AKTKYR201_04176_SYSTEM_000_020,Chaque contrat rempli vous octroie des insignes que vous pouvez ensuite échanger contre des récompenses. 
+63,TEXT_AKTKYR201_04176_SYSTEM_000_021,"Pour échanger des insignes, adressez-vous à J'lakshai à Vieille Sharlayan, ou à Wilmetta à Radz-at-Han."
+64,TEXT_AKTKYR201_04176_SYSTEM_000_017,"Lorsque vous aurez atteint le niveau 83 et progressé jusqu'à une étape donnée de l'épopée, Northota proposera une nouvelle quête."

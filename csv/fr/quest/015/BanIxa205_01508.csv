@@ -1,75 +1,72 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANIXA205_01508_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-* <Emphasis>Avant de commencer cette quête, il est recommandé d'être au niveau 3 minimum pour les disciples de la main, et au niveau 43 minimum pour les disciples de la guerre et de la magie.</Emphasis>
+0,TEXT_BANIXA205_01508_SEQ_00,"**Règle spéciale :  synchronisation de quête**
+* *Avant de commencer cette quête, il est recommandé d'être au niveau 3 minimum pour les disciples de la main, et au niveau 43 minimum pour les disciples de la guerre et de la magie.*
 
 Methuli Cattlan a un nouveau travail à vous confier."
-1,"TEXT_BANIXA205_01508_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
+1,TEXT_BANIXA205_01508_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
 
-Methuli Cattlan vous a “demandé” de fabriquer deux <SheetFr(ItemHQ,12,　8099,2,1)/>. Pour commencer, vous devez aller à la falaise des Trouveurs dans la Forêt du nord pour obtenir <SheetFr(EventItem,1,2001386,1,1)/> de la part d'Ademar."
-2,"TEXT_BANIXA205_01508_SEQ_02","Ademar vous a remis <SheetFr(EventItem,2,2001386,1,1)/> dont vous avez besoin pour votre travail. Rendez-vous maintenant au Radeau de la Calebasse et demandez à Hildeyerd l'au<SoftHyphen/>to<SoftHyphen/>ri<SoftHyphen/>sa<SoftHyphen/>tion d'utiliser les ins<SoftHyphen/>tal<SoftHyphen/>la<SoftHyphen/>tions d'artisanat."
-3,"TEXT_BANIXA205_01508_SEQ_03","Vous pouvez maintenant jouir de l'installation d'artisanat comme bon vous semble. En vous servant des matériaux, fabriquez deux <SheetFr(ItemHQ,12,　8099,2,1)/> et remettez-les à Methuli Cattlan, au centre d'essais d'Ehcatl.
-* <Emphasis>Adressez-vous de nouveau à Hildeyerd si vous n'avez plus de matériaux ou si vous avez perdu l'effet Installation<Indent/>: minutie.</Emphasis>"
-4,"TEXT_BANIXA205_01508_SEQ_04","Comme Ademar avant elle, Methuli Cattlan a souligné l'importance de faire usage d'outils de bonne qualité. Après avoir salué la valeur de votre travail, elle a exprimé son espoir de voir les desseins des Planeurs d'Ehcatl bientôt couronnés de succès."
-5,"TEXT_BANIXA205_01508_SEQ_05",""
-6,"TEXT_BANIXA205_01508_SEQ_06",""
-7,"TEXT_BANIXA205_01508_SEQ_07",""
-8,"TEXT_BANIXA205_01508_SEQ_08",""
-9,"TEXT_BANIXA205_01508_SEQ_09",""
-10,"TEXT_BANIXA205_01508_SEQ_10",""
-11,"TEXT_BANIXA205_01508_SEQ_11",""
-12,"TEXT_BANIXA205_01508_SEQ_12",""
-13,"TEXT_BANIXA205_01508_SEQ_13",""
-14,"TEXT_BANIXA205_01508_SEQ_14",""
-15,"TEXT_BANIXA205_01508_SEQ_15",""
-16,"TEXT_BANIXA205_01508_SEQ_16",""
-17,"TEXT_BANIXA205_01508_SEQ_17",""
-18,"TEXT_BANIXA205_01508_SEQ_18",""
-19,"TEXT_BANIXA205_01508_SEQ_19",""
-20,"TEXT_BANIXA205_01508_SEQ_20",""
-21,"TEXT_BANIXA205_01508_SEQ_21",""
-22,"TEXT_BANIXA205_01508_SEQ_22",""
-23,"TEXT_BANIXA205_01508_SEQ_23",""
-24,"TEXT_BANIXA205_01508_TODO_00","Parler à Ademar"
-25,"TEXT_BANIXA205_01508_TODO_01","Remettre <SheetFr(EventItem,2,2001386,1,1)/> à Hildeyerd"
-26,"TEXT_BANIXA205_01508_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(ItemHQ,1,　8099,2,1)/><Else/>Apporter <SheetFr(ItemHQ,2,　8099,2,1)/> à Methuli Cattlan</If>"
-27,"TEXT_BANIXA205_01508_TODO_03",""
-28,"TEXT_BANIXA205_01508_TODO_04",""
-29,"TEXT_BANIXA205_01508_TODO_05",""
-30,"TEXT_BANIXA205_01508_TODO_06",""
-31,"TEXT_BANIXA205_01508_TODO_07",""
-32,"TEXT_BANIXA205_01508_TODO_08",""
-33,"TEXT_BANIXA205_01508_TODO_09",""
-34,"TEXT_BANIXA205_01508_TODO_10",""
-35,"TEXT_BANIXA205_01508_TODO_11",""
-36,"TEXT_BANIXA205_01508_TODO_12",""
-37,"TEXT_BANIXA205_01508_TODO_13",""
-38,"TEXT_BANIXA205_01508_TODO_14",""
-39,"TEXT_BANIXA205_01508_TODO_15",""
-40,"TEXT_BANIXA205_01508_TODO_16",""
-41,"TEXT_BANIXA205_01508_TODO_17",""
-42,"TEXT_BANIXA205_01508_TODO_18",""
-43,"TEXT_BANIXA205_01508_TODO_19",""
-44,"TEXT_BANIXA205_01508_TODO_20",""
-45,"TEXT_BANIXA205_01508_TODO_21",""
-46,"TEXT_BANIXA205_01508_TODO_22",""
-47,"TEXT_BANIXA205_01508_TODO_23",""
-48,"TEXT_BANIXA205_01508_METHULICATTLAN_000_000","Croac<Indent/>! Si <If(PlayerParameter(4))>celle-là<Else/>celui-là</If> a rien de mieux à faire, <If(PlayerParameter(4))>elle<Else/>il</If> va aller préparer deux <SheetFr(Item,12,　8099,2,1)/> de bonne qualité illico presto<Indent/>! Quoi<Indent/>? Non, celle-ci s'est pas levée de la patte gauche, elle a toujours eu mauvais caractère et c'est comme ça<Indent/>!"
-49,"TEXT_BANIXA205_01508_METHULICATTLAN_000_010","Ceux-ci ont besoin de marteaux à tête renforcée pour la con<SoftHyphen/>struc<SoftHyphen/>tion de la partie motrice du Dezul Qualan. Ça devrait pas être difficile à fabriquer en se servant des ins<SoftHyphen/>tal<SoftHyphen/>la<SoftHyphen/>tions d'artisanat de Hildeyerd, au Radeau de la Calebasse."
-50,"TEXT_BANIXA205_01508_METHULICATTLAN_000_020","Ceux-ci ont besoin d'une huile spéciale pour la partie motrice du Dezul Qualan. Ça devrait pas être difficile d'en préparer en se servant des ins<SoftHyphen/>tal<SoftHyphen/>la<SoftHyphen/>tions d'artisanat de Hildeyerd, au Radeau de la Calebasse."
-51,"TEXT_BANIXA205_01508_METHULICATTLAN_000_030","Ceux-ci ont besoin de maillets recouverts de cuir pour la con<SoftHyphen/>struc<SoftHyphen/>tion de la partie motrice du Dezul Qualan. Ça devrait pas être difficile à fabriquer en se servant des ins<SoftHyphen/>tal<SoftHyphen/>la<SoftHyphen/>tions d'artisanat de Hildeyerd, au Radeau de la Calebasse."
-52,"TEXT_BANIXA205_01508_METHULICATTLAN_000_040","Les matériaux<Indent/>? C'est un dénommé Ademar qui les a en stock. <If(PlayerParameter(4))>Celle-là<Else/>Celui-là</If> nous ferait gagner un temps fou en allant le rencontrer à la falaise des Trouveurs, dans la Forêt du nord<Indent/>!"
-53,"TEXT_BANIXA205_01508_METHULICATTLAN_000_050","Que <If(PlayerParameter(4))>celle-là<Else/>celui-là</If> aille recevoir les matériaux de la part d'Ademar, à la falaise des Trouveurs, pour fabriquer deux <SheetFr(Item,12,　8099,2,1)/> de qualité supérieure."
-54,"TEXT_BANIXA205_01508_ADEMAR_000_060","Tiens, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Qu'est-ce qui t'amène par ici<Indent/>? Ah, tu cherches <SheetFr(EventItem,1,2001386,2,1)/>. Oui, j'en ai en stock."
-55,"TEXT_BANIXA205_01508_ADEMAR_000_061","Moi-même, je ne serais rien sans mes outils, donc je garde toujours de quoi les réparer ou en fabriquer de nouveaux. Je peux te faire don de quelques matériaux, si tu le désires."
-56,"TEXT_BANIXA205_01508_ADEMAR_000_080","Je garde toujours des matériaux pour réparer mes outils ou en fabriquer de nouveaux. Je peux t'en donner un peu si tu veux."
-57,"TEXT_BANIXA205_01508_HILDEYERD_000_090","Ooooh<Indent/>!! Regardez-moi qui voilà<Indent/>! C'est toujours un plaisir de te revoir. Si tu es venu<If(PlayerParameter(4))>e<Else/></If> pour nos ins<SoftHyphen/>tal<SoftHyphen/>la<SoftHyphen/>tions d'artisanat, montre-moi d'abord les matériaux que tu comptes utiliser."
-58,"TEXT_BANIXA205_01508_HILDEYERD_000_091","Aucun problème, notre matériel est maintenant à ta disposition. N'hésite pas à faire appel à moi si tu as un contretemps ou si tu perds les matériaux<Indent/>!"
-59,"TEXT_BANIXA205_01508_HILDEYERD_000_100","N'hésite pas à faire appel à moi si tu as un contretemps ou si tu perds les matériaux<Indent/>!"
-60,"TEXT_BANIXA205_01508_HILDEYERD_100_100","Si tu as terminé de travailler, je te conseille d'en finir avec la livraison dans la foulée. Comme je dis toujours<Indent/>: client vite servi, client ravi<Indent/>!"
-61,"TEXT_BANIXA205_01508_METHULICATTLAN_000_130","Tiens, c'est <If(PlayerParameter(4))>celle-là<Else/>celui-là</If> que celle-ci attendait<Indent/>! Celle-ci espère que <If(PlayerParameter(4))>celle-là<Else/>celui-là</If> apporte ce qui était convenu<Indent/>? Sinon, celle-ci va lui ouvrir le crâne à coups de bec<Indent/>!"
-62,"TEXT_BANIXA205_01508_METHULICATTLAN_000_131","Celle-ci va d'abord jeter un coup d'œil à la finition de la marchandise. On badine pas avec des éléments aussi importants<Indent/>! Voyons voir..."
-63,"TEXT_BANIXA205_01508_METHULICATTLAN_000_132","... Bon, on va dire que ça passe pour cette fois. Oncle Sezul a eu le bec creux en s'attachant les services de <If(PlayerParameter(4))>celle-là<Else/>celui-là</If>... Grâce à son aide, les Planeurs d'Ehcatl pourront bientôt enfin faire honneur à leur nom<Indent/>!"
-64,"TEXT_BANIXA205_01508_POPMESSAGE_000_200","Vous pouvez maintenant utiliser les installations d'artisanat."
-65,"TEXT_BANIXA205_01508_SYSTEM_200_200","Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
+Methuli Cattlan vous a “demandé” de fabriquer deux . Pour commencer, vous devez aller à la falaise des Trouveurs dans la Forêt du nord pour obtenir  de la part d'Ademar."
+2,TEXT_BANIXA205_01508_SEQ_02,Ademar vous a remis  dont vous avez besoin pour votre travail. Rendez-vous maintenant au Radeau de la Calebasse et demandez à Hildeyerd l'au­to­ri­sa­tion d'utiliser les ins­tal­la­tions d'artisanat.
+3,TEXT_BANIXA205_01508_SEQ_03,"Vous pouvez maintenant jouir de l'installation d'artisanat comme bon vous semble. En vous servant des matériaux, fabriquez deux  et remettez-les à Methuli Cattlan, au centre d'essais d'Ehcatl.
+* *Adressez-vous de nouveau à Hildeyerd si vous n'avez plus de matériaux ou si vous avez perdu l'effet Installation : minutie.*"
+4,TEXT_BANIXA205_01508_SEQ_04,"Comme Ademar avant elle, Methuli Cattlan a souligné l'importance de faire usage d'outils de bonne qualité. Après avoir salué la valeur de votre travail, elle a exprimé son espoir de voir les desseins des Planeurs d'Ehcatl bientôt couronnés de succès."
+5,TEXT_BANIXA205_01508_SEQ_05,
+6,TEXT_BANIXA205_01508_SEQ_06,
+7,TEXT_BANIXA205_01508_SEQ_07,
+8,TEXT_BANIXA205_01508_SEQ_08,
+9,TEXT_BANIXA205_01508_SEQ_09,
+10,TEXT_BANIXA205_01508_SEQ_10,
+11,TEXT_BANIXA205_01508_SEQ_11,
+12,TEXT_BANIXA205_01508_SEQ_12,
+13,TEXT_BANIXA205_01508_SEQ_13,
+14,TEXT_BANIXA205_01508_SEQ_14,
+15,TEXT_BANIXA205_01508_SEQ_15,
+16,TEXT_BANIXA205_01508_SEQ_16,
+17,TEXT_BANIXA205_01508_SEQ_17,
+18,TEXT_BANIXA205_01508_SEQ_18,
+19,TEXT_BANIXA205_01508_SEQ_19,
+20,TEXT_BANIXA205_01508_SEQ_20,
+21,TEXT_BANIXA205_01508_SEQ_21,
+22,TEXT_BANIXA205_01508_SEQ_22,
+23,TEXT_BANIXA205_01508_SEQ_23,
+24,TEXT_BANIXA205_01508_TODO_00,Parler à Ademar
+25,TEXT_BANIXA205_01508_TODO_01,Remettre  à Hildeyerd
+26,TEXT_BANIXA205_01508_TODO_02,Fabriquer 
+27,TEXT_BANIXA205_01508_TODO_03,
+28,TEXT_BANIXA205_01508_TODO_04,
+29,TEXT_BANIXA205_01508_TODO_05,
+30,TEXT_BANIXA205_01508_TODO_06,
+31,TEXT_BANIXA205_01508_TODO_07,
+32,TEXT_BANIXA205_01508_TODO_08,
+33,TEXT_BANIXA205_01508_TODO_09,
+34,TEXT_BANIXA205_01508_TODO_10,
+35,TEXT_BANIXA205_01508_TODO_11,
+36,TEXT_BANIXA205_01508_TODO_12,
+37,TEXT_BANIXA205_01508_TODO_13,
+38,TEXT_BANIXA205_01508_TODO_14,
+39,TEXT_BANIXA205_01508_TODO_15,
+40,TEXT_BANIXA205_01508_TODO_16,
+41,TEXT_BANIXA205_01508_TODO_17,
+42,TEXT_BANIXA205_01508_TODO_18,
+43,TEXT_BANIXA205_01508_TODO_19,
+44,TEXT_BANIXA205_01508_TODO_20,
+45,TEXT_BANIXA205_01508_TODO_21,
+46,TEXT_BANIXA205_01508_TODO_22,
+47,TEXT_BANIXA205_01508_TODO_23,
+48,TEXT_BANIXA205_01508_METHULICATTLAN_000_000,"Croac ! Si celle-là a rien de mieux à faire, elle va aller préparer deux  de bonne qualité illico presto ! Quoi ? Non, celle-ci s'est pas levée de la patte gauche, elle a toujours eu mauvais caractère et c'est comme ça !"
+49,TEXT_BANIXA205_01508_METHULICATTLAN_000_010,"Ceux-ci ont besoin de marteaux à tête renforcée pour la con­struc­tion de la partie motrice du Dezul Qualan. Ça devrait pas être difficile à fabriquer en se servant des ins­tal­la­tions d'artisanat de Hildeyerd, au Radeau de la Calebasse."
+50,TEXT_BANIXA205_01508_METHULICATTLAN_000_020,"Ceux-ci ont besoin d'une huile spéciale pour la partie motrice du Dezul Qualan. Ça devrait pas être difficile d'en préparer en se servant des ins­tal­la­tions d'artisanat de Hildeyerd, au Radeau de la Calebasse."
+51,TEXT_BANIXA205_01508_METHULICATTLAN_000_030,"Ceux-ci ont besoin de maillets recouverts de cuir pour la con­struc­tion de la partie motrice du Dezul Qualan. Ça devrait pas être difficile à fabriquer en se servant des ins­tal­la­tions d'artisanat de Hildeyerd, au Radeau de la Calebasse."
+52,TEXT_BANIXA205_01508_METHULICATTLAN_000_040,"Les matériaux ? C'est un dénommé Ademar qui les a en stock. Celle-là nous ferait gagner un temps fou en allant le rencontrer à la falaise des Trouveurs, dans la Forêt du nord !"
+53,TEXT_BANIXA205_01508_METHULICATTLAN_000_050,"Que celle-là aille recevoir les matériaux de la part d'Ademar, à la falaise des Trouveurs, pour fabriquer deux  de qualité supérieure."
+54,TEXT_BANIXA205_01508_ADEMAR_000_060,"Tiens, Player ! Qu'est-ce qui t'amène par ici ? Ah, tu cherches . Oui, j'en ai en stock."
+55,TEXT_BANIXA205_01508_ADEMAR_000_061,"Moi-même, je ne serais rien sans mes outils, donc je garde toujours de quoi les réparer ou en fabriquer de nouveaux. Je peux te faire don de quelques matériaux, si tu le désires."
+56,TEXT_BANIXA205_01508_ADEMAR_000_080,Je garde toujours des matériaux pour réparer mes outils ou en fabriquer de nouveaux. Je peux t'en donner un peu si tu veux.
+57,TEXT_BANIXA205_01508_HILDEYERD_000_090,"Ooooh !! Regardez-moi qui voilà ! C'est toujours un plaisir de te revoir. Si tu es venue pour nos ins­tal­la­tions d'artisanat, montre-moi d'abord les matériaux que tu comptes utiliser."
+58,TEXT_BANIXA205_01508_HILDEYERD_000_091,"Aucun problème, notre matériel est maintenant à ta disposition. N'hésite pas à faire appel à moi si tu as un contretemps ou si tu perds les matériaux !"
+59,TEXT_BANIXA205_01508_HILDEYERD_000_100,N'hésite pas à faire appel à moi si tu as un contretemps ou si tu perds les matériaux !
+60,TEXT_BANIXA205_01508_HILDEYERD_100_100,"Si tu as terminé de travailler, je te conseille d'en finir avec la livraison dans la foulée. Comme je dis toujours : client vite servi, client ravi !"
+61,TEXT_BANIXA205_01508_METHULICATTLAN_000_130,"Tiens, c'est celle-là que celle-ci attendait ! Celle-ci espère que celle-là apporte ce qui était convenu ? Sinon, celle-ci va lui ouvrir le crâne à coups de bec !"
+62,TEXT_BANIXA205_01508_METHULICATTLAN_000_131,Celle-ci va d'abord jeter un coup d'œil à la finition de la marchandise. On badine pas avec des éléments aussi importants ! Voyons voir...
+63,TEXT_BANIXA205_01508_METHULICATTLAN_000_132,"... Bon, on va dire que ça passe pour cette fois. Oncle Sezul a eu le bec creux en s'attachant les services de celle-là... Grâce à son aide, les Planeurs d'Ehcatl pourront bientôt enfin faire honneur à leur nom !"
+64,TEXT_BANIXA205_01508_POPMESSAGE_000_200,Vous pouvez maintenant utiliser les installations d'artisanat.
+65,TEXT_BANIXA205_01508_SYSTEM_200_200,"Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
