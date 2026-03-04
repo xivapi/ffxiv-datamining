@@ -1,139 +1,136 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CLSWDK650_02443_SEQ_00","Cemi ist ganz aufgeregt."
-1,"TEXT_CLSWDK650_02443_SEQ_01","Cemi hat eine neue Kundin gefunden und auch schon ein Produkt für sie entworfen. Begleite sie zum Umineko-Teehaus, wo sie die Bestellung abliefern möchte."
-2,"TEXT_CLSWDK650_02443_SEQ_02","Cemi übergibt der Teehausbesitzerin Ume ein Schild, um die Aufmerksamkeit neuer Gäste zu erregen, aber das ist offensichtlich nicht das, was sie sich gewünscht hat. Sie sucht etwas, mit dem sie ihre Gäste zu längeren und häufigeren Besuchen bewegen kann. Befrage die Gäste des Teehauses, was sie vermissen."
-3,"TEXT_CLSWDK650_02443_SEQ_03","Die Gäste sind mit dem angebotenen Tee und den Reisklößen zufrieden, wünschen sich aber ein zusätzliches Angebot zur Entspannung. Beratschlage dich mit Cemi im Gasthaus Shiokaze."
-4,"TEXT_CLSWDK650_02443_SEQ_04","Der Wunsch der Gäste nach einer Möglichkeit zum Pfeiferauchen bringt Cemi auf eine Idee. Fertige <SheetDe(ItemHQ,1,17880,1,4,1)/> an und bring ihn zur Teehausbesitzerin Ume.
+0,TEXT_CLSWDK650_02443_SEQ_00,Cemi ist ganz aufgeregt.
+1,TEXT_CLSWDK650_02443_SEQ_01,"Cemi hat eine neue Kundin gefunden und auch schon ein Produkt für sie entworfen. Begleite sie zum Umineko-Teehaus, wo sie die Bestellung abliefern möchte."
+2,TEXT_CLSWDK650_02443_SEQ_02,"Cemi übergibt der Teehausbesitzerin Ume ein Schild, um die Aufmerksamkeit neuer Gäste zu erregen, aber das ist offensichtlich nicht das, was sie sich gewünscht hat. Sie sucht etwas, mit dem sie ihre Gäste zu längeren und häufigeren Besuchen bewegen kann. Befrage die Gäste des Teehauses, was sie vermissen."
+3,TEXT_CLSWDK650_02443_SEQ_03,"Die Gäste sind mit dem angebotenen Tee und den Reisklößen zufrieden, wünschen sich aber ein zusätzliches Angebot zur Entspannung. Beratschlage dich mit Cemi im Gasthaus Shiokaze."
+4,TEXT_CLSWDK650_02443_SEQ_04,"Der Wunsch der Gäste nach einer Möglichkeit zum Pfeiferauchen bringt Cemi auf eine Idee. Fertige  an und bring ihn zur Teehausbesitzerin Ume.
 
-※ Solltest du <SheetDe(Item,2,17879,1,4,1)/> verlieren, kannst du von Cemi Jinjahl Nachschub erhalten."
-5,"TEXT_CLSWDK650_02443_SEQ_05","Weil das Rauchen in Kugane sehr beliebt ist, glaubt Ume daran, dass der Pfeifenkasten bei ihren Gästen Anklang finden wird. Überraschenderweise taucht Beatin bei euch auf und bewundert deine Arbeit. Cemi schickt er nach Yanxia und gibt ihr noch einen guten Rat mit auf den Weg. Verabschiede dich von Cemi im Gasthaus Shiokaze."
-6,"TEXT_CLSWDK650_02443_SEQ_06","Cemi ist guten Mutes und verspricht, einen Brief für dich an Kotokaze zu schicken, sobald sie in Yanxia angekommen ist.
+※ Solltest du  verlieren, kannst du von Cemi Jinjahl Nachschub erhalten."
+5,TEXT_CLSWDK650_02443_SEQ_05,"Weil das Rauchen in Kugane sehr beliebt ist, glaubt Ume daran, dass der Pfeifenkasten bei ihren Gästen Anklang finden wird. Überraschenderweise taucht Beatin bei euch auf und bewundert deine Arbeit. Cemi schickt er nach Yanxia und gibt ihr noch einen guten Rat mit auf den Weg. Verabschiede dich von Cemi im Gasthaus Shiokaze."
+6,TEXT_CLSWDK650_02443_SEQ_06,"Cemi ist guten Mutes und verspricht, einen Brief für dich an Kotokaze zu schicken, sobald sie in Yanxia angekommen ist.
 
-※ Sobald du als Zimmer<If(PlayerParameter(4))>in<Else/>er</If> Stufe 68 erreicht hast, kannst du von Kotokaze im Gasthaus Shiokaze einen neuen Auftrag erhalten."
-7,"TEXT_CLSWDK650_02443_SEQ_07",""
-8,"TEXT_CLSWDK650_02443_SEQ_08",""
-9,"TEXT_CLSWDK650_02443_SEQ_09",""
-10,"TEXT_CLSWDK650_02443_SEQ_10",""
-11,"TEXT_CLSWDK650_02443_SEQ_11",""
-12,"TEXT_CLSWDK650_02443_SEQ_12",""
-13,"TEXT_CLSWDK650_02443_SEQ_13",""
-14,"TEXT_CLSWDK650_02443_SEQ_14",""
-15,"TEXT_CLSWDK650_02443_SEQ_15",""
-16,"TEXT_CLSWDK650_02443_SEQ_16",""
-17,"TEXT_CLSWDK650_02443_SEQ_17",""
-18,"TEXT_CLSWDK650_02443_SEQ_18",""
-19,"TEXT_CLSWDK650_02443_SEQ_19",""
-20,"TEXT_CLSWDK650_02443_SEQ_20",""
-21,"TEXT_CLSWDK650_02443_SEQ_21",""
-22,"TEXT_CLSWDK650_02443_SEQ_22",""
-23,"TEXT_CLSWDK650_02443_SEQ_23",""
-24,"TEXT_CLSWDK650_02443_TODO_00","Am Umineko-Teehaus mit Cemi sprechen"
-25,"TEXT_CLSWDK650_02443_TODO_01","Die Gäste des Umineko-Teehauses befragen"
-26,"TEXT_CLSWDK650_02443_TODO_02","Im Gasthaus Shiokaze mit Cemi sprechen"
-27,"TEXT_CLSWDK650_02443_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezepte: <Clickable(<SheetDe(ItemHQ,1,17880,1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(ItemHQ,2,17880,1,4,1)/>)/> an Ume übergeben</If>"
-28,"TEXT_CLSWDK650_02443_TODO_04","Im Gasthaus Shiokaze mit Cemi sprechen"
-29,"TEXT_CLSWDK650_02443_TODO_05",""
-30,"TEXT_CLSWDK650_02443_TODO_06",""
-31,"TEXT_CLSWDK650_02443_TODO_07",""
-32,"TEXT_CLSWDK650_02443_TODO_08",""
-33,"TEXT_CLSWDK650_02443_TODO_09",""
-34,"TEXT_CLSWDK650_02443_TODO_10",""
-35,"TEXT_CLSWDK650_02443_TODO_11",""
-36,"TEXT_CLSWDK650_02443_TODO_12",""
-37,"TEXT_CLSWDK650_02443_TODO_13",""
-38,"TEXT_CLSWDK650_02443_TODO_14",""
-39,"TEXT_CLSWDK650_02443_TODO_15",""
-40,"TEXT_CLSWDK650_02443_TODO_16",""
-41,"TEXT_CLSWDK650_02443_TODO_17",""
-42,"TEXT_CLSWDK650_02443_TODO_18",""
-43,"TEXT_CLSWDK650_02443_TODO_19",""
-44,"TEXT_CLSWDK650_02443_TODO_20",""
-45,"TEXT_CLSWDK650_02443_TODO_21",""
-46,"TEXT_CLSWDK650_02443_TODO_22",""
-47,"TEXT_CLSWDK650_02443_TODO_23",""
-48,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_001","Hallo, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-49,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_002","Seit unserer letzten Begegnung habe ich eifrig geübt und mir neue Techniken angeeignet. Du wirst staunen!"
-50,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_003","Bisher habe ich nicht gerade geglänzt, aber das wird sich nun ändern!"
-51,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_004","Um dir meine Tatkraft zu beweisen, habe ich schon eine neue Kundin ausfindig gemacht - und auch schon gleich ein passendes Produkt für sie entworfen! Damit hättest du nicht gerechnet, oder?!"
-52,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_005","Jetzt muss ich nur noch mein Werk abliefern. Kommst du mit zum Umineko-Teehaus? Dann kannst du den Beginn meiner glorreichen Karriere im Fernen Osten hautnah miterleben!"
-53,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_010","W-Wie meinst du das?! Du kannst es nicht gebrauchen? A-Aber ich hab dir doch ganz genau zugehört. Dieses kleine, hübsche Schild wird scharenweise neue Gäste anlocken!"
-54,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_011","（★未使用／削除予定★）"
-55,"TEXT_CLSWDK650_02443_UME_000_011","Soso, genau zugehört, ja?! Wasch dir gefälligst die Ohren und nimm dein komisches Brett wieder mit!"
-56,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_012","（★未使用／削除予定★）"
-57,"TEXT_CLSWDK650_02443_UME_000_012","Ich wollte etwas, das mir hilft, mehr Stammgäste zu gewinnen."
-58,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_013","（★未使用／削除予定★）"
-59,"TEXT_CLSWDK650_02443_UME_000_013","Wie soll mir dieses winzige Schild dabei helfen?! Die Schrift ist ja kaum leserlich! Fällt dir nichts Besseres ein, um meinen Laden attraktiver zu gestalten?!"
-60,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_014","Oje ... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, du musst mir helfen!"
-61,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_015","（★未使用／削除予定★）"
-62,"TEXT_CLSWDK650_02443_UME_000_015","Ah, gehört ihr zusammen? Du siehst etwas zuverlässiger aus. Vielleicht findest du ja eine Lösung für mein Problem."
-63,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_016","（★未使用／削除予定★）"
-64,"TEXT_CLSWDK650_02443_UME_000_016","Gut, hör zu! Meinem Teehaus fehlt einfach das gewisse Etwas. Etwas, das mehr Gäste zum längeren Verweilen und zu häufigeren Besuchen bewegt."
-65,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_017","（★未使用／削除予定★）"
-66,"TEXT_CLSWDK650_02443_UME_000_017","Meine Gäste wissen sicher selbst am besten, was ihnen fehlt, aber wenn ich sie frage, kriege ich von ihnen einfach keine ehrliche Antwort."
-67,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_018","I-Ich bin hier wohl überflüssig ... Wenn du herausgefunden hast, was benötigt wird, kannst du das Material bei mir im Gasthaus Shiokaze abholen."
-68,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_020","（★未使用／削除予定★）"
-69,"TEXT_CLSWDK650_02443_UME_000_020","Hat diese Verrückte mir überhaupt zugehört?!"
-70,"TEXT_CLSWDK650_02443_TOWNSPEOPLE02443_000_021","（★未使用／削除予定★）"
-71,"TEXT_CLSWDK650_02443_QUICKWATER_000_021","（★未使用／削除予定★）"
-72,"TEXT_CLSWDK650_02443_BYAKUDAN_000_021","Am Teehaus ist ja ganz schön was los. Ist etwas passiert?"
-73,"TEXT_CLSWDK650_02443_LADY02443_000_022","（★未使用／削除予定★）"
-74,"TEXT_CLSWDK650_02443_WAKA_000_022","Hm, gibt es Streit?"
-75,"TEXT_CLSWDK650_02443_ADVENTUREYYYY_000_023","Was geht hier vor sich? Soll ich die Sekiseigumi rufen?"
-76,"TEXT_CLSWDK650_02443_TOWNSPEOPLE02443_000_030","（★未使用／削除予定★）"
-77,"TEXT_CLSWDK650_02443_QUICKWATER_000_030","（★未使用／削除予定★）"
-78,"TEXT_CLSWDK650_02443_BYAKUDAN_000_030","Was dem Laden hier fehlt? Na ja, man isst hier halt seine Reisklöße und trinkt seinen Tee. Es gibt keinen Grund, länger zu verweilen."
-79,"TEXT_CLSWDK650_02443_LADY02443_000_031","（★未使用／削除予定★）"
-80,"TEXT_CLSWDK650_02443_WAKA_000_031","Eine Pfeife, das wäre jetzt genau das Richtige. Ich käme viel öfter her, wenn man hier rauchen dürfte."
-81,"TEXT_CLSWDK650_02443_ADVENTUREYYYY_000_032","Die Reisklöße sind köstlich und der Tee ist auch nicht zu verachten, aber das allein reicht nicht, um mich länger zu halten. Ich würde ja gerne nach dem Essen bei einer gemütlichen Pfeife entspannen."
-82,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_035","（★未使用／削除予定★）"
-83,"TEXT_CLSWDK650_02443_UME_000_035","Glaubst du, es ist irgendwie möglich, neue Stammgäste zu gewinnen?"
-84,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_040","Und schon wieder habe ich versagt ... und du musst die Suppe auslöffeln. Tut mir wirklich leid, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-85,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_050","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, es tut mir so leid, dass ich dich schon wieder enttäuscht habe. Alles, was ich anpacke, geht schief. Hoffentlich kann ich es irgendwie wieder<SoftHyphen/>gut<SoftHyphen/>machen."
-86,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_051","Ich dachte, ich hätte aus meinem letzten Fehler gelernt. Dieses Mal habe ich unserer Kundin aufmerksam zugehört ... und sie trotzdem falsch verstanden."
-87,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_052","Aber genug davon! Ich kann noch genug grübeln, nachdem <Emphasis>wir</Emphasis> den Auftrag erledigt haben."
-88,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_053","Hast du schon eine Idee, wie wir der Teeladenbesitzerin helfen können?"
-89,"TEXT_CLSWDK650_02443_Q1_000_000","Was könnt ihr für den Teeladen anfertigen?"
-90,"TEXT_CLSWDK650_02443_A1_000_001","Ein heißes Bad im Freien zur Entspannung."
-91,"TEXT_CLSWDK650_02443_A1_000_002","Pfeil und Bogen zur Bedrohung der Gäste, die gehen wollen."
-92,"TEXT_CLSWDK650_02443_A1_000_003","Einen Pfeifenkasten für die Raucher."
-93,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_054","Was für eine tolle Idee! Wir machen das olle Teehaus platt und legen dort ein hübsches Steinbecken an."
-94,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_055","Dann können die Gäste im heißen Quellwasser baden und dabei ihren Tee genießen. Aber wo wird dann der Tee verkauft und das Essen serviert?"
-95,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_056","Pfeil und Bogen? Wenn die Wirtin ihre Gäste bedroht, wird sich kaum noch jemand in ihren Laden trauen. Und den Samurai der Sekiseigumi wird das auch nicht gefallen."
-96,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_057","Na klar, ein Pfeifenkasten! Tabak ist in Kugane sehr beliebt und wird auch gerne nach dem Essen oder zum Tee konsumiert."
-97,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_058","Ich hab alles vorrätig, was du zur Herstellung brauchst. Hier, bitte sehr!"
-98,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_059","Sobald du <SheetDe(ItemHQ,2,17880,1,4,1)/> hergestellt hast, bring ihn bitte direkt zu unserer Kundin ins Teehaus."
-99,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_065","Sollte dir das Material ausgehen, sag einfach Bescheid! Unsere Gilde hat mich mit ausreichenden Geldmitteln ausgestattet. Bring das fertige Produkt dann bitte direkt zu Ume ins Teehaus."
-100,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_070","（★未使用／削除予定★）"
-101,"TEXT_CLSWDK650_02443_UME_000_070","Hm? Ein Pfeifenkasten?"
-102,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_071","（★未使用／削除予定★）"
-103,"TEXT_CLSWDK650_02443_UME_000_071","Natürlich, viele meiner Landsleute rauchen gerne Pfeife, besonders zum Tee oder nach dem Essen. Bisher mussten sie dafür immer mein Teehaus verlassen."
-104,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_072","（★未使用／削除予定★）"
-105,"TEXT_CLSWDK650_02443_UME_000_072","Ha, das nenne ich gute Handwerksarbeit! Sieh nur, Cemi, an <If(PlayerParameter(4))>deiner Partnerin<Else/>deinem Partner</If> kannst du dir ruhig ein Beispiel nehmen!"
-106,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_073","Uhhh, ich sag wohl besser gar nichts mehr ..."
-107,"TEXT_CLSWDK650_02443_BEATINE_000_074","Verzeihung, dürfte ich mir das einmal ansehen?"
-108,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_075","Ohhh?! M-Meister Beatin?! Was macht Ihr denn hier?"
-109,"TEXT_CLSWDK650_02443_BEATINE_000_076","Ach, der Ruf der Bäume lockte mich in den Fernen Osten, und ich muss schon sagen, die weite Reise hat sich bereits gelohnt. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, deine Arbeit ist höchst beeindruckend."
-110,"TEXT_CLSWDK650_02443_BEATINE_000_077","Das Holz ist exakt verarbeitet und der samtig schimmernde Lack schmeichelt dem Auge. Du hast dich mal wieder selbst übertroffen!"
-111,"TEXT_CLSWDK650_02443_TEAHOUSE02443_000_078","（★未使用／削除予定★）"
-112,"TEXT_CLSWDK650_02443_UME_000_078","Oh, Ihr seid wohl ein lei<SoftHyphen/>den<SoftHyphen/>schaft<SoftHyphen/>licher Raucher."
-113,"TEXT_CLSWDK650_02443_BEATINE_000_079","Nein ... Rauchen ist ungesund. Ich kenne mich nur gut mit Holzarbeiten aus."
-114,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_080","（★未使用／削除予定★）"
-115,"TEXT_CLSWDK650_02443_TEAHOUSE02443_100_080","（★未使用／削除予定★）"
-116,"TEXT_CLSWDK650_02443_UME_000_080","Nun ja, solange es meinen Gästen Freude bereitet, gönne ich es ihnen. Auf jeden Fall vielen Dank für den Pfeifenkasten!"
-117,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_081","（★未使用／削除予定★）"
-118,"TEXT_CLSWDK650_02443_BEATINE_100_081","Cemi, wie kommt es, dass du nicht selbst die Auftragsarbeit für deine Kundin erledigt hast?"
-119,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_082","Verzeiht, Meister. Ich habe es probiert, wirklich, aber die Kundin war mit meinem Werk nicht zufrieden, deshalb musste <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> in die Bresche springen."
-120,"TEXT_CLSWDK650_02443_BEATINE_000_083","Keine Sorge, es ist eben noch kein Meister vom Himmel gefallen. Lass dich nur nicht entmutigen, sondern denke darüber nach, wie du es beim nächsten Mal besser machen kannst!"
-121,"TEXT_CLSWDK650_02443_BEATINE_000_084","Du hast dich lange genug in Kugane aufgehalten. Es wird Zeit, ein neues Gebiet zu erkunden."
-122,"TEXT_CLSWDK650_02443_BEATINE_000_085","Du wirst die Rubinsee überqueren, nach Yanxia!"
-123,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_086","Ja, Meister! Mir ist kein Weg zu weit, um die Kultur von Doma zu studieren!"
-124,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_087","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, sobald ich in Yanxia angekommen bin, schick ich einen Brief für dich an die Wirtin Kotokaze, damit du dir keine Sorgen um mich machen musst."
-125,"TEXT_CLSWDK650_02443_BEATINE_000_088","Cemi, eine Zimmerin muss sich gut mit Holz auskennen und ihr Werkzeug beherrschen. Unser Handwerk erfordert aber auch Liebe und Leidenschaft. Du hast viel gelernt und bist eine begabte Handwerkerin. Vertrau auf deine Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten!"
-126,"TEXT_CLSWDK650_02443_BEATINE_000_089","Was dir vielleicht noch fehlt, ist die aufrichtige Liebe, nicht nur zum Holz, sondern auch zu denen, die deine Produkte benutzen. Denk darüber nach!"
-127,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_090","Ist <SheetDe(ItemHQ,2,17880,1,1,1)/> fertig? Dann bring ihn bitte gleich zu Ume ins Teehaus. Ich bin schon auf ihre Reaktion gespannt."
-128,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_100","Sobald ich in Yanxia angekommen bin, schicke ich einen Brief an dich. Kotokaze wird ihn hier für dich aufbewahren, bis du ihn abholst."
-129,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_101","Ich bin fest entschlossen, Meister Beatin nicht noch einmal zu enttäuschen!"
-130,"TEXT_CLSWDK650_02443_CEMIJINJAHL_000_102","Also dann, bis bald!"
-131,"TEXT_CLSWDK650_02443_SYSTEM_000_102","Durch die Erforschung des fernöstlichen Zimmererhandwerks hast du die neue Fähigkeit „Manipulation“ erlernt."
+※ Sobald du als Zimmerin Stufe 68 erreicht hast, kannst du von Kotokaze im Gasthaus Shiokaze einen neuen Auftrag erhalten."
+7,TEXT_CLSWDK650_02443_SEQ_07,
+8,TEXT_CLSWDK650_02443_SEQ_08,
+9,TEXT_CLSWDK650_02443_SEQ_09,
+10,TEXT_CLSWDK650_02443_SEQ_10,
+11,TEXT_CLSWDK650_02443_SEQ_11,
+12,TEXT_CLSWDK650_02443_SEQ_12,
+13,TEXT_CLSWDK650_02443_SEQ_13,
+14,TEXT_CLSWDK650_02443_SEQ_14,
+15,TEXT_CLSWDK650_02443_SEQ_15,
+16,TEXT_CLSWDK650_02443_SEQ_16,
+17,TEXT_CLSWDK650_02443_SEQ_17,
+18,TEXT_CLSWDK650_02443_SEQ_18,
+19,TEXT_CLSWDK650_02443_SEQ_19,
+20,TEXT_CLSWDK650_02443_SEQ_20,
+21,TEXT_CLSWDK650_02443_SEQ_21,
+22,TEXT_CLSWDK650_02443_SEQ_22,
+23,TEXT_CLSWDK650_02443_SEQ_23,
+24,TEXT_CLSWDK650_02443_TODO_00,Am Umineko-Teehaus mit Cemi sprechen
+25,TEXT_CLSWDK650_02443_TODO_01,Die Gäste des Umineko-Teehauses befragen
+26,TEXT_CLSWDK650_02443_TODO_02,Im Gasthaus Shiokaze mit Cemi sprechen
+27,TEXT_CLSWDK650_02443_TODO_03,Spezialrezepte:  herstellen
+28,TEXT_CLSWDK650_02443_TODO_04,Im Gasthaus Shiokaze mit Cemi sprechen
+29,TEXT_CLSWDK650_02443_TODO_05,
+30,TEXT_CLSWDK650_02443_TODO_06,
+31,TEXT_CLSWDK650_02443_TODO_07,
+32,TEXT_CLSWDK650_02443_TODO_08,
+33,TEXT_CLSWDK650_02443_TODO_09,
+34,TEXT_CLSWDK650_02443_TODO_10,
+35,TEXT_CLSWDK650_02443_TODO_11,
+36,TEXT_CLSWDK650_02443_TODO_12,
+37,TEXT_CLSWDK650_02443_TODO_13,
+38,TEXT_CLSWDK650_02443_TODO_14,
+39,TEXT_CLSWDK650_02443_TODO_15,
+40,TEXT_CLSWDK650_02443_TODO_16,
+41,TEXT_CLSWDK650_02443_TODO_17,
+42,TEXT_CLSWDK650_02443_TODO_18,
+43,TEXT_CLSWDK650_02443_TODO_19,
+44,TEXT_CLSWDK650_02443_TODO_20,
+45,TEXT_CLSWDK650_02443_TODO_21,
+46,TEXT_CLSWDK650_02443_TODO_22,
+47,TEXT_CLSWDK650_02443_TODO_23,
+48,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_001,"Hallo, Player!"
+49,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_002,Seit unserer letzten Begegnung habe ich eifrig geübt und mir neue Techniken angeeignet. Du wirst staunen!
+50,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_003,"Bisher habe ich nicht gerade geglänzt, aber das wird sich nun ändern!"
+51,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_004,"Um dir meine Tatkraft zu beweisen, habe ich schon eine neue Kundin ausfindig gemacht - und auch schon gleich ein passendes Produkt für sie entworfen! Damit hättest du nicht gerechnet, oder?!"
+52,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_005,Jetzt muss ich nur noch mein Werk abliefern. Kommst du mit zum Umineko-Teehaus? Dann kannst du den Beginn meiner glorreichen Karriere im Fernen Osten hautnah miterleben!
+53,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_010,"W-Wie meinst du das?! Du kannst es nicht gebrauchen? A-Aber ich hab dir doch ganz genau zugehört. Dieses kleine, hübsche Schild wird scharenweise neue Gäste anlocken!"
+54,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_011,（★未使用／削除予定★）
+55,TEXT_CLSWDK650_02443_UME_000_011,"Soso, genau zugehört, ja?! Wasch dir gefälligst die Ohren und nimm dein komisches Brett wieder mit!"
+56,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_012,（★未使用／削除予定★）
+57,TEXT_CLSWDK650_02443_UME_000_012,"Ich wollte etwas, das mir hilft, mehr Stammgäste zu gewinnen."
+58,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_013,（★未使用／削除予定★）
+59,TEXT_CLSWDK650_02443_UME_000_013,"Wie soll mir dieses winzige Schild dabei helfen?! Die Schrift ist ja kaum leserlich! Fällt dir nichts Besseres ein, um meinen Laden attraktiver zu gestalten?!"
+60,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_014,"Oje ... Player, du musst mir helfen!"
+61,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_015,（★未使用／削除予定★）
+62,TEXT_CLSWDK650_02443_UME_000_015,"Ah, gehört ihr zusammen? Du siehst etwas zuverlässiger aus. Vielleicht findest du ja eine Lösung für mein Problem."
+63,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_016,（★未使用／削除予定★）
+64,TEXT_CLSWDK650_02443_UME_000_016,"Gut, hör zu! Meinem Teehaus fehlt einfach das gewisse Etwas. Etwas, das mehr Gäste zum längeren Verweilen und zu häufigeren Besuchen bewegt."
+65,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_017,（★未使用／削除予定★）
+66,TEXT_CLSWDK650_02443_UME_000_017,"Meine Gäste wissen sicher selbst am besten, was ihnen fehlt, aber wenn ich sie frage, kriege ich von ihnen einfach keine ehrliche Antwort."
+67,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_018,"I-Ich bin hier wohl überflüssig ... Wenn du herausgefunden hast, was benötigt wird, kannst du das Material bei mir im Gasthaus Shiokaze abholen."
+68,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_020,（★未使用／削除予定★）
+69,TEXT_CLSWDK650_02443_UME_000_020,Hat diese Verrückte mir überhaupt zugehört?!
+70,TEXT_CLSWDK650_02443_TOWNSPEOPLE02443_000_021,（★未使用／削除予定★）
+71,TEXT_CLSWDK650_02443_QUICKWATER_000_021,（★未使用／削除予定★）
+72,TEXT_CLSWDK650_02443_BYAKUDAN_000_021,Am Teehaus ist ja ganz schön was los. Ist etwas passiert?
+73,TEXT_CLSWDK650_02443_LADY02443_000_022,（★未使用／削除予定★）
+74,TEXT_CLSWDK650_02443_WAKA_000_022,"Hm, gibt es Streit?"
+75,TEXT_CLSWDK650_02443_ADVENTUREYYYY_000_023,Was geht hier vor sich? Soll ich die Sekiseigumi rufen?
+76,TEXT_CLSWDK650_02443_TOWNSPEOPLE02443_000_030,（★未使用／削除予定★）
+77,TEXT_CLSWDK650_02443_QUICKWATER_000_030,（★未使用／削除予定★）
+78,TEXT_CLSWDK650_02443_BYAKUDAN_000_030,"Was dem Laden hier fehlt? Na ja, man isst hier halt seine Reisklöße und trinkt seinen Tee. Es gibt keinen Grund, länger zu verweilen."
+79,TEXT_CLSWDK650_02443_LADY02443_000_031,（★未使用／削除予定★）
+80,TEXT_CLSWDK650_02443_WAKA_000_031,"Eine Pfeife, das wäre jetzt genau das Richtige. Ich käme viel öfter her, wenn man hier rauchen dürfte."
+81,TEXT_CLSWDK650_02443_ADVENTUREYYYY_000_032,"Die Reisklöße sind köstlich und der Tee ist auch nicht zu verachten, aber das allein reicht nicht, um mich länger zu halten. Ich würde ja gerne nach dem Essen bei einer gemütlichen Pfeife entspannen."
+82,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_035,（★未使用／削除予定★）
+83,TEXT_CLSWDK650_02443_UME_000_035,"Glaubst du, es ist irgendwie möglich, neue Stammgäste zu gewinnen?"
+84,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_040,"Und schon wieder habe ich versagt ... und du musst die Suppe auslöffeln. Tut mir wirklich leid, Player."
+85,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_050,"Player, es tut mir so leid, dass ich dich schon wieder enttäuscht habe. Alles, was ich anpacke, geht schief. Hoffentlich kann ich es irgendwie wieder­gut­machen."
+86,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_051,"Ich dachte, ich hätte aus meinem letzten Fehler gelernt. Dieses Mal habe ich unserer Kundin aufmerksam zugehört ... und sie trotzdem falsch verstanden."
+87,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_052,"Aber genug davon! Ich kann noch genug grübeln, nachdem *wir* den Auftrag erledigt haben."
+88,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_053,"Hast du schon eine Idee, wie wir der Teeladenbesitzerin helfen können?"
+89,TEXT_CLSWDK650_02443_Q1_000_000,Was könnt ihr für den Teeladen anfertigen?
+90,TEXT_CLSWDK650_02443_A1_000_001,Ein heißes Bad im Freien zur Entspannung.
+91,TEXT_CLSWDK650_02443_A1_000_002,"Pfeil und Bogen zur Bedrohung der Gäste, die gehen wollen."
+92,TEXT_CLSWDK650_02443_A1_000_003,Einen Pfeifenkasten für die Raucher.
+93,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_054,Was für eine tolle Idee! Wir machen das olle Teehaus platt und legen dort ein hübsches Steinbecken an.
+94,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_055,Dann können die Gäste im heißen Quellwasser baden und dabei ihren Tee genießen. Aber wo wird dann der Tee verkauft und das Essen serviert?
+95,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_056,"Pfeil und Bogen? Wenn die Wirtin ihre Gäste bedroht, wird sich kaum noch jemand in ihren Laden trauen. Und den Samurai der Sekiseigumi wird das auch nicht gefallen."
+96,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_057,"Na klar, ein Pfeifenkasten! Tabak ist in Kugane sehr beliebt und wird auch gerne nach dem Essen oder zum Tee konsumiert."
+97,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_058,"Ich hab alles vorrätig, was du zur Herstellung brauchst. Hier, bitte sehr!"
+98,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_059,"Sobald du  hergestellt hast, bring ihn bitte direkt zu unserer Kundin ins Teehaus."
+99,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_065,"Sollte dir das Material ausgehen, sag einfach Bescheid! Unsere Gilde hat mich mit ausreichenden Geldmitteln ausgestattet. Bring das fertige Produkt dann bitte direkt zu Ume ins Teehaus."
+100,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_070,（★未使用／削除予定★）
+101,TEXT_CLSWDK650_02443_UME_000_070,Hm? Ein Pfeifenkasten?
+102,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_071,（★未使用／削除予定★）
+103,TEXT_CLSWDK650_02443_UME_000_071,"Natürlich, viele meiner Landsleute rauchen gerne Pfeife, besonders zum Tee oder nach dem Essen. Bisher mussten sie dafür immer mein Teehaus verlassen."
+104,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_072,（★未使用／削除予定★）
+105,TEXT_CLSWDK650_02443_UME_000_072,"Ha, das nenne ich gute Handwerksarbeit! Sieh nur, Cemi, an deiner Partnerin kannst du dir ruhig ein Beispiel nehmen!"
+106,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_073,"Uhhh, ich sag wohl besser gar nichts mehr ..."
+107,TEXT_CLSWDK650_02443_BEATINE_000_074,"Verzeihung, dürfte ich mir das einmal ansehen?"
+108,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_075,Ohhh?! M-Meister Beatin?! Was macht Ihr denn hier?
+109,TEXT_CLSWDK650_02443_BEATINE_000_076,"Ach, der Ruf der Bäume lockte mich in den Fernen Osten, und ich muss schon sagen, die weite Reise hat sich bereits gelohnt. Player, deine Arbeit ist höchst beeindruckend."
+110,TEXT_CLSWDK650_02443_BEATINE_000_077,Das Holz ist exakt verarbeitet und der samtig schimmernde Lack schmeichelt dem Auge. Du hast dich mal wieder selbst übertroffen!
+111,TEXT_CLSWDK650_02443_TEAHOUSE02443_000_078,（★未使用／削除予定★）
+112,TEXT_CLSWDK650_02443_UME_000_078,"Oh, Ihr seid wohl ein lei­den­schaft­licher Raucher."
+113,TEXT_CLSWDK650_02443_BEATINE_000_079,Nein ... Rauchen ist ungesund. Ich kenne mich nur gut mit Holzarbeiten aus.
+114,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_080,（★未使用／削除予定★）
+115,TEXT_CLSWDK650_02443_TEAHOUSE02443_100_080,（★未使用／削除予定★）
+116,TEXT_CLSWDK650_02443_UME_000_080,"Nun ja, solange es meinen Gästen Freude bereitet, gönne ich es ihnen. Auf jeden Fall vielen Dank für den Pfeifenkasten!"
+117,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_081,（★未使用／削除予定★）
+118,TEXT_CLSWDK650_02443_BEATINE_100_081,"Cemi, wie kommt es, dass du nicht selbst die Auftragsarbeit für deine Kundin erledigt hast?"
+119,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_082,"Verzeiht, Meister. Ich habe es probiert, wirklich, aber die Kundin war mit meinem Werk nicht zufrieden, deshalb musste Player in die Bresche springen."
+120,TEXT_CLSWDK650_02443_BEATINE_000_083,"Keine Sorge, es ist eben noch kein Meister vom Himmel gefallen. Lass dich nur nicht entmutigen, sondern denke darüber nach, wie du es beim nächsten Mal besser machen kannst!"
+121,TEXT_CLSWDK650_02443_BEATINE_000_084,"Du hast dich lange genug in Kugane aufgehalten. Es wird Zeit, ein neues Gebiet zu erkunden."
+122,TEXT_CLSWDK650_02443_BEATINE_000_085,"Du wirst die Rubinsee überqueren, nach Yanxia!"
+123,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_086,"Ja, Meister! Mir ist kein Weg zu weit, um die Kultur von Doma zu studieren!"
+124,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_087,"Player, sobald ich in Yanxia angekommen bin, schick ich einen Brief für dich an die Wirtin Kotokaze, damit du dir keine Sorgen um mich machen musst."
+125,TEXT_CLSWDK650_02443_BEATINE_000_088,"Cemi, eine Zimmerin muss sich gut mit Holz auskennen und ihr Werkzeug beherrschen. Unser Handwerk erfordert aber auch Liebe und Leidenschaft. Du hast viel gelernt und bist eine begabte Handwerkerin. Vertrau auf deine Fä­hig­kei­ten!"
+126,TEXT_CLSWDK650_02443_BEATINE_000_089,"Was dir vielleicht noch fehlt, ist die aufrichtige Liebe, nicht nur zum Holz, sondern auch zu denen, die deine Produkte benutzen. Denk darüber nach!"
+127,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_090,Ist  fertig? Dann bring ihn bitte gleich zu Ume ins Teehaus. Ich bin schon auf ihre Reaktion gespannt.
+128,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_100,"Sobald ich in Yanxia angekommen bin, schicke ich einen Brief an dich. Kotokaze wird ihn hier für dich aufbewahren, bis du ihn abholst."
+129,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_101,"Ich bin fest entschlossen, Meister Beatin nicht noch einmal zu enttäuschen!"
+130,TEXT_CLSWDK650_02443_CEMIJINJAHL_000_102,"Also dann, bis bald!"
+131,TEXT_CLSWDK650_02443_SYSTEM_000_102,Durch die Erforschung des fernöstlichen Zimmererhandwerks hast du die neue Fähigkeit „Manipulation“ erlernt.

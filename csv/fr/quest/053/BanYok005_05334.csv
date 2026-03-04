@@ -1,169 +1,166 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANYOK005_05334_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANYOK005_05334_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 Fahrafahr semble fébrile."
-1,"TEXT_BANYOK005_05334_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis> 
+1,TEXT_BANYOK005_05334_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.* 
 
-Fahrafahr vous a informé<If(PlayerParameter(4))>e<Else/></If> que la production de kirkahryar a attiré les esprits des neiges. Procurez-vous cet alcool auprès du distillateur yok huy pour aider votre amie à organiser la cérémonie des flocons dès que possible."
-2,"TEXT_BANYOK005_05334_SEQ_02","Vous avez réceptionné le kirkahryar distillé par les Yok Huy. Placez désormais cette offrande sur l'autel."
-3,"TEXT_BANYOK005_05334_SEQ_03","La cérémonie des flocons a permis d'apaiser les esprits des neiges. Cependant, ceux-ci ont refusé de renouer des liens d'amitié avec les Yok Huy. Faites le point sur la situation avec Fahrafahr."
-4,"TEXT_BANYOK005_05334_SEQ_04","Fahrafahr vous a demandé de la laisser réfléchir quelques instants. Retrouvez-la devant la tombe anthume de Dartorgor pour discuter d'un moyen de rétablir l'amitié entre les esprits et les Yok Huy."
-5,"TEXT_BANYOK005_05334_SEQ_05","Grâce à vos suggestions, Fahrafahr a décidé de rencontrer de nouveau les esprits des neiges. Explorez les environs de Worqor Zormor pour inviter les rorrlo teh à retourner à l'Autel de Zirgorteh."
-6,"TEXT_BANYOK005_05334_SEQ_06","Les esprits des neiges ont réagi positivement à votre invitation. Retournez en informer Fahrafahr au relais des Cimes."
-7,"TEXT_BANYOK005_05334_SEQ_07","Une fois de plus, Fahrafahr a requis votre aide en tant qu'artisan<If(PlayerParameter(4))>e<Else/></If> pour fabriquer des éléments capables de transmettre leur énergie magique aux pierres taillées. Fabriquez le nécessaire et remettez le fruit de votre labeur à Fahrafahr, au relais des Cimes."
-8,"TEXT_BANYOK005_05334_SEQ_08","Grâce à la con<SoftHyphen/>struc<SoftHyphen/>tion d'une somptueuse tombe anthume, fruit de vos efforts conjugués, Fahrafahr est parvenue à expliquer aux esprits la philosophie des Yok Huy. Ryoqor Terteh s'est rendu compte que Dartorgor vivait toujours dans ses souvenirs, et que Fahrafahr avait honoré la promesse de son amie. Votre séjour auprès des bienfaiteurs de Zirgorteh touche bientôt à sa fin."
-9,"TEXT_BANYOK005_05334_SEQ_09",""
-10,"TEXT_BANYOK005_05334_SEQ_10",""
-11,"TEXT_BANYOK005_05334_SEQ_11",""
-12,"TEXT_BANYOK005_05334_SEQ_12",""
-13,"TEXT_BANYOK005_05334_SEQ_13",""
-14,"TEXT_BANYOK005_05334_SEQ_14",""
-15,"TEXT_BANYOK005_05334_SEQ_15",""
-16,"TEXT_BANYOK005_05334_SEQ_16",""
-17,"TEXT_BANYOK005_05334_SEQ_17",""
-18,"TEXT_BANYOK005_05334_SEQ_18",""
-19,"TEXT_BANYOK005_05334_SEQ_19",""
-20,"TEXT_BANYOK005_05334_SEQ_20",""
-21,"TEXT_BANYOK005_05334_SEQ_21",""
-22,"TEXT_BANYOK005_05334_SEQ_22",""
-23,"TEXT_BANYOK005_05334_SEQ_23",""
-24,"TEXT_BANYOK005_05334_TODO_00","Parler au distillateur yok huy, à l'Autel de Zirgorteh"
-25,"TEXT_BANYOK005_05334_TODO_01","Déposer <SheetFr(EventItem,2,2003787,1,1)/> à l'endroit indiqué"
-26,"TEXT_BANYOK005_05334_TODO_02","Parler à Fahrafahr"
-27,"TEXT_BANYOK005_05334_TODO_03","Reparler à Fahrafahr"
-28,"TEXT_BANYOK005_05334_TODO_04","Trouver des rorrlo teh, près de Worqor Zormor"
-29,"TEXT_BANYOK005_05334_TODO_05","Parler à Fahrafahr"
-30,"TEXT_BANYOK005_05334_TODO_06","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> <If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Fahrafahr</If><Else/> </If></If></If></If></If></If></If></If>"
-31,"TEXT_BANYOK005_05334_TODO_07",""
-32,"TEXT_BANYOK005_05334_TODO_08",""
-33,"TEXT_BANYOK005_05334_TODO_09",""
-34,"TEXT_BANYOK005_05334_TODO_10",""
-35,"TEXT_BANYOK005_05334_TODO_11",""
-36,"TEXT_BANYOK005_05334_TODO_12",""
-37,"TEXT_BANYOK005_05334_TODO_13",""
-38,"TEXT_BANYOK005_05334_TODO_14",""
-39,"TEXT_BANYOK005_05334_TODO_15",""
-40,"TEXT_BANYOK005_05334_TODO_16",""
-41,"TEXT_BANYOK005_05334_TODO_17",""
-42,"TEXT_BANYOK005_05334_TODO_18",""
-43,"TEXT_BANYOK005_05334_TODO_19",""
-44,"TEXT_BANYOK005_05334_TODO_20",""
-45,"TEXT_BANYOK005_05334_TODO_21",""
-46,"TEXT_BANYOK005_05334_TODO_22",""
-47,"TEXT_BANYOK005_05334_TODO_23",""
-48,"TEXT_BANYOK005_05334_FAHRAFAHR_000_001","Tu tombes à PIC, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-49,"TEXT_BANYOK005_05334_FAHRAFAHR_000_002","On avait à peine commencé à PRODUIRE du kirkahryar que plusieurs Yok Huy ont déclaré avoir aperçu des esprits des neiges rôder autour de la distillerie<Indent/>!"
-50,"TEXT_BANYOK005_05334_FAHRAFAHR_000_003","C'est sûrement l'ODEUR qui les a attirés. C'est bon signe, car ça signifie qu'ils accepteront sûrement les OFFRANDES lors de la cérémonie des flocons."
-51,"TEXT_BANYOK005_05334_FAHRAFAHR_100_003","Je vais commencer les préparatifs dès MAINTENANT. Tu veux bien me donner un coup de main<Indent/>?"
-52,"TEXT_BANYOK005_05334_FAHRAFAHR_000_004","J'aurai besoin que tu te rendes à la DISTILLERIE pour récupérer le kirkahryar et que tu ailles le déposer sur l'autel. Dès que les esprits des neiges s'en ap<SoftHyphen/>pro<SoftHyphen/>che<SoftHyphen/>ront, on pourra COMMENCER le rite<Indent/>!"
-53,"TEXT_BANYOK005_05334_FAHRAFAHR_000_005","Pendant que je m'occupe des autres préparatifs, j'aurai besoin que tu te rendes à la DISTILLERIE pour récupérer le kirkahryar et que tu ailles le déposer sur l'autel. Dès que les esprits des neiges s'en ap<SoftHyphen/>pro<SoftHyphen/>che<SoftHyphen/>ront, on pourra COMMENCER la cérémonie des flocons<Indent/>!"
-54,"TEXT_BANYOK005_05334_YOKHUYBREWERY05334_000_006","Le kirkahryar est prêt<Indent/>! Il paraît que ça ATTIRE les esprits de neiges."
-55,"TEXT_BANYOK005_05334_YOKHUYBREWERY05334_000_007","J'aimerais bien aller voir à quoi ressemble cette fameuse cérémonie des flocons, mais on m'a dit que, si on est trop nombreux, ça risque d'AGACER les esprits. On s'en remet donc à vous et à Fahrafahr<Indent/>!"
-56,"TEXT_BANYOK005_05334_YOKHUYBREWERY05334_000_008","On compte sur vous pour APAISER les esprits des neiges<Indent/>!"
-57,"TEXT_BANYOK005_05334_FAHRAFAHR_000_099","Merci d'avoir apporté le kirkahryar, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. De mon côté, j'ai terminé de PRÉPARER la cérémonie. Il ne nous reste plus qu'à attendre la venue des esprits. Cachons-nous pour ne pas les EFFAROUCHER."
-58,"TEXT_BANYOK005_05334_FAHRAFAHR_000_100","（★未使用／削除予定★）"
-59,"TEXT_BANYOK005_05334_FAHRAFAHR_000_101","（★未使用／削除予定★）"
-60,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_102","Ooh... Toute l'énergie en trop... Évaporée..."
-61,"TEXT_BANYOK005_05334_FAHRAFAHR_000_103","Ils parlent de nouveau<Indent/>! Je crois que la cérémonie est un SUCCÈS<Indent/>!"
-62,"TEXT_BANYOK005_05334_FAHRAFAHR_100_103","Chers esprits des neiges<Indent/>! Grâce à Dartorgor, on s'est souvenu que le kirkahryar est la CLEF pour vous apporter la sérénité. Tout ce qu'on souhaite, c'est rétablir le DIALOGUE avec vous."
-63,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_104","Dartorgor n'est pas là... C'est nul... On la déteste maintenant<Indent/>!"
-64,"TEXT_BANYOK005_05334_FAHRAFAHR_000_105","Pourquoi la DÉTESTER<Indent/>? Dartorgor a toujours été votre amie, non<Indent/>?"
-65,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_106","Dartorgor a disparu<Indent/>! Elle est partie alors qu'elle avait promis qu'on irait encore voir les campanules de glace tous ensemble<Indent/>!"
-66,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_107","Nous, on l'a attendue très longtemps<Indent/>! Elle a oublié sa promesse et elle est partie quelque part, très loin<Indent/>!"
-67,"TEXT_BANYOK005_05334_FAHRAFAHR_000_108","Il y a une RAISON à cela. Je suis au regret de vous informer que Dartorgor a... QUITTÉ son corps."
-68,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_109","Quitté<Indent/>? Son corps<Indent/>? Qu'est-ce que ça veut dire<Indent/>!?"
-69,"TEXT_BANYOK005_05334_Q1_000_000","（★未使用／削除予定★）"
-70,"TEXT_BANYOK005_05334_A1_000_001","（★未使用／削除予定★）"
-71,"TEXT_BANYOK005_05334_A1_000_002","（★未使用／削除予定★）"
-72,"TEXT_BANYOK005_05334_FAHRAFAHR_000_111","Je comprends votre TROUBLE. Comme vous réapparaissez chaque jour de neige, les notions de vie et de mort vous sont INCONNUES."
-73,"TEXT_BANYOK005_05334_FAHRAFAHR_000_112","Donc pour vous, le DÉPART soudain de notre amie signifie qu'elle a manqué à sa parole et vous a abandonnés."
-74,"TEXT_BANYOK005_05334_FAHRAFAHR_000_113","Mais Dartorgor n'est pas la première... Je suppose que, depuis très longtemps, vous avez enduré la DISPARITION de vos amis yok huy les uns après les autres."
-75,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_114","Toi aussi, tu vas sûrement partir sans rien dire<Indent/>! C'est nul... On veut pas jouer avec toi."
-76,"TEXT_BANYOK005_05334_RYOQORTERTEH_100_114","On déteste les Yok Huy maintenant."
-77,"TEXT_BANYOK005_05334_FAHRAFAHR_000_115","ATTENDEZ<Indent/>!!"
-78,"TEXT_BANYOK005_05334_FAHRAFAHR_000_300","On a apaisé les esprits, ce qui nous a permis de DIALOGUER avec eux... En soi, c'est une avancée considérable."
-79,"TEXT_BANYOK005_05334_FAHRAFAHR_000_301","Mais ils ont coupé court à la con<SoftHyphen/>ver<SoftHyphen/>sa<SoftHyphen/>tion. Leur TRISTESSE doit être à la hauteur de l'amitié qu'ils vouaient à Dartorgor."
-80,"TEXT_BANYOK005_05334_FAHRAFAHR_000_302","Si on n'intervient pas RAPIDEMENT, j'ai peur que le fossé se creuse davantage entre nos deux peuples et que les esprits en viennent à rejeter la cérémonie des flocons. Le cas échéant, je n'imagine pas le CHAOS qu'ils pourraient semer."
-81,"TEXT_BANYOK005_05334_FAHRAFAHR_000_303","On doit trouver une SOLUTION coûte que coûte... J'ai besoin de marcher un peu pour me rafraîchir les IDÉES. Je te propose qu'on se retrouve plus tard devant la tombe anthume de Dartorgor."
-82,"TEXT_BANYOK005_05334_FAHRAFAHR_000_400","Je pense que ce serait trop compliqué d'expliquer aux esprits que, contrairement à eux, nos CORPS ne réap<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent pas."
-83,"TEXT_BANYOK005_05334_FAHRAFAHR_000_401","De plus, même si je parvenais à me lier d'AMITIÉ avec eux comme Dartorgor l'a fait, cela ne ferait que reproduire la même TRAGÉDIE lorsque, moi aussi, je quitterai inévitablement mon corps."
-84,"TEXT_BANYOK005_05334_FAHRAFAHR_000_402","J'ai beau me creuser la tête et interroger Dartorgor qui vit toujours en moi, je n'arrive pas à trouver un moyen de RAISONNER les esprits..."
-85,"TEXT_BANYOK005_05334_FAHRAFAHR_000_403","Qu'en penses-tu, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>? Toute PISTE est bonne à explorer."
-86,"TEXT_BANYOK005_05334_Q2_000_000","Que répondez-vous<Indent/>?"
-87,"TEXT_BANYOK005_05334_A2_000_001","Souviens-toi de la philosophie des Yok Huy<Indent/>!"
-88,"TEXT_BANYOK005_05334_A2_000_002","N'avez-vous pas un moyen d'immortaliser les souvenirs<Indent/>?"
-89,"TEXT_BANYOK005_05334_FAHRAFAHR_000_405","Les en<SoftHyphen/>sei<SoftHyphen/>gne<SoftHyphen/>ments de mon peuple... Tant que le SOUVENIR de nos proches ne tombe pas dans l'oubli, ils ne dis<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent jamais entièrement. C'est grâce à cela que Dartorgor VIT toujours en moi."
-90,"TEXT_BANYOK005_05334_FAHRAFAHR_000_406","Tu penses à nos tombes anthumes...<Indent/>? Tant que le SOUVENIR de nos proches perdure, ils ne dis<SoftHyphen/>pa<SoftHyphen/>rais<SoftHyphen/>sent jamais entièrement. C'est grâce à cela que Dartorgor VIT toujours en moi."
-91,"TEXT_BANYOK005_05334_FAHRAFAHR_100_406","Bien vu, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. C'est un concept que les ESPRITS parviendront peut-être à comprendre..."
-92,"TEXT_BANYOK005_05334_FAHRAFAHR_000_407","Les Yok Huy ont toujours veillé à préserver le souvenir des membres de leur famille pour qu'ils continuent de vivre à travers leurs ACTES. Nos sépultures sont la preuve de cet héritage."
-93,"TEXT_BANYOK005_05334_FAHRAFAHR_000_408","Plutôt que de nous évertuer à expliquer tout ça aux esprits, on pourrait leur montrer qu'on cherche à laisser une TRACE de nos souvenirs avec eux en leur donnant leur propre tombe anthume."
-94,"TEXT_BANYOK005_05334_FAHRAFAHR_000_409","S'ils ont une preuve TANGIBLE de l'amitié qui unit nos deux peuples, ce lien pourrait subsister même lorsque j'aurai moi aussi quitté mon CORPS<Indent/>!"
-95,"TEXT_BANYOK005_05334_FAHRAFAHR_000_410","Par contre, il faut trouver un moyen de leur présenter ce SYMBOLE, sans quoi tous nos efforts seront vains..."
-96,"TEXT_BANYOK005_05334_FAHRAFAHR_000_411","Peut-être que tu pourrais les INVITER à venir voir des campanules de glace à l'autel<Indent/>? Ça devrait suffire à éveiller leur intérêt."
-97,"TEXT_BANYOK005_05334_FAHRAFAHR_000_412","Je pense savoir où trouver ces FLEURS, mais on va peut-être avoir encore besoin de ton aide pour ériger le monument."
-98,"TEXT_BANYOK005_05334_FAHRAFAHR_000_416","Les esprits des neiges se sont éloignés de l'AUTEL après avoir été apaisés. Essaye de les chercher près de Worqor Zormor et pense à me prévenir de leur arrivée, s'il te plaît."
-99,"TEXT_BANYOK005_05334_RORRLOHTEH_000_500","Des campanules de glace<Indent/>?"
-100,"TEXT_BANYOK005_05334_RORRLOHTEH_000_501","Hum... Dartorgor est partie... Mais j'ai quand même envie de voir les fleurs avec vous<Indent/>!"
-101,"TEXT_BANYOK005_05334_RORRLOHTEH_000_502","Je veux admirer les fleurs avec Dartorgor<Indent/>!"
-102,"TEXT_BANYOK005_05334_RORRLOHTEH_000_503","Est-ce qu'elle sera là, cette fois-ci...<Indent/>? Il faut qu'on se rassemble... Je vais appeler les autres<Indent/>!"
-103,"TEXT_BANYOK005_05334_SYSTEM_000_504","Il n'y a plus d'esprits des neiges dans les environs. Retournez prévenir Fahrafahr."
-104,"TEXT_BANYOK005_05334_FAHRAFAHR_000_600","Merci d'avoir INVITÉ les esprits à se rendre à l'autel. Pendant ce temps, je me suis occupée des autres préparatifs."
-105,"TEXT_BANYOK005_05334_FAHRAFAHR_000_601","（★未使用／削除予定★）"
-106,"TEXT_BANYOK005_05334_FAHRAFAHR_000_602","（★未使用／削除予定★）"
-107,"TEXT_BANYOK005_05334_FAHRAFAHR_000_603","Mais je crains qu'ils ne soient pas capables de comprendre les MOTIFS YOK HUY qu'on va graver sur leur tombe anthume."
-108,"TEXT_BANYOK005_05334_FAHRAFAHR_000_604","Donc si tu pouvais nous procurer un nécessaire contenant des burins chargés d'énergie magique, cela devrait permettre aux esprits de ressentir les ÉMOTIONS contenues dans nos gravures."
-109,"TEXT_BANYOK005_05334_FAHRAFAHR_000_605","Donc si tu pouvais nous procurer un nécessaire contenant des outils abrasifs chargés d'énergie magique, cela devrait permettre aux esprits de ressentir les ÉMOTIONS contenues dans nos gravures."
-110,"TEXT_BANYOK005_05334_FAHRAFAHR_000_606","Donc si tu pouvais nous procurer un nécessaire contenant des pigments chargés d'énergie magique, cela devrait permettre aux esprits de ressentir les ÉMOTIONS contenues dans nos gravures."
-111,"TEXT_BANYOK005_05334_FAHRAFAHR_000_607","Une fois de plus, je compte sur toi, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Tu es <If(PlayerParameter(4))>la seule<Else/>le seul</If> capable d'honorer une commande aussi COMPLEXE. Si nécessaire, Wurfurtar se fera un plaisir de te fournir davantage de matériaux."
-112,"TEXT_BANYOK005_05334_FAHRAFAHR_000_610","Encore un effort, nous devons absolument rétablir les relations UNISSANT les esprits des neiges et les Yok Huy. Si besoin, Wurfurtar peut te fournir davantage de matériaux."
-113,"TEXT_BANYOK005_05334_FAHRAFAHR_000_615","（★未使用／削除予定★）"
-114,"TEXT_BANYOK005_05334_FAHRAFAHR_000_620","（★未使用／削除予定★）"
-115,"TEXT_BANYOK005_05334_WURFURTAR_000_625","On peut dire que les esprits nous donnent du fil à RETORDRE... S'il vous faut d'autres matériaux, je suis prêt à vous les fournir dare-dare<Indent/>!"
-116,"TEXT_BANYOK005_05334_WURFURTAR_000_630","（★未使用／削除予定★）"
-117,"TEXT_BANYOK005_05334_WURFURTAR_000_635","（★未使用／削除予定★）"
-118,"TEXT_BANYOK005_05334_WURFURTAR_000_640","Hop hop<Indent/>! J'imagine que c'est compliqué de charger des objets en énergie MAGIQUE... N'en dites pas plus, j'ai tout ce qu'il vous faut<Indent/>!"
-119,"TEXT_BANYOK005_05334_WURFURTAR_000_641","（★未使用／削除予定★）"
-120,"TEXT_BANYOK005_05334_WURFURTAR_000_642","（★未使用／削除予定★）"
-121,"TEXT_BANYOK005_05334_FAHRAFAHR_000_645","Tu as TERMINÉ<Indent/>?"
-122,"TEXT_BANYOK005_05334_FAHRAFAHR_000_646","Merci infiniment, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! C'est tout ce dont on avait besoin pour apporter la touche FINALE à la tombe anthume."
-123,"TEXT_BANYOK005_05334_FAHRAFAHR_000_647","Grâce à ton aide, les Yok Huy vont pouvoir parler à CŒUR OUVERT avec les esprits des neiges. Je serais honorée que tu restes à mes côtés durant cette nouvelle tentative de dialogue."
-124,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_650","<If(PlayerParameter(4))>Elle<Else/>Il</If> nous a invités à venir voir des campanules de glace. Mais c'est Dartorgor qui nous l'avait promis<Indent/>!"
-125,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_651","Dartorgor ne vient plus... Elle est où<Indent/>? Elle nous a abandonnés... Elle a disparu..."
-126,"TEXT_BANYOK005_05334_FAHRAFAHR_000_652","Dartorgor est là, parmi NOUS<Indent/>!"
-127,"TEXT_BANYOK005_05334_FAHRAFAHR_000_653","Avant d'aller voir les FLEURS, on a quelque chose à vous montrer. Suivez-moi."
-128,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_654","C'est quoi<Indent/>?"
-129,"TEXT_BANYOK005_05334_FAHRAFAHR_000_655","C'est ce qu'on appelle une “tombe anthume”. Les Yok Huy érigent leur propre SÉPULTURE et y gravent des motifs relatant des événements qui les ont marqués."
-130,"TEXT_BANYOK005_05334_FAHRAFAHR_000_656","C'est la sépulture de Dartorgor. Elle a choisi d'y IMMORTALISER les jours heureux qu'elle a passés en votre compagnie."
-131,"TEXT_BANYOK005_05334_FAHRAFAHR_000_657","Lorsque des êtres vivants comme les Yok Huy arrivent au bout de leur existence, leur corps finit toujours par DISPARAÎTRE."
-132,"TEXT_BANYOK005_05334_FAHRAFAHR_100_657","Mais si on laisse une TRACE de nos moments de joie, ceux-ci peuvent perdurer bien après notre départ. C'est une façon de continuer à VIVRE."
-133,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_658","Je ne comprends pas... Où est partie Dartorgor<Indent/>?"
-134,"TEXT_BANYOK005_05334_FAHRAFAHR_000_659","J'ai autre chose à vous MONTRER. Rendons-nous maintenant à l'autel."
-135,"TEXT_BANYOK005_05334_FAHRAFAHR_000_660","On a érigé une tombe anthume pour VOUS, les esprits des neiges."
-136,"TEXT_BANYOK005_05334_FAHRAFAHR_000_661","Pour l'instant, on y a seulement gravé vos SOUVENIRS avec Dartorgor. Mais au fil du temps, on prévoit d'y ajouter ceux de notre HISTOIRE commune."
-137,"TEXT_BANYOK005_05334_FAHRAFAHR_100_661","Les esprits et les Yok Huy sont très DIFFÉRENTS. Un jour, je partirai à mon tour."
-138,"TEXT_BANYOK005_05334_FAHRAFAHR_110_661","Mais cette sépulture perdurera, et les Yok Huy qui me SUCCÉDERONT y immortaliseront à leur tour les jours heureux qu'ils auront vécus avec vous."
-139,"TEXT_BANYOK005_05334_FAHRAFAHR_000_662","Vous n'avez donc plus de raison de vous sentir SEULS."
-140,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_663","On ne sera plus jamais... seuls<Indent/>?"
-141,"TEXT_BANYOK005_05334_FAHRAFAHR_100_663","Dartorgor vit toujours en MOI."
-142,"TEXT_BANYOK005_05334_RYOQORTERTEH_100_663","（★未使用／削除予定★）"
-143,"TEXT_BANYOK005_05334_FAHRAFAHR_110_663","Quand mon heure viendra et que mon corps disparaîtra à son tour, je la rejoindrai dans vos SOUVENIRS et ceux des Yok Huy qui prendront la relève pour accomplir la cérémonie des flocons. Dartorgor et moi continuerons de vivre en VOUS."
-144,"TEXT_BANYOK005_05334_RYOQORTERTEH_110_663","（★未使用／削除予定★）"
-145,"TEXT_BANYOK005_05334_FAHRAFAHR_000_664","Comme promis, il est temps qu'on contemple ENSEMBLE des campanules de glace<Indent/>! Bien sûr, je veillerai à inscrire cet événement sur la tombe anthume."
-146,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_665","Ces fleurs sont... si jolies<Indent/>!"
-147,"TEXT_BANYOK005_05334_RYOQORTERTEH_100_665","Mais Dartorgor n'est pas là pour les admirer avec nous..."
-148,"TEXT_BANYOK005_05334_SYSTEM_000_666","On retournera voir les campanules de glace 
-tous ensemble, d'accord<Indent/>?"
-149,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_667","Dartorgor...<Indent/>?"
-150,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_668","Elle n'a pas oublié notre promesse... et nous aussi... on se souvient de Dartorgor..."
-151,"TEXT_BANYOK005_05334_RYOQORTERTEH_000_669","Vous êtes nos <If(PlayerParameter(4))>nouvelles amies<Else/>nouveaux amis</If><Indent/>! Jouez avec nous<Indent/>!"
-152,"TEXT_BANYOK005_05334_SYSTEM_000_700","Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Assermenté”."
-153,"TEXT_BANYOK005_05334_SYSTEM_000_701","Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
-154,"TEXT_BANYOK005_05334_SYSTEM_000_702","Vous bénéficiez désormais d'un bonus de points d'expérience plus important lorsque vous finissez une quête quotidienne de ce peuple."
-155,"TEXT_BANYOK005_05334_SYSTEM_000_703","En outre, Rarkorgor vous propose maintenant les objets correspondant au rang “Assermenté”. Faites-en bon usage au cours de vos aventures<Indent/>!"
-156,"TEXT_BANYOK005_05334_SYSTEM_000_800","Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
-157,"TEXT_BANYOK005_05334_FAHRAFAHR_000_413","（★未使用／削除予定★）"
-158,"TEXT_BANYOK005_05334_FAHRAFAHR_000_414","（★未使用／削除予定★）"
-159,"TEXT_BANYOK005_05334_FAHRAFAHR_000_415","（★未使用／削除予定★）"
+Fahrafahr vous a informée que la production de kirkahryar a attiré les esprits des neiges. Procurez-vous cet alcool auprès du distillateur yok huy pour aider votre amie à organiser la cérémonie des flocons dès que possible."
+2,TEXT_BANYOK005_05334_SEQ_02,Vous avez réceptionné le kirkahryar distillé par les Yok Huy. Placez désormais cette offrande sur l'autel.
+3,TEXT_BANYOK005_05334_SEQ_03,"La cérémonie des flocons a permis d'apaiser les esprits des neiges. Cependant, ceux-ci ont refusé de renouer des liens d'amitié avec les Yok Huy. Faites le point sur la situation avec Fahrafahr."
+4,TEXT_BANYOK005_05334_SEQ_04,Fahrafahr vous a demandé de la laisser réfléchir quelques instants. Retrouvez-la devant la tombe anthume de Dartorgor pour discuter d'un moyen de rétablir l'amitié entre les esprits et les Yok Huy.
+5,TEXT_BANYOK005_05334_SEQ_05,"Grâce à vos suggestions, Fahrafahr a décidé de rencontrer de nouveau les esprits des neiges. Explorez les environs de Worqor Zormor pour inviter les rorrlo teh à retourner à l'Autel de Zirgorteh."
+6,TEXT_BANYOK005_05334_SEQ_06,Les esprits des neiges ont réagi positivement à votre invitation. Retournez en informer Fahrafahr au relais des Cimes.
+7,TEXT_BANYOK005_05334_SEQ_07,"Une fois de plus, Fahrafahr a requis votre aide en tant qu'artisane pour fabriquer des éléments capables de transmettre leur énergie magique aux pierres taillées. Fabriquez le nécessaire et remettez le fruit de votre labeur à Fahrafahr, au relais des Cimes."
+8,TEXT_BANYOK005_05334_SEQ_08,"Grâce à la con­struc­tion d'une somptueuse tombe anthume, fruit de vos efforts conjugués, Fahrafahr est parvenue à expliquer aux esprits la philosophie des Yok Huy. Ryoqor Terteh s'est rendu compte que Dartorgor vivait toujours dans ses souvenirs, et que Fahrafahr avait honoré la promesse de son amie. Votre séjour auprès des bienfaiteurs de Zirgorteh touche bientôt à sa fin."
+9,TEXT_BANYOK005_05334_SEQ_09,
+10,TEXT_BANYOK005_05334_SEQ_10,
+11,TEXT_BANYOK005_05334_SEQ_11,
+12,TEXT_BANYOK005_05334_SEQ_12,
+13,TEXT_BANYOK005_05334_SEQ_13,
+14,TEXT_BANYOK005_05334_SEQ_14,
+15,TEXT_BANYOK005_05334_SEQ_15,
+16,TEXT_BANYOK005_05334_SEQ_16,
+17,TEXT_BANYOK005_05334_SEQ_17,
+18,TEXT_BANYOK005_05334_SEQ_18,
+19,TEXT_BANYOK005_05334_SEQ_19,
+20,TEXT_BANYOK005_05334_SEQ_20,
+21,TEXT_BANYOK005_05334_SEQ_21,
+22,TEXT_BANYOK005_05334_SEQ_22,
+23,TEXT_BANYOK005_05334_SEQ_23,
+24,TEXT_BANYOK005_05334_TODO_00,"Parler au distillateur yok huy, à l'Autel de Zirgorteh"
+25,TEXT_BANYOK005_05334_TODO_01,Déposer  à l'endroit indiqué
+26,TEXT_BANYOK005_05334_TODO_02,Parler à Fahrafahr
+27,TEXT_BANYOK005_05334_TODO_03,Reparler à Fahrafahr
+28,TEXT_BANYOK005_05334_TODO_04,"Trouver des rorrlo teh, près de Worqor Zormor"
+29,TEXT_BANYOK005_05334_TODO_05,Parler à Fahrafahr
+30,TEXT_BANYOK005_05334_TODO_06,Fabriquer 
+31,TEXT_BANYOK005_05334_TODO_07,
+32,TEXT_BANYOK005_05334_TODO_08,
+33,TEXT_BANYOK005_05334_TODO_09,
+34,TEXT_BANYOK005_05334_TODO_10,
+35,TEXT_BANYOK005_05334_TODO_11,
+36,TEXT_BANYOK005_05334_TODO_12,
+37,TEXT_BANYOK005_05334_TODO_13,
+38,TEXT_BANYOK005_05334_TODO_14,
+39,TEXT_BANYOK005_05334_TODO_15,
+40,TEXT_BANYOK005_05334_TODO_16,
+41,TEXT_BANYOK005_05334_TODO_17,
+42,TEXT_BANYOK005_05334_TODO_18,
+43,TEXT_BANYOK005_05334_TODO_19,
+44,TEXT_BANYOK005_05334_TODO_20,
+45,TEXT_BANYOK005_05334_TODO_21,
+46,TEXT_BANYOK005_05334_TODO_22,
+47,TEXT_BANYOK005_05334_TODO_23,
+48,TEXT_BANYOK005_05334_FAHRAFAHR_000_001,"Tu tombes à PIC, Player !"
+49,TEXT_BANYOK005_05334_FAHRAFAHR_000_002,On avait à peine commencé à PRODUIRE du kirkahryar que plusieurs Yok Huy ont déclaré avoir aperçu des esprits des neiges rôder autour de la distillerie !
+50,TEXT_BANYOK005_05334_FAHRAFAHR_000_003,"C'est sûrement l'ODEUR qui les a attirés. C'est bon signe, car ça signifie qu'ils accepteront sûrement les OFFRANDES lors de la cérémonie des flocons."
+51,TEXT_BANYOK005_05334_FAHRAFAHR_100_003,Je vais commencer les préparatifs dès MAINTENANT. Tu veux bien me donner un coup de main ?
+52,TEXT_BANYOK005_05334_FAHRAFAHR_000_004,"J'aurai besoin que tu te rendes à la DISTILLERIE pour récupérer le kirkahryar et que tu ailles le déposer sur l'autel. Dès que les esprits des neiges s'en ap­pro­che­ront, on pourra COMMENCER le rite !"
+53,TEXT_BANYOK005_05334_FAHRAFAHR_000_005,"Pendant que je m'occupe des autres préparatifs, j'aurai besoin que tu te rendes à la DISTILLERIE pour récupérer le kirkahryar et que tu ailles le déposer sur l'autel. Dès que les esprits des neiges s'en ap­pro­che­ront, on pourra COMMENCER la cérémonie des flocons !"
+54,TEXT_BANYOK005_05334_YOKHUYBREWERY05334_000_006,Le kirkahryar est prêt ! Il paraît que ça ATTIRE les esprits de neiges.
+55,TEXT_BANYOK005_05334_YOKHUYBREWERY05334_000_007,"J'aimerais bien aller voir à quoi ressemble cette fameuse cérémonie des flocons, mais on m'a dit que, si on est trop nombreux, ça risque d'AGACER les esprits. On s'en remet donc à vous et à Fahrafahr !"
+56,TEXT_BANYOK005_05334_YOKHUYBREWERY05334_000_008,On compte sur vous pour APAISER les esprits des neiges !
+57,TEXT_BANYOK005_05334_FAHRAFAHR_000_099,"Merci d'avoir apporté le kirkahryar, Player. De mon côté, j'ai terminé de PRÉPARER la cérémonie. Il ne nous reste plus qu'à attendre la venue des esprits. Cachons-nous pour ne pas les EFFAROUCHER."
+58,TEXT_BANYOK005_05334_FAHRAFAHR_000_100,（★未使用／削除予定★）
+59,TEXT_BANYOK005_05334_FAHRAFAHR_000_101,（★未使用／削除予定★）
+60,TEXT_BANYOK005_05334_RYOQORTERTEH_000_102,Ooh... Toute l'énergie en trop... Évaporée...
+61,TEXT_BANYOK005_05334_FAHRAFAHR_000_103,Ils parlent de nouveau ! Je crois que la cérémonie est un SUCCÈS !
+62,TEXT_BANYOK005_05334_FAHRAFAHR_100_103,"Chers esprits des neiges ! Grâce à Dartorgor, on s'est souvenu que le kirkahryar est la CLEF pour vous apporter la sérénité. Tout ce qu'on souhaite, c'est rétablir le DIALOGUE avec vous."
+63,TEXT_BANYOK005_05334_RYOQORTERTEH_000_104,Dartorgor n'est pas là... C'est nul... On la déteste maintenant !
+64,TEXT_BANYOK005_05334_FAHRAFAHR_000_105,"Pourquoi la DÉTESTER ? Dartorgor a toujours été votre amie, non ?"
+65,TEXT_BANYOK005_05334_RYOQORTERTEH_000_106,Dartorgor a disparu ! Elle est partie alors qu'elle avait promis qu'on irait encore voir les campanules de glace tous ensemble !
+66,TEXT_BANYOK005_05334_RYOQORTERTEH_000_107,"Nous, on l'a attendue très longtemps ! Elle a oublié sa promesse et elle est partie quelque part, très loin !"
+67,TEXT_BANYOK005_05334_FAHRAFAHR_000_108,Il y a une RAISON à cela. Je suis au regret de vous informer que Dartorgor a... QUITTÉ son corps.
+68,TEXT_BANYOK005_05334_RYOQORTERTEH_000_109,Quitté ? Son corps ? Qu'est-ce que ça veut dire !?
+69,TEXT_BANYOK005_05334_Q1_000_000,（★未使用／削除予定★）
+70,TEXT_BANYOK005_05334_A1_000_001,（★未使用／削除予定★）
+71,TEXT_BANYOK005_05334_A1_000_002,（★未使用／削除予定★）
+72,TEXT_BANYOK005_05334_FAHRAFAHR_000_111,"Je comprends votre TROUBLE. Comme vous réapparaissez chaque jour de neige, les notions de vie et de mort vous sont INCONNUES."
+73,TEXT_BANYOK005_05334_FAHRAFAHR_000_112,"Donc pour vous, le DÉPART soudain de notre amie signifie qu'elle a manqué à sa parole et vous a abandonnés."
+74,TEXT_BANYOK005_05334_FAHRAFAHR_000_113,"Mais Dartorgor n'est pas la première... Je suppose que, depuis très longtemps, vous avez enduré la DISPARITION de vos amis yok huy les uns après les autres."
+75,TEXT_BANYOK005_05334_RYOQORTERTEH_000_114,"Toi aussi, tu vas sûrement partir sans rien dire ! C'est nul... On veut pas jouer avec toi."
+76,TEXT_BANYOK005_05334_RYOQORTERTEH_100_114,On déteste les Yok Huy maintenant.
+77,TEXT_BANYOK005_05334_FAHRAFAHR_000_115,ATTENDEZ !!
+78,TEXT_BANYOK005_05334_FAHRAFAHR_000_300,"On a apaisé les esprits, ce qui nous a permis de DIALOGUER avec eux... En soi, c'est une avancée considérable."
+79,TEXT_BANYOK005_05334_FAHRAFAHR_000_301,Mais ils ont coupé court à la con­ver­sa­tion. Leur TRISTESSE doit être à la hauteur de l'amitié qu'ils vouaient à Dartorgor.
+80,TEXT_BANYOK005_05334_FAHRAFAHR_000_302,"Si on n'intervient pas RAPIDEMENT, j'ai peur que le fossé se creuse davantage entre nos deux peuples et que les esprits en viennent à rejeter la cérémonie des flocons. Le cas échéant, je n'imagine pas le CHAOS qu'ils pourraient semer."
+81,TEXT_BANYOK005_05334_FAHRAFAHR_000_303,On doit trouver une SOLUTION coûte que coûte... J'ai besoin de marcher un peu pour me rafraîchir les IDÉES. Je te propose qu'on se retrouve plus tard devant la tombe anthume de Dartorgor.
+82,TEXT_BANYOK005_05334_FAHRAFAHR_000_400,"Je pense que ce serait trop compliqué d'expliquer aux esprits que, contrairement à eux, nos CORPS ne réap­pa­rais­sent pas."
+83,TEXT_BANYOK005_05334_FAHRAFAHR_000_401,"De plus, même si je parvenais à me lier d'AMITIÉ avec eux comme Dartorgor l'a fait, cela ne ferait que reproduire la même TRAGÉDIE lorsque, moi aussi, je quitterai inévitablement mon corps."
+84,TEXT_BANYOK005_05334_FAHRAFAHR_000_402,"J'ai beau me creuser la tête et interroger Dartorgor qui vit toujours en moi, je n'arrive pas à trouver un moyen de RAISONNER les esprits..."
+85,TEXT_BANYOK005_05334_FAHRAFAHR_000_403,"Qu'en penses-tu, Player ? Toute PISTE est bonne à explorer."
+86,TEXT_BANYOK005_05334_Q2_000_000,Que répondez-vous ?
+87,TEXT_BANYOK005_05334_A2_000_001,Souviens-toi de la philosophie des Yok Huy !
+88,TEXT_BANYOK005_05334_A2_000_002,N'avez-vous pas un moyen d'immortaliser les souvenirs ?
+89,TEXT_BANYOK005_05334_FAHRAFAHR_000_405,"Les en­sei­gne­ments de mon peuple... Tant que le SOUVENIR de nos proches ne tombe pas dans l'oubli, ils ne dis­pa­rais­sent jamais entièrement. C'est grâce à cela que Dartorgor VIT toujours en moi."
+90,TEXT_BANYOK005_05334_FAHRAFAHR_000_406,"Tu penses à nos tombes anthumes... ? Tant que le SOUVENIR de nos proches perdure, ils ne dis­pa­rais­sent jamais entièrement. C'est grâce à cela que Dartorgor VIT toujours en moi."
+91,TEXT_BANYOK005_05334_FAHRAFAHR_100_406,"Bien vu, Player. C'est un concept que les ESPRITS parviendront peut-être à comprendre..."
+92,TEXT_BANYOK005_05334_FAHRAFAHR_000_407,Les Yok Huy ont toujours veillé à préserver le souvenir des membres de leur famille pour qu'ils continuent de vivre à travers leurs ACTES. Nos sépultures sont la preuve de cet héritage.
+93,TEXT_BANYOK005_05334_FAHRAFAHR_000_408,"Plutôt que de nous évertuer à expliquer tout ça aux esprits, on pourrait leur montrer qu'on cherche à laisser une TRACE de nos souvenirs avec eux en leur donnant leur propre tombe anthume."
+94,TEXT_BANYOK005_05334_FAHRAFAHR_000_409,"S'ils ont une preuve TANGIBLE de l'amitié qui unit nos deux peuples, ce lien pourrait subsister même lorsque j'aurai moi aussi quitté mon CORPS !"
+95,TEXT_BANYOK005_05334_FAHRAFAHR_000_410,"Par contre, il faut trouver un moyen de leur présenter ce SYMBOLE, sans quoi tous nos efforts seront vains..."
+96,TEXT_BANYOK005_05334_FAHRAFAHR_000_411,Peut-être que tu pourrais les INVITER à venir voir des campanules de glace à l'autel ? Ça devrait suffire à éveiller leur intérêt.
+97,TEXT_BANYOK005_05334_FAHRAFAHR_000_412,"Je pense savoir où trouver ces FLEURS, mais on va peut-être avoir encore besoin de ton aide pour ériger le monument."
+98,TEXT_BANYOK005_05334_FAHRAFAHR_000_416,"Les esprits des neiges se sont éloignés de l'AUTEL après avoir été apaisés. Essaye de les chercher près de Worqor Zormor et pense à me prévenir de leur arrivée, s'il te plaît."
+99,TEXT_BANYOK005_05334_RORRLOHTEH_000_500,Des campanules de glace ?
+100,TEXT_BANYOK005_05334_RORRLOHTEH_000_501,Hum... Dartorgor est partie... Mais j'ai quand même envie de voir les fleurs avec vous !
+101,TEXT_BANYOK005_05334_RORRLOHTEH_000_502,Je veux admirer les fleurs avec Dartorgor !
+102,TEXT_BANYOK005_05334_RORRLOHTEH_000_503,"Est-ce qu'elle sera là, cette fois-ci... ? Il faut qu'on se rassemble... Je vais appeler les autres !"
+103,TEXT_BANYOK005_05334_SYSTEM_000_504,Il n'y a plus d'esprits des neiges dans les environs. Retournez prévenir Fahrafahr.
+104,TEXT_BANYOK005_05334_FAHRAFAHR_000_600,"Merci d'avoir INVITÉ les esprits à se rendre à l'autel. Pendant ce temps, je me suis occupée des autres préparatifs."
+105,TEXT_BANYOK005_05334_FAHRAFAHR_000_601,（★未使用／削除予定★）
+106,TEXT_BANYOK005_05334_FAHRAFAHR_000_602,（★未使用／削除予定★）
+107,TEXT_BANYOK005_05334_FAHRAFAHR_000_603,Mais je crains qu'ils ne soient pas capables de comprendre les MOTIFS YOK HUY qu'on va graver sur leur tombe anthume.
+108,TEXT_BANYOK005_05334_FAHRAFAHR_000_604,"Donc si tu pouvais nous procurer un nécessaire contenant des burins chargés d'énergie magique, cela devrait permettre aux esprits de ressentir les ÉMOTIONS contenues dans nos gravures."
+109,TEXT_BANYOK005_05334_FAHRAFAHR_000_605,"Donc si tu pouvais nous procurer un nécessaire contenant des outils abrasifs chargés d'énergie magique, cela devrait permettre aux esprits de ressentir les ÉMOTIONS contenues dans nos gravures."
+110,TEXT_BANYOK005_05334_FAHRAFAHR_000_606,"Donc si tu pouvais nous procurer un nécessaire contenant des pigments chargés d'énergie magique, cela devrait permettre aux esprits de ressentir les ÉMOTIONS contenues dans nos gravures."
+111,TEXT_BANYOK005_05334_FAHRAFAHR_000_607,"Une fois de plus, je compte sur toi, Player. Tu es la seule capable d'honorer une commande aussi COMPLEXE. Si nécessaire, Wurfurtar se fera un plaisir de te fournir davantage de matériaux."
+112,TEXT_BANYOK005_05334_FAHRAFAHR_000_610,"Encore un effort, nous devons absolument rétablir les relations UNISSANT les esprits des neiges et les Yok Huy. Si besoin, Wurfurtar peut te fournir davantage de matériaux."
+113,TEXT_BANYOK005_05334_FAHRAFAHR_000_615,（★未使用／削除予定★）
+114,TEXT_BANYOK005_05334_FAHRAFAHR_000_620,（★未使用／削除予定★）
+115,TEXT_BANYOK005_05334_WURFURTAR_000_625,"On peut dire que les esprits nous donnent du fil à RETORDRE... S'il vous faut d'autres matériaux, je suis prêt à vous les fournir dare-dare !"
+116,TEXT_BANYOK005_05334_WURFURTAR_000_630,（★未使用／削除予定★）
+117,TEXT_BANYOK005_05334_WURFURTAR_000_635,（★未使用／削除予定★）
+118,TEXT_BANYOK005_05334_WURFURTAR_000_640,"Hop hop ! J'imagine que c'est compliqué de charger des objets en énergie MAGIQUE... N'en dites pas plus, j'ai tout ce qu'il vous faut !"
+119,TEXT_BANYOK005_05334_WURFURTAR_000_641,（★未使用／削除予定★）
+120,TEXT_BANYOK005_05334_WURFURTAR_000_642,（★未使用／削除予定★）
+121,TEXT_BANYOK005_05334_FAHRAFAHR_000_645,Tu as TERMINÉ ?
+122,TEXT_BANYOK005_05334_FAHRAFAHR_000_646,"Merci infiniment, Player ! C'est tout ce dont on avait besoin pour apporter la touche FINALE à la tombe anthume."
+123,TEXT_BANYOK005_05334_FAHRAFAHR_000_647,"Grâce à ton aide, les Yok Huy vont pouvoir parler à CŒUR OUVERT avec les esprits des neiges. Je serais honorée que tu restes à mes côtés durant cette nouvelle tentative de dialogue."
+124,TEXT_BANYOK005_05334_RYOQORTERTEH_000_650,Elle nous a invités à venir voir des campanules de glace. Mais c'est Dartorgor qui nous l'avait promis !
+125,TEXT_BANYOK005_05334_RYOQORTERTEH_000_651,Dartorgor ne vient plus... Elle est où ? Elle nous a abandonnés... Elle a disparu...
+126,TEXT_BANYOK005_05334_FAHRAFAHR_000_652,"Dartorgor est là, parmi NOUS !"
+127,TEXT_BANYOK005_05334_FAHRAFAHR_000_653,"Avant d'aller voir les FLEURS, on a quelque chose à vous montrer. Suivez-moi."
+128,TEXT_BANYOK005_05334_RYOQORTERTEH_000_654,C'est quoi ?
+129,TEXT_BANYOK005_05334_FAHRAFAHR_000_655,C'est ce qu'on appelle une “tombe anthume”. Les Yok Huy érigent leur propre SÉPULTURE et y gravent des motifs relatant des événements qui les ont marqués.
+130,TEXT_BANYOK005_05334_FAHRAFAHR_000_656,C'est la sépulture de Dartorgor. Elle a choisi d'y IMMORTALISER les jours heureux qu'elle a passés en votre compagnie.
+131,TEXT_BANYOK005_05334_FAHRAFAHR_000_657,"Lorsque des êtres vivants comme les Yok Huy arrivent au bout de leur existence, leur corps finit toujours par DISPARAÎTRE."
+132,TEXT_BANYOK005_05334_FAHRAFAHR_100_657,"Mais si on laisse une TRACE de nos moments de joie, ceux-ci peuvent perdurer bien après notre départ. C'est une façon de continuer à VIVRE."
+133,TEXT_BANYOK005_05334_RYOQORTERTEH_000_658,Je ne comprends pas... Où est partie Dartorgor ?
+134,TEXT_BANYOK005_05334_FAHRAFAHR_000_659,J'ai autre chose à vous MONTRER. Rendons-nous maintenant à l'autel.
+135,TEXT_BANYOK005_05334_FAHRAFAHR_000_660,"On a érigé une tombe anthume pour VOUS, les esprits des neiges."
+136,TEXT_BANYOK005_05334_FAHRAFAHR_000_661,"Pour l'instant, on y a seulement gravé vos SOUVENIRS avec Dartorgor. Mais au fil du temps, on prévoit d'y ajouter ceux de notre HISTOIRE commune."
+137,TEXT_BANYOK005_05334_FAHRAFAHR_100_661,"Les esprits et les Yok Huy sont très DIFFÉRENTS. Un jour, je partirai à mon tour."
+138,TEXT_BANYOK005_05334_FAHRAFAHR_110_661,"Mais cette sépulture perdurera, et les Yok Huy qui me SUCCÉDERONT y immortaliseront à leur tour les jours heureux qu'ils auront vécus avec vous."
+139,TEXT_BANYOK005_05334_FAHRAFAHR_000_662,Vous n'avez donc plus de raison de vous sentir SEULS.
+140,TEXT_BANYOK005_05334_RYOQORTERTEH_000_663,On ne sera plus jamais... seuls ?
+141,TEXT_BANYOK005_05334_FAHRAFAHR_100_663,Dartorgor vit toujours en MOI.
+142,TEXT_BANYOK005_05334_RYOQORTERTEH_100_663,（★未使用／削除予定★）
+143,TEXT_BANYOK005_05334_FAHRAFAHR_110_663,"Quand mon heure viendra et que mon corps disparaîtra à son tour, je la rejoindrai dans vos SOUVENIRS et ceux des Yok Huy qui prendront la relève pour accomplir la cérémonie des flocons. Dartorgor et moi continuerons de vivre en VOUS."
+144,TEXT_BANYOK005_05334_RYOQORTERTEH_110_663,（★未使用／削除予定★）
+145,TEXT_BANYOK005_05334_FAHRAFAHR_000_664,"Comme promis, il est temps qu'on contemple ENSEMBLE des campanules de glace ! Bien sûr, je veillerai à inscrire cet événement sur la tombe anthume."
+146,TEXT_BANYOK005_05334_RYOQORTERTEH_000_665,Ces fleurs sont... si jolies !
+147,TEXT_BANYOK005_05334_RYOQORTERTEH_100_665,Mais Dartorgor n'est pas là pour les admirer avec nous...
+148,TEXT_BANYOK005_05334_SYSTEM_000_666,"On retournera voir les campanules de glace 
+tous ensemble, d'accord ?"
+149,TEXT_BANYOK005_05334_RYOQORTERTEH_000_667,Dartorgor... ?
+150,TEXT_BANYOK005_05334_RYOQORTERTEH_000_668,Elle n'a pas oublié notre promesse... et nous aussi... on se souvient de Dartorgor...
+151,TEXT_BANYOK005_05334_RYOQORTERTEH_000_669,Vous êtes nos nouvelles amies ! Jouez avec nous !
+152,TEXT_BANYOK005_05334_SYSTEM_000_700,Votre réputation auprès des bienfaiteurs de Zirgorteh est passée à “Assermenté”.
+153,TEXT_BANYOK005_05334_SYSTEM_000_701,"Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
+154,TEXT_BANYOK005_05334_SYSTEM_000_702,Vous bénéficiez désormais d'un bonus de points d'expérience plus important lorsque vous finissez une quête quotidienne de ce peuple.
+155,TEXT_BANYOK005_05334_SYSTEM_000_703,"En outre, Rarkorgor vous propose maintenant les objets correspondant au rang “Assermenté”. Faites-en bon usage au cours de vos aventures !"
+156,TEXT_BANYOK005_05334_SYSTEM_000_800,"Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
+157,TEXT_BANYOK005_05334_FAHRAFAHR_000_413,（★未使用／削除予定★）
+158,TEXT_BANYOK005_05334_FAHRAFAHR_000_414,（★未使用／削除予定★）
+159,TEXT_BANYOK005_05334_FAHRAFAHR_000_415,（★未使用／削除予定★）

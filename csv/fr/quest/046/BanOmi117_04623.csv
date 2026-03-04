@@ -1,68 +1,65 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI117_04623_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-<Emphasis>* Il n'est possible de progresser dans cette quête qu'avec la classe qui a servi à la commencer.</Emphasis>
+0,TEXT_BANOMI117_04623_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
+** Il n'est possible de progresser dans cette quête qu'avec la classe qui a servi à la commencer.*
 
 Stigma-4 a besoin d'aliments pour en extraire de nouvelles données gustatives."
-1,"TEXT_BANOMI117_04623_SEQ_01","Livrer ce qui vous a été demandé à l'Omicron goûteur"
-2,"TEXT_BANOMI117_04623_SEQ_02","Retourner voir Stigma-4"
-3,"TEXT_BANOMI117_04623_SEQ_03",""
-4,"TEXT_BANOMI117_04623_SEQ_04",""
-5,"TEXT_BANOMI117_04623_SEQ_05",""
-6,"TEXT_BANOMI117_04623_SEQ_06",""
-7,"TEXT_BANOMI117_04623_SEQ_07",""
-8,"TEXT_BANOMI117_04623_SEQ_08",""
-9,"TEXT_BANOMI117_04623_SEQ_09",""
-10,"TEXT_BANOMI117_04623_SEQ_10",""
-11,"TEXT_BANOMI117_04623_SEQ_11",""
-12,"TEXT_BANOMI117_04623_SEQ_12",""
-13,"TEXT_BANOMI117_04623_SEQ_13",""
-14,"TEXT_BANOMI117_04623_SEQ_14",""
-15,"TEXT_BANOMI117_04623_SEQ_15",""
-16,"TEXT_BANOMI117_04623_SEQ_16",""
-17,"TEXT_BANOMI117_04623_SEQ_17",""
-18,"TEXT_BANOMI117_04623_SEQ_18",""
-19,"TEXT_BANOMI117_04623_SEQ_19",""
-20,"TEXT_BANOMI117_04623_SEQ_20",""
-21,"TEXT_BANOMI117_04623_SEQ_21",""
-22,"TEXT_BANOMI117_04623_SEQ_22",""
-23,"TEXT_BANOMI117_04623_SEQ_23",""
-24,"TEXT_BANOMI117_04623_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Extraire des <SheetFr(Item,12,IntegerParameter(5),2,1)/> aux terrains de jeu élyséens<Else/>Livrer les <SheetFr(Item,12,IntegerParameter(5),2,1)/> à l'Omicron goûteur</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récolter des <SheetFr(Item,12,IntegerParameter(5),2,1)/> aux terrains de jeu élyséens<Else/>Livrer les <SheetFr(Item,12,IntegerParameter(5),2,1)/> à l'Omicron goûteur</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Pêcher <SheetFr(Item,1,IntegerParameter(5),1,1)/> aux terrains de jeu élyséens<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à l'Omicron goûteur</If><Else/></If></If></If>"
-25,"TEXT_BANOMI117_04623_TODO_01","Retourner voir Stigma-4"
-26,"TEXT_BANOMI117_04623_TODO_02",""
-27,"TEXT_BANOMI117_04623_TODO_03",""
-28,"TEXT_BANOMI117_04623_TODO_04",""
-29,"TEXT_BANOMI117_04623_TODO_05",""
-30,"TEXT_BANOMI117_04623_TODO_06",""
-31,"TEXT_BANOMI117_04623_TODO_07",""
-32,"TEXT_BANOMI117_04623_TODO_08",""
-33,"TEXT_BANOMI117_04623_TODO_09",""
-34,"TEXT_BANOMI117_04623_TODO_10",""
-35,"TEXT_BANOMI117_04623_TODO_11",""
-36,"TEXT_BANOMI117_04623_TODO_12",""
-37,"TEXT_BANOMI117_04623_TODO_13",""
-38,"TEXT_BANOMI117_04623_TODO_14",""
-39,"TEXT_BANOMI117_04623_TODO_15",""
-40,"TEXT_BANOMI117_04623_TODO_16",""
-41,"TEXT_BANOMI117_04623_TODO_17",""
-42,"TEXT_BANOMI117_04623_TODO_18",""
-43,"TEXT_BANOMI117_04623_TODO_19",""
-44,"TEXT_BANOMI117_04623_TODO_20",""
-45,"TEXT_BANOMI117_04623_TODO_21",""
-46,"TEXT_BANOMI117_04623_TODO_22",""
-47,"TEXT_BANOMI117_04623_TODO_23",""
-48,"TEXT_BANOMI117_04623_STIGMA4_000_001","Bip bip... Pshhh... Récemment, sur in<SoftHyphen/>struc<SoftHyphen/>tions de la petite boule de poils, nous avons nourri la base de données de plusieurs Omicrons avec des données gustatives. Beaucoup ont renvoyé “par<SoftHyphen/>ti<SoftHyphen/>cu<SoftHyphen/>liè<SoftHyphen/>rement stimulant” comme évaluation."
-49,"TEXT_BANOMI117_04623_STIGMA4_000_002","L'un d'entre eux a développé un intérêt prononcé pour le <Emphasis>goût</Emphasis> et a adopté un fonc<SoftHyphen/>tion<SoftHyphen/>ne<SoftHyphen/>ment autonome allant à l'encontre de ses directives pour découvrir de nouvelles saveurs. En temps normal, il devrait être envoyé au recyclage..."
-50,"TEXT_BANOMI117_04623_STIGMA4_000_003","Mais la petite boule de poils s'est réjouie de cette anomalie. Elle m'a même prié d'aider cet Omicron défectueux. C'est pourquoi je requiers l'aide de l'entité alliée."
-51,"TEXT_BANOMI117_04623_STIGMA4_000_004","Bip bip... Génération des in<SoftHyphen/>struc<SoftHyphen/>tions... Approvisionner des aliments offrant de nouveaux goûts potentiels. Procurez-vous trois <SheetFr(Item,12,38291,2,1)/> aux terrains de jeu élyséens."
-52,"TEXT_BANOMI117_04623_STIGMA4_000_005","Bip bip... Génération des in<SoftHyphen/>struc<SoftHyphen/>tions... Approvisionner des aliments offrant de nouveaux goûts potentiels. Procurez-vous trois <SheetFr(Item,12,38315,2,1)/> aux terrains de jeu élyséens."
-53,"TEXT_BANOMI117_04623_STIGMA4_000_006","Bip bip... Génération des in<SoftHyphen/>struc<SoftHyphen/>tions... Approvisionner des aliments offrant de nouveaux goûts potentiels. Procurez-vous <SheetFr(Item,1,38339,1,1)/> aux terrains de jeu élyséens. L'utilisation d'<SheetFr(Item,1,36588,1,1)/> comme appât est recommandée."
-54,"TEXT_BANOMI117_04623_STIGMA4_000_007","Retournez à la base des Omicrons une fois votre objectif rempli, et ne tardez pas à remettre le tout à l'Omicron goûteur. Bip bip... Je compte sur votre implication, entité alliée."
-55,"TEXT_BANOMI117_04623_OMICRON04623_000_008","Bi-Bip bip... Pshhh... Goût... Stimulant... Bip bip... Pshhh... "
-56,"TEXT_BANOMI117_04623_OMICRON04623_000_009","Bi-Bip bip... Pshhh... Goût... Stimulant... Bip bip... Pshhh... "
-57,"TEXT_BANOMI117_04623_OMICRON04623_000_010","Bip bip... Pshhh... Réception de la livraison venant de l'entité alliée <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> confirmée. Comparaison avec les aliments de la base de données... Bip bip... Structure totalement différente. Qualificatif approprié<Indent/>: <Emphasis>ramassis d'ordures</Emphasis>."
-58,"TEXT_BANOMI117_04623_OMICRON04623_000_011","Je vais enclencher l'évaluation des propriétés nutritives pour les êtres biologiques. En cas de résultats concluants, vous serez soumis<If(PlayerParameter(4))>e<Else/></If> à une séance de dégustation, afin de nous fournir les données nécessaires. Bip bip... Observer votre réaction nous fascine déjà."
-59,"TEXT_BANOMI117_04623_STIGMA4_000_012","Réception du rapport de mission... Bip bip... Pshhh... Analyse des données gustatives récoltées par l'Omicron goûteur en cours. Modification du statut de la mission de l'entité alliée à “terminée”."
-60,"TEXT_BANOMI117_04623_STIGMA4_000_013","Lorsque le type d'aliment répond au qualificatif “goûteux” après évaluation, nous prévoyons d'offrir un service de transfert des données correspondantes aux Omicrons venant pour leur vidange de routine. Bip bip... "
-61,"TEXT_BANOMI117_04623_STIGMA4_000_014","Je dois maintenant démarrer la matrice de stratégie logistique en prévision d'une demande accrue en huile de vidange. Pshhh... Entité alliée, placez-vous en attente des prochaines in<SoftHyphen/>struc<SoftHyphen/>tions."
+1,TEXT_BANOMI117_04623_SEQ_01,Livrer ce qui vous a été demandé à l'Omicron goûteur
+2,TEXT_BANOMI117_04623_SEQ_02,Retourner voir Stigma-4
+3,TEXT_BANOMI117_04623_SEQ_03,
+4,TEXT_BANOMI117_04623_SEQ_04,
+5,TEXT_BANOMI117_04623_SEQ_05,
+6,TEXT_BANOMI117_04623_SEQ_06,
+7,TEXT_BANOMI117_04623_SEQ_07,
+8,TEXT_BANOMI117_04623_SEQ_08,
+9,TEXT_BANOMI117_04623_SEQ_09,
+10,TEXT_BANOMI117_04623_SEQ_10,
+11,TEXT_BANOMI117_04623_SEQ_11,
+12,TEXT_BANOMI117_04623_SEQ_12,
+13,TEXT_BANOMI117_04623_SEQ_13,
+14,TEXT_BANOMI117_04623_SEQ_14,
+15,TEXT_BANOMI117_04623_SEQ_15,
+16,TEXT_BANOMI117_04623_SEQ_16,
+17,TEXT_BANOMI117_04623_SEQ_17,
+18,TEXT_BANOMI117_04623_SEQ_18,
+19,TEXT_BANOMI117_04623_SEQ_19,
+20,TEXT_BANOMI117_04623_SEQ_20,
+21,TEXT_BANOMI117_04623_SEQ_21,
+22,TEXT_BANOMI117_04623_SEQ_22,
+23,TEXT_BANOMI117_04623_SEQ_23,
+24,TEXT_BANOMI117_04623_TODO_00,Extraire des  aux terrains de jeu élyséens
+25,TEXT_BANOMI117_04623_TODO_01,Retourner voir Stigma-4
+26,TEXT_BANOMI117_04623_TODO_02,
+27,TEXT_BANOMI117_04623_TODO_03,
+28,TEXT_BANOMI117_04623_TODO_04,
+29,TEXT_BANOMI117_04623_TODO_05,
+30,TEXT_BANOMI117_04623_TODO_06,
+31,TEXT_BANOMI117_04623_TODO_07,
+32,TEXT_BANOMI117_04623_TODO_08,
+33,TEXT_BANOMI117_04623_TODO_09,
+34,TEXT_BANOMI117_04623_TODO_10,
+35,TEXT_BANOMI117_04623_TODO_11,
+36,TEXT_BANOMI117_04623_TODO_12,
+37,TEXT_BANOMI117_04623_TODO_13,
+38,TEXT_BANOMI117_04623_TODO_14,
+39,TEXT_BANOMI117_04623_TODO_15,
+40,TEXT_BANOMI117_04623_TODO_16,
+41,TEXT_BANOMI117_04623_TODO_17,
+42,TEXT_BANOMI117_04623_TODO_18,
+43,TEXT_BANOMI117_04623_TODO_19,
+44,TEXT_BANOMI117_04623_TODO_20,
+45,TEXT_BANOMI117_04623_TODO_21,
+46,TEXT_BANOMI117_04623_TODO_22,
+47,TEXT_BANOMI117_04623_TODO_23,
+48,TEXT_BANOMI117_04623_STIGMA4_000_001,"Bip bip... Pshhh... Récemment, sur in­struc­tions de la petite boule de poils, nous avons nourri la base de données de plusieurs Omicrons avec des données gustatives. Beaucoup ont renvoyé “par­ti­cu­liè­rement stimulant” comme évaluation."
+49,TEXT_BANOMI117_04623_STIGMA4_000_002,"L'un d'entre eux a développé un intérêt prononcé pour le *goût* et a adopté un fonc­tion­ne­ment autonome allant à l'encontre de ses directives pour découvrir de nouvelles saveurs. En temps normal, il devrait être envoyé au recyclage..."
+50,TEXT_BANOMI117_04623_STIGMA4_000_003,Mais la petite boule de poils s'est réjouie de cette anomalie. Elle m'a même prié d'aider cet Omicron défectueux. C'est pourquoi je requiers l'aide de l'entité alliée.
+51,TEXT_BANOMI117_04623_STIGMA4_000_004,Bip bip... Génération des in­struc­tions... Approvisionner des aliments offrant de nouveaux goûts potentiels. Procurez-vous trois  aux terrains de jeu élyséens.
+52,TEXT_BANOMI117_04623_STIGMA4_000_005,Bip bip... Génération des in­struc­tions... Approvisionner des aliments offrant de nouveaux goûts potentiels. Procurez-vous trois  aux terrains de jeu élyséens.
+53,TEXT_BANOMI117_04623_STIGMA4_000_006,Bip bip... Génération des in­struc­tions... Approvisionner des aliments offrant de nouveaux goûts potentiels. Procurez-vous  aux terrains de jeu élyséens. L'utilisation d' comme appât est recommandée.
+54,TEXT_BANOMI117_04623_STIGMA4_000_007,"Retournez à la base des Omicrons une fois votre objectif rempli, et ne tardez pas à remettre le tout à l'Omicron goûteur. Bip bip... Je compte sur votre implication, entité alliée."
+55,TEXT_BANOMI117_04623_OMICRON04623_000_008,Bi-Bip bip... Pshhh... Goût... Stimulant... Bip bip... Pshhh... 
+56,TEXT_BANOMI117_04623_OMICRON04623_000_009,Bi-Bip bip... Pshhh... Goût... Stimulant... Bip bip... Pshhh... 
+57,TEXT_BANOMI117_04623_OMICRON04623_000_010,Bip bip... Pshhh... Réception de la livraison venant de l'entité alliée Player confirmée. Comparaison avec les aliments de la base de données... Bip bip... Structure totalement différente. Qualificatif approprié : *ramassis d'ordures*.
+58,TEXT_BANOMI117_04623_OMICRON04623_000_011,"Je vais enclencher l'évaluation des propriétés nutritives pour les êtres biologiques. En cas de résultats concluants, vous serez soumise à une séance de dégustation, afin de nous fournir les données nécessaires. Bip bip... Observer votre réaction nous fascine déjà."
+59,TEXT_BANOMI117_04623_STIGMA4_000_012,Réception du rapport de mission... Bip bip... Pshhh... Analyse des données gustatives récoltées par l'Omicron goûteur en cours. Modification du statut de la mission de l'entité alliée à “terminée”.
+60,TEXT_BANOMI117_04623_STIGMA4_000_013,"Lorsque le type d'aliment répond au qualificatif “goûteux” après évaluation, nous prévoyons d'offrir un service de transfert des données correspondantes aux Omicrons venant pour leur vidange de routine. Bip bip... "
+61,TEXT_BANOMI117_04623_STIGMA4_000_014,"Je dois maintenant démarrer la matrice de stratégie logistique en prévision d'une demande accrue en huile de vidange. Pshhh... Entité alliée, placez-vous en attente des prochaines in­struc­tions."

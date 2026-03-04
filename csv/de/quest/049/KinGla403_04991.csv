@@ -1,126 +1,122 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGLA403_04991_SEQ_00","Shunye ist auch heute wieder voll und ganz auf gute Geschäfte bedacht."
-1,"TEXT_KINGLA403_04991_SEQ_01","Shunye betraut Uvlo und dich mit der Aufgabe, jeweils sechs <SheetDe(ItemMP,5,43900,2,4,1)/> zu sammeln und bei ihm abzuliefern.
+0,TEXT_KINGLA403_04991_SEQ_00,Shunye ist auch heute wieder voll und ganz auf gute Geschäfte bedacht.
+1,TEXT_KINGLA403_04991_SEQ_01,"Shunye betraut Uvlo und dich mit der Aufgabe, jeweils sechs  zu sammeln und bei ihm abzuliefern.
 
 ※ Gärtner finden die Gegenstände in Ok'hanu, Minenarbeiter beim Haus der Wuchernden Winde in Kozama'uka.
 ※ Die Gegenstände können ab einem Sammlerwert von 240 abgegeben werden. Ab einem Sammlerwert von 600 erhältst du jedoch zusätzliche Belohnungen."
-2,"TEXT_KINGLA403_04991_SEQ_02","Du bringst Shunye die gewünschten Gegenstände und auch Uvlo kehrt nach einer äußerst erfolgreichen Suche zu euch zurück. Er erklärt, dass sich sein Heimatdorf in einem Hochgebirge befindet und er daher ein Talent dafür entwickelt hat, die besten Amethyste aufzuspüren. Im Laufe von Uvlos Erzählung stellt sich heraus, dass er im Auftrag seines Volkes nach Tural geschickt wurde, um die Lebensweise der Shetona zu erforschen, die seinem eigenen Volk trotz der örtlichen Distanz kulturell auffällig ähnlich zu sein scheinen. Kehre zu Shunye zurück, wenn du einen neuen Auftrag annehmen möchtest."
-3,"TEXT_KINGLA403_04991_SEQ_03",""
-4,"TEXT_KINGLA403_04991_SEQ_04",""
-5,"TEXT_KINGLA403_04991_SEQ_05",""
-6,"TEXT_KINGLA403_04991_SEQ_06",""
-7,"TEXT_KINGLA403_04991_SEQ_07",""
-8,"TEXT_KINGLA403_04991_SEQ_08",""
-9,"TEXT_KINGLA403_04991_SEQ_09",""
-10,"TEXT_KINGLA403_04991_SEQ_10",""
-11,"TEXT_KINGLA403_04991_SEQ_11",""
-12,"TEXT_KINGLA403_04991_SEQ_12",""
-13,"TEXT_KINGLA403_04991_SEQ_13",""
-14,"TEXT_KINGLA403_04991_SEQ_14",""
-15,"TEXT_KINGLA403_04991_SEQ_15",""
-16,"TEXT_KINGLA403_04991_SEQ_16",""
-17,"TEXT_KINGLA403_04991_SEQ_17",""
-18,"TEXT_KINGLA403_04991_SEQ_18",""
-19,"TEXT_KINGLA403_04991_SEQ_19",""
-20,"TEXT_KINGLA403_04991_SEQ_20",""
-21,"TEXT_KINGLA403_04991_SEQ_21",""
-22,"TEXT_KINGLA403_04991_SEQ_22",""
-23,"TEXT_KINGLA403_04991_SEQ_23",""
-24,"TEXT_KINGLA403_04991_TODO_00","<If(Equal(PlayerParameter(68),16))><Clickable(<SheetDe(ItemMP,5,43900,2,4,1)/>)/> vom Haus der Wuchernden Winde in Kozama'uka bei Shunye abliefern<Else/><If(Equal(PlayerParameter(68),17))><Clickable(<SheetDe(ItemMP,5,43900,2,4,1)/>)/> aus Ok'hanu bei Shunye abliefern<Else/>Als <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> oder <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If>
-<SheetDe(ItemMP,5,43900,2,4,1)/> bei Shunye abliefern</If></If>"
-25,"TEXT_KINGLA403_04991_TODO_01",""
-26,"TEXT_KINGLA403_04991_TODO_02",""
-27,"TEXT_KINGLA403_04991_TODO_03",""
-28,"TEXT_KINGLA403_04991_TODO_04",""
-29,"TEXT_KINGLA403_04991_TODO_05",""
-30,"TEXT_KINGLA403_04991_TODO_06",""
-31,"TEXT_KINGLA403_04991_TODO_07",""
-32,"TEXT_KINGLA403_04991_TODO_08",""
-33,"TEXT_KINGLA403_04991_TODO_09",""
-34,"TEXT_KINGLA403_04991_TODO_10",""
-35,"TEXT_KINGLA403_04991_TODO_11",""
-36,"TEXT_KINGLA403_04991_TODO_12",""
-37,"TEXT_KINGLA403_04991_TODO_13",""
-38,"TEXT_KINGLA403_04991_TODO_14",""
-39,"TEXT_KINGLA403_04991_TODO_15",""
-40,"TEXT_KINGLA403_04991_TODO_16",""
-41,"TEXT_KINGLA403_04991_TODO_17",""
-42,"TEXT_KINGLA403_04991_TODO_18",""
-43,"TEXT_KINGLA403_04991_TODO_19",""
-44,"TEXT_KINGLA403_04991_TODO_20",""
-45,"TEXT_KINGLA403_04991_TODO_21",""
-46,"TEXT_KINGLA403_04991_TODO_22",""
-47,"TEXT_KINGLA403_04991_TODO_23",""
-48,"TEXT_KINGLA403_04991_UVLO_000_000","Ich möchte Meister Shunye für seine Freundlichkeit danken, indem ich mich besonders anstrenge. Ich habe auf meinen Reisen schon die ver<SoftHyphen/>schie<SoftHyphen/>den<SoftHyphen/>sten Aufträge ausgeführt. Es sollte nichts geben, was ich nicht schaffen kann!"
-49,"TEXT_KINGLA403_04991_SHUNYE_000_010","Schön, dich wiederzusehen, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Bist du bereit für einen neuen Auftrag? Ich könnte deine Hilfe jedenfalls gut gebrauchen."
-50,"TEXT_KINGLA403_04991_SHUNYE_000_011","Sehr schön, vielen Dank! Je mehr helfende Hände, desto besser."
-51,"TEXT_KINGLA403_04991_Q1_000_012","Was sagst du?"
-52,"TEXT_KINGLA403_04991_A1_000_013","Leistet Uvlo gute Arbeit?"
-53,"TEXT_KINGLA403_04991_A1_000_014","Hat sich Uvlo gut eingelebt?"
-54,"TEXT_KINGLA403_04991_SHUNYE_000_015","Ja, noch viel besser, als ich erwartet hatte. Sein einziges Problem war bisher, dass er wirklich absolut mittellos ist. Er hatte nicht einmal genug Geld, um eine Unterkunft zu bezahlen."
-55,"TEXT_KINGLA403_04991_SHUNYE_000_016","Er hat sich schnell an die Aufgaben gewöhnt und leistet gute Arbeit. Sein einziges Problem war bisher, dass er wirklich absolut mittellos ist. Er hatte nicht einmal genug Geld, um eine Unterkunft zu bezahlen."
-56,"TEXT_KINGLA403_04991_SHUNYE_000_017","Als ich ihn darauf ansprach, antwortete er nur, dass er es gewohnt sei, unter freiem Himmel zu schlafen<Indent/>... Aber das konnte ich auf keinen Fall zulassen. Ich trage schließlich Verantwortung für meine Angestellten."
-57,"TEXT_KINGLA403_04991_SHUNYE_000_018","Deswegen habe ich ihm angeboten, übergangsweise bei mir zu wohnen. Nur bis er auf eigenen Beinen steht. "
-58,"TEXT_KINGLA403_04991_SHUNYE_000_019","Er mag zwar nicht immer sonderlich vorausschauend handeln, aber im Grunde genommen ist er ein guter Kerl. Er ist ordentlich, pünktlich und vor allem zuverlässig."
-59,"TEXT_KINGLA403_04991_SHUNYE_000_020","Vielleicht ist das der Einfluss der Dorfältesten, bei denen er aufgewachsen ist?"
-60,"TEXT_KINGLA403_04991_SHUNYE_000_021","Ein ganz anderes Leben als das, das ich in jungen Jahren geführt habe. Die Männer meines Volkes verbringen einen Großteil ihrer Zeit alleine, was dazu führt, dass viele von uns dazu neigen, zuerst an sich selbst zu denken. Ich bin da keine Ausnahme. Umso bemerkenswerter und erfrischender finde ich seine Ehrlichkeit<Indent/>... und natürlich seine Disziplin."
-61,"TEXT_KINGLA403_04991_UVLO_000_022","Gibt es einen neuen Auftrag für uns, Meister Shunye?"
-62,"TEXT_KINGLA403_04991_SHUNYE_000_023","Bist du mit der Inspektion der Vorräte schon fertig? Dann würde ich dich bitten, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> zu begleiten, um weitere Waren zu besorgen."
-63,"TEXT_KINGLA403_04991_UVLO_000_024","Sehr gerne! Ich kann bestimmt noch viel von dir lernen!"
-64,"TEXT_KINGLA403_04991_SHUNYE_000_025","Gut, dann würde ich euch darum bitten, mir zwei <SheetDe(ItemMP,5,43900,2,4,1)/> zu besorgen, die unsere Kunden besonders schätzen."
-65,"TEXT_KINGLA403_04991_SHUNYE_000_026","Zum einen benötige ich Sandelhölzer, denen eine reinigende Wirkung nachgesagt wird. Und zum anderen Edelsteine namens „Amethyst“, die in Yok Tural als äußerst wertvoll gelten. Man erkennt sie an ihrer violetten Farbe."
-66,"TEXT_KINGLA403_04991_SHUNYE_000_027","Ihre Verwendung ist je nach Volk und Region etwas unter<SoftHyphen/>schied<SoftHyphen/>lich, aber beide haben eine starke reinigende Wirkung, die böse Geister austreiben und sie von den Lebenden fern<SoftHyphen/>halten kann."
-67,"TEXT_KINGLA403_04991_UVLO_000_028","Ich dachte immer, dass gesund<SoftHyphen/>heit<SoftHyphen/>liche Beschwerden nur durch Medizin oder Heilkräuter gelindert werden können. Dass es da noch ganz andere Dinge und Methoden gibt, war mir bisher nicht bewusst<Indent/>..."
-68,"TEXT_KINGLA403_04991_UVLO_000_029","Bedeutet das denn, dass alle Waren hier besondere Kräfte haben?"
-69,"TEXT_KINGLA403_04991_SHUNYE_000_030","Sagen wir so: Jedes einzelne Produkt in dieser Apotheke habe ich aus einem bestimmten Grund ins Sortiment aufgenommen. Aber das heißt nicht, dass sie bei jedem Kunden dieselbe Wirkung hervorrufen."
-70,"TEXT_KINGLA403_04991_SHUNYE_000_031","Es gibt auch Kunden, die unsere Waren kaufen, nur weil sie sie schön finden, ohne sich über ihre Wirkungsweisen Gedanken zu machen. Solange es sie am Ende glücklich macht, soll es mir recht sein."
-71,"TEXT_KINGLA403_04991_UVLO_000_032","Jetzt verstehe ich schon besser, warum das Angebot hier so vielfältig ist. Das heißt wahrscheinlich, dass du dich häufig auf Reisen begibst, um nach neuen Produkten zu suchen, oder?"
-72,"TEXT_KINGLA403_04991_SHUNYE_000_033","Leider nicht, nein<Indent/>... Ich verlasse mich hauptsächlich auf Sammler wie euch und kaufe den Rest meiner Waren bei ein paar Händlern meines Vertrauens."
-73,"TEXT_KINGLA403_04991_SHUNYE_000_034","Schließlich kann ich die Apotheke nicht einfach unbeaufsichtigt lassen und außerdem<Indent/>... Na ja<Indent/>... Ich habe meine Gründe, warum ich mich nicht oft vor die Tore der Stadt begebe."
-74,"TEXT_KINGLA403_04991_SHUNYE_000_035","Aber genug geredet! Die Arbeit erledigt sich schließlich nicht von selbst, nicht wahr?"
-75,"TEXT_KINGLA403_04991_SHUNYE_000_036","Die spirituellen Apothekenprodukte, die ich vorhin erwähnt hatte, findet ihr im Norden von Kozama'uka. Wie beim letzten Mal benötige ich jeweils sechs Stück davon und je höher die Qualität, desto besser!"
-76,"TEXT_KINGLA403_04991_UVLO_000_037","Ich möchte meine Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten testen und beide Produkte sammeln! Du kannst dir gerne wie beim letzten Mal selbst aussuchen, ob du lieber die Sandelhölzer oder Amethyste besorgen willst, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-77,"TEXT_KINGLA403_04991_SHUNYE_000_040","In Ok'hanu im Norden von Kozama'uka sind <SheetDe(ItemMP,6,43900,2,1,1)/> sehr beliebt. Ich benötige jeweils sechs Stück davon in bestmöglicher Qualität!"
-78,"TEXT_KINGLA403_04991_SHUNYE_000_050","Auf den ersten Blick sehen diese Exemplare ordentlich aus! Wenn du nichts dagegen hast, würde ich sie mir gerne mal genauer ansehen<Indent/>..."
-79,"TEXT_KINGLA403_04991_SHUNYE_000_051","Nicht zu glauben, was du mir da bringst<Indent/>...! Ich weiß nicht, ob ich je schon mal so prächtige Exemplare gesehen habe!"
-80,"TEXT_KINGLA403_04991_SHUNYE_000_052","Ich danke dir vielmals! Es war sicher nicht einfach, so hochwertige Produkte zu finden. Ich werde sie selbst<SoftHyphen/>verständ<SoftHyphen/>lich angemessen aufbewahren."
-81,"TEXT_KINGLA403_04991_SHUNYE_000_058","Ich habe absolut nichts zu beanstanden, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Du hast wieder einmal bewiesen, was für ein be<SoftHyphen/>ein<SoftHyphen/>dru<SoftHyphen/>cken<SoftHyphen/>des Talent in dir schlummert."
-82,"TEXT_KINGLA403_04991_SHUNYE_000_059","Oder aber du hast einfach viel Übung im Sammeln<Indent/>... Sag, arbeitest du auch wirklich nicht gleichzeitig für einen meiner Konkurrenten?"
-83,"TEXT_KINGLA403_04991_UVLO_000_060","Ich melde mich zurück! Die gewünschten Produkte habe ich mitgebracht. Ich hoffe, sie entsprechen deinen Vorstellungen, Meister Shunye!"
-84,"TEXT_KINGLA403_04991_SHUNYE_000_061","Schön, dass du wieder da bist, Uvlo! Na dann, zeig mal her."
-85,"TEXT_KINGLA403_04991_SHUNYE_000_062","Ohooo<Indent/>...!"
-86,"TEXT_KINGLA403_04991_SHUNYE_000_063","Die Sandelhölzer sehen gut aus und können in den Verkauf gehen. Aber meine Güte, diese Amethyste<Indent/>...! Lupenrein, und sieh dir diese Farbe an! Hast du etwa eine neue Wunderquelle entdeckt?!"
-87,"TEXT_KINGLA403_04991_UVLO_000_064","Nein, ich bin nur ganz gut darin, die schönsten Edelsteine aufzuspüren. Ich komme aus dem Hochland des Skatay-Gebirges, wo es nichts anderes als Berge und Schnee gibt<Indent/>... und natürlich Steine."
-88,"TEXT_KINGLA403_04991_UVLO_000_065","Für das ungeschulte Auge mag ein Stein aussehen wie der andere, aber mein Volk ist in der Lage, magische Steine von gewöhnlichen zu unterscheiden, auch wenn es optisch keinen Unterschied gibt. Wir betrachten sie als Seelenfragmente unserer Vorfahren, die in die Berge zurückgekehrt sind, und tragen sie als Talismane stets bei uns."
-89,"TEXT_KINGLA403_04991_SHUNYE_000_066","Du kommst aus dem Skatay-Gebirge, sagst du? Ich war noch nie dort, aber deine Beschreibung gibt mir eine ganz gute Vorstellung davon. Hört sich sehr schön an!"
-90,"TEXT_KINGLA403_04991_UVLO_000_067","Ich nehme an, dass nicht viele aus Tural schon einmal so weit gereist sind."
-91,"TEXT_KINGLA403_04991_UVLO_000_068","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, du hast doch eine Karte, nicht wahr? Könnten wir sie uns ansehen, während ich weitererzähle? Ich denke, das würde Meister Shunye helfen!"
-92,"TEXT_KINGLA403_04991_UVLO_000_069","Hier befindet sich das Skatay-Gebirge."
-93,"TEXT_KINGLA403_04991_UVLO_000_070","Es verläuft mitten durch den Kontinent Othard und markiert die Grenze zwischen dem Kargland und dem ehemaligen Königreich Dalmasca."
-94,"TEXT_KINGLA403_04991_UVLO_000_071","Ich gehöre zum Volk der Veena Viera, das sich vor vielen, vielen Generationen in kleinen Siedlungen in der Umgebung des Skatay-Gebirges niedergelassen hat. Mein Heimatdorf Kuguma ist eine davon."
-95,"TEXT_KINGLA403_04991_UVLO_000_072","Bei uns kümmern sich die Frauen innerhalb der Gemeinschaft um alle An<SoftHyphen/>ge<SoftHyphen/>legen<SoftHyphen/>heiten des täglichen Lebens, während die Männer als Wächter und Beschützer außerhalb des Dorfes bleiben. Das ist nicht nur bei uns in Kuguma so, sondern auch in Viera-Dörfern in anderen Regionen."
-96,"TEXT_KINGLA403_04991_UVLO_000_073","Im Skatay-Gebirge herrscht fast durchgehend eine eisige Kälte, die das Leben in der Gegend nicht gerade einfach macht. Aber unsere Vorfahren haben uns gelehrt, wie man jagt, wenn die Beute knapp ist, und was man sammeln kann, wenn der Frost nur die widerstandsfähigsten Pflanzen gedeihen lässt."
-97,"TEXT_KINGLA403_04991_UVLO_000_074","Leider hatten die Garlear ein Auge auf die Region geworfen, und obwohl Kuguma nicht direkt angegriffen wurde, war es erschreckend zu sehen, wie die umliegenden Dörfer nach und nach vom Garleischen Kaiserreich geschluckt wurden. "
-98,"TEXT_KINGLA403_04991_UVLO_000_075","In ihrer Not beschlossen unsere Ältesten, vorerst jeglichen Kontakt zur Außenwelt abzubrechen. Sie dachten, uns so besser schützen zu können, bis sich die Lage stabilisiert hatte, aber viele Dorfbewohner waren nicht einverstanden mit dieser Maßnahme."
-99,"TEXT_KINGLA403_04991_UVLO_000_076","Vor einigen Jahren wurde schließlich beschlossen, einen Gesandten zu schicken, um nach der langen Zeit der Isolation die Situation außerhalb unseres Dorfes in Augenschein zu nehmen."
-100,"TEXT_KINGLA403_04991_UVLO_000_077","Die wichtigste Aufgabe dieses Gesandten besteht darin, möglichst viel über den aktuellen Zustand der Welt in Erfahrung zu bringen, die Lebensweise anderer Völker zu studieren und daraus wertvolle Informationen zu ziehen, die für unser Überleben nützlich sein könnten."
-101,"TEXT_KINGLA403_04991_SHUNYE_000_078","Lass mich raten<Indent/>... Dieser Gesandte bist du?"
-102,"TEXT_KINGLA403_04991_UVLO_000_079","Mein Familienname Gahjewesfv bedeutet übersetzt „Wolke“. Wie äußerst passend! Für mein Dorf bin ich wie eine Wolke, die durch die ganze Welt zieht und sie von hoch oben in ihrer Gesamtheit betrachtet."
-103,"TEXT_KINGLA403_04991_SHUNYE_000_080","Ich verstehe<Indent/>... Deswegen möchtest du auch mehr über das Volk der Shetona erfahren. "
-104,"TEXT_KINGLA403_04991_UVLO_000_081","Genau. Ich hoffe, von der Lebensweise der Shetona etwas Nützliches für mein Dorf lernen zu können. Immerhin scheinen wir uns ja kulturell recht nahe zu stehen!"
-105,"TEXT_KINGLA403_04991_UVLO_000_082","Als ich zum ersten Mal von den Shetona hörte, fiel mir auf, wie ähnlich sich unsere Völker sind. Wir besitzen nicht nur eine optische Ähnlichkeit, sondern haben beide eine erhöhte Lebenserwartung und ausgeprägte Unterschiede zwischen den Geschlechtern."
-106,"TEXT_KINGLA403_04991_UVLO_000_083","Zwei verschiedene Völker, die so weit voneinander entfernt leben und sich doch so ähnlich sind<Indent/>... Das musste ich einfach mit eigenen Augen sehen."
-107,"TEXT_KINGLA403_04991_UVLO_000_084","T-Tut mir leid, dass ich so viel geredet habe<Indent/>...! Ich hoffe, ihr versteht jetzt, warum ich mich so für die Shetona interessiere. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, danke für deine Karte!"
-108,"TEXT_KINGLA403_04991_Q2_000_085","Was sagst du?"
-109,"TEXT_KINGLA403_04991_A2_000_086","Man merkt, wie wichtig dir dein Volk ist!"
-110,"TEXT_KINGLA403_04991_A2_000_087","Du trägst eine große Verantwortung<Indent/>..."
-111,"TEXT_KINGLA403_04991_UVLO_000_088","Wir sind wie eine große Familie und es ist eine unvorstellbare Ehre für mich, dass ich als Gesandter auserwählt wurde. Ich werde alles dafür tun, um der Aufgabe gerecht zu werden!"
-112,"TEXT_KINGLA403_04991_UVLO_000_089","Das stimmt, aber wir sind wie eine große Familie und es ist eine unvorstellbare Ehre für mich, dass ich als Gesandter auserwählt wurde. Ich werde alles dafür tun, um der Aufgabe gerecht zu werden!"
-113,"TEXT_KINGLA403_04991_SHUNYE_000_090","Wie eine große Familie, sagst du<Indent/>..."
-114,"TEXT_KINGLA403_04991_SHUNYE_000_091","Ähm, nicht so wichtig. Uvlo, danke, dass du deine Geschichte mit uns geteilt hast!"
-115,"TEXT_KINGLA403_04991_SHUNYE_000_092","Ich danke euch beiden für eure hervorragende Arbeit. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, ich hoffe, dass du bald mal wieder vorbeischaust!"
-116,"TEXT_KINGLA403_04991_SYSTEM_000_093","Dein Beitragsrang in Shunyes Apotheke ist gestiegen! Shunye ist beeindruckt von deiner guten Arbeit und hält dich jetzt für <If(PlayerParameter(4))>eine florierende Sammlerin<Else/>einen florierenden Sammler</If>!"
-117,"TEXT_KINGLA403_04991_SYSTEM_000_100","Sobald du als <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If> oder <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> Stufe 95 erreicht hast, kannst du von Shunye einen neuen Auftrag erhalten."
-118,"TEXT_KINGLA403_04991_SYSTEM_000_101","Um den nächsten Auftrag freizuschalten, musst du zunächst den Hauptszenario-Auftrag „Aufbruch nach Xak Tural“ abschließen."
+2,TEXT_KINGLA403_04991_SEQ_02,"Du bringst Shunye die gewünschten Gegenstände und auch Uvlo kehrt nach einer äußerst erfolgreichen Suche zu euch zurück. Er erklärt, dass sich sein Heimatdorf in einem Hochgebirge befindet und er daher ein Talent dafür entwickelt hat, die besten Amethyste aufzuspüren. Im Laufe von Uvlos Erzählung stellt sich heraus, dass er im Auftrag seines Volkes nach Tural geschickt wurde, um die Lebensweise der Shetona zu erforschen, die seinem eigenen Volk trotz der örtlichen Distanz kulturell auffällig ähnlich zu sein scheinen. Kehre zu Shunye zurück, wenn du einen neuen Auftrag annehmen möchtest."
+3,TEXT_KINGLA403_04991_SEQ_03,
+4,TEXT_KINGLA403_04991_SEQ_04,
+5,TEXT_KINGLA403_04991_SEQ_05,
+6,TEXT_KINGLA403_04991_SEQ_06,
+7,TEXT_KINGLA403_04991_SEQ_07,
+8,TEXT_KINGLA403_04991_SEQ_08,
+9,TEXT_KINGLA403_04991_SEQ_09,
+10,TEXT_KINGLA403_04991_SEQ_10,
+11,TEXT_KINGLA403_04991_SEQ_11,
+12,TEXT_KINGLA403_04991_SEQ_12,
+13,TEXT_KINGLA403_04991_SEQ_13,
+14,TEXT_KINGLA403_04991_SEQ_14,
+15,TEXT_KINGLA403_04991_SEQ_15,
+16,TEXT_KINGLA403_04991_SEQ_16,
+17,TEXT_KINGLA403_04991_SEQ_17,
+18,TEXT_KINGLA403_04991_SEQ_18,
+19,TEXT_KINGLA403_04991_SEQ_19,
+20,TEXT_KINGLA403_04991_SEQ_20,
+21,TEXT_KINGLA403_04991_SEQ_21,
+22,TEXT_KINGLA403_04991_SEQ_22,
+23,TEXT_KINGLA403_04991_SEQ_23,
+24,TEXT_KINGLA403_04991_TODO_00, vom Haus der Wuchernden Winde in Kozama'uka bei Shunye abliefern
+25,TEXT_KINGLA403_04991_TODO_01,
+26,TEXT_KINGLA403_04991_TODO_02,
+27,TEXT_KINGLA403_04991_TODO_03,
+28,TEXT_KINGLA403_04991_TODO_04,
+29,TEXT_KINGLA403_04991_TODO_05,
+30,TEXT_KINGLA403_04991_TODO_06,
+31,TEXT_KINGLA403_04991_TODO_07,
+32,TEXT_KINGLA403_04991_TODO_08,
+33,TEXT_KINGLA403_04991_TODO_09,
+34,TEXT_KINGLA403_04991_TODO_10,
+35,TEXT_KINGLA403_04991_TODO_11,
+36,TEXT_KINGLA403_04991_TODO_12,
+37,TEXT_KINGLA403_04991_TODO_13,
+38,TEXT_KINGLA403_04991_TODO_14,
+39,TEXT_KINGLA403_04991_TODO_15,
+40,TEXT_KINGLA403_04991_TODO_16,
+41,TEXT_KINGLA403_04991_TODO_17,
+42,TEXT_KINGLA403_04991_TODO_18,
+43,TEXT_KINGLA403_04991_TODO_19,
+44,TEXT_KINGLA403_04991_TODO_20,
+45,TEXT_KINGLA403_04991_TODO_21,
+46,TEXT_KINGLA403_04991_TODO_22,
+47,TEXT_KINGLA403_04991_TODO_23,
+48,TEXT_KINGLA403_04991_UVLO_000_000,"Ich möchte Meister Shunye für seine Freundlichkeit danken, indem ich mich besonders anstrenge. Ich habe auf meinen Reisen schon die ver­schie­den­sten Aufträge ausgeführt. Es sollte nichts geben, was ich nicht schaffen kann!"
+49,TEXT_KINGLA403_04991_SHUNYE_000_010,"Schön, dich wiederzusehen, Player! Bist du bereit für einen neuen Auftrag? Ich könnte deine Hilfe jedenfalls gut gebrauchen."
+50,TEXT_KINGLA403_04991_SHUNYE_000_011,"Sehr schön, vielen Dank! Je mehr helfende Hände, desto besser."
+51,TEXT_KINGLA403_04991_Q1_000_012,Was sagst du?
+52,TEXT_KINGLA403_04991_A1_000_013,Leistet Uvlo gute Arbeit?
+53,TEXT_KINGLA403_04991_A1_000_014,Hat sich Uvlo gut eingelebt?
+54,TEXT_KINGLA403_04991_SHUNYE_000_015,"Ja, noch viel besser, als ich erwartet hatte. Sein einziges Problem war bisher, dass er wirklich absolut mittellos ist. Er hatte nicht einmal genug Geld, um eine Unterkunft zu bezahlen."
+55,TEXT_KINGLA403_04991_SHUNYE_000_016,"Er hat sich schnell an die Aufgaben gewöhnt und leistet gute Arbeit. Sein einziges Problem war bisher, dass er wirklich absolut mittellos ist. Er hatte nicht einmal genug Geld, um eine Unterkunft zu bezahlen."
+56,TEXT_KINGLA403_04991_SHUNYE_000_017,"Als ich ihn darauf ansprach, antwortete er nur, dass er es gewohnt sei, unter freiem Himmel zu schlafen ... Aber das konnte ich auf keinen Fall zulassen. Ich trage schließlich Verantwortung für meine Angestellten."
+57,TEXT_KINGLA403_04991_SHUNYE_000_018,"Deswegen habe ich ihm angeboten, übergangsweise bei mir zu wohnen. Nur bis er auf eigenen Beinen steht. "
+58,TEXT_KINGLA403_04991_SHUNYE_000_019,"Er mag zwar nicht immer sonderlich vorausschauend handeln, aber im Grunde genommen ist er ein guter Kerl. Er ist ordentlich, pünktlich und vor allem zuverlässig."
+59,TEXT_KINGLA403_04991_SHUNYE_000_020,"Vielleicht ist das der Einfluss der Dorfältesten, bei denen er aufgewachsen ist?"
+60,TEXT_KINGLA403_04991_SHUNYE_000_021,"Ein ganz anderes Leben als das, das ich in jungen Jahren geführt habe. Die Männer meines Volkes verbringen einen Großteil ihrer Zeit alleine, was dazu führt, dass viele von uns dazu neigen, zuerst an sich selbst zu denken. Ich bin da keine Ausnahme. Umso bemerkenswerter und erfrischender finde ich seine Ehrlichkeit ... und natürlich seine Disziplin."
+61,TEXT_KINGLA403_04991_UVLO_000_022,"Gibt es einen neuen Auftrag für uns, Meister Shunye?"
+62,TEXT_KINGLA403_04991_SHUNYE_000_023,"Bist du mit der Inspektion der Vorräte schon fertig? Dann würde ich dich bitten, Player zu begleiten, um weitere Waren zu besorgen."
+63,TEXT_KINGLA403_04991_UVLO_000_024,Sehr gerne! Ich kann bestimmt noch viel von dir lernen!
+64,TEXT_KINGLA403_04991_SHUNYE_000_025,"Gut, dann würde ich euch darum bitten, mir zwei  zu besorgen, die unsere Kunden besonders schätzen."
+65,TEXT_KINGLA403_04991_SHUNYE_000_026,"Zum einen benötige ich Sandelhölzer, denen eine reinigende Wirkung nachgesagt wird. Und zum anderen Edelsteine namens „Amethyst“, die in Yok Tural als äußerst wertvoll gelten. Man erkennt sie an ihrer violetten Farbe."
+66,TEXT_KINGLA403_04991_SHUNYE_000_027,"Ihre Verwendung ist je nach Volk und Region etwas unter­schied­lich, aber beide haben eine starke reinigende Wirkung, die böse Geister austreiben und sie von den Lebenden fern­halten kann."
+67,TEXT_KINGLA403_04991_UVLO_000_028,"Ich dachte immer, dass gesund­heit­liche Beschwerden nur durch Medizin oder Heilkräuter gelindert werden können. Dass es da noch ganz andere Dinge und Methoden gibt, war mir bisher nicht bewusst ..."
+68,TEXT_KINGLA403_04991_UVLO_000_029,"Bedeutet das denn, dass alle Waren hier besondere Kräfte haben?"
+69,TEXT_KINGLA403_04991_SHUNYE_000_030,"Sagen wir so: Jedes einzelne Produkt in dieser Apotheke habe ich aus einem bestimmten Grund ins Sortiment aufgenommen. Aber das heißt nicht, dass sie bei jedem Kunden dieselbe Wirkung hervorrufen."
+70,TEXT_KINGLA403_04991_SHUNYE_000_031,"Es gibt auch Kunden, die unsere Waren kaufen, nur weil sie sie schön finden, ohne sich über ihre Wirkungsweisen Gedanken zu machen. Solange es sie am Ende glücklich macht, soll es mir recht sein."
+71,TEXT_KINGLA403_04991_UVLO_000_032,"Jetzt verstehe ich schon besser, warum das Angebot hier so vielfältig ist. Das heißt wahrscheinlich, dass du dich häufig auf Reisen begibst, um nach neuen Produkten zu suchen, oder?"
+72,TEXT_KINGLA403_04991_SHUNYE_000_033,"Leider nicht, nein ... Ich verlasse mich hauptsächlich auf Sammler wie euch und kaufe den Rest meiner Waren bei ein paar Händlern meines Vertrauens."
+73,TEXT_KINGLA403_04991_SHUNYE_000_034,"Schließlich kann ich die Apotheke nicht einfach unbeaufsichtigt lassen und außerdem ... Na ja ... Ich habe meine Gründe, warum ich mich nicht oft vor die Tore der Stadt begebe."
+74,TEXT_KINGLA403_04991_SHUNYE_000_035,"Aber genug geredet! Die Arbeit erledigt sich schließlich nicht von selbst, nicht wahr?"
+75,TEXT_KINGLA403_04991_SHUNYE_000_036,"Die spirituellen Apothekenprodukte, die ich vorhin erwähnt hatte, findet ihr im Norden von Kozama'uka. Wie beim letzten Mal benötige ich jeweils sechs Stück davon und je höher die Qualität, desto besser!"
+76,TEXT_KINGLA403_04991_UVLO_000_037,"Ich möchte meine Fä­hig­kei­ten testen und beide Produkte sammeln! Du kannst dir gerne wie beim letzten Mal selbst aussuchen, ob du lieber die Sandelhölzer oder Amethyste besorgen willst, Player."
+77,TEXT_KINGLA403_04991_SHUNYE_000_040,In Ok'hanu im Norden von Kozama'uka sind  sehr beliebt. Ich benötige jeweils sechs Stück davon in bestmöglicher Qualität!
+78,TEXT_KINGLA403_04991_SHUNYE_000_050,"Auf den ersten Blick sehen diese Exemplare ordentlich aus! Wenn du nichts dagegen hast, würde ich sie mir gerne mal genauer ansehen ..."
+79,TEXT_KINGLA403_04991_SHUNYE_000_051,"Nicht zu glauben, was du mir da bringst ...! Ich weiß nicht, ob ich je schon mal so prächtige Exemplare gesehen habe!"
+80,TEXT_KINGLA403_04991_SHUNYE_000_052,"Ich danke dir vielmals! Es war sicher nicht einfach, so hochwertige Produkte zu finden. Ich werde sie selbst­verständ­lich angemessen aufbewahren."
+81,TEXT_KINGLA403_04991_SHUNYE_000_058,"Ich habe absolut nichts zu beanstanden, Player. Du hast wieder einmal bewiesen, was für ein be­ein­dru­cken­des Talent in dir schlummert."
+82,TEXT_KINGLA403_04991_SHUNYE_000_059,"Oder aber du hast einfach viel Übung im Sammeln ... Sag, arbeitest du auch wirklich nicht gleichzeitig für einen meiner Konkurrenten?"
+83,TEXT_KINGLA403_04991_UVLO_000_060,"Ich melde mich zurück! Die gewünschten Produkte habe ich mitgebracht. Ich hoffe, sie entsprechen deinen Vorstellungen, Meister Shunye!"
+84,TEXT_KINGLA403_04991_SHUNYE_000_061,"Schön, dass du wieder da bist, Uvlo! Na dann, zeig mal her."
+85,TEXT_KINGLA403_04991_SHUNYE_000_062,Ohooo ...!
+86,TEXT_KINGLA403_04991_SHUNYE_000_063,"Die Sandelhölzer sehen gut aus und können in den Verkauf gehen. Aber meine Güte, diese Amethyste ...! Lupenrein, und sieh dir diese Farbe an! Hast du etwa eine neue Wunderquelle entdeckt?!"
+87,TEXT_KINGLA403_04991_UVLO_000_064,"Nein, ich bin nur ganz gut darin, die schönsten Edelsteine aufzuspüren. Ich komme aus dem Hochland des Skatay-Gebirges, wo es nichts anderes als Berge und Schnee gibt ... und natürlich Steine."
+88,TEXT_KINGLA403_04991_UVLO_000_065,"Für das ungeschulte Auge mag ein Stein aussehen wie der andere, aber mein Volk ist in der Lage, magische Steine von gewöhnlichen zu unterscheiden, auch wenn es optisch keinen Unterschied gibt. Wir betrachten sie als Seelenfragmente unserer Vorfahren, die in die Berge zurückgekehrt sind, und tragen sie als Talismane stets bei uns."
+89,TEXT_KINGLA403_04991_SHUNYE_000_066,"Du kommst aus dem Skatay-Gebirge, sagst du? Ich war noch nie dort, aber deine Beschreibung gibt mir eine ganz gute Vorstellung davon. Hört sich sehr schön an!"
+90,TEXT_KINGLA403_04991_UVLO_000_067,"Ich nehme an, dass nicht viele aus Tural schon einmal so weit gereist sind."
+91,TEXT_KINGLA403_04991_UVLO_000_068,"Player, du hast doch eine Karte, nicht wahr? Könnten wir sie uns ansehen, während ich weitererzähle? Ich denke, das würde Meister Shunye helfen!"
+92,TEXT_KINGLA403_04991_UVLO_000_069,Hier befindet sich das Skatay-Gebirge.
+93,TEXT_KINGLA403_04991_UVLO_000_070,Es verläuft mitten durch den Kontinent Othard und markiert die Grenze zwischen dem Kargland und dem ehemaligen Königreich Dalmasca.
+94,TEXT_KINGLA403_04991_UVLO_000_071,"Ich gehöre zum Volk der Veena Viera, das sich vor vielen, vielen Generationen in kleinen Siedlungen in der Umgebung des Skatay-Gebirges niedergelassen hat. Mein Heimatdorf Kuguma ist eine davon."
+95,TEXT_KINGLA403_04991_UVLO_000_072,"Bei uns kümmern sich die Frauen innerhalb der Gemeinschaft um alle An­ge­legen­heiten des täglichen Lebens, während die Männer als Wächter und Beschützer außerhalb des Dorfes bleiben. Das ist nicht nur bei uns in Kuguma so, sondern auch in Viera-Dörfern in anderen Regionen."
+96,TEXT_KINGLA403_04991_UVLO_000_073,"Im Skatay-Gebirge herrscht fast durchgehend eine eisige Kälte, die das Leben in der Gegend nicht gerade einfach macht. Aber unsere Vorfahren haben uns gelehrt, wie man jagt, wenn die Beute knapp ist, und was man sammeln kann, wenn der Frost nur die widerstandsfähigsten Pflanzen gedeihen lässt."
+97,TEXT_KINGLA403_04991_UVLO_000_074,"Leider hatten die Garlear ein Auge auf die Region geworfen, und obwohl Kuguma nicht direkt angegriffen wurde, war es erschreckend zu sehen, wie die umliegenden Dörfer nach und nach vom Garleischen Kaiserreich geschluckt wurden. "
+98,TEXT_KINGLA403_04991_UVLO_000_075,"In ihrer Not beschlossen unsere Ältesten, vorerst jeglichen Kontakt zur Außenwelt abzubrechen. Sie dachten, uns so besser schützen zu können, bis sich die Lage stabilisiert hatte, aber viele Dorfbewohner waren nicht einverstanden mit dieser Maßnahme."
+99,TEXT_KINGLA403_04991_UVLO_000_076,"Vor einigen Jahren wurde schließlich beschlossen, einen Gesandten zu schicken, um nach der langen Zeit der Isolation die Situation außerhalb unseres Dorfes in Augenschein zu nehmen."
+100,TEXT_KINGLA403_04991_UVLO_000_077,"Die wichtigste Aufgabe dieses Gesandten besteht darin, möglichst viel über den aktuellen Zustand der Welt in Erfahrung zu bringen, die Lebensweise anderer Völker zu studieren und daraus wertvolle Informationen zu ziehen, die für unser Überleben nützlich sein könnten."
+101,TEXT_KINGLA403_04991_SHUNYE_000_078,Lass mich raten ... Dieser Gesandte bist du?
+102,TEXT_KINGLA403_04991_UVLO_000_079,"Mein Familienname Gahjewesfv bedeutet übersetzt „Wolke“. Wie äußerst passend! Für mein Dorf bin ich wie eine Wolke, die durch die ganze Welt zieht und sie von hoch oben in ihrer Gesamtheit betrachtet."
+103,TEXT_KINGLA403_04991_SHUNYE_000_080,Ich verstehe ... Deswegen möchtest du auch mehr über das Volk der Shetona erfahren. 
+104,TEXT_KINGLA403_04991_UVLO_000_081,"Genau. Ich hoffe, von der Lebensweise der Shetona etwas Nützliches für mein Dorf lernen zu können. Immerhin scheinen wir uns ja kulturell recht nahe zu stehen!"
+105,TEXT_KINGLA403_04991_UVLO_000_082,"Als ich zum ersten Mal von den Shetona hörte, fiel mir auf, wie ähnlich sich unsere Völker sind. Wir besitzen nicht nur eine optische Ähnlichkeit, sondern haben beide eine erhöhte Lebenserwartung und ausgeprägte Unterschiede zwischen den Geschlechtern."
+106,TEXT_KINGLA403_04991_UVLO_000_083,"Zwei verschiedene Völker, die so weit voneinander entfernt leben und sich doch so ähnlich sind ... Das musste ich einfach mit eigenen Augen sehen."
+107,TEXT_KINGLA403_04991_UVLO_000_084,"T-Tut mir leid, dass ich so viel geredet habe ...! Ich hoffe, ihr versteht jetzt, warum ich mich so für die Shetona interessiere. Player, danke für deine Karte!"
+108,TEXT_KINGLA403_04991_Q2_000_085,Was sagst du?
+109,TEXT_KINGLA403_04991_A2_000_086,"Man merkt, wie wichtig dir dein Volk ist!"
+110,TEXT_KINGLA403_04991_A2_000_087,Du trägst eine große Verantwortung ...
+111,TEXT_KINGLA403_04991_UVLO_000_088,"Wir sind wie eine große Familie und es ist eine unvorstellbare Ehre für mich, dass ich als Gesandter auserwählt wurde. Ich werde alles dafür tun, um der Aufgabe gerecht zu werden!"
+112,TEXT_KINGLA403_04991_UVLO_000_089,"Das stimmt, aber wir sind wie eine große Familie und es ist eine unvorstellbare Ehre für mich, dass ich als Gesandter auserwählt wurde. Ich werde alles dafür tun, um der Aufgabe gerecht zu werden!"
+113,TEXT_KINGLA403_04991_SHUNYE_000_090,"Wie eine große Familie, sagst du ..."
+114,TEXT_KINGLA403_04991_SHUNYE_000_091,"Ähm, nicht so wichtig. Uvlo, danke, dass du deine Geschichte mit uns geteilt hast!"
+115,TEXT_KINGLA403_04991_SHUNYE_000_092,"Ich danke euch beiden für eure hervorragende Arbeit. Player, ich hoffe, dass du bald mal wieder vorbeischaust!"
+116,TEXT_KINGLA403_04991_SYSTEM_000_093,Dein Beitragsrang in Shunyes Apotheke ist gestiegen! Shunye ist beeindruckt von deiner guten Arbeit und hält dich jetzt für eine florierende Sammlerin!
+117,TEXT_KINGLA403_04991_SYSTEM_000_100,"Sobald du als Gärtnerin oder Mi­nen­ar­bei­te­rin Stufe 95 erreicht hast, kannst du von Shunye einen neuen Auftrag erhalten."
+118,TEXT_KINGLA403_04991_SYSTEM_000_101,"Um den nächsten Auftrag freizuschalten, musst du zunächst den Hauptszenario-Auftrag „Aufbruch nach Xak Tural“ abschließen."

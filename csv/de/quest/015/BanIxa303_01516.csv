@@ -1,78 +1,75 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANIXA303_01516_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANIXA303_01516_SEQ_00,"** Schwierigkeitsanpassung**
 ※ Dieser Auftrag wird für Charaktere ab Stufe 45 als Krieger oder Magier und ab Stufe 6 als Handwerker empfohlen.
 
 In Ehcatl möchte Rozol Cattlan dich mit einer aufwendigen Handwerksarbeit beauftragen."
-1,"TEXT_BANIXA303_01516_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
+1,TEXT_BANIXA303_01516_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
 
-Rozol Cattlan hat dich mit der Herstellung <SheetDe(ItemHQ,1,　8102,1,2,1)/> beauftragt. Das Material dafür bekommst du von Duvicauroix am Observatorium im zentralen Hochland von Coerthas. Außerdem brauchst du ein Geschenk für Templeton, um ihn zur Kooperation zu bewegen. Schere bei der Himmelswehr <SheetDe(BNpcName,1,　784,1,4,1)/> mit <SheetDe(EventItem,2,2001403,1,3,1)/>, um <SheetDe(EventItem,1,2001402,1,4,1)/> zu erbeuten."
-2,"TEXT_BANIXA303_01516_SEQ_02","Du hast das Material und das Geschenk besorgt. Bring <SheetDe(EventItem,2,2001402,1,4,1)/> zu Templeton, damit er dich die Arbeitsstätte benutzen lässt. Zeige ihm auch das Material, das du verarbeiten möchtest."
-3,"TEXT_BANIXA303_01516_SEQ_03","Templeton hat dir erlaubt, die Arbeitsstätte zu benutzen. Verarbeite <SheetDe(Item,2,　8063,1,4,1)/> zu <SheetDe(ItemHQ,1,　8102,1,3,1)/> und bringe es zu Rozol Cattlan in Ehcatl.
+Rozol Cattlan hat dich mit der Herstellung  beauftragt. Das Material dafür bekommst du von Duvicauroix am Observatorium im zentralen Hochland von Coerthas. Außerdem brauchst du ein Geschenk für Templeton, um ihn zur Kooperation zu bewegen. Schere bei der Himmelswehr  mit , um  zu erbeuten."
+2,TEXT_BANIXA303_01516_SEQ_02,"Du hast das Material und das Geschenk besorgt. Bring  zu Templeton, damit er dich die Arbeitsstätte benutzen lässt. Zeige ihm auch das Material, das du verarbeiten möchtest."
+3,TEXT_BANIXA303_01516_SEQ_03,"Templeton hat dir erlaubt, die Arbeitsstätte zu benutzen. Verarbeite  zu  und bringe es zu Rozol Cattlan in Ehcatl.
 
-※ Sollte der Status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Arbeitsstätte: Herstellung II<UIGlow>01</UIGlow><UIForeground>01</UIForeground> enden oder <SheetDe(Item,2,　8063,1,1,1)/> verloren gehen, kannst du Templeton erneut um Hilfe bitten. Er wird dir dann das Material und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
-4,"TEXT_BANIXA303_01516_SEQ_04","Du hast Rozol Cattlan das bestellte <SheetDe(ItemHQ,5,　8102,1,4,1)/> gebracht und er kann seine Begeisterung über die Qualität deiner Arbeit kaum verbergen, obwohl es ihm sichtlich unangenehm ist, <If(PlayerParameter(4))>eine Federlose<Else/>einen Federlosen</If> zu loben."
-5,"TEXT_BANIXA303_01516_SEQ_05",""
-6,"TEXT_BANIXA303_01516_SEQ_06",""
-7,"TEXT_BANIXA303_01516_SEQ_07",""
-8,"TEXT_BANIXA303_01516_SEQ_08",""
-9,"TEXT_BANIXA303_01516_SEQ_09",""
-10,"TEXT_BANIXA303_01516_SEQ_10",""
-11,"TEXT_BANIXA303_01516_SEQ_11",""
-12,"TEXT_BANIXA303_01516_SEQ_12",""
-13,"TEXT_BANIXA303_01516_SEQ_13",""
-14,"TEXT_BANIXA303_01516_SEQ_14",""
-15,"TEXT_BANIXA303_01516_SEQ_15",""
-16,"TEXT_BANIXA303_01516_SEQ_16",""
-17,"TEXT_BANIXA303_01516_SEQ_17",""
-18,"TEXT_BANIXA303_01516_SEQ_18",""
-19,"TEXT_BANIXA303_01516_SEQ_19",""
-20,"TEXT_BANIXA303_01516_SEQ_20",""
-21,"TEXT_BANIXA303_01516_SEQ_21",""
-22,"TEXT_BANIXA303_01516_SEQ_22",""
-23,"TEXT_BANIXA303_01516_SEQ_23",""
-24,"TEXT_BANIXA303_01516_TODO_00","Am Observatorium mit Duvicauroix sprechen"
-25,"TEXT_BANIXA303_01516_TODO_01","An der Himmelswehr <SheetDe(BNpcName,1,　784,1,4,1)/> mit <SheetDe(EventItem,2,2001403,1,3,1)/> scheren"
-26,"TEXT_BANIXA303_01516_TODO_02","Templeton am Observatorium <SheetDe(EventItem,2,2001402,1,4,1)/> und <SheetDe(EventItem,2,2001401,1,4,1)/> bringen"
-27,"TEXT_BANIXA303_01516_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Handwerker-Notizbuch (Freundesvölker) St.3: <SheetDe(ItemHQ,5,　8102,1,4,1)/> herstellen<Else/>Rozol Cattlan <SheetDe(ItemHQ,2,　8102,1,4,1)/> bringen</If>"
-28,"TEXT_BANIXA303_01516_TODO_04",""
-29,"TEXT_BANIXA303_01516_TODO_05",""
-30,"TEXT_BANIXA303_01516_TODO_06",""
-31,"TEXT_BANIXA303_01516_TODO_07",""
-32,"TEXT_BANIXA303_01516_TODO_08",""
-33,"TEXT_BANIXA303_01516_TODO_09",""
-34,"TEXT_BANIXA303_01516_TODO_10",""
-35,"TEXT_BANIXA303_01516_TODO_11",""
-36,"TEXT_BANIXA303_01516_TODO_12",""
-37,"TEXT_BANIXA303_01516_TODO_13",""
-38,"TEXT_BANIXA303_01516_TODO_14",""
-39,"TEXT_BANIXA303_01516_TODO_15",""
-40,"TEXT_BANIXA303_01516_TODO_16",""
-41,"TEXT_BANIXA303_01516_TODO_17",""
-42,"TEXT_BANIXA303_01516_TODO_18",""
-43,"TEXT_BANIXA303_01516_TODO_19",""
-44,"TEXT_BANIXA303_01516_TODO_20",""
-45,"TEXT_BANIXA303_01516_TODO_21",""
-46,"TEXT_BANIXA303_01516_TODO_22",""
-47,"TEXT_BANIXA303_01516_TODO_23",""
-48,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_000","Kha, kha, <Emphasis>Dezul Qualan</Emphasis> muss fertig werden, weißt du? Machst du <SheetDe(ItemHQ,5,　8102,1,4,1)/>, kha! Müssen Ballast festmachen mit starken Eisenschnallen, kha, kha!"
-49,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_010","Kha, kha, <Emphasis>Dezul Qualan</Emphasis> muss fertig werden, weißt du? Machst du <SheetDe(ItemHQ,5,　8102,1,4,1)/>, kha! Müssen Ballast schützen mit Frostschutz, kha, kha!"
-50,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_020","Kha, kha, <Emphasis>Dezul Qualan</Emphasis> muss fertig werden, weißt du? Machst du <SheetDe(ItemHQ,5,　8102,1,4,1)/>, kha! Müssen Ballast füllen in Schläuche aus Stoff und Leder, kha, kha!"
-51,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_040","Ich hab kein Material für Bauteil, kha! Holst du von Duvicauroix, weißt du? Bei Observatorium, kha!"
-52,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_041","Aus Material machst du Bauteil, kha, mit großer Sorgfalt, kha! Dafür brauchst du Hilfe von Templeton, weißt du? Überredest du ihn mit Geschenk. Kha, kha!"
-53,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_042","An Himmelswehr scherst du <SheetDe(BNpcName,1,　784,1,4,1)/> mit <SheetDe(EventItem,2,2001403,1,3,1)/>, kha! Templeton freut sich über <SheetDe(EventItem,5,2001402,1,4,1)/>, weil er dann nicht mehr so friert, verstehst du? Dann er lässt dich arbeiten, kha! Zeigst du ihm auch Material, kha!"
-54,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_050","Ich hab kein Material für Bauteil, kha! Holst du von Duvicauroix, weißt du? Bei Observatorium, kha!"
-55,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_051","Dann besorgst du Geschenk für Templeton, kha! An Himmelswehr scherst du <SheetDe(BNpcName,1,　784,1,4,1)/> mit <SheetDe(EventItem,2,2001403,1,3,1)/>, kha! Templeton freut sich über <SheetDe(EventItem,5,2001402,1,4,1)/>, weil er dann nicht mehr so friert, verstehst du?"
-56,"TEXT_BANIXA303_01516_DUVICAUROIX_000_060","Sei gegrüßt! Holst du die Lieferung endlich ab? Das wird aber auch Zeit. Ich bin schon völlig durchgefroren."
-57,"TEXT_BANIXA303_01516_DUVICAUROIX_000_061","Hier, nimm schon! Ich will auch gar nicht so genau wissen, wofür das Material ist. Ich habe dabei ein ganz ungutes Gefühl. Sag Tataramu, dass er mich nicht in irgendwelche unheiligen Dinge verstricken soll."
-58,"TEXT_BANIXA303_01516_DUVICAUROIX_000_065","Ich will gar nicht so genau wissen, wofür das Material ist. Ich habe dabei ein ganz ungutes Gefühl. Sag Tataramu, dass er mich nicht in irgendwelche unheiligen Dinge verstricken soll."
-59,"TEXT_BANIXA303_01516_TEMPLETON_000_090","Diese verdammte Kälte bringt mich noch um. Ich würde mich ja gerne hinsetzten, aber so kalt wie hier selbst die Stühle sind, würde ich mir ganz schnell den Allerwertesten abfrieren."
-60,"TEXT_BANIXA303_01516_TEMPLETON_000_091","Oh, wie praktisch, <SheetDe(EventItem,1,2001402,1,1,1)/>! Daraus lässt sich ein wunderbares Kissen häkeln, das hervorragend vor Kälte schützt. Darauf kann ich es mir endlich einmal bequem machen."
-61,"TEXT_BANIXA303_01516_TEMPLETON_000_092","Also dann, bitte sehr! Die Arbeitsstätte steht dir zur freien Verfügung. Hier, nimm dir so viel Materialien, wie du brauchst. Den Rest bewahre ich für dich auf."
-62,"TEXT_BANIXA303_01516_TEMPLETON_000_100","Falls du noch mehr brauchst, sag einfach Bescheid. Keine Sorge, ich hau dich schon nicht übers Ohr. Wir sind doch jetzt <Emphasis>Freunde</Emphasis>."
-63,"TEXT_BANIXA303_01516_TEMPLETON_100_100","Bist du fertig? Dann sieh zu, dass du von hier verschwindest. Es wäre zu blöd, wenn einer meiner Vorgesetzten hier hereinschneite und ich ihm erklären müsste, wie du mir gedroht hast, mich mit ... ähem, dieser Domigator-Wolle zu strangulieren, falls ich dir nicht die Arbeitsstätte überließe. <zwinker>"
-64,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_130","Hast du fertig, kha?! Bringst du <SheetDe(ItemHQ,5,　8102,1,4,1)/>? Oder bringst du Enttäuschung, kha?!"
-65,"TEXT_BANIXA303_01516_ROZOLCATTLAN_000_131","Kha, kha! Gute Qualität ist das. <If(PlayerParameter(4))>Einer Ixal<Else/>Einem Ixal</If> würdig, <If(PlayerParameter(4))>Federlose<Else/>Federloser</If>. Kaum über den Schnabel mir das kommt, kha, aber sagen muss ich es doch."
-66,"TEXT_BANIXA303_01516_POPMESSAGE_000_200","Die Arbeitsstätte steht dir jetzt zur Verfügung."
-67,"TEXT_BANIXA303_01516_SYSTEM_200_200","Gegenstände normaler Qualität, die im Rahmen dieses Auftrags angefertigt wurden, sind nutzlos und sollten weggeworfen werden."
+※ Sollte der Status **Arbeitsstätte: Herstellung II** enden oder  verloren gehen, kannst du Templeton erneut um Hilfe bitten. Er wird dir dann das Material und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
+4,TEXT_BANIXA303_01516_SEQ_04,"Du hast Rozol Cattlan das bestellte  gebracht und er kann seine Begeisterung über die Qualität deiner Arbeit kaum verbergen, obwohl es ihm sichtlich unangenehm ist, eine Federlose zu loben."
+5,TEXT_BANIXA303_01516_SEQ_05,
+6,TEXT_BANIXA303_01516_SEQ_06,
+7,TEXT_BANIXA303_01516_SEQ_07,
+8,TEXT_BANIXA303_01516_SEQ_08,
+9,TEXT_BANIXA303_01516_SEQ_09,
+10,TEXT_BANIXA303_01516_SEQ_10,
+11,TEXT_BANIXA303_01516_SEQ_11,
+12,TEXT_BANIXA303_01516_SEQ_12,
+13,TEXT_BANIXA303_01516_SEQ_13,
+14,TEXT_BANIXA303_01516_SEQ_14,
+15,TEXT_BANIXA303_01516_SEQ_15,
+16,TEXT_BANIXA303_01516_SEQ_16,
+17,TEXT_BANIXA303_01516_SEQ_17,
+18,TEXT_BANIXA303_01516_SEQ_18,
+19,TEXT_BANIXA303_01516_SEQ_19,
+20,TEXT_BANIXA303_01516_SEQ_20,
+21,TEXT_BANIXA303_01516_SEQ_21,
+22,TEXT_BANIXA303_01516_SEQ_22,
+23,TEXT_BANIXA303_01516_SEQ_23,
+24,TEXT_BANIXA303_01516_TODO_00,Am Observatorium mit Duvicauroix sprechen
+25,TEXT_BANIXA303_01516_TODO_01,An der Himmelswehr  mit  scheren
+26,TEXT_BANIXA303_01516_TODO_02,Templeton am Observatorium  und  bringen
+27,TEXT_BANIXA303_01516_TODO_03,Handwerker-Notizbuch (Freundesvölker) St.3:  herstellen
+28,TEXT_BANIXA303_01516_TODO_04,
+29,TEXT_BANIXA303_01516_TODO_05,
+30,TEXT_BANIXA303_01516_TODO_06,
+31,TEXT_BANIXA303_01516_TODO_07,
+32,TEXT_BANIXA303_01516_TODO_08,
+33,TEXT_BANIXA303_01516_TODO_09,
+34,TEXT_BANIXA303_01516_TODO_10,
+35,TEXT_BANIXA303_01516_TODO_11,
+36,TEXT_BANIXA303_01516_TODO_12,
+37,TEXT_BANIXA303_01516_TODO_13,
+38,TEXT_BANIXA303_01516_TODO_14,
+39,TEXT_BANIXA303_01516_TODO_15,
+40,TEXT_BANIXA303_01516_TODO_16,
+41,TEXT_BANIXA303_01516_TODO_17,
+42,TEXT_BANIXA303_01516_TODO_18,
+43,TEXT_BANIXA303_01516_TODO_19,
+44,TEXT_BANIXA303_01516_TODO_20,
+45,TEXT_BANIXA303_01516_TODO_21,
+46,TEXT_BANIXA303_01516_TODO_22,
+47,TEXT_BANIXA303_01516_TODO_23,
+48,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_000,"Kha, kha, *Dezul Qualan* muss fertig werden, weißt du? Machst du , kha! Müssen Ballast festmachen mit starken Eisenschnallen, kha, kha!"
+49,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_010,"Kha, kha, *Dezul Qualan* muss fertig werden, weißt du? Machst du , kha! Müssen Ballast schützen mit Frostschutz, kha, kha!"
+50,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_020,"Kha, kha, *Dezul Qualan* muss fertig werden, weißt du? Machst du , kha! Müssen Ballast füllen in Schläuche aus Stoff und Leder, kha, kha!"
+51,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_040,"Ich hab kein Material für Bauteil, kha! Holst du von Duvicauroix, weißt du? Bei Observatorium, kha!"
+52,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_041,"Aus Material machst du Bauteil, kha, mit großer Sorgfalt, kha! Dafür brauchst du Hilfe von Templeton, weißt du? Überredest du ihn mit Geschenk. Kha, kha!"
+53,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_042,"An Himmelswehr scherst du  mit , kha! Templeton freut sich über , weil er dann nicht mehr so friert, verstehst du? Dann er lässt dich arbeiten, kha! Zeigst du ihm auch Material, kha!"
+54,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_050,"Ich hab kein Material für Bauteil, kha! Holst du von Duvicauroix, weißt du? Bei Observatorium, kha!"
+55,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_051,"Dann besorgst du Geschenk für Templeton, kha! An Himmelswehr scherst du  mit , kha! Templeton freut sich über , weil er dann nicht mehr so friert, verstehst du?"
+56,TEXT_BANIXA303_01516_DUVICAUROIX_000_060,Sei gegrüßt! Holst du die Lieferung endlich ab? Das wird aber auch Zeit. Ich bin schon völlig durchgefroren.
+57,TEXT_BANIXA303_01516_DUVICAUROIX_000_061,"Hier, nimm schon! Ich will auch gar nicht so genau wissen, wofür das Material ist. Ich habe dabei ein ganz ungutes Gefühl. Sag Tataramu, dass er mich nicht in irgendwelche unheiligen Dinge verstricken soll."
+58,TEXT_BANIXA303_01516_DUVICAUROIX_000_065,"Ich will gar nicht so genau wissen, wofür das Material ist. Ich habe dabei ein ganz ungutes Gefühl. Sag Tataramu, dass er mich nicht in irgendwelche unheiligen Dinge verstricken soll."
+59,TEXT_BANIXA303_01516_TEMPLETON_000_090,"Diese verdammte Kälte bringt mich noch um. Ich würde mich ja gerne hinsetzten, aber so kalt wie hier selbst die Stühle sind, würde ich mir ganz schnell den Allerwertesten abfrieren."
+60,TEXT_BANIXA303_01516_TEMPLETON_000_091,"Oh, wie praktisch, ! Daraus lässt sich ein wunderbares Kissen häkeln, das hervorragend vor Kälte schützt. Darauf kann ich es mir endlich einmal bequem machen."
+61,TEXT_BANIXA303_01516_TEMPLETON_000_092,"Also dann, bitte sehr! Die Arbeitsstätte steht dir zur freien Verfügung. Hier, nimm dir so viel Materialien, wie du brauchst. Den Rest bewahre ich für dich auf."
+62,TEXT_BANIXA303_01516_TEMPLETON_000_100,"Falls du noch mehr brauchst, sag einfach Bescheid. Keine Sorge, ich hau dich schon nicht übers Ohr. Wir sind doch jetzt *Freunde*."
+63,TEXT_BANIXA303_01516_TEMPLETON_100_100,"Bist du fertig? Dann sieh zu, dass du von hier verschwindest. Es wäre zu blöd, wenn einer meiner Vorgesetzten hier hereinschneite und ich ihm erklären müsste, wie du mir gedroht hast, mich mit ... ähem, dieser Domigator-Wolle zu strangulieren, falls ich dir nicht die Arbeitsstätte überließe. <zwinker>"
+64,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_130,"Hast du fertig, kha?! Bringst du ? Oder bringst du Enttäuschung, kha?!"
+65,TEXT_BANIXA303_01516_ROZOLCATTLAN_000_131,"Kha, kha! Gute Qualität ist das. Einer Ixal würdig, Federlose. Kaum über den Schnabel mir das kommt, kha, aber sagen muss ich es doch."
+66,TEXT_BANIXA303_01516_POPMESSAGE_000_200,Die Arbeitsstätte steht dir jetzt zur Verfügung.
+67,TEXT_BANIXA303_01516_SYSTEM_200_200,"Gegenstände normaler Qualität, die im Rahmen dieses Auftrags angefertigt wurden, sind nutzlos und sollten weggeworfen werden."

@@ -1,81 +1,78 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANIXA104_01497_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANIXA104_01497_SEQ_00,"** Schwierigkeitsanpassung**
 ※ Dieser Auftrag wird für Charaktere ab Stufe 41 als Krieger oder Magier und ab Stufe 1 als Handwerker empfohlen.
 
 In Ehcatl hofft Yazel Ahuatan auf deine Hilfe."
-1,"TEXT_BANIXA104_01497_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
+1,TEXT_BANIXA104_01497_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst.
 
-Yazel Ahuatan hat dich gebeten, Material zu besorgen. Dafür musst du dich dem Ehcatl-Träger in der Nähe des Gesegneten Jungbaums mit einer Parole zu erkennen geben. Gib in seiner Nähe im „Sagen“-Chatmodus über Tastatur oder die virtuelle Tastatur „Sei eins mit dem Wind!“ ein, um von ihm <SheetDe(EventItem,2,2001380,1,4,1)/> zu erhalten."
-2,"TEXT_BANIXA104_01497_SEQ_02","Der Ehcatl-Träger hat dir <SheetDe(EventItem,2,2001380,1,4,1)/> gegeben und dich gebeten, daraus 3 <SheetDe(Item,5,　8094,2,4,1)/> herzustellen. Dafür musst du das Material zu Nellemond an der Flüsterhain-Stellung bringen und ihn bitten, seine Arbeitsstätte benutzen zu dürfen."
-3,"TEXT_BANIXA104_01497_SEQ_03","Nellemond hat dir erlaubt, seine Arbeitsstätte zu benutzen. Verarbeite <SheetDe(Item,2,　8055,2,4,1)/> zu drei <SheetDe(Item,5,　8094,2,3,1)/> und bringe sie zu Yazel Ahuatan in Ehcatl.
+Yazel Ahuatan hat dich gebeten, Material zu besorgen. Dafür musst du dich dem Ehcatl-Träger in der Nähe des Gesegneten Jungbaums mit einer Parole zu erkennen geben. Gib in seiner Nähe im „Sagen“-Chatmodus über Tastatur oder die virtuelle Tastatur „Sei eins mit dem Wind!“ ein, um von ihm  zu erhalten."
+2,TEXT_BANIXA104_01497_SEQ_02,"Der Ehcatl-Träger hat dir  gegeben und dich gebeten, daraus 3  herzustellen. Dafür musst du das Material zu Nellemond an der Flüsterhain-Stellung bringen und ihn bitten, seine Arbeitsstätte benutzen zu dürfen."
+3,TEXT_BANIXA104_01497_SEQ_03,"Nellemond hat dir erlaubt, seine Arbeitsstätte zu benutzen. Verarbeite  zu drei  und bringe sie zu Yazel Ahuatan in Ehcatl.
 
-※ Sollte der Status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Arbeitsstätte: Herstellung<UIGlow>01</UIGlow><UIForeground>01</UIForeground> enden oder <SheetDe(Item,2,　8055,2,1,1)/> verloren gehen, kannst du Nellemond erneut um Hilfe bitten. Er wird dir dann die Materialien und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
-4,"TEXT_BANIXA104_01497_SEQ_04","Du hast <SheetDe(Item,2,　8094,2,4,1)/> bei Yazel Ahuatan abgeliefert. Er ist schwer beeindruckt, dass du nicht nur das Material besorgt, sondern gleich auch die Weiterverarbeitung übernommen hast. Damit hast du dafür gesorgt, dass die Wolkengleiter ihren Zeitplan zur Verwirklichung ihres Traumes einhalten können, sodass sie bald eins mit dem Wind sein können."
-5,"TEXT_BANIXA104_01497_SEQ_05",""
-6,"TEXT_BANIXA104_01497_SEQ_06",""
-7,"TEXT_BANIXA104_01497_SEQ_07",""
-8,"TEXT_BANIXA104_01497_SEQ_08",""
-9,"TEXT_BANIXA104_01497_SEQ_09",""
-10,"TEXT_BANIXA104_01497_SEQ_10",""
-11,"TEXT_BANIXA104_01497_SEQ_11",""
-12,"TEXT_BANIXA104_01497_SEQ_12",""
-13,"TEXT_BANIXA104_01497_SEQ_13",""
-14,"TEXT_BANIXA104_01497_SEQ_14",""
-15,"TEXT_BANIXA104_01497_SEQ_15",""
-16,"TEXT_BANIXA104_01497_SEQ_16",""
-17,"TEXT_BANIXA104_01497_SEQ_17",""
-18,"TEXT_BANIXA104_01497_SEQ_18",""
-19,"TEXT_BANIXA104_01497_SEQ_19",""
-20,"TEXT_BANIXA104_01497_SEQ_20",""
-21,"TEXT_BANIXA104_01497_SEQ_21",""
-22,"TEXT_BANIXA104_01497_SEQ_22",""
-23,"TEXT_BANIXA104_01497_SEQ_23",""
-24,"TEXT_BANIXA104_01497_TODO_00","Dem Ehcatl-Träger beim Gesegneten Jungbaum die Parole „Sei eins mit dem Wind!“ sagen"
-25,"TEXT_BANIXA104_01497_TODO_01","Nellemond an der Flüsterhain-Stallung <SheetDe(EventItem,2,2001380,1,4,1)/> geben"
-26,"TEXT_BANIXA104_01497_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Handwerker-Notizbuch (Freundesvölker) St.1: <SheetDe(Item,5,　8094,2,4,1)/> herstellen<Else/>Yazel Ahuatan <SheetDe(Item,2,　8094,2,4,1)/> bringen</If>"
-27,"TEXT_BANIXA104_01497_TODO_03",""
-28,"TEXT_BANIXA104_01497_TODO_04",""
-29,"TEXT_BANIXA104_01497_TODO_05",""
-30,"TEXT_BANIXA104_01497_TODO_06",""
-31,"TEXT_BANIXA104_01497_TODO_07",""
-32,"TEXT_BANIXA104_01497_TODO_08",""
-33,"TEXT_BANIXA104_01497_TODO_09",""
-34,"TEXT_BANIXA104_01497_TODO_10",""
-35,"TEXT_BANIXA104_01497_TODO_11",""
-36,"TEXT_BANIXA104_01497_TODO_12",""
-37,"TEXT_BANIXA104_01497_TODO_13",""
-38,"TEXT_BANIXA104_01497_TODO_14",""
-39,"TEXT_BANIXA104_01497_TODO_15",""
-40,"TEXT_BANIXA104_01497_TODO_16",""
-41,"TEXT_BANIXA104_01497_TODO_17",""
-42,"TEXT_BANIXA104_01497_TODO_18",""
-43,"TEXT_BANIXA104_01497_TODO_19",""
-44,"TEXT_BANIXA104_01497_TODO_20",""
-45,"TEXT_BANIXA104_01497_TODO_21",""
-46,"TEXT_BANIXA104_01497_TODO_22",""
-47,"TEXT_BANIXA104_01497_TODO_23",""
-48,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_000","Khaaa, kha, Federlose<If(PlayerParameter(4))><Else/>r</If>! Habe ich großes Problem, kha! Hörst du?!"
-49,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_001","Wollte unser Träger Material für <SheetDe(Item,5,　8094,2,4,1)/>, aber wurde angegriffen von Waldläufern und ist jetzt versteckt."
-50,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_010","Material für Metallbeschläge ist, für Rumpf, khaaa! Wir können nicht holen, sonst holen uns Waldläufer. Aber du kannst, khaaa!"
-51,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_020","Material für Schutzlack ist, für Rumpf, khaaa! Wir können nicht holen, sonst holen uns Waldläufer. Aber du kannst, khaaa!"
-52,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_030","Material für Sperrholzbretter ist, für Rumpf, khaaa! Wir können nicht holen, sonst holen uns Waldläufer. Aber du kannst, khaaa!"
-53,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_040","Khaaa, Federlose<If(PlayerParameter(4))><Else/>r</If>! Guckst du nach Träger und holst du Material, kahhh! Bei Gesegnetem Jungbaum Träger versteckt, khaaa! Guckst du da, kahhh! Wenn du siehst, sagst du Losung: „Sei eins mit dem Wind!“, khaaa!"
-54,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_050","Khaaa, Federlose<If(PlayerParameter(4))><Else/>r</If>! Guckst du nach Träger und holst du Material, kahhh! Bei Gesegnetem Jungbaum Träger versteckt, kha! Guckst du da, kahhh! Wenn du siehst, sagst du Losung: „Sei eins mit dem Wind!“, khaaa!"
-55,"TEXT_BANIXA104_01497_IXALGATHERER01497_100_060","Khaaa! Was willst du <If(PlayerParameter(4))>Federlose<Else/>Federloser</If> von mir? Guck nicht!"
-56,"TEXT_BANIXA104_01497_SYSTEM_100_061","Gib in der Nähe des Trägers im „Sagen“-Chatmodus über Tastatur oder die virtuelle Tastatur „Sei eins mit dem Wind!“ ein."
-57,"TEXT_BANIXA104_01497_SYSTEM_100_062","Sei eins mit dem Wind!"
-58,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_060","Khaaa, die Parole! Bist du <If(PlayerParameter(4))>Freundin<Else/>Freund</If>, oder was?! Material du mir abnimmst, khaaa! Gut, gut!"
-59,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_061","Aber viel zu spät, khaaa! Zeit wir müssen aufholen. Machst du Bauteile aus Material, khaaa?"
-60,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_062","Drei <SheetDe(Item,5,　8094,2,1,1)/> noch fehlen, khaaa! Bei Nellemond du machen, khaaa! Gute Arbeitsstätte er hat. Material du ihm zeigen, kha!"
-61,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_063","Drei <SheetDe(Item,5,　8094,2,1,1)/> noch fehlen, khaaa! Bei Nellemond du machen, khaaa! Gute Arbeitsstätte er hat. Material du ihm zeigen, kha!"
-62,"TEXT_BANIXA104_01497_NELLEMOND_000_090","Meine Arbeitsstätte stelle ich gerne allen Abenteurern zur Verfügung. Zeig mir bitte das Material, das du verarbeiten möchtest, bevor du mit der Arbeit beginnst!"
-63,"TEXT_BANIXA104_01497_NELLEMOND_000_091","Ja, sehr gut. Das ist mehr als nötig. Hier, nimm so viel du brauchst! Die Arbeitsstätte steht dir zur freien Verfügung."
-64,"TEXT_BANIXA104_01497_NELLEMOND_000_100","Falls das Material nicht reicht oder du mit der Arbeitsstätte nicht zurechtkommst, dann sag mir bitte Bescheid. Wir finden schon eine Lösung."
-65,"TEXT_BANIXA104_01497_NELLEMOND_100_100","Bist du schon fertig? Dann kannst du ja deine Waren abliefern! Falls du sie verlieren solltest und neu anfertigen musst, kannst du dich gerne wieder bei mir melden."
-66,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_130","Ohne <SheetDe(Item,5,　8094,2,4,1)/> wir nicht kommen weiter. Khaaa, kha!"
-67,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_131","Khaaa, hast du Bauteil aus Material gemacht?!"
-68,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_132","Genau drei noch gefehlt! Toll, toll, kahhh, für <If(PlayerParameter(4))>eine Federlose<Else/>einen Federlosen</If>!"
-69,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_133","Unseren Traum vom Fliegen du teilst, khaaa! Ich glücklich, khaaa! Zusammen durch Wolken wir gleiten!"
-70,"TEXT_BANIXA104_01497_POPMESSAGE_000_200","Die Arbeitsstätte steht dir jetzt zur Verfügung."
+※ Sollte der Status **Arbeitsstätte: Herstellung** enden oder  verloren gehen, kannst du Nellemond erneut um Hilfe bitten. Er wird dir dann die Materialien und die Arbeitsstätte für einen neuen Versuch zur Verfügung stellen."
+4,TEXT_BANIXA104_01497_SEQ_04,"Du hast  bei Yazel Ahuatan abgeliefert. Er ist schwer beeindruckt, dass du nicht nur das Material besorgt, sondern gleich auch die Weiterverarbeitung übernommen hast. Damit hast du dafür gesorgt, dass die Wolkengleiter ihren Zeitplan zur Verwirklichung ihres Traumes einhalten können, sodass sie bald eins mit dem Wind sein können."
+5,TEXT_BANIXA104_01497_SEQ_05,
+6,TEXT_BANIXA104_01497_SEQ_06,
+7,TEXT_BANIXA104_01497_SEQ_07,
+8,TEXT_BANIXA104_01497_SEQ_08,
+9,TEXT_BANIXA104_01497_SEQ_09,
+10,TEXT_BANIXA104_01497_SEQ_10,
+11,TEXT_BANIXA104_01497_SEQ_11,
+12,TEXT_BANIXA104_01497_SEQ_12,
+13,TEXT_BANIXA104_01497_SEQ_13,
+14,TEXT_BANIXA104_01497_SEQ_14,
+15,TEXT_BANIXA104_01497_SEQ_15,
+16,TEXT_BANIXA104_01497_SEQ_16,
+17,TEXT_BANIXA104_01497_SEQ_17,
+18,TEXT_BANIXA104_01497_SEQ_18,
+19,TEXT_BANIXA104_01497_SEQ_19,
+20,TEXT_BANIXA104_01497_SEQ_20,
+21,TEXT_BANIXA104_01497_SEQ_21,
+22,TEXT_BANIXA104_01497_SEQ_22,
+23,TEXT_BANIXA104_01497_SEQ_23,
+24,TEXT_BANIXA104_01497_TODO_00,Dem Ehcatl-Träger beim Gesegneten Jungbaum die Parole „Sei eins mit dem Wind!“ sagen
+25,TEXT_BANIXA104_01497_TODO_01,Nellemond an der Flüsterhain-Stallung  geben
+26,TEXT_BANIXA104_01497_TODO_02,Handwerker-Notizbuch (Freundesvölker) St.1:  herstellen
+27,TEXT_BANIXA104_01497_TODO_03,
+28,TEXT_BANIXA104_01497_TODO_04,
+29,TEXT_BANIXA104_01497_TODO_05,
+30,TEXT_BANIXA104_01497_TODO_06,
+31,TEXT_BANIXA104_01497_TODO_07,
+32,TEXT_BANIXA104_01497_TODO_08,
+33,TEXT_BANIXA104_01497_TODO_09,
+34,TEXT_BANIXA104_01497_TODO_10,
+35,TEXT_BANIXA104_01497_TODO_11,
+36,TEXT_BANIXA104_01497_TODO_12,
+37,TEXT_BANIXA104_01497_TODO_13,
+38,TEXT_BANIXA104_01497_TODO_14,
+39,TEXT_BANIXA104_01497_TODO_15,
+40,TEXT_BANIXA104_01497_TODO_16,
+41,TEXT_BANIXA104_01497_TODO_17,
+42,TEXT_BANIXA104_01497_TODO_18,
+43,TEXT_BANIXA104_01497_TODO_19,
+44,TEXT_BANIXA104_01497_TODO_20,
+45,TEXT_BANIXA104_01497_TODO_21,
+46,TEXT_BANIXA104_01497_TODO_22,
+47,TEXT_BANIXA104_01497_TODO_23,
+48,TEXT_BANIXA104_01497_YAZELAHUATAN_000_000,"Khaaa, kha, Federlose! Habe ich großes Problem, kha! Hörst du?!"
+49,TEXT_BANIXA104_01497_YAZELAHUATAN_000_001,"Wollte unser Träger Material für , aber wurde angegriffen von Waldläufern und ist jetzt versteckt."
+50,TEXT_BANIXA104_01497_YAZELAHUATAN_000_010,"Material für Metallbeschläge ist, für Rumpf, khaaa! Wir können nicht holen, sonst holen uns Waldläufer. Aber du kannst, khaaa!"
+51,TEXT_BANIXA104_01497_YAZELAHUATAN_000_020,"Material für Schutzlack ist, für Rumpf, khaaa! Wir können nicht holen, sonst holen uns Waldläufer. Aber du kannst, khaaa!"
+52,TEXT_BANIXA104_01497_YAZELAHUATAN_000_030,"Material für Sperrholzbretter ist, für Rumpf, khaaa! Wir können nicht holen, sonst holen uns Waldläufer. Aber du kannst, khaaa!"
+53,TEXT_BANIXA104_01497_YAZELAHUATAN_000_040,"Khaaa, Federlose! Guckst du nach Träger und holst du Material, kahhh! Bei Gesegnetem Jungbaum Träger versteckt, khaaa! Guckst du da, kahhh! Wenn du siehst, sagst du Losung: „Sei eins mit dem Wind!“, khaaa!"
+54,TEXT_BANIXA104_01497_YAZELAHUATAN_000_050,"Khaaa, Federlose! Guckst du nach Träger und holst du Material, kahhh! Bei Gesegnetem Jungbaum Träger versteckt, kha! Guckst du da, kahhh! Wenn du siehst, sagst du Losung: „Sei eins mit dem Wind!“, khaaa!"
+55,TEXT_BANIXA104_01497_IXALGATHERER01497_100_060,Khaaa! Was willst du Federlose von mir? Guck nicht!
+56,TEXT_BANIXA104_01497_SYSTEM_100_061,Gib in der Nähe des Trägers im „Sagen“-Chatmodus über Tastatur oder die virtuelle Tastatur „Sei eins mit dem Wind!“ ein.
+57,TEXT_BANIXA104_01497_SYSTEM_100_062,Sei eins mit dem Wind!
+58,TEXT_BANIXA104_01497_IXALGATHERER01497_000_060,"Khaaa, die Parole! Bist du Freundin, oder was?! Material du mir abnimmst, khaaa! Gut, gut!"
+59,TEXT_BANIXA104_01497_IXALGATHERER01497_000_061,"Aber viel zu spät, khaaa! Zeit wir müssen aufholen. Machst du Bauteile aus Material, khaaa?"
+60,TEXT_BANIXA104_01497_IXALGATHERER01497_000_062,"Drei  noch fehlen, khaaa! Bei Nellemond du machen, khaaa! Gute Arbeitsstätte er hat. Material du ihm zeigen, kha!"
+61,TEXT_BANIXA104_01497_IXALGATHERER01497_000_063,"Drei  noch fehlen, khaaa! Bei Nellemond du machen, khaaa! Gute Arbeitsstätte er hat. Material du ihm zeigen, kha!"
+62,TEXT_BANIXA104_01497_NELLEMOND_000_090,"Meine Arbeitsstätte stelle ich gerne allen Abenteurern zur Verfügung. Zeig mir bitte das Material, das du verarbeiten möchtest, bevor du mit der Arbeit beginnst!"
+63,TEXT_BANIXA104_01497_NELLEMOND_000_091,"Ja, sehr gut. Das ist mehr als nötig. Hier, nimm so viel du brauchst! Die Arbeitsstätte steht dir zur freien Verfügung."
+64,TEXT_BANIXA104_01497_NELLEMOND_000_100,"Falls das Material nicht reicht oder du mit der Arbeitsstätte nicht zurechtkommst, dann sag mir bitte Bescheid. Wir finden schon eine Lösung."
+65,TEXT_BANIXA104_01497_NELLEMOND_100_100,"Bist du schon fertig? Dann kannst du ja deine Waren abliefern! Falls du sie verlieren solltest und neu anfertigen musst, kannst du dich gerne wieder bei mir melden."
+66,TEXT_BANIXA104_01497_YAZELAHUATAN_000_130,"Ohne  wir nicht kommen weiter. Khaaa, kha!"
+67,TEXT_BANIXA104_01497_YAZELAHUATAN_000_131,"Khaaa, hast du Bauteil aus Material gemacht?!"
+68,TEXT_BANIXA104_01497_YAZELAHUATAN_000_132,"Genau drei noch gefehlt! Toll, toll, kahhh, für eine Federlose!"
+69,TEXT_BANIXA104_01497_YAZELAHUATAN_000_133,"Unseren Traum vom Fliegen du teilst, khaaa! Ich glücklich, khaaa! Zusammen durch Wolken wir gleiten!"
+70,TEXT_BANIXA104_01497_POPMESSAGE_000_200,Die Arbeitsstätte steht dir jetzt zur Verfügung.

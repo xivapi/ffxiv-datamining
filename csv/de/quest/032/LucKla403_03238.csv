@@ -1,132 +1,129 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_LUCKLA403_03238_SEQ_00","Qeshi-Rae hält Ausschau nach dir."
-1,"TEXT_LUCKLA403_03238_SEQ_01","Qeshi-Rae erzählt dir, dass die Samiel sich mittels einer Illusion verbergen und ihr eigentlicher Lebensraum auf Kholusia ist. Triff dich dort auf dem Schotterfeld mit Qeshi-Rae und dem Rest des Suchtrupps."
-2,"TEXT_LUCKLA403_03238_SEQ_02","Du besprichst dich mit Qeshi-Rae auf Kholusia. Um die Illusionsmagie der Samiel zu brechen, benötigst du <SheetDe(EventItem,1,2002566,1,4,1)/>. Sammle die dafür nötige <SheetDe(Item,5,26757,1,4,1)/> rund um das Schotterfeld."
-3,"TEXT_LUCKLA403_03238_SEQ_03","Nachdem du den Dämmersand an Qeshi-Rae übergeben hast, stellt sie daraus <SheetDe(EventItem,2,2002566,1,4,1)/> her. Verstreue es am <SheetDe(EObj,5,2009806,1,3,1)/>."
-4,"TEXT_LUCKLA403_03238_SEQ_04","Mithilfe des Entprojizierungspulvers hast du gleich eine ganze Herde der Samiel enttarnt. Qeshi-Rae hat außerdem eine ganze Schar Jungtiere entdeckt und ist überzeugt davon, dass Kholusia das Brutgebiet der Samiel ist. Die Anwesenheit dieser Jungtiere macht die Kreaturen beschützerisch und aggressiv. Deshalb wird einstimmig beschlossen, sich vorerst zurückzuziehen. Kehre zur Manufaktur der Gemeinschaft zurück und sprich mit Qeshi-Rae."
-5,"TEXT_LUCKLA403_03238_SEQ_05","Der Samiel-Suchtrupp ist außer sich vor Freude, die uralten Wesen entdeckt zu haben. Nach erfolgreichem Abschluss der Mission löst sich der Trupp zwar auf, aber Qeshi-Rae hat gerade erst damit begonnen, die Samiel zu erforschen. Neben der Materialbeschaffung wird die Studie der sagen<SoftHyphen/>umwobenen Kreaturen ein Schwerpunkt ihrer Arbeit werden. Falls du auf deinen Reisen noch weitere mysteriöse Pflanzen und Erze findest, solltest du ihr unbedingt von ihnen erzählen."
-6,"TEXT_LUCKLA403_03238_SEQ_06",""
-7,"TEXT_LUCKLA403_03238_SEQ_07",""
-8,"TEXT_LUCKLA403_03238_SEQ_08",""
-9,"TEXT_LUCKLA403_03238_SEQ_09",""
-10,"TEXT_LUCKLA403_03238_SEQ_10",""
-11,"TEXT_LUCKLA403_03238_SEQ_11",""
-12,"TEXT_LUCKLA403_03238_SEQ_12",""
-13,"TEXT_LUCKLA403_03238_SEQ_13",""
-14,"TEXT_LUCKLA403_03238_SEQ_14",""
-15,"TEXT_LUCKLA403_03238_SEQ_15",""
-16,"TEXT_LUCKLA403_03238_SEQ_16",""
-17,"TEXT_LUCKLA403_03238_SEQ_17",""
-18,"TEXT_LUCKLA403_03238_SEQ_18",""
-19,"TEXT_LUCKLA403_03238_SEQ_19",""
-20,"TEXT_LUCKLA403_03238_SEQ_20",""
-21,"TEXT_LUCKLA403_03238_SEQ_21",""
-22,"TEXT_LUCKLA403_03238_SEQ_22",""
-23,"TEXT_LUCKLA403_03238_SEQ_23",""
-24,"TEXT_LUCKLA403_03238_TODO_00","Mit Qeshi-Rae auf dem Schotterfeld sprechen"
-25,"TEXT_LUCKLA403_03238_TODO_01","<Clickable(<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><SheetDe(Item,5,26757,1,4,1)/> auf dem Schotterfeld sammeln<Else/><SheetDe(Item,2,26757,1,4,1)/> zu Qeshi-Rae bringen</If>)/>"
-26,"TEXT_LUCKLA403_03238_TODO_02","<Clickable(<SheetDe(EventItem,2,2002566,1,4,1)/>)/> am <SheetDe(EObj,5,2009806,1,3,1)/> verteilen"
-27,"TEXT_LUCKLA403_03238_TODO_03","Mit Qeshi-Rae in der Manufaktur der Gemeinschaft sprechen"
-28,"TEXT_LUCKLA403_03238_TODO_04",""
-29,"TEXT_LUCKLA403_03238_TODO_05",""
-30,"TEXT_LUCKLA403_03238_TODO_06",""
-31,"TEXT_LUCKLA403_03238_TODO_07",""
-32,"TEXT_LUCKLA403_03238_TODO_08",""
-33,"TEXT_LUCKLA403_03238_TODO_09",""
-34,"TEXT_LUCKLA403_03238_TODO_10",""
-35,"TEXT_LUCKLA403_03238_TODO_11",""
-36,"TEXT_LUCKLA403_03238_TODO_12",""
-37,"TEXT_LUCKLA403_03238_TODO_13",""
-38,"TEXT_LUCKLA403_03238_TODO_14",""
-39,"TEXT_LUCKLA403_03238_TODO_15",""
-40,"TEXT_LUCKLA403_03238_TODO_16",""
-41,"TEXT_LUCKLA403_03238_TODO_17",""
-42,"TEXT_LUCKLA403_03238_TODO_18",""
-43,"TEXT_LUCKLA403_03238_TODO_19",""
-44,"TEXT_LUCKLA403_03238_TODO_20",""
-45,"TEXT_LUCKLA403_03238_TODO_21",""
-46,"TEXT_LUCKLA403_03238_TODO_22",""
-47,"TEXT_LUCKLA403_03238_TODO_23",""
-48,"TEXT_LUCKLA403_03238_SYSTEM_000_900","Um diesen Auftrag spielen zu können, muss der Auftrag „Jemand zu Hause?“ des Hauptszenarios (Shadowbringers) abgeschlossen sein."
-49,"TEXT_LUCKLA403_03238_QESHIRAE_000_000","Da bist du ja, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Na dann, auf nach Kholusia!"
-50,"TEXT_LUCKLA403_03238_YALANA_000_001","Vorsteherin, das kann man ja kaum eine Erklärung nennen! Geht das nicht ein bisschen genauer? <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> weiß ja noch nicht einmal, was los ist!"
-51,"TEXT_LUCKLA403_03238_YALANA_000_002","'tschuldige bitte, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Dank des Hautfetzens konnten wir den möglichen Lebensraum der Samiel deutlich eingrenzen. Wir haben nur auf dich gewartet, um mit der Unter<SoftHyphen/>such<SoftHyphen/>ung des Gebiets zu beginnen."
-52,"TEXT_LUCKLA403_03238_YALANA_000_003","Die Analyse der Probe ergab, dass sich Salzreste daran befinden. Wir vermuten, dass das Samiel aus irgendeinem Grund den Ozean überquert haben muss."
-53,"TEXT_LUCKLA403_03238_YALANA_000_004","Ein Land am Meer, das genug Nahrung für gigantische Kreaturen wie die Samiel bietet<Indent/>... da kommt eigentlich nur Kholusia in Frage!"
-54,"TEXT_LUCKLA403_03238_QESHIRAE_000_005","Oh, oh! Wir haben noch viel mehr herausgefunden! Warum es so teuflisch schwer ist, die Samiel zu finden, nämlich!!"
-55,"TEXT_LUCKLA403_03238_QESHIRAE_000_006","Auf dem Hautfetzen gab's nämlich nicht nur <Emphasis>Salz</Emphasis>kristalle, sondern auch andere. Die sahen denen von Projektionsprismen total ähnlich!"
-56,"TEXT_LUCKLA403_03238_QESHIRAE_000_007","Du kennst doch diese Kristalle, mit denen man Illusionen hervorrufen kann, oder? Würd mich wundern, wenn nicht! Neben dem Kristall<SoftHyphen/>exarchen weiß vermutlich keiner so viel über solche Sachen wie du. Wenn wir Recht haben, nutzen die Samiel die ganze Zeit solche Illusionen, um sich zu verstecken!"
-57,"TEXT_LUCKLA403_03238_MAOLADD_000_008","Einen Körper von so enormer Größe zu verstecken, das schreit doch nach unfassbar starker Magie! Ich bin so aufgeregt!!"
-58,"TEXT_LUCKLA403_03238_QESHIRAE_000_009","Und weißt du was? Mit dem richtigen Pülverchen sollte es uns gelingen, diese Magie zu brechen! Dazu müssen wir es nur da verteilen, wo wir die Samiel vermuten und schwups, steht mein geliebtes Fabelwesen vor uns. So weit die Theorie<Indent/>..."
-59,"TEXT_LUCKLA403_03238_QESHIRAE_000_010","Jetzt müssen wir nur noch an die Zutaten kommen, um das Pulver herzustellen. Leider gestaltet sich das ziemlich schwierig. Deswegen hat der Samiel-Suchtrupp jetzt zwei große Aufgaben: die Zutaten beschaffen und den genauen Aufenthaltsort der Samiel finden!"
-60,"TEXT_LUCKLA403_03238_QESHIRAE_000_011","Um die Zutaten kümmern wir uns zuerst, aber Genaueres erzähl ich dir im Schotterfeld auf Kholusia! Ich kann's kaum erwarten, endlich einem Samiel gegenüberzustehen!"
-61,"TEXT_LUCKLA403_03238_YALANA_000_015","Ein Samiel hat wirklich den Ozean überquert<Indent/>... Ohne den Hautfetzen, den du gefunden hast, hätte ich das niemals für möglich gehalten."
-62,"TEXT_LUCKLA403_03238_MAOLADD_000_016","Hier! Hier leben die Samiel! Stell dir nur vor, eines von ihnen könnte gerade ganz nahe sein<Indent/>..."
-63,"TEXT_LUCKLA403_03238_QESHIRAE_000_020","So, ungefähr hier sollte es sein. In dieser Gegend müsste es Dämmersand geben! Damit können wir <Sheet(EventItem,2002566,9)/> herstellen, um die Illusionsmagie zu brechen!"
-64,"TEXT_LUCKLA403_03238_QESHIRAE_000_021","Deine Aufgabe ist die Zutatenbeschaffung! Sobald du alles hast, kann ich daraus mir nichts, dir nichts Entprojizierungspulver herstellen!"
-65,"TEXT_LUCKLA403_03238_QESHIRAE_000_022","Während du sammelst, untersuchen wir die Gegend und versuchen, ihren Lebensraum genauer zu definieren. Saaamiel, wo steckt iiihr? Mwaaa-hahaha!"
-66,"TEXT_LUCKLA403_03238_YALANA_000_026","Nach einer unsichtbaren Kreatur zu suchen ist nicht unbedingt eine meiner Stärken<Indent/>... Mir tun schon die Augen weh vom angestrengten Blinzeln, aber ich gebe nicht auf, bis ich etwas entdeckt habe!!"
-67,"TEXT_LUCKLA403_03238_YALANA_000_027","Vielen Dank, dass du dich währenddessen um die Zutaten für <SheetDe(EventItem,2,2002566,1,4,1)/> kümmerst!"
-68,"TEXT_LUCKLA403_03238_MAOLADD_000_028","Hast du dich auch gewundert, warum ich das Samiel letztens sehen konnte? Wir hatten schließlich kein Entprojizierungspulver benutzt<Indent/>..."
-69,"TEXT_LUCKLA403_03238_QESHIRAE_000_030","Hast du <SheetDe(Item,2,26757,1,4,1)/> gefunden? Ich kann's kaum erwarten, den Samiel gegenüberzustehen!"
-70,"TEXT_LUCKLA403_03238_QESHIRAE_000_031","Oh-hoho! Das is' genau die Menge und Qualität, die ich wollte. Großartig, dann leg ich mal los! Gib mir einen Moment oder zwei, bis ich das Pülverchen gemischt hab."
-71,"TEXT_LUCKLA403_03238_QESHIRAE_000_032","Tadaaa, schon fertig! Wer hätte gedacht, dass meine mickrigen Alchemiekenntnisse von früher irgendwann so nützlich werden würden!"
-72,"TEXT_LUCKLA403_03238_QESHIRAE_000_033","Aber eigentlich hab ich das alles ja dir zu verdanken, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ich würd dich so gern ganz allein für meine Abteilung Materialbeschaffung haben, weißt du<Indent/>..."
-73,"TEXT_LUCKLA403_03238_Q1_000_000","Was sagst du zu diesem Angebot?"
-74,"TEXT_LUCKLA403_03238_Q1_000_001","Was spricht denn dagegen?"
-75,"TEXT_LUCKLA403_03238_Q1_000_002","Aber ich habe doch auch andere Pflichten<Indent/>..."
-76,"TEXT_LUCKLA403_03238_QESHIRAE_000_034","Ach, du bist viel zu gut zu mir! Leider tret ich damit allen möglichen Leuten auf die Füße, wenn ich dich ganz für mich selbst vereinnahme."
-77,"TEXT_LUCKLA403_03238_QESHIRAE_000_035","Ich seh dich ja auch oft genug ganz beschäftigt durch Crystarium hetzen. Deswegen freut es mein kleines Herz ganz besonders, dass du uns immer zur Seite stehst, wenn wir dich brauchen."
-78,"TEXT_LUCKLA403_03238_QESHIRAE_000_036","Is' wohl wahr. Bei jemandem wie dir wär's auch wirklich ein Verbrechen, dich aus<SoftHyphen/>schließ<SoftHyphen/>lich einer Sache unterzuordnen, hm?"
-79,"TEXT_LUCKLA403_03238_QESHIRAE_000_037","Für mich is' jede Kreatur, die ihren Platz in der rauen Natur gefunden hat, ein echtes Wunder. Vielleicht weil sie wahrhaft frei sind, ohne von oder an irgendwas gebunden zu sein. Und du hast eine ganz ähnliche Ausstrahlung, weißt du?"
-80,"TEXT_LUCKLA403_03238_QESHIRAE_000_038","Hier. Deswegen will ich, dass du <If(PlayerParameter(4))>diejenige<Else/>derjenige</If> bist, <If(PlayerParameter(4))>die<Else/>der</If> das Entprojizierungspulver verstreut. Wir glauben, dass sich die Samiel rund um diesen Hügel da drüben versammelt haben, also versuch's mal da!"
-81,"TEXT_LUCKLA403_03238_QESHIRAE_000_040","Ich kann kaum mehr warten! Schnell, verteil das Entprojizierungspulver! Stell dich auf den Hügel und überlass es dem Wind, das Pulver zu verteilen!"
-82,"TEXT_LUCKLA403_03238_YALANA_000_041","Ganz sicher hält sich ein Samiel hier irgendwo in der Nähe auf. Vorhin habe ich sogar ein abgesplittertes Stück Kralle gefunden!"
-83,"TEXT_LUCKLA403_03238_MAOLADD_000_042","Selbst, wenn ihre Körper durch die Illusionsmagie verborgen sind, kann man sie doch sicherlich wahrnehmen. Sie hören, zum Beispiel, oder vielleicht sogar riechen."
-84,"TEXT_LUCKLA403_03238_MAOLADD_000_043","Die ganzen Geistergeschichten von plötzlichen Böen an windstillen Tagen und unerklärlichen Pfützen in der Dürrezeit<Indent/>... Möglicherweise sind solche Phänomene auch auf die Samiel zurückzuführen."
-85,"TEXT_LUCKLA403_03238_MAOLADD_000_050","V-Vorsteherin! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!
+0,TEXT_LUCKLA403_03238_SEQ_00,Qeshi-Rae hält Ausschau nach dir.
+1,TEXT_LUCKLA403_03238_SEQ_01,"Qeshi-Rae erzählt dir, dass die Samiel sich mittels einer Illusion verbergen und ihr eigentlicher Lebensraum auf Kholusia ist. Triff dich dort auf dem Schotterfeld mit Qeshi-Rae und dem Rest des Suchtrupps."
+2,TEXT_LUCKLA403_03238_SEQ_02,"Du besprichst dich mit Qeshi-Rae auf Kholusia. Um die Illusionsmagie der Samiel zu brechen, benötigst du . Sammle die dafür nötige  rund um das Schotterfeld."
+3,TEXT_LUCKLA403_03238_SEQ_03,"Nachdem du den Dämmersand an Qeshi-Rae übergeben hast, stellt sie daraus  her. Verstreue es am ."
+4,TEXT_LUCKLA403_03238_SEQ_04,"Mithilfe des Entprojizierungspulvers hast du gleich eine ganze Herde der Samiel enttarnt. Qeshi-Rae hat außerdem eine ganze Schar Jungtiere entdeckt und ist überzeugt davon, dass Kholusia das Brutgebiet der Samiel ist. Die Anwesenheit dieser Jungtiere macht die Kreaturen beschützerisch und aggressiv. Deshalb wird einstimmig beschlossen, sich vorerst zurückzuziehen. Kehre zur Manufaktur der Gemeinschaft zurück und sprich mit Qeshi-Rae."
+5,TEXT_LUCKLA403_03238_SEQ_05,"Der Samiel-Suchtrupp ist außer sich vor Freude, die uralten Wesen entdeckt zu haben. Nach erfolgreichem Abschluss der Mission löst sich der Trupp zwar auf, aber Qeshi-Rae hat gerade erst damit begonnen, die Samiel zu erforschen. Neben der Materialbeschaffung wird die Studie der sagen­umwobenen Kreaturen ein Schwerpunkt ihrer Arbeit werden. Falls du auf deinen Reisen noch weitere mysteriöse Pflanzen und Erze findest, solltest du ihr unbedingt von ihnen erzählen."
+6,TEXT_LUCKLA403_03238_SEQ_06,
+7,TEXT_LUCKLA403_03238_SEQ_07,
+8,TEXT_LUCKLA403_03238_SEQ_08,
+9,TEXT_LUCKLA403_03238_SEQ_09,
+10,TEXT_LUCKLA403_03238_SEQ_10,
+11,TEXT_LUCKLA403_03238_SEQ_11,
+12,TEXT_LUCKLA403_03238_SEQ_12,
+13,TEXT_LUCKLA403_03238_SEQ_13,
+14,TEXT_LUCKLA403_03238_SEQ_14,
+15,TEXT_LUCKLA403_03238_SEQ_15,
+16,TEXT_LUCKLA403_03238_SEQ_16,
+17,TEXT_LUCKLA403_03238_SEQ_17,
+18,TEXT_LUCKLA403_03238_SEQ_18,
+19,TEXT_LUCKLA403_03238_SEQ_19,
+20,TEXT_LUCKLA403_03238_SEQ_20,
+21,TEXT_LUCKLA403_03238_SEQ_21,
+22,TEXT_LUCKLA403_03238_SEQ_22,
+23,TEXT_LUCKLA403_03238_SEQ_23,
+24,TEXT_LUCKLA403_03238_TODO_00,Mit Qeshi-Rae auf dem Schotterfeld sprechen
+25,TEXT_LUCKLA403_03238_TODO_01, auf dem Schotterfeld sammeln
+26,TEXT_LUCKLA403_03238_TODO_02, am  verteilen
+27,TEXT_LUCKLA403_03238_TODO_03,Mit Qeshi-Rae in der Manufaktur der Gemeinschaft sprechen
+28,TEXT_LUCKLA403_03238_TODO_04,
+29,TEXT_LUCKLA403_03238_TODO_05,
+30,TEXT_LUCKLA403_03238_TODO_06,
+31,TEXT_LUCKLA403_03238_TODO_07,
+32,TEXT_LUCKLA403_03238_TODO_08,
+33,TEXT_LUCKLA403_03238_TODO_09,
+34,TEXT_LUCKLA403_03238_TODO_10,
+35,TEXT_LUCKLA403_03238_TODO_11,
+36,TEXT_LUCKLA403_03238_TODO_12,
+37,TEXT_LUCKLA403_03238_TODO_13,
+38,TEXT_LUCKLA403_03238_TODO_14,
+39,TEXT_LUCKLA403_03238_TODO_15,
+40,TEXT_LUCKLA403_03238_TODO_16,
+41,TEXT_LUCKLA403_03238_TODO_17,
+42,TEXT_LUCKLA403_03238_TODO_18,
+43,TEXT_LUCKLA403_03238_TODO_19,
+44,TEXT_LUCKLA403_03238_TODO_20,
+45,TEXT_LUCKLA403_03238_TODO_21,
+46,TEXT_LUCKLA403_03238_TODO_22,
+47,TEXT_LUCKLA403_03238_TODO_23,
+48,TEXT_LUCKLA403_03238_SYSTEM_000_900,"Um diesen Auftrag spielen zu können, muss der Auftrag „Jemand zu Hause?“ des Hauptszenarios (Shadowbringers) abgeschlossen sein."
+49,TEXT_LUCKLA403_03238_QESHIRAE_000_000,"Da bist du ja, Player! Na dann, auf nach Kholusia!"
+50,TEXT_LUCKLA403_03238_YALANA_000_001,"Vorsteherin, das kann man ja kaum eine Erklärung nennen! Geht das nicht ein bisschen genauer? Player weiß ja noch nicht einmal, was los ist!"
+51,TEXT_LUCKLA403_03238_YALANA_000_002,"'tschuldige bitte, Player. Dank des Hautfetzens konnten wir den möglichen Lebensraum der Samiel deutlich eingrenzen. Wir haben nur auf dich gewartet, um mit der Unter­such­ung des Gebiets zu beginnen."
+52,TEXT_LUCKLA403_03238_YALANA_000_003,"Die Analyse der Probe ergab, dass sich Salzreste daran befinden. Wir vermuten, dass das Samiel aus irgendeinem Grund den Ozean überquert haben muss."
+53,TEXT_LUCKLA403_03238_YALANA_000_004,"Ein Land am Meer, das genug Nahrung für gigantische Kreaturen wie die Samiel bietet ... da kommt eigentlich nur Kholusia in Frage!"
+54,TEXT_LUCKLA403_03238_QESHIRAE_000_005,"Oh, oh! Wir haben noch viel mehr herausgefunden! Warum es so teuflisch schwer ist, die Samiel zu finden, nämlich!!"
+55,TEXT_LUCKLA403_03238_QESHIRAE_000_006,"Auf dem Hautfetzen gab's nämlich nicht nur *Salz*kristalle, sondern auch andere. Die sahen denen von Projektionsprismen total ähnlich!"
+56,TEXT_LUCKLA403_03238_QESHIRAE_000_007,"Du kennst doch diese Kristalle, mit denen man Illusionen hervorrufen kann, oder? Würd mich wundern, wenn nicht! Neben dem Kristall­exarchen weiß vermutlich keiner so viel über solche Sachen wie du. Wenn wir Recht haben, nutzen die Samiel die ganze Zeit solche Illusionen, um sich zu verstecken!"
+57,TEXT_LUCKLA403_03238_MAOLADD_000_008,"Einen Körper von so enormer Größe zu verstecken, das schreit doch nach unfassbar starker Magie! Ich bin so aufgeregt!!"
+58,TEXT_LUCKLA403_03238_QESHIRAE_000_009,"Und weißt du was? Mit dem richtigen Pülverchen sollte es uns gelingen, diese Magie zu brechen! Dazu müssen wir es nur da verteilen, wo wir die Samiel vermuten und schwups, steht mein geliebtes Fabelwesen vor uns. So weit die Theorie ..."
+59,TEXT_LUCKLA403_03238_QESHIRAE_000_010,"Jetzt müssen wir nur noch an die Zutaten kommen, um das Pulver herzustellen. Leider gestaltet sich das ziemlich schwierig. Deswegen hat der Samiel-Suchtrupp jetzt zwei große Aufgaben: die Zutaten beschaffen und den genauen Aufenthaltsort der Samiel finden!"
+60,TEXT_LUCKLA403_03238_QESHIRAE_000_011,"Um die Zutaten kümmern wir uns zuerst, aber Genaueres erzähl ich dir im Schotterfeld auf Kholusia! Ich kann's kaum erwarten, endlich einem Samiel gegenüberzustehen!"
+61,TEXT_LUCKLA403_03238_YALANA_000_015,"Ein Samiel hat wirklich den Ozean überquert ... Ohne den Hautfetzen, den du gefunden hast, hätte ich das niemals für möglich gehalten."
+62,TEXT_LUCKLA403_03238_MAOLADD_000_016,"Hier! Hier leben die Samiel! Stell dir nur vor, eines von ihnen könnte gerade ganz nahe sein ..."
+63,TEXT_LUCKLA403_03238_QESHIRAE_000_020,"So, ungefähr hier sollte es sein. In dieser Gegend müsste es Dämmersand geben! Damit können wir  herstellen, um die Illusionsmagie zu brechen!"
+64,TEXT_LUCKLA403_03238_QESHIRAE_000_021,"Deine Aufgabe ist die Zutatenbeschaffung! Sobald du alles hast, kann ich daraus mir nichts, dir nichts Entprojizierungspulver herstellen!"
+65,TEXT_LUCKLA403_03238_QESHIRAE_000_022,"Während du sammelst, untersuchen wir die Gegend und versuchen, ihren Lebensraum genauer zu definieren. Saaamiel, wo steckt iiihr? Mwaaa-hahaha!"
+66,TEXT_LUCKLA403_03238_YALANA_000_026,"Nach einer unsichtbaren Kreatur zu suchen ist nicht unbedingt eine meiner Stärken ... Mir tun schon die Augen weh vom angestrengten Blinzeln, aber ich gebe nicht auf, bis ich etwas entdeckt habe!!"
+67,TEXT_LUCKLA403_03238_YALANA_000_027,"Vielen Dank, dass du dich währenddessen um die Zutaten für  kümmerst!"
+68,TEXT_LUCKLA403_03238_MAOLADD_000_028,"Hast du dich auch gewundert, warum ich das Samiel letztens sehen konnte? Wir hatten schließlich kein Entprojizierungspulver benutzt ..."
+69,TEXT_LUCKLA403_03238_QESHIRAE_000_030,"Hast du  gefunden? Ich kann's kaum erwarten, den Samiel gegenüberzustehen!"
+70,TEXT_LUCKLA403_03238_QESHIRAE_000_031,"Oh-hoho! Das is' genau die Menge und Qualität, die ich wollte. Großartig, dann leg ich mal los! Gib mir einen Moment oder zwei, bis ich das Pülverchen gemischt hab."
+71,TEXT_LUCKLA403_03238_QESHIRAE_000_032,"Tadaaa, schon fertig! Wer hätte gedacht, dass meine mickrigen Alchemiekenntnisse von früher irgendwann so nützlich werden würden!"
+72,TEXT_LUCKLA403_03238_QESHIRAE_000_033,"Aber eigentlich hab ich das alles ja dir zu verdanken, Player. Ich würd dich so gern ganz allein für meine Abteilung Materialbeschaffung haben, weißt du ..."
+73,TEXT_LUCKLA403_03238_Q1_000_000,Was sagst du zu diesem Angebot?
+74,TEXT_LUCKLA403_03238_Q1_000_001,Was spricht denn dagegen?
+75,TEXT_LUCKLA403_03238_Q1_000_002,Aber ich habe doch auch andere Pflichten ...
+76,TEXT_LUCKLA403_03238_QESHIRAE_000_034,"Ach, du bist viel zu gut zu mir! Leider tret ich damit allen möglichen Leuten auf die Füße, wenn ich dich ganz für mich selbst vereinnahme."
+77,TEXT_LUCKLA403_03238_QESHIRAE_000_035,"Ich seh dich ja auch oft genug ganz beschäftigt durch Crystarium hetzen. Deswegen freut es mein kleines Herz ganz besonders, dass du uns immer zur Seite stehst, wenn wir dich brauchen."
+78,TEXT_LUCKLA403_03238_QESHIRAE_000_036,"Is' wohl wahr. Bei jemandem wie dir wär's auch wirklich ein Verbrechen, dich aus­schließ­lich einer Sache unterzuordnen, hm?"
+79,TEXT_LUCKLA403_03238_QESHIRAE_000_037,"Für mich is' jede Kreatur, die ihren Platz in der rauen Natur gefunden hat, ein echtes Wunder. Vielleicht weil sie wahrhaft frei sind, ohne von oder an irgendwas gebunden zu sein. Und du hast eine ganz ähnliche Ausstrahlung, weißt du?"
+80,TEXT_LUCKLA403_03238_QESHIRAE_000_038,"Hier. Deswegen will ich, dass du diejenige bist, die das Entprojizierungspulver verstreut. Wir glauben, dass sich die Samiel rund um diesen Hügel da drüben versammelt haben, also versuch's mal da!"
+81,TEXT_LUCKLA403_03238_QESHIRAE_000_040,"Ich kann kaum mehr warten! Schnell, verteil das Entprojizierungspulver! Stell dich auf den Hügel und überlass es dem Wind, das Pulver zu verteilen!"
+82,TEXT_LUCKLA403_03238_YALANA_000_041,Ganz sicher hält sich ein Samiel hier irgendwo in der Nähe auf. Vorhin habe ich sogar ein abgesplittertes Stück Kralle gefunden!
+83,TEXT_LUCKLA403_03238_MAOLADD_000_042,"Selbst, wenn ihre Körper durch die Illusionsmagie verborgen sind, kann man sie doch sicherlich wahrnehmen. Sie hören, zum Beispiel, oder vielleicht sogar riechen."
+84,TEXT_LUCKLA403_03238_MAOLADD_000_043,Die ganzen Geistergeschichten von plötzlichen Böen an windstillen Tagen und unerklärlichen Pfützen in der Dürrezeit ... Möglicherweise sind solche Phänomene auch auf die Samiel zurückzuführen.
+85,TEXT_LUCKLA403_03238_MAOLADD_000_050,"V-Vorsteherin! Player!
 Seht doch, dort!!"
-86,"TEXT_LUCKLA403_03238_QESHIRAE_000_051","Waaahnsinn! Ich <Emphasis>wusste</Emphasis>, dass die Samiel nicht nur eine Legende sind! Sie sind sogar noch größer, als ich sie mir vorgestellt hab!"
-87,"TEXT_LUCKLA403_03238_YALANA_000_052","Genau, wie die Vorsteherin gesagt hat. Sie verbergen sich mit Illusionsmagie, die ganz offensichtlich durch das Entprojizierungspulver gebrochen wurde. Unsere Theorie wurde belegt!"
-88,"TEXT_LUCKLA403_03238_QESHIRAE_000_053","He, schaut mal! Da sind doch sogar Jungtiere, oder? Is' das hier vielleicht ihre Brutstätte? Die Insel liegt ziemlich abgelegen und bietet sich damit ja eigentlich perfekt an<Indent/>..."
-89,"TEXT_LUCKLA403_03238_QESHIRAE_000_054","Und somit wäre auch bewiesen, dass die Samiel Herdentiere sind. Dass sie umherziehen können, ohne sich gegenseitig zu sehen<Indent/>... Vermutlich kommunizieren sie auf einer Frequenz, die wir schlicht und einfach nicht hören können."
-90,"TEXT_LUCKLA403_03238_MAOLADD_000_055","Aber<Indent/>... als ich letztens das Samiel gesehen habe, muss es die Illusionsmagie ja willentlich unterbrochen haben. Wenn sie eigentlich immer unsichtbar sind, warum hat es dann<Indent/>... "
-91,"TEXT_LUCKLA403_03238_QESHIRAE_000_056","Hah. Interessante Frage. Es is' nichts weiter als eine Theorie, aber<Indent/>... "
-92,"TEXT_LUCKLA403_03238_QESHIRAE_000_057","... vielleicht hatte sich dieses Samiel verliebt?"
-93,"TEXT_LUCKLA403_03238_YALANA_000_058","V-Verliebt?"
-94,"TEXT_LUCKLA403_03238_QESHIRAE_000_059","Na, Balzverhalten während der Brunftzeit, is' doch ganz klar! Um einem potenziellen Partner zu zeigen, dass man stramm, gesund und die perfekte Wahl is', muss man sich doch präsentieren!"
-95,"TEXT_LUCKLA403_03238_MAOLADD_000_060","Das würde tatsächlich Sinn ergeben. Sich zu enttarnen und damit diversen Gefahren auszusetzen, um seinen Partner zu beeindrucken<Indent/>... Irgendwie romantisch."
-96,"TEXT_LUCKLA403_03238_YALANA_000_061","Also war neulich vielleicht ein weiteres Samiel ganz in der Nähe? Wie ihr Paarungsverhalten wohl aussieht<Indent/>..."
-97,"TEXT_LUCKLA403_03238_QESHIRAE_000_062","Na ja, sie sind sehr groß und ganz bestimmt sehr schwer, also findet das vielleicht im Wasser statt. Ach, irgendwann finden wir das bestimmt auch noch raus!"
-98,"TEXT_LUCKLA403_03238_QESHIRAE_000_063","Na, wie dem auch sei! Samiel-Forschung, volle Kraft voraus! Neben dem regulären Ressourcen- und Materialalltag, selbst<SoftHyphen/>verständ<SoftHyphen/>lich. Oooh, sooo viele Dinge zu erforschen<Indent/>... Mwahaaa<Indent/>..."
-99,"TEXT_LUCKLA403_03238_QESHIRAE_000_064","Oh oh, hat es uns bemerkt?!"
-100,"TEXT_LUCKLA403_03238_QESHIRAE_000_065","Mit Kreaturen, die ihre Jungtiere im Schlepptau haben, is' generell nicht gut Kirschen essen. Wenn sie zu nervös werden, könnten wir als Brei enden<Indent/>... Und das wär sehr schlecht für unsere Forschung."
-101,"TEXT_LUCKLA403_03238_QESHIRAE_000_066","Der Effekt des Entprojizierungspulvers verfliegt sicher auch gleich. Samiel-Suchtrupp, auf geht's! Zurück zur Manufaktur! Ein Naturkunde-Durchbruch passiert schließlich nicht an einem Tag!"
-102,"TEXT_LUCKLA403_03238_YALANA_000_067","Ich habe echte Samiel gesehen. Mit meinen eigenen zwei Augen. Wenn du nicht gewesen wärst, würde ich jetzt noch glauben, dass es nichts weiter als ein Märchen ist, Qeshi-Rae."
-103,"TEXT_LUCKLA403_03238_MAOLADD_000_068","Die Jungtiere waren richtig niedlich! Ich hoffe, dass sie unbeschadet aufwachsen und ordentlich groß und kräftig werden."
-104,"TEXT_LUCKLA403_03238_QESHIRAE_000_070","Haaach! Wir haben die Samiel nur kurz gesehen, aber es war großartig! Mein Entdeckerinnenherz hüpft beim Gedanken, sie mehr und mehr zu erforschen!"
-105,"TEXT_LUCKLA403_03238_YALANA_000_071","Forschung ist wunderbar, aber bitte vernachlässige nicht deine Pflichten als Vorsteherin der Abteilung Materialbeschaffung."
-106,"TEXT_LUCKLA403_03238_QESHIRAE_000_072","Mwa-haha, weiß ich doch! <zwinker>"
-107,"TEXT_LUCKLA403_03238_MAOLADD_000_073","Aber Yalana<Indent/>... Ich seh's in deinen Augen, du freust dich genauso sehr darauf wie ich! Du hast vorhin irgendwas von einem Forschungsplan gemurmelt, ich hab's genau gehört!"
-108,"TEXT_LUCKLA403_03238_YALANA_000_074","Ach natürlich, es ist aber auch wirklich sehr aufregend! Was fressen Samiel? Wie funktioniert der Metabolismus einer so riesigen Kreatur? So viele Fragen<Indent/>..."
-109,"TEXT_LUCKLA403_03238_QESHIRAE_000_075","Man kann's wirklich nur als Wunder bezeichnen. Als die ganze Welt vor einhundert Jahren praktisch von Licht verschluckt wurde, is' das ganze Ökosystem zu<SoftHyphen/>sammen<SoftHyphen/>gebrochen. Unzählige Lebewesen sind ausgestorben<Indent/>..."
-110,"TEXT_LUCKLA403_03238_QESHIRAE_000_076","Meine Generation, die nach dieser Lichtflut geboren wurde<Indent/>... Wir kennen nur das, was das Licht übrig gelassen hat. Egal ob Bücher, Leute, oder eben solche Wesen. So viel ging verloren."
-111,"TEXT_LUCKLA403_03238_QESHIRAE_000_077","In einer Welt, die gefühlt so nah am Abgrund steht, trotzdem jeden Tag aufs Neue nach vorn zu blicken<Indent/>... Das ist es, was uns zu Bewohnern dieser einzigartigen Stadt macht."
-112,"TEXT_LUCKLA403_03238_QESHIRAE_000_078","Daran glaube ich jedenfalls. Irgendwann wird Leben in diesen lichtgetränkten Grund zurückkehren und unsere Welt wieder aufblühen. Ich bin mir sicher."
-113,"TEXT_LUCKLA403_03238_QESHIRAE_000_079","Deswegen ist die Verwaltung von Ressourcen so wichtig. Wir pflegen die Wurzeln, aus denen Blumen wachsen können. Irgendwann, in ferner Zukunft. Das is' das, was wir im Hier und Jetzt für diese Welt tun können."
-114,"TEXT_LUCKLA403_03238_QESHIRAE_000_080","Auch was die Samiel betrifft<Indent/>... Ich will ihren Lebensraum und ihr Verhalten vorsichtig erforschen, um auf ein Zusammenleben in der Zukunft hinzuarbeiten."
-115,"TEXT_LUCKLA403_03238_QESHIRAE_000_081","Gemeinsam mit Yalana und Mao, natürlich! Sie sind immerhin unerlässlich für die Analysen!"
-116,"TEXT_LUCKLA403_03238_YALANA_000_082","Hach, und sofort trägst du uns Arbeit auf<Indent/>..."
-117,"TEXT_LUCKLA403_03238_YALANA_000_083","... Aber natürlich stehe ich dir gern zur Verfügung. Wenn ich nicht dauernd ein Auge auf dich habe, rennst du ja doch sofort wieder weg, Qeshi."
-118,"TEXT_LUCKLA403_03238_MAOLADD_000_084","So viele unerklärliche Dinge scheinen mit der Entdeckung der Samiel plötzlich viel greifbarer! Ich bin gespannt, welche Geheimnisse wir im Rahmen ihrer Erforschung lüften werden. Die Zukunft sieht äußerst spannend aus."
-119,"TEXT_LUCKLA403_03238_QESHIRAE_000_085","Aaah, vielen Dank euch allen für eure großartige Unterstützung!! Damit is' der Samiel-Suchtrupp offiziell aufgelöst, Mission erfolgreichst abgeschlossen! Hurra!"
-120,"TEXT_LUCKLA403_03238_QESHIRAE_000_086","Und du kannst dich endlich wieder deinen aufregenden Abenteuern zuwenden! Denk an uns, wenn du auf deinen Reisen ungewöhnliche Wesen und Erze entdeckst, ja? Dann gehen wir auf die nächste Forschungsexpedition ins Unbekannte!"
-121,"TEXT_LUCKLA403_03238_SYSTEM_000_090","Dein Rang in der Abteilung Materialbeschaffung ist gestiegen! Qeshi-Rae hat dich <If(PlayerParameter(4))>zur Ehrenkommandantin<Else/>zum Ehrenkommandanten</If> des Samiel-Suchtrupps gemacht."
-122,"TEXT_LUCKLA403_03238_SYSTEM_000_095","Andere Abteilungen in der Manufaktur der Gemeinschaft scheinen auch händeringend nach Unterstützung zu suchen. Sprich mit verschiedenen Leuten und finde heraus, wie du ihnen helfen kannst."
-123,"TEXT_LUCKLA403_03238_SYSTEM_000_100","Du hast die Aufträge aller Abteilungen abgeschlossen! Katliss in der Manufaktur scheint noch eine Aufgabe für dich zu haben."
-124,"TEXT_LUCKLA403_03238_SYSTEM_000_101","Wenn du das Shadowbringers-Hauptszenario abgeschlossen hast, solltest du erneut bei der Manufaktur der Gemeinschaft vorbeischauen."
-125,"TEXT_LUCKLA403_03238_SYSTEM_000_105","Du hast die Aufträge aller Abteilungen abgeschlossen! Katliss in der Manufaktur scheint noch eine Aufgabe für dich zu haben."
-126,"TEXT_LUCKLA403_03238_SYSTEM_000_106","Sprich mit ihr an der Hauptannahmestelle der Manufaktur der Gemeinschaft."
-127,"TEXT_LUCKLA403_03238_QESHIRAE_000_025","（★未使用／削除予定★）"
+86,TEXT_LUCKLA403_03238_QESHIRAE_000_051,"Waaahnsinn! Ich *wusste*, dass die Samiel nicht nur eine Legende sind! Sie sind sogar noch größer, als ich sie mir vorgestellt hab!"
+87,TEXT_LUCKLA403_03238_YALANA_000_052,"Genau, wie die Vorsteherin gesagt hat. Sie verbergen sich mit Illusionsmagie, die ganz offensichtlich durch das Entprojizierungspulver gebrochen wurde. Unsere Theorie wurde belegt!"
+88,TEXT_LUCKLA403_03238_QESHIRAE_000_053,"He, schaut mal! Da sind doch sogar Jungtiere, oder? Is' das hier vielleicht ihre Brutstätte? Die Insel liegt ziemlich abgelegen und bietet sich damit ja eigentlich perfekt an ..."
+89,TEXT_LUCKLA403_03238_QESHIRAE_000_054,"Und somit wäre auch bewiesen, dass die Samiel Herdentiere sind. Dass sie umherziehen können, ohne sich gegenseitig zu sehen ... Vermutlich kommunizieren sie auf einer Frequenz, die wir schlicht und einfach nicht hören können."
+90,TEXT_LUCKLA403_03238_MAOLADD_000_055,"Aber ... als ich letztens das Samiel gesehen habe, muss es die Illusionsmagie ja willentlich unterbrochen haben. Wenn sie eigentlich immer unsichtbar sind, warum hat es dann ... "
+91,TEXT_LUCKLA403_03238_QESHIRAE_000_056,"Hah. Interessante Frage. Es is' nichts weiter als eine Theorie, aber ... "
+92,TEXT_LUCKLA403_03238_QESHIRAE_000_057,... vielleicht hatte sich dieses Samiel verliebt?
+93,TEXT_LUCKLA403_03238_YALANA_000_058,V-Verliebt?
+94,TEXT_LUCKLA403_03238_QESHIRAE_000_059,"Na, Balzverhalten während der Brunftzeit, is' doch ganz klar! Um einem potenziellen Partner zu zeigen, dass man stramm, gesund und die perfekte Wahl is', muss man sich doch präsentieren!"
+95,TEXT_LUCKLA403_03238_MAOLADD_000_060,"Das würde tatsächlich Sinn ergeben. Sich zu enttarnen und damit diversen Gefahren auszusetzen, um seinen Partner zu beeindrucken ... Irgendwie romantisch."
+96,TEXT_LUCKLA403_03238_YALANA_000_061,Also war neulich vielleicht ein weiteres Samiel ganz in der Nähe? Wie ihr Paarungsverhalten wohl aussieht ...
+97,TEXT_LUCKLA403_03238_QESHIRAE_000_062,"Na ja, sie sind sehr groß und ganz bestimmt sehr schwer, also findet das vielleicht im Wasser statt. Ach, irgendwann finden wir das bestimmt auch noch raus!"
+98,TEXT_LUCKLA403_03238_QESHIRAE_000_063,"Na, wie dem auch sei! Samiel-Forschung, volle Kraft voraus! Neben dem regulären Ressourcen- und Materialalltag, selbst­verständ­lich. Oooh, sooo viele Dinge zu erforschen ... Mwahaaa ..."
+99,TEXT_LUCKLA403_03238_QESHIRAE_000_064,"Oh oh, hat es uns bemerkt?!"
+100,TEXT_LUCKLA403_03238_QESHIRAE_000_065,"Mit Kreaturen, die ihre Jungtiere im Schlepptau haben, is' generell nicht gut Kirschen essen. Wenn sie zu nervös werden, könnten wir als Brei enden ... Und das wär sehr schlecht für unsere Forschung."
+101,TEXT_LUCKLA403_03238_QESHIRAE_000_066,"Der Effekt des Entprojizierungspulvers verfliegt sicher auch gleich. Samiel-Suchtrupp, auf geht's! Zurück zur Manufaktur! Ein Naturkunde-Durchbruch passiert schließlich nicht an einem Tag!"
+102,TEXT_LUCKLA403_03238_YALANA_000_067,"Ich habe echte Samiel gesehen. Mit meinen eigenen zwei Augen. Wenn du nicht gewesen wärst, würde ich jetzt noch glauben, dass es nichts weiter als ein Märchen ist, Qeshi-Rae."
+103,TEXT_LUCKLA403_03238_MAOLADD_000_068,"Die Jungtiere waren richtig niedlich! Ich hoffe, dass sie unbeschadet aufwachsen und ordentlich groß und kräftig werden."
+104,TEXT_LUCKLA403_03238_QESHIRAE_000_070,"Haaach! Wir haben die Samiel nur kurz gesehen, aber es war großartig! Mein Entdeckerinnenherz hüpft beim Gedanken, sie mehr und mehr zu erforschen!"
+105,TEXT_LUCKLA403_03238_YALANA_000_071,"Forschung ist wunderbar, aber bitte vernachlässige nicht deine Pflichten als Vorsteherin der Abteilung Materialbeschaffung."
+106,TEXT_LUCKLA403_03238_QESHIRAE_000_072,"Mwa-haha, weiß ich doch! <zwinker>"
+107,TEXT_LUCKLA403_03238_MAOLADD_000_073,"Aber Yalana ... Ich seh's in deinen Augen, du freust dich genauso sehr darauf wie ich! Du hast vorhin irgendwas von einem Forschungsplan gemurmelt, ich hab's genau gehört!"
+108,TEXT_LUCKLA403_03238_YALANA_000_074,"Ach natürlich, es ist aber auch wirklich sehr aufregend! Was fressen Samiel? Wie funktioniert der Metabolismus einer so riesigen Kreatur? So viele Fragen ..."
+109,TEXT_LUCKLA403_03238_QESHIRAE_000_075,"Man kann's wirklich nur als Wunder bezeichnen. Als die ganze Welt vor einhundert Jahren praktisch von Licht verschluckt wurde, is' das ganze Ökosystem zu­sammen­gebrochen. Unzählige Lebewesen sind ausgestorben ..."
+110,TEXT_LUCKLA403_03238_QESHIRAE_000_076,"Meine Generation, die nach dieser Lichtflut geboren wurde ... Wir kennen nur das, was das Licht übrig gelassen hat. Egal ob Bücher, Leute, oder eben solche Wesen. So viel ging verloren."
+111,TEXT_LUCKLA403_03238_QESHIRAE_000_077,"In einer Welt, die gefühlt so nah am Abgrund steht, trotzdem jeden Tag aufs Neue nach vorn zu blicken ... Das ist es, was uns zu Bewohnern dieser einzigartigen Stadt macht."
+112,TEXT_LUCKLA403_03238_QESHIRAE_000_078,Daran glaube ich jedenfalls. Irgendwann wird Leben in diesen lichtgetränkten Grund zurückkehren und unsere Welt wieder aufblühen. Ich bin mir sicher.
+113,TEXT_LUCKLA403_03238_QESHIRAE_000_079,"Deswegen ist die Verwaltung von Ressourcen so wichtig. Wir pflegen die Wurzeln, aus denen Blumen wachsen können. Irgendwann, in ferner Zukunft. Das is' das, was wir im Hier und Jetzt für diese Welt tun können."
+114,TEXT_LUCKLA403_03238_QESHIRAE_000_080,"Auch was die Samiel betrifft ... Ich will ihren Lebensraum und ihr Verhalten vorsichtig erforschen, um auf ein Zusammenleben in der Zukunft hinzuarbeiten."
+115,TEXT_LUCKLA403_03238_QESHIRAE_000_081,"Gemeinsam mit Yalana und Mao, natürlich! Sie sind immerhin unerlässlich für die Analysen!"
+116,TEXT_LUCKLA403_03238_YALANA_000_082,"Hach, und sofort trägst du uns Arbeit auf ..."
+117,TEXT_LUCKLA403_03238_YALANA_000_083,"... Aber natürlich stehe ich dir gern zur Verfügung. Wenn ich nicht dauernd ein Auge auf dich habe, rennst du ja doch sofort wieder weg, Qeshi."
+118,TEXT_LUCKLA403_03238_MAOLADD_000_084,"So viele unerklärliche Dinge scheinen mit der Entdeckung der Samiel plötzlich viel greifbarer! Ich bin gespannt, welche Geheimnisse wir im Rahmen ihrer Erforschung lüften werden. Die Zukunft sieht äußerst spannend aus."
+119,TEXT_LUCKLA403_03238_QESHIRAE_000_085,"Aaah, vielen Dank euch allen für eure großartige Unterstützung!! Damit is' der Samiel-Suchtrupp offiziell aufgelöst, Mission erfolgreichst abgeschlossen! Hurra!"
+120,TEXT_LUCKLA403_03238_QESHIRAE_000_086,"Und du kannst dich endlich wieder deinen aufregenden Abenteuern zuwenden! Denk an uns, wenn du auf deinen Reisen ungewöhnliche Wesen und Erze entdeckst, ja? Dann gehen wir auf die nächste Forschungsexpedition ins Unbekannte!"
+121,TEXT_LUCKLA403_03238_SYSTEM_000_090,Dein Rang in der Abteilung Materialbeschaffung ist gestiegen! Qeshi-Rae hat dich zur Ehrenkommandantin des Samiel-Suchtrupps gemacht.
+122,TEXT_LUCKLA403_03238_SYSTEM_000_095,"Andere Abteilungen in der Manufaktur der Gemeinschaft scheinen auch händeringend nach Unterstützung zu suchen. Sprich mit verschiedenen Leuten und finde heraus, wie du ihnen helfen kannst."
+123,TEXT_LUCKLA403_03238_SYSTEM_000_100,Du hast die Aufträge aller Abteilungen abgeschlossen! Katliss in der Manufaktur scheint noch eine Aufgabe für dich zu haben.
+124,TEXT_LUCKLA403_03238_SYSTEM_000_101,"Wenn du das Shadowbringers-Hauptszenario abgeschlossen hast, solltest du erneut bei der Manufaktur der Gemeinschaft vorbeischauen."
+125,TEXT_LUCKLA403_03238_SYSTEM_000_105,Du hast die Aufträge aller Abteilungen abgeschlossen! Katliss in der Manufaktur scheint noch eine Aufgabe für dich zu haben.
+126,TEXT_LUCKLA403_03238_SYSTEM_000_106,Sprich mit ihr an der Hauptannahmestelle der Manufaktur der Gemeinschaft.
+127,TEXT_LUCKLA403_03238_QESHIRAE_000_025,（★未使用／削除予定★）

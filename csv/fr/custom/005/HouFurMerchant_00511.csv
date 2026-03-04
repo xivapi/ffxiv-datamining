@@ -1,236 +1,233 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_HOUFURMERCHANT_00511_CALL_RETAINER_FAILED","Impossible d'appeler le servant."
-1,"TEXT_HOUFURMERCHANT_00511_CALL_FAILED_NO_CHARGE","Action impossible. Le servant a été renvoyé ou son abonnement est terminé."
-2,"TEXT_HOUFURMERCHANT_00511_CHANGE_STATUS_DISABLE","Action impossible. Vous devez d'abord retirer les objets exposés ou en vente sur le mannequin."
-3,"TEXT_HOUFURMERCHANT_00511_SELL_DISABLE","Action impossible. Vous devez d'abord retirer les objets exposés sur le mannequin."
-4,"TEXT_HOUFURMERCHANT_00511_DISPLAY_DISABLE","Action impossible. Vous devez d'abord retirer les objets en vente sur le mannequin."
-5,"TEXT_HOUFURMERCHANT_00511_Q1_000_001","Que voulez-vous faire<Indent/>?"
-6,"TEXT_HOUFURMERCHANT_00511_A1_000_001","Mettre des objets en vente"
-7,"TEXT_HOUFURMERCHANT_00511_A1_000_008","Exposer des objets"
-8,"TEXT_HOUFURMERCHANT_00511_A1_000_002","Voir l'historique des ventes"
-9,"TEXT_HOUFURMERCHANT_00511_A1_000_004","Choisir la classe ou le job (<Sheet(ClassJob,IntegerParameter(1),0)/>)"
-10,"TEXT_HOUFURMERCHANT_00511_A1_000_005","Choisir la race et le sexe (<Sheet(Race,IntegerParameter(1),0)/>, <If(Equal(IntegerParameter(2),0))>homme<Else/>femme</If>)"
-11,"TEXT_HOUFURMERCHANT_00511_A1_000_006","Choisir la pose (<InstanceContent><Sheet(HousingMerchantPose,IntegerParameter(1),1)/></InstanceContent>)"
-12,"TEXT_HOUFURMERCHANT_00511_A1_000_007","Renvoyer le servant"
-13,"TEXT_HOUFURMERCHANT_00511_Q2_000_001","Choisir une classe ou un job"
-14,"TEXT_HOUFURMERCHANT_00511_A2_000_001","Tanks"
-15,"TEXT_HOUFURMERCHANT_00511_A2_000_002","Soigneurs"
-16,"TEXT_HOUFURMERCHANT_00511_A2_000_003","DPS"
-17,"TEXT_HOUFURMERCHANT_00511_A2_000_004","Artisans"
-18,"TEXT_HOUFURMERCHANT_00511_A2_000_005","Récolteurs"
-19,"TEXT_HOUFURMERCHANT_00511_A2_000_006","Annuler"
-20,"TEXT_HOUFURMERCHANT_00511_A3_000_001","<Clickable(<Sheet(ClassJob,IntegerParameter(1),0)/>)/>"
-21,"TEXT_HOUFURMERCHANT_00511_A3_000_002","Annuler"
-22,"TEXT_HOUFURMERCHANT_00511_Q4_000_001","Choisir “<Sheet(ClassJob,IntegerParameter(1),0)/>”<Indent/>?"
-23,"TEXT_HOUFURMERCHANT_00511_Q32_000_001","Choisir la race"
-24,"TEXT_HOUFURMERCHANT_00511_A32_000_001","<Sheet(Race,IntegerParameter(1),0)/>"
-25,"TEXT_HOUFURMERCHANT_00511_A32_000_002","Annuler"
-26,"TEXT_HOUFURMERCHANT_00511_Q33_001_001","Choisir le sexe"
-27,"TEXT_HOUFURMERCHANT_00511_A33_001_001","Homme (<Sheet(Race,IntegerParameter(1),0)/>)"
-28,"TEXT_HOUFURMERCHANT_00511_A33_001_002","Femme (<Sheet(Race,IntegerParameter(1),0)/>)"
-29,"TEXT_HOUFURMERCHANT_00511_A33_001_003","Annuler"
-30,"TEXT_HOUFURMERCHANT_00511_Q34_002_001","Choisir “<Sheet(Race,IntegerParameter(1),0)/>, <If(Equal(IntegerParameter(2),0))>homme<Else/>femme</If>”<Indent/>?"
-31,"TEXT_HOUFURMERCHANT_00511_Q5_000_001","種族・性別を選択してください"
-32,"TEXT_HOUFURMERCHANT_00511_A5_000_001","ミコッテ：男性"
-33,"TEXT_HOUFURMERCHANT_00511_A5_000_002","ミコッテ：女性"
-34,"TEXT_HOUFURMERCHANT_00511_A5_000_003","やめる"
-35,"TEXT_HOUFURMERCHANT_00511_Q6_000_001","＜<If(GreaterThan(IntegerParameter(1),1))>ミコッテ：女性<Else/>ミコッテ：男性</If>＞に設定します。
+0,TEXT_HOUFURMERCHANT_00511_CALL_RETAINER_FAILED,Impossible d'appeler le servant.
+1,TEXT_HOUFURMERCHANT_00511_CALL_FAILED_NO_CHARGE,Action impossible. Le servant a été renvoyé ou son abonnement est terminé.
+2,TEXT_HOUFURMERCHANT_00511_CHANGE_STATUS_DISABLE,Action impossible. Vous devez d'abord retirer les objets exposés ou en vente sur le mannequin.
+3,TEXT_HOUFURMERCHANT_00511_SELL_DISABLE,Action impossible. Vous devez d'abord retirer les objets exposés sur le mannequin.
+4,TEXT_HOUFURMERCHANT_00511_DISPLAY_DISABLE,Action impossible. Vous devez d'abord retirer les objets en vente sur le mannequin.
+5,TEXT_HOUFURMERCHANT_00511_Q1_000_001,Que voulez-vous faire ?
+6,TEXT_HOUFURMERCHANT_00511_A1_000_001,Mettre des objets en vente
+7,TEXT_HOUFURMERCHANT_00511_A1_000_008,Exposer des objets
+8,TEXT_HOUFURMERCHANT_00511_A1_000_002,Voir l'historique des ventes
+9,TEXT_HOUFURMERCHANT_00511_A1_000_004,Choisir la classe ou le job ()
+10,TEXT_HOUFURMERCHANT_00511_A1_000_005,"Choisir la race et le sexe (, homme)"
+11,TEXT_HOUFURMERCHANT_00511_A1_000_006,Choisir la pose ()
+12,TEXT_HOUFURMERCHANT_00511_A1_000_007,Renvoyer le servant
+13,TEXT_HOUFURMERCHANT_00511_Q2_000_001,Choisir une classe ou un job
+14,TEXT_HOUFURMERCHANT_00511_A2_000_001,Tanks
+15,TEXT_HOUFURMERCHANT_00511_A2_000_002,Soigneurs
+16,TEXT_HOUFURMERCHANT_00511_A2_000_003,DPS
+17,TEXT_HOUFURMERCHANT_00511_A2_000_004,Artisans
+18,TEXT_HOUFURMERCHANT_00511_A2_000_005,Récolteurs
+19,TEXT_HOUFURMERCHANT_00511_A2_000_006,Annuler
+20,TEXT_HOUFURMERCHANT_00511_A3_000_001,
+21,TEXT_HOUFURMERCHANT_00511_A3_000_002,Annuler
+22,TEXT_HOUFURMERCHANT_00511_Q4_000_001,Choisir “” ?
+23,TEXT_HOUFURMERCHANT_00511_Q32_000_001,Choisir la race
+24,TEXT_HOUFURMERCHANT_00511_A32_000_001,
+25,TEXT_HOUFURMERCHANT_00511_A32_000_002,Annuler
+26,TEXT_HOUFURMERCHANT_00511_Q33_001_001,Choisir le sexe
+27,TEXT_HOUFURMERCHANT_00511_A33_001_001,Homme ()
+28,TEXT_HOUFURMERCHANT_00511_A33_001_002,Femme ()
+29,TEXT_HOUFURMERCHANT_00511_A33_001_003,Annuler
+30,TEXT_HOUFURMERCHANT_00511_Q34_002_001,"Choisir “, homme” ?"
+31,TEXT_HOUFURMERCHANT_00511_Q5_000_001,種族・性別を選択してください
+32,TEXT_HOUFURMERCHANT_00511_A5_000_001,ミコッテ：男性
+33,TEXT_HOUFURMERCHANT_00511_A5_000_002,ミコッテ：女性
+34,TEXT_HOUFURMERCHANT_00511_A5_000_003,やめる
+35,TEXT_HOUFURMERCHANT_00511_Q6_000_001,"＜ミコッテ：女性＞に設定します。
 よろしいですか？"
-36,"TEXT_HOUFURMERCHANT_00511_Q7_000_001","Choisissez une pose."
-37,"TEXT_HOUFURMERCHANT_00511_A7_000_000","<Clickable(<Sheet(HousingMerchantPose,IntegerParameter(1),1)/>)/>"
-38,"TEXT_HOUFURMERCHANT_00511_A7_000_001","Annuler"
-39,"TEXT_HOUFURMERCHANT_00511_Q8_000_001","Choisir “<Sheet(HousingMerchantPose,IntegerParameter(1),1)/>”<Indent/>?"
-40,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE1","À votre service, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-41,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE2","M'voilà<Indent/>! Qu'est-ce que vous voulez<Indent/>?"
-42,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE3","M'avez-vous appelé<Indent/>?"
-43,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE4","Oui<Indent/>? J'espère que ça ne va pas prendre trop de temps..."
-44,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE5","Que feriez-vous sans moi, vraiment<Indent/>?"
-45,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE6","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>bonsoir<Else/>bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>bonjour<Else/>bonsoir</If></If><Indent/>! Je peux vous aider<Indent/>?"
-46,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE1","À votre service, <If(PlayerParameter(4))>Madame<Else/>Monsieur</If>."
-47,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE2","Qu'est-ce que ça sera, cette fois<Indent/>?"
-48,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE3","Que désirez-vous exactement<Indent/>?"
-49,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE4","Je suis vraiment désolée de vous faire attendre à chaque fois. Et vous voulez quoi au juste<Indent/>?"
-50,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE5","Bien, ne perdons pas de temps, s'il vous plaît. J'ai d'autres choses à faire."
-51,"TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE6","Oh<Indent/>! C'est un plaisir de vous voir à chaque fois<Indent/>! Dites-moi donc ce que vous voulez."
-52,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE1","Oui, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If><Indent/>? En quoi puis-je vous être utile<Indent/>?"
-53,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE2","Salut Chef<Indent/>! Qu'est-ce que j'peux faire pour vous<Indent/>?"
-54,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE3","Je suis là, M<If(PlayerParameter(4))>adame<Else/>onsieur</If>. Dites-moi ce que vous désirez."
-55,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE4","Oh, salut. Que me vaut l'honneur d'être appelé<Indent/>?"
-56,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE5","Je suis ici pour le travail, rien d'autre. D'accord<Indent/>?"
-57,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE6","Oh, vous avez un joli teint aujourd'hui, <If(PlayerParameter(4))>Madame<Else/>Monsieur</If>. Que puis-je faire pour vous en cette belle <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>soirée<Else/>matinée</If><Else/><If(LessThan(PlayerParameter(11),17))>journée<Else/>soirée</If></If><Indent/>?"
-58,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE1","Que puis-je faire pour votre bon plaisir, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If><Indent/>?"
-59,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE2","D'habitude, c'est moi qui appelle les gens et me fais servir. Que voulez-vous au juste<Indent/>?"
-60,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE3","Y a-t-il quelque chose en quoi je puisse vous aider<Indent/>?"
-61,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE4","Oh, mais pourquoi vous m'appelez à un tel moment...<Indent/>?"
-62,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE5","J'imagine que vous avez une bonne raison pour m'appeler ainsi."
-63,"TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE6","Vous savez quoi, j'étais sûre que vous m'appelleriez bientôt. Pour moi, c'est toujours un plaisir de vous venir en aide."
-64,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE1","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If> à vous, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>. Votre humble servant vous écoute."
-65,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE2","Hé, salut <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>. Dites-moi ce que vous voulez, et je m'en occupe tout de suite<Indent/>!"
-66,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE3","Je me demandais quand vous finiriez par m'appeler."
-67,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE4","Ça vous dérange si nous faisons ça vite<Indent/>? J'ai autre chose à faire de mon côté."
-68,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE5","Oui<Indent/>?"
-69,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE6","Me voici, me voilà<Indent/>!"
-70,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE1","<If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>, me voici, à votre service."
-71,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE2","Salut, salut<Indent/>! Vous voulez que je vous aide<Indent/>?"
-72,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE3","Je savais bien que vous ne pouviez pas vous passer de mes services."
-73,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE4","Oh, je ne m'attendais pas à ce que vous m'appeliez. Que désirez-vous exactement<Indent/>?"
-74,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE5","Que voulez-vous cette fois<Indent/>?"
-75,"TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE6","Me voiciiiiiiiii<Indent/>!"
-76,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE1","En quoi puis-je vous servir, Maîtrrre<If(PlayerParameter(4))>sse<Else/></If><Indent/>?"
-77,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE2","Désolé pour l'attente. Qu'est-ce que j'peux fairrre pour vous<Indent/>?"
-78,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE3","Oui...<Indent/>?"
-79,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE4","C'est moi que vous voulez voirrr<Indent/>?"
-80,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE5","Si vous avez quelque chose à me demander, dépêchez-vous. J'ai hâte de rentrrrer."
-81,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE6","Ah<Indent/>! Vous êtes justement la perrrsonne que je voulais voir<Indent/>! Dites-moi donc ce que je peux faire pour vous."
-82,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE1","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoirrr<Else/>Bonjourrr</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjourrr<Else/>Bonsoirrr</If></If>, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>. Que puis-je faire pour vous<Indent/>?"
-83,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE2","Hé, salut<Indent/>! Vous désirrrez quelque chose<Indent/>?"
-84,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE3","Les oreilles d'un chat entendent tout, surrrtout lorsqu'on l'appelle."
-85,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE4","Je suis venue par currriosité. Qu'est-ce que vous voulez que je fasse<Indent/>?"
-86,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE5","Dites-moi ce que vous voulez, et je m'en charrrge."
-87,"TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE6","Hi hi hi<Indent/>! Je pensais justement à vous<Indent/>!"
-88,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE1","Que puis-je faire pour vous aujourd'hui, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If><Indent/>?"
-89,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE2","Mouahaha<Indent/>! Z'avez quelque chose à m'faire faire<Indent/>?"
-90,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE3","Je suis là. Que puis-je faire pour vous<Indent/>?"
-91,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE4","Hé, salut, l'<If(PlayerParameter(4))>amie<Else/>ami</If><Indent/>! Vous voulez pas aller boire un coup<Indent/>?"
-92,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE5","Je suis venu aussi vite que j'ai pu. Qu'est-ce que je dois faire<Indent/>?"
-93,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE6","J'ai accouru dès que j'ai entendu la sonnette, tellement j'avais hâte de vous voir<Indent/>!"
-94,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE1","Je suis à votre service, Maître<If(PlayerParameter(4))>sse<Else/></If>."
-95,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE2","Z'avez quelque chose à me demander, Capitaine<Indent/>?"
-96,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE3","Je vous écoute, <If(PlayerParameter(4))>Madame<Else/>Monsieur</If>."
-97,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE4","Tâchons de ne pas perdre de temps. Je suis pressée."
-98,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE5","Tout irait mieux si vous me confiiez la gestion de toutes vos finances."
-99,"TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE6","Ah, je suis bien heureuse de vous voir. Que voulez-vous que je fasse pour vous aujourd'hui<Indent/>?"
-100,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE1","En quoi puis-je vous servir, Maître<If(PlayerParameter(4))>sse<Else/></If><Indent/>?"
-101,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE2","Désolé pour l'attente. Qu'est-ce que j'peux faire pour vous<Indent/>?"
-102,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE3","Qu'y a-t-il<Indent/>?"
-103,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE4","C'est moi que vous voulez voir<Indent/>?"
-104,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE5","Si vous avez quelque chose à me demander, hâtez-vous. Je suis pressé de rentrer."
-105,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE6","Ah<Indent/>! Quelle joie de vous voir<Indent/>! Dites-moi donc ce que je peux faire pour vous."
-106,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE1","Je suis à votre service, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-107,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE2","Euh... Vous avez quelque chose à me demander<Indent/>?"
-108,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE3","Je vous écoute, M<If(PlayerParameter(4))>adame<Else/>onsieur</If>."
-109,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE4","Me voici, me voilà<Indent/>!"
-110,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE5","Je suis persuadée que me confier la gestion de toutes vos finances est la meilleure chose à faire."
-111,"TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE6","Ah, je suis bien contente de vous voir. Que puis-je faire pour vous aujourd'hui<Indent/>?"
-112,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE1","Me voilà, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>. En quoi puis-je vous être utile par cette magnifique <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>soirée<Else/>matinée</If><Else/><If(LessThan(PlayerParameter(11),17))>journée<Else/>soirée</If></If><Indent/>?"
-113,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE2","Tu veux quoi<Indent/>? Lâche le morceau, sois pas timide."
-114,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE3","J'espère que tu ne m'appelles pas pour rien. J'ai d'autres chats à fouetter."
-115,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE4","Salut, Chef. C'est toujours un plaisir. Qu'est-ce que je peux faire pour vous aujourd'hui<Indent/>?"
-116,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE5","Hé<Indent/>! Ça va<Indent/>!? Allez, dites-moi ce dont vous avez besoin, je vais m'en occuper en deux temps trois mouvements<Indent/>!"
-117,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE6","Salut, <If(PlayerParameter(4))>ma<Else/>mon</If> pote<Indent/>! Qu'est-ce qu'on fait d'beau, aujourd'hui<Indent/>!?"
-118,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE1","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If><Indent/>!♪ Comment puis-je vous servir aujourd'hui<Indent/>?♪"
-119,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE2","Je sais pas ce que tu me veux, mais t'as intérêt à me raconter une autre de tes aventures en échange."
-120,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE3","Que convoites-tu, aujourd'hui<Indent/>? Fais-moi savoir ton souhait."
-121,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE4","Bon... (bâille)... <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bwonsoir<Else/>Bwonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bwonjour<Else/>Bwonsoir</If></If>... Hmm<Indent/>? Vous êtes vraiment là, ou je suis encore en train de rêver...<Indent/>?"
-122,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE5","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, toi. Tu veux quelque chose<Indent/>?"
-123,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE6","Oh<Indent/>! Auriez-vous besoin de moi<Indent/>!? Je ne vous décevrai pas, je vous le jure<Indent/>!"
-124,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE1","Parfait, j'attendais justement que vous m'appeliez<Indent/>! J'ai hâte de voir quel genre de travail vous avez pour moi aujourd'hui<Indent/>!"
-125,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE2","Salut<Indent/>! Un problème que je peux t'aider à régler<Indent/>?"
-126,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE3","Me voilà..."
-127,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE4","(baille) Salut <If(PlayerParameter(4))>vieille<Else/>vieux</If><Indent/>! Tu m'as appelé<Indent/>?"
-128,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE5","Tu as besoin de moi<Indent/>? Bon, allez, dépêche-toi de me dire ce que tu veux."
-129,"TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE6","Bonjour Maître<If(PlayerParameter(4))>sse<Else/></If>. Je suis ravi de pouvoir vous rendre service<Indent/>!"
-130,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE1","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If> <If(PlayerParameter(4))>ma chère<Else/>mon cher</If><Indent/>! Que puis-je pour vous aider<Indent/>?"
-131,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE2","Oh bah moi si tu m'appelles, je débarque tout de suite<Indent/>!"
-132,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE3","Vous m'avez appelée. Comment souhaitez-vous que je vous aide<Indent/>?"
-133,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE4","Ouah, je suis trop contente que tu m'aies appelée<Indent/>! J'avais hâte de pouvoir t'aider<Indent/>!"
-134,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE5","Ouah, si je m'attendais à ce que ce soit toi, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, qui m'appelles<Indent/>!"
-135,"TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE6","Oui oui, je suis là<Indent/>! Je suis venue le plus vite que j'ai pu<Indent/>!"
-136,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE1","Avec votre accord, Maître<If(PlayerParameter(4))>sse<Else/></If>, je vais prendre congé de vous."
-137,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE2","À la revoyure<Indent/>!"
-138,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE3","À la prochaine fois."
-139,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE4","Bon, ben, je dois y aller. À plus<Indent/>!"
-140,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE5","Bien, je crois que tout est en ordre. Au revoir."
-141,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE6","Je file. À bientôt, j'espère<Indent/>!"
-142,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE1","Avec votre permission, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>, je vais prendre congé de vous."
-143,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE2","À la prochaine<Indent/>!"
-144,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE3","À la prochaine fois."
-145,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE4","Si c'est tout, je vais y aller. À plus<Indent/>!"
-146,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE5","Bien, je crois que tout est comme il faut. Au revoir."
-147,"TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE6","J'y vais. À très bientôt, j'espère<Indent/>!"
-148,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE1","Une fois encore, ce fut un honneur et un privilège de vous servir, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-149,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE2","Allez, à plus<Indent/>!"
-150,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE3","Je m'occupe de tout. Faites-moi confiance."
-151,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE4","Je vous assure que je vais m'en occuper... Je ne sais pas quand, mais je vais le faire."
-152,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE5","Comme vous le voudrez."
-153,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE6","Ça a été un plaisir de vous revoir."
-154,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE1","Une fois de plus, ce fut un honneur et un privilège de vous servir, Maître<If(PlayerParameter(4))>sse<Else/></If>."
-155,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE2","Allez, à la prochaine<Indent/>!"
-156,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE3","Je m'occupe de tout. Ayez confiance."
-157,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE4","C'est bon<Indent/>? Dans ce cas, je m'en vais..."
-158,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE5","Bien, je crois que nous en avons fini pour cette fois."
-159,"TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE6","J'ai passé un bon moment avec vous. J'espère que nous nous reverrons bientôt."
-160,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE1","Chacun de vos ordres sera effectué avec tout le soin nécessaire, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-161,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE2","Je m'occupe de ça tout de suite. À plus<Indent/>!"
-162,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE3","Bien, dans ce cas, je m'en vais."
-163,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE4","Les Dieux soient loués, c'est enfin fini. Ce n'est pas tout, mais j'ai des choses qui m'attendent."
-164,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE5","Portez-vous bien."
-165,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE6","Allez, à très bientôt<Indent/>!"
-166,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE1","Au plaisir de vous revoir, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-167,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE2","À bientôt<Indent/>!"
-168,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE3","Que Nald fasse fructifier votre fortune."
-169,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE4","Au revoir<Indent/>!"
-170,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE5","Vous savez comment me contacter."
-171,"TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE6","C'est déjà le moment de se dire au revoir<Indent/>? Vous allez me manquer..."
-172,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE1","Tout sera fait comme vous le désirez, <If(PlayerParameter(4))>Maîtrrresse<Else/>Maîtrrre</If>."
-173,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE2","Le marché est comme un champ de bataille, mais moi, j'ai la rage au ventrrre<Indent/>! Comptez sur moi pour me battre jusqu'au bout pour vous<Indent/>!"
-174,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE3","Hmpf..."
-175,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE4","Bon, j'y vais. J'ai d'autrrres chats à fouetter."
-176,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE5","Je ne pensais pas que tout ceci requerrait ma prrrésence, mais ce qui est fait est fait. Sur ce, je m'en vais."
-177,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE6","Ce fut un plaisirrr de vous aider<Indent/>! À bientôt<Indent/>!"
-178,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE1","C'est un honneur de vous servir, <If(PlayerParameter(4))>Maîtrrresse<Else/>Maîtrrre</If>."
-179,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE2","Je file<Indent/>! À la revoyurrre<Indent/>!"
-180,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE3","Faites-moi confiance. J'ai les choses bien en main."
-181,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE4","Bon, il est temps que j'aille m'amuser autrrre part."
-182,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE5","Bon, je crois que vous saurez vous débrouiller pour le reste. Pas vrrrai<Indent/>?"
-183,"TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE6","Je suis un peu trrriste de vous quitter, mais je suis sûre que nous nous reverrons très pro<SoftHyphen/>chai<SoftHyphen/>ne<SoftHyphen/>ment."
-184,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE1","Je vais faire comme vous me l'avez ordonné, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-185,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE2","Mouahaha<Indent/>! J'vais aller vendre votre camelote au bazar<Indent/>!"
-186,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE3","Je vais m'en aller. À une prochaine fois."
-187,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE4","Ah, mince... Il va falloir que je me mette au boulot. Allez, je file."
-188,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE5","Je crois qu'il est temps que j'y aille. Salut."
-189,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE6","J'y vais. Vous, vous devriez faire un petit somme, vous avez l'air flagada."
-190,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE1","N'y a-t-il rien d'autre que je puisse faire pour vous aider, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If><Indent/>? Dans ce cas, je vais prendre congé de vous."
-191,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE2","À vos ordres, Capitaine<Indent/>!"
-192,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE3","Tout sera fait selon vos bons désirs."
-193,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE4","J'avais d'autres projets pour la journée, mais j'imagine que je vais devoir faire mon travail. Au revoir."
-194,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE5","Faites-moi confiance, je sais me débrouiller toute seule."
-195,"TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE6","Bon, je regrette de me séparer de vous, mais il est temps que j'y aille. On se revoit bientôt, n'est-ce pas<Indent/>?"
-196,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE1","Chacun de vos ordres sera effectué avec soin, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-197,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE2","D'accord<Indent/>! À plus tard<Indent/>!"
-198,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE3","Bien, dans ce cas, j'y vais."
-199,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE4","Ouf<Indent/>! C'est enfin fini. C'est que j'ai des choses qui m'attendent, moi."
-200,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE5","Portez-vous bien."
-201,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE6","Allez, à très très bientôt<Indent/>!"
-202,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE1","Une fois de plus, ce fut un honneur et un privilège de vous rendre service, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>."
-203,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE2","Allez, à la revoyure<Indent/>!"
-204,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE3","Je m'occupe de tout. Faites-moi confiance."
-205,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE4","C'est bon<Indent/>? Dans ce cas, je pars..."
-206,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE5","Bien, je crois que nous en avons fini pour cette fois."
-207,"TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE6","J'ai passé un agréable moment avec vous. J'espère que nous nous reverrons bientôt."
-208,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE1","Heureux d'avoir pu vous aider, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If>. Si vous avez à nouveau besoin de moi, vous savez où me trouver."
-209,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE2","Une broutille ton truc<Indent/>! Hésite pas à vraiment me donner une tâche difficile la prochaine fois."
-210,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE3","Peu de gens peuvent rendre ce genre de service, tu sais<Indent/>? Allez, n'hésite pas à faire appel à moi la prochaine fois."
-211,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE4","Je vous laisse, Chef. Je vais en profiter pour faire ma toilette."
-212,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE5","Vous n'avez plus besoin de moi<Indent/>? Je file alors, mais rappelez-moi au moindre souci, et j'accourrai<Indent/>!"
-213,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE6","À plus<Indent/>! Rappelle-moi quand tu veux<Indent/>!"
-214,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE1","Oh, vous vous en allez déjà, <If(PlayerParameter(4))>Maîtresse<Else/>Maître</If><Indent/>? D'accord, mais revenez vite<Indent/>!♪"
-215,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE2","Allez, à la prochaine<Indent/>!"
-216,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE3","Je serai toujours à l'affût de ton appel et prierai pour que le destin fasse à nouveau se croiser nos chemins."
-217,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE4","(bâille)... C'est tout<Indent/>? Je vais faire un petit somme alors. Réveillez-moi si vous voulez quelque chose, d'accord<Indent/>?"
-218,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE5","Ah oui<Indent/>? Tu me renvoies déjà<Indent/>? D'accord... Eh bien, à une prochaine fois."
-219,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE6","Vous êtes sûr<If(PlayerParameter(4))>e<Else/></If> que vous ne voulez pas papoter un peu plus<Indent/>? Quelle déception..."
-220,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE1","N'hésitez pas à refaire appel à moi quand vous voulez<Indent/>!"
-221,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE2","Allez, à la revoyure<Indent/>! Et rappelle-moi quand tu veux, hein<Indent/>!"
-222,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE3","Bon, eh bien à bientôt..."
-223,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE4","On ira boire un verre ensemble la prochaine fois, d'accord<Indent/>? À plus<Indent/>!"
-224,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE5","Déjà fini<Indent/>? Bon... ben je m'en vais alors..."
-225,"TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE6","Avez-vous terminé<Indent/>? Bien, permettez-moi donc de prendre congé."
-226,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE1","Je suis contente d'avoir pu vous être utile<Indent/>! Faites attention à vous, d'accord<Indent/>?"
-227,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE2","Rappelle-moi dès que t'auras besoin<Indent/>! J'suis prête à t'aider n'importe quand, moi<Indent/>!"
-228,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE3","C'est terminé<Indent/>? Bien, rappellez-moi plus tard, dans ce cas."
-229,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE4","C'est tout bon pour toi<Indent/>? Parfait, alors je vais bien me limer les griffes en attendant que tu me rappelles<Indent/>!"
-230,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE5","Hm<Indent/>? C'est tout<Indent/>? Bon ben dans ce cas, à plus tard "
-231,"TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE6","C'est bon, vous n'avez plus besoin de moi<Indent/>? Parfait<Indent/>! Je vais pouvoir faire une bonne sieste, alors<Indent/>!"
+36,TEXT_HOUFURMERCHANT_00511_Q7_000_001,Choisissez une pose.
+37,TEXT_HOUFURMERCHANT_00511_A7_000_000,
+38,TEXT_HOUFURMERCHANT_00511_A7_000_001,Annuler
+39,TEXT_HOUFURMERCHANT_00511_Q8_000_001,Choisir “” ?
+40,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE1,"À votre service, Maîtresse."
+41,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE2,M'voilà ! Qu'est-ce que vous voulez ?
+42,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE3,M'avez-vous appelé ?
+43,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE4,Oui ? J'espère que ça ne va pas prendre trop de temps...
+44,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE5,"Que feriez-vous sans moi, vraiment ?"
+45,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_MALE_TYPE6,"Bonsoir, bonsoir ! Je peux vous aider ?"
+46,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE1,"À votre service, Madame."
+47,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE2,"Qu'est-ce que ça sera, cette fois ?"
+48,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE3,Que désirez-vous exactement ?
+49,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE4,Je suis vraiment désolée de vous faire attendre à chaque fois. Et vous voulez quoi au juste ?
+50,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE5,"Bien, ne perdons pas de temps, s'il vous plaît. J'ai d'autres choses à faire."
+51,TEXT_HOUFURMERCHANT_00511_ENTER_HYURAN_FEMALE_TYPE6,Oh ! C'est un plaisir de vous voir à chaque fois ! Dites-moi donc ce que vous voulez.
+52,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE1,"Oui, Maîtresse ? En quoi puis-je vous être utile ?"
+53,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE2,Salut Chef ! Qu'est-ce que j'peux faire pour vous ?
+54,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE3,"Je suis là, Madame. Dites-moi ce que vous désirez."
+55,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE4,"Oh, salut. Que me vaut l'honneur d'être appelé ?"
+56,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE5,"Je suis ici pour le travail, rien d'autre. D'accord ?"
+57,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_MALE_TYPE6,"Oh, vous avez un joli teint aujourd'hui, Madame. Que puis-je faire pour vous en cette belle soirée ?"
+58,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE1,"Que puis-je faire pour votre bon plaisir, Maîtresse ?"
+59,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE2,"D'habitude, c'est moi qui appelle les gens et me fais servir. Que voulez-vous au juste ?"
+60,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE3,Y a-t-il quelque chose en quoi je puisse vous aider ?
+61,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE4,"Oh, mais pourquoi vous m'appelez à un tel moment... ?"
+62,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE5,J'imagine que vous avez une bonne raison pour m'appeler ainsi.
+63,TEXT_HOUFURMERCHANT_00511_ENTER_ELEZEN_FEMALE_TYPE6,"Vous savez quoi, j'étais sûre que vous m'appelleriez bientôt. Pour moi, c'est toujours un plaisir de vous venir en aide."
+64,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE1,"Bonsoir à vous, Maîtresse. Votre humble servant vous écoute."
+65,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE2,"Hé, salut Maîtresse. Dites-moi ce que vous voulez, et je m'en occupe tout de suite !"
+66,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE3,Je me demandais quand vous finiriez par m'appeler.
+67,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE4,Ça vous dérange si nous faisons ça vite ? J'ai autre chose à faire de mon côté.
+68,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE5,Oui ?
+69,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_MALE_TYPE6,"Me voici, me voilà !"
+70,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE1,"Maîtresse, me voici, à votre service."
+71,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE2,"Salut, salut ! Vous voulez que je vous aide ?"
+72,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE3,Je savais bien que vous ne pouviez pas vous passer de mes services.
+73,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE4,"Oh, je ne m'attendais pas à ce que vous m'appeliez. Que désirez-vous exactement ?"
+74,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE5,Que voulez-vous cette fois ?
+75,TEXT_HOUFURMERCHANT_00511_ENTER_LALAFELL_FEMALE_TYPE6,Me voiciiiiiiiii !
+76,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE1,"En quoi puis-je vous servir, Maîtrrresse ?"
+77,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE2,Désolé pour l'attente. Qu'est-ce que j'peux fairrre pour vous ?
+78,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE3,Oui... ?
+79,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE4,C'est moi que vous voulez voirrr ?
+80,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE5,"Si vous avez quelque chose à me demander, dépêchez-vous. J'ai hâte de rentrrrer."
+81,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_MALE_TYPE6,Ah ! Vous êtes justement la perrrsonne que je voulais voir ! Dites-moi donc ce que je peux faire pour vous.
+82,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE1,"Bonsoirrr, Maîtresse. Que puis-je faire pour vous ?"
+83,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE2,"Hé, salut ! Vous désirrrez quelque chose ?"
+84,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE3,"Les oreilles d'un chat entendent tout, surrrtout lorsqu'on l'appelle."
+85,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE4,Je suis venue par currriosité. Qu'est-ce que vous voulez que je fasse ?
+86,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE5,"Dites-moi ce que vous voulez, et je m'en charrrge."
+87,TEXT_HOUFURMERCHANT_00511_ENTER_MIQOTE_FEMALE_TYPE6,Hi hi hi ! Je pensais justement à vous !
+88,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE1,"Que puis-je faire pour vous aujourd'hui, Maîtresse ?"
+89,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE2,Mouahaha ! Z'avez quelque chose à m'faire faire ?
+90,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE3,Je suis là. Que puis-je faire pour vous ?
+91,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE4,"Hé, salut, l'amie ! Vous voulez pas aller boire un coup ?"
+92,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE5,Je suis venu aussi vite que j'ai pu. Qu'est-ce que je dois faire ?
+93,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_MALE_TYPE6,"J'ai accouru dès que j'ai entendu la sonnette, tellement j'avais hâte de vous voir !"
+94,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE1,"Je suis à votre service, Maîtresse."
+95,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE2,"Z'avez quelque chose à me demander, Capitaine ?"
+96,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE3,"Je vous écoute, Madame."
+97,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE4,Tâchons de ne pas perdre de temps. Je suis pressée.
+98,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE5,Tout irait mieux si vous me confiiez la gestion de toutes vos finances.
+99,TEXT_HOUFURMERCHANT_00511_ENTER_ROEGADYN_FEMALE_TYPE6,"Ah, je suis bien heureuse de vous voir. Que voulez-vous que je fasse pour vous aujourd'hui ?"
+100,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE1,"En quoi puis-je vous servir, Maîtresse ?"
+101,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE2,Désolé pour l'attente. Qu'est-ce que j'peux faire pour vous ?
+102,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE3,Qu'y a-t-il ?
+103,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE4,C'est moi que vous voulez voir ?
+104,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE5,"Si vous avez quelque chose à me demander, hâtez-vous. Je suis pressé de rentrer."
+105,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_MALE_TYPE6,Ah ! Quelle joie de vous voir ! Dites-moi donc ce que je peux faire pour vous.
+106,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE1,"Je suis à votre service, Maîtresse."
+107,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE2,Euh... Vous avez quelque chose à me demander ?
+108,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE3,"Je vous écoute, Madame."
+109,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE4,"Me voici, me voilà !"
+110,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE5,Je suis persuadée que me confier la gestion de toutes vos finances est la meilleure chose à faire.
+111,TEXT_HOUFURMERCHANT_00511_ENTER_AURA_FEMALE_TYPE6,"Ah, je suis bien contente de vous voir. Que puis-je faire pour vous aujourd'hui ?"
+112,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE1,"Me voilà, Maîtresse. En quoi puis-je vous être utile par cette magnifique soirée ?"
+113,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE2,"Tu veux quoi ? Lâche le morceau, sois pas timide."
+114,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE3,J'espère que tu ne m'appelles pas pour rien. J'ai d'autres chats à fouetter.
+115,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE4,"Salut, Chef. C'est toujours un plaisir. Qu'est-ce que je peux faire pour vous aujourd'hui ?"
+116,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE5,"Hé ! Ça va !? Allez, dites-moi ce dont vous avez besoin, je vais m'en occuper en deux temps trois mouvements !"
+117,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_MALE_TYPE6,"Salut, ma pote ! Qu'est-ce qu'on fait d'beau, aujourd'hui !?"
+118,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE1,Bonsoir !♪ Comment puis-je vous servir aujourd'hui ?♪
+119,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE2,"Je sais pas ce que tu me veux, mais t'as intérêt à me raconter une autre de tes aventures en échange."
+120,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE3,"Que convoites-tu, aujourd'hui ? Fais-moi savoir ton souhait."
+121,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE4,"Bon... (bâille)... Bwonsoir... Hmm ? Vous êtes vraiment là, ou je suis encore en train de rêver... ?"
+122,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE5,"Bonsoir, toi. Tu veux quelque chose ?"
+123,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_FEMALE_TYPE6,"Oh ! Auriez-vous besoin de moi !? Je ne vous décevrai pas, je vous le jure !"
+124,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE1,"Parfait, j'attendais justement que vous m'appeliez ! J'ai hâte de voir quel genre de travail vous avez pour moi aujourd'hui !"
+125,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE2,Salut ! Un problème que je peux t'aider à régler ?
+126,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE3,Me voilà...
+127,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE4,(baille) Salut vieille ! Tu m'as appelé ?
+128,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE5,"Tu as besoin de moi ? Bon, allez, dépêche-toi de me dire ce que tu veux."
+129,TEXT_HOUFURMERCHANT_00511_ENTER_VIERA_MALE_TYPE6,Bonjour Maîtresse. Je suis ravi de pouvoir vous rendre service !
+130,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE1,Bonsoir ma chère ! Que puis-je pour vous aider ?
+131,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE2,"Oh bah moi si tu m'appelles, je débarque tout de suite !"
+132,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE3,Vous m'avez appelée. Comment souhaitez-vous que je vous aide ?
+133,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE4,"Ouah, je suis trop contente que tu m'aies appelée ! J'avais hâte de pouvoir t'aider !"
+134,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE5,"Ouah, si je m'attendais à ce que ce soit toi, Player, qui m'appelles !"
+135,TEXT_HOUFURMERCHANT_00511_ENTER_HROTHGAR_FEMALE_TYPE6,"Oui oui, je suis là ! Je suis venue le plus vite que j'ai pu !"
+136,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE1,"Avec votre accord, Maîtresse, je vais prendre congé de vous."
+137,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE2,À la revoyure !
+138,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE3,À la prochaine fois.
+139,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE4,"Bon, ben, je dois y aller. À plus !"
+140,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE5,"Bien, je crois que tout est en ordre. Au revoir."
+141,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_MALE_TYPE6,"Je file. À bientôt, j'espère !"
+142,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE1,"Avec votre permission, Maîtresse, je vais prendre congé de vous."
+143,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE2,À la prochaine !
+144,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE3,À la prochaine fois.
+145,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE4,"Si c'est tout, je vais y aller. À plus !"
+146,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE5,"Bien, je crois que tout est comme il faut. Au revoir."
+147,TEXT_HOUFURMERCHANT_00511_LEAVE_HYURAN_FEMALE_TYPE6,"J'y vais. À très bientôt, j'espère !"
+148,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE1,"Une fois encore, ce fut un honneur et un privilège de vous servir, Maîtresse."
+149,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE2,"Allez, à plus !"
+150,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE3,Je m'occupe de tout. Faites-moi confiance.
+151,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE4,"Je vous assure que je vais m'en occuper... Je ne sais pas quand, mais je vais le faire."
+152,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE5,Comme vous le voudrez.
+153,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_MALE_TYPE6,Ça a été un plaisir de vous revoir.
+154,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE1,"Une fois de plus, ce fut un honneur et un privilège de vous servir, Maîtresse."
+155,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE2,"Allez, à la prochaine !"
+156,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE3,Je m'occupe de tout. Ayez confiance.
+157,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE4,"C'est bon ? Dans ce cas, je m'en vais..."
+158,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE5,"Bien, je crois que nous en avons fini pour cette fois."
+159,TEXT_HOUFURMERCHANT_00511_LEAVE_ELEZEN_FEMALE_TYPE6,J'ai passé un bon moment avec vous. J'espère que nous nous reverrons bientôt.
+160,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE1,"Chacun de vos ordres sera effectué avec tout le soin nécessaire, Maîtresse."
+161,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE2,Je m'occupe de ça tout de suite. À plus !
+162,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE3,"Bien, dans ce cas, je m'en vais."
+163,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE4,"Les Dieux soient loués, c'est enfin fini. Ce n'est pas tout, mais j'ai des choses qui m'attendent."
+164,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE5,Portez-vous bien.
+165,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_MALE_TYPE6,"Allez, à très bientôt !"
+166,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE1,"Au plaisir de vous revoir, Maîtresse."
+167,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE2,À bientôt !
+168,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE3,Que Nald fasse fructifier votre fortune.
+169,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE4,Au revoir !
+170,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE5,Vous savez comment me contacter.
+171,TEXT_HOUFURMERCHANT_00511_LEAVE_LALAFELL_FEMALE_TYPE6,C'est déjà le moment de se dire au revoir ? Vous allez me manquer...
+172,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE1,"Tout sera fait comme vous le désirez, Maîtrrresse."
+173,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE2,"Le marché est comme un champ de bataille, mais moi, j'ai la rage au ventrrre ! Comptez sur moi pour me battre jusqu'au bout pour vous !"
+174,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE3,Hmpf...
+175,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE4,"Bon, j'y vais. J'ai d'autrrres chats à fouetter."
+176,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE5,"Je ne pensais pas que tout ceci requerrait ma prrrésence, mais ce qui est fait est fait. Sur ce, je m'en vais."
+177,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_MALE_TYPE6,Ce fut un plaisirrr de vous aider ! À bientôt !
+178,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE1,"C'est un honneur de vous servir, Maîtrrresse."
+179,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE2,Je file ! À la revoyurrre !
+180,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE3,Faites-moi confiance. J'ai les choses bien en main.
+181,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE4,"Bon, il est temps que j'aille m'amuser autrrre part."
+182,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE5,"Bon, je crois que vous saurez vous débrouiller pour le reste. Pas vrrrai ?"
+183,TEXT_HOUFURMERCHANT_00511_LEAVE_MIQOTE_FEMALE_TYPE6,"Je suis un peu trrriste de vous quitter, mais je suis sûre que nous nous reverrons très pro­chai­ne­ment."
+184,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE1,"Je vais faire comme vous me l'avez ordonné, Maîtresse."
+185,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE2,Mouahaha ! J'vais aller vendre votre camelote au bazar !
+186,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE3,Je vais m'en aller. À une prochaine fois.
+187,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE4,"Ah, mince... Il va falloir que je me mette au boulot. Allez, je file."
+188,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE5,Je crois qu'il est temps que j'y aille. Salut.
+189,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_MALE_TYPE6,"J'y vais. Vous, vous devriez faire un petit somme, vous avez l'air flagada."
+190,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE1,"N'y a-t-il rien d'autre que je puisse faire pour vous aider, Maîtresse ? Dans ce cas, je vais prendre congé de vous."
+191,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE2,"À vos ordres, Capitaine !"
+192,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE3,Tout sera fait selon vos bons désirs.
+193,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE4,"J'avais d'autres projets pour la journée, mais j'imagine que je vais devoir faire mon travail. Au revoir."
+194,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE5,"Faites-moi confiance, je sais me débrouiller toute seule."
+195,TEXT_HOUFURMERCHANT_00511_LEAVE_ROEGADYN_FEMALE_TYPE6,"Bon, je regrette de me séparer de vous, mais il est temps que j'y aille. On se revoit bientôt, n'est-ce pas ?"
+196,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE1,"Chacun de vos ordres sera effectué avec soin, Maîtresse."
+197,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE2,D'accord ! À plus tard !
+198,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE3,"Bien, dans ce cas, j'y vais."
+199,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE4,"Ouf ! C'est enfin fini. C'est que j'ai des choses qui m'attendent, moi."
+200,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE5,Portez-vous bien.
+201,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_MALE_TYPE6,"Allez, à très très bientôt !"
+202,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE1,"Une fois de plus, ce fut un honneur et un privilège de vous rendre service, Maîtresse."
+203,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE2,"Allez, à la revoyure !"
+204,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE3,Je m'occupe de tout. Faites-moi confiance.
+205,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE4,"C'est bon ? Dans ce cas, je pars..."
+206,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE5,"Bien, je crois que nous en avons fini pour cette fois."
+207,TEXT_HOUFURMERCHANT_00511_LEAVE_AURA_FEMALE_TYPE6,J'ai passé un agréable moment avec vous. J'espère que nous nous reverrons bientôt.
+208,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE1,"Heureux d'avoir pu vous aider, Maîtresse. Si vous avez à nouveau besoin de moi, vous savez où me trouver."
+209,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE2,Une broutille ton truc ! Hésite pas à vraiment me donner une tâche difficile la prochaine fois.
+210,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE3,"Peu de gens peuvent rendre ce genre de service, tu sais ? Allez, n'hésite pas à faire appel à moi la prochaine fois."
+211,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE4,"Je vous laisse, Chef. Je vais en profiter pour faire ma toilette."
+212,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE5,"Vous n'avez plus besoin de moi ? Je file alors, mais rappelez-moi au moindre souci, et j'accourrai !"
+213,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_MALE_TYPE6,À plus ! Rappelle-moi quand tu veux !
+214,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE1,"Oh, vous vous en allez déjà, Maîtresse ? D'accord, mais revenez vite !♪"
+215,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE2,"Allez, à la prochaine !"
+216,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE3,Je serai toujours à l'affût de ton appel et prierai pour que le destin fasse à nouveau se croiser nos chemins.
+217,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE4,"(bâille)... C'est tout ? Je vais faire un petit somme alors. Réveillez-moi si vous voulez quelque chose, d'accord ?"
+218,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE5,"Ah oui ? Tu me renvoies déjà ? D'accord... Eh bien, à une prochaine fois."
+219,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_FEMALE_TYPE6,Vous êtes sûre que vous ne voulez pas papoter un peu plus ? Quelle déception...
+220,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE1,N'hésitez pas à refaire appel à moi quand vous voulez !
+221,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE2,"Allez, à la revoyure ! Et rappelle-moi quand tu veux, hein !"
+222,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE3,"Bon, eh bien à bientôt..."
+223,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE4,"On ira boire un verre ensemble la prochaine fois, d'accord ? À plus !"
+224,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE5,Déjà fini ? Bon... ben je m'en vais alors...
+225,TEXT_HOUFURMERCHANT_00511_LEAVE_VIERA_MALE_TYPE6,"Avez-vous terminé ? Bien, permettez-moi donc de prendre congé."
+226,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE1,"Je suis contente d'avoir pu vous être utile ! Faites attention à vous, d'accord ?"
+227,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE2,"Rappelle-moi dès que t'auras besoin ! J'suis prête à t'aider n'importe quand, moi !"
+228,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE3,"C'est terminé ? Bien, rappellez-moi plus tard, dans ce cas."
+229,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE4,"C'est tout bon pour toi ? Parfait, alors je vais bien me limer les griffes en attendant que tu me rappelles !"
+230,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE5,"Hm ? C'est tout ? Bon ben dans ce cas, à plus tard "
+231,TEXT_HOUFURMERCHANT_00511_LEAVE_HROTHGAR_FEMALE_TYPE6,"C'est bon, vous n'avez plus besoin de moi ? Parfait ! Je vais pouvoir faire une bonne sieste, alors !"

@@ -1,192 +1,189 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CHOCOBOTAXISTAND_00000_LOW_LEVEL","Je suis désolé, mais les aventuriers peu habitués à monter des chocobos ne peuvent pas être autorisés à utiliser nos services. La rapidité à laquelle galopent nos bêtes rendrait le moindre incident po<SoftHyphen/>ten<SoftHyphen/>tiel<SoftHyphen/>le<SoftHyphen/>ment dramatique. Revenez donc me voir quand vous aurez acquis un peu plus d'expérience."
-1,"TEXT_CHOCOBOTAXISTAND_00100_LOW_LEVEL","Veuillez m'excuser, mais les aventuriers encore peu ex<SoftHyphen/>pé<SoftHyphen/>ri<SoftHyphen/>men<SoftHyphen/>tés ne peuvent pas être autorisés à utiliser nos services, par mesure de sécurité. Imaginez la catastrophe si vous deviez chuter de votre faucon, ça pourrait vous être fatal. Revenez donc me voir quand vous aurez acquis un peu plus d'assurance."
-2,"TEXT_CHOCOBOTAXISTAND_00100_LOW_LEVEL_KOJIN","Veuillez m'excuseeeer. Je ne peux pas permettre aux aventuriers manquant d'expérience de monter sur nos faucoooons. Ils sont parfois capricieux, le sang-froid du guerrier doit couler dans vos veines afin de ne pas être surpris<If(PlayerParameter(4))>e<Else/></If> lorsque cela arriiiive."
-3,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_000_1","Vous devez atteindre le niveau 10 pour monter les chocobos de relais."
-4,"TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_000_1","Vous devez atteindre le niveau 10 pour monter les faucons de relais."
-5,"TEXT_CHOCOBOTAXISTAND_00000_CHOCOBOTAXI_UNLOCK_01","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, aventuri<If(PlayerParameter(4))>ère<Else/>er</If>. Soyez <If(PlayerParameter(4))>la bienvenue<Else/>le bienvenu</If> dans notre relais à chocobos."
-6,"TEXT_CHOCOBOTAXISTAND_00000_CHOCOBOTAXI_UNLOCK_02","Votre tête ne me dit rien... C'est la première fois que vous venez ici<Indent/>? Dans ce cas, je vais ajouter ce relais à votre liste de destinations, comme ça vous pourrez nous rendre visite à votre convenance."
-7,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_UNLOCK_01","Vous apercevez un rocher en forme de chocobo, qui émet des gazouillis..."
-8,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_UNLOCK_02","Vous avez le sentiment qu'en laissant quelques gils, vous pourriez appeler un chocobo de relais..."
-9,"TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_01","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, aventuri<If(PlayerParameter(4))>ère<Else/>er</If>. Soyez <If(PlayerParameter(4))>la bienvenue<Else/>le bienvenu</If> dans notre relais à faucons."
-10,"TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_02","Je ne me souviens pas vous avoir déjà vu<If(PlayerParameter(4))>e<Else/></If>. Je vais ajouter les destinations que ce relais dessert sur votre carte, si vous me le permettez."
-11,"TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_01_KOJIN","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsooooir<Else/>Bonjoooour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjoooour<Else/>Bonsooooir</If></If>. Bienvenue dans notre relais à faucoooons. "
-12,"TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_02_KOJIN","Votre visage m'est inconnuuuu. Serait-ce la première fois que vous utilisez notre serviiiice<Indent/>? Dans ce cas, permettez-moi d'ajouter sur votre carte les destinations où nos faucons peuvent vous meneeeer. "
-13,"TEXT_CHOCOBOTAXISTAND_00000_CHOCOBOTAXI_01","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, aventuri<If(PlayerParameter(4))>ère<Else/>er</If>. Soyez <If(PlayerParameter(4))>la bienvenue<Else/>le bienvenu</If> dans notre relais à chocobos. En quoi puis-je vous être utile<Indent/>?"
-14,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_CHOCOBOTAXI_01","Vous apercevez un rocher en forme de chocobo, qui émet des gazouillis...
+0,TEXT_CHOCOBOTAXISTAND_00000_LOW_LEVEL,"Je suis désolé, mais les aventuriers peu habitués à monter des chocobos ne peuvent pas être autorisés à utiliser nos services. La rapidité à laquelle galopent nos bêtes rendrait le moindre incident po­ten­tiel­le­ment dramatique. Revenez donc me voir quand vous aurez acquis un peu plus d'expérience."
+1,TEXT_CHOCOBOTAXISTAND_00100_LOW_LEVEL,"Veuillez m'excuser, mais les aventuriers encore peu ex­pé­ri­men­tés ne peuvent pas être autorisés à utiliser nos services, par mesure de sécurité. Imaginez la catastrophe si vous deviez chuter de votre faucon, ça pourrait vous être fatal. Revenez donc me voir quand vous aurez acquis un peu plus d'assurance."
+2,TEXT_CHOCOBOTAXISTAND_00100_LOW_LEVEL_KOJIN,"Veuillez m'excuseeeer. Je ne peux pas permettre aux aventuriers manquant d'expérience de monter sur nos faucoooons. Ils sont parfois capricieux, le sang-froid du guerrier doit couler dans vos veines afin de ne pas être surprise lorsque cela arriiiive."
+3,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_000_1,Vous devez atteindre le niveau 10 pour monter les chocobos de relais.
+4,TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_000_1,Vous devez atteindre le niveau 10 pour monter les faucons de relais.
+5,TEXT_CHOCOBOTAXISTAND_00000_CHOCOBOTAXI_UNLOCK_01,"Bonsoir, aventurière. Soyez la bienvenue dans notre relais à chocobos."
+6,TEXT_CHOCOBOTAXISTAND_00000_CHOCOBOTAXI_UNLOCK_02,"Votre tête ne me dit rien... C'est la première fois que vous venez ici ? Dans ce cas, je vais ajouter ce relais à votre liste de destinations, comme ça vous pourrez nous rendre visite à votre convenance."
+7,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_UNLOCK_01,"Vous apercevez un rocher en forme de chocobo, qui émet des gazouillis..."
+8,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_UNLOCK_02,"Vous avez le sentiment qu'en laissant quelques gils, vous pourriez appeler un chocobo de relais..."
+9,TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_01,"Bonsoir, aventurière. Soyez la bienvenue dans notre relais à faucons."
+10,TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_02,"Je ne me souviens pas vous avoir déjà vue. Je vais ajouter les destinations que ce relais dessert sur votre carte, si vous me le permettez."
+11,TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_01_KOJIN,Bonsooooir. Bienvenue dans notre relais à faucoooons. 
+12,TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_UNLOCK_02_KOJIN,"Votre visage m'est inconnuuuu. Serait-ce la première fois que vous utilisez notre serviiiice ? Dans ce cas, permettez-moi d'ajouter sur votre carte les destinations où nos faucons peuvent vous meneeeer. "
+13,TEXT_CHOCOBOTAXISTAND_00000_CHOCOBOTAXI_01,"Bonsoir, aventurière. Soyez la bienvenue dans notre relais à chocobos. En quoi puis-je vous être utile ?"
+14,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_CHOCOBOTAXI_01,"Vous apercevez un rocher en forme de chocobo, qui émet des gazouillis...
 Vous avez le sentiment qu'il pourrait servir de relais à chocobos..."
-15,"TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_01","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, aventuri<If(PlayerParameter(4))>ère<Else/>er</If>. Soyez <If(PlayerParameter(4))>la bienvenue<Else/>le bienvenu</If> dans notre relais à faucons."
-16,"TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_01_KOJIN","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsooooir<Else/>Bonjoooour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjoooour<Else/>Bonsooooir</If></If>. Bienvenue dans notre relais à faucoooons. "
-17,"TEXT_CHOCOBOTAXISTAND_00000_Q1_000_1","Que voulez-vous faire<Indent/>?"
-18,"TEXT_CHOCOBOTAXISTAND_00000_A1_000_1","Monter un chocobo de relais"
-19,"TEXT_CHOCOBOTAXISTAND_00000_A1_000_2","En savoir plus sur les relais à chocobos"
-20,"TEXT_CHOCOBOTAXISTAND_00000_A1_000_3","Rien en particulier"
-21,"TEXT_CHOCOBOTAXISTAND_00100_Q1_000_1","Que voulez-vous faire<Indent/>?"
-22,"TEXT_CHOCOBOTAXISTAND_00100_A1_000_1","Monter un faucon de relais"
-23,"TEXT_CHOCOBOTAXISTAND_00100_A1_000_2","En savoir plus sur les relais à faucons"
-24,"TEXT_CHOCOBOTAXISTAND_00100_A1_000_3","Rien en particulier"
-25,"TEXT_CHOCOBOTAXISTAND_00000_HELP1","Les relais à chocobos vous permettent de vous déplacer rapidement et en toute sécurité d'une écurie à une autre."
-26,"TEXT_CHOCOBOTAXISTAND_00000_HELP2","Il y a toutefois deux choses auxquelles vous devez prêter attention."
-27,"TEXT_CHOCOBOTAXISTAND_00000_HELP3","La première est de toujours tenir fermement les rênes de votre monture. Si jamais vous lui lâchiez la bride, elle rejoindrait im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment son écurie d'origine, vous laissant poursuivre votre route à pied."
-28,"TEXT_CHOCOBOTAXISTAND_00000_HELP4","La deuxième concerne le lieu d'arrivée."
-29,"TEXT_CHOCOBOTAXISTAND_00000_HELP5","La route menant à celui-ci doit être reliée à votre point de départ et, à l'exception de quelques relais, vous devez l'avoir visité au moins une fois au préalable."
-30,"TEXT_CHOCOBOTAXISTAND_00000_HELP6","Je vous avouerais qu'il s'agit plus d'une sécurité qu'autre chose. Si nous affichons un taux de réussite de cent pour cent, nous ne sommes jamais à l'abri d'un accident. Voilà pourquoi nous préférons être prudents."
-31,"TEXT_CHOCOBOTAXISTAND_00000_HELP7","Rassurez-vous, nos chocobos ont été longuement entraînés et ils connaissent par<SoftHyphen/>fai<SoftHyphen/>te<SoftHyphen/>ment les itinéraires à emprunter. Leur rapidité est telle qu'une fois en selle vous n'avez plus rien à craindre des monstres, ni de quoi que ce soit d'autre."
-32,"TEXT_CHOCOBOTAXISTAND_00000_HELP8","Nous vous ga<SoftHyphen/>ran<SoftHyphen/>tis<SoftHyphen/>sons sécurité, fiabilité et sérénité."
-33,"TEXT_CHOCOBOTAXISTAND_00000_HELP9","Voilà, j'espère que mes ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions étaient assez claires et que vous ferez appel à nos services dans le futur."
-34,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP1","Ici, vous pouvez appeler un chocobo de relais pour vous rendre à une destination de votre choix."
-35,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP2","Vous devez toutefois faire attention à deux choses."
-36,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP3","D'abord, si vous descendez de chocobo en cours de route, celui-ci s'en ira sans vous."
-37,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP4","Ensuite, le relais à chocobos que vous choisissez comme destination doit répondre à certaines conditions."
-38,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP5","Il doit être relié à celui qui vous sert de point de départ. Il est également nécessaire que vous l'ayez déjà visité."
-39,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP6","Si ces conditions ne sont pas réunies, vous ne pourrez pas utiliser de chocobo de relais."
-40,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP7","Notez également que ces montures suivent une route prédéterminée."
-41,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP8","Vous n'avez aucun risque d'être attaqué<If(PlayerParameter(4))>e<Else/></If> en chemin."
-42,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP9","Vous n'avez donc rien à craindre tant que vous êtes à dos de chocobo de relais."
-43,"TEXT_CHOCOBOTAXISTAND_00100_HELP1","Les relais à faucons vous permettent de vous déplacer rapidement et en toute sécurité d'un relais à un autre."
-44,"TEXT_CHOCOBOTAXISTAND_00100_HELP2","Vous devez toutefois faire attention à deux choses."
-45,"TEXT_CHOCOBOTAXISTAND_00100_HELP3","Premièrement, vous ne devez pas descendre de votre faucon. Si vous essayez de le faire, et qu'il peut vous déposer en toute sécurité, il le fera. Cependant, il repartira aussitôt sans demander son reste."
-46,"TEXT_CHOCOBOTAXISTAND_00100_HELP4","Deuxièmement, le relais à faucons que vous choisissez comme destination doit répondre à certaines conditions."
-47,"TEXT_CHOCOBOTAXISTAND_00100_HELP5","La route menant à celui-ci doit être reliée à votre point de départ et, à l'exception de quelques relais, vous devez l'avoir visité au moins une fois au préalable."
-48,"TEXT_CHOCOBOTAXISTAND_00100_HELP6","À dos de faucon, vous pouvez vous rendre presque n'importe où. Cependant, si vous ne connaissez pas le cap de votre destination, qui sait où vous vous retrouverez<Indent/>?"
-49,"TEXT_CHOCOBOTAXISTAND_00100_HELP7","D'autre part, nos faucons ont été entraînés à rallier un nombre limité de destinations afin d'être les plus performants possible. En conséquence, nous ne desservons que certains relais."
-50,"TEXT_CHOCOBOTAXISTAND_00100_HELP8","Votre sécurité et votre confort sont nos principales préoccupations. Nos faucons sont rapides comme le vent. Ainsi, nous vous ga<SoftHyphen/>ran<SoftHyphen/>tis<SoftHyphen/>sons un trajet bref et sûr."
-51,"TEXT_CHOCOBOTAXISTAND_00100_HELP9","Merci d'avoir écouté mes ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions. J'espère vous avoir convaincu<If(PlayerParameter(4))>e<Else/></If> de louer nos services."
-52,"TEXT_CHOCOBOTAXISTAND_00100_HELP1_KOJIN","Grâce aux faucons que nous mettons à votre disposition, vous pouvez aller et venir comme bon vous semble d'un relais à l'auuuutre."
-53,"TEXT_CHOCOBOTAXISTAND_00100_HELP2_KOJIN","Gardez cependant ces deux choses à l'espriiiit."
-54,"TEXT_CHOCOBOTAXISTAND_00100_HELP3_KOJIN","Tout d'abord, vous ne devez pas descendre de votre faucon en plein vooool. Si vous le faites, il vous déposera au sol et repartira sans voooous. Vous serez alors obligé<If(PlayerParameter(4))>e<Else/></If> de continuer votre chemin à pieeeed."
-55,"TEXT_CHOCOBOTAXISTAND_00100_HELP4_KOJIN","Ensuite, la destination que vous choisissez doit remplir certaines conditioooons."
-56,"TEXT_CHOCOBOTAXISTAND_00100_HELP5_KOJIN","La route qui mène à celle-ci doit être reliée à votre point de départ et vous devez l'avoir visité avant au moins une foooois."
-57,"TEXT_CHOCOBOTAXISTAND_00100_HELP6_KOJIN","Si ce n'était pas le cas, votre faucon se perdrait, et vous aveeeec."
-58,"TEXT_CHOCOBOTAXISTAND_00100_HELP7_KOJIN","Enfin, nous n'offrons qu'un nombre limité de destinatioooons. Un faucon ne peut pas apprendre beaucoup de trajets différents, nous ne les habituons qu'à faire le chemin entre quelques relais seulemeeeent."
-59,"TEXT_CHOCOBOTAXISTAND_00100_HELP8_KOJIN","Dans le cas où vous feriez une mauvaise rencontre, n'ayez craiiiinte. Aucun monstre ne saurait rattraper nos faucoooons. Sécurité et confort sont les maîtres mots du service que nous vous proposoooons."
-60,"TEXT_CHOCOBOTAXISTAND_00100_HELP9_KOJIN","Vous savez tout maintenaaaant. Nous serons heureux de vous rendre serviiiice."
-61,"TEXT_CHOCOBOTAXISTAND_00000_TAXI_IMPOSSIBLE_1","Veuillez m'excuser, mais pour utiliser nos services vous devez d'abord visiter au moins un des relais reliés à celui-ci."
-62,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_IMPOSSIBLE_1","Il semblerait qu'aucune destination ne vous soit disponible...
+15,TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_01,"Bonsoir, aventurière. Soyez la bienvenue dans notre relais à faucons."
+16,TEXT_CHOCOBOTAXISTAND_00100_CHOCOBOTAXI_01_KOJIN,Bonsooooir. Bienvenue dans notre relais à faucoooons. 
+17,TEXT_CHOCOBOTAXISTAND_00000_Q1_000_1,Que voulez-vous faire ?
+18,TEXT_CHOCOBOTAXISTAND_00000_A1_000_1,Monter un chocobo de relais
+19,TEXT_CHOCOBOTAXISTAND_00000_A1_000_2,En savoir plus sur les relais à chocobos
+20,TEXT_CHOCOBOTAXISTAND_00000_A1_000_3,Rien en particulier
+21,TEXT_CHOCOBOTAXISTAND_00100_Q1_000_1,Que voulez-vous faire ?
+22,TEXT_CHOCOBOTAXISTAND_00100_A1_000_1,Monter un faucon de relais
+23,TEXT_CHOCOBOTAXISTAND_00100_A1_000_2,En savoir plus sur les relais à faucons
+24,TEXT_CHOCOBOTAXISTAND_00100_A1_000_3,Rien en particulier
+25,TEXT_CHOCOBOTAXISTAND_00000_HELP1,Les relais à chocobos vous permettent de vous déplacer rapidement et en toute sécurité d'une écurie à une autre.
+26,TEXT_CHOCOBOTAXISTAND_00000_HELP2,Il y a toutefois deux choses auxquelles vous devez prêter attention.
+27,TEXT_CHOCOBOTAXISTAND_00000_HELP3,"La première est de toujours tenir fermement les rênes de votre monture. Si jamais vous lui lâchiez la bride, elle rejoindrait im­mé­dia­te­ment son écurie d'origine, vous laissant poursuivre votre route à pied."
+28,TEXT_CHOCOBOTAXISTAND_00000_HELP4,La deuxième concerne le lieu d'arrivée.
+29,TEXT_CHOCOBOTAXISTAND_00000_HELP5,"La route menant à celui-ci doit être reliée à votre point de départ et, à l'exception de quelques relais, vous devez l'avoir visité au moins une fois au préalable."
+30,TEXT_CHOCOBOTAXISTAND_00000_HELP6,"Je vous avouerais qu'il s'agit plus d'une sécurité qu'autre chose. Si nous affichons un taux de réussite de cent pour cent, nous ne sommes jamais à l'abri d'un accident. Voilà pourquoi nous préférons être prudents."
+31,TEXT_CHOCOBOTAXISTAND_00000_HELP7,"Rassurez-vous, nos chocobos ont été longuement entraînés et ils connaissent par­fai­te­ment les itinéraires à emprunter. Leur rapidité est telle qu'une fois en selle vous n'avez plus rien à craindre des monstres, ni de quoi que ce soit d'autre."
+32,TEXT_CHOCOBOTAXISTAND_00000_HELP8,"Nous vous ga­ran­tis­sons sécurité, fiabilité et sérénité."
+33,TEXT_CHOCOBOTAXISTAND_00000_HELP9,"Voilà, j'espère que mes ex­pli­ca­tions étaient assez claires et que vous ferez appel à nos services dans le futur."
+34,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP1,"Ici, vous pouvez appeler un chocobo de relais pour vous rendre à une destination de votre choix."
+35,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP2,Vous devez toutefois faire attention à deux choses.
+36,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP3,"D'abord, si vous descendez de chocobo en cours de route, celui-ci s'en ira sans vous."
+37,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP4,"Ensuite, le relais à chocobos que vous choisissez comme destination doit répondre à certaines conditions."
+38,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP5,Il doit être relié à celui qui vous sert de point de départ. Il est également nécessaire que vous l'ayez déjà visité.
+39,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP6,"Si ces conditions ne sont pas réunies, vous ne pourrez pas utiliser de chocobo de relais."
+40,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP7,Notez également que ces montures suivent une route prédéterminée.
+41,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP8,Vous n'avez aucun risque d'être attaquée en chemin.
+42,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_HELP9,Vous n'avez donc rien à craindre tant que vous êtes à dos de chocobo de relais.
+43,TEXT_CHOCOBOTAXISTAND_00100_HELP1,Les relais à faucons vous permettent de vous déplacer rapidement et en toute sécurité d'un relais à un autre.
+44,TEXT_CHOCOBOTAXISTAND_00100_HELP2,Vous devez toutefois faire attention à deux choses.
+45,TEXT_CHOCOBOTAXISTAND_00100_HELP3,"Premièrement, vous ne devez pas descendre de votre faucon. Si vous essayez de le faire, et qu'il peut vous déposer en toute sécurité, il le fera. Cependant, il repartira aussitôt sans demander son reste."
+46,TEXT_CHOCOBOTAXISTAND_00100_HELP4,"Deuxièmement, le relais à faucons que vous choisissez comme destination doit répondre à certaines conditions."
+47,TEXT_CHOCOBOTAXISTAND_00100_HELP5,"La route menant à celui-ci doit être reliée à votre point de départ et, à l'exception de quelques relais, vous devez l'avoir visité au moins une fois au préalable."
+48,TEXT_CHOCOBOTAXISTAND_00100_HELP6,"À dos de faucon, vous pouvez vous rendre presque n'importe où. Cependant, si vous ne connaissez pas le cap de votre destination, qui sait où vous vous retrouverez ?"
+49,TEXT_CHOCOBOTAXISTAND_00100_HELP7,"D'autre part, nos faucons ont été entraînés à rallier un nombre limité de destinations afin d'être les plus performants possible. En conséquence, nous ne desservons que certains relais."
+50,TEXT_CHOCOBOTAXISTAND_00100_HELP8,"Votre sécurité et votre confort sont nos principales préoccupations. Nos faucons sont rapides comme le vent. Ainsi, nous vous ga­ran­tis­sons un trajet bref et sûr."
+51,TEXT_CHOCOBOTAXISTAND_00100_HELP9,Merci d'avoir écouté mes ex­pli­ca­tions. J'espère vous avoir convaincue de louer nos services.
+52,TEXT_CHOCOBOTAXISTAND_00100_HELP1_KOJIN,"Grâce aux faucons que nous mettons à votre disposition, vous pouvez aller et venir comme bon vous semble d'un relais à l'auuuutre."
+53,TEXT_CHOCOBOTAXISTAND_00100_HELP2_KOJIN,Gardez cependant ces deux choses à l'espriiiit.
+54,TEXT_CHOCOBOTAXISTAND_00100_HELP3_KOJIN,"Tout d'abord, vous ne devez pas descendre de votre faucon en plein vooool. Si vous le faites, il vous déposera au sol et repartira sans voooous. Vous serez alors obligée de continuer votre chemin à pieeeed."
+55,TEXT_CHOCOBOTAXISTAND_00100_HELP4_KOJIN,"Ensuite, la destination que vous choisissez doit remplir certaines conditioooons."
+56,TEXT_CHOCOBOTAXISTAND_00100_HELP5_KOJIN,La route qui mène à celle-ci doit être reliée à votre point de départ et vous devez l'avoir visité avant au moins une foooois.
+57,TEXT_CHOCOBOTAXISTAND_00100_HELP6_KOJIN,"Si ce n'était pas le cas, votre faucon se perdrait, et vous aveeeec."
+58,TEXT_CHOCOBOTAXISTAND_00100_HELP7_KOJIN,"Enfin, nous n'offrons qu'un nombre limité de destinatioooons. Un faucon ne peut pas apprendre beaucoup de trajets différents, nous ne les habituons qu'à faire le chemin entre quelques relais seulemeeeent."
+59,TEXT_CHOCOBOTAXISTAND_00100_HELP8_KOJIN,"Dans le cas où vous feriez une mauvaise rencontre, n'ayez craiiiinte. Aucun monstre ne saurait rattraper nos faucoooons. Sécurité et confort sont les maîtres mots du service que nous vous proposoooons."
+60,TEXT_CHOCOBOTAXISTAND_00100_HELP9_KOJIN,Vous savez tout maintenaaaant. Nous serons heureux de vous rendre serviiiice.
+61,TEXT_CHOCOBOTAXISTAND_00000_TAXI_IMPOSSIBLE_1,"Veuillez m'excuser, mais pour utiliser nos services vous devez d'abord visiter au moins un des relais reliés à celui-ci."
+62,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_IMPOSSIBLE_1,"Il semblerait qu'aucune destination ne vous soit disponible...
 Vous ne pouvez pas utiliser de chocobo de relais."
-63,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_IMPOSSIBLE_2","Seuls les relais que vous avez visités au moins une fois, et qu'une route relie à celui où vous vous trouvez ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment, sont disponibles à la sélection."
-64,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_IMPOSSIBLE_3","Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les chocobos de relais à partir de cette écurie."
-65,"TEXT_CHOCOBOTAXISTAND_00100_TAXI_IMPOSSIBLE_1","Veuillez m'excuser, mais pour utiliser nos services vous devez d'abord visiter au moins un des relais reliés à celui-ci."
-66,"TEXT_CHOCOBOTAXISTAND_00100_TAXI_IMPOSSIBLE_1_KOJIN","Veuillez nous excuseeeer. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, vous ne pouvez rejoindre votre destination d'iciiii."
-67,"TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_IMPOSSIBLE_2","Seuls les relais que vous avez visités au moins une fois, et qu'une route relie à celui où vous vous trouvez ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment, sont disponibles à la sélection."
-68,"TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_IMPOSSIBLE_3","Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les faucons de relais à partir d'ici."
-69,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_Q_1","Êtes-vous sûr<If(PlayerParameter(4))>e<Else/></If> de vouloir aller à cet endroit<Indent/>?
-　Destination<Indent/>: <Sheet(ChocoboTaxiStand,IntegerParameter(1),8)/>
-　Coût<Indent/>: <Format(IntegerParameter(2),FF05021D0103)/> gils
-　Durée<Indent/>: environ <Value>IntegerParameter(3)</Value> <If(LessThanOrEqualTo(IntegerParameter(3),1))>minute<Else/>minutes</If>"
-70,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_YES","Oui"
-71,"TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_NO","Non"
-72,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_Q_1","（★未使用／削除予定★）"
-73,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_YES","（★未使用／削除予定★）"
-74,"TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_NO","（★未使用／削除予定★）"
-75,"TEXT_CHOCOBOTAXISTAND_00000_SHORT_OF_GIL","Eh bien, il semblerait que vous soyez à court de liquidités. Ne vous inquiétez pas, ce sont des choses qui arrivent. Revenez me voir lorsque vous aurez rempli votre bourse."
-76,"TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_SHORT_OF_GIL","Vous n'avez pas assez de gils pour utiliser un chocobo de relais..."
-77,"TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL","Vous manquez de gils<Indent/>? Ça arrive. Nous serons toujours là lorsque vous aurez assez d'argent pour louer nos services."
-78,"TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL_KOJIN","Ooooh... Vous manquez d'argeeeent<Indent/>? Je suis convaincu qu'une autre occasion de louer nos services se présenteraaaa."
-79,"TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bons<Else/>Bonj</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonj<Else/>Bons</If></If>... Ah... Veuillez m'excuser, mais nous refusons de louer nos amaros aux voyageurs inex<SoftHyphen/>pé<SoftHyphen/>ri<SoftHyphen/>men<SoftHyphen/>tés, sans exception. C'est pour votre bien. Une mauvaise chute, et c'est l'entorse, ou pire..."
-80,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_000_1","Vous devez atteindre le niveau 10 pour monter les amaros de relais."
-81,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01","Bienvenue, <If(PlayerParameter(4))>voyageuse<Else/>voyageur</If>. Fatigué<If(PlayerParameter(4))>e<Else/></If> de marcher<Indent/>?"
-82,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02","Si c'est le cas, j'ai ce qu'il vous faut. Vous m'avez l'air digne de confiance, alors je vais faire en sorte que vous puissiez aller et venir depuis ici en utilisant des amaros de relais."
-83,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>. Vous désirez emprunter un amaro de relais<Indent/>?"
-84,"TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1","Ah, vous n'avez jamais visité d'autres relais<Indent/>? Je m'en voudrais si vous vous perdiez. Revenez me voir quand vous connaîtrez un peu mieux la région<Indent/>!"
-85,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_IMPOSSIBLE_2","Seuls les relais que vous avez visités au moins une fois, et qu'une route relie à celui où vous vous trouvez ac<SoftHyphen/>tu<SoftHyphen/>el<SoftHyphen/>le<SoftHyphen/>ment, sont disponibles à la sélection."
-86,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_IMPOSSIBLE_3","Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les amaros de relais à partir d'ici."
-87,"TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL","Vous auriez dû un peu mieux préparer votre voyage. Sans un sou en poche, vous n'irez pas bien loin, et cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment pas à dos d'amaro."
-88,"TEXT_CHOCOBOTAXISTAND_00200_HELP1","L'amaro de relais est le moyen de transport le plus sûr et le plus rapide qui soit. Et sans trop vanter les mérites de notre société, je peux vous dire que nous sommes installés partout en Norvrandt."
-89,"TEXT_CHOCOBOTAXISTAND_00200_HELP2","Nous demandons à nos clients de faire attention à deux choses."
-90,"TEXT_CHOCOBOTAXISTAND_00200_HELP3","Premièrement, vous ne devez jamais lâcher les rênes de votre amaro, car nous les entraînons de manière à ce qu'ils reviennent à leur point de départ dès vous mettez le pied à terre."
-91,"TEXT_CHOCOBOTAXISTAND_00200_HELP4","Deuxièmement, même si nous sommes implantés un peu partout, vous ne pouvez pas emprunter n'importe quel itinéraire."
-92,"TEXT_CHOCOBOTAXISTAND_00200_HELP5","Des étapes sont parfois nécessaires, et vous devez vous être déjà rendu<If(PlayerParameter(4))>e<Else/></If> à chaque relais qui compose votre parcours, y compris bien sûr celui d'arrivée."
-93,"TEXT_CHOCOBOTAXISTAND_00200_HELP6","Non pas que nos amaros aient besoin de votre aide pour naviguer. Ils sont très in<SoftHyphen/>tel<SoftHyphen/>li<SoftHyphen/>gents et connaissent bien le tracé des routes qui leur sont attribuées."
-94,"TEXT_CHOCOBOTAXISTAND_00200_HELP7","Cependant, ils ne prennent pas sur leur dos des voyageurs qui ignorent tout de la région et qui pourraient les amener à se perdre."
-95,"TEXT_CHOCOBOTAXISTAND_00200_HELP8","D'autre part, leur robustesse et leur combativité vous garantissent un trajet sans encombre, car aucunes bêtes, même les plus monstrueuses, se risqueraient à attirer leur courroux."
-96,"TEXT_CHOCOBOTAXISTAND_00200_HELP9","Et voilà, je pense que vous savez tout sur le service que nous proposons, ainsi que sur les amaros."
-97,"TEXT_CHOCOBOTAXISTAND_00200_Q1_000_1","Que voulez-vous faire<Indent/>?"
-98,"TEXT_CHOCOBOTAXISTAND_00200_A1_000_1","Monter un amaro de relais"
-99,"TEXT_CHOCOBOTAXISTAND_00200_A1_000_2","En savoir plus sur les relais à amaros"
-100,"TEXT_CHOCOBOTAXISTAND_00200_A1_000_3","Rien en particulier"
-101,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_UNLOCK_01","Vous apercevez un rocher en forme d'amaro, qui émet des gazouillis..."
-102,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_UNLOCK_02","Vous avez le sentiment qu'en laissant quelques gils, vous pourriez appeler un amaro de relais..."
-103,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_CHOCOBOTAXI_01","Vous apercevez un rocher en forme d'amaro, qui émet des gazouillis...
+63,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_IMPOSSIBLE_2,"Seuls les relais que vous avez visités au moins une fois, et qu'une route relie à celui où vous vous trouvez ac­tu­el­le­ment, sont disponibles à la sélection."
+64,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_IMPOSSIBLE_3,"Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les chocobos de relais à partir de cette écurie."
+65,TEXT_CHOCOBOTAXISTAND_00100_TAXI_IMPOSSIBLE_1,"Veuillez m'excuser, mais pour utiliser nos services vous devez d'abord visiter au moins un des relais reliés à celui-ci."
+66,TEXT_CHOCOBOTAXISTAND_00100_TAXI_IMPOSSIBLE_1_KOJIN,"Veuillez nous excuseeeer. Mal­heu­reu­se­ment, vous ne pouvez rejoindre votre destination d'iciiii."
+67,TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_IMPOSSIBLE_2,"Seuls les relais que vous avez visités au moins une fois, et qu'une route relie à celui où vous vous trouvez ac­tu­el­le­ment, sont disponibles à la sélection."
+68,TEXT_CHOCOBOTAXISTAND_00100_SYSTEM_IMPOSSIBLE_3,"Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les faucons de relais à partir d'ici."
+69,TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_Q_1,"Êtes-vous sûre de vouloir aller à cet endroit ?
+　Destination : 
+　Coût : 0 gils
+　Durée : environ UNKNOWN minute"
+70,TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_YES,Oui
+71,TEXT_CHOCOBOTAXISTAND_00000_CONFIRM_NO,Non
+72,TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_Q_1,（★未使用／削除予定★）
+73,TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_YES,（★未使用／削除予定★）
+74,TEXT_CHOCOBOTAXISTAND_00100_CONFIRM_NO,（★未使用／削除予定★）
+75,TEXT_CHOCOBOTAXISTAND_00000_SHORT_OF_GIL,"Eh bien, il semblerait que vous soyez à court de liquidités. Ne vous inquiétez pas, ce sont des choses qui arrivent. Revenez me voir lorsque vous aurez rempli votre bourse."
+76,TEXT_CHOCOBOTAXISTAND_00000_SYSTEM_SHORT_OF_GIL,Vous n'avez pas assez de gils pour utiliser un chocobo de relais...
+77,TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL,Vous manquez de gils ? Ça arrive. Nous serons toujours là lorsque vous aurez assez d'argent pour louer nos services.
+78,TEXT_CHOCOBOTAXISTAND_00100_SHORT_OF_GIL_KOJIN,Ooooh... Vous manquez d'argeeeent ? Je suis convaincu qu'une autre occasion de louer nos services se présenteraaaa.
+79,TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL,"Bons... Ah... Veuillez m'excuser, mais nous refusons de louer nos amaros aux voyageurs inex­pé­ri­men­tés, sans exception. C'est pour votre bien. Une mauvaise chute, et c'est l'entorse, ou pire..."
+80,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_000_1,Vous devez atteindre le niveau 10 pour monter les amaros de relais.
+81,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01,"Bienvenue, voyageuse. Fatiguée de marcher ?"
+82,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02,"Si c'est le cas, j'ai ce qu'il vous faut. Vous m'avez l'air digne de confiance, alors je vais faire en sorte que vous puissiez aller et venir depuis ici en utilisant des amaros de relais."
+83,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01,Bonsoir. Vous désirez emprunter un amaro de relais ?
+84,TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1,"Ah, vous n'avez jamais visité d'autres relais ? Je m'en voudrais si vous vous perdiez. Revenez me voir quand vous connaîtrez un peu mieux la région !"
+85,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_IMPOSSIBLE_2,"Seuls les relais que vous avez visités au moins une fois, et qu'une route relie à celui où vous vous trouvez ac­tu­el­le­ment, sont disponibles à la sélection."
+86,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_IMPOSSIBLE_3,"Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les amaros de relais à partir d'ici."
+87,TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL,"Vous auriez dû un peu mieux préparer votre voyage. Sans un sou en poche, vous n'irez pas bien loin, et cer­tai­ne­ment pas à dos d'amaro."
+88,TEXT_CHOCOBOTAXISTAND_00200_HELP1,"L'amaro de relais est le moyen de transport le plus sûr et le plus rapide qui soit. Et sans trop vanter les mérites de notre société, je peux vous dire que nous sommes installés partout en Norvrandt."
+89,TEXT_CHOCOBOTAXISTAND_00200_HELP2,Nous demandons à nos clients de faire attention à deux choses.
+90,TEXT_CHOCOBOTAXISTAND_00200_HELP3,"Premièrement, vous ne devez jamais lâcher les rênes de votre amaro, car nous les entraînons de manière à ce qu'ils reviennent à leur point de départ dès vous mettez le pied à terre."
+91,TEXT_CHOCOBOTAXISTAND_00200_HELP4,"Deuxièmement, même si nous sommes implantés un peu partout, vous ne pouvez pas emprunter n'importe quel itinéraire."
+92,TEXT_CHOCOBOTAXISTAND_00200_HELP5,"Des étapes sont parfois nécessaires, et vous devez vous être déjà rendue à chaque relais qui compose votre parcours, y compris bien sûr celui d'arrivée."
+93,TEXT_CHOCOBOTAXISTAND_00200_HELP6,Non pas que nos amaros aient besoin de votre aide pour naviguer. Ils sont très in­tel­li­gents et connaissent bien le tracé des routes qui leur sont attribuées.
+94,TEXT_CHOCOBOTAXISTAND_00200_HELP7,"Cependant, ils ne prennent pas sur leur dos des voyageurs qui ignorent tout de la région et qui pourraient les amener à se perdre."
+95,TEXT_CHOCOBOTAXISTAND_00200_HELP8,"D'autre part, leur robustesse et leur combativité vous garantissent un trajet sans encombre, car aucunes bêtes, même les plus monstrueuses, se risqueraient à attirer leur courroux."
+96,TEXT_CHOCOBOTAXISTAND_00200_HELP9,"Et voilà, je pense que vous savez tout sur le service que nous proposons, ainsi que sur les amaros."
+97,TEXT_CHOCOBOTAXISTAND_00200_Q1_000_1,Que voulez-vous faire ?
+98,TEXT_CHOCOBOTAXISTAND_00200_A1_000_1,Monter un amaro de relais
+99,TEXT_CHOCOBOTAXISTAND_00200_A1_000_2,En savoir plus sur les relais à amaros
+100,TEXT_CHOCOBOTAXISTAND_00200_A1_000_3,Rien en particulier
+101,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_UNLOCK_01,"Vous apercevez un rocher en forme d'amaro, qui émet des gazouillis..."
+102,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_UNLOCK_02,"Vous avez le sentiment qu'en laissant quelques gils, vous pourriez appeler un amaro de relais..."
+103,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_CHOCOBOTAXI_01,"Vous apercevez un rocher en forme d'amaro, qui émet des gazouillis...
 Vous avez le sentiment qu'il pourrait servir de relais à amaros..."
-104,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_IMPOSSIBLE_1","Il semblerait qu'aucune destination ne vous soit disponible...
+104,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_IMPOSSIBLE_1,"Il semblerait qu'aucune destination ne vous soit disponible...
 Vous ne pouvez pas utiliser d'amaro de relais."
-105,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_SHORT_OF_GIL","Vous n'avez pas assez de gils pour utiliser un amaro de relais..."
-106,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP1","Ici, vous pouvez appeler un amaro de relais pour vous rendre à une destination de votre choix."
-107,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP2","Vous devez toutefois faire attention à deux choses."
-108,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP3","D'abord, si vous descendez d'amaro en cours de route, celui-ci s'en ira sans vous."
-109,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP4","Ensuite, le relais à amaros que vous choisissez comme destination doit répondre à certaines conditions."
-110,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP5","Il doit être relié à celui qui vous sert de point de départ. Il est également nécessaire que vous l'ayez déjà visité."
-111,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP6","Si ces conditions ne sont pas réunies, vous ne pourrez pas utiliser d'amaro de relais."
-112,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP7","Notez également que ces montures suivent une route prédéterminée."
-113,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP8","Vous n'avez aucun risque d'être attaqué<If(PlayerParameter(4))>e<Else/></If> en chemin."
-114,"TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP9","Vous n'avez donc rien à craindre tant que vous êtes à dos d'amaro de relais."
-115,"TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL_DWARF","Lali-ho<Indent/>! Eh ben... C'est à se demander comment t'es arrivé<If(PlayerParameter(4))>e<Else/></If> là en un seul morceau... Quoi qu'il en soit, je peux pas en toute bonne conscience te laisser monter un amaro. Frêle comme t'en as l'air, j'ai peur que tu te brises la nuque en en tombant<Indent/>!"
-116,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01_DWARF","Lali-ho<Indent/>! Et bienvenue à mon relais à amaros<Indent/>!"
-117,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02_DWARF","J'pense pas t'avoir déjà vu<If(PlayerParameter(4))>e<Else/></If> ici. J'vais t'ajouter au registre, comme ça tu pourras ajouter ce relais à tes étapes connues<Indent/>!"
-118,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01_DWARF","Lali-ho<Indent/>! Et bienvenue dans mon relais, <If(PlayerParameter(4))>voyageuse<Else/>voyageur</If><Indent/>!"
-119,"TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1_DWARF","Ah bah mince... Tu connais aucun relais relié à celui-ci<Indent/>? Je peux rien faire pour toi, alors. Va falloir que t'y ailles à pattes<Indent/>!"
-120,"TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL_DWARF","On a oublié de remplir sa bourse avant de partir<Indent/>? Reviens quand elle sera pleine, je vais pas m'envoler entre-temps<Indent/>!"
-121,"TEXT_CHOCOBOTAXISTAND_00200_HELP1_DWARF","Les relais à amaros te garantissent sûreté et rapidité dans tes voyages. Cerise sur le gâteau, nous les Nains, on t'accueille avec un p'tit lali-ho des familles<Indent/>!"
-122,"TEXT_CHOCOBOTAXISTAND_00200_HELP2_DWARF","Bon, par contre, il y a des conditions. Deux petites limitations de rien du tout<Indent/>!"
-123,"TEXT_CHOCOBOTAXISTAND_00200_HELP3_DWARF","D'abord, une fois que je t'ai filé les rênes, j'veux que tu t'accroches à elles comme à tes premiers poils de barbe<Indent/>! Parce que si tu les lâches, l'amaro va te laisser planté<If(PlayerParameter(4))>e<Else/></If> où t'es et rentrer fissa ici<Indent/>!"
-124,"TEXT_CHOCOBOTAXISTAND_00200_HELP4_DWARF","Ensuite, tu pourras pas aller où tu veux."
-125,"TEXT_CHOCOBOTAXISTAND_00200_HELP5_DWARF","Tu peux seulement emprunter un trajet qui passe par des relais qui sont connectés entre eux et où t'as déjà mis une fois les pieds."
-126,"TEXT_CHOCOBOTAXISTAND_00200_HELP6_DWARF","Un amaro, ça en a dans le ciboulot, mais faut pas lui demander de choisir une direction à ta place. Il serait perdu, le pauvre<Indent/>!"
-127,"TEXT_CHOCOBOTAXISTAND_00200_HELP7_DWARF","On les entraîne pour toujours suivre le même tracé, donc pas de crochet pour jouer les touristes, l'ami<If(PlayerParameter(4))>e<Else/></If><Indent/>!"
-128,"TEXT_CHOCOBOTAXISTAND_00200_HELP8_DWARF","En revanche, tu auras l'avantage de pouvoir profiter tran<SoftHyphen/>quil<SoftHyphen/>le<SoftHyphen/>ment du paysage. Aucun prédateur irait risquer de se faire embrocher un œil sur leurs serres gi<SoftHyphen/>gan<SoftHyphen/>tesques<Indent/>!"
-129,"TEXT_CHOCOBOTAXISTAND_00200_HELP9_DWARF","Et voilà, tu sais tout<Indent/>! J'espère que tu sauras apprécier notre service de qualité<Indent/>!"
-130,"TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL_ZUN","Mes excuses. De louer nos amaros aux voyageurs inex<SoftHyphen/>pé<SoftHyphen/>ri<SoftHyphen/>men<SoftHyphen/>tés, nous refusons. Si vite arrivés, sont les accidents."
-131,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01_ZUN","Bienvenue, <If(PlayerParameter(4))>voyageuse<Else/>voyageur</If>. De marcher, vous êtes fatigué<If(PlayerParameter(4))>e<Else/></If><Indent/>?"
-132,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02_ZUN","Digne de confiance, vous m'avez l'air. Aller et venir depuis ici en utilisant des amaros de relais, vous pourrez désormais."
-133,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01_ZUN","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>. Emprunter un amaro de relais, vous désirez<Indent/>?"
-134,"TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1_ZUN","Ah, les autres relais, jamais visité vous n'avez<Indent/>? Quand vous connaîtrez mieux la région, revenez."
-135,"TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL_ZUN","De l'argent, il vous faut pour chevaucher nos amaros. Quand vous en aurez, revenez."
-136,"TEXT_CHOCOBOTAXISTAND_00200_HELP1_ZUN","Le moyen de transport le plus sûr et le plus rapide, l'amaro de relais est. Et partout en Norvrandt, nous sommes installés."
-137,"TEXT_CHOCOBOTAXISTAND_00200_HELP2_ZUN","De faire attention à deux choses, nous demandons à nos clients."
-138,"TEXT_CHOCOBOTAXISTAND_00200_HELP3_ZUN","Premièrement, lâcher les rênes de votre amaro, vous ne devez jamais. Sans quoi, à son point de départ, sans vous il reviendrait."
-139,"TEXT_CHOCOBOTAXISTAND_00200_HELP4_ZUN","Deuxièmement, n'importe quel itinéraire, vous ne pouvez emprunter."
-140,"TEXT_CHOCOBOTAXISTAND_00200_HELP5_ZUN","À chaque relais qui compose votre parcours, même celui d'arrivée, vous devez vous être déjà rendu<If(PlayerParameter(4))>e<Else/></If>. En effet, parfois nécessaires, des étapes sont."
-141,"TEXT_CHOCOBOTAXISTAND_00200_HELP6_ZUN","Très in<SoftHyphen/>tel<SoftHyphen/>li<SoftHyphen/>gents et familiers avec le tracé des routes, nos amaros sont."
-142,"TEXT_CHOCOBOTAXISTAND_00200_HELP7_ZUN","Cependant, des voyageurs qui ignorent tout de la région et qui pourraient les amener à se perdre, sur leur dos ils ne prennent pas."
-143,"TEXT_CHOCOBOTAXISTAND_00200_HELP8_ZUN","Pour finir, rassuré<If(PlayerParameter(4))>e<Else/></If> soyez. Un trajet sans encombre, leur robustesse et leur combativité vous garantissent. Même les plus redoutables bêtes sauvages, devant eux baissent les yeux."
-144,"TEXT_CHOCOBOTAXISTAND_00200_HELP9_ZUN","Tout de nos services, vous savez maintenant."
-145,"TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL_MYSTEL_FEMALE","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bons<Else/>Bonj</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonj<Else/>Bons</If></If>... Ah... Veuillez m'excuser, mais nous refusons de louer nos amaros aux voyageurs inex<SoftHyphen/>pé<SoftHyphen/>ri<SoftHyphen/>men<SoftHyphen/>tés, sans exception. C'est pourrr votre bien. Une mauvaise chute, et c'est l'entorse, ou pire..."
-146,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01_MYSTEL_FEMALE","Bienvenue, <If(PlayerParameter(4))>voyageuse<Else/>voyageur</If>. Fatigué<If(PlayerParameter(4))>e<Else/></If> de marrrcher<Indent/>?"
-147,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02_MYSTEL_FEMALE","Si c'est le cas, j'ai ce qu'il vous faut. Vous m'avez l'air digne de confiance, alors je vais fairrre en sorte que vous puissiez aller et venir depuis ici en utilisant des amaros de relais."
-148,"TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01_MYSTEL_FEMALE","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>. Vous désirez emprrrunter un amaro de relais<Indent/>?"
-149,"TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1_MYSTEL_FEMALE","Ah, vous n'avez jamais visité d'autres relais<Indent/>? Je m'en voudrais si vous vous perrrdiez. Revenez me voir quand vous connaîtrez un peu mieux la région<Indent/>!"
-150,"TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL_MYSTEL_FEMALE","Vous auriez dû un peu mieux prrréparer votre voyage. Sans un sou en poche, vous n'irez pas bien loin, et cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment pas à dos d'amaro."
-151,"TEXT_CHOCOBOTAXISTAND_00200_HELP1_MYSTEL_FEMALE","L'amaro de relais est le moyen de transport le plus sûr et le plus rrrapide qui soit. Et sans trop vanter les mérites de notre société, je peux vous dire que nous sommes installés partout en Norvrandt."
-152,"TEXT_CHOCOBOTAXISTAND_00200_HELP2_MYSTEL_FEMALE","Nous demandons à nos clients de fairrre attention à deux choses."
-153,"TEXT_CHOCOBOTAXISTAND_00200_HELP3_MYSTEL_FEMALE","Prrremièrement, vous ne devez jamais lâcher les rênes de votre amaro, car nous les entraînons de manière à ce qu'ils reviennent à leur point de départ dès vous mettez le pied à terre."
-154,"TEXT_CHOCOBOTAXISTAND_00200_HELP4_MYSTEL_FEMALE","Deuxièmement, même si nous sommes implantés un peu partout, vous ne pouvez pas emprrrunter n'importe quel itinéraire."
-155,"TEXT_CHOCOBOTAXISTAND_00200_HELP5_MYSTEL_FEMALE","Des étapes sont parfois nécessairrres, et vous devez vous être déjà rendu<If(PlayerParameter(4))>e<Else/></If> à chaque relais qui compose votre parcours, y compris bien sûr celui d'arrivée."
-156,"TEXT_CHOCOBOTAXISTAND_00200_HELP6_MYSTEL_FEMALE","Non pas que nos amaros aient besoin de votre aide pour naviguer. Ils sont très in<SoftHyphen/>tel<SoftHyphen/>li<SoftHyphen/>gents et connaissent bien le tracé des routes qui leur sont attrrribuées."
-157,"TEXT_CHOCOBOTAXISTAND_00200_HELP7_MYSTEL_FEMALE","Cependant, ils ne prennent pas sur leur dos des voyageurs qui ignorrrent tout de la région et qui pourraient les amener à se perdre."
-158,"TEXT_CHOCOBOTAXISTAND_00200_HELP8_MYSTEL_FEMALE","D'autre part, leur robustesse et leur combativité vous garantissent un trajet sans encombrrre, car aucunes bêtes, même les plus monstrueuses, se risqueraient à attirer leur courroux."
-159,"TEXT_CHOCOBOTAXISTAND_00200_HELP9_MYSTEL_FEMALE","Et voilà, je pense que vous savez tout sur le serrrvice que nous proposons, ainsi que sur les amaros."
-160,"TEXT_CHOCOBOTAXISTAND_00300_LOW_LEVEL","Hop hop<Indent/>! Navré, mais je peux décemment pas vous laisser monter un de nos alpagas. Sans l'expertise nécessaire, vous risquez de faire une mauvaise chute<Indent/>!"
-161,"TEXT_CHOCOBOTAXISTAND_00300_SYSTEM_000_1","Vous devez atteindre le niveau 10 pour monter les alpagas de relais."
-162,"TEXT_CHOCOBOTAXISTAND_00300_CHOCOBOTAXI_UNLOCK_01","Hop hop<Indent/>! <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, aventuri<If(PlayerParameter(4))>ère<Else/>er</If>. Soyez <If(PlayerParameter(4))>la bienvenue<Else/>le bienvenu</If> dans notre relais à alpagas."
-163,"TEXT_CHOCOBOTAXISTAND_00300_CHOCOBOTAXI_UNLOCK_02","C'est votre première fois, non<Indent/>? Dans ce cas, faisons dare-dare le nécessaire<Indent/>! Laissez-moi ajouter ce relais à votre liste de destinations."
-164,"TEXT_CHOCOBOTAXISTAND_00300_CHOCOBOTAXI_01","Hop hop<Indent/>! Bienvenue dans notre relais à alpagas."
-165,"TEXT_CHOCOBOTAXISTAND_00300_TAXI_IMPOSSIBLE_1","Vraiment désolé, <If(PlayerParameter(4))>chère cliente<Else/>cher client</If>, mais pour utiliser nos services vous devez d'abord visiter au moins un des relais reliés à celui-ci."
-166,"TEXT_CHOCOBOTAXISTAND_00300_SYSTEM_IMPOSSIBLE_2","Vous ne pouvez sélectionner que les relais que vous avez visités au moins une fois, pour autant qu'une route disponible les connecte à votre point de départ."
-167,"TEXT_CHOCOBOTAXISTAND_00300_SYSTEM_IMPOSSIBLE_3","Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les alpagas de relais à partir d'ici."
-168,"TEXT_CHOCOBOTAXISTAND_00300_SHORT_OF_GIL","Quelle tristesse, <If(PlayerParameter(4))>chère cliente<Else/>cher client</If>... Je me faisais une joie de commercer avec vous, mais il semblerait que vous n'ayez pas suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment de liquidités... Hop hop<Indent/>! Revenez me voir lorsque vous aurez rempli votre bourse."
-169,"TEXT_CHOCOBOTAXISTAND_00300_HELP1","Hop hop<Indent/>! Nos alpagas de relais sont toujours prêts à cabrioler aux quatre coins du Tural<Indent/>!"
-170,"TEXT_CHOCOBOTAXISTAND_00300_HELP2","Néanmoins, nous demandons à nos clients de faire attention à deux choses."
-171,"TEXT_CHOCOBOTAXISTAND_00300_HELP3","Premièrement, vous ne devez jamais descendre de votre alpaga, car nous les entraînons de manière à ce qu'ils reviennent dare-dare à leur point de départ dès que vous mettez le pied à terre."
-172,"TEXT_CHOCOBOTAXISTAND_00300_HELP4","Deuxièmement, même si nous sommes implantés un peu partout, vous ne pouvez pas emprunter n'importe quel itinéraire."
-173,"TEXT_CHOCOBOTAXISTAND_00300_HELP5","Hop hop<Indent/>! Des étapes sont parfois nécessaires, et vous devez vous être déjà rendu<If(PlayerParameter(4))>e<Else/></If> à chaque relais qui compose votre parcours, y compris bien sûr celui d'arrivée, <If(PlayerParameter(4))>chère cliente<Else/>cher client</If>."
-174,"TEXT_CHOCOBOTAXISTAND_00300_HELP6","Bien que nos alpagas soient très futés, ils ne peuvent pas deviner où vous désirez vous rendre<Indent/>!"
-175,"TEXT_CHOCOBOTAXISTAND_00300_HELP7","Mais une fois que leur destination est clairement définie, soyez certain<If(PlayerParameter(4))>e<Else/></If>, <If(PlayerParameter(4))>chère cliente<Else/>cher client</If>, qu'ils n'en dévieront pas d'un poil<Indent/>!"
-176,"TEXT_CHOCOBOTAXISTAND_00300_HELP8","Laissez-vous bercer par leur trot cadencé et profitez de leur douce fourrure, nos alpagas se chargent du reste<Indent/>! Ils sauront éviter tout danger le temps du voyage... Et pas d'inquiétude pour ce qui est des crachats, nos animaux sont les plus dociles qui soient<Indent/>!"
-177,"TEXT_CHOCOBOTAXISTAND_00300_HELP9","Hop hop<Indent/>! Et voilà, je pense que vous savez tout sur le service que nous proposons, ainsi que sur les alpagas."
-178,"TEXT_CHOCOBOTAXISTAND_00300_Q1_000_1","Que voulez-vous faire<Indent/>?"
-179,"TEXT_CHOCOBOTAXISTAND_00300_A1_000_1","Monter un alpaga de relais"
-180,"TEXT_CHOCOBOTAXISTAND_00300_A1_000_2","En savoir plus sur les relais à alpagas"
-181,"TEXT_CHOCOBOTAXISTAND_00300_A1_000_3","Rien en particulier"
+105,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_SHORT_OF_GIL,Vous n'avez pas assez de gils pour utiliser un amaro de relais...
+106,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP1,"Ici, vous pouvez appeler un amaro de relais pour vous rendre à une destination de votre choix."
+107,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP2,Vous devez toutefois faire attention à deux choses.
+108,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP3,"D'abord, si vous descendez d'amaro en cours de route, celui-ci s'en ira sans vous."
+109,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP4,"Ensuite, le relais à amaros que vous choisissez comme destination doit répondre à certaines conditions."
+110,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP5,Il doit être relié à celui qui vous sert de point de départ. Il est également nécessaire que vous l'ayez déjà visité.
+111,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP6,"Si ces conditions ne sont pas réunies, vous ne pourrez pas utiliser d'amaro de relais."
+112,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP7,Notez également que ces montures suivent une route prédéterminée.
+113,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP8,Vous n'avez aucun risque d'être attaquée en chemin.
+114,TEXT_CHOCOBOTAXISTAND_00200_SYSTEM_HELP9,Vous n'avez donc rien à craindre tant que vous êtes à dos d'amaro de relais.
+115,TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL_DWARF,"Lali-ho ! Eh ben... C'est à se demander comment t'es arrivée là en un seul morceau... Quoi qu'il en soit, je peux pas en toute bonne conscience te laisser monter un amaro. Frêle comme t'en as l'air, j'ai peur que tu te brises la nuque en en tombant !"
+116,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01_DWARF,Lali-ho ! Et bienvenue à mon relais à amaros !
+117,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02_DWARF,"J'pense pas t'avoir déjà vue ici. J'vais t'ajouter au registre, comme ça tu pourras ajouter ce relais à tes étapes connues !"
+118,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01_DWARF,"Lali-ho ! Et bienvenue dans mon relais, voyageuse !"
+119,TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1_DWARF,"Ah bah mince... Tu connais aucun relais relié à celui-ci ? Je peux rien faire pour toi, alors. Va falloir que t'y ailles à pattes !"
+120,TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL_DWARF,"On a oublié de remplir sa bourse avant de partir ? Reviens quand elle sera pleine, je vais pas m'envoler entre-temps !"
+121,TEXT_CHOCOBOTAXISTAND_00200_HELP1_DWARF,"Les relais à amaros te garantissent sûreté et rapidité dans tes voyages. Cerise sur le gâteau, nous les Nains, on t'accueille avec un p'tit lali-ho des familles !"
+122,TEXT_CHOCOBOTAXISTAND_00200_HELP2_DWARF,"Bon, par contre, il y a des conditions. Deux petites limitations de rien du tout !"
+123,TEXT_CHOCOBOTAXISTAND_00200_HELP3_DWARF,"D'abord, une fois que je t'ai filé les rênes, j'veux que tu t'accroches à elles comme à tes premiers poils de barbe ! Parce que si tu les lâches, l'amaro va te laisser plantée où t'es et rentrer fissa ici !"
+124,TEXT_CHOCOBOTAXISTAND_00200_HELP4_DWARF,"Ensuite, tu pourras pas aller où tu veux."
+125,TEXT_CHOCOBOTAXISTAND_00200_HELP5_DWARF,Tu peux seulement emprunter un trajet qui passe par des relais qui sont connectés entre eux et où t'as déjà mis une fois les pieds.
+126,TEXT_CHOCOBOTAXISTAND_00200_HELP6_DWARF,"Un amaro, ça en a dans le ciboulot, mais faut pas lui demander de choisir une direction à ta place. Il serait perdu, le pauvre !"
+127,TEXT_CHOCOBOTAXISTAND_00200_HELP7_DWARF,"On les entraîne pour toujours suivre le même tracé, donc pas de crochet pour jouer les touristes, l'amie !"
+128,TEXT_CHOCOBOTAXISTAND_00200_HELP8_DWARF,"En revanche, tu auras l'avantage de pouvoir profiter tran­quil­le­ment du paysage. Aucun prédateur irait risquer de se faire embrocher un œil sur leurs serres gi­gan­tesques !"
+129,TEXT_CHOCOBOTAXISTAND_00200_HELP9_DWARF,"Et voilà, tu sais tout ! J'espère que tu sauras apprécier notre service de qualité !"
+130,TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL_ZUN,"Mes excuses. De louer nos amaros aux voyageurs inex­pé­ri­men­tés, nous refusons. Si vite arrivés, sont les accidents."
+131,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01_ZUN,"Bienvenue, voyageuse. De marcher, vous êtes fatiguée ?"
+132,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02_ZUN,"Digne de confiance, vous m'avez l'air. Aller et venir depuis ici en utilisant des amaros de relais, vous pourrez désormais."
+133,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01_ZUN,"Bonsoir. Emprunter un amaro de relais, vous désirez ?"
+134,TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1_ZUN,"Ah, les autres relais, jamais visité vous n'avez ? Quand vous connaîtrez mieux la région, revenez."
+135,TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL_ZUN,"De l'argent, il vous faut pour chevaucher nos amaros. Quand vous en aurez, revenez."
+136,TEXT_CHOCOBOTAXISTAND_00200_HELP1_ZUN,"Le moyen de transport le plus sûr et le plus rapide, l'amaro de relais est. Et partout en Norvrandt, nous sommes installés."
+137,TEXT_CHOCOBOTAXISTAND_00200_HELP2_ZUN,"De faire attention à deux choses, nous demandons à nos clients."
+138,TEXT_CHOCOBOTAXISTAND_00200_HELP3_ZUN,"Premièrement, lâcher les rênes de votre amaro, vous ne devez jamais. Sans quoi, à son point de départ, sans vous il reviendrait."
+139,TEXT_CHOCOBOTAXISTAND_00200_HELP4_ZUN,"Deuxièmement, n'importe quel itinéraire, vous ne pouvez emprunter."
+140,TEXT_CHOCOBOTAXISTAND_00200_HELP5_ZUN,"À chaque relais qui compose votre parcours, même celui d'arrivée, vous devez vous être déjà rendue. En effet, parfois nécessaires, des étapes sont."
+141,TEXT_CHOCOBOTAXISTAND_00200_HELP6_ZUN,"Très in­tel­li­gents et familiers avec le tracé des routes, nos amaros sont."
+142,TEXT_CHOCOBOTAXISTAND_00200_HELP7_ZUN,"Cependant, des voyageurs qui ignorent tout de la région et qui pourraient les amener à se perdre, sur leur dos ils ne prennent pas."
+143,TEXT_CHOCOBOTAXISTAND_00200_HELP8_ZUN,"Pour finir, rassurée soyez. Un trajet sans encombre, leur robustesse et leur combativité vous garantissent. Même les plus redoutables bêtes sauvages, devant eux baissent les yeux."
+144,TEXT_CHOCOBOTAXISTAND_00200_HELP9_ZUN,"Tout de nos services, vous savez maintenant."
+145,TEXT_CHOCOBOTAXISTAND_00200_LOW_LEVEL_MYSTEL_FEMALE,"Bons... Ah... Veuillez m'excuser, mais nous refusons de louer nos amaros aux voyageurs inex­pé­ri­men­tés, sans exception. C'est pourrr votre bien. Une mauvaise chute, et c'est l'entorse, ou pire..."
+146,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_01_MYSTEL_FEMALE,"Bienvenue, voyageuse. Fatiguée de marrrcher ?"
+147,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_UNLOCK_02_MYSTEL_FEMALE,"Si c'est le cas, j'ai ce qu'il vous faut. Vous m'avez l'air digne de confiance, alors je vais fairrre en sorte que vous puissiez aller et venir depuis ici en utilisant des amaros de relais."
+148,TEXT_CHOCOBOTAXISTAND_00200_CHOCOBOTAXI_01_MYSTEL_FEMALE,Bonsoir. Vous désirez emprrrunter un amaro de relais ?
+149,TEXT_CHOCOBOTAXISTAND_00200_TAXI_IMPOSSIBLE_1_MYSTEL_FEMALE,"Ah, vous n'avez jamais visité d'autres relais ? Je m'en voudrais si vous vous perrrdiez. Revenez me voir quand vous connaîtrez un peu mieux la région !"
+150,TEXT_CHOCOBOTAXISTAND_00200_SHORT_OF_GIL_MYSTEL_FEMALE,"Vous auriez dû un peu mieux prrréparer votre voyage. Sans un sou en poche, vous n'irez pas bien loin, et cer­tai­ne­ment pas à dos d'amaro."
+151,TEXT_CHOCOBOTAXISTAND_00200_HELP1_MYSTEL_FEMALE,"L'amaro de relais est le moyen de transport le plus sûr et le plus rrrapide qui soit. Et sans trop vanter les mérites de notre société, je peux vous dire que nous sommes installés partout en Norvrandt."
+152,TEXT_CHOCOBOTAXISTAND_00200_HELP2_MYSTEL_FEMALE,Nous demandons à nos clients de fairrre attention à deux choses.
+153,TEXT_CHOCOBOTAXISTAND_00200_HELP3_MYSTEL_FEMALE,"Prrremièrement, vous ne devez jamais lâcher les rênes de votre amaro, car nous les entraînons de manière à ce qu'ils reviennent à leur point de départ dès vous mettez le pied à terre."
+154,TEXT_CHOCOBOTAXISTAND_00200_HELP4_MYSTEL_FEMALE,"Deuxièmement, même si nous sommes implantés un peu partout, vous ne pouvez pas emprrrunter n'importe quel itinéraire."
+155,TEXT_CHOCOBOTAXISTAND_00200_HELP5_MYSTEL_FEMALE,"Des étapes sont parfois nécessairrres, et vous devez vous être déjà rendue à chaque relais qui compose votre parcours, y compris bien sûr celui d'arrivée."
+156,TEXT_CHOCOBOTAXISTAND_00200_HELP6_MYSTEL_FEMALE,Non pas que nos amaros aient besoin de votre aide pour naviguer. Ils sont très in­tel­li­gents et connaissent bien le tracé des routes qui leur sont attrrribuées.
+157,TEXT_CHOCOBOTAXISTAND_00200_HELP7_MYSTEL_FEMALE,"Cependant, ils ne prennent pas sur leur dos des voyageurs qui ignorrrent tout de la région et qui pourraient les amener à se perdre."
+158,TEXT_CHOCOBOTAXISTAND_00200_HELP8_MYSTEL_FEMALE,"D'autre part, leur robustesse et leur combativité vous garantissent un trajet sans encombrrre, car aucunes bêtes, même les plus monstrueuses, se risqueraient à attirer leur courroux."
+159,TEXT_CHOCOBOTAXISTAND_00200_HELP9_MYSTEL_FEMALE,"Et voilà, je pense que vous savez tout sur le serrrvice que nous proposons, ainsi que sur les amaros."
+160,TEXT_CHOCOBOTAXISTAND_00300_LOW_LEVEL,"Hop hop ! Navré, mais je peux décemment pas vous laisser monter un de nos alpagas. Sans l'expertise nécessaire, vous risquez de faire une mauvaise chute !"
+161,TEXT_CHOCOBOTAXISTAND_00300_SYSTEM_000_1,Vous devez atteindre le niveau 10 pour monter les alpagas de relais.
+162,TEXT_CHOCOBOTAXISTAND_00300_CHOCOBOTAXI_UNLOCK_01,"Hop hop ! Bonsoir, aventurière. Soyez la bienvenue dans notre relais à alpagas."
+163,TEXT_CHOCOBOTAXISTAND_00300_CHOCOBOTAXI_UNLOCK_02,"C'est votre première fois, non ? Dans ce cas, faisons dare-dare le nécessaire ! Laissez-moi ajouter ce relais à votre liste de destinations."
+164,TEXT_CHOCOBOTAXISTAND_00300_CHOCOBOTAXI_01,Hop hop ! Bienvenue dans notre relais à alpagas.
+165,TEXT_CHOCOBOTAXISTAND_00300_TAXI_IMPOSSIBLE_1,"Vraiment désolé, chère cliente, mais pour utiliser nos services vous devez d'abord visiter au moins un des relais reliés à celui-ci."
+166,TEXT_CHOCOBOTAXISTAND_00300_SYSTEM_IMPOSSIBLE_2,"Vous ne pouvez sélectionner que les relais que vous avez visités au moins une fois, pour autant qu'une route disponible les connecte à votre point de départ."
+167,TEXT_CHOCOBOTAXISTAND_00300_SYSTEM_IMPOSSIBLE_3,"Tant que vous n'aurez pas visité un de ces relais, vous ne pourrez pas utiliser les alpagas de relais à partir d'ici."
+168,TEXT_CHOCOBOTAXISTAND_00300_SHORT_OF_GIL,"Quelle tristesse, chère cliente... Je me faisais une joie de commercer avec vous, mais il semblerait que vous n'ayez pas suf­fi­sam­ment de liquidités... Hop hop ! Revenez me voir lorsque vous aurez rempli votre bourse."
+169,TEXT_CHOCOBOTAXISTAND_00300_HELP1,Hop hop ! Nos alpagas de relais sont toujours prêts à cabrioler aux quatre coins du Tural !
+170,TEXT_CHOCOBOTAXISTAND_00300_HELP2,"Néanmoins, nous demandons à nos clients de faire attention à deux choses."
+171,TEXT_CHOCOBOTAXISTAND_00300_HELP3,"Premièrement, vous ne devez jamais descendre de votre alpaga, car nous les entraînons de manière à ce qu'ils reviennent dare-dare à leur point de départ dès que vous mettez le pied à terre."
+172,TEXT_CHOCOBOTAXISTAND_00300_HELP4,"Deuxièmement, même si nous sommes implantés un peu partout, vous ne pouvez pas emprunter n'importe quel itinéraire."
+173,TEXT_CHOCOBOTAXISTAND_00300_HELP5,"Hop hop ! Des étapes sont parfois nécessaires, et vous devez vous être déjà rendue à chaque relais qui compose votre parcours, y compris bien sûr celui d'arrivée, chère cliente."
+174,TEXT_CHOCOBOTAXISTAND_00300_HELP6,"Bien que nos alpagas soient très futés, ils ne peuvent pas deviner où vous désirez vous rendre !"
+175,TEXT_CHOCOBOTAXISTAND_00300_HELP7,"Mais une fois que leur destination est clairement définie, soyez certaine, chère cliente, qu'ils n'en dévieront pas d'un poil !"
+176,TEXT_CHOCOBOTAXISTAND_00300_HELP8,"Laissez-vous bercer par leur trot cadencé et profitez de leur douce fourrure, nos alpagas se chargent du reste ! Ils sauront éviter tout danger le temps du voyage... Et pas d'inquiétude pour ce qui est des crachats, nos animaux sont les plus dociles qui soient !"
+177,TEXT_CHOCOBOTAXISTAND_00300_HELP9,"Hop hop ! Et voilà, je pense que vous savez tout sur le service que nous proposons, ainsi que sur les alpagas."
+178,TEXT_CHOCOBOTAXISTAND_00300_Q1_000_1,Que voulez-vous faire ?
+179,TEXT_CHOCOBOTAXISTAND_00300_A1_000_1,Monter un alpaga de relais
+180,TEXT_CHOCOBOTAXISTAND_00300_A1_000_2,En savoir plus sur les relais à alpagas
+181,TEXT_CHOCOBOTAXISTAND_00300_A1_000_3,Rien en particulier

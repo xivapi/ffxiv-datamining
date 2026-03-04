@@ -1,111 +1,108 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_AETHERYTE_MAINMENU_TITLE","<Sheet(PlaceName,IntegerParameter(1),0)/>"
-1,"TEXT_AETHERYTE_TOWN_WARP","<Gui(69)/> 都市転送網"
-2,"TEXT_AETHERYTE_HOUSING_WARP","<Gui(69)/> 冒険者居住区転送"
-3,"TEXT_AETHERYTE_MENU_WKT","<Gui(69)/> 他のワールドへ遊びにいく"
-4,"TEXT_AETHERYTE_REGISTER_HOME_POINT_CHECKED","<Gui(68)/> ホームポイント登録"
-5,"TEXT_AETHERYTE_REGISTER_HOME_POINT","<Gui(69)/> ホームポイント登録"
-6,"TEXT_AETHERYTE_REGISTER_FAVORITE_CHECKED","<Gui(68)/> お気に入り登録"
-7,"TEXT_AETHERYTE_REGISTER_FAVORITE","<Gui(69)/> お気に入り登録"
-8,"TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE_CHECKED","<If(PlayerParameter(103))><Gui(67)/><Else/><Gui(120)/></If> お気に入り（ワンタイムパスワード特典無料枠）登録"
-9,"TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE","<Gui(69)/> お気に入り（ワンタイムパスワード特典無料枠）登録"
-10,"TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE_CHECKED","<If(PlayerParameter(104))><If(Equal(PlayerParameter(78),99))><Gui(123)/><Else/><Gui(121)/></If><Else/><If(Equal(PlayerParameter(78),99))><Gui(63)/><Else/><Gui(122)/></If></If> お気に入り（<If(Equal(PlayerParameter(78),99))>PS Plus特典無料枠<Else/>無料</If>）登録"
-11,"TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE","<If(Equal(PlayerParameter(78),99))><Gui(123)/><Else/><Gui(121)/></If> お気に入り（<If(Equal(PlayerParameter(78),99))>PS Plus特典無料枠<Else/>無料</If>）登録"
-12,"TEXT_AETHERYTE_MOVE_INSTANCE","<Gui(69)/> インスタンスエリアへ移動"
-13,"TEXT_AETHERYTE_MENU_CANCEL","<Gui(69)/> キャンセル"
-14,"TEXT_AETHERYTE_AETHERNET_MENU_TITLE","行き先を選択してください。
-現在地：<Highlight>StringParameter(1)</Highlight>"
-15,"TEXT_AETHERYTE_AETHERNET_MENU_TITLE_NONE_MESSAGE","
+0,TEXT_AETHERYTE_MAINMENU_TITLE,
+1,TEXT_AETHERYTE_TOWN_WARP, 都市転送網
+2,TEXT_AETHERYTE_HOUSING_WARP, 冒険者居住区転送
+3,TEXT_AETHERYTE_MENU_WKT, 他のワールドへ遊びにいく
+4,TEXT_AETHERYTE_REGISTER_HOME_POINT_CHECKED, ホームポイント登録
+5,TEXT_AETHERYTE_REGISTER_HOME_POINT, ホームポイント登録
+6,TEXT_AETHERYTE_REGISTER_FAVORITE_CHECKED, お気に入り登録
+7,TEXT_AETHERYTE_REGISTER_FAVORITE, お気に入り登録
+8,TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE_CHECKED, お気に入り（ワンタイムパスワード特典無料枠）登録
+9,TEXT_AETHERYTE_REGISTER_TOKEN_FAVORITE, お気に入り（ワンタイムパスワード特典無料枠）登録
+10,TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE_CHECKED, お気に入り（PS Plus特典無料枠）登録
+11,TEXT_AETHERYTE_REGISTER_PSPLUS_FAVORITE, お気に入り（PS Plus特典無料枠）登録
+12,TEXT_AETHERYTE_MOVE_INSTANCE, インスタンスエリアへ移動
+13,TEXT_AETHERYTE_MENU_CANCEL, キャンセル
+14,TEXT_AETHERYTE_AETHERNET_MENU_TITLE,"行き先を選択してください。
+現在地：UNKNOWN"
+15,TEXT_AETHERYTE_AETHERNET_MENU_TITLE_NONE_MESSAGE,"
 
 移動できる都市内エーテライトがありません。
 
 "
-16,"TEXT_AETHERYTE_AETHERNET_DEST_NAME","<Sheet(PlaceName,IntegerParameter(1),0)/>"
-17,"TEXT_AETHERYTE_AETHERNET_MENU_CANCEL","やめる"
-18,"TEXT_AETHERYTE_MOVE_INSTANCE_MENU_CANCEL","<Sheet(Addon,102345,0)/>"
-19,"TEXT_AETHERYTE_FIRST_OPEN_01","「都市内エーテライト」を開放しました！"
-20,"TEXT_AETHERYTE_FIRST_OPEN_02","「都市内エーテライト」に触れることで、
+16,TEXT_AETHERYTE_AETHERNET_DEST_NAME,
+17,TEXT_AETHERYTE_AETHERNET_MENU_CANCEL,やめる
+18,TEXT_AETHERYTE_MOVE_INSTANCE_MENU_CANCEL,
+19,TEXT_AETHERYTE_FIRST_OPEN_01,「都市内エーテライト」を開放しました！
+20,TEXT_AETHERYTE_FIRST_OPEN_02,"「都市内エーテライト」に触れることで、
 都市内エーテライト間を自由に移動ができる、
 「都市転送網」が利用できます。"
-21,"TEXT_AETHERYTE_FULL_OPEN_FST","グリダニアの「都市内エーテライト」をすべて開放しました！
+21,TEXT_AETHERYTE_FULL_OPEN_FST,"グリダニアの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「青狢門」と「黄蛇門」、
 「グリダニア・ランディング」への転送も可能になりました！"
-22,"TEXT_AETHERYTE_FULL_OPEN_FST_WITH_WHITE_WOLF_GATE","グリダニアの「都市内エーテライト」をすべて開放しました！
+22,TEXT_AETHERYTE_FULL_OPEN_FST_WITH_WHITE_WOLF_GATE,"グリダニアの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「青狢門」と「黄蛇門」、「白狼門」、
 「グリダニア・ランディング」への転送も可能になりました！"
-23,"TEXT_AETHERYTE_FULL_OPEN_SEA","リムサ・ロミンサの「都市内エーテライト」をすべて開放しました！
+23,TEXT_AETHERYTE_FULL_OPEN_SEA,"リムサ・ロミンサの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「ゼファー陸門」と「テンペスト陸門」、
 「リムサ・ロミンサ・ランディング」への転送も可能になりました！"
-24,"TEXT_AETHERYTE_FULL_OPEN_WIL","ウルダハの「都市内エーテライト」をすべて開放しました！
+24,TEXT_AETHERYTE_FULL_OPEN_WIL,"ウルダハの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「ナル大門」と「ザル大門」、「ナナモ新門」、
 「ウルダハ・ランディング」への転送も可能になりました！"
-25,"TEXT_AETHERYTE_FULL_OPEN_GOLDSAUCER","ゴールドソーサーの「都市内エーテライト」を、
+25,TEXT_AETHERYTE_FULL_OPEN_GOLDSAUCER,"ゴールドソーサーの「都市内エーテライト」を、
 すべて開放しました！"
-26,"TEXT_AETHERYTE_FULL_OPEN_TOWN_ROC","イシュガルドの「都市内エーテライト」をすべて開放しました！
+26,TEXT_AETHERYTE_FULL_OPEN_TOWN_ROC,"イシュガルドの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「聖徒門」への転送も可能になりました！"
-27,"TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE","イディルシャイアの「都市内エーテライト」をすべて開放しました！
+27,TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE,"イディルシャイアの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「裏表紙門」への転送も可能になりました！"
-28,"TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE_WITH_QUESTCOMP","イディルシャイアの「都市内エーテライト」をすべて開放しました！
+28,TEXT_AETHERYTE_FULL_OPEN_TOWN_IDYLLSHIRE_WITH_QUESTCOMP,"イディルシャイアの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「裏表紙門」と、
 「表紙門」への転送も可能になりました！"
-29,"TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE","クガネの「都市内エーテライト」をすべて開放しました！
+29,TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE,"クガネの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「クガネ・ランディング」への転送も、
 可能になりました！"
-30,"TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE_WITH_QUESTCOMP","クガネの「都市内エーテライト」をすべて開放しました！
+30,TEXT_AETHERYTE_FULL_OPEN_TOWN_KUGANE_WITH_QUESTCOMP,"クガネの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「紅玉海」と、
 「クガネ・ランディング」への転送も可能になりました！"
-31,"TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH","ラールガーズリーチの「都市内エーテライト」をすべて開放しました！
+31,TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH,"ラールガーズリーチの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「辺境地帯」への転送も可能になりました！"
-32,"TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH_WITH_QUESTCOMP","ラールガーズリーチの「都市内エーテライト」をすべて開放しました！
+32,TEXT_AETHERYTE_FULL_OPEN_TOWN_RHALGRS_REACH_WITH_QUESTCOMP,"ラールガーズリーチの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「辺境地帯」と、
 「山岳地帯」への転送も可能になりました！"
-33,"TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE","ドマ町人地の「都市内エーテライト」をすべて開放しました！
+33,TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE,"ドマ町人地の「都市内エーテライト」をすべて開放しました！
 ボーナスとして「無二江流域（ヤンサ方面）」への転送も、
 可能になりました！"
-34,"TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE_WITH_QUESTCOMP","ドマ町人地の「都市内エーテライト」をすべて開放しました！
+34,TEXT_AETHERYTE_FULL_OPEN_DOMAN_ENCLAVE_WITH_QUESTCOMP,"ドマ町人地の「都市内エーテライト」をすべて開放しました！
 ボーナスとして「無二江流域（ヤンサ方面）」と、
 「ガンゴッシュ」への転送も、可能になりました！"
-35,"TEXT_AETHERYTE_FULL_OPEN_CRYSTALIUM","クリスタリウムの「都市内エーテライト」をすべて開放しました！
+35,TEXT_AETHERYTE_FULL_OPEN_CRYSTALIUM,"クリスタリウムの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「レイクランド」への転送も可能になりました！"
-36,"TEXT_AETHERYTE_FULL_OPEN_EURMORE","ユールモアの「都市内エーテライト」をすべて開放しました！
+36,TEXT_AETHERYTE_FULL_OPEN_EURMORE,"ユールモアの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「コルシア島」への転送も可能になりました！"
-37,"TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN","オールド・シャーレアンの「都市内エーテライト」を
+37,TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN,"オールド・シャーレアンの「都市内エーテライト」を
 すべて開放しました！"
-38,"TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN_WITH_QUESTCOMP","オールド・シャーレアンの「都市内エーテライト」を
+38,TEXT_AETHERYTE_FULL_OPEN_OLD_SHARLAYAN_WITH_QUESTCOMP,"オールド・シャーレアンの「都市内エーテライト」を
 すべて開放しました！
 ボーナスとして「ラヴィリンソス」への転送も可能になりました！"
-39,"TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN","ラザハンの「都市内エーテライト」をすべて開放しました！"
-40,"TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN_WITH_QUESTCOMP","ラザハンの「都市内エーテライト」をすべて開放しました！
+39,TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN,ラザハンの「都市内エーテライト」をすべて開放しました！
+40,TEXT_AETHERYTE_FULL_OPEN_RADZ_AT_HAN_WITH_QUESTCOMP,"ラザハンの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「サベネア島」への転送も可能になりました！"
-41,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL","トライヨラの「都市内エーテライト」をすべて開放しました！"
-42,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_0_0","トライヨラの「都市内エーテライト」をすべて開放しました！
+41,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL,トライヨラの「都市内エーテライト」をすべて開放しました！
+42,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_0_0,"トライヨラの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「オルコ・パチャ」への転送も、
 可能になりました！"
-43,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_1_0","トライヨラの「都市内エーテライト」をすべて開放しました！
+43,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_1_0,"トライヨラの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「コザマル・カ下流域」への転送も、
 可能になりました！"
-44,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_2_0","トライヨラの「都市内エーテライト」をすべて開放しました！
+44,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_2_0,"トライヨラの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「オルコ・パチャ」と、
 「コザマル・カ下流域」への転送も可能になりました！"
-45,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_3_0","トライヨラの「都市内エーテライト」をすべて開放しました！
+45,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_3_0,"トライヨラの「都市内エーテライト」をすべて開放しました！
 ボーナスとして「オルコ・パチャ」と「コザマル・カ下流域」、
 「コザマル・カ上流域」への転送も可能になりました！"
-46,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_0","トライヨラの「都市内エーテライト」をすべて開放しました！"
-47,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_1","ボーナスとして「オルコ・パチャ」と「コザマル・カ下流域」、
+46,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_0,トライヨラの「都市内エーテライト」をすべて開放しました！
+47,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_4_1,"ボーナスとして「オルコ・パチャ」と「コザマル・カ下流域」、
 「コザマル・カ上流域」、「ヤクテル樹海」への転送も、
 可能になりました！"
-48,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_0","トライヨラの「都市内エーテライト」をすべて開放しました！"
-49,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_1","ボーナスとして「オルコ・パチャ」と「コザマル・カ下流域」、
+48,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_0,トライヨラの「都市内エーテライト」をすべて開放しました！
+49,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_5_1,"ボーナスとして「オルコ・パチャ」と「コザマル・カ下流域」、
 「コザマル・カ上流域」、「ヤクテル樹海」、
 「シャーローニ荒野」への転送も可能になりました！"
-50,"TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE","ソリューション・ナインの「都市内エーテライト」を、
+50,TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE,"ソリューション・ナインの「都市内エーテライト」を、
 すべて開放しました！"
-51,"TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE_1","ボーナスとして「ヘリテージファウンド」への転送も、
+51,TEXT_AETHERYTE_FULL_OPEN_SOLUTION_NINE_1,"ボーナスとして「ヘリテージファウンド」への転送も、
 可能になりました！"
-52,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_0","トライヨラの「都市内エーテライト」をすべて開放しました！
+52,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_0,"トライヨラの「都市内エーテライト」をすべて開放しました！
 ボーナスとして、次の地域への転送も可能になりました！"
-53,"TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_1","「オルコ・パチャ」、「コザマル・カ下流域」、
+53,TEXT_AETHERYTE_FULL_OPEN_TULIYOLLAL_WITH_QUESTCOMP_6_1,"「オルコ・パチャ」、「コザマル・カ下流域」、
 「コザマル・カ上流域」、「ヤクテル樹海」、
 「シャーローニ荒野」、「蜃気楼の町」。"

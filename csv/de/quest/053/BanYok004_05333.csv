@@ -1,149 +1,146 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANYOK004_05333_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANYOK004_05333_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Fahrafahr hat Fortschritte gemacht."
-1,"TEXT_BANYOK004_05333_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)
+1,TEXT_BANYOK004_05333_SEQ_01,"**** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)
 
 Fahrafahr berichtet dir, dass sie neue Erkenntnisse aus den Steingravuren auf Dartorgors Lebendem Grab gewonnen hat. Dies will sie mit dir aber lieber direkt vor dem Grabmal besprechen."
-2,"TEXT_BANYOK004_05333_SEQ_02","Dartorgors Lebendes Grab zeigt, wie eng ihre Beziehung zu den Schneegeistern eigentlich war. Auch als sie die Letzte ihrer Familie war und ganz allein auf den Hängen hauste, waren sie an ihrer Seite und bescherten ihr schöne Tage. Für Dartorgor muss es eine Ehre gewesen sein, sich mittels des Weißen Rituals für diese Freund<SoftHyphen/>schaft zu bedanken. Und auch über das Ritual hat Fahrafahr etwas herausgefunden. Der spezielle Mais, den Dartorgor stets anzubauen pflegte, wurde von ihr zu einem Wein gebrannt und als solcher den Schneegeistern dargebracht. Fahrafahr schickt dich nun zu Kurburlur, um die Instandsetzung der zerstörten Brennerei neben dem Altar zu organisieren."
-3,"TEXT_BANYOK004_05333_SEQ_03","Im Gespräch mit Kurburlur zeigt sich, dass die Zeit drängt. Ihr wollt einen alten Steinwächter einsetzen, mit dessen Arbeitskraft mehr auf einmal bewältigt werden kann, und sowohl Brennerei wie auch Altar gleichzeitig fertiggestellt werden können. Glücklicherweise gibt es in Worlars Echo jemanden, der sich auf den Betrieb dieser uralten Technologie versteht<Indent/>- dieser Yok Huy war es auch, der euch den Steinwächter überhaupt erst angeboten hat. Suche ihn in Worlars Echo auf, um über diese Angelegenheit zu sprechen."
-4,"TEXT_BANYOK004_05333_SEQ_04","Leider hat der Zahn der Zeit am Steinwächter genagt und seine Magieversorgung ist kaputt. Glücklicherweise weiß der Experte recht genau, wie man ihn wieder instand setzen kann und du erklärst dich dazu bereit, mit deinen handwerklichen Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten dabei auszuhelfen. Kehre mit Fahrafahr zum Wächtersteig zurück."
-5,"TEXT_BANYOK004_05333_SEQ_05","Fahrafahr bittet dich noch einmal ganz offiziell um Hilfe. Das nötige Material hat sie bereits vorbereitet, und Wurfurtar wird dich, wie gewohnt, mit Nachschub versorgen. Kehre zu Fahrafahr zurück, wenn du deine Arbeit beendet hast."
-6,"TEXT_BANYOK004_05333_SEQ_06","Du überreichst Fahrafahr dein Werk und sie zeigt sich beeindruckt. Der Steinwächter ist wieder einsatzbereit und eine gigantische Hilfe. Beinahe im Hand<SoftHyphen/>umdrehen geht die Instandsetzung der Brennerei und die Restaurierung des Altars über die Bühne. Nun fehlt nur noch das Weiße Ritual selbst."
-7,"TEXT_BANYOK004_05333_SEQ_07",""
-8,"TEXT_BANYOK004_05333_SEQ_08",""
-9,"TEXT_BANYOK004_05333_SEQ_09",""
-10,"TEXT_BANYOK004_05333_SEQ_10",""
-11,"TEXT_BANYOK004_05333_SEQ_11",""
-12,"TEXT_BANYOK004_05333_SEQ_12",""
-13,"TEXT_BANYOK004_05333_SEQ_13",""
-14,"TEXT_BANYOK004_05333_SEQ_14",""
-15,"TEXT_BANYOK004_05333_SEQ_15",""
-16,"TEXT_BANYOK004_05333_SEQ_16",""
-17,"TEXT_BANYOK004_05333_SEQ_17",""
-18,"TEXT_BANYOK004_05333_SEQ_18",""
-19,"TEXT_BANYOK004_05333_SEQ_19",""
-20,"TEXT_BANYOK004_05333_SEQ_20",""
-21,"TEXT_BANYOK004_05333_SEQ_21",""
-22,"TEXT_BANYOK004_05333_SEQ_22",""
-23,"TEXT_BANYOK004_05333_SEQ_23",""
-24,"TEXT_BANYOK004_05333_TODO_00","An Zirgorteh dem Grüßenden mit Fahrafahr sprechen"
-25,"TEXT_BANYOK004_05333_TODO_01","Mit Kurburlur sprechen"
-26,"TEXT_BANYOK004_05333_TODO_02","Den Steinwächter in Worlars Echo untersuchen"
-27,"TEXT_BANYOK004_05333_TODO_03","Mit Fahrafahr treffen"
-28,"TEXT_BANYOK004_05333_TODO_04","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Fahrafahr abliefern</If><Else/></If></If></If></If></If></If></If></If>"
-29,"TEXT_BANYOK004_05333_TODO_05",""
-30,"TEXT_BANYOK004_05333_TODO_06",""
-31,"TEXT_BANYOK004_05333_TODO_07",""
-32,"TEXT_BANYOK004_05333_TODO_08",""
-33,"TEXT_BANYOK004_05333_TODO_09",""
-34,"TEXT_BANYOK004_05333_TODO_10",""
-35,"TEXT_BANYOK004_05333_TODO_11",""
-36,"TEXT_BANYOK004_05333_TODO_12",""
-37,"TEXT_BANYOK004_05333_TODO_13",""
-38,"TEXT_BANYOK004_05333_TODO_14",""
-39,"TEXT_BANYOK004_05333_TODO_15",""
-40,"TEXT_BANYOK004_05333_TODO_16",""
-41,"TEXT_BANYOK004_05333_TODO_17",""
-42,"TEXT_BANYOK004_05333_TODO_18",""
-43,"TEXT_BANYOK004_05333_TODO_19",""
-44,"TEXT_BANYOK004_05333_TODO_20",""
-45,"TEXT_BANYOK004_05333_TODO_21",""
-46,"TEXT_BANYOK004_05333_TODO_22",""
-47,"TEXT_BANYOK004_05333_TODO_23",""
-48,"TEXT_BANYOK004_05333_FAHRAFAHR_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, willkommen. Ich freue mich, dass du hier bist, denn ich habe etwas zu berichten. Auf Dartorgors Lebendem Grab waren tatsächlich Gravuren zum Weißen Ritual zu finden."
-49,"TEXT_BANYOK004_05333_FAHRAFAHR_000_002","Aber das ist noch nicht alles. Kurburlurs Beispiel folgend, hat ein weiterer Bewohner von Worlars Echo seine Hilfe bei unserer Restaurierung angeboten."
-50,"TEXT_BANYOK004_05333_FAHRAFAHR_000_003","Stell dir vor: Er hat uns den uralten Steinwächter des Dorfes offeriert."
-51,"TEXT_BANYOK004_05333_FAHRAFAHR_100_003","Ich selbst kenne mich mit den Wächtern wenig aus, aber vor langer Zeit war mein Volk durchaus geübt im Umgang mit der Magie, Stein zu erwecken und zu bewegen. Auf diese Weise schufen wir die Steinwächter, kräftige und nimmermüde Gefährten, die so gut wie jede Arbeit verrichten können."
-52,"TEXT_BANYOK004_05333_FAHRAFAHR_000_004","Zwar sind wir Yok Huy für unsere Stärke bekannt, aber auch wir vermögen es nicht, einen Stein nach dem anderen auf unseren Schultern zu tragen, ohne jemals Schlaf zu benötigen. Mit einem Steinwächter an unserer Seite würden wir mit dem Altar wesentlich schneller vorankommen."
-53,"TEXT_BANYOK004_05333_FAHRAFAHR_000_005","Allerdings ist der Wächter auch nicht mehr der Jüngste und es wird gerade geprüft, ob er überhaupt noch funktioniert."
-54,"TEXT_BANYOK004_05333_FAHRAFAHR_000_006","In der Zwischenzeit will ich dir berichten, was ich aus Dartorgors Lebendem Grab lernen konnte. Am besten sprechen wir direkt vor den Gravuren selbst. Treffen wir uns vor Zirgorteh dem Grüßenden."
-55,"TEXT_BANYOK004_05333_FAHRAFAHR_000_100","Die Gravuren auf dem Grab haben mir einiges verraten. Wie das Leben von Dartorgors Familie hier oben in den Bergen aussah und was das Weiße Ritual beinhaltet."
-56,"TEXT_BANYOK004_05333_FAHRAFAHR_000_101","Die enge Bindung zwischen ihrer Familie und den Schneegeistern begann wohl ganz durch Zufall."
-57,"TEXT_BANYOK004_05333_FAHRAFAHR_000_102","Sie tranken einen Maiswein, den sie Kirkahryar nennen, um der bitteren Kälte der Berggipfel zu trotzen. Und an eben diesem Maiswein waren die Schneegeister wohl höchst interessiert."
-58,"TEXT_BANYOK004_05333_FAHRAFAHR_000_103","So versuchte Dartorgors Familie, den Kirkahryar als Opfergabe darzubringen, um den gelegentlichen Zornesausbrüchen der Geister Einhalt zu gebieten. Kaum dass der erste Schluck gekostet war, verflog wohl jegliche Wut."
-59,"TEXT_BANYOK004_05333_FAHRAFAHR_000_104","Danach kamen die Schneegeister die Yok Huy immer wieder besuchen und zeigten ihnen die kuriosesten Spiele."
-60,"TEXT_BANYOK004_05333_FAHRAFAHR_000_105","Seitdem schmiedeten sie über Generationen hinweg ein starkes Band der Freund<SoftHyphen/>schaft, indem Dartorgors Familie im Weißen Ritual wieder und wieder ihren Maiswein teilte und die Geister einluden."
-61,"TEXT_BANYOK004_05333_FAHRAFAHR_000_106","Doch ihre Zahl schwand."
-62,"TEXT_BANYOK004_05333_FAHRAFAHR_000_107","Einer nach der anderen verschwanden sie, bis einzig Dartorgor übrig war."
-63,"TEXT_BANYOK004_05333_FAHRAFAHR_000_108","Aber sie war niemals allein. Ihre Eltern und Ahnen weilten in ihrem Herzen und die Schneegeister waren stets an ihrer Seite."
-64,"TEXT_BANYOK004_05333_FAHRAFAHR_000_109","Auf Dartorgors Lebenden Grab finden sich die lebendigsten Darstellungen von ihrer Zeit mit den Schneegeistern<Indent/>- wie sie im Schnee tollten, oder wie sie den großen, runden Mond in klaren Nächten bestaunten."
-65,"TEXT_BANYOK004_05333_FAHRAFAHR_000_110","Besonders aufgefallen ist mir die Darstellung, wie sie gemeinsam auf ausgesprochen seltene und schöne Eisblumen stießen. Dieser Tag muss Dartorgor besonders teuer gewesen sein, man liest es aus der Gravur heraus."
-66,"TEXT_BANYOK004_05333_FAHRAFAHR_000_111","Doch dann hören die Bilder einfach auf. Sie<Indent/>... Sie<Indent/>..."
-67,"TEXT_BANYOK004_05333_FAHRAFAHR_000_112","Verzeih, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Einen Moment lang wurde ich von meinen Gefühlen überwältigt. Aber Dartorgor ist ja nicht fort<Indent/>... Sie weilt in meinem Herzen."
-68,"TEXT_BANYOK004_05333_FAHRAFAHR_000_113","Und dank ihres Grabes wissen wir endlich, worum genau es beim Weißen Ritual geht: An Zirgorteh dem Grüßenden wird Kirkahryar dargeboten, um den Zorn der Schneegeister zu besänftigen."
-69,"TEXT_BANYOK004_05333_FAHRAFAHR_000_114","Wir sollten das mit Kurburlur besprechen. Schließlich geht es hier um Mais, und er, als Aufseher des Vorratslagers, dürfte eine Meinung dazu haben."
-70,"TEXT_BANYOK004_05333_FAHRAFAHR_000_200","Ich habe unsere Erkenntnisse bereits mit Kurburlur geteilt. Doch wir wollten auf dich warten, ehe wir die Diskussion fortsetzen."
-71,"TEXT_BANYOK004_05333_KURBULUR_000_300","Kirkahryar also<Indent/>... Ja, das ergibt Sinn. Dartorgor hat ihren Mais nicht einfach als solches dargeboten, sondern als Wein."
-72,"TEXT_BANYOK004_05333_KURBULUR_000_301","Ich ging davon aus, dass das zerstörte Gebäude neben dem Altar eine Art Küche war, aber vielmehr muss es eine Brennerei gewesen sein."
-73,"TEXT_BANYOK004_05333_FAHRAFAHR_000_302","Das denke ich auch. Und nun, da wir wissen, was es damit auf sich hat, müssen wir sie restaurieren."
-74,"TEXT_BANYOK004_05333_FAHRAFAHR_100_302","Wenn der Steinwächter einsatzbereit wäre, würde uns das eine große Last von den Schultern nehmen. Wir sollten nachsehen, wie es um ihn steht."
-75,"TEXT_BANYOK004_05333_FAHRAFAHR_000_303","Das ist übrigens das erste Mal, dass ich einen Steinwächter mit eigenen Augen sehe. Auch dies betrachte ich als ein Geschenk von Dartorgor."
-76,"TEXT_BANYOK004_05333_KURBULUR_100_303","Ha! Die Dame Fahrafahr scheint weitaus besser gelaunt zu sein, hm? Das freut ihre Freundin Dartorgor vermutlich auch."
-77,"TEXT_BANYOK004_05333_KURBULUR_110_303","Den Steinwächter findest du in Worlars Echo. Und er ist ein Anblick, den du dir wirklich nicht entgehen lassen solltest."
-78,"TEXT_BANYOK004_05333_KURBULUR_000_305","Ich hatte ohnehin schon geplant, ein Feld für den Mais anzulegen und ihn ordentlich anzubauen. Nun, da wir wissen, wozu er eigentlich gut ist, trifft sich das natürlich umso besser."
-79,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_310","Hm? Ja bitte?"
-80,"TEXT_BANYOK004_05333_FAHRAFAHR_000_315","Ein wahrhaftiger Steinwächter<Indent/>... Doch still und stumm steht er da."
-81,"TEXT_BANYOK004_05333_FAHRAFAHR_000_400","Dein Blick<Indent/>... Ist dir einer dieser Wächter etwa schon einmal begegnet?"
-82,"TEXT_BANYOK004_05333_FAHRAFAHR_100_400","Du hast in Yak T'el gegen Steinwächter gekämpft? Es ist wahrlich schwer zu glauben, dass du eben erst in Tural angekommen sein sollst<Indent/>..."
-83,"TEXT_BANYOK004_05333_FAHRAFAHR_000_401","Dieser Steinwächter dient aus<SoftHyphen/>schließ<SoftHyphen/>lich der Arbeit und nicht dem Kampf, also musst du dir keinerlei Sorgen machen. Allerdings scheint er keinen Kiesel rühren zu können<Indent/>..."
-84,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_402","Nicht da, nicht da<Indent/>..."
-85,"TEXT_BANYOK004_05333_FAHRAFAHR_000_403","Dies ist der Bruder, der sich um die Wartung des Wächters kümmert. Aber ganz offensichtlich stimmt irgendetwas nicht<Indent/>..."
-86,"TEXT_BANYOK004_05333_FAHRAFAHR_100_403","Verzeihung, aber was genau ist denn nicht da?"
-87,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_404","Das kann ich beantworten, aber ihr, die ihr mit der Wirkweise der Steinwächter vermutlich nicht vertraut seid, werdet nicht viel mit dieser Antwort anfangen können. Oder kennt ihr euch mit den steinernen Riesen aus?"
-88,"TEXT_BANYOK004_05333_FAHRAFAHR_000_405","Nein, leider nicht. Hier in Worlars Echo sieht man sie ja nicht mehr im Einsatz."
-89,"TEXT_BANYOK004_05333_FAHRAFAHR_100_405","Aber wir bringen Zeit und Geduld mit, und würden uns gerne aufklären lassen. Nicht wahr, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-90,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_406","Sicher ist euch bewusst, dass wir Yok Huy uns schon seit langer Zeit darauf verstehen, Steinstatuen mit magischen Kräften zu versehen und ihnen auf diese Art Leben einzuhauchen."
-91,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_100_406","Zwar nennen wir sie Stein<Emphasis>wächter</Emphasis>, aber eigentlich sollten sie rein der körperlichen Arbeit dienen."
-92,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_407","Als Helfer beim Bau von Gebäuden zum Beispiel. Wir schenkten dem Stein die Kraft, sich zu bewegen, und er brachte uns Wohlstand."
-93,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_408","Doch dann stürzten sich unsere Ahnen in einen irrsinnigen Krieg, und plötzlich mussten unsere Steinwächter als Waffen dienen, nunmehr mit aggressiven Magien ausgerüstet."
-94,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_409","Nachdem der Krieg vorbei war, gab es jedoch leichtere, handlichere Werkzeuge und die Steinwächter verloren an Bedeutung. Deswegen war dieser hier auch so lange im Lagerhaus verstaut."
-95,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_410","（★未使用／削除予定★）"
-96,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_411","Nachdem ich hörte, welche Anstrengungen ihr dort oben in den kalten Höhen unternehmt, dachte ich mir, dass jetzt der richtige Zeitpunkt gekommen wäre. Leider hat der Zahn der Zeit am Wächter genagt und einige Teile sind nicht mehr funktionstüchtig."
-97,"TEXT_BANYOK004_05333_FAHRAFAHR_000_412","Verstehe. Und eben diese Teile sind also „nicht da“?"
-98,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_413","Völlig korrekt. Und weil Steinwächter schon so lange nicht mehr genutzt werden, gibt es natürlich keine Ersatzteile."
-99,"TEXT_BANYOK004_05333_FAHRAFAHR_000_414","Hrm. Wenn du uns sagst, was du brauchst, könnte <If(PlayerParameter(4))>unsere fähigste Handwerkerin<Else/>unser fähigster Handwerker</If> vielleicht helfen."
-100,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_414","（★未使用／削除予定★）"
-101,"TEXT_BANYOK004_05333_Q1_000_000","Was sagst du?"
-102,"TEXT_BANYOK004_05333_A1_000_001","Überhaupt kein Problem."
-103,"TEXT_BANYOK004_05333_A1_000_002","Nur, wenn dieser Wächter auch wirklich in keinen Krieg mehr zieht."
-104,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_416","Oh, faszinierend. Das freut mich aber sehr. Im Übrigen ist das Angriffsmodul des Wächters ebenfalls kaputt und ich habe keine Pläne, es je zu reparieren."
-105,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_417","Nein, das will ich auch selbst gar nicht. Dankenswerterweise ist sein Angriffsmodul ebenfalls kaputt und ich habe keine Pläne, es je zu reparieren."
-106,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_418","Teile in der Magieübertragung funktionieren nicht richtig. Glücklicherweise können sie recht einfach ersetzt werden, wenn man ein Material mit hoher ätherischer Leitfähigkeit benutzt."
-107,"TEXT_BANYOK004_05333_FAHRAFAHR_000_419","Wurfurtar hat da sicherlich etwas Passendes für uns. Gehen wir ihn sogleich fragen."
-108,"TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_425","Solange das Ausgangsmaterial eine hohe ätherische Leitfähigkeit besitzt, sollte das Austauschen der mangelhaften Teile kein Problem darstellen. Wenn ihr meint, die Teile besorgen zu können, will ich gerne warten."
-109,"TEXT_BANYOK004_05333_SYSTEM_000_430","Der Steinwächter rührt sich nicht. Scheinbar ist seine Magieversorgung kaputt."
-110,"TEXT_BANYOK004_05333_FAHRAFAHR_000_500","Mit Wurfurtar habe ich bereits gesprochen. Er organisiert uns das benötigte Material<Indent/>- mit hoher Leitfähigkeit."
-111,"TEXT_BANYOK004_05333_FAHRAFAHR_000_501","Diese Aufgabe ist wohl keineswegs einfach, aber wir benötigen eine Metallschaltung mit hoher ätherischer Leitfähigkeit, um den Steinwächter zu reparieren."
-112,"TEXT_BANYOK004_05333_FAHRAFAHR_000_502","Diese Aufgabe ist wohl keineswegs einfach, aber wir benötigen eine Leitbrücke, um den Steinwächter zu reparieren."
-113,"TEXT_BANYOK004_05333_FAHRAFAHR_000_503","Diese Aufgabe ist wohl keineswegs einfach, aber wir benötigen eine leitfähige Schmierpaste, um den Steinwächter zu reparieren."
-114,"TEXT_BANYOK004_05333_FAHRAFAHR_000_504","Das Material habe ich bereits vorbereitet. Wenn du mehr brauchst, sprich mit Wurfurtar."
-115,"TEXT_BANYOK004_05333_FAHRAFAHR_000_505","Uns fehlen nur noch Kirkahryar und Zirgorteh der Grüßende<Indent/>... Falls wir den Steinwächter wieder zum Leben erwecken, können wir die Brennerei und den Altar gleichzeitig instand setzen. Das wäre ein gewaltiger Schritt nach vorn."
-116,"TEXT_BANYOK004_05333_FAHRAFAHR_000_510","Ist dir das Material ausgegangen? Wurfurtar hat noch mehr gelagert, nur keine Sorge."
-117,"TEXT_BANYOK004_05333_FAHRAFAHR_000_515","（★未使用／削除予定★）"
-118,"TEXT_BANYOK004_05333_FAHRAFAHR_000_520","（★未使用／削除予定★）"
-119,"TEXT_BANYOK004_05333_WURFURTAR_000_525","Jetzt fehlt gar nicht mehr viel, hm? Wenn der Steinwächter erst wieder steht, geht das im Hand<SoftHyphen/>umdrehen. Sag nur Bescheid, wenn ich dich mit irgendetwas versorgen kann."
-120,"TEXT_BANYOK004_05333_WURFURTAR_000_530","（★未使用／削除予定★）"
-121,"TEXT_BANYOK004_05333_WURFURTAR_000_535","（★未使用／削除予定★）"
-122,"TEXT_BANYOK004_05333_WURFURTAR_000_540","Keine Sorge, wir sind bestens vorbereitet. Hier hast du noch mehr Material."
-123,"TEXT_BANYOK004_05333_WURFURTAR_000_541","（★未使用／削除予定★）"
-124,"TEXT_BANYOK004_05333_WURFURTAR_000_542","（★未使用／削除予定★）"
-125,"TEXT_BANYOK004_05333_FAHRAFAHR_000_545","Du hast es tatsächlich vollbracht, nicht wahr? Oh, mein Herz klopft so schnell<Indent/>..."
-126,"TEXT_BANYOK004_05333_FAHRAFAHR_000_546","Fantastisch! Genau, was wir brauchen! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, du bist wahrhaftig ein Wunder. Wir wissen so gut wie nichts über diese alte Technologie, und du hast es dennoch zustande gebracht, ein perfektes Ersatzteil zu fertigen!"
-127,"TEXT_BANYOK004_05333_FAHRAFAHR_000_547","Wir haben nunmehr auch das richtige Gestein für die anderweitigen Reparaturen gefunden, also will ich beides gleich zu unserem Experten bringen."
-128,"TEXT_BANYOK004_05333_FAHRAFAHR_000_548","Nun ist es wahrlich nur noch ein kleines Stückchen, bis Zirgorteh der Grüßende endlich restauriert ist<Indent/>...!"
-129,"TEXT_BANYOK004_05333_FAHRAFAHR_000_550","All das ist den unzähligen Helfern zu verdanken, die bei jedem noch so kleinen Handgriff mit angepackt haben. Und nun gar ein Steinwächter, der das letzte Stück schwerer Arbeit stemmt."
-130,"TEXT_BANYOK004_05333_FAHRAFAHR_000_551","Jetzt müssen wir nur noch warten, bis der Kirkahryar fertig gebraut ist und wir das Weiße Ritual endlich abhalten können."
-131,"TEXT_BANYOK004_05333_FAHRAFAHR_100_551","Wo wir schon davon sprechen, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>- trinkst du?"
-132,"TEXT_BANYOK004_05333_FAHRAFAHR_110_551","Natürlich hat das Ritual oberste Priorität, aber es wäre mir dennoch eine Ehre, den fertigen Maiswein irgendwann einmal mit dir zu verkosten. Darauf freue ich mich bereits."
-133,"TEXT_BANYOK004_05333_SYSTEM_000_552","Dank eurer Bemühungen wurden sowohl die Brennerei instand gesetzt als auch der Altar selbst restauriert. Nun erinnert kaum noch etwas an das Lawinenunglück und dessen Verwüstung."
-134,"TEXT_BANYOK004_05333_SYSTEM_000_553","Es fehlt nicht mehr viel, bis Fahrafahr das Weiße Ritual abhalten kann. Unterstütze sie bis dahin aus vollen Kräften!"
-135,"TEXT_BANYOK004_05333_SYSTEM_000_600","Dein Verhältnis zu den Yok Huy ist auf „Geachtet“ gestiegen!"
-136,"TEXT_BANYOK004_05333_SYSTEM_000_601","Der Anblick des reparierten Steinwächters erfüllt alle Helfer am Altar mit Ehrfurcht."
-137,"TEXT_BANYOK004_05333_SYSTEM_000_602","Vuyargur wird dir nun neue Nebenaufträge der Freundesvölker anbieten, die du täglich wiederholen kannst."
-138,"TEXT_BANYOK004_05333_SYSTEM_000_603","Als Zeichen des Vertrauens bietet dir Vuyargur Ja nur heute drei zusätzliche Aufträge an."
-139,"TEXT_BANYOK004_05333_SYSTEM_000_604","Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Yok Huy-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
-140,"TEXT_BANYOK004_05333_SYSTEM_000_605","Außerdem kannst du nun von Rarkorgor neue Waren für den Verbundenheitsrang „Geachtet“ erwerben."
-141,"TEXT_BANYOK004_05333_SYSTEM_000_700","Gegenstände normaler Qualität, die im Rahmen dieses Auftrags angefertigt wurden, sind nutzlos und sollten weggeworfen werden."
+2,TEXT_BANYOK004_05333_SEQ_02,"Dartorgors Lebendes Grab zeigt, wie eng ihre Beziehung zu den Schneegeistern eigentlich war. Auch als sie die Letzte ihrer Familie war und ganz allein auf den Hängen hauste, waren sie an ihrer Seite und bescherten ihr schöne Tage. Für Dartorgor muss es eine Ehre gewesen sein, sich mittels des Weißen Rituals für diese Freund­schaft zu bedanken. Und auch über das Ritual hat Fahrafahr etwas herausgefunden. Der spezielle Mais, den Dartorgor stets anzubauen pflegte, wurde von ihr zu einem Wein gebrannt und als solcher den Schneegeistern dargebracht. Fahrafahr schickt dich nun zu Kurburlur, um die Instandsetzung der zerstörten Brennerei neben dem Altar zu organisieren."
+3,TEXT_BANYOK004_05333_SEQ_03,"Im Gespräch mit Kurburlur zeigt sich, dass die Zeit drängt. Ihr wollt einen alten Steinwächter einsetzen, mit dessen Arbeitskraft mehr auf einmal bewältigt werden kann, und sowohl Brennerei wie auch Altar gleichzeitig fertiggestellt werden können. Glücklicherweise gibt es in Worlars Echo jemanden, der sich auf den Betrieb dieser uralten Technologie versteht - dieser Yok Huy war es auch, der euch den Steinwächter überhaupt erst angeboten hat. Suche ihn in Worlars Echo auf, um über diese Angelegenheit zu sprechen."
+4,TEXT_BANYOK004_05333_SEQ_04,"Leider hat der Zahn der Zeit am Steinwächter genagt und seine Magieversorgung ist kaputt. Glücklicherweise weiß der Experte recht genau, wie man ihn wieder instand setzen kann und du erklärst dich dazu bereit, mit deinen handwerklichen Fä­hig­kei­ten dabei auszuhelfen. Kehre mit Fahrafahr zum Wächtersteig zurück."
+5,TEXT_BANYOK004_05333_SEQ_05,"Fahrafahr bittet dich noch einmal ganz offiziell um Hilfe. Das nötige Material hat sie bereits vorbereitet, und Wurfurtar wird dich, wie gewohnt, mit Nachschub versorgen. Kehre zu Fahrafahr zurück, wenn du deine Arbeit beendet hast."
+6,TEXT_BANYOK004_05333_SEQ_06,Du überreichst Fahrafahr dein Werk und sie zeigt sich beeindruckt. Der Steinwächter ist wieder einsatzbereit und eine gigantische Hilfe. Beinahe im Hand­umdrehen geht die Instandsetzung der Brennerei und die Restaurierung des Altars über die Bühne. Nun fehlt nur noch das Weiße Ritual selbst.
+7,TEXT_BANYOK004_05333_SEQ_07,
+8,TEXT_BANYOK004_05333_SEQ_08,
+9,TEXT_BANYOK004_05333_SEQ_09,
+10,TEXT_BANYOK004_05333_SEQ_10,
+11,TEXT_BANYOK004_05333_SEQ_11,
+12,TEXT_BANYOK004_05333_SEQ_12,
+13,TEXT_BANYOK004_05333_SEQ_13,
+14,TEXT_BANYOK004_05333_SEQ_14,
+15,TEXT_BANYOK004_05333_SEQ_15,
+16,TEXT_BANYOK004_05333_SEQ_16,
+17,TEXT_BANYOK004_05333_SEQ_17,
+18,TEXT_BANYOK004_05333_SEQ_18,
+19,TEXT_BANYOK004_05333_SEQ_19,
+20,TEXT_BANYOK004_05333_SEQ_20,
+21,TEXT_BANYOK004_05333_SEQ_21,
+22,TEXT_BANYOK004_05333_SEQ_22,
+23,TEXT_BANYOK004_05333_SEQ_23,
+24,TEXT_BANYOK004_05333_TODO_00,An Zirgorteh dem Grüßenden mit Fahrafahr sprechen
+25,TEXT_BANYOK004_05333_TODO_01,Mit Kurburlur sprechen
+26,TEXT_BANYOK004_05333_TODO_02,Den Steinwächter in Worlars Echo untersuchen
+27,TEXT_BANYOK004_05333_TODO_03,Mit Fahrafahr treffen
+28,TEXT_BANYOK004_05333_TODO_04,Spezialrezept:  herstellen
+29,TEXT_BANYOK004_05333_TODO_05,
+30,TEXT_BANYOK004_05333_TODO_06,
+31,TEXT_BANYOK004_05333_TODO_07,
+32,TEXT_BANYOK004_05333_TODO_08,
+33,TEXT_BANYOK004_05333_TODO_09,
+34,TEXT_BANYOK004_05333_TODO_10,
+35,TEXT_BANYOK004_05333_TODO_11,
+36,TEXT_BANYOK004_05333_TODO_12,
+37,TEXT_BANYOK004_05333_TODO_13,
+38,TEXT_BANYOK004_05333_TODO_14,
+39,TEXT_BANYOK004_05333_TODO_15,
+40,TEXT_BANYOK004_05333_TODO_16,
+41,TEXT_BANYOK004_05333_TODO_17,
+42,TEXT_BANYOK004_05333_TODO_18,
+43,TEXT_BANYOK004_05333_TODO_19,
+44,TEXT_BANYOK004_05333_TODO_20,
+45,TEXT_BANYOK004_05333_TODO_21,
+46,TEXT_BANYOK004_05333_TODO_22,
+47,TEXT_BANYOK004_05333_TODO_23,
+48,TEXT_BANYOK004_05333_FAHRAFAHR_000_001,"Player, willkommen. Ich freue mich, dass du hier bist, denn ich habe etwas zu berichten. Auf Dartorgors Lebendem Grab waren tatsächlich Gravuren zum Weißen Ritual zu finden."
+49,TEXT_BANYOK004_05333_FAHRAFAHR_000_002,"Aber das ist noch nicht alles. Kurburlurs Beispiel folgend, hat ein weiterer Bewohner von Worlars Echo seine Hilfe bei unserer Restaurierung angeboten."
+50,TEXT_BANYOK004_05333_FAHRAFAHR_000_003,Stell dir vor: Er hat uns den uralten Steinwächter des Dorfes offeriert.
+51,TEXT_BANYOK004_05333_FAHRAFAHR_100_003,"Ich selbst kenne mich mit den Wächtern wenig aus, aber vor langer Zeit war mein Volk durchaus geübt im Umgang mit der Magie, Stein zu erwecken und zu bewegen. Auf diese Weise schufen wir die Steinwächter, kräftige und nimmermüde Gefährten, die so gut wie jede Arbeit verrichten können."
+52,TEXT_BANYOK004_05333_FAHRAFAHR_000_004,"Zwar sind wir Yok Huy für unsere Stärke bekannt, aber auch wir vermögen es nicht, einen Stein nach dem anderen auf unseren Schultern zu tragen, ohne jemals Schlaf zu benötigen. Mit einem Steinwächter an unserer Seite würden wir mit dem Altar wesentlich schneller vorankommen."
+53,TEXT_BANYOK004_05333_FAHRAFAHR_000_005,"Allerdings ist der Wächter auch nicht mehr der Jüngste und es wird gerade geprüft, ob er überhaupt noch funktioniert."
+54,TEXT_BANYOK004_05333_FAHRAFAHR_000_006,"In der Zwischenzeit will ich dir berichten, was ich aus Dartorgors Lebendem Grab lernen konnte. Am besten sprechen wir direkt vor den Gravuren selbst. Treffen wir uns vor Zirgorteh dem Grüßenden."
+55,TEXT_BANYOK004_05333_FAHRAFAHR_000_100,Die Gravuren auf dem Grab haben mir einiges verraten. Wie das Leben von Dartorgors Familie hier oben in den Bergen aussah und was das Weiße Ritual beinhaltet.
+56,TEXT_BANYOK004_05333_FAHRAFAHR_000_101,Die enge Bindung zwischen ihrer Familie und den Schneegeistern begann wohl ganz durch Zufall.
+57,TEXT_BANYOK004_05333_FAHRAFAHR_000_102,"Sie tranken einen Maiswein, den sie Kirkahryar nennen, um der bitteren Kälte der Berggipfel zu trotzen. Und an eben diesem Maiswein waren die Schneegeister wohl höchst interessiert."
+58,TEXT_BANYOK004_05333_FAHRAFAHR_000_103,"So versuchte Dartorgors Familie, den Kirkahryar als Opfergabe darzubringen, um den gelegentlichen Zornesausbrüchen der Geister Einhalt zu gebieten. Kaum dass der erste Schluck gekostet war, verflog wohl jegliche Wut."
+59,TEXT_BANYOK004_05333_FAHRAFAHR_000_104,Danach kamen die Schneegeister die Yok Huy immer wieder besuchen und zeigten ihnen die kuriosesten Spiele.
+60,TEXT_BANYOK004_05333_FAHRAFAHR_000_105,"Seitdem schmiedeten sie über Generationen hinweg ein starkes Band der Freund­schaft, indem Dartorgors Familie im Weißen Ritual wieder und wieder ihren Maiswein teilte und die Geister einluden."
+61,TEXT_BANYOK004_05333_FAHRAFAHR_000_106,Doch ihre Zahl schwand.
+62,TEXT_BANYOK004_05333_FAHRAFAHR_000_107,"Einer nach der anderen verschwanden sie, bis einzig Dartorgor übrig war."
+63,TEXT_BANYOK004_05333_FAHRAFAHR_000_108,Aber sie war niemals allein. Ihre Eltern und Ahnen weilten in ihrem Herzen und die Schneegeister waren stets an ihrer Seite.
+64,TEXT_BANYOK004_05333_FAHRAFAHR_000_109,"Auf Dartorgors Lebenden Grab finden sich die lebendigsten Darstellungen von ihrer Zeit mit den Schneegeistern - wie sie im Schnee tollten, oder wie sie den großen, runden Mond in klaren Nächten bestaunten."
+65,TEXT_BANYOK004_05333_FAHRAFAHR_000_110,"Besonders aufgefallen ist mir die Darstellung, wie sie gemeinsam auf ausgesprochen seltene und schöne Eisblumen stießen. Dieser Tag muss Dartorgor besonders teuer gewesen sein, man liest es aus der Gravur heraus."
+66,TEXT_BANYOK004_05333_FAHRAFAHR_000_111,Doch dann hören die Bilder einfach auf. Sie ... Sie ...
+67,TEXT_BANYOK004_05333_FAHRAFAHR_000_112,"Verzeih, Player. Einen Moment lang wurde ich von meinen Gefühlen überwältigt. Aber Dartorgor ist ja nicht fort ... Sie weilt in meinem Herzen."
+68,TEXT_BANYOK004_05333_FAHRAFAHR_000_113,"Und dank ihres Grabes wissen wir endlich, worum genau es beim Weißen Ritual geht: An Zirgorteh dem Grüßenden wird Kirkahryar dargeboten, um den Zorn der Schneegeister zu besänftigen."
+69,TEXT_BANYOK004_05333_FAHRAFAHR_000_114,"Wir sollten das mit Kurburlur besprechen. Schließlich geht es hier um Mais, und er, als Aufseher des Vorratslagers, dürfte eine Meinung dazu haben."
+70,TEXT_BANYOK004_05333_FAHRAFAHR_000_200,"Ich habe unsere Erkenntnisse bereits mit Kurburlur geteilt. Doch wir wollten auf dich warten, ehe wir die Diskussion fortsetzen."
+71,TEXT_BANYOK004_05333_KURBULUR_000_300,"Kirkahryar also ... Ja, das ergibt Sinn. Dartorgor hat ihren Mais nicht einfach als solches dargeboten, sondern als Wein."
+72,TEXT_BANYOK004_05333_KURBULUR_000_301,"Ich ging davon aus, dass das zerstörte Gebäude neben dem Altar eine Art Küche war, aber vielmehr muss es eine Brennerei gewesen sein."
+73,TEXT_BANYOK004_05333_FAHRAFAHR_000_302,"Das denke ich auch. Und nun, da wir wissen, was es damit auf sich hat, müssen wir sie restaurieren."
+74,TEXT_BANYOK004_05333_FAHRAFAHR_100_302,"Wenn der Steinwächter einsatzbereit wäre, würde uns das eine große Last von den Schultern nehmen. Wir sollten nachsehen, wie es um ihn steht."
+75,TEXT_BANYOK004_05333_FAHRAFAHR_000_303,"Das ist übrigens das erste Mal, dass ich einen Steinwächter mit eigenen Augen sehe. Auch dies betrachte ich als ein Geschenk von Dartorgor."
+76,TEXT_BANYOK004_05333_KURBULUR_100_303,"Ha! Die Dame Fahrafahr scheint weitaus besser gelaunt zu sein, hm? Das freut ihre Freundin Dartorgor vermutlich auch."
+77,TEXT_BANYOK004_05333_KURBULUR_110_303,"Den Steinwächter findest du in Worlars Echo. Und er ist ein Anblick, den du dir wirklich nicht entgehen lassen solltest."
+78,TEXT_BANYOK004_05333_KURBULUR_000_305,"Ich hatte ohnehin schon geplant, ein Feld für den Mais anzulegen und ihn ordentlich anzubauen. Nun, da wir wissen, wozu er eigentlich gut ist, trifft sich das natürlich umso besser."
+79,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_310,Hm? Ja bitte?
+80,TEXT_BANYOK004_05333_FAHRAFAHR_000_315,Ein wahrhaftiger Steinwächter ... Doch still und stumm steht er da.
+81,TEXT_BANYOK004_05333_FAHRAFAHR_000_400,Dein Blick ... Ist dir einer dieser Wächter etwa schon einmal begegnet?
+82,TEXT_BANYOK004_05333_FAHRAFAHR_100_400,"Du hast in Yak T'el gegen Steinwächter gekämpft? Es ist wahrlich schwer zu glauben, dass du eben erst in Tural angekommen sein sollst ..."
+83,TEXT_BANYOK004_05333_FAHRAFAHR_000_401,"Dieser Steinwächter dient aus­schließ­lich der Arbeit und nicht dem Kampf, also musst du dir keinerlei Sorgen machen. Allerdings scheint er keinen Kiesel rühren zu können ..."
+84,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_402,"Nicht da, nicht da ..."
+85,TEXT_BANYOK004_05333_FAHRAFAHR_000_403,"Dies ist der Bruder, der sich um die Wartung des Wächters kümmert. Aber ganz offensichtlich stimmt irgendetwas nicht ..."
+86,TEXT_BANYOK004_05333_FAHRAFAHR_100_403,"Verzeihung, aber was genau ist denn nicht da?"
+87,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_404,"Das kann ich beantworten, aber ihr, die ihr mit der Wirkweise der Steinwächter vermutlich nicht vertraut seid, werdet nicht viel mit dieser Antwort anfangen können. Oder kennt ihr euch mit den steinernen Riesen aus?"
+88,TEXT_BANYOK004_05333_FAHRAFAHR_000_405,"Nein, leider nicht. Hier in Worlars Echo sieht man sie ja nicht mehr im Einsatz."
+89,TEXT_BANYOK004_05333_FAHRAFAHR_100_405,"Aber wir bringen Zeit und Geduld mit, und würden uns gerne aufklären lassen. Nicht wahr, Player?"
+90,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_406,"Sicher ist euch bewusst, dass wir Yok Huy uns schon seit langer Zeit darauf verstehen, Steinstatuen mit magischen Kräften zu versehen und ihnen auf diese Art Leben einzuhauchen."
+91,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_100_406,"Zwar nennen wir sie Stein*wächter*, aber eigentlich sollten sie rein der körperlichen Arbeit dienen."
+92,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_407,"Als Helfer beim Bau von Gebäuden zum Beispiel. Wir schenkten dem Stein die Kraft, sich zu bewegen, und er brachte uns Wohlstand."
+93,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_408,"Doch dann stürzten sich unsere Ahnen in einen irrsinnigen Krieg, und plötzlich mussten unsere Steinwächter als Waffen dienen, nunmehr mit aggressiven Magien ausgerüstet."
+94,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_409,"Nachdem der Krieg vorbei war, gab es jedoch leichtere, handlichere Werkzeuge und die Steinwächter verloren an Bedeutung. Deswegen war dieser hier auch so lange im Lagerhaus verstaut."
+95,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_410,（★未使用／削除予定★）
+96,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_411,"Nachdem ich hörte, welche Anstrengungen ihr dort oben in den kalten Höhen unternehmt, dachte ich mir, dass jetzt der richtige Zeitpunkt gekommen wäre. Leider hat der Zahn der Zeit am Wächter genagt und einige Teile sind nicht mehr funktionstüchtig."
+97,TEXT_BANYOK004_05333_FAHRAFAHR_000_412,Verstehe. Und eben diese Teile sind also „nicht da“?
+98,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_413,"Völlig korrekt. Und weil Steinwächter schon so lange nicht mehr genutzt werden, gibt es natürlich keine Ersatzteile."
+99,TEXT_BANYOK004_05333_FAHRAFAHR_000_414,"Hrm. Wenn du uns sagst, was du brauchst, könnte unsere fähigste Handwerkerin vielleicht helfen."
+100,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_414,（★未使用／削除予定★）
+101,TEXT_BANYOK004_05333_Q1_000_000,Was sagst du?
+102,TEXT_BANYOK004_05333_A1_000_001,Überhaupt kein Problem.
+103,TEXT_BANYOK004_05333_A1_000_002,"Nur, wenn dieser Wächter auch wirklich in keinen Krieg mehr zieht."
+104,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_416,"Oh, faszinierend. Das freut mich aber sehr. Im Übrigen ist das Angriffsmodul des Wächters ebenfalls kaputt und ich habe keine Pläne, es je zu reparieren."
+105,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_417,"Nein, das will ich auch selbst gar nicht. Dankenswerterweise ist sein Angriffsmodul ebenfalls kaputt und ich habe keine Pläne, es je zu reparieren."
+106,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_418,"Teile in der Magieübertragung funktionieren nicht richtig. Glücklicherweise können sie recht einfach ersetzt werden, wenn man ein Material mit hoher ätherischer Leitfähigkeit benutzt."
+107,TEXT_BANYOK004_05333_FAHRAFAHR_000_419,Wurfurtar hat da sicherlich etwas Passendes für uns. Gehen wir ihn sogleich fragen.
+108,TEXT_BANYOK004_05333_GOLEMYOKHUY05333_000_425,"Solange das Ausgangsmaterial eine hohe ätherische Leitfähigkeit besitzt, sollte das Austauschen der mangelhaften Teile kein Problem darstellen. Wenn ihr meint, die Teile besorgen zu können, will ich gerne warten."
+109,TEXT_BANYOK004_05333_SYSTEM_000_430,Der Steinwächter rührt sich nicht. Scheinbar ist seine Magieversorgung kaputt.
+110,TEXT_BANYOK004_05333_FAHRAFAHR_000_500,Mit Wurfurtar habe ich bereits gesprochen. Er organisiert uns das benötigte Material - mit hoher Leitfähigkeit.
+111,TEXT_BANYOK004_05333_FAHRAFAHR_000_501,"Diese Aufgabe ist wohl keineswegs einfach, aber wir benötigen eine Metallschaltung mit hoher ätherischer Leitfähigkeit, um den Steinwächter zu reparieren."
+112,TEXT_BANYOK004_05333_FAHRAFAHR_000_502,"Diese Aufgabe ist wohl keineswegs einfach, aber wir benötigen eine Leitbrücke, um den Steinwächter zu reparieren."
+113,TEXT_BANYOK004_05333_FAHRAFAHR_000_503,"Diese Aufgabe ist wohl keineswegs einfach, aber wir benötigen eine leitfähige Schmierpaste, um den Steinwächter zu reparieren."
+114,TEXT_BANYOK004_05333_FAHRAFAHR_000_504,"Das Material habe ich bereits vorbereitet. Wenn du mehr brauchst, sprich mit Wurfurtar."
+115,TEXT_BANYOK004_05333_FAHRAFAHR_000_505,"Uns fehlen nur noch Kirkahryar und Zirgorteh der Grüßende ... Falls wir den Steinwächter wieder zum Leben erwecken, können wir die Brennerei und den Altar gleichzeitig instand setzen. Das wäre ein gewaltiger Schritt nach vorn."
+116,TEXT_BANYOK004_05333_FAHRAFAHR_000_510,"Ist dir das Material ausgegangen? Wurfurtar hat noch mehr gelagert, nur keine Sorge."
+117,TEXT_BANYOK004_05333_FAHRAFAHR_000_515,（★未使用／削除予定★）
+118,TEXT_BANYOK004_05333_FAHRAFAHR_000_520,（★未使用／削除予定★）
+119,TEXT_BANYOK004_05333_WURFURTAR_000_525,"Jetzt fehlt gar nicht mehr viel, hm? Wenn der Steinwächter erst wieder steht, geht das im Hand­umdrehen. Sag nur Bescheid, wenn ich dich mit irgendetwas versorgen kann."
+120,TEXT_BANYOK004_05333_WURFURTAR_000_530,（★未使用／削除予定★）
+121,TEXT_BANYOK004_05333_WURFURTAR_000_535,（★未使用／削除予定★）
+122,TEXT_BANYOK004_05333_WURFURTAR_000_540,"Keine Sorge, wir sind bestens vorbereitet. Hier hast du noch mehr Material."
+123,TEXT_BANYOK004_05333_WURFURTAR_000_541,（★未使用／削除予定★）
+124,TEXT_BANYOK004_05333_WURFURTAR_000_542,（★未使用／削除予定★）
+125,TEXT_BANYOK004_05333_FAHRAFAHR_000_545,"Du hast es tatsächlich vollbracht, nicht wahr? Oh, mein Herz klopft so schnell ..."
+126,TEXT_BANYOK004_05333_FAHRAFAHR_000_546,"Fantastisch! Genau, was wir brauchen! Player, du bist wahrhaftig ein Wunder. Wir wissen so gut wie nichts über diese alte Technologie, und du hast es dennoch zustande gebracht, ein perfektes Ersatzteil zu fertigen!"
+127,TEXT_BANYOK004_05333_FAHRAFAHR_000_547,"Wir haben nunmehr auch das richtige Gestein für die anderweitigen Reparaturen gefunden, also will ich beides gleich zu unserem Experten bringen."
+128,TEXT_BANYOK004_05333_FAHRAFAHR_000_548,"Nun ist es wahrlich nur noch ein kleines Stückchen, bis Zirgorteh der Grüßende endlich restauriert ist ...!"
+129,TEXT_BANYOK004_05333_FAHRAFAHR_000_550,"All das ist den unzähligen Helfern zu verdanken, die bei jedem noch so kleinen Handgriff mit angepackt haben. Und nun gar ein Steinwächter, der das letzte Stück schwerer Arbeit stemmt."
+130,TEXT_BANYOK004_05333_FAHRAFAHR_000_551,"Jetzt müssen wir nur noch warten, bis der Kirkahryar fertig gebraut ist und wir das Weiße Ritual endlich abhalten können."
+131,TEXT_BANYOK004_05333_FAHRAFAHR_100_551,"Wo wir schon davon sprechen, Player - trinkst du?"
+132,TEXT_BANYOK004_05333_FAHRAFAHR_110_551,"Natürlich hat das Ritual oberste Priorität, aber es wäre mir dennoch eine Ehre, den fertigen Maiswein irgendwann einmal mit dir zu verkosten. Darauf freue ich mich bereits."
+133,TEXT_BANYOK004_05333_SYSTEM_000_552,Dank eurer Bemühungen wurden sowohl die Brennerei instand gesetzt als auch der Altar selbst restauriert. Nun erinnert kaum noch etwas an das Lawinenunglück und dessen Verwüstung.
+134,TEXT_BANYOK004_05333_SYSTEM_000_553,"Es fehlt nicht mehr viel, bis Fahrafahr das Weiße Ritual abhalten kann. Unterstütze sie bis dahin aus vollen Kräften!"
+135,TEXT_BANYOK004_05333_SYSTEM_000_600,Dein Verhältnis zu den Yok Huy ist auf „Geachtet“ gestiegen!
+136,TEXT_BANYOK004_05333_SYSTEM_000_601,Der Anblick des reparierten Steinwächters erfüllt alle Helfer am Altar mit Ehrfurcht.
+137,TEXT_BANYOK004_05333_SYSTEM_000_602,"Vuyargur wird dir nun neue Nebenaufträge der Freundesvölker anbieten, die du täglich wiederholen kannst."
+138,TEXT_BANYOK004_05333_SYSTEM_000_603,Als Zeichen des Vertrauens bietet dir Vuyargur Ja nur heute drei zusätzliche Aufträge an.
+139,TEXT_BANYOK004_05333_SYSTEM_000_604,"Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Yok Huy-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
+140,TEXT_BANYOK004_05333_SYSTEM_000_605,Außerdem kannst du nun von Rarkorgor neue Waren für den Verbundenheitsrang „Geachtet“ erwerben.
+141,TEXT_BANYOK004_05333_SYSTEM_000_700,"Gegenstände normaler Qualität, die im Rahmen dieses Auftrags angefertigt wurden, sind nutzlos und sollten weggeworfen werden."

@@ -1,166 +1,163 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANNAM004_03100_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANNAM004_03100_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 Gyoshin est encore tout ému par le succès inattendu du mikoshi."
-1,"TEXT_BANNAM004_03100_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis>
+1,TEXT_BANNAM004_03100_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.*
 
 Le grand Namazu est une fois de plus apparu à Gyoshin, ce qui n'est pas bon signe... Évidemment, Seigetsu s'était préparé à cette éventualité et a proposé de s'inspirer des traditions xaela pour étoffer le programme de la grande frairie namazu. Commencez par rendre visite à Cirina, à Mol Iloh."
-2,"TEXT_BANNAM004_03100_SEQ_02","La douce Cirina vous a appris que les Mol avaient pour coutume d'organiser des courses de chevaux pour célébrer le passage à l'âge adulte des jeunes de son peuple. Rendez-vous maintenant au Trône de l'Aube pour interroger Magnai."
-3,"TEXT_BANNAM004_03100_SEQ_03","Plus loquace qu'à l'accoutumée, Magnai a daigné vous décrire l'Azim bukh, une discipline de lutte tra<SoftHyphen/>di<SoftHyphen/>tion<SoftHyphen/>nel<SoftHyphen/>le oronir qui est à l'honneur lors du tournoi des frères. Finissez votre tournée des Xaela avec Sadu, à Dotharl Khaa."
-4,"TEXT_BANNAM004_03100_SEQ_04","Sadu était fière de vous apprendre que, fidèles à leur réputation de vaillants guerriers, les Dotharl avaient pour coutume d'organiser un concours de tir à l'arc pour prouver leur valeur à la Déesse Nhaama. Retournez désormais à Dhoro Iloh pour faire part à Gyorei de ce que vous avez découvert."
-5,"TEXT_BANNAM004_03100_SEQ_05","Vos camarades namazu ont décidé d'incorporer les traditions des Xaela à leur festival. Une fois n'est pas coutume, Gyoshin a pris l'attribution des rôles en main, et il a décidé que vous l'aideriez à organiser la compétition de tir à l'arc. Préparez l'article demandé par Gyoshin et apportez-le-lui."
-6,"TEXT_BANNAM004_03100_SEQ_06","Vous avez remis à Gyoshin l'article qu'il vous avait réclamé. Le Namazu a profité de votre absence pour fabriquer la cible du concours de tir à l'arc, mais il a oublié de l'équiper d'un socle... Seigetsu a donc décrété que Gyoshin devrait lui-même tenir la cible pendant que vous ferez une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion de tir à l'arc... Allez parler à Gyorei lorsque vous serez <If(PlayerParameter(4))>prête<Else/>prêt</If> pour ce dangereux numéro."
-7,"TEXT_BANNAM004_03100_SEQ_07","Vous avez brillamment réussi votre dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion de tir à l'arc, atteignant le cœur de la cible tout en évitant de transpercer celui de Gyoshin. Allez parler à votre ami namazu pour savoir s'il s'est remis de cette expérience pour le moins traumatisante."
-8,"TEXT_BANNAM004_03100_SEQ_08","Gyoshin vous a <If(PlayerParameter(4))>remerciée<Else/>remercié</If> pour votre adresse sans faille au tir à l'arc. Tout heureux d'avoir survécu à ce supplice, il s'est empressé de donner les derniers coups de marteau nécessaires à l'or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion de la course de chevaux et du tournoi de lutte. Le programme de la grande frairie namazu s'est encore considérablement enrichi, mais nul doute que Gyoshin vous dégotera de nouvelles corvées, et plus tôt que vous ne le croyez<Indent/>!"
-9,"TEXT_BANNAM004_03100_SEQ_09",""
-10,"TEXT_BANNAM004_03100_SEQ_10",""
-11,"TEXT_BANNAM004_03100_SEQ_11",""
-12,"TEXT_BANNAM004_03100_SEQ_12",""
-13,"TEXT_BANNAM004_03100_SEQ_13",""
-14,"TEXT_BANNAM004_03100_SEQ_14",""
-15,"TEXT_BANNAM004_03100_SEQ_15",""
-16,"TEXT_BANNAM004_03100_SEQ_16",""
-17,"TEXT_BANNAM004_03100_SEQ_17",""
-18,"TEXT_BANNAM004_03100_SEQ_18",""
-19,"TEXT_BANNAM004_03100_SEQ_19",""
-20,"TEXT_BANNAM004_03100_SEQ_20",""
-21,"TEXT_BANNAM004_03100_SEQ_21",""
-22,"TEXT_BANNAM004_03100_SEQ_22",""
-23,"TEXT_BANNAM004_03100_SEQ_23",""
-24,"TEXT_BANNAM004_03100_TODO_00","Parler à Cirina"
-25,"TEXT_BANNAM004_03100_TODO_01","Parler à Magnai"
-26,"TEXT_BANNAM004_03100_TODO_02","Parler à Sadu"
-27,"TEXT_BANNAM004_03100_TODO_03","Parler à Gyorei"
-28,"TEXT_BANNAM004_03100_TODO_04","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),1,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Extraire <SheetFr(Item,1,IntegerParameter(5),1,1)/> au sud du Ralliement<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Récolter <SheetFr(Item,1,IntegerParameter(5),1,1)/> au sud du Ralliement<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Pêcher <SheetFr(Item,1,IntegerParameter(5),1,1)/> à Dotharl Khaa<Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),1,1)/> à Gyoshin</If><Else/></If></If></If></If></If></If></If></If></If></If></If>"
-29,"TEXT_BANNAM004_03100_TODO_05","Parler à Gyorei"
-30,"TEXT_BANNAM004_03100_TODO_06","Parler à Gyoshin"
-31,"TEXT_BANNAM004_03100_TODO_07",""
-32,"TEXT_BANNAM004_03100_TODO_08",""
-33,"TEXT_BANNAM004_03100_TODO_09",""
-34,"TEXT_BANNAM004_03100_TODO_10",""
-35,"TEXT_BANNAM004_03100_TODO_11",""
-36,"TEXT_BANNAM004_03100_TODO_12",""
-37,"TEXT_BANNAM004_03100_TODO_13",""
-38,"TEXT_BANNAM004_03100_TODO_14",""
-39,"TEXT_BANNAM004_03100_TODO_15",""
-40,"TEXT_BANNAM004_03100_TODO_16",""
-41,"TEXT_BANNAM004_03100_TODO_17",""
-42,"TEXT_BANNAM004_03100_TODO_18",""
-43,"TEXT_BANNAM004_03100_TODO_19",""
-44,"TEXT_BANNAM004_03100_TODO_20",""
-45,"TEXT_BANNAM004_03100_TODO_21",""
-46,"TEXT_BANNAM004_03100_TODO_22",""
-47,"TEXT_BANNAM004_03100_TODO_23",""
-48,"TEXT_BANNAM004_03100_GYOSHIN_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Vous tombez bien, j'avais justement quelque chose à vous demander. Ne bougez pas, je vais chercher les autres<Indent/>!"
-49,"TEXT_BANNAM004_03100_GYOSHIN_000_002","Pour tout vous dire, je ne pensais pas que nos processions allaient connaître un si grand succès. Les festivaliers entrent lit<SoftHyphen/>té<SoftHyphen/>ra<SoftHyphen/>le<SoftHyphen/>ment en transe lors de chaque passage du mikoshi<Indent/>!"
-50,"TEXT_BANNAM004_03100_GYOSHIN_000_003","D'ailleurs, j'ai moi-même fini par me laisser emporter par la ferveur générale, et je me suis évanoui sous le coup de l'émotion<Indent/>!"
-51,"TEXT_BANNAM004_03100_GYOREI_000_004","Comment se fait-il que tu t'en souviennes, si tu as perdu con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ce<Indent/>?"
-52,"TEXT_BANNAM004_03100_GYOSHIN_000_005","Eh bien justement, j'allais y venir. Figurez-vous que lorsque j'étais inconscient, j'ai encore rêvé du grand Namazu<Indent/>!"
-53,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_006","Laisse-moi deviner, il t'a encore annoncé la fin du monde pour demain<Indent/>? C'est toujours la même chose<Indent/>! J'ai l'impression de lire un roman de bas étage aux re<SoftHyphen/>bon<SoftHyphen/>dis<SoftHyphen/>se<SoftHyphen/>ments si prévisibles qu'un enfant aurait pu les écrire<Indent/>!"
-54,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_007","Mais sois tranquille, j'avais bien évidemment anticipé tous les cas de figure. Et grâce au vent de l'illumination, je sais très exactement ce que nous allons faire<Indent/>!"
-55,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_008","Comme expliqué dans le passionnant “Grandeur et décadence des civilisations à travers les âges”, les festivals sont une forme de manifestation culturelle. Et par définition, la culture, ça se diffuse."
-56,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_009","À travers les migrations de population ou les échanges commerciaux, les con<SoftHyphen/>nais<SoftHyphen/>san<SoftHyphen/>ces se transmettent, évoluent puis se transforment en différentes cultures, et ainsi de suite."
-57,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_010","Oh, j'allais oublier ma promesse d'être concis et d'aller droit au but<Indent/>! Soit, je vais abréger mes ex<SoftHyphen/>pli<SoftHyphen/>ca<SoftHyphen/>tions pour que même les simples d'esprit puissent me comprendre... Gyoshin, ouvre grand tes ouïes et écoute-moi at<SoftHyphen/>ten<SoftHyphen/>ti<SoftHyphen/>ve<SoftHyphen/>ment."
-58,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_011","Comme nous le savons, une grande frairie namazu a déjà eu lieu dans la Steppe d'Azim, il y a plusieurs siècles."
-59,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_100_011","Et qui dit Steppe d'Azim dit tribus nomades, n'est-ce pas<Indent/>?"
-60,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_110_011","D'après moi, il est possible que les Xaela ayant assisté à la fête de nos ancêtres en aient ensuite incorporé certains éléments dans leur propre culture."
-61,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_012","Allez Gyoshin, c'est à toi de jouer, maintenant<Indent/>! Va vite leur rendre visite et essaye de découvrir si certaines de leurs traditions festives sont bel et bien issues de celles de nos ancêtres<Indent/>!"
-62,"TEXT_BANNAM004_03100_GYOSHIN_000_013","Quel empressement, tout à coup... Bon, je veux bien aller faire la tournée des camps xaela, mais à une condition<Indent/>: que <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> m'accompagne. Avec <If(PlayerParameter(4))>elle<Else/>lui</If> à mes côtés, j'aurai moins peur de finir en brochette..."
-63,"TEXT_BANNAM004_03100_GYOSHIN_000_014","Commençons donc par ceux qui semblent les plus pacifiques, les Mol. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je compte sur vous pour leur glisser un petit mot en ma faveur<Indent/>!"
-64,"TEXT_BANNAM004_03100_GYOREI_000_015","Après les festivals traditionnels de Kugane, c'est donc de ceux de la Steppe d'Azim dont nous allons nous inspirer... J'ai hâte de voir le résultat<Indent/>!"
-65,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_020","（★未使用／削除予定★）"
-66,"TEXT_BANNAM004_03100_GYOSHIN_000_025","C'est étrange, je me sens tout chose lorsque cette jolie Ao Ra pose son regard sur moi..."
-67,"TEXT_BANNAM004_03100_TEMULUN_000_026","J'ai ouï dire que votre festival commençait à trouver son public. C'est bien, je suis de tout cœur avec vous<Indent/>!"
-68,"TEXT_BANNAM004_03100_CIRINA_000_030","Hmmm, ce Namazu a vraiment l'air délicieux..."
-69,"TEXT_BANNAM004_03100_CIRINA_100_030","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Comment allez-vous<Indent/>?"
-70,"TEXT_BANNAM004_03100_CIRINA_000_031","... Vraiment<Indent/>? Bien sûr, si cela peut vous être utile, je vais vous apprendre ce que je sais au sujet des festivals mol traditionnels."
-71,"TEXT_BANNAM004_03100_CIRINA_000_032","Chez nous, lorsqu'un jeune atteint l'âge adulte, il doit participer à une course rituelle dans la steppe, à dos de cheval."
-72,"TEXT_BANNAM004_03100_CIRINA_000_033","Pour le peuple nomade que nous sommes, ces animaux sont plus qu'un moyen de transport. Ils sont des membres à part entière de nos familles, et c'est comme ça que nous les traitons."
-73,"TEXT_BANNAM004_03100_CIRINA_000_034","La vitesse de ces chevaux et la dextérité de nos enfants qui les montent, c'est ce que nous offrons aux Dieux. C'est notre façon de prouver notre gratitude à la nature qui nous accueille et nous laisse profiter de ses bienfaits."
-74,"TEXT_BANNAM004_03100_GYOSHIN_000_035","Un festival sur fond de course de chevaux... Je ne m'attendais pas du tout à ça<Indent/>! C'était en tout cas une discussion très en<SoftHyphen/>ri<SoftHyphen/>chis<SoftHyphen/>san<SoftHyphen/>te qui nous servira sans doute beaucoup. Merci à vous<Indent/>!"
-75,"TEXT_BANNAM004_03100_GYOSHIN_000_036","À présent <If(PlayerParameter(4))>ma chère<Else/>mon cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, que diriez-vous d'aller rendre visite aux Oronir<Indent/>? Ils sont installés à cet endroit qu'on appelle le “Trône de l'Aube”, c'est bien ça<Indent/>? En route<Indent/>!"
-76,"TEXT_BANNAM004_03100_CIRINA_000_040","Comment se fait-il que les Namazu aient tous l'air aussi appétissants<Indent/>? Je me demande comment vous faites pour ne pas sortir le barbecue au moindre petit creux<Indent/>!"
-77,"TEXT_BANNAM004_03100_GYOSHIN_000_045","Cet Ao Ra n'arrête pas de me fixer de son regard inquiétant... Ne traînons pas ici trop longtemps, d'accord<Indent/>?"
-78,"TEXT_BANNAM004_03100_MAGNAI_000_050","Hmpf... Qu'est-ce qui t'amène ici<Indent/>? Ne me dis pas que tu es <If(PlayerParameter(4))>venue<Else/>venu</If> m'apporter cette créature méprisable en guise de présent<Indent/>?"
-79,"TEXT_BANNAM004_03100_MAGNAI_000_051","Ton ami namazu s'intéresse aux traditions festives des Oronir, hein..."
-80,"TEXT_BANNAM004_03100_MAGNAI_000_052","Bon, je peux faire un effort et éclairer votre lanterne, même si je doute que vous puissiez véritablement comprendre nos coutumes. L'événement le plus important dans la tradition oronir est le tournoi des frères."
-81,"TEXT_BANNAM004_03100_MAGNAI_000_053","C'est une compétition qui permet d'établir une hiérarchie des pratiquants d'Azim bukh, notre lutte locale, et de prouver notre force au Père de l'Aube."
-82,"TEXT_BANNAM004_03100_MAGNAI_000_054","<If(PlayerParameter(4))>La championne<Else/>Le champion</If> du Naadam aurait peut-être une chance d'y faire bonne figure, mais il va sans dire qu'un demi-poisson court sur pattes se ferait écraser en un instant."
-83,"TEXT_BANNAM004_03100_GYOSHIN_000_055","Alors ça, c'est vraiment bas<Indent/>! Vous ne devez pas avoir beaucoup d'amis, ou de succès auprès de la gent féminine avec des manières aussi frustres... Les miennes étant ce qu'elles sont, je vous remercie de votre aide."
-84,"TEXT_BANNAM004_03100_GYOSHIN_000_056","Bon, et si on allait rendre une petite visite aux Dotharl, maintenant<Indent/>? Une fois de plus, je compte sur vous pour éviter que je finisse en brochette<Indent/>! Je pars devant, rendez-vous à Dotharl Khaa."
-85,"TEXT_BANNAM004_03100_MAGNAI_100_060","Qu'est-ce qui peut bien m'empêcher de rencontrer ma promise<Indent/>? Il y a forcément quelque chose, mais quoi<Indent/>!? Laisse-moi, il faut que j'y réfléchisse."
-86,"TEXT_BANNAM004_03100_MAGNAI_000_060","Qu'est-ce qui peut bien m'empêcher de rencontrer ma promise<Indent/>? Il y a forcément quelque chose, mais quoi<Indent/>!? Laisse-moi, il faut que j'y réfléchisse."
-87,"TEXT_BANNAM004_03100_GYOSHIN_000_065","Cette Ao Ra au regard perçant est vraiment intimidante. J'ai l'impression qu'elle pourrait m'embrocher sans sourciller..."
-88,"TEXT_BANNAM004_03100_SADU_000_070","Tiens, ça faisait longtemps que j'avais pas vu ta petite tête. Le khun chuluu qui me dévisage depuis tout à l'heure avec son air ébahi est avec toi<Indent/>?"
-89,"TEXT_BANNAM004_03100_SADU_000_071","Ah, je comprends mieux ce qui se trame en haut de cette falaise depuis quelque temps... Tes petits amis les Namazu se sont sou<SoftHyphen/>dai<SoftHyphen/>ne<SoftHyphen/>ment pris d'intérêt pour les coutumes dotharl, hein<Indent/>? D'accord, écoutez-moi bien."
-90,"TEXT_BANNAM004_03100_SADU_000_072","Comme vous le savez, les Dotharl sont de vaillants guerriers doublés de chasseurs hors pair, des talents bien nécessaires pour survivre dans l'environnement hostile de la steppe."
-91,"TEXT_BANNAM004_03100_SADU_000_073","Ainsi, pour prouver à la Déesse Nhaama que nous sommes dignes de sa bienveillance et de sa protection, nous lui faisons étalage de notre habileté au tir à l'arc au cours d'une compétition d'adresse."
-92,"TEXT_BANNAM004_03100_SADU_000_074","Les par<SoftHyphen/>ti<SoftHyphen/>ci<SoftHyphen/>pants décochent plusieurs flèches en direction d'une cible lointaine, et le plus précis est déclaré vainqueur. Ça peut paraître simpliste, mais c'est notre tradition depuis toujours."
-93,"TEXT_BANNAM004_03100_GYOSHIN_000_075","Je vois. Plus qu'un festival, c'est aussi une sorte de divertissement. Merci à vous pour ces in<SoftHyphen/>for<SoftHyphen/>ma<SoftHyphen/>tions très précieuses<Indent/>!"
-94,"TEXT_BANNAM004_03100_GYOSHIN_000_076","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, retournons tout de suite à Dhoro Iloh. Il faut vite raconter aux autres ce que nous avons appris et prendre une décision au sujet de la grande frairie namazu<Indent/>!"
-95,"TEXT_BANNAM004_03100_SADU_000_080","Un festival organisé par des khun chuluu, ça promet<Indent/>!"
-96,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_085","（★未使用／削除予定★）"
-97,"TEXT_BANNAM004_03100_GYOSHIN_000_090","Ah, vous voilà enfin<Indent/>! Vite, allons partager nos trouvailles avec Gyorei."
-98,"TEXT_BANNAM004_03100_GYOREI_000_100","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Gyoshin<Indent/>! Alors, qu'avez-vous appris d'intéressant sur les tribus nomades de la Steppe d'Azim<Indent/>?"
-99,"TEXT_BANNAM004_03100_GYOSHIN_000_101","C'était vraiment passionnant<Indent/>! Entre les courses à cheval, les combats d'Azim bukh ou les concours de tir à l'arc, on dirait que les Xaela affectionnent par<SoftHyphen/>ti<SoftHyphen/>cu<SoftHyphen/>liè<SoftHyphen/>rement la compétition."
-100,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_102","Je comprends mieux pourquoi le Naadam est si important dans leur tradition. Sans cet exutoire régulé, il y a longtemps qu'ils se seraient tous entretués..."
-101,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_103","Bon, j'approfondirais bien ces recherches anthropologiques, mais il me semble que nous en savons déjà suf<SoftHyphen/>fi<SoftHyphen/>sam<SoftHyphen/>ment pour nous occuper de notre festival."
-102,"TEXT_BANNAM004_03100_GYOSHIN_000_104","Avec trois événements différents à organiser, on ne risque pas de s'ennuyer<Indent/>! Gyorei, je te confie la course de chevaux. Seigetsu, occupe-toi du tournoi de lutte. Quant à <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> et moi, on va se charger de la compétition de tir à l'arc<Indent/>!"
-103,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_100_104","Quel sens de l'or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion<Indent/>! Venant de toi, ça me surprend, Gyoshin... Ne t'en fais pas pour les combats de lutte, je me charge de tout."
-104,"TEXT_BANNAM004_03100_GYOSHIN_000_105","Voyons voir... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre part du travail sera de fabriquer <SheetFr(Item,1,22723,1,1)/> de haute qualité. Comme d'habitude, vous trouverez tous les matériaux nécessaires dans la caisse en bois."
-105,"TEXT_BANNAM004_03100_GYOSHIN_000_106","Voyons voir... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre part du travail sera de con<SoftHyphen/>fec<SoftHyphen/>tion<SoftHyphen/>ner <SheetFr(Item,1,22723,1,1)/> de haute qualité. Comme d'habitude, vous trouverez tous les matériaux nécessaires dans la caisse en bois."
-106,"TEXT_BANNAM004_03100_GYOSHIN_000_107","Voyons voir... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre part du travail sera de préparer <SheetFr(Item,1,22723,1,1)/> de haute qualité. Comme d'habitude, vous trouverez tous les matériaux nécessaires dans la caisse en bois."
-107,"TEXT_BANNAM004_03100_GYOSHIN_000_108","Voyons voir... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre part du travail sera d'aller au sud du Ralliement pour y extraire <SheetFr(Item,1,22619,1,1)/> qui servira pour les pointes de flèches. De haute qualité, s'il vous plaît<Indent/>!"
-108,"TEXT_BANNAM004_03100_GYOSHIN_000_109","Voyons voir... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre part du travail sera d'aller au sud du Ralliement pour y récolter <SheetFr(Item,1,22645,1,1)/> qui servira pour le corps des flèches. De haute qualité, s'il vous plaît<Indent/>!"
-109,"TEXT_BANNAM004_03100_GYOSHIN_000_110","Voyons voir... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, votre part du travail sera d'aller à Dotharl Khaa pour y pêcher <SheetFr(Item,1,22671,1,1)/> qui servira à enduire les flèches. Essayez avec <SheetFr(Item,1,20613,1,1)/>, ça mordra sûrement<Indent/>!"
-110,"TEXT_BANNAM004_03100_GYOSHIN_000_111","Une fois n'est pas coutume, c'est à moi que vous devrez vous adresser quand vous en aurez terminé. Je vous attends ici, à vous de jouer<Indent/>!"
-111,"TEXT_BANNAM004_03100_GYOREI_000_112","Quelle chance j'ai de m'occuper de la course de chevaux<Indent/>! J'ai toujours trouvé ces créatures majestueuses... Ah oui, si vous manquez de matériaux, la caisse en bois est à vous<Indent/>!"
-112,"TEXT_BANNAM004_03100_GYOREI_100_112","Quelle chance j'ai de m'occuper de la course de chevaux<Indent/>! J'ai toujours trouvé ces créatures majestueuses... Ah oui, si vous manquez de matériaux, la caisse en bois est à vous<Indent/>!"
-113,"TEXT_BANNAM004_03100_GYOREI_110_112","Quelle chance j'ai de m'occuper de la course de chevaux<Indent/>! J'ai toujours trouvé ces créatures majestueuses... Ah oui, si vous manquez de matériaux, la caisse en bois est à vous<Indent/>!"
-114,"TEXT_BANNAM004_03100_GYOREI_200_112","Quelle chance j'ai de m'occuper de la course de chevaux<Indent/>! J'ai toujours trouvé ces créatures majestueuses... Ah oui, une fois que vous aurez ce dont Gyoshin a besoin, allez le lui apporter<Indent/>!"
-115,"TEXT_BANNAM004_03100_GYOREI_210_112","Quelle chance j'ai de m'occuper de la course de chevaux<Indent/>! J'ai toujours trouvé ces créatures majestueuses... Ah oui, une fois que vous aurez ce dont Gyoshin a besoin, allez le lui apporter<Indent/>!"
-116,"TEXT_BANNAM004_03100_GYOREI_220_112","Quelle chance j'ai de m'occuper de la course de chevaux<Indent/>! J'ai toujours trouvé ces créatures majestueuses... Ah oui, une fois que vous aurez ce dont Gyoshin a besoin, allez le lui apporter<Indent/>!"
-117,"TEXT_BANNAM004_03100_SYSTEM_000_113","Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
-118,"TEXT_BANNAM004_03100_SYSTEM_100_113","Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
-119,"TEXT_BANNAM004_03100_SYSTEM_110_113","Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
-120,"TEXT_BANNAM004_03100_SYSTEM_120_113","Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
-121,"TEXT_BANNAM004_03100_SYSTEM_000_114","Vous obtenez les matériaux nécessaires à votre synthèse<Indent/>!"
-122,"TEXT_BANNAM004_03100_SYSTEM_100_114","Vous obtenez les matériaux nécessaires à votre synthèse<Indent/>!"
-123,"TEXT_BANNAM004_03100_SYSTEM_110_114","Vous obtenez les matériaux nécessaires à votre synthèse<Indent/>!"
-124,"TEXT_BANNAM004_03100_GYOREI_120_114","Oh, je vois que vous avez ce dont Gyoshin a besoin. Allez vite le lui apporter, il n'attend plus que vous pour finir d'organiser ce concours de tir à l'arc<Indent/>!"
-125,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_115","（★未使用／削除予定★）"
-126,"TEXT_BANNAM004_03100_GYOSHIN_000_120","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Avez-vous ce que je vous ai demandé<Indent/>?"
-127,"TEXT_BANNAM004_03100_GYOSHIN_000_121","Merci<Indent/>! Avec ça, nous avons tout le nécessaire pour fabriquer les arcs et les flèches de notre festival<Indent/>!"
-128,"TEXT_BANNAM004_03100_GYOSHIN_000_122","Au fait, j'ai fabriqué une cible pendant votre absence. Attendez-moi, je vais la chercher tout de suite."
-129,"TEXT_BANNAM004_03100_GYOSHIN_000_123","Alors, qu'est-ce que vous en dites<Indent/>? En toute modestie, je trouve qu'elle est absolument parfaite<Indent/>!"
-130,"TEXT_BANNAM004_03100_GYOREI_000_124","Mon petit Gyoshin, tu t'es une fois de plus surpassé<Indent/>! Cette cible est absolument magnifique. Mais au fait, comment vas-tu t'y prendre pour la faire tenir debout<Indent/>?"
-131,"TEXT_BANNAM004_03100_GYOSHIN_000_125","Oups, je n'avais pas pensé à ça... J'étais si concentré sur la cible elle-même que j'ai com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment oublié de lui adjoindre une base<Indent/>!"
-132,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_126","Ah, je retrouve le Gyoshin étourdi que je connais si bien<Indent/>! Que faire, nous avons déjà pris beaucoup de retard sur le programme... Je sais<Indent/>! C'est toi qui vas tenir la cible pendant le concours<Indent/>!"
-133,"TEXT_BANNAM004_03100_GYOSHIN_000_127","Oyoyoyo<Indent/>! Si j'ai survécu à mes visites chez les Xaela, ce n'est pas pour finir embroché par des Namazu maladroits<Indent/>!"
-134,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_128","Ne t'en fais pas voyons<Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> va commencer par une petite dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion, et je suis persuadé que toutes ses flèches finiront en plein dans le mille, ha ha ha<Indent/>!"
-135,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_129","Allons installer le mur d'exéc... euh, le stand de tir derrière cette tente. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, lorsque vous serez <If(PlayerParameter(4))>prête<Else/>prêt</If>, demandez à Gyorei de vous remettre un arc et des flèches."
-136,"TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_130","（★未使用／削除予定★）"
-137,"TEXT_BANNAM004_03100_GYOSHIN_000_135","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, je compte sur vous pour ne pas m'embrocher... Ça serait tellement dommage que notre grande frairie namazu se termine en queue de poisson<Indent/>!"
-138,"TEXT_BANNAM004_03100_GYOREI_000_140","Voilà une bonne occasion de faire regretter à Gyoshin son éternelle étourderie, hé hé."
-139,"TEXT_BANNAM004_03100_GYOREI_000_141","Prenez cet arc et ces flèches et tirez sur la cible que tient Gyoshin<Indent/>!"
-140,"TEXT_BANNAM004_03100_SYSTEM_000_142","La visée interactive va débuter. Utilisez la caméra pour trouver la cible de la frairie, puis validez votre choix avec <If(Equal(PlayerParameter(80),0))><Else/><CommandIcon(15)/>/<CommandIcon(8)/></If>."
-141,"TEXT_BANNAM004_03100_GYOSHIN_000_143","Bravo, en plein dans le mille<Indent/>!"
-142,"TEXT_BANNAM004_03100_GYOSHIN_000_144","OYOYO<Indent/>!!! Cette pointe de flèche est bien trop aiguisée... à mon goût..."
-143,"TEXT_BANNAM004_03100_GYOREI_000_145","C'est ça que vous appelez une dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion<Indent/>? Vous nous aviez habitués à mieux... Allez, recommencez et montrez-nous de quoi vous êtes vraiment capable<Indent/>!"
-144,"TEXT_BANNAM004_03100_GYOREI_000_150","Cette détermination dans votre regard à chaque flèche tirée, c'était vraiment im<SoftHyphen/>pres<SoftHyphen/>sion<SoftHyphen/>nant<Indent/>! Existe-t-il un domaine dans lequel vous ne brillez pas<Indent/>?"
-145,"TEXT_BANNAM004_03100_GYOSHIN_000_160","J'ai toujours eu l'habitude d'être la cible des moqueries de Gyofun, mais c'est bien la première fois qu'on me tire des flèches dessus..."
-146,"TEXT_BANNAM004_03100_GYOSHIN_000_161","Heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, grâce à vous, tout s'est bien terminé<Indent/>! Désormais, il ne nous reste plus qu'à finir les préparatifs de la course de chevaux et du tournoi de lutte."
-147,"TEXT_BANNAM004_03100_SYSTEM_000_162","Le programme de la grande frairie namazu s'est enrichi d'une course de chevaux, d'un tournoi de lutte et d'un concours de tir à l'arc<Indent/>!"
-148,"TEXT_BANNAM004_03100_SYSTEM_000_163","Sept années plus tard, les Xaela devaient connaître une terrible période de famine et se résoudre à chasser intensément les Namazu pour leur chair, finissant par les massacrer jusqu'au dernier..."
-149,"TEXT_BANNAM004_03100_SYSTEM_000_164","Heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, l'incor<SoftHyphen/>por<SoftHyphen/>ation de traditions des nomades à la grande frairie allait permettre d'encourager les échanges et la compréhension entre les deux peuples, et d'éviter un destin des plus tragiques aux Namazu."
-150,"TEXT_BANNAM004_03100_SYSTEM_000_165","Le destin des Namazu continuait à changer, mais personne ne savait encore si la grande frairie pourrait leur éviter la terrible fin qui leur était promise..."
-151,"TEXT_BANNAM004_03100_SYSTEM_000_166","Votre réputation auprès du comité d'or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion de la grande frairie namazu est passée à “Émérite”."
-152,"TEXT_BANNAM004_03100_SYSTEM_000_167","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Seigetsu."
-153,"TEXT_BANNAM004_03100_SYSTEM_000_168","De plus, trois quêtes sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
-154,"TEXT_BANNAM004_03100_SYSTEM_000_169","Seigetsu vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang."
-155,"TEXT_BANNAM004_03100_SYSTEM_000_170","En outre, Gyosho vous propose maintenant les objets correspondant au rang “Émérite”. Faites-en bon usage au cours de vos aventures<Indent/>!"
-156,"TEXT_BANNAM004_03100_SYSTEM_000_171","Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
-157,"TEXT_BANNAM004_03100_SYSTEM_000_172","Les objets de qualité normale récoltés au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
+2,TEXT_BANNAM004_03100_SEQ_02,La douce Cirina vous a appris que les Mol avaient pour coutume d'organiser des courses de chevaux pour célébrer le passage à l'âge adulte des jeunes de son peuple. Rendez-vous maintenant au Trône de l'Aube pour interroger Magnai.
+3,TEXT_BANNAM004_03100_SEQ_03,"Plus loquace qu'à l'accoutumée, Magnai a daigné vous décrire l'Azim bukh, une discipline de lutte tra­di­tion­nel­le oronir qui est à l'honneur lors du tournoi des frères. Finissez votre tournée des Xaela avec Sadu, à Dotharl Khaa."
+4,TEXT_BANNAM004_03100_SEQ_04,"Sadu était fière de vous apprendre que, fidèles à leur réputation de vaillants guerriers, les Dotharl avaient pour coutume d'organiser un concours de tir à l'arc pour prouver leur valeur à la Déesse Nhaama. Retournez désormais à Dhoro Iloh pour faire part à Gyorei de ce que vous avez découvert."
+5,TEXT_BANNAM004_03100_SEQ_05,"Vos camarades namazu ont décidé d'incorporer les traditions des Xaela à leur festival. Une fois n'est pas coutume, Gyoshin a pris l'attribution des rôles en main, et il a décidé que vous l'aideriez à organiser la compétition de tir à l'arc. Préparez l'article demandé par Gyoshin et apportez-le-lui."
+6,TEXT_BANNAM004_03100_SEQ_06,"Vous avez remis à Gyoshin l'article qu'il vous avait réclamé. Le Namazu a profité de votre absence pour fabriquer la cible du concours de tir à l'arc, mais il a oublié de l'équiper d'un socle... Seigetsu a donc décrété que Gyoshin devrait lui-même tenir la cible pendant que vous ferez une dé­mon­stra­tion de tir à l'arc... Allez parler à Gyorei lorsque vous serez prête pour ce dangereux numéro."
+7,TEXT_BANNAM004_03100_SEQ_07,"Vous avez brillamment réussi votre dé­mon­stra­tion de tir à l'arc, atteignant le cœur de la cible tout en évitant de transpercer celui de Gyoshin. Allez parler à votre ami namazu pour savoir s'il s'est remis de cette expérience pour le moins traumatisante."
+8,TEXT_BANNAM004_03100_SEQ_08,"Gyoshin vous a remerciée pour votre adresse sans faille au tir à l'arc. Tout heureux d'avoir survécu à ce supplice, il s'est empressé de donner les derniers coups de marteau nécessaires à l'or­ga­ni­sa­tion de la course de chevaux et du tournoi de lutte. Le programme de la grande frairie namazu s'est encore considérablement enrichi, mais nul doute que Gyoshin vous dégotera de nouvelles corvées, et plus tôt que vous ne le croyez !"
+9,TEXT_BANNAM004_03100_SEQ_09,
+10,TEXT_BANNAM004_03100_SEQ_10,
+11,TEXT_BANNAM004_03100_SEQ_11,
+12,TEXT_BANNAM004_03100_SEQ_12,
+13,TEXT_BANNAM004_03100_SEQ_13,
+14,TEXT_BANNAM004_03100_SEQ_14,
+15,TEXT_BANNAM004_03100_SEQ_15,
+16,TEXT_BANNAM004_03100_SEQ_16,
+17,TEXT_BANNAM004_03100_SEQ_17,
+18,TEXT_BANNAM004_03100_SEQ_18,
+19,TEXT_BANNAM004_03100_SEQ_19,
+20,TEXT_BANNAM004_03100_SEQ_20,
+21,TEXT_BANNAM004_03100_SEQ_21,
+22,TEXT_BANNAM004_03100_SEQ_22,
+23,TEXT_BANNAM004_03100_SEQ_23,
+24,TEXT_BANNAM004_03100_TODO_00,Parler à Cirina
+25,TEXT_BANNAM004_03100_TODO_01,Parler à Magnai
+26,TEXT_BANNAM004_03100_TODO_02,Parler à Sadu
+27,TEXT_BANNAM004_03100_TODO_03,Parler à Gyorei
+28,TEXT_BANNAM004_03100_TODO_04,Fabriquer 
+29,TEXT_BANNAM004_03100_TODO_05,Parler à Gyorei
+30,TEXT_BANNAM004_03100_TODO_06,Parler à Gyoshin
+31,TEXT_BANNAM004_03100_TODO_07,
+32,TEXT_BANNAM004_03100_TODO_08,
+33,TEXT_BANNAM004_03100_TODO_09,
+34,TEXT_BANNAM004_03100_TODO_10,
+35,TEXT_BANNAM004_03100_TODO_11,
+36,TEXT_BANNAM004_03100_TODO_12,
+37,TEXT_BANNAM004_03100_TODO_13,
+38,TEXT_BANNAM004_03100_TODO_14,
+39,TEXT_BANNAM004_03100_TODO_15,
+40,TEXT_BANNAM004_03100_TODO_16,
+41,TEXT_BANNAM004_03100_TODO_17,
+42,TEXT_BANNAM004_03100_TODO_18,
+43,TEXT_BANNAM004_03100_TODO_19,
+44,TEXT_BANNAM004_03100_TODO_20,
+45,TEXT_BANNAM004_03100_TODO_21,
+46,TEXT_BANNAM004_03100_TODO_22,
+47,TEXT_BANNAM004_03100_TODO_23,
+48,TEXT_BANNAM004_03100_GYOSHIN_000_001,"Player ! Vous tombez bien, j'avais justement quelque chose à vous demander. Ne bougez pas, je vais chercher les autres !"
+49,TEXT_BANNAM004_03100_GYOSHIN_000_002,"Pour tout vous dire, je ne pensais pas que nos processions allaient connaître un si grand succès. Les festivaliers entrent lit­té­ra­le­ment en transe lors de chaque passage du mikoshi !"
+50,TEXT_BANNAM004_03100_GYOSHIN_000_003,"D'ailleurs, j'ai moi-même fini par me laisser emporter par la ferveur générale, et je me suis évanoui sous le coup de l'émotion !"
+51,TEXT_BANNAM004_03100_GYOREI_000_004,"Comment se fait-il que tu t'en souviennes, si tu as perdu con­nais­san­ce ?"
+52,TEXT_BANNAM004_03100_GYOSHIN_000_005,"Eh bien justement, j'allais y venir. Figurez-vous que lorsque j'étais inconscient, j'ai encore rêvé du grand Namazu !"
+53,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_006,"Laisse-moi deviner, il t'a encore annoncé la fin du monde pour demain ? C'est toujours la même chose ! J'ai l'impression de lire un roman de bas étage aux re­bon­dis­se­ments si prévisibles qu'un enfant aurait pu les écrire !"
+54,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_007,"Mais sois tranquille, j'avais bien évidemment anticipé tous les cas de figure. Et grâce au vent de l'illumination, je sais très exactement ce que nous allons faire !"
+55,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_008,"Comme expliqué dans le passionnant “Grandeur et décadence des civilisations à travers les âges”, les festivals sont une forme de manifestation culturelle. Et par définition, la culture, ça se diffuse."
+56,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_009,"À travers les migrations de population ou les échanges commerciaux, les con­nais­san­ces se transmettent, évoluent puis se transforment en différentes cultures, et ainsi de suite."
+57,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_010,"Oh, j'allais oublier ma promesse d'être concis et d'aller droit au but ! Soit, je vais abréger mes ex­pli­ca­tions pour que même les simples d'esprit puissent me comprendre... Gyoshin, ouvre grand tes ouïes et écoute-moi at­ten­ti­ve­ment."
+58,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_011,"Comme nous le savons, une grande frairie namazu a déjà eu lieu dans la Steppe d'Azim, il y a plusieurs siècles."
+59,TEXT_BANNAM004_03100_KOFUINSEIGETSU_100_011,"Et qui dit Steppe d'Azim dit tribus nomades, n'est-ce pas ?"
+60,TEXT_BANNAM004_03100_KOFUINSEIGETSU_110_011,"D'après moi, il est possible que les Xaela ayant assisté à la fête de nos ancêtres en aient ensuite incorporé certains éléments dans leur propre culture."
+61,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_012,"Allez Gyoshin, c'est à toi de jouer, maintenant ! Va vite leur rendre visite et essaye de découvrir si certaines de leurs traditions festives sont bel et bien issues de celles de nos ancêtres !"
+62,TEXT_BANNAM004_03100_GYOSHIN_000_013,"Quel empressement, tout à coup... Bon, je veux bien aller faire la tournée des camps xaela, mais à une condition : que Player m'accompagne. Avec elle à mes côtés, j'aurai moins peur de finir en brochette..."
+63,TEXT_BANNAM004_03100_GYOSHIN_000_014,"Commençons donc par ceux qui semblent les plus pacifiques, les Mol. Player, je compte sur vous pour leur glisser un petit mot en ma faveur !"
+64,TEXT_BANNAM004_03100_GYOREI_000_015,"Après les festivals traditionnels de Kugane, c'est donc de ceux de la Steppe d'Azim dont nous allons nous inspirer... J'ai hâte de voir le résultat !"
+65,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_020,（★未使用／削除予定★）
+66,TEXT_BANNAM004_03100_GYOSHIN_000_025,"C'est étrange, je me sens tout chose lorsque cette jolie Ao Ra pose son regard sur moi..."
+67,TEXT_BANNAM004_03100_TEMULUN_000_026,"J'ai ouï dire que votre festival commençait à trouver son public. C'est bien, je suis de tout cœur avec vous !"
+68,TEXT_BANNAM004_03100_CIRINA_000_030,"Hmmm, ce Namazu a vraiment l'air délicieux..."
+69,TEXT_BANNAM004_03100_CIRINA_100_030,"Oh, Player ! Comment allez-vous ?"
+70,TEXT_BANNAM004_03100_CIRINA_000_031,"... Vraiment ? Bien sûr, si cela peut vous être utile, je vais vous apprendre ce que je sais au sujet des festivals mol traditionnels."
+71,TEXT_BANNAM004_03100_CIRINA_000_032,"Chez nous, lorsqu'un jeune atteint l'âge adulte, il doit participer à une course rituelle dans la steppe, à dos de cheval."
+72,TEXT_BANNAM004_03100_CIRINA_000_033,"Pour le peuple nomade que nous sommes, ces animaux sont plus qu'un moyen de transport. Ils sont des membres à part entière de nos familles, et c'est comme ça que nous les traitons."
+73,TEXT_BANNAM004_03100_CIRINA_000_034,"La vitesse de ces chevaux et la dextérité de nos enfants qui les montent, c'est ce que nous offrons aux Dieux. C'est notre façon de prouver notre gratitude à la nature qui nous accueille et nous laisse profiter de ses bienfaits."
+74,TEXT_BANNAM004_03100_GYOSHIN_000_035,Un festival sur fond de course de chevaux... Je ne m'attendais pas du tout à ça ! C'était en tout cas une discussion très en­ri­chis­san­te qui nous servira sans doute beaucoup. Merci à vous !
+75,TEXT_BANNAM004_03100_GYOSHIN_000_036,"À présent ma chère Player, que diriez-vous d'aller rendre visite aux Oronir ? Ils sont installés à cet endroit qu'on appelle le “Trône de l'Aube”, c'est bien ça ? En route !"
+76,TEXT_BANNAM004_03100_CIRINA_000_040,Comment se fait-il que les Namazu aient tous l'air aussi appétissants ? Je me demande comment vous faites pour ne pas sortir le barbecue au moindre petit creux !
+77,TEXT_BANNAM004_03100_GYOSHIN_000_045,"Cet Ao Ra n'arrête pas de me fixer de son regard inquiétant... Ne traînons pas ici trop longtemps, d'accord ?"
+78,TEXT_BANNAM004_03100_MAGNAI_000_050,Hmpf... Qu'est-ce qui t'amène ici ? Ne me dis pas que tu es venue m'apporter cette créature méprisable en guise de présent ?
+79,TEXT_BANNAM004_03100_MAGNAI_000_051,"Ton ami namazu s'intéresse aux traditions festives des Oronir, hein..."
+80,TEXT_BANNAM004_03100_MAGNAI_000_052,"Bon, je peux faire un effort et éclairer votre lanterne, même si je doute que vous puissiez véritablement comprendre nos coutumes. L'événement le plus important dans la tradition oronir est le tournoi des frères."
+81,TEXT_BANNAM004_03100_MAGNAI_000_053,"C'est une compétition qui permet d'établir une hiérarchie des pratiquants d'Azim bukh, notre lutte locale, et de prouver notre force au Père de l'Aube."
+82,TEXT_BANNAM004_03100_MAGNAI_000_054,"La championne du Naadam aurait peut-être une chance d'y faire bonne figure, mais il va sans dire qu'un demi-poisson court sur pattes se ferait écraser en un instant."
+83,TEXT_BANNAM004_03100_GYOSHIN_000_055,"Alors ça, c'est vraiment bas ! Vous ne devez pas avoir beaucoup d'amis, ou de succès auprès de la gent féminine avec des manières aussi frustres... Les miennes étant ce qu'elles sont, je vous remercie de votre aide."
+84,TEXT_BANNAM004_03100_GYOSHIN_000_056,"Bon, et si on allait rendre une petite visite aux Dotharl, maintenant ? Une fois de plus, je compte sur vous pour éviter que je finisse en brochette ! Je pars devant, rendez-vous à Dotharl Khaa."
+85,TEXT_BANNAM004_03100_MAGNAI_100_060,"Qu'est-ce qui peut bien m'empêcher de rencontrer ma promise ? Il y a forcément quelque chose, mais quoi !? Laisse-moi, il faut que j'y réfléchisse."
+86,TEXT_BANNAM004_03100_MAGNAI_000_060,"Qu'est-ce qui peut bien m'empêcher de rencontrer ma promise ? Il y a forcément quelque chose, mais quoi !? Laisse-moi, il faut que j'y réfléchisse."
+87,TEXT_BANNAM004_03100_GYOSHIN_000_065,Cette Ao Ra au regard perçant est vraiment intimidante. J'ai l'impression qu'elle pourrait m'embrocher sans sourciller...
+88,TEXT_BANNAM004_03100_SADU_000_070,"Tiens, ça faisait longtemps que j'avais pas vu ta petite tête. Le khun chuluu qui me dévisage depuis tout à l'heure avec son air ébahi est avec toi ?"
+89,TEXT_BANNAM004_03100_SADU_000_071,"Ah, je comprends mieux ce qui se trame en haut de cette falaise depuis quelque temps... Tes petits amis les Namazu se sont sou­dai­ne­ment pris d'intérêt pour les coutumes dotharl, hein ? D'accord, écoutez-moi bien."
+90,TEXT_BANNAM004_03100_SADU_000_072,"Comme vous le savez, les Dotharl sont de vaillants guerriers doublés de chasseurs hors pair, des talents bien nécessaires pour survivre dans l'environnement hostile de la steppe."
+91,TEXT_BANNAM004_03100_SADU_000_073,"Ainsi, pour prouver à la Déesse Nhaama que nous sommes dignes de sa bienveillance et de sa protection, nous lui faisons étalage de notre habileté au tir à l'arc au cours d'une compétition d'adresse."
+92,TEXT_BANNAM004_03100_SADU_000_074,"Les par­ti­ci­pants décochent plusieurs flèches en direction d'une cible lointaine, et le plus précis est déclaré vainqueur. Ça peut paraître simpliste, mais c'est notre tradition depuis toujours."
+93,TEXT_BANNAM004_03100_GYOSHIN_000_075,"Je vois. Plus qu'un festival, c'est aussi une sorte de divertissement. Merci à vous pour ces in­for­ma­tions très précieuses !"
+94,TEXT_BANNAM004_03100_GYOSHIN_000_076,"Player, retournons tout de suite à Dhoro Iloh. Il faut vite raconter aux autres ce que nous avons appris et prendre une décision au sujet de la grande frairie namazu !"
+95,TEXT_BANNAM004_03100_SADU_000_080,"Un festival organisé par des khun chuluu, ça promet !"
+96,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_085,（★未使用／削除予定★）
+97,TEXT_BANNAM004_03100_GYOSHIN_000_090,"Ah, vous voilà enfin ! Vite, allons partager nos trouvailles avec Gyorei."
+98,TEXT_BANNAM004_03100_GYOREI_000_100,"Player, Gyoshin ! Alors, qu'avez-vous appris d'intéressant sur les tribus nomades de la Steppe d'Azim ?"
+99,TEXT_BANNAM004_03100_GYOSHIN_000_101,"C'était vraiment passionnant ! Entre les courses à cheval, les combats d'Azim bukh ou les concours de tir à l'arc, on dirait que les Xaela affectionnent par­ti­cu­liè­rement la compétition."
+100,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_102,"Je comprends mieux pourquoi le Naadam est si important dans leur tradition. Sans cet exutoire régulé, il y a longtemps qu'ils se seraient tous entretués..."
+101,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_103,"Bon, j'approfondirais bien ces recherches anthropologiques, mais il me semble que nous en savons déjà suf­fi­sam­ment pour nous occuper de notre festival."
+102,TEXT_BANNAM004_03100_GYOSHIN_000_104,"Avec trois événements différents à organiser, on ne risque pas de s'ennuyer ! Gyorei, je te confie la course de chevaux. Seigetsu, occupe-toi du tournoi de lutte. Quant à Player et moi, on va se charger de la compétition de tir à l'arc !"
+103,TEXT_BANNAM004_03100_KOFUINSEIGETSU_100_104,"Quel sens de l'or­ga­ni­sa­tion ! Venant de toi, ça me surprend, Gyoshin... Ne t'en fais pas pour les combats de lutte, je me charge de tout."
+104,TEXT_BANNAM004_03100_GYOSHIN_000_105,"Voyons voir... Player, votre part du travail sera de fabriquer  de haute qualité. Comme d'habitude, vous trouverez tous les matériaux nécessaires dans la caisse en bois."
+105,TEXT_BANNAM004_03100_GYOSHIN_000_106,"Voyons voir... Player, votre part du travail sera de con­fec­tion­ner  de haute qualité. Comme d'habitude, vous trouverez tous les matériaux nécessaires dans la caisse en bois."
+106,TEXT_BANNAM004_03100_GYOSHIN_000_107,"Voyons voir... Player, votre part du travail sera de préparer  de haute qualité. Comme d'habitude, vous trouverez tous les matériaux nécessaires dans la caisse en bois."
+107,TEXT_BANNAM004_03100_GYOSHIN_000_108,"Voyons voir... Player, votre part du travail sera d'aller au sud du Ralliement pour y extraire  qui servira pour les pointes de flèches. De haute qualité, s'il vous plaît !"
+108,TEXT_BANNAM004_03100_GYOSHIN_000_109,"Voyons voir... Player, votre part du travail sera d'aller au sud du Ralliement pour y récolter  qui servira pour le corps des flèches. De haute qualité, s'il vous plaît !"
+109,TEXT_BANNAM004_03100_GYOSHIN_000_110,"Voyons voir... Player, votre part du travail sera d'aller à Dotharl Khaa pour y pêcher  qui servira à enduire les flèches. Essayez avec , ça mordra sûrement !"
+110,TEXT_BANNAM004_03100_GYOSHIN_000_111,"Une fois n'est pas coutume, c'est à moi que vous devrez vous adresser quand vous en aurez terminé. Je vous attends ici, à vous de jouer !"
+111,TEXT_BANNAM004_03100_GYOREI_000_112,"Quelle chance j'ai de m'occuper de la course de chevaux ! J'ai toujours trouvé ces créatures majestueuses... Ah oui, si vous manquez de matériaux, la caisse en bois est à vous !"
+112,TEXT_BANNAM004_03100_GYOREI_100_112,"Quelle chance j'ai de m'occuper de la course de chevaux ! J'ai toujours trouvé ces créatures majestueuses... Ah oui, si vous manquez de matériaux, la caisse en bois est à vous !"
+113,TEXT_BANNAM004_03100_GYOREI_110_112,"Quelle chance j'ai de m'occuper de la course de chevaux ! J'ai toujours trouvé ces créatures majestueuses... Ah oui, si vous manquez de matériaux, la caisse en bois est à vous !"
+114,TEXT_BANNAM004_03100_GYOREI_200_112,"Quelle chance j'ai de m'occuper de la course de chevaux ! J'ai toujours trouvé ces créatures majestueuses... Ah oui, une fois que vous aurez ce dont Gyoshin a besoin, allez le lui apporter !"
+115,TEXT_BANNAM004_03100_GYOREI_210_112,"Quelle chance j'ai de m'occuper de la course de chevaux ! J'ai toujours trouvé ces créatures majestueuses... Ah oui, une fois que vous aurez ce dont Gyoshin a besoin, allez le lui apporter !"
+116,TEXT_BANNAM004_03100_GYOREI_220_112,"Quelle chance j'ai de m'occuper de la course de chevaux ! J'ai toujours trouvé ces créatures majestueuses... Ah oui, une fois que vous aurez ce dont Gyoshin a besoin, allez le lui apporter !"
+117,TEXT_BANNAM004_03100_SYSTEM_000_113,"Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
+118,TEXT_BANNAM004_03100_SYSTEM_100_113,"Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
+119,TEXT_BANNAM004_03100_SYSTEM_110_113,"Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
+120,TEXT_BANNAM004_03100_SYSTEM_120_113,"Cette caisse est remplie de matériaux, mais il semblerait que vous n'en ayez pas besoin pour le moment..."
+121,TEXT_BANNAM004_03100_SYSTEM_000_114,Vous obtenez les matériaux nécessaires à votre synthèse !
+122,TEXT_BANNAM004_03100_SYSTEM_100_114,Vous obtenez les matériaux nécessaires à votre synthèse !
+123,TEXT_BANNAM004_03100_SYSTEM_110_114,Vous obtenez les matériaux nécessaires à votre synthèse !
+124,TEXT_BANNAM004_03100_GYOREI_120_114,"Oh, je vois que vous avez ce dont Gyoshin a besoin. Allez vite le lui apporter, il n'attend plus que vous pour finir d'organiser ce concours de tir à l'arc !"
+125,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_115,（★未使用／削除予定★）
+126,TEXT_BANNAM004_03100_GYOSHIN_000_120,Player ! Avez-vous ce que je vous ai demandé ?
+127,TEXT_BANNAM004_03100_GYOSHIN_000_121,"Merci ! Avec ça, nous avons tout le nécessaire pour fabriquer les arcs et les flèches de notre festival !"
+128,TEXT_BANNAM004_03100_GYOSHIN_000_122,"Au fait, j'ai fabriqué une cible pendant votre absence. Attendez-moi, je vais la chercher tout de suite."
+129,TEXT_BANNAM004_03100_GYOSHIN_000_123,"Alors, qu'est-ce que vous en dites ? En toute modestie, je trouve qu'elle est absolument parfaite !"
+130,TEXT_BANNAM004_03100_GYOREI_000_124,"Mon petit Gyoshin, tu t'es une fois de plus surpassé ! Cette cible est absolument magnifique. Mais au fait, comment vas-tu t'y prendre pour la faire tenir debout ?"
+131,TEXT_BANNAM004_03100_GYOSHIN_000_125,"Oups, je n'avais pas pensé à ça... J'étais si concentré sur la cible elle-même que j'ai com­plè­te­ment oublié de lui adjoindre une base !"
+132,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_126,"Ah, je retrouve le Gyoshin étourdi que je connais si bien ! Que faire, nous avons déjà pris beaucoup de retard sur le programme... Je sais ! C'est toi qui vas tenir la cible pendant le concours !"
+133,TEXT_BANNAM004_03100_GYOSHIN_000_127,"Oyoyoyo ! Si j'ai survécu à mes visites chez les Xaela, ce n'est pas pour finir embroché par des Namazu maladroits !"
+134,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_128,"Ne t'en fais pas voyons ! Player va commencer par une petite dé­mon­stra­tion, et je suis persuadé que toutes ses flèches finiront en plein dans le mille, ha ha ha !"
+135,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_129,"Allons installer le mur d'exéc... euh, le stand de tir derrière cette tente. Player, lorsque vous serez prête, demandez à Gyorei de vous remettre un arc et des flèches."
+136,TEXT_BANNAM004_03100_KOFUINSEIGETSU_000_130,（★未使用／削除予定★）
+137,TEXT_BANNAM004_03100_GYOSHIN_000_135,"Player, je compte sur vous pour ne pas m'embrocher... Ça serait tellement dommage que notre grande frairie namazu se termine en queue de poisson !"
+138,TEXT_BANNAM004_03100_GYOREI_000_140,"Voilà une bonne occasion de faire regretter à Gyoshin son éternelle étourderie, hé hé."
+139,TEXT_BANNAM004_03100_GYOREI_000_141,Prenez cet arc et ces flèches et tirez sur la cible que tient Gyoshin !
+140,TEXT_BANNAM004_03100_SYSTEM_000_142,"La visée interactive va débuter. Utilisez la caméra pour trouver la cible de la frairie, puis validez votre choix avec ."
+141,TEXT_BANNAM004_03100_GYOSHIN_000_143,"Bravo, en plein dans le mille !"
+142,TEXT_BANNAM004_03100_GYOSHIN_000_144,OYOYO !!! Cette pointe de flèche est bien trop aiguisée... à mon goût...
+143,TEXT_BANNAM004_03100_GYOREI_000_145,"C'est ça que vous appelez une dé­mon­stra­tion ? Vous nous aviez habitués à mieux... Allez, recommencez et montrez-nous de quoi vous êtes vraiment capable !"
+144,TEXT_BANNAM004_03100_GYOREI_000_150,"Cette détermination dans votre regard à chaque flèche tirée, c'était vraiment im­pres­sion­nant ! Existe-t-il un domaine dans lequel vous ne brillez pas ?"
+145,TEXT_BANNAM004_03100_GYOSHIN_000_160,"J'ai toujours eu l'habitude d'être la cible des moqueries de Gyofun, mais c'est bien la première fois qu'on me tire des flèches dessus..."
+146,TEXT_BANNAM004_03100_GYOSHIN_000_161,"Heu­reu­se­ment, grâce à vous, tout s'est bien terminé ! Désormais, il ne nous reste plus qu'à finir les préparatifs de la course de chevaux et du tournoi de lutte."
+147,TEXT_BANNAM004_03100_SYSTEM_000_162,"Le programme de la grande frairie namazu s'est enrichi d'une course de chevaux, d'un tournoi de lutte et d'un concours de tir à l'arc !"
+148,TEXT_BANNAM004_03100_SYSTEM_000_163,"Sept années plus tard, les Xaela devaient connaître une terrible période de famine et se résoudre à chasser intensément les Namazu pour leur chair, finissant par les massacrer jusqu'au dernier..."
+149,TEXT_BANNAM004_03100_SYSTEM_000_164,"Heu­reu­se­ment, l'incor­por­ation de traditions des nomades à la grande frairie allait permettre d'encourager les échanges et la compréhension entre les deux peuples, et d'éviter un destin des plus tragiques aux Namazu."
+150,TEXT_BANNAM004_03100_SYSTEM_000_165,"Le destin des Namazu continuait à changer, mais personne ne savait encore si la grande frairie pourrait leur éviter la terrible fin qui leur était promise..."
+151,TEXT_BANNAM004_03100_SYSTEM_000_166,Votre réputation auprès du comité d'or­ga­ni­sa­tion de la grande frairie namazu est passée à “Émérite”.
+152,TEXT_BANNAM004_03100_SYSTEM_000_167,Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Seigetsu.
+153,TEXT_BANNAM004_03100_SYSTEM_000_168,"De plus, trois quêtes sup­plé­men­tai­res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
+154,TEXT_BANNAM004_03100_SYSTEM_000_169,Seigetsu vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang.
+155,TEXT_BANNAM004_03100_SYSTEM_000_170,"En outre, Gyosho vous propose maintenant les objets correspondant au rang “Émérite”. Faites-en bon usage au cours de vos aventures !"
+156,TEXT_BANNAM004_03100_SYSTEM_000_171,"Les objets de qualité normale fabriqués au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."
+157,TEXT_BANNAM004_03100_SYSTEM_000_172,"Les objets de qualité normale récoltés au cours de cette quête n'ayant aucune utilité et ne pouvant être vendus, il est recommandé de les jeter."

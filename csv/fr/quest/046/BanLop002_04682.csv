@@ -1,155 +1,152 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANLOP002_04682_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête avec limitation de job ou de classe<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANLOP002_04682_SEQ_00,"**Règle spéciale :  synchronisation de quête avec limitation de job ou de classe**
 
 Dreamingway veut développer davantage les Ateliers Dreaming."
-1,"TEXT_BANLOP002_04682_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
-* <Emphasis>Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.</Emphasis> 
+1,TEXT_BANLOP002_04682_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
+* *Il n'est possible de progresser dans cette quête qu'avec la classe ou le job qui a servi à la commencer.* 
 
 Dans le but de construire une nouvelle station, Dreamingway a besoin que vous l'aidiez à recruter un nouveau Loporrite. Retrouvez Repairingway à la Garenne sempervirente."
-2,"TEXT_BANLOP002_04682_SEQ_02","Repairingway n'étant malheureusement pas disponible, elle vous a conseillé<If(PlayerParameter(4))>e<Else/></If> de vous tourner vers Inventingway. Allez à la Garenne sempervirente et parlez à Dreamingway pour requérir son aide une fois sur place."
-3,"TEXT_BANLOP002_04682_SEQ_03","Inventingway a accepté avec enthousiasme de vous prêter main-forte. Retournez au Berceau des espoirs pour discuter des prochaines étapes avec Dreamingway."
-4,"TEXT_BANLOP002_04682_SEQ_04","Ayant discuté davantage avec Dreamingway, vous avez décidé de l'aider à créer les éléments nécessaires à une nouvelle station. Fabriquez ce qu'il vous a demandé et remettez-le-lui directement au Berceau des espoirs."
-5,"TEXT_BANLOP002_04682_SEQ_05","Grâce aux matériaux que vous avez remis à Dreamingway, la station machines-outils est maintenant terminée. Avec l'aide d'Inventingway, divers engins peuvent désormais y être construits. Les Loporrites comptent toujours sur votre soutien pour développer de nouvelles infrastructures, alors retroussez vos manches car les rêves n'attendent pas<Indent/>!"
-6,"TEXT_BANLOP002_04682_SEQ_06",""
-7,"TEXT_BANLOP002_04682_SEQ_07",""
-8,"TEXT_BANLOP002_04682_SEQ_08",""
-9,"TEXT_BANLOP002_04682_SEQ_09",""
-10,"TEXT_BANLOP002_04682_SEQ_10",""
-11,"TEXT_BANLOP002_04682_SEQ_11",""
-12,"TEXT_BANLOP002_04682_SEQ_12",""
-13,"TEXT_BANLOP002_04682_SEQ_13",""
-14,"TEXT_BANLOP002_04682_SEQ_14",""
-15,"TEXT_BANLOP002_04682_SEQ_15",""
-16,"TEXT_BANLOP002_04682_SEQ_16",""
-17,"TEXT_BANLOP002_04682_SEQ_17",""
-18,"TEXT_BANLOP002_04682_SEQ_18",""
-19,"TEXT_BANLOP002_04682_SEQ_19",""
-20,"TEXT_BANLOP002_04682_SEQ_20",""
-21,"TEXT_BANLOP002_04682_SEQ_21",""
-22,"TEXT_BANLOP002_04682_SEQ_22",""
-23,"TEXT_BANLOP002_04682_SEQ_23",""
-24,"TEXT_BANLOP002_04682_TODO_00","Trouver Repairingway"
-25,"TEXT_BANLOP002_04682_TODO_01","Parler à Dreamingway"
-26,"TEXT_BANLOP002_04682_TODO_02","Reparler à Dreamingway"
-27,"TEXT_BANLOP002_04682_TODO_03","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Fabriquer <SheetFr(Item,1,IntegerParameter(5),2,1)/><Else/>Livrer <SheetFr(Item,2,IntegerParameter(5),2,1)/> à Dreamingway</If><Else/></If></If></If></If></If></If></If></If>"
-28,"TEXT_BANLOP002_04682_TODO_04",""
-29,"TEXT_BANLOP002_04682_TODO_05",""
-30,"TEXT_BANLOP002_04682_TODO_06",""
-31,"TEXT_BANLOP002_04682_TODO_07",""
-32,"TEXT_BANLOP002_04682_TODO_08",""
-33,"TEXT_BANLOP002_04682_TODO_09",""
-34,"TEXT_BANLOP002_04682_TODO_10",""
-35,"TEXT_BANLOP002_04682_TODO_11",""
-36,"TEXT_BANLOP002_04682_TODO_12",""
-37,"TEXT_BANLOP002_04682_TODO_13",""
-38,"TEXT_BANLOP002_04682_TODO_14",""
-39,"TEXT_BANLOP002_04682_TODO_15",""
-40,"TEXT_BANLOP002_04682_TODO_16",""
-41,"TEXT_BANLOP002_04682_TODO_17",""
-42,"TEXT_BANLOP002_04682_TODO_18",""
-43,"TEXT_BANLOP002_04682_TODO_19",""
-44,"TEXT_BANLOP002_04682_TODO_20",""
-45,"TEXT_BANLOP002_04682_TODO_21",""
-46,"TEXT_BANLOP002_04682_TODO_22",""
-47,"TEXT_BANLOP002_04682_TODO_23",""
-48,"TEXT_BANLOP002_04682_DREAMINGWAY_000_000","Grâce à votre aide, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, nous sommes parvenus à poser la première pierre des Ateliers Dreaming<Indent/>! Continuons sur cette lancée afin de pouvoir présenter aux Loporrites toujours plus de rêves<Indent/>!"
-49,"TEXT_BANLOP002_04682_DREAMINGWAY_000_001","Pour ce faire, l'idéal serait que nous trouvions d'autres Loporrites ayant déjà découvert leur vocation..."
-50,"TEXT_BANLOP002_04682_MANAGINGWAY_000_002","（★未使用／削除予定★）"
-51,"TEXT_BANLOP002_04682_DREAMINGWAY_000_003","（★未使用／削除予定★）"
-52,"TEXT_BANLOP002_04682_MANAGINGWAY_000_004","（★未使用／削除予定★）"
-53,"TEXT_BANLOP002_04682_DREAMINGWAY_000_005","（★未使用／削除予定★）"
-54,"TEXT_BANLOP002_04682_MANAGINGWAY_000_006","（★未使用／削除予定★）"
-55,"TEXT_BANLOP002_04682_MANAGINGWAY_000_007","Des Loporrites s'adonnant déjà à leur passion... Laissez-moi réfléchir..."
-56,"TEXT_BANLOP002_04682_MANAGINGWAY_000_008","Dans ce cas, j'ai peut-être sous la patte la personne qu'il vous faut<Indent/>!"
-57,"TEXT_BANLOP002_04682_DREAMINGWAY_000_009","Oooh<Indent/>! Qui est-ce donc<Indent/>!?"
-58,"TEXT_BANLOP002_04682_MANAGINGWAY_000_010","Nous avons parmi nos collaborateurs une Loporrite qui adore réparer tout ce qu'elle trouve. Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, elle est de nature assez solitaire... Vous allez peut-être avoir du mal à la convaincre..."
-59,"TEXT_BANLOP002_04682_MANAGINGWAY_000_011","（★未使用／削除予定★）"
-60,"TEXT_BANLOP002_04682_DREAMINGWAY_000_012","Pour la parlotte, comptez sur moi<Indent/>! Et comment s'appelle cette candidate potentielle<Indent/>?"
-61,"TEXT_BANLOP002_04682_DREAMINGWAY_000_013","（★未使用／削除予定★）"
-62,"TEXT_BANLOP002_04682_MANAGINGWAY_000_014","Son nom est Repairingway. En ce moment, elle devrait être en train de retaper des machines du côté de la Garenne sempervirente."
-63,"TEXT_BANLOP002_04682_DREAMINGWAY_000_015","Compris<Indent/>! J'y bondis de ce pas<Indent/>!"
-64,"TEXT_BANLOP002_04682_DREAMINGWAY_000_016","Et vous allez m'accompagner, n'est-ce pas <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>?"
-65,"TEXT_BANLOP002_04682_DREAMINGWAY_000_017","Vous pensez que c'est Repairingway<Indent/>?"
-66,"TEXT_BANLOP002_04682_DREAMINGWAY_000_020","S-salut<Indent/>! C'est toi, Repairingway<Indent/>?"
-67,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_021","C'est comme ça qu'on m'appelle. À qui ai-je l'honneur<Indent/>?"
-68,"TEXT_BANLOP002_04682_DREAMINGWAY_000_022","Moi, c'est Dreamingway<Indent/>! En résumé, on a besoin de Loporrites comme toi, donc je suis venu t'inviter à rejoindre notre projet<Indent/>!"
-69,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_023","Hmm... Et qu'est-ce que vous faites exactement<Indent/>?"
-70,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_024","Donner un nouveau but aux Loporrites démotivés en leur présentant des vocations comme la mienne... J'avoue que votre invitation est tentante."
-71,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_025","Mais comme tu peux le voir, je suis trop occupée à réparer des machines et des équipements. Je ne pense pas avoir de temps à vous consacrer. Que les humains viennent vivre sur la lune ou pas, il faut bien que quelqu'un se charge de la maintenance, tu comprends<Indent/>?"
-72,"TEXT_BANLOP002_04682_DREAMINGWAY_000_026","Ah... Bon, d'accord..."
-73,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_027","Cela étant dit, j'adhère totalement à ce que vous cherchez à accomplir au travers de votre projet. Du coup, que dirais-tu d'essayer de recruter plutôt Inventingway à ma place<Indent/>?"
-74,"TEXT_BANLOP002_04682_DREAMINGWAY_000_028","Inventingway<Indent/>?"
-75,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_029","Oui, un Loporrite qui est toujours motivé tant qu'on le laisse tripatouiller des dispositifs. Il m'est même arrivé de lui demander son aide pour quelques opérations de maintenance par le passé."
-76,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_030","Je reconnais qu'il est par<SoftHyphen/>ti<SoftHyphen/>cu<SoftHyphen/>liè<SoftHyphen/>rement doué en mécanique... Mal<SoftHyphen/>heu<SoftHyphen/>reu<SoftHyphen/>se<SoftHyphen/>ment, il ne se limite jamais à un simple dépannage. À chaque fois, il se sent obligé d'apporter sa touche personnelle."
-77,"TEXT_BANLOP002_04682_REPAIRINGWAY_100_030","L'autre jour, je lui ai demandé de réparer une cultivatrice de carottes... Quand j'avais le dos tourné, il lui a rajouté des bras et des jambes pour qu'elle arrose les carottes en effectuant la danse de la pluie... Je l'ai viré aussi sec<Indent/>!"
-78,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_031","Mais s'il rejoignait ton projet, je pense qu'il serait comme une carotte dans son terreau. Avoir la liberté de bidouiller des machines tout son soûl lui permettrait de développer ses talents."
-79,"TEXT_BANLOP002_04682_DREAMINGWAY_000_032","En effet, c'est cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment le Loporrite qu'il nous faut<Indent/>! Et tu saurais me dire où je peux trouver cet Inventingway<Indent/>?"
-80,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_033","J'imagine qu'il doit traîner un peu plus au nord d'ici. Il adore les machines de ce coin-là, même s'il ne peut les toucher qu'avec les yeux."
-81,"TEXT_BANLOP002_04682_DREAMINGWAY_000_034","Merci beaucoup, Repairingway<Indent/>! Nous allons partir à sa rencontre tout de suite<Indent/>!"
-82,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_035","（★未使用／削除予定★）"
-83,"TEXT_BANLOP002_04682_INVENTINGWAY_000_036","Hm<Indent/>? T'es qui, toi<Indent/>? Qu'est-ce que tu me veux<Indent/>!?"
-84,"TEXT_BANLOP002_04682_REPAIRINGWAY_000_037","J'espère que votre projet rencontrera le succès qu'il mérite."
-85,"TEXT_BANLOP002_04682_DREAMINGWAY_000_040","Bonjour... C'est bien toi, Inventingway<Indent/>?"
-86,"TEXT_BANLOP002_04682_INVENTINGWAY_000_041","Hm<Indent/>? Et toi, t'es qui<Indent/>? Qu'est-ce que tu me veux<Indent/>!?"
-87,"TEXT_BANLOP002_04682_DREAMINGWAY_000_042","Heu... C'est Repairingway qui m'a dit où te trouver. Elle m'a parlé de tes talents particuliers, et j'aurais une proposition à te soumettre..."
-88,"TEXT_BANLOP002_04682_INVENTINGWAY_000_043","Une proposition<Indent/>!? Attends deux secondes<Indent/>! En résumé, t'es en train de me dire que je pourrai fabriquer les machines que je veux, comme je veux<Indent/>?"
-89,"TEXT_BANLOP002_04682_DREAMINGWAY_000_044","Et pourtant, c'est la pure vérité<Indent/>! T'as tapé dans le mille<Indent/>!"
-90,"TEXT_BANLOP002_04682_INVENTINGWAY_000_045","Dreamingway, c'est ça<Indent/>? Je vais te dire un truc, mon p'tit bonhomme..."
-91,"TEXT_BANLOP002_04682_INVENTINGWAY_000_046","Je pouvais pas rêver mieux<Indent/>! C'est trop génial<Indent/>!!"
-92,"TEXT_BANLOP002_04682_INVENTINGWAY_000_047","Comme tu le sais déjà, je suis un aficionado des machines<Indent/>! J'ai passé un nombre incalculable d'heures à dessiner des plans dans mon bureau d'études<Indent/>!"
-93,"TEXT_BANLOP002_04682_INVENTINGWAY_100_047","Les unités d'assistance, ce sont mes enfants<Indent/>! Enfin... des enfants terribles malgré eux... Qui aurait imaginé que, contrairement à nos données, les humains soient si verticalement contrariés qu'elles les considèrent comme des nuisibles<Indent/>!?"
-94,"TEXT_BANLOP002_04682_INVENTINGWAY_000_048","Quand je m'en suis rendu compte, j'ai voulu corriger mon erreur... Mais finalement, on m'a dit que c'était pas la peine que je m'embête avec ça... Pour le coup, je savais plus où me mettre."
-95,"TEXT_BANLOP002_04682_INVENTINGWAY_000_049","Donc j'ai voulu me reconvertir dans la maintenance. Mais malgré mes efforts, mes travers de savant fou ont eu raison de cette opportunité..."
-96,"TEXT_BANLOP002_04682_INVENTINGWAY_000_050","（★未使用／削除予定★）"
-97,"TEXT_BANLOP002_04682_INVENTINGWAY_000_051","（★未使用／削除予定★）"
-98,"TEXT_BANLOP002_04682_INVENTINGWAY_000_052","Et te voilà, avec le job de mes rêves qui plus est<Indent/>! J'en crois pas mes grandes oreilles<Indent/>! Merci<Indent/>! Heu... Comment tu t'appelles déjà<Indent/>?"
-99,"TEXT_BANLOP002_04682_DREAMINGWAY_000_053","Dreamingway<Indent/>!!"
-100,"TEXT_BANLOP002_04682_INVENTINGWAY_000_054","Ah oui, c'est ça<Indent/>! Eh bien compte sur moi, Dreamingway<Indent/>! Nah ha ha ha<Indent/>!!"
-101,"TEXT_BANLOP002_04682_INVENTINGWAY_000_055","Bon, affaire conclue, passons aux choses sérieuses<Indent/>! Allons de ce pas fabriquer une nouvelle machine qu'on pourra montrer à nos semblables en manque de peps<Indent/>!"
-102,"TEXT_BANLOP002_04682_INVENTINGWAY_000_056","... Oh noooooooon<Indent/>! J'ai encore oublié un détail important<Indent/>!"
-103,"TEXT_BANLOP002_04682_INVENTINGWAY_000_057","Les idées de machines, elles sont conservées pré<SoftHyphen/>cieu<SoftHyphen/>se<SoftHyphen/>ment dans ma caboche, mais je n'ai plus de bureau d'études et pas de matos sous la main... Ah... Que faire<Indent/>? Que faire<Indent/>?"
-104,"TEXT_BANLOP002_04682_INVENTINGWAY_100_057","（★未使用／削除予定★）"
-105,"TEXT_BANLOP002_04682_DREAMINGWAY_000_058","Si c'est juste un problème matériel, je te propose qu'on en discute aux Ateliers Dreaming. Je suis certain qu'on arrivera à te fournir ce dont tu as besoin<Indent/>!"
-106,"TEXT_BANLOP002_04682_INVENTINGWAY_000_059","Ateliers... Dreaming<Indent/>? C'est quoi ce truc<Indent/>? Bref, peu importe, allons-y tout de suite<Indent/>!"
-107,"TEXT_BANLOP002_04682_DREAMINGWAY_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, c'est dans la poche<Indent/>! On se retrouve tout à l'heure aux Ateliers Dreaming, d'accord<Indent/>?"
-108,"TEXT_BANLOP002_04682_INVENTINGWAY_000_061","Oooh<Indent/>! Mais qu'est-ce que c'est tout ça<Indent/>!?"
-109,"TEXT_BANLOP002_04682_SUPPORTER_000_062","Dreamingway souhaiterait vous parler<Indent/>!"
-110,"TEXT_BANLOP002_04682_DREAMINGWAY_000_070","Je vous attendais<Indent/>! Managingway s'est déjà occupé de rassembler tout ce qu'Inventingway lui avait demandé<Indent/>!"
-111,"TEXT_BANLOP002_04682_DREAMINGWAY_000_071","Et il aurait besoin que vous vous chargiez de le seconder dans sa tâche. Je vais vous donner tous les détails<Indent/>!"
-112,"TEXT_BANLOP002_04682_DREAMINGWAY_000_072","Pourriez-vous déployer tout votre savoir-faire et utiliser ces matériaux afin de fabriquer des outils de précision adaptés<Indent/>?"
-113,"TEXT_BANLOP002_04682_DREAMINGWAY_000_073","Pourriez-vous déployer tout votre savoir-faire et utiliser ces matériaux afin de fabriquer des isolants adaptés<Indent/>?"
-114,"TEXT_BANLOP002_04682_DREAMINGWAY_000_074","Pourriez-vous déployer tout votre savoir-faire et utiliser ces matériaux afin de synthétiser une huile de machine adaptée<Indent/>?"
-115,"TEXT_BANLOP002_04682_DREAMINGWAY_000_075","Managingway s'est chargé de rassembler tous les éléments nécessaires à votre travail<Indent/>! Les voici, d'ailleurs<Indent/>!"
-116,"TEXT_BANLOP002_04682_DREAMINGWAY_000_076","Si jamais il vous faut davantage de ressources, n'hésitez pas à solliciter l'unité d'assistance onirique pour qu'elle vous les fournisse. Elle a tout un stock à disposition. Merci d'avance, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>!"
-117,"TEXT_BANLOP002_04682_DREAMINGWAY_000_077","Comment<Indent/>? Il vous faut davantage de matériaux<Indent/>? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
-118,"TEXT_BANLOP002_04682_DREAMINGWAY_000_078","Comment<Indent/>? Il vous faut davantage de matériaux<Indent/>? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
-119,"TEXT_BANLOP002_04682_DREAMINGWAY_000_0079","Comment<Indent/>? Il vous faut davantage de matériaux<Indent/>? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
-120,"TEXT_BANLOP002_04682_SUPPORTER_000_080","Un instant, je vous prie... Accès au stock... Erreur<Indent/>! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession<Indent/>!"
-121,"TEXT_BANLOP002_04682_SUPPORTER_000_081","Un instant, je vous prie... Accès au stock... Erreur<Indent/>! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession<Indent/>!"
-122,"TEXT_BANLOP002_04682_SUPPORTER_000_082","Un instant, je vous prie... Accès au stock... Erreur<Indent/>! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession<Indent/>!"
-123,"TEXT_BANLOP002_04682_SUPPORTER_000_083","Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage<Indent/>!"
-124,"TEXT_BANLOP002_04682_SUPPORTER_000_084","Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage<Indent/>!"
-125,"TEXT_BANLOP002_04682_SUPPORTER_000_085","Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage<Indent/>!"
-126,"TEXT_BANLOP002_04682_DREAMINGWAY_000_090","Oh, vous avez déjà terminé<Indent/>!?"
-127,"TEXT_BANLOP002_04682_DREAMINGWAY_000_091","Ouah<Indent/>!!! Je ne savais pas que vous étiez capable de telles prouesses, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Magnifique<Indent/>!"
-128,"TEXT_BANLOP002_04682_DREAMINGWAY_000_092","Grâce à vous, nous pouvons commencer la con<SoftHyphen/>struc<SoftHyphen/>tion de nouvelles machines<Indent/>! Allez, c'est parti<Indent/>!"
-129,"TEXT_BANLOP002_04682_DREAMINGWAY_000_100","Ooh<Indent/>! Im<SoftHyphen/>pres<SoftHyphen/>sionnant<Indent/>! Visez-moi ces drôles d'appareils, quelle originalité<Indent/>!"
-130,"TEXT_BANLOP002_04682_INVENTINGWAY_000_101","Du calme, vous n'avez encore rien vu<Indent/>! Ce n'est que l'échauf<SoftHyphen/>fe<SoftHyphen/>ment."
-131,"TEXT_BANLOP002_04682_MANAGINGWAY_000_102","Hmm... Je me demande à quoi servent tous ces engins... Enfin, ce n'est pas comme si nous lui avions demandé de construire quoi que ce soit d'utile, donc ne chipotons pas..."
-132,"TEXT_BANLOP002_04682_INVENTINGWAY_000_103","Bienvenue<Indent/>! N'hésitez pas à vous amuser avec mes machines plus intrigantes les unes que les autres<Indent/>!"
-133,"TEXT_BANLOP002_04682_MANAGINGWAY_000_104","Et si vous voulez vous essayer à la mécanique, faites-le-moi savoir<Indent/>! Découvrons ensemble vos rêves<Indent/>!"
-134,"TEXT_BANLOP002_04682_TALKINGWAY_000_105","Hm... Et maintenant un atelier bricolage du dimanche avec de la quincaillerie inutile<Indent/>? Que cherchez-vous à accomplir alors que tout ce que nous entreprenons est désormais vide de sens<Indent/>?"
-135,"TEXT_BANLOP002_04682_TALKINGWAY_000_106","Ou peut-être pas<Indent/>? Oui... Pas totalement inutile après tout. Car j'imagine qu'au moins, cette pantomime vous fera prendre conscience de la futilité de votre existence et vous fera procéder bien sagement à une demande de réintégration en stase..."
-136,"TEXT_BANLOP002_04682_TALKINGWAY_000_107","... Mais j'imagine que seul l'avenir nous le dira. Je suivrai de près vos élucubrations."
-137,"TEXT_BANLOP002_04682_MANAGINGWAY_000_108","Qui est ce Loporrite hautain<Indent/>?"
-138,"TEXT_BANLOP002_04682_DREAMINGWAY_000_109","Qu-quoi qu'il en soit<Indent/>! Notre rutilante station machines-outils est fonctionnelle et c'est tout ce qui compte pour le moment<Indent/>! Je suis vraiment heureux de voir qu'elle a le succès qu'elle mérite<Indent/>!"
-139,"TEXT_BANLOP002_04682_DREAMINGWAY_000_110","Continuons de construire des nouvelles stations qui ne manqueront pas de stimuler l'imagination des Loporrites en quête de nouveaux rêves<Indent/>!"
-140,"TEXT_BANLOP002_04682_SYSTEM_000_111","La création de la station machines-outils est terminée<Indent/>! Continuez de participer au développement des Ateliers Dreaming afin de permettre à un plus grand nombre de Loporrites de découvrir leurs rêves<Indent/>!"
-141,"TEXT_BANLOP002_04682_SYSTEM_000_112","Votre réputation auprès des Loporrites des Ateliers Dreaming est passée à “Estimé”."
-142,"TEXT_BANLOP002_04682_SYSTEM_000_113","Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
-143,"TEXT_BANLOP002_04682_SYSTEM_000_114","Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Managingway."
-144,"TEXT_BANLOP002_04682_SYSTEM_000_115","De plus, trois quêtes sup<SoftHyphen/>plé<SoftHyphen/>men<SoftHyphen/>tai<SoftHyphen/>res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
-145,"TEXT_BANLOP002_04682_SYSTEM_000_116","Managingway vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang."
-146,"TEXT_BANLOP002_04682_SYSTEM_000_117","En outre, vous pouvez aussi acquérir de nouveaux articles auprès de Coiningway. Faites-en bon usage au cours de vos aventures<Indent/>!"
+2,TEXT_BANLOP002_04682_SEQ_02,"Repairingway n'étant malheureusement pas disponible, elle vous a conseillée de vous tourner vers Inventingway. Allez à la Garenne sempervirente et parlez à Dreamingway pour requérir son aide une fois sur place."
+3,TEXT_BANLOP002_04682_SEQ_03,Inventingway a accepté avec enthousiasme de vous prêter main-forte. Retournez au Berceau des espoirs pour discuter des prochaines étapes avec Dreamingway.
+4,TEXT_BANLOP002_04682_SEQ_04,"Ayant discuté davantage avec Dreamingway, vous avez décidé de l'aider à créer les éléments nécessaires à une nouvelle station. Fabriquez ce qu'il vous a demandé et remettez-le-lui directement au Berceau des espoirs."
+5,TEXT_BANLOP002_04682_SEQ_05,"Grâce aux matériaux que vous avez remis à Dreamingway, la station machines-outils est maintenant terminée. Avec l'aide d'Inventingway, divers engins peuvent désormais y être construits. Les Loporrites comptent toujours sur votre soutien pour développer de nouvelles infrastructures, alors retroussez vos manches car les rêves n'attendent pas !"
+6,TEXT_BANLOP002_04682_SEQ_06,
+7,TEXT_BANLOP002_04682_SEQ_07,
+8,TEXT_BANLOP002_04682_SEQ_08,
+9,TEXT_BANLOP002_04682_SEQ_09,
+10,TEXT_BANLOP002_04682_SEQ_10,
+11,TEXT_BANLOP002_04682_SEQ_11,
+12,TEXT_BANLOP002_04682_SEQ_12,
+13,TEXT_BANLOP002_04682_SEQ_13,
+14,TEXT_BANLOP002_04682_SEQ_14,
+15,TEXT_BANLOP002_04682_SEQ_15,
+16,TEXT_BANLOP002_04682_SEQ_16,
+17,TEXT_BANLOP002_04682_SEQ_17,
+18,TEXT_BANLOP002_04682_SEQ_18,
+19,TEXT_BANLOP002_04682_SEQ_19,
+20,TEXT_BANLOP002_04682_SEQ_20,
+21,TEXT_BANLOP002_04682_SEQ_21,
+22,TEXT_BANLOP002_04682_SEQ_22,
+23,TEXT_BANLOP002_04682_SEQ_23,
+24,TEXT_BANLOP002_04682_TODO_00,Trouver Repairingway
+25,TEXT_BANLOP002_04682_TODO_01,Parler à Dreamingway
+26,TEXT_BANLOP002_04682_TODO_02,Reparler à Dreamingway
+27,TEXT_BANLOP002_04682_TODO_03,Fabriquer 
+28,TEXT_BANLOP002_04682_TODO_04,
+29,TEXT_BANLOP002_04682_TODO_05,
+30,TEXT_BANLOP002_04682_TODO_06,
+31,TEXT_BANLOP002_04682_TODO_07,
+32,TEXT_BANLOP002_04682_TODO_08,
+33,TEXT_BANLOP002_04682_TODO_09,
+34,TEXT_BANLOP002_04682_TODO_10,
+35,TEXT_BANLOP002_04682_TODO_11,
+36,TEXT_BANLOP002_04682_TODO_12,
+37,TEXT_BANLOP002_04682_TODO_13,
+38,TEXT_BANLOP002_04682_TODO_14,
+39,TEXT_BANLOP002_04682_TODO_15,
+40,TEXT_BANLOP002_04682_TODO_16,
+41,TEXT_BANLOP002_04682_TODO_17,
+42,TEXT_BANLOP002_04682_TODO_18,
+43,TEXT_BANLOP002_04682_TODO_19,
+44,TEXT_BANLOP002_04682_TODO_20,
+45,TEXT_BANLOP002_04682_TODO_21,
+46,TEXT_BANLOP002_04682_TODO_22,
+47,TEXT_BANLOP002_04682_TODO_23,
+48,TEXT_BANLOP002_04682_DREAMINGWAY_000_000,"Grâce à votre aide, Player, nous sommes parvenus à poser la première pierre des Ateliers Dreaming ! Continuons sur cette lancée afin de pouvoir présenter aux Loporrites toujours plus de rêves !"
+49,TEXT_BANLOP002_04682_DREAMINGWAY_000_001,"Pour ce faire, l'idéal serait que nous trouvions d'autres Loporrites ayant déjà découvert leur vocation..."
+50,TEXT_BANLOP002_04682_MANAGINGWAY_000_002,（★未使用／削除予定★）
+51,TEXT_BANLOP002_04682_DREAMINGWAY_000_003,（★未使用／削除予定★）
+52,TEXT_BANLOP002_04682_MANAGINGWAY_000_004,（★未使用／削除予定★）
+53,TEXT_BANLOP002_04682_DREAMINGWAY_000_005,（★未使用／削除予定★）
+54,TEXT_BANLOP002_04682_MANAGINGWAY_000_006,（★未使用／削除予定★）
+55,TEXT_BANLOP002_04682_MANAGINGWAY_000_007,Des Loporrites s'adonnant déjà à leur passion... Laissez-moi réfléchir...
+56,TEXT_BANLOP002_04682_MANAGINGWAY_000_008,"Dans ce cas, j'ai peut-être sous la patte la personne qu'il vous faut !"
+57,TEXT_BANLOP002_04682_DREAMINGWAY_000_009,Oooh ! Qui est-ce donc !?
+58,TEXT_BANLOP002_04682_MANAGINGWAY_000_010,"Nous avons parmi nos collaborateurs une Loporrite qui adore réparer tout ce qu'elle trouve. Mal­heu­reu­se­ment, elle est de nature assez solitaire... Vous allez peut-être avoir du mal à la convaincre..."
+59,TEXT_BANLOP002_04682_MANAGINGWAY_000_011,（★未使用／削除予定★）
+60,TEXT_BANLOP002_04682_DREAMINGWAY_000_012,"Pour la parlotte, comptez sur moi ! Et comment s'appelle cette candidate potentielle ?"
+61,TEXT_BANLOP002_04682_DREAMINGWAY_000_013,（★未使用／削除予定★）
+62,TEXT_BANLOP002_04682_MANAGINGWAY_000_014,"Son nom est Repairingway. En ce moment, elle devrait être en train de retaper des machines du côté de la Garenne sempervirente."
+63,TEXT_BANLOP002_04682_DREAMINGWAY_000_015,Compris ! J'y bondis de ce pas !
+64,TEXT_BANLOP002_04682_DREAMINGWAY_000_016,"Et vous allez m'accompagner, n'est-ce pas Player ?"
+65,TEXT_BANLOP002_04682_DREAMINGWAY_000_017,Vous pensez que c'est Repairingway ?
+66,TEXT_BANLOP002_04682_DREAMINGWAY_000_020,"S-salut ! C'est toi, Repairingway ?"
+67,TEXT_BANLOP002_04682_REPAIRINGWAY_000_021,C'est comme ça qu'on m'appelle. À qui ai-je l'honneur ?
+68,TEXT_BANLOP002_04682_DREAMINGWAY_000_022,"Moi, c'est Dreamingway ! En résumé, on a besoin de Loporrites comme toi, donc je suis venu t'inviter à rejoindre notre projet !"
+69,TEXT_BANLOP002_04682_REPAIRINGWAY_000_023,Hmm... Et qu'est-ce que vous faites exactement ?
+70,TEXT_BANLOP002_04682_REPAIRINGWAY_000_024,Donner un nouveau but aux Loporrites démotivés en leur présentant des vocations comme la mienne... J'avoue que votre invitation est tentante.
+71,TEXT_BANLOP002_04682_REPAIRINGWAY_000_025,"Mais comme tu peux le voir, je suis trop occupée à réparer des machines et des équipements. Je ne pense pas avoir de temps à vous consacrer. Que les humains viennent vivre sur la lune ou pas, il faut bien que quelqu'un se charge de la maintenance, tu comprends ?"
+72,TEXT_BANLOP002_04682_DREAMINGWAY_000_026,"Ah... Bon, d'accord..."
+73,TEXT_BANLOP002_04682_REPAIRINGWAY_000_027,"Cela étant dit, j'adhère totalement à ce que vous cherchez à accomplir au travers de votre projet. Du coup, que dirais-tu d'essayer de recruter plutôt Inventingway à ma place ?"
+74,TEXT_BANLOP002_04682_DREAMINGWAY_000_028,Inventingway ?
+75,TEXT_BANLOP002_04682_REPAIRINGWAY_000_029,"Oui, un Loporrite qui est toujours motivé tant qu'on le laisse tripatouiller des dispositifs. Il m'est même arrivé de lui demander son aide pour quelques opérations de maintenance par le passé."
+76,TEXT_BANLOP002_04682_REPAIRINGWAY_000_030,"Je reconnais qu'il est par­ti­cu­liè­rement doué en mécanique... Mal­heu­reu­se­ment, il ne se limite jamais à un simple dépannage. À chaque fois, il se sent obligé d'apporter sa touche personnelle."
+77,TEXT_BANLOP002_04682_REPAIRINGWAY_100_030,"L'autre jour, je lui ai demandé de réparer une cultivatrice de carottes... Quand j'avais le dos tourné, il lui a rajouté des bras et des jambes pour qu'elle arrose les carottes en effectuant la danse de la pluie... Je l'ai viré aussi sec !"
+78,TEXT_BANLOP002_04682_REPAIRINGWAY_000_031,"Mais s'il rejoignait ton projet, je pense qu'il serait comme une carotte dans son terreau. Avoir la liberté de bidouiller des machines tout son soûl lui permettrait de développer ses talents."
+79,TEXT_BANLOP002_04682_DREAMINGWAY_000_032,"En effet, c'est cer­tai­ne­ment le Loporrite qu'il nous faut ! Et tu saurais me dire où je peux trouver cet Inventingway ?"
+80,TEXT_BANLOP002_04682_REPAIRINGWAY_000_033,"J'imagine qu'il doit traîner un peu plus au nord d'ici. Il adore les machines de ce coin-là, même s'il ne peut les toucher qu'avec les yeux."
+81,TEXT_BANLOP002_04682_DREAMINGWAY_000_034,"Merci beaucoup, Repairingway ! Nous allons partir à sa rencontre tout de suite !"
+82,TEXT_BANLOP002_04682_REPAIRINGWAY_000_035,（★未使用／削除予定★）
+83,TEXT_BANLOP002_04682_INVENTINGWAY_000_036,"Hm ? T'es qui, toi ? Qu'est-ce que tu me veux !?"
+84,TEXT_BANLOP002_04682_REPAIRINGWAY_000_037,J'espère que votre projet rencontrera le succès qu'il mérite.
+85,TEXT_BANLOP002_04682_DREAMINGWAY_000_040,"Bonjour... C'est bien toi, Inventingway ?"
+86,TEXT_BANLOP002_04682_INVENTINGWAY_000_041,"Hm ? Et toi, t'es qui ? Qu'est-ce que tu me veux !?"
+87,TEXT_BANLOP002_04682_DREAMINGWAY_000_042,"Heu... C'est Repairingway qui m'a dit où te trouver. Elle m'a parlé de tes talents particuliers, et j'aurais une proposition à te soumettre..."
+88,TEXT_BANLOP002_04682_INVENTINGWAY_000_043,"Une proposition !? Attends deux secondes ! En résumé, t'es en train de me dire que je pourrai fabriquer les machines que je veux, comme je veux ?"
+89,TEXT_BANLOP002_04682_DREAMINGWAY_000_044,"Et pourtant, c'est la pure vérité ! T'as tapé dans le mille !"
+90,TEXT_BANLOP002_04682_INVENTINGWAY_000_045,"Dreamingway, c'est ça ? Je vais te dire un truc, mon p'tit bonhomme..."
+91,TEXT_BANLOP002_04682_INVENTINGWAY_000_046,Je pouvais pas rêver mieux ! C'est trop génial !!
+92,TEXT_BANLOP002_04682_INVENTINGWAY_000_047,"Comme tu le sais déjà, je suis un aficionado des machines ! J'ai passé un nombre incalculable d'heures à dessiner des plans dans mon bureau d'études !"
+93,TEXT_BANLOP002_04682_INVENTINGWAY_100_047,"Les unités d'assistance, ce sont mes enfants ! Enfin... des enfants terribles malgré eux... Qui aurait imaginé que, contrairement à nos données, les humains soient si verticalement contrariés qu'elles les considèrent comme des nuisibles !?"
+94,TEXT_BANLOP002_04682_INVENTINGWAY_000_048,"Quand je m'en suis rendu compte, j'ai voulu corriger mon erreur... Mais finalement, on m'a dit que c'était pas la peine que je m'embête avec ça... Pour le coup, je savais plus où me mettre."
+95,TEXT_BANLOP002_04682_INVENTINGWAY_000_049,"Donc j'ai voulu me reconvertir dans la maintenance. Mais malgré mes efforts, mes travers de savant fou ont eu raison de cette opportunité..."
+96,TEXT_BANLOP002_04682_INVENTINGWAY_000_050,（★未使用／削除予定★）
+97,TEXT_BANLOP002_04682_INVENTINGWAY_000_051,（★未使用／削除予定★）
+98,TEXT_BANLOP002_04682_INVENTINGWAY_000_052,"Et te voilà, avec le job de mes rêves qui plus est ! J'en crois pas mes grandes oreilles ! Merci ! Heu... Comment tu t'appelles déjà ?"
+99,TEXT_BANLOP002_04682_DREAMINGWAY_000_053,Dreamingway !!
+100,TEXT_BANLOP002_04682_INVENTINGWAY_000_054,"Ah oui, c'est ça ! Eh bien compte sur moi, Dreamingway ! Nah ha ha ha !!"
+101,TEXT_BANLOP002_04682_INVENTINGWAY_000_055,"Bon, affaire conclue, passons aux choses sérieuses ! Allons de ce pas fabriquer une nouvelle machine qu'on pourra montrer à nos semblables en manque de peps !"
+102,TEXT_BANLOP002_04682_INVENTINGWAY_000_056,... Oh noooooooon ! J'ai encore oublié un détail important !
+103,TEXT_BANLOP002_04682_INVENTINGWAY_000_057,"Les idées de machines, elles sont conservées pré­cieu­se­ment dans ma caboche, mais je n'ai plus de bureau d'études et pas de matos sous la main... Ah... Que faire ? Que faire ?"
+104,TEXT_BANLOP002_04682_INVENTINGWAY_100_057,（★未使用／削除予定★）
+105,TEXT_BANLOP002_04682_DREAMINGWAY_000_058,"Si c'est juste un problème matériel, je te propose qu'on en discute aux Ateliers Dreaming. Je suis certain qu'on arrivera à te fournir ce dont tu as besoin !"
+106,TEXT_BANLOP002_04682_INVENTINGWAY_000_059,"Ateliers... Dreaming ? C'est quoi ce truc ? Bref, peu importe, allons-y tout de suite !"
+107,TEXT_BANLOP002_04682_DREAMINGWAY_000_060,"Player, c'est dans la poche ! On se retrouve tout à l'heure aux Ateliers Dreaming, d'accord ?"
+108,TEXT_BANLOP002_04682_INVENTINGWAY_000_061,Oooh ! Mais qu'est-ce que c'est tout ça !?
+109,TEXT_BANLOP002_04682_SUPPORTER_000_062,Dreamingway souhaiterait vous parler !
+110,TEXT_BANLOP002_04682_DREAMINGWAY_000_070,Je vous attendais ! Managingway s'est déjà occupé de rassembler tout ce qu'Inventingway lui avait demandé !
+111,TEXT_BANLOP002_04682_DREAMINGWAY_000_071,Et il aurait besoin que vous vous chargiez de le seconder dans sa tâche. Je vais vous donner tous les détails !
+112,TEXT_BANLOP002_04682_DREAMINGWAY_000_072,Pourriez-vous déployer tout votre savoir-faire et utiliser ces matériaux afin de fabriquer des outils de précision adaptés ?
+113,TEXT_BANLOP002_04682_DREAMINGWAY_000_073,Pourriez-vous déployer tout votre savoir-faire et utiliser ces matériaux afin de fabriquer des isolants adaptés ?
+114,TEXT_BANLOP002_04682_DREAMINGWAY_000_074,Pourriez-vous déployer tout votre savoir-faire et utiliser ces matériaux afin de synthétiser une huile de machine adaptée ?
+115,TEXT_BANLOP002_04682_DREAMINGWAY_000_075,"Managingway s'est chargé de rassembler tous les éléments nécessaires à votre travail ! Les voici, d'ailleurs !"
+116,TEXT_BANLOP002_04682_DREAMINGWAY_000_076,"Si jamais il vous faut davantage de ressources, n'hésitez pas à solliciter l'unité d'assistance onirique pour qu'elle vous les fournisse. Elle a tout un stock à disposition. Merci d'avance, Player !"
+117,TEXT_BANLOP002_04682_DREAMINGWAY_000_077,"Comment ? Il vous faut davantage de matériaux ? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
+118,TEXT_BANLOP002_04682_DREAMINGWAY_000_078,"Comment ? Il vous faut davantage de matériaux ? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
+119,TEXT_BANLOP002_04682_DREAMINGWAY_000_0079,"Comment ? Il vous faut davantage de matériaux ? Dans ce cas, allez voir l'unité d'assistance onirique, elle a tout ce dont vous avez besoin."
+120,TEXT_BANLOP002_04682_SUPPORTER_000_080,"Un instant, je vous prie... Accès au stock... Erreur ! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession !"
+121,TEXT_BANLOP002_04682_SUPPORTER_000_081,"Un instant, je vous prie... Accès au stock... Erreur ! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession !"
+122,TEXT_BANLOP002_04682_SUPPORTER_000_082,"Un instant, je vous prie... Accès au stock... Erreur ! Il semblerait que vous ayez déjà tous les matériaux nécessaires en votre possession !"
+123,TEXT_BANLOP002_04682_SUPPORTER_000_083,"Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage !"
+124,TEXT_BANLOP002_04682_SUPPORTER_000_084,"Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage !"
+125,TEXT_BANLOP002_04682_SUPPORTER_000_085,"Un instant, je vous prie... Accès au stock... Voici les matériaux demandés. Faites-en bon usage !"
+126,TEXT_BANLOP002_04682_DREAMINGWAY_000_090,"Oh, vous avez déjà terminé !?"
+127,TEXT_BANLOP002_04682_DREAMINGWAY_000_091,"Ouah !!! Je ne savais pas que vous étiez capable de telles prouesses, Player ! Magnifique !"
+128,TEXT_BANLOP002_04682_DREAMINGWAY_000_092,"Grâce à vous, nous pouvons commencer la con­struc­tion de nouvelles machines ! Allez, c'est parti !"
+129,TEXT_BANLOP002_04682_DREAMINGWAY_000_100,"Ooh ! Im­pres­sionnant ! Visez-moi ces drôles d'appareils, quelle originalité !"
+130,TEXT_BANLOP002_04682_INVENTINGWAY_000_101,"Du calme, vous n'avez encore rien vu ! Ce n'est que l'échauf­fe­ment."
+131,TEXT_BANLOP002_04682_MANAGINGWAY_000_102,"Hmm... Je me demande à quoi servent tous ces engins... Enfin, ce n'est pas comme si nous lui avions demandé de construire quoi que ce soit d'utile, donc ne chipotons pas..."
+132,TEXT_BANLOP002_04682_INVENTINGWAY_000_103,Bienvenue ! N'hésitez pas à vous amuser avec mes machines plus intrigantes les unes que les autres !
+133,TEXT_BANLOP002_04682_MANAGINGWAY_000_104,"Et si vous voulez vous essayer à la mécanique, faites-le-moi savoir ! Découvrons ensemble vos rêves !"
+134,TEXT_BANLOP002_04682_TALKINGWAY_000_105,Hm... Et maintenant un atelier bricolage du dimanche avec de la quincaillerie inutile ? Que cherchez-vous à accomplir alors que tout ce que nous entreprenons est désormais vide de sens ?
+135,TEXT_BANLOP002_04682_TALKINGWAY_000_106,"Ou peut-être pas ? Oui... Pas totalement inutile après tout. Car j'imagine qu'au moins, cette pantomime vous fera prendre conscience de la futilité de votre existence et vous fera procéder bien sagement à une demande de réintégration en stase..."
+136,TEXT_BANLOP002_04682_TALKINGWAY_000_107,... Mais j'imagine que seul l'avenir nous le dira. Je suivrai de près vos élucubrations.
+137,TEXT_BANLOP002_04682_MANAGINGWAY_000_108,Qui est ce Loporrite hautain ?
+138,TEXT_BANLOP002_04682_DREAMINGWAY_000_109,Qu-quoi qu'il en soit ! Notre rutilante station machines-outils est fonctionnelle et c'est tout ce qui compte pour le moment ! Je suis vraiment heureux de voir qu'elle a le succès qu'elle mérite !
+139,TEXT_BANLOP002_04682_DREAMINGWAY_000_110,Continuons de construire des nouvelles stations qui ne manqueront pas de stimuler l'imagination des Loporrites en quête de nouveaux rêves !
+140,TEXT_BANLOP002_04682_SYSTEM_000_111,La création de la station machines-outils est terminée ! Continuez de participer au développement des Ateliers Dreaming afin de permettre à un plus grand nombre de Loporrites de découvrir leurs rêves !
+141,TEXT_BANLOP002_04682_SYSTEM_000_112,Votre réputation auprès des Loporrites des Ateliers Dreaming est passée à “Estimé”.
+142,TEXT_BANLOP002_04682_SYSTEM_000_113,"Grâce à vos actions, vos relations avec eux s'améliorent de jour en jour."
+143,TEXT_BANLOP002_04682_SYSTEM_000_114,Vous pouvez désormais lancer de nouvelles quêtes quotidiennes en vous adressant à Managingway.
+144,TEXT_BANLOP002_04682_SYSTEM_000_115,"De plus, trois quêtes sup­plé­men­tai­res vous sont proposées, uniquement pendant la journée d'obtention de votre nouveau rang de réputation. Vous ne pouvez les accepter que dans la limite de votre quota quotidien."
+145,TEXT_BANLOP002_04682_SYSTEM_000_116,Managingway vous les proposera après que vous aurez lancé celles qui étaient disponibles avant le gain de rang.
+146,TEXT_BANLOP002_04682_SYSTEM_000_117,"En outre, vous pouvez aussi acquérir de nouveaux articles auprès de Coiningway. Faites-en bon usage au cours de vos aventures !"

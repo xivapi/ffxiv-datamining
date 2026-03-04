@@ -1,75 +1,72 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CHRHDY151_04653_SEQ_00","Der Handwerker der Mandervilles steht bereit für deine Schmiedeanfrage.
+0,TEXT_CHRHDY151_04653_SEQ_00,"Der Handwerker der Mandervilles steht bereit für deine Schmiedeanfrage.
 
-※ Dies ist ein <UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow> Auftrag mit festem Job<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Er kann nur mit dem Job weitergespielt werden, mit dem er angenommen wurde."
-1,"TEXT_CHRHDY151_04653_SEQ_01","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow> Auftrag mit festem Job<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Du richtest eine Anfrage zum Schmieden einer neuen Manderville-Waffe. Der freundliche Handwerker der Mandervilles bittet dich lediglich darum, ihm die erforderliche Menge Manderium-Meteoritenbrocken zu bringen<Indent/>- eine anstrengende und teure Beschaffung, mit der du bereits bestens vertraut bist."
-2,"TEXT_CHRHDY151_04653_SEQ_02","Kaum hast du die Meteoritenbrocken bei dem Handwerker abgeliefert, arbeiten er und Gerolt an der Erschaffung einer weiteren meisterhaften Manderville-Waffe. Wenn du dein Arsenal an Manderville-Waffen erweitern möchtest, brauchst du anscheinend nur zu fragen<Indent/>... Natürlich vorausgesetzt, du hast eine ausreichende Anzahl der exorbitant teuren Himmelsfelsen dabei."
-3,"TEXT_CHRHDY151_04653_SEQ_03",""
-4,"TEXT_CHRHDY151_04653_SEQ_04",""
-5,"TEXT_CHRHDY151_04653_SEQ_05",""
-6,"TEXT_CHRHDY151_04653_SEQ_06",""
-7,"TEXT_CHRHDY151_04653_SEQ_07",""
-8,"TEXT_CHRHDY151_04653_SEQ_08",""
-9,"TEXT_CHRHDY151_04653_SEQ_09",""
-10,"TEXT_CHRHDY151_04653_SEQ_10",""
-11,"TEXT_CHRHDY151_04653_SEQ_11",""
-12,"TEXT_CHRHDY151_04653_SEQ_12",""
-13,"TEXT_CHRHDY151_04653_SEQ_13",""
-14,"TEXT_CHRHDY151_04653_SEQ_14",""
-15,"TEXT_CHRHDY151_04653_SEQ_15",""
-16,"TEXT_CHRHDY151_04653_SEQ_16",""
-17,"TEXT_CHRHDY151_04653_SEQ_17",""
-18,"TEXT_CHRHDY151_04653_SEQ_18",""
-19,"TEXT_CHRHDY151_04653_SEQ_19",""
-20,"TEXT_CHRHDY151_04653_SEQ_20",""
-21,"TEXT_CHRHDY151_04653_SEQ_21",""
-22,"TEXT_CHRHDY151_04653_SEQ_22",""
-23,"TEXT_CHRHDY151_04653_SEQ_23",""
-24,"TEXT_CHRHDY151_04653_TODO_00","Manderium-Meteoritenbrocken für den Handwerker der Mandervilles besorgen"
-25,"TEXT_CHRHDY151_04653_TODO_01",""
-26,"TEXT_CHRHDY151_04653_TODO_02",""
-27,"TEXT_CHRHDY151_04653_TODO_03",""
-28,"TEXT_CHRHDY151_04653_TODO_04",""
-29,"TEXT_CHRHDY151_04653_TODO_05",""
-30,"TEXT_CHRHDY151_04653_TODO_06",""
-31,"TEXT_CHRHDY151_04653_TODO_07",""
-32,"TEXT_CHRHDY151_04653_TODO_08",""
-33,"TEXT_CHRHDY151_04653_TODO_09",""
-34,"TEXT_CHRHDY151_04653_TODO_10",""
-35,"TEXT_CHRHDY151_04653_TODO_11",""
-36,"TEXT_CHRHDY151_04653_TODO_12",""
-37,"TEXT_CHRHDY151_04653_TODO_13",""
-38,"TEXT_CHRHDY151_04653_TODO_14",""
-39,"TEXT_CHRHDY151_04653_TODO_15",""
-40,"TEXT_CHRHDY151_04653_TODO_16",""
-41,"TEXT_CHRHDY151_04653_TODO_17",""
-42,"TEXT_CHRHDY151_04653_TODO_18",""
-43,"TEXT_CHRHDY151_04653_TODO_19",""
-44,"TEXT_CHRHDY151_04653_TODO_20",""
-45,"TEXT_CHRHDY151_04653_TODO_21",""
-46,"TEXT_CHRHDY151_04653_TODO_22",""
-47,"TEXT_CHRHDY151_04653_TODO_23",""
-48,"TEXT_CHRHDY151_04653_SYSTEM_100_000","Mit diesem Auftrag kann nur die Manderville-Waffe für deinen aktuell ausgewählten Job erworben werden. Der Job kann nach Annahme des Auftrags nicht gewechselt werden. Möchtest du den Auftrag mit deinem aktuellen Job <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> annehmen?"
-49,"TEXT_CHRHDY151_04653_SYSTEM_110_000","Willst du wirklich eine Manderville-Waffe für den Job <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> herstellen?"
-50,"TEXT_CHRHDY151_04653_Q2_000_000","Was möchtest du tun?"
-51,"TEXT_CHRHDY151_04653_A2_000_000","Nein, ich möchte den Job wechseln."
-52,"TEXT_CHRHDY151_04653_A2_000_001","Ja, ich möchte den Auftrag als <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow><If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If><UIGlow>01</UIGlow><UIForeground>01</UIForeground> weiterspielen."
-53,"TEXT_CHRHDY151_04653_SYSTEM_120_000","Bitte sprich den Handwerker der Mandervilles erneut an, wenn du bereit bist, diesen Auftrag anzunehmen."
-54,"TEXT_CHRHDY151_04653_SYSTEM_130_000","Du hast <SheetDe(Item,2,IntegerParameter(1),1,4,1)/> und <SheetDe(Item,2,IntegerParameter(2),1,4,1)/> bereits erlangt. Wechsle zu einem anderen Job und sprich erneut mit dem Handwerker der Mandervilles."
-55,"TEXT_CHRHDY151_04653_SYSTEM_140_000","Du hast <SheetDe(Item,2,IntegerParameter(1),1,4,1)/> bereits erlangt. Wechsle zu einem anderen Job und sprich erneut mit dem Handwerker der Mandervilles."
-56,"TEXT_CHRHDY151_04653_CRAFTER04653_000_000","Seid gegrüßt, <If(PlayerParameter(4))>Frau<Else/>Herr</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Ich stehe bereit, um Euch jede gewünschte Art von Manderville-Waffe anzufertigen."
-57,"TEXT_CHRHDY151_04653_CRAFTER04653_000_001","Bevor ich jedoch mit Eurer Anfrage beginnen kann, muss ich Euch bitten, mir die erforderliche Menge an Manderium-Meteoriten zu liefern. Drei feste Brocken von dem Zeug, um genau zu sein."
-58,"TEXT_CHRHDY151_04653_SYSTEM_100_001","Manderium-Meteoritenbrocken können bei Jubrunnah am Ätherytenplatz in Radz-at-Han erworben werden."
-59,"TEXT_CHRHDY151_04653_CRAFTER04653_150_001","Macht Ihr Fortschritte beim Erwerb der Manderium-Meteoritenbrocken? ... Oh, es ist also noch in Arbeit. Keine Sorge! Ich werde mir die Wartezeit damit versüßen, mir all die Möglichkeiten auszumalen, wie ich meinen beträchtlichen Vorschuss ausgeben könnte."
-60,"TEXT_CHRHDY151_04653_SYSTEM_160_001","Manderium-Meteoritenbrocken können bei Jubrunnah am Ätherytenplatz in Radz-at-Han erworben werden."
-61,"TEXT_CHRHDY151_04653_CRAFTER04653_000_0010","Habt Ihr etwas für mich, <If(PlayerParameter(4))>Frau<Else/>Herr</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>?"
-62,"TEXT_CHRHDY151_04653_CRAFTER04653_000_0011","Ah, die Meteoritenbrocken! Der Extraktionsprozess sollte nur einen Augenblick dauern, daher werde ich Meister Gerolt bitten, seinen Amboss bereit zu machen."
-63,"TEXT_CHRHDY151_04653_GEROLT_000_012","Ein weiteres Meisterwerk!"
-64,"TEXT_CHRHDY151_04653_GEROLT_000_013","<Clickable(<SheetDe(Item,2,IntegerParameter(1),1,1,1)/>)/> und <SheetDe(Item,2,IntegerParameter(2),1,1,1)/>!"
-65,"TEXT_CHRHDY151_04653_GEROLT_000_014","<Clickable(<SheetDe(Item,2,IntegerParameter(1),1,1,1)/>)/>!"
-66,"TEXT_CHRHDY151_04653_CRAFTER04653_000_015","Bravo! Ihr seid eine wahre Inspiration, Meister Gerolt! Eine solche Perfektion hätte ich niemals alleine erreichen können, und schon gar nicht mit so vielen Klamotten!"
-67,"TEXT_CHRHDY151_04653_GEROLT_000_016","Und das alles in Windeseile, ha!"
-68,"TEXT_CHRHDY151_04653_CRAFTER04653_000_017","Ich hoffe, Ihr seid mit dem Ergebnis unserer Arbeit zufrieden? Solltet Ihr jemals Euer Arsenal an Manderville-Waffen erweitern wollen, stehe ich Euch auch in absehbarer Zukunft gerne zur Verfügung."
+※ Dies ist ein ** Auftrag mit festem Job**. Er kann nur mit dem Job weitergespielt werden, mit dem er angenommen wurde."
+1,TEXT_CHRHDY151_04653_SEQ_01,"** Auftrag mit festem Job**
+Du richtest eine Anfrage zum Schmieden einer neuen Manderville-Waffe. Der freundliche Handwerker der Mandervilles bittet dich lediglich darum, ihm die erforderliche Menge Manderium-Meteoritenbrocken zu bringen - eine anstrengende und teure Beschaffung, mit der du bereits bestens vertraut bist."
+2,TEXT_CHRHDY151_04653_SEQ_02,"Kaum hast du die Meteoritenbrocken bei dem Handwerker abgeliefert, arbeiten er und Gerolt an der Erschaffung einer weiteren meisterhaften Manderville-Waffe. Wenn du dein Arsenal an Manderville-Waffen erweitern möchtest, brauchst du anscheinend nur zu fragen ... Natürlich vorausgesetzt, du hast eine ausreichende Anzahl der exorbitant teuren Himmelsfelsen dabei."
+3,TEXT_CHRHDY151_04653_SEQ_03,
+4,TEXT_CHRHDY151_04653_SEQ_04,
+5,TEXT_CHRHDY151_04653_SEQ_05,
+6,TEXT_CHRHDY151_04653_SEQ_06,
+7,TEXT_CHRHDY151_04653_SEQ_07,
+8,TEXT_CHRHDY151_04653_SEQ_08,
+9,TEXT_CHRHDY151_04653_SEQ_09,
+10,TEXT_CHRHDY151_04653_SEQ_10,
+11,TEXT_CHRHDY151_04653_SEQ_11,
+12,TEXT_CHRHDY151_04653_SEQ_12,
+13,TEXT_CHRHDY151_04653_SEQ_13,
+14,TEXT_CHRHDY151_04653_SEQ_14,
+15,TEXT_CHRHDY151_04653_SEQ_15,
+16,TEXT_CHRHDY151_04653_SEQ_16,
+17,TEXT_CHRHDY151_04653_SEQ_17,
+18,TEXT_CHRHDY151_04653_SEQ_18,
+19,TEXT_CHRHDY151_04653_SEQ_19,
+20,TEXT_CHRHDY151_04653_SEQ_20,
+21,TEXT_CHRHDY151_04653_SEQ_21,
+22,TEXT_CHRHDY151_04653_SEQ_22,
+23,TEXT_CHRHDY151_04653_SEQ_23,
+24,TEXT_CHRHDY151_04653_TODO_00,Manderium-Meteoritenbrocken für den Handwerker der Mandervilles besorgen
+25,TEXT_CHRHDY151_04653_TODO_01,
+26,TEXT_CHRHDY151_04653_TODO_02,
+27,TEXT_CHRHDY151_04653_TODO_03,
+28,TEXT_CHRHDY151_04653_TODO_04,
+29,TEXT_CHRHDY151_04653_TODO_05,
+30,TEXT_CHRHDY151_04653_TODO_06,
+31,TEXT_CHRHDY151_04653_TODO_07,
+32,TEXT_CHRHDY151_04653_TODO_08,
+33,TEXT_CHRHDY151_04653_TODO_09,
+34,TEXT_CHRHDY151_04653_TODO_10,
+35,TEXT_CHRHDY151_04653_TODO_11,
+36,TEXT_CHRHDY151_04653_TODO_12,
+37,TEXT_CHRHDY151_04653_TODO_13,
+38,TEXT_CHRHDY151_04653_TODO_14,
+39,TEXT_CHRHDY151_04653_TODO_15,
+40,TEXT_CHRHDY151_04653_TODO_16,
+41,TEXT_CHRHDY151_04653_TODO_17,
+42,TEXT_CHRHDY151_04653_TODO_18,
+43,TEXT_CHRHDY151_04653_TODO_19,
+44,TEXT_CHRHDY151_04653_TODO_20,
+45,TEXT_CHRHDY151_04653_TODO_21,
+46,TEXT_CHRHDY151_04653_TODO_22,
+47,TEXT_CHRHDY151_04653_TODO_23,
+48,TEXT_CHRHDY151_04653_SYSTEM_100_000,Mit diesem Auftrag kann nur die Manderville-Waffe für deinen aktuell ausgewählten Job erworben werden. Der Job kann nach Annahme des Auftrags nicht gewechselt werden. Möchtest du den Auftrag mit deinem aktuellen Job **** annehmen?
+49,TEXT_CHRHDY151_04653_SYSTEM_110_000,Willst du wirklich eine Manderville-Waffe für den Job **** herstellen?
+50,TEXT_CHRHDY151_04653_Q2_000_000,Was möchtest du tun?
+51,TEXT_CHRHDY151_04653_A2_000_000,"Nein, ich möchte den Job wechseln."
+52,TEXT_CHRHDY151_04653_A2_000_001,"Ja, ich möchte den Auftrag als **** weiterspielen."
+53,TEXT_CHRHDY151_04653_SYSTEM_120_000,"Bitte sprich den Handwerker der Mandervilles erneut an, wenn du bereit bist, diesen Auftrag anzunehmen."
+54,TEXT_CHRHDY151_04653_SYSTEM_130_000,Du hast  und  bereits erlangt. Wechsle zu einem anderen Job und sprich erneut mit dem Handwerker der Mandervilles.
+55,TEXT_CHRHDY151_04653_SYSTEM_140_000,Du hast  bereits erlangt. Wechsle zu einem anderen Job und sprich erneut mit dem Handwerker der Mandervilles.
+56,TEXT_CHRHDY151_04653_CRAFTER04653_000_000,"Seid gegrüßt, Frau ! Ich stehe bereit, um Euch jede gewünschte Art von Manderville-Waffe anzufertigen."
+57,TEXT_CHRHDY151_04653_CRAFTER04653_000_001,"Bevor ich jedoch mit Eurer Anfrage beginnen kann, muss ich Euch bitten, mir die erforderliche Menge an Manderium-Meteoriten zu liefern. Drei feste Brocken von dem Zeug, um genau zu sein."
+58,TEXT_CHRHDY151_04653_SYSTEM_100_001,Manderium-Meteoritenbrocken können bei Jubrunnah am Ätherytenplatz in Radz-at-Han erworben werden.
+59,TEXT_CHRHDY151_04653_CRAFTER04653_150_001,"Macht Ihr Fortschritte beim Erwerb der Manderium-Meteoritenbrocken? ... Oh, es ist also noch in Arbeit. Keine Sorge! Ich werde mir die Wartezeit damit versüßen, mir all die Möglichkeiten auszumalen, wie ich meinen beträchtlichen Vorschuss ausgeben könnte."
+60,TEXT_CHRHDY151_04653_SYSTEM_160_001,Manderium-Meteoritenbrocken können bei Jubrunnah am Ätherytenplatz in Radz-at-Han erworben werden.
+61,TEXT_CHRHDY151_04653_CRAFTER04653_000_0010,"Habt Ihr etwas für mich, Frau ?"
+62,TEXT_CHRHDY151_04653_CRAFTER04653_000_0011,"Ah, die Meteoritenbrocken! Der Extraktionsprozess sollte nur einen Augenblick dauern, daher werde ich Meister Gerolt bitten, seinen Amboss bereit zu machen."
+63,TEXT_CHRHDY151_04653_GEROLT_000_012,Ein weiteres Meisterwerk!
+64,TEXT_CHRHDY151_04653_GEROLT_000_013, und !
+65,TEXT_CHRHDY151_04653_GEROLT_000_014,!
+66,TEXT_CHRHDY151_04653_CRAFTER04653_000_015,"Bravo! Ihr seid eine wahre Inspiration, Meister Gerolt! Eine solche Perfektion hätte ich niemals alleine erreichen können, und schon gar nicht mit so vielen Klamotten!"
+67,TEXT_CHRHDY151_04653_GEROLT_000_016,"Und das alles in Windeseile, ha!"
+68,TEXT_CHRHDY151_04653_CRAFTER04653_000_017,"Ich hoffe, Ihr seid mit dem Ergebnis unserer Arbeit zufrieden? Solltet Ihr jemals Euer Arsenal an Manderville-Waffen erweitern wollen, stehe ich Euch auch in absehbarer Zukunft gerne zur Verfügung."

@@ -1,132 +1,129 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANNAM002_03098_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANNAM002_03098_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Gyoshin hat dir offenbar etwas mitzuteilen."
-1,"TEXT_BANNAM002_03098_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst und die Klasse (der Job) darf nicht gewechselt werden.
+1,TEXT_BANNAM002_03098_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst und die Klasse (der Job) darf nicht gewechselt werden.
 
-Überreiche den untätigen Namazuo, die in der Nähe des Yuzuka-Herrenhauses in Yanxia verweilen, jeweils <SheetDe(EventItem,1,2002472,1,4,1)/> und werbe für das Fest der Großen Flosse."
-2,"TEXT_BANNAM002_03098_SEQ_02","Du überreichst den Namazuo <SheetDe(EventItem,2,2002472,2,4,1)/>. Melde dich bei Gyoshin in Dhoro Iloh in der Azim-Steppe und lass ihn wissen, dass du die Aufgabe erfüllt hast."
-3,"TEXT_BANNAM002_03098_SEQ_03","Du erstattest Gyoshin Bericht über den Abschluss deiner Aufgabe. Seigetsu gibt zu bedenken, dass der Ablauf des Fests der Großen Flosse gänzlich unbekannt ist und schlägt deshalb vor, ein Opferfest zu veranstalten. Dazu werden Opfergaben und ein Opferaltar benötigt. Folge Gyoshin zur Ruine in Dhoro Iloh und sprich ihn dort erneut an, um die nächsten Schritte zu besprechen."
-4,"TEXT_BANNAM002_03098_SEQ_04","Du beratschlagst dich mit Gyoshin. Er bittet dich, für das Opferfest benötigte Materialien zu besorgen und diese anschließend Gyorei zu überreichen."
-5,"TEXT_BANNAM002_03098_SEQ_05","Du kannst dich im Wissen zurücklehnen, dass deine Hilfe wesentlich zum Erfolg des Rituals beigetragen hat. Die Namazuo hoffen auch fortan auf deine tatkräftige Hilfe."
-6,"TEXT_BANNAM002_03098_SEQ_06",""
-7,"TEXT_BANNAM002_03098_SEQ_07",""
-8,"TEXT_BANNAM002_03098_SEQ_08",""
-9,"TEXT_BANNAM002_03098_SEQ_09",""
-10,"TEXT_BANNAM002_03098_SEQ_10",""
-11,"TEXT_BANNAM002_03098_SEQ_11",""
-12,"TEXT_BANNAM002_03098_SEQ_12",""
-13,"TEXT_BANNAM002_03098_SEQ_13",""
-14,"TEXT_BANNAM002_03098_SEQ_14",""
-15,"TEXT_BANNAM002_03098_SEQ_15",""
-16,"TEXT_BANNAM002_03098_SEQ_16",""
-17,"TEXT_BANNAM002_03098_SEQ_17",""
-18,"TEXT_BANNAM002_03098_SEQ_18",""
-19,"TEXT_BANNAM002_03098_SEQ_19",""
-20,"TEXT_BANNAM002_03098_SEQ_20",""
-21,"TEXT_BANNAM002_03098_SEQ_21",""
-22,"TEXT_BANNAM002_03098_SEQ_22",""
-23,"TEXT_BANNAM002_03098_SEQ_23",""
-24,"TEXT_BANNAM002_03098_TODO_00","<Clickable(<SheetDe(EventItem,5,2002472,2,4,1)/>)/> an die Namazuo beim Yuzuka-Herrenhaus austeilen"
-25,"TEXT_BANNAM002_03098_TODO_01","Zu Gyoshin zurückkehren"
-26,"TEXT_BANNAM002_03098_TODO_02","Mit Gyoshin sprechen"
-27,"TEXT_BANNAM002_03098_TODO_03","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spezialrezept: <Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> aus dem Süden von Chakha Zoh sammeln<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> aus dem Süden von Chakha Zoh sammeln<Else/><Clickable(<SheetDe(Item,5,IntegerParameter(5),2,4,1)/>)/> bei Gyorei abliefern</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,1,IntegerParameter(5),1,4,1)/>)/> in Dotharl Khaa fangen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> bei Gyorei abliefern</If><Else/></If></If></If></If></If></If></If></If></If></If></If>"
-28,"TEXT_BANNAM002_03098_TODO_04",""
-29,"TEXT_BANNAM002_03098_TODO_05",""
-30,"TEXT_BANNAM002_03098_TODO_06",""
-31,"TEXT_BANNAM002_03098_TODO_07",""
-32,"TEXT_BANNAM002_03098_TODO_08",""
-33,"TEXT_BANNAM002_03098_TODO_09",""
-34,"TEXT_BANNAM002_03098_TODO_10",""
-35,"TEXT_BANNAM002_03098_TODO_11",""
-36,"TEXT_BANNAM002_03098_TODO_12",""
-37,"TEXT_BANNAM002_03098_TODO_13",""
-38,"TEXT_BANNAM002_03098_TODO_14",""
-39,"TEXT_BANNAM002_03098_TODO_15",""
-40,"TEXT_BANNAM002_03098_TODO_16",""
-41,"TEXT_BANNAM002_03098_TODO_17",""
-42,"TEXT_BANNAM002_03098_TODO_18",""
-43,"TEXT_BANNAM002_03098_TODO_19",""
-44,"TEXT_BANNAM002_03098_TODO_20",""
-45,"TEXT_BANNAM002_03098_TODO_21",""
-46,"TEXT_BANNAM002_03098_TODO_22",""
-47,"TEXT_BANNAM002_03098_TODO_23",""
-48,"TEXT_BANNAM002_03098_GYOSHIN_000_001","Gute Neuigkeiten, <If(PlayerParameter(4))>Wanderin<Else/>Wanderer</If>! Die Vor<SoftHyphen/>bereitungen für das große Fffest sind beinahe abgeschlossen! <spotz>"
-49,"TEXT_BANNAM002_03098_GYOSHIN_000_002","So langsam müssen wir damit beginnen, die Namazuo zu versammeln. Da es nicht irgendein Fffest ist, sollten wir möglichst vvviele Namazuo zusammenrufen. Je mehr kommen, desto lebhafter wird es! <spotz>"
-50,"TEXT_BANNAM002_03098_GYOSHIN_000_003","Aber es gibt einen Haken: Ich fürchte, dass ich nicht rechtzeitig zu den Fffeierlichkeiten genug Namazuo erreiche. <If(PlayerParameter(4))>Gütige Wanderin<Else/>Gütiger Wanderer</If>, du bist schnell zu Fuß und weit gereist. Vielleicht kannst du mithelfen und die Kunde vom Fffest verbreiten?"
-51,"TEXT_BANNAM002_03098_GYOSHIN_000_004","Fffaulige Ffflossen, ich hätte es beinahe vergessen zu erwähnen, aber wie es scheint, hast du dir unter den Namazuo bereits einen großen Namen gemacht! Das heißt, du wärst für die Aufffgabe hervorragend geeignet, jetzt da dich jeder kennt."
-52,"TEXT_BANNAM002_03098_GYOSHIN_000_005","So hat es sich zum Beispiel herum<SoftHyphen/>ge<SoftHyphen/>sprochen, dass du Gyorin geholfen hast, Raffkes Rüstkammer zu eröffnen. Das hat dir großen Respekt unter meinem Volk verschafft. Es wäre eine Schande, deinen Namen nicht für unser großes Fffest zu nutzen! <spotz>"
-53,"TEXT_BANNAM002_03098_GYOSHIN_000_006","Die Sache ist auch denkbar einfach. Begib dich zum Yuzuka-Herrenhaus und verteile <SheetDe(EventItem,5,2002472,2,4,1)/> unter den Namazuo, die nichts weiter tun, als mit den Kiemen zu fffächern, und fordere sie auf, am großen Fffest teilzunehmen."
-54,"TEXT_BANNAM002_03098_GYOSHIN_000_007","Wir kümmern uns in der Zwischenzeit um die letzten Vor<SoftHyphen/>bereitungen für das Fffest. Auf zum Yuzuka-Herrenhaus, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! <spotz>"
-55,"TEXT_BANNAM002_03098_GYOSHIN_000_010","Wie gesagt: Begib dich zum Yuzuka-Herrenhaus und verteile <SheetDe(EventItem,5,2002472,2,4,1)/> unter den Namazuo, die nichts weiter tun, als mit den Ffflossen zu fuchteln, und fffordere sie auf, am großen Fest teilzunehmen."
-56,"TEXT_BANNAM002_03098_GYORIN_000_011","（★未使用／削除予定★）"
-57,"TEXT_BANNAM002_03098_GYORIN_000_020","<glubsch> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Welch Überraschung! Was gibt's?"
-58,"TEXT_BANNAM002_03098_GYORIN_000_021","Potzblitz, das ist wahrlich fffantastische Handarbeit! Es wird mir eine große Freude sein, dieses hübsche Gewand für das kommende Fffest zu tragen!"
-59,"TEXT_BANNAM002_03098_GYORIN_000_022","Außerdem ist dieses fffreudvolle Fffest die ideale Gelegenheit, all die edlen Stoffe, die ich in Namai erworben habe, an den Namazuo zu bringen! Alle werden in bester Kauflaune sein! <glubsch> Schau bei Gelegenheit mal wieder vorbei ♪"
-60,"TEXT_BANNAM002_03098_GYORIN_000_025","Dieses Fffest ist die Gelegenheit, all die guten Stoffe, die ich in Namai erworben habe, zu Höchstpreisen zu verkaufen! Alle werden ihre Gil locker sitzen haben! <glubsch>"
-61,"TEXT_BANNAM002_03098_DRUNKNAMAZU_000_030","<blubber> <blubber> <hicks><Indent/>... Von fffrüh bis spät bester Tee, Tee <hicks> und noch mehr Tee<Indent/>...<Indent/>♪ Oh<Indent/>... Besuch<Indent/>... Was gibt's?"
-62,"TEXT_BANNAM002_03098_DRUNKNAMAZU_000_031","<blubber> <hicks><Indent/>... Ein Gewand für ein großes Fffest? <hicks> Wenn es da ordentlich Tee gibt, bin ich dabei! ♪"
-63,"TEXT_BANNAM002_03098_LEISUREDNAMAZU_000_032","Einatmen<Indent/>... Ausatmen<Indent/>... Einatmen<Indent/>... Ausatmen<Indent/>... Atmen ist ja voll anstrengend! <jauchz> Wär ich doch'n Stein! <spotz>"
-64,"TEXT_BANNAM002_03098_LEISUREDNAMAZU_100_032","Oh, sprichst du etwa mit mir?"
-65,"TEXT_BANNAM002_03098_LEISUREDNAMAZU_000_033","Das Fffest der Großen Ffflosse, sagst du? Noch nie davon gehört, aber klingt spaßig! Ich werde sofort dieses fffeine Gewand anziehen und in die Azim-Steppe aufbrechen!"
-66,"TEXT_BANNAM002_03098_LEISUREDNAMAZU_000_034","Juhu, das fffleißige Atmen hat sich doch noch gelohnt. Jetzt kommt endlich Fffreude in die dröge Existenz! <spotz> "
-67,"TEXT_BANNAM002_03098_GYOSHIN_000_040","Willkommen zurück, <If(PlayerParameter(4))>fffleißige Wanderin<Else/>fffleißiger Wanderer</If>! <spotz> Unsere festlichen Vvvorkehrungen neigen sich dem Ende entgegen. Ich rufe schnell alle zusammen, warte einen Moment. "
-68,"TEXT_BANNAM002_03098_GYOSHIN_000_041","Zuerst, meine Fffreunde, sollten wir <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> für <If(PlayerParameter(4))>ihre Arbeit<Else/>seine Arbeit</If> danken. Schließlich hat <If(PlayerParameter(4))>sie<Else/>er</If> sich für uns auf den weiten Weg nach Yanxia gemacht und die fffeierlichen Gewänder an unser Vvvolk verteilt. <spotz>"
-69,"TEXT_BANNAM002_03098_GYOSHIN_000_042","Und so sind alle bestens für das Fffest gekleidet. Ohne <If(PlayerParameter(4))>ihre<Else/>seine</If> Hilfe wäre es wohl eher eintönig geworden."
-70,"TEXT_BANNAM002_03098_GYOSHIN_000_043","Und deshalb sollte <If(PlayerParameter(4))>sie<Else/>er</If> als Ehrengast, also im Namen aller Namazuo<Indent/>... ähhh<Indent/>... die Eröffnungszeremonie zum Fffest der Großen Ffflosse abhalten und so<Indent/>..."
-71,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_044","Eine Frage, wenn du gestattest, Gyoshin<Indent/>... Was macht man beim Fffest der Großen Ffflosse eigentlich? Das sollten wir vvvielleicht zuerst klären, meinst du nicht auch?"
-72,"TEXT_BANNAM002_03098_GYOSHIN_000_045","Ähhh<Indent/>...<Indent/>..."
-73,"TEXT_BANNAM002_03098_GYOSHIN_000_046","Ja<Indent/>... Was macht man eigentlich? <spotz>"
-74,"TEXT_BANNAM002_03098_GYOREI_000_047","Das fffragst ausgerechnet du?! Du bist doch derjenige, der die Visionen hat, Gyoshin! <spotz> Hast du nicht gesagt, dass dir unsere Vorfahren im Traum erschienen sind?"
-75,"TEXT_BANNAM002_03098_GYOSHIN_000_048","Ja, schon, aber<Indent/>... Also so richtig wurde das nie erklärt. Ich war so sehr auf die Vor<SoftHyphen/>bereitungen für das Fffest konzentriert, dass ich mir über den genauen Ablauf gar keine Gedanken gemacht habe. Fffaulige Flossen, das ist ja ein schöner Schlamassel! <spotz>"
-76,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_049","<Indent/>... Ich bin nicht wirklich überrascht. Ein Glück habe ich Nach<SoftHyphen/>for<SoftHyphen/>schungen angestellt und unzählige Fffolianten gewälzt, um an brauchbare Informationen zu gelangen."
-77,"TEXT_BANNAM002_03098_GYOSHIN_000_050","Da bin ich aber erleichtert, Gyof... ich meine Seigetsu<Indent/>... <spotz>"
-78,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_051","Ja, ja, schon gut. Nun denn, ich werde ohne Umschweife erklären, was meine Nach<SoftHyphen/>for<SoftHyphen/>schungen zum Fffest der Großen Ffflosse ergeben haben."
-79,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_052","ABSOLUT GAR NICHTS!! "
-80,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_053","Die Namazuo aus dieser Zeit verfügten noch nicht über das Wissen der Schriffft. Daher gibt es auch keine detaillierten Über<SoftHyphen/>lie<SoftHyphen/>fe<SoftHyphen/>run<SoftHyphen/>gen von diesem Fest, das zuletzt vor vielen hunderten von Jahren abgehalten wurde!"
-81,"TEXT_BANNAM002_03098_GYOSHIN_000_054","Gyofun der Allwissende ist also am Ende mit seiner Weisheit! Hah! <spotz>"
-82,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_055","<blubber> G-Gyoshin, von einem infffantilen Ffflachwasserfffisch wie dir muss ich mir keine Vorwürfffe machen lassen! Auch wenn ich keine Informationen zum Fffest finden konnte, gibt es sehr wohl etwas, worüber du dir den Dickschädel zerbrechen kannst!"
-83,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_056","Also sei still und spitz die Barteln: In dem Buch „Fffragen und Antworten zu den Sitten und Bräuchen fffremder Lande“, geschrieben von einem Pionier in Sachen Altertumsforschung, habe ich eine Passage gefunden, die erwähnt, dass alle Fffeste im Prinzip Ausdruck von Dank und Fürbitten darstellen, die sich an die eigenen Ahnen oder die Götter richten.  "
-84,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_057","Das Fffest der Großen Ffflosse wurde zweifelsohne, wie der Name bereits sagt, zu Ehren des Urahnen der Namazuo<Indent/>- der „Großen Ffflosse“<Indent/>- abgehalten."
-85,"TEXT_BANNAM002_03098_GYOSHIN_000_058","D-Das klingt ja alles ganz spannend, aber ich verstehe nicht, wie uns das weiterhilft? <spotz>"
-86,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_059","Geduld, Geduld, Gyoshin. Lass mich doch bitte ausreden und selbst du solltest Erleuchtung fffinden! Wo war ich stehen<SoftHyphen/>geblieben<Indent/>...? Ach ja! Also, auf der Welt existiert eine Vielzahl von Fffestlichkeiten, doch die ursprünglichste Form der Danksagung ist die zeremonielle Opfergabe!"
-87,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_060","Wenn man die primitive Lebensart unserer Vorfahren bedenkt, liegt die Schlussfolgerung sehr nahe, dass solche Opferriten eine enge Verbindung zu dem natürlichen Lebensraum der Ur-Namazuo aufweisen mussten: dem Fffluss. Dies müssen wir unbedingt berücksichtigen!"
-88,"TEXT_BANNAM002_03098_GYOSHIN_000_061","Das waren ganz schön viele Worte, nur um mir zu verklickern, dass wir die Ffflüsse unserer Vorfahren ehren sollten! Ein Problem sehe ich allerdings noch: Für eine Opfergabe braucht man auch einen ordentlichen Altar! <spotz>"
-89,"TEXT_BANNAM002_03098_GYOSHIN_000_062","<If(PlayerParameter(4))>Wanderin<Else/>Wanderer</If>, Gyorei, ich habe eine Idee! Keine Fffragen jetzt, ich erkläre es euch gleich. Folgt mir zu der Ruine da drüben. <spotz>"
-90,"TEXT_BANNAM002_03098_GYOREI_000_065","Auch wenn Gyoshin und Gyofffun sich gegenseitig auf die Ffflosse nehmen<Indent/>- Gyoshin vertraut Gyofuns Wissen voll und ganz."
-91,"TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_070","（★未使用／削除予定★）"
-92,"TEXT_BANNAM002_03098_GYOSHIN_000_080","Hört gut zu: Genau hier an dieser Stelle werden wir den Altar für die Opfffergaben errichten! <spotz>"
-93,"TEXT_BANNAM002_03098_GYOSHIN_000_081","<If(PlayerParameter(4))>Wanderin<Else/>Wanderer</If>, sei so gut und mach was aus den Materialien in der Kiste neben dem Zelt dort drüben. Ich kann kein Meisterwerk aus Luffft erschaffen. Wenn du schon <SheetDe(Item,5,22721,2,4,1)/> herstellen könntest, ginge die Arbeit umso schneller von der Ffflosse. <spotz> Falls du nicht genug Material hast, bediene dich ruhig aus der Kiste."
-94,"TEXT_BANNAM002_03098_GYOSHIN_000_082","<If(PlayerParameter(4))>Wanderin<Else/>Wanderer</If>, sei so gut und mach was aus den Materialien in der Kiste neben dem Zelt dort drüben. Ich kann kein Meisterwerk aus Luffft erschaffen. Wenn du <SheetDe(Item,5,22721,2,4,1)/> anfertigen könntest, ginge die Arbeit umso schneller von der Ffflosse. <spotz> Falls du nicht genug Material hast, bediene dich ruhig aus der Kiste."
-95,"TEXT_BANNAM002_03098_GYOSHIN_000_083","<If(PlayerParameter(4))>Wanderin<Else/>Wanderer</If>, sei so gut und mach was aus den Materialien in der Kiste neben dem Zelt dort drüben. Ich brauche ein paar schöne Fffeuerschalen, die mir als <SheetDe(Item,5,22721,2,4,1)/> dienen. Was wäre eine Opfergabe ohne Räucherwerk? <spotz> Falls du nicht genug Material hast, bediene dich ruhig aus der Kiste."
-96,"TEXT_BANNAM002_03098_GYOSHIN_000_084","Bevor ich es vergesse, ich brauche fffür den Altar noch drei <SheetDe(Item,5,22617,2,4,1)/>. Schau dich im Süden von Chakha Zoh um. <spotz>"
-97,"TEXT_BANNAM002_03098_GYOSHIN_000_085","Bevor ich es vergesse, ich brauche fffür den Altar noch drei <SheetDe(Item,5,22643,2,4,1)/>. Schau dich im Süden von Chakha Zoh um. <spotz>"
-98,"TEXT_BANNAM002_03098_GYOSHIN_000_086","Bevor ich es vergesse, ich brauche fffür das Altar-Gedeck noch <SheetDe(Item,1,22669,1,4,1)/>. Dotharl Khaa ist reich an ihnen. Benutze dafür <Sheet(Item,20613,9)/> oder andere Köder für Süßwasserfische. <spotz>"
-99,"TEXT_BANNAM002_03098_GYOSHIN_000_087","Wenn du alles beisammenhast, melde dich bei Gyorei. Ich werde mich in der Zwischenzeit um all die anderen Sachen kümmern."
-100,"TEXT_BANNAM002_03098_GYOSHIN_000_088","Ah, <If(PlayerParameter(4))>meine Fffreundin<Else/>mein Fffreund</If>, <If(PlayerParameter(4))>die Wanderin<Else/>der Wanderer</If>! Dir ist das Material ausgegangen, sagst du? Wie ich bereits erwähnte, kannst du dich nach Herzenslust aus der Kiste neben dem Zelt bedienen. <spotz>"
-101,"TEXT_BANNAM002_03098_GYOSHIN_100_088","Ah, <If(PlayerParameter(4))>meine Fffreundin<Else/>mein Fffreund</If>, <If(PlayerParameter(4))>die Wanderin<Else/>der Wanderer</If>! Dir ist das Material ausgegangen, sagst du? Wie ich bereits erwähnte, kannst du dich nach Herzenslust aus der Kiste neben dem Zelt bedienen. <spotz>"
-102,"TEXT_BANNAM002_03098_GYOSHIN_110_088","Ah, <If(PlayerParameter(4))>meine Fffreundin<Else/>mein Fffreund</If>, <If(PlayerParameter(4))>die Wanderin<Else/>der Wanderer</If>! Dir ist das Material ausgegangen, sagst du? Wie ich bereits erwähnte, kannst du dich nach Herzenslust aus der Kiste neben dem Zelt bedienen. <spotz>"
-103,"TEXT_BANNAM002_03098_GYOSHIN_200_088","Sei so gut und überreiche das Material an Gyorei. Ich kümmere mich um die anderen benötigten Rohstofffe!"
-104,"TEXT_BANNAM002_03098_GYOSHIN_210_088","Sei so gut und überreiche das Gewächs an Gyorei. Ich kümmere mich um die anderen benötigten Rohstofffe!"
-105,"TEXT_BANNAM002_03098_GYOSHIN_220_088","Sei so gut und überreiche den Fffisch an Gyorei. Ich kümmere mich um die anderen benötigten Rohstofffe!"
-106,"TEXT_BANNAM002_03098_SYSTEM_000_089","Eine Kiste voller Materialien, die du momentan jedoch nicht gebrauchen kannst."
-107,"TEXT_BANNAM002_03098_SYSTEM_100_089","Eine Kiste voller Materialien, die du momentan jedoch nicht gebrauchen kannst."
-108,"TEXT_BANNAM002_03098_SYSTEM_110_089","Eine Kiste voller Materialien, die du momentan jedoch nicht gebrauchen kannst."
-109,"TEXT_BANNAM002_03098_SYSTEM_120_089","Eine Kiste voller Material, das du momentan jedoch nicht gebrauchen kannst."
-110,"TEXT_BANNAM002_03098_SYSTEM_000_090","Du hast die benötigten Materialien der Kiste entnommen."
-111,"TEXT_BANNAM002_03098_SYSTEM_100_090","Du hast die benötigten Materialien der Kiste entnommen."
-112,"TEXT_BANNAM002_03098_SYSTEM_110_090","Du hast die benötigten Materialien der Kiste entnommen."
-113,"TEXT_BANNAM002_03098_GYOSHIN_000_091","Aber <If(PlayerParameter(4))>Wanderin<Else/>Wanderer</If>, was soll <Emphasis>ich</Emphasis> damit? Ich sagte doch, dass du alles an Gyorei überreichen sollst!"
-114,"TEXT_BANNAM002_03098_GYOREI_000_100","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, du bist gewiss gekommen, um die Sachen für den Altar abzuliefffern, um die dich Gyoshin gebeten hat, stimmt's?"
-115,"TEXT_BANNAM002_03098_GYOREI_000_101","Fffantastisch, danke für deine Hilfe, damit sollten wir den Altar im Nu aufstellen können. Das Fffest rückt in greifbare Nähe!"
-116,"TEXT_BANNAM002_03098_SYSTEM_000_102","Der Altar ist fertig und das Fest mit der Opfergabe an die Große Flosse, dem Urahnen aller Namazuo, kann beginnen. Dein unermüdlicher Einsatz hat edle Früchte getragen!"
-117,"TEXT_BANNAM002_03098_SYSTEM_000_103","Es sollte das bittere Schicksal der Namazuo sein, nach sieben entbehrungsreichen Jahren auszusterben, da das Goldbecken in Yanxia ihnen keine Nahrung mehr bot."
-118,"TEXT_BANNAM002_03098_SYSTEM_000_104","Doch dank des Opferfestes zeigte sich die Große Flosse gütig, und das Goldbecken füllt auch heute noch die Netze und Bäuche der Namazuo mit fetter Beute."
-119,"TEXT_BANNAM002_03098_SYSTEM_000_105","So konnte ein finsteres Schicksal, das nur die wenigsten erahnten, noch einmal abgewendet werden."
-120,"TEXT_BANNAM002_03098_SYSTEM_000_106","Dein Verhältnis zu den Namazuo hat sich zu „Vertraut“ verbessert. Man erzählt sich von deiner selbstlosen Hilfe bei der Errichtung des Altars, der in seiner Pracht der Großen Flosse würdig ist."
-121,"TEXT_BANNAM002_03098_SYSTEM_000_107","Seigetsu, der Wind der Weisheit, der in Dhoro Iloh verweilt, wird dir nun neue Nebenaufträge der Freundesvölker anbieten, die du täglich wiederholen kannst."
-122,"TEXT_BANNAM002_03098_SYSTEM_000_108","Als Zeichen seines Vertrauens bietet dir Seigetsu nur heute drei zusätzliche Aufträge an."
-123,"TEXT_BANNAM002_03098_SYSTEM_000_109","Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Namazuo-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
-124,"TEXT_BANNAM002_03098_SYSTEM_000_110","Außerdem kannst du nun von Gyosho neue Waren der Freundesvölker erwerben, die dir sicherlich bei deinen Abenteuern von Nutzen sein werden!"
+Überreiche den untätigen Namazuo, die in der Nähe des Yuzuka-Herrenhauses in Yanxia verweilen, jeweils  und werbe für das Fest der Großen Flosse."
+2,TEXT_BANNAM002_03098_SEQ_02,"Du überreichst den Namazuo . Melde dich bei Gyoshin in Dhoro Iloh in der Azim-Steppe und lass ihn wissen, dass du die Aufgabe erfüllt hast."
+3,TEXT_BANNAM002_03098_SEQ_03,"Du erstattest Gyoshin Bericht über den Abschluss deiner Aufgabe. Seigetsu gibt zu bedenken, dass der Ablauf des Fests der Großen Flosse gänzlich unbekannt ist und schlägt deshalb vor, ein Opferfest zu veranstalten. Dazu werden Opfergaben und ein Opferaltar benötigt. Folge Gyoshin zur Ruine in Dhoro Iloh und sprich ihn dort erneut an, um die nächsten Schritte zu besprechen."
+4,TEXT_BANNAM002_03098_SEQ_04,"Du beratschlagst dich mit Gyoshin. Er bittet dich, für das Opferfest benötigte Materialien zu besorgen und diese anschließend Gyorei zu überreichen."
+5,TEXT_BANNAM002_03098_SEQ_05,"Du kannst dich im Wissen zurücklehnen, dass deine Hilfe wesentlich zum Erfolg des Rituals beigetragen hat. Die Namazuo hoffen auch fortan auf deine tatkräftige Hilfe."
+6,TEXT_BANNAM002_03098_SEQ_06,
+7,TEXT_BANNAM002_03098_SEQ_07,
+8,TEXT_BANNAM002_03098_SEQ_08,
+9,TEXT_BANNAM002_03098_SEQ_09,
+10,TEXT_BANNAM002_03098_SEQ_10,
+11,TEXT_BANNAM002_03098_SEQ_11,
+12,TEXT_BANNAM002_03098_SEQ_12,
+13,TEXT_BANNAM002_03098_SEQ_13,
+14,TEXT_BANNAM002_03098_SEQ_14,
+15,TEXT_BANNAM002_03098_SEQ_15,
+16,TEXT_BANNAM002_03098_SEQ_16,
+17,TEXT_BANNAM002_03098_SEQ_17,
+18,TEXT_BANNAM002_03098_SEQ_18,
+19,TEXT_BANNAM002_03098_SEQ_19,
+20,TEXT_BANNAM002_03098_SEQ_20,
+21,TEXT_BANNAM002_03098_SEQ_21,
+22,TEXT_BANNAM002_03098_SEQ_22,
+23,TEXT_BANNAM002_03098_SEQ_23,
+24,TEXT_BANNAM002_03098_TODO_00, an die Namazuo beim Yuzuka-Herrenhaus austeilen
+25,TEXT_BANNAM002_03098_TODO_01,Zu Gyoshin zurückkehren
+26,TEXT_BANNAM002_03098_TODO_02,Mit Gyoshin sprechen
+27,TEXT_BANNAM002_03098_TODO_03,Spezialrezept:  herstellen
+28,TEXT_BANNAM002_03098_TODO_04,
+29,TEXT_BANNAM002_03098_TODO_05,
+30,TEXT_BANNAM002_03098_TODO_06,
+31,TEXT_BANNAM002_03098_TODO_07,
+32,TEXT_BANNAM002_03098_TODO_08,
+33,TEXT_BANNAM002_03098_TODO_09,
+34,TEXT_BANNAM002_03098_TODO_10,
+35,TEXT_BANNAM002_03098_TODO_11,
+36,TEXT_BANNAM002_03098_TODO_12,
+37,TEXT_BANNAM002_03098_TODO_13,
+38,TEXT_BANNAM002_03098_TODO_14,
+39,TEXT_BANNAM002_03098_TODO_15,
+40,TEXT_BANNAM002_03098_TODO_16,
+41,TEXT_BANNAM002_03098_TODO_17,
+42,TEXT_BANNAM002_03098_TODO_18,
+43,TEXT_BANNAM002_03098_TODO_19,
+44,TEXT_BANNAM002_03098_TODO_20,
+45,TEXT_BANNAM002_03098_TODO_21,
+46,TEXT_BANNAM002_03098_TODO_22,
+47,TEXT_BANNAM002_03098_TODO_23,
+48,TEXT_BANNAM002_03098_GYOSHIN_000_001,"Gute Neuigkeiten, Wanderin! Die Vor­bereitungen für das große Fffest sind beinahe abgeschlossen! <spotz>"
+49,TEXT_BANNAM002_03098_GYOSHIN_000_002,"So langsam müssen wir damit beginnen, die Namazuo zu versammeln. Da es nicht irgendein Fffest ist, sollten wir möglichst vvviele Namazuo zusammenrufen. Je mehr kommen, desto lebhafter wird es! <spotz>"
+50,TEXT_BANNAM002_03098_GYOSHIN_000_003,"Aber es gibt einen Haken: Ich fürchte, dass ich nicht rechtzeitig zu den Fffeierlichkeiten genug Namazuo erreiche. Gütige Wanderin, du bist schnell zu Fuß und weit gereist. Vielleicht kannst du mithelfen und die Kunde vom Fffest verbreiten?"
+51,TEXT_BANNAM002_03098_GYOSHIN_000_004,"Fffaulige Ffflossen, ich hätte es beinahe vergessen zu erwähnen, aber wie es scheint, hast du dir unter den Namazuo bereits einen großen Namen gemacht! Das heißt, du wärst für die Aufffgabe hervorragend geeignet, jetzt da dich jeder kennt."
+52,TEXT_BANNAM002_03098_GYOSHIN_000_005,"So hat es sich zum Beispiel herum­ge­sprochen, dass du Gyorin geholfen hast, Raffkes Rüstkammer zu eröffnen. Das hat dir großen Respekt unter meinem Volk verschafft. Es wäre eine Schande, deinen Namen nicht für unser großes Fffest zu nutzen! <spotz>"
+53,TEXT_BANNAM002_03098_GYOSHIN_000_006,"Die Sache ist auch denkbar einfach. Begib dich zum Yuzuka-Herrenhaus und verteile  unter den Namazuo, die nichts weiter tun, als mit den Kiemen zu fffächern, und fordere sie auf, am großen Fffest teilzunehmen."
+54,TEXT_BANNAM002_03098_GYOSHIN_000_007,"Wir kümmern uns in der Zwischenzeit um die letzten Vor­bereitungen für das Fffest. Auf zum Yuzuka-Herrenhaus, Player! <spotz>"
+55,TEXT_BANNAM002_03098_GYOSHIN_000_010,"Wie gesagt: Begib dich zum Yuzuka-Herrenhaus und verteile  unter den Namazuo, die nichts weiter tun, als mit den Ffflossen zu fuchteln, und fffordere sie auf, am großen Fest teilzunehmen."
+56,TEXT_BANNAM002_03098_GYORIN_000_011,（★未使用／削除予定★）
+57,TEXT_BANNAM002_03098_GYORIN_000_020,<glubsch> Player! Welch Überraschung! Was gibt's?
+58,TEXT_BANNAM002_03098_GYORIN_000_021,"Potzblitz, das ist wahrlich fffantastische Handarbeit! Es wird mir eine große Freude sein, dieses hübsche Gewand für das kommende Fffest zu tragen!"
+59,TEXT_BANNAM002_03098_GYORIN_000_022,"Außerdem ist dieses fffreudvolle Fffest die ideale Gelegenheit, all die edlen Stoffe, die ich in Namai erworben habe, an den Namazuo zu bringen! Alle werden in bester Kauflaune sein! <glubsch> Schau bei Gelegenheit mal wieder vorbei ♪"
+60,TEXT_BANNAM002_03098_GYORIN_000_025,"Dieses Fffest ist die Gelegenheit, all die guten Stoffe, die ich in Namai erworben habe, zu Höchstpreisen zu verkaufen! Alle werden ihre Gil locker sitzen haben! <glubsch>"
+61,TEXT_BANNAM002_03098_DRUNKNAMAZU_000_030,"<blubber> <blubber> <hicks> ... Von fffrüh bis spät bester Tee, Tee <hicks> und noch mehr Tee ... ♪ Oh ... Besuch ... Was gibt's?"
+62,TEXT_BANNAM002_03098_DRUNKNAMAZU_000_031,"<blubber> <hicks> ... Ein Gewand für ein großes Fffest? <hicks> Wenn es da ordentlich Tee gibt, bin ich dabei! ♪"
+63,TEXT_BANNAM002_03098_LEISUREDNAMAZU_000_032,Einatmen ... Ausatmen ... Einatmen ... Ausatmen ... Atmen ist ja voll anstrengend! <jauchz> Wär ich doch'n Stein! <spotz>
+64,TEXT_BANNAM002_03098_LEISUREDNAMAZU_100_032,"Oh, sprichst du etwa mit mir?"
+65,TEXT_BANNAM002_03098_LEISUREDNAMAZU_000_033,"Das Fffest der Großen Ffflosse, sagst du? Noch nie davon gehört, aber klingt spaßig! Ich werde sofort dieses fffeine Gewand anziehen und in die Azim-Steppe aufbrechen!"
+66,TEXT_BANNAM002_03098_LEISUREDNAMAZU_000_034,"Juhu, das fffleißige Atmen hat sich doch noch gelohnt. Jetzt kommt endlich Fffreude in die dröge Existenz! <spotz> "
+67,TEXT_BANNAM002_03098_GYOSHIN_000_040,"Willkommen zurück, fffleißige Wanderin! <spotz> Unsere festlichen Vvvorkehrungen neigen sich dem Ende entgegen. Ich rufe schnell alle zusammen, warte einen Moment. "
+68,TEXT_BANNAM002_03098_GYOSHIN_000_041,"Zuerst, meine Fffreunde, sollten wir Player für ihre Arbeit danken. Schließlich hat sie sich für uns auf den weiten Weg nach Yanxia gemacht und die fffeierlichen Gewänder an unser Vvvolk verteilt. <spotz>"
+69,TEXT_BANNAM002_03098_GYOSHIN_000_042,Und so sind alle bestens für das Fffest gekleidet. Ohne ihre Hilfe wäre es wohl eher eintönig geworden.
+70,TEXT_BANNAM002_03098_GYOSHIN_000_043,"Und deshalb sollte sie als Ehrengast, also im Namen aller Namazuo ... ähhh ... die Eröffnungszeremonie zum Fffest der Großen Ffflosse abhalten und so ..."
+71,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_044,"Eine Frage, wenn du gestattest, Gyoshin ... Was macht man beim Fffest der Großen Ffflosse eigentlich? Das sollten wir vvvielleicht zuerst klären, meinst du nicht auch?"
+72,TEXT_BANNAM002_03098_GYOSHIN_000_045,Ähhh ... ...
+73,TEXT_BANNAM002_03098_GYOSHIN_000_046,Ja ... Was macht man eigentlich? <spotz>
+74,TEXT_BANNAM002_03098_GYOREI_000_047,"Das fffragst ausgerechnet du?! Du bist doch derjenige, der die Visionen hat, Gyoshin! <spotz> Hast du nicht gesagt, dass dir unsere Vorfahren im Traum erschienen sind?"
+75,TEXT_BANNAM002_03098_GYOSHIN_000_048,"Ja, schon, aber ... Also so richtig wurde das nie erklärt. Ich war so sehr auf die Vor­bereitungen für das Fffest konzentriert, dass ich mir über den genauen Ablauf gar keine Gedanken gemacht habe. Fffaulige Flossen, das ist ja ein schöner Schlamassel! <spotz>"
+76,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_049," ... Ich bin nicht wirklich überrascht. Ein Glück habe ich Nach­for­schungen angestellt und unzählige Fffolianten gewälzt, um an brauchbare Informationen zu gelangen."
+77,TEXT_BANNAM002_03098_GYOSHIN_000_050,"Da bin ich aber erleichtert, Gyof... ich meine Seigetsu ... <spotz>"
+78,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_051,"Ja, ja, schon gut. Nun denn, ich werde ohne Umschweife erklären, was meine Nach­for­schungen zum Fffest der Großen Ffflosse ergeben haben."
+79,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_052,ABSOLUT GAR NICHTS!! 
+80,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_053,"Die Namazuo aus dieser Zeit verfügten noch nicht über das Wissen der Schriffft. Daher gibt es auch keine detaillierten Über­lie­fe­run­gen von diesem Fest, das zuletzt vor vielen hunderten von Jahren abgehalten wurde!"
+81,TEXT_BANNAM002_03098_GYOSHIN_000_054,Gyofun der Allwissende ist also am Ende mit seiner Weisheit! Hah! <spotz>
+82,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_055,"<blubber> G-Gyoshin, von einem infffantilen Ffflachwasserfffisch wie dir muss ich mir keine Vorwürfffe machen lassen! Auch wenn ich keine Informationen zum Fffest finden konnte, gibt es sehr wohl etwas, worüber du dir den Dickschädel zerbrechen kannst!"
+83,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_056,"Also sei still und spitz die Barteln: In dem Buch „Fffragen und Antworten zu den Sitten und Bräuchen fffremder Lande“, geschrieben von einem Pionier in Sachen Altertumsforschung, habe ich eine Passage gefunden, die erwähnt, dass alle Fffeste im Prinzip Ausdruck von Dank und Fürbitten darstellen, die sich an die eigenen Ahnen oder die Götter richten.  "
+84,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_057,"Das Fffest der Großen Ffflosse wurde zweifelsohne, wie der Name bereits sagt, zu Ehren des Urahnen der Namazuo - der „Großen Ffflosse“ - abgehalten."
+85,TEXT_BANNAM002_03098_GYOSHIN_000_058,"D-Das klingt ja alles ganz spannend, aber ich verstehe nicht, wie uns das weiterhilft? <spotz>"
+86,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_059,"Geduld, Geduld, Gyoshin. Lass mich doch bitte ausreden und selbst du solltest Erleuchtung fffinden! Wo war ich stehen­geblieben ...? Ach ja! Also, auf der Welt existiert eine Vielzahl von Fffestlichkeiten, doch die ursprünglichste Form der Danksagung ist die zeremonielle Opfergabe!"
+87,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_060,"Wenn man die primitive Lebensart unserer Vorfahren bedenkt, liegt die Schlussfolgerung sehr nahe, dass solche Opferriten eine enge Verbindung zu dem natürlichen Lebensraum der Ur-Namazuo aufweisen mussten: dem Fffluss. Dies müssen wir unbedingt berücksichtigen!"
+88,TEXT_BANNAM002_03098_GYOSHIN_000_061,"Das waren ganz schön viele Worte, nur um mir zu verklickern, dass wir die Ffflüsse unserer Vorfahren ehren sollten! Ein Problem sehe ich allerdings noch: Für eine Opfergabe braucht man auch einen ordentlichen Altar! <spotz>"
+89,TEXT_BANNAM002_03098_GYOSHIN_000_062,"Wanderin, Gyorei, ich habe eine Idee! Keine Fffragen jetzt, ich erkläre es euch gleich. Folgt mir zu der Ruine da drüben. <spotz>"
+90,TEXT_BANNAM002_03098_GYOREI_000_065,Auch wenn Gyoshin und Gyofffun sich gegenseitig auf die Ffflosse nehmen - Gyoshin vertraut Gyofuns Wissen voll und ganz.
+91,TEXT_BANNAM002_03098_KOFUINSEIGETSU_000_070,（★未使用／削除予定★）
+92,TEXT_BANNAM002_03098_GYOSHIN_000_080,Hört gut zu: Genau hier an dieser Stelle werden wir den Altar für die Opfffergaben errichten! <spotz>
+93,TEXT_BANNAM002_03098_GYOSHIN_000_081,"Wanderin, sei so gut und mach was aus den Materialien in der Kiste neben dem Zelt dort drüben. Ich kann kein Meisterwerk aus Luffft erschaffen. Wenn du schon  herstellen könntest, ginge die Arbeit umso schneller von der Ffflosse. <spotz> Falls du nicht genug Material hast, bediene dich ruhig aus der Kiste."
+94,TEXT_BANNAM002_03098_GYOSHIN_000_082,"Wanderin, sei so gut und mach was aus den Materialien in der Kiste neben dem Zelt dort drüben. Ich kann kein Meisterwerk aus Luffft erschaffen. Wenn du  anfertigen könntest, ginge die Arbeit umso schneller von der Ffflosse. <spotz> Falls du nicht genug Material hast, bediene dich ruhig aus der Kiste."
+95,TEXT_BANNAM002_03098_GYOSHIN_000_083,"Wanderin, sei so gut und mach was aus den Materialien in der Kiste neben dem Zelt dort drüben. Ich brauche ein paar schöne Fffeuerschalen, die mir als  dienen. Was wäre eine Opfergabe ohne Räucherwerk? <spotz> Falls du nicht genug Material hast, bediene dich ruhig aus der Kiste."
+96,TEXT_BANNAM002_03098_GYOSHIN_000_084,"Bevor ich es vergesse, ich brauche fffür den Altar noch drei . Schau dich im Süden von Chakha Zoh um. <spotz>"
+97,TEXT_BANNAM002_03098_GYOSHIN_000_085,"Bevor ich es vergesse, ich brauche fffür den Altar noch drei . Schau dich im Süden von Chakha Zoh um. <spotz>"
+98,TEXT_BANNAM002_03098_GYOSHIN_000_086,"Bevor ich es vergesse, ich brauche fffür das Altar-Gedeck noch . Dotharl Khaa ist reich an ihnen. Benutze dafür  oder andere Köder für Süßwasserfische. <spotz>"
+99,TEXT_BANNAM002_03098_GYOSHIN_000_087,"Wenn du alles beisammenhast, melde dich bei Gyorei. Ich werde mich in der Zwischenzeit um all die anderen Sachen kümmern."
+100,TEXT_BANNAM002_03098_GYOSHIN_000_088,"Ah, meine Fffreundin, die Wanderin! Dir ist das Material ausgegangen, sagst du? Wie ich bereits erwähnte, kannst du dich nach Herzenslust aus der Kiste neben dem Zelt bedienen. <spotz>"
+101,TEXT_BANNAM002_03098_GYOSHIN_100_088,"Ah, meine Fffreundin, die Wanderin! Dir ist das Material ausgegangen, sagst du? Wie ich bereits erwähnte, kannst du dich nach Herzenslust aus der Kiste neben dem Zelt bedienen. <spotz>"
+102,TEXT_BANNAM002_03098_GYOSHIN_110_088,"Ah, meine Fffreundin, die Wanderin! Dir ist das Material ausgegangen, sagst du? Wie ich bereits erwähnte, kannst du dich nach Herzenslust aus der Kiste neben dem Zelt bedienen. <spotz>"
+103,TEXT_BANNAM002_03098_GYOSHIN_200_088,Sei so gut und überreiche das Material an Gyorei. Ich kümmere mich um die anderen benötigten Rohstofffe!
+104,TEXT_BANNAM002_03098_GYOSHIN_210_088,Sei so gut und überreiche das Gewächs an Gyorei. Ich kümmere mich um die anderen benötigten Rohstofffe!
+105,TEXT_BANNAM002_03098_GYOSHIN_220_088,Sei so gut und überreiche den Fffisch an Gyorei. Ich kümmere mich um die anderen benötigten Rohstofffe!
+106,TEXT_BANNAM002_03098_SYSTEM_000_089,"Eine Kiste voller Materialien, die du momentan jedoch nicht gebrauchen kannst."
+107,TEXT_BANNAM002_03098_SYSTEM_100_089,"Eine Kiste voller Materialien, die du momentan jedoch nicht gebrauchen kannst."
+108,TEXT_BANNAM002_03098_SYSTEM_110_089,"Eine Kiste voller Materialien, die du momentan jedoch nicht gebrauchen kannst."
+109,TEXT_BANNAM002_03098_SYSTEM_120_089,"Eine Kiste voller Material, das du momentan jedoch nicht gebrauchen kannst."
+110,TEXT_BANNAM002_03098_SYSTEM_000_090,Du hast die benötigten Materialien der Kiste entnommen.
+111,TEXT_BANNAM002_03098_SYSTEM_100_090,Du hast die benötigten Materialien der Kiste entnommen.
+112,TEXT_BANNAM002_03098_SYSTEM_110_090,Du hast die benötigten Materialien der Kiste entnommen.
+113,TEXT_BANNAM002_03098_GYOSHIN_000_091,"Aber Wanderin, was soll *ich* damit? Ich sagte doch, dass du alles an Gyorei überreichen sollst!"
+114,TEXT_BANNAM002_03098_GYOREI_000_100,"Ah, Player, du bist gewiss gekommen, um die Sachen für den Altar abzuliefffern, um die dich Gyoshin gebeten hat, stimmt's?"
+115,TEXT_BANNAM002_03098_GYOREI_000_101,"Fffantastisch, danke für deine Hilfe, damit sollten wir den Altar im Nu aufstellen können. Das Fffest rückt in greifbare Nähe!"
+116,TEXT_BANNAM002_03098_SYSTEM_000_102,"Der Altar ist fertig und das Fest mit der Opfergabe an die Große Flosse, dem Urahnen aller Namazuo, kann beginnen. Dein unermüdlicher Einsatz hat edle Früchte getragen!"
+117,TEXT_BANNAM002_03098_SYSTEM_000_103,"Es sollte das bittere Schicksal der Namazuo sein, nach sieben entbehrungsreichen Jahren auszusterben, da das Goldbecken in Yanxia ihnen keine Nahrung mehr bot."
+118,TEXT_BANNAM002_03098_SYSTEM_000_104,"Doch dank des Opferfestes zeigte sich die Große Flosse gütig, und das Goldbecken füllt auch heute noch die Netze und Bäuche der Namazuo mit fetter Beute."
+119,TEXT_BANNAM002_03098_SYSTEM_000_105,"So konnte ein finsteres Schicksal, das nur die wenigsten erahnten, noch einmal abgewendet werden."
+120,TEXT_BANNAM002_03098_SYSTEM_000_106,"Dein Verhältnis zu den Namazuo hat sich zu „Vertraut“ verbessert. Man erzählt sich von deiner selbstlosen Hilfe bei der Errichtung des Altars, der in seiner Pracht der Großen Flosse würdig ist."
+121,TEXT_BANNAM002_03098_SYSTEM_000_107,"Seigetsu, der Wind der Weisheit, der in Dhoro Iloh verweilt, wird dir nun neue Nebenaufträge der Freundesvölker anbieten, die du täglich wiederholen kannst."
+122,TEXT_BANNAM002_03098_SYSTEM_000_108,Als Zeichen seines Vertrauens bietet dir Seigetsu nur heute drei zusätzliche Aufträge an.
+123,TEXT_BANNAM002_03098_SYSTEM_000_109,"Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Namazuo-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
+124,TEXT_BANNAM002_03098_SYSTEM_000_110,"Außerdem kannst du nun von Gyosho neue Waren der Freundesvölker erwerben, die dir sicherlich bei deinen Abenteuern von Nutzen sein werden!"

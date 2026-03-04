@@ -1,195 +1,192 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANMAM001_05255_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANMAM001_05255_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Gotoll Ja scheint nach jemandem Ausschau zu halten."
-1,"TEXT_BANMAM001_05255_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+1,TEXT_BANMAM001_05255_SEQ_01,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Gotoll Ja erzählt dir von einer Forscherin aus Sharlayan, die gerade eingetroffen ist, um Feldfrüchte aus der Fremde in Mamook anzupflanzen. Er tritt leicht nervös auf der Stelle und macht sich Sorgen um die richtige Etikette, daher willigst du ein, ihn zu dem Neuankömmling zu begleiten."
-2,"TEXT_BANMAM001_05255_SEQ_02","Die freundliche Forscherin Anggir freut sich über den warmen Empfang, doch sie scheint etwas besorgt über den Mangel an verfügbaren Arbeitskräften in Mamook zu sein. Just in dem Moment tritt Ruvoll Ja auf den Plan, der vor vielen Jahren von Mamook nach Tuliyollal ausgewandert war. Der Doppro schlägt vor, das Problem mit Wivren zu lösen, und macht sich auf den Weg, um andere Doppro von dieser Idee zu überzeugen. Gotoll Ja sieht dem jungen Mann jedoch mit besorgter Miene nach. Anscheinend ist Ruvoll Ja zwar äußerst freundlich, hat aber mitunter Probleme, sich verständlich zu machen. Daher bittet Gotoll Ja dich, ihm bei den Ver<SoftHyphen/>hand<SoftHyphen/>lungen zu helfen."
-3,"TEXT_BANMAM001_05255_SEQ_03","Als du zu Ruvoll Ja aufschließt, findest du ihn in einer Diskussion mit einigen skeptischen Doppro wieder, die nicht ganz verstehen, wofür ihre Wivren herhalten sollen. Du musst ihnen wohl ein wenig auf die Sprünge helfen, bevor ihr sie als Verbündete gewinnen könnt."
-4,"TEXT_BANMAM001_05255_SEQ_04","Ruvoll Ja ist beeindruckt, mit welcher Leichtigkeit du die Wivren-Meister für eure Sache gewinnst, und schlägt vor, dass du ihn auch weiter begleitest. Das nächste Ziel seiner Überzeugungsarbeit soll Kageel Ja werden: ein Najool-Bauer, der dank seines Wissens über den Anbau von Feldfrüchten in diesem Wald von großer Hilfe für die Plantage sein könnte."
-5,"TEXT_BANMAM001_05255_SEQ_05","Obwohl euer Treffen zunächst wie ein weiteres Desaster erscheint, endet es letztendlich in einer freundlichen Übereinkunft<Indent/>- Kageel Ja bietet euch seine Unterstützung an. Ruvoll Ja ist überzeugt, dass nun alles bereit sein sollte, doch es wäre ratsam, dies noch einmal mit Anggir zu klären."
-6,"TEXT_BANMAM001_05255_SEQ_06","Anggir bittet dich, ihr Materialien zu bringen, die reich an Holzkohle sind, um den Säuregehalt des Bodens auszugleichen. Da dir das Sammeln im Blut liegt, brichst du in Richtung Aschenfront von Xobr'it auf, um die nötigen Besorgungen zu erledigen."
-7,"TEXT_BANMAM001_05255_SEQ_07","Die Wivren-Meister kümmern sich um ihre Schützlinge und Kageel Ja verwaltet den Dünger. Vor deinen Augen wird der Boden umgepflügt, und wo einst ein Wald stand, befindet sich nun eine kleine Plantage. Sie steht zwar noch ganz am Anfang, doch Gok Golma repräsentiert Mamooks Potenzial für Wandel, und mit harter Arbeit könnte sie tatsächlich zu einem Leuchtfeuer der Hoffnung in einem Wald werden, dessen Ver<SoftHyphen/>gangen<SoftHyphen/>heit von Dunkelheit gezeichnet war<Indent/>..."
-8,"TEXT_BANMAM001_05255_SEQ_08",""
-9,"TEXT_BANMAM001_05255_SEQ_09",""
-10,"TEXT_BANMAM001_05255_SEQ_10",""
-11,"TEXT_BANMAM001_05255_SEQ_11",""
-12,"TEXT_BANMAM001_05255_SEQ_12",""
-13,"TEXT_BANMAM001_05255_SEQ_13",""
-14,"TEXT_BANMAM001_05255_SEQ_14",""
-15,"TEXT_BANMAM001_05255_SEQ_15",""
-16,"TEXT_BANMAM001_05255_SEQ_16",""
-17,"TEXT_BANMAM001_05255_SEQ_17",""
-18,"TEXT_BANMAM001_05255_SEQ_18",""
-19,"TEXT_BANMAM001_05255_SEQ_19",""
-20,"TEXT_BANMAM001_05255_SEQ_20",""
-21,"TEXT_BANMAM001_05255_SEQ_21",""
-22,"TEXT_BANMAM001_05255_SEQ_22",""
-23,"TEXT_BANMAM001_05255_SEQ_23",""
-24,"TEXT_BANMAM001_05255_TODO_00","Mit Anggir sprechen"
-25,"TEXT_BANMAM001_05255_TODO_01","Mit Ruvoll Ja sprechen"
-26,"TEXT_BANMAM001_05255_TODO_02","Die Wivren-Meister überzeugen"
-27,"TEXT_BANMAM001_05255_TODO_03","Mit Kageel Ja sprechen"
-28,"TEXT_BANMAM001_05255_TODO_04","Mit Anggir sprechen"
-29,"TEXT_BANMAM001_05255_TODO_05","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,IntegerParameter(5),9)/> an der Aschenfront von Xobr'it abbauen<Else/><Sheet(Item,IntegerParameter(5),9)/> bei Anggir abliefern</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,IntegerParameter(5),9)/> an der Aschenfront von Xobr'it sammeln<Else/><Sheet(Item,IntegerParameter(5),9)/> bei Anggir abliefern</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Eine <Sheet(Item,IntegerParameter(5),9)/> im Iq Rrax Tsoly fangen<Else/>Die <Sheet(Item,IntegerParameter(5),9)/> bei Anggir abliefern</If><Else/></If></If></If>"
-30,"TEXT_BANMAM001_05255_TODO_06",""
-31,"TEXT_BANMAM001_05255_TODO_07",""
-32,"TEXT_BANMAM001_05255_TODO_08",""
-33,"TEXT_BANMAM001_05255_TODO_09",""
-34,"TEXT_BANMAM001_05255_TODO_10",""
-35,"TEXT_BANMAM001_05255_TODO_11",""
-36,"TEXT_BANMAM001_05255_TODO_12",""
-37,"TEXT_BANMAM001_05255_TODO_13",""
-38,"TEXT_BANMAM001_05255_TODO_14",""
-39,"TEXT_BANMAM001_05255_TODO_15",""
-40,"TEXT_BANMAM001_05255_TODO_16",""
-41,"TEXT_BANMAM001_05255_TODO_17",""
-42,"TEXT_BANMAM001_05255_TODO_18",""
-43,"TEXT_BANMAM001_05255_TODO_19",""
-44,"TEXT_BANMAM001_05255_TODO_20",""
-45,"TEXT_BANMAM001_05255_TODO_21",""
-46,"TEXT_BANMAM001_05255_TODO_22",""
-47,"TEXT_BANMAM001_05255_TODO_23",""
-48,"TEXT_BANMAM001_05255_GOTOLLJA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, schön, dich zu sehen. Hast du einen Moment Zeit?"
-49,"TEXT_BANMAM001_05255_GOTOLLJA_000_001","Da du persönlich dabei geholfen hast, unseren Import von Lebensmitteln aus der Ferne auszuhandeln, überrascht dich das vermutlich wenig, doch vor kurzem ist eine Forscherin aus Sharlayan hier eingetroffen."
-50,"TEXT_BANMAM001_05255_GOTOLLJA_000_002","Ich würde ihr gerne meine Aufwartung machen, aber<Indent/>..."
-51,"TEXT_BANMAM001_05255_GOTOLLJA_000_003","Na ja, ich weiß leider nichts über die Bewohner Sharlayans und möchte sie nicht versehentlich vor den Kopf stoßen. Könntest du womöglich mitkommen? Das würde mich ein wenig beruhigen."
-52,"TEXT_BANMAM001_05255_GOTOLLJA_000_004","Vielen Dank. Ihr Name ist Anggir und sie sollte sich im Süden der Stadt aufhalten."
-53,"TEXT_BANMAM001_05255_GOTOLLJA_000_005","（★未使用／削除予定★）"
-54,"TEXT_BANMAM001_05255_GOTOLLJA_000_010","Das muss sie sein. Ich bin gerührt, dass sie so weit für uns gereist ist."
-55,"TEXT_BANMAM001_05255_ANGGIR_000_020","Hallo. Kann ich euch irgendwie behilflich sein?"
-56,"TEXT_BANMAM001_05255_GOTOLLJA_000_021","Und ich bin Gotoll Ja, ein ehemaliger Söldner. Jetzt fertige ich allerlei nützliche Dinge an."
-57,"TEXT_BANMAM001_05255_GOTOLLJA_000_022","Unser Oberhaupt sagt, dass du gekommen seist, um das Wachstum der neuen Feldfrüchte in Mamook zu beaufsichtigen, daher wollte ich dir persönlich meinen Dank aussprechen."
-58,"TEXT_BANMAM001_05255_ANGGIR_000_023","Das ist äußerst nett von dir. Mein Name ist Anggir und ich stehe euch gerne zu Diensten."
-59,"TEXT_BANMAM001_05255_ANGGIR_000_024","Als ich von meinem Auftrag erfuhr, war ich sofort fasziniert. Dieser Wald scheint von dem ätherischen Einfluss der Meteoriten hier gekennzeichnet worden zu sein<Indent/>..."
-60,"TEXT_BANMAM001_05255_ANGGIR_000_025","Doch keine Sorge. Wir werden im Nu eine experimentelle Plantage errichtet haben. Dort werden neue Feldfrüchte sprießen, so viel kann ich dir versprechen."
-61,"TEXT_BANMAM001_05255_ANGGIR_000_026","（★未使用／削除予定★）"
-62,"TEXT_BANMAM001_05255_ANGGIR_000_027","Meine größte Sorge ist derzeit allerdings nicht das Potenzial, sondern fehlende Arbeitskräfte. Mamook ist eher dünn besiedelt, nicht wahr?"
-63,"TEXT_BANMAM001_05255_GOTOLLJA_000_028","Ja, viele unserer fähigen Arbeiter sind fortgegangen, um entweder Söldner zu werden oder<Indent/>... nun, sie hatten andere Gründe. Ich würde gerne selber helfen, doch ich bezweifle, dass ein Paar Hände mehr oder weniger einen großen Unterschied machen."
-64,"TEXT_BANMAM001_05255_GOTOLLJA_000_029","（★未使用／削除予定★）"
-65,"TEXT_BANMAM001_05255_RUVOLLJA_000_030","(-???-)Ihr solltet unsere Wivren nutzen! Wenn man sie richtig einsetzt, können sie jedes Problem lösen!"
-66,"TEXT_BANMAM001_05255_GOTOLLJA_000_031","Ruvoll Ja! Wie viele Jahre ist es her? Ich dachte, du wärst endgültig nach Tuliyollal gezogen!"
-67,"TEXT_BANMAM001_05255_RUVOLLJA_000_032","Ich hörte, dass vieles in Mamook im Umbruch sei, also bin ich hergekommen, um es mit eigenen Augen zu sehen."
-68,"TEXT_BANMAM001_05255_ANGGIR_000_033","Der Einsatz von Wivren klingt nach einer aus<SoftHyphen/>gezeich<SoftHyphen/>neten Idee<Indent/>- besonders, da sie von einem Doppro wie dir kommt. Wir könnten sie Pflüge ziehen und schwere Ausrüstung transportieren lassen<Indent/>..."
-69,"TEXT_BANMAM001_05255_ANGGIR_000_034","Somit bräuchten wir nur noch jemanden, der gewillt ist, die zusätzlichen Materialien zu sammeln, die wir benötigen."
-70,"TEXT_BANMAM001_05255_ANGGIR_000_035","（★未使用／削除予定★）"
-71,"TEXT_BANMAM001_05255_GOTOLLJA_000_036","Ich kenne so einige Sammler, doch die meisten von ihnen sind etwas in die Jahre gekommen. Wenn du etwas benötigst, das über hiesige Pilze oder medizinische Kräuter hinausgeht, werden wir jemand anderen finden müssen."
-72,"TEXT_BANMAM001_05255_RUVOLLJA_000_037","Ich kümmere mich um Bestien, mit Erz und Holz habe ich nichts am Hut. Wie sieht's bei dir aus?"
-73,"TEXT_BANMAM001_05255_Q1_100_000","Was möchtest du sagen?"
-74,"TEXT_BANMAM001_05255_A1_100_001","Ich bin <If(PlayerParameter(4))>eine abenteuerlustige Sammlerin<Else/>ein abenteuerlustiger Sammler</If><Indent/>- überlasst das mir!"
-75,"TEXT_BANMAM001_05255_A1_100_002","Solange der Preis stimmt, kümmere ich mich um so gut wie alles."
-76,"TEXT_BANMAM001_05255_GOTOLLJA_000_038","（★未使用／削除予定★）"
-77,"TEXT_BANMAM001_05255_RUVOLLJA_000_039","Dann wäre das ja entschieden! Und du wirst ordentlich dafür belohnt werden, das verspreche ich."
-78,"TEXT_BANMAM001_05255_RUVOLLJA_090_039","Ich freue mich auf die Zusammenarbeit mit dir!"
-79,"TEXT_BANMAM001_05255_ANGGIR_100_039","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Ruvoll Ja, ich bin euch beiden zu Dank verpflichtet."
-80,"TEXT_BANMAM001_05255_RUVOLLJA_000_040","Also gut, ich werde alle Wivren-Meister auftreiben, die ich finden kann, und ihnen die Lage erklären. Ich bin mir sicher, dass sie uns nur zu gerne helfen werden!"
-81,"TEXT_BANMAM001_05255_ANGGIR_000_041","（★未使用／削除予定★）"
-82,"TEXT_BANMAM001_05255_GOTOLLJA_000_042","（★未使用／削除予定★）"
-83,"TEXT_BANMAM001_05255_GOTOLLJA_000_043","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, würde es dir etwas ausmachen, Ruvoll Ja zu begleiten? Er meint es gut, aber manchmal übertreibt er etwas."
-84,"TEXT_BANMAM001_05255_GOTOLLJA_000_044","Du hast dein Kommunikationstalent bereits unter Beweis gestellt, also greif ihm doch bitte etwas unter die Arme, falls er sich nicht verständlich machen kann, ja?"
-85,"TEXT_BANMAM001_05255_ANGGIR_000_050","Ich weiß deine Unterstützung wirklich zu schätzen. Ich werde hier sein und die Einzelheiten planen, falls du etwas benötigst."
-86,"TEXT_BANMAM001_05255_DOPPROA05255_100_050","Meine Wivre ist für den Kampf ausgebildet. Ich glaube nicht, dass sie auf einer Farm von großem Nutzen wäre<Indent/>..."
-87,"TEXT_BANMAM001_05255_DOPPROB05255_110_050","Warum bist du noch gleich hier?"
-88,"TEXT_BANMAM001_05255_DOPPROC05255_120_050","Mein Liebling hat <Emphasis>Bedürfnisse</Emphasis>! Ich werde ihn nicht zu einer Arbeit zwingen, die ihm keinen Spaß macht!"
-89,"TEXT_BANMAM001_05255_RUVOLLJA_000_060","Wie ich bereits sagte, Wivren sind die Antwort!"
-90,"TEXT_BANMAM001_05255_DOPPROA05255_000_061","Aber unsere sind speziell für den Kampf ausgebildet. Wie sollen sie denn auf einer Farm helfen?"
-91,"TEXT_BANMAM001_05255_RUVOLLJA_000_062","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Gut, dass du hier bist. Mach ihnen doch bitte klar, dass eine Wivre auf dem Feld mindestens so viel wert ist wie zehn kräftige Männer, ja?"
-92,"TEXT_BANMAM001_05255_DOPPROB05255_000_063","（★未使用／削除予定★）"
-93,"TEXT_BANMAM001_05255_SYSTEM_000_064","Die Wivren-Meister stehen betreten schweigend vor dir. Versuche, sie für Ruvoll Ja zu überzeugen."
-94,"TEXT_BANMAM001_05255_RUVOLLJA_000_070","Ich habe doch Recht, oder?"
-95,"TEXT_BANMAM001_05255_SYSTEM_000_071","Ein betretenes Schweigen hängt in der Luft. Versuche, das Wort für Ruvoll Ja zu ergreifen."
-96,"TEXT_BANMAM001_05255_DOPPROA05255_000_080","Wir alle wollen natürlich neue Feldfrüchte hier in Mamook. Ich helfe nur zu gerne. Ich will lediglich wissen, wie eine für den Kampf ausgebildete Wivre dabei nützlich sein kann."
-97,"TEXT_BANMAM001_05255_Q1_000_000","Was möchtest du sagen?"
-98,"TEXT_BANMAM001_05255_A1_000_001","Wir benötigen Wivren, um Ausrüstung zu transportieren."
-99,"TEXT_BANMAM001_05255_A1_000_002","Wir benötigen Wivren, um Pflüge zu ziehen."
-100,"TEXT_BANMAM001_05255_DOPPROA05255_000_081","Verstehe ... Eine kampferprobte, starke Wivre sollte damit keine Probleme haben. Also gut, wir beide werden in Kürze dort sein."
-101,"TEXT_BANMAM001_05255_DOPPROB05255_000_090","Was genau erwartet er von unseren Wivren? Dass sie mit ihren Hörnern Unkraut jäten?"
-102,"TEXT_BANMAM001_05255_Q2_000_000","Was möchtest du sagen?"
-103,"TEXT_BANMAM001_05255_A2_000_001","Es geht eher darum, schwere Pflüge zu ziehen."
-104,"TEXT_BANMAM001_05255_A2_000_002","Gotoll Ja wird sie mit Farmausrüstung ausstatten."
-105,"TEXT_BANMAM001_05255_DOPPROB05255_000_091","Das ... ergibt deutlich mehr Sinn. Wenn es nur das ist, werden wir gerne helfen."
-106,"TEXT_BANMAM001_05255_DOPPROB05255_100_091","Oh, das ergibt deutlich mehr Sinn. Ich vertraue auf Gotoll Jas Handwerkskunst, also bin ich dabei."
-107,"TEXT_BANMAM001_05255_DOPPROC05255_000_100","Meine geliebte Wivre zerlegt nur Dinge. Ich würde liebend gerne zu Diensten sein, aber wenn mein Liebling nichts zerschmettern kann, dann kommen wir hier wohl nicht weiter."
-108,"TEXT_BANMAM001_05255_Q3_000_000","Was möchtest du sagen?"
-109,"TEXT_BANMAM001_05255_A3_000_001","Wie wäre es damit, Felsen zu zerschmettern?"
-110,"TEXT_BANMAM001_05255_A3_000_002","Wie wäre es damit, Bäume zu zerschmettern?"
-111,"TEXT_BANMAM001_05255_DOPPROC05255_000_101","Das klingt ... genau nach unserer Kragenweite! Überlasst das mir und meiner Wivre<Indent/>- wir befreien eure Felder im Hand<SoftHyphen/>umdrehen von Hindernissen."
-112,"TEXT_BANMAM001_05255_RUVOLLJA_000_110","Das war ja unglaublich! Du hast sie einfach so alle davon überzeugt, zu helfen."
-113,"TEXT_BANMAM001_05255_RUVOLLJA_000_111","Nun, ich denke, es gibt noch eine letzte Person, deren Hilfe wir benötigen. Würdest du mich bitte begleiten?"
-114,"TEXT_BANMAM001_05255_RUVOLLJA_000_112","Sein Name ist Kageel Ja und er ist ein Najoo... äh, ich meine Ja Tiika-Bananenbauer. Wir können seiner Expertise vertrauen."
-115,"TEXT_BANMAM001_05255_RUVOLLJA_000_120","Dies ist Kageel Ja. Wir waren schon in unserer Kindheit beste Freunde, aber<Indent/>... na ja, seit ich nach Tuliyollal gezogen bin, ist der Kontakt etwas eingeschlafen."
-116,"TEXT_BANMAM001_05255_KAGEELJA_000_130","Du gehörst doch zum Gefolge von Prinzessin Wuk Lamat, oder? Was hast du mit Ruvoll Ja zu schaffen?"
-117,"TEXT_BANMAM001_05255_RUVOLLJA_000_131","Eigentlich haben wir uns erst vor kurzem getroffen. Eine Forscherin aus der Fremde arbeitet an einer Plantage hier in Mamook, und wir unterstützen sie beide dabei."
-118,"TEXT_BANMAM001_05255_KAGEELJA_000_132","（★未使用／削除予定★）"
-119,"TEXT_BANMAM001_05255_KAGEELJA_000_133","（★未使用／削除予定★）"
-120,"TEXT_BANMAM001_05255_KAGEELJA_000_134","（★未使用／削除予定★）"
-121,"TEXT_BANMAM001_05255_RUVOLLJA_000_135","（★未使用／削除予定★）"
-122,"TEXT_BANMAM001_05255_RUVOLLJA_000_136","Ich hatte gehofft, dass du auch helfen könntest, da du so viel über den Anbau in diesen Wäldern weißt."
-123,"TEXT_BANMAM001_05255_KAGEELJA_000_137","Du denkst, ich würde einem Verräter helfen, der seiner Heimat den Rücken kehrt und sich ins bequeme Tuliyollal verzieht?"
-124,"TEXT_BANMAM001_05255_KAGEELJA_000_138","... Ich mache nur Spaß. Doch noch vor kurzem hätten diese Worte ernst gemeint sein können. Wir haben es vor allem <If(PlayerParameter(4))>dieser Frau<Else/>diesem Mann</If> hier zu verdanken, dass Mamook nicht mehr so engstirnig ist."
-125,"TEXT_BANMAM001_05255_KAGEELJA_000_139","Da du endlich den Weg nach Hause gefunden hast, wäre es töricht von mir, deine Bitte abzulehnen, mein Freund."
-126,"TEXT_BANMAM001_05255_KAGEELJA_000_140","（★未使用／削除予定★）"
-127,"TEXT_BANMAM001_05255_RUVOLLJA_000_141","Du hast allerdings Recht, Kageel Ja. Ich <Emphasis>war</Emphasis> ein Verräter. Ein Verräter an allem, wofür Mamook einst stand<Indent/>... Ein Verräter an meinem Freund, dem ich nie geschrieben habe."
-128,"TEXT_BANMAM001_05255_RUVOLLJA_100_141","Es hat mir zwar das Herz gebrochen, nach Tuliyollal zu ziehen, doch die Qual der Zwillingsköpfe war noch unerträglicher<Indent/>... Nun, da die alten Lehren der Ver<SoftHyphen/>gangen<SoftHyphen/>heit angehören, möchte ich alles in meiner Macht Stehende für die Zukunft von Mamook einsetzen."
-129,"TEXT_BANMAM001_05255_RUVOLLJA_110_141","Daher danke ich dir für deine Vergebung, Kageel Ja. Ich hoffe, dass du, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> und ich dabei helfen können, einen neuen Weg nach vorne zu beschreiten."
-130,"TEXT_BANMAM001_05255_KAGEELJA_000_142","（★未使用／削除予定★）"
-131,"TEXT_BANMAM001_05255_RUVOLLJA_000_143","Jetzt sollten wir genug Leute haben, um loszulegen. Lass uns Anggir fragen, ob sie sonst noch etwas benötigt."
-132,"TEXT_BANMAM001_05255_RUVOLLJA_000_144","（★未使用／削除予定★）"
-133,"TEXT_BANMAM001_05255_Q4_000_000","（★未使用／削除予定★）"
-134,"TEXT_BANMAM001_05255_A4_000_001","（★未使用／削除予定★）"
-135,"TEXT_BANMAM001_05255_A4_000_002","（★未使用／削除予定★）"
-136,"TEXT_BANMAM001_05255_A4_000_003","（★未使用／削除予定★）"
-137,"TEXT_BANMAM001_05255_RUVOLLJA_000_150","（★未使用／削除予定★）"
-138,"TEXT_BANMAM001_05255_RUVOLLJA_000_155","（★未使用／削除予定★）"
-139,"TEXT_BANMAM001_05255_RUVOLLJA_000_160","（★未使用／削除予定★）"
-140,"TEXT_BANMAM001_05255_RUVOLLJA_000_170","（★未使用／削除予定★）"
-141,"TEXT_BANMAM001_05255_RUVOLLJA_000_171","（★未使用／削除予定★）"
-142,"TEXT_BANMAM001_05255_RUVOLLJA_000_172","（★未使用／削除予定★）"
-143,"TEXT_BANMAM001_05255_RUVOLLJA_000_173","（★未使用／削除予定★）"
-144,"TEXT_BANMAM001_05255_RUVOLLJA_000_174","（★未使用／削除予定★）"
-145,"TEXT_BANMAM001_05255_RUVOLLJA_000_180","Gotoll Ja hilft bei der Ausstattung der Wivren mit Karren und Pflügen. Er wird später zu uns stoßen."
-146,"TEXT_BANMAM001_05255_KAGEELJA_000_181","Ich habe mich gerade Anggir vorgestellt. Lasst mich wissen, wie ich helfen kann."
-147,"TEXT_BANMAM001_05255_ANGGIR_000_190","Vielen Dank für deine Hilfe bei der Überzeugungsarbeit. Dank der Wivren ist unser Mangel an Arbeitskräften jetzt kaum noch von Bedeutung."
-148,"TEXT_BANMAM001_05255_ANGGIR_000_191","Die Meister haben ihre Anweisungen, aber es gibt da noch eine Sache, um die ich dich bitten möchte."
-149,"TEXT_BANMAM001_05255_ANGGIR_000_192","Obwohl dieser Boden fruchtbar ist, braucht er einige Zusätze, um die Samen und Setzlinge, die ich mitgebracht habe, besser aufzunehmen."
-150,"TEXT_BANMAM001_05255_ANGGIR_000_193","（★未使用／削除予定★）"
-151,"TEXT_BANMAM001_05255_ANGGIR_000_200","Ich denke, etwas Holzkohle sollte den Säuregehalt gut ausgleichen. Vielleicht könntest du welche von der Aschenfront von Xobr'it besorgen?"
-152,"TEXT_BANMAM001_05255_ANGGIR_000_210","Ich denke, etwas verkohlte Rinde sollte den Säuregehalt gut ausgleichen. Vielleicht könntest du welche von der Aschenfront von Xobr'it besorgen?"
-153,"TEXT_BANMAM001_05255_ANGGIR_000_220","Ich denke, eine Aschenschale sollte den Säuregehalt gut ausgleichen. Vielleicht könntest du eine aus dem Iq Rrax Tsoly fischen?"
-154,"TEXT_BANMAM001_05255_ANGGIR_000_221","Hiesigen Fischern zufolge sollen sich goldene Larven gut als Köder eignen."
-155,"TEXT_BANMAM001_05255_ANGGIR_100_221","Ich habe von Iq Br'aax die entsprechenden Genehmigungen eingeholt, um am Horizont von Ut'ohmu zu sammeln, also solltest du nichts zu befürchten haben, solange du dich respektvoll verhältst."
-156,"TEXT_BANMAM001_05255_ANGGIR_000_230","Wir werden hier mit der Einrichtung einer Operationsbasis beginnen, also lass mich einfach wissen, sobald du alles Benötigte besorgt hast."
-157,"TEXT_BANMAM001_05255_RUVOLLJA_000_240","Ich bin erleichtert, dass Kageel Ja uns unterstützt. Er baut schon ewig lange Najool an, daher sollten er und Anggir nicht aufzuhalten sein!"
-158,"TEXT_BANMAM001_05255_KAGEELJA_000_241","Das Land für den Anbau vorzubereiten, ist ein unglaublich wichtiger Schritt. Wenn wir unserer neuen Saat einen guten Start ermöglichen wollen, sollten wir uns ordentlich ins Zeug legen."
-159,"TEXT_BANMAM001_05255_ANGGIR_000_250","Willkommen zurück. Konntest du alles beschaffen?"
-160,"TEXT_BANMAM001_05255_ANGGIR_000_251","Ausgezeichnet, das hatte ich gehofft. Ich werde die Wivren-Meister bitten, unseren Dünger beim Pflügen in die Erde zu mischen."
-161,"TEXT_BANMAM001_05255_DOPPROD05255_000_300","Der Karren ist bereit. Wir können jederzeit loslegen."
-162,"TEXT_BANMAM001_05255_KAGEELJA_000_301","Nur noch ein wenig<Indent/>... Ja, das sollte fein genug gemahlen sein, um es gleichmäßig verteilen zu können."
-163,"TEXT_BANMAM001_05255_ANGGIR_000_302","Sobald wir den Boden für die Beete vorbereitet haben, können wir mit dem Pflanzen beginnen. Ruvoll Ja, kann ich auch weiterhin auf dich zählen?"
-164,"TEXT_BANMAM001_05255_RUVOLLJA_000_303","Auf mich? Aber Kageel Ja ist doch derjenige, der Sachen anbaut."
-165,"TEXT_BANMAM001_05255_ANGGIR_000_304","Und <Emphasis>du</Emphasis> hast aus unseren Hoffnungen durch die Rekrutierung der nötigen Verbündeten eine tragfähige Operation gemacht. Dein Charisma ist für den Erfolg der Plantage von großer Bedeutung."
-166,"TEXT_BANMAM001_05255_ANGGIR_000_305","（★未使用／削除予定★）"
-167,"TEXT_BANMAM001_05255_RUVOLLJA_000_306","Na schön, ich werde tun, was ich kann. Bei meinem Stolz als Mamool Ja<Indent/>- für Mamook!"
-168,"TEXT_BANMAM001_05255_RUVOLLJA_000_307","Deine Unterstützung wäre von unschätzbarem Wert, wenn du die Zeit entbehren kannst, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-169,"TEXT_BANMAM001_05255_RUVOLLJA_000_308","（★未使用／削除予定★）"
-170,"TEXT_BANMAM001_05255_RUVOLLJA_000_309","Nach all diesen Jahren möchte ich glauben, dass sich meine Heimat wirklich wandeln kann<Indent/>... aber das schaffe ich nicht allein."
-171,"TEXT_BANMAM001_05255_RUVOLLJA_000_310","（★未使用／削除予定★）"
-172,"TEXT_BANMAM001_05255_RUVOLLJA_000_311","（★未使用／削除予定★）"
-173,"TEXT_BANMAM001_05255_Q5_000_000","Was möchtest du sagen?"
-174,"TEXT_BANMAM001_05255_A5_000_001","Ich werde helfen. Bei meinem Stolz als <If(PlayerParameter(4))>Abenteurerin<Else/>Abenteurer</If><Indent/>- für Mamook!"
-175,"TEXT_BANMAM001_05255_A5_000_002","Wenn du es so ausdrückst, kann ich wohl schlecht Nein sagen."
-176,"TEXT_BANMAM001_05255_RUVOLLJA_000_320","Vielen Dank. Ich stehe in deiner Schuld!"
-177,"TEXT_BANMAM001_05255_RUVOLLJA_000_330","Ich weiß, das ist eine große Bitte<Indent/>... aber ich danke dir."
-178,"TEXT_BANMAM001_05255_ANGGIR_000_340","Mit deiner Hilfe können wir auf keinen Fall scheitern."
-179,"TEXT_BANMAM001_05255_KAGEELJA_000_341","Tut mir leid, dass ihr warten musstet. Die Wivren sind jetzt bereit."
-180,"TEXT_BANMAM001_05255_RUVOLLJA_000_342","Danke, Kageel Ja. Dann<Indent/>... lasst uns loslegen!"
-181,"TEXT_BANMAM001_05255_RUVOLLJA_000_400","Die Plantage wird Mamook noch eine Chance geben, das kann ich fühlen."
-182,"TEXT_BANMAM001_05255_ANGGIR_000_401","Ich fühle es auch. Lasst uns der Welt zeigen, was auf diesem Boden gedeihen kann."
-183,"TEXT_BANMAM001_05255_ANGGIR_000_402","Gemeinsam, mit unseren eigenen Händen."
-184,"TEXT_BANMAM001_05255_SYSTEM_000_403","Durch Hoffnungen, die noch nicht voll erblüht sind, hat Mamook eine Plantage errichtet! Hilf den Mamool Ja, ihr Land lieben zu lernen, indem du die Bauern von Gok Golma unterstützt."
-185,"TEXT_BANMAM001_05255_SYSTEM_000_450","Dein Verhältnis zu den Bauern von Gok Golma ist nun „Freundlich“. Damit hast du eine neue Auftragsreihe der Freundesvölker freigeschaltet!"
-186,"TEXT_BANMAM001_05255_SYSTEM_000_451","Ab jetzt kannst du von Kageel Ja in Gok Golma Aufträge der Mamool Ja annehmen."
-187,"TEXT_BANMAM001_05255_SYSTEM_000_452","Außerdem kannst du bei Veerul Ja spezifische Waren der Mamool Ja erwerben."
+2,TEXT_BANMAM001_05255_SEQ_02,"Die freundliche Forscherin Anggir freut sich über den warmen Empfang, doch sie scheint etwas besorgt über den Mangel an verfügbaren Arbeitskräften in Mamook zu sein. Just in dem Moment tritt Ruvoll Ja auf den Plan, der vor vielen Jahren von Mamook nach Tuliyollal ausgewandert war. Der Doppro schlägt vor, das Problem mit Wivren zu lösen, und macht sich auf den Weg, um andere Doppro von dieser Idee zu überzeugen. Gotoll Ja sieht dem jungen Mann jedoch mit besorgter Miene nach. Anscheinend ist Ruvoll Ja zwar äußerst freundlich, hat aber mitunter Probleme, sich verständlich zu machen. Daher bittet Gotoll Ja dich, ihm bei den Ver­hand­lungen zu helfen."
+3,TEXT_BANMAM001_05255_SEQ_03,"Als du zu Ruvoll Ja aufschließt, findest du ihn in einer Diskussion mit einigen skeptischen Doppro wieder, die nicht ganz verstehen, wofür ihre Wivren herhalten sollen. Du musst ihnen wohl ein wenig auf die Sprünge helfen, bevor ihr sie als Verbündete gewinnen könnt."
+4,TEXT_BANMAM001_05255_SEQ_04,"Ruvoll Ja ist beeindruckt, mit welcher Leichtigkeit du die Wivren-Meister für eure Sache gewinnst, und schlägt vor, dass du ihn auch weiter begleitest. Das nächste Ziel seiner Überzeugungsarbeit soll Kageel Ja werden: ein Najool-Bauer, der dank seines Wissens über den Anbau von Feldfrüchten in diesem Wald von großer Hilfe für die Plantage sein könnte."
+5,TEXT_BANMAM001_05255_SEQ_05,"Obwohl euer Treffen zunächst wie ein weiteres Desaster erscheint, endet es letztendlich in einer freundlichen Übereinkunft - Kageel Ja bietet euch seine Unterstützung an. Ruvoll Ja ist überzeugt, dass nun alles bereit sein sollte, doch es wäre ratsam, dies noch einmal mit Anggir zu klären."
+6,TEXT_BANMAM001_05255_SEQ_06,"Anggir bittet dich, ihr Materialien zu bringen, die reich an Holzkohle sind, um den Säuregehalt des Bodens auszugleichen. Da dir das Sammeln im Blut liegt, brichst du in Richtung Aschenfront von Xobr'it auf, um die nötigen Besorgungen zu erledigen."
+7,TEXT_BANMAM001_05255_SEQ_07,"Die Wivren-Meister kümmern sich um ihre Schützlinge und Kageel Ja verwaltet den Dünger. Vor deinen Augen wird der Boden umgepflügt, und wo einst ein Wald stand, befindet sich nun eine kleine Plantage. Sie steht zwar noch ganz am Anfang, doch Gok Golma repräsentiert Mamooks Potenzial für Wandel, und mit harter Arbeit könnte sie tatsächlich zu einem Leuchtfeuer der Hoffnung in einem Wald werden, dessen Ver­gangen­heit von Dunkelheit gezeichnet war ..."
+8,TEXT_BANMAM001_05255_SEQ_08,
+9,TEXT_BANMAM001_05255_SEQ_09,
+10,TEXT_BANMAM001_05255_SEQ_10,
+11,TEXT_BANMAM001_05255_SEQ_11,
+12,TEXT_BANMAM001_05255_SEQ_12,
+13,TEXT_BANMAM001_05255_SEQ_13,
+14,TEXT_BANMAM001_05255_SEQ_14,
+15,TEXT_BANMAM001_05255_SEQ_15,
+16,TEXT_BANMAM001_05255_SEQ_16,
+17,TEXT_BANMAM001_05255_SEQ_17,
+18,TEXT_BANMAM001_05255_SEQ_18,
+19,TEXT_BANMAM001_05255_SEQ_19,
+20,TEXT_BANMAM001_05255_SEQ_20,
+21,TEXT_BANMAM001_05255_SEQ_21,
+22,TEXT_BANMAM001_05255_SEQ_22,
+23,TEXT_BANMAM001_05255_SEQ_23,
+24,TEXT_BANMAM001_05255_TODO_00,Mit Anggir sprechen
+25,TEXT_BANMAM001_05255_TODO_01,Mit Ruvoll Ja sprechen
+26,TEXT_BANMAM001_05255_TODO_02,Die Wivren-Meister überzeugen
+27,TEXT_BANMAM001_05255_TODO_03,Mit Kageel Ja sprechen
+28,TEXT_BANMAM001_05255_TODO_04,Mit Anggir sprechen
+29,TEXT_BANMAM001_05255_TODO_05, an der Aschenfront von Xobr'it abbauen
+30,TEXT_BANMAM001_05255_TODO_06,
+31,TEXT_BANMAM001_05255_TODO_07,
+32,TEXT_BANMAM001_05255_TODO_08,
+33,TEXT_BANMAM001_05255_TODO_09,
+34,TEXT_BANMAM001_05255_TODO_10,
+35,TEXT_BANMAM001_05255_TODO_11,
+36,TEXT_BANMAM001_05255_TODO_12,
+37,TEXT_BANMAM001_05255_TODO_13,
+38,TEXT_BANMAM001_05255_TODO_14,
+39,TEXT_BANMAM001_05255_TODO_15,
+40,TEXT_BANMAM001_05255_TODO_16,
+41,TEXT_BANMAM001_05255_TODO_17,
+42,TEXT_BANMAM001_05255_TODO_18,
+43,TEXT_BANMAM001_05255_TODO_19,
+44,TEXT_BANMAM001_05255_TODO_20,
+45,TEXT_BANMAM001_05255_TODO_21,
+46,TEXT_BANMAM001_05255_TODO_22,
+47,TEXT_BANMAM001_05255_TODO_23,
+48,TEXT_BANMAM001_05255_GOTOLLJA_000_000,"Player, schön, dich zu sehen. Hast du einen Moment Zeit?"
+49,TEXT_BANMAM001_05255_GOTOLLJA_000_001,"Da du persönlich dabei geholfen hast, unseren Import von Lebensmitteln aus der Ferne auszuhandeln, überrascht dich das vermutlich wenig, doch vor kurzem ist eine Forscherin aus Sharlayan hier eingetroffen."
+50,TEXT_BANMAM001_05255_GOTOLLJA_000_002,"Ich würde ihr gerne meine Aufwartung machen, aber ..."
+51,TEXT_BANMAM001_05255_GOTOLLJA_000_003,"Na ja, ich weiß leider nichts über die Bewohner Sharlayans und möchte sie nicht versehentlich vor den Kopf stoßen. Könntest du womöglich mitkommen? Das würde mich ein wenig beruhigen."
+52,TEXT_BANMAM001_05255_GOTOLLJA_000_004,Vielen Dank. Ihr Name ist Anggir und sie sollte sich im Süden der Stadt aufhalten.
+53,TEXT_BANMAM001_05255_GOTOLLJA_000_005,（★未使用／削除予定★）
+54,TEXT_BANMAM001_05255_GOTOLLJA_000_010,"Das muss sie sein. Ich bin gerührt, dass sie so weit für uns gereist ist."
+55,TEXT_BANMAM001_05255_ANGGIR_000_020,Hallo. Kann ich euch irgendwie behilflich sein?
+56,TEXT_BANMAM001_05255_GOTOLLJA_000_021,"Und ich bin Gotoll Ja, ein ehemaliger Söldner. Jetzt fertige ich allerlei nützliche Dinge an."
+57,TEXT_BANMAM001_05255_GOTOLLJA_000_022,"Unser Oberhaupt sagt, dass du gekommen seist, um das Wachstum der neuen Feldfrüchte in Mamook zu beaufsichtigen, daher wollte ich dir persönlich meinen Dank aussprechen."
+58,TEXT_BANMAM001_05255_ANGGIR_000_023,Das ist äußerst nett von dir. Mein Name ist Anggir und ich stehe euch gerne zu Diensten.
+59,TEXT_BANMAM001_05255_ANGGIR_000_024,"Als ich von meinem Auftrag erfuhr, war ich sofort fasziniert. Dieser Wald scheint von dem ätherischen Einfluss der Meteoriten hier gekennzeichnet worden zu sein ..."
+60,TEXT_BANMAM001_05255_ANGGIR_000_025,"Doch keine Sorge. Wir werden im Nu eine experimentelle Plantage errichtet haben. Dort werden neue Feldfrüchte sprießen, so viel kann ich dir versprechen."
+61,TEXT_BANMAM001_05255_ANGGIR_000_026,（★未使用／削除予定★）
+62,TEXT_BANMAM001_05255_ANGGIR_000_027,"Meine größte Sorge ist derzeit allerdings nicht das Potenzial, sondern fehlende Arbeitskräfte. Mamook ist eher dünn besiedelt, nicht wahr?"
+63,TEXT_BANMAM001_05255_GOTOLLJA_000_028,"Ja, viele unserer fähigen Arbeiter sind fortgegangen, um entweder Söldner zu werden oder ... nun, sie hatten andere Gründe. Ich würde gerne selber helfen, doch ich bezweifle, dass ein Paar Hände mehr oder weniger einen großen Unterschied machen."
+64,TEXT_BANMAM001_05255_GOTOLLJA_000_029,（★未使用／削除予定★）
+65,TEXT_BANMAM001_05255_RUVOLLJA_000_030,"(-???-)Ihr solltet unsere Wivren nutzen! Wenn man sie richtig einsetzt, können sie jedes Problem lösen!"
+66,TEXT_BANMAM001_05255_GOTOLLJA_000_031,"Ruvoll Ja! Wie viele Jahre ist es her? Ich dachte, du wärst endgültig nach Tuliyollal gezogen!"
+67,TEXT_BANMAM001_05255_RUVOLLJA_000_032,"Ich hörte, dass vieles in Mamook im Umbruch sei, also bin ich hergekommen, um es mit eigenen Augen zu sehen."
+68,TEXT_BANMAM001_05255_ANGGIR_000_033,"Der Einsatz von Wivren klingt nach einer aus­gezeich­neten Idee - besonders, da sie von einem Doppro wie dir kommt. Wir könnten sie Pflüge ziehen und schwere Ausrüstung transportieren lassen ..."
+69,TEXT_BANMAM001_05255_ANGGIR_000_034,"Somit bräuchten wir nur noch jemanden, der gewillt ist, die zusätzlichen Materialien zu sammeln, die wir benötigen."
+70,TEXT_BANMAM001_05255_ANGGIR_000_035,（★未使用／削除予定★）
+71,TEXT_BANMAM001_05255_GOTOLLJA_000_036,"Ich kenne so einige Sammler, doch die meisten von ihnen sind etwas in die Jahre gekommen. Wenn du etwas benötigst, das über hiesige Pilze oder medizinische Kräuter hinausgeht, werden wir jemand anderen finden müssen."
+72,TEXT_BANMAM001_05255_RUVOLLJA_000_037,"Ich kümmere mich um Bestien, mit Erz und Holz habe ich nichts am Hut. Wie sieht's bei dir aus?"
+73,TEXT_BANMAM001_05255_Q1_100_000,Was möchtest du sagen?
+74,TEXT_BANMAM001_05255_A1_100_001,Ich bin eine abenteuerlustige Sammlerin - überlasst das mir!
+75,TEXT_BANMAM001_05255_A1_100_002,"Solange der Preis stimmt, kümmere ich mich um so gut wie alles."
+76,TEXT_BANMAM001_05255_GOTOLLJA_000_038,（★未使用／削除予定★）
+77,TEXT_BANMAM001_05255_RUVOLLJA_000_039,"Dann wäre das ja entschieden! Und du wirst ordentlich dafür belohnt werden, das verspreche ich."
+78,TEXT_BANMAM001_05255_RUVOLLJA_090_039,Ich freue mich auf die Zusammenarbeit mit dir!
+79,TEXT_BANMAM001_05255_ANGGIR_100_039,"Player, Ruvoll Ja, ich bin euch beiden zu Dank verpflichtet."
+80,TEXT_BANMAM001_05255_RUVOLLJA_000_040,"Also gut, ich werde alle Wivren-Meister auftreiben, die ich finden kann, und ihnen die Lage erklären. Ich bin mir sicher, dass sie uns nur zu gerne helfen werden!"
+81,TEXT_BANMAM001_05255_ANGGIR_000_041,（★未使用／削除予定★）
+82,TEXT_BANMAM001_05255_GOTOLLJA_000_042,（★未使用／削除予定★）
+83,TEXT_BANMAM001_05255_GOTOLLJA_000_043,"Player, würde es dir etwas ausmachen, Ruvoll Ja zu begleiten? Er meint es gut, aber manchmal übertreibt er etwas."
+84,TEXT_BANMAM001_05255_GOTOLLJA_000_044,"Du hast dein Kommunikationstalent bereits unter Beweis gestellt, also greif ihm doch bitte etwas unter die Arme, falls er sich nicht verständlich machen kann, ja?"
+85,TEXT_BANMAM001_05255_ANGGIR_000_050,"Ich weiß deine Unterstützung wirklich zu schätzen. Ich werde hier sein und die Einzelheiten planen, falls du etwas benötigst."
+86,TEXT_BANMAM001_05255_DOPPROA05255_100_050,"Meine Wivre ist für den Kampf ausgebildet. Ich glaube nicht, dass sie auf einer Farm von großem Nutzen wäre ..."
+87,TEXT_BANMAM001_05255_DOPPROB05255_110_050,Warum bist du noch gleich hier?
+88,TEXT_BANMAM001_05255_DOPPROC05255_120_050,"Mein Liebling hat *Bedürfnisse*! Ich werde ihn nicht zu einer Arbeit zwingen, die ihm keinen Spaß macht!"
+89,TEXT_BANMAM001_05255_RUVOLLJA_000_060,"Wie ich bereits sagte, Wivren sind die Antwort!"
+90,TEXT_BANMAM001_05255_DOPPROA05255_000_061,Aber unsere sind speziell für den Kampf ausgebildet. Wie sollen sie denn auf einer Farm helfen?
+91,TEXT_BANMAM001_05255_RUVOLLJA_000_062,"Oh, Player. Gut, dass du hier bist. Mach ihnen doch bitte klar, dass eine Wivre auf dem Feld mindestens so viel wert ist wie zehn kräftige Männer, ja?"
+92,TEXT_BANMAM001_05255_DOPPROB05255_000_063,（★未使用／削除予定★）
+93,TEXT_BANMAM001_05255_SYSTEM_000_064,"Die Wivren-Meister stehen betreten schweigend vor dir. Versuche, sie für Ruvoll Ja zu überzeugen."
+94,TEXT_BANMAM001_05255_RUVOLLJA_000_070,"Ich habe doch Recht, oder?"
+95,TEXT_BANMAM001_05255_SYSTEM_000_071,"Ein betretenes Schweigen hängt in der Luft. Versuche, das Wort für Ruvoll Ja zu ergreifen."
+96,TEXT_BANMAM001_05255_DOPPROA05255_000_080,"Wir alle wollen natürlich neue Feldfrüchte hier in Mamook. Ich helfe nur zu gerne. Ich will lediglich wissen, wie eine für den Kampf ausgebildete Wivre dabei nützlich sein kann."
+97,TEXT_BANMAM001_05255_Q1_000_000,Was möchtest du sagen?
+98,TEXT_BANMAM001_05255_A1_000_001,"Wir benötigen Wivren, um Ausrüstung zu transportieren."
+99,TEXT_BANMAM001_05255_A1_000_002,"Wir benötigen Wivren, um Pflüge zu ziehen."
+100,TEXT_BANMAM001_05255_DOPPROA05255_000_081,"Verstehe ... Eine kampferprobte, starke Wivre sollte damit keine Probleme haben. Also gut, wir beide werden in Kürze dort sein."
+101,TEXT_BANMAM001_05255_DOPPROB05255_000_090,Was genau erwartet er von unseren Wivren? Dass sie mit ihren Hörnern Unkraut jäten?
+102,TEXT_BANMAM001_05255_Q2_000_000,Was möchtest du sagen?
+103,TEXT_BANMAM001_05255_A2_000_001,"Es geht eher darum, schwere Pflüge zu ziehen."
+104,TEXT_BANMAM001_05255_A2_000_002,Gotoll Ja wird sie mit Farmausrüstung ausstatten.
+105,TEXT_BANMAM001_05255_DOPPROB05255_000_091,"Das ... ergibt deutlich mehr Sinn. Wenn es nur das ist, werden wir gerne helfen."
+106,TEXT_BANMAM001_05255_DOPPROB05255_100_091,"Oh, das ergibt deutlich mehr Sinn. Ich vertraue auf Gotoll Jas Handwerkskunst, also bin ich dabei."
+107,TEXT_BANMAM001_05255_DOPPROC05255_000_100,"Meine geliebte Wivre zerlegt nur Dinge. Ich würde liebend gerne zu Diensten sein, aber wenn mein Liebling nichts zerschmettern kann, dann kommen wir hier wohl nicht weiter."
+108,TEXT_BANMAM001_05255_Q3_000_000,Was möchtest du sagen?
+109,TEXT_BANMAM001_05255_A3_000_001,"Wie wäre es damit, Felsen zu zerschmettern?"
+110,TEXT_BANMAM001_05255_A3_000_002,"Wie wäre es damit, Bäume zu zerschmettern?"
+111,TEXT_BANMAM001_05255_DOPPROC05255_000_101,Das klingt ... genau nach unserer Kragenweite! Überlasst das mir und meiner Wivre - wir befreien eure Felder im Hand­umdrehen von Hindernissen.
+112,TEXT_BANMAM001_05255_RUVOLLJA_000_110,"Das war ja unglaublich! Du hast sie einfach so alle davon überzeugt, zu helfen."
+113,TEXT_BANMAM001_05255_RUVOLLJA_000_111,"Nun, ich denke, es gibt noch eine letzte Person, deren Hilfe wir benötigen. Würdest du mich bitte begleiten?"
+114,TEXT_BANMAM001_05255_RUVOLLJA_000_112,"Sein Name ist Kageel Ja und er ist ein Najoo... äh, ich meine Ja Tiika-Bananenbauer. Wir können seiner Expertise vertrauen."
+115,TEXT_BANMAM001_05255_RUVOLLJA_000_120,"Dies ist Kageel Ja. Wir waren schon in unserer Kindheit beste Freunde, aber ... na ja, seit ich nach Tuliyollal gezogen bin, ist der Kontakt etwas eingeschlafen."
+116,TEXT_BANMAM001_05255_KAGEELJA_000_130,"Du gehörst doch zum Gefolge von Prinzessin Wuk Lamat, oder? Was hast du mit Ruvoll Ja zu schaffen?"
+117,TEXT_BANMAM001_05255_RUVOLLJA_000_131,"Eigentlich haben wir uns erst vor kurzem getroffen. Eine Forscherin aus der Fremde arbeitet an einer Plantage hier in Mamook, und wir unterstützen sie beide dabei."
+118,TEXT_BANMAM001_05255_KAGEELJA_000_132,（★未使用／削除予定★）
+119,TEXT_BANMAM001_05255_KAGEELJA_000_133,（★未使用／削除予定★）
+120,TEXT_BANMAM001_05255_KAGEELJA_000_134,（★未使用／削除予定★）
+121,TEXT_BANMAM001_05255_RUVOLLJA_000_135,（★未使用／削除予定★）
+122,TEXT_BANMAM001_05255_RUVOLLJA_000_136,"Ich hatte gehofft, dass du auch helfen könntest, da du so viel über den Anbau in diesen Wäldern weißt."
+123,TEXT_BANMAM001_05255_KAGEELJA_000_137,"Du denkst, ich würde einem Verräter helfen, der seiner Heimat den Rücken kehrt und sich ins bequeme Tuliyollal verzieht?"
+124,TEXT_BANMAM001_05255_KAGEELJA_000_138,"... Ich mache nur Spaß. Doch noch vor kurzem hätten diese Worte ernst gemeint sein können. Wir haben es vor allem dieser Frau hier zu verdanken, dass Mamook nicht mehr so engstirnig ist."
+125,TEXT_BANMAM001_05255_KAGEELJA_000_139,"Da du endlich den Weg nach Hause gefunden hast, wäre es töricht von mir, deine Bitte abzulehnen, mein Freund."
+126,TEXT_BANMAM001_05255_KAGEELJA_000_140,（★未使用／削除予定★）
+127,TEXT_BANMAM001_05255_RUVOLLJA_000_141,"Du hast allerdings Recht, Kageel Ja. Ich *war* ein Verräter. Ein Verräter an allem, wofür Mamook einst stand ... Ein Verräter an meinem Freund, dem ich nie geschrieben habe."
+128,TEXT_BANMAM001_05255_RUVOLLJA_100_141,"Es hat mir zwar das Herz gebrochen, nach Tuliyollal zu ziehen, doch die Qual der Zwillingsköpfe war noch unerträglicher ... Nun, da die alten Lehren der Ver­gangen­heit angehören, möchte ich alles in meiner Macht Stehende für die Zukunft von Mamook einsetzen."
+129,TEXT_BANMAM001_05255_RUVOLLJA_110_141,"Daher danke ich dir für deine Vergebung, Kageel Ja. Ich hoffe, dass du, Player und ich dabei helfen können, einen neuen Weg nach vorne zu beschreiten."
+130,TEXT_BANMAM001_05255_KAGEELJA_000_142,（★未使用／削除予定★）
+131,TEXT_BANMAM001_05255_RUVOLLJA_000_143,"Jetzt sollten wir genug Leute haben, um loszulegen. Lass uns Anggir fragen, ob sie sonst noch etwas benötigt."
+132,TEXT_BANMAM001_05255_RUVOLLJA_000_144,（★未使用／削除予定★）
+133,TEXT_BANMAM001_05255_Q4_000_000,（★未使用／削除予定★）
+134,TEXT_BANMAM001_05255_A4_000_001,（★未使用／削除予定★）
+135,TEXT_BANMAM001_05255_A4_000_002,（★未使用／削除予定★）
+136,TEXT_BANMAM001_05255_A4_000_003,（★未使用／削除予定★）
+137,TEXT_BANMAM001_05255_RUVOLLJA_000_150,（★未使用／削除予定★）
+138,TEXT_BANMAM001_05255_RUVOLLJA_000_155,（★未使用／削除予定★）
+139,TEXT_BANMAM001_05255_RUVOLLJA_000_160,（★未使用／削除予定★）
+140,TEXT_BANMAM001_05255_RUVOLLJA_000_170,（★未使用／削除予定★）
+141,TEXT_BANMAM001_05255_RUVOLLJA_000_171,（★未使用／削除予定★）
+142,TEXT_BANMAM001_05255_RUVOLLJA_000_172,（★未使用／削除予定★）
+143,TEXT_BANMAM001_05255_RUVOLLJA_000_173,（★未使用／削除予定★）
+144,TEXT_BANMAM001_05255_RUVOLLJA_000_174,（★未使用／削除予定★）
+145,TEXT_BANMAM001_05255_RUVOLLJA_000_180,Gotoll Ja hilft bei der Ausstattung der Wivren mit Karren und Pflügen. Er wird später zu uns stoßen.
+146,TEXT_BANMAM001_05255_KAGEELJA_000_181,"Ich habe mich gerade Anggir vorgestellt. Lasst mich wissen, wie ich helfen kann."
+147,TEXT_BANMAM001_05255_ANGGIR_000_190,Vielen Dank für deine Hilfe bei der Überzeugungsarbeit. Dank der Wivren ist unser Mangel an Arbeitskräften jetzt kaum noch von Bedeutung.
+148,TEXT_BANMAM001_05255_ANGGIR_000_191,"Die Meister haben ihre Anweisungen, aber es gibt da noch eine Sache, um die ich dich bitten möchte."
+149,TEXT_BANMAM001_05255_ANGGIR_000_192,"Obwohl dieser Boden fruchtbar ist, braucht er einige Zusätze, um die Samen und Setzlinge, die ich mitgebracht habe, besser aufzunehmen."
+150,TEXT_BANMAM001_05255_ANGGIR_000_193,（★未使用／削除予定★）
+151,TEXT_BANMAM001_05255_ANGGIR_000_200,"Ich denke, etwas Holzkohle sollte den Säuregehalt gut ausgleichen. Vielleicht könntest du welche von der Aschenfront von Xobr'it besorgen?"
+152,TEXT_BANMAM001_05255_ANGGIR_000_210,"Ich denke, etwas verkohlte Rinde sollte den Säuregehalt gut ausgleichen. Vielleicht könntest du welche von der Aschenfront von Xobr'it besorgen?"
+153,TEXT_BANMAM001_05255_ANGGIR_000_220,"Ich denke, eine Aschenschale sollte den Säuregehalt gut ausgleichen. Vielleicht könntest du eine aus dem Iq Rrax Tsoly fischen?"
+154,TEXT_BANMAM001_05255_ANGGIR_000_221,Hiesigen Fischern zufolge sollen sich goldene Larven gut als Köder eignen.
+155,TEXT_BANMAM001_05255_ANGGIR_100_221,"Ich habe von Iq Br'aax die entsprechenden Genehmigungen eingeholt, um am Horizont von Ut'ohmu zu sammeln, also solltest du nichts zu befürchten haben, solange du dich respektvoll verhältst."
+156,TEXT_BANMAM001_05255_ANGGIR_000_230,"Wir werden hier mit der Einrichtung einer Operationsbasis beginnen, also lass mich einfach wissen, sobald du alles Benötigte besorgt hast."
+157,TEXT_BANMAM001_05255_RUVOLLJA_000_240,"Ich bin erleichtert, dass Kageel Ja uns unterstützt. Er baut schon ewig lange Najool an, daher sollten er und Anggir nicht aufzuhalten sein!"
+158,TEXT_BANMAM001_05255_KAGEELJA_000_241,"Das Land für den Anbau vorzubereiten, ist ein unglaublich wichtiger Schritt. Wenn wir unserer neuen Saat einen guten Start ermöglichen wollen, sollten wir uns ordentlich ins Zeug legen."
+159,TEXT_BANMAM001_05255_ANGGIR_000_250,Willkommen zurück. Konntest du alles beschaffen?
+160,TEXT_BANMAM001_05255_ANGGIR_000_251,"Ausgezeichnet, das hatte ich gehofft. Ich werde die Wivren-Meister bitten, unseren Dünger beim Pflügen in die Erde zu mischen."
+161,TEXT_BANMAM001_05255_DOPPROD05255_000_300,Der Karren ist bereit. Wir können jederzeit loslegen.
+162,TEXT_BANMAM001_05255_KAGEELJA_000_301,"Nur noch ein wenig ... Ja, das sollte fein genug gemahlen sein, um es gleichmäßig verteilen zu können."
+163,TEXT_BANMAM001_05255_ANGGIR_000_302,"Sobald wir den Boden für die Beete vorbereitet haben, können wir mit dem Pflanzen beginnen. Ruvoll Ja, kann ich auch weiterhin auf dich zählen?"
+164,TEXT_BANMAM001_05255_RUVOLLJA_000_303,"Auf mich? Aber Kageel Ja ist doch derjenige, der Sachen anbaut."
+165,TEXT_BANMAM001_05255_ANGGIR_000_304,Und *du* hast aus unseren Hoffnungen durch die Rekrutierung der nötigen Verbündeten eine tragfähige Operation gemacht. Dein Charisma ist für den Erfolg der Plantage von großer Bedeutung.
+166,TEXT_BANMAM001_05255_ANGGIR_000_305,（★未使用／削除予定★）
+167,TEXT_BANMAM001_05255_RUVOLLJA_000_306,"Na schön, ich werde tun, was ich kann. Bei meinem Stolz als Mamool Ja - für Mamook!"
+168,TEXT_BANMAM001_05255_RUVOLLJA_000_307,"Deine Unterstützung wäre von unschätzbarem Wert, wenn du die Zeit entbehren kannst, Player."
+169,TEXT_BANMAM001_05255_RUVOLLJA_000_308,（★未使用／削除予定★）
+170,TEXT_BANMAM001_05255_RUVOLLJA_000_309,"Nach all diesen Jahren möchte ich glauben, dass sich meine Heimat wirklich wandeln kann ... aber das schaffe ich nicht allein."
+171,TEXT_BANMAM001_05255_RUVOLLJA_000_310,（★未使用／削除予定★）
+172,TEXT_BANMAM001_05255_RUVOLLJA_000_311,（★未使用／削除予定★）
+173,TEXT_BANMAM001_05255_Q5_000_000,Was möchtest du sagen?
+174,TEXT_BANMAM001_05255_A5_000_001,Ich werde helfen. Bei meinem Stolz als Abenteurerin - für Mamook!
+175,TEXT_BANMAM001_05255_A5_000_002,"Wenn du es so ausdrückst, kann ich wohl schlecht Nein sagen."
+176,TEXT_BANMAM001_05255_RUVOLLJA_000_320,Vielen Dank. Ich stehe in deiner Schuld!
+177,TEXT_BANMAM001_05255_RUVOLLJA_000_330,"Ich weiß, das ist eine große Bitte ... aber ich danke dir."
+178,TEXT_BANMAM001_05255_ANGGIR_000_340,Mit deiner Hilfe können wir auf keinen Fall scheitern.
+179,TEXT_BANMAM001_05255_KAGEELJA_000_341,"Tut mir leid, dass ihr warten musstet. Die Wivren sind jetzt bereit."
+180,TEXT_BANMAM001_05255_RUVOLLJA_000_342,"Danke, Kageel Ja. Dann ... lasst uns loslegen!"
+181,TEXT_BANMAM001_05255_RUVOLLJA_000_400,"Die Plantage wird Mamook noch eine Chance geben, das kann ich fühlen."
+182,TEXT_BANMAM001_05255_ANGGIR_000_401,"Ich fühle es auch. Lasst uns der Welt zeigen, was auf diesem Boden gedeihen kann."
+183,TEXT_BANMAM001_05255_ANGGIR_000_402,"Gemeinsam, mit unseren eigenen Händen."
+184,TEXT_BANMAM001_05255_SYSTEM_000_403,"Durch Hoffnungen, die noch nicht voll erblüht sind, hat Mamook eine Plantage errichtet! Hilf den Mamool Ja, ihr Land lieben zu lernen, indem du die Bauern von Gok Golma unterstützt."
+185,TEXT_BANMAM001_05255_SYSTEM_000_450,Dein Verhältnis zu den Bauern von Gok Golma ist nun „Freundlich“. Damit hast du eine neue Auftragsreihe der Freundesvölker freigeschaltet!
+186,TEXT_BANMAM001_05255_SYSTEM_000_451,Ab jetzt kannst du von Kageel Ja in Gok Golma Aufträge der Mamool Ja annehmen.
+187,TEXT_BANMAM001_05255_SYSTEM_000_452,Außerdem kannst du bei Veerul Ja spezifische Waren der Mamool Ja erwerben.

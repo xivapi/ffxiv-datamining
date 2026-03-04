@@ -1,50 +1,47 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_000_001","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir<Else/>Bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour<Else/>Bonsoir</If></If>, désirez-vous participer à un duel de Triple Triade<Indent/>? Je peux vous présenter un adversaire, si vous le voulez."
-1,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q1_000_000","Que voulez-vous faire<Indent/>?"
-2,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_001","S'enregistrer pour un duel normal"
-3,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_005","S'enregistrer pour un duel de tournoi"
-4,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_002","Annuler l'enregistrement"
-5,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_003","En savoir plus sur les enregistrements"
-6,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_004","Annuler"
-7,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q2_000_000","Confirmer l'enregistrement pour un duel normal de Triple Triade<Indent/>?"
-8,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_001","Oui"
-9,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_002","Non"
-10,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q5_000_000","Confirmer l'enregistrement pour un duel de tournoi de Triple Triade<Indent/>?
+0,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_000_001,"Bonsoir, désirez-vous participer à un duel de Triple Triade ? Je peux vous présenter un adversaire, si vous le voulez."
+1,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q1_000_000,Que voulez-vous faire ?
+2,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_001,S'enregistrer pour un duel normal
+3,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_005,S'enregistrer pour un duel de tournoi
+4,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_002,Annuler l'enregistrement
+5,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_003,En savoir plus sur les enregistrements
+6,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A1_000_004,Annuler
+7,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q2_000_000,Confirmer l'enregistrement pour un duel normal de Triple Triade ?
+8,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_001,Oui
+9,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_002,Non
+10,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q5_000_000,"Confirmer l'enregistrement pour un duel de tournoi de Triple Triade ?
 
-Score actuel<Indent/>: <Value>IntegerParameter(1)</Value> point<If(LessThanOrEqualTo(IntegerParameter(1),1))><Else/>s</If>
-Récompense<Indent/>: <If(NotEqual(IntegerParameter(3),0))><Format(IntegerParameter(4),FF05021D0103)/> <SheetFr(Item,12,IntegerParameter(3),IntegerParameter(4),1)/><Else/>aucune</If>
+Score actuel : UNKNOWN point
+Récompense : aucune
 
-Prochain bonus<Indent/>: <If(NotEqual(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> point<If(LessThanOrEqualTo(IntegerParameter(2),1))><Else/>s</If> ou plus<Else/>aucun</If>
-Récompense<Indent/>: <If(NotEqual(IntegerParameter(5),0))><Format(IntegerParameter(6),FF05021D0103)/> <SheetFr(Item,12,IntegerParameter(5),IntegerParameter(6),1)/><Else/>aucune</If>
+Prochain bonus : aucun
+Récompense : aucune
 "
-11,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_001","Oui"
-12,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_002","Non"
-13,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_003","Ça y est, vous êtes <If(PlayerParameter(4))>enregistrée<Else/>enregistré</If><Indent/>! Il vous suffit maintenant de patienter dans l'arène, jusqu'à ce que le duel commence."
-14,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_003","Ça y est, vous êtes <If(PlayerParameter(4))>enregistrée<Else/>enregistré</If><Indent/>! Il vous suffit maintenant de patienter dans l'arène, jusqu'à ce que le duel de tournoi commence."
-15,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q3_000_000","Annuler l'enregistrement<Indent/>?"
-16,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_001","Oui"
-17,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_002","Non"
-18,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_003","Je viens d'annuler votre enregistrement. Revenez quand vous voulez<Indent/>!"
-19,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q4_000_000","Sur quoi vous renseignez-vous<Indent/>?"
-20,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_001","L'enregistrement pour un duel normal"
-21,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_004","L'enregistrement pour un duel de tournoi"
-22,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_002","La détermination des règles"
-23,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_003","Retour"
-24,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_001","Pour participer à des duels de Triple Triade acharnés, adressez-vous à moi ou à une de mes collègues assistantes aux quatre coins de l'arène. Vous pouvez nous faire confiance pour vous trouver un adversaire à la hauteur<Indent/>!"
-25,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_002","Enregistrez-vous auprès d'une des assistantes du croupier pour participer à un duel de Triple Triade contre un autre aventurier."
-26,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_003","Attention, une fois l'enregistrement terminé, il vous sera impossible de défier d'autres joueurs directement. Il est toutefois possible d'affronter les PNJ de l'arène."
-27,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_004","Vous pouvez annuler l'enregistrement en vous adressant de nouveau à une assistante du croupier."
-28,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_005","Une fois le duel terminé, l'enregistrement est au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment prolongé, à moins que vous l'annuliez vous-même."
-29,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_001","Avant le début d'un duel normal, chacun des adversaires peut désigner une règle. La partie se déroule alors selon la combinaison des règles choisies."
-30,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_002","Si les règles choisies ne peuvent être combinées, comme dans le cas de “Toutes sur table” et “Trois sur table”, elles sont alors toutes les deux remplacées par la règle “Roulette”."
-31,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_003","D'autre part, si aucune règle n'est choisie avant la fin du temps imparti, le duel se déroule selon les règles de base de Triple Triade."
-32,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_004","En ce qui concerne les duels de tournoi, ce sont les règles du tournoi en cours qui sont appliquées au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment."
-33,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_001","Sachez que vous pouvez vous enregistrer pour des duels comptant pour un tournoi en cours en vous adressant aux assistantes du croupier comme moi. Nous nous chargerons de vous trouver un adversaire."
-34,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_002","S'enregistrer à un duel de tournoi permet d'affronter par groupement un autre joueur ayant effectué la même démarche."
-35,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_003","Toutefois, notez qu'une fois l'enregistrement effectué, vous ne pourrez pas défier directement les joueurs présents dans l'arène. Néanmoins, il restera possible d'affronter les PNJ de l'arène."
-36,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_004","Vous pouvez annuler l'enregistrement en vous adressant de nouveau à une assistante du croupier."
-37,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_005","Une fois le duel terminé, l'enregistrement est au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment prolongé, à moins que vous l'annuliez vous-même."
-38,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_006","Si vous sortez de l'arène après avoir joué au moins un match de tournoi, vous vous retrouverez au<SoftHyphen/>to<SoftHyphen/>ma<SoftHyphen/>ti<SoftHyphen/>que<SoftHyphen/>ment au square des duellistes du Gold Saucer, ce afin de permettre de comptabiliser le résultat dans le classement."
-39,"TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_007","Vous serez également conduit<If(PlayerParameter(4))>e<Else/></If> systématiquement au Gold Saucer dès lors qu'il ne restera plus que 15 minutes (temps réel) avant la fin du tournoi en cours."
+11,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_001,Oui
+12,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_002,Non
+13,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A2_000_003,"Ça y est, vous êtes enregistrée ! Il vous suffit maintenant de patienter dans l'arène, jusqu'à ce que le duel commence."
+14,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A5_000_003,"Ça y est, vous êtes enregistrée ! Il vous suffit maintenant de patienter dans l'arène, jusqu'à ce que le duel de tournoi commence."
+15,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q3_000_000,Annuler l'enregistrement ?
+16,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_001,Oui
+17,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_002,Non
+18,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A3_000_003,Je viens d'annuler votre enregistrement. Revenez quand vous voulez !
+19,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_Q4_000_000,Sur quoi vous renseignez-vous ?
+20,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_001,L'enregistrement pour un duel normal
+21,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_004,L'enregistrement pour un duel de tournoi
+22,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_002,La détermination des règles
+23,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_A4_000_003,Retour
+24,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_001,"Pour participer à des duels de Triple Triade acharnés, adressez-vous à moi ou à une de mes collègues assistantes aux quatre coins de l'arène. Vous pouvez nous faire confiance pour vous trouver un adversaire à la hauteur !"
+25,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_002,Enregistrez-vous auprès d'une des assistantes du croupier pour participer à un duel de Triple Triade contre un autre aventurier.
+26,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_003,"Attention, une fois l'enregistrement terminé, il vous sera impossible de défier d'autres joueurs directement. Il est toutefois possible d'affronter les PNJ de l'arène."
+27,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_004,Vous pouvez annuler l'enregistrement en vous adressant de nouveau à une assistante du croupier.
+28,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_100_005,"Une fois le duel terminé, l'enregistrement est au­to­ma­ti­que­ment prolongé, à moins que vous l'annuliez vous-même."
+29,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_001,"Avant le début d'un duel normal, chacun des adversaires peut désigner une règle. La partie se déroule alors selon la combinaison des règles choisies."
+30,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_002,"Si les règles choisies ne peuvent être combinées, comme dans le cas de “Toutes sur table” et “Trois sur table”, elles sont alors toutes les deux remplacées par la règle “Roulette”."
+31,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_003,"D'autre part, si aucune règle n'est choisie avant la fin du temps imparti, le duel se déroule selon les règles de base de Triple Triade."
+32,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_200_004,"En ce qui concerne les duels de tournoi, ce sont les règles du tournoi en cours qui sont appliquées au­to­ma­ti­que­ment."
+33,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_001,Sachez que vous pouvez vous enregistrer pour des duels comptant pour un tournoi en cours en vous adressant aux assistantes du croupier comme moi. Nous nous chargerons de vous trouver un adversaire.
+34,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_002,S'enregistrer à un duel de tournoi permet d'affronter par groupement un autre joueur ayant effectué la même démarche.
+35,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_003,"Toutefois, notez qu'une fois l'enregistrement effectué, vous ne pourrez pas défier directement les joueurs présents dans l'arène. Néanmoins, il restera possible d'affronter les PNJ de l'arène."
+36,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_004,Vous pouvez annuler l'enregistrement en vous adressant de nouveau à une assistante du croupier.
+37,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_005,"Une fois le duel terminé, l'enregistrement est au­to­ma­ti­que­ment prolongé, à moins que vous l'annuliez vous-même."
+38,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_006,"Si vous sortez de l'arène après avoir joué au moins un match de tournoi, vous vous retrouverez au­to­ma­ti­que­ment au square des duellistes du Gold Saucer, ce afin de permettre de comptabiliser le résultat dans le classement."
+39,TEXT_CMNGSCTRIPLETRIADMATCHING_00370_MATCHING_300_007,Vous serez également conduite systématiquement au Gold Saucer dès lors qu'il ne restera plus que 15 minutes (temps réel) avant la fin du tournoi en cours.

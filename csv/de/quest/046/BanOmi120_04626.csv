@@ -1,67 +1,64 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI120_04626_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANOMI120_04626_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 Stigma-4 verlangt erneut nach deinen Diensten."
-1,"TEXT_BANOMI120_04626_SEQ_01","Geforderte Ware an den Logistik-Omikron liefern"
-2,"TEXT_BANOMI120_04626_SEQ_02","Stigma-4 Bericht erstatten"
-3,"TEXT_BANOMI120_04626_SEQ_03",""
-4,"TEXT_BANOMI120_04626_SEQ_04",""
-5,"TEXT_BANOMI120_04626_SEQ_05",""
-6,"TEXT_BANOMI120_04626_SEQ_06",""
-7,"TEXT_BANOMI120_04626_SEQ_07",""
-8,"TEXT_BANOMI120_04626_SEQ_08",""
-9,"TEXT_BANOMI120_04626_SEQ_09",""
-10,"TEXT_BANOMI120_04626_SEQ_10",""
-11,"TEXT_BANOMI120_04626_SEQ_11",""
-12,"TEXT_BANOMI120_04626_SEQ_12",""
-13,"TEXT_BANOMI120_04626_SEQ_13",""
-14,"TEXT_BANOMI120_04626_SEQ_14",""
-15,"TEXT_BANOMI120_04626_SEQ_15",""
-16,"TEXT_BANOMI120_04626_SEQ_16",""
-17,"TEXT_BANOMI120_04626_SEQ_17",""
-18,"TEXT_BANOMI120_04626_SEQ_18",""
-19,"TEXT_BANOMI120_04626_SEQ_19",""
-20,"TEXT_BANOMI120_04626_SEQ_20",""
-21,"TEXT_BANOMI120_04626_SEQ_21",""
-22,"TEXT_BANOMI120_04626_SEQ_22",""
-23,"TEXT_BANOMI120_04626_SEQ_23",""
-24,"TEXT_BANOMI120_04626_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Vergnügungssektor Elysiums <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> sammeln<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> beim Warenempfangs-Omikron abliefern</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Vergnügungssektor Elysiums <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> einsammeln<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> beim Warenempfangs-Omikron abliefern</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Im Vergnügungssektor Elysiums <SheetDe(Item,1,IntegerParameter(5),1,4,1)/> fangen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> beim Warenempfangs-Omikron abliefern</If><Else/></If></If></If>"
-25,"TEXT_BANOMI120_04626_TODO_01","Stigma-4 Bericht erstatten"
-26,"TEXT_BANOMI120_04626_TODO_02",""
-27,"TEXT_BANOMI120_04626_TODO_03",""
-28,"TEXT_BANOMI120_04626_TODO_04",""
-29,"TEXT_BANOMI120_04626_TODO_05",""
-30,"TEXT_BANOMI120_04626_TODO_06",""
-31,"TEXT_BANOMI120_04626_TODO_07",""
-32,"TEXT_BANOMI120_04626_TODO_08",""
-33,"TEXT_BANOMI120_04626_TODO_09",""
-34,"TEXT_BANOMI120_04626_TODO_10",""
-35,"TEXT_BANOMI120_04626_TODO_11",""
-36,"TEXT_BANOMI120_04626_TODO_12",""
-37,"TEXT_BANOMI120_04626_TODO_13",""
-38,"TEXT_BANOMI120_04626_TODO_14",""
-39,"TEXT_BANOMI120_04626_TODO_15",""
-40,"TEXT_BANOMI120_04626_TODO_16",""
-41,"TEXT_BANOMI120_04626_TODO_17",""
-42,"TEXT_BANOMI120_04626_TODO_18",""
-43,"TEXT_BANOMI120_04626_TODO_19",""
-44,"TEXT_BANOMI120_04626_TODO_20",""
-45,"TEXT_BANOMI120_04626_TODO_21",""
-46,"TEXT_BANOMI120_04626_TODO_22",""
-47,"TEXT_BANOMI120_04626_TODO_23",""
-48,"TEXT_BANOMI120_04626_STIGMA4_000_000","<biep><Indent/>... Einleitungsfloskeln werden geladen >> Guten <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Abend<Else/>Morgen</If><Else/><If(LessThan(PlayerParameter(11),17))>Tag<Else/>Abend</If></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Initiiere Gesprächsstart <bzzz><Indent/>... Die Ea sind für Aufzucht und Beobachtung der Miw Miisv verantwortlich. Da diese neuen Lebewesen über einen biologischen Metabolismus verfügen, benötigen sie eine organische Energiequelle, auch als „Futter“ bezeichnet."
-49,"TEXT_BANOMI120_04626_STIGMA4_000_001","<biep><Indent/>... Nach dem Verlassen des Reproduktionsbehälters sind die Körper der Miw Miisv noch klein und wenig robust. Sie benötigen daher die regelmäßige Zufuhr von weichgekochten Proteinen und Ballaststoffen, die im Wiegenstern durch den übermäßig behaarten Gastwirt zubereitet werden. Deine Aufgabe ist es, die notwendigen Zutaten zur Nahrungsproduktion zu liefern."
-50,"TEXT_BANOMI120_04626_STIGMA4_000_002","Auftragsprotokoll wird referenziert. <biep><Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soll im Vergnügungssektor Elysiums <SheetDe(Item,5,38293,2,4,1)/> akquirieren und im Café Wiegenstern abliefern."
-51,"TEXT_BANOMI120_04626_STIGMA4_000_003","Auftragsprotokoll wird referenziert. <biep><Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soll im Vergnügungssektor Elysiums <Sheet(Item,38317,9)/> akquirieren und im Café Wiegenstern abliefern."
-52,"TEXT_BANOMI120_04626_STIGMA4_000_004","Auftragsprotokoll wird referenziert. <biep><Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soll Vergnügungssektor Elysiums <SheetDe(Item,1,38341,1,4,1)/> akquirieren und im Café Wiegenstern abliefern. Stigma-4-Datenbanken über aquatische Lebensformen empfehlen die Verwendung von <SheetDe(Item,5,36588,1,3,1)/> als Köder."
-53,"TEXT_BANOMI120_04626_STIGMA4_000_005","（★未使用／削除予定★）"
-54,"TEXT_BANOMI120_04626_STIGMA4_000_006","（★未使用／削除予定★）"
-55,"TEXT_BANOMI120_04626_STIGMA4_000_007","（★未使用／削除予定★）"
-56,"TEXT_BANOMI120_04626_DELIVERER04626_000_010","<biep> ... <ratter> ... Organische Lebensform identifiziert als <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Habseligkeiten werden durchleuchtet<Indent/>... In Auftrag gegebenes Objekt befindet sich nicht darunter. Bitte um zeitnahe Lieferung. <biep>"
-57,"TEXT_BANOMI120_04626_DELIVERER04626_000_011","<biep> ... <ratter> ... Organische Lebensform identifiziert als <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Habseligkeiten werden durchleuchtet<Indent/>... In Auftrag gegebenes Objekt befindet sich darunter. Bitte um sofortige Aushändigung."
-58,"TEXT_BANOMI120_04626_DELIVERER04626_000_012","Empfang des Objekts bestätigt. Vergütung kann bei Stigma-4 eingefordert werden. <biep> ... <ratter> ... "
-59,"TEXT_BANOMI120_04626_STIGMA4_000_020","<biep> ... <zzzt> ... Missionsbericht des Logistik-Omikron wird referenziert. Zutaten für Proteinbrei wurden geliefert. Missionsziel wurde somit erfüllt. "
-60,"TEXT_BANOMI120_04626_STIGMA4_000_021","Die Entstehung der Miw Miisv war ein unvorhergesehenes Ereignis. <bzzz> Analyse aller vorhandenen Datensätze dauert noch an. Erste Indikatoren weisen auf zahlreiche Ähnlichkeiten mit den Ea hin. Erkenntnisse werden als „Interessant“ klassifiziert."
-61,"TEXT_BANOMI120_04626_STIGMA4_000_022","Deine Unterstützung bei der Ent<SoftHyphen/>schlüs<SoftHyphen/>se<SoftHyphen/>lung der mysteriösen Lebensform ist hilfreich. <biep> Initiiere Abschiedsfloskel >> Danke für deine Dienste, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Du hast dich als nützlicher erwiesen als ursprünglich prognostiziert. <biep>"
+1,TEXT_BANOMI120_04626_SEQ_01,Geforderte Ware an den Logistik-Omikron liefern
+2,TEXT_BANOMI120_04626_SEQ_02,Stigma-4 Bericht erstatten
+3,TEXT_BANOMI120_04626_SEQ_03,
+4,TEXT_BANOMI120_04626_SEQ_04,
+5,TEXT_BANOMI120_04626_SEQ_05,
+6,TEXT_BANOMI120_04626_SEQ_06,
+7,TEXT_BANOMI120_04626_SEQ_07,
+8,TEXT_BANOMI120_04626_SEQ_08,
+9,TEXT_BANOMI120_04626_SEQ_09,
+10,TEXT_BANOMI120_04626_SEQ_10,
+11,TEXT_BANOMI120_04626_SEQ_11,
+12,TEXT_BANOMI120_04626_SEQ_12,
+13,TEXT_BANOMI120_04626_SEQ_13,
+14,TEXT_BANOMI120_04626_SEQ_14,
+15,TEXT_BANOMI120_04626_SEQ_15,
+16,TEXT_BANOMI120_04626_SEQ_16,
+17,TEXT_BANOMI120_04626_SEQ_17,
+18,TEXT_BANOMI120_04626_SEQ_18,
+19,TEXT_BANOMI120_04626_SEQ_19,
+20,TEXT_BANOMI120_04626_SEQ_20,
+21,TEXT_BANOMI120_04626_SEQ_21,
+22,TEXT_BANOMI120_04626_SEQ_22,
+23,TEXT_BANOMI120_04626_SEQ_23,
+24,TEXT_BANOMI120_04626_TODO_00,Im Vergnügungssektor Elysiums  sammeln
+25,TEXT_BANOMI120_04626_TODO_01,Stigma-4 Bericht erstatten
+26,TEXT_BANOMI120_04626_TODO_02,
+27,TEXT_BANOMI120_04626_TODO_03,
+28,TEXT_BANOMI120_04626_TODO_04,
+29,TEXT_BANOMI120_04626_TODO_05,
+30,TEXT_BANOMI120_04626_TODO_06,
+31,TEXT_BANOMI120_04626_TODO_07,
+32,TEXT_BANOMI120_04626_TODO_08,
+33,TEXT_BANOMI120_04626_TODO_09,
+34,TEXT_BANOMI120_04626_TODO_10,
+35,TEXT_BANOMI120_04626_TODO_11,
+36,TEXT_BANOMI120_04626_TODO_12,
+37,TEXT_BANOMI120_04626_TODO_13,
+38,TEXT_BANOMI120_04626_TODO_14,
+39,TEXT_BANOMI120_04626_TODO_15,
+40,TEXT_BANOMI120_04626_TODO_16,
+41,TEXT_BANOMI120_04626_TODO_17,
+42,TEXT_BANOMI120_04626_TODO_18,
+43,TEXT_BANOMI120_04626_TODO_19,
+44,TEXT_BANOMI120_04626_TODO_20,
+45,TEXT_BANOMI120_04626_TODO_21,
+46,TEXT_BANOMI120_04626_TODO_22,
+47,TEXT_BANOMI120_04626_TODO_23,
+48,TEXT_BANOMI120_04626_STIGMA4_000_000,"<biep> ... Einleitungsfloskeln werden geladen >> Guten Abend, Player. Initiiere Gesprächsstart <bzzz> ... Die Ea sind für Aufzucht und Beobachtung der Miw Miisv verantwortlich. Da diese neuen Lebewesen über einen biologischen Metabolismus verfügen, benötigen sie eine organische Energiequelle, auch als „Futter“ bezeichnet."
+49,TEXT_BANOMI120_04626_STIGMA4_000_001,"<biep> ... Nach dem Verlassen des Reproduktionsbehälters sind die Körper der Miw Miisv noch klein und wenig robust. Sie benötigen daher die regelmäßige Zufuhr von weichgekochten Proteinen und Ballaststoffen, die im Wiegenstern durch den übermäßig behaarten Gastwirt zubereitet werden. Deine Aufgabe ist es, die notwendigen Zutaten zur Nahrungsproduktion zu liefern."
+50,TEXT_BANOMI120_04626_STIGMA4_000_002,Auftragsprotokoll wird referenziert. <biep> ... Player soll im Vergnügungssektor Elysiums  akquirieren und im Café Wiegenstern abliefern.
+51,TEXT_BANOMI120_04626_STIGMA4_000_003,Auftragsprotokoll wird referenziert. <biep> ... Player soll im Vergnügungssektor Elysiums  akquirieren und im Café Wiegenstern abliefern.
+52,TEXT_BANOMI120_04626_STIGMA4_000_004,Auftragsprotokoll wird referenziert. <biep> ... Player soll Vergnügungssektor Elysiums  akquirieren und im Café Wiegenstern abliefern. Stigma-4-Datenbanken über aquatische Lebensformen empfehlen die Verwendung von  als Köder.
+53,TEXT_BANOMI120_04626_STIGMA4_000_005,（★未使用／削除予定★）
+54,TEXT_BANOMI120_04626_STIGMA4_000_006,（★未使用／削除予定★）
+55,TEXT_BANOMI120_04626_STIGMA4_000_007,（★未使用／削除予定★）
+56,TEXT_BANOMI120_04626_DELIVERER04626_000_010,<biep> ... <ratter> ... Organische Lebensform identifiziert als Player. Habseligkeiten werden durchleuchtet ... In Auftrag gegebenes Objekt befindet sich nicht darunter. Bitte um zeitnahe Lieferung. <biep>
+57,TEXT_BANOMI120_04626_DELIVERER04626_000_011,<biep> ... <ratter> ... Organische Lebensform identifiziert als Player. Habseligkeiten werden durchleuchtet ... In Auftrag gegebenes Objekt befindet sich darunter. Bitte um sofortige Aushändigung.
+58,TEXT_BANOMI120_04626_DELIVERER04626_000_012,Empfang des Objekts bestätigt. Vergütung kann bei Stigma-4 eingefordert werden. <biep> ... <ratter> ... 
+59,TEXT_BANOMI120_04626_STIGMA4_000_020,<biep> ... <zzzt> ... Missionsbericht des Logistik-Omikron wird referenziert. Zutaten für Proteinbrei wurden geliefert. Missionsziel wurde somit erfüllt. 
+60,TEXT_BANOMI120_04626_STIGMA4_000_021,Die Entstehung der Miw Miisv war ein unvorhergesehenes Ereignis. <bzzz> Analyse aller vorhandenen Datensätze dauert noch an. Erste Indikatoren weisen auf zahlreiche Ähnlichkeiten mit den Ea hin. Erkenntnisse werden als „Interessant“ klassifiziert.
+61,TEXT_BANOMI120_04626_STIGMA4_000_022,"Deine Unterstützung bei der Ent­schlüs­se­lung der mysteriösen Lebensform ist hilfreich. <biep> Initiiere Abschiedsfloskel >> Danke für deine Dienste, Player. Du hast dich als nützlicher erwiesen als ursprünglich prognostiziert. <biep>"

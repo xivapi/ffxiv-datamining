@@ -1,89 +1,86 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGZB303_05057_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>Règle spéciale<Indent/>:  synchronisation de quête<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_KINGZB303_05057_SEQ_00,"**Règle spéciale :  synchronisation de quête**
 Murfurlur s'interroge sur son avenir."
-1,"TEXT_KINGZB303_05057_SEQ_01","* <Emphasis>Cette quête est <UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> synchronisée<UIGlow>01</UIGlow><UIForeground>01</UIForeground> avec votre niveau.</Emphasis>
+1,TEXT_KINGZB303_05057_SEQ_01,"* *Cette quête est ** synchronisée** avec votre niveau.*
 
 Murfurlur a évoqué l'idée de devenir garde du corps pour les Pelupelu, en dépit de quelques appréhensions... Mais avant de la mettre en pratique, il aimerait que vous lui enseigniez les rudiments de la protection rapprochée. Commencez par le rejoindre au sud des Ombres endeuillées."
-2,"TEXT_KINGZB303_05057_SEQ_02","Murfurlur a proposé que vous l'escortiez, afin qu'il puisse apprécier vos compétences de garde du corps. Accompagnez-le jusqu'aux Ombres endeuillées, en le défendant contre la faune locale. Si vous deviez être séparé<If(PlayerParameter(4))>e<Else/></If> de lui, retournez au sud des Ombres endeuillées et parlez-lui de nouveau."
-3,"TEXT_KINGZB303_05057_SEQ_03","Vous avez atteint Les Ombres endeuillées en repoussant diverses créatures. Murfurlur a souhaité que vous continuiez de progresser jusqu'à la falaise. Poursuivez votre escorte jusqu'au nouvel endroit indiqué."
-4,"TEXT_KINGZB303_05057_SEQ_04","Vous êtes <If(PlayerParameter(4))>arrivée<Else/>arrivé</If> à la falaise. Écoutez à présent ce que Murfurlur a à vous dire."
-5,"TEXT_KINGZB303_05057_SEQ_05","Murfurlur a exprimé sa culpabilité par rapport aux abus jadis commis par les Yok Huy envers les Pelupelu. Devenir le garde du corps de ces derniers serait en quelque sorte une façon pour lui d'expier les crimes de ses ancêtres... Quoi qu'il en soit, il est temps pour vous de retourner à L'Écho de Worlar. Reparlez à Murfurlur une fois sur place."
-6,"TEXT_KINGZB303_05057_SEQ_06","Murfurlur a semblé plus que jamais convaincu de son nouveau choix de carrière. Reste à trouver un Pelupelu qui voudra bien louer ses services..."
-7,"TEXT_KINGZB303_05057_SEQ_07",""
-8,"TEXT_KINGZB303_05057_SEQ_08",""
-9,"TEXT_KINGZB303_05057_SEQ_09",""
-10,"TEXT_KINGZB303_05057_SEQ_10",""
-11,"TEXT_KINGZB303_05057_SEQ_11",""
-12,"TEXT_KINGZB303_05057_SEQ_12",""
-13,"TEXT_KINGZB303_05057_SEQ_13",""
-14,"TEXT_KINGZB303_05057_SEQ_14",""
-15,"TEXT_KINGZB303_05057_SEQ_15",""
-16,"TEXT_KINGZB303_05057_SEQ_16",""
-17,"TEXT_KINGZB303_05057_SEQ_17",""
-18,"TEXT_KINGZB303_05057_SEQ_18",""
-19,"TEXT_KINGZB303_05057_SEQ_19",""
-20,"TEXT_KINGZB303_05057_SEQ_20",""
-21,"TEXT_KINGZB303_05057_SEQ_21",""
-22,"TEXT_KINGZB303_05057_SEQ_22",""
-23,"TEXT_KINGZB303_05057_SEQ_23",""
-24,"TEXT_KINGZB303_05057_TODO_00","Parler à Murfurlur"
-25,"TEXT_KINGZB303_05057_TODO_01","Escorter Murfurlur jusqu'à l'endroit indiqué"
-26,"TEXT_KINGZB303_05057_TODO_02","Escorter Murfurlur jusqu'au nouvel endroit indiqué"
-27,"TEXT_KINGZB303_05057_TODO_03","Parler à Murfurlur"
-28,"TEXT_KINGZB303_05057_TODO_04","Reparler à Murfurlur"
-29,"TEXT_KINGZB303_05057_TODO_05",""
-30,"TEXT_KINGZB303_05057_TODO_06",""
-31,"TEXT_KINGZB303_05057_TODO_07",""
-32,"TEXT_KINGZB303_05057_TODO_08",""
-33,"TEXT_KINGZB303_05057_TODO_09",""
-34,"TEXT_KINGZB303_05057_TODO_10",""
-35,"TEXT_KINGZB303_05057_TODO_11",""
-36,"TEXT_KINGZB303_05057_TODO_12",""
-37,"TEXT_KINGZB303_05057_TODO_13",""
-38,"TEXT_KINGZB303_05057_TODO_14",""
-39,"TEXT_KINGZB303_05057_TODO_15",""
-40,"TEXT_KINGZB303_05057_TODO_16",""
-41,"TEXT_KINGZB303_05057_TODO_17",""
-42,"TEXT_KINGZB303_05057_TODO_18",""
-43,"TEXT_KINGZB303_05057_TODO_19",""
-44,"TEXT_KINGZB303_05057_TODO_20",""
-45,"TEXT_KINGZB303_05057_TODO_21",""
-46,"TEXT_KINGZB303_05057_TODO_22",""
-47,"TEXT_KINGZB303_05057_TODO_23",""
-48,"TEXT_KINGZB303_05057_MURFURLUR_000_000","Ah, <If(PlayerParameter(4))>chère<Else/>cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. J'ai BEAUCOUP réfléchi depuis la dernière fois. Idéalement, je voudrais mettre ma force au service des autres. Seulement, j'ai PEUR de ne pas trouver de travail au sein de ce village, ou seulement de façon SPORADIQUE..."
-49,"TEXT_KINGZB303_05057_MURFURLUR_000_001","Je m'excuse de toujours m'en remettre à vous, mais auriez-vous quelque conseil UTILE à me fournir<Indent/>?"
-50,"TEXT_KINGZB303_05057_Q1_000_000","Que répondez-vous<Indent/>?"
-51,"TEXT_KINGZB303_05057_A1_000_001","Vous pourriez proposer vos services dans d'autres villages alentour."
-52,"TEXT_KINGZB303_05057_A1_000_002","Vous pourriez devenir garde du corps."
-53,"TEXT_KINGZB303_05057_A1_000_003","..."
-54,"TEXT_KINGZB303_05057_MURFURLUR_000_002","D'autres villages alentour... Celui des PELUPELU, par exemple<Indent/>? Il est vrai que s'ils acceptent de m'employer, le travail ne manquera pas."
-55,"TEXT_KINGZB303_05057_MURFURLUR_000_003","Garde du corps...<Indent/>? Mais de QUI<Indent/>? Hmm..."
-56,"TEXT_KINGZB303_05057_MURFURLUR_100_003","... Vous refusez de prendre la décision à ma place, c'est ça<Indent/>? Et si... je me faisais GARDE DU CORPS<Indent/>?"
-57,"TEXT_KINGZB303_05057_MURFURLUR_000_004","Maintenant que j'y pense, les Pelupelu font souvent appel à une ESCORTE durant leurs tournées commerciales, afin de se protéger eux-mêmes ainsi que leurs mar<SoftHyphen/>chan<SoftHyphen/>di<SoftHyphen/>ses contre les MONSTRES et autres PILLARDS qui rôdent çà et là. Nul doute que mes talents guerriers les intéresseront."
-58,"TEXT_KINGZB303_05057_MURFURLUR_000_005","Cela dit, je dois vous avouer que l'idée de frayer avec eux M'INTIMIDE quelque peu, pour diverses raisons..."
-59,"TEXT_KINGZB303_05057_MURFURLUR_000_006","Pardon, je sais que J'ABUSE de votre gentillesse... mais avant que je ne me jette à l'eau, pourriez-vous m'enseigner le B.A.-BA de la protection rapprochée<Indent/>?"
-60,"TEXT_KINGZB303_05057_MURFURLUR_000_007","Mieux, rejoignez-moi donc hors du village, au sud des Ombres endeuillées. Comme ça, nous pourrons DIRECTEMENT passer à la pratique."
-61,"TEXT_KINGZB303_05057_MURFURLUR_000_010","Merci encore de m'offrir de votre temps. La seule chose que j'aie eu à défendre jusqu'ici est L'Adoration de Karryorzar, un BÂTIMENT immobile... Et je doute que ma force SUFFISE à elle seule à faire de moi un bon garde du corps."
-62,"TEXT_KINGZB303_05057_MURFURLUR_000_011","J'ai besoin que vous me montriez L'EXEMPLE. Escortez-moi jusqu'aux Ombres endeuillées, s'il vous plaît, ainsi je pourrai étudier vos méthodes. "
-63,"TEXT_KINGZB303_05057_MURFURLUR_000_012","Pour la petite histoire, il s'agissait jadis de notre foyer, avant que Valigarmanda ne vienne y semer la TERREUR."
-64,"TEXT_KINGZB303_05057_MURFURLUR_000_013","Essayons de grimper au sommet, afin d'avoir une bonne vue sur les ruines alentour. Le tout en prenant garde à la FAUNE environnante."
-65,"TEXT_KINGZB303_05057_SYSTEM_000_014","L'escorte de Murfurlur va débuter. Elle prendra fin si vous vous retrouvez séparés. Vous pouvez la recommencer en lui parlant au point de départ."
-66,"TEXT_KINGZB303_05057_BALLOON_000_015","C'EST PARTI. Je compte sur vous."
-67,"TEXT_KINGZB303_05057_BALLOON_000_016","Le métier de garde du corps est visiblement DIFFICILE..."
-68,"TEXT_KINGZB303_05057_MURFURLUR_000_017","Vous êtes <If(PlayerParameter(4))>prête<Else/>prêt</If> à m'offrir une DÉMONSTRATION de protection rapprochée<Indent/>? Si oui, escortez-moi jusqu'aux Ombres endeuillées."
-69,"TEXT_KINGZB303_05057_SYSTEM_000_018","Vous avez perdu Murfurlur en chemin... Retournez au sud des Ombres endeuillées et recommencez l'escorte."
-70,"TEXT_KINGZB303_05057_SYSTEM_000_019","Murfurlur n'est pas encore arrivé. Allez le chercher puis escortez-le jusqu'ici."
-71,"TEXT_KINGZB303_05057_MURFURLUR_000_030","(-Murfurlur-)Comme vous pouvez le constater, les habitations autour ont été laissées À L'ABANDON depuis bien des lunes... Il y aurait beaucoup à dire sur le sujet, mais pas ici. CONTINUONS jusqu'à la falaise, si vous le voulez bien."
-72,"TEXT_KINGZB303_05057_SYSTEM_000_035","Vous jetez un œil attentif autour de vous et n'apercevez aucune menace à proximité."
-73,"TEXT_KINGZB303_05057_MURFURLUR_000_040","MAINTENIR une distance adéquate avec son client, SURVEILLER un environnement qui change en permanence... Autant d'impératifs propres au métier de garde du corps, et que je n'avais jamais connus en tant que gardien du temple. Merci pour cet aperçu fort INSTRUCTIF. "
-74,"TEXT_KINGZB303_05057_MURFURLUR_000_041","À vrai dire, je n'ai pas choisi cette destination au hasard... Regardez, en CONTREBAS<Indent/>: c'est le village des Pelupelu."
-75,"TEXT_KINGZB303_05057_MURFURLUR_000_042","Il fut un temps où un sentier de montagne reliait leur fief aux Ombres endeuillées. Je vous parle de l'époque où ils nous étaient INFÉODÉS..."
-76,"TEXT_KINGZB303_05057_MURFURLUR_000_043","J'ai ouï dire qu'avant que l'ILLUSTRE Gulool Ja Ja ne mette fin à ces rapports de subordination, des TRIBUTS leur étaient exigés chaque année – en échange de protection, soi-disant."
-77,"TEXT_KINGZB303_05057_MURFURLUR_000_044","Qu'on se le dise<Indent/>: rien n'effacera le souvenir de tous nos ancêtres qui se sont impunément comportés en DESPOTES."
-78,"TEXT_KINGZB303_05057_MURFURLUR_000_045","Pour autant, de l'eau a coulé sous les ponts. De nos jours, des marchands pelupelu viennent ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment nous rendre visite. J'aimerais faire AMENDE HONORABLE. Vivre avec et à travers eux, en tant que garde du corps dévoué."
-79,"TEXT_KINGZB303_05057_MURFURLUR_000_046","Aaah, navré pour ce long SOLILOQUE. Il est temps de retourner à L'Écho de Worlar."
-80,"TEXT_KINGZB303_05057_MURFURLUR_000_050","Merci encore de m'avoir guidé dans la recherche de ma nouvelle VOCATION. Grâce à vous, je pense avoir trouvé dans la protection rapprochée une voie plus que PROMETTEUSE."
-81,"TEXT_KINGZB303_05057_MURFURLUR_000_051","En tant que garde du corps des Pelupelu, je veillerai à leur sécurité ainsi qu'à leur confort. Ainsi, tout le monde pourra voir qu'une ENTENTE entre nos deux peuples est possible."
-82,"TEXT_KINGZB303_05057_MURFURLUR_000_052","Cependant, je dois encore me trouver un employeur, sans quoi mes nouvelles aspirations resteront LETTRE MORTE. Ce sera la prochaine étape de mon plan d'action."
+2,TEXT_KINGZB303_05057_SEQ_02,"Murfurlur a proposé que vous l'escortiez, afin qu'il puisse apprécier vos compétences de garde du corps. Accompagnez-le jusqu'aux Ombres endeuillées, en le défendant contre la faune locale. Si vous deviez être séparée de lui, retournez au sud des Ombres endeuillées et parlez-lui de nouveau."
+3,TEXT_KINGZB303_05057_SEQ_03,Vous avez atteint Les Ombres endeuillées en repoussant diverses créatures. Murfurlur a souhaité que vous continuiez de progresser jusqu'à la falaise. Poursuivez votre escorte jusqu'au nouvel endroit indiqué.
+4,TEXT_KINGZB303_05057_SEQ_04,Vous êtes arrivée à la falaise. Écoutez à présent ce que Murfurlur a à vous dire.
+5,TEXT_KINGZB303_05057_SEQ_05,"Murfurlur a exprimé sa culpabilité par rapport aux abus jadis commis par les Yok Huy envers les Pelupelu. Devenir le garde du corps de ces derniers serait en quelque sorte une façon pour lui d'expier les crimes de ses ancêtres... Quoi qu'il en soit, il est temps pour vous de retourner à L'Écho de Worlar. Reparlez à Murfurlur une fois sur place."
+6,TEXT_KINGZB303_05057_SEQ_06,Murfurlur a semblé plus que jamais convaincu de son nouveau choix de carrière. Reste à trouver un Pelupelu qui voudra bien louer ses services...
+7,TEXT_KINGZB303_05057_SEQ_07,
+8,TEXT_KINGZB303_05057_SEQ_08,
+9,TEXT_KINGZB303_05057_SEQ_09,
+10,TEXT_KINGZB303_05057_SEQ_10,
+11,TEXT_KINGZB303_05057_SEQ_11,
+12,TEXT_KINGZB303_05057_SEQ_12,
+13,TEXT_KINGZB303_05057_SEQ_13,
+14,TEXT_KINGZB303_05057_SEQ_14,
+15,TEXT_KINGZB303_05057_SEQ_15,
+16,TEXT_KINGZB303_05057_SEQ_16,
+17,TEXT_KINGZB303_05057_SEQ_17,
+18,TEXT_KINGZB303_05057_SEQ_18,
+19,TEXT_KINGZB303_05057_SEQ_19,
+20,TEXT_KINGZB303_05057_SEQ_20,
+21,TEXT_KINGZB303_05057_SEQ_21,
+22,TEXT_KINGZB303_05057_SEQ_22,
+23,TEXT_KINGZB303_05057_SEQ_23,
+24,TEXT_KINGZB303_05057_TODO_00,Parler à Murfurlur
+25,TEXT_KINGZB303_05057_TODO_01,Escorter Murfurlur jusqu'à l'endroit indiqué
+26,TEXT_KINGZB303_05057_TODO_02,Escorter Murfurlur jusqu'au nouvel endroit indiqué
+27,TEXT_KINGZB303_05057_TODO_03,Parler à Murfurlur
+28,TEXT_KINGZB303_05057_TODO_04,Reparler à Murfurlur
+29,TEXT_KINGZB303_05057_TODO_05,
+30,TEXT_KINGZB303_05057_TODO_06,
+31,TEXT_KINGZB303_05057_TODO_07,
+32,TEXT_KINGZB303_05057_TODO_08,
+33,TEXT_KINGZB303_05057_TODO_09,
+34,TEXT_KINGZB303_05057_TODO_10,
+35,TEXT_KINGZB303_05057_TODO_11,
+36,TEXT_KINGZB303_05057_TODO_12,
+37,TEXT_KINGZB303_05057_TODO_13,
+38,TEXT_KINGZB303_05057_TODO_14,
+39,TEXT_KINGZB303_05057_TODO_15,
+40,TEXT_KINGZB303_05057_TODO_16,
+41,TEXT_KINGZB303_05057_TODO_17,
+42,TEXT_KINGZB303_05057_TODO_18,
+43,TEXT_KINGZB303_05057_TODO_19,
+44,TEXT_KINGZB303_05057_TODO_20,
+45,TEXT_KINGZB303_05057_TODO_21,
+46,TEXT_KINGZB303_05057_TODO_22,
+47,TEXT_KINGZB303_05057_TODO_23,
+48,TEXT_KINGZB303_05057_MURFURLUR_000_000,"Ah, chère Player. J'ai BEAUCOUP réfléchi depuis la dernière fois. Idéalement, je voudrais mettre ma force au service des autres. Seulement, j'ai PEUR de ne pas trouver de travail au sein de ce village, ou seulement de façon SPORADIQUE..."
+49,TEXT_KINGZB303_05057_MURFURLUR_000_001,"Je m'excuse de toujours m'en remettre à vous, mais auriez-vous quelque conseil UTILE à me fournir ?"
+50,TEXT_KINGZB303_05057_Q1_000_000,Que répondez-vous ?
+51,TEXT_KINGZB303_05057_A1_000_001,Vous pourriez proposer vos services dans d'autres villages alentour.
+52,TEXT_KINGZB303_05057_A1_000_002,Vous pourriez devenir garde du corps.
+53,TEXT_KINGZB303_05057_A1_000_003,...
+54,TEXT_KINGZB303_05057_MURFURLUR_000_002,"D'autres villages alentour... Celui des PELUPELU, par exemple ? Il est vrai que s'ils acceptent de m'employer, le travail ne manquera pas."
+55,TEXT_KINGZB303_05057_MURFURLUR_000_003,Garde du corps... ? Mais de QUI ? Hmm...
+56,TEXT_KINGZB303_05057_MURFURLUR_100_003,"... Vous refusez de prendre la décision à ma place, c'est ça ? Et si... je me faisais GARDE DU CORPS ?"
+57,TEXT_KINGZB303_05057_MURFURLUR_000_004,"Maintenant que j'y pense, les Pelupelu font souvent appel à une ESCORTE durant leurs tournées commerciales, afin de se protéger eux-mêmes ainsi que leurs mar­chan­di­ses contre les MONSTRES et autres PILLARDS qui rôdent çà et là. Nul doute que mes talents guerriers les intéresseront."
+58,TEXT_KINGZB303_05057_MURFURLUR_000_005,"Cela dit, je dois vous avouer que l'idée de frayer avec eux M'INTIMIDE quelque peu, pour diverses raisons..."
+59,TEXT_KINGZB303_05057_MURFURLUR_000_006,"Pardon, je sais que J'ABUSE de votre gentillesse... mais avant que je ne me jette à l'eau, pourriez-vous m'enseigner le B.A.-BA de la protection rapprochée ?"
+60,TEXT_KINGZB303_05057_MURFURLUR_000_007,"Mieux, rejoignez-moi donc hors du village, au sud des Ombres endeuillées. Comme ça, nous pourrons DIRECTEMENT passer à la pratique."
+61,TEXT_KINGZB303_05057_MURFURLUR_000_010,"Merci encore de m'offrir de votre temps. La seule chose que j'aie eu à défendre jusqu'ici est L'Adoration de Karryorzar, un BÂTIMENT immobile... Et je doute que ma force SUFFISE à elle seule à faire de moi un bon garde du corps."
+62,TEXT_KINGZB303_05057_MURFURLUR_000_011,"J'ai besoin que vous me montriez L'EXEMPLE. Escortez-moi jusqu'aux Ombres endeuillées, s'il vous plaît, ainsi je pourrai étudier vos méthodes. "
+63,TEXT_KINGZB303_05057_MURFURLUR_000_012,"Pour la petite histoire, il s'agissait jadis de notre foyer, avant que Valigarmanda ne vienne y semer la TERREUR."
+64,TEXT_KINGZB303_05057_MURFURLUR_000_013,"Essayons de grimper au sommet, afin d'avoir une bonne vue sur les ruines alentour. Le tout en prenant garde à la FAUNE environnante."
+65,TEXT_KINGZB303_05057_SYSTEM_000_014,L'escorte de Murfurlur va débuter. Elle prendra fin si vous vous retrouvez séparés. Vous pouvez la recommencer en lui parlant au point de départ.
+66,TEXT_KINGZB303_05057_BALLOON_000_015,C'EST PARTI. Je compte sur vous.
+67,TEXT_KINGZB303_05057_BALLOON_000_016,Le métier de garde du corps est visiblement DIFFICILE...
+68,TEXT_KINGZB303_05057_MURFURLUR_000_017,"Vous êtes prête à m'offrir une DÉMONSTRATION de protection rapprochée ? Si oui, escortez-moi jusqu'aux Ombres endeuillées."
+69,TEXT_KINGZB303_05057_SYSTEM_000_018,Vous avez perdu Murfurlur en chemin... Retournez au sud des Ombres endeuillées et recommencez l'escorte.
+70,TEXT_KINGZB303_05057_SYSTEM_000_019,Murfurlur n'est pas encore arrivé. Allez le chercher puis escortez-le jusqu'ici.
+71,TEXT_KINGZB303_05057_MURFURLUR_000_030,"(-Murfurlur-)Comme vous pouvez le constater, les habitations autour ont été laissées À L'ABANDON depuis bien des lunes... Il y aurait beaucoup à dire sur le sujet, mais pas ici. CONTINUONS jusqu'à la falaise, si vous le voulez bien."
+72,TEXT_KINGZB303_05057_SYSTEM_000_035,Vous jetez un œil attentif autour de vous et n'apercevez aucune menace à proximité.
+73,TEXT_KINGZB303_05057_MURFURLUR_000_040,"MAINTENIR une distance adéquate avec son client, SURVEILLER un environnement qui change en permanence... Autant d'impératifs propres au métier de garde du corps, et que je n'avais jamais connus en tant que gardien du temple. Merci pour cet aperçu fort INSTRUCTIF. "
+74,TEXT_KINGZB303_05057_MURFURLUR_000_041,"À vrai dire, je n'ai pas choisi cette destination au hasard... Regardez, en CONTREBAS : c'est le village des Pelupelu."
+75,TEXT_KINGZB303_05057_MURFURLUR_000_042,Il fut un temps où un sentier de montagne reliait leur fief aux Ombres endeuillées. Je vous parle de l'époque où ils nous étaient INFÉODÉS...
+76,TEXT_KINGZB303_05057_MURFURLUR_000_043,"J'ai ouï dire qu'avant que l'ILLUSTRE Gulool Ja Ja ne mette fin à ces rapports de subordination, des TRIBUTS leur étaient exigés chaque année – en échange de protection, soi-disant."
+77,TEXT_KINGZB303_05057_MURFURLUR_000_044,Qu'on se le dise : rien n'effacera le souvenir de tous nos ancêtres qui se sont impunément comportés en DESPOTES.
+78,TEXT_KINGZB303_05057_MURFURLUR_000_045,"Pour autant, de l'eau a coulé sous les ponts. De nos jours, des marchands pelupelu viennent ré­gu­liè­re­ment nous rendre visite. J'aimerais faire AMENDE HONORABLE. Vivre avec et à travers eux, en tant que garde du corps dévoué."
+79,TEXT_KINGZB303_05057_MURFURLUR_000_046,"Aaah, navré pour ce long SOLILOQUE. Il est temps de retourner à L'Écho de Worlar."
+80,TEXT_KINGZB303_05057_MURFURLUR_000_050,"Merci encore de m'avoir guidé dans la recherche de ma nouvelle VOCATION. Grâce à vous, je pense avoir trouvé dans la protection rapprochée une voie plus que PROMETTEUSE."
+81,TEXT_KINGZB303_05057_MURFURLUR_000_051,"En tant que garde du corps des Pelupelu, je veillerai à leur sécurité ainsi qu'à leur confort. Ainsi, tout le monde pourra voir qu'une ENTENTE entre nos deux peuples est possible."
+82,TEXT_KINGZB303_05057_MURFURLUR_000_052,"Cependant, je dois encore me trouver un employeur, sans quoi mes nouvelles aspirations resteront LETTRE MORTE. Ce sera la prochaine étape de mon plan d'action."

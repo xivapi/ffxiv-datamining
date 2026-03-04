@@ -1,103 +1,100 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_FESVLX001_04808_SEQ_00","* <Emphasis>Cette quête est un événement à durée limitée.</Emphasis>
+0,TEXT_FESVLX001_04808_SEQ_00,"* *Cette quête est un événement à durée limitée.*
 
 Malgré sa bonne humeur de façade, la pauvre Astrid semble bien embêtée."
-1,"TEXT_FESVLX001_04808_SEQ_01","Cette quête ne peut être commencée et effectuée que pendant la durée de l'événement saisonnier correspondant. Pour plus de détails, veuillez consulter The Lodestone.
+1,TEXT_FESVLX001_04808_SEQ_01,"Cette quête ne peut être commencée et effectuée que pendant la durée de l'événement saisonnier correspondant. Pour plus de détails, veuillez consulter The Lodestone.
 
 Astrid, messagère de l'amour de la Valention, s'inquiète pour Emilie, une de ses collègues. En effet, elle lui a confié pour mission d'apporter une touche de nouveauté à des festivités qui, malgré toutes leurs qualités, réclament un certain renouvellement. Rendez-vous aux Atours de Fen-Yll et essayez de retrouver la jeune fille."
-2,"TEXT_FESVLX001_04808_SEQ_02","En arrivant sur les lieux, vous avez aperçu Emilie en pleine séance de cogitation, mais elle a refusé de vous révéler le but de sa manœuvre. Pour lever le voile sur son petit manège, retournez à l'amphithéâtre de Mih Khetto et parlez à Astrid."
-3,"TEXT_FESVLX001_04808_SEQ_03","Astrid était ravie de la nouvelle pose inventée par Emilie, et alors qu'elle se demandait si d'autres paires de bras ne seraient pas nécessaires pour diffuser le beau message de l'amour, Lisette est venue offrir les siens en guise de soutien à l'effort de groupe. Préparez-vous à mettre les mains en cœur à tous les coins de rue de Vieille Gridania<Indent/>!"
-4,"TEXT_FESVLX001_04808_SEQ_04",""
-5,"TEXT_FESVLX001_04808_SEQ_05",""
-6,"TEXT_FESVLX001_04808_SEQ_06",""
-7,"TEXT_FESVLX001_04808_SEQ_07",""
-8,"TEXT_FESVLX001_04808_SEQ_08",""
-9,"TEXT_FESVLX001_04808_SEQ_09",""
-10,"TEXT_FESVLX001_04808_SEQ_10",""
-11,"TEXT_FESVLX001_04808_SEQ_11",""
-12,"TEXT_FESVLX001_04808_SEQ_12",""
-13,"TEXT_FESVLX001_04808_SEQ_13",""
-14,"TEXT_FESVLX001_04808_SEQ_14",""
-15,"TEXT_FESVLX001_04808_SEQ_15",""
-16,"TEXT_FESVLX001_04808_SEQ_16",""
-17,"TEXT_FESVLX001_04808_SEQ_17",""
-18,"TEXT_FESVLX001_04808_SEQ_18",""
-19,"TEXT_FESVLX001_04808_SEQ_19",""
-20,"TEXT_FESVLX001_04808_SEQ_20",""
-21,"TEXT_FESVLX001_04808_SEQ_21",""
-22,"TEXT_FESVLX001_04808_SEQ_22",""
-23,"TEXT_FESVLX001_04808_SEQ_23",""
-24,"TEXT_FESVLX001_04808_TODO_00","Retrouver Emilie"
-25,"TEXT_FESVLX001_04808_TODO_01","Parler à Astrid"
-26,"TEXT_FESVLX001_04808_TODO_02",""
-27,"TEXT_FESVLX001_04808_TODO_03",""
-28,"TEXT_FESVLX001_04808_TODO_04",""
-29,"TEXT_FESVLX001_04808_TODO_05",""
-30,"TEXT_FESVLX001_04808_TODO_06",""
-31,"TEXT_FESVLX001_04808_TODO_07",""
-32,"TEXT_FESVLX001_04808_TODO_08",""
-33,"TEXT_FESVLX001_04808_TODO_09",""
-34,"TEXT_FESVLX001_04808_TODO_10",""
-35,"TEXT_FESVLX001_04808_TODO_11",""
-36,"TEXT_FESVLX001_04808_TODO_12",""
-37,"TEXT_FESVLX001_04808_TODO_13",""
-38,"TEXT_FESVLX001_04808_TODO_14",""
-39,"TEXT_FESVLX001_04808_TODO_15",""
-40,"TEXT_FESVLX001_04808_TODO_16",""
-41,"TEXT_FESVLX001_04808_TODO_17",""
-42,"TEXT_FESVLX001_04808_TODO_18",""
-43,"TEXT_FESVLX001_04808_TODO_19",""
-44,"TEXT_FESVLX001_04808_TODO_20",""
-45,"TEXT_FESVLX001_04808_TODO_21",""
-46,"TEXT_FESVLX001_04808_TODO_22",""
-47,"TEXT_FESVLX001_04808_TODO_23",""
-48,"TEXT_FESVLX001_04808_ASTRID_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Bonsoir bonsoir<Else/>Bonjour bonjour</If><Else/><If(LessThan(PlayerParameter(11),17))>Bonjour bonjour<Else/>Bonsoir bonsoir</If></If><Indent/>! Bienvenue à la fête de tous les amoureux du monde entier, la seule, unique et mer<SoftHyphen/>veil<SoftHyphen/>leu<SoftHyphen/>se Valention<Indent/>! Messagère de l'amour Astrid, à votre service<Indent/>!"
-49,"TEXT_FESVLX001_04808_ASTRID_000_001","Ces festivités sont l'occasion rêvée pour les cœurs timides, comme pour ceux plus téméraires, de déclarer leur flamme à la personne qui leur est chère<Indent/>! Et pour y parvenir, ils pourront compter sur le soutien sans faille de notre or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion<Indent/>!"
-50,"TEXT_FESVLX001_04808_ASTRID_000_002","Ravie de vous retrouver pour cette nouvelle édition, <If(PlayerParameter(4))>chère<Else/>cher</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! J'espère que vous passerez un aussi bon moment en notre compagnie que la dernière fois, si ce n'est même meilleur, tant qu'on y est<Indent/>!"
-51,"TEXT_FESVLX001_04808_ASTRID_000_003","Rien qu'à voir votre allure, je devine sans difficulté que vous êtes un<If(PlayerParameter(4))>e aventurière<Else/> aventurier</If> chevronné<If(PlayerParameter(4))>e<Else/></If>, pas vrai<Indent/>? Quoi qu'il en soit, nous espérons que vous passerez un excellent moment en notre compagnie<Indent/>!"
-52,"TEXT_FESVLX001_04808_ASTRID_000_004","Eh bien, je crois que c'est tout pour l'in<SoftHyphen/>tro<SoftHyphen/>duc<SoftHyphen/>tion... Dites... Ça m'embête beaucoup de vous mettre im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment à con<SoftHyphen/>tri<SoftHyphen/>bu<SoftHyphen/>tion, mais je n'ai personne d'autre vers qui me tourner..."
-53,"TEXT_FESVLX001_04808_ASTRID_000_005","Il se trouve que cette année, je suis convaincue que nous avons plus que jamais besoin d'innover. J'ai donc demandé à une de mes collègues messagères, Emilie, d'y réfléchir. Or, elle n'est toujours pas revenue depuis notre discussion et je commence sé<SoftHyphen/>rieu<SoftHyphen/>se<SoftHyphen/>ment à m'inquiéter."
-54,"TEXT_FESVLX001_04808_ASTRID_000_006","Je partirais volontiers à sa recherche moi-même, mais mes fonctions au sein des festivités m'empêchent de m'éloigner de mon poste ne serait-ce que d'un ilm. Pareil pour les autres messagers de l'amour... Vous... voyez où je veux en venir, n'est-ce pas<Indent/>?"
-55,"TEXT_FESVLX001_04808_ASTRID_000_008","Oh, merci infiniment, je savais que vous seriez <If(PlayerParameter(4))>la femme<Else/>l'homme</If> de la situation<Indent/>!"
-56,"TEXT_FESVLX001_04808_ASTRID_000_009","Avant de me quitter, elle m'a dit qu'elle irait, je cite de mémoire, “s'entraîner à l'ombre des arbres près des Atours de Fen-Yll”. A priori, vous la trouverez là-bas, sans quoi... il nous faudra prévenir les vigiles sombres au plus vite<Indent/>! Allez-y, je compte sur vous<Indent/>!"
-57,"TEXT_FESVLX001_04808_ASTRID_000_010","Avant de me quitter, Emilie m'a dit qu'elle irait, je cite de mémoire, “s'entraîner à l'ombre des arbres près des Atours de Fen-Yll”. A priori, vous la trouverez là-bas, sans quoi... il nous faudra prévenir les vigiles sombres au plus vite<Indent/>! Allez-y, je compte sur vous<Indent/>!"
-58,"TEXT_FESVLX001_04808_EMILIE_000_011","Alors que si j'incline mes bras comme ça... Ah oui, ce sera beaucoup mieux<Indent/>! La pose parfaite n'est plus très loin, hi hi<Indent/>!"
-59,"TEXT_FESVLX001_04808_EMILIE_000_012","OUAAAAH<Indent/>!! Par les Douze, vous m'avez fait une de ces peurs..."
-60,"TEXT_FESVLX001_04808_EMILIE_000_0013","Euh... À qui ai-je l'honneur, je vous prie<Indent/>?"
-61,"TEXT_FESVLX001_04808_EMILIE_000_014","C'est dame Astrid qui vous envoie car elle commençait à se faire du souci<Indent/>? Voilà qui ne m'étonne pas d'elle<Indent/>! C'est gentil de vous être déplacé<If(PlayerParameter(4))>e<Else/></If> en tout cas, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-62,"TEXT_FESVLX001_04808_EMILIE_000_015","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Quel plaisir de vous revoir<Indent/>!"
-63,"TEXT_FESVLX001_04808_EMILIE_000_016","C'est dame Astrid qui vous envoie car elle commençait à se faire du souci<Indent/>? Voilà qui ne m'étonne pas d'elle<Indent/>! C'est gentil de vous être déplacé<If(PlayerParameter(4))>e<Else/></If> en tout cas."
-64,"TEXT_FESVLX001_04808_EMILIE_000_017","... Vous voulez savoir ce que je marmonnais à l'instant<Indent/>? Hé hé, désolée mais c'est un secret<Indent/>!"
-65,"TEXT_FESVLX001_04808_EMILIE_000_018","Allons, ne vous faites pas de bile, je ne vais pas tarder à le divulguer aux yeux de tous<Indent/>! La révélation est pour très bientôt, alors si j'ai réussi à piquer votre curiosité, n'attendez plus et venez assister à un grand moment d'art scénique à l'amphithéâtre de Mih Khetto<Indent/>!"
-66,"TEXT_FESVLX001_04808_EMILIE_000_019","Ravie de vous revoir<Indent/>! Vous avez fait vite, dites donc<Indent/>!"
-67,"TEXT_FESVLX001_04808_ASTRID_000_020","Merci mille fois pour votre aide, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Emilie est rentrée au bercail sans encombre, et c'est tout ce qui compte."
-68,"TEXT_FESVLX001_04808_ASTRID_000_021","Mon petit doigt me dit qu'elle est sur le point de nous faire la dé<SoftHyphen/>mon<SoftHyphen/>stra<SoftHyphen/>tion de sa nouvelle trouvaille pour enthousiasmer notre public. Que diriez-vous d'y assister en ma compagnie<Indent/>?"
-69,"TEXT_FESVLX001_04808_ASTRID_000_022","Comme c'est ravissant<Indent/>! Seule une messagère de l'amour comme toi pouvait avoir l'idée d'une <Emphasis>pose en cœur</Emphasis> aussi charmante<Indent/>!"
-70,"TEXT_FESVLX001_04808_EMILIE_000_023","La difficulté qu'éprouvent les Gridaniens à laisser transparaître leurs émotions est connue dans le monde entier. Certains sont même tellement timides qu'ils préfèrent renoncer à conquérir l'être aimé plutôt que de faire le premier pas, c'est dire<Indent/>!"
-71,"TEXT_FESVLX001_04808_EMILIE_000_024","Or, en amour, la communication est un aspect des plus essentiels<Indent/>! J'ai donc pensé que cette nouvelle fête de la Valention était l'occasion rêvée pour pousser les gens à l'action. D'ailleurs, j'ai baptisé cette opération<Indent/>: “Flamme déclarée est à moitié approuvée<Indent/>!”"
-72,"TEXT_FESVLX001_04808_EMILIE_000_025","De fil en aiguille, j'ai ainsi eu l'idée de la pose en cœur, le petit plus idéal pour joindre le geste à la parole. Si avec ça, nos valentions et valentionnes ne trouvent pas le courage de révéler leurs sentiments, il ne me restera plus qu'à me faire bonzesse<Indent/>!"
-73,"TEXT_FESVLX001_04808_ASTRID_000_026","En tout cas, bravo, mission accomplie<Indent/>! Grâce à cette pose, les plus réservés d'entre nous pourront commencer par une déclaration d'amour visuelle, qui ne manquera assurément pas de leur donner le courage d'ouvrir la bouche pour laisser leur petit cœur s'exprimer<Indent/>!"
-74,"TEXT_FESVLX001_04808_ASTRID_000_027","Emilie, je compte sur toi pour répandre la bonne parole, ou devrais-je dire la bonne gestuelle, afin de soutenir les fous d'amour dans leurs tribulations<Indent/>!"
-75,"TEXT_FESVLX001_04808_EMILIE_000_028","Soyez sans crainte, Dame Astrid<Indent/>! C'est comme si c'était fait<Indent/>!"
-76,"TEXT_FESVLX001_04808_EMILIE_000_029","Vous voulez bien continuer de m'épauler, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>? Un<If(PlayerParameter(4))>e aventurière<Else/> aventurier</If> aussi expérimenté<If(PlayerParameter(4))>e<Else/></If> et apprécié<If(PlayerParameter(4))>e<Else/></If> que vous ne sera cer<SoftHyphen/>tai<SoftHyphen/>ne<SoftHyphen/>ment pas de trop pour me prodiguer de bons conseils tout au long de cette manœuvre<Indent/>!"
-77,"TEXT_FESVLX001_04808_EMILIE_000_030","Merci, vous êtes un ange<Indent/>! Approchez, je vais vous apprendre ma pose en cœur en un clin d'œil afin que vous puissiez la transmettre à votre tour<Indent/>!"
-78,"TEXT_FESVLX001_04808_EMILIE_000_031","Quel talent<Indent/>! L'angle formé par vos bras est d'une justesse incroyable<Indent/>! C'est tout simplement parfait<Indent/>!"
-79,"TEXT_FESVLX001_04808_ASTRID_000_032","J'ai envie de vous souhaiter bon vent, et que les ailes de l'amour vous portent durant votre nouvelle mission, mais je crains que notre public soit un peu trop nombreux pour quatre petits bras seulement..."
-80,"TEXT_FESVLX001_04808_LISETTE_000_033","(-???-)Et si j'en rajoutais une paire, ça vous conviendrait<Indent/>?"
-81,"TEXT_FESVLX001_04808_ASTRID_000_034","D-Dame Lisette<Indent/>!?"
-82,"TEXT_FESVLX001_04808_ASTRID_000_037","C'est la première fois que vous rencontrez dame Lisette de Valention, n'est-ce pas<Indent/>? Pour votre gouverne, il s'agit de l'héritière de notre maison, et accessoirement de ma cousine. Elle est aussi l'organisatrice originelle de cette fête<Indent/>!"
-83,"TEXT_FESVLX001_04808_LISETTE_000_038","Enchantée, <If(PlayerParameter(4))>aventurière<Else/>aventurier</If><Indent/>!♪ Je suis Lisette de Valention, messagère de l'amour non plus par les actes, mais toujours par la pensée. Lisette tout court pour les intimes<Indent/>!♪"
-84,"TEXT_FESVLX001_04808_LISETTE_000_039","Comment allez-vous depuis tout ce temps, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>?♪ Merci beaucoup d'aider Astrid, je reconnais bien là votre gentillesse<Indent/>!♪"
-85,"TEXT_FESVLX001_04808_ASTRID_000_040","Maintenant que j'y pense, Dame Lisette... N'aviez-vous pas l'intention de célébrer l'événement en compagnie de sire Hortefense<Indent/>?"
-86,"TEXT_FESVLX001_04808_LISETTE_000_041","Voyons, ma petite Astrid<Indent/>!♪ Je t'ai certes confié l'or<SoftHyphen/>ga<SoftHyphen/>ni<SoftHyphen/>sa<SoftHyphen/>tion des festivités présentes et à venir, mais tu oublies un peu vite que je porte toujours avec fierté mon titre de messagère de l'amour, et il n'est pas question que je le discrédite<Indent/>!♪"
-87,"TEXT_FESVLX001_04808_LISETTE_000_042","En tant que membre de l'illustre famille Valention, mon devoir est d'assurer la continuité de l'œuvre de mes ancêtres, quel qu'en soit le prix<Indent/>! Puisque vous semblez à court de collaborateurs, je me dois de faire mon entrée en scène<Indent/>!"
-88,"TEXT_FESVLX001_04808_EMILIE_000_043","Ça y est, je comprends mieux<Indent/>! Vous voulez que tous les détails soient réglés à l'ilm près pour que votre rendez-vous amoureux avec sire Hortefense se déroule comme dans un rêve<Indent/>! J'ai bon<Indent/>?"
-89,"TEXT_FESVLX001_04808_LISETTE_000_044","Hein<Indent/>!? Non mais dis donc, toi<Indent/>! C'est pas parce que t'es nouvelle que ça te donne le droit de te mêler des affaires des autres, pigé<Indent/>!?"
-90,"TEXT_FESVLX001_04808_ASTRID_000_045","Héhéhé... S'il en est ainsi, soyez la bienvenue parmi nous, Dame Lisette."
-91,"TEXT_FESVLX001_04808_LISETTE_000_046","C-comment<Indent/>!? Oh et puis zut, pas le temps de bavarder<Indent/>! Mettons-nous en route im<SoftHyphen/>mé<SoftHyphen/>dia<SoftHyphen/>te<SoftHyphen/>ment<Indent/>! Emilie, tu m'apprendras la pose en cœur sur le chemin<Indent/>! Et j'veux pas entendre un mot de plus<Indent/>!"
-92,"TEXT_FESVLX001_04808_EMILIE_000_047","Je suggère que nous nous séparions en trois groupes. Dame Lisette et moi allons nous charger de Nouvelle Gridania, pendant que notre ami<If(PlayerParameter(4))>e<Else/></If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> se rendra à l'ancienne. Enfin, à Vieille Gridania si vous préférez<Indent/>!"
-93,"TEXT_FESVLX001_04808_EMILIE_000_048","À chaque fois que vous croiserez un individu ostensiblement éprouvé par les tourments de la passion amoureuse, montrez-lui à l'aide de cette pose que seul le courage d'ouvrir son cœur le sauvera du puits sans fond où son âme se laisse choir<Indent/>! Bon courage à <If(PlayerParameter(4))>toutes<Else/>tous</If><Indent/>!"
-94,"TEXT_FESVLX001_04808_ASTRID_000_049","Eh bien, quel lyrisme<Indent/>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, une fois vos étirements et assouplissements terminés, revenez me voir afin que je vous indique où aller. À tout de suite<Indent/>!"
-95,"TEXT_FESVLX001_04808_SYSTEM_000_050","Vous avez appris l'emote <Emphasis>Pose en cœur</Emphasis><Indent/>!"
+2,TEXT_FESVLX001_04808_SEQ_02,"En arrivant sur les lieux, vous avez aperçu Emilie en pleine séance de cogitation, mais elle a refusé de vous révéler le but de sa manœuvre. Pour lever le voile sur son petit manège, retournez à l'amphithéâtre de Mih Khetto et parlez à Astrid."
+3,TEXT_FESVLX001_04808_SEQ_03,"Astrid était ravie de la nouvelle pose inventée par Emilie, et alors qu'elle se demandait si d'autres paires de bras ne seraient pas nécessaires pour diffuser le beau message de l'amour, Lisette est venue offrir les siens en guise de soutien à l'effort de groupe. Préparez-vous à mettre les mains en cœur à tous les coins de rue de Vieille Gridania !"
+4,TEXT_FESVLX001_04808_SEQ_04,
+5,TEXT_FESVLX001_04808_SEQ_05,
+6,TEXT_FESVLX001_04808_SEQ_06,
+7,TEXT_FESVLX001_04808_SEQ_07,
+8,TEXT_FESVLX001_04808_SEQ_08,
+9,TEXT_FESVLX001_04808_SEQ_09,
+10,TEXT_FESVLX001_04808_SEQ_10,
+11,TEXT_FESVLX001_04808_SEQ_11,
+12,TEXT_FESVLX001_04808_SEQ_12,
+13,TEXT_FESVLX001_04808_SEQ_13,
+14,TEXT_FESVLX001_04808_SEQ_14,
+15,TEXT_FESVLX001_04808_SEQ_15,
+16,TEXT_FESVLX001_04808_SEQ_16,
+17,TEXT_FESVLX001_04808_SEQ_17,
+18,TEXT_FESVLX001_04808_SEQ_18,
+19,TEXT_FESVLX001_04808_SEQ_19,
+20,TEXT_FESVLX001_04808_SEQ_20,
+21,TEXT_FESVLX001_04808_SEQ_21,
+22,TEXT_FESVLX001_04808_SEQ_22,
+23,TEXT_FESVLX001_04808_SEQ_23,
+24,TEXT_FESVLX001_04808_TODO_00,Retrouver Emilie
+25,TEXT_FESVLX001_04808_TODO_01,Parler à Astrid
+26,TEXT_FESVLX001_04808_TODO_02,
+27,TEXT_FESVLX001_04808_TODO_03,
+28,TEXT_FESVLX001_04808_TODO_04,
+29,TEXT_FESVLX001_04808_TODO_05,
+30,TEXT_FESVLX001_04808_TODO_06,
+31,TEXT_FESVLX001_04808_TODO_07,
+32,TEXT_FESVLX001_04808_TODO_08,
+33,TEXT_FESVLX001_04808_TODO_09,
+34,TEXT_FESVLX001_04808_TODO_10,
+35,TEXT_FESVLX001_04808_TODO_11,
+36,TEXT_FESVLX001_04808_TODO_12,
+37,TEXT_FESVLX001_04808_TODO_13,
+38,TEXT_FESVLX001_04808_TODO_14,
+39,TEXT_FESVLX001_04808_TODO_15,
+40,TEXT_FESVLX001_04808_TODO_16,
+41,TEXT_FESVLX001_04808_TODO_17,
+42,TEXT_FESVLX001_04808_TODO_18,
+43,TEXT_FESVLX001_04808_TODO_19,
+44,TEXT_FESVLX001_04808_TODO_20,
+45,TEXT_FESVLX001_04808_TODO_21,
+46,TEXT_FESVLX001_04808_TODO_22,
+47,TEXT_FESVLX001_04808_TODO_23,
+48,TEXT_FESVLX001_04808_ASTRID_000_000,"Bonsoir bonsoir ! Bienvenue à la fête de tous les amoureux du monde entier, la seule, unique et mer­veil­leu­se Valention ! Messagère de l'amour Astrid, à votre service !"
+49,TEXT_FESVLX001_04808_ASTRID_000_001,"Ces festivités sont l'occasion rêvée pour les cœurs timides, comme pour ceux plus téméraires, de déclarer leur flamme à la personne qui leur est chère ! Et pour y parvenir, ils pourront compter sur le soutien sans faille de notre or­ga­ni­sa­tion !"
+50,TEXT_FESVLX001_04808_ASTRID_000_002,"Ravie de vous retrouver pour cette nouvelle édition, chère Player ! J'espère que vous passerez un aussi bon moment en notre compagnie que la dernière fois, si ce n'est même meilleur, tant qu'on y est !"
+51,TEXT_FESVLX001_04808_ASTRID_000_003,"Rien qu'à voir votre allure, je devine sans difficulté que vous êtes une aventurière chevronnée, pas vrai ? Quoi qu'il en soit, nous espérons que vous passerez un excellent moment en notre compagnie !"
+52,TEXT_FESVLX001_04808_ASTRID_000_004,"Eh bien, je crois que c'est tout pour l'in­tro­duc­tion... Dites... Ça m'embête beaucoup de vous mettre im­mé­dia­te­ment à con­tri­bu­tion, mais je n'ai personne d'autre vers qui me tourner..."
+53,TEXT_FESVLX001_04808_ASTRID_000_005,"Il se trouve que cette année, je suis convaincue que nous avons plus que jamais besoin d'innover. J'ai donc demandé à une de mes collègues messagères, Emilie, d'y réfléchir. Or, elle n'est toujours pas revenue depuis notre discussion et je commence sé­rieu­se­ment à m'inquiéter."
+54,TEXT_FESVLX001_04808_ASTRID_000_006,"Je partirais volontiers à sa recherche moi-même, mais mes fonctions au sein des festivités m'empêchent de m'éloigner de mon poste ne serait-ce que d'un ilm. Pareil pour les autres messagers de l'amour... Vous... voyez où je veux en venir, n'est-ce pas ?"
+55,TEXT_FESVLX001_04808_ASTRID_000_008,"Oh, merci infiniment, je savais que vous seriez la femme de la situation !"
+56,TEXT_FESVLX001_04808_ASTRID_000_009,"Avant de me quitter, elle m'a dit qu'elle irait, je cite de mémoire, “s'entraîner à l'ombre des arbres près des Atours de Fen-Yll”. A priori, vous la trouverez là-bas, sans quoi... il nous faudra prévenir les vigiles sombres au plus vite ! Allez-y, je compte sur vous !"
+57,TEXT_FESVLX001_04808_ASTRID_000_010,"Avant de me quitter, Emilie m'a dit qu'elle irait, je cite de mémoire, “s'entraîner à l'ombre des arbres près des Atours de Fen-Yll”. A priori, vous la trouverez là-bas, sans quoi... il nous faudra prévenir les vigiles sombres au plus vite ! Allez-y, je compte sur vous !"
+58,TEXT_FESVLX001_04808_EMILIE_000_011,"Alors que si j'incline mes bras comme ça... Ah oui, ce sera beaucoup mieux ! La pose parfaite n'est plus très loin, hi hi !"
+59,TEXT_FESVLX001_04808_EMILIE_000_012,"OUAAAAH !! Par les Douze, vous m'avez fait une de ces peurs..."
+60,TEXT_FESVLX001_04808_EMILIE_000_0013,"Euh... À qui ai-je l'honneur, je vous prie ?"
+61,TEXT_FESVLX001_04808_EMILIE_000_014,"C'est dame Astrid qui vous envoie car elle commençait à se faire du souci ? Voilà qui ne m'étonne pas d'elle ! C'est gentil de vous être déplacée en tout cas, Player."
+62,TEXT_FESVLX001_04808_EMILIE_000_015,Player ! Quel plaisir de vous revoir !
+63,TEXT_FESVLX001_04808_EMILIE_000_016,C'est dame Astrid qui vous envoie car elle commençait à se faire du souci ? Voilà qui ne m'étonne pas d'elle ! C'est gentil de vous être déplacée en tout cas.
+64,TEXT_FESVLX001_04808_EMILIE_000_017,"... Vous voulez savoir ce que je marmonnais à l'instant ? Hé hé, désolée mais c'est un secret !"
+65,TEXT_FESVLX001_04808_EMILIE_000_018,"Allons, ne vous faites pas de bile, je ne vais pas tarder à le divulguer aux yeux de tous ! La révélation est pour très bientôt, alors si j'ai réussi à piquer votre curiosité, n'attendez plus et venez assister à un grand moment d'art scénique à l'amphithéâtre de Mih Khetto !"
+66,TEXT_FESVLX001_04808_EMILIE_000_019,"Ravie de vous revoir ! Vous avez fait vite, dites donc !"
+67,TEXT_FESVLX001_04808_ASTRID_000_020,"Merci mille fois pour votre aide, Player ! Emilie est rentrée au bercail sans encombre, et c'est tout ce qui compte."
+68,TEXT_FESVLX001_04808_ASTRID_000_021,Mon petit doigt me dit qu'elle est sur le point de nous faire la dé­mon­stra­tion de sa nouvelle trouvaille pour enthousiasmer notre public. Que diriez-vous d'y assister en ma compagnie ?
+69,TEXT_FESVLX001_04808_ASTRID_000_022,Comme c'est ravissant ! Seule une messagère de l'amour comme toi pouvait avoir l'idée d'une *pose en cœur* aussi charmante !
+70,TEXT_FESVLX001_04808_EMILIE_000_023,"La difficulté qu'éprouvent les Gridaniens à laisser transparaître leurs émotions est connue dans le monde entier. Certains sont même tellement timides qu'ils préfèrent renoncer à conquérir l'être aimé plutôt que de faire le premier pas, c'est dire !"
+71,TEXT_FESVLX001_04808_EMILIE_000_024,"Or, en amour, la communication est un aspect des plus essentiels ! J'ai donc pensé que cette nouvelle fête de la Valention était l'occasion rêvée pour pousser les gens à l'action. D'ailleurs, j'ai baptisé cette opération : “Flamme déclarée est à moitié approuvée !”"
+72,TEXT_FESVLX001_04808_EMILIE_000_025,"De fil en aiguille, j'ai ainsi eu l'idée de la pose en cœur, le petit plus idéal pour joindre le geste à la parole. Si avec ça, nos valentions et valentionnes ne trouvent pas le courage de révéler leurs sentiments, il ne me restera plus qu'à me faire bonzesse !"
+73,TEXT_FESVLX001_04808_ASTRID_000_026,"En tout cas, bravo, mission accomplie ! Grâce à cette pose, les plus réservés d'entre nous pourront commencer par une déclaration d'amour visuelle, qui ne manquera assurément pas de leur donner le courage d'ouvrir la bouche pour laisser leur petit cœur s'exprimer !"
+74,TEXT_FESVLX001_04808_ASTRID_000_027,"Emilie, je compte sur toi pour répandre la bonne parole, ou devrais-je dire la bonne gestuelle, afin de soutenir les fous d'amour dans leurs tribulations !"
+75,TEXT_FESVLX001_04808_EMILIE_000_028,"Soyez sans crainte, Dame Astrid ! C'est comme si c'était fait !"
+76,TEXT_FESVLX001_04808_EMILIE_000_029,"Vous voulez bien continuer de m'épauler, Player ? Une aventurière aussi expérimentée et appréciée que vous ne sera cer­tai­ne­ment pas de trop pour me prodiguer de bons conseils tout au long de cette manœuvre !"
+77,TEXT_FESVLX001_04808_EMILIE_000_030,"Merci, vous êtes un ange ! Approchez, je vais vous apprendre ma pose en cœur en un clin d'œil afin que vous puissiez la transmettre à votre tour !"
+78,TEXT_FESVLX001_04808_EMILIE_000_031,Quel talent ! L'angle formé par vos bras est d'une justesse incroyable ! C'est tout simplement parfait !
+79,TEXT_FESVLX001_04808_ASTRID_000_032,"J'ai envie de vous souhaiter bon vent, et que les ailes de l'amour vous portent durant votre nouvelle mission, mais je crains que notre public soit un peu trop nombreux pour quatre petits bras seulement..."
+80,TEXT_FESVLX001_04808_LISETTE_000_033,"(-???-)Et si j'en rajoutais une paire, ça vous conviendrait ?"
+81,TEXT_FESVLX001_04808_ASTRID_000_034,D-Dame Lisette !?
+82,TEXT_FESVLX001_04808_ASTRID_000_037,"C'est la première fois que vous rencontrez dame Lisette de Valention, n'est-ce pas ? Pour votre gouverne, il s'agit de l'héritière de notre maison, et accessoirement de ma cousine. Elle est aussi l'organisatrice originelle de cette fête !"
+83,TEXT_FESVLX001_04808_LISETTE_000_038,"Enchantée, aventurière !♪ Je suis Lisette de Valention, messagère de l'amour non plus par les actes, mais toujours par la pensée. Lisette tout court pour les intimes !♪"
+84,TEXT_FESVLX001_04808_LISETTE_000_039,"Comment allez-vous depuis tout ce temps, Player ?♪ Merci beaucoup d'aider Astrid, je reconnais bien là votre gentillesse !♪"
+85,TEXT_FESVLX001_04808_ASTRID_000_040,"Maintenant que j'y pense, Dame Lisette... N'aviez-vous pas l'intention de célébrer l'événement en compagnie de sire Hortefense ?"
+86,TEXT_FESVLX001_04808_LISETTE_000_041,"Voyons, ma petite Astrid !♪ Je t'ai certes confié l'or­ga­ni­sa­tion des festivités présentes et à venir, mais tu oublies un peu vite que je porte toujours avec fierté mon titre de messagère de l'amour, et il n'est pas question que je le discrédite !♪"
+87,TEXT_FESVLX001_04808_LISETTE_000_042,"En tant que membre de l'illustre famille Valention, mon devoir est d'assurer la continuité de l'œuvre de mes ancêtres, quel qu'en soit le prix ! Puisque vous semblez à court de collaborateurs, je me dois de faire mon entrée en scène !"
+88,TEXT_FESVLX001_04808_EMILIE_000_043,"Ça y est, je comprends mieux ! Vous voulez que tous les détails soient réglés à l'ilm près pour que votre rendez-vous amoureux avec sire Hortefense se déroule comme dans un rêve ! J'ai bon ?"
+89,TEXT_FESVLX001_04808_LISETTE_000_044,"Hein !? Non mais dis donc, toi ! C'est pas parce que t'es nouvelle que ça te donne le droit de te mêler des affaires des autres, pigé !?"
+90,TEXT_FESVLX001_04808_ASTRID_000_045,"Héhéhé... S'il en est ainsi, soyez la bienvenue parmi nous, Dame Lisette."
+91,TEXT_FESVLX001_04808_LISETTE_000_046,"C-comment !? Oh et puis zut, pas le temps de bavarder ! Mettons-nous en route im­mé­dia­te­ment ! Emilie, tu m'apprendras la pose en cœur sur le chemin ! Et j'veux pas entendre un mot de plus !"
+92,TEXT_FESVLX001_04808_EMILIE_000_047,"Je suggère que nous nous séparions en trois groupes. Dame Lisette et moi allons nous charger de Nouvelle Gridania, pendant que notre amie Player se rendra à l'ancienne. Enfin, à Vieille Gridania si vous préférez !"
+93,TEXT_FESVLX001_04808_EMILIE_000_048,"À chaque fois que vous croiserez un individu ostensiblement éprouvé par les tourments de la passion amoureuse, montrez-lui à l'aide de cette pose que seul le courage d'ouvrir son cœur le sauvera du puits sans fond où son âme se laisse choir ! Bon courage à toutes !"
+94,TEXT_FESVLX001_04808_ASTRID_000_049,"Eh bien, quel lyrisme ! Player, une fois vos étirements et assouplissements terminés, revenez me voir afin que je vous indique où aller. À tout de suite !"
+95,TEXT_FESVLX001_04808_SYSTEM_000_050,Vous avez appris l'emote *Pose en cœur* !

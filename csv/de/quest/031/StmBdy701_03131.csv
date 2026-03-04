@@ -1,103 +1,100 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_STMBDY701_03131_SEQ_00","Hamakaze winkt dich zu einem Piratenschwätzchen an der frischen Seeluft herbei."
-1,"TEXT_STMBDY701_03131_SEQ_01","Hamakaze offenbart dir, dass er bereits nach dir Ausschau gehalten hat. Angeblich hat Rasho einen Auftrag für dich. Hamakaze weiß nicht, worum es sich handelt, doch er bittet dich, an der Halskehre auf Onokoro mit einem Mann namens Kyusei zu sprechen."
-2,"TEXT_STMBDY701_03131_SEQ_02","Warte am Eingang zur Himmelssäule auf Kyusei und Rasho."
-3,"TEXT_STMBDY701_03131_SEQ_03","Rasho und Kyusei haben dir die Einzelheiten des Auftrags erklärt. Die Himmelssäule zu erkunden wird kein leichtes Unterfangen. Wenn du dich nicht abschrecken lässt, triff Kyusei vor der Hütte am Strand, damit er dich zur Transportvorrichtung führt."
-4,"TEXT_STMBDY701_03131_SEQ_04","Deiner Erkundung der Himmelssäule steht nichts mehr im Wege. Was erwartet dich in ihrem Inneren? Wirst du es bis auf die oberste Ebene schaffen? Es gibt nur einen Weg, es herauszufinden."
-5,"TEXT_STMBDY701_03131_SEQ_05",""
-6,"TEXT_STMBDY701_03131_SEQ_06",""
-7,"TEXT_STMBDY701_03131_SEQ_07",""
-8,"TEXT_STMBDY701_03131_SEQ_08",""
-9,"TEXT_STMBDY701_03131_SEQ_09",""
-10,"TEXT_STMBDY701_03131_SEQ_10",""
-11,"TEXT_STMBDY701_03131_SEQ_11",""
-12,"TEXT_STMBDY701_03131_SEQ_12",""
-13,"TEXT_STMBDY701_03131_SEQ_13",""
-14,"TEXT_STMBDY701_03131_SEQ_14",""
-15,"TEXT_STMBDY701_03131_SEQ_15",""
-16,"TEXT_STMBDY701_03131_SEQ_16",""
-17,"TEXT_STMBDY701_03131_SEQ_17",""
-18,"TEXT_STMBDY701_03131_SEQ_18",""
-19,"TEXT_STMBDY701_03131_SEQ_19",""
-20,"TEXT_STMBDY701_03131_SEQ_20",""
-21,"TEXT_STMBDY701_03131_SEQ_21",""
-22,"TEXT_STMBDY701_03131_SEQ_22",""
-23,"TEXT_STMBDY701_03131_SEQ_23",""
-24,"TEXT_STMBDY701_03131_TODO_00","Mit Kyusei sprechen"
-25,"TEXT_STMBDY701_03131_TODO_01","Vor dem Eingang zur Himmelssäule warten"
-26,"TEXT_STMBDY701_03131_TODO_02","Mit Kyusei sprechen"
-27,"TEXT_STMBDY701_03131_TODO_03",""
-28,"TEXT_STMBDY701_03131_TODO_04",""
-29,"TEXT_STMBDY701_03131_TODO_05",""
-30,"TEXT_STMBDY701_03131_TODO_06",""
-31,"TEXT_STMBDY701_03131_TODO_07",""
-32,"TEXT_STMBDY701_03131_TODO_08",""
-33,"TEXT_STMBDY701_03131_TODO_09",""
-34,"TEXT_STMBDY701_03131_TODO_10",""
-35,"TEXT_STMBDY701_03131_TODO_11",""
-36,"TEXT_STMBDY701_03131_TODO_12",""
-37,"TEXT_STMBDY701_03131_TODO_13",""
-38,"TEXT_STMBDY701_03131_TODO_14",""
-39,"TEXT_STMBDY701_03131_TODO_15",""
-40,"TEXT_STMBDY701_03131_TODO_16",""
-41,"TEXT_STMBDY701_03131_TODO_17",""
-42,"TEXT_STMBDY701_03131_TODO_18",""
-43,"TEXT_STMBDY701_03131_TODO_19",""
-44,"TEXT_STMBDY701_03131_TODO_20",""
-45,"TEXT_STMBDY701_03131_TODO_21",""
-46,"TEXT_STMBDY701_03131_TODO_22",""
-47,"TEXT_STMBDY701_03131_TODO_23",""
-48,"TEXT_STMBDY701_03131_SYSTEM_100_000","Um den Nebenauftrag „Tief im Inneren der Himmelssäule“ anzunehmen, muss Ebene 50 des Palasts der Toten abgeschlossen sein."
-49,"TEXT_STMBDY701_03131_SYSTEM_100_001","Um den Palast der Toten freizuschalten, muss der Nebenauftrag „Hinab in die Tiefe“ abgeschlossen sein."
-50,"TEXT_STMBDY701_03131_HAMAKAZE_000_000","Ahoi! Du bist doch <Highlight>ObjectParameter(1)</Highlight>, nich' wahr? Ich soll dir sagen, dass Rasho nach dir sucht."
-51,"TEXT_STMBDY701_03131_HAMAKAZE_000_001","Frag mich aber nich', was er von dir will, denn er hat es uns nich' gesagt. Vielleicht ist's auch nich' so wichtig."
-52,"TEXT_STMBDY701_03131_HAMAKAZE_000_002","Du kennst doch die Himmelssäule auf Onokoro? Der schwankende Turm, bei dem man schon beim Angucken Nackenschmerzen bekommt. In der Nähe des Ätheryten bewacht 'n Mann namens Kyusei eine kleine Hütte. Sprich mit ihm und er wird dir alles erzähl'n."
-53,"TEXT_STMBDY701_03131_HAMAKAZE_000_010","An der Himmelssäule auf Onokoro findest du 'nen Kerl namens Kyusei. Er bewacht 'ne schäbige Hütte, gleich vor dem Ätheryten. Er wird dir sagen, was Rasho von dir will."
-54,"TEXT_STMBDY701_03131_RASHO_000_011","Willkommen auf Onokoro, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ich freue mich, dass du meiner Einladung gefolgt bist. Aber sprich doch bitte zuerst mit Kyusei. Er weiß am besten über die Angelegenheit Bescheid."
-55,"TEXT_STMBDY701_03131_KYUSEI_000_020","Einen schönen guten <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Abend<Else/>Morgen</If><Else/><If(LessThan(PlayerParameter(11),17))>Tag<Else/>Abend</If></If>, <Highlight>ObjectParameter(1)</Highlight>. Danke, dass du Rashos Aufruf gefolgt bist."
-56,"TEXT_STMBDY701_03131_KYUSEI_000_021","Er sollte dabei sein, wenn wir über die<Indent/>... Angelegenheit sprechen. Würdest du bitte vor dem Eingang zur Himmelssäule auf uns warten? Danke."
-57,"TEXT_STMBDY701_03131_RASHO_000_030","Du hast schon mit Kyusei gesprochen, nicht wahr? Dann geh schon mal zur Himmelssäule. Wir treffen uns direkt vor dem Eingang."
-58,"TEXT_STMBDY701_03131_KYUSEI_000_031","Geh nur vor. Sobald Rasho am Eingang zur Himmelssäule eingetroffen ist, werden wir dir alles erklären."
-59,"TEXT_STMBDY701_03131_RASHO_100_040","Gewaltig, nicht wahr? Die Spitze scheint im Himmel zu verschwinden."
-60,"TEXT_STMBDY701_03131_RASHO_000_040","Ich habe dich aber nicht hierher gebeten, um dir die Himmelssäule zu zeigen. Nein, wir wollen, dass du auf Erkundungstour gehst."
-61,"TEXT_STMBDY701_03131_RASHO_000_042","Es ist aber keine nebelumhangene Insel und auch keine verborgene Meeresenge, die erkundet werden soll. Es geht um einen Ort, der so gefährlich und fremdartig ist, dass die Konföderation damit<Indent/>... überfordert ist. Am besten erzählt dir der Entdecker des Ortes selbst, was er gefunden hat."
-62,"TEXT_STMBDY701_03131_KYUSEI_000_043","Es war vor ein paar Tagen. Ich hatte Wachdienst und patrouillierte am Außenbezirk von Halskehre, als plötzlich ein Schwarm Ungeheuer über mich herfiel. Ungeheuer, die ich noch nie zuvor gesehen hatte."
-63,"TEXT_STMBDY701_03131_KYUSEI_000_044","Ich konnte sie nur mit Mühe und Not abwehren, und hätten die Kami mir nicht geholfen, würde ich jetzt nicht vor dir stehen. Ich verfolgte die Spuren der Ungeheuer bis zu einer kleinen Hütte, in der ich eine verborgene Falltür fand. In dem kleinen Kellerraum darunter stand eine wundersame Vorrichtung."
-64,"TEXT_STMBDY701_03131_KYUSEI_000_045","Das alleine war schon rätselhaft genug, doch jetzt beginnt das Mysterium erst. In meiner Neugierde berührte ich die Vorrichtung und siehe da, sie transportierte mich in ein Gewölbe voller Bestien und Dämonen!"
-65,"TEXT_STMBDY701_03131_KYUSEI_000_046","Ich wusste, dass ich mich nicht wieder auf das Wohlwollen der Kami verlassen konnte, also floh ich so schnell ich konnte aus diesem Höllengewölbe. Und lief direkt zu Rasho, um ihm von dieser Gefahr zu berichten."
-66,"TEXT_STMBDY701_03131_RASHO_000_047","Tja, vielleicht war es die herrlich kühle Morgenluft, die meinen Tatendrang entfachte<Indent/>... Jedenfalls war ich leichtsinnig genug, selber mal nachzusehen. Kaum hatte mich die Vorrichtung versetzt, erkannte ich das Gewölbe: Es war das Innere der Himmelssäule! Ich verlor fast den Verstand."
-67,"TEXT_STMBDY701_03131_KYUSEI_000_048","Als <If(PlayerParameter(4))>Eorzäerin<Else/>Eorzäer</If> kannst du es eigentlich nicht wissen, aber die Himmelssäule ist ein heiliger Ort."
-68,"TEXT_STMBDY701_03131_KYUSEI_000_049","Als die Kami zum ersten Mal das Firmament verließen und die Rubinsee betraten, schufen sie Onokoro und errichteten darauf die Himmelssäule. Über sie können die Kami zwischen Himmel und Erde wandeln."
-69,"TEXT_STMBDY701_03131_RASHO_000_050","Aus diesem Grund wurde Onokoro lange Zeit gemieden. Kein Schiff legte an ihrer Küste an und niemand setzte einen Fuß auf die Insel."
-70,"TEXT_STMBDY701_03131_RASHO_000_051","Ein idealer Stützpunkt für uns Piraten also. Wir haben keine Angst vor den Kami. Das Einzige, was Piraten fürchten, ist, keinen Wind in den Segeln und keinen Rum in den Bechern zu haben."
-71,"TEXT_STMBDY701_03131_RASHO_000_052","Und jetzt sieht es so aus, als hätten wir unseren Stützpunkt rund um die größte Brutstätte für Ungeheuer angelegt, die die Rubinsee je gesehen hat! Das bedeutet nicht nur ein unkalkulierbares Risiko. Nein, auch bei dem Gedanken an all die Abenteurer und Forscher, die hier aufkreuzen werden, bekomme ich mächtig schlechte Laune."
-72,"TEXT_STMBDY701_03131_KYUSEI_000_053","Du verstehst, warum wir die Sache nicht publik machen wollen. Aber wir müssen wissen, womit wir es hier zu tun haben."
-73,"TEXT_STMBDY701_03131_RASHO_000_054","Wir wollen, dass du reingehst. Du sollst die Himmelssäule für uns erkunden."
-74,"TEXT_STMBDY701_03131_RASHO_000_055","Stelle einen kleinen Trupp zusammen, wenn es sein muss. Aber nur Leute, denen du vertrauen kannst. Wir wollen nicht, dass die Geschichte die Runde macht."
-75,"TEXT_STMBDY701_03131_RASHO_000_056","Eins musst du noch wissen: Die Himmelssäule liegt in einem Bannkreis, der dich gewisser Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten beraubt. Einmal drin, wirst du dir deine vertrauten Kampftechniken wieder neu aneignen müssen."
-76,"TEXT_STMBDY701_03131_KYUSEI_000_057","Bitte, hilf uns. Ich werde dir helfen, wo ich nur kann. Aber es wird nicht leicht werden, so viel steht fest."
-77,"TEXT_STMBDY701_03131_RASHO_000_058","Ich wusste, dass du uns nicht im Stich lassen würdest. Kyusei wird alles Weitere mit dir besprechen. Wir sehen uns später."
-78,"TEXT_STMBDY701_03131_KYUSEI_000_059","Ich zeige dir zuerst die Vorrichtung, die ich in der kleinen Hütte gefunden habe. Es ist die Hütte, an der wir uns getroffen haben. Ich werde dort auf dich warten."
-79,"TEXT_STMBDY701_03131_RASHO_000_060","Danke, dass du die Himmelssäule für uns erkunden willst. Ich werde etwas ruhiger schlafen können."
-80,"TEXT_STMBDY701_03131_KYUSEI_000_070","Bist du bereit, die Himmelssäule zu betreten? Vorher will ich dir noch etwas über den Bannkreis erzählen, den Rasho erwähnt hat."
-81,"TEXT_STMBDY701_03131_KYUSEI_000_071","Der Bannkreis ist ein wirklich eigenartiges Phänomen. Mir ist so etwas noch nie begegnet. Irgendwie scheint er zu bewirken, dass gewöhnliche Aus<SoftHyphen/>rüstungs<SoftHyphen/>gegen<SoftHyphen/>stände keinerlei Wirkung haben, weder Rüstungen noch Waffen."
-82,"TEXT_STMBDY701_03131_KYUSEI_000_072","Deswegen ist die Erkundung auch so gefährlich<Indent/>... Was ist? Hast du etwas?"
-83,"TEXT_STMBDY701_03131_Q1_000_000","Was sagst du?"
-84,"TEXT_STMBDY701_03131_A1_000_001","Ich war schon einmal an so einem Ort."
-85,"TEXT_STMBDY701_03131_A1_000_002","Ach, nicht so wichtig."
-86,"TEXT_STMBDY701_03131_KYUSEI_000_080","E-Es gibt noch andere Orte wie diesen? Bei den Kami, kennst du denn jedes Geheimnis, das diese Welt zu bieten hat?"
-87,"TEXT_STMBDY701_03131_KYUSEI_000_081","Aber gut, was wundere ich mich? Ich selbst habe die Rubinsee nur ein halbes Dutzend Mal verlassen. Bestimmt hast du schon ganz andere Orte gesehen, von denen ich nicht einmal träumen kann."
-88,"TEXT_STMBDY701_03131_KYUSEI_000_090","Das alles scheint dich nicht sonderlich zu beeindrucken. Aber gut. Bestimmt hast du schon ganz andere Orte gesehen, von denen ich nicht einmal träumen kann."
-89,"TEXT_STMBDY701_03131_KYUSEI_000_100","Dann will ich meine Erklärungen auf das Nötigste beschränken. Geh, und sieh selbst, was im Inneren der Himmelssäule auf dich wartet. Aber nimm dies hier mit."
-90,"TEXT_STMBDY701_03131_KYUSEI_000_101","Die Waffe ist eine<Indent/>... Spe<SoftHyphen/>zial<SoftHyphen/>an<SoftHyphen/>fer<SoftHyphen/>ti<SoftHyphen/>gung. Sie ist die einzige Waffe, mit der du in der Himmelssäule kämpfen kannst. Und auch wenn sie am Anfang noch nicht viel hermacht, wird sie genährt von deinem Äther immer mächtiger werden."
-91,"TEXT_STMBDY701_03131_KYUSEI_000_102","Die Erkundung der Himmelssäule wird viel Zeit in Anspruch nehmen. Du siehst ja selbst, wie hoch sie ist."
-92,"TEXT_STMBDY701_03131_KYUSEI_000_103","Ich schlage vor, du erstattest nach dreißig Etagen Bericht. Dann werden wir mit Rasho das weitere Vorgehen besprechen."
-93,"TEXT_STMBDY701_03131_KYUSEI_000_104","Ich werde weiterhin sehen, was ich für dich tun kann. Auf gutes Gelingen!"
-94,"TEXT_STMBDY701_03131_SYSTEM_000_110","Du kannst nun das Tiefe Gewölbe „Himmelssäule“ betreten. Dieser Inhalt ist eine immer höher führende Dungeon-Erkundung für eine Gruppe von ein bis vier Spielern."
-95,"TEXT_STMBDY701_03131_SYSTEM_000_111","Sprich Kyusei an, um den Inhalt mit einer bestehenden oder einer zufälligen Gruppe zu betreten."
-96,"TEXT_STMBDY701_03131_SYSTEM_000_112","Wenn du das Gewölbe zum ersten Mal betrittst, wird dein Charakter auf Stufe 61 gesetzt und kann die entsprechenden Kommandos benutzen. Deine Ausrüstung wird durch eine spezielle Empyreum-Ausrüstung nur für diesen Inhalt ersetzt."
-97,"TEXT_STMBDY701_03131_SYSTEM_000_113","Sprich Kyusei noch einmal an, um weitere Einzelheiten zu erfahren."
-98,"TEXT_STMBDY701_03131_RASHO_000_041","（★未使用／削除予定★）"
-99,"TEXT_STMBDY701_03131_SYSTEM_100_111","Um die Himmelssäule betreten zu können, muss dein Charakter entweder Krieger oder Magier sein und mindestens Stufe 61 erreicht haben."
+0,TEXT_STMBDY701_03131_SEQ_00,Hamakaze winkt dich zu einem Piratenschwätzchen an der frischen Seeluft herbei.
+1,TEXT_STMBDY701_03131_SEQ_01,"Hamakaze offenbart dir, dass er bereits nach dir Ausschau gehalten hat. Angeblich hat Rasho einen Auftrag für dich. Hamakaze weiß nicht, worum es sich handelt, doch er bittet dich, an der Halskehre auf Onokoro mit einem Mann namens Kyusei zu sprechen."
+2,TEXT_STMBDY701_03131_SEQ_02,Warte am Eingang zur Himmelssäule auf Kyusei und Rasho.
+3,TEXT_STMBDY701_03131_SEQ_03,"Rasho und Kyusei haben dir die Einzelheiten des Auftrags erklärt. Die Himmelssäule zu erkunden wird kein leichtes Unterfangen. Wenn du dich nicht abschrecken lässt, triff Kyusei vor der Hütte am Strand, damit er dich zur Transportvorrichtung führt."
+4,TEXT_STMBDY701_03131_SEQ_04,"Deiner Erkundung der Himmelssäule steht nichts mehr im Wege. Was erwartet dich in ihrem Inneren? Wirst du es bis auf die oberste Ebene schaffen? Es gibt nur einen Weg, es herauszufinden."
+5,TEXT_STMBDY701_03131_SEQ_05,
+6,TEXT_STMBDY701_03131_SEQ_06,
+7,TEXT_STMBDY701_03131_SEQ_07,
+8,TEXT_STMBDY701_03131_SEQ_08,
+9,TEXT_STMBDY701_03131_SEQ_09,
+10,TEXT_STMBDY701_03131_SEQ_10,
+11,TEXT_STMBDY701_03131_SEQ_11,
+12,TEXT_STMBDY701_03131_SEQ_12,
+13,TEXT_STMBDY701_03131_SEQ_13,
+14,TEXT_STMBDY701_03131_SEQ_14,
+15,TEXT_STMBDY701_03131_SEQ_15,
+16,TEXT_STMBDY701_03131_SEQ_16,
+17,TEXT_STMBDY701_03131_SEQ_17,
+18,TEXT_STMBDY701_03131_SEQ_18,
+19,TEXT_STMBDY701_03131_SEQ_19,
+20,TEXT_STMBDY701_03131_SEQ_20,
+21,TEXT_STMBDY701_03131_SEQ_21,
+22,TEXT_STMBDY701_03131_SEQ_22,
+23,TEXT_STMBDY701_03131_SEQ_23,
+24,TEXT_STMBDY701_03131_TODO_00,Mit Kyusei sprechen
+25,TEXT_STMBDY701_03131_TODO_01,Vor dem Eingang zur Himmelssäule warten
+26,TEXT_STMBDY701_03131_TODO_02,Mit Kyusei sprechen
+27,TEXT_STMBDY701_03131_TODO_03,
+28,TEXT_STMBDY701_03131_TODO_04,
+29,TEXT_STMBDY701_03131_TODO_05,
+30,TEXT_STMBDY701_03131_TODO_06,
+31,TEXT_STMBDY701_03131_TODO_07,
+32,TEXT_STMBDY701_03131_TODO_08,
+33,TEXT_STMBDY701_03131_TODO_09,
+34,TEXT_STMBDY701_03131_TODO_10,
+35,TEXT_STMBDY701_03131_TODO_11,
+36,TEXT_STMBDY701_03131_TODO_12,
+37,TEXT_STMBDY701_03131_TODO_13,
+38,TEXT_STMBDY701_03131_TODO_14,
+39,TEXT_STMBDY701_03131_TODO_15,
+40,TEXT_STMBDY701_03131_TODO_16,
+41,TEXT_STMBDY701_03131_TODO_17,
+42,TEXT_STMBDY701_03131_TODO_18,
+43,TEXT_STMBDY701_03131_TODO_19,
+44,TEXT_STMBDY701_03131_TODO_20,
+45,TEXT_STMBDY701_03131_TODO_21,
+46,TEXT_STMBDY701_03131_TODO_22,
+47,TEXT_STMBDY701_03131_TODO_23,
+48,TEXT_STMBDY701_03131_SYSTEM_100_000,"Um den Nebenauftrag „Tief im Inneren der Himmelssäule“ anzunehmen, muss Ebene 50 des Palasts der Toten abgeschlossen sein."
+49,TEXT_STMBDY701_03131_SYSTEM_100_001,"Um den Palast der Toten freizuschalten, muss der Nebenauftrag „Hinab in die Tiefe“ abgeschlossen sein."
+50,TEXT_STMBDY701_03131_HAMAKAZE_000_000,"Ahoi! Du bist doch Player Player, nich' wahr? Ich soll dir sagen, dass Rasho nach dir sucht."
+51,TEXT_STMBDY701_03131_HAMAKAZE_000_001,"Frag mich aber nich', was er von dir will, denn er hat es uns nich' gesagt. Vielleicht ist's auch nich' so wichtig."
+52,TEXT_STMBDY701_03131_HAMAKAZE_000_002,"Du kennst doch die Himmelssäule auf Onokoro? Der schwankende Turm, bei dem man schon beim Angucken Nackenschmerzen bekommt. In der Nähe des Ätheryten bewacht 'n Mann namens Kyusei eine kleine Hütte. Sprich mit ihm und er wird dir alles erzähl'n."
+53,TEXT_STMBDY701_03131_HAMAKAZE_000_010,"An der Himmelssäule auf Onokoro findest du 'nen Kerl namens Kyusei. Er bewacht 'ne schäbige Hütte, gleich vor dem Ätheryten. Er wird dir sagen, was Rasho von dir will."
+54,TEXT_STMBDY701_03131_RASHO_000_011,"Willkommen auf Onokoro, Player. Ich freue mich, dass du meiner Einladung gefolgt bist. Aber sprich doch bitte zuerst mit Kyusei. Er weiß am besten über die Angelegenheit Bescheid."
+55,TEXT_STMBDY701_03131_KYUSEI_000_020,"Einen schönen guten Abend, Player Player. Danke, dass du Rashos Aufruf gefolgt bist."
+56,TEXT_STMBDY701_03131_KYUSEI_000_021,"Er sollte dabei sein, wenn wir über die ... Angelegenheit sprechen. Würdest du bitte vor dem Eingang zur Himmelssäule auf uns warten? Danke."
+57,TEXT_STMBDY701_03131_RASHO_000_030,"Du hast schon mit Kyusei gesprochen, nicht wahr? Dann geh schon mal zur Himmelssäule. Wir treffen uns direkt vor dem Eingang."
+58,TEXT_STMBDY701_03131_KYUSEI_000_031,"Geh nur vor. Sobald Rasho am Eingang zur Himmelssäule eingetroffen ist, werden wir dir alles erklären."
+59,TEXT_STMBDY701_03131_RASHO_100_040,"Gewaltig, nicht wahr? Die Spitze scheint im Himmel zu verschwinden."
+60,TEXT_STMBDY701_03131_RASHO_000_040,"Ich habe dich aber nicht hierher gebeten, um dir die Himmelssäule zu zeigen. Nein, wir wollen, dass du auf Erkundungstour gehst."
+61,TEXT_STMBDY701_03131_RASHO_000_042,"Es ist aber keine nebelumhangene Insel und auch keine verborgene Meeresenge, die erkundet werden soll. Es geht um einen Ort, der so gefährlich und fremdartig ist, dass die Konföderation damit ... überfordert ist. Am besten erzählt dir der Entdecker des Ortes selbst, was er gefunden hat."
+62,TEXT_STMBDY701_03131_KYUSEI_000_043,"Es war vor ein paar Tagen. Ich hatte Wachdienst und patrouillierte am Außenbezirk von Halskehre, als plötzlich ein Schwarm Ungeheuer über mich herfiel. Ungeheuer, die ich noch nie zuvor gesehen hatte."
+63,TEXT_STMBDY701_03131_KYUSEI_000_044,"Ich konnte sie nur mit Mühe und Not abwehren, und hätten die Kami mir nicht geholfen, würde ich jetzt nicht vor dir stehen. Ich verfolgte die Spuren der Ungeheuer bis zu einer kleinen Hütte, in der ich eine verborgene Falltür fand. In dem kleinen Kellerraum darunter stand eine wundersame Vorrichtung."
+64,TEXT_STMBDY701_03131_KYUSEI_000_045,"Das alleine war schon rätselhaft genug, doch jetzt beginnt das Mysterium erst. In meiner Neugierde berührte ich die Vorrichtung und siehe da, sie transportierte mich in ein Gewölbe voller Bestien und Dämonen!"
+65,TEXT_STMBDY701_03131_KYUSEI_000_046,"Ich wusste, dass ich mich nicht wieder auf das Wohlwollen der Kami verlassen konnte, also floh ich so schnell ich konnte aus diesem Höllengewölbe. Und lief direkt zu Rasho, um ihm von dieser Gefahr zu berichten."
+66,TEXT_STMBDY701_03131_RASHO_000_047,"Tja, vielleicht war es die herrlich kühle Morgenluft, die meinen Tatendrang entfachte ... Jedenfalls war ich leichtsinnig genug, selber mal nachzusehen. Kaum hatte mich die Vorrichtung versetzt, erkannte ich das Gewölbe: Es war das Innere der Himmelssäule! Ich verlor fast den Verstand."
+67,TEXT_STMBDY701_03131_KYUSEI_000_048,"Als Eorzäerin kannst du es eigentlich nicht wissen, aber die Himmelssäule ist ein heiliger Ort."
+68,TEXT_STMBDY701_03131_KYUSEI_000_049,"Als die Kami zum ersten Mal das Firmament verließen und die Rubinsee betraten, schufen sie Onokoro und errichteten darauf die Himmelssäule. Über sie können die Kami zwischen Himmel und Erde wandeln."
+69,TEXT_STMBDY701_03131_RASHO_000_050,Aus diesem Grund wurde Onokoro lange Zeit gemieden. Kein Schiff legte an ihrer Küste an und niemand setzte einen Fuß auf die Insel.
+70,TEXT_STMBDY701_03131_RASHO_000_051,"Ein idealer Stützpunkt für uns Piraten also. Wir haben keine Angst vor den Kami. Das Einzige, was Piraten fürchten, ist, keinen Wind in den Segeln und keinen Rum in den Bechern zu haben."
+71,TEXT_STMBDY701_03131_RASHO_000_052,"Und jetzt sieht es so aus, als hätten wir unseren Stützpunkt rund um die größte Brutstätte für Ungeheuer angelegt, die die Rubinsee je gesehen hat! Das bedeutet nicht nur ein unkalkulierbares Risiko. Nein, auch bei dem Gedanken an all die Abenteurer und Forscher, die hier aufkreuzen werden, bekomme ich mächtig schlechte Laune."
+72,TEXT_STMBDY701_03131_KYUSEI_000_053,"Du verstehst, warum wir die Sache nicht publik machen wollen. Aber wir müssen wissen, womit wir es hier zu tun haben."
+73,TEXT_STMBDY701_03131_RASHO_000_054,"Wir wollen, dass du reingehst. Du sollst die Himmelssäule für uns erkunden."
+74,TEXT_STMBDY701_03131_RASHO_000_055,"Stelle einen kleinen Trupp zusammen, wenn es sein muss. Aber nur Leute, denen du vertrauen kannst. Wir wollen nicht, dass die Geschichte die Runde macht."
+75,TEXT_STMBDY701_03131_RASHO_000_056,"Eins musst du noch wissen: Die Himmelssäule liegt in einem Bannkreis, der dich gewisser Fä­hig­kei­ten beraubt. Einmal drin, wirst du dir deine vertrauten Kampftechniken wieder neu aneignen müssen."
+76,TEXT_STMBDY701_03131_KYUSEI_000_057,"Bitte, hilf uns. Ich werde dir helfen, wo ich nur kann. Aber es wird nicht leicht werden, so viel steht fest."
+77,TEXT_STMBDY701_03131_RASHO_000_058,"Ich wusste, dass du uns nicht im Stich lassen würdest. Kyusei wird alles Weitere mit dir besprechen. Wir sehen uns später."
+78,TEXT_STMBDY701_03131_KYUSEI_000_059,"Ich zeige dir zuerst die Vorrichtung, die ich in der kleinen Hütte gefunden habe. Es ist die Hütte, an der wir uns getroffen haben. Ich werde dort auf dich warten."
+79,TEXT_STMBDY701_03131_RASHO_000_060,"Danke, dass du die Himmelssäule für uns erkunden willst. Ich werde etwas ruhiger schlafen können."
+80,TEXT_STMBDY701_03131_KYUSEI_000_070,"Bist du bereit, die Himmelssäule zu betreten? Vorher will ich dir noch etwas über den Bannkreis erzählen, den Rasho erwähnt hat."
+81,TEXT_STMBDY701_03131_KYUSEI_000_071,"Der Bannkreis ist ein wirklich eigenartiges Phänomen. Mir ist so etwas noch nie begegnet. Irgendwie scheint er zu bewirken, dass gewöhnliche Aus­rüstungs­gegen­stände keinerlei Wirkung haben, weder Rüstungen noch Waffen."
+82,TEXT_STMBDY701_03131_KYUSEI_000_072,Deswegen ist die Erkundung auch so gefährlich ... Was ist? Hast du etwas?
+83,TEXT_STMBDY701_03131_Q1_000_000,Was sagst du?
+84,TEXT_STMBDY701_03131_A1_000_001,Ich war schon einmal an so einem Ort.
+85,TEXT_STMBDY701_03131_A1_000_002,"Ach, nicht so wichtig."
+86,TEXT_STMBDY701_03131_KYUSEI_000_080,"E-Es gibt noch andere Orte wie diesen? Bei den Kami, kennst du denn jedes Geheimnis, das diese Welt zu bieten hat?"
+87,TEXT_STMBDY701_03131_KYUSEI_000_081,"Aber gut, was wundere ich mich? Ich selbst habe die Rubinsee nur ein halbes Dutzend Mal verlassen. Bestimmt hast du schon ganz andere Orte gesehen, von denen ich nicht einmal träumen kann."
+88,TEXT_STMBDY701_03131_KYUSEI_000_090,"Das alles scheint dich nicht sonderlich zu beeindrucken. Aber gut. Bestimmt hast du schon ganz andere Orte gesehen, von denen ich nicht einmal träumen kann."
+89,TEXT_STMBDY701_03131_KYUSEI_000_100,"Dann will ich meine Erklärungen auf das Nötigste beschränken. Geh, und sieh selbst, was im Inneren der Himmelssäule auf dich wartet. Aber nimm dies hier mit."
+90,TEXT_STMBDY701_03131_KYUSEI_000_101,"Die Waffe ist eine ... Spe­zial­an­fer­ti­gung. Sie ist die einzige Waffe, mit der du in der Himmelssäule kämpfen kannst. Und auch wenn sie am Anfang noch nicht viel hermacht, wird sie genährt von deinem Äther immer mächtiger werden."
+91,TEXT_STMBDY701_03131_KYUSEI_000_102,"Die Erkundung der Himmelssäule wird viel Zeit in Anspruch nehmen. Du siehst ja selbst, wie hoch sie ist."
+92,TEXT_STMBDY701_03131_KYUSEI_000_103,"Ich schlage vor, du erstattest nach dreißig Etagen Bericht. Dann werden wir mit Rasho das weitere Vorgehen besprechen."
+93,TEXT_STMBDY701_03131_KYUSEI_000_104,"Ich werde weiterhin sehen, was ich für dich tun kann. Auf gutes Gelingen!"
+94,TEXT_STMBDY701_03131_SYSTEM_000_110,Du kannst nun das Tiefe Gewölbe „Himmelssäule“ betreten. Dieser Inhalt ist eine immer höher führende Dungeon-Erkundung für eine Gruppe von ein bis vier Spielern.
+95,TEXT_STMBDY701_03131_SYSTEM_000_111,"Sprich Kyusei an, um den Inhalt mit einer bestehenden oder einer zufälligen Gruppe zu betreten."
+96,TEXT_STMBDY701_03131_SYSTEM_000_112,"Wenn du das Gewölbe zum ersten Mal betrittst, wird dein Charakter auf Stufe 61 gesetzt und kann die entsprechenden Kommandos benutzen. Deine Ausrüstung wird durch eine spezielle Empyreum-Ausrüstung nur für diesen Inhalt ersetzt."
+97,TEXT_STMBDY701_03131_SYSTEM_000_113,"Sprich Kyusei noch einmal an, um weitere Einzelheiten zu erfahren."
+98,TEXT_STMBDY701_03131_RASHO_000_041,（★未使用／削除予定★）
+99,TEXT_STMBDY701_03131_SYSTEM_100_111,"Um die Himmelssäule betreten zu können, muss dein Charakter entweder Krieger oder Magier sein und mindestens Stufe 61 erreicht haben."

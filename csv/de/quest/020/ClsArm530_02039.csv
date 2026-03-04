@@ -1,100 +1,97 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CLSARM530_02039_SEQ_00","Blanstyr von der Plattnergilde sieht sich vor ein Problem gestellt."
-1,"TEXT_CLSARM530_02039_SEQ_01","Blanstyr hat einen sehr speziellen Auftrag angenommen. Sprich in der Ertränkten Sorge mit Benathaire."
-2,"TEXT_CLSARM530_02039_SEQ_02","Bei dem Auftrag handelt es sich um die Anfertigung eines ebenso leichten wie stabilen Kopfschutzes für einen Faustkämpfer. H'naanza empfiehlt, für so ein ungewöhnliches Rüstungsteil auf jeden Fall den Rat der Gildenmeister der Gerber- und der Zimmerergilde einzuholen. Das bedeutet für dich, Gridania anzusteuern und in der Gerbergilde mit Geva zu sprechen und dir in der Zimmerergilde bei Beatin Rat zu holen. "
-3,"TEXT_CLSARM530_02039_SEQ_03","Du hast wertvolle Ratschläge von Geva und Beatin erhalten. Kehre zur Plattnergilde zurück und erstatte H'naanza Bericht."
-4,"TEXT_CLSARM530_02039_SEQ_04","Deine Besprechung mit H'naanza ergibt, dass <SheetDe(Item,1,10756,1,1,1)/> einen optimalen Kopfschutz für einen Faustkämpfer darstellt. Deine Aufgabe ist es nun, <SheetDe(Item,1,10756,1,4,1)/> anzufertigen und in der Ertränkten Sorge an Benathaire zu übergeben."
-5,"TEXT_CLSARM530_02039_SEQ_05","Du hast Benathaire <SheetDe(Item,2,10756,1,4,1)/> überreicht. Vor allen Dingen aber hast du für die Anfertigung die Meinung von Experten anderer Hand<SoftHyphen/>werks<SoftHyphen/>künste eingeholt, um optimal den Wünschen des Auftraggebers entsprechen zu können, und damit ein hervorragendes Beispiel für Blanstyr abgegeben. Du selbst wirst am meisten davon profitieren, wenn du auch weiterhin mit gutem Beispiel für Blanstyr vorangehst.
+0,TEXT_CLSARM530_02039_SEQ_00,Blanstyr von der Plattnergilde sieht sich vor ein Problem gestellt.
+1,TEXT_CLSARM530_02039_SEQ_01,Blanstyr hat einen sehr speziellen Auftrag angenommen. Sprich in der Ertränkten Sorge mit Benathaire.
+2,TEXT_CLSARM530_02039_SEQ_02,"Bei dem Auftrag handelt es sich um die Anfertigung eines ebenso leichten wie stabilen Kopfschutzes für einen Faustkämpfer. H'naanza empfiehlt, für so ein ungewöhnliches Rüstungsteil auf jeden Fall den Rat der Gildenmeister der Gerber- und der Zimmerergilde einzuholen. Das bedeutet für dich, Gridania anzusteuern und in der Gerbergilde mit Geva zu sprechen und dir in der Zimmerergilde bei Beatin Rat zu holen. "
+3,TEXT_CLSARM530_02039_SEQ_03,Du hast wertvolle Ratschläge von Geva und Beatin erhalten. Kehre zur Plattnergilde zurück und erstatte H'naanza Bericht.
+4,TEXT_CLSARM530_02039_SEQ_04,"Deine Besprechung mit H'naanza ergibt, dass  einen optimalen Kopfschutz für einen Faustkämpfer darstellt. Deine Aufgabe ist es nun,  anzufertigen und in der Ertränkten Sorge an Benathaire zu übergeben."
+5,TEXT_CLSARM530_02039_SEQ_05,"Du hast Benathaire  überreicht. Vor allen Dingen aber hast du für die Anfertigung die Meinung von Experten anderer Hand­werks­künste eingeholt, um optimal den Wünschen des Auftraggebers entsprechen zu können, und damit ein hervorragendes Beispiel für Blanstyr abgegeben. Du selbst wirst am meisten davon profitieren, wenn du auch weiterhin mit gutem Beispiel für Blanstyr vorangehst.
 
-※ Sobald du als Plattner<If(PlayerParameter(4))>in<Else/></If> Stufe 55 erreicht hast, kannst du von Blanstyr den nächsten Auftrag erhalten."
-6,"TEXT_CLSARM530_02039_SEQ_06",""
-7,"TEXT_CLSARM530_02039_SEQ_07",""
-8,"TEXT_CLSARM530_02039_SEQ_08",""
-9,"TEXT_CLSARM530_02039_SEQ_09",""
-10,"TEXT_CLSARM530_02039_SEQ_10",""
-11,"TEXT_CLSARM530_02039_SEQ_11",""
-12,"TEXT_CLSARM530_02039_SEQ_12",""
-13,"TEXT_CLSARM530_02039_SEQ_13",""
-14,"TEXT_CLSARM530_02039_SEQ_14",""
-15,"TEXT_CLSARM530_02039_SEQ_15",""
-16,"TEXT_CLSARM530_02039_SEQ_16",""
-17,"TEXT_CLSARM530_02039_SEQ_17",""
-18,"TEXT_CLSARM530_02039_SEQ_18",""
-19,"TEXT_CLSARM530_02039_SEQ_19",""
-20,"TEXT_CLSARM530_02039_SEQ_20",""
-21,"TEXT_CLSARM530_02039_SEQ_21",""
-22,"TEXT_CLSARM530_02039_SEQ_22",""
-23,"TEXT_CLSARM530_02039_SEQ_23",""
-24,"TEXT_CLSARM530_02039_TODO_00","Mit Benathaire sprechen"
-25,"TEXT_CLSARM530_02039_TODO_01","Dich mit Geva von der Gerbergilde beratschlagen"
-26,"TEXT_CLSARM530_02039_TODO_02","Dich mit Beatin von der Zimmerergilde beratschlagen"
-27,"TEXT_CLSARM530_02039_TODO_03","H'naanza Bericht erstatten"
-28,"TEXT_CLSARM530_02039_TODO_04","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,1,10756,1,4,1)/>)/> herstellen<Else/><Clickable(<SheetDe(Item,2,10756,1,4,1)/>)/> an Benathaire übergeben</If>"
-29,"TEXT_CLSARM530_02039_TODO_05",""
-30,"TEXT_CLSARM530_02039_TODO_06",""
-31,"TEXT_CLSARM530_02039_TODO_07",""
-32,"TEXT_CLSARM530_02039_TODO_08",""
-33,"TEXT_CLSARM530_02039_TODO_09",""
-34,"TEXT_CLSARM530_02039_TODO_10",""
-35,"TEXT_CLSARM530_02039_TODO_11",""
-36,"TEXT_CLSARM530_02039_TODO_12",""
-37,"TEXT_CLSARM530_02039_TODO_13",""
-38,"TEXT_CLSARM530_02039_TODO_14",""
-39,"TEXT_CLSARM530_02039_TODO_15",""
-40,"TEXT_CLSARM530_02039_TODO_16",""
-41,"TEXT_CLSARM530_02039_TODO_17",""
-42,"TEXT_CLSARM530_02039_TODO_18",""
-43,"TEXT_CLSARM530_02039_TODO_19",""
-44,"TEXT_CLSARM530_02039_TODO_20",""
-45,"TEXT_CLSARM530_02039_TODO_21",""
-46,"TEXT_CLSARM530_02039_TODO_22",""
-47,"TEXT_CLSARM530_02039_TODO_23",""
-48,"TEXT_CLSARM530_02039_BLANSTYR_000_000","Du kommst ja genau richtig, <If(PlayerParameter(4))>wertes Fräulein Rivalin<Else/>werter Herr Rivale</If>. Auch wenn es mir ein wenig peinlich ist, aber ich muss dich dringend um deine Hilfe bitten."
-49,"TEXT_CLSARM530_02039_BLANSTYR_000_001","Der Abenteurer, der mich neulich aus meiner kleinen Notlage befreit hat, hat mir einen Auftrag für ein Rüstungsteil gegeben. Du weißt ja, ich möchte voll und ganz den Wünschen meines Auftraggebers entsprechen, nur habe ich diesbezüglich bei diesem Auftrag ein Problem. Was er hergestellt haben möchte, ist so speziell, dass ich damit eventuell ein wenig überfordert bin."
-50,"TEXT_CLSARM530_02039_BLANSTYR_000_002","Bevor ich dir groß und breit darlege, worin die Schwierigkeit liegt, lass dir doch am besten direkt von Benathaire erklären, worum es bei seinem Auftrag geht. Ach ja, du findest ihn in der Ertränkten Sorge."
-51,"TEXT_CLSARM530_02039_BLANSTYR_000_005","Lass dir doch bitte direkt von Benathaire erklären, was er genau hergestellt haben möchte. Du findest ihn in der Ertränkten Sorge."
-52,"TEXT_CLSARM530_02039_BENATHAIRE_000_010","Bist du <If(PlayerParameter(4))>die Gehilfin<Else/>der Gehilfe</If> von dem Plattner?"
-53,"TEXT_CLSARM530_02039_BLANSTYR_000_011","Ja, genau ... Das ist <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Erklärt <If(PlayerParameter(4))>ihr<Else/>ihm</If> doch bitte genau, was wir für euch herstellen sollen."
-54,"TEXT_CLSARM530_02039_BENATHAIRE_000_012","Nun, wir sehen uns in letzter Zeit mehr und mehr mit Monstern konfrontiert, bei denen wir einfach nichts mehr dem Zufall überlassen dürfen. Da steht es an erster Stelle, dass unsere Leute mit einer angemessenen Rüstung ausgestattet sind. Und am dringendsten hat unser Faustkämpfer Sasapiku hier einen Kopfschutz nötig."
-55,"TEXT_CLSARM530_02039_SASAPIKU_000_013","Meine Schnelligkeit ist mein Kapital im Kampf, einen schweren Helm kann ich daher nicht tragen. Da könnte ich mir ja gleich Wackersteine auf die Schultern schnallen."
-56,"TEXT_CLSARM530_02039_BENATHAIRE_000_014","Bis vor kurzem hat er nicht mal einen Oberkörperschutz getragen, müsst ihr wissen. Worauf es uns also ankommt, ist, dass der Kopfschutz leicht wie eine Feder ist. Im Optimalfall vergisst Sasapiku sogar, dass er überhaupt einen solchen trägt. Wir wollen deswegen aber keine Kompromisse bei der Stabilität und dem tatsächlichen Schutz für seinen Kopf eingehen. "
-57,"TEXT_CLSARM530_02039_BLANSTYR_000_015","Ganz ehrlich, ich weiß ja nicht, wie ihr euch das vorstellt! So, wie du das beschreibst, ist das ein Ding der Unmöglichkeit!"
-58,"TEXT_CLSARM530_02039_HNAANZA_000_016","Höre ich da etwa schon die ersten Klagen, wenn es sich mal schwieriger gestaltet, den Wünschen eines Kunden zu entsprechen?"
-59,"TEXT_CLSARM530_02039_BLANSTYR_000_017","（★未使用／削除予定★）"
-60,"TEXT_CLSARM530_02039_HNAANZA_000_018","（★未使用／削除予定★）"
-61,"TEXT_CLSARM530_02039_BLANSTYR_000_019","Sag mal, was genau willst du eigentlich von mir, H'naanza? Wenn du mir nur meine Zeit stehlen willst, dann gehst du besser auf der Stelle wieder."
-62,"TEXT_CLSARM530_02039_HNAANZA_000_020","Nur weil du so vehement darauf bestehst, dass dieser Auftrag so nicht umzusetzen sei, geht dir - und damit auch unserer Gilde - womöglich ein guter Kunde verloren. Ich bin mir ja ziemlich sicher, dass <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> sich erst mal gewissenhaft ansehen würde, wie es tatsächlich mit der Umsetzbarkeit aussieht, und die eigentliche Herstellung dann auch ganz gelassen angeht."
-63,"TEXT_CLSARM530_02039_HNAANZA_000_021","In diesem Sinne ... Ein leichter und dennoch stabiler Kopfschutz, da fängt die nötige Recherche doch zunächst bei den verwendeten Materialien an. Ich würde mir dazu auf jeden Fall mal die Meinungen der Koryphäen der Gerber- und Zimmerergilden einholen. Meinst du nicht auch?"
-64,"TEXT_CLSARM530_02039_BLANSTYR_000_022","<grummel> Das ist doch völlig indiskutabel! Die Materialien, mit denen dort gearbeitet wird, helfen uns doch nicht! Von den Meinungen der Gildenexperten verspreche ich mir also auch keine tollen Erkenntnisse. Wenn <If(PlayerParameter(4))>mein liebes Fräulein Rivalin<Else/>mein lieber Herr Rivale</If> hier allerdings meint, das bringt uns etwas, bitte! Soll <If(PlayerParameter(4))>sie<Else/>er</If> sich keinen Zwang antun!"
-65,"TEXT_CLSARM530_02039_HNAANZA_000_023","Ich frage mich, ob er auf diese Weise einfach nur die Arbeit loswerden wollte. Wie auch immer, ich baue darauf, dass du ihm zeigst, dass diese Sache sehr wohl machbar ist."
-66,"TEXT_CLSARM530_02039_BENATHAIRE_000_024","Soweit ich eurem Gespräch folgen konnte, wirst du dich also jetzt um meinen Auftrag kümmern? Na dann, frohes Schaffen. Ich zähle auf dich."
-67,"TEXT_CLSARM530_02039_BLANSTYR_000_025","Nur zu, <If(PlayerParameter(4))>mein liebes Fräulein Rivalin<Else/>mein lieber Herr Rivale</If>. Tu dir nur keinen Zwang an, übernimm du das!"
-68,"TEXT_CLSARM530_02039_BENATHAIRE_000_030","Dann kümmerst du dich also jetzt um meinen Auftrag? Soll mir recht sein!"
-69,"TEXT_CLSARM530_02039_HNAANZA_000_033","Du willst einen leichten und dennoch stabilen Kopfschutz bauen. Dazu würde ich auf jeden Fall die Meinungen der Koryphäen der Gerber- und Zimmerergilden einholen."
-70,"TEXT_CLSARM530_02039_BALLOON_000_035","（★未使用／削除予定★）"
-71,"TEXT_CLSARM530_02039_GEVA_000_040","Aha, du benötigst meine Expertise für ein spezielles Rüstungsteil, das ihr bei euch Plattnern bauen wollt? Tja, inwieweit ihr das mit eurer Metallverarbeitung hinkriegt, weiß ich nicht, aber ich würde sagen, es kommt darauf an, an allen Ecken und Enden Material zu sparen und wegzulassen, was nur irgend möglich ist."
-72,"TEXT_CLSARM530_02039_GEVA_000_041","Im Falle von Leder will man ja auch nicht verschwenderisch mit dem Material umgehen, für das ein Tier sein Leben gelassen hat. Außerdem, manchmal kann man es mit der gewünschten Stabilität auch übertreiben und man packt nur nutzlose Schichten übereinander. Ich würde mir an deiner Stelle also besonders um einen stark reduzierten Grundaufbau Gedanken machen."
-73,"TEXT_CLSARM530_02039_GEVA_000_042","Du hast als Plattner ja auch ordentlich zu tun, wie ich sehe. Mein Tipp: Versuch dich mal zu erinnern, was meine Geva-Muster auszeichnet. Dabei wird auch erst mal auf alles Unnütze verzichtet."
-74,"TEXT_CLSARM530_02039_GEVA_000_043","Manchmal kann man es mit der gewünschten Stabilität auch übertreiben. Ich würde mir an deiner Stelle besonders um einen stark reduzierten Grundaufbau Gedanken machen."
-75,"TEXT_CLSARM530_02039_BEATINE_000_060","Aha, so, so ... Dass ich den Tag mal erleben darf, von einem Plattner um Rat gefragt zu werden! Wir Zimmerer kennen natürlich die Eigenschaften der unter<SoftHyphen/>schied<SoftHyphen/>lichen Hölzer sehr genau und können dem<SoftHyphen/>ent<SoftHyphen/>spre<SoftHyphen/>chend je nach Einsatzgebiet und Anforderungsprofil die geeignetsten Holzsorten für ein bestimmtes Objekt auswählen, das hergestellt werden soll."
-76,"TEXT_CLSARM530_02039_BEATINE_000_061","Ich muss wohl nicht extra erwähnen, dass das von höchster Wichtigkeit ist. Aber das verhält sich bei euch Plattnern sicherlich ganz genauso. Ein Holz ... oder ein Metall, das sich dafür eignet, eine Gewichtsreduzierung zu erzielen und trotzdem die nötige Stabilität zu gewährleisten, wird es doch sicherlich geben?"
-77,"TEXT_CLSARM530_02039_BEATINE_000_062","Du hast also deine Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten ausgeweitet und betätigst dich nun auch als Plattner<If(PlayerParameter(4))>in<Else/></If>? Ich muss sagen, ich bin überrascht."
-78,"TEXT_CLSARM530_02039_BEATINE_000_063","Hahahaha! Dass ich den Tag mal erleben darf, von einem Plattner um Rat gefragt zu werden! Wir Zimmerer kennen natürlich die Eigenschaften der unter<SoftHyphen/>schied<SoftHyphen/>lichen Hölzer sehr genau und können dem<SoftHyphen/>ent<SoftHyphen/>spre<SoftHyphen/>chend je nach Einsatzgebiet und Anforderungsprofil die geeignetsten Holzsorten für ein bestimmtes Objekt auswählen, das hergestellt werden soll."
-79,"TEXT_CLSARM530_02039_BEATINE_000_064","Ich muss wohl nicht extra erwähnen, dass das von höchster Wichtigkeit ist. Aber das verhält sich bei euch Plattnern sicherlich ganz genauso. Ein Holz ... oder ein Metall, das sich dafür eignet, eine Gewichtsreduzierung zu erzielen und trotzdem die nötige Stabilität zu gewährleisten, wird es doch sicherlich geben?"
-80,"TEXT_CLSARM530_02039_HNAANZA_000_080","Nun? Hast du in den anderen Gilden etwas in Erfahrung bringen können, das uns nützlich sein kann?"
-81,"TEXT_CLSARM530_02039_HNAANZA_000_081","„Unnötiges weglassen“ und „Obacht bei der Materialwahl“ ist also, worauf es hinausläuft? Also wenn man bei einem Metallhelm wirklich an unnötiger Masse einsparen will, wird man letztlich eine Maske bauen müssen."
-82,"TEXT_CLSARM530_02039_HNAANZA_000_082","Und in Sachen Material kommt man nicht um Titan herum, wenn man weder beim Gewicht noch bei der Festigkeit Kompromisse machen will. Du wirst also <SheetDe(Item,1,10756,1,4,1)/> herstellen müssen. Wenn du damit fertig bist, kannst du sie Benathaire direkt übergeben."
-83,"TEXT_CLSARM530_02039_HNAANZA_000_087","Für dich heißt es jetzt, <SheetDe(Item,1,10756,1,4,1)/> herzustellen. Wenn du damit fertig bist, kannst du sie Benathaire direkt übergeben."
-84,"TEXT_CLSARM530_02039_BENATHAIRE_000_100","Ah, ich habe dich schon sehnsüchtig erwartet.
+※ Sobald du als Plattnerin Stufe 55 erreicht hast, kannst du von Blanstyr den nächsten Auftrag erhalten."
+6,TEXT_CLSARM530_02039_SEQ_06,
+7,TEXT_CLSARM530_02039_SEQ_07,
+8,TEXT_CLSARM530_02039_SEQ_08,
+9,TEXT_CLSARM530_02039_SEQ_09,
+10,TEXT_CLSARM530_02039_SEQ_10,
+11,TEXT_CLSARM530_02039_SEQ_11,
+12,TEXT_CLSARM530_02039_SEQ_12,
+13,TEXT_CLSARM530_02039_SEQ_13,
+14,TEXT_CLSARM530_02039_SEQ_14,
+15,TEXT_CLSARM530_02039_SEQ_15,
+16,TEXT_CLSARM530_02039_SEQ_16,
+17,TEXT_CLSARM530_02039_SEQ_17,
+18,TEXT_CLSARM530_02039_SEQ_18,
+19,TEXT_CLSARM530_02039_SEQ_19,
+20,TEXT_CLSARM530_02039_SEQ_20,
+21,TEXT_CLSARM530_02039_SEQ_21,
+22,TEXT_CLSARM530_02039_SEQ_22,
+23,TEXT_CLSARM530_02039_SEQ_23,
+24,TEXT_CLSARM530_02039_TODO_00,Mit Benathaire sprechen
+25,TEXT_CLSARM530_02039_TODO_01,Dich mit Geva von der Gerbergilde beratschlagen
+26,TEXT_CLSARM530_02039_TODO_02,Dich mit Beatin von der Zimmerergilde beratschlagen
+27,TEXT_CLSARM530_02039_TODO_03,H'naanza Bericht erstatten
+28,TEXT_CLSARM530_02039_TODO_04, herstellen
+29,TEXT_CLSARM530_02039_TODO_05,
+30,TEXT_CLSARM530_02039_TODO_06,
+31,TEXT_CLSARM530_02039_TODO_07,
+32,TEXT_CLSARM530_02039_TODO_08,
+33,TEXT_CLSARM530_02039_TODO_09,
+34,TEXT_CLSARM530_02039_TODO_10,
+35,TEXT_CLSARM530_02039_TODO_11,
+36,TEXT_CLSARM530_02039_TODO_12,
+37,TEXT_CLSARM530_02039_TODO_13,
+38,TEXT_CLSARM530_02039_TODO_14,
+39,TEXT_CLSARM530_02039_TODO_15,
+40,TEXT_CLSARM530_02039_TODO_16,
+41,TEXT_CLSARM530_02039_TODO_17,
+42,TEXT_CLSARM530_02039_TODO_18,
+43,TEXT_CLSARM530_02039_TODO_19,
+44,TEXT_CLSARM530_02039_TODO_20,
+45,TEXT_CLSARM530_02039_TODO_21,
+46,TEXT_CLSARM530_02039_TODO_22,
+47,TEXT_CLSARM530_02039_TODO_23,
+48,TEXT_CLSARM530_02039_BLANSTYR_000_000,"Du kommst ja genau richtig, wertes Fräulein Rivalin. Auch wenn es mir ein wenig peinlich ist, aber ich muss dich dringend um deine Hilfe bitten."
+49,TEXT_CLSARM530_02039_BLANSTYR_000_001,"Der Abenteurer, der mich neulich aus meiner kleinen Notlage befreit hat, hat mir einen Auftrag für ein Rüstungsteil gegeben. Du weißt ja, ich möchte voll und ganz den Wünschen meines Auftraggebers entsprechen, nur habe ich diesbezüglich bei diesem Auftrag ein Problem. Was er hergestellt haben möchte, ist so speziell, dass ich damit eventuell ein wenig überfordert bin."
+50,TEXT_CLSARM530_02039_BLANSTYR_000_002,"Bevor ich dir groß und breit darlege, worin die Schwierigkeit liegt, lass dir doch am besten direkt von Benathaire erklären, worum es bei seinem Auftrag geht. Ach ja, du findest ihn in der Ertränkten Sorge."
+51,TEXT_CLSARM530_02039_BLANSTYR_000_005,"Lass dir doch bitte direkt von Benathaire erklären, was er genau hergestellt haben möchte. Du findest ihn in der Ertränkten Sorge."
+52,TEXT_CLSARM530_02039_BENATHAIRE_000_010,Bist du die Gehilfin von dem Plattner?
+53,TEXT_CLSARM530_02039_BLANSTYR_000_011,"Ja, genau ... Das ist Player. Erklärt ihr doch bitte genau, was wir für euch herstellen sollen."
+54,TEXT_CLSARM530_02039_BENATHAIRE_000_012,"Nun, wir sehen uns in letzter Zeit mehr und mehr mit Monstern konfrontiert, bei denen wir einfach nichts mehr dem Zufall überlassen dürfen. Da steht es an erster Stelle, dass unsere Leute mit einer angemessenen Rüstung ausgestattet sind. Und am dringendsten hat unser Faustkämpfer Sasapiku hier einen Kopfschutz nötig."
+55,TEXT_CLSARM530_02039_SASAPIKU_000_013,"Meine Schnelligkeit ist mein Kapital im Kampf, einen schweren Helm kann ich daher nicht tragen. Da könnte ich mir ja gleich Wackersteine auf die Schultern schnallen."
+56,TEXT_CLSARM530_02039_BENATHAIRE_000_014,"Bis vor kurzem hat er nicht mal einen Oberkörperschutz getragen, müsst ihr wissen. Worauf es uns also ankommt, ist, dass der Kopfschutz leicht wie eine Feder ist. Im Optimalfall vergisst Sasapiku sogar, dass er überhaupt einen solchen trägt. Wir wollen deswegen aber keine Kompromisse bei der Stabilität und dem tatsächlichen Schutz für seinen Kopf eingehen. "
+57,TEXT_CLSARM530_02039_BLANSTYR_000_015,"Ganz ehrlich, ich weiß ja nicht, wie ihr euch das vorstellt! So, wie du das beschreibst, ist das ein Ding der Unmöglichkeit!"
+58,TEXT_CLSARM530_02039_HNAANZA_000_016,"Höre ich da etwa schon die ersten Klagen, wenn es sich mal schwieriger gestaltet, den Wünschen eines Kunden zu entsprechen?"
+59,TEXT_CLSARM530_02039_BLANSTYR_000_017,（★未使用／削除予定★）
+60,TEXT_CLSARM530_02039_HNAANZA_000_018,（★未使用／削除予定★）
+61,TEXT_CLSARM530_02039_BLANSTYR_000_019,"Sag mal, was genau willst du eigentlich von mir, H'naanza? Wenn du mir nur meine Zeit stehlen willst, dann gehst du besser auf der Stelle wieder."
+62,TEXT_CLSARM530_02039_HNAANZA_000_020,"Nur weil du so vehement darauf bestehst, dass dieser Auftrag so nicht umzusetzen sei, geht dir - und damit auch unserer Gilde - womöglich ein guter Kunde verloren. Ich bin mir ja ziemlich sicher, dass Player sich erst mal gewissenhaft ansehen würde, wie es tatsächlich mit der Umsetzbarkeit aussieht, und die eigentliche Herstellung dann auch ganz gelassen angeht."
+63,TEXT_CLSARM530_02039_HNAANZA_000_021,"In diesem Sinne ... Ein leichter und dennoch stabiler Kopfschutz, da fängt die nötige Recherche doch zunächst bei den verwendeten Materialien an. Ich würde mir dazu auf jeden Fall mal die Meinungen der Koryphäen der Gerber- und Zimmerergilden einholen. Meinst du nicht auch?"
+64,TEXT_CLSARM530_02039_BLANSTYR_000_022,"<grummel> Das ist doch völlig indiskutabel! Die Materialien, mit denen dort gearbeitet wird, helfen uns doch nicht! Von den Meinungen der Gildenexperten verspreche ich mir also auch keine tollen Erkenntnisse. Wenn mein liebes Fräulein Rivalin hier allerdings meint, das bringt uns etwas, bitte! Soll sie sich keinen Zwang antun!"
+65,TEXT_CLSARM530_02039_HNAANZA_000_023,"Ich frage mich, ob er auf diese Weise einfach nur die Arbeit loswerden wollte. Wie auch immer, ich baue darauf, dass du ihm zeigst, dass diese Sache sehr wohl machbar ist."
+66,TEXT_CLSARM530_02039_BENATHAIRE_000_024,"Soweit ich eurem Gespräch folgen konnte, wirst du dich also jetzt um meinen Auftrag kümmern? Na dann, frohes Schaffen. Ich zähle auf dich."
+67,TEXT_CLSARM530_02039_BLANSTYR_000_025,"Nur zu, mein liebes Fräulein Rivalin. Tu dir nur keinen Zwang an, übernimm du das!"
+68,TEXT_CLSARM530_02039_BENATHAIRE_000_030,Dann kümmerst du dich also jetzt um meinen Auftrag? Soll mir recht sein!
+69,TEXT_CLSARM530_02039_HNAANZA_000_033,Du willst einen leichten und dennoch stabilen Kopfschutz bauen. Dazu würde ich auf jeden Fall die Meinungen der Koryphäen der Gerber- und Zimmerergilden einholen.
+70,TEXT_CLSARM530_02039_BALLOON_000_035,（★未使用／削除予定★）
+71,TEXT_CLSARM530_02039_GEVA_000_040,"Aha, du benötigst meine Expertise für ein spezielles Rüstungsteil, das ihr bei euch Plattnern bauen wollt? Tja, inwieweit ihr das mit eurer Metallverarbeitung hinkriegt, weiß ich nicht, aber ich würde sagen, es kommt darauf an, an allen Ecken und Enden Material zu sparen und wegzulassen, was nur irgend möglich ist."
+72,TEXT_CLSARM530_02039_GEVA_000_041,"Im Falle von Leder will man ja auch nicht verschwenderisch mit dem Material umgehen, für das ein Tier sein Leben gelassen hat. Außerdem, manchmal kann man es mit der gewünschten Stabilität auch übertreiben und man packt nur nutzlose Schichten übereinander. Ich würde mir an deiner Stelle also besonders um einen stark reduzierten Grundaufbau Gedanken machen."
+73,TEXT_CLSARM530_02039_GEVA_000_042,"Du hast als Plattner ja auch ordentlich zu tun, wie ich sehe. Mein Tipp: Versuch dich mal zu erinnern, was meine Geva-Muster auszeichnet. Dabei wird auch erst mal auf alles Unnütze verzichtet."
+74,TEXT_CLSARM530_02039_GEVA_000_043,Manchmal kann man es mit der gewünschten Stabilität auch übertreiben. Ich würde mir an deiner Stelle besonders um einen stark reduzierten Grundaufbau Gedanken machen.
+75,TEXT_CLSARM530_02039_BEATINE_000_060,"Aha, so, so ... Dass ich den Tag mal erleben darf, von einem Plattner um Rat gefragt zu werden! Wir Zimmerer kennen natürlich die Eigenschaften der unter­schied­lichen Hölzer sehr genau und können dem­ent­spre­chend je nach Einsatzgebiet und Anforderungsprofil die geeignetsten Holzsorten für ein bestimmtes Objekt auswählen, das hergestellt werden soll."
+76,TEXT_CLSARM530_02039_BEATINE_000_061,"Ich muss wohl nicht extra erwähnen, dass das von höchster Wichtigkeit ist. Aber das verhält sich bei euch Plattnern sicherlich ganz genauso. Ein Holz ... oder ein Metall, das sich dafür eignet, eine Gewichtsreduzierung zu erzielen und trotzdem die nötige Stabilität zu gewährleisten, wird es doch sicherlich geben?"
+77,TEXT_CLSARM530_02039_BEATINE_000_062,"Du hast also deine Fä­hig­kei­ten ausgeweitet und betätigst dich nun auch als Plattnerin? Ich muss sagen, ich bin überrascht."
+78,TEXT_CLSARM530_02039_BEATINE_000_063,"Hahahaha! Dass ich den Tag mal erleben darf, von einem Plattner um Rat gefragt zu werden! Wir Zimmerer kennen natürlich die Eigenschaften der unter­schied­lichen Hölzer sehr genau und können dem­ent­spre­chend je nach Einsatzgebiet und Anforderungsprofil die geeignetsten Holzsorten für ein bestimmtes Objekt auswählen, das hergestellt werden soll."
+79,TEXT_CLSARM530_02039_BEATINE_000_064,"Ich muss wohl nicht extra erwähnen, dass das von höchster Wichtigkeit ist. Aber das verhält sich bei euch Plattnern sicherlich ganz genauso. Ein Holz ... oder ein Metall, das sich dafür eignet, eine Gewichtsreduzierung zu erzielen und trotzdem die nötige Stabilität zu gewährleisten, wird es doch sicherlich geben?"
+80,TEXT_CLSARM530_02039_HNAANZA_000_080,"Nun? Hast du in den anderen Gilden etwas in Erfahrung bringen können, das uns nützlich sein kann?"
+81,TEXT_CLSARM530_02039_HNAANZA_000_081,"„Unnötiges weglassen“ und „Obacht bei der Materialwahl“ ist also, worauf es hinausläuft? Also wenn man bei einem Metallhelm wirklich an unnötiger Masse einsparen will, wird man letztlich eine Maske bauen müssen."
+82,TEXT_CLSARM530_02039_HNAANZA_000_082,"Und in Sachen Material kommt man nicht um Titan herum, wenn man weder beim Gewicht noch bei der Festigkeit Kompromisse machen will. Du wirst also  herstellen müssen. Wenn du damit fertig bist, kannst du sie Benathaire direkt übergeben."
+83,TEXT_CLSARM530_02039_HNAANZA_000_087,"Für dich heißt es jetzt,  herzustellen. Wenn du damit fertig bist, kannst du sie Benathaire direkt übergeben."
+84,TEXT_CLSARM530_02039_BENATHAIRE_000_100,"Ah, ich habe dich schon sehnsüchtig erwartet.
 Hast du den Kopfschutz für unseren Faustkämpfer fertiggestellt?"
-85,"TEXT_CLSARM530_02039_BLANSTYR_000_101","Sehr schön! Dann will ich dein Werk doch gleich mal inspizieren."
-86,"TEXT_CLSARM530_02039_BLANSTYR_000_102","Wie federleicht! Sag bloß, du hast Titan als Material verwendet? Und diese Bauweise, so dünn und flach! Die nötige Steife hast du über die verwendete Form erreicht, wie ich sehe. Wirklich sehr innovativ! Damit ist der Kopf auf jeden Fall sehr gut geschützt."
-87,"TEXT_CLSARM530_02039_SASAPIKU_000_103","Ich bin begeistert! Die Maske ist so leicht, man könnte glatt vergessen, dass man überhaupt etwas im Gesicht hat!"
-88,"TEXT_CLSARM530_02039_BENATHAIRE_000_104","Ich muss sagen, du hast sehr gute Arbeit geleistet, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Vielen Dank! Damit hat Sasapiku einen Kopfschutz, der den Namen wirklich verdient, und ich bin damit eine große Sorge los. Dir vertraue ich in Zukunft gerne wieder einen Auftrag an."
-89,"TEXT_CLSARM530_02039_BLANSTYR_000_105","Hmm ... Du hast dir das Wissen anderer Handwerkszweige angeeignet und dadurch dem Wunsch eines Kunden entsprechen können, der anfangs völlig undurchführbar schien ... Laufe ich wirklich mit solchen Scheuklappen durchs Leben? Bin ich wirklich so engstirnig, dass ich nicht mal über meinen Tellerrand hinausschauen kann?"
-90,"TEXT_CLSARM530_02039_BLANSTYR_000_106","（★未使用／削除予定★）"
-91,"TEXT_CLSARM530_02039_BLANSTYR_000_107","（★未使用／削除予定★）"
-92,"TEXT_CLSARM530_02039_SYSTEM_100_001","（★未使用／削除予定★）"
-93,"TEXT_CLSARM530_02039_SYSTEM_100_002","（★未使用／削除予定★）"
+85,TEXT_CLSARM530_02039_BLANSTYR_000_101,Sehr schön! Dann will ich dein Werk doch gleich mal inspizieren.
+86,TEXT_CLSARM530_02039_BLANSTYR_000_102,"Wie federleicht! Sag bloß, du hast Titan als Material verwendet? Und diese Bauweise, so dünn und flach! Die nötige Steife hast du über die verwendete Form erreicht, wie ich sehe. Wirklich sehr innovativ! Damit ist der Kopf auf jeden Fall sehr gut geschützt."
+87,TEXT_CLSARM530_02039_SASAPIKU_000_103,"Ich bin begeistert! Die Maske ist so leicht, man könnte glatt vergessen, dass man überhaupt etwas im Gesicht hat!"
+88,TEXT_CLSARM530_02039_BENATHAIRE_000_104,"Ich muss sagen, du hast sehr gute Arbeit geleistet, Player. Vielen Dank! Damit hat Sasapiku einen Kopfschutz, der den Namen wirklich verdient, und ich bin damit eine große Sorge los. Dir vertraue ich in Zukunft gerne wieder einen Auftrag an."
+89,TEXT_CLSARM530_02039_BLANSTYR_000_105,"Hmm ... Du hast dir das Wissen anderer Handwerkszweige angeeignet und dadurch dem Wunsch eines Kunden entsprechen können, der anfangs völlig undurchführbar schien ... Laufe ich wirklich mit solchen Scheuklappen durchs Leben? Bin ich wirklich so engstirnig, dass ich nicht mal über meinen Tellerrand hinausschauen kann?"
+90,TEXT_CLSARM530_02039_BLANSTYR_000_106,（★未使用／削除予定★）
+91,TEXT_CLSARM530_02039_BLANSTYR_000_107,（★未使用／削除予定★）
+92,TEXT_CLSARM530_02039_SYSTEM_100_001,（★未使用／削除予定★）
+93,TEXT_CLSARM530_02039_SYSTEM_100_002,（★未使用／削除予定★）

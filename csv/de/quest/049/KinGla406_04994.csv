@@ -1,115 +1,111 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGLA406_04994_SEQ_00","Shunye scheint sich Sorgen um seinen emsigsten Mitarbeiter zu machen."
-1,"TEXT_KINGLA406_04994_SEQ_01","Shunye lässt sich von Uvlos Tatendrang überzeugen und schickt euch in den Wald von Yak T'el, wo einst vor langer Zeit ein Meteorit niedergegangen ist. Er gibt euch die Anweisung, sechs <SheetDe(ItemMP,5,43902,2,4,1)/> zu sammeln und für weitere Unter<SoftHyphen/>such<SoftHyphen/>ungen zu ihm zu bringen.
+0,TEXT_KINGLA406_04994_SEQ_00,Shunye scheint sich Sorgen um seinen emsigsten Mitarbeiter zu machen.
+1,TEXT_KINGLA406_04994_SEQ_01,"Shunye lässt sich von Uvlos Tatendrang überzeugen und schickt euch in den Wald von Yak T'el, wo einst vor langer Zeit ein Meteorit niedergegangen ist. Er gibt euch die Anweisung, sechs  zu sammeln und für weitere Unter­such­ungen zu ihm zu bringen.
 
 ※ Gärtner finden die Gegenstände in der Nähe von Ilyon Asoh, Minenarbeiter bei Iq Br'aax in Yak T'el.
 ※ Die Gegenstände können ab einem Sammlerwert von 240 abgegeben werden. Ab einem Sammlerwert von 600 erhältst du jedoch zusätzliche Belohnungen."
-2,"TEXT_KINGLA406_04994_SEQ_02","Nach einer eingehenden Unter<SoftHyphen/>such<SoftHyphen/>ung der Fragmente gibt Shunye zu, dass sie Ähnlichkeiten mit den blauen Himmelsblüten aufweisen. Allerdings ist er der Meinung, dass das nicht ausreicht, um eine eindeutige Schlussfolgerung aus den Geschehnissen vor fünfzig Jahren zu ziehen. Uvlo lässt nicht locker und Shunye willigt schließlich ein, die Suche noch nicht aufzugeben. Er bittet euch allerdings noch um Geduld, bis er einen besseren Weg gefunden hat, der weniger Eingriff in die Natur von Yak T'el bedeutet. Nutze die Zeit, um deine Sammelfähigkeiten zu verbessern, bevor du in Shunyes Apotheke zurückkehrst!"
-3,"TEXT_KINGLA406_04994_SEQ_03",""
-4,"TEXT_KINGLA406_04994_SEQ_04",""
-5,"TEXT_KINGLA406_04994_SEQ_05",""
-6,"TEXT_KINGLA406_04994_SEQ_06",""
-7,"TEXT_KINGLA406_04994_SEQ_07",""
-8,"TEXT_KINGLA406_04994_SEQ_08",""
-9,"TEXT_KINGLA406_04994_SEQ_09",""
-10,"TEXT_KINGLA406_04994_SEQ_10",""
-11,"TEXT_KINGLA406_04994_SEQ_11",""
-12,"TEXT_KINGLA406_04994_SEQ_12",""
-13,"TEXT_KINGLA406_04994_SEQ_13",""
-14,"TEXT_KINGLA406_04994_SEQ_14",""
-15,"TEXT_KINGLA406_04994_SEQ_15",""
-16,"TEXT_KINGLA406_04994_SEQ_16",""
-17,"TEXT_KINGLA406_04994_SEQ_17",""
-18,"TEXT_KINGLA406_04994_SEQ_18",""
-19,"TEXT_KINGLA406_04994_SEQ_19",""
-20,"TEXT_KINGLA406_04994_SEQ_20",""
-21,"TEXT_KINGLA406_04994_SEQ_21",""
-22,"TEXT_KINGLA406_04994_SEQ_22",""
-23,"TEXT_KINGLA406_04994_SEQ_23",""
-24,"TEXT_KINGLA406_04994_TODO_00","<If(Equal(PlayerParameter(68),16))><Clickable(<SheetDe(ItemMP,5,43902,2,4,1)/>)/> aus Iq Br'aax bei Shunye abliefern<Else/><If(Equal(PlayerParameter(68),17))><Clickable(<SheetDe(ItemMP,5,43902,2,4,1)/>)/> aus der Nähe von Ilyon Asoh bei Shunye abliefern<Else/>Als <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> oder <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If>
-<SheetDe(ItemMP,5,43902,2,4,1)/> bei Shunye abliefern</If></If>"
-25,"TEXT_KINGLA406_04994_TODO_01",""
-26,"TEXT_KINGLA406_04994_TODO_02",""
-27,"TEXT_KINGLA406_04994_TODO_03",""
-28,"TEXT_KINGLA406_04994_TODO_04",""
-29,"TEXT_KINGLA406_04994_TODO_05",""
-30,"TEXT_KINGLA406_04994_TODO_06",""
-31,"TEXT_KINGLA406_04994_TODO_07",""
-32,"TEXT_KINGLA406_04994_TODO_08",""
-33,"TEXT_KINGLA406_04994_TODO_09",""
-34,"TEXT_KINGLA406_04994_TODO_10",""
-35,"TEXT_KINGLA406_04994_TODO_11",""
-36,"TEXT_KINGLA406_04994_TODO_12",""
-37,"TEXT_KINGLA406_04994_TODO_13",""
-38,"TEXT_KINGLA406_04994_TODO_14",""
-39,"TEXT_KINGLA406_04994_TODO_15",""
-40,"TEXT_KINGLA406_04994_TODO_16",""
-41,"TEXT_KINGLA406_04994_TODO_17",""
-42,"TEXT_KINGLA406_04994_TODO_18",""
-43,"TEXT_KINGLA406_04994_TODO_19",""
-44,"TEXT_KINGLA406_04994_TODO_20",""
-45,"TEXT_KINGLA406_04994_TODO_21",""
-46,"TEXT_KINGLA406_04994_TODO_22",""
-47,"TEXT_KINGLA406_04994_TODO_23",""
-48,"TEXT_KINGLA406_04994_UVLO_000_000","Ich habe meine Lektion gelernt: Meine einzige Aufgabe besteht darin, mich im Laden nützlich zu machen und Meister Shunye zu entlasten!"
-49,"TEXT_KINGLA406_04994_SHUNYE_000_010","Willkommen zurück, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Es ist mir immer wieder eine Freude, dich hier begrüßen zu dürfen."
-50,"TEXT_KINGLA406_04994_SHUNYE_000_011","Aber ich muss dir etwas anvertrauen<Indent/>... Und zwar mache ich mir Sorgen um Uvlo. Seit ihr von dem Lieferauftrag zurückgekehrt seid, verhält er sich ziemlich merkwürdig."
-51,"TEXT_KINGLA406_04994_SHUNYE_000_012","Ich habe ihm bereits mehrfach versichert, dass ich ihm keine Vorwürfe mache, aber er scheint noch immer ein schlechtes Gewissen zu haben, weil er meine Schwester über meine Ver<SoftHyphen/>gangen<SoftHyphen/>heit ausgefragt hat. Seit ich euch von meinem Unglück erzählt habe, arbeitet er von morgens bis abends ohne Unterlass."
-52,"TEXT_KINGLA406_04994_SHUNYE_000_013","Das ist auch der Grund dafür, weshalb ich heute tatsächlich mal keine Aufgabe für dich habe. Er hat schon alle erledigt!"
-53,"TEXT_KINGLA406_04994_UVLO_000_014","Meister Shunye, ich habe mich um alle ausstehenden Aufgaben gekümmert, ist alles abgehakt! Deswegen dachte ich, dass wir vielleicht versuchen könnten, etwas über die blauen Himmelsblüten in Erfahrung zu bringen."
-54,"TEXT_KINGLA406_04994_SHUNYE_000_015","Uvlo<Indent/>... Könnte es sein, dass du die ganze Arbeit absichtlich schnell erledigt hast, um diesen Vorschlag zu äußern, sobald <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> hier auftaucht?"
-55,"TEXT_KINGLA406_04994_UVLO_000_016","Na ja, ganz so war es nicht<Indent/>... Aber ich kann nicht leugnen, dass diese Steine mein Interesse geweckt haben."
-56,"TEXT_KINGLA406_04994_UVLO_000_0017","Es ist schon mysteriös, dass die blauen Himmelsblüten unmittelbar nach diesem schrecklichen Unglück am Ort des Geschehens aufgefunden wurden."
-57,"TEXT_KINGLA406_04994_UVLO_000_018","Leider liefern sie bisher keinerlei Beweis für Meister Shunyes Theorie, dass ein Meteoriteneinschlag für die Katastrophe verantwortlich gewesen sein muss."
-58,"TEXT_KINGLA406_04994_UVLO_000_019","So viel ich auch darüber nachdenke, irgendwie will sich mir der Zusammenhang zwischen dem Meteoriten und den blauen Himmelsblüten auch einfach nicht erschließen. Das muss ich ehrlich zugeben."
-59,"TEXT_KINGLA406_04994_UVLO_000_020","Aber dann kam mir eine Idee<Indent/>... Wenn wir an einen Ort reisen würden, von dem wir mit Sicherheit wissen, dass dort ein Meteorit eingeschlagen hat, könnten wir dort vielleicht ähnliche Kristalle finden."
-60,"TEXT_KINGLA406_04994_UVLO_000_021","Das wäre dann ein Beweis, dass es tatsächlich eine Verbindung geben könnte, oder nicht?"
-61,"TEXT_KINGLA406_04994_SHUNYE_000_022","Das ist prinzipiell eine gute Idee, Uvlo, aber leider glaube ich, dass uns das nicht weiterbringen wird."
-62,"TEXT_KINGLA406_04994_SHUNYE_000_023","Ich habe schon vieles versucht, um brauchbare Informationen über diese Kristalle zu erhalten. Aber nicht einmal die erfahrensten Reisenden unter meinen Bekannten und Geschäftspartnern, die schon an den abgelegensten Orten des Kontinents waren, konnten mir weiterhelfen."
-63,"TEXT_KINGLA406_04994_SHUNYE_000_024","Nach langer, aussichtsloser Suche kam ich zu dem Schluss, dass sie vielleicht die einzigen Steine ihrer Art sind<Indent/>... In diesem Fall wären sie wertvoller als jeder Edelstein."
-64,"TEXT_KINGLA406_04994_UVLO_000_025","Umso mehr ein Grund, nicht aufzugeben, Meister Shunye!"
-65,"TEXT_KINGLA406_04994_UVLO_000_026","Schließlich hast du ja jetzt mit <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> und mir zwei talentierte Sammler an deiner Seite. Bisher haben wir alles gefunden, was du uns aufgetragen hast!"
-66,"TEXT_KINGLA406_04994_Q1_000_027","Was sagst du?"
-67,"TEXT_KINGLA406_04994_A1_000_028","Genau, wir dürfen noch nicht aufgeben!"
-68,"TEXT_KINGLA406_04994_A1_000_029","Ich will wissen, was damals passiert ist!"
-69,"TEXT_KINGLA406_04994_A1_000_030","Ein letzter Versuch kann nicht schaden, schätze ich<Indent/>..."
-70,"TEXT_KINGLA406_04994_SHUNYE_000_031","Du siehst es also auch so, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-71,"TEXT_KINGLA406_04994_SHUNYE_000_032","Gut, wenn das so ist<Indent/>... Dann würde ich dich tatsächlich um deine Hilfe bitten, auch wenn du wahrlich schon genug für mich getan hast."
-72,"TEXT_KINGLA406_04994_SHUNYE_000_033","Hier auf Tural gibt es mehrere Orte, an denen in der Ver<SoftHyphen/>gangen<SoftHyphen/>heit Meteoriten niedergegangen sein sollen."
-73,"TEXT_KINGLA406_04994_SHUNYE_000_034","Die Einschlagsstelle, die bislang am besten erforscht ist, ist der Krater von Cexudross. Er war in der Ver<SoftHyphen/>gangen<SoftHyphen/>heit bereits mehrfach Schauplatz wissenschaftlicher Unter<SoftHyphen/>such<SoftHyphen/>ungen."
-74,"TEXT_KINGLA406_04994_SHUNYE_000_035","Aber das ist schon viele Jahre her. Mit der Zeit hat die Natur sich wieder durchgesetzt und die Ausgrabungsstätte in einen dichten Wald verwandelt. Heute ist dieser Ort unter dem Namen Yak T'el bekannt."
-75,"TEXT_KINGLA406_04994_SHUNYE_000_036","Aber wie ich euch kenne, wird euch das nicht davon abhalten, euch auf die Suche zu begeben. Es wird eine Heraus<SoftHyphen/>forde<SoftHyphen/>rung, mitten im Wald die genaue Einschlagstelle zu finden, aber eure Erfahrung wird sich mit Sicherheit als nützlich erweisen."
-76,"TEXT_KINGLA406_04994_SHUNYE_000_037","Solltet ihr in Yak T'el tatsächlich etwas finden, das den blauen Himmelsblüten ähnelt, dann könnten wir endlich eine belastbare Theorie darüber aufstellen, was damals wirklich passiert ist. Immerhin wäre dann die Wahr<SoftHyphen/>schein<SoftHyphen/>lich<SoftHyphen/>keit sehr hoch, dass die Kristalle von einem Meteoriten stammen."
-77,"TEXT_KINGLA406_04994_UVLO_000_038","Dann wissen wir ja, was wir zu tun haben! Lass uns gemeinsam nach Yak T'el aufbrechen und nach <SheetDe(ItemMP,5,43902,2,3,1)/> suchen."
-78,"TEXT_KINGLA406_04994_SHUNYE_000_040","Vielen Dank, dass du wieder einmal deine tatkräftige Unterstützung angeboten hast, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Ich hoffe, dass ihr in Yak T'el <SheetDe(ItemMP,5,43902,2,4,1)/> finden könnt<Indent/>... Aber ich meine<Indent/>- wer, wenn nicht ihr? "
-79,"TEXT_KINGLA406_04994_SHUNYE_000_050","Unglaublich, du hast es tatsächlich geschafft! Ich kann mir gar nicht vorstellen, wie viel Erde du umgraben musstest, um diese Fragmente zu finden!"
-80,"TEXT_KINGLA406_04994_SHUNYE_000_051","Ich kann dir gar nicht genug danken! Sobald Uvlo zurückgekehrt ist, können wir eure Funde mal genauer unter die Lupe nehmen."
-81,"TEXT_KINGLA406_04994_SHUNYE_000_052","Unglaublich<Indent/>...! Sie bestehen offensichtlich aus einem ganz besonderen Material, viel härter und dichter als alle Steine, die ich in meinem ganzen Leben gesehen habe<Indent/>... Einfach nur faszinierend!"
-82,"TEXT_KINGLA406_04994_SHUNYE_000_053","Ich weiß gar nicht, wie ich dir jemals dafür danken soll! Sobald Uvlo zurückgekehrt ist, können wir eure Funde genauer unter die Lupe nehmen."
-83,"TEXT_KINGLA406_04994_UVLO_000_060","Und<Indent/>...?"
-84,"TEXT_KINGLA406_04994_SHUNYE_000_061","Ich habe eure Funde genauestens untersucht und dabei tatsächlich Fragmente entdeckt, die den blauen Himmelsblüten ähneln!"
-85,"TEXT_KINGLA406_04994_SHUNYE_000_062","Im Licht konnte man ganz deutlich einen bläulichen Schimmer erkennen."
-86,"TEXT_KINGLA406_04994_SHUNYE_000_063","Leider waren das auch schon alle guten Nachrichten. Es scheint, dass wir auf der richtigen Spur sind, aber diese Hinweise sind viel zu dürftig, um eine endgültige Schlussfolgerung zu ziehen."
-87,"TEXT_KINGLA406_04994_UVLO_000_064","Verstehe<Indent/>..."
-88,"TEXT_KINGLA406_04994_UVLO_000_065","Aber wir müssen es positiv sehen: Wir sind einen kleinen Schritt weiter als vorher. Und wenn du denkst, dass wir auf der richtigen Spur sind, müssen wir unsere Bemühungen unbedingt fortsetzen!"
-89,"TEXT_KINGLA406_04994_UVLO_000_066","Wir müssen weiter im Wald von Yak T'el oder an anderen Meteoriteneinschlagsstellen suchen! Irgendwann werden wir eine Stichprobe finden, die gut genug ist, um eine eindeutige Schlussfolgerung zu ziehen."
-90,"TEXT_KINGLA406_04994_UVLO_000_067","Wie ich bereits sagte, verfüge ich über viel Ausdauer! Ich werde so lange weitersuchen, bis wir etwas in den Händen halten, das dir weiterhilft, Meister Shunye."
-91,"TEXT_KINGLA406_04994_SHUNYE_000_068","Uvlo, warum tust du das alles?"
-92,"TEXT_KINGLA406_04994_SHUNYE_000_069","Du musst dich wirklich nicht dazu verpflichtet fühlen, mir bei dieser persönlichen Angelegenheit zu helfen. Du wirst dabei auch nichts Neues über das Volk der Shetona erfahren, befürchte ich<Indent/>..."
-93,"TEXT_KINGLA406_04994_UVLO_000_070","Du hast schon Recht, diese Aufgabe hat keinen besonderen Nutzen für mein Volk."
-94,"TEXT_KINGLA406_04994_UVLO_000_071","Aber als ich darüber nachgedacht habe, was Uapyota uns über deine Ver<SoftHyphen/>gangen<SoftHyphen/>heit erzählt hat und wie sehr du unter dem Verlust deiner Familie und dieser Ungewissheit leidest, wurde mir etwas Wichtiges klar."
-95,"TEXT_KINGLA406_04994_UVLO_000_072","Es ist egal, ob wir uns den Viera oder den Shetona zugehörig fühlen, eines haben wir alle gemeinsam: Unsere Familien und unsere Liebsten sind uns das Wichtigste im Leben."
-96,"TEXT_KINGLA406_04994_UVLO_000_073","Wenn mich oder jemanden aus meinem Dorf ein ähnliches Schicksal ereilen würde wie deines, würde ich nicht eher ruhen, bis ich die ganze Geschichte aufgedeckt hätte. Und wenn mir das nicht gelänge, würde ich in meiner Hilflosigkeit versinken und mir furchtbare Vorwürfe machen."
-97,"TEXT_KINGLA406_04994_UVLO_000_074","So wie du wahrscheinlich auch."
-98,"TEXT_KINGLA406_04994_UVLO_000_075","Deswegen hast du die blauen Himmelsblüten auch all die Jahre aufgehoben, obwohl sie mit so schmerzhaften Erinnerungen verbunden sind. Du meintest doch, dass du aufgrund deiner Erfahrung aus der Apotheke die Vermutung hattest, dass die Kristalle etwas mit der Katastrophe vor fünfzig Jahren zu tun haben."
-99,"TEXT_KINGLA406_04994_UVLO_000_076","Aber vielleicht war es ja gerade umgekehrt: Du hast den Laden gegründet, weil dich die Sehnsucht nach Antworten einfach nicht losgelassen hat. Bewusst oder unbewusst muss dir klar gewesen sein, dass dich dieser Laden der Antwort früher oder später näherbringen würde."
-100,"TEXT_KINGLA406_04994_UVLO_000_077","So gesehen ist es meine Pflicht als dein Angestellter, dich dabei zu unterstützen! Bitte erlaube mir, dir dabei zu helfen, Meister Shunye!"
-101,"TEXT_KINGLA406_04994_SHUNYE_000_078","Dein Mitgefühl ehrt dich, Uvlo. Aber bitte verlier dabei deine eigene Mission nicht aus den Augen, ja? Ich hoffe, du konntest wenigstens ein paar Münzen sparen, seit du hier bist."
-102,"TEXT_KINGLA406_04994_SHUNYE_000_079","Gut, wenn wir weiterhin nach Antworten suchen wollen, muss ich dich aber trotzdem darum bitten, die Ausgrabungen im Wald von Yak T'el erst einmal ruhen zu lassen. Wir haben bereits genug Spuren in der Natur hinterlassen."
-103,"TEXT_KINGLA406_04994_SHUNYE_000_080","Es muss einen anderen Weg geben<Indent/>... Ich brauche nur etwas Zeit, um einen zu finden."
-104,"TEXT_KINGLA406_04994_SHUNYE_000_081","Ich hoffe, dass wir dann auch weiterhin auf deine Hilfe zählen können, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Wärst du bereit dazu?"
-105,"TEXT_KINGLA406_04994_SHUNYE_000_082","Ich danke dir von Herzen! Puh, ich werde mein Geschäft ordentlich ankurbeln müssen, um euch nach all euren Mühen angemessen entlohnen zu können. Aber das ist es mir allemal wert!"
-106,"TEXT_KINGLA406_04994_SYSTEM_000_083","Dein Beitragsrang in Shunyes Apotheke ist gestiegen! Shunye ist vollauf begeistert von deiner herausragenden Arbeit und hält dich jetzt für <If(PlayerParameter(4))>eine gestandene Sammlerin<Else/>einen gestandenen Sammler</If>!"
-107,"TEXT_KINGLA406_04994_SYSTEM_000_084","Sobald du als <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> oder <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If> Stufe 100 erreicht hast, kannst du von Shunye einen neuen Auftrag erhalten."
+2,TEXT_KINGLA406_04994_SEQ_02,"Nach einer eingehenden Unter­such­ung der Fragmente gibt Shunye zu, dass sie Ähnlichkeiten mit den blauen Himmelsblüten aufweisen. Allerdings ist er der Meinung, dass das nicht ausreicht, um eine eindeutige Schlussfolgerung aus den Geschehnissen vor fünfzig Jahren zu ziehen. Uvlo lässt nicht locker und Shunye willigt schließlich ein, die Suche noch nicht aufzugeben. Er bittet euch allerdings noch um Geduld, bis er einen besseren Weg gefunden hat, der weniger Eingriff in die Natur von Yak T'el bedeutet. Nutze die Zeit, um deine Sammelfähigkeiten zu verbessern, bevor du in Shunyes Apotheke zurückkehrst!"
+3,TEXT_KINGLA406_04994_SEQ_03,
+4,TEXT_KINGLA406_04994_SEQ_04,
+5,TEXT_KINGLA406_04994_SEQ_05,
+6,TEXT_KINGLA406_04994_SEQ_06,
+7,TEXT_KINGLA406_04994_SEQ_07,
+8,TEXT_KINGLA406_04994_SEQ_08,
+9,TEXT_KINGLA406_04994_SEQ_09,
+10,TEXT_KINGLA406_04994_SEQ_10,
+11,TEXT_KINGLA406_04994_SEQ_11,
+12,TEXT_KINGLA406_04994_SEQ_12,
+13,TEXT_KINGLA406_04994_SEQ_13,
+14,TEXT_KINGLA406_04994_SEQ_14,
+15,TEXT_KINGLA406_04994_SEQ_15,
+16,TEXT_KINGLA406_04994_SEQ_16,
+17,TEXT_KINGLA406_04994_SEQ_17,
+18,TEXT_KINGLA406_04994_SEQ_18,
+19,TEXT_KINGLA406_04994_SEQ_19,
+20,TEXT_KINGLA406_04994_SEQ_20,
+21,TEXT_KINGLA406_04994_SEQ_21,
+22,TEXT_KINGLA406_04994_SEQ_22,
+23,TEXT_KINGLA406_04994_SEQ_23,
+24,TEXT_KINGLA406_04994_TODO_00, aus Iq Br'aax bei Shunye abliefern
+25,TEXT_KINGLA406_04994_TODO_01,
+26,TEXT_KINGLA406_04994_TODO_02,
+27,TEXT_KINGLA406_04994_TODO_03,
+28,TEXT_KINGLA406_04994_TODO_04,
+29,TEXT_KINGLA406_04994_TODO_05,
+30,TEXT_KINGLA406_04994_TODO_06,
+31,TEXT_KINGLA406_04994_TODO_07,
+32,TEXT_KINGLA406_04994_TODO_08,
+33,TEXT_KINGLA406_04994_TODO_09,
+34,TEXT_KINGLA406_04994_TODO_10,
+35,TEXT_KINGLA406_04994_TODO_11,
+36,TEXT_KINGLA406_04994_TODO_12,
+37,TEXT_KINGLA406_04994_TODO_13,
+38,TEXT_KINGLA406_04994_TODO_14,
+39,TEXT_KINGLA406_04994_TODO_15,
+40,TEXT_KINGLA406_04994_TODO_16,
+41,TEXT_KINGLA406_04994_TODO_17,
+42,TEXT_KINGLA406_04994_TODO_18,
+43,TEXT_KINGLA406_04994_TODO_19,
+44,TEXT_KINGLA406_04994_TODO_20,
+45,TEXT_KINGLA406_04994_TODO_21,
+46,TEXT_KINGLA406_04994_TODO_22,
+47,TEXT_KINGLA406_04994_TODO_23,
+48,TEXT_KINGLA406_04994_UVLO_000_000,"Ich habe meine Lektion gelernt: Meine einzige Aufgabe besteht darin, mich im Laden nützlich zu machen und Meister Shunye zu entlasten!"
+49,TEXT_KINGLA406_04994_SHUNYE_000_010,"Willkommen zurück, Player! Es ist mir immer wieder eine Freude, dich hier begrüßen zu dürfen."
+50,TEXT_KINGLA406_04994_SHUNYE_000_011,"Aber ich muss dir etwas anvertrauen ... Und zwar mache ich mir Sorgen um Uvlo. Seit ihr von dem Lieferauftrag zurückgekehrt seid, verhält er sich ziemlich merkwürdig."
+51,TEXT_KINGLA406_04994_SHUNYE_000_012,"Ich habe ihm bereits mehrfach versichert, dass ich ihm keine Vorwürfe mache, aber er scheint noch immer ein schlechtes Gewissen zu haben, weil er meine Schwester über meine Ver­gangen­heit ausgefragt hat. Seit ich euch von meinem Unglück erzählt habe, arbeitet er von morgens bis abends ohne Unterlass."
+52,TEXT_KINGLA406_04994_SHUNYE_000_013,"Das ist auch der Grund dafür, weshalb ich heute tatsächlich mal keine Aufgabe für dich habe. Er hat schon alle erledigt!"
+53,TEXT_KINGLA406_04994_UVLO_000_014,"Meister Shunye, ich habe mich um alle ausstehenden Aufgaben gekümmert, ist alles abgehakt! Deswegen dachte ich, dass wir vielleicht versuchen könnten, etwas über die blauen Himmelsblüten in Erfahrung zu bringen."
+54,TEXT_KINGLA406_04994_SHUNYE_000_015,"Uvlo ... Könnte es sein, dass du die ganze Arbeit absichtlich schnell erledigt hast, um diesen Vorschlag zu äußern, sobald Player hier auftaucht?"
+55,TEXT_KINGLA406_04994_UVLO_000_016,"Na ja, ganz so war es nicht ... Aber ich kann nicht leugnen, dass diese Steine mein Interesse geweckt haben."
+56,TEXT_KINGLA406_04994_UVLO_000_0017,"Es ist schon mysteriös, dass die blauen Himmelsblüten unmittelbar nach diesem schrecklichen Unglück am Ort des Geschehens aufgefunden wurden."
+57,TEXT_KINGLA406_04994_UVLO_000_018,"Leider liefern sie bisher keinerlei Beweis für Meister Shunyes Theorie, dass ein Meteoriteneinschlag für die Katastrophe verantwortlich gewesen sein muss."
+58,TEXT_KINGLA406_04994_UVLO_000_019,"So viel ich auch darüber nachdenke, irgendwie will sich mir der Zusammenhang zwischen dem Meteoriten und den blauen Himmelsblüten auch einfach nicht erschließen. Das muss ich ehrlich zugeben."
+59,TEXT_KINGLA406_04994_UVLO_000_020,"Aber dann kam mir eine Idee ... Wenn wir an einen Ort reisen würden, von dem wir mit Sicherheit wissen, dass dort ein Meteorit eingeschlagen hat, könnten wir dort vielleicht ähnliche Kristalle finden."
+60,TEXT_KINGLA406_04994_UVLO_000_021,"Das wäre dann ein Beweis, dass es tatsächlich eine Verbindung geben könnte, oder nicht?"
+61,TEXT_KINGLA406_04994_SHUNYE_000_022,"Das ist prinzipiell eine gute Idee, Uvlo, aber leider glaube ich, dass uns das nicht weiterbringen wird."
+62,TEXT_KINGLA406_04994_SHUNYE_000_023,"Ich habe schon vieles versucht, um brauchbare Informationen über diese Kristalle zu erhalten. Aber nicht einmal die erfahrensten Reisenden unter meinen Bekannten und Geschäftspartnern, die schon an den abgelegensten Orten des Kontinents waren, konnten mir weiterhelfen."
+63,TEXT_KINGLA406_04994_SHUNYE_000_024,"Nach langer, aussichtsloser Suche kam ich zu dem Schluss, dass sie vielleicht die einzigen Steine ihrer Art sind ... In diesem Fall wären sie wertvoller als jeder Edelstein."
+64,TEXT_KINGLA406_04994_UVLO_000_025,"Umso mehr ein Grund, nicht aufzugeben, Meister Shunye!"
+65,TEXT_KINGLA406_04994_UVLO_000_026,"Schließlich hast du ja jetzt mit Player und mir zwei talentierte Sammler an deiner Seite. Bisher haben wir alles gefunden, was du uns aufgetragen hast!"
+66,TEXT_KINGLA406_04994_Q1_000_027,Was sagst du?
+67,TEXT_KINGLA406_04994_A1_000_028,"Genau, wir dürfen noch nicht aufgeben!"
+68,TEXT_KINGLA406_04994_A1_000_029,"Ich will wissen, was damals passiert ist!"
+69,TEXT_KINGLA406_04994_A1_000_030,"Ein letzter Versuch kann nicht schaden, schätze ich ..."
+70,TEXT_KINGLA406_04994_SHUNYE_000_031,"Du siehst es also auch so, Player?"
+71,TEXT_KINGLA406_04994_SHUNYE_000_032,"Gut, wenn das so ist ... Dann würde ich dich tatsächlich um deine Hilfe bitten, auch wenn du wahrlich schon genug für mich getan hast."
+72,TEXT_KINGLA406_04994_SHUNYE_000_033,"Hier auf Tural gibt es mehrere Orte, an denen in der Ver­gangen­heit Meteoriten niedergegangen sein sollen."
+73,TEXT_KINGLA406_04994_SHUNYE_000_034,"Die Einschlagsstelle, die bislang am besten erforscht ist, ist der Krater von Cexudross. Er war in der Ver­gangen­heit bereits mehrfach Schauplatz wissenschaftlicher Unter­such­ungen."
+74,TEXT_KINGLA406_04994_SHUNYE_000_035,Aber das ist schon viele Jahre her. Mit der Zeit hat die Natur sich wieder durchgesetzt und die Ausgrabungsstätte in einen dichten Wald verwandelt. Heute ist dieser Ort unter dem Namen Yak T'el bekannt.
+75,TEXT_KINGLA406_04994_SHUNYE_000_036,"Aber wie ich euch kenne, wird euch das nicht davon abhalten, euch auf die Suche zu begeben. Es wird eine Heraus­forde­rung, mitten im Wald die genaue Einschlagstelle zu finden, aber eure Erfahrung wird sich mit Sicherheit als nützlich erweisen."
+76,TEXT_KINGLA406_04994_SHUNYE_000_037,"Solltet ihr in Yak T'el tatsächlich etwas finden, das den blauen Himmelsblüten ähnelt, dann könnten wir endlich eine belastbare Theorie darüber aufstellen, was damals wirklich passiert ist. Immerhin wäre dann die Wahr­schein­lich­keit sehr hoch, dass die Kristalle von einem Meteoriten stammen."
+77,TEXT_KINGLA406_04994_UVLO_000_038,"Dann wissen wir ja, was wir zu tun haben! Lass uns gemeinsam nach Yak T'el aufbrechen und nach  suchen."
+78,TEXT_KINGLA406_04994_SHUNYE_000_040,"Vielen Dank, dass du wieder einmal deine tatkräftige Unterstützung angeboten hast, Player! Ich hoffe, dass ihr in Yak T'el  finden könnt ... Aber ich meine - wer, wenn nicht ihr? "
+79,TEXT_KINGLA406_04994_SHUNYE_000_050,"Unglaublich, du hast es tatsächlich geschafft! Ich kann mir gar nicht vorstellen, wie viel Erde du umgraben musstest, um diese Fragmente zu finden!"
+80,TEXT_KINGLA406_04994_SHUNYE_000_051,"Ich kann dir gar nicht genug danken! Sobald Uvlo zurückgekehrt ist, können wir eure Funde mal genauer unter die Lupe nehmen."
+81,TEXT_KINGLA406_04994_SHUNYE_000_052,"Unglaublich ...! Sie bestehen offensichtlich aus einem ganz besonderen Material, viel härter und dichter als alle Steine, die ich in meinem ganzen Leben gesehen habe ... Einfach nur faszinierend!"
+82,TEXT_KINGLA406_04994_SHUNYE_000_053,"Ich weiß gar nicht, wie ich dir jemals dafür danken soll! Sobald Uvlo zurückgekehrt ist, können wir eure Funde genauer unter die Lupe nehmen."
+83,TEXT_KINGLA406_04994_UVLO_000_060,Und ...?
+84,TEXT_KINGLA406_04994_SHUNYE_000_061,"Ich habe eure Funde genauestens untersucht und dabei tatsächlich Fragmente entdeckt, die den blauen Himmelsblüten ähneln!"
+85,TEXT_KINGLA406_04994_SHUNYE_000_062,Im Licht konnte man ganz deutlich einen bläulichen Schimmer erkennen.
+86,TEXT_KINGLA406_04994_SHUNYE_000_063,"Leider waren das auch schon alle guten Nachrichten. Es scheint, dass wir auf der richtigen Spur sind, aber diese Hinweise sind viel zu dürftig, um eine endgültige Schlussfolgerung zu ziehen."
+87,TEXT_KINGLA406_04994_UVLO_000_064,Verstehe ...
+88,TEXT_KINGLA406_04994_UVLO_000_065,"Aber wir müssen es positiv sehen: Wir sind einen kleinen Schritt weiter als vorher. Und wenn du denkst, dass wir auf der richtigen Spur sind, müssen wir unsere Bemühungen unbedingt fortsetzen!"
+89,TEXT_KINGLA406_04994_UVLO_000_066,"Wir müssen weiter im Wald von Yak T'el oder an anderen Meteoriteneinschlagsstellen suchen! Irgendwann werden wir eine Stichprobe finden, die gut genug ist, um eine eindeutige Schlussfolgerung zu ziehen."
+90,TEXT_KINGLA406_04994_UVLO_000_067,"Wie ich bereits sagte, verfüge ich über viel Ausdauer! Ich werde so lange weitersuchen, bis wir etwas in den Händen halten, das dir weiterhilft, Meister Shunye."
+91,TEXT_KINGLA406_04994_SHUNYE_000_068,"Uvlo, warum tust du das alles?"
+92,TEXT_KINGLA406_04994_SHUNYE_000_069,"Du musst dich wirklich nicht dazu verpflichtet fühlen, mir bei dieser persönlichen Angelegenheit zu helfen. Du wirst dabei auch nichts Neues über das Volk der Shetona erfahren, befürchte ich ..."
+93,TEXT_KINGLA406_04994_UVLO_000_070,"Du hast schon Recht, diese Aufgabe hat keinen besonderen Nutzen für mein Volk."
+94,TEXT_KINGLA406_04994_UVLO_000_071,"Aber als ich darüber nachgedacht habe, was Uapyota uns über deine Ver­gangen­heit erzählt hat und wie sehr du unter dem Verlust deiner Familie und dieser Ungewissheit leidest, wurde mir etwas Wichtiges klar."
+95,TEXT_KINGLA406_04994_UVLO_000_072,"Es ist egal, ob wir uns den Viera oder den Shetona zugehörig fühlen, eines haben wir alle gemeinsam: Unsere Familien und unsere Liebsten sind uns das Wichtigste im Leben."
+96,TEXT_KINGLA406_04994_UVLO_000_073,"Wenn mich oder jemanden aus meinem Dorf ein ähnliches Schicksal ereilen würde wie deines, würde ich nicht eher ruhen, bis ich die ganze Geschichte aufgedeckt hätte. Und wenn mir das nicht gelänge, würde ich in meiner Hilflosigkeit versinken und mir furchtbare Vorwürfe machen."
+97,TEXT_KINGLA406_04994_UVLO_000_074,So wie du wahrscheinlich auch.
+98,TEXT_KINGLA406_04994_UVLO_000_075,"Deswegen hast du die blauen Himmelsblüten auch all die Jahre aufgehoben, obwohl sie mit so schmerzhaften Erinnerungen verbunden sind. Du meintest doch, dass du aufgrund deiner Erfahrung aus der Apotheke die Vermutung hattest, dass die Kristalle etwas mit der Katastrophe vor fünfzig Jahren zu tun haben."
+99,TEXT_KINGLA406_04994_UVLO_000_076,"Aber vielleicht war es ja gerade umgekehrt: Du hast den Laden gegründet, weil dich die Sehnsucht nach Antworten einfach nicht losgelassen hat. Bewusst oder unbewusst muss dir klar gewesen sein, dass dich dieser Laden der Antwort früher oder später näherbringen würde."
+100,TEXT_KINGLA406_04994_UVLO_000_077,"So gesehen ist es meine Pflicht als dein Angestellter, dich dabei zu unterstützen! Bitte erlaube mir, dir dabei zu helfen, Meister Shunye!"
+101,TEXT_KINGLA406_04994_SHUNYE_000_078,"Dein Mitgefühl ehrt dich, Uvlo. Aber bitte verlier dabei deine eigene Mission nicht aus den Augen, ja? Ich hoffe, du konntest wenigstens ein paar Münzen sparen, seit du hier bist."
+102,TEXT_KINGLA406_04994_SHUNYE_000_079,"Gut, wenn wir weiterhin nach Antworten suchen wollen, muss ich dich aber trotzdem darum bitten, die Ausgrabungen im Wald von Yak T'el erst einmal ruhen zu lassen. Wir haben bereits genug Spuren in der Natur hinterlassen."
+103,TEXT_KINGLA406_04994_SHUNYE_000_080,"Es muss einen anderen Weg geben ... Ich brauche nur etwas Zeit, um einen zu finden."
+104,TEXT_KINGLA406_04994_SHUNYE_000_081,"Ich hoffe, dass wir dann auch weiterhin auf deine Hilfe zählen können, Player. Wärst du bereit dazu?"
+105,TEXT_KINGLA406_04994_SHUNYE_000_082,"Ich danke dir von Herzen! Puh, ich werde mein Geschäft ordentlich ankurbeln müssen, um euch nach all euren Mühen angemessen entlohnen zu können. Aber das ist es mir allemal wert!"
+106,TEXT_KINGLA406_04994_SYSTEM_000_083,Dein Beitragsrang in Shunyes Apotheke ist gestiegen! Shunye ist vollauf begeistert von deiner herausragenden Arbeit und hält dich jetzt für eine gestandene Sammlerin!
+107,TEXT_KINGLA406_04994_SYSTEM_000_084,"Sobald du als Mi­nen­ar­bei­te­rin oder Gärtnerin Stufe 100 erreicht hast, kannst du von Shunye einen neuen Auftrag erhalten."

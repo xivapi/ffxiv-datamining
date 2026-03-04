@@ -1,186 +1,183 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_BANOMI004_04604_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,TEXT_BANOMI004_04604_SEQ_00,"** Schwierigkeitsanpassung (Job/Klasse darf nicht gewechselt werden)**
 
 N-7000 berechnet unentwegt die aktuellsten Daten aus dem Wiegenstern."
-1,"TEXT_BANOMI004_04604_SEQ_01","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst und die Klasse (der Job) darf nicht gewechselt werden.
+1,TEXT_BANOMI004_04604_SEQ_01,"**** Die Schwierigkeit des Auftrags wird an die aktuelle Stufe angepasst und die Klasse (der Job) darf nicht gewechselt werden.
 
 Auf Elysium und im Wiegenstern scheint es weiterhin gut voranzugehen. Folge N-7000 und Jammingway ins Café, um dir selbst ein Bild zu machen."
-2,"TEXT_BANOMI004_04604_SEQ_02","Tatsächlich haben sich nicht nur die Ea, sondern auch die Miw Miisv unter die Café-Besucher gemischt, und der Betrieb geht sichtlich turbulenter vonstatten als zuvor. Aber das hindert Jammingway nicht daran, bereits die nächsten großen Pläne ins Auge zu fassen: Er möchte versuchen, dem Volk der Drachen den Wiegenstern schmackhaft zu machen. Doch dafür gilt es, erst einmal nach Reah Tahra zu reisen und herauszufinden, ob die Omikron und die Drachen dazu bereit sind, ihre schmerzhafte Geschichte hinter sich zu lassen."
-3,"TEXT_BANOMI004_04604_SEQ_03","Seit deinem letzten Besuch scheint die Melancholie der Drachen sich nicht gelegt zu haben. Ihr sprecht mit einem besonders trübsinnigen Vertreter, der nur wenig für eure Einladung an einen Ort der Hoffnung übrighat. Da kommt Jammingway eine Idee, für die es deiner Hilfe als Drachenflüsterer bedarf: Er bittet dich, bei den Drachen auf Ætheris in Erfahrung zu bringen, was man ihren Artgenossen am Ende des Universums Gutes tun könnte. Begib dich in das Dravanische Vorland und frage die Drachendame Vidofnir um Rat."
-4,"TEXT_BANOMI004_04604_SEQ_04","Nach Rücksprache mit Vidofnir beschließt ihr, ein Gericht zu kochen, das dem wehmütigen Drachen nicht nur geschmacklich, sondern auch visuell die Erinnerungen an sein altes Gestirn wiedergeben kann. Sammle die dafür nötigen Zutaten im Dravanischen Vorland und bringe sie anschließend N-7000 in den Wiegenstern."
-5,"TEXT_BANOMI004_04604_SEQ_05","Jammingway wetzt ein weiteres Mal die Küchen- oder besser gesagt die Skulpturmesser, denn das Ergebnis seiner Kochkünste ist eine essbare Miniaturversion jener grün schimmernden Berge, die von allen Drachen in Reah Tahra sehnsüchtig vermisst werden. Nicht einmal euer wehmütiger Freund kann sich der Nostalgie erwehren, die bei diesem Anblick über ihn hereinbricht. Ob auch seine Gefühle dem Dynamis auf Elysium neue Form verleihen können? Macht euch von Plattform A4 aus gemeinsam auf den Weg, um nachzusehen."
-6,"TEXT_BANOMI004_04604_SEQ_06","Als ihr Elysium erreicht, erstreckt sich vor euren Augen und um alle anderen Gebiete herum eine gigantische, von grünem Gestein durchzogene Bergkette. Abermals hat das Dynamis neues Leben in Form ganzer Nester voller Eier hervorgebracht. Der Trübsinn des alten Drachen scheint wie fortgeblasen und ihr beginnt euch zu fragen, welche neuen Wunder das Wirken des Dynamis wohl als Nächstes für Elysium bereithält. Noch gibt es vieles, was für die Bewohner von Ultima Thule getan werden kann. Stehe N-7000 und Jammingway weiterhin dabei zur Seite."
-7,"TEXT_BANOMI004_04604_SEQ_07",""
-8,"TEXT_BANOMI004_04604_SEQ_08",""
-9,"TEXT_BANOMI004_04604_SEQ_09",""
-10,"TEXT_BANOMI004_04604_SEQ_10",""
-11,"TEXT_BANOMI004_04604_SEQ_11",""
-12,"TEXT_BANOMI004_04604_SEQ_12",""
-13,"TEXT_BANOMI004_04604_SEQ_13",""
-14,"TEXT_BANOMI004_04604_SEQ_14",""
-15,"TEXT_BANOMI004_04604_SEQ_15",""
-16,"TEXT_BANOMI004_04604_SEQ_16",""
-17,"TEXT_BANOMI004_04604_SEQ_17",""
-18,"TEXT_BANOMI004_04604_SEQ_18",""
-19,"TEXT_BANOMI004_04604_SEQ_19",""
-20,"TEXT_BANOMI004_04604_SEQ_20",""
-21,"TEXT_BANOMI004_04604_SEQ_21",""
-22,"TEXT_BANOMI004_04604_SEQ_22",""
-23,"TEXT_BANOMI004_04604_SEQ_23",""
-24,"TEXT_BANOMI004_04604_TODO_00","Mit Jammingway sprechen"
-25,"TEXT_BANOMI004_04604_TODO_01","In Reah Tahra mit N-7000 sprechen"
-26,"TEXT_BANOMI004_04604_TODO_02","Vidofnir im Trinär-Annex aufsuchen"
-27,"TEXT_BANOMI004_04604_TODO_03","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Südwestlich des Trinär-Annexes <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> abbauen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),2,4,1)/>)/> N-7000 bringen</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Nordöstlich des Trinär-Annexes <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> pflücken<Else/>Die <SheetDe(Item,5,IntegerParameter(5),2,4,1)/> N-7000 bringen</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>In Auenfest <SheetDe(Item,1,IntegerParameter(5),1,4,1)/> fangen<Else/><Clickable(<SheetDe(Item,2,IntegerParameter(5),1,4,1)/>)/> N-7000 bringen</If><Else/></If></If></If>"
-28,"TEXT_BANOMI004_04604_TODO_04","Mit N-7000 auf Plattform A4 sprechen"
-29,"TEXT_BANOMI004_04604_TODO_05",""
-30,"TEXT_BANOMI004_04604_TODO_06",""
-31,"TEXT_BANOMI004_04604_TODO_07",""
-32,"TEXT_BANOMI004_04604_TODO_08",""
-33,"TEXT_BANOMI004_04604_TODO_09",""
-34,"TEXT_BANOMI004_04604_TODO_10",""
-35,"TEXT_BANOMI004_04604_TODO_11",""
-36,"TEXT_BANOMI004_04604_TODO_12",""
-37,"TEXT_BANOMI004_04604_TODO_13",""
-38,"TEXT_BANOMI004_04604_TODO_14",""
-39,"TEXT_BANOMI004_04604_TODO_15",""
-40,"TEXT_BANOMI004_04604_TODO_16",""
-41,"TEXT_BANOMI004_04604_TODO_17",""
-42,"TEXT_BANOMI004_04604_TODO_18",""
-43,"TEXT_BANOMI004_04604_TODO_19",""
-44,"TEXT_BANOMI004_04604_TODO_20",""
-45,"TEXT_BANOMI004_04604_TODO_21",""
-46,"TEXT_BANOMI004_04604_TODO_22",""
-47,"TEXT_BANOMI004_04604_TODO_23",""
-48,"TEXT_BANOMI004_04604_N7000_000_001","Statusbericht >> Die Akkumulation von Ressourcen aus allen Teilen der Raumregion verläuft komplikationslos. Weiterhin hat das Volk der Ea mit Erforschung und Aufzucht der quallenartigen Lebensform begonnen. Seit ihrer Entstehung bewirkt das Dynamis kontinuierlich Veränderungen, die das Wohlbefinden aller Probanden ansteigen lässt."
-49,"TEXT_BANOMI004_04604_JAMMINGWAY_000_002","Nicht nur die Ea, alle lieben die Miw Miisv! Diese kleinen Wirbelwinde sind immer zu Schabernack aufgelegt und halten den Laden ganz schön auf Trab."
-50,"TEXT_BANOMI004_04604_JAMMINGWAY_000_003","Das solltest du dir ansehen! Kommt, gehen wir in den Wiegenstern!"
-51,"TEXT_BANOMI004_04604_Q5_000_000","Zum Wiegenstern reisen?"
-52,"TEXT_BANOMI004_04604_N7000_000_010","<biep>... Aufgrund der wachsenden Kundenzahl müssen regelmäßig neue Tische aufgestellt werden. Auf Ætheris würde man diese Situation vermutlich als <Emphasis>florierendes Geschäft</Emphasis> bezeichnen."
-53,"TEXT_BANOMI004_04604_JAMMINGWAY_000_011","Was sagst du? Hier ist es ziemlich lebhaft geworden, oder? Aber noch haben wir es nicht geschafft, alle Bewohner von Ultima Thule glücklich zu machen!"
-54,"TEXT_BANOMI004_04604_N7000_000_012","Zustimmung >> Um eine Stagnation der Betriebszahlen zu vermeiden, sollten baldmöglichst weitere Gäste angeworben werden. "
-55,"TEXT_BANOMI004_04604_JAMMINGWAY_000_013","Ich hätte auch schon eine Idee, wer diese Gäste sein könnten<Indent/>..."
-56,"TEXT_BANOMI004_04604_JAMMINGWAY_000_014","Das Drachenvolk natürlich! Immerhin haben wir jetzt genug Ressourcen zur Verfügung, um auch riesige Bäuche zu füllen!"
-57,"TEXT_BANOMI004_04604_N7000_000_015","<knirsch>... Der übermäßig behaarte Gastwirt darf nicht vergessen, dass das Drachenvolk und die Zivilisation Alphatrons verfeindet sind. Es ist mit unerwünschten Konflikten zu rechnen, wenn sie von der Existenz der Omikron im selben Gebiet des Kosmos erfahren."
-58,"TEXT_BANOMI004_04604_JAMMINGWAY_000_016","Oh? Da benutzt mal jemand seinen Klapperkopf, anstatt nur an die Betriebszahlen zu denken!"
-59,"TEXT_BANOMI004_04604_JAMMINGWAY_000_017","Du hast natürlich Recht. Wenn die Drachen euch immer noch als Feinde betrachten, könnte das negative Auswirkungen auf das Dynamis haben. Ich schlage vor, wir hören uns ihre Meinung persönlich an, bevor wir eine Entscheidung treffen."
-60,"TEXT_BANOMI004_04604_N7000_000_018","Vorschlag abgelehnt. Diese Einheit kann das Gebiet des Drachenvolks nicht betreten. Das Risiko einer Aus<SoftHyphen/>einander<SoftHyphen/>set<SoftHyphen/>zung ist zu hoch."
-61,"TEXT_BANOMI004_04604_JAMMINGWAY_000_019","Ach was, du trittst ihnen doch nicht mit gezogener Waffe gegenüber! Warum gehen wir nicht erst einmal hin und du versuchst, selbst mit den Drachen zu sprechen? So hören sie direkt von einem Omikron, dass ihr keine bösen Absichten mehr hegt."
-62,"TEXT_BANOMI004_04604_JAMMINGWAY_000_020","Natürlich kann niemand rückgängig machen, was Alphatron dem Drachenvolk angetan hat. Aber dass es möglich ist, Frieden zu schließen, haben wir an den Karelliern gesehen. Eben gerade <Emphasis>weil</Emphasis> Drachen und Omikron jetzt im selben Teil des Kosmos leben, wäre es für ganz Ultima Thule sicherer, wenn ihr euren Konflikt begraben könntet."
-63,"TEXT_BANOMI004_04604_N7000_000_021","<ratter> ... <ratter> ... Es gibt keine Argumente, die gegen diese Feststellung sprechen. Diese Einheit muss Gastwirt Jammingway zustimmen. Der Vorschlag, ein persönliches Gespräch mit dem Drachenvolk zu führen, wird hiermit akzeptiert."
-64,"TEXT_BANOMI004_04604_JAMMINGWAY_000_022","Dann auf nach Reah Tahra! Keine Bange, Blechi. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> und ich sind ja da, um dich zu beschützen!"
-65,"TEXT_BANOMI004_04604_JAMMINGWAY_000_030","S-Seid gegrüßt<Indent/>... o w-weiser Drache. Wir kommen vom W-Wiegenstern und<Indent/>..."
-66,"TEXT_BANOMI004_04604_NIBIRAENOMI_000_031","Wohin man auch blickt, trieft Ver<SoftHyphen/>zweif<SoftHyphen/>lung aus den Schatten<Indent/>... Wie das Echo eines Klagelieds rinnt sie ins Wasser, siecht sie in der faulenden Erde. Auch ohne Ra-La wäre dieser Planet dem Tode geweiht. Habt ihr etwa vor, den geflügelten Kreaturen die Erlösung zu verwehren?"
-67,"TEXT_BANOMI004_04604_DRAGONOMI_000_029","... ... ..."
-68,"TEXT_BANOMI004_04604_N7000_000_032","Alle bisherigen Kom<SoftHyphen/>mu<SoftHyphen/>ni<SoftHyphen/>ka<SoftHyphen/>tions<SoftHyphen/>ver<SoftHyphen/>su<SoftHyphen/>che waren erfolglos. Trotz funktionierender audiovisueller Rezeptoren zeigt die Drachen-Einheit keine Reaktion."
-69,"TEXT_BANOMI004_04604_JAMMINGWAY_000_033","W-Weiser Drache, versteht Ihr<Indent/>... meine Sprache? Also noch einmal, wir kommen vom Wiegenstern und<Indent/>..."
-70,"TEXT_BANOMI004_04604_JAMMINGWAY_000_034","H-Hört Ihr überhaupt zu?! Hier unten! Ich<Indent/>... Ich rede mit Euch!"
-71,"TEXT_BANOMI004_04604_DRAGONOMI_000_035","<If(PlayerParameter(4))>Jene<Else/>Jener</If>, <If(PlayerParameter(4))>die<Else/>der</If> die finstren Nebel vertrieb<Indent/>... ist diese winzige, geräuschvolle Kreatur Euer Begleiter?"
-72,"TEXT_BANOMI004_04604_DRAGONOMI_000_036","Falls dem so ist, bitte ich Euch, sie mit fortzunehmen. Wir wünschen es nicht, bei unserem Schlummer gestört zu werden. So war es, bevor der Nebel verschwand, und so blieb es, nachdem er verschwunden war. "
-73,"TEXT_BANOMI004_04604_JAMMINGWAY_000_037","Er hat ja doch verstanden, was ich gesagt habe! Dann noch mal von vorn: Werter Drache, wir kommen aus dem Wiegenstern, einem gemütlichen kleinen Café, in dem alle Lebewesen friedlich miteinander speisen können. Wenn es Euch nichts ausmacht, würden wir Euch gerne dorthin einladen!"
-74,"TEXT_BANOMI004_04604_JAMMINGWAY_000_038","Ich weiß, das Drachenvolk hatte es nicht immer leicht mit den Omikron, aber ich kann Euch versichern, dass sie nicht mehr die gleichen Klapperkisten sind wie früher. Alle im Café würden sich sehr über Euren Besuch freuen!"
-75,"TEXT_BANOMI004_04604_DRAGONOMI_000_039","Kleines Wesen<Indent/>... Was einst geschehen ist, hat für die meisten von uns längst allen Schrecken verloren. Die Wunden der Ver<SoftHyphen/>gangen<SoftHyphen/>heit sind vernarbt und das Blut kalt und vertrocknet, welches vor langer Zeit daraus floss."
-76,"TEXT_BANOMI004_04604_DRAGONOMI_000_040","Unser Dasein ist nurmehr ein ewiges Warten auf den erlösenden Schlummer<Indent/>..."
-77,"TEXT_BANOMI004_04604_N7000_000_041","Interpretation der Aussage >> Das Existenzprotokoll der Drachen scheint keine weiteren Kriegshandlungen gegenüber der Alphatron-Zivilisation vorzusehen. Folglich wurden alle lebenswichtigen Instinkte durch die Sehnsucht nach dem Tod ersetzt. "
-78,"TEXT_BANOMI004_04604_N7000_000_042","Dieser passive Gemütszustand konnte bereits bei anderen Lebensformen in diesem Raum beobachtet werden. Das Existenzprotokoll des Drachen ist möglicherweise reaktivierbar, indem er sich einem Omikron im Zweikampf stellt. Diese Einheit stellt sich als freiwilliges Testobjekt zur Verfügung."
-79,"TEXT_BANOMI004_04604_DRAGONOMI_000_043","Der metallene Krieger fordert mich heraus? Was vermag das schon zu ändern<Indent/>... Ein Klumpen schwelenden Stahls auf diesem fauligen Boden mehr oder weniger wird meinem Volk nicht seinen Stolz wiederbringen<Indent/>..."
-80,"TEXT_BANOMI004_04604_DRAGONOMI_000_044","Einstmals hatten auch wir einen Ort wie jenen Wiegenstern, von dem ihr sprecht. Dort, am Fuße der heiligen Berge, versammelten sich die Drachen von nah und fern, um gemeinsam ihre Lieder zu singen."
-81,"TEXT_BANOMI004_04604_DRAGONOMI_000_045","Das ist alles, woran ich mich erinnere. Nun sind die Lieder auf ewig verklungen, verrottet im Dunkeln. Und so bleibt uns nichts als ein Andenken bitterer Tränen<Indent/>..."
-82,"TEXT_BANOMI004_04604_N7000_000_046","<ratter> ... Die Versöhnung mit dem Drachenvolk gestaltet sich komplizierter als berechnet. Unter diesen Umständen ist keine Einladung in den Wiegenstern möglich. Empfehlung >> Operation abbrechen."
-83,"TEXT_BANOMI004_04604_JAMMINGWAY_000_047","Aufzugeben kommt überhaupt nicht infrage! Bei den Karelliern war es doch genauso! Sie haben sich bis zum Schluss bekämpft und dann einen gemeinsamen Grund gefunden, Frieden zu schließen. Warum sollte das Gleiche nicht auch für euch und die Drachen gelten?"
-84,"TEXT_BANOMI004_04604_JAMMINGWAY_000_048","Ich glaube fest daran, dass wir ihnen nur den richtigen Anreiz bieten müssen, damit sie dem Café und den Omikron eine Chance geben!"
-85,"TEXT_BANOMI004_04604_JAMMINGWAY_000_049","Außerdem haben wir jemanden an unserer Seite, <If(PlayerParameter(4))>die<Else/>der</If> schon einmal das Herz der Drachen erreicht und sogar ihren Krieg beendet hat. Ist es nicht so, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-86,"TEXT_BANOMI004_04604_JAMMINGWAY_000_050","Die Drachen auf Ætheris sind der beste Beweis dafür, dass es möglich ist. Obwohl sie von <Emphasis>diesem</Emphasis> Planeten abstammen und die Ver<SoftHyphen/>zweif<SoftHyphen/>lung des Krieges kennengelernt haben, konnten sie mit den anderen Völkern Frieden schließen."
-87,"TEXT_BANOMI004_04604_JAMMINGWAY_000_051","Daher bitte ich dich, einen deiner Drachenfreunde auf Ætheris um Rat zu fragen. Vielleicht haben sie eine Idee, wie man ihren Vorfahren auf der anderen Seite des Universums wieder Hoffnung schenken kann!"
-88,"TEXT_BANOMI004_04604_Q1_000_000","Was sagst du?"
-89,"TEXT_BANOMI004_04604_A1_000_001","Vrtra hat Erfahrung im Umgang mit anderen Völkern und wird Rat wissen."
-90,"TEXT_BANOMI004_04604_A1_000_002","Wenn jemand für solche Gespräche etwas übrighat, dann Vidofnir."
-91,"TEXT_BANOMI004_04604_JAMMINGWAY_100_053","Der Magistrat von Radz-at-Han?! Ich glaube, einem so vielbeschäftigten Drachen sollten wir lieber kein Klotz an der Pranke sein<Indent/>..."
-92,"TEXT_BANOMI004_04604_JAMMINGWAY_000_053","Vidofnir? Von dieser Drachin habe ich schon einmal gehört! Sie ist ein Abkömmling des mächtigen Hraesvelgr und lebt in Dravania, richtig?"
-93,"TEXT_BANOMI004_04604_JAMMINGWAY_000_054","Wenn du damit einverstanden bist, werden wir dich begleiten! Es kann nicht schaden, etwas mehr über die Drachen zu lernen, die sich für den Frieden eingesetzt haben."
-94,"TEXT_BANOMI004_04604_N7000_000_055","Den Omikron liegen keine Daten zur Historie der Drachen auf Ætheris vor. Der genaue Ablauf dieser Expedition wird daher <If(PlayerParameter(4))>der Verbündeten<Else/>dem Verbündeten</If> überlassen. "
-95,"TEXT_BANOMI004_04604_N7000_100_056","Das Ergebnis wird darüber entscheiden, ob sich die Überzeugungen der Drachen umkehren lassen und ob ein friedliches Miteinander möglich ist. <biep>"
-96,"TEXT_BANOMI004_04604_JAMMINGWAY_000_057","Meinetwegen können wir uns sofort auf den Weg machen! "
-97,"TEXT_BANOMI004_04604_N7000_000_058","Diese Einheit wird in Gestalt einer ferngesteuerten Beobachtungs-Drohne an der Operation teilnehmen. Der Hauptkörper verbleibt im Wiegenstern, um eine konstante Beaufsichtigung des Betriebs zu gewährleisten."
-98,"TEXT_BANOMI004_04604_JAMMINGWAY_000_059","Dann ist ja alles geklärt! Auf nach Ætheris, Freunde!"
-99,"TEXT_BANOMI004_04604_DRAGONOMI_000_060","Meine Erinnerung an das, was vor dem Nebel war, ist für immer verblasst<Indent/>..."
-100,"TEXT_BANOMI004_04604_N7000_000_061","<biep> ... Sollte es besondere Vorkommnisse geben, wird diese Einheit Jammingway über die Drohne davon in Kenntnis setzen."
-101,"TEXT_BANOMI004_04604_VIDOFNIR_000_070","Sei willkommen, <If(PlayerParameter(4))>Kurzlebige<Else/>Kurzlebiger</If>. Wie mir scheint, ist selbst ein Sieg über die Letzten Tage kein Anlass für dich, Rast von deinen Wanderungen zu machen. Was führt dich zu mir?"
-102,"TEXT_BANOMI004_04604_VIDOFNIR_000_071","Es sollte mich nicht überraschen, sonderbare Wesen an deiner Seite zu sehen, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Sei auch du willkommen, kleiner Helfer des Planeten. Was dich angeht, eiserner Krieger<Indent/>..."
-103,"TEXT_BANOMI004_04604_VIDOFNIR_000_072","Es muss die Ironie des Schicksals sein, die uns hier zusammenführt<Indent/>... War es doch das Feuer deiner Sippe, welches die meinen auf der anderen Seite des Sternenmeeres vertilgte. Mir ist, als stünde ich einem Relikt aus uralter Zeit gegenüber."
-104,"TEXT_BANOMI004_04604_VIDOFNIR_100_072","Immer noch übersteigen die Gräueltaten der Maschinen all meine Vor<SoftHyphen/>stel<SoftHyphen/>lungs<SoftHyphen/>kraft. Allein will ich meinen Argwohn zügeln, da ich weiß, dass du dieses Mal in Frieden zu uns kommst."
-105,"TEXT_BANOMI004_04604_VIDOFNIR_000_073","Doch was mir <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> soeben berichtete, schmerzt mich zu hören. Sogar jenseits des Todes, wiedergeboren als Schatten ihrer selbst, ist mein Volk zu Leid verdammt. Wenn irgendetwas in meiner Macht steht, das ihre Last lindern kann, werde ich euch helfen."
-106,"TEXT_BANOMI004_04604_N7000_000_074","<ratter> ... Mit derartigen Unterschieden zwischen den Drachen in Ultima Thule und der geflügelten Lebensform hat diese Einheit nicht gerechnet. Trotz eindeutiger genetischer Übereinstimmung sind sie grundlegend verschieden. Es konnten weder Ver<SoftHyphen/>zweif<SoftHyphen/>lung noch ein Wunsch zu sterben festgestellt werden."
-107,"TEXT_BANOMI004_04604_N7000_000_075","Auf dem Weg hierher wurde diese Einheit von Jammingway über die Beziehungen <If(PlayerParameter(4))>der Verbündeten<Else/>des Verbündeten</If> zu den Drachen von Ætheris aufgeklärt."
-108,"TEXT_BANOMI004_04604_N7000_000_076","Allianzen solcher Art sind ein äußerst seltenes Phänomen und der Vertrauensgrad zwischen <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> und diesem Individuum ist außer<SoftHyphen/>ge<SoftHyphen/>wöhn<SoftHyphen/>lich hoch. Feststellung >> In diesen Breiten des Kosmos scheint <Emphasis>gemeinsame Hoffnung</Emphasis> die Entwicklung positiver Zukunftsereignisse zu begünstigen."
-109,"TEXT_BANOMI004_04604_JAMMINGWAY_000_077","Das ist ja schön und gut, aber wie hilft uns das dabei, den Drachen in Ultima Thule zu helfen? Wenn wir doch wenigstens wüssten, wie wir sie dazu bringen könnten, uns zuzuhören<Indent/>..."
-110,"TEXT_BANOMI004_04604_VIDOFNIR_000_078","Oh, ein Drache hört alles, was man ihm sagt, kleines Geschöpf. Mehr als am Willen, euch Gehör zu schenken, scheint es meinem betrübten Artgenossen an dem zu mangeln, wofür es sich zuzuhören lohnt<Indent/>- Erinnerungen an die alte Heimat, die sein Herz einst mit Stolz erfüllten."
-111,"TEXT_BANOMI004_04604_VIDOFNIR_000_079","Selbst hier auf Ætheris reichen die Wurzeln unserer Herkunft immer noch tief. So wie einst der große Midgardsormr seiner Brut von der Schönheit des alten Drachensterns erzählte, so gab auch Hraesvelgr diese Erinnerung an seine Nachkommen weiter. "
-112,"TEXT_BANOMI004_04604_VIDOFNIR_100_079","Man sagt, gemeinsam mit Nidhogg habe er Sohm Al als neues Domizil der Drachen auserkoren, weil die umliegenden Gipfel den heiligen Bergen unserer Heimat ähnlich sahen. Deshalb hängt unser aller Herz noch heute so sehr an diesem Ort."
-113,"TEXT_BANOMI004_04604_VIDOFNIR_000_080","Ist die eigene Ver<SoftHyphen/>gangen<SoftHyphen/>heit erst einmal in Schwärze gehüllt, wird es jedem Drachen schwerfallen, einen Sinn in der Zukunft zu sehen. Ihr solltet versuchen, meinem Bruder am Rande des Seins die Pracht der heiligen Gipfel erneut vor Augen zu führen, um ihn aus seinem Schlummer zu wecken."
-114,"TEXT_BANOMI004_04604_JAMMINGWAY_000_081","...<Indent/>Ich glaube, diese heiligen Berge hat er sogar erwähnt. Das bedeutet, wir müssen ein Spezialmenü kreieren, mit dem ihm wieder einfällt, wie sie einmal ausgesehen haben!"
-115,"TEXT_BANOMI004_04604_N7000_000_082","Einwand >> Basierend auf bisherigen Kundendaten haben Geschmack und Geruch artspezifischer Nahrung das Potenzial, unbewusste Erinnerungen zu wecken. Im Unterschied zu anderen Lebensformen besitzt das Drachenvolk jedoch keine eigene Kochkultur."
-116,"TEXT_BANOMI004_04604_N7000_000_083","Daher empfiehlt diese Einheit ein Gericht, das sich statt sensorischer Signale visueller Informationen bedient, um das neuronale Netzwerk des Drachen zu stimulieren."
-117,"TEXT_BANOMI004_04604_JAMMINGWAY_000_084","Hmm<Indent/>... Ich werde wohl meine gesamte Kreativität zusammenkratzen müssen, was? Aber ich weiß auch schon, wie ich das anstelle!"
-118,"TEXT_BANOMI004_04604_JAMMINGWAY_000_085","In meinem Rezeptbuch aus Sharlayan gibt es Bilder von einer Ishgarder Süßspeise, die so aussehen soll wie die Berge von Sohm Al. Das Rezept dafür könnte ich als Grundlage verwenden!"
-119,"TEXT_BANOMI004_04604_VIDOFNIR_000_086","Der Einfallsreichtum dieser kleinen Kreatur ist bemerkenswert. So lasst mich euch die Fundorte einer Zutat nennen, die mir für euer Vorhaben brauchbar erscheint<Indent/>..."
-120,"TEXT_BANOMI004_04604_VIDOFNIR_000_087","Begebt euch in den Südwesten des Trinär-Annexes und haltet Ausschau nach einem grünlichen Schimmer. Dort zwischen den Felsspalten schlummert ein Erz, das die Kurzlebigen <Emphasis>Grünquarz</Emphasis> nennen. Unter den Drachen heißt es, seine Farbe glühe ebenso strahlend wie das Leuchten der heiligen Berge."
-121,"TEXT_BANOMI004_04604_VIDOFNIR_000_088","Begebt euch in den Nordosten des Trinär-Annexes und haltet Ausschau nach einer zarten, weißen Blüte. Den Kurzlebigen ist sie schlicht als <Emphasis>Sohm Al-Blüte</Emphasis> bekannt, doch unter den Drachen heißt es, ihre Farbe leuchte so strahlend wie die Blumenwiesen in den Tälern der heiligen Berge."
-122,"TEXT_BANOMI004_04604_VIDOFNIR_000_089","Begebt euch nach Auenfest und angelt am Ufer des Flusses. Darin lebt ein seltener Fisch mit Schuppen so grün, als bestünden sie aus reinem Kristall. Die Kurzlebigen nennen ihn <Emphasis>Malachitbarsch</Emphasis>, doch unter den Drachen heißt es, seine Farbe glühe ebenso strahlend wie das Leuchten der heiligen Berge."
-123,"TEXT_BANOMI004_04604_VIDOFNIR_000_090","Wer in der Kunst des Angelns mit Rute und Schnur bewandert ist, kann versuchen, den Fisch mit dem Laich eines anderen zu ködern."
-124,"TEXT_BANOMI004_04604_N7000_100_091","Der physiologische Aufbau der Fischspezies dieses Planeten ähnelt denen in Ultima Thule. Folglich sollte <SheetDe(Item,5,36588,1,1,1)/> auch hier als Köder einsetzbar sein. Er kann bei Omikron N-0598 auf Plattform A4 erworben werden."
-125,"TEXT_BANOMI004_04604_JAMMINGWAY_000_091","Vielen Dank, werte Vidofnir! Wenn das sogar den Drachen von Ætheris ihr Zuhause in Erinnerung rufen kann, dann klappt es bestimmt auch mit denen im Wiegenstern. Ich werde das beste Drachenberg-Spezialmenü des ganzen Sternenmeers kreieren!"
-126,"TEXT_BANOMI004_04604_N7000_000_092","Diese Einheit und Gastwirt Jammingway warten in Ultima Thule auf die Materiallieferung. Das im Wiegenstern verliebende N-7000 Hauptmodul scheint mit dem Café-Betrieb überlastet zu sein. Von weiteren Erkundungstouren auf Ætheris wird daher abgesehen."
-127,"TEXT_BANOMI004_04604_VIDOFNIR_000_095","Ein ganzes Gestirn vor dem Untergang zu retten, bedarf mehr als bloßem Kampfesmut. Schreite fort wie bisher, <If(PlayerParameter(4))>meine kurzlebige Freundin<Else/>mein kurzlebiger Freund</If>, und folge deiner wahren Stärke."
-128,"TEXT_BANOMI004_04604_JAMMINGWAY_000_100","Ich bin so aufgeregt! Es ist das erste Mal, dass ich mir bei der Gestaltung eines Gerichts so viel Mühe geben muss. Hoffentlich wird es dem Drachen gefallen!"
-129,"TEXT_BANOMI004_04604_N7000_000_101","Willkommen zurück im Wiegenstern, <If(PlayerParameter(4))>Verbündete<Else/>Verbündeter</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Konnte das notwendige Material beschafft werden? "
-130,"TEXT_BANOMI004_04604_N7000_000_102","Lieferung wird durchleuchtet >> Menge und Zusammensetzung sind einwandfrei. Keine interplanetare Kontaminationsgefahr. Gastwirt Jammingway wird gebeten, bei der Zubereitung des Gerichts alle über den Drachenplaneten bekannten Daten zu berücksichtigen."
-131,"TEXT_BANOMI004_04604_JAMMINGWAY_000_103","Nichts leichter als das! Ich verwandele die wertvolle Fracht in ein leckeres Gourmet-Kunstwerk! Ihr haltet den Kunden hin, falls es etwas länger dauern sollte, ja?"
-132,"TEXT_BANOMI004_04604_DRAGONOMI_000_104","Eisenkrieger, wohin mein Blick auch schweift<Indent/>... Niemals wäre mir der Gedanke gekommen, freiwillig das Nest des Feindes aufzusuchen. Doch ich musste meine Zweifel überwinden, als ich hörte, dass ihr meine Geschwister jenseits des dunklen Meeres besucht habt. Zu respektlos wäre es gewesen, ihren Rat abzulehnen<Indent/>..."
-133,"TEXT_BANOMI004_04604_JAMMINGWAY_000_105","O großer Drache! Ihr seid wirklich gekommen! Bitte, so setzt<Indent/>... ähm, ich meine, so landet Euch doch!"
-134,"TEXT_BANOMI004_04604_DRAGONOMI_000_106","Ich soll dieses Gebilde verspeisen, sagt ihr<Indent/>...?"
-135,"TEXT_BANOMI004_04604_JAMMINGWAY_000_107","Bitte, haltet Euch nicht zurück! Die Hauptzutat ist eine Empfehlung der großen Vidofnir, einer Drachin vom Planeten Ætheris. Ich habe dieses Gericht ganz nach ihrer Beschreibung der heiligen Berge des Drachengestirns zubereitet! "
-136,"TEXT_BANOMI004_04604_JAMMINGWAY_000_108","W-Wollt Ihr es nicht kosten<Indent/>...? Ich hoffe, es ist Euch nicht zu süß<Indent/>..."
-137,"TEXT_BANOMI004_04604_DRAGONOMI_000_109","... ... ..."
-138,"TEXT_BANOMI004_04604_DRAGONOMI_000_110","Wie lange mag es her sein, dass diese Zunge etwas mit einem <Emphasis>Geschmack</Emphasis> gekostet hat? Ich erinnere mich nicht daran, ob den Drachen an solchen Dingen gelegen war<Indent/>..."
-139,"TEXT_BANOMI004_04604_DRAGONOMI_000_111","Eines aber kann ich sagen: Der Anblick dieses Mahls<Indent/>... berührt mich auf eigentümliche Weise. Je länger ich es anblicke, umso mehr scheinen meine Augen darin zu erkennen."
-140,"TEXT_BANOMI004_04604_DRAGONOMI_000_112","Die steilen Gipfel, durchzogen von Adern leuchtenden Grüns. Ein Wolkenmeer, das schweigend auf den Hängen schläft. Tanzende Schwingen im eiskalten Wind. Meine Heimat, das Land meines Volkes<Indent/>..."
-141,"TEXT_BANOMI004_04604_DRAGONOMI_000_113","Welche Magie es auch sein mag, die eurem <Emphasis>Café</Emphasis> innewohnt<Indent/>... Von böser Natur kann sie nicht sein, wenn sie imstande ist, einem mürben alten Drachen wie mir ein solches Geschenk zu machen<Indent/>..."
-142,"TEXT_BANOMI004_04604_DRAGONOMI_000_114","Ihr seid auf die andere Seite des schwarzen Schleiers gereist, um den Rat meiner Geschwister zu ersuchen. Euren Mühen zum Dank sehe ich nun wieder vor mir, was ich im Dunkeln verloren glaubte<Indent/>..."
-143,"TEXT_BANOMI004_04604_Q2_000_000","Was sagst du?"
-144,"TEXT_BANOMI004_04604_A2_000_001","Seid Ihr froh, Eure Erinnerungen wiederzuhaben?"
-145,"TEXT_BANOMI004_04604_A2_000_002","Erinnerungen an die eigene Herkunft sind für jeden etwas Unersetzliches. "
-146,"TEXT_BANOMI004_04604_DRAGONOMI_000_115","Aber ja<Indent/>... Nun, da ich sie wiederhabe, möchte ich diese Freude nicht mehr missen. Wie konnte ich jene Tage nur vergessen, in denen wir unbeschwert durch die blauen Himmel stoben?"
-147,"TEXT_BANOMI004_04604_DRAGONOMI_000_116","Ich möchte dieses Gefühl mit meinen Geschwistern teilen und ihnen diese wunderbare Speise zeigen. Wenngleich wir zu ewigem Schlummer verdammt sind, soll er zumindest erfüllt sein von den Träumen an unsere frühere Welt<Indent/>..."
-148,"TEXT_BANOMI004_04604_N7000_000_117","<ratter> ... <ratter> ... Der Wiegenstern dankt für die positive Bewertung des Spezialmenüs. Bevor weitere Kunden der Drachenspezies im Café begrüßt werden können, wird um Antwort auf die folgende Frage gebeten."
-149,"TEXT_BANOMI004_04604_N7000_000_118","Kann der Kunde gewährleisten, dass seine Artgenossen von Gewalt gegenüber den angestellten Omikron des Wiegensterns absehen werden?"
-150,"TEXT_BANOMI004_04604_DRAGONOMI_000_119","Eisenkrieger<Indent/>... Meine Erinnerungen mögen zurückgekehrt sein, doch lassen wir das Vergangene ruhen. Die Flammen des Verderbens sind erloschen. Ich schwöre beim Stolze meines Volkes, dass unsere Zähne und Klauen ungewetzt bleiben."
-151,"TEXT_BANOMI004_04604_DRAGONOMI_000_120","Nicht einmal der verbittertste Drache Reah Tahras könnte sein Herz vor der tiefen Bedeutung des Friedens an diesem Ort verschließen<Indent/>..."
-152,"TEXT_BANOMI004_04604_N7000_000_121","Zufriedenstellende Antwort >> Kein erhöhtes Risiko für den Café-Betrieb festgestellt. Die Reaktion des Kunden scheint nicht von der Qualität der servierten Speise, sondern vom Einfluss des Wiegensterns auf seine Emotionen ausgelöst worden zu sein. Weitere Analysen dieses Phänomens notwendig<Indent/>... "
-153,"TEXT_BANOMI004_04604_N7000_000_122","Des Weiteren bewertet diese Einheit den Beitrag des Kunden als positiv, obwohl kein gewinnbringender Einfluss auf die Betriebszahlen festgestellt werden konnte<Indent/>... Diese Form der Bewertung ist nicht im Programm vorgesehen. Systemüberprüfung dringend erforderlich<Indent/>... <ratter>"
-154,"TEXT_BANOMI004_04604_JAMMINGWAY_000_123","Blechi, musst du immer so ein kompliziertes Zeug von dir geben? Sag doch einfach mal, dass du dich freust!"
-155,"TEXT_BANOMI004_04604_N7000_000_124","<knirsch> ... Der übermäßig behaarte Gastwirt ist nicht befugt, den Bewertungsmechanismus dieser Einheit zu bewerten. Weitere Kom<SoftHyphen/>mu<SoftHyphen/>ni<SoftHyphen/>ka<SoftHyphen/>tions<SoftHyphen/>ver<SoftHyphen/>su<SoftHyphen/>che bis auf Weiteres abgelehnt. System wird in den Ruhezustand versetzt<Indent/>..."
-156,"TEXT_BANOMI004_04604_JAMMINGWAY_000_125","He, was soll das denn heißen?! Wach sofort wieder auf, du verflixte Klapperkiste!"
-157,"TEXT_BANOMI004_04604_JAMMINGWAY_000_126","Ach, was soll's! Wenigstens haben wir es geschafft, den Drachen vom Wiegenstern zu überzeugen. Jetzt ist es nur noch eine Frage der Zeit, bis das Dynamis auf seine Gefühle reagiert! Das möchte ich nicht verpassen, also auf nach Elysium!"
-158,"TEXT_BANOMI004_04604_Q4_000_000","Zu Plattform A4 reisen?"
-159,"TEXT_BANOMI004_04604_JAMMINGWAY_000_128","Anscheinend haben sich die Gefühle des Drachen schon auf Elysium ausgewirkt. Der Wiegenstern macht seiner Bedeutung als Wiege des Glücks wirklich alle Ehre!"
-160,"TEXT_BANOMI004_04604_N7000_000_127","<knirsch> ... Künftige Interaktionen zwischen Drachen und Omikron müssen eingehend überwacht werden. Eine Beteiligung des Drachenstamms an den Entwicklungen auf Elysium war nicht in den Betriebsplänen vorgesehen. Diese Einheit empfiehlt eine umgehende Überprüfung der Situation, bevor es zu Komplikationen kommt."
-161,"TEXT_BANOMI004_04604_DRAGONOMI_000_300","Die Gipfel reichen hoch und der Wind weht stark<Indent/>... Ob all dies nur meinem grauen Gedächtnis entsprang oder ein wahres Abbild dessen ist, was meinem Volk abhandenkam<Indent/>... Es soll mir gleich sein, denn es ist unsere neue Wirklichkeit."
-162,"TEXT_BANOMI004_04604_SYSTEM_000_301","Die tiefe Sehnsucht des alten Drachen nach der Heimat seines Volkes hat das Dynamis abermals in Schwingungen versetzt. Vor euren Augen erstrecken sich die heiligen Berge, als wären sie niemals zerstört gewesen - und mit ihnen manifestierte sich ein ganzes Nest voll gesunder Dracheneier. "
-163,"TEXT_BANOMI004_04604_SYSTEM_000_302","Doch an anderer Stelle ist der Boden Elysiums noch immer kahl und unberührt. Wird die Kraft der Gefühle stark genug sein, das Dynamis zu erreichen und jeden Winkel des ge<SoftHyphen/>heim<SoftHyphen/>nis<SoftHyphen/>vol<SoftHyphen/>len Sterns erblühen zu lassen?"
-164,"TEXT_BANOMI004_04604_JAMMINGWAY_000_140","Potzmöhre, gleich ein ganzes Gebirge hat uns das Dynamis geschenkt! Das überrascht mich sogar nach all dem, was wir bisher gesehen haben!"
-165,"TEXT_BANOMI004_04604_N7000_000_141","Es ist nicht berechenbar, ob ein Nebeneinander von Omikron und Drachen in Zukunft möglich sein wird. Doch die neuen Materialisierungen stellen keine Bedrohung für Elysium oder den Café-Betrieb dar. Diese Einheit bewertet die Situation als zufriedenstellenden Entwicklungsschritt."
-166,"TEXT_BANOMI004_04604_JAMMINGWAY_000_142","Ein Riesenschritt, wenn du mich fragst! Schließlich haben wir den Wiegenstern gegründet, um <Emphasis>allen</Emphasis> Lebensformen in Ultima Thule ein friedliches Beisammensein zu ermöglichen - damit wart auch ihr und die Drachen gemeint!"
-167,"TEXT_BANOMI004_04604_N7000_000_143","Die Bewertung dieser Einheit und der Optimismus von Gastwirt Jammingway basieren auf unter<SoftHyphen/>schied<SoftHyphen/>lichen Existenzkonzepten. Alle Aktivitäten der Lebensformen in Ultima Thule sind eine auf dieses Raumgebiet beschränkte Simulation des Dynamis. Eine Versöhnung zwischen dem Drachenvolk und der Alphatron-Zivilisation hätte es in der realen Geschichte des Universums niemals geben können. "
-168,"TEXT_BANOMI004_04604_JAMMINGWAY_000_144","Fängst du schon wieder damit an? Wenn man es genau nimmt, sind doch auch wir Loporrit aus Äther geschaffene, künstliche Lebewesen. Trotzdem fühlt, hört und denkt jeder von uns mit seinem eigenen Kopf. Ich würde das keine Simulation nennen."
-169,"TEXT_BANOMI004_04604_JAMMINGWAY_000_145","Und das Gleiche gilt für dich! Du bist der piepende, ratternde, klappernde N<Indent/>-7000! Ist die Anerkennung dieser Tatsache denn nicht Beweis genug dafür, dass du einem ganz realen Existenzprotokoll folgst, so wie ihr Omikron es immer nennt?"
-170,"TEXT_BANOMI004_04604_N7000_000_146","<knirsch> ... Diese Einheit bittet Gastwirt Jammingway, von unqualifizierten Bewertungen unseres Existenzprotokolls abzusehen. Die Diskussion wird hiermit bis auf Weiteres verschoben."
-171,"TEXT_BANOMI004_04604_JAMMINGWAY_000_147","Lassen wir das und danken erst einmal <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> für <If(PlayerParameter(4))>ihre<Else/>seine</If> Hilfe! Du bist <If(PlayerParameter(4))>eine richtige Drachenflüsterin<Else/>ein richtiger Drachenflüsterer</If>! Ist es nicht ein schöner Gedanke, dass die Drachen von Ætheris über das Sternenmeer hinweg ihren Vorfahren helfen konnten?"
-172,"TEXT_BANOMI004_04604_SYSTEM_000_148","Dein Verhältnis zu den Omikron ist auf „Geachtet“ gestiegen. Sie sind beeindruckt von deinem Talent im friedlichen Umgang mit dem Drachenvolk und wollen von dir lernen."
-173,"TEXT_BANOMI004_04604_SYSTEM_000_149","Bei Stigma-4 sind außerdem neue Nebenaufträge der Omikron annehmbar, die du täglich wiederholen kannst."
-174,"TEXT_BANOMI004_04604_SYSTEM_000_150","Als Zeichen des Vertrauens bietet dir Stigma-4 nur heute drei zusätzliche Aufträge an."
-175,"TEXT_BANOMI004_04604_SYSTEM_000_151","Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Omikron-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
-176,"TEXT_BANOMI004_04604_SYSTEM_000_152","Außerdem kannst du bei N-0598 neue Waren für den Verbundenheitsrang „Geachtet“ erwerben."
-177,"TEXT_BANOMI004_04604_N7000_000_056","（★未使用／削除予定★）"
-178,"TEXT_BANOMI004_04604_JAMMINGWAY_100_091","（★未使用／削除予定★）"
+2,TEXT_BANOMI004_04604_SEQ_02,"Tatsächlich haben sich nicht nur die Ea, sondern auch die Miw Miisv unter die Café-Besucher gemischt, und der Betrieb geht sichtlich turbulenter vonstatten als zuvor. Aber das hindert Jammingway nicht daran, bereits die nächsten großen Pläne ins Auge zu fassen: Er möchte versuchen, dem Volk der Drachen den Wiegenstern schmackhaft zu machen. Doch dafür gilt es, erst einmal nach Reah Tahra zu reisen und herauszufinden, ob die Omikron und die Drachen dazu bereit sind, ihre schmerzhafte Geschichte hinter sich zu lassen."
+3,TEXT_BANOMI004_04604_SEQ_03,"Seit deinem letzten Besuch scheint die Melancholie der Drachen sich nicht gelegt zu haben. Ihr sprecht mit einem besonders trübsinnigen Vertreter, der nur wenig für eure Einladung an einen Ort der Hoffnung übrighat. Da kommt Jammingway eine Idee, für die es deiner Hilfe als Drachenflüsterer bedarf: Er bittet dich, bei den Drachen auf Ætheris in Erfahrung zu bringen, was man ihren Artgenossen am Ende des Universums Gutes tun könnte. Begib dich in das Dravanische Vorland und frage die Drachendame Vidofnir um Rat."
+4,TEXT_BANOMI004_04604_SEQ_04,"Nach Rücksprache mit Vidofnir beschließt ihr, ein Gericht zu kochen, das dem wehmütigen Drachen nicht nur geschmacklich, sondern auch visuell die Erinnerungen an sein altes Gestirn wiedergeben kann. Sammle die dafür nötigen Zutaten im Dravanischen Vorland und bringe sie anschließend N-7000 in den Wiegenstern."
+5,TEXT_BANOMI004_04604_SEQ_05,"Jammingway wetzt ein weiteres Mal die Küchen- oder besser gesagt die Skulpturmesser, denn das Ergebnis seiner Kochkünste ist eine essbare Miniaturversion jener grün schimmernden Berge, die von allen Drachen in Reah Tahra sehnsüchtig vermisst werden. Nicht einmal euer wehmütiger Freund kann sich der Nostalgie erwehren, die bei diesem Anblick über ihn hereinbricht. Ob auch seine Gefühle dem Dynamis auf Elysium neue Form verleihen können? Macht euch von Plattform A4 aus gemeinsam auf den Weg, um nachzusehen."
+6,TEXT_BANOMI004_04604_SEQ_06,"Als ihr Elysium erreicht, erstreckt sich vor euren Augen und um alle anderen Gebiete herum eine gigantische, von grünem Gestein durchzogene Bergkette. Abermals hat das Dynamis neues Leben in Form ganzer Nester voller Eier hervorgebracht. Der Trübsinn des alten Drachen scheint wie fortgeblasen und ihr beginnt euch zu fragen, welche neuen Wunder das Wirken des Dynamis wohl als Nächstes für Elysium bereithält. Noch gibt es vieles, was für die Bewohner von Ultima Thule getan werden kann. Stehe N-7000 und Jammingway weiterhin dabei zur Seite."
+7,TEXT_BANOMI004_04604_SEQ_07,
+8,TEXT_BANOMI004_04604_SEQ_08,
+9,TEXT_BANOMI004_04604_SEQ_09,
+10,TEXT_BANOMI004_04604_SEQ_10,
+11,TEXT_BANOMI004_04604_SEQ_11,
+12,TEXT_BANOMI004_04604_SEQ_12,
+13,TEXT_BANOMI004_04604_SEQ_13,
+14,TEXT_BANOMI004_04604_SEQ_14,
+15,TEXT_BANOMI004_04604_SEQ_15,
+16,TEXT_BANOMI004_04604_SEQ_16,
+17,TEXT_BANOMI004_04604_SEQ_17,
+18,TEXT_BANOMI004_04604_SEQ_18,
+19,TEXT_BANOMI004_04604_SEQ_19,
+20,TEXT_BANOMI004_04604_SEQ_20,
+21,TEXT_BANOMI004_04604_SEQ_21,
+22,TEXT_BANOMI004_04604_SEQ_22,
+23,TEXT_BANOMI004_04604_SEQ_23,
+24,TEXT_BANOMI004_04604_TODO_00,Mit Jammingway sprechen
+25,TEXT_BANOMI004_04604_TODO_01,In Reah Tahra mit N-7000 sprechen
+26,TEXT_BANOMI004_04604_TODO_02,Vidofnir im Trinär-Annex aufsuchen
+27,TEXT_BANOMI004_04604_TODO_03,Südwestlich des Trinär-Annexes  abbauen
+28,TEXT_BANOMI004_04604_TODO_04,Mit N-7000 auf Plattform A4 sprechen
+29,TEXT_BANOMI004_04604_TODO_05,
+30,TEXT_BANOMI004_04604_TODO_06,
+31,TEXT_BANOMI004_04604_TODO_07,
+32,TEXT_BANOMI004_04604_TODO_08,
+33,TEXT_BANOMI004_04604_TODO_09,
+34,TEXT_BANOMI004_04604_TODO_10,
+35,TEXT_BANOMI004_04604_TODO_11,
+36,TEXT_BANOMI004_04604_TODO_12,
+37,TEXT_BANOMI004_04604_TODO_13,
+38,TEXT_BANOMI004_04604_TODO_14,
+39,TEXT_BANOMI004_04604_TODO_15,
+40,TEXT_BANOMI004_04604_TODO_16,
+41,TEXT_BANOMI004_04604_TODO_17,
+42,TEXT_BANOMI004_04604_TODO_18,
+43,TEXT_BANOMI004_04604_TODO_19,
+44,TEXT_BANOMI004_04604_TODO_20,
+45,TEXT_BANOMI004_04604_TODO_21,
+46,TEXT_BANOMI004_04604_TODO_22,
+47,TEXT_BANOMI004_04604_TODO_23,
+48,TEXT_BANOMI004_04604_N7000_000_001,"Statusbericht >> Die Akkumulation von Ressourcen aus allen Teilen der Raumregion verläuft komplikationslos. Weiterhin hat das Volk der Ea mit Erforschung und Aufzucht der quallenartigen Lebensform begonnen. Seit ihrer Entstehung bewirkt das Dynamis kontinuierlich Veränderungen, die das Wohlbefinden aller Probanden ansteigen lässt."
+49,TEXT_BANOMI004_04604_JAMMINGWAY_000_002,"Nicht nur die Ea, alle lieben die Miw Miisv! Diese kleinen Wirbelwinde sind immer zu Schabernack aufgelegt und halten den Laden ganz schön auf Trab."
+50,TEXT_BANOMI004_04604_JAMMINGWAY_000_003,"Das solltest du dir ansehen! Kommt, gehen wir in den Wiegenstern!"
+51,TEXT_BANOMI004_04604_Q5_000_000,Zum Wiegenstern reisen?
+52,TEXT_BANOMI004_04604_N7000_000_010,<biep>... Aufgrund der wachsenden Kundenzahl müssen regelmäßig neue Tische aufgestellt werden. Auf Ætheris würde man diese Situation vermutlich als *florierendes Geschäft* bezeichnen.
+53,TEXT_BANOMI004_04604_JAMMINGWAY_000_011,"Was sagst du? Hier ist es ziemlich lebhaft geworden, oder? Aber noch haben wir es nicht geschafft, alle Bewohner von Ultima Thule glücklich zu machen!"
+54,TEXT_BANOMI004_04604_N7000_000_012,"Zustimmung >> Um eine Stagnation der Betriebszahlen zu vermeiden, sollten baldmöglichst weitere Gäste angeworben werden. "
+55,TEXT_BANOMI004_04604_JAMMINGWAY_000_013,"Ich hätte auch schon eine Idee, wer diese Gäste sein könnten ..."
+56,TEXT_BANOMI004_04604_JAMMINGWAY_000_014,"Das Drachenvolk natürlich! Immerhin haben wir jetzt genug Ressourcen zur Verfügung, um auch riesige Bäuche zu füllen!"
+57,TEXT_BANOMI004_04604_N7000_000_015,"<knirsch>... Der übermäßig behaarte Gastwirt darf nicht vergessen, dass das Drachenvolk und die Zivilisation Alphatrons verfeindet sind. Es ist mit unerwünschten Konflikten zu rechnen, wenn sie von der Existenz der Omikron im selben Gebiet des Kosmos erfahren."
+58,TEXT_BANOMI004_04604_JAMMINGWAY_000_016,"Oh? Da benutzt mal jemand seinen Klapperkopf, anstatt nur an die Betriebszahlen zu denken!"
+59,TEXT_BANOMI004_04604_JAMMINGWAY_000_017,"Du hast natürlich Recht. Wenn die Drachen euch immer noch als Feinde betrachten, könnte das negative Auswirkungen auf das Dynamis haben. Ich schlage vor, wir hören uns ihre Meinung persönlich an, bevor wir eine Entscheidung treffen."
+60,TEXT_BANOMI004_04604_N7000_000_018,Vorschlag abgelehnt. Diese Einheit kann das Gebiet des Drachenvolks nicht betreten. Das Risiko einer Aus­einander­set­zung ist zu hoch.
+61,TEXT_BANOMI004_04604_JAMMINGWAY_000_019,"Ach was, du trittst ihnen doch nicht mit gezogener Waffe gegenüber! Warum gehen wir nicht erst einmal hin und du versuchst, selbst mit den Drachen zu sprechen? So hören sie direkt von einem Omikron, dass ihr keine bösen Absichten mehr hegt."
+62,TEXT_BANOMI004_04604_JAMMINGWAY_000_020,"Natürlich kann niemand rückgängig machen, was Alphatron dem Drachenvolk angetan hat. Aber dass es möglich ist, Frieden zu schließen, haben wir an den Karelliern gesehen. Eben gerade *weil* Drachen und Omikron jetzt im selben Teil des Kosmos leben, wäre es für ganz Ultima Thule sicherer, wenn ihr euren Konflikt begraben könntet."
+63,TEXT_BANOMI004_04604_N7000_000_021,"<ratter> ... <ratter> ... Es gibt keine Argumente, die gegen diese Feststellung sprechen. Diese Einheit muss Gastwirt Jammingway zustimmen. Der Vorschlag, ein persönliches Gespräch mit dem Drachenvolk zu führen, wird hiermit akzeptiert."
+64,TEXT_BANOMI004_04604_JAMMINGWAY_000_022,"Dann auf nach Reah Tahra! Keine Bange, Blechi. Player und ich sind ja da, um dich zu beschützen!"
+65,TEXT_BANOMI004_04604_JAMMINGWAY_000_030,S-Seid gegrüßt ... o w-weiser Drache. Wir kommen vom W-Wiegenstern und ...
+66,TEXT_BANOMI004_04604_NIBIRAENOMI_000_031,"Wohin man auch blickt, trieft Ver­zweif­lung aus den Schatten ... Wie das Echo eines Klagelieds rinnt sie ins Wasser, siecht sie in der faulenden Erde. Auch ohne Ra-La wäre dieser Planet dem Tode geweiht. Habt ihr etwa vor, den geflügelten Kreaturen die Erlösung zu verwehren?"
+67,TEXT_BANOMI004_04604_DRAGONOMI_000_029,... ... ...
+68,TEXT_BANOMI004_04604_N7000_000_032,Alle bisherigen Kom­mu­ni­ka­tions­ver­su­che waren erfolglos. Trotz funktionierender audiovisueller Rezeptoren zeigt die Drachen-Einheit keine Reaktion.
+69,TEXT_BANOMI004_04604_JAMMINGWAY_000_033,"W-Weiser Drache, versteht Ihr ... meine Sprache? Also noch einmal, wir kommen vom Wiegenstern und ..."
+70,TEXT_BANOMI004_04604_JAMMINGWAY_000_034,H-Hört Ihr überhaupt zu?! Hier unten! Ich ... Ich rede mit Euch!
+71,TEXT_BANOMI004_04604_DRAGONOMI_000_035,"Jene, die die finstren Nebel vertrieb ... ist diese winzige, geräuschvolle Kreatur Euer Begleiter?"
+72,TEXT_BANOMI004_04604_DRAGONOMI_000_036,"Falls dem so ist, bitte ich Euch, sie mit fortzunehmen. Wir wünschen es nicht, bei unserem Schlummer gestört zu werden. So war es, bevor der Nebel verschwand, und so blieb es, nachdem er verschwunden war. "
+73,TEXT_BANOMI004_04604_JAMMINGWAY_000_037,"Er hat ja doch verstanden, was ich gesagt habe! Dann noch mal von vorn: Werter Drache, wir kommen aus dem Wiegenstern, einem gemütlichen kleinen Café, in dem alle Lebewesen friedlich miteinander speisen können. Wenn es Euch nichts ausmacht, würden wir Euch gerne dorthin einladen!"
+74,TEXT_BANOMI004_04604_JAMMINGWAY_000_038,"Ich weiß, das Drachenvolk hatte es nicht immer leicht mit den Omikron, aber ich kann Euch versichern, dass sie nicht mehr die gleichen Klapperkisten sind wie früher. Alle im Café würden sich sehr über Euren Besuch freuen!"
+75,TEXT_BANOMI004_04604_DRAGONOMI_000_039,"Kleines Wesen ... Was einst geschehen ist, hat für die meisten von uns längst allen Schrecken verloren. Die Wunden der Ver­gangen­heit sind vernarbt und das Blut kalt und vertrocknet, welches vor langer Zeit daraus floss."
+76,TEXT_BANOMI004_04604_DRAGONOMI_000_040,Unser Dasein ist nurmehr ein ewiges Warten auf den erlösenden Schlummer ...
+77,TEXT_BANOMI004_04604_N7000_000_041,Interpretation der Aussage >> Das Existenzprotokoll der Drachen scheint keine weiteren Kriegshandlungen gegenüber der Alphatron-Zivilisation vorzusehen. Folglich wurden alle lebenswichtigen Instinkte durch die Sehnsucht nach dem Tod ersetzt. 
+78,TEXT_BANOMI004_04604_N7000_000_042,"Dieser passive Gemütszustand konnte bereits bei anderen Lebensformen in diesem Raum beobachtet werden. Das Existenzprotokoll des Drachen ist möglicherweise reaktivierbar, indem er sich einem Omikron im Zweikampf stellt. Diese Einheit stellt sich als freiwilliges Testobjekt zur Verfügung."
+79,TEXT_BANOMI004_04604_DRAGONOMI_000_043,Der metallene Krieger fordert mich heraus? Was vermag das schon zu ändern ... Ein Klumpen schwelenden Stahls auf diesem fauligen Boden mehr oder weniger wird meinem Volk nicht seinen Stolz wiederbringen ...
+80,TEXT_BANOMI004_04604_DRAGONOMI_000_044,"Einstmals hatten auch wir einen Ort wie jenen Wiegenstern, von dem ihr sprecht. Dort, am Fuße der heiligen Berge, versammelten sich die Drachen von nah und fern, um gemeinsam ihre Lieder zu singen."
+81,TEXT_BANOMI004_04604_DRAGONOMI_000_045,"Das ist alles, woran ich mich erinnere. Nun sind die Lieder auf ewig verklungen, verrottet im Dunkeln. Und so bleibt uns nichts als ein Andenken bitterer Tränen ..."
+82,TEXT_BANOMI004_04604_N7000_000_046,<ratter> ... Die Versöhnung mit dem Drachenvolk gestaltet sich komplizierter als berechnet. Unter diesen Umständen ist keine Einladung in den Wiegenstern möglich. Empfehlung >> Operation abbrechen.
+83,TEXT_BANOMI004_04604_JAMMINGWAY_000_047,"Aufzugeben kommt überhaupt nicht infrage! Bei den Karelliern war es doch genauso! Sie haben sich bis zum Schluss bekämpft und dann einen gemeinsamen Grund gefunden, Frieden zu schließen. Warum sollte das Gleiche nicht auch für euch und die Drachen gelten?"
+84,TEXT_BANOMI004_04604_JAMMINGWAY_000_048,"Ich glaube fest daran, dass wir ihnen nur den richtigen Anreiz bieten müssen, damit sie dem Café und den Omikron eine Chance geben!"
+85,TEXT_BANOMI004_04604_JAMMINGWAY_000_049,"Außerdem haben wir jemanden an unserer Seite, die schon einmal das Herz der Drachen erreicht und sogar ihren Krieg beendet hat. Ist es nicht so, Player?"
+86,TEXT_BANOMI004_04604_JAMMINGWAY_000_050,"Die Drachen auf Ætheris sind der beste Beweis dafür, dass es möglich ist. Obwohl sie von *diesem* Planeten abstammen und die Ver­zweif­lung des Krieges kennengelernt haben, konnten sie mit den anderen Völkern Frieden schließen."
+87,TEXT_BANOMI004_04604_JAMMINGWAY_000_051,"Daher bitte ich dich, einen deiner Drachenfreunde auf Ætheris um Rat zu fragen. Vielleicht haben sie eine Idee, wie man ihren Vorfahren auf der anderen Seite des Universums wieder Hoffnung schenken kann!"
+88,TEXT_BANOMI004_04604_Q1_000_000,Was sagst du?
+89,TEXT_BANOMI004_04604_A1_000_001,Vrtra hat Erfahrung im Umgang mit anderen Völkern und wird Rat wissen.
+90,TEXT_BANOMI004_04604_A1_000_002,"Wenn jemand für solche Gespräche etwas übrighat, dann Vidofnir."
+91,TEXT_BANOMI004_04604_JAMMINGWAY_100_053,"Der Magistrat von Radz-at-Han?! Ich glaube, einem so vielbeschäftigten Drachen sollten wir lieber kein Klotz an der Pranke sein ..."
+92,TEXT_BANOMI004_04604_JAMMINGWAY_000_053,"Vidofnir? Von dieser Drachin habe ich schon einmal gehört! Sie ist ein Abkömmling des mächtigen Hraesvelgr und lebt in Dravania, richtig?"
+93,TEXT_BANOMI004_04604_JAMMINGWAY_000_054,"Wenn du damit einverstanden bist, werden wir dich begleiten! Es kann nicht schaden, etwas mehr über die Drachen zu lernen, die sich für den Frieden eingesetzt haben."
+94,TEXT_BANOMI004_04604_N7000_000_055,Den Omikron liegen keine Daten zur Historie der Drachen auf Ætheris vor. Der genaue Ablauf dieser Expedition wird daher der Verbündeten überlassen. 
+95,TEXT_BANOMI004_04604_N7000_100_056,"Das Ergebnis wird darüber entscheiden, ob sich die Überzeugungen der Drachen umkehren lassen und ob ein friedliches Miteinander möglich ist. <biep>"
+96,TEXT_BANOMI004_04604_JAMMINGWAY_000_057,Meinetwegen können wir uns sofort auf den Weg machen! 
+97,TEXT_BANOMI004_04604_N7000_000_058,"Diese Einheit wird in Gestalt einer ferngesteuerten Beobachtungs-Drohne an der Operation teilnehmen. Der Hauptkörper verbleibt im Wiegenstern, um eine konstante Beaufsichtigung des Betriebs zu gewährleisten."
+98,TEXT_BANOMI004_04604_JAMMINGWAY_000_059,"Dann ist ja alles geklärt! Auf nach Ætheris, Freunde!"
+99,TEXT_BANOMI004_04604_DRAGONOMI_000_060,"Meine Erinnerung an das, was vor dem Nebel war, ist für immer verblasst ..."
+100,TEXT_BANOMI004_04604_N7000_000_061,"<biep> ... Sollte es besondere Vorkommnisse geben, wird diese Einheit Jammingway über die Drohne davon in Kenntnis setzen."
+101,TEXT_BANOMI004_04604_VIDOFNIR_000_070,"Sei willkommen, Kurzlebige. Wie mir scheint, ist selbst ein Sieg über die Letzten Tage kein Anlass für dich, Rast von deinen Wanderungen zu machen. Was führt dich zu mir?"
+102,TEXT_BANOMI004_04604_VIDOFNIR_000_071,"Es sollte mich nicht überraschen, sonderbare Wesen an deiner Seite zu sehen, Player. Sei auch du willkommen, kleiner Helfer des Planeten. Was dich angeht, eiserner Krieger ..."
+103,TEXT_BANOMI004_04604_VIDOFNIR_000_072,"Es muss die Ironie des Schicksals sein, die uns hier zusammenführt ... War es doch das Feuer deiner Sippe, welches die meinen auf der anderen Seite des Sternenmeeres vertilgte. Mir ist, als stünde ich einem Relikt aus uralter Zeit gegenüber."
+104,TEXT_BANOMI004_04604_VIDOFNIR_100_072,"Immer noch übersteigen die Gräueltaten der Maschinen all meine Vor­stel­lungs­kraft. Allein will ich meinen Argwohn zügeln, da ich weiß, dass du dieses Mal in Frieden zu uns kommst."
+105,TEXT_BANOMI004_04604_VIDOFNIR_000_073,"Doch was mir Player soeben berichtete, schmerzt mich zu hören. Sogar jenseits des Todes, wiedergeboren als Schatten ihrer selbst, ist mein Volk zu Leid verdammt. Wenn irgendetwas in meiner Macht steht, das ihre Last lindern kann, werde ich euch helfen."
+106,TEXT_BANOMI004_04604_N7000_000_074,<ratter> ... Mit derartigen Unterschieden zwischen den Drachen in Ultima Thule und der geflügelten Lebensform hat diese Einheit nicht gerechnet. Trotz eindeutiger genetischer Übereinstimmung sind sie grundlegend verschieden. Es konnten weder Ver­zweif­lung noch ein Wunsch zu sterben festgestellt werden.
+107,TEXT_BANOMI004_04604_N7000_000_075,Auf dem Weg hierher wurde diese Einheit von Jammingway über die Beziehungen der Verbündeten zu den Drachen von Ætheris aufgeklärt.
+108,TEXT_BANOMI004_04604_N7000_000_076,Allianzen solcher Art sind ein äußerst seltenes Phänomen und der Vertrauensgrad zwischen Player und diesem Individuum ist außer­ge­wöhn­lich hoch. Feststellung >> In diesen Breiten des Kosmos scheint *gemeinsame Hoffnung* die Entwicklung positiver Zukunftsereignisse zu begünstigen.
+109,TEXT_BANOMI004_04604_JAMMINGWAY_000_077,"Das ist ja schön und gut, aber wie hilft uns das dabei, den Drachen in Ultima Thule zu helfen? Wenn wir doch wenigstens wüssten, wie wir sie dazu bringen könnten, uns zuzuhören ..."
+110,TEXT_BANOMI004_04604_VIDOFNIR_000_078,"Oh, ein Drache hört alles, was man ihm sagt, kleines Geschöpf. Mehr als am Willen, euch Gehör zu schenken, scheint es meinem betrübten Artgenossen an dem zu mangeln, wofür es sich zuzuhören lohnt - Erinnerungen an die alte Heimat, die sein Herz einst mit Stolz erfüllten."
+111,TEXT_BANOMI004_04604_VIDOFNIR_000_079,"Selbst hier auf Ætheris reichen die Wurzeln unserer Herkunft immer noch tief. So wie einst der große Midgardsormr seiner Brut von der Schönheit des alten Drachensterns erzählte, so gab auch Hraesvelgr diese Erinnerung an seine Nachkommen weiter. "
+112,TEXT_BANOMI004_04604_VIDOFNIR_100_079,"Man sagt, gemeinsam mit Nidhogg habe er Sohm Al als neues Domizil der Drachen auserkoren, weil die umliegenden Gipfel den heiligen Bergen unserer Heimat ähnlich sahen. Deshalb hängt unser aller Herz noch heute so sehr an diesem Ort."
+113,TEXT_BANOMI004_04604_VIDOFNIR_000_080,"Ist die eigene Ver­gangen­heit erst einmal in Schwärze gehüllt, wird es jedem Drachen schwerfallen, einen Sinn in der Zukunft zu sehen. Ihr solltet versuchen, meinem Bruder am Rande des Seins die Pracht der heiligen Gipfel erneut vor Augen zu führen, um ihn aus seinem Schlummer zu wecken."
+114,TEXT_BANOMI004_04604_JAMMINGWAY_000_081,"... Ich glaube, diese heiligen Berge hat er sogar erwähnt. Das bedeutet, wir müssen ein Spezialmenü kreieren, mit dem ihm wieder einfällt, wie sie einmal ausgesehen haben!"
+115,TEXT_BANOMI004_04604_N7000_000_082,"Einwand >> Basierend auf bisherigen Kundendaten haben Geschmack und Geruch artspezifischer Nahrung das Potenzial, unbewusste Erinnerungen zu wecken. Im Unterschied zu anderen Lebensformen besitzt das Drachenvolk jedoch keine eigene Kochkultur."
+116,TEXT_BANOMI004_04604_N7000_000_083,"Daher empfiehlt diese Einheit ein Gericht, das sich statt sensorischer Signale visueller Informationen bedient, um das neuronale Netzwerk des Drachen zu stimulieren."
+117,TEXT_BANOMI004_04604_JAMMINGWAY_000_084,"Hmm ... Ich werde wohl meine gesamte Kreativität zusammenkratzen müssen, was? Aber ich weiß auch schon, wie ich das anstelle!"
+118,TEXT_BANOMI004_04604_JAMMINGWAY_000_085,"In meinem Rezeptbuch aus Sharlayan gibt es Bilder von einer Ishgarder Süßspeise, die so aussehen soll wie die Berge von Sohm Al. Das Rezept dafür könnte ich als Grundlage verwenden!"
+119,TEXT_BANOMI004_04604_VIDOFNIR_000_086,"Der Einfallsreichtum dieser kleinen Kreatur ist bemerkenswert. So lasst mich euch die Fundorte einer Zutat nennen, die mir für euer Vorhaben brauchbar erscheint ..."
+120,TEXT_BANOMI004_04604_VIDOFNIR_000_087,"Begebt euch in den Südwesten des Trinär-Annexes und haltet Ausschau nach einem grünlichen Schimmer. Dort zwischen den Felsspalten schlummert ein Erz, das die Kurzlebigen *Grünquarz* nennen. Unter den Drachen heißt es, seine Farbe glühe ebenso strahlend wie das Leuchten der heiligen Berge."
+121,TEXT_BANOMI004_04604_VIDOFNIR_000_088,"Begebt euch in den Nordosten des Trinär-Annexes und haltet Ausschau nach einer zarten, weißen Blüte. Den Kurzlebigen ist sie schlicht als *Sohm Al-Blüte* bekannt, doch unter den Drachen heißt es, ihre Farbe leuchte so strahlend wie die Blumenwiesen in den Tälern der heiligen Berge."
+122,TEXT_BANOMI004_04604_VIDOFNIR_000_089,"Begebt euch nach Auenfest und angelt am Ufer des Flusses. Darin lebt ein seltener Fisch mit Schuppen so grün, als bestünden sie aus reinem Kristall. Die Kurzlebigen nennen ihn *Malachitbarsch*, doch unter den Drachen heißt es, seine Farbe glühe ebenso strahlend wie das Leuchten der heiligen Berge."
+123,TEXT_BANOMI004_04604_VIDOFNIR_000_090,"Wer in der Kunst des Angelns mit Rute und Schnur bewandert ist, kann versuchen, den Fisch mit dem Laich eines anderen zu ködern."
+124,TEXT_BANOMI004_04604_N7000_100_091,Der physiologische Aufbau der Fischspezies dieses Planeten ähnelt denen in Ultima Thule. Folglich sollte  auch hier als Köder einsetzbar sein. Er kann bei Omikron N-0598 auf Plattform A4 erworben werden.
+125,TEXT_BANOMI004_04604_JAMMINGWAY_000_091,"Vielen Dank, werte Vidofnir! Wenn das sogar den Drachen von Ætheris ihr Zuhause in Erinnerung rufen kann, dann klappt es bestimmt auch mit denen im Wiegenstern. Ich werde das beste Drachenberg-Spezialmenü des ganzen Sternenmeers kreieren!"
+126,TEXT_BANOMI004_04604_N7000_000_092,Diese Einheit und Gastwirt Jammingway warten in Ultima Thule auf die Materiallieferung. Das im Wiegenstern verliebende N-7000 Hauptmodul scheint mit dem Café-Betrieb überlastet zu sein. Von weiteren Erkundungstouren auf Ætheris wird daher abgesehen.
+127,TEXT_BANOMI004_04604_VIDOFNIR_000_095,"Ein ganzes Gestirn vor dem Untergang zu retten, bedarf mehr als bloßem Kampfesmut. Schreite fort wie bisher, meine kurzlebige Freundin, und folge deiner wahren Stärke."
+128,TEXT_BANOMI004_04604_JAMMINGWAY_000_100,"Ich bin so aufgeregt! Es ist das erste Mal, dass ich mir bei der Gestaltung eines Gerichts so viel Mühe geben muss. Hoffentlich wird es dem Drachen gefallen!"
+129,TEXT_BANOMI004_04604_N7000_000_101,"Willkommen zurück im Wiegenstern, Verbündete Player. Konnte das notwendige Material beschafft werden? "
+130,TEXT_BANOMI004_04604_N7000_000_102,"Lieferung wird durchleuchtet >> Menge und Zusammensetzung sind einwandfrei. Keine interplanetare Kontaminationsgefahr. Gastwirt Jammingway wird gebeten, bei der Zubereitung des Gerichts alle über den Drachenplaneten bekannten Daten zu berücksichtigen."
+131,TEXT_BANOMI004_04604_JAMMINGWAY_000_103,"Nichts leichter als das! Ich verwandele die wertvolle Fracht in ein leckeres Gourmet-Kunstwerk! Ihr haltet den Kunden hin, falls es etwas länger dauern sollte, ja?"
+132,TEXT_BANOMI004_04604_DRAGONOMI_000_104,"Eisenkrieger, wohin mein Blick auch schweift ... Niemals wäre mir der Gedanke gekommen, freiwillig das Nest des Feindes aufzusuchen. Doch ich musste meine Zweifel überwinden, als ich hörte, dass ihr meine Geschwister jenseits des dunklen Meeres besucht habt. Zu respektlos wäre es gewesen, ihren Rat abzulehnen ..."
+133,TEXT_BANOMI004_04604_JAMMINGWAY_000_105,"O großer Drache! Ihr seid wirklich gekommen! Bitte, so setzt ... ähm, ich meine, so landet Euch doch!"
+134,TEXT_BANOMI004_04604_DRAGONOMI_000_106,"Ich soll dieses Gebilde verspeisen, sagt ihr ...?"
+135,TEXT_BANOMI004_04604_JAMMINGWAY_000_107,"Bitte, haltet Euch nicht zurück! Die Hauptzutat ist eine Empfehlung der großen Vidofnir, einer Drachin vom Planeten Ætheris. Ich habe dieses Gericht ganz nach ihrer Beschreibung der heiligen Berge des Drachengestirns zubereitet! "
+136,TEXT_BANOMI004_04604_JAMMINGWAY_000_108,"W-Wollt Ihr es nicht kosten ...? Ich hoffe, es ist Euch nicht zu süß ..."
+137,TEXT_BANOMI004_04604_DRAGONOMI_000_109,... ... ...
+138,TEXT_BANOMI004_04604_DRAGONOMI_000_110,"Wie lange mag es her sein, dass diese Zunge etwas mit einem *Geschmack* gekostet hat? Ich erinnere mich nicht daran, ob den Drachen an solchen Dingen gelegen war ..."
+139,TEXT_BANOMI004_04604_DRAGONOMI_000_111,"Eines aber kann ich sagen: Der Anblick dieses Mahls ... berührt mich auf eigentümliche Weise. Je länger ich es anblicke, umso mehr scheinen meine Augen darin zu erkennen."
+140,TEXT_BANOMI004_04604_DRAGONOMI_000_112,"Die steilen Gipfel, durchzogen von Adern leuchtenden Grüns. Ein Wolkenmeer, das schweigend auf den Hängen schläft. Tanzende Schwingen im eiskalten Wind. Meine Heimat, das Land meines Volkes ..."
+141,TEXT_BANOMI004_04604_DRAGONOMI_000_113,"Welche Magie es auch sein mag, die eurem *Café* innewohnt ... Von böser Natur kann sie nicht sein, wenn sie imstande ist, einem mürben alten Drachen wie mir ein solches Geschenk zu machen ..."
+142,TEXT_BANOMI004_04604_DRAGONOMI_000_114,"Ihr seid auf die andere Seite des schwarzen Schleiers gereist, um den Rat meiner Geschwister zu ersuchen. Euren Mühen zum Dank sehe ich nun wieder vor mir, was ich im Dunkeln verloren glaubte ..."
+143,TEXT_BANOMI004_04604_Q2_000_000,Was sagst du?
+144,TEXT_BANOMI004_04604_A2_000_001,"Seid Ihr froh, Eure Erinnerungen wiederzuhaben?"
+145,TEXT_BANOMI004_04604_A2_000_002,Erinnerungen an die eigene Herkunft sind für jeden etwas Unersetzliches. 
+146,TEXT_BANOMI004_04604_DRAGONOMI_000_115,"Aber ja ... Nun, da ich sie wiederhabe, möchte ich diese Freude nicht mehr missen. Wie konnte ich jene Tage nur vergessen, in denen wir unbeschwert durch die blauen Himmel stoben?"
+147,TEXT_BANOMI004_04604_DRAGONOMI_000_116,"Ich möchte dieses Gefühl mit meinen Geschwistern teilen und ihnen diese wunderbare Speise zeigen. Wenngleich wir zu ewigem Schlummer verdammt sind, soll er zumindest erfüllt sein von den Träumen an unsere frühere Welt ..."
+148,TEXT_BANOMI004_04604_N7000_000_117,"<ratter> ... <ratter> ... Der Wiegenstern dankt für die positive Bewertung des Spezialmenüs. Bevor weitere Kunden der Drachenspezies im Café begrüßt werden können, wird um Antwort auf die folgende Frage gebeten."
+149,TEXT_BANOMI004_04604_N7000_000_118,"Kann der Kunde gewährleisten, dass seine Artgenossen von Gewalt gegenüber den angestellten Omikron des Wiegensterns absehen werden?"
+150,TEXT_BANOMI004_04604_DRAGONOMI_000_119,"Eisenkrieger ... Meine Erinnerungen mögen zurückgekehrt sein, doch lassen wir das Vergangene ruhen. Die Flammen des Verderbens sind erloschen. Ich schwöre beim Stolze meines Volkes, dass unsere Zähne und Klauen ungewetzt bleiben."
+151,TEXT_BANOMI004_04604_DRAGONOMI_000_120,Nicht einmal der verbittertste Drache Reah Tahras könnte sein Herz vor der tiefen Bedeutung des Friedens an diesem Ort verschließen ...
+152,TEXT_BANOMI004_04604_N7000_000_121,"Zufriedenstellende Antwort >> Kein erhöhtes Risiko für den Café-Betrieb festgestellt. Die Reaktion des Kunden scheint nicht von der Qualität der servierten Speise, sondern vom Einfluss des Wiegensterns auf seine Emotionen ausgelöst worden zu sein. Weitere Analysen dieses Phänomens notwendig ... "
+153,TEXT_BANOMI004_04604_N7000_000_122,"Des Weiteren bewertet diese Einheit den Beitrag des Kunden als positiv, obwohl kein gewinnbringender Einfluss auf die Betriebszahlen festgestellt werden konnte ... Diese Form der Bewertung ist nicht im Programm vorgesehen. Systemüberprüfung dringend erforderlich ... <ratter>"
+154,TEXT_BANOMI004_04604_JAMMINGWAY_000_123,"Blechi, musst du immer so ein kompliziertes Zeug von dir geben? Sag doch einfach mal, dass du dich freust!"
+155,TEXT_BANOMI004_04604_N7000_000_124,"<knirsch> ... Der übermäßig behaarte Gastwirt ist nicht befugt, den Bewertungsmechanismus dieser Einheit zu bewerten. Weitere Kom­mu­ni­ka­tions­ver­su­che bis auf Weiteres abgelehnt. System wird in den Ruhezustand versetzt ..."
+156,TEXT_BANOMI004_04604_JAMMINGWAY_000_125,"He, was soll das denn heißen?! Wach sofort wieder auf, du verflixte Klapperkiste!"
+157,TEXT_BANOMI004_04604_JAMMINGWAY_000_126,"Ach, was soll's! Wenigstens haben wir es geschafft, den Drachen vom Wiegenstern zu überzeugen. Jetzt ist es nur noch eine Frage der Zeit, bis das Dynamis auf seine Gefühle reagiert! Das möchte ich nicht verpassen, also auf nach Elysium!"
+158,TEXT_BANOMI004_04604_Q4_000_000,Zu Plattform A4 reisen?
+159,TEXT_BANOMI004_04604_JAMMINGWAY_000_128,Anscheinend haben sich die Gefühle des Drachen schon auf Elysium ausgewirkt. Der Wiegenstern macht seiner Bedeutung als Wiege des Glücks wirklich alle Ehre!
+160,TEXT_BANOMI004_04604_N7000_000_127,"<knirsch> ... Künftige Interaktionen zwischen Drachen und Omikron müssen eingehend überwacht werden. Eine Beteiligung des Drachenstamms an den Entwicklungen auf Elysium war nicht in den Betriebsplänen vorgesehen. Diese Einheit empfiehlt eine umgehende Überprüfung der Situation, bevor es zu Komplikationen kommt."
+161,TEXT_BANOMI004_04604_DRAGONOMI_000_300,"Die Gipfel reichen hoch und der Wind weht stark ... Ob all dies nur meinem grauen Gedächtnis entsprang oder ein wahres Abbild dessen ist, was meinem Volk abhandenkam ... Es soll mir gleich sein, denn es ist unsere neue Wirklichkeit."
+162,TEXT_BANOMI004_04604_SYSTEM_000_301,"Die tiefe Sehnsucht des alten Drachen nach der Heimat seines Volkes hat das Dynamis abermals in Schwingungen versetzt. Vor euren Augen erstrecken sich die heiligen Berge, als wären sie niemals zerstört gewesen - und mit ihnen manifestierte sich ein ganzes Nest voll gesunder Dracheneier. "
+163,TEXT_BANOMI004_04604_SYSTEM_000_302,"Doch an anderer Stelle ist der Boden Elysiums noch immer kahl und unberührt. Wird die Kraft der Gefühle stark genug sein, das Dynamis zu erreichen und jeden Winkel des ge­heim­nis­vol­len Sterns erblühen zu lassen?"
+164,TEXT_BANOMI004_04604_JAMMINGWAY_000_140,"Potzmöhre, gleich ein ganzes Gebirge hat uns das Dynamis geschenkt! Das überrascht mich sogar nach all dem, was wir bisher gesehen haben!"
+165,TEXT_BANOMI004_04604_N7000_000_141,"Es ist nicht berechenbar, ob ein Nebeneinander von Omikron und Drachen in Zukunft möglich sein wird. Doch die neuen Materialisierungen stellen keine Bedrohung für Elysium oder den Café-Betrieb dar. Diese Einheit bewertet die Situation als zufriedenstellenden Entwicklungsschritt."
+166,TEXT_BANOMI004_04604_JAMMINGWAY_000_142,"Ein Riesenschritt, wenn du mich fragst! Schließlich haben wir den Wiegenstern gegründet, um *allen* Lebensformen in Ultima Thule ein friedliches Beisammensein zu ermöglichen - damit wart auch ihr und die Drachen gemeint!"
+167,TEXT_BANOMI004_04604_N7000_000_143,Die Bewertung dieser Einheit und der Optimismus von Gastwirt Jammingway basieren auf unter­schied­lichen Existenzkonzepten. Alle Aktivitäten der Lebensformen in Ultima Thule sind eine auf dieses Raumgebiet beschränkte Simulation des Dynamis. Eine Versöhnung zwischen dem Drachenvolk und der Alphatron-Zivilisation hätte es in der realen Geschichte des Universums niemals geben können. 
+168,TEXT_BANOMI004_04604_JAMMINGWAY_000_144,"Fängst du schon wieder damit an? Wenn man es genau nimmt, sind doch auch wir Loporrit aus Äther geschaffene, künstliche Lebewesen. Trotzdem fühlt, hört und denkt jeder von uns mit seinem eigenen Kopf. Ich würde das keine Simulation nennen."
+169,TEXT_BANOMI004_04604_JAMMINGWAY_000_145,"Und das Gleiche gilt für dich! Du bist der piepende, ratternde, klappernde N -7000! Ist die Anerkennung dieser Tatsache denn nicht Beweis genug dafür, dass du einem ganz realen Existenzprotokoll folgst, so wie ihr Omikron es immer nennt?"
+170,TEXT_BANOMI004_04604_N7000_000_146,"<knirsch> ... Diese Einheit bittet Gastwirt Jammingway, von unqualifizierten Bewertungen unseres Existenzprotokolls abzusehen. Die Diskussion wird hiermit bis auf Weiteres verschoben."
+171,TEXT_BANOMI004_04604_JAMMINGWAY_000_147,"Lassen wir das und danken erst einmal Player für ihre Hilfe! Du bist eine richtige Drachenflüsterin! Ist es nicht ein schöner Gedanke, dass die Drachen von Ætheris über das Sternenmeer hinweg ihren Vorfahren helfen konnten?"
+172,TEXT_BANOMI004_04604_SYSTEM_000_148,Dein Verhältnis zu den Omikron ist auf „Geachtet“ gestiegen. Sie sind beeindruckt von deinem Talent im friedlichen Umgang mit dem Drachenvolk und wollen von dir lernen.
+173,TEXT_BANOMI004_04604_SYSTEM_000_149,"Bei Stigma-4 sind außerdem neue Nebenaufträge der Omikron annehmbar, die du täglich wiederholen kannst."
+174,TEXT_BANOMI004_04604_SYSTEM_000_150,Als Zeichen des Vertrauens bietet dir Stigma-4 nur heute drei zusätzliche Aufträge an.
+175,TEXT_BANOMI004_04604_SYSTEM_000_151,"Um die zusätzlichen Aufträge zu erhalten, musst du zuerst alle Omikron-Aufträge annehmen, die vor der Verbesserung der Verbundenheit verfügbar waren. Bitte beachte, dass die Anzahl der Aufträge der Freundesvölker, die du pro Tag spielen kannst, beschränkt ist."
+176,TEXT_BANOMI004_04604_SYSTEM_000_152,Außerdem kannst du bei N-0598 neue Waren für den Verbundenheitsrang „Geachtet“ erwerben.
+177,TEXT_BANOMI004_04604_N7000_000_056,（★未使用／削除予定★）
+178,TEXT_BANOMI004_04604_JAMMINGWAY_100_091,（★未使用／削除予定★）

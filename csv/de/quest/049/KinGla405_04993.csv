@@ -1,148 +1,143 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_KINGLA405_04993_SEQ_00","Shunye möchte dich mit der Lieferung für Uapyota beauftragen."
-1,"TEXT_KINGLA405_04993_SEQ_01","Shunye vertraut dir <SheetDe(EventItem,2,2003661,1,4,1)/> für Uapyota an. Uvlo möchte dich unbedingt begleiten, und so macht ihr euch gemeinsam auf den Weg ins Glanzfeder-Viertel, um die Waren persönlich zu überreichen."
-2,"TEXT_KINGLA405_04993_SEQ_02","Uapyota nimmt eure Lieferung entgegen und entschuldigt sich für ihr Verhalten bei ihrem letzten Besuch in der Apotheke. Uvlo, der sich nach wie vor für die Lebensweise der Shetona interessiert, fängt an, Fragen zu stellen. Als ihr dabei auf Shunye zu sprechen kommt, verrät euch Uapyota, dass ihr Bruder vor knapp fünfzig Jahren seine Familie verloren habe, als sein Heimatdorf durch ungeklärte Umstände zerstört wurde. Plötzlich gerät Uvlo in Panik, als ihm bewusst wird, dass seine Fragen eine Reihe von persönlichen und vertraulichen Informationen über Shunye preisgegeben haben. Er besteht darauf, sich bei Shunye zu entschuldigen und möchte ihm auf Uapyotas Vorschlag hin <SheetDe(Item,5,43913,2,4,1)/> mitbringen. Er bittet dich darum, ihn zu diesem Zweck nach Urqopacha zu begleiten.
+0,TEXT_KINGLA405_04993_SEQ_00,Shunye möchte dich mit der Lieferung für Uapyota beauftragen.
+1,TEXT_KINGLA405_04993_SEQ_01,"Shunye vertraut dir  für Uapyota an. Uvlo möchte dich unbedingt begleiten, und so macht ihr euch gemeinsam auf den Weg ins Glanzfeder-Viertel, um die Waren persönlich zu überreichen."
+2,TEXT_KINGLA405_04993_SEQ_02,"Uapyota nimmt eure Lieferung entgegen und entschuldigt sich für ihr Verhalten bei ihrem letzten Besuch in der Apotheke. Uvlo, der sich nach wie vor für die Lebensweise der Shetona interessiert, fängt an, Fragen zu stellen. Als ihr dabei auf Shunye zu sprechen kommt, verrät euch Uapyota, dass ihr Bruder vor knapp fünfzig Jahren seine Familie verloren habe, als sein Heimatdorf durch ungeklärte Umstände zerstört wurde. Plötzlich gerät Uvlo in Panik, als ihm bewusst wird, dass seine Fragen eine Reihe von persönlichen und vertraulichen Informationen über Shunye preisgegeben haben. Er besteht darauf, sich bei Shunye zu entschuldigen und möchte ihm auf Uapyotas Vorschlag hin  mitbringen. Er bittet dich darum, ihn zu diesem Zweck nach Urqopacha zu begleiten.
 ※ Gärtner finden die Gegenstände in Larh Tortoh, Minenarbeiter bei der Sternentiefe in Urqopacha."
-3,"TEXT_KINGLA405_04993_SEQ_03","Als ihr Shunye das Geschenk überbringt, beruhigt er Uvlos schlechtes Gewissen. Er erzählt euch mehr über die Tragödie, die sein Heimatdorf einst heimgesucht hatte, und über seine Theorie, dass ein Meteorit die Ursache für die Zerstörung gewesen sein muss. Doch außer ein paar mysteriösen Kristallen, die er „blaue Himmelsblüten“ nennt, scheint es keine potenziellen Beweise für seine Theorie zu geben. Obwohl unklar ist, wie er weiter vorgehen will, könnte Shunye schon bald deine Hilfe brauchen, um Licht in dieses Rätsel zu bringen."
-4,"TEXT_KINGLA405_04993_SEQ_04",""
-5,"TEXT_KINGLA405_04993_SEQ_05",""
-6,"TEXT_KINGLA405_04993_SEQ_06",""
-7,"TEXT_KINGLA405_04993_SEQ_07",""
-8,"TEXT_KINGLA405_04993_SEQ_08",""
-9,"TEXT_KINGLA405_04993_SEQ_09",""
-10,"TEXT_KINGLA405_04993_SEQ_10",""
-11,"TEXT_KINGLA405_04993_SEQ_11",""
-12,"TEXT_KINGLA405_04993_SEQ_12",""
-13,"TEXT_KINGLA405_04993_SEQ_13",""
-14,"TEXT_KINGLA405_04993_SEQ_14",""
-15,"TEXT_KINGLA405_04993_SEQ_15",""
-16,"TEXT_KINGLA405_04993_SEQ_16",""
-17,"TEXT_KINGLA405_04993_SEQ_17",""
-18,"TEXT_KINGLA405_04993_SEQ_18",""
-19,"TEXT_KINGLA405_04993_SEQ_19",""
-20,"TEXT_KINGLA405_04993_SEQ_20",""
-21,"TEXT_KINGLA405_04993_SEQ_21",""
-22,"TEXT_KINGLA405_04993_SEQ_22",""
-23,"TEXT_KINGLA405_04993_SEQ_23",""
-24,"TEXT_KINGLA405_04993_TODO_00","Uapyota <SheetDe(EventItem,2,2003661,1,4,1)/> überbringen"
-25,"TEXT_KINGLA405_04993_TODO_01","<If(Equal(PlayerParameter(68),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,5,43913,2,4,1)/>)/> aus der Sternentiefe in Urqopacha sammeln<Else/><Clickable(<SheetDe(Item,5,43913,2,4,1)/>)/> bei Shunye abliefern</If><Else/><If(Equal(PlayerParameter(68),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Clickable(<SheetDe(Item,5,43913,2,4,1)/>)/> in Larh Tortoh sammeln<Else/><Clickable(<SheetDe(Item,5,43913,2,4,1)/>)/> bei Shunye abliefern</If><Else/><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Als <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> oder <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If>
-<SheetDe(Item,5,43913,2,4,1)/> sammeln<Else/>Als <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> oder <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If>
-<SheetDe(Item,5,43913,2,4,1)/> bei Shunye abliefern</If></If></If>"
-26,"TEXT_KINGLA405_04993_TODO_02",""
-27,"TEXT_KINGLA405_04993_TODO_03",""
-28,"TEXT_KINGLA405_04993_TODO_04",""
-29,"TEXT_KINGLA405_04993_TODO_05",""
-30,"TEXT_KINGLA405_04993_TODO_06",""
-31,"TEXT_KINGLA405_04993_TODO_07",""
-32,"TEXT_KINGLA405_04993_TODO_08",""
-33,"TEXT_KINGLA405_04993_TODO_09",""
-34,"TEXT_KINGLA405_04993_TODO_10",""
-35,"TEXT_KINGLA405_04993_TODO_11",""
-36,"TEXT_KINGLA405_04993_TODO_12",""
-37,"TEXT_KINGLA405_04993_TODO_13",""
-38,"TEXT_KINGLA405_04993_TODO_14",""
-39,"TEXT_KINGLA405_04993_TODO_15",""
-40,"TEXT_KINGLA405_04993_TODO_16",""
-41,"TEXT_KINGLA405_04993_TODO_17",""
-42,"TEXT_KINGLA405_04993_TODO_18",""
-43,"TEXT_KINGLA405_04993_TODO_19",""
-44,"TEXT_KINGLA405_04993_TODO_20",""
-45,"TEXT_KINGLA405_04993_TODO_21",""
-46,"TEXT_KINGLA405_04993_TODO_22",""
-47,"TEXT_KINGLA405_04993_TODO_23",""
-48,"TEXT_KINGLA405_04993_UVLO_000_000","Hmm<Indent/>..."
-49,"TEXT_KINGLA405_04993_SHUNYE_000_010","So, ich habe die Lieferung für Uapyota fertiggestellt. Bitte geht behutsam damit um, ja?"
-50,"TEXT_KINGLA405_04993_SHUNYE_000_011","Sie wohnt im Glanzfeder-Viertel, das ist ein Wohngebiet hier in der Stadt. Wenn du nichts dagegen hast, werde ich es auf deiner Karte markieren, damit du dich nicht verläufst."
-51,"TEXT_KINGLA405_04993_UVLO_000_012","Meister Shunye, dürfte ich <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> begleiten? Du hast doch selbst gesagt, ich soll ab und zu mal Pause machen. Und so ein Spaziergang hilft mir bestimmt, mich zu entspannen! "
-52,"TEXT_KINGLA405_04993_SHUNYE_000_013","Unter „Pause“ hatte ich mir eigentlich etwas anderes vorgestellt<Indent/>... Aber wenn du meinst, dass dir das gut tut, dann habe ich nichts dagegen einzuwenden. In dem Fall vertraue ich euch beiden diese Lieferung an."
-53,"TEXT_KINGLA405_04993_UVLO_000_014","Ich hoffe, du hast nichts dagegen, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Komm, machen wir uns gleich auf den Weg!"
-54,"TEXT_KINGLA405_04993_SHUNYE_000_020","Ich weiß, dass meine Schwester keinen besonders guten ersten Eindruck hinterlassen hat, aber ich versichere euch, dass sie normalerweise sehr viel netter und zuvorkommender ist."
-55,"TEXT_KINGLA405_04993_UVLO_000_025","Da sind wir. Ich hoffe, dass Uapyota mit der Qualität der Waren zufrieden sein wird!"
-56,"TEXT_KINGLA405_04993_UAPYOTA_000_030","Moment mal, ihr seid doch Shunyes neue Angestellte, oder nicht? Habt ihr etwa meine Bestellung dabei? Das ging aber erstaunlich schnell!"
-57,"TEXT_KINGLA405_04993_UAPYOTA_000_031","Tatsächlich, scheint alles da zu sein<Indent/>..."
-58,"TEXT_KINGLA405_04993_UAPYOTA_000_032","Ich muss zugeben, dass ich nicht erwartet hätte, dass die Waren von so hoher Qualität sein würden! Mein Bruder hat bei der Wahl seiner Angestellten einen guten Riecher bewiesen!"
-59,"TEXT_KINGLA405_04993_UAPYOTA_000_033","Bitte verzeiht mein Benehmen in der Apotheke letztens. Das war nicht angemessen und ich hoffe, ihr nehmt es mir nicht allzu übel."
-60,"TEXT_KINGLA405_04993_UAPYOTA_000_034","Ich werde mich später auch noch bei Shunye entschuldigen, wenn ich ihm sein Geld bringe. Ich bin froh, dass er so fleißige und verlässliche Helfer gefunden hat<Indent/>... Er ist ein guter Kerl und hat es wirklich verdient. Danke für eure Unterstützung!"
-61,"TEXT_KINGLA405_04993_UVLO_000_035","Sag mal<Indent/>... Als du bei uns in der Apotheke warst, hast du angedeutet, dass es dir lieber wäre, wenn er den Laden aufgeben und die Stadt verlassen würde."
-62,"TEXT_KINGLA405_04993_UVLO_000_036","Darf ich fragen warum? Er hat mir selbst erzählt, dass es heutzutage nicht ungewöhnlich ist, dass Shetona in der Stadt leben."
-63,"TEXT_KINGLA405_04993_UAPYOTA_000_037","Ah, ich dachte mir schon, dass du irgendwie anders bist. Du stammst nicht aus Tural, oder?"
-64,"TEXT_KINGLA405_04993_UAPYOTA_000_038","Und du offensichtlich auch nicht."
-65,"TEXT_KINGLA405_04993_UAPYOTA_000_039","Mein Volk legt großen Wert darauf, im Einklang mit der Natur zu leben, und siedelt sich nur an Orten an, wo das möglich ist. Das bedeutet natürlich auch, dass unsere Dörfer meist recht klein sind."
-66,"TEXT_KINGLA405_04993_UAPYOTA_000_040","Sie werden von unseren Frauen aufgebaut und verwaltet, während unsere Männer umherreisen und die Verbindungen zwischen den einzelnen Dörfern pflegen."
-67,"TEXT_KINGLA405_04993_UAPYOTA_000_041","Familie hat einen sehr hohen Stellenwert in unserer Kultur. Tatsächlich wird eine Familie traditionellerweise erst dann als solche betrachtet, wenn ein Kind geboren wird, das Vater und Mutter miteinander verbindet."
-68,"TEXT_KINGLA405_04993_UAPYOTA_000_042","Die Kinder leben bei ihren Müttern, bis sie alt genug sind, um ihren eigenen Weg zu gehen, während die Väter weiter von Dorf zu Dorf ziehen. Sie sehen ihre Familien nur selten, aber sind darum bemüht, mindestens einmal im Jahr in ihre Heimatdörfer zurückzukehren."
-69,"TEXT_KINGLA405_04993_UAPYOTA_000_043","Auch wenn die gemeinsame Zeit kurz ist, ist sie immer kostbar. So war es auch bei uns damals."
-70,"TEXT_KINGLA405_04993_UAPYOTA_000_044","Wir redeten, bis es dunkel wurde, und tauschten uns über alles aus, was seit unserem letzten Treffen passiert war. Und natürlich berichteten unsere Väter davon, was sie auf ihren Reisen alles erlebt hatten und wie es unseren Freunden in den anderen Dörfern ergangen war. Für uns Kinder war das immer ein ganz besonders spannendes Erlebnis!"
-71,"TEXT_KINGLA405_04993_UAPYOTA_000_045","Wir Shetona haben nicht einen einzelnen Ort, den wir Heimat nennen<Indent/>- alle Dörfer und Regionen, in denen Mitglieder unseres Volkes sich frei entfalten und nach ihren Vorstellungen mit der Natur leben können, zählen dazu. Auf diese Weise fühlen wir uns immer miteinander verbunden, wie die Wurzeln eines großen Baumes."
-72,"TEXT_KINGLA405_04993_UVLO_000_046","Das ist faszinierend<Indent/>... Es ist, als hätten die Shetona und die Viera über unter<SoftHyphen/>schied<SoftHyphen/>liche Wege erstaunlich ähnliche Lebensweisen entwickelt."
-73,"TEXT_KINGLA405_04993_UVLO_000_047","Ich schließe aus deiner Erzählung, dass auch Shunye nicht immer in Tuliyollal gelebt hat?"
-74,"TEXT_KINGLA405_04993_UAPYOTA_000_048","Das stimmt, auch er war mal ein Reisender. Irgendwann gründete er mit einer Shetona aus den nördlichen Bergregionen eine eigene Familie."
-75,"TEXT_KINGLA405_04993_UAPYOTA_000_049","Doch eines Tages, kurz nachdem er das Dorf wieder verlassen hatte, wurde es angegriffen und vollkommen zerstört<Indent/>... Es gab keine Überlebenden."
-76,"TEXT_KINGLA405_04993_UAPYOTA_000_050","Da es somit keine Zeugen gab, bestand keine Möglichkeit, herauszufinden, was wirklich passiert war<Indent/>... Als Shunye an den Ort des Geschehens zurückkehrte, war nichts mehr von seinem Dorf übrig<Indent/>... Alles lag in Schutt und Asche."
-77,"TEXT_KINGLA405_04993_UAPYOTA_000_051","An jenem Tag beschloss Shunye, seinem bisherigen Leben als Reisender ein Ende zu setzen. Das war vor fünfzig Jahren<Indent/>... Seitdem lebt er allein in dieser erdrückenden Stadt und betreibt seine Apotheke, ohne jemals auch nur einen Fuß vor die Tore der Stadt zu setzen."
-78,"TEXT_KINGLA405_04993_UVLO_000_052","M-Moment mal! H-Hast du gerade fünfzig Jahre gesagt?!"
-79,"TEXT_KINGLA405_04993_UVLO_000_053","Wie alt ist er denn dann<Indent/>...?! Wenn ich fragen darf?"
-80,"TEXT_KINGLA405_04993_UAPYOTA_000_054","Er wurde kurz nach der Gründung von Tuliyollal geboren. Also ungefähr achtzig Jahre alt."
-81,"TEXT_KINGLA405_04993_UVLO_000_055","Donnerwetter! Und ich dachte, wir wären ungefähr gleich alt<Indent/>... Wie man sich täuschen kann! Er sieht so viel jünger aus<Indent/>..."
-82,"TEXT_KINGLA405_04993_UVLO_000_056","A-Aber wenn ich darüber nachdenke<Indent/>... Wie konnte ich nur so persönliche Fragen stellen?! Auch noch in seiner Abwesenheit! Oh nein, und jetzt stellt sich auch noch heraus, dass er älter ist als ich<Indent/>... Ich bin ihm doch eigentlich Respekt schuldig!"
-83,"TEXT_KINGLA405_04993_UVLO_000_057","Ich muss ihn umgehend um Verzeihung bitten! Meine Arbeit, meine Bleibe<Indent/>... mein Leben! Alles steht auf dem Spiel!"
-84,"TEXT_KINGLA405_04993_Q1_000_058","Was sagst du?"
-85,"TEXT_KINGLA405_04993_A1_000_059","Jetzt beruhig dich mal wieder, Uvlo."
-86,"TEXT_KINGLA405_04993_A1_000_060","Wie alt bist du denn, Uvlo?"
-87,"TEXT_KINGLA405_04993_UVLO_000_061","Beruhigen?! Hast du nicht gehört? Mein Leben steht auf dem Spiel!"
-88,"TEXT_KINGLA405_04993_UVLO_000_062","Zweiunddreißig<Indent/>... Nicht mal halb so alt wie er! Wie konnte ich nur so danebenliegen?!"
-89,"TEXT_KINGLA405_04993_UVLO_000_063","Du bist doch auch ein Viera! Du müsstest eigentlich wissen, was passiert, wenn man die Älteren nicht respektiert. Geächtet wird man! Das kommt einem sozialen Tod gleich!"
-90,"TEXT_KINGLA405_04993_UVLO_000_064","Du bist doch auch eine Viera! Du müsstest eigentlich wissen, was passiert, wenn wir Männer die Älteren nicht respektieren. Geächtet wird man! Das kommt einem sozialen Tod gleich!"
-91,"TEXT_KINGLA405_04993_UVLO_000_065","Du weißt wahrscheinlich nicht, wie schwer ein solches Fehlverhalten für uns Viera wiegt<Indent/>... Wenn wir Männer die Älteren nicht respektieren, kommt das einem sozialen Tod gleich! Man wird von der gesamten Gemeinschaft geächtet<Indent/>..."
-92,"TEXT_KINGLA405_04993_UVLO_000_066","Ich muss es wieder<SoftHyphen/>gut<SoftHyphen/>machen<Indent/>... Ich muss mich entschuldigen und Shunye meinen aufrichtigen Respekt beweisen! Uapyota, hast du irgendeine Idee, was ich ihm schenken könnte, um ihn milde zu stimmen?"
-93,"TEXT_KINGLA405_04993_UAPYOTA_000_067","Ehrlich gesagt glaube ich nicht, dass das überhaupt notwendig ist<Indent/>... Aber wenn du darauf bestehst, freut er sich vermutlich am meisten über neue Produkte für seine Apotheke, die den Verkauf noch weiter ankurbeln könnten."
-94,"TEXT_KINGLA405_04993_UAPYOTA_000_068","Ein Freund vom Volk der Pelupelu hat mir mal erzählt, dass man im Hochland von Urqopacha viele seltene Pflanzen und Mineralien finden kann. Blumen, die nur alle paar Jahrzehnte blühen, Smaragde mit einzigartigen Mustern und so weiter."
-95,"TEXT_KINGLA405_04993_UVLO_000_069","Also sozusagen wahre <SheetDe(Item,5,43913,2,1,1)/>? Eine großartige Idee! Ich werde umgehend nach Urqopacha reisen und mich auf die Suche machen. Vielen Dank, Uapyota!"
-96,"TEXT_KINGLA405_04993_UVLO_000_070","Ich weiß, dass ich mich selbst in dieses Unglück geritten habe, aber<Indent/>... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, wärst du vielleicht bereit, mich nach Urqopacha zu begleiten? Dein Wissen und deine Erfahrung wären eine große Hilfe! "
-97,"TEXT_KINGLA405_04993_UVLO_000_071","Was sagst du? Du hast dann auf jeden Fall etwas bei mir gut, versprochen!"
-98,"TEXT_KINGLA405_04993_UVLO_000_072","Du bist einfach <If(PlayerParameter(4))>die Beste<Else/>der Beste</If>! Ich schlage vor, dass wir uns wieder in der Apotheke treffen, wenn wir fertig sind mit der Suche!"
-99,"TEXT_KINGLA405_04993_UAPYOTA_000_080","Ich glaube wirklich nicht, dass Uvlo sich Sorgen machen muss. Aber wer weiß, vielleicht färben sein Tatendrang und seine Energie wenigstens positiv auf meinen Bruder ab<Indent/>..."
-100,"TEXT_KINGLA405_04993_UVLO_000_085","Bitte überbringe Meister Shunye die Waren und meine aufrichtige Entschuldigung. Ich würde es selbst tun, aber ich muss in dieser Position bleiben, um Buße zu tun. Das ist ein Brauch, den ich im Fernen Osten gelernt habe. Ich kann nur hoffen, dass Meister Shunye mir verzeihen kann<Indent/>..."
-101,"TEXT_KINGLA405_04993_SHUNYE_000_089","Oh, schon wieder zurück, Uvlo? Ähm, was genau tust du da?"
-102,"TEXT_KINGLA405_04993_SHUNYE_000_090","Ah, da bist du ja wieder. Uvlo hat mir bereits erklärt, warum du etwas später dran bist."
-103,"TEXT_KINGLA405_04993_SHUNYE_000_091","Es gibt so einiges, was ich gerne dazu sagen würde, aber da ihr den weiten Weg auf euch genommen habt, um mir diese Raritäten zu bringen, möchte ich euch zunächst meinen Dank aussprechen."
-104,"TEXT_KINGLA405_04993_SHUNYE_000_092","Das<Indent/>... Puh, ich weiß gar nicht, was ich sagen soll<Indent/>... Uvlos Amethyst neulich war schon beeindruckend, aber das hier<Indent/>... Mir fehlen die Worte. Einfach unglaublich!"
-105,"TEXT_KINGLA405_04993_SHUNYE_000_093","Ich habe von Anfang an geahnt, dass viel Talent in euch beiden schlummert, und das hier hat diese Annahme nun endgültig bekräftigt. Nur die geschicktesten Sammler können Materialien von solch einer Qualität ausfindig machen!"
-106,"TEXT_KINGLA405_04993_SHUNYE_000_094","Uvlo<Indent/>... Ich habe gehört, dass Uapyota dir einiges über die Familientraditionen der Shetona erzählt hat. Unter anderem, dass unsere Kinder bei ihren Müttern bleiben, bis sie in der Lage sind, für sich selbst zu sorgen."
-107,"TEXT_KINGLA405_04993_SHUNYE_000_095","Von ihnen lernen sie auch alle Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten und alles Wissen, das sie brauchen, um ein gutes und sicheres Leben im Einklang mit der Natur führen zu können. Unter den Männern gibt es bei uns keine strenge Hierarchie und keine Meister-Schüler-Beziehungen wie bei euch."
-108,"TEXT_KINGLA405_04993_SHUNYE_000_096","Ich verstehe daher dein Bedürfnis, dich zu entschuldigen, weil du nun mal so erzogen wurdest, und ich weiß diese Geste auch sehr zu schätzen<Indent/>... Aber das ist alles nicht notwendig. Ich wünsche mir, dass wir diese Sache hinter uns lassen können und einfach weitermachen wie bisher. Was sagst du?"
-109,"TEXT_KINGLA405_04993_UVLO_100_096","A-Aber<Indent/>... Ich<Indent/>..."
-110,"TEXT_KINGLA405_04993_UVLO_000_097","In Ordnung, wie du willst. Ich bin einverstanden."
-111,"TEXT_KINGLA405_04993_SHUNYE_000_098","Sehr schön, das freut mich! Na dann<Indent/>... Lasst uns zurück an die Arbeit gehen!"
-112,"TEXT_KINGLA405_04993_UVLO_000_099","Bitte warte einen Moment. Auch wenn du es nicht für notwendig erachtest, möchte ich mich trotzdem dafür entschuldigen, dass ich Uapyota ohne dein Wissen und ohne Erlaubnis Fragen über deine Ver<SoftHyphen/>gangen<SoftHyphen/>heit gestellt habe. Das hätte ich nicht tun dürfen."
-113,"TEXT_KINGLA405_04993_UVLO_000_100","Ich bitte dich aufrichtig um Verzeihung."
-114,"TEXT_KINGLA405_04993_SHUNYE_000_101","Ist schon gut, Uvlo. Es ist nicht so, dass ich meine Ver<SoftHyphen/>gangen<SoftHyphen/>heit bewusst geheim halten wollte."
-115,"TEXT_KINGLA405_04993_SHUNYE_000_102","Was Uapyota dir erzählt hat, ist wahr. Vor fünfzig Jahren habe ich meine Familie verloren und daraufhin aufgehört, durch die Welt zu reisen."
-116,"TEXT_KINGLA405_04993_SHUNYE_000_103","Für die Shetona bedeutet der Tod allerdings nicht das Ende<Indent/>... Er ist ein Teil des Kreislaufs der Natur, des Lebens. Ich hätte es akzeptieren und eine neue Familie gründen sollen, um diesen Kreislauf fortzusetzen<Indent/>... Zumindest, wenn es nach dem Glauben der Shetona geht."
-117,"TEXT_KINGLA405_04993_SHUNYE_000_104","Aber ich konnte es einfach nicht. Nicht, solange die Ursache für den Tod meiner Familie ungeklärt war."
-118,"TEXT_KINGLA405_04993_UVLO_000_105","Wie kann es sein, dass ein ganzes Dorf ausgelöscht wurde, ohne dass die Hintergründe dafür jemals ans Licht gekommen sind<Indent/>...?"
-119,"TEXT_KINGLA405_04993_SHUNYE_000_106","Na ja, „Dorf“ ist eigentlich nicht das richtige Wort<Indent/>... Die Bewohner konnte man an den Fingern einer Hand abzählen. Außerdem lag es ziemlich abgelegen. Um das nächstgelegene Dorf zu erreichen, musste man zwei hohe Berge überqueren."
-120,"TEXT_KINGLA405_04993_SHUNYE_000_107","So gesehen ist es nicht verwunderlich, dass es keine Zeugen für diese Tat gab. Dazu kommt noch, dass das Ausmaß der Zerstörung viel zu groß für eine kleine Räuberbande aus der Region war<Indent/>... Einige munkeln, dass ein Tural Vidraal dafür verantwortlich gewesen sein muss."
-121,"TEXT_KINGLA405_04993_SHUNYE_000_108","Als ich in dem besagten nächstgelegenen Dorf nach Antworten suchte, wurde mir etwas Interessantes erzählt<Indent/>..."
-122,"TEXT_KINGLA405_04993_SHUNYE_000_109","Mehrere Dorfbewohner hatten beobachtet, dass einige Tage vor der Tragödie ein gleißender Lichtstrahl durch den Himmel gejagt war<Indent/>... und zwar in die Richtung des Dorfes, in dem meine Familie lebte."
-123,"TEXT_KINGLA405_04993_SHUNYE_000_110","Als er zwischen den Bergen verschwand, begann die Erde zu beben. Die Bäume schwankten und die Luft füllte sich mit Staub<Indent/>..."
-124,"TEXT_KINGLA405_04993_Q2_000_111","Was sagst du?"
-125,"TEXT_KINGLA405_04993_A2_000_112","Vielleicht ein Meteorit?"
-126,"TEXT_KINGLA405_04993_A2_000_113","Es gibt sicher einen Zauber, mit dem man Sterne vom Himmel fallen lassen kann<Indent/>..."
-127,"TEXT_KINGLA405_04993_SHUNYE_000_114","Ja, das denke ich auch. Nur der Einschlag eines Meteoriten könnte eine solche Verwüstung erklären. "
-128,"TEXT_KINGLA405_04993_SHUNYE_000_115","Ich habe diese Möglichkeit untersucht, aber weder die Hofmagiere noch die weitgereisten Söldner wussten von irgendwelchen Zaubern, die solch eine mutwillige Zerstörung verursachen könnten."
-129,"TEXT_KINGLA405_04993_SHUNYE_000_116","Die einzige Erklärung, die Sinn ergab, war, dass es ein Meteorit gewesen sein muss, der ausgerechnet mein Dorf getroffen hatte<Indent/>..."
-130,"TEXT_KINGLA405_04993_SHUNYE_000_117","Na ja, aber es ist und bleibt nur eine Theorie."
-131,"TEXT_KINGLA405_04993_SHUNYE_000_118","Ich habe lange nach Beweisen gesucht, aber es gab nichts, was mir Gewissheit bringen konnte."
-132,"TEXT_KINGLA405_04993_SHUNYE_000_119","Wartet mal kurz<Indent/>..."
-133,"TEXT_KINGLA405_04993_UVLO_000_120","Was ist das?"
-134,"TEXT_KINGLA405_04993_SHUNYE_000_121","Nach der Katastrophe habe ich mehrere solcher blauen Kristalle auf der verkohlten Erde liegen sehen<Indent/>... Überall verstreut, wie Blütenblätter nach einem Windstoß."
-135,"TEXT_KINGLA405_04993_SHUNYE_000_122","Deswegen nannte ich sie „blaue Himmelsblüten“."
-136,"TEXT_KINGLA405_04993_SHUNYE_000_123","Ich arbeite jetzt schon so lange mit ge<SoftHyphen/>heim<SoftHyphen/>nis<SoftHyphen/>vol<SoftHyphen/>len Materialien und Steinen<Indent/>... Ich traue mir durchaus zu, mehr darüber herauszufinden."
-137,"TEXT_KINGLA405_04993_SHUNYE_000_124","Wenn mein Heimatdorf tatsächlich durch einen Meteoriteneinschlag zerstört wurde, dann muss der Beweis dafür in diesen Kristallen zu finden sein."
-138,"TEXT_KINGLA405_04993_SHUNYE_000_125","Und trotz allem, trotz meiner langjährigen Erfahrung und aller Bemühungen ist es mir bis heute nicht gelungen, Belege für meine Theorie zu sichern."
-139,"TEXT_KINGLA405_04993_SHUNYE_000_126","Vielleicht führt mein sehnsüchtiger Wunsch nach Gewissheit dazu, dass ich Verbindungen sehe, wo gar keine sind<Indent/>..."
-140,"TEXT_KINGLA405_04993_SHUNYE_000_127","Vielleicht ist die Zeit gekommen, endlich aufzugeben<Indent/>..."
-141,"TEXT_KINGLA405_04993_SYSTEM_000_130","Sobald du als <If(PlayerParameter(4))>Gärtnerin<Else/>Gärtner</If> oder <If(PlayerParameter(4))>Mi<SoftHyphen/>nen<SoftHyphen/>ar<SoftHyphen/>bei<SoftHyphen/>te<SoftHyphen/>rin<Else/>Minenarbeiter</If> Stufe 98 erreicht hast, kannst du von Shunye einen neuen Auftrag erhalten."
+3,TEXT_KINGLA405_04993_SEQ_03,"Als ihr Shunye das Geschenk überbringt, beruhigt er Uvlos schlechtes Gewissen. Er erzählt euch mehr über die Tragödie, die sein Heimatdorf einst heimgesucht hatte, und über seine Theorie, dass ein Meteorit die Ursache für die Zerstörung gewesen sein muss. Doch außer ein paar mysteriösen Kristallen, die er „blaue Himmelsblüten“ nennt, scheint es keine potenziellen Beweise für seine Theorie zu geben. Obwohl unklar ist, wie er weiter vorgehen will, könnte Shunye schon bald deine Hilfe brauchen, um Licht in dieses Rätsel zu bringen."
+4,TEXT_KINGLA405_04993_SEQ_04,
+5,TEXT_KINGLA405_04993_SEQ_05,
+6,TEXT_KINGLA405_04993_SEQ_06,
+7,TEXT_KINGLA405_04993_SEQ_07,
+8,TEXT_KINGLA405_04993_SEQ_08,
+9,TEXT_KINGLA405_04993_SEQ_09,
+10,TEXT_KINGLA405_04993_SEQ_10,
+11,TEXT_KINGLA405_04993_SEQ_11,
+12,TEXT_KINGLA405_04993_SEQ_12,
+13,TEXT_KINGLA405_04993_SEQ_13,
+14,TEXT_KINGLA405_04993_SEQ_14,
+15,TEXT_KINGLA405_04993_SEQ_15,
+16,TEXT_KINGLA405_04993_SEQ_16,
+17,TEXT_KINGLA405_04993_SEQ_17,
+18,TEXT_KINGLA405_04993_SEQ_18,
+19,TEXT_KINGLA405_04993_SEQ_19,
+20,TEXT_KINGLA405_04993_SEQ_20,
+21,TEXT_KINGLA405_04993_SEQ_21,
+22,TEXT_KINGLA405_04993_SEQ_22,
+23,TEXT_KINGLA405_04993_SEQ_23,
+24,TEXT_KINGLA405_04993_TODO_00,Uapyota  überbringen
+25,TEXT_KINGLA405_04993_TODO_01, aus der Sternentiefe in Urqopacha sammeln
+26,TEXT_KINGLA405_04993_TODO_02,
+27,TEXT_KINGLA405_04993_TODO_03,
+28,TEXT_KINGLA405_04993_TODO_04,
+29,TEXT_KINGLA405_04993_TODO_05,
+30,TEXT_KINGLA405_04993_TODO_06,
+31,TEXT_KINGLA405_04993_TODO_07,
+32,TEXT_KINGLA405_04993_TODO_08,
+33,TEXT_KINGLA405_04993_TODO_09,
+34,TEXT_KINGLA405_04993_TODO_10,
+35,TEXT_KINGLA405_04993_TODO_11,
+36,TEXT_KINGLA405_04993_TODO_12,
+37,TEXT_KINGLA405_04993_TODO_13,
+38,TEXT_KINGLA405_04993_TODO_14,
+39,TEXT_KINGLA405_04993_TODO_15,
+40,TEXT_KINGLA405_04993_TODO_16,
+41,TEXT_KINGLA405_04993_TODO_17,
+42,TEXT_KINGLA405_04993_TODO_18,
+43,TEXT_KINGLA405_04993_TODO_19,
+44,TEXT_KINGLA405_04993_TODO_20,
+45,TEXT_KINGLA405_04993_TODO_21,
+46,TEXT_KINGLA405_04993_TODO_22,
+47,TEXT_KINGLA405_04993_TODO_23,
+48,TEXT_KINGLA405_04993_UVLO_000_000,Hmm ...
+49,TEXT_KINGLA405_04993_SHUNYE_000_010,"So, ich habe die Lieferung für Uapyota fertiggestellt. Bitte geht behutsam damit um, ja?"
+50,TEXT_KINGLA405_04993_SHUNYE_000_011,"Sie wohnt im Glanzfeder-Viertel, das ist ein Wohngebiet hier in der Stadt. Wenn du nichts dagegen hast, werde ich es auf deiner Karte markieren, damit du dich nicht verläufst."
+51,TEXT_KINGLA405_04993_UVLO_000_012,"Meister Shunye, dürfte ich Player begleiten? Du hast doch selbst gesagt, ich soll ab und zu mal Pause machen. Und so ein Spaziergang hilft mir bestimmt, mich zu entspannen! "
+52,TEXT_KINGLA405_04993_SHUNYE_000_013,"Unter „Pause“ hatte ich mir eigentlich etwas anderes vorgestellt ... Aber wenn du meinst, dass dir das gut tut, dann habe ich nichts dagegen einzuwenden. In dem Fall vertraue ich euch beiden diese Lieferung an."
+53,TEXT_KINGLA405_04993_UVLO_000_014,"Ich hoffe, du hast nichts dagegen, Player. Komm, machen wir uns gleich auf den Weg!"
+54,TEXT_KINGLA405_04993_SHUNYE_000_020,"Ich weiß, dass meine Schwester keinen besonders guten ersten Eindruck hinterlassen hat, aber ich versichere euch, dass sie normalerweise sehr viel netter und zuvorkommender ist."
+55,TEXT_KINGLA405_04993_UVLO_000_025,"Da sind wir. Ich hoffe, dass Uapyota mit der Qualität der Waren zufrieden sein wird!"
+56,TEXT_KINGLA405_04993_UAPYOTA_000_030,"Moment mal, ihr seid doch Shunyes neue Angestellte, oder nicht? Habt ihr etwa meine Bestellung dabei? Das ging aber erstaunlich schnell!"
+57,TEXT_KINGLA405_04993_UAPYOTA_000_031,"Tatsächlich, scheint alles da zu sein ..."
+58,TEXT_KINGLA405_04993_UAPYOTA_000_032,"Ich muss zugeben, dass ich nicht erwartet hätte, dass die Waren von so hoher Qualität sein würden! Mein Bruder hat bei der Wahl seiner Angestellten einen guten Riecher bewiesen!"
+59,TEXT_KINGLA405_04993_UAPYOTA_000_033,"Bitte verzeiht mein Benehmen in der Apotheke letztens. Das war nicht angemessen und ich hoffe, ihr nehmt es mir nicht allzu übel."
+60,TEXT_KINGLA405_04993_UAPYOTA_000_034,"Ich werde mich später auch noch bei Shunye entschuldigen, wenn ich ihm sein Geld bringe. Ich bin froh, dass er so fleißige und verlässliche Helfer gefunden hat ... Er ist ein guter Kerl und hat es wirklich verdient. Danke für eure Unterstützung!"
+61,TEXT_KINGLA405_04993_UVLO_000_035,"Sag mal ... Als du bei uns in der Apotheke warst, hast du angedeutet, dass es dir lieber wäre, wenn er den Laden aufgeben und die Stadt verlassen würde."
+62,TEXT_KINGLA405_04993_UVLO_000_036,"Darf ich fragen warum? Er hat mir selbst erzählt, dass es heutzutage nicht ungewöhnlich ist, dass Shetona in der Stadt leben."
+63,TEXT_KINGLA405_04993_UAPYOTA_000_037,"Ah, ich dachte mir schon, dass du irgendwie anders bist. Du stammst nicht aus Tural, oder?"
+64,TEXT_KINGLA405_04993_UAPYOTA_000_038,Und du offensichtlich auch nicht.
+65,TEXT_KINGLA405_04993_UAPYOTA_000_039,"Mein Volk legt großen Wert darauf, im Einklang mit der Natur zu leben, und siedelt sich nur an Orten an, wo das möglich ist. Das bedeutet natürlich auch, dass unsere Dörfer meist recht klein sind."
+66,TEXT_KINGLA405_04993_UAPYOTA_000_040,"Sie werden von unseren Frauen aufgebaut und verwaltet, während unsere Männer umherreisen und die Verbindungen zwischen den einzelnen Dörfern pflegen."
+67,TEXT_KINGLA405_04993_UAPYOTA_000_041,"Familie hat einen sehr hohen Stellenwert in unserer Kultur. Tatsächlich wird eine Familie traditionellerweise erst dann als solche betrachtet, wenn ein Kind geboren wird, das Vater und Mutter miteinander verbindet."
+68,TEXT_KINGLA405_04993_UAPYOTA_000_042,"Die Kinder leben bei ihren Müttern, bis sie alt genug sind, um ihren eigenen Weg zu gehen, während die Väter weiter von Dorf zu Dorf ziehen. Sie sehen ihre Familien nur selten, aber sind darum bemüht, mindestens einmal im Jahr in ihre Heimatdörfer zurückzukehren."
+69,TEXT_KINGLA405_04993_UAPYOTA_000_043,"Auch wenn die gemeinsame Zeit kurz ist, ist sie immer kostbar. So war es auch bei uns damals."
+70,TEXT_KINGLA405_04993_UAPYOTA_000_044,"Wir redeten, bis es dunkel wurde, und tauschten uns über alles aus, was seit unserem letzten Treffen passiert war. Und natürlich berichteten unsere Väter davon, was sie auf ihren Reisen alles erlebt hatten und wie es unseren Freunden in den anderen Dörfern ergangen war. Für uns Kinder war das immer ein ganz besonders spannendes Erlebnis!"
+71,TEXT_KINGLA405_04993_UAPYOTA_000_045,"Wir Shetona haben nicht einen einzelnen Ort, den wir Heimat nennen - alle Dörfer und Regionen, in denen Mitglieder unseres Volkes sich frei entfalten und nach ihren Vorstellungen mit der Natur leben können, zählen dazu. Auf diese Weise fühlen wir uns immer miteinander verbunden, wie die Wurzeln eines großen Baumes."
+72,TEXT_KINGLA405_04993_UVLO_000_046,"Das ist faszinierend ... Es ist, als hätten die Shetona und die Viera über unter­schied­liche Wege erstaunlich ähnliche Lebensweisen entwickelt."
+73,TEXT_KINGLA405_04993_UVLO_000_047,"Ich schließe aus deiner Erzählung, dass auch Shunye nicht immer in Tuliyollal gelebt hat?"
+74,TEXT_KINGLA405_04993_UAPYOTA_000_048,"Das stimmt, auch er war mal ein Reisender. Irgendwann gründete er mit einer Shetona aus den nördlichen Bergregionen eine eigene Familie."
+75,TEXT_KINGLA405_04993_UAPYOTA_000_049,"Doch eines Tages, kurz nachdem er das Dorf wieder verlassen hatte, wurde es angegriffen und vollkommen zerstört ... Es gab keine Überlebenden."
+76,TEXT_KINGLA405_04993_UAPYOTA_000_050,"Da es somit keine Zeugen gab, bestand keine Möglichkeit, herauszufinden, was wirklich passiert war ... Als Shunye an den Ort des Geschehens zurückkehrte, war nichts mehr von seinem Dorf übrig ... Alles lag in Schutt und Asche."
+77,TEXT_KINGLA405_04993_UAPYOTA_000_051,"An jenem Tag beschloss Shunye, seinem bisherigen Leben als Reisender ein Ende zu setzen. Das war vor fünfzig Jahren ... Seitdem lebt er allein in dieser erdrückenden Stadt und betreibt seine Apotheke, ohne jemals auch nur einen Fuß vor die Tore der Stadt zu setzen."
+78,TEXT_KINGLA405_04993_UVLO_000_052,M-Moment mal! H-Hast du gerade fünfzig Jahre gesagt?!
+79,TEXT_KINGLA405_04993_UVLO_000_053,Wie alt ist er denn dann ...?! Wenn ich fragen darf?
+80,TEXT_KINGLA405_04993_UAPYOTA_000_054,Er wurde kurz nach der Gründung von Tuliyollal geboren. Also ungefähr achtzig Jahre alt.
+81,TEXT_KINGLA405_04993_UVLO_000_055,"Donnerwetter! Und ich dachte, wir wären ungefähr gleich alt ... Wie man sich täuschen kann! Er sieht so viel jünger aus ..."
+82,TEXT_KINGLA405_04993_UVLO_000_056,"A-Aber wenn ich darüber nachdenke ... Wie konnte ich nur so persönliche Fragen stellen?! Auch noch in seiner Abwesenheit! Oh nein, und jetzt stellt sich auch noch heraus, dass er älter ist als ich ... Ich bin ihm doch eigentlich Respekt schuldig!"
+83,TEXT_KINGLA405_04993_UVLO_000_057,"Ich muss ihn umgehend um Verzeihung bitten! Meine Arbeit, meine Bleibe ... mein Leben! Alles steht auf dem Spiel!"
+84,TEXT_KINGLA405_04993_Q1_000_058,Was sagst du?
+85,TEXT_KINGLA405_04993_A1_000_059,"Jetzt beruhig dich mal wieder, Uvlo."
+86,TEXT_KINGLA405_04993_A1_000_060,"Wie alt bist du denn, Uvlo?"
+87,TEXT_KINGLA405_04993_UVLO_000_061,Beruhigen?! Hast du nicht gehört? Mein Leben steht auf dem Spiel!
+88,TEXT_KINGLA405_04993_UVLO_000_062,Zweiunddreißig ... Nicht mal halb so alt wie er! Wie konnte ich nur so danebenliegen?!
+89,TEXT_KINGLA405_04993_UVLO_000_063,"Du bist doch auch ein Viera! Du müsstest eigentlich wissen, was passiert, wenn man die Älteren nicht respektiert. Geächtet wird man! Das kommt einem sozialen Tod gleich!"
+90,TEXT_KINGLA405_04993_UVLO_000_064,"Du bist doch auch eine Viera! Du müsstest eigentlich wissen, was passiert, wenn wir Männer die Älteren nicht respektieren. Geächtet wird man! Das kommt einem sozialen Tod gleich!"
+91,TEXT_KINGLA405_04993_UVLO_000_065,"Du weißt wahrscheinlich nicht, wie schwer ein solches Fehlverhalten für uns Viera wiegt ... Wenn wir Männer die Älteren nicht respektieren, kommt das einem sozialen Tod gleich! Man wird von der gesamten Gemeinschaft geächtet ..."
+92,TEXT_KINGLA405_04993_UVLO_000_066,"Ich muss es wieder­gut­machen ... Ich muss mich entschuldigen und Shunye meinen aufrichtigen Respekt beweisen! Uapyota, hast du irgendeine Idee, was ich ihm schenken könnte, um ihn milde zu stimmen?"
+93,TEXT_KINGLA405_04993_UAPYOTA_000_067,"Ehrlich gesagt glaube ich nicht, dass das überhaupt notwendig ist ... Aber wenn du darauf bestehst, freut er sich vermutlich am meisten über neue Produkte für seine Apotheke, die den Verkauf noch weiter ankurbeln könnten."
+94,TEXT_KINGLA405_04993_UAPYOTA_000_068,"Ein Freund vom Volk der Pelupelu hat mir mal erzählt, dass man im Hochland von Urqopacha viele seltene Pflanzen und Mineralien finden kann. Blumen, die nur alle paar Jahrzehnte blühen, Smaragde mit einzigartigen Mustern und so weiter."
+95,TEXT_KINGLA405_04993_UVLO_000_069,"Also sozusagen wahre ? Eine großartige Idee! Ich werde umgehend nach Urqopacha reisen und mich auf die Suche machen. Vielen Dank, Uapyota!"
+96,TEXT_KINGLA405_04993_UVLO_000_070,"Ich weiß, dass ich mich selbst in dieses Unglück geritten habe, aber ... Player, wärst du vielleicht bereit, mich nach Urqopacha zu begleiten? Dein Wissen und deine Erfahrung wären eine große Hilfe! "
+97,TEXT_KINGLA405_04993_UVLO_000_071,"Was sagst du? Du hast dann auf jeden Fall etwas bei mir gut, versprochen!"
+98,TEXT_KINGLA405_04993_UVLO_000_072,"Du bist einfach die Beste! Ich schlage vor, dass wir uns wieder in der Apotheke treffen, wenn wir fertig sind mit der Suche!"
+99,TEXT_KINGLA405_04993_UAPYOTA_000_080,"Ich glaube wirklich nicht, dass Uvlo sich Sorgen machen muss. Aber wer weiß, vielleicht färben sein Tatendrang und seine Energie wenigstens positiv auf meinen Bruder ab ..."
+100,TEXT_KINGLA405_04993_UVLO_000_085,"Bitte überbringe Meister Shunye die Waren und meine aufrichtige Entschuldigung. Ich würde es selbst tun, aber ich muss in dieser Position bleiben, um Buße zu tun. Das ist ein Brauch, den ich im Fernen Osten gelernt habe. Ich kann nur hoffen, dass Meister Shunye mir verzeihen kann ..."
+101,TEXT_KINGLA405_04993_SHUNYE_000_089,"Oh, schon wieder zurück, Uvlo? Ähm, was genau tust du da?"
+102,TEXT_KINGLA405_04993_SHUNYE_000_090,"Ah, da bist du ja wieder. Uvlo hat mir bereits erklärt, warum du etwas später dran bist."
+103,TEXT_KINGLA405_04993_SHUNYE_000_091,"Es gibt so einiges, was ich gerne dazu sagen würde, aber da ihr den weiten Weg auf euch genommen habt, um mir diese Raritäten zu bringen, möchte ich euch zunächst meinen Dank aussprechen."
+104,TEXT_KINGLA405_04993_SHUNYE_000_092,"Das ... Puh, ich weiß gar nicht, was ich sagen soll ... Uvlos Amethyst neulich war schon beeindruckend, aber das hier ... Mir fehlen die Worte. Einfach unglaublich!"
+105,TEXT_KINGLA405_04993_SHUNYE_000_093,"Ich habe von Anfang an geahnt, dass viel Talent in euch beiden schlummert, und das hier hat diese Annahme nun endgültig bekräftigt. Nur die geschicktesten Sammler können Materialien von solch einer Qualität ausfindig machen!"
+106,TEXT_KINGLA405_04993_SHUNYE_000_094,"Uvlo ... Ich habe gehört, dass Uapyota dir einiges über die Familientraditionen der Shetona erzählt hat. Unter anderem, dass unsere Kinder bei ihren Müttern bleiben, bis sie in der Lage sind, für sich selbst zu sorgen."
+107,TEXT_KINGLA405_04993_SHUNYE_000_095,"Von ihnen lernen sie auch alle Fä­hig­kei­ten und alles Wissen, das sie brauchen, um ein gutes und sicheres Leben im Einklang mit der Natur führen zu können. Unter den Männern gibt es bei uns keine strenge Hierarchie und keine Meister-Schüler-Beziehungen wie bei euch."
+108,TEXT_KINGLA405_04993_SHUNYE_000_096,"Ich verstehe daher dein Bedürfnis, dich zu entschuldigen, weil du nun mal so erzogen wurdest, und ich weiß diese Geste auch sehr zu schätzen ... Aber das ist alles nicht notwendig. Ich wünsche mir, dass wir diese Sache hinter uns lassen können und einfach weitermachen wie bisher. Was sagst du?"
+109,TEXT_KINGLA405_04993_UVLO_100_096,A-Aber ... Ich ...
+110,TEXT_KINGLA405_04993_UVLO_000_097,"In Ordnung, wie du willst. Ich bin einverstanden."
+111,TEXT_KINGLA405_04993_SHUNYE_000_098,"Sehr schön, das freut mich! Na dann ... Lasst uns zurück an die Arbeit gehen!"
+112,TEXT_KINGLA405_04993_UVLO_000_099,"Bitte warte einen Moment. Auch wenn du es nicht für notwendig erachtest, möchte ich mich trotzdem dafür entschuldigen, dass ich Uapyota ohne dein Wissen und ohne Erlaubnis Fragen über deine Ver­gangen­heit gestellt habe. Das hätte ich nicht tun dürfen."
+113,TEXT_KINGLA405_04993_UVLO_000_100,Ich bitte dich aufrichtig um Verzeihung.
+114,TEXT_KINGLA405_04993_SHUNYE_000_101,"Ist schon gut, Uvlo. Es ist nicht so, dass ich meine Ver­gangen­heit bewusst geheim halten wollte."
+115,TEXT_KINGLA405_04993_SHUNYE_000_102,"Was Uapyota dir erzählt hat, ist wahr. Vor fünfzig Jahren habe ich meine Familie verloren und daraufhin aufgehört, durch die Welt zu reisen."
+116,TEXT_KINGLA405_04993_SHUNYE_000_103,"Für die Shetona bedeutet der Tod allerdings nicht das Ende ... Er ist ein Teil des Kreislaufs der Natur, des Lebens. Ich hätte es akzeptieren und eine neue Familie gründen sollen, um diesen Kreislauf fortzusetzen ... Zumindest, wenn es nach dem Glauben der Shetona geht."
+117,TEXT_KINGLA405_04993_SHUNYE_000_104,"Aber ich konnte es einfach nicht. Nicht, solange die Ursache für den Tod meiner Familie ungeklärt war."
+118,TEXT_KINGLA405_04993_UVLO_000_105,"Wie kann es sein, dass ein ganzes Dorf ausgelöscht wurde, ohne dass die Hintergründe dafür jemals ans Licht gekommen sind ...?"
+119,TEXT_KINGLA405_04993_SHUNYE_000_106,"Na ja, „Dorf“ ist eigentlich nicht das richtige Wort ... Die Bewohner konnte man an den Fingern einer Hand abzählen. Außerdem lag es ziemlich abgelegen. Um das nächstgelegene Dorf zu erreichen, musste man zwei hohe Berge überqueren."
+120,TEXT_KINGLA405_04993_SHUNYE_000_107,"So gesehen ist es nicht verwunderlich, dass es keine Zeugen für diese Tat gab. Dazu kommt noch, dass das Ausmaß der Zerstörung viel zu groß für eine kleine Räuberbande aus der Region war ... Einige munkeln, dass ein Tural Vidraal dafür verantwortlich gewesen sein muss."
+121,TEXT_KINGLA405_04993_SHUNYE_000_108,"Als ich in dem besagten nächstgelegenen Dorf nach Antworten suchte, wurde mir etwas Interessantes erzählt ..."
+122,TEXT_KINGLA405_04993_SHUNYE_000_109,"Mehrere Dorfbewohner hatten beobachtet, dass einige Tage vor der Tragödie ein gleißender Lichtstrahl durch den Himmel gejagt war ... und zwar in die Richtung des Dorfes, in dem meine Familie lebte."
+123,TEXT_KINGLA405_04993_SHUNYE_000_110,"Als er zwischen den Bergen verschwand, begann die Erde zu beben. Die Bäume schwankten und die Luft füllte sich mit Staub ..."
+124,TEXT_KINGLA405_04993_Q2_000_111,Was sagst du?
+125,TEXT_KINGLA405_04993_A2_000_112,Vielleicht ein Meteorit?
+126,TEXT_KINGLA405_04993_A2_000_113,"Es gibt sicher einen Zauber, mit dem man Sterne vom Himmel fallen lassen kann ..."
+127,TEXT_KINGLA405_04993_SHUNYE_000_114,"Ja, das denke ich auch. Nur der Einschlag eines Meteoriten könnte eine solche Verwüstung erklären. "
+128,TEXT_KINGLA405_04993_SHUNYE_000_115,"Ich habe diese Möglichkeit untersucht, aber weder die Hofmagiere noch die weitgereisten Söldner wussten von irgendwelchen Zaubern, die solch eine mutwillige Zerstörung verursachen könnten."
+129,TEXT_KINGLA405_04993_SHUNYE_000_116,"Die einzige Erklärung, die Sinn ergab, war, dass es ein Meteorit gewesen sein muss, der ausgerechnet mein Dorf getroffen hatte ..."
+130,TEXT_KINGLA405_04993_SHUNYE_000_117,"Na ja, aber es ist und bleibt nur eine Theorie."
+131,TEXT_KINGLA405_04993_SHUNYE_000_118,"Ich habe lange nach Beweisen gesucht, aber es gab nichts, was mir Gewissheit bringen konnte."
+132,TEXT_KINGLA405_04993_SHUNYE_000_119,Wartet mal kurz ...
+133,TEXT_KINGLA405_04993_UVLO_000_120,Was ist das?
+134,TEXT_KINGLA405_04993_SHUNYE_000_121,"Nach der Katastrophe habe ich mehrere solcher blauen Kristalle auf der verkohlten Erde liegen sehen ... Überall verstreut, wie Blütenblätter nach einem Windstoß."
+135,TEXT_KINGLA405_04993_SHUNYE_000_122,Deswegen nannte ich sie „blaue Himmelsblüten“.
+136,TEXT_KINGLA405_04993_SHUNYE_000_123,"Ich arbeite jetzt schon so lange mit ge­heim­nis­vol­len Materialien und Steinen ... Ich traue mir durchaus zu, mehr darüber herauszufinden."
+137,TEXT_KINGLA405_04993_SHUNYE_000_124,"Wenn mein Heimatdorf tatsächlich durch einen Meteoriteneinschlag zerstört wurde, dann muss der Beweis dafür in diesen Kristallen zu finden sein."
+138,TEXT_KINGLA405_04993_SHUNYE_000_125,"Und trotz allem, trotz meiner langjährigen Erfahrung und aller Bemühungen ist es mir bis heute nicht gelungen, Belege für meine Theorie zu sichern."
+139,TEXT_KINGLA405_04993_SHUNYE_000_126,"Vielleicht führt mein sehnsüchtiger Wunsch nach Gewissheit dazu, dass ich Verbindungen sehe, wo gar keine sind ..."
+140,TEXT_KINGLA405_04993_SHUNYE_000_127,"Vielleicht ist die Zeit gekommen, endlich aufzugeben ..."
+141,TEXT_KINGLA405_04993_SYSTEM_000_130,"Sobald du als Gärtnerin oder Mi­nen­ar­bei­te­rin Stufe 98 erreicht hast, kannst du von Shunye einen neuen Auftrag erhalten."

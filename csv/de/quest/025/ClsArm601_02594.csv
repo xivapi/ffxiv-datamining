@@ -1,93 +1,90 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CLSARM601_02594_SEQ_00","H'naanza wirkt ein wenig besorgt."
-1,"TEXT_CLSARM601_02594_SEQ_01","Was bisher geschah:
+0,TEXT_CLSARM601_02594_SEQ_00,H'naanza wirkt ein wenig besorgt.
+1,TEXT_CLSARM601_02594_SEQ_01,"Was bisher geschah:
 
 Während seiner Arbeiten für eine Abenteurertruppe wird dem begabten Plattner Blanstyr allmählich klar, dass gesunde Konkurrenz zwar gut, Zusammenarbeit aber auch nicht so schlecht ist. Für einen Moment scheint es, als wäre seine ewige Rivalität mit der Gildenmeisterin H'naanza vergessen, doch der Friede währt leider nicht lange.
 
 　　　　　　　　　　　　*　*　*
 
 H'naanza eröffnet dir, dass Blanstyr vorhat, aus der Plattnergilde auszutreten. Seine Gründe kennt sie allerdings nicht und bittet dich daher, mal mit dem Roegadyn zu reden. Er steht wie immer lässig an das Gildengebäude gelehnt."
-2,"TEXT_CLSARM601_02594_SEQ_02","Blanstyr findet, dass seine Kreationen nicht originell genug sind und erhofft sich Inspiration im Fernen Osten. Da es eine längere Reise werden könnte, während der er keine Aufträge für die Gilde erfüllen kann, will er diese verlassen. Berichte H'naanza, was du herausgefunden hast."
-3,"TEXT_CLSARM601_02594_SEQ_03","H'naanza bietet Blanstyr an, sich für eine Weile beurlauben zu lassen. Ein Angebot, das der impulsive Plattner sofort annimmt. Die Gildenmeisterin macht sich zwar Sorgen um ihren besten Mann, will die Lage aber erst mal beobachten. Wenn sich etwas tut, so verspricht sie dir, erfährst du es als <If(PlayerParameter(4))>Erste<Else/>Erster</If>.
+2,TEXT_CLSARM601_02594_SEQ_02,"Blanstyr findet, dass seine Kreationen nicht originell genug sind und erhofft sich Inspiration im Fernen Osten. Da es eine längere Reise werden könnte, während der er keine Aufträge für die Gilde erfüllen kann, will er diese verlassen. Berichte H'naanza, was du herausgefunden hast."
+3,TEXT_CLSARM601_02594_SEQ_03,"H'naanza bietet Blanstyr an, sich für eine Weile beurlauben zu lassen. Ein Angebot, das der impulsive Plattner sofort annimmt. Die Gildenmeisterin macht sich zwar Sorgen um ihren besten Mann, will die Lage aber erst mal beobachten. Wenn sich etwas tut, so verspricht sie dir, erfährst du es als Erste.
 
-※ Sobald du als Plattner<If(PlayerParameter(4))>in<Else/></If> Stufe 63 erreicht hast, kannst du von H'naanza den nächsten Auftrag erhalten."
-4,"TEXT_CLSARM601_02594_SEQ_04",""
-5,"TEXT_CLSARM601_02594_SEQ_05",""
-6,"TEXT_CLSARM601_02594_SEQ_06",""
-7,"TEXT_CLSARM601_02594_SEQ_07",""
-8,"TEXT_CLSARM601_02594_SEQ_08",""
-9,"TEXT_CLSARM601_02594_SEQ_09",""
-10,"TEXT_CLSARM601_02594_SEQ_10",""
-11,"TEXT_CLSARM601_02594_SEQ_11",""
-12,"TEXT_CLSARM601_02594_SEQ_12",""
-13,"TEXT_CLSARM601_02594_SEQ_13",""
-14,"TEXT_CLSARM601_02594_SEQ_14",""
-15,"TEXT_CLSARM601_02594_SEQ_15",""
-16,"TEXT_CLSARM601_02594_SEQ_16",""
-17,"TEXT_CLSARM601_02594_SEQ_17",""
-18,"TEXT_CLSARM601_02594_SEQ_18",""
-19,"TEXT_CLSARM601_02594_SEQ_19",""
-20,"TEXT_CLSARM601_02594_SEQ_20",""
-21,"TEXT_CLSARM601_02594_SEQ_21",""
-22,"TEXT_CLSARM601_02594_SEQ_22",""
-23,"TEXT_CLSARM601_02594_SEQ_23",""
-24,"TEXT_CLSARM601_02594_TODO_00","Mit Blanstyr sprechen"
-25,"TEXT_CLSARM601_02594_TODO_01","H'naanza Bericht erstatten"
-26,"TEXT_CLSARM601_02594_TODO_02",""
-27,"TEXT_CLSARM601_02594_TODO_03",""
-28,"TEXT_CLSARM601_02594_TODO_04",""
-29,"TEXT_CLSARM601_02594_TODO_05",""
-30,"TEXT_CLSARM601_02594_TODO_06",""
-31,"TEXT_CLSARM601_02594_TODO_07",""
-32,"TEXT_CLSARM601_02594_TODO_08",""
-33,"TEXT_CLSARM601_02594_TODO_09",""
-34,"TEXT_CLSARM601_02594_TODO_10",""
-35,"TEXT_CLSARM601_02594_TODO_11",""
-36,"TEXT_CLSARM601_02594_TODO_12",""
-37,"TEXT_CLSARM601_02594_TODO_13",""
-38,"TEXT_CLSARM601_02594_TODO_14",""
-39,"TEXT_CLSARM601_02594_TODO_15",""
-40,"TEXT_CLSARM601_02594_TODO_16",""
-41,"TEXT_CLSARM601_02594_TODO_17",""
-42,"TEXT_CLSARM601_02594_TODO_18",""
-43,"TEXT_CLSARM601_02594_TODO_19",""
-44,"TEXT_CLSARM601_02594_TODO_20",""
-45,"TEXT_CLSARM601_02594_TODO_21",""
-46,"TEXT_CLSARM601_02594_TODO_22",""
-47,"TEXT_CLSARM601_02594_TODO_23",""
-48,"TEXT_CLSARM601_02594_HNAANZA_000_000","Hallo, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Vielen Dank noch mal für deine Hilfe bei der Sache mit Blanstyr. Wie ist es dir in der Zwischenzeit ergangen?"
-49,"TEXT_CLSARM601_02594_HNAANZA_000_001","Blanstyr ist weiter dabei, unseren Kunden das Rüstzeug auf den Leib zu schmieden. Seine Werke sind so beliebt wie nie zuvor."
-50,"TEXT_CLSARM601_02594_HNAANZA_000_002","Deswegen ist uns allen die Kinnlade runtergefallen, als er plötzlich meinte, er wolle die Gilde der Plattner verlassen."
-51,"TEXT_CLSARM601_02594_HNAANZA_000_003","Einen Grund wollte er mir bislang nicht nennen. Und deswegen möchte ich dich zu ihm schicken. Schließlich genießt du seinen größten Respekt."
-52,"TEXT_CLSARM601_02594_HNAANZA_000_004","Vielleicht verrät er dir ja, wo der Handschuh drückt."
-53,"TEXT_CLSARM601_02594_HNAANZA_000_005","Kannst du Blanstyr bitte für mich fragen, warum er den Hammer an den Nagel hängen möchte?"
-54,"TEXT_CLSARM601_02594_HNAANZA_000_006","Kannst du Blanstyr bitte für mich fragen, warum er den Hammer an den Nagel hängen möchte?"
-55,"TEXT_CLSARM601_02594_BLANSTYR_000_010","Wenn das mal nicht <If(PlayerParameter(4))>meine gute Freundin<Else/>mein guter Freund</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> ist! Du machst so ein ernstes Gesicht. Kann ich irgendwas für dich tun?"
-56,"TEXT_CLSARM601_02594_BLANSTYR_000_011","Ganz richtig. Ich will die Gilde der Plattner verlassen."
-57,"TEXT_CLSARM601_02594_BLANSTYR_000_012","Es ist nicht so, dass ich nicht in meine Fä<SoftHyphen/>hig<SoftHyphen/>kei<SoftHyphen/>ten vertrauen würde. Ich bin in letzter Zeit sogar fraglos besser geworden."
-58,"TEXT_CLSARM601_02594_BLANSTYR_000_013","Aber an dich oder H'naanza reiche ich lange nicht heran."
-59,"TEXT_CLSARM601_02594_BLANSTYR_000_014","Ich habe viel nachgedacht und bin zu dem Schluss gekommen, dass mir irgendetwas fehlt, um ein richtiger Meisterplattner zu werden."
-60,"TEXT_CLSARM601_02594_BLANSTYR_000_015","Etwa zur selben Zeit ist mir in der Nähe der Achterburg jemand begegnet, der einen exotisch geformten Helm trug."
-61,"TEXT_CLSARM601_02594_BLANSTYR_000_016","Als ich ihn darauf ansprach, meinte er, er hätte ihn bei der Himmelswende von irgend so einem Minister bekommen, dem er geholfen hat."
-62,"TEXT_CLSARM601_02594_BLANSTYR_000_017","Beim Anblick des Helmes ist es mir wie Schuppen aus dem Harnisch gefallen! Ich muss einen eigenen Stil finden, der es an Originalität mit diesem Stück aufnehmen kann."
-63,"TEXT_CLSARM601_02594_BLANSTYR_000_018","Ich werde in den Fernen Osten reisen, um mir dort Inspiration zu holen. Klar, dass ich dann meiner Arbeit hier nicht mehr nachgehen kann. Also habe ich darum gebeten, mich aus der Gilde zu entlassen."
-64,"TEXT_CLSARM601_02594_BLANSTYR_000_019","Und das redet mir niemand aus, auch nicht unsere Gildenmeisterin. Mein Entschluss steht so fest wie ein Amboss."
-65,"TEXT_CLSARM601_02594_BLANSTYR_000_020","Meinen Entschluss lass ich mir von niemandem ausreden, da kann selbst die Gildenmeisterin kommen."
-66,"TEXT_CLSARM601_02594_HNAANZA_000_030","Und? Hast du etwas aus Blanstyr herausbekommen?"
-67,"TEXT_CLSARM601_02594_HNAANZA_000_031","Verstehe, das sind also seine Beweggründe. Ich freue mich, dass das geklärt ist, kann aber nicht behaupten, dass mir die Konsequenzen gefallen."
-68,"TEXT_CLSARM601_02594_BLANSTYR_000_032","Aha, das hätte ich mir ja denken können. Hinter deinem plötzlichen Besuch steckte also H'naanza, was, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-69,"TEXT_CLSARM601_02594_HNAANZA_000_033","Wenn du mir von Anfang an gesagt hättest, was dich treibt, hätte ich mir die Geheimnistuerei sparen können."
-70,"TEXT_CLSARM601_02594_HNAANZA_000_034","Und was dein Austrittsgesuch betrifft: Das kannst du vergessen ...!
+※ Sobald du als Plattnerin Stufe 63 erreicht hast, kannst du von H'naanza den nächsten Auftrag erhalten."
+4,TEXT_CLSARM601_02594_SEQ_04,
+5,TEXT_CLSARM601_02594_SEQ_05,
+6,TEXT_CLSARM601_02594_SEQ_06,
+7,TEXT_CLSARM601_02594_SEQ_07,
+8,TEXT_CLSARM601_02594_SEQ_08,
+9,TEXT_CLSARM601_02594_SEQ_09,
+10,TEXT_CLSARM601_02594_SEQ_10,
+11,TEXT_CLSARM601_02594_SEQ_11,
+12,TEXT_CLSARM601_02594_SEQ_12,
+13,TEXT_CLSARM601_02594_SEQ_13,
+14,TEXT_CLSARM601_02594_SEQ_14,
+15,TEXT_CLSARM601_02594_SEQ_15,
+16,TEXT_CLSARM601_02594_SEQ_16,
+17,TEXT_CLSARM601_02594_SEQ_17,
+18,TEXT_CLSARM601_02594_SEQ_18,
+19,TEXT_CLSARM601_02594_SEQ_19,
+20,TEXT_CLSARM601_02594_SEQ_20,
+21,TEXT_CLSARM601_02594_SEQ_21,
+22,TEXT_CLSARM601_02594_SEQ_22,
+23,TEXT_CLSARM601_02594_SEQ_23,
+24,TEXT_CLSARM601_02594_TODO_00,Mit Blanstyr sprechen
+25,TEXT_CLSARM601_02594_TODO_01,H'naanza Bericht erstatten
+26,TEXT_CLSARM601_02594_TODO_02,
+27,TEXT_CLSARM601_02594_TODO_03,
+28,TEXT_CLSARM601_02594_TODO_04,
+29,TEXT_CLSARM601_02594_TODO_05,
+30,TEXT_CLSARM601_02594_TODO_06,
+31,TEXT_CLSARM601_02594_TODO_07,
+32,TEXT_CLSARM601_02594_TODO_08,
+33,TEXT_CLSARM601_02594_TODO_09,
+34,TEXT_CLSARM601_02594_TODO_10,
+35,TEXT_CLSARM601_02594_TODO_11,
+36,TEXT_CLSARM601_02594_TODO_12,
+37,TEXT_CLSARM601_02594_TODO_13,
+38,TEXT_CLSARM601_02594_TODO_14,
+39,TEXT_CLSARM601_02594_TODO_15,
+40,TEXT_CLSARM601_02594_TODO_16,
+41,TEXT_CLSARM601_02594_TODO_17,
+42,TEXT_CLSARM601_02594_TODO_18,
+43,TEXT_CLSARM601_02594_TODO_19,
+44,TEXT_CLSARM601_02594_TODO_20,
+45,TEXT_CLSARM601_02594_TODO_21,
+46,TEXT_CLSARM601_02594_TODO_22,
+47,TEXT_CLSARM601_02594_TODO_23,
+48,TEXT_CLSARM601_02594_HNAANZA_000_000,"Hallo, Player! Vielen Dank noch mal für deine Hilfe bei der Sache mit Blanstyr. Wie ist es dir in der Zwischenzeit ergangen?"
+49,TEXT_CLSARM601_02594_HNAANZA_000_001,"Blanstyr ist weiter dabei, unseren Kunden das Rüstzeug auf den Leib zu schmieden. Seine Werke sind so beliebt wie nie zuvor."
+50,TEXT_CLSARM601_02594_HNAANZA_000_002,"Deswegen ist uns allen die Kinnlade runtergefallen, als er plötzlich meinte, er wolle die Gilde der Plattner verlassen."
+51,TEXT_CLSARM601_02594_HNAANZA_000_003,Einen Grund wollte er mir bislang nicht nennen. Und deswegen möchte ich dich zu ihm schicken. Schließlich genießt du seinen größten Respekt.
+52,TEXT_CLSARM601_02594_HNAANZA_000_004,"Vielleicht verrät er dir ja, wo der Handschuh drückt."
+53,TEXT_CLSARM601_02594_HNAANZA_000_005,"Kannst du Blanstyr bitte für mich fragen, warum er den Hammer an den Nagel hängen möchte?"
+54,TEXT_CLSARM601_02594_HNAANZA_000_006,"Kannst du Blanstyr bitte für mich fragen, warum er den Hammer an den Nagel hängen möchte?"
+55,TEXT_CLSARM601_02594_BLANSTYR_000_010,Wenn das mal nicht meine gute Freundin Player ist! Du machst so ein ernstes Gesicht. Kann ich irgendwas für dich tun?
+56,TEXT_CLSARM601_02594_BLANSTYR_000_011,Ganz richtig. Ich will die Gilde der Plattner verlassen.
+57,TEXT_CLSARM601_02594_BLANSTYR_000_012,"Es ist nicht so, dass ich nicht in meine Fä­hig­kei­ten vertrauen würde. Ich bin in letzter Zeit sogar fraglos besser geworden."
+58,TEXT_CLSARM601_02594_BLANSTYR_000_013,Aber an dich oder H'naanza reiche ich lange nicht heran.
+59,TEXT_CLSARM601_02594_BLANSTYR_000_014,"Ich habe viel nachgedacht und bin zu dem Schluss gekommen, dass mir irgendetwas fehlt, um ein richtiger Meisterplattner zu werden."
+60,TEXT_CLSARM601_02594_BLANSTYR_000_015,"Etwa zur selben Zeit ist mir in der Nähe der Achterburg jemand begegnet, der einen exotisch geformten Helm trug."
+61,TEXT_CLSARM601_02594_BLANSTYR_000_016,"Als ich ihn darauf ansprach, meinte er, er hätte ihn bei der Himmelswende von irgend so einem Minister bekommen, dem er geholfen hat."
+62,TEXT_CLSARM601_02594_BLANSTYR_000_017,"Beim Anblick des Helmes ist es mir wie Schuppen aus dem Harnisch gefallen! Ich muss einen eigenen Stil finden, der es an Originalität mit diesem Stück aufnehmen kann."
+63,TEXT_CLSARM601_02594_BLANSTYR_000_018,"Ich werde in den Fernen Osten reisen, um mir dort Inspiration zu holen. Klar, dass ich dann meiner Arbeit hier nicht mehr nachgehen kann. Also habe ich darum gebeten, mich aus der Gilde zu entlassen."
+64,TEXT_CLSARM601_02594_BLANSTYR_000_019,"Und das redet mir niemand aus, auch nicht unsere Gildenmeisterin. Mein Entschluss steht so fest wie ein Amboss."
+65,TEXT_CLSARM601_02594_BLANSTYR_000_020,"Meinen Entschluss lass ich mir von niemandem ausreden, da kann selbst die Gildenmeisterin kommen."
+66,TEXT_CLSARM601_02594_HNAANZA_000_030,Und? Hast du etwas aus Blanstyr herausbekommen?
+67,TEXT_CLSARM601_02594_HNAANZA_000_031,"Verstehe, das sind also seine Beweggründe. Ich freue mich, dass das geklärt ist, kann aber nicht behaupten, dass mir die Konsequenzen gefallen."
+68,TEXT_CLSARM601_02594_BLANSTYR_000_032,"Aha, das hätte ich mir ja denken können. Hinter deinem plötzlichen Besuch steckte also H'naanza, was, Player?"
+69,TEXT_CLSARM601_02594_HNAANZA_000_033,"Wenn du mir von Anfang an gesagt hättest, was dich treibt, hätte ich mir die Geheimnistuerei sparen können."
+70,TEXT_CLSARM601_02594_HNAANZA_000_034,"Und was dein Austrittsgesuch betrifft: Das kannst du vergessen ...!
 
 
 
 Für eine Fortbildungsmaßnahme wie diese reicht es nämlich, wenn ich dich unbefristet beurlaube. <kicher>"
-71,"TEXT_CLSARM601_02594_BLANSTYR_000_035","Beurlauben ...? Hm, da hätt ich auch selbst drauf kommen können."
-72,"TEXT_CLSARM601_02594_BLANSTYR_000_036","Also gut, H'naanza. Ich nehme dein großzügiges Angebot an und lasse mich ab heute zwecks einer Fortbildung beurlauben. Die Aufträge meiner Kundschaft lege ich in der Zwischenzeit vertrauensvoll in deine Hände. "
-73,"TEXT_CLSARM601_02594_HNAANZA_000_037","Selbstverständlich, wir kümmern uns drum. Lass dir Zeit und komm erst wieder zurück, wenn du glaubst, dass du genug gelernt hast."
-74,"TEXT_CLSARM601_02594_BLANSTYR_000_038","Vielen Dank. Dann will ich keine Zeit verlieren und sofort meine Sachen packen. Der Ferne Osten wartet. Bis bald, ihr beiden!"
-75,"TEXT_CLSARM601_02594_HNAANZA_000_039","<seufz> ... Der alte Eigenbrötler ändert sich wohl nie, was? Wenn das mal alles gut geht. Aber beobachten wir die Sache erst mal. Wenn deine Hilfe gebraucht werden sollte, lass ich es dich wissen."
-76,"TEXT_CLSARM601_02594_HNAANZA_000_040","Du setzt den Weg des Plattners fort. Sobald du als Plattner<If(PlayerParameter(4))>in<Else/></If> Stufe 63 erreicht hast, kannst du von H'naanza den nächsten Auftrag erhalten."
-77,"TEXT_CLSARM601_02594_HNAANZA_000_041","Die Voraussetzung für den nächsten Plattner-Auftrag kannst du im Archiv einsehen."
+71,TEXT_CLSARM601_02594_BLANSTYR_000_035,"Beurlauben ...? Hm, da hätt ich auch selbst drauf kommen können."
+72,TEXT_CLSARM601_02594_BLANSTYR_000_036,"Also gut, H'naanza. Ich nehme dein großzügiges Angebot an und lasse mich ab heute zwecks einer Fortbildung beurlauben. Die Aufträge meiner Kundschaft lege ich in der Zwischenzeit vertrauensvoll in deine Hände. "
+73,TEXT_CLSARM601_02594_HNAANZA_000_037,"Selbstverständlich, wir kümmern uns drum. Lass dir Zeit und komm erst wieder zurück, wenn du glaubst, dass du genug gelernt hast."
+74,TEXT_CLSARM601_02594_BLANSTYR_000_038,"Vielen Dank. Dann will ich keine Zeit verlieren und sofort meine Sachen packen. Der Ferne Osten wartet. Bis bald, ihr beiden!"
+75,TEXT_CLSARM601_02594_HNAANZA_000_039,"<seufz> ... Der alte Eigenbrötler ändert sich wohl nie, was? Wenn das mal alles gut geht. Aber beobachten wir die Sache erst mal. Wenn deine Hilfe gebraucht werden sollte, lass ich es dich wissen."
+76,TEXT_CLSARM601_02594_HNAANZA_000_040,"Du setzt den Weg des Plattners fort. Sobald du als Plattnerin Stufe 63 erreicht hast, kannst du von H'naanza den nächsten Auftrag erhalten."
+77,TEXT_CLSARM601_02594_HNAANZA_000_041,Die Voraussetzung für den nächsten Plattner-Auftrag kannst du im Archiv einsehen.

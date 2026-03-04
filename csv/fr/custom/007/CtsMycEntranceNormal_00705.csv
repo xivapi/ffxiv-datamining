@@ -1,32 +1,29 @@
-﻿key,0,1
-#,,
-int32,str,str
-0,"TEXT_CTSMYCENTRANCENORMAL_00705_Q1_000_000","Que voulez-vous faire<Indent/>?"
-1,"TEXT_CTSMYCENTRANCENORMAL_00705_MENU_CONTENT","S'enregistrer pour <Sheet(ContentFinderCondition,IntegerParameter(1),43)/>"
-2,"TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_001","Se rendre <If(Equal(IntegerParameter(1),735))>sur le<Else/>aux</If> <Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),43)/>)/>"
-3,"TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_004","Vérifier le rang de résistant<If(PlayerParameter(4))>e<Else/></If> et les points de faits d'armes"
-4,"TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_005","Annuler"
-5,"TEXT_CTSMYCENTRANCENORMAL_00705_Q2_000_000","Que voulez-vous faire<Indent/>?"
-6,"TEXT_CTSMYCENTRANCENORMAL_00705_A2_000_000","S'enregistrer pour <Sheet(ContentFinderCondition,IntegerParameter(1),43)/>"
-7,"TEXT_CTSMYCENTRANCENORMAL_00705_A2_000_001","En apprendre plus sur <Sheet(ContentFinderCondition,IntegerParameter(1),43)/>"
-8,"TEXT_CTSMYCENTRANCENORMAL_00705_A2_000_005","Retour"
-9,"TEXT_CTSMYCENTRANCENORMAL_00705_Q3_000_000","Que voulez-vous faire<Indent/>?"
-10,"TEXT_CTSMYCENTRANCENORMAL_00705_A3_000_000","Se rendre <If(Equal(IntegerParameter(1),735))>sur le<Else/>aux</If> <Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),43)/>)/>"
-11,"TEXT_CTSMYCENTRANCENORMAL_00705_A3_000_001","En apprendre plus sur le <Clickable(<Sheet(ContentFinderCondition,IntegerParameter(1),43)/>)/>"
-12,"TEXT_CTSMYCENTRANCENORMAL_00705_A3_000_005","Annuler"
-13,"TEXT_CTSMYCENTRANCENORMAL_00705_SERAOUSH_000_000","Aucun problème, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Notre état-major nous communique ré<SoftHyphen/>gu<SoftHyphen/>liè<SoftHyphen/>re<SoftHyphen/>ment les faits d'armes de tous nos soldats<Indent/>!"
-14,"TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_001","Rang de résistant<If(PlayerParameter(4))>e<Else/></If><Indent/>: <Value>IntegerParameter(1)</Value>
-Points de faits d'armes<Indent/>: <Format(IntegerParameter(2),FF05021D0103)/>"
-15,"TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_005","Vous avez atteint le rang de résistant<If(PlayerParameter(4))>e<Else/></If> maximum<Indent/>!"
-16,"TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_010","Il vous manque encore <Format(IntegerParameter(1),FF05021D0103)/> point<If(LessThanOrEqualTo(IntegerParameter(1),1))><Else/>s</If> de faits d'armes pour passer au rang de résistant<If(PlayerParameter(4))>e<Else/></If> suivant."
-17,"TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_015","Vous pouvez passer au rang de résistant<If(PlayerParameter(4))>e<Else/></If> supérieur. N'oubliez pas de vous adresser à l'officier d'état-major sur le Front sud de Bozja pour l'obtenir<Indent/>!"
-18,"TEXT_CTSMYCENTRANCENORMAL_00705_Q4_000_000","Que voulez-vous faire<Indent/>?"
-19,"TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_000","S'enregistrer pour <Sheet(ContentFinderCondition,IntegerParameter(1),43)/>"
-20,"TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_001","En apprendre plus sur <Sheet(ContentFinderCondition,IntegerParameter(1),43)/>"
-21,"TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_002","Discuter"
-22,"TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_005","Annuler"
-23,"TEXT_CTSMYCENTRANCENORMAL_00705_MIKOTO_000_100","Désolée, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Je ne me souviens pas exactement de ce que Misija m'a fait et j'avais com<SoftHyphen/>plè<SoftHyphen/>te<SoftHyphen/>ment oublié qu'elle avait copié mon pouvoir de vision de l'avenir. Je l'ai gravement sous-estimée..."
-24,"TEXT_CTSMYCENTRANCENORMAL_00705_MIKOTO_000_101","Misija ne peut s'être engouffrée dans ces ruines que pour une seule raison<Indent/>: elles doivent receler des cristaux imprégnés de cet éther si spécifique à Bozja. Elle cherche à invoquer Garde-la-Reine sous sa véritable forme, celle d'une divinité guerrière<Indent/>! "
-25,"TEXT_CTSMYCENTRANCENORMAL_00705_MIKOTO_000_102","Nous devons à tout prix l'en empêcher, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Indent/>! Dépêchons-nous de la rattraper<Indent/>!"
-26,"TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_002","（★未使用／削除予定★）"
-27,"TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_003","（★未使用／削除予定★）"
+0,TEXT_CTSMYCENTRANCENORMAL_00705_Q1_000_000,Que voulez-vous faire ?
+1,TEXT_CTSMYCENTRANCENORMAL_00705_MENU_CONTENT,S'enregistrer pour 
+2,TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_001,Se rendre sur le 
+3,TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_004,Vérifier le rang de résistante et les points de faits d'armes
+4,TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_005,Annuler
+5,TEXT_CTSMYCENTRANCENORMAL_00705_Q2_000_000,Que voulez-vous faire ?
+6,TEXT_CTSMYCENTRANCENORMAL_00705_A2_000_000,S'enregistrer pour 
+7,TEXT_CTSMYCENTRANCENORMAL_00705_A2_000_001,En apprendre plus sur 
+8,TEXT_CTSMYCENTRANCENORMAL_00705_A2_000_005,Retour
+9,TEXT_CTSMYCENTRANCENORMAL_00705_Q3_000_000,Que voulez-vous faire ?
+10,TEXT_CTSMYCENTRANCENORMAL_00705_A3_000_000,Se rendre sur le 
+11,TEXT_CTSMYCENTRANCENORMAL_00705_A3_000_001,En apprendre plus sur le 
+12,TEXT_CTSMYCENTRANCENORMAL_00705_A3_000_005,Annuler
+13,TEXT_CTSMYCENTRANCENORMAL_00705_SERAOUSH_000_000,"Aucun problème, Player ! Notre état-major nous communique ré­gu­liè­re­ment les faits d'armes de tous nos soldats !"
+14,TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_001,"Rang de résistante : UNKNOWN
+Points de faits d'armes : 0"
+15,TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_005,Vous avez atteint le rang de résistante maximum !
+16,TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_010,Il vous manque encore 0 point de faits d'armes pour passer au rang de résistante suivant.
+17,TEXT_CTSMYCENTRANCENORMAL_00705_SYSTEM_000_015,Vous pouvez passer au rang de résistante supérieur. N'oubliez pas de vous adresser à l'officier d'état-major sur le Front sud de Bozja pour l'obtenir !
+18,TEXT_CTSMYCENTRANCENORMAL_00705_Q4_000_000,Que voulez-vous faire ?
+19,TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_000,S'enregistrer pour 
+20,TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_001,En apprendre plus sur 
+21,TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_002,Discuter
+22,TEXT_CTSMYCENTRANCENORMAL_00705_A4_000_005,Annuler
+23,TEXT_CTSMYCENTRANCENORMAL_00705_MIKOTO_000_100,"Désolée, Player. Je ne me souviens pas exactement de ce que Misija m'a fait et j'avais com­plè­te­ment oublié qu'elle avait copié mon pouvoir de vision de l'avenir. Je l'ai gravement sous-estimée..."
+24,TEXT_CTSMYCENTRANCENORMAL_00705_MIKOTO_000_101,"Misija ne peut s'être engouffrée dans ces ruines que pour une seule raison : elles doivent receler des cristaux imprégnés de cet éther si spécifique à Bozja. Elle cherche à invoquer Garde-la-Reine sous sa véritable forme, celle d'une divinité guerrière ! "
+25,TEXT_CTSMYCENTRANCENORMAL_00705_MIKOTO_000_102,"Nous devons à tout prix l'en empêcher, Player ! Dépêchons-nous de la rattraper !"
+26,TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_002,（★未使用／削除予定★）
+27,TEXT_CTSMYCENTRANCENORMAL_00705_A1_000_003,（★未使用／削除予定★）
