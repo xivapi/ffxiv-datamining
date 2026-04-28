@@ -1000,7 +1000,7 @@ USAGE:
 　**WHM**, **BLM**, **SMN**, **SCH**, **NIN**,
 　**DRK**, **MCH**, **AST**, **SAM**, **RDM**,
 　**BLU**, **GNB**, **DNC**, **SGE**, **RPR**,
-　**VPR**, **PCT**
+　**VPR**, **PCT**, **BST**
 Searches all jobs and classes if none specified.
 【Level】
 　**[number]**
@@ -2064,7 +2064,7 @@ USAGE:
 USAGE:
 　/battletarget
 
-→Targets the closest enemy within a certain radius that is attacking you.",,,/battletarget,/bt,0,36,1,0,0,0,0
+→Targets the closest enemy within a certain radius on screen that is attacking you.",,,/battletarget,/bt,0,36,1,0,0,0,0
 258,"ALIASES:
 　/assist, /as
 USAGE:
@@ -2711,7 +2711,10 @@ USAGE:
 　＋  **LAR (LA3) **
 　＋  **RAR (RA3)**
 　＋  **LAD (LA4) **
-　＋  **RAD (RA4)**",,/chotbar,/crosshotbar,/chotbar,0,36,6,3,2,3,7
+　＋  **RAD (RA4)**
+
+　　Slot names are not required for setting.
+　　Omitting slot names will automatically set actions to an unassigned slot according to the system's default order.",,/chotbar,/crosshotbar,/chotbar,0,36,6,3,2,3,7
 317,"USAGE:
 　/hudreset
 
@@ -2904,7 +2907,10 @@ USAGE:
 　＋  **LAR (LA3) **
 　＋  **RAR (RA3)**
 　＋  **LAD (LA4) **
-　＋  **RAD (RA4)**",,/pvpchotbar,/pvpcrosshotbar,/pvpchotbar,0,36,6,3,2,16,7
+　＋  **RAD (RA4)**
+
+　　Slot names are not required for setting.
+　　Omitting slot names will automatically set actions to an unassigned slot according to the system's default order.",,/pvpchotbar,/pvpcrosshotbar,/pvpchotbar,0,36,6,3,2,16,7
 327,"USAGE:
 　/emotelog [subcommand]
 
@@ -5626,7 +5632,17 @@ Both text and motion will be displayed when no subcommand is specified.",,,/tome
  　**motion**    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.",,,/study,,0,293,2,1,2,0,0
-698,,,,,,0,0,0,0,0,0,0
+698,"ALIASES:
+　/breakdance, /breaking
+USAGE:
+　/breakdance [subcommand]
+
+→Perform a stylish and powerful dance.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/breakdance,/breaking,0,293,2,1,2,0,0
 699,"USAGE:
 　/gridaniansip [subcommand]
 
@@ -5721,7 +5737,15 @@ Both text and motion will be displayed when no subcommand is specified.",,,/savo
  　**motion**    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.",,,/pen,,0,293,2,1,2,0,0
-709,,,,,,0,0,0,0,0,0,0
+709,"USAGE:
+　/blownaway [subcommand]
+
+→Be hurled backwards by a great force.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/blownaway,,0,293,2,1,2,0,0
 710,"USAGE:
 　/stomp [subcommand]
 
@@ -5775,9 +5799,39 @@ USAGE:
  　**motion**    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.",,,/runwaywalk,/runway,0,293,2,1,2,0,0
-715,,,,,,0,0,0,0,0,0,0
-716,,,,,,0,0,0,0,0,0,0
-717,,,,,,0,0,0,0,0,0,0
+715,"ALIASES:
+　/cheeronorange, /cheeroo
+USAGE:
+　/cheeronorange [subcommand]
+
+→Wave your hands enthusiastically with orange illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheeronorange,/cheeroo,0,293,2,1,2,0,0
+716,"ALIASES:
+　/cheerwavepink, /cheerwp
+USAGE:
+　/cheerwavepink [subcommand]
+
+→Wave your hand in the air with a pink illuminated rod.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerwavepink,/cheerwp,0,293,2,1,2,0,0
+717,"ALIASES:
+　/cheerjumpindigo, /cheerji
+USAGE:
+　/cheerjumpindigo [subcommand]
+
+→Jump and cheer enthusiastically with indigo illuminated rods.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cheerjumpindigo,/cheerji,0,293,2,1,2,0,0
 718,"USAGE:
 　/carrybook [subcommand]
 
@@ -5858,3 +5912,28 @@ USAGE:
 　**motion**    Perform motion only.
 
 Both text and motion will be displayed when no subcommand is specified.",,,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0
+726,,,,,,0,0,0,0,0,0,0
+727,,,,,,0,0,0,0,0,0,0
+728,,,,,,0,0,0,0,0,0,0
+729,"USAGE:
+　/cackle [subcommand]
+
+→Erupt into a haughty cackle that will put all who hear it in their place.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/cackle,,0,293,2,1,2,0,0
+730,"USAGE:
+　/conduct [subcommand]
+
+→Confidently conduct whatever may be unfolding before you.
+
+>>Subcommands:
+　**motion**    Perform motion only.
+
+Both text and motion will be displayed when no subcommand is specified.",,,/conduct,,0,293,2,1,2,0,0
+731,,,,,,0,0,0,0,0,0,0
+732,,,,,,0,0,0,0,0,0,0
+733,,,,,,0,0,0,0,0,0,0
+734,,,,,,0,0,0,0,0,0,0
