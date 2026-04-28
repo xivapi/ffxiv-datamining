@@ -617,7 +617,7 @@ nomfamille (familyname) [nom]    Spécifie le nom de famille.
 - État en ligne :
 chef (chef d'équipe), absent (absent(e)), occupé (occupé(e)), mission (en mission), scène (regarde une scène cinématique), chéq (cherche une équipe), sertmat (propose le sertissage de matérias), novice (joueur novice), mentor (mentor), mentorcombat (mentor pour le combat), mentorartisanatrécolte (mentor pour l'artisanat et la récolte), mentorjcj (mentor pour le JcJ), jeuderôle (en train de jouer un rôle), rappelé (joueur rappelé).
 - Classes/jobs :
-PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé­men­ta­lis­te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
+PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé­men­ta­lis­te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), DRE (dresseur), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
 * Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
 - Niveaux :
 Il est possible de spécifier un niveau avec le nombre correspondant, ou une fourchette de niveaux avec deux nombres séparés par le signe ""-"".
@@ -1131,7 +1131,7 @@ Cible le PNJ ou l'objet le plus proche dans un certain rayon.",/ciblerpnj,/cpnj,
 256,"/ciblerenn, /targetenemy, /tenemy
 Cible l'ennemi le plus proche dans un certain rayon.",/ciblerenn,,/targetenemy,/tenemy,0,36,1,0,0,0,0
 257,"/ciblecombat, /battletarget, /bt
-Cible l'ennemi le plus proche ayant de l'inimitié dans un certain rayon.",/ciblecombat,,/battletarget,/bt,0,36,1,0,0,0,0
+Cible l'ennemi le plus proche affiché à l'écran et ayant de l'inimitié dans un certain rayon.",/ciblecombat,,/battletarget,/bt,0,36,1,0,0,0,0
 258,"/aider, /assist, /as
 Utilisation : /aider [argument de ciblage]
 Cible la cible du PJ ou PNJ ciblé.
@@ -1486,6 +1486,8 @@ commun (share) [chiffre] off    Rend la croix de raccourcis spécifiée exclusiv
 * Si on/off n'est pas spécifié, alterne entre ces deux options.
 supprimer (remove) [chiffre] [code de case]    Retire l'action/macro de la case spécifiée de la croix de raccourcis n°[chiffre]. Si ""all"" est saisi à la place du code de la case, toutes les cases sont libérées.
 >> Codes de case :
+(Les codes de case peuvent être omis durant la configuration.
+Dans ce cas, les actions sont au­to­ma­ti­que­ment attribuées à un emplacement vide selon l'ordre par défaut du système.)
  +  => LDL (LD1)
  +  => RDL (RD1)
  +  => LDU (LD2)
@@ -1597,6 +1599,8 @@ commun (share) [chiffre] off    Rend la croix de raccourcis spécifiée exclusiv
 * Si on/off n'est pas spécifié, alterne entre ces deux options.
 supprimer (remove) [chiffre] [code de case]    Retire l'action/macro de la case spécifiée de la croix de raccourcis n°[chiffre]. Si ""all"" est saisi à la place du code de la case, toutes les cases sont libérées.
 >> Codes de case :
+(Les codes de case peuvent être omis durant la configuration.
+Dans ce cas, les actions sont au­to­ma­ti­que­ment attribuées à un emplacement vide selon l'ordre par défaut du système.)
  +  => LDL (LD1)
  +  => RDL (RD1)
  +  => LDU (LD2)
@@ -3341,7 +3345,12 @@ Lit un livre en continu.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/lireunlivrecontinu,/lirecont,/study,,0,293,2,1,2,0,0
-698,,,,,,0,0,0,0,0,0,0
+698,"/dansebreak, /breakdance, /breaking
+Utilisation : /dansebreak [sous-commande]
+Danse le break.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/dansebreak,,/breakdance,/breaking,0,293,2,1,2,0,0
 699,"/tassegridania, /gridaniansip
 Utilisation : /tassegridania [sous-commande]
 Boit du kinderpunsch dans une tasse de Gridania.
@@ -3402,7 +3411,12 @@ Utilisation : /écrireplume [sous-commande]
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/écrireplume,/plume,/pen,,0,293,2,1,2,0,0
-709,,,,,,0,0,0,0,0,0,0
+709,"/sefaireéjecter,/éjecter,/blownaway
+Utilisation : /sefaireéjecter [sous-commande]
+Se fait projeter au sol par un puissant coup.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/sefaireéjecter,/éjecter,/blownaway,,0,293,2,1,2,0,0
 710,"/trépigner, /stomp
 Utilisation : /trépigner [sous-commande]
 Martèle le sol du pied en signe d'impatience ou de colère.
@@ -3433,9 +3447,24 @@ Effectue une démarche de mannequin.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/démarchemannequin,/démarchem,/runwaywalk,/runway,0,293,2,1,2,0,0
-715,,,,,,0,0,0,0,0,0,0
-716,,,,,,0,0,0,0,0,0,0
-717,,,,,,0,0,0,0,0,0,0
+715,"/encouragerdevantorange, /bâtonsdvor, /cheeronorange, /cheeroo
+Utilisation : /encouragerdevantorange [sous-commande]
+Encourage vers l'avant avec des bâtons lumineux orange.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerdevantorange,/bâtonsdvor,/cheeronorange,/cheeroo,0,293,2,1,2,0,0
+716,"/encouragerarcrose, /bâtonsarcsrose, /cheerwavepink, /cheerwp
+Utilisation : /encouragerarcrose [sous-commande]
+Encourage en agitant le bras en arc-de-cercle avec des bâtons lumineux roses.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerarcrose, /bâtonsarcsrose,/cheerwavepink,/cheerwp,0,293,2,1,2,0,0
+717,"/encouragersautindigo, /bâtonssautind, /cheerjumpindigo, /cheerji
+Utilisation : /encouragersautindigo [sous-commande]
+Encourage en sautillant avec des bâtons lumineux indigo.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragersautindigo,/bâtonssautind,/cheerjumpindigo,/cheerji,0,293,2,1,2,0,0
 718,"/serrerlivre, /carrybook
 Utilisation : /serrerlivre [sous-commande]
 Serre un livre contre sa poitrine.
@@ -3484,3 +3513,22 @@ Encourage d'un rythme lent avec des bâtons lumineux verts.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerlentvert,/bâtonslenver,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0
+726,,,,,,0,0,0,0,0,0,0
+727,,,,,,0,0,0,0,0,0,0
+728,,,,,,0,0,0,0,0,0,0
+729,"/ricaner, /cackle
+Utilisation : /ricaner [sous-commande]
+Ricane avec un air narquois.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/ricaner,,/cackle,,0,293,2,1,2,0,0
+730,"/chefdorchestre, /chefdorc, /conduct
+Utilisation : /chefdorchestre [sous-commande]
+Agite une baguette pour battre la mesure.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/chefdorchestre,/chefdorc,/conduct,,0,293,2,1,2,0,0
+731,,,,,,0,0,0,0,0,0,0
+732,,,,,,0,0,0,0,0,0,0
+733,,,,,,0,0,0,0,0,0,0
+734,,,,,,0,0,0,0,0,0,0
