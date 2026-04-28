@@ -678,16 +678,20 @@ VERWENDUNG:
 → Sucht andere Spieler nach den angegebenen Kriterien und zeigt die Ergebnisse in einem Fenster an (Reihenfolge beliebig, Mehrfachangaben möglich. Alternativen in runden Klammern, Erklärungen in geschwungenen Klammern).
 >>Kriterien:
 >Charaktername:
-  **vorname** (**firstname**) [Vorname]  Sucht nach dem angegebenen Vornamen.
-  **nachname** (**familyname**) [Familienname]  Sucht nach dem angegebenen Nachnamen.
+  **vorname** (**firstname**) [Vorname]
+Sucht nach dem angegebenen Vornamen.
+  **nachname** (**familyname**) [Familienname]
+Sucht nach dem angegebenen Nachnamen.
 >Online-Status:
 **anführ** {Gruppenanführer}, **weg** {Abwesend}, **besch** {Beschäftigt}, **inhalt** {spielt einen Inhalt}, **ereig** {in einem Ereignis beschäftigt}, **suchtg** {sucht eine Gruppe}, **setztein** {setzt Materia ein}, **rekrutiert** {rekrutiert Mitglieder über Gruppen­suche}, **neuling**, **mentor**, **kampfmentor**, **sammlermentor** {Sammler- und Handwerker-Mentor}, **pvpmentor**, **rollenspiel** {befindet sich im Rollenspiel}, **rückkehrer** {Rückkehrer} 
 >Klasse/Job:
-**Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver­klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Zimmerer (ZMR), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)**
+**Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver­klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Bestienbändiger (BST), Zimmerer (ZMR), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)**
 Fehlt die Klassenangabe, werden alle einbezogen.
 >Stufe:
-[Zahl] Sucht nach Charakteren auf dieser Stufe.
-[Zahl]-[Zahl]  Sucht nach Charakteren in diesem Stufenbereich.
+[Zahl]
+Sucht nach Charakteren auf dieser Stufe.
+[Zahl]-[Zahl]
+Sucht nach Charakteren in diesem Stufenbereich.
 Fehlt die Zahl, werden alle Stufen einbezogen.
  >Staatliche Ge­sell­schaft:
 **mahl** {Mahlstrom}, **brud** {Bruderschaft der Morgenviper}, **legi** {Legion der Unsterblichen}
@@ -1214,7 +1218,7 @@ Wählt den zweiten Charakter in der Gruppenliste als Ziel aus.",/ziel,,/target,/
 256,"/zielgeg, /targetenemy, /tenemy
 → Der nächste Gegner im Umkreis wird als Ziel ausgewählt.",/zielgeg,,/targetenemy,/tenemy,0,36,1,0,0,0,0
 257,"/zielfeind, /battletarget, /bt
-→ Der nächststehende dich attackierende Gegner wird als Ziel ausgewählt.",/zielfeind,,/battletarget,/bt,0,36,1,0,0,0,0
+→ Der auf dem Bildschirm nächststehende, dich attackierende Gegner wird als Ziel ausgewählt.",/zielfeind,,/battletarget,/bt,0,36,1,0,0,0,0
 258,"/assist, /as
 VERWENDUNG:
 /assist [Variable zur Zielbestimmung]
@@ -1316,9 +1320,9 @@ Ausführung nur möglich, wenn das Kommando bereits erlernt wurde und die Umstä
 >>Beispiel:
 /pvpkmd ""Kombo Sturmkeil"" <t>
 Führt „Kombo Sturmkeil“ auf das anvisierte Ziel aus.
-/kmd Shukuchi <t>
+/pvpkmd Shukuchi <t>
 Shukuchi wird am Standort des anvisierten Ziels ausgelöst.
-/action Shukuchi bzaus
+/pvpaction Shukuchi bzaus
 Shukuchi wird direkt an der Stelle des Zeigers ausgelöst.",/pvpkommando,/pvpkmd,/pvpaction,/pvpac,0,4,3,2,16,2,0
 278,,,,,,0,0,0,0,0,0,0
 279,"/blaukommando, /blauk, /blueaction
@@ -1553,10 +1557,11 @@ VERWENDUNG:
 Legt das Kommando in Menü Nummer X im angegebenen Slot an. Als Menü kann auch „aktuell“ angegeben werden, womit das momentan als Kommandomenü 1 angezeigte gemeint ist.
   **blaukommando** (**blueaction**) ""[Kommando]"" [Nummer X] [Slot-Name]
 Legt das Blaumagie-Kommando in Menü Nummer X im angegebenen Slot an.
+Der Slot-Name kann auch ausgelassen werden. In diesem Fall wird automatisch ein nicht benutzter Slot belegt.
   **allgemein** (**general**) ""[Allgemeines Kommando]"" [Nummer X] [Nummer Y]
 Legt das Allgemeine Kommando in Menü Nummer X, Slot Nummer Y an.
   **gegenstand** (**item**) ""[Gegenstandsname]"" [Nummer X] [Nummer Y]
-Legt den Gegenstand  in Menü Nummer X, Slot Nummer Y an.
+Legt den Gegenstand in Menü Nummer X, Slot Nummer Y an.
   **emote** ""[Emote]"" [Nummer X] [Nummer Y]
 Legt das Emote in Menü Nummer X, Slot Nummer Y an.
   **mitstreiter** (**buddy**) ""[Mitstreiter-Kommando]"" [Nummer X] [Nummer Y]
@@ -1567,7 +1572,8 @@ Legt das Familiar-Kommando in Menü Nummer X, Slot Nummer Y des Familiars an.
 Legt den Begleiter in Menü Nummer X, Slot Nummer Y an.
   **reittier** (**mount**) ""[Name des Reittiers]"" [Nummer X] [Nummer Y]
 Legt das Reittier in Menü Nummer X, Slot Nummer Y an.
-  **markierung** [Name der Feindmarkierung] [Nummer X] [Nummer Y]  Mögliche Namen: att1-5, bind1-3, ignor1-2, quadr, kreis, kreuz, drei
+  **markierung** [Name der Feindmarkierung] [Nummer X] [Nummer Y]
+Mögliche Namen: att1-5, bind1-3, ignor1-2, quadr, kreis, kreuz, drei
 Legt die Feindmarkierung in Menü Nummer X, Slot Nummer Y an.
   **wegmark** [Name der Geländemarkierung] [Nummer X] [Nummer Y]
 Legt die Geländemarkierung in Menü Nummer X, Slot Nummer Y an.
@@ -1587,6 +1593,7 @@ Entfernt, was in Menü Nummer X im angegebenen Slot angelegt war.
 Leert alle Slots von Menü Nummer X.
 >>Slot-Namen:
 
+Slots können ohne Namen erstellt werden. In diesem Fall wird der automatisch einem nicht benutzten Slot zugewiesen.
 ＋ ... LDL (LD1)  ＋ ... RDL (RD1)
 ＋ ... LDU (LD2)  ＋ ... RDU (RD2)
 ＋ ... LDR (LD3)  ＋ ... RDR (RD3)
@@ -1651,14 +1658,14 @@ Bei fehlendem Unterbefehl wird die Einstellung gewechselt.",/kreuzkommandomenüe
 325,"/pvpkommandomenü, /pvpkmenü, /pvphotbar
 VERWENDUNG:
 /pvpkommandomenü [Unterbefehl]
-→ Nimmt Änderungen am Pvp-Kommandomenü vor. Nur in PvP-Arealen verwendbar.
+→ Nimmt Änderungen am PvP-Kommandomenü vor. Nur in PvP-Arealen verwendbar.
 >>Unterbefehle:
   **legen** (**set**) ""[PvP-Kommando]"" [Nummer X] [Nummer Y]
 Legt das Kommando in Kommandomenü Nummer X, Slot Nummer Y an. Als Kommandomenü kann auch „aktuell“ angegeben werden, womit das momentan als Kommandomenü 1 angezeigte gemeint ist. Fehlt Nummer Y, wird der erste freie Slot des Menüs belegt, fehlen beide Nummern, wird der niedrigste freie Slot belegt (System gilt für alle Anlegen-Befehle).
   **allgemein** (**general**) ""[Allgemeines Kommando]"" [Nummer X] [Nummer Y]
 Legt das Allgemeine Kommando in Menü Nummer X, Slot Nummer Y an.
   **gegenstand** (**item**) ""[Gegenstandsname]"" [Nummer X] [Nummer Y]
-Legt den Gegenstand  in Menü Nummer X, Slot Nummer Y an.
+Legt den Gegenstand in Menü Nummer X, Slot Nummer Y an.
   **emote** ""[Emote]"" [Nummer X] [Nummer Y]
 Legt das Emote in Menü Nummer X, Slot Nummer Y an.
   **mitstreiter** (**buddy**) ""[Mitstreiter-Kommando]"" [Nummer X] [Nummer Y]
@@ -1706,10 +1713,11 @@ VERWENDUNG:
 >>Unterbefehle:
   **legen** (**set**) ""[Kommando]"" [Nummer X] [Slot-Name]
 Legt das Kommando in Menü Nummer X im angegebenen Slot an. Als Menü kann auch „aktuell“ angegeben werden, womit das momentan als Kommandomenü 1 angezeigte gemeint ist. 
+Der Slot-Name kann auch ausgelassen werden. In diesem Fall wird automatisch ein nicht benutzter Slot belegt.
   **allgemein** (**general**) ""[Allgemeines Kommando]"" [Nummer X] [Nummer Y]
 Legt das Allgemeine Kommando in Menü Nummer X, Slot Nummer Y an.
   **gegenstand** (**item**) ""[Gegenstandsname]"" [Nummer X] [Nummer Y]
-Legt den Gegenstand  in Menü Nummer X, Slot Nummer Y an.
+Legt den Gegenstand in Menü Nummer X, Slot Nummer Y an.
   **emote** ""[Emote]"" [Nummer X] [Nummer Y]
 Legt das Emote in Menü Nummer X, Slot Nummer Y an.
   **mitstreiter** (**buddy**) ""[Mitstreiter-Kommando]"" [Nummer X] [Nummer Y]
@@ -1720,7 +1728,8 @@ Legt das Familiar-Kommando in Menü Nummer X, Slot Nummer Y des Familiars an.
 Legt den Begleiter in Menü Nummer X, Slot Nummer Y an.
   **reittier** (**mount**) ""[Name des Reittiers]"" [Nummer X] [Nummer Y]
 Legt das Reittier in Menü Nummer X, Slot Nummer Y an.
-  **markierung** [Name der Feindmarkierung] [Nummer X] [Nummer Y]  Mögliche Namen: att1-5, bind1-3, ignor1-2, quadr, kreis, kreuz, drei
+  **markierung** [Name der Feindmarkierung] [Nummer X] [Nummer Y]
+Mögliche Namen: att1-5, bind1-3, ignor1-2, quadr, kreis, kreuz, drei
 Legt die Feindmarkierung in Menü Nummer X, Slot Nummer Y an.
   **wegmark** [Name der Geländemarkierung] [Nummer X] [Nummer Y]
 Legt die Geländemarkierung in Menü Nummer X, Slot Nummer Y an.
@@ -3498,7 +3507,12 @@ VERWENDUNG:
 → Du hörst nicht auf, konzentriert zu lesen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/schmökern,,/study,,0,293,2,1,2,0,0
-698,,,,,,0,0,0,0,0,0,0
+698,"/breakdance, /breaking
+VERWENDUNG:
+/breakdance [Unterbefehl]
+→ Du führst einen Breakdance-Move vor.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/breakdance,,/breakdance,/breaking,0,293,2,1,2,0,0
 699,"/gridanischesschlückchen, /gridaniansip
 VERWENDUNG:
 /gridanischersip [Unterbefehl]
@@ -3559,7 +3573,12 @@ VERWENDUNG:
 → Du machst dir mit deiner Feder ein paar Notizen.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl Text angezeigt als auch die Bewegung ausgeführt.",/beschwingtnotieren,,/pen,,0,293,2,1,2,0,0
-709,,,,,,0,0,0,0,0,0,0
+709,"/überwältigt, /blownaway
+VERWENDUNG:
+/überwältigt [Unterbefehl]
+→ Du bist so überwältigt, dass es dich von den Füßen haut.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/überwältigt,,/blownaway,,0,293,2,1,2,0,0
 710,"/stampfen, /stomp
 VERWENDUNG:
 /stampfen [Unterbefehl]
@@ -3590,9 +3609,24 @@ VERWENDUNG:
 → Du läufst mit unerschütterlichem Selbst­be­wusst­sein.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/laufstegschritt,/stegschritt,/runwaywalk,/runway,0,293,2,1,2,0,0
-715,,,,,,0,0,0,0,0,0,0
-716,,,,,,0,0,0,0,0,0,0
-717,,,,,,0,0,0,0,0,0,0
+715,"/anwipporange, /wipporange, /cheeroo
+VERWENDUNG:
+/anwipporange [Unterbefehl]
+→ Du feuerst wippend mit blau schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anwipporange,/wipporange,/cheeronorange,/cheeroo,0,293,2,1,2,0,0
+716,"/anschwenkpink, /schwenkpink, /cheerwp
+VERWENDUNG:
+/anschwenkpink [Unterbefehl]
+→ Du feuerst schwenkend mit pink schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwenkpink,/schwenkpink,/cheerwavepink,/cheerwp,0,293,2,1,2,0,0
+717,"/anhüpfdunkelblau, /hüpfdunkelblau, /cheerji
+VERWENDUNG:
+/anhüpfrot [Unterbefehl]
+→ Du feuerst hüpfend mit dunkelblau schimmernden Leuchtstäben an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anhüpfdunkelblau,/hüpfdunkelblau,/cheerjumpindigo,/cheerji,0,293,2,1,2,0,0
 718,"/buchtragen, /carrybook
 VERWENDUNG:
 /buchtragen [Unterbefehl]
@@ -3641,3 +3675,22 @@ VERWENDUNG:
 → Du feuerst schwofend mit grün schimmernden Leuchtstäben an.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwofgrün,/schwofgrün,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0
+726,,,,,,0,0,0,0,0,0,0
+727,,,,,,0,0,0,0,0,0,0
+728,,,,,,0,0,0,0,0,0,0
+729,"/spitz, /cackle
+VERWENDUNG:
+/spitz [Unterbefehl]
+→ Du zeigst ein spitzes Lachen.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/spitz,,/cackle,,0,293,2,1,2,0,0
+730,"/dirigieren, /conduct
+VERWENDUNG:
+/dirigieren [Unterbefehl]
+→ Du gibst begeistert den Takt an.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/dirigieren,,/conduct,,0,293,2,1,2,0,0
+731,,,,,,0,0,0,0,0,0,0
+732,,,,,,0,0,0,0,0,0,0
+733,,,,,,0,0,0,0,0,0,0
+734,,,,,,0,0,0,0,0,0,0
