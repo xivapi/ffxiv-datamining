@@ -1745,18 +1745,19 @@ Macht Menü Nummer X zu einem geteilten Menü.
 Macht Menü Nummer X zu einem geteilten/exklusiven Menü.
   **entf** [Nummer X] [Slot-Name]
 Entfernt, was in Menü Nummer X im angegebenen Slot angelegt war.
-  **entf**[Nummer X] **alle**
+  **entf** [Nummer X] **alle**
 Leert alle Slots von Menü Nummer X.
 >>Slot-Namen:
 
-＋ ... LDL (LD1)  ＋ ... RDL (RD1)
-＋ ... LDU (LD2)  ＋ ... RDU (RD2)
-＋ ... LDR (LD3)  ＋ ... RDR (RD3)
-＋ ... LDD (LD4)  ＋ ... RDD (RD4)
-＋ ... LAL (LA1)  ＋ ... RAL (RA1)
-＋ ... LAU (LA2)  ＋ ... RAU (RA2)
-＋ ... LAR (LA3)  ＋ ... RAR (RA3)
-＋ ... LAD (LA4)  ＋ ... RAD (RA4)",/pvpkreuzkommandomenü,/pvpkreuzmenü,/pvpcrosshotbar,/pvpchotbar,0,36,6,3,2,16,7
+Slots können ohne Namen erstellt werden. In diesem Fall wird der automatisch einem nicht benutzten Slot zugewiesen.
+＋ ... LDL (LD1) ＋ ... RDL (RD1)
+＋ ... LDU (LD2) ＋ ... RDU (RD2)
+＋ ... LDR (LD3) ＋ ... RDR (RD3)
+＋ ... LDD (LD4) ＋ ... RDD (RD4)
+＋ ... LAL (LA1) ＋ ... RAL (RA1)
+＋ ... LAU (LA2) ＋ ... RAU (RA2)
+＋ ... LAR (LA3) ＋ ... RAR (RA3)
+＋ ... LAD (LA4) ＋ ... RAD (RA4)",/pvpkreuzkommandomenü,/pvpkreuzmenü,/pvpcrosshotbar,/pvpchotbar,0,36,6,3,2,16,7
 327,"/emotelog
 VERWENDUNG:
 /emotelog [Unterbefehl]
@@ -3612,7 +3613,7 @@ VERWENDUNG:
 715,"/anwipporange, /wipporange, /cheeroo
 VERWENDUNG:
 /anwipporange [Unterbefehl]
-→ Du feuerst wippend mit blau schimmernden Leuchtstäben an.
+→ Du feuerst wippend mit orange schimmernden Leuchtstäben an.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anwipporange,/wipporange,/cheeronorange,/cheeroo,0,293,2,1,2,0,0
 716,"/anschwenkpink, /schwenkpink, /cheerwp
@@ -3623,7 +3624,7 @@ VERWENDUNG:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwenkpink,/schwenkpink,/cheerwavepink,/cheerwp,0,293,2,1,2,0,0
 717,"/anhüpfdunkelblau, /hüpfdunkelblau, /cheerji
 VERWENDUNG:
-/anhüpfrot [Unterbefehl]
+/anhüpfdunkelblau [Unterbefehl]
 → Du feuerst hüpfend mit dunkelblau schimmernden Leuchtstäben an.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anhüpfdunkelblau,/hüpfdunkelblau,/cheerjumpindigo,/cheerji,0,293,2,1,2,0,0
@@ -3690,7 +3691,17 @@ VERWENDUNG:
 → Du gibst begeistert den Takt an.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/dirigieren,,/conduct,,0,293,2,1,2,0,0
-731,,,,,,0,0,0,0,0,0,0
-732,,,,,,0,0,0,0,0,0,0
+731,"/tacoessen, /eattaco
+VERWENDUNG:
+/tacoessen [Unterbefehl]
+→ Du isst genüsslich einen Taco.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/tacoessen,,/eattaco,/taco,0,293,2,1,2,0,0
+732,"/tacomampfen, /devourtaco
+VERWENDUNG:
+/tacomampfen [Unterbefehl]
+→ Du mampfst unaufhörlich einen Taco.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/tacomampfen,,/devourtaco,,0,293,2,1,2,0,0
 733,,,,,,0,0,0,0,0,0,0
 734,,,,,,0,0,0,0,0,0,0
