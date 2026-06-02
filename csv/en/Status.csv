@@ -1,4 +1,4 @@
-#,Name,Description,Icon,ParamModifier,VFX,Log,Unknown0,MaxStacks,ClassJobCategory,StatusCategory,HitEffect,PartyListPriority,CanIncreaseRewards,ParamEffect,TargetType,Flags,Flag2,Unknown_70_1,Unknown2,LockMovement,Unknown3,LockActions,LockControl,Transfiguration,IsGaze,CanDispel,Unknown8,InflictedByActor,IsPermanent,NoLogVfx,Unknown5,CanStatusOff,IsFcBuff,Invisibility,Unknown6,Unknown_70_2,Unknown7
+#,Name,Description,Icon,ParamModifier,VFX,Log,ExclusionGroup,MaxStacks,ClassJobCategory,StatusCategory,HitEffect,PartyListPriority,CanIncreaseRewards,ParamEffect,TargetType,Flags,Flag2,Unknown_70_1,Unknown2,LockMovement,Unknown3,LockActions,LockControl,Transfiguration,IsGaze,CanDispel,Unknown8,InflictedByActor,IsPermanent,NoLogVfx,Unknown5,CanStatusOff,IsFcBuff,Invisibility,Unknown6,Unknown_70_2,Unknown7
 0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 1,Petrification,Stone-like rigidity is preventing the execution of actions.,215001,0,1,0,85,0,1,2,6,100,0,0,0,32,0,0,0,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False
 2,Stun,Unable to execute actions.,215004,0,2,0,0,0,1,2,3,100,0,0,0,0,0,0,0,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
@@ -3480,7 +3480,7 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 3463,Paralysis,Deadened nerves are sometimes preventing the execution of actions.,215006,20,0,0,0,0,1,2,5,100,0,0,0,0,0,0,0,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
 3464,Slow,"Weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay are increased.",215009,15,0,0,5,0,1,2,13,50,0,0,0,0,0,0,0,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
 3465,Stun,Unable to execute actions.,215004,0,2,0,0,0,1,2,3,100,0,0,0,0,0,0,0,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
-3466,Sleep,Overwhelming drowsiness is preventing the execution of actions,215013,0,3,0,1,0,1,2,2,100,0,0,0,3,0,0,0,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
+3466,Sleep,Overwhelming drowsiness is preventing the execution of actions.,215013,0,3,0,1,0,1,2,2,100,0,0,0,3,0,0,0,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False
 3467,Vegetal Vapours,Overcome and quite unable to act.,215147,0,0,0,0,0,1,2,17,200,0,4,0,0,0,0,0,True,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 3468,Frontal Blaster Charge,Hybrid blaster is crackling with charged energy.,215148,0,0,0,0,0,1,1,16,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 3469,Rear Blaster Charge,Hybrid blaster is crackling with charged energy.,215149,0,0,0,0,0,1,1,16,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -4890,25 +4890,25 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 4873,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4874,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4875,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4876,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4877,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4878,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4879,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+4876,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214401,0,0,0,0,0,0,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+4877,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214402,0,0,0,0,0,0,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+4878,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214403,0,0,0,0,0,0,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+4879,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214404,0,0,0,0,0,0,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
 4880,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4881,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4882,Unbecoming,"Being unmade, thus sustaining damage over time.",214386,10,0,0,0,0,1,2,17,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
 4883,Quantum Nullification,"Unraveling in concert with another, resulting in damage over time.",214397,10,0,0,0,0,1,2,17,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
 4884,Quantum Entanglement,"Unraveling in concert with another, resulting in damage over time.",214398,10,0,0,0,0,1,2,17,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
-4885,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4886,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4887,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4888,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+4885,●ターゲット,●攻撃のターゲットとして、狙いをつけられている状態。ほかのプレイヤーに近づくと、ターゲットの対象が移る。,215026,0,0,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False
+4886,●ターゲット対象外,●ターゲットの対象にならない。,215027,0,0,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+4887,_rsv_4887_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_4887_-1_1_1_0_S74CFC3B0_E74CFC3B0,215782,0,0,0,89,0,1,2,17,201,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+4888,_rsv_4888_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_4888_-1_1_1_0_S74CFC3B0_E74CFC3B0,215783,0,0,0,89,0,1,2,17,201,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
 4889,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4890,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4891,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4892,Variant Eagle Eye Shot Set,Possessed of the ability to use Variant Eagle Eye Shot for the duration of the duty.,216765,0,0,0,0,0,1,1,16,6,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False
 4893,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-4894,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+4894,Sleep,Overwhelming drowsiness is preventing the execution of actions.,215013,0,3,0,1,0,1,2,2,100,0,0,0,3,0,0,0,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4895,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4896,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 4897,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -5092,15 +5092,15 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5075,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5076,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5077,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5078,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5079,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5080,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5081,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5082,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5083,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5084,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5085,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5086,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5078,_rsv_5078_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5078_-1_1_1_0_S74CFC3B0_E74CFC3B0,214406,0,0,0,0,0,0,2,17,201,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5079,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214401,0,0,0,0,0,0,2,17,199,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+5080,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214402,0,0,0,0,0,0,2,17,199,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+5081,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214403,0,0,0,0,0,0,2,17,199,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+5082,Tele-portent,A teleportation glyph will appear under your feet when this effect expires.,214404,0,0,0,0,0,0,2,17,199,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False
+5083,_rsv_5083_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5083_-1_1_1_0_S74CFC3B0_E74CFC3B0,218951,0,0,0,0,5,0,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+5084,,,0,0,0,0,89,0,0,2,0,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False
+5085,,,0,0,0,0,89,0,0,2,0,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False
+5086,,,0,0,0,0,89,0,0,2,0,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False
 5087,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5088,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5089,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -5158,7 +5158,7 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5141,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5142,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5143,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5144,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5144,_rsv_5144_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5144_-1_1_1_0_S74CFC3B0_E74CFC3B0,214407,0,0,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,True,False,False,False,False,True,True,False,False,False,False,False,False,False,False
 5145,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5146,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5147,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -5364,8 +5364,8 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5347,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5348,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5349,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5350,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5351,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5350,_rsv_5350_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5350_-1_1_1_0_S74CFC3B0_E74CFC3B0,214408,0,0,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5351,_rsv_5351_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5351_-1_1_1_0_S74CFC3B0_E74CFC3B0,214409,0,0,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5352,Cloak of Waning Light,Shrouded in astral aether. Damage taken from umbral attacks is increased.,214392,0,1106,0,89,0,1,2,17,255,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5353,Cloak of Waxing Dark,Shrouded in umbral aether. Damage taken from astral attacks is increased.,214393,0,1107,0,89,0,1,2,17,255,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5354,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -5426,8 +5426,8 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5409,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5410,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5411,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5412,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5413,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5412,Supplementary Formula,"Secondary canisters filled at a formula tank, allowing execution of a special action.",217690,0,0,0,0,10,1,1,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False
+5413,Formula Case,"Secondary canisters filled by a supply drop of formula, allowing execution of a special action.",216256,0,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,False,False
 5414,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5415,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5416,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -5466,9 +5466,9 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5449,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5450,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5451,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5452,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5453,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5454,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5452,_rsv_5452_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5452_-1_1_1_0_S74CFC3B0_E74CFC3B0,217398,0,0,0,0,2,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+5453,_rsv_5453_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5453_-1_1_1_0_S74CFC3B0_E74CFC3B0,214413,0,0,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+5454,_rsv_5454_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5454_-1_1_1_0_S74CFC3B0_E74CFC3B0,215907,0,0,0,0,0,1,2,17,200,0,0,0,0,31,0,0,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
 5455,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5456,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5457,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
@@ -5478,7 +5478,7 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5461,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5462,,,0,0,0,0,0,0,1,0,0,0,0,0,0,23,0,0,0,False,False,False,False,False,False,False,False,True,True,True,False,False,False,False,False,False,False
 5463,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5464,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5464,_rsv_5464_-1_1_0_0_S74CFC3B0_E74CFC3B0,_rsv_5464_-1_1_1_0_S74CFC3B0_E74CFC3B0,215780,0,20,0,0,0,1,2,17,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5465,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5466,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5467,Vulnerability Down,Damage taken is reduced.,215021,-10,0,0,0,0,1,1,16,200,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
@@ -5555,14 +5555,14 @@ Will grant the effect of **Stronger Together** if Hansel and Gretel move close t
 5538,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5539,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5540,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5541,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5542,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5543,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5544,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5545,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5546,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5547,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
-5548,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5541,White Wound,Physically wounded and taking extra damage from **White Antilight**.,215782,0,0,0,89,0,1,2,17,201,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+5542,Black Wound,Spiritually wounded and taking extra damage from **Black Antilight**.,215783,0,0,0,89,0,1,2,17,201,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+5543,Cursed Shriek,"Body is being taken over, and will soon be used to unleash a petrifying attack throughout the battlefield.",215588,0,0,0,0,0,1,2,17,199,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5544,Forked Lightning,"Storing an electric charge which, when released, will deal lightning damage to those nearby.",215623,0,0,0,0,0,1,2,17,198,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5545,Compressed Water,Highly compressed aetherial energy covers the body. Water-aspected damage dealt when effect ends.,215696,0,0,0,0,0,1,2,17,198,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5546,Acceleration Bomb,An acceleration-trigger explosive is affixed to the body. Any movement when effect wears off will result in detonation.,215727,0,0,0,0,0,1,2,17,197,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
+5547,Entropy,Plagued by chaotic flames that will deal damage to nearby party members when the effect ends.,215902,0,0,0,0,0,1,2,17,196,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
+5548,Dynamic Fluid,Plagued by a chaotic body of water that will deal damage when the effect ends.,215903,0,0,0,0,0,1,2,17,196,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False
 5549,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5550,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
 5551,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False
