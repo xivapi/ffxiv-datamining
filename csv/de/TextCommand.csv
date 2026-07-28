@@ -307,6 +307,7 @@ Ruft das Menü „Momentanes Aussehen deiner Familiare“ auf.",/familiarprojekt
 34,"/familiargröße, /petsize
 VERWENDUNG: /familiargröße [Familiarname] [Größe]
 → Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.
+※Die Größe von Begleitern des Bestienbändigers kann mit /bestiengröße geändert werden.
 >>Familiarname:
   **Demi-Bahamut**
   **Demi-Phönix**
@@ -1121,7 +1122,7 @@ VERWENDUNG:
 /sgr [Klasse/Job]
 → Setzt deinen Online-Status für die spezifizierte Klasse (Job) auf „Sucht Gruppe“.
 >>Klassen/Jobs (mehrere möglich):
-**Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver­klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Zimmerer (ZIM), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)**
+**Paladin (PLD), Gladiator (GLA), Krieger (KRG), Marodeur (MAR), Dunkelritter (DKR), Revolver­klinge (REV), Weißmagier (WMA), Druide (DRU), Gelehrter (GLT), Astrologe (AST), Weiser (WEI), Mönch (MÖN), Faustkämpfer (FST), Dragoon (DRG), Pikenier (PIK), Ninja (NIN), Schurke (SCH), Samurai (SAM), Schnitter (SNT), Viper (VPR), Bestienbändiger (BST), Barde (BRD), Waldläufer (WDL), Maschinist (MCH), Tänzer (TÄN), Schwarzmagier (SMA), Thaumaturg (THM), Beschwörer (BSW), Hermetiker (HRT), Rotmagier (RMA), Piktomant (PKT), Blaumagier (BMA), Zimmerer (ZIM), Grobschmied (GRS), Plattner (PLA), Goldschmied (GLD), Gerber (GER), Weber (WEB), Alchemist (ALC), Gourmet (GRM), Minenarbeiter (MIN), Gärtner (GÄR), Fischer (FIS)**
 Bei fehlender Klasse wird die momentane gewählt.
 >>Unterbefehle:
   **ein** (**on**)  Setzt den Status auf „Sucht Gruppe“.
@@ -3677,8 +3678,18 @@ VERWENDUNG:
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/anschwofgrün,/schwofgrün,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0
 726,,,,,,0,0,0,0,0,0,0
-727,,,,,,0,0,0,0,0,0,0
-728,,,,,,0,0,0,0,0,0,0
+727,"/kartelesen, /navigate, /checkmap
+VERWENDUNG:
+/kartelesen [Unterbefehl]
+→ Du liest eine Karte.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/kartelesen,,/navigate,/checkmap,0,293,2,1,2,0,0
+728,"/magitipp, /magitype
+VERWENDUNG:
+/magitipp [Unterbefehl]
+→ Eine Magitipp-Tastatur erscheint und du hämmerst drauf los.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/magitipp,,/magitype,,0,293,2,1,2,0,0
 729,"/spitz, /cackle
 VERWENDUNG:
 /spitz [Unterbefehl]
@@ -3691,7 +3702,7 @@ VERWENDUNG:
 → Du gibst begeistert den Takt an.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/dirigieren,,/conduct,,0,293,2,1,2,0,0
-731,"/tacoessen, /eattaco
+731,"/tacoessen, /taco, /eattaco
 VERWENDUNG:
 /tacoessen [Unterbefehl]
 → Du isst genüsslich einen Taco.
@@ -3703,5 +3714,10 @@ VERWENDUNG:
 → Du mampfst unaufhörlich einen Taco.
 >>Unterbefehl:
   **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/tacomampfen,,/devourtaco,,0,293,2,1,2,0,0
-733,,,,,,0,0,0,0,0,0,0
+733,"/zurückblicken, /lookback
+VERWENDUNG:
+/zurückblicken [Unterbefehl]
+→ Du blickst zurück.
+>>Unterbefehl:
+  **bw** (**motion**)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt. ",/zurückblicken,,/lookback,,0,293,2,1,2,0,0
 734,,,,,,0,0,0,0,0,0,0

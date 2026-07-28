@@ -282,6 +282,7 @@ Affiche la liste des apparences actuelles.",/miragefamilier,/mirfam,/petmirage,,
 Utilisation : /taillefamilier ""[nom du familier]"" ""[taille]""
 Change la taille d'affichage du familier spécifié.
 Sans effet dans les zones JcJ ou sur l'affichage des autres joueurs.
+* Pour les bêtes du dresseur, veuillez utiliser la commande /taillebête.
 >> Noms des familiers :
 Demi-Bahamut
 Demi-Phénix
@@ -1041,7 +1042,7 @@ désactivé (off)    Passe en état ""En ligne"".
 Utilisation : /cherchéquipe [classes/jobs] [sous-commande]
 Change l'état en ligne du personnage en ""Cherche une équipe"" et spécifie les classes/jobs désirés.
 >> Classes/jobs :
-PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé­men­ta­lis­te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
+PLD (paladin), GLA (gladiateur), GUE (guerrier), MRD (maraudeur), CHN (chevalier noir), PSB (pistosabreur), MBL (mage blanc), ELM (élé­men­ta­lis­te), ERU (érudit), AST (astromancien), SAG (sage), MOI (moine), PGL (pugiliste), DRG (chevalier dragon), HAS (maître d'hast), NIN (ninja), SUR (surineur), SAM (samouraï), FCH (faucheur), VPR (rôdeur vipère), DRE (dresseur), BRD (barde), ARC (archer), MCH (machiniste), DNS (danseur), MNO (mage noir), OCC (occultiste), INV (invocateur), ACN (arcaniste), MRG (mage rouge), PIC (pictomancien), MBU (mage bleu), MEN (menuisier), FRG (forgeron), ARM (armurier), ORF (orfèvre), TAN (tanneur), COU (couturier), ALC (alchimiste), CUI (cuisinier), MIN (mineur), BTN (botaniste), PEC (pêcheur).
 Si aucun nom de classe ou de job n'est spécifié, la recherche les couvre tous.
 >> Sous-commandes :
 activé (on)         Passe en état ""Cherche une équipe"".
@@ -3514,8 +3515,18 @@ Encourage d'un rythme lent avec des bâtons lumineux verts.
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/encouragerlentvert,/bâtonslenver,/cheerlightgreen,/cheerlg,0,293,2,1,2,0,0
 726,,,,,,0,0,0,0,0,0,0
-727,,,,,,0,0,0,0,0,0,0
-728,,,,,,0,0,0,0,0,0,0
+727,"/consulterlacarte, /conscarte, /navigate
+Utilisation : /consulterlacarte [sous-commande]
+Sort une carte et une boussole pour se répérer.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/consulterlacarte,/conscarte,/navigate,/checkmap,0,293,2,1,2,0,0
+728,"/taperauclavier, /tapclav, /magitype
+Utilisation : /taperauclavier [sous-commande]
+Invoque un clavier magique et se met à pianoter sur les touches.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/taperauclavier,/tapclav,/magitype,,0,293,2,1,2,0,0
 729,"/ricaner, /cackle
 Utilisation : /ricaner [sous-commande]
 Ricane avec un air narquois.
@@ -3540,5 +3551,10 @@ Déguste un taco en continu.
 >> Sous-commande :
 animation (motion)   Exécute uniquement l'animation.
 * Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/dégusteruntaco,/dégtaco,/devourtaco,,0,293,2,1,2,0,0
-733,,,,,,0,0,0,0,0,0,0
+733,"/regarderenarrière, /regarr, /lookback
+Utilisation : /regarderenarrière [sous-commande]
+Se retourne avant de regarder par-dessus son épaule.
+>> Sous-commande :
+animation (motion)   Exécute uniquement l'animation.
+* Si aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",/regarderenarrière,/regarr,/lookback,,0,293,2,1,2,0,0
 734,,,,,,0,0,0,0,0,0,0
