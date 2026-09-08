@@ -50588,7 +50588,9 @@ This action's effects extend through obstructions.
 **Cure Potency: **10,000
 **Additional Effect: **Restores HP of party members near target
 **Cure Potency: **10,000
-Can only be executed while under the effect of **Prefulgence**."
+Can only be executed while under the effect of **Prefulgence Ready**.
+
+※This action cannot be assigned to a hotbar."
 41496,"Creates a barrier around self that reduces damage taken by 50% and absorbs damage equivalent to a heal of 4,000 potency.
 **Duration: **5s
 Grants **Thorned Flourish** when barrier is completely absorbed.
@@ -54262,33 +54264,178 @@ Can only be used in Frontlines and Rival Wings."
 44876,
 44877,
 44878,
-44879,
-44880,
-44881,
-44882,
-44883,
-44884,
-44885,
-44886,
-44887,
-44888,
-44889,
-44890,
-44891,
-44892,
-44893,
-44894,
-44895,
-44896,
-44897,
-44898,
-44899,
-44900,
-44901,
-44902,
-44903,
-44904,
-44905,
+44879,Delivers an attack with a potency of 160.
+44880,"Delivers an attack with a potency of 100.
+Target cannot be incapacitated by this attack.
+**Additional Effect:** Marks target with **Interest Captured**
+**Duration:** 120s
+**Interest Captured Effect: **Forges a pact with the targeted beast should you succeed in their subdual
+Success is determined upon defeating targets under the effect of **Interest Captured**.
+An entry in the **Master's Bestiary** will be added upon successful subdual, allowing the beast to be summoned as a familiar.
+Success rate is inversely proportional to the target's HP at the time of execution. Furthermore, success rate increases if the target is a lower level than you.
+Ineffective against targets whose level is higher than your own."
+44881,"Summons your **** to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.
+**Additional Effect:** Grants **One with Nature**
+**Additional Effect:** Resets **Tempered Release** recast timer
+**Additional Effect:** Resets **Borrow** recast timer"
+44882,"Investigates a targeted beast's probability of **Capture**.
+Can be executed while mounted, but only when grounded."
+44883,"Delivers an attack with a potency of 260.
+**Combo Action:** **Smash Axe**
+**Combo Potency:** 500
+**Combo Bonus:** Increases **TP Gauge** by 13"
+44884,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+**Minimum TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+**Additional Effect:** Grants **Rampant Heart**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Rampant** skill while under the effect of **Volant Heart** will complete a **Sunstrider** intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44885,"Delivers an attack with a potency of 280.
+**Combo Action:** **Axeblade Bite**
+**Combo Potency:** 600
+**Combo Bonus:** Increases **TP Gauge** by 15"
+44886,"Upon using **Borrow**, changes to an action dependent on **Kinship**.
+**Beast Kinship Effect:** Action reduces physical vulnerability
+**Vile Kinship Effect:** Action increases block rate
+**Cloud Kinship Effect:** Action bolsters movement
+**Seed Kinship Effect:** Action inflicts poison and weakening effects
+**Wave Kinship Effect:** Action deals ranged magic damage to a single target
+**Scale Kinship Effect:** Action absorbs magic damage
+**Soul Kinship Effect:** Action delivers an attack that interrupts a single target
+**Ash Kinship Effect:** Action removes a detrimental effect"
+44887,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+**Minimum TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+**Additional Effect:** Grants **Durant Heart**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Durant** skill while under the effect of **Rampant Heart** will complete a **Moonstalker** intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44888,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+**Minimum TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+**Additional Effect:** Grants **Eldritch Heart**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing an **Eldritch** skill while under the effect of **Durant Heart** will complete a **Sunstrider** intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44889,"Delivers an attack with a potency of 400.
+Potency increases up to 1,000 as TP nears maximum. All TP will be expended upon execution.
+**Minimum TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+**Additional Effect:** Grants **Volant Heart**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Volant** skill while under the effect of **Eldritch Heart** will complete a **Moonstalker** intentional combo, dealing greater additional damage.
+Instinctual skills do not share a recast timer with any other actions."
+44890,"Orders your familiar to execute a controlled ability.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44891,"Orders your familiar to execute **Aetheric Burst**.
+**Aetheric Burst Effect:** Deals unaspected damage to target and all enemies nearby it with a potency of 1,000
+**Lingering Vantage Potency:** 1,500
+Familiar retreats from combat upon execution.
+**Additional Effect:** Increases **Familiar TP Gauge** by 24
+Can only be executed while in combat."
+44892,"Summons your **** to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.
+**Additional Effect:** Grants **One with Nature**
+**Additional Effect:** Resets **Tempered Release** recast timer
+**Additional Effect:** Resets **Borrow** recast timer"
+44893,"Rushes forward and delivers an attack to target and all enemies nearby it with a potency of 300
+**Maximum Charges:** 3
+Cannot be executed while bound."
+44894,"Summons your **** to fight at your side.
+During combat, recast timer cooldown will begin once your familiar has retreated. Retreat outside of combat will not affect recast timer.
+**Additional Effect:** Grants **One with Nature**
+**Additional Effect:** Resets **Tempered Release** recast timer
+**Additional Effect:** Resets **Borrow** recast timer"
+44895,"Borrows aether from your summoned familiar to gain **Kinship** according to its classification.
+**Beastkin Familiar Effect:** Grants **Beast Kinship**
+**Vilekin Familiar Effect:** Grants **Vile Kinship**
+**Cloudkin Familiar Effect:** Grants **Cloud Kinship**
+**Seedkin Familiar Effect:** Grants **Seed Kinship**
+**Wavekin Familiar Effect:** Grants **Wave Kinship**
+**Scalekin Familiar Effect:** Grants **Scale Kinship**
+**Soulkin Familiar Effect:** Grants **Soul Kinship**
+**Ashkin Familiar Effect:** Grants **Ash Kinship**
+Changes **Beast Mode** into an action according to your familiar's classification.
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+44896,"Reduces physical damage taken by 25% and increases critical hit rate by 5%.
+**Duration:** 30s
+Can only be executed while under the effect of **Beast Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Beastskin** when requirements for execution are met."
+44897,"Nullifies most knockback and draw-in effects and increases block rate to 100%.
+Increases **TP Gauge** by 12 for each block.
+**Duration:** 15s
+Can only be executed while under the effect of **Vile Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Vileskin** when requirements for execution are met."
+44898,"Move quickly in the selected direction.
+Increases evasion by 5%.
+**Duration:** 60s
+Can only be executed while under the effect of **Cloud Kinship**.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Cloud Skim** when requirements for execution are met."
+44899,"Afflicts nearby enemies with **Seeds Sown**.
+**Seeds Sown Effect:** Reduces damage dealt by 10% and inflicts toxins that cause damage over time
+**Potency:** 25
+**Duration:** 60s
+Can only be executed while under the effect of **Seed Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Seedsower** when requirements for execution are met."
+44900,"Deals water damage with a potency of 350.
+**Additional Effect:** Increases **TP Gauge** by 10
+**Additional Effect:** Removes one beneficial status from target, thereby increasing **TP Gauge** by 50
+Can only be executed while under the effect of **Wave Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Quelling Wave** when requirements for execution are met."
+44901,"Creates a barrier around self that absorbs magic damage totaling 8% of maximum HP.
+**Duration:** 15s
+Increases **TP Gauge** by 85 when barrier is completely absorbed.
+Can only be executed while under the effect of **Scale Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Scaleskin** when requirements for execution are met."
+44902,"Delivers a close-quarter attack with a potency of 300.
+**Additional Effect:** Interrupts the use of a target's action
+Potency increases to 1,000 and **TP Gauge** increases by 100 upon interruption.
+Can only be executed while under the effect of **Soul Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Soul Crush** when requirements for execution are met."
+44903,"Removes a single detrimental effect from self or targeted party member.
+Recovers 10% of maximum HP and increases **TP Gauge** by 100 upon removal.
+Can only be executed while under the effect of **Ash Kinship**.
+
+※This action cannot be assigned to a hotbar.
+※**Beast Mode** changes to **Scouring Ash** when requirements for execution are met."
+44904,"Spends all stacks of **Natural Instinct** to increase **Familiar TP Gauge**.
+**Standard Familiar TP Gauge Increase:** 30
+Each stack of **Natural Instinct** increases **Familiar TP Gauge** by 70.
+Can only be executed while in combat."
+44905,"Spends all stacks of **Mastered Instinct** to increase **TP Gauge**.
+**Standard TP Gauge Increase:** 40
+Each stack of **Mastered Instinct** increases **TP Gauge** by 70.
+Can only be executed while in combat."
 44906,
 44907,
 44908,
@@ -54317,111 +54464,628 @@ Can only be used in Frontlines and Rival Wings."
 44927,
 44928,
 44929,
-44930,
-44931,
-44932,
-44933,
+44930,"Rushes forward and delivers an attack with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+**TP Gauge Cost:** 250
+**Instinctual Affinity:** **Sunstrider**
+**Additional Effect:** Grants **Sunstrider**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Sunstrider** skill while under the effect of **Moonstalker** will complete the infinitive combo **Universality**, dealing greater additional damage.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※**Avalanche Axe** changes to **Brutal Rage** when requirements for execution are met."
+44931,"Rushes forward and delivers an attack with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+**TP Gauge Cost:** 250
+**Instinctual Affinity:** **Moonstalker**
+**Additional Effect:** Grants **Moonstalker**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Moonstalker** skill while under the effect of **Sunstrider** will complete the infinitive combo **Universality**, dealing greater additional damage.
+Cannot be executed while bound.
+
+※This action cannot be assigned to a hotbar.
+※**Mistral Axe** changes to **Hawkish Talons** when requirements for execution are met."
+44932,"Deals unaspected damage with a potency of 1,200 to target and all enemies nearby it.
+All TP will be expended upon execution.
+**TP Gauge Cost:** 250
+**Instinctual Affinity:** **Sunstrider**
+**Additional Effect:** Grants **Sunstrider**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Sunstrider** skill while under the effect of **Moonstalker** will complete the infinitive combo **Universality**, dealing greater additional damage.
+
+※This action cannot be assigned to a hotbar.
+※**Spinning Axe** changes to **Risen Fall** when requirements for execution are met."
+44933,"Deals unaspected damage with a potency of 1,200 to all enemies in a straight line.
+All TP will be expended upon execution.
+**TP Gauge Cost:** 250
+**Instinctual Affinity:** **Moonstalker**
+**Additional Effect:** Grants **Moonstalker**
+**Duration:** 7s
+Instinctual skills may be executed sequentially to deal additional damage, which is determined by the skill that completes the combo.
+Executing a **Moonstalker** skill while under the effect of **Sunstrider** will complete the infinitive combo **Universality**, dealing greater additional damage.
+
+※This action cannot be assigned to a hotbar.
+※**Gale Axe** changes to **Calamity** when requirements for execution are met."
 44934,
-44935,
-44936,
-44937,
-44938,
-44939,
-44940,
-44941,
-44942,
-44943,
-44944,
-44945,
-44946,
-44947,
-44948,
-44949,
-44950,
-44951,
-44952,
-44953,
-44954,
-44955,
-44956,
-44957,
-44958,
-44959,
-44960,
-44961,
-44962,
-44963,
-44964,
-44965,
-44966,
-44967,
-44968,
-44969,
-44970,
-44971,
-44972,
-44973,
-44974,
-44975,
-44976,
-44977,
-44978,
-44979,
-44980,
-44981,
-44982,
-44983,
-44984,
-44985,
-44986,
-44987,
-44988,
-44989,
-44990,
-44991,
-44992,
-44993,
-44994,
-44995,
-44996,
-44997,
-44998,
-44999,
-45000,
-45001,
-45002,
-45003,
-45004,
-45005,
-45006,
-45007,
-45008,
-45009,
-45010,
-45011,
-45012,
-45013,
-45014,
-45015,
-45016,
-45017,
-45018,
-45019,
-45020,
-45021,
-45022,
-45023,
-45024,
-45025,
-45026,
-45027,
-45028,
-45029,
-45030,
-45031,
-45032,
-45033,
-45034,
+44935,"Orders your familiar to use **Rake**, delivering a slashing physical attack with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44936,"Orders your familiar to use **Relentless Rake**, delivering a sixfold slashing physical attack with a potency of 150.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44937,"Orders your familiar to use **Somersault Slash**, dealing fire damage with a potency of 500 to all enemies in a straight line before and behind it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44938,"Orders your familiar to use **Scamper**, reducing weaponskill cast time and recast time, spell cast time and recast time, and auto-attack delay by 15% for nearby party members.
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44939,"Orders your familiar to use **Fleece Butt**, delivering a blunt physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44940,"Orders your familiar to use **Lullaby**, afflicting all nearby enemies with **Sleep**.
+**Duration:** 30s
+**Additional Effect:** Increases sleep resistance of all nearby party members, and reduces the duration of sleep-related status afflictions by 80%
+**Duration:** 90s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44941,"Orders your familiar to use **Screwdriver**, dealing water damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44942,"Orders your familiar to use **Water Wall**, reducing nearby party members' magic vulnerability by 20%.
+**Duration:** 48s
+**Additional Effect:** Increases paralysis resistance of all nearby party members, and reduces the duration of paralysis-related status afflictions by 80%
+**Duration:** 90s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44943,"Orders your familiar to use **Stone Throw**, delivering a blunt physical attack with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44944,"Orders your familiar to use **Pins and Nails**, dealing unaspected damage with a potency of 750.
+**Additional Effect:** Afflicts target with **Paralysis**
+**Duration:** 45s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44945,"Orders your familiar to use **Fowl Stench**, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+**Additional Effect:** Afflicts targets with **Blind**
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44946,"Orders your familiar to use **Strut**, reducing earth damage taken by 15% for nearby party members, and occasionally nullifying it entirely.
+**Duration:** 60s
+**Additional Effect:** Increases blind resistance of all nearby party members, and reduces the duration of blind-related status afflictions by 80%
+**Duration:** 90s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44947,"Orders your familiar to use **Bestial Thunder**, dealing ranged lightning damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44948,"Orders your familiar to use **Vulcanize**, reducing nearby party members' physical vulnerability by 20%.
+**Duration:** 48s
+**Additional Effect:** Increases poison resistance of all nearby party members, and reduces the duration of poison-related status afflictions by 80%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44949,"Orders your familiar to use **Deadly Thrust**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+**Additional Effect:** Afflicts target with **Poison**
+**Potency:** 75
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44950,"Orders your familiar to use **Silkscreen**, dealing unaspected damage with a potency of 450 to all enemies in a straight line before it.
+**Additional Effect:** 15-yalm knockback and **Bind+** that cannot be nullified by suffering damage
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44951,"Orders your familiar to use **Drenching Blow**, dealing water damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44952,"Orders your familiar to use **Bubble Shower**, dealing water damage with a potency of 450 to all enemies in a cone before it.
+**Additional Effect:** Reduces targets' water resistance by 20%
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44953,"Orders your familiar to use **Sharp Sting**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+**Additional Effect:** Afflicts target with **Poison**
+**Potency:** 75
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44954,"Orders your familiar to use **Final Sting**, delivering a piercing physical attack with a potency of 2,000.
+Potency increases up to 3,000 as the target's HP decreases.
+Familiar retreats from combat upon execution.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44955,"Orders your familiar to use **Wing Cutter**, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44956,"Orders your familiar to use **Bloodcurdling Caw**, dealing wind damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Removes one beneficial status from targets and increases **Familiar TP Gauge** by 100 per status removed
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44957,"Orders your familiar to use **Budbutt**, delivering a blunt physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44958,"Orders your familiar to use **Heirloom Scream**, dealing unaspected damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Afflicts targets with **Heavy**
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44959,"Orders your familiar to use **Dark Thunder**, dealing lightning damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44960,"Orders your familiar to use **Odium**, granting **Life Siphon** to nearby party members.
+**Life Siphon Effect:** Converts a portion of damage dealt into HP
+**Duration:** 21s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44961,"Orders your familiar to use **Fireball**, dealing fire damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44962,"Orders your familiar to use **Tail Chase**, delivering a slashing physical attack with a potency of 750 to all nearby enemies.
+**Additional Effect:** 15-yalm knockback
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44963,"Orders your familiar to use **Bubble Shower**, dealing water damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44964,"Orders your familiar to use **Hundred Fists**, reducing its auto-attack delay by 75%.
+**Duration:** 6s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44965,"Orders your familiar to use **Standing Chine**, delivering a slashing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44966,"Orders your familiar to use **Eerie Soundwave**, dealing unaspected damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Increases targets' physical vulnerability by 10%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44967,"Orders your familiar to use **Digest**, dealing unaspected damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+**Additional Effect:** Damage dealt is partially absorbed as beastmaster HP
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44968,"Orders your familiar to use **Syrup**, dealing unaspected damage with a potency of 550 to target and all enemies nearby it.
+**Additional Effect:** Afflicts targets with **Bind+** that cannot be nullified by suffering damage
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44969,"Orders your familiar to use **Iron Justice**, delivering a slashing physical attack with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44970,"Orders your familiar to use **King's Will**, increasing nearby party members' physical damage dealt by 10%.
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44971,"Orders your familiar to use **Blood Drain**, dealing unaspected damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+**Additional Effect:** Damage dealt is partially absorbed as beastmaster HP
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44972,"Orders your familiar to use **Ultrasonics**, dealing unaspected damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Reduces targets' accuracy by 10%
+**Duration:** 21s
+**Additional Effect:** Removes a single detrimental effect from all nearby party members
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44973,"Orders your familiar to use **Sour Sough**, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+**Additional Effect:** 15-yalm knockback and **Poison**
+**Potency:** 75
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44974,"Orders your familiar to use **Necrotic Nectar**, dealing unaspected damage with a potency of 550 to target and all enemies nearby it.
+**Additional Effect:** Increases targets' magic vulnerability by 10%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44975,"Orders your familiar to use **Ice Breath**, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44976,"Orders your familiar to use **Petribreath**, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+**Additional Effect:** Afflicts targets with **Petrification**
+**Duration:** 21s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44977,"Orders your familiar to use **Natural Needles**, delivering a piercing physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44978,"Orders your familiar to use **Hypodermic Hustle**, granting **Keen Edge** to nearby party members, excluding familiars.
+**Keen Edge Effect:** Increases damage dealt by 20% but inflicts damage over time
+**Duration:** 21s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44979,"Orders your familiar to use **Boulder Clap**, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44980,"Orders your familiar to use **Rockslide**, dealing earth damage with a potency of 450 to all enemies in a straight line before it.
+**Additional Effect:** Reduces targets' earth resistance by 20%
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44981,"Orders your familiar to use **Flying Sardine**, dealing water damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44982,"Orders your familiar to use **Regurgitate**, dealing water damage with a potency of 750.
+**Additional Effect:** Afflicts target with **Slow**
+**Duration:** 45s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44983,"Orders your familiar to use **Bestial Thunder II**, dealing lightning damage with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44984,"Orders your familiar to use **Harden Shell**, reducing nearby party members' physical vulnerability by 20%.
+**Duration:** 48s
+**Additional Effect:** Increases petrification resistance of all nearby party members, and reduces the duration of petrification-related status afflictions by 80%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44985,"Orders your familiar to use **Heave**, delivering a blunt physical attack with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44986,"Orders your familiar to use **War Cry**, dealing unaspected damage with a potency of 750 to all nearby enemies.
+**Additional Effect:** Afflicts targets with **Stun**
+**Duration:** 15s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44987,"Orders your familiar to use **Frost Breath**, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44988,"Orders your familiar to use **Gas Shell**, dealing unaspected damage with a potency of 300 to all enemies in a cone before it.
+**Additional Effect:** Afflicts targets with **Poison**
+**Potency:** 150
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44989,"Orders your familiar to use **Sand Breath**, dealing earth damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+**Additional Effect:** Afflicts targets with **Blind**
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44990,"Orders your familiar to use **Bottomless Desert**, dealing earth damage with a potency of 800 to all nearby enemies.
+**Additional Effect:** Afflicts targets with **Heavy**
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44991,"Orders your familiar to use **Romp**, dealing fire damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44992,"Orders your familiar to use **Frenetic Flurry**, delivering a sevenfold blunt physical attack with a potency of 125.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44993,"Orders your familiar to use **Beatdown**, delivering a blunt physical attack with a potency of 500 to all enemies in a straight line before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44994,"Orders your familiar to use **Moldy Sneeze**, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+**Additional Effect:** Afflicts targets with **Disease**
+**Disease Effect:** Reduces movement speed by 80% and HP recovered via healing magic by 95%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44995,"Orders your familiar to use **Bestial Blizzard II**, dealing ice damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44996,"Orders your familiar to use **Sticky Tongue**, delivering a ranged blunt physical attack with a potency of 750.
+**Additional Effect:** Draws target to familiar
+**Additional Effect:** Reduces target's accuracy by 10%
+**Duration:** 21s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44997,"Orders your familiar to use **Loop**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+44998,"Orders your familiar to use **Pecking Flurry**, delivering a fivefold piercing physical attack with a potency of 200.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+44999,"Orders your familiar to use **Blaster**, dealing lightning damage with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45000,"Orders your familiar to use **Charged Whisker**, dealing lightning damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Afflicts targets with **Paralysis**
+**Duration:** 30s
+**Additional Effect:** Reduces targets' lightning resistance by 20%
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45001,"Orders your familiar to use **Frost Breath**, dealing ice damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45002,"Orders your familiar to use **Foul Breath**, dealing fire damage with a potency of 1,000 to all enemies in a cone before it.
+**Additional Effect:** Reduces targets' fire resistance by 20%
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45003,"Orders your familiar to use **Burning Cyclone**, dealing fire damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45004,"Orders your familiar to use **Smoldering Scales**, reducing nearby party members' magic vulnerability by 20% and fire damage taken by 15%, occasionally nullifying it entirely.
+**Duration:** 48s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45005,"Orders your familiar to use **Acorn Bomb**, dealing earth damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+**Additional Effect:** Afflicts targets with **Nightmare**
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45006,"Orders your familiar to use **Arboreal Storm**, dealing wind damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** 15-yalm knockback
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45007,"Orders your familiar to use **Mandible Bite**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45008,"Orders your familiar to use **Formic Pheromones**, afflicting all nearby enemies with **Slow**.
+**Duration:** 30s
+**Additional Effect:** Reduces water, earth, and ice damage taken by 15% for nearby party members, and occasionally nullifies it entirely
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45009,"Orders your familiar to use **The Lion's Breath**, dealing fire damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+**Additional Effect:** Deals additional damage with a potency of 1,000 to targets suffering from **Deep Freeze**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45010,"Orders your familiar to use **The Ram's Voice**, dealing ice damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Afflicts targets with **Deep Freeze**
+**Duration:** 20s
+**Additional Effect:** Reduces targets' ice resistance by 20%
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45011,"Orders your familiar to use **Vine Probe**, delivering a piercing physical attack with a potency of 450 to all enemies in a straight line before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Rampant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45012,"Orders your familiar to use **Bad Breath**, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+**Additional Effect:** Afflicts targets with **Slow**, **Blind**, and **Paralysis**
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45013,"Orders your familiar to use **Fell Gale**, dealing wind damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+**Additional Effect:** Small chance to afflict targets with **Doom**
+**Doom Effect:** Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+**Duration:** 5s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45014,"Orders your familiar to use **Curse**, dealing unaspected damage with a potency of 300 to all nearby enemies.
+**Additional Effect:** Deals additional damage with a potency of 1,500 to targets suffering from **Disease**
+**Additional Effect:** Small chance to afflict targets with **Doom**
+**Doom Effect:** Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+**Duration:** 5s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45015,"Orders your familiar to use **Brackish Rain**, dealing water damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45016,"Orders your familiar to use **Peculiar Light**, dealing unaspected damage with a potency of 450 to all nearby enemies.
+**Additional Effect:** Increases targets' magic vulnerability by 10%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45017,"Orders your familiar to use **Dripping Fang**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+**Additional Effect:** Afflicts target with **Poison**
+**Potency:** 75
+**Duration:** 30s
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45018,"Orders your familiar to use **Stone Gaze**, dealing unaspected damage with a potency of 750.
+**Additional Effect:** Afflicts target with **Petrification**
+**Duration:** 42s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45019,"Orders your familiar to use **Main Trap**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45020,"Orders your familiar to use **White Breath**, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+**Additional Effect:** Afflicts targets with **Disease**
+**Disease Effect:** Reduces movement speed by 80% and HP recovered via healing magic by 95%
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45021,"Orders your familiar to use **Cursed Sphere**, dealing wind damage with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45022,"Orders your familiar to use **Venom**, dealing unaspected damage with a potency of 300 to all enemies in a cone before it.
+**Additional Effect:** Afflicts targets with **Poison**
+**Potency:** 150
+**Duration:** 30s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45023,"Orders your familiar to use **Dirty Sneeze**, dealing ranged earth damage with a potency of 450.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45024,"Orders your familiar to use **Inhale**, dealing unaspected damage with a potency of 450 to all enemies in a cone before it.
+**Additional Effect:** Draws targets to familiar
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45025,"Orders your familiar to use **Flying Frenzy**, rushing target and delivering a blunt physical attack with a potency of 450 to target and all enemies nearby it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Volant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45026,"Orders your familiar to use **Breath Wing**, dealing wind damage with a potency of 800 to all nearby enemies.
+**Additional Effect:** Reduces targets' wind resistance by 20%
+**Duration:** 60s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45027,"Orders your familiar to use **Ice Guillotine**, dealing ice damage with a potency of 450 to all enemies in a cone before it.
+Potency increases up to 1,500 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45028,"Orders your familiar to use **Frozen Heart**, increasing nearby party members' magic damage dealt by 25%.
+**Duration:** 15s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45029,"Orders your familiar to use **Impale**, delivering a piercing physical attack with a potency of 500.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Durant**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45030,"Orders your familiar to use **Tail Screw**, dealing water damage with a potency of 800 to target and all enemies nearby it.
+**Additional Effect:** Small chance to reduce enemy HP to a single digit. Has no effect on enemies whose level is higher than your own.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45031,"Orders your familiar to use **Bloody Caress**, dealing wind damage with a potency of 500 to target and all enemies nearby it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45032,"Orders your familiar to use **Blighted Bouquet**, dealing unaspected damage with a potency of 800 to all nearby enemies.
+**Additional Effect:** Small chance to afflict targets with **Doom**
+**Doom Effect:** Incapacitates target when the effect expires. Has no effect on enemies whose level is higher than your own.
+**Duration:** 5s
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+45033,"Orders your familiar to use **Thunderbolt**, dealing lightning damage with a potency of 500 to all enemies in a cone before it.
+Potency increases up to 1,250 as Familiar TP nears maximum.
+**Minimum Familiar TP Gauge Cost:** 100
+**Instinctual Affinity:** **Eldritch**
+May be used alongside beastmaster instinctual skills to initiate or complete combos."
+45034,"Orders your familiar to use **Meteor**, dealing fire damage with a potency of 1,000 to target and all enemies nearby it.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
 45035,
 45036,
 45037,
@@ -56238,8 +56902,12 @@ Effect cannot be stacked with Phantom Cannoneer's **Silver Sickness**."
 46747,
 46748,
 46749,
-46750,
-46751,
+46750,"Gesture threateningly, placing yourself at the top of a target's enmity list and increasing enmity generation.
+**Duration:** 30s
+**Additional Effect:** Nullifies familiar's **Cover**"
+46751,"Orders your familiar to use **Threaten**, placing it at the top of a target's enmity list and increasing its enmity generation.
+**Additional Effect:** Takes all damage intended for the beastmaster
+**Duration:** 45s "
 46752,
 46753,
 46754,
@@ -56598,8 +57266,15 @@ Potency scales with item level."
 47089,
 47090,
 47091,
-47092,
-47093,
+47092,"Orders your familiar to execute a controlled technique.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while in combat and under the effect of **One with Nature**."
+47093,"Orders your familiar to execute an instinctual skill.
+**Minimum TP Gauge Cost:** 100
+**Additional Effect:** Grants **Volant Heart**, **Rampant Heart**, **Durant Heart**, or **Eldritch Heart**
+**Duration:** 7s
+Effects granted by this action may be paired with beastmaster instinctual skills to create combos."
 47094,
 47095,
 47096,
@@ -56744,14 +57419,62 @@ Potency scales with item level."
 47235,
 47236,
 47237,
-47238,
-47239,
-47240,
-47241,
-47242,
-47243,
-47244,
-47245,
+47238,"Borrows aether from your familiar to grant **Beast Kinship**.
+**Beast Kinship Effect:** Enables execution of **Beastskin**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47239,"Borrows aether from your familiar to grant **Vile Kinship**.
+**Vile Kinship Effect:** Enables execution of **Vileskin**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47240,"Borrows aether from your familiar to grant **Cloud Kinship**.
+**Cloud Kinship Effect:** Enables execution of **Cloud Skim**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47241,"Borrows aether from your familiar to grant **Seed Kinship**.
+**Seed Kinship Effect:** Enables execution of **Seedsower**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47242,"Borrows aether from your familiar to grant **Wave Kinship**.
+**Wave Kinship Effect:** Enables execution of **Quelling Wave**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47243,"Borrows aether from your familiar to grant **Scale Kinship**.
+**Scale Kinship Effect:** Enables execution of **Scaleskin**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47244,"Borrows aether from your familiar to grant **Soul Kinship**.
+**Soul Kinship Effect:** Enables execution of **Soul Crush**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
+47245,"Borrows aether from your familiar to grant **Ash Kinship**.
+**Ash Kinship Effect:** Enables execution of **Scouring Ash**
+**Duration:** 90s
+Expiration timer is halted while your familiar is summoned.
+**Additional Effect:** Grants **Lingering Vantage**
+**Duration:** 60s
+Can only be executed while under the effect of **One with Nature**."
 47246,"Crush your competitors with a king-sized hop.
 ※Has no effect in battle."
 47247,
@@ -60354,7 +61077,8 @@ Effect is dispelled when HP is restored to full."
 50728,
 50729,
 50730,
-50731,
+50731,"Rake the ground with your pitchfork.
+※Has no effect in battle."
 50732,"Drive your shovel into the ground.
 ※Has no effect in battle."
 50733,

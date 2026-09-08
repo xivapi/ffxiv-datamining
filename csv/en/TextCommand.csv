@@ -554,9 +554,35 @@ USAGE:
 　/strategyboard
 
 →Opens and closes the Strategy Board menu.",,,/strategyboard,,0,32,1,0,0,0,0
-52,,,,,,0,0,0,0,0,0,0
+52,"ALIASES:
+　/beastsize, /beastpetsize
+USAGE:
+　/beastsize [summon] [size]
+
+→Alter the size of select beastmaster familiars (summons). These settings will not apply to other players.
+
+>>Size:
+　**large**
+　　Set summon size to large.
+　**medium**
+　　Set summon size to medium.
+　**small**
+　　Set summon size to small.
+
+Toggles between small, medium, and large when no size is specified. Returns an error when attempting to toggle using “all.”
+
+>>Example:
+　/beastsize ""Cu Sith"" ""medium""
+　(Set your Cu Sith's size to medium.)
+　/beastsize ""all"" ""small""
+　(Set all familiars' size to small.)",,,/beastsize,/beastpetsize,0,36,3,2,7,2,0
 53,,,,,,0,0,0,0,0,0,0
-54,,,,,,0,0,0,0,0,0,0
+54,"ALIASES:
+　/bestiary, /bstbook
+USAGE:
+　/bestiary
+
+→Opens and closes the Master's Bestiary",,,/bestiary,/bstbook,0,32,1,0,0,0,0
 55,,,,,,0,0,0,0,0,0,0
 56,,,,,,0,0,0,0,0,0,0
 57,,,,,,0,0,0,0,0,0,0

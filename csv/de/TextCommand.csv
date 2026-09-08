@@ -428,9 +428,24 @@ Bei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geä
 → Öffnet die Kommandotafel.",/kommandotafel,/commandpanel,/quickpanel,,0,32,1,0,0,0,0
 51,"/strategyboard, /strategiebrett
 → Öffnet deine Strategiebretter.",/strategiebrett,,/strategyboard,,0,32,1,0,0,0,0
-52,,,,,,0,0,0,0,0,0,0
+52,"/bestiengröße, /beastsize, /beastpetsize
+VERWENDUNG:
+/bestiengröße „[Bestienname]“ [Größe]
+→ Ändert deine Anzeigeeinstellung für die Begleiter von Bestienbändigern. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.
+>>Größe:
+  **groß** (**large**)
+  **mittel** (**medium**)
+  **klein** (**small**)
+Bei fehlender Größe wird in der Reihenfolge „klein, mittel, groß“ durchgeschaltet. Bei Bestienname „alle“ wird ein Fehler ausgegeben wenn keine Größenangabe beigefügt wurde.
+
+>>Beispiel:
+/bestiengröße ""Cu Sith"" mittel
+Zeigt die Bestie Cu Sith in mittlerer Größe an.
+/bestiengröße alle klein
+Zeigt alle Bestien in kleiner Größe an.",/bestiengröße,,/beastsize,/beastpetsize,0,36,3,2,7,2,0
 53,,,,,,0,0,0,0,0,0,0
-54,,,,,,0,0,0,0,0,0,0
+54,"/bestienbuch, /bestiary, /bstbook
+→ Öffnet das Bestienbuch.",/bestienbuch,,/bestiary,/bstbook,0,32,1,0,0,0,0
 55,,,,,,0,0,0,0,0,0,0
 56,,,,,,0,0,0,0,0,0,0
 57,,,,,,0,0,0,0,0,0,0
